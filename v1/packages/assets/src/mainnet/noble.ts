@@ -9448,6 +9448,49 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Router Chain',
+      denom_units: [{
+          denom: 'ibc/E4904724D95BB5FCA3423F0CBDE13CE8B26945F422BD0F044227DE93542005E5',
+          exponent: 0,
+          aliases: ['route']
+        }, {
+          denom: 'ROUTE',
+          exponent: 18
+        }],
+      base: 'ibc/E4904724D95BB5FCA3423F0CBDE13CE8B26945F422BD0F044227DE93542005E5',
+      name: 'Router Chain',
+      display: 'ROUTE',
+      symbol: 'ROUTE',
+      coingecko_id: 'router-protocol-2',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png',
+          theme: {
+            primary_color_hex: '#cb0766'
+          }
+        }],
+      socials: {
+        website: 'https://www.routerprotocol.com/',
+        twitter: 'https://x.com/routerprotocol'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-13',
+            base_denom: 'route',
+            chain_name: 'routerchain'
+          },
+          chain: {
+            channel_id: 'channel-119'
+          }
+        }]
+    },
+    {
       description: 'Secret Network is a privacy-focused blockchain that enables private and secure smart contracts, protecting sensitive data.',
       denom_units: [{
           denom: 'ibc/1B28CD5F3CDC17E585A7F2F05931FA694B3EFF0233D98CEF3505A35410D53CED',
@@ -14627,6 +14670,49 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-83'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Router Chain',
+      denom_units: [{
+          denom: 'ibc/E4904724D95BB5FCA3423F0CBDE13CE8B26945F422BD0F044227DE93542005E5',
+          exponent: 0,
+          aliases: ['route']
+        }, {
+          denom: 'ROUTE',
+          exponent: 18
+        }],
+      base: 'ibc/E4904724D95BB5FCA3423F0CBDE13CE8B26945F422BD0F044227DE93542005E5',
+      name: 'Router Chain',
+      display: 'ROUTE',
+      symbol: 'ROUTE',
+      coingecko_id: 'router-protocol-2',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png',
+          theme: {
+            primary_color_hex: '#cb0766'
+          }
+        }],
+      socials: {
+        website: 'https://www.routerprotocol.com/',
+        twitter: 'https://x.com/routerprotocol'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-13',
+            base_denom: 'route',
+            chain_name: 'routerchain'
+          },
+          chain: {
+            channel_id: 'channel-119'
           }
         }]
     },

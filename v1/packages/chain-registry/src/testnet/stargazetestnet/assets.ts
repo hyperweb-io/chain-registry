@@ -15,6 +15,14 @@ const info: AssetList = {
       name: 'Stargaze',
       display: 'stars',
       symbol: 'STARS',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chain_name: 'stargaze',
+            base_denom: 'ustars'
+          },
+          provider: 'Stargaze'
+        }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png'
       },

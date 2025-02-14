@@ -124,6 +124,7 @@ import * as _xiontestnet2 from './xiontestnet2';
 import * as _xplatestnet from './xplatestnet';
 import * as _zenrocktestnet from './zenrocktestnet';
 import * as _zetachaintestnet from './zetachaintestnet';
+import * as _zigchaintestnet from './zigchaintestnet';
 
 const chains: Chain[] = [
   _airchainstestnet.chain,
@@ -249,7 +250,8 @@ const chains: Chain[] = [
   _xiontestnet2.chain,
   _xplatestnet.chain,
   _zenrocktestnet.chain,
-  _zetachaintestnet.chain
+  _zetachaintestnet.chain,
+  _zigchaintestnet.chain
 ];
 
 export default chains;

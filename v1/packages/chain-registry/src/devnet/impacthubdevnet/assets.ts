@@ -15,6 +15,14 @@ const info: AssetList = {
       name: 'IXO',
       display: 'ixo',
       symbol: 'IXO',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chain_name: 'impacthub',
+            base_denom: 'uixo'
+          },
+          provider: 'impacthub'
+        }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/impacthubdevnet/images/ixo.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/impacthubdevnet/images/ixo.svg'

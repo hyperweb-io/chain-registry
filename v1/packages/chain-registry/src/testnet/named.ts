@@ -122,3 +122,4 @@ export * as xiontestnet2 from './xiontestnet2';
 export * as xplatestnet from './xplatestnet';
 export * as zenrocktestnet from './zenrocktestnet';
 export * as zetachaintestnet from './zetachaintestnet';
+export * as zigchaintestnet from './zigchaintestnet';

@@ -15,6 +15,14 @@ const info: AssetList = {
       name: 'Coreum',
       display: 'testcore',
       symbol: 'TESTCORE',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chain_name: 'coreum',
+            base_denom: 'ucore'
+          },
+          provider: 'Coreum'
+        }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg'

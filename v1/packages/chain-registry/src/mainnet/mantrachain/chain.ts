@@ -17,7 +17,7 @@ const info: Chain = {
         denom: 'uom',
         fixed_min_gas_price: 0.01,
         low_gas_price: 0.01,
-        average_gas_price: 0.02,
+        average_gas_price: 0.01,
         high_gas_price: 0.03
       }]
   },
@@ -28,29 +28,25 @@ const info: Chain = {
   },
   codebase: {
     git_repo: 'https://github.com/MANTRA-Chain/mantrachain',
-    recommended_version: 'v1.0.3',
-    compatible_versions: [
-      'v1.0.3',
-      'v1.0.1',
-      'v1.0.0',
-      'v1.0.0-rc3'
-    ],
+    recommended_version: 'v2.0.0',
+    compatible_versions: ['v2.0.0'],
     consensus: {
       type: 'cometbft',
       version: 'v0.38.15'
     },
     sdk: {
       type: 'cosmos',
-      version: 'v0.50.8',
-      repo: 'https://github.com/MANTRA-Chain/cosmos-sdk'
+      version: 'v0.50.11',
+      repo: 'https://github.com/MANTRA-Chain/cosmos-sdk',
+      tag: 'v0.50.11-v2-mantra-1'
     },
     cosmwasm: {
-      version: 'v0.53.0',
+      version: 'v0.54.0',
       enabled: true
     },
     ibc: {
       type: 'go',
-      version: 'v8.5.1'
+      version: 'v8.5.2'
     },
     genesis: {
       genesis_url: 'https://raw.githubusercontent.com/MANTRA-Chain/mantrachain/refs/heads/main/networks/mantra-1/genesis.json'

@@ -15,6 +15,14 @@ const info: AssetList = {
       display: 'cheq',
       name: 'cheqd',
       symbol: 'CHEQ',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chain_name: 'cheqd',
+            base_denom: 'ncheq'
+          },
+          provider: 'Cheqd'
+        }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/cheqdtestnet/images/cheq.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/cheqdtestnet/images/cheq.svg'

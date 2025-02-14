@@ -17,6 +17,14 @@ const info: AssetList = {
       name: 'Binance Coin',
       display: 'bnb',
       symbol: 'BNB',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chain_name: 'binancesmartchain',
+            base_denom: 'wei'
+          },
+          provider: 'Binance Smart Chain'
+        }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/bnb.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/bnb.svg'

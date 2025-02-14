@@ -17,6 +17,14 @@ const info: AssetList = {
       name: 'Quicksilver',
       display: 'qck',
       symbol: 'QCK',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chain_name: 'quicksilver',
+            base_denom: 'uqck'
+          },
+          provider: 'Quicksilver'
+        }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png'
       },

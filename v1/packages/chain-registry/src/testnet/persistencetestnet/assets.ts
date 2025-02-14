@@ -15,6 +15,14 @@ const info: AssetList = {
       name: 'Persistence',
       display: 'xprt',
       symbol: 'XPRT',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chain_name: 'persistence',
+            base_denom: 'uxprt'
+          },
+          provider: 'Persistence'
+        }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg'

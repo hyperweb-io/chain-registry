@@ -15,6 +15,14 @@ const info: AssetList = {
       name: 'fetch-ai',
       display: 'testfet',
       symbol: 'FET',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chain_name: 'fetchhub',
+            base_denom: 'afet'
+          },
+          provider: 'Bitcanna'
+        }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg'

@@ -17,6 +17,14 @@ const info: AssetList = {
       name: 'Avalanche',
       display: 'avax',
       symbol: 'AVAX',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chain_name: 'avalanche',
+            base_denom: 'wei'
+          },
+          provider: 'Avalanche'
+        }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.svg'

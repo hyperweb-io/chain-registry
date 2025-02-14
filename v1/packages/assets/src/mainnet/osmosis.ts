@@ -4197,6 +4197,7 @@ const assets: AssetList = {
           denom: 'KIMA',
           exponent: 6
         }],
+      type_asset: 'sdk.coin',
       base: 'ibc/629B5691DE993DCD07AA1B0587AD52A7FA4E8F28B77DE15BCBDF936CA6F76E6C',
       name: 'KIMA',
       display: 'KIMA',
@@ -4216,7 +4217,6 @@ const assets: AssetList = {
         twitter: 'https://x.com/KimaNetwork',
         website: 'https://www.kima.network/'
       },
-      type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -10236,6 +10236,7 @@ const assets: AssetList = {
           denom: 'KIMA',
           exponent: 6
         }],
+      type_asset: 'sdk.coin',
       base: 'ibc/629B5691DE993DCD07AA1B0587AD52A7FA4E8F28B77DE15BCBDF936CA6F76E6C',
       name: 'KIMA',
       display: 'KIMA',
@@ -10255,7 +10256,6 @@ const assets: AssetList = {
         twitter: 'https://x.com/KimaNetwork',
         website: 'https://www.kima.network/'
       },
-      type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
           counterparty: {

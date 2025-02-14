@@ -38,42 +38,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Axelar',
-      denom_units: [{
-          denom: 'ibc/CAC33C89EFB6AD6064184EB63289F76C0447B25D720C21275D5E4D3C1890405F',
-          exponent: 0,
-          aliases: ['uaxl']
-        }, {
-          denom: 'axl',
-          exponent: 6
-        }],
-      base: 'ibc/CAC33C89EFB6AD6064184EB63289F76C0447B25D720C21275D5E4D3C1890405F',
-      name: 'Axelar',
-      display: 'axl',
-      symbol: 'AXL',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'
-      },
-      coingecko_id: 'axelar',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-339',
-            base_denom: 'uaxl',
-            chain_name: 'axelartestnet'
-          },
-          chain: {
-            channel_id: 'channel-4170'
-          }
-        }]
-    },
-    {
       denom_units: [{
           denom: 'ibc/0E22FFB61DB307FE01D3D0DFF4A8EBEB6CC4997DCF9E901AE0751A2FFF4B90DD',
           exponent: 0,
@@ -176,50 +140,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Coreum',
-      denom_units: [{
-          denom: 'ibc/35CA3AB73EF616E989E6DDD91EA33BEBAF77CA710641973028460CCFE69452AB',
-          exponent: 0,
-          aliases: ['utestcore']
-        }, {
-          denom: 'testcore',
-          exponent: 6
-        }],
-      base: 'ibc/35CA3AB73EF616E989E6DDD91EA33BEBAF77CA710641973028460CCFE69452AB',
-      name: 'Coreum',
-      display: 'testcore',
-      symbol: 'TESTCORE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg'
-      },
-      coingecko_id: 'coreum',
-      keywords: [
-        'dex',
-        'staking',
-        'wasm',
-        'assets',
-        'nft',
-        'XRPL'
-      ],
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-47',
-            base_denom: 'utestcore',
-            chain_name: 'coreumtestnet'
-          },
-          chain: {
-            channel_id: 'channel-7894'
-          }
-        }]
-    },
-    {
       description: 'The native staking and governance token of the Theta testnet version of the Cosmos Hub.',
       denom_units: [{
           denom: 'ibc/9FF2B7A5F55038A7EE61F4FD6749D9A648B48E89830F2682B67B5DC158E2753C',
@@ -317,42 +237,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-155'
-          }
-        }]
-    },
-    {
-      description: 'The INJ token is the native governance token for the Injective chain.',
-      denom_units: [{
-          denom: 'ibc/C53E4BB8F7975D31DC9C8BA6A6EC2EA6F1F2A77C39D4E158459BB379D14CC9B0',
-          exponent: 0,
-          aliases: ['inj']
-        }, {
-          denom: 'INJ',
-          exponent: 18
-        }],
-      base: 'ibc/C53E4BB8F7975D31DC9C8BA6A6EC2EA6F1F2A77C39D4E158459BB379D14CC9B0',
-      name: 'Injective',
-      display: 'INJ',
-      symbol: 'INJ',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
-      },
-      coingecko_id: 'injective-protocol',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-129',
-            base_denom: 'inj',
-            chain_name: 'injectivetestnet'
-          },
-          chain: {
-            channel_id: 'channel-4174'
           }
         }]
     },
@@ -725,42 +609,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Axelar',
-      denom_units: [{
-          denom: 'ibc/CAC33C89EFB6AD6064184EB63289F76C0447B25D720C21275D5E4D3C1890405F',
-          exponent: 0,
-          aliases: ['uaxl']
-        }, {
-          denom: 'axl',
-          exponent: 6
-        }],
-      base: 'ibc/CAC33C89EFB6AD6064184EB63289F76C0447B25D720C21275D5E4D3C1890405F',
-      name: 'Axelar',
-      display: 'axl',
-      symbol: 'AXL',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'
-      },
-      coingecko_id: 'axelar',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-339',
-            base_denom: 'uaxl',
-            chain_name: 'axelartestnet'
-          },
-          chain: {
-            channel_id: 'channel-4170'
-          }
-        }]
-    },
-    {
       denom_units: [{
           denom: 'ibc/0E22FFB61DB307FE01D3D0DFF4A8EBEB6CC4997DCF9E901AE0751A2FFF4B90DD',
           exponent: 0,
@@ -863,50 +711,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Coreum',
-      denom_units: [{
-          denom: 'ibc/35CA3AB73EF616E989E6DDD91EA33BEBAF77CA710641973028460CCFE69452AB',
-          exponent: 0,
-          aliases: ['utestcore']
-        }, {
-          denom: 'testcore',
-          exponent: 6
-        }],
-      base: 'ibc/35CA3AB73EF616E989E6DDD91EA33BEBAF77CA710641973028460CCFE69452AB',
-      name: 'Coreum',
-      display: 'testcore',
-      symbol: 'TESTCORE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg'
-      },
-      coingecko_id: 'coreum',
-      keywords: [
-        'dex',
-        'staking',
-        'wasm',
-        'assets',
-        'nft',
-        'XRPL'
-      ],
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-47',
-            base_denom: 'utestcore',
-            chain_name: 'coreumtestnet'
-          },
-          chain: {
-            channel_id: 'channel-7894'
-          }
-        }]
-    },
-    {
       description: 'The native staking and governance token of the Theta testnet version of the Cosmos Hub.',
       denom_units: [{
           denom: 'ibc/9FF2B7A5F55038A7EE61F4FD6749D9A648B48E89830F2682B67B5DC158E2753C',
@@ -1004,42 +808,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-155'
-          }
-        }]
-    },
-    {
-      description: 'The INJ token is the native governance token for the Injective chain.',
-      denom_units: [{
-          denom: 'ibc/C53E4BB8F7975D31DC9C8BA6A6EC2EA6F1F2A77C39D4E158459BB379D14CC9B0',
-          exponent: 0,
-          aliases: ['inj']
-        }, {
-          denom: 'INJ',
-          exponent: 18
-        }],
-      base: 'ibc/C53E4BB8F7975D31DC9C8BA6A6EC2EA6F1F2A77C39D4E158459BB379D14CC9B0',
-      name: 'Injective',
-      display: 'INJ',
-      symbol: 'INJ',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
-      },
-      coingecko_id: 'injective-protocol',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-129',
-            base_denom: 'inj',
-            chain_name: 'injectivetestnet'
-          },
-          chain: {
-            channel_id: 'channel-4174'
           }
         }]
     },
@@ -1377,42 +1145,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The XPRT token is primarily a governance token for the Persistence chain.',
-      denom_units: [{
-          denom: 'ibc/754C8533F8A418B03AD5F2C6AA19D4703CF78BBAB9E2E4DDD6212AAC2E502CA6',
-          exponent: 0,
-          aliases: ['uxprt']
-        }, {
-          denom: 'xprt',
-          exponent: 6
-        }],
-      base: 'ibc/754C8533F8A418B03AD5F2C6AA19D4703CF78BBAB9E2E4DDD6212AAC2E502CA6',
-      name: 'Persistence',
-      display: 'xprt',
-      symbol: 'XPRT',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg'
-      },
-      coingecko_id: 'persistence',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-7',
-            base_denom: 'uxprt',
-            chain_name: 'persistencetestnet2'
-          },
-          chain: {
-            channel_id: 'channel-1037'
-          }
-        }]
-    },
-    {
       description: 'PSTAKE Liquid-Staked ATOM',
       denom_units: [{
           denom: 'ibc/D9A34ACE6D4867DB2C0C33158DBAED4344544FCAE8E7CA8CE99D3E8D6B2288EC',
@@ -1521,41 +1253,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'QCK - native token of Quicksilver',
-      denom_units: [{
-          denom: 'ibc/F37CF69589DE12342758382F8770C0852CD8D2E4519F55166EBDAF472AD667C9',
-          exponent: 0,
-          aliases: ['uqck']
-        }, {
-          denom: 'qck',
-          exponent: 6,
-          aliases: []
-        }],
-      base: 'ibc/F37CF69589DE12342758382F8770C0852CD8D2E4519F55166EBDAF472AD667C9',
-      name: 'Quicksilver',
-      display: 'qck',
-      symbol: 'QCK',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png'
-      },
-      coingecko_id: 'quicksilver',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-20',
-            base_denom: 'uqck',
-            chain_name: 'quicksilvertestnet'
-          },
-          chain: {
-            channel_id: 'channel-13'
-          }
-        }]
-    },
-    {
       description: 'The native token of Saga Testnet',
       denom_units: [{
           denom: 'ibc/48384130079A5987378F5776775F8C29A02505273E777BBB99361F2BB5B577C9',
@@ -1622,40 +1319,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-1568'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Stargaze',
-      denom_units: [{
-          denom: 'ibc/1D082F4F5EE0A1F582B03B35F0F663A9CF9C6333874EDBF405559F8ABA024F24',
-          exponent: 0,
-          aliases: ['ustars']
-        }, {
-          denom: 'stars',
-          exponent: 6
-        }],
-      base: 'ibc/1D082F4F5EE0A1F582B03B35F0F663A9CF9C6333874EDBF405559F8ABA024F24',
-      name: 'Stargaze',
-      display: 'stars',
-      symbol: 'STARS',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png'
-      },
-      coingecko_id: 'stargaze',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-638',
-            base_denom: 'ustars',
-            chain_name: 'stargazetestnet'
-          },
-          chain: {
-            channel_id: 'channel-4175'
           }
         }]
     },
@@ -2173,42 +1836,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The XPRT token is primarily a governance token for the Persistence chain.',
-      denom_units: [{
-          denom: 'ibc/754C8533F8A418B03AD5F2C6AA19D4703CF78BBAB9E2E4DDD6212AAC2E502CA6',
-          exponent: 0,
-          aliases: ['uxprt']
-        }, {
-          denom: 'xprt',
-          exponent: 6
-        }],
-      base: 'ibc/754C8533F8A418B03AD5F2C6AA19D4703CF78BBAB9E2E4DDD6212AAC2E502CA6',
-      name: 'Persistence',
-      display: 'xprt',
-      symbol: 'XPRT',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg'
-      },
-      coingecko_id: 'persistence',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-7',
-            base_denom: 'uxprt',
-            chain_name: 'persistencetestnet2'
-          },
-          chain: {
-            channel_id: 'channel-1037'
-          }
-        }]
-    },
-    {
       description: 'PSTAKE Liquid-Staked ATOM',
       denom_units: [{
           denom: 'ibc/D9A34ACE6D4867DB2C0C33158DBAED4344544FCAE8E7CA8CE99D3E8D6B2288EC',
@@ -2317,41 +1944,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'QCK - native token of Quicksilver',
-      denom_units: [{
-          denom: 'ibc/F37CF69589DE12342758382F8770C0852CD8D2E4519F55166EBDAF472AD667C9',
-          exponent: 0,
-          aliases: ['uqck']
-        }, {
-          denom: 'qck',
-          exponent: 6,
-          aliases: []
-        }],
-      base: 'ibc/F37CF69589DE12342758382F8770C0852CD8D2E4519F55166EBDAF472AD667C9',
-      name: 'Quicksilver',
-      display: 'qck',
-      symbol: 'QCK',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png'
-      },
-      coingecko_id: 'quicksilver',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-20',
-            base_denom: 'uqck',
-            chain_name: 'quicksilvertestnet'
-          },
-          chain: {
-            channel_id: 'channel-13'
-          }
-        }]
-    },
-    {
       description: 'The native token of Saga Testnet',
       denom_units: [{
           denom: 'ibc/48384130079A5987378F5776775F8C29A02505273E777BBB99361F2BB5B577C9',
@@ -2418,40 +2010,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-1568'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Stargaze',
-      denom_units: [{
-          denom: 'ibc/1D082F4F5EE0A1F582B03B35F0F663A9CF9C6333874EDBF405559F8ABA024F24',
-          exponent: 0,
-          aliases: ['ustars']
-        }, {
-          denom: 'stars',
-          exponent: 6
-        }],
-      base: 'ibc/1D082F4F5EE0A1F582B03B35F0F663A9CF9C6333874EDBF405559F8ABA024F24',
-      name: 'Stargaze',
-      display: 'stars',
-      symbol: 'STARS',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png'
-      },
-      coingecko_id: 'stargaze',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-638',
-            base_denom: 'ustars',
-            chain_name: 'stargazetestnet'
-          },
-          chain: {
-            channel_id: 'channel-4175'
           }
         }]
     },
