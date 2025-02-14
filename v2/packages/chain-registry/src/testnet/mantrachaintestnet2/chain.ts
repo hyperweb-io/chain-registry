@@ -17,7 +17,7 @@ const info: Chain = {
         denom: 'uom',
         fixedMinGasPrice: 0.01,
         lowGasPrice: 0.01,
-        averageGasPrice: 0.02,
+        averageGasPrice: 0.01,
         highGasPrice: 0.03
       }]
   },

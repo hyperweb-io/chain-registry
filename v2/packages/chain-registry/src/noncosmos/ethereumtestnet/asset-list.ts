@@ -25,6 +25,14 @@ const info: AssetList = {
       name: 'Ether',
       display: 'eth',
       symbol: 'ETH',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: 'wei'
+          },
+          provider: 'Ethereum'
+        }],
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth.svg'
       },

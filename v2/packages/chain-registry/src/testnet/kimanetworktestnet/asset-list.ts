@@ -12,6 +12,7 @@ const info: AssetList = {
           denom: 'KIMA',
           exponent: 6
         }],
+      typeAsset: 'sdk.coin',
       base: 'uKIMA',
       name: 'KIMA',
       display: 'KIMA',
@@ -42,8 +43,7 @@ const info: AssetList = {
         telegram: 'https://t.me/kimanetwork',
         twitter: 'https://x.com/KimaNetwork',
         website: 'https://www.kima.network/'
-      },
-      typeAsset: 'sdk.coin'
+      }
     }]
 };
 export default info;

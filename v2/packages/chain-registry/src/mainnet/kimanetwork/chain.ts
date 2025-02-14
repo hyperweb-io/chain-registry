@@ -9,8 +9,8 @@ const info: Chain = {
   chainType: 'cosmos',
   chainId: 'kima_network',
   bech32Prefix: 'kima',
-  daemonName: 'uKIMA',
-  nodeHome: '$HOME/.kimad',
+  daemonName: 'kimad',
+  nodeHome: '$HOME/.kima',
   keyAlgos: ['secp256k1'],
   slip44: 118,
   fees: {
@@ -25,15 +25,18 @@ const info: Chain = {
   staking: {
     stakingTokens: [{
         denom: 'uKIMA'
-      }]
+      }],
+    lockDuration: {
+      time: '1814400s'
+    }
   },
   codebase: {
     gitRepo: 'https://github.com/kima-finance/kima-blockchain',
-    recommendedVersion: 'v0.4.3',
-    compatibleVersions: ['v0.4.3'],
     genesis: {
+      name: 'v1',
       genesisUrl: 'https://archive.kima.network/genesis.json'
-    }
+    },
+    recommendedVersion: 'v0.4.6'
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png',

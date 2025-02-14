@@ -18,6 +18,14 @@ const info: AssetList = {
       name: 'Matic',
       display: 'matic',
       symbol: 'MATIC',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'polygon',
+            baseDenom: 'wei'
+          },
+          provider: 'Polygon'
+        }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic.svg'

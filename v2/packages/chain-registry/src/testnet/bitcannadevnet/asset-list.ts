@@ -15,6 +15,14 @@ const info: AssetList = {
       display: 'bcna',
       name: 'BitCanna',
       symbol: 'BCNA',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'bitcanna',
+            baseDenom: 'ubcna'
+          },
+          provider: 'Bitcanna'
+        }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/bitcannadevnet/images/bcna.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/bitcannadevnet/images/bcna.svg'

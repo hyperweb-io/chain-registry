@@ -124,6 +124,7 @@ import * as _xiontestnet2 from './xiontestnet2';
 import * as _xplatestnet from './xplatestnet';
 import * as _zenrocktestnet from './zenrocktestnet';
 import * as _zetachaintestnet from './zetachaintestnet';
+import * as _zigchaintestnet from './zigchaintestnet';
 
 const assetList: AssetList[] = [
   _airchainstestnet.assetList,
@@ -249,7 +250,8 @@ const assetList: AssetList[] = [
   _xiontestnet2.assetList,
   _xplatestnet.assetList,
   _zenrocktestnet.assetList,
-  _zetachaintestnet.assetList
+  _zetachaintestnet.assetList,
+  _zigchaintestnet.assetList
 ];
 
 export default assetList;

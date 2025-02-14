@@ -16,6 +16,14 @@ const info: AssetList = {
       name: 'Axelar',
       display: 'axl',
       symbol: 'AXL',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'axelar',
+            baseDenom: 'uaxl'
+          },
+          provider: 'Axelar'
+        }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'

@@ -9,7 +9,7 @@ const info: Chain = {
   chainType: 'cosmos',
   chainId: 'kima_testnet',
   bech32Prefix: 'kima',
-  daemonName: 'uKIMA',
+  daemonName: 'kimad',
   nodeHome: '$HOME/.kima',
   keyAlgos: ['secp256k1'],
   slip44: 118,
@@ -22,28 +22,40 @@ const info: Chain = {
         highGasPrice: 0.04
       }]
   },
-  codebase: {
-    gitRepo: 'https://github.com/kima-finance/kima-blockchain',
-    recommendedVersion: 'v0.4.3',
-    compatibleVersions: ['v0.4.3'],
-    genesis: {
-      genesisUrl: 'http://data-testnet.kima.finance/genesis.json'
+  staking: {
+    stakingTokens: [{
+        denom: 'uKIMA'
+      }],
+    lockDuration: {
+      time: '259200s'
     }
+  },
+  codebase: {
+    gitRepo: 'https://github.com/kima-finance/kima-blockchain/',
+    genesis: {
+      name: 'v1',
+      genesisUrl: 'https://archive.sardis.kima.network/genesis.json'
+    },
+    recommendedVersion: 'v0.4.8'
   },
   apis: {
     rpc: [{
-        address: 'https://rpc-testnet.kima.finance/',
+        address: 'https://rpc.sardis.kima.network/',
+        provider: 'Kima Network'
+      }],
+    grpc: [{
+        address: 'https://grpc.sardis.kima.network',
         provider: 'Kima Network'
       }],
     rest: [{
-        address: 'https://api-testnet.kima.finance',
+        address: 'https://api.sardis.kima.network/',
         provider: 'Kima Network'
       }]
   },
   explorers: [{
       kind: 'Kima Network',
-      url: 'https://explorer-testnet.kima.finance/',
-      txPage: 'https://explorer-testnet.kima.finance/transactions/${txHash}'
+      url: 'https://explorer.sardis.kima.network/',
+      txPage: 'https://explorer.sardis.kima.network/transactions/${txHash}'
     }]
 };
 export default info;

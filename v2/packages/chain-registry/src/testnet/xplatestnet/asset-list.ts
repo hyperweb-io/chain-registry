@@ -15,6 +15,14 @@ const info: AssetList = {
       name: 'Xpla',
       display: 'xpla',
       symbol: 'XPLA',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'xpla',
+            baseDenom: 'axpla'
+          },
+          provider: 'XPLA'
+        }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.svg'

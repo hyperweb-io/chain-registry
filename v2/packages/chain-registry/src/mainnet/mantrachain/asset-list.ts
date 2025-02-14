@@ -276,6 +276,49 @@ const info: AssetList = {
             primaryColorHex: '#db2777'
           }
         }]
+    },
+    {
+      description: 'The native token of Axelar',
+      denomUnits: [{
+          denom: 'ibc/3E35008738AC049C9C1A1E37F785E947A8DAA9811B3EA3B25580664294056151',
+          exponent: 0,
+          aliases: ['uaxl']
+        }, {
+          denom: 'axl',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/3E35008738AC049C9C1A1E37F785E947A8DAA9811B3EA3B25580664294056151',
+      name: 'Axelar',
+      display: 'axl',
+      symbol: 'AXL',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'axelar',
+            baseDenom: 'uaxl',
+            channelId: 'channel-170'
+          },
+          chain: {
+            channelId: 'channel-6',
+            path: 'transfer/channel-6/uaxl'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'axelar',
+            baseDenom: 'uaxl'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg',
+          theme: {
+            primaryColorHex: '#040404'
+          }
+        }]
     }
   ]
 };

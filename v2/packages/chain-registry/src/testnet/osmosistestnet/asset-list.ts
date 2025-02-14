@@ -19,6 +19,14 @@ const info: AssetList = {
       name: 'Osmosis Testnet',
       display: 'osmo',
       symbol: 'OSMO',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'osmosis',
+            baseDenom: 'uosmo'
+          },
+          provider: 'Osmosis'
+        }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
@@ -43,6 +51,14 @@ const info: AssetList = {
       name: 'Ion',
       display: 'ion',
       symbol: 'ION',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'osmosis',
+            baseDenom: 'uion'
+          },
+          provider: 'Osmosis'
+        }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg'

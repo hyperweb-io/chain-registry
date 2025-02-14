@@ -142,7 +142,6 @@ const info: AssetList = {
           },
           provider: 'Coreum'
         }],
-      coingeckoId: 'ripple-usd',
       images: [{
           imageSync: {
             chainName: 'xrpl',

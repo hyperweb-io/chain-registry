@@ -15,6 +15,14 @@ const info: AssetList = {
       name: 'Injective',
       display: 'INJ',
       symbol: 'INJ',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'injective',
+            baseDenom: 'inj'
+          },
+          provider: 'Injective'
+        }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'

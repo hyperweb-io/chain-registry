@@ -15,6 +15,14 @@ const info: AssetList = {
       name: 'Secret Network',
       display: 'scrt',
       symbol: 'SCRT',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'secretnetwork',
+            baseDenom: 'uscrt'
+          },
+          provider: 'Secret Network'
+        }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg'

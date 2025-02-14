@@ -20,6 +20,12 @@ const info: Chain = {
         lowGasPrice: 0.0006,
         averageGasPrice: 0.0008,
         highGasPrice: 0.001
+      }, {
+        denom: 'sat',
+        fixedMinGasPrice: 0.000001,
+        lowGasPrice: 0.000001,
+        averageGasPrice: 0.0000015,
+        highGasPrice: 0.000002
       }]
   },
   staking: {

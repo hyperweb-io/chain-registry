@@ -23253,6 +23253,131 @@ const info: AssetList = {
         twitter: 'https://x.com/instantnoodlesinc'
       },
       keywords: ['meme']
+    },
+    {
+      description: 'An alloy of DYDX asset variants on Osmosis.',
+      extendedDescription: 'Multiple DYDX variants on Osmosis comprise the liquidity backing of a tokenized transmuter pool to create an alloy of DYDX.',
+      denomUnits: [{
+          denom: 'factory/osmo1zem8r6dv6u38f6qpg546zy30946av8h5srgug0s4gcyy6cfecf3seac083/alloyed/allDYDX',
+          exponent: 0
+        }, {
+          denom: 'allDYDX',
+          exponent: 12
+        }],
+      typeAsset: 'sdk.coin',
+      address: 'osmo1zem8r6dv6u38f6qpg546zy30946av8h5srgug0s4gcyy6cfecf3seac083',
+      base: 'factory/osmo1zem8r6dv6u38f6qpg546zy30946av8h5srgug0s4gcyy6cfecf3seac083/alloyed/allDYDX',
+      name: 'dYdX',
+      display: 'allDYDX',
+      symbol: 'DYDX',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chainName: 'dydx',
+            baseDenom: 'adydx'
+          },
+          provider: 'Osmosis'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'dydx',
+            baseDenom: 'adydx'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg',
+          theme: {
+            primaryColorHex: '#21212f'
+          }
+        }, {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg',
+          theme: {
+            circle: true
+          }
+        }]
+    },
+    {
+      description: 'An alloy of FET asset variants on Osmosis.',
+      extendedDescription: 'Multiple FET variants on Osmosis comprise the liquidity backing of a tokenized transmuter pool to create an alloy of FET.',
+      denomUnits: [{
+          denom: 'factory/osmo1mdvn6lmykp2z345ncpf647dztslyll8cyhwj9pltrc0lf7nva3cqvrp6qs/alloyed/allFET',
+          exponent: 0
+        }, {
+          denom: 'allFET',
+          exponent: 12
+        }],
+      typeAsset: 'sdk.coin',
+      address: 'osmo1mdvn6lmykp2z345ncpf647dztslyll8cyhwj9pltrc0lf7nva3cqvrp6qs',
+      base: 'factory/osmo1mdvn6lmykp2z345ncpf647dztslyll8cyhwj9pltrc0lf7nva3cqvrp6qs/alloyed/allFET',
+      name: 'fetch-ai',
+      display: 'allFET',
+      symbol: 'FET',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chainName: 'fetchhub',
+            baseDenom: 'afet'
+          },
+          provider: 'Osmosis'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'fetchhub',
+            baseDenom: 'afet'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg',
+          theme: {
+            primaryColorHex: '#1c2444'
+          }
+        }]
+    },
+    {
+      description: 'An alloy of AIOZ asset variants on Osmosis.',
+      extendedDescription: 'Multiple AIOZ variants on Osmosis comprise the liquidity backing of a tokenized transmuter pool to create an alloy of AIOZ.',
+      denomUnits: [{
+          denom: 'factory/osmo17ceugf0nnkk228k2sulemn0s9pl3yg554462eexxs3pgq8p629us98gqae/alloyed/allAIOZ',
+          exponent: 0
+        }, {
+          denom: 'allAIOZ',
+          exponent: 12
+        }],
+      typeAsset: 'sdk.coin',
+      address: 'osmo17ceugf0nnkk228k2sulemn0s9pl3yg554462eexxs3pgq8p629us98gqae',
+      base: 'factory/osmo17ceugf0nnkk228k2sulemn0s9pl3yg554462eexxs3pgq8p629us98gqae/alloyed/allAIOZ',
+      name: 'AIOZ',
+      display: 'allAIOZ',
+      symbol: 'AIOZ',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chainName: 'aioz',
+            baseDenom: 'attoaioz'
+          },
+          provider: 'Osmosis'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'aioz',
+            baseDenom: 'attoaioz'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.svg',
+          theme: {
+            primaryColorHex: '#24241c'
+          }
+        }]
     }
   ]
 };

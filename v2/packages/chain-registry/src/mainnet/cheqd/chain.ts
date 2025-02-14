@@ -15,10 +15,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'ncheq',
-        fixedMinGasPrice: 25,
-        lowGasPrice: 50,
-        averageGasPrice: 75,
-        highGasPrice: 100
+        fixedMinGasPrice: 5000,
+        lowGasPrice: 5000,
+        averageGasPrice: 7500,
+        highGasPrice: 10000
       }]
   },
   staking: {
@@ -28,13 +28,13 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/cheqd/cheqd-node',
-    recommendedVersion: 'v3.0.1',
-    compatibleVersions: ['v3.0.1'],
+    recommendedVersion: 'v3.1.6',
+    compatibleVersions: ['v3.1.5', 'v3.1.6'],
     binaries: {
-      "linux/amd64": 'https://github.com/cheqd/cheqd-node/releases/download/v3.0.1/cheqd-noded-3.0.1-linux-amd64.tar.gz',
-      "linux/arm64": 'https://github.com/cheqd/cheqd-node/releases/download/v3.0.1/cheqd-noded-3.0.1-linux-arm64.tar.gz',
-      "darwin/amd64": 'https://github.com/cheqd/cheqd-node/releases/download/v3.0.1/cheqd-noded-3.0.1-darwin-amd64.tar.gz',
-      "darwin/arm64": 'https://github.com/cheqd/cheqd-node/releases/download/v3.0.1/cheqd-noded-3.0.1-darwin-arm64.tar.gz'
+      "linux/amd64": 'https://github.com/cheqd/cheqd-node/releases/download/v3.1.6/cheqd-noded-3.1.6-linux-amd64.tar.gz',
+      "linux/arm64": 'https://github.com/cheqd/cheqd-node/releases/download/v3.1.6/cheqd-noded-3.1.6-linux-arm64.tar.gz',
+      "darwin/amd64": 'https://github.com/cheqd/cheqd-node/releases/download/v3.1.6/cheqd-noded-3.1.6-darwin-amd64.tar.gz',
+      "darwin/arm64": 'https://github.com/cheqd/cheqd-node/releases/download/v3.1.6/cheqd-noded-3.1.6-darwin-arm64.tar.gz'
     },
     consensus: {
       type: 'cometbft',

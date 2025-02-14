@@ -15,6 +15,14 @@ const info: AssetList = {
       name: 'Luna',
       display: 'luna',
       symbol: 'LUNA',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'terra2',
+            baseDenom: 'uluna'
+          },
+          provider: 'Terra'
+        }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg'

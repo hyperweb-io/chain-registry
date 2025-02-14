@@ -48,6 +48,14 @@ const info: AssetList = {
       name: 'Polkadot',
       display: 'DOT',
       symbol: 'DOT',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'polkadot',
+            baseDenom: 'Planck'
+          },
+          provider: 'Polkadot'
+        }],
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg'
       },

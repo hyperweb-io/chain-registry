@@ -19,6 +19,14 @@ const info: AssetList = {
       name: 'Glimmer',
       display: 'GLMR',
       symbol: 'GLMR',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'moonbeam',
+            baseDenom: 'Wei'
+          },
+          provider: 'Moonbeam'
+        }],
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg'
       },
