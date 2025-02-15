@@ -31,10 +31,10 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/quicksilver-zone/quicksilver',
-    recommendedVersion: 'v1.7.5',
-    compatibleVersions: ['v1.7.5'],
+    recommendedVersion: 'v1.7.6',
+    compatibleVersions: ['v1.7.6'],
     binaries: {
-      "linux/amd64": 'https://github.com/quicksilver-zone/quicksilver/releases/download/v1.7.5/quicksilverd-v1.7.5-amd64'
+      "linux/amd64": 'https://github.com/quicksilver-zone/quicksilver/releases/download/v1.7.6/quicksilverd-v1.7.6-amd64'
     },
     sdk: {
       type: 'cosmos',
