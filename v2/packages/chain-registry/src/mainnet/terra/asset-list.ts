@@ -129,6 +129,14 @@ const info: AssetList = {
       name: 'Whale Token',
       display: 'whale',
       symbol: 'WHALE',
+      traces: [{
+          type: 'legacy-mintage',
+          counterparty: {
+            chainName: 'migaloo',
+            baseDenom: 'uwhale'
+          },
+          provider: 'Migaloo'
+        }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
       },

@@ -177,6 +177,14 @@ const info: AssetList = {
       name: 'Astrovault AXV',
       display: 'AXV',
       symbol: 'AXV',
+      traces: [{
+          type: 'additional-mintage',
+          counterparty: {
+            chainName: 'neutron',
+            baseDenom: 'cw20:neutron10dxyft3nv4vpxh5vrpn0xw8geej8dw3g39g7nqp8mrm307ypssksau29af'
+          },
+          provider: 'Astrovault'
+        }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.svg'
