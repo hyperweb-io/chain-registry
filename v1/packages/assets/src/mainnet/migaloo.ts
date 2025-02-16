@@ -3085,16 +3085,6 @@ const assets: AssetList = {
       name: 'Whale Token',
       display: 'whale',
       symbol: 'WHALE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
-      },
-      coingecko_id: 'white-whale',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png',
-          theme: {
-            primary_color_hex: '#43b24b'
-          }
-        }],
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -3106,6 +3096,16 @@ const assets: AssetList = {
           chain: {
             port: 'transfer',
             channel_id: 'channel-114'
+          }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
+      },
+      coingecko_id: 'white-whale',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png',
+          theme: {
+            primary_color_hex: '#43b24b'
           }
         }]
     },
@@ -11961,16 +11961,6 @@ const assets: AssetList = {
       name: 'Whale Token',
       display: 'whale',
       symbol: 'WHALE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
-      },
-      coingecko_id: 'white-whale',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png',
-          theme: {
-            primary_color_hex: '#43b24b'
-          }
-        }],
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -11982,6 +11972,16 @@ const assets: AssetList = {
           chain: {
             port: 'transfer',
             channel_id: 'channel-114'
+          }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
+      },
+      coingecko_id: 'white-whale',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png',
+          theme: {
+            primary_color_hex: '#43b24b'
           }
         }]
     },

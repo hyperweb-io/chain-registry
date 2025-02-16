@@ -20,7 +20,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.svg'
       },
-      coingecko_id: 'arable-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.svg',
@@ -348,7 +347,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.svg'
       },
-      coingecko_id: 'arable-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.svg',
@@ -2314,7 +2312,8 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Nibiru network',
+      name: 'Nibiru',
+      description: 'The native token of Nibiru blockchain',
       socials: {
         website: 'https://nibiru.fi',
         twitter: 'https://twitter.com/nibiruchain'
@@ -2335,7 +2334,6 @@ const assets: AssetList = {
         }
       ],
       base: 'ibc/52C9B73B0D9665A4FA1E973B001A83FCFF3B6062E44B564230D20536F1103112',
-      name: 'Nibiru',
       display: 'nibi',
       symbol: 'NIBI',
       logo_URIs: {
@@ -2364,6 +2362,7 @@ const assets: AssetList = {
         }]
     },
     {
+      name: 'Astrovault token',
       description: 'AXV',
       socials: {
         website: 'https://astrovault.io/',
@@ -2378,7 +2377,6 @@ const assets: AssetList = {
           exponent: 6
         }],
       base: 'ibc/CFBB272C7BA45372A94453E524A549D505AC5B1F9B214E82FBBF1461C1F22EA4',
-      name: 'AXV',
       display: 'AXV',
       symbol: 'AXV',
       logo_URIs: {
@@ -2386,12 +2384,12 @@ const assets: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg'
       },
       images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg',
           image_sync: {
             chain_name: 'neutron',
             base_denom: 'cw20:neutron10dxyft3nv4vpxh5vrpn0xw8geej8dw3g39g7nqp8mrm307ypssksau29af'
-          },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg'
+          }
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -2407,6 +2405,7 @@ const assets: AssetList = {
         }]
     },
     {
+      name: 'uoprek',
       description: 'uoprek',
       denom_units: [{
           denom: 'ibc/156C8BCC21BD4109444240C5138A5239C4432127B8E092B55369405452F86C63',
@@ -2414,7 +2413,6 @@ const assets: AssetList = {
           aliases: ['tf/nibi149m52kn7nvsg5nftvv4fh85scsavpdfxp5nr7zasz97dum89dp5qkyhy0t/uoprek']
         }],
       base: 'ibc/156C8BCC21BD4109444240C5138A5239C4432127B8E092B55369405452F86C63',
-      name: 'uoprek',
       display: 'tf/nibi149m52kn7nvsg5nftvv4fh85scsavpdfxp5nr7zasz97dum89dp5qkyhy0t/uoprek',
       symbol: 'UOPREK',
       type_asset: 'sdk.coin',
@@ -2431,6 +2429,7 @@ const assets: AssetList = {
         }]
     },
     {
+      name: 'utestate',
       description: 'utestate',
       denom_units: [{
           denom: 'ibc/057AE0D6341E14801F21207D500B9F0230DC26011DA23DE28EE03BCE837E4CFD',
@@ -2438,7 +2437,6 @@ const assets: AssetList = {
           aliases: ['tf/nibi1lp28kx3gz0prsztl024z730ufkg3alahaq3e7a6gae22nk0dqdvsyrrgqw/utestate']
         }],
       base: 'ibc/057AE0D6341E14801F21207D500B9F0230DC26011DA23DE28EE03BCE837E4CFD',
-      name: 'utestate',
       display: 'tf/nibi1lp28kx3gz0prsztl024z730ufkg3alahaq3e7a6gae22nk0dqdvsyrrgqw/utestate',
       symbol: 'UTESTATE',
       type_asset: 'sdk.coin',
@@ -2455,6 +2453,7 @@ const assets: AssetList = {
         }]
     },
     {
+      name: 'npp',
       description: 'npp',
       denom_units: [{
           denom: 'ibc/ADEC8C91DF95EA9215BD0EE2743CEC78F3350D99907AFDA13A9CCE1899FFA1D9',
@@ -2462,7 +2461,6 @@ const assets: AssetList = {
           aliases: ['tf/nibi1xpp7yn0tce62ffattws3gpd6v0tah0mlevef3ej3r4pnfvsehcgqk3jvxq/NPP']
         }],
       base: 'ibc/ADEC8C91DF95EA9215BD0EE2743CEC78F3350D99907AFDA13A9CCE1899FFA1D9',
-      name: 'npp',
       display: 'tf/nibi1xpp7yn0tce62ffattws3gpd6v0tah0mlevef3ej3r4pnfvsehcgqk3jvxq/NPP',
       symbol: 'NPP',
       type_asset: 'sdk.coin',
@@ -9410,7 +9408,8 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Nibiru network',
+      name: 'Nibiru',
+      description: 'The native token of Nibiru blockchain',
       socials: {
         website: 'https://nibiru.fi',
         twitter: 'https://twitter.com/nibiruchain'
@@ -9431,7 +9430,6 @@ const assets: AssetList = {
         }
       ],
       base: 'ibc/52C9B73B0D9665A4FA1E973B001A83FCFF3B6062E44B564230D20536F1103112',
-      name: 'Nibiru',
       display: 'nibi',
       symbol: 'NIBI',
       logo_URIs: {
@@ -9460,6 +9458,7 @@ const assets: AssetList = {
         }]
     },
     {
+      name: 'Astrovault token',
       description: 'AXV',
       socials: {
         website: 'https://astrovault.io/',
@@ -9474,7 +9473,6 @@ const assets: AssetList = {
           exponent: 6
         }],
       base: 'ibc/CFBB272C7BA45372A94453E524A549D505AC5B1F9B214E82FBBF1461C1F22EA4',
-      name: 'AXV',
       display: 'AXV',
       symbol: 'AXV',
       logo_URIs: {
@@ -9482,12 +9480,12 @@ const assets: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg'
       },
       images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg',
           image_sync: {
             chain_name: 'neutron',
             base_denom: 'cw20:neutron10dxyft3nv4vpxh5vrpn0xw8geej8dw3g39g7nqp8mrm307ypssksau29af'
-          },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg'
+          }
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -9503,6 +9501,7 @@ const assets: AssetList = {
         }]
     },
     {
+      name: 'uoprek',
       description: 'uoprek',
       denom_units: [{
           denom: 'ibc/156C8BCC21BD4109444240C5138A5239C4432127B8E092B55369405452F86C63',
@@ -9510,7 +9509,6 @@ const assets: AssetList = {
           aliases: ['tf/nibi149m52kn7nvsg5nftvv4fh85scsavpdfxp5nr7zasz97dum89dp5qkyhy0t/uoprek']
         }],
       base: 'ibc/156C8BCC21BD4109444240C5138A5239C4432127B8E092B55369405452F86C63',
-      name: 'uoprek',
       display: 'tf/nibi149m52kn7nvsg5nftvv4fh85scsavpdfxp5nr7zasz97dum89dp5qkyhy0t/uoprek',
       symbol: 'UOPREK',
       type_asset: 'sdk.coin',
@@ -9527,6 +9525,7 @@ const assets: AssetList = {
         }]
     },
     {
+      name: 'utestate',
       description: 'utestate',
       denom_units: [{
           denom: 'ibc/057AE0D6341E14801F21207D500B9F0230DC26011DA23DE28EE03BCE837E4CFD',
@@ -9534,7 +9533,6 @@ const assets: AssetList = {
           aliases: ['tf/nibi1lp28kx3gz0prsztl024z730ufkg3alahaq3e7a6gae22nk0dqdvsyrrgqw/utestate']
         }],
       base: 'ibc/057AE0D6341E14801F21207D500B9F0230DC26011DA23DE28EE03BCE837E4CFD',
-      name: 'utestate',
       display: 'tf/nibi1lp28kx3gz0prsztl024z730ufkg3alahaq3e7a6gae22nk0dqdvsyrrgqw/utestate',
       symbol: 'UTESTATE',
       type_asset: 'sdk.coin',
@@ -9551,6 +9549,7 @@ const assets: AssetList = {
         }]
     },
     {
+      name: 'npp',
       description: 'npp',
       denom_units: [{
           denom: 'ibc/ADEC8C91DF95EA9215BD0EE2743CEC78F3350D99907AFDA13A9CCE1899FFA1D9',
@@ -9558,7 +9557,6 @@ const assets: AssetList = {
           aliases: ['tf/nibi1xpp7yn0tce62ffattws3gpd6v0tah0mlevef3ej3r4pnfvsehcgqk3jvxq/NPP']
         }],
       base: 'ibc/ADEC8C91DF95EA9215BD0EE2743CEC78F3350D99907AFDA13A9CCE1899FFA1D9',
-      name: 'npp',
       display: 'tf/nibi1xpp7yn0tce62ffattws3gpd6v0tah0mlevef3ej3r4pnfvsehcgqk3jvxq/NPP',
       symbol: 'NPP',
       type_asset: 'sdk.coin',

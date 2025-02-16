@@ -68,7 +68,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.svg'
       },
-      coingecko_id: 'arable-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.svg',
@@ -5203,7 +5202,8 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Nibiru network',
+      name: 'Nibiru',
+      description: 'The native token of Nibiru blockchain',
       socials: {
         website: 'https://nibiru.fi',
         twitter: 'https://twitter.com/nibiruchain'
@@ -5224,7 +5224,6 @@ const assets: AssetList = {
         }
       ],
       base: 'ibc/4017C65CEA338196ECCEC3FE3FE8258F23D1DE88F1D95750CC912C7A1C1016FF',
-      name: 'Nibiru',
       display: 'nibi',
       symbol: 'NIBI',
       logo_URIs: {
@@ -5253,6 +5252,7 @@ const assets: AssetList = {
         }]
     },
     {
+      name: 'Astrovault token',
       description: 'AXV',
       socials: {
         website: 'https://astrovault.io/',
@@ -5267,7 +5267,6 @@ const assets: AssetList = {
           exponent: 6
         }],
       base: 'ibc/478488928056E6D881185E48D7CC499E17F038219467A4A2952AE58C901E5747',
-      name: 'AXV',
       display: 'AXV',
       symbol: 'AXV',
       logo_URIs: {
@@ -5275,12 +5274,12 @@ const assets: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg'
       },
       images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg',
           image_sync: {
             chain_name: 'neutron',
             base_denom: 'cw20:neutron10dxyft3nv4vpxh5vrpn0xw8geej8dw3g39g7nqp8mrm307ypssksau29af'
-          },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg'
+          }
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -5296,6 +5295,7 @@ const assets: AssetList = {
         }]
     },
     {
+      name: 'uoprek',
       description: 'uoprek',
       denom_units: [{
           denom: 'ibc/A6A1B44D1234A9481D2BA8AD777804E40F42C4B57002072CF2E54462870038CA',
@@ -5303,7 +5303,6 @@ const assets: AssetList = {
           aliases: ['tf/nibi149m52kn7nvsg5nftvv4fh85scsavpdfxp5nr7zasz97dum89dp5qkyhy0t/uoprek']
         }],
       base: 'ibc/A6A1B44D1234A9481D2BA8AD777804E40F42C4B57002072CF2E54462870038CA',
-      name: 'uoprek',
       display: 'tf/nibi149m52kn7nvsg5nftvv4fh85scsavpdfxp5nr7zasz97dum89dp5qkyhy0t/uoprek',
       symbol: 'UOPREK',
       type_asset: 'sdk.coin',
@@ -5320,6 +5319,7 @@ const assets: AssetList = {
         }]
     },
     {
+      name: 'utestate',
       description: 'utestate',
       denom_units: [{
           denom: 'ibc/93439CEF023602D42D8B4F2D0F483730E1A8CC52891AA668CF68DAC984A8FA26',
@@ -5327,7 +5327,6 @@ const assets: AssetList = {
           aliases: ['tf/nibi1lp28kx3gz0prsztl024z730ufkg3alahaq3e7a6gae22nk0dqdvsyrrgqw/utestate']
         }],
       base: 'ibc/93439CEF023602D42D8B4F2D0F483730E1A8CC52891AA668CF68DAC984A8FA26',
-      name: 'utestate',
       display: 'tf/nibi1lp28kx3gz0prsztl024z730ufkg3alahaq3e7a6gae22nk0dqdvsyrrgqw/utestate',
       symbol: 'UTESTATE',
       type_asset: 'sdk.coin',
@@ -5344,6 +5343,7 @@ const assets: AssetList = {
         }]
     },
     {
+      name: 'npp',
       description: 'npp',
       denom_units: [{
           denom: 'ibc/553D4B783DD4599E28138D5874FFED5D4648ACAF169A04ABEAFAAFE900A019CC',
@@ -5351,7 +5351,6 @@ const assets: AssetList = {
           aliases: ['tf/nibi1xpp7yn0tce62ffattws3gpd6v0tah0mlevef3ej3r4pnfvsehcgqk3jvxq/NPP']
         }],
       base: 'ibc/553D4B783DD4599E28138D5874FFED5D4648ACAF169A04ABEAFAAFE900A019CC',
-      name: 'npp',
       display: 'tf/nibi1xpp7yn0tce62ffattws3gpd6v0tah0mlevef3ej3r4pnfvsehcgqk3jvxq/NPP',
       symbol: 'NPP',
       type_asset: 'sdk.coin',
@@ -6107,7 +6106,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.svg'
       },
-      coingecko_id: 'arable-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.svg',
@@ -11242,7 +11240,8 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Nibiru network',
+      name: 'Nibiru',
+      description: 'The native token of Nibiru blockchain',
       socials: {
         website: 'https://nibiru.fi',
         twitter: 'https://twitter.com/nibiruchain'
@@ -11263,7 +11262,6 @@ const assets: AssetList = {
         }
       ],
       base: 'ibc/4017C65CEA338196ECCEC3FE3FE8258F23D1DE88F1D95750CC912C7A1C1016FF',
-      name: 'Nibiru',
       display: 'nibi',
       symbol: 'NIBI',
       logo_URIs: {
@@ -11292,6 +11290,7 @@ const assets: AssetList = {
         }]
     },
     {
+      name: 'Astrovault token',
       description: 'AXV',
       socials: {
         website: 'https://astrovault.io/',
@@ -11306,7 +11305,6 @@ const assets: AssetList = {
           exponent: 6
         }],
       base: 'ibc/478488928056E6D881185E48D7CC499E17F038219467A4A2952AE58C901E5747',
-      name: 'AXV',
       display: 'AXV',
       symbol: 'AXV',
       logo_URIs: {
@@ -11314,12 +11312,12 @@ const assets: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg'
       },
       images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg',
           image_sync: {
             chain_name: 'neutron',
             base_denom: 'cw20:neutron10dxyft3nv4vpxh5vrpn0xw8geej8dw3g39g7nqp8mrm307ypssksau29af'
-          },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg'
+          }
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -11335,6 +11333,7 @@ const assets: AssetList = {
         }]
     },
     {
+      name: 'uoprek',
       description: 'uoprek',
       denom_units: [{
           denom: 'ibc/A6A1B44D1234A9481D2BA8AD777804E40F42C4B57002072CF2E54462870038CA',
@@ -11342,7 +11341,6 @@ const assets: AssetList = {
           aliases: ['tf/nibi149m52kn7nvsg5nftvv4fh85scsavpdfxp5nr7zasz97dum89dp5qkyhy0t/uoprek']
         }],
       base: 'ibc/A6A1B44D1234A9481D2BA8AD777804E40F42C4B57002072CF2E54462870038CA',
-      name: 'uoprek',
       display: 'tf/nibi149m52kn7nvsg5nftvv4fh85scsavpdfxp5nr7zasz97dum89dp5qkyhy0t/uoprek',
       symbol: 'UOPREK',
       type_asset: 'sdk.coin',
@@ -11359,6 +11357,7 @@ const assets: AssetList = {
         }]
     },
     {
+      name: 'utestate',
       description: 'utestate',
       denom_units: [{
           denom: 'ibc/93439CEF023602D42D8B4F2D0F483730E1A8CC52891AA668CF68DAC984A8FA26',
@@ -11366,7 +11365,6 @@ const assets: AssetList = {
           aliases: ['tf/nibi1lp28kx3gz0prsztl024z730ufkg3alahaq3e7a6gae22nk0dqdvsyrrgqw/utestate']
         }],
       base: 'ibc/93439CEF023602D42D8B4F2D0F483730E1A8CC52891AA668CF68DAC984A8FA26',
-      name: 'utestate',
       display: 'tf/nibi1lp28kx3gz0prsztl024z730ufkg3alahaq3e7a6gae22nk0dqdvsyrrgqw/utestate',
       symbol: 'UTESTATE',
       type_asset: 'sdk.coin',
@@ -11383,6 +11381,7 @@ const assets: AssetList = {
         }]
     },
     {
+      name: 'npp',
       description: 'npp',
       denom_units: [{
           denom: 'ibc/553D4B783DD4599E28138D5874FFED5D4648ACAF169A04ABEAFAAFE900A019CC',
@@ -11390,7 +11389,6 @@ const assets: AssetList = {
           aliases: ['tf/nibi1xpp7yn0tce62ffattws3gpd6v0tah0mlevef3ej3r4pnfvsehcgqk3jvxq/NPP']
         }],
       base: 'ibc/553D4B783DD4599E28138D5874FFED5D4648ACAF169A04ABEAFAAFE900A019CC',
-      name: 'npp',
       display: 'tf/nibi1xpp7yn0tce62ffattws3gpd6v0tah0mlevef3ej3r4pnfvsehcgqk3jvxq/NPP',
       symbol: 'NPP',
       type_asset: 'sdk.coin',
@@ -33025,16 +33023,6 @@ const assets: AssetList = {
       name: 'Whale Token',
       display: 'whale',
       symbol: 'WHALE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
-      },
-      coingecko_id: 'white-whale',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png',
-          theme: {
-            primary_color_hex: '#43b24b'
-          }
-        }],
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -33046,6 +33034,16 @@ const assets: AssetList = {
           chain: {
             port: 'transfer',
             channel_id: 'channel-78488'
+          }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
+      },
+      coingecko_id: 'white-whale',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png',
+          theme: {
+            primary_color_hex: '#43b24b'
           }
         }]
     },
@@ -41901,16 +41899,6 @@ const assets: AssetList = {
       name: 'Whale Token',
       display: 'whale',
       symbol: 'WHALE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
-      },
-      coingecko_id: 'white-whale',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png',
-          theme: {
-            primary_color_hex: '#43b24b'
-          }
-        }],
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -41922,6 +41910,16 @@ const assets: AssetList = {
           chain: {
             port: 'transfer',
             channel_id: 'channel-78488'
+          }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
+      },
+      coingecko_id: 'white-whale',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png',
+          theme: {
+            primary_color_hex: '#43b24b'
           }
         }]
     },

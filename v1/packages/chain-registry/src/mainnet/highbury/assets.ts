@@ -16,6 +16,14 @@ const info: AssetList = {
       name: 'Fury',
       display: 'fury',
       symbol: 'FURY',
+      traces: [{
+          type: 'legacy-mintage',
+          counterparty: {
+            chain_name: 'furya',
+            base_denom: 'ufury'
+          },
+          provider: 'Furya'
+        }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/fury.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/fury.svg'

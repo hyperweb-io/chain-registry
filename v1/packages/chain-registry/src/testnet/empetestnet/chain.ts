@@ -5,7 +5,7 @@ const info: Chain = {
   chain_type: 'cosmos',
   chain_id: 'empe-testnet-2',
   website: 'https://empe.io',
-  pretty_name: 'Empe',
+  pretty_name: 'Empe Testnet',
   status: 'live',
   network_type: 'testnet',
   bech32_prefix: 'empe',
