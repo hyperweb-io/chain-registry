@@ -6625,6 +6625,48 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Side Chain.',
+      denom_units: [{
+          denom: 'ibc/455D091764013CCE79DC24ABA70230E97AE735A12D5833B4BCEA7B133BFC0F08',
+          exponent: 0,
+          aliases: ['uside']
+        }, {
+          denom: 'side',
+          exponent: 6
+        }],
+      base: 'ibc/455D091764013CCE79DC24ABA70230E97AE735A12D5833B4BCEA7B133BFC0F08',
+      name: 'Side Chain native token',
+      display: 'side',
+      symbol: 'SIDE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.svg',
+          theme: {
+            primary_color_hex: '#f7771a'
+          }
+        }],
+      socials: {
+        website: 'https://side.one',
+        twitter: 'https://x.com/SideProtocol'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-4',
+            base_denom: 'uside',
+            chain_name: 'sidechain'
+          },
+          chain: {
+            channel_id: 'channel-429'
+          }
+        }]
+    },
+    {
       description: 'Somm Token (SOMM) is the native staking token of the Sommelier Chain',
       denom_units: [
         {
@@ -12503,6 +12545,48 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-88'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Side Chain.',
+      denom_units: [{
+          denom: 'ibc/455D091764013CCE79DC24ABA70230E97AE735A12D5833B4BCEA7B133BFC0F08',
+          exponent: 0,
+          aliases: ['uside']
+        }, {
+          denom: 'side',
+          exponent: 6
+        }],
+      base: 'ibc/455D091764013CCE79DC24ABA70230E97AE735A12D5833B4BCEA7B133BFC0F08',
+      name: 'Side Chain native token',
+      display: 'side',
+      symbol: 'SIDE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.svg',
+          theme: {
+            primary_color_hex: '#f7771a'
+          }
+        }],
+      socials: {
+        website: 'https://side.one',
+        twitter: 'https://x.com/SideProtocol'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-4',
+            base_denom: 'uside',
+            chain_name: 'sidechain'
+          },
+          chain: {
+            channel_id: 'channel-429'
           }
         }]
     },

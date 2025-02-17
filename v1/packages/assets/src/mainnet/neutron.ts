@@ -7006,6 +7006,48 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Side Chain.',
+      denom_units: [{
+          denom: 'ibc/8B42809DBB72F52A05545F347C965561E5795F77D3E62BC1F9E5E2AE291BF2B3',
+          exponent: 0,
+          aliases: ['uside']
+        }, {
+          denom: 'side',
+          exponent: 6
+        }],
+      base: 'ibc/8B42809DBB72F52A05545F347C965561E5795F77D3E62BC1F9E5E2AE291BF2B3',
+      name: 'Side Chain native token',
+      display: 'side',
+      symbol: 'SIDE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.svg',
+          theme: {
+            primary_color_hex: '#f7771a'
+          }
+        }],
+      socials: {
+        website: 'https://side.one',
+        twitter: 'https://x.com/SideProtocol'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'uside',
+            chain_name: 'sidechain'
+          },
+          chain: {
+            channel_id: 'channel-6561'
+          }
+        }]
+    },
+    {
       description: 'Stargaze is a decentralized blockchain platform designed specifically for non-fungible tokens (NFTs), enabling creators to mint, trade, and interact with NFTs in a fully decentralized environment.',
       denom_units: [{
           denom: 'ibc/A139C0E0B5E87CBA8EAEEB12B9BEE13AC7C814CFBBFA87BBCADD67E31003466C',
@@ -11943,6 +11985,48 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-2016'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Side Chain.',
+      denom_units: [{
+          denom: 'ibc/8B42809DBB72F52A05545F347C965561E5795F77D3E62BC1F9E5E2AE291BF2B3',
+          exponent: 0,
+          aliases: ['uside']
+        }, {
+          denom: 'side',
+          exponent: 6
+        }],
+      base: 'ibc/8B42809DBB72F52A05545F347C965561E5795F77D3E62BC1F9E5E2AE291BF2B3',
+      name: 'Side Chain native token',
+      display: 'side',
+      symbol: 'SIDE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.svg',
+          theme: {
+            primary_color_hex: '#f7771a'
+          }
+        }],
+      socials: {
+        website: 'https://side.one',
+        twitter: 'https://x.com/SideProtocol'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'uside',
+            chain_name: 'sidechain'
+          },
+          chain: {
+            channel_id: 'channel-6561'
           }
         }]
     },
