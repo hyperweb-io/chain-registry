@@ -114,7 +114,8 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
-      }
+      },
+      coingeckoId: 'cosmos'
     },
     {
       description: 'The native staking and governance token of the Kujira chain.',
@@ -201,7 +202,8 @@ const info: AssetList = {
             circle: true,
             primaryColorHex: '#2775CA'
           }
-        }]
+        }],
+      coingeckoId: 'usd-coin'
     },
     {
       description: 'The native staking and governance token of the Secret chain.',
@@ -243,7 +245,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#040404'
           }
-        }]
+        }],
+      coingeckoId: 'secret'
     }
   ]
 };

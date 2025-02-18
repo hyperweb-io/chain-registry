@@ -77,7 +77,8 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg'
-      }
+      },
+      coingeckoId: 'tether'
     },
     {
       description: 'FX on Cosmos Hub',
@@ -117,7 +118,8 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.svg'
-      }
+      },
+      coingeckoId: 'fx-coin'
     },
     {
       description: 'The token of Crowdpunk DAO',

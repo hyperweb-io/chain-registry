@@ -38,7 +38,8 @@ const info: AssetList = {
             primaryColorHex: '#335350'
           }
         }],
-      typeAsset: 'sdk.coin'
+      typeAsset: 'sdk.coin',
+      coingeckoId: 'kyve-network'
     }]
 };
 export default info;

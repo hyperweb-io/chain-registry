@@ -134,7 +134,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#2474cc'
           }
-        }]
+        }],
+      coingeckoId: 'axlusdc'
     },
     {
       description: 'Ethereum (ETH) is a decentralized, open-source blockchain system featuring smart contract functionality. It\'s the native cryptocurrency of the Ethereum platform, often regarded as the second most popular digital currency after Bitcoin. Ethereum was proposed in late 2013 and development was crowdfunded in 2014, leading to its network going live on 30 July 2015.\n\nETH, as a digital currency, is used for a variety of purposes within the Ethereum ecosystem, including the execution of decentralized smart contracts and as a mode of payment. Unlike Bitcoin, Ethereum was designed to be a platform for applications that can operate without the need for intermediaries, using blockchain technology. This has made Ethereum a leading platform for various applications, including decentralized finance (DeFi), non-fungible tokens (NFTs), and more. Ethereum is constantly evolving, with a significant upgrade termed Ethereum 2.0, which aims to improve its scalability, security, and sustainability.',
@@ -207,7 +208,8 @@ const info: AssetList = {
             primaryColorHex: '#303030'
           }
         }
-      ]
+      ],
+      coingeckoId: 'axlweth'
     },
     {
       description: 'Wrapped Bitcoin on Axelar',
@@ -273,7 +275,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#41394d'
           }
-        }]
+        }],
+      coingeckoId: 'axlwbtc'
     },
     {
       description: 'Tether\'s USD stablecoin on Axelar',
@@ -342,7 +345,8 @@ const info: AssetList = {
             primaryColorHex: '#009393',
             backgroundColorHex: '#009393'
           }
-        }]
+        }],
+      coingeckoId: 'axelar-usdt'
     },
     {
       description: 'Multi-Collateral Dai, brings a lot of new and exciting features, such as support for new CDP collateral types and Dai Savings Rate.',
@@ -502,7 +506,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#272d45'
           }
-        }]
+        }],
+      coingeckoId: 'cosmos'
     },
     {
       description: 'CRO is the native token of the Crypto.org Chain, referred to as Native CRO.',
@@ -545,7 +550,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#0c2c71'
           }
-        }]
+        }],
+      coingeckoId: 'crypto-com-chain'
     },
     {
       description: 'BNB powers the BNB Chain ecosystem and is the native coin of the BNB Beacon Chain and BNB Smart Chain.',
@@ -786,7 +792,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#fcdb5b'
           }
-        }]
+        }],
+      coingeckoId: 'terra-luna'
     },
     {
       description: 'The native token of JUNO Chain',
@@ -829,7 +836,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#fa7b7b'
           }
-        }]
+        }],
+      coingeckoId: 'juno-network'
     },
     {
       description: 'Wrapped Polkadot on Axelar',
@@ -934,7 +942,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#ec4c34'
           }
-        }]
+        }],
+      coingeckoId: 'evmos'
     },
     {
       description: 'The native staking and governance token of Kava',
@@ -977,7 +986,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#e64942'
           }
-        }]
+        }],
+      coingeckoId: 'kava'
     },
     {
       description: 'The native token of Secret Network',
@@ -1017,7 +1027,8 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg'
-        }]
+        }],
+      coingeckoId: 'secret'
     },
     {
       description: 'The USD stablecoin of Terra Classic.',
@@ -1069,7 +1080,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#5493f2'
           }
-        }]
+        }],
+      coingeckoId: 'terrausd'
     },
     {
       description: 'The native token of Stargaze',
@@ -1112,7 +1124,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#db2777'
           }
-        }]
+        }],
+      coingeckoId: 'stargaze'
     },
     {
       description: 'The native token of Chihuahua Chain',
@@ -1155,7 +1168,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#343434'
           }
-        }]
+        }],
+      coingeckoId: 'chihuahua-token'
     },
     {
       description: 'The XPRT token is primarily a governance token for the Persistence chain.',
@@ -1200,7 +1214,8 @@ const info: AssetList = {
             primaryColorHex: '#E59636',
             backgroundColorHex: '#000000'
           }
-        }]
+        }],
+      coingeckoId: 'persistence'
     },
     {
       description: 'pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets. Stakers of PoS tokens can stake their assets while maintaining the liquidity of these assets. Users earn staking rewards + receive 1:1 pegged staked representative tokens which can be used to generate additional yield.',
@@ -1320,7 +1335,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#bc342c'
           }
-        }]
+        }],
+      coingeckoId: 'akash-network'
     },
     {
       description: 'REGEN coin is the token for the Regen Network Platform',
@@ -1363,7 +1379,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#56b790'
           }
-        }]
+        }],
+      coingeckoId: 'regen'
     },
     {
       description: 'DVPN is the native token of the Sentinel Hub.',
@@ -1406,7 +1423,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#10a7ef'
           }
-        }]
+        }],
+      coingeckoId: 'sentinel'
     },
     {
       description: 'The IRIS token is the native governance token for the IrisNet chain.',
@@ -1449,7 +1467,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#5664ad'
           }
-        }]
+        }],
+      coingeckoId: 'iris-network'
     },
     {
       description: 'IOV coin is the token for the Starname (IOV) Asset Name Service',
@@ -1492,7 +1511,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#5c64b4'
           }
-        }]
+        }],
+      coingeckoId: 'starname'
     },
     {
       description: 'e-Money NGM staking token. In addition to earning staking rewards the token is bought back and burned based on e-Money stablecoin inflation.',
@@ -1535,7 +1555,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#caf2ea'
           }
-        }]
+        }],
+      coingeckoId: 'e-money'
     },
     {
       description: 'e-Money EUR stablecoin. Audited and backed by fiat EUR deposits and government bonds.',
@@ -1578,7 +1599,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#f4c808'
           }
-        }]
+        }],
+      coingeckoId: 'e-money-eur'
     },
     {
       description: 'LIKE is the native staking and governance token of LikeCoin chain, a Decentralized Publishing Infrastructure to empower content ownership, authenticity, and provenance.',
@@ -1621,7 +1643,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#2d656c'
           }
-        }]
+        }],
+      coingeckoId: 'likecoin'
     },
     {
       description: 'The native token of IXO Chain',
@@ -1664,7 +1687,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#2c4484'
           }
-        }]
+        }],
+      coingeckoId: 'ixo'
     },
     {
       description: 'The BCNA coin is the transactional token within the BitCanna network, serving the legal cannabis industry through its payment network, supply chain and trust network.',
@@ -1707,7 +1731,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#3cc494'
           }
-        }]
+        }],
+      coingeckoId: 'bitcanna'
     },
     {
       description: 'BitSong Native Token',
@@ -1750,7 +1775,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#c8307f'
           }
-        }]
+        }],
+      coingeckoId: 'bitsong'
     },
     {
       description: 'The native token of Ki Chain',
@@ -1793,7 +1819,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#1c04fc'
           }
-        }]
+        }],
+      coingeckoId: 'ki'
     },
     {
       description: 'Panacea is a public blockchain launched by MediBloc, which is the key infrastructure for reinventing the patient-centered healthcare data ecosystem',
@@ -1836,7 +1863,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#2474ec'
           }
-        }]
+        }],
+      coingeckoId: 'medibloc'
     },
     {
       description: 'The staking token of Bostrom',
@@ -1876,7 +1904,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#4cea4e'
           }
-        }]
+        }],
+      coingeckoId: 'bostrom'
     },
     {
       description: 'Native Token of Comdex Protocol',
@@ -1919,7 +1948,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#fc4454'
           }
-        }]
+        }],
+      coingeckoId: 'comdex'
     },
     {
       description: 'Native token for the cheqd network',
@@ -1962,7 +1992,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#fc5f04'
           }
-        }]
+        }],
+      coingeckoId: 'cheqd-network'
     },
     {
       description: 'Native token of the Lum Network',
@@ -2005,7 +2036,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#080808'
           }
-        }]
+        }],
+      coingeckoId: 'lum-network'
     },
     {
       description: 'The native token of Vidulum',
@@ -2059,7 +2091,8 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.svg'
         }],
-      keywords: ['osmosis_unstable']
+      keywords: ['osmosis_unstable'],
+      coingeckoId: 'vidulum'
     },
     {
       description: 'The native token of Desmos',
@@ -2102,7 +2135,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#fb804e'
           }
-        }]
+        }],
+      coingeckoId: 'desmos'
     },
     {
       description: 'Native token of Dig Chain',
@@ -2195,7 +2229,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#f36353'
           }
-        }]
+        }],
+      coingeckoId: 'sommelier'
     },
     {
       description: 'The native token of BandChain',
@@ -2238,7 +2273,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#4424e4'
           }
-        }]
+        }],
+      coingeckoId: 'band-protocol'
     },
     {
       description: 'The native token of Konstellation Network',
@@ -2282,7 +2318,8 @@ const info: AssetList = {
             primaryColorHex: '#042a61'
           }
         }],
-      keywords: ['osmosis_unstable']
+      keywords: ['osmosis_unstable'],
+      coingeckoId: 'darcmatter-coin'
     },
     {
       description: 'The native token of Umee',
@@ -2325,7 +2362,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#22f2e9'
           }
-        }]
+        }],
+      coingeckoId: 'umee'
     },
     {
       description: 'The native token of Gravity Bridge',
@@ -2368,7 +2406,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#042ca4'
           }
-        }]
+        }],
+      coingeckoId: 'graviton'
     },
     {
       description: 'The native token of Decentr',
@@ -2411,7 +2450,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#4678e9'
           }
-        }]
+        }],
+      coingeckoId: 'decentr'
     },
     {
       description: 'The native token cw20 for Marble DAO on Juno Chain',
@@ -2500,7 +2540,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#a5edf2'
           }
-        }]
+        }],
+      coingeckoId: 'switcheo'
     },
     {
       description: 'The native token of Cerberus Chain',
@@ -2544,7 +2585,8 @@ const info: AssetList = {
             primaryColorHex: '#c6c6c9'
           }
         }],
-      keywords: ['osmosis_unstable']
+      keywords: ['osmosis_unstable'],
+      coingeckoId: 'cerberus-2'
     },
     {
       description: 'The native staking and governance token of the Fetch Hub.',
@@ -2587,7 +2629,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#1c2444'
           }
-        }]
+        }],
+      coingeckoId: 'fetch-ai'
     },
     {
       description: 'The native token of Asset Mantle',
@@ -2630,7 +2673,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#fbab30'
           }
-        }]
+        }],
+      coingeckoId: 'assetmantle'
     },
     {
       description: 'The native token cw20 for Neta on Juno Chain',
@@ -2675,7 +2719,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#f87b7b'
           }
-        }]
+        }],
+      coingeckoId: 'neta'
     },
     {
       description: 'The INJ token is the native governance token for the Injective chain.',
@@ -2718,7 +2763,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#04a2fc'
           }
-        }]
+        }],
+      coingeckoId: 'injective-protocol'
     },
     {
       description: 'The KRW stablecoin of Terra Classic.',
@@ -2857,7 +2903,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#be9926'
           }
-        }]
+        }],
+      coingeckoId: 'sifchain'
     },
     {
       description: 'The native token of Shentu',
@@ -2900,7 +2947,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#e4ac4c'
           }
-        }]
+        }],
+      coingeckoId: 'certik'
     },
     {
       description: 'Hope Galaxy is an NFT collection based on its own native Token $HOPE, a cw20 token on Juno chain.',
@@ -2997,7 +3045,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#070f0e'
           }
-        }]
+        }],
+      coingeckoId: 'racoon'
     },
     {
       description: 'Frax is a fractional-algorithmic stablecoin protocol. It aims to provide a highly scalable, decentralized, algorithmic money in place of fixed-supply assets like BTC. Additionally, FXS is the value accrual and governance token of the entire Frax ecosystem.',
@@ -3624,7 +3673,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#b7dcd8'
           }
-        }]
+        }],
+      coingeckoId: 'meme-network'
     },
     {
       description: 'Profit sharing token for Another.Software validator. Hold and receive dividends from Another.Software validator commissions!',
@@ -3753,7 +3803,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#f4de6f'
           }
-        }]
+        }],
+      coingeckoId: 'terra-luna-2'
     },
     {
       description: 'Native token of Rizon Chain',
@@ -3796,7 +3847,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#2b1c54'
           }
-        }]
+        }],
+      coingeckoId: 'rizon'
     },
     {
       description: 'Governance token of Kava Lend Protocol',
@@ -3839,7 +3891,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#7b34ac'
           }
-        }]
+        }],
+      coingeckoId: 'kava-lend'
     },
     {
       description: 'Governance token of Kava Swap Protocol',
@@ -3882,7 +3935,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#544cfc'
           }
-        }]
+        }],
+      coingeckoId: 'kava-swap'
     },
     {
       description: 'A blockchain-based middleware, acting as a bridge between cryptocurrency smart contracts, data feeds, APIs and traditional bank account payments.',
@@ -4269,7 +4323,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#e33b34'
           }
-        }]
+        }],
+      coingeckoId: 'kujira'
     },
     {
       description: 'The native token of Tgrade',
@@ -4831,7 +4886,8 @@ const info: AssetList = {
             primaryColorHex: '#000000'
           }
         }
-      ]
+      ],
+      coingeckoId: 'oraichain-token'
     },
     {
       description: 'The native token of the Cudos blockchain',
@@ -4874,7 +4930,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#5d95ec'
           }
-        }]
+        }],
+      coingeckoId: 'cudos'
     },
     {
       description: 'The native stablecoin of Kava',
@@ -4917,7 +4974,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#04d4a3'
           }
-        }]
+        }],
+      coingeckoId: 'usdx'
     },
     {
       description: 'BLD is the token used to secure the Agoric chain through staking and to backstop Inter Protocol.',
@@ -4960,7 +5018,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#c42b44'
           }
-        }]
+        }],
+      coingeckoId: 'agoric'
     },
     {
       description: 'IST is the stable token used by the Agoric chain for execution fees and commerce.',
@@ -5003,7 +5062,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#d485e2'
           }
-        }]
+        }],
+      coingeckoId: 'inter-stable-token'
     },
     {
       description: 'Staking derivative seJUNO for staked JUNO',
@@ -5136,7 +5196,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#e4047c'
           }
-        }]
+        }],
+      coingeckoId: 'stride'
     },
     {
       denomUnits: [{
@@ -5185,7 +5246,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#e40474'
           }
-        }]
+        }],
+      coingeckoId: 'stride-staked-atom'
     },
     {
       denomUnits: [{
@@ -5234,7 +5296,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#e40474'
           }
-        }]
+        }],
+      coingeckoId: 'stride-staked-stars'
     },
     {
       description: 'Solarbank DAO Governance Token for speeding up the shift to renewable and green energy',
@@ -5367,7 +5430,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#040404'
           }
-        }]
+        }],
+      coingeckoId: 'axelar'
     },
     {
       description: 'REBUS, the native coin of the Rebus chain.',
@@ -5410,7 +5474,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#e75486'
           }
-        }]
+        }],
+      coingeckoId: 'rebus'
     },
     {
       description: 'The native token of Teritori',
@@ -5453,7 +5518,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#040404'
           }
-        }]
+        }],
+      coingeckoId: 'teritori'
     },
     {
       denomUnits: [{
@@ -5502,7 +5568,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#e40474'
           }
-        }]
+        }],
+      coingeckoId: 'stride-staked-juno'
     },
     {
       denomUnits: [{
@@ -5551,7 +5618,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#e40474'
           }
-        }]
+        }],
+      coingeckoId: 'stride-staked-osmo'
     },
     {
       description: 'The native token cw20 for MuseDAO on Juno Chain',
@@ -5637,7 +5705,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#e41c54'
           }
-        }]
+        }],
+      coingeckoId: 'lambda'
     },
     {
       description: 'The native over-collateralized stablecoin from the Kujira chain.',
@@ -5680,7 +5749,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#2e363f'
           }
-        }]
+        }],
+      coingeckoId: 'usk'
     },
     {
       description: 'Staking and governance coin for the Unification Blockchain',
@@ -5723,7 +5793,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#2279c0'
           }
-        }]
+        }],
+      coingeckoId: 'unification'
     },
     {
       description: 'The native staking and governance token of Jackal.',
@@ -5766,7 +5837,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#dbdbcb'
           }
-        }]
+        }],
+      coingeckoId: 'jackal-protocol'
     },
     {
       description: 'The native token cw20 for Alter on Secret Network',
@@ -5811,7 +5883,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#694c90'
           }
-        }]
+        }],
+      coingeckoId: 'alter'
     },
     {
       description: 'The native token cw20 for Button on Secret Network',
@@ -5942,7 +6015,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#2c2c2c'
           }
-        }]
+        }],
+      coingeckoId: 'sienna'
     },
     {
       description: 'The native token cw20 for SCRT Staking Derivatives on Secret Network',
@@ -5987,7 +6061,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#b8a2dc'
           }
-        }]
+        }],
+      coingeckoId: 'stkd-scrt'
     },
     {
       description: 'BeeZee native blockchain',
@@ -6030,7 +6105,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#079fd7'
           }
-        }]
+        }],
+      coingeckoId: 'bzedge'
     },
     {
       description: 'The native token cw20 for Fanfury on Juno Chain',
@@ -6166,7 +6242,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#040404'
           }
-        }]
+        }],
+      coingeckoId: 'composite'
     },
     {
       description: 'The native EVM, governance and staking token of the Imversed',
@@ -6302,7 +6379,8 @@ const info: AssetList = {
       socials: {
         website: 'https://posthuman.digital/',
         twitter: 'https://twitter.com/POSTHUMAN_DVS'
-      }
+      },
+      coingeckoId: 'posthuman'
     },
     {
       description: 'The native token cw20 for Amber on Secret Network',
@@ -6396,7 +6474,8 @@ const info: AssetList = {
         'stablecoin',
         'bridge',
         'staking'
-      ]
+      ],
+      coingeckoId: 'onomy-protocol'
     },
     {
       description: 'PSTAKE Liquid-Staked ATOM',
@@ -6447,7 +6526,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#c4444c'
           }
-        }]
+        }],
+      coingeckoId: 'stkatom'
     },
     {
       description: 'The native staking and governance token of the Dyson Protocol',
@@ -6618,7 +6698,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#d4f3fb'
           }
-        }]
+        }],
+      coingeckoId: 'planq'
     },
     {
       description: 'Fantom\'s native utility token — FTM — powers the entire Fantom blockchain ecosystem. FTM tokens are used for staking, governance, payments, and fees on the network.',
@@ -6725,7 +6806,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#1c1f1f'
           }
-        }]
+        }],
+      coingeckoId: 'canto'
     },
     {
       description: 'Quicksilver Liquid Staked STARS',
@@ -7023,7 +7105,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#000000'
           }
-        }]
+        }],
+      coingeckoId: 'mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3'
     },
     {
       description: 'Ciento Exchange Token',
@@ -7483,7 +7566,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#b2b2b2'
           }
-        }]
+        }],
+      coingeckoId: 'quicksilver'
     },
     {
       description: 'The native token of Arkhadian',
@@ -7883,7 +7967,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#171c25'
           }
-        }]
+        }],
+      coingeckoId: 'toucan-protocol-nature-carbon-tonne'
     },
     {
       description: 'Celestims',
@@ -8227,7 +8312,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#c33635'
           }
-        }]
+        }],
+      coingeckoId: 'omniflix-network'
     },
     {
       description: 'Spacer',
@@ -8358,7 +8444,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#3142fc'
           }
-        }]
+        }],
+      coingeckoId: 'silk-bcec1136-561c-4706-a42c-8b67d0d7f7d2'
     },
     {
       description: 'Mille: the 1000th token on osmosis',
@@ -8603,7 +8690,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#342c52'
           }
-        }]
+        }],
+      coingeckoId: 'shade-protocol'
     },
     {
       description: 'The native token of Bluzelle',
@@ -8648,7 +8736,8 @@ const info: AssetList = {
             primaryColorHex: '#708ffc'
           }
         }],
-      keywords: ['bluzelle', 'game']
+      keywords: ['bluzelle', 'game'],
+      coingeckoId: 'bluzelle'
     },
     {
       description: 'Native token of Arbitrum',
@@ -9158,7 +9247,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#2e154d'
           }
-        }]
+        }],
+      coingeckoId: 'gitopia'
     },
     {
       description: 'Lion DAO is a community DAO that lives on the Terra blockchain with the mission to reactivate the LUNAtic community and showcase Terra protocols & tooling',
@@ -9201,7 +9291,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#f3f313'
           }
-        }]
+        }],
+      coingeckoId: 'lion-dao'
     },
     {
       denomUnits: [{
@@ -9250,7 +9341,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#fbd9e9'
           }
-        }]
+        }],
+      coingeckoId: 'stride-staked-umee'
     },
     {
       denomUnits: [{
@@ -9319,7 +9411,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#fc542c'
           }
-        }]
+        }],
+      coingeckoId: 'nolus'
     },
     {
       description: 'Lion Cub DAO is a useless meme community DAO on Terra',
@@ -9450,7 +9543,8 @@ const info: AssetList = {
             backgroundColorHex: '#000000',
             circle: true
           }
-        }]
+        }],
+      coingeckoId: 'neutron-3'
     },
     {
       description: 'An innovative DAO dedicated to housing the most vulnerable',
@@ -9538,7 +9632,8 @@ const info: AssetList = {
             baseDenom: 'ppica'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg'
-        }]
+        }],
+      coingeckoId: 'picasso'
     },
     {
       description: 'The native fee, governance, staking, and bonding token of the Polkadot platform.',
@@ -9772,7 +9867,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#fc4c04'
           }
-        }]
+        }],
+      coingeckoId: 'archway'
     },
     {
       description: 'The native staking and governance token of Empower.',
@@ -9908,7 +10004,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#335350'
           }
-        }]
+        }],
+      coingeckoId: 'kyve-network'
     },
     {
       description: 'Tether gives you the joint benefits of open blockchain technology and traditional currency by converting your cash into a stable digital currency equivalent.',
@@ -9977,7 +10074,8 @@ const info: AssetList = {
             primaryColorHex: '#009393',
             backgroundColorHex: '#009393'
           }
-        }]
+        }],
+      coingeckoId: 'tether'
     },
     {
       description: 'ERIS liquid staked OSMO',
@@ -10049,7 +10147,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#9c1c1c'
           }
-        }]
+        }],
+      coingeckoId: 'sei-network'
     },
     {
       description: 'Quicksilver Liquid Staked SOMM',
@@ -10141,7 +10240,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#05050c'
           }
-        }]
+        }],
+      coingeckoId: 'passage'
     },
     {
       denomUnits: [{
@@ -10190,7 +10290,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#e40474'
           }
-        }]
+        }],
+      coingeckoId: 'stride-staked-sommelier'
     },
     {
       description: 'Solana (SOL) is the native asset of the Solana blockchain.',
@@ -10527,7 +10628,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#0c141c'
           }
-        }]
+        }],
+      coingeckoId: 'mantadao'
     },
     {
       denomUnits: [{
@@ -10756,7 +10858,8 @@ const info: AssetList = {
             circle: true,
             primaryColorHex: '#2775CA'
           }
-        }]
+        }],
+      coingeckoId: 'usd-coin'
     },
     {
       description: 'Maximize ETH yield through leveraged staking across Aave, Compound and Morpho and liquidity provision of ETH liquid staking tokens on Uniswap V3.',
@@ -10860,7 +10963,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#04b4fc'
           }
-        }]
+        }],
+      coingeckoId: 'xpla'
     },
     {
       description: 'OIN Token ($OIN) is a groundbreaking digital asset developed on the $SEI Blockchain. It transcends being merely a cryptocurrency; $OIN stands as a robust store of value, symbolizing the future of decentralized finance and its potential to reshape the crypto landscape.',
@@ -10989,7 +11093,8 @@ const info: AssetList = {
             backgroundColorHex: '#000000',
             circle: true
           }
-        }]
+        }],
+      coingeckoId: 'realio-network'
     },
     {
       description: 'Membrane\'s CDP-style stablecoin called CDT',
@@ -11078,7 +11183,8 @@ const info: AssetList = {
             backgroundColorHex: '#00000000',
             circle: false
           }
-        }]
+        }],
+      coingeckoId: 'six-sigma'
     },
     {
       description: 'The native staking and governance token of the StaFi Hub.',
@@ -11116,7 +11222,8 @@ const info: AssetList = {
             baseDenom: 'ufis'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/fis.svg'
-        }]
+        }],
+      coingeckoId: 'stafi'
     },
     {
       description: 'A liquid staking representation of staked ATOMs',
@@ -11298,7 +11405,8 @@ const info: AssetList = {
         'assets',
         'nft',
         'XRPL'
-      ]
+      ],
+      coingeckoId: 'coreum'
     },
     {
       description: 'The native token of the Celestia blockchain.',
@@ -11341,7 +11449,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#7c2cfb'
           }
-        }]
+        }],
+      coingeckoId: 'celestia'
     },
     {
       description: 'DYDX is a decentralized trading platform focused on derivatives and perpetual contracts, offering a secure and efficient trading experience without intermediaries.',
@@ -11389,7 +11498,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#21212f'
           }
-        }]
+        }],
+      coingeckoId: 'dydx-chain'
     },
     {
       description: 'The native staking token of the Function X',
@@ -11432,7 +11542,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#1c1c1c'
           }
-        }]
+        }],
+      coingeckoId: 'fx-coin'
     },
     {
       description: 'Bitcoin. On Cosmos.',
@@ -11590,7 +11701,8 @@ const info: AssetList = {
             baseDenom: 'factory/kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh/unstk'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/nstk.svg'
-        }]
+        }],
+      coingeckoId: 'unstake-fi'
     },
     {
       description: 'ohhNFT LP token.',
@@ -11993,7 +12105,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#39a5fc'
           }
-        }]
+        }],
+      coingeckoId: 'source'
     },
     {
       description: 'Pyth is a protocol that allows market participants to publish pricing information on-chain for others to use. The protocol is an interaction between three parties:\n-Publishers submit pricing information to Pyth\'s oracle program. Pyth has multiple data publishers for every product to improve the accuracy and robustness of the system.\n-Pyth\'s oracle program combines publishers\' data to produce a single aggregate price and confidence interval.\nConsumers read the price information produced by the oracle program.\n\nPyth\'s oracle program runs simultaneously on both Solana mainnet and Pythnet. Each instance of the program is responsible for its own set of price feeds. Solana Price Feeds are available for use by Solana protocols. In this case, since the oracle program itself runs on Solana, the resulting prices are immediately available to consumers without requiring any additional work. Pythnet Price Feeds are available on 12+ blockchains. The prices constructed on Pythnet are transferred cross-chain to reach consumers on these blockchains.\n\nIn both cases, the critical component of the system is the oracle program that combines the data from each individual publisher. This program maintains a number of different Solana accounts that list the products on Pyth and their current price data. Publishers publish their price and confidence by interacting with the oracle program on every slot. The program stores this information in its accounts. The first price update in a slot additionally triggers price aggregation, which combines the price data from the previous slot into a single aggregate price and confidence interval. This aggregate price is written to the Solana account where it is readable by other on-chain programs and available for transmission to other blockchains.',
@@ -12090,7 +12203,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#c3343d'
           }
-        }]
+        }],
+      coingeckoId: 'pstake-staked-osmo'
     },
     {
       description: 'Levana Well-funded Perps is a protocol for perpetual swaps, which are leveraged trading contracts.',
@@ -12203,7 +12317,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#16233d'
           }
-        }]
+        }],
+      coingeckoId: 'newt'
     },
     {
       description: 'MilkyWay\'s liquid staked TIA',
@@ -12319,7 +12434,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#2b2434'
           }
-        }]
+        }],
+      coingeckoId: 'racoon'
     },
     {
       description: 'GUPPY',
@@ -12403,7 +12519,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#04cd80'
           }
-        }]
+        }],
+      coingeckoId: 'islamic-coin'
     },
     {
       description: '$AUTISM exists to celebrate autism as a superior biological tech stack for a changing world',
@@ -12445,7 +12562,8 @@ const info: AssetList = {
             primaryColorHex: '#040404'
           }
         }],
-      keywords: ['osmosis_unlisted']
+      keywords: ['osmosis_unlisted'],
+      coingeckoId: 'autism'
     },
     {
       description: 'The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.',
@@ -12590,7 +12708,8 @@ const info: AssetList = {
             backgroundColorHex: '#00468E',
             circle: true
           }
-        }]
+        }],
+      coingeckoId: 'dog-wif-nuchucks'
     },
     {
       description: 'Kleomedes Token',
@@ -12737,7 +12856,8 @@ const info: AssetList = {
             primaryColorHex: '#293a5d'
           }
         }
-      ]
+      ],
+      coingeckoId: 'nym'
     },
     {
       description: 'has a hat',
@@ -13456,7 +13576,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#f4e4d4'
           }
-        }]
+        }],
+      coingeckoId: 'dymension'
     },
     {
       description: 'Rapture insurance is the first ever P2P insurance platform on $OSMO. Get rewarded to take care of peoples loved ones after the Rapture.',
@@ -13539,7 +13660,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#4056e9'
           }
-        }]
+        }],
+      coingeckoId: 'astroport-fi'
     },
     {
       description: 'A clan of 11y bad kids crafting chaos on the Cosmos eco. One bad memecoin to rule them all  $BADKID. Airdropped to Badkids NFT holders and $STARS stakers. It\'s so bad, your wallet\'s throwing a tantrum for it.',
@@ -13685,7 +13807,8 @@ const info: AssetList = {
             darkMode: true,
             primaryColorHex: '#f3f3f3'
           }
-        }]
+        }],
+      coingeckoId: 'humans-ai'
     },
     {
       description: 'The token of Teledisko DAO.',
@@ -13771,7 +13894,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#0bc47e'
           }
-        }]
+        }],
+      coingeckoId: 'scorum'
     },
     {
       description: 'The native token of Chain4Energy',
@@ -13812,7 +13936,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#24344c'
           }
-        }]
+        }],
+      coingeckoId: 'chain4energy'
     },
     {
       description: 'Bitmos opens doors for BRC20 tokens to thrive alongside established players in the Cosmos Network, revolutionizing decentralized finance (DeFi) for all.',
@@ -14066,7 +14191,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#24241c'
           }
-        }]
+        }],
+      coingeckoId: 'aioz-network'
     },
     {
       description: 'Stride\'s liquid staked DYM',
@@ -14157,7 +14283,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#2e2d2a'
           }
-        }]
+        }],
+      coingeckoId: 'doki'
     },
     {
       description: 'Sail DAO is a liquidity deployment and management DAO built as a collaboration between the Osmosis and Migaloo Blockchains.',
@@ -14368,7 +14495,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#14c0ce'
           }
-        }]
+        }],
+      coingeckoId: 'nibiru'
     },
     {
       description: 'BEAST-ERC20 on injective',
@@ -14460,7 +14588,8 @@ const info: AssetList = {
             primaryColorHex: '#047e04'
           }
         }],
-      keywords: ['osmosis_unlisted']
+      keywords: ['osmosis_unlisted'],
+      coingeckoId: 'consciousdao'
     },
     {
       description: 'The memecoin built for the Celestia community',
@@ -14807,7 +14936,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#140c7c'
           }
-        }]
+        }],
+      coingeckoId: 'dhealth'
     },
     {
       description: 'The native token of Furya',
@@ -14902,7 +15032,8 @@ const info: AssetList = {
             primaryColorHex: '#000000',
             darkMode: false
           }
-        }]
+        }],
+      coingeckoId: 'saga-2'
     },
     {
       description: '$ATOM to $1,000 LFG!!',
@@ -14987,7 +15118,8 @@ const info: AssetList = {
             primaryColorHex: '#046ffc'
           }
         }],
-      keywords: ['osmosis_unlisted']
+      keywords: ['osmosis_unlisted'],
+      coingeckoId: 'shido-2'
     },
     {
       description: 'Decentralized Machine Learning',
@@ -15072,7 +15204,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#eacea5'
           }
-        }]
+        }],
+      coingeckoId: 'hava-coin'
     },
     {
       description: 'OnE mEmEcOiN tO cOnNeCt oL ImBeCiles - aNd in Da Cosmos BiNd DeM',
@@ -15188,7 +15321,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#4056e9'
           }
-        }]
+        }],
+      coingeckoId: 'astroport-fi'
     },
     {
       description: 'Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.',
@@ -16089,7 +16223,8 @@ const info: AssetList = {
       socials: {
         website: 'https://ai.nim.network/',
         twitter: 'https://twitter.com/nim_network'
-      }
+      },
+      coingeckoId: 'nim-network'
     },
     {
       description: 'The native token of SEDA Chain.',
@@ -16132,7 +16267,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#8178d1'
           }
-        }]
+        }],
+      coingeckoId: 'seda-2'
     },
     {
       description: 'Cosmos Airdrop Chat',
@@ -17980,7 +18116,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#e40474'
           }
-        }]
+        }],
+      coingeckoId: 'stride-staked-islm'
     },
     {
       description: 'The native token of Mande Network.',
@@ -18044,7 +18181,8 @@ const info: AssetList = {
       socials: {
         website: 'https://mande.network/',
         twitter: 'https://twitter.com/MandeNetwork'
-      }
+      },
+      coingeckoId: 'mande-network'
     },
     {
       description: 'The native token of Neutaro',
@@ -18087,7 +18225,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#cbfb06'
           }
-        }]
+        }],
+      coingeckoId: 'neutaro'
     },
     {
       description: 'Pepe Bruce Jenner',
@@ -18184,7 +18323,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#142c5c'
           }
-        }]
+        }],
+      coingeckoId: 'ondo-us-dollar-yield'
     },
     {
       description: 'Jacob Haertnellez Turtle. Launched by Jake\'s Personally appointed TURD Cult Leader..."NotSeanO\'Riley." TURD is going to lead the shitcoins of Cosmos! Or Rug You. It will be Jake\'s Fault. ',
@@ -18249,7 +18389,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#1c1c1c'
           }
-        }]
+        }],
+      coingeckoId: 'firmachain'
     },
     {
       description: 'An alloy of ETH asset variants on Osmosis.',
@@ -18399,7 +18540,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#6f043e'
           }
-        }]
+        }],
+      coingeckoId: 'lava-network'
     },
     {
       description: 'The native token of Penumbra.',
@@ -18752,7 +18894,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#cb0766'
           }
-        }]
+        }],
+      coingeckoId: 'router-protocol-2'
     },
     {
       description: 'An alloy of OP asset variants on Osmosis.',
@@ -19193,7 +19336,8 @@ const info: AssetList = {
             primaryColorHex: '#ffbc05',
             circle: true
           }
-        }]
+        }],
+      coingeckoId: 'deenar-gold'
     },
     {
       description: 'CosmoUSD',
@@ -19481,7 +19625,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#ef4136'
           }
-        }]
+        }],
+      coingeckoId: 'mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3'
     },
     {
       description: 'The native token of TON',
@@ -19804,7 +19949,8 @@ const info: AssetList = {
             primaryColorHex: '#0095D7',
             backgroundColorHex: '#FFFFFF'
           }
-        }]
+        }],
+      coingeckoId: 'monerium-eur-money'
     },
     {
       description: 'The native staking and governance token of Andromeda',
@@ -19845,7 +19991,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#040404'
           }
-        }]
+        }],
+      coingeckoId: 'andromeda-2'
     },
     {
       description: 'Chain-key Bitcoin bridged via Omnity Network.',
@@ -20171,7 +20318,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#04847c'
           }
-        }]
+        }],
+      coingeckoId: 'stratos'
     },
     {
       description: 'Uniswap UNI on Osmosis via Axelar',
@@ -21204,7 +21352,8 @@ const info: AssetList = {
             primaryColorHex: '#342c2c'
           }
         }
-      ]
+      ],
+      coingeckoId: 'mantra-dao'
     },
     {
       description: 'The native staking and governance token of AtomOne',
@@ -21414,7 +21563,8 @@ const info: AssetList = {
           theme: {
             circle: true
           }
-        }]
+        }],
+      coingeckoId: 'dragon-coin-2'
     },
     {
       description: 'Synternet is a blockchain that powers modular, interoperable data infrastructure across all major chains.',
@@ -21524,7 +21674,8 @@ const info: AssetList = {
             baseDenom: 'factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg'
-        }]
+        }],
+      coingeckoId: 'drop-staked-atom'
     },
     {
       description: 'The Sherpa memecoin',
@@ -21691,7 +21842,8 @@ const info: AssetList = {
             baseDenom: 'uxion'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
-        }]
+        }],
+      coingeckoId: 'xion-2'
     },
     {
       description: 'An alloy of FIL asset variants on Osmosis.',
@@ -21918,7 +22070,8 @@ const info: AssetList = {
             baseDenom: 'uelys'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png'
-        }]
+        }],
+      coingeckoId: 'elys-network'
     },
     {
       description: 'Aaron Network is an innovative platform for secure and private messaging, integrated into the blockchain ecosystem. We also offer a unique address reputation scoring system, ensuring that every user can interact with others confidently.',

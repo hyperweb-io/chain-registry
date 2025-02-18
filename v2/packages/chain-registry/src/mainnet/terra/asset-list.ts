@@ -2402,7 +2402,8 @@ const info: AssetList = {
         }],
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro-cw20.svg'
-      }
+      },
+      coingeckoId: 'astroport-fi'
     },
     {
       denomUnits: [{

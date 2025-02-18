@@ -32,15 +32,15 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/CoreumFoundation/coreum',
-    recommendedVersion: 'v3.0.3',
-    compatibleVersions: ['v3.0.3'],
+    recommendedVersion: 'v4.1.2',
+    compatibleVersions: ['v4.1.2'],
     binaries: {
-      "linux/amd64": 'https://github.com/CoreumFoundation/coreum/releases/download/v3.0.3/cored-linux-amd64?checksum=sha256:1719a32e6f8e8813d00cd86e1d8d02e893324d4f59fa7a1b8cedc5836140ecef',
-      "linux/arm64": 'https://github.com/CoreumFoundation/coreum/releases/download/v3.0.3/cored-linux-arm64?checksum=sha256:cfbbad6803c0327407e4dd222a108505e6ff9e294d7c86e34b6b895b96b61bbd'
+      "linux/amd64": 'https://github.com/CoreumFoundation/coreum/releases/download/v4.1.2/cored-linux-amd64?checksum=sha256:872b1eb6f2a77651401c7555b6b54eb2599e5de614acfcebeffce4384e7ab97a',
+      "linux/arm64": 'https://github.com/CoreumFoundation/coreum/releases/download/v4.1.2/cored-linux-arm64?checksum=sha256:0be2851639208dee0803b7a4a43c847770a5961afcd66644ead32e78f530f5ca'
     },
     consensus: {
       type: 'cometbft',
-      version: '0.37'
+      version: '0.38'
     },
     genesis: {
       name: 'v1',
@@ -51,7 +51,7 @@ const info: Chain = {
       version: '0.47'
     },
     cosmwasm: {
-      version: '0.44',
+      version: '0.45',
       enabled: true
     }
   },

@@ -548,7 +548,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#7c2cfb'
           }
-        }]
+        }],
+      coingeckoId: 'celestia'
     },
     {
       denomUnits: [{

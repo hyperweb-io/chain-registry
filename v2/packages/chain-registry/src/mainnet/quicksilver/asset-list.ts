@@ -396,7 +396,8 @@ const info: AssetList = {
             circle: true,
             primaryColorHex: '#2775CA'
           }
-        }]
+        }],
+      coingeckoId: 'usd-coin'
     },
     {
       description: 'Quicksilver Liquid Staked ARCH',

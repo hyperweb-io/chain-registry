@@ -36,7 +36,8 @@ const info: AssetList = {
             backgroundColorHex: '#f4941c',
             circle: true
           }
-        }]
+        }],
+      coingeckoId: 'bitcoin'
     }]
 };
 export default info;

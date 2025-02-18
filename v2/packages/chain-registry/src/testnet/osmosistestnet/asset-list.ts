@@ -259,7 +259,8 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.svg'
-        }]
+        }],
+      coingeckoId: 'juno-network'
     },
     {
       description: 'The native token of Mars Protocol',
@@ -369,7 +370,8 @@ const info: AssetList = {
             circle: true,
             primaryColorHex: '#2775CA'
           }
-        }]
+        }],
+      coingeckoId: 'usd-coin'
     },
     {
       description: 'Akash Token (AKT) is the Akash Network\'s native utility token, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.',
@@ -459,7 +461,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#335350'
           }
-        }]
+        }],
+      coingeckoId: 'kyve-network'
     },
     {
       description: 'QCK - native token of Quicksilver',
@@ -498,7 +501,8 @@ const info: AssetList = {
             baseDenom: 'uqck'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png'
-        }]
+        }],
+      coingeckoId: 'quicksilver'
     },
     {
       description: 'The XPRT token is primarily a governance token for the Persistence chain.',
@@ -538,7 +542,8 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg'
-        }]
+        }],
+      coingeckoId: 'persistence'
     },
     {
       description: 'The native token of Saga Testnet',
@@ -629,7 +634,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#2c4484'
           }
-        }]
+        }],
+      coingeckoId: 'ixo'
     },
     {
       denomUnits: [{

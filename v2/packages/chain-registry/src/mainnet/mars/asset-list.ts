@@ -38,7 +38,8 @@ const info: AssetList = {
         website: 'https://www.marsprotocol.io/',
         twitter: 'https://twitter.com/mars_protocol'
       },
-      typeAsset: 'sdk.coin'
+      typeAsset: 'sdk.coin',
+      coingeckoId: 'mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3'
     }]
 };
 export default info;

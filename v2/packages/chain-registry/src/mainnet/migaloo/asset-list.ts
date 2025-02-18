@@ -172,7 +172,8 @@ const info: AssetList = {
             primaryColorHex: '#2b2434'
           }
         }],
-      typeAsset: 'sdk.coin'
+      typeAsset: 'sdk.coin',
+      coingeckoId: 'racoon'
     },
     {
       description: 'ASH',
@@ -237,7 +238,8 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg'
-      }
+      },
+      coingeckoId: 'tether'
     },
     {
       description: 'Auto componded USDC despoited into Ginkou on Migaloo chain',
@@ -765,7 +767,8 @@ const info: AssetList = {
       socials: {
         website: 'https://www.cryptodungeon.org',
         twitter: 'https://twitter.com/cryptodungeonma'
-      }
+      },
+      coingeckoId: 'dragon-coin-2'
     },
     {
       description: 'WHALE-wBTC.osmo LP White Whale Migaloo',

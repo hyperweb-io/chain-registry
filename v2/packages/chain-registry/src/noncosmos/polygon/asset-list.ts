@@ -323,7 +323,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#ebb324'
           }
-        }]
+        }],
+      coingeckoId: 'page'
     },
     {
       description: 'wETH is \'wrapped ETH\'',

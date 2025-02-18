@@ -175,7 +175,8 @@ const info: AssetList = {
             channelId: 'channel-0',
             path: 'transfer/channel-0/uusdc'
           }
-        }]
+        }],
+      coingeckoId: 'usd-coin'
     },
     {
       description: 'USDT from injective Chain',
@@ -243,7 +244,8 @@ const info: AssetList = {
             channelId: 'channel-1',
             path: 'transfer/channel-1/inj'
           }
-        }]
+        }],
+      coingeckoId: 'injective-protocol'
     },
     {
       description: 'Luna from Terra2 Chain',
@@ -277,7 +279,8 @@ const info: AssetList = {
             channelId: 'channel-5',
             path: 'transfer/channel-5/uluna'
           }
-        }]
+        }],
+      coingeckoId: 'terra-luna-2'
     },
     {
       description: 'Osmosis from Osmosis Chain',
@@ -311,7 +314,8 @@ const info: AssetList = {
             channelId: 'channel-10',
             path: 'transfer/channel-10/uosmo'
           }
-        }]
+        }],
+      coingeckoId: 'osmosis'
     },
     {
       description: 'Atom from cosmoshub Chain',
@@ -345,7 +349,8 @@ const info: AssetList = {
             channelId: 'channel-7',
             path: 'transfer/channel-7/uatom'
           }
-        }]
+        }],
+      coingeckoId: 'cosmos'
     },
     {
       description: 'arbitrage receipt token of cUSDT',
