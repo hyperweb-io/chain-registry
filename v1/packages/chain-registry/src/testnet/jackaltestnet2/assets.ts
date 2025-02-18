@@ -34,7 +34,8 @@ const info: AssetList = {
             primary_color_hex: '#dbdbcb'
           }
         }],
-      type_asset: 'sdk.coin'
+      type_asset: 'sdk.coin',
+      coingecko_id: 'jackal-protocol'
     }]
 };
 export default info;

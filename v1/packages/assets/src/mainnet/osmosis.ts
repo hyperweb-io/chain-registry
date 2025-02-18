@@ -36623,7 +36623,8 @@ const assets: AssetList = {
         }],
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro-cw20.svg'
-      }
+      },
+      coingecko_id: 'astroport-fi'
     },
     {
       denom_units: [{
@@ -40224,7 +40225,8 @@ const assets: AssetList = {
       socials: {
         website: 'https://astroport.fi/',
         twitter: 'https://twitter.com/astroport_fi'
-      }
+      },
+      coingecko_id: 'astroport-fi'
     },
     {
       description: 'Dinheiros is the reserve currency of dioalma.protocol, an undivisible and rare token.',
@@ -45499,7 +45501,8 @@ const assets: AssetList = {
         }],
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro-cw20.svg'
-      }
+      },
+      coingecko_id: 'astroport-fi'
     },
     {
       denom_units: [{
@@ -49100,7 +49103,8 @@ const assets: AssetList = {
       socials: {
         website: 'https://astroport.fi/',
         twitter: 'https://twitter.com/astroport_fi'
-      }
+      },
+      coingecko_id: 'astroport-fi'
     },
     {
       description: 'Dinheiros is the reserve currency of dioalma.protocol, an undivisible and rare token.',

@@ -98,7 +98,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#272d45'
           }
-        }]
+        }],
+      coingecko_id: 'cosmos'
     },
     {
       description: 'USD Coin',
@@ -208,7 +209,8 @@ const info: AssetList = {
             primary_color_hex: '#0095D7',
             background_color_hex: '#FFFFFF'
           }
-        }]
+        }],
+      coingecko_id: 'monerium-eur-money'
     },
     {
       description: 'The token of Crowdpunk DAO',

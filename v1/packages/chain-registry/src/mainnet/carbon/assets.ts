@@ -356,7 +356,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#db2777'
           }
-        }]
+        }],
+      coingecko_id: 'stargaze'
     },
     {
       description: 'LUNA token on Carbon',
@@ -399,7 +400,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#f4de6f'
           }
-        }]
+        }],
+      coingecko_id: 'terra-luna-2'
     },
     {
       description: 'TIA token on Carbon',
@@ -442,7 +444,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg'
-      }
+      },
+      coingecko_id: 'celestia'
     },
     {
       description: 'MilkTIA token on Carbon',
@@ -485,7 +488,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#d18dfc'
           }
-        }]
+        }],
+      coingecko_id: 'milkyway-staked-tia'
     },
     {
       description: 'STRD token on Carbon',
@@ -528,7 +532,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#e4047c'
           }
-        }]
+        }],
+      coingecko_id: 'stride'
     },
     {
       description: 'EVMOS token on Carbon',
@@ -571,7 +576,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#ec4c34'
           }
-        }]
+        }],
+      coingecko_id: 'evmos'
     },
     {
       description: 'IRIS token on Carbon',
@@ -614,7 +620,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#5664ad'
           }
-        }]
+        }],
+      coingecko_id: 'iris-network'
     },
     {
       description: 'KUJI token on Carbon',
@@ -657,7 +664,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#e33b34'
           }
-        }]
+        }],
+      coingecko_id: 'kujira'
     },
     {
       description: 'stOSMO token on Carbon',
@@ -700,7 +708,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#e40474'
           }
-        }]
+        }],
+      coingecko_id: 'stride-staked-osmo'
     },
     {
       description: 'CANTO token on Carbon',
@@ -743,7 +752,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#1c1f1f'
           }
-        }]
+        }],
+      coingecko_id: 'canto'
     },
     {
       description: 'Cosmos governance token on Carbon',
@@ -786,7 +796,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#272d45'
           }
-        }]
+        }],
+      coingecko_id: 'cosmos'
     },
     {
       description: 'stATOM token on Carbon',
@@ -829,7 +840,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#e40474'
           }
-        }]
+        }],
+      coingecko_id: 'stride-staked-atom'
     },
     {
       description: 'OSMO token on Carbon',
@@ -872,7 +884,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#760dbb'
           }
-        }]
+        }],
+      coingecko_id: 'osmosis'
     },
     {
       description: 'USDC (ERC20) token on Carbon',

@@ -43,7 +43,8 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg'
       },
-      type_asset: 'sdk.coin'
+      type_asset: 'sdk.coin',
+      coingecko_id: 'dydx-chain'
     }]
 };
 export default info;

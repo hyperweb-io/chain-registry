@@ -86,7 +86,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
-      }
+      },
+      coingecko_id: 'osmosis'
     },
     {
       description: 'asdasdasd',

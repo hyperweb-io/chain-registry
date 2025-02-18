@@ -76,7 +76,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#7c2cfb'
           }
-        }]
+        }],
+      coingecko_id: 'celestia'
     },
     {
       description: 'The native token of the Celestia blockchain.',
@@ -130,7 +131,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#7c2cfb'
           }
-        }]
+        }],
+      coingecko_id: 'celestia'
     },
     {
       description: 'MilkyWay\'s liquid staked TIA',
@@ -376,7 +378,8 @@ const info: AssetList = {
             circle: true,
             primary_color_hex: '#2775CA'
           }
-        }]
+        }],
+      coingecko_id: 'usd-coin'
     }
   ]
 };

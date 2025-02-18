@@ -78,7 +78,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
-      }
+      },
+      coingecko_id: 'cosmos'
     },
     {
       description: 'IBC Axelar uusdc through axelar-dojo-1 transfer/channel-2',
@@ -121,7 +122,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg'
-      }
+      },
+      coingecko_id: 'axlusdc'
     },
     {
       description: 'Tia on Neutron',
@@ -164,7 +166,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg'
-      }
+      },
+      coingecko_id: 'celestia'
     },
     {
       description: 'Astropepe meme coin',
@@ -264,7 +267,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg'
-      }
+      },
+      coingecko_id: 'dydx-chain'
     },
     {
       description: 'The cutest NEWT token on Neutron chain.',
@@ -396,7 +400,8 @@ const info: AssetList = {
         }],
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro-cw20.svg'
-      }
+      },
+      coingecko_id: 'astroport-fi'
     },
     {
       description: 'Baby Corgi is the real doggo of Neutron!',
@@ -589,7 +594,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.svg'
-      }
+      },
+      coingecko_id: 'nolus'
     },
     {
       description: 'A Mechanical Canine',
@@ -1220,7 +1226,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#41394d'
           }
-        }]
+        }],
+      coingecko_id: 'axlwbtc'
     },
     {
       description: 'Astrovault xATOM on Neutron Chain',

@@ -43,7 +43,8 @@ const info: AssetList = {
             primary_color_hex: '#fba0c1'
           }
         }],
-      type_asset: 'sdk.coin'
+      type_asset: 'sdk.coin',
+      coingecko_id: 'mantra-dao'
     }]
 };
 export default info;

@@ -160,7 +160,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#3454bc'
           }
-        }]
+        }],
+      coingecko_id: 'vidulum'
     },
     {
       description: 'Astrovault AXV',
@@ -275,7 +276,8 @@ const info: AssetList = {
             circle: true,
             primary_color_hex: '#2775CA'
           }
-        }]
+        }],
+      coingecko_id: 'usd-coin'
     },
     {
       description: 'Wrapped USDC (Noble)',

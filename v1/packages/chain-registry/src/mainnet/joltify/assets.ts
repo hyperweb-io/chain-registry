@@ -69,7 +69,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#272d45'
           }
-        }]
+        }],
+      coingecko_id: 'cosmos'
     },
     {
       description: 'USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.',
@@ -109,7 +110,8 @@ const info: AssetList = {
             circle: true,
             primary_color_hex: '#2775CA'
           }
-        }]
+        }],
+      coingecko_id: 'usd-coin'
     }
   ]
 };

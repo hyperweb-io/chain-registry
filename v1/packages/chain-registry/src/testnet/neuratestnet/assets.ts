@@ -30,7 +30,8 @@ const info: AssetList = {
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ankr.svg'
         }],
-      type_asset: 'sdk.coin'
+      type_asset: 'sdk.coin',
+      coingecko_id: 'ankr'
     }]
 };
 export default info;

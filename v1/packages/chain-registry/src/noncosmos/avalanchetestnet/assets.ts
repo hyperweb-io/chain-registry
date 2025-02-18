@@ -141,7 +141,8 @@ const info: AssetList = {
             circle: true,
             primary_color_hex: '#2775CA'
           }
-        }]
+        }],
+      coingecko_id: 'usd-coin'
     }
   ]
 };

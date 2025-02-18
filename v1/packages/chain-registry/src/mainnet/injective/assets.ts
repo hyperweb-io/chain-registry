@@ -77,7 +77,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg'
-      }
+      },
+      coingecko_id: 'tether'
     },
     {
       description: 'Tether USDt from Ethereum via Peggy bridge.',
@@ -536,7 +537,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg'
-      }
+      },
+      coingecko_id: 'astroport-fi'
     },
     {
       description: 'A receipt token for lent INJ issued by the Neptune Protocol.',
@@ -787,7 +789,8 @@ const info: AssetList = {
           }
         }, {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
-        }]
+        }],
+      coingecko_id: 'usd-coin'
     },
     {
       description: 'The most degenerate NFT on Injective. Gravedigger collection for $bINJ. Giving power back to the community.',

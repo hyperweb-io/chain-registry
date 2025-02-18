@@ -82,7 +82,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg'
-      }
+      },
+      coingecko_id: 'axlusdc'
     },
     {
       description: 'OSMO transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -126,7 +127,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
-      }
+      },
+      coingecko_id: 'osmosis'
     },
     {
       description: 'stOSMO transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -170,7 +172,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg'
-      }
+      },
+      coingecko_id: 'stride-staked-osmo'
     },
     {
       description: 'ATOM transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -214,7 +217,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
-      }
+      },
+      coingecko_id: 'cosmos'
     },
     {
       description: 'stATOM transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -258,7 +262,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg'
-      }
+      },
+      coingecko_id: 'stride-staked-atom'
     },
     {
       description: 'WETH transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -304,7 +309,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/eth.axl.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/eth.axl.svg'
-      }
+      },
+      coingecko_id: 'axlweth'
     },
     {
       description: 'WBTC transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -353,7 +359,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg'
-      }
+      },
+      coingecko_id: 'axlwbtc'
     },
     {
       description: 'AKT transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -397,7 +404,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
-      }
+      },
+      coingecko_id: 'akash-network'
     },
     {
       description: 'AXL transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -441,7 +449,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'
-      }
+      },
+      coingecko_id: 'axelar'
     },
     {
       description: 'JUNO transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -485,7 +494,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg'
-      }
+      },
+      coingecko_id: 'juno-network'
     },
     {
       description: 'EVMOS transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -529,7 +539,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg'
-      }
+      },
+      coingecko_id: 'evmos'
     },
     {
       description: 'stkATOM transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -573,7 +584,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg'
-      }
+      },
+      coingecko_id: 'stkatom'
     },
     {
       description: 'SCRT transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -617,7 +629,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg'
-      }
+      },
+      coingecko_id: 'secret'
     },
     {
       description: 'CRO transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -656,7 +669,8 @@ const info: AssetList = {
         }],
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg'
-      }
+      },
+      coingecko_id: 'crypto-com-chain'
     },
     {
       description: 'STARS transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -700,7 +714,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg'
-      }
+      },
+      coingecko_id: 'stargaze'
     },
     {
       description: 'TIA transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -744,7 +759,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg'
-      }
+      },
+      coingecko_id: 'celestia'
     },
     {
       description: 'STRD transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -788,7 +804,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg'
-      }
+      },
+      coingecko_id: 'stride'
     },
     {
       description: 'CUDOS transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -832,7 +849,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.svg'
-      }
+      },
+      coingecko_id: 'cudos'
     },
     {
       description: 'Alloyed BTC transferred from the Osmosis mainnet that is supported on the Nolus chain',
@@ -966,7 +984,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg'
-      }
+      },
+      coingecko_id: 'mantra-dao'
     },
     {
       description: 'NTRN transferred from the Neutron mainnet that is supported on the Nolus chain',
@@ -1018,7 +1037,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg'
-      }
+      },
+      coingecko_id: 'neutron-3'
     },
     {
       description: 'DYDX transferred from the Neutron mainnet that is supported on the Nolus chain',
@@ -1062,7 +1082,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg'
-      }
+      },
+      coingecko_id: 'dydx-chain'
     },
     {
       description: 'dATOM transferred from the Neutron mainnet that is supported on the Nolus chain',
@@ -1101,7 +1122,8 @@ const info: AssetList = {
         }],
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg'
-      }
+      },
+      coingecko_id: 'drop-staked-atom'
     }
   ]
 };

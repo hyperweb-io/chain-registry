@@ -270,7 +270,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg'
-      }
+      },
+      coingecko_id: 'tether'
     },
     {
       description: 'The staking and governance token of Fuzion',
@@ -570,7 +571,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg'
-      }
+      },
+      coingecko_id: 'evmos'
     },
     {
       denom_units: [{
@@ -648,7 +650,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
-      }
+      },
+      coingecko_id: 'usd-coin'
     },
     {
       denom_units: [{
@@ -689,7 +692,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
-      }
+      },
+      coingecko_id: 'osmosis'
     },
     {
       denom_units: [{
@@ -730,7 +734,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg'
-      }
+      },
+      coingecko_id: 'axlusdc'
     },
     {
       denom_units: [{
@@ -771,7 +776,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg'
-      }
+      },
+      coingecko_id: 'comdex'
     },
     {
       denom_units: [{
@@ -812,7 +818,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg'
-      }
+      },
+      coingecko_id: 'juno-network'
     },
     {
       denom_units: [{
@@ -851,7 +858,8 @@ const info: AssetList = {
         }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png'
-      }
+      },
+      coingecko_id: 'axlweth'
     },
     {
       denom_units: [{
@@ -892,7 +900,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
-      }
+      },
+      coingecko_id: 'cosmos'
     },
     {
       denom_units: [{
@@ -933,7 +942,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg'
-      }
+      },
+      coingecko_id: 'terra-luna-2'
     },
     {
       denom_units: [{
@@ -974,7 +984,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg'
-      }
+      },
+      coingecko_id: 'stargaze'
     },
     {
       denom_units: [{
@@ -1015,7 +1026,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg'
-      }
+      },
+      coingecko_id: 'secret'
     },
     {
       denom_units: [{
@@ -1058,7 +1070,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg'
-      }
+      },
+      coingecko_id: 'stkatom'
     },
     {
       description: 'BackBone Labs Liquid Staked KUJI',
@@ -1222,7 +1235,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#e40474'
           }
-        }]
+        }],
+      coingecko_id: 'stride-staked-atom'
     },
     {
       description: 'Stride staked OSMO',
@@ -1264,7 +1278,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#e40474'
           }
-        }]
+        }],
+      coingecko_id: 'stride-staked-osmo'
     },
     {
       description: 'LP Bow: DOT.axl-MNTA',

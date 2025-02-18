@@ -107,7 +107,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
-      }
+      },
+      coingecko_id: 'usd-coin'
     },
     {
       denom_units: [{
@@ -148,7 +149,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
-      }
+      },
+      coingecko_id: 'cosmos'
     },
     {
       description: 'Axelar Network Token',
@@ -191,7 +193,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'
-      }
+      },
+      coingecko_id: 'axelar'
     },
     {
       description: 'Akash Network Token',
@@ -234,7 +237,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
-      }
+      },
+      coingecko_id: 'akash-network'
     },
     {
       description: 'Celestia Network Token',
@@ -277,7 +281,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg'
-      }
+      },
+      coingecko_id: 'celestia'
     },
     {
       description: 'Xion Network Token',
@@ -318,7 +323,8 @@ const info: AssetList = {
         }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
-      }
+      },
+      coingecko_id: 'xion-2'
     },
     {
       description: 'Saga Network Token',
@@ -369,7 +375,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga_white.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga_white.svg'
-      }
+      },
+      coingecko_id: 'saga-2'
     }
   ]
 };

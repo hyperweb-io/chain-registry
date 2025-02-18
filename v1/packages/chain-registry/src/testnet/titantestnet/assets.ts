@@ -89,7 +89,8 @@ const info: AssetList = {
             circle: true,
             primary_color_hex: '#2775CA'
           }
-        }]
+        }],
+      coingecko_id: 'usd-coin'
     },
     {
       description: 'Wrapped Bitcoin (BTC) is BTC token bridged from Bitcoin to titan chain through Titan bridge https://dev.titanearn.com/bridge',

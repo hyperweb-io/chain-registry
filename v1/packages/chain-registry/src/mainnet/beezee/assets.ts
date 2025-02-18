@@ -109,7 +109,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
-      }
+      },
+      coingecko_id: 'osmosis'
     },
     {
       description: 'Crypto2Mars Community Token',
@@ -183,7 +184,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#fc4c04'
           }
-        }]
+        }],
+      coingecko_id: 'archway'
     },
     {
       description: 'USDC from Noble',
@@ -228,7 +230,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
-      }
+      },
+      coingecko_id: 'usd-coin'
     },
     {
       description: 'The Spice memecoin',
@@ -268,7 +271,8 @@ const info: AssetList = {
             channel_id: 'channel-0',
             path: 'transfer/channel-0/factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/uspice'
           }
-        }]
+        }],
+      coingecko_id: 'spice-2'
     },
     {
       description: 'JKL from Jackal Network',
@@ -311,7 +315,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/jackal/images/jkl.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/jackal/images/jkl.svg'
-      }
+      },
+      coingecko_id: 'jackal-protocol'
     },
     {
       description: 'FLIX from OmniFlix Network',
@@ -354,7 +359,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-      }
+      },
+      coingecko_id: 'omniflix-network'
     },
     {
       description: 'The Sherpa memecoin',
@@ -480,7 +486,8 @@ const info: AssetList = {
       socials: {
         website: 'https://posthuman.digital/',
         twitter: 'https://twitter.com/POSTHUMAN_DVS'
-      }
+      },
+      coingecko_id: 'posthuman'
     }
   ]
 };

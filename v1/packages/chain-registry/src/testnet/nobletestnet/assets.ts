@@ -73,7 +73,8 @@ const info: AssetList = {
             primary_color_hex: '#2775CA'
           }
         }],
-      type_asset: 'sdk.coin'
+      type_asset: 'sdk.coin',
+      coingecko_id: 'usd-coin'
     },
     {
       description: 'Ondo US Dollar Yield',

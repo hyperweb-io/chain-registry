@@ -99,7 +99,8 @@ const info: AssetList = {
             circle: true,
             primary_color_hex: '#2775CA'
           }
-        }]
+        }],
+      coingecko_id: 'usd-coin'
     },
     {
       description: 'Ondo US Dollar Yield',
@@ -275,7 +276,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#db2777'
           }
-        }]
+        }],
+      coingecko_id: 'stargaze'
     },
     {
       description: 'The native token of Axelar',
@@ -318,7 +320,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#040404'
           }
-        }]
+        }],
+      coingecko_id: 'axelar'
     }
   ]
 };

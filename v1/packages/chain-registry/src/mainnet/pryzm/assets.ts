@@ -531,7 +531,8 @@ const info: AssetList = {
             base_denom: 'factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg'
-        }]
+        }],
+      coingecko_id: 'drop-staked-atom'
     },
     {
       description: 'Ondo Finance\'s US Dollar Yield',
@@ -574,7 +575,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#142c5c'
           }
-        }]
+        }],
+      coingecko_id: 'ondo-us-dollar-yield'
     },
     {
       description: 'Pryzm\'s native liquid staking token for ATOM',

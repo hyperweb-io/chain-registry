@@ -81,7 +81,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.svg'
-      }
+      },
+      coingecko_id: 'nim-network'
     },
     {
       description: 'The native token of Mande Network.',
@@ -130,7 +131,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.svg'
-      }
+      },
+      coingecko_id: 'mande-network'
     }
   ]
 };

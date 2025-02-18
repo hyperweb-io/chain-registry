@@ -96,7 +96,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#272d45'
           }
-        }]
+        }],
+      coingecko_id: 'cosmos'
     },
     {
       description: 'The OSMO native token of Oraichain.',
@@ -138,7 +139,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#760dbb'
           }
-        }]
+        }],
+      coingecko_id: 'osmosis'
     },
     {
       description: 'The INJ token for the Oraichain.',
@@ -180,7 +182,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#04a2fc'
           }
-        }]
+        }],
+      coingecko_id: 'injective-protocol'
     },
     {
       description: 'The Wrapped INJ token for the Oraichain.',

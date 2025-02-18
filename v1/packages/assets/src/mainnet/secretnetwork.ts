@@ -13990,7 +13990,8 @@ const assets: AssetList = {
       socials: {
         website: 'https://astroport.fi/',
         twitter: 'https://twitter.com/astroport_fi'
-      }
+      },
+      coingecko_id: 'astroport-fi'
     },
     {
       description: 'Dinheiros is the reserve currency of dioalma.protocol, an undivisible and rare token.',
@@ -15320,7 +15321,8 @@ const assets: AssetList = {
       socials: {
         website: 'https://astroport.fi/',
         twitter: 'https://twitter.com/astroport_fi'
-      }
+      },
+      coingecko_id: 'astroport-fi'
     },
     {
       description: 'Dinheiros is the reserve currency of dioalma.protocol, an undivisible and rare token.',

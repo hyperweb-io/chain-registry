@@ -75,7 +75,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
-      }
+      },
+      coingecko_id: 'cosmos'
     },
     {
       denom_units: [{
@@ -117,7 +118,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
-      }
+      },
+      coingecko_id: 'osmosis'
     },
     {
       denom_units: [{
@@ -159,7 +161,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg'
-      }
+      },
+      coingecko_id: 'inter-stable-token'
     },
     {
       denom_units: [{
@@ -201,7 +204,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg'
-      }
+      },
+      coingecko_id: 'axlusdc'
     },
     {
       description: 'Akash Token (AKT) is the Akash Network\'s native utility token',
@@ -244,7 +248,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#bc342c'
           }
-        }]
+        }],
+      coingecko_id: 'akash-network'
     },
     {
       denom_units: [{

@@ -122,7 +122,8 @@ const info: AssetList = {
             channel_id: 'channel-2',
             path: 'transfer/channel-2/uusdc'
           }
-        }]
+        }],
+      coingecko_id: 'usd-coin'
     },
     {
       name: 'Astrovault token',

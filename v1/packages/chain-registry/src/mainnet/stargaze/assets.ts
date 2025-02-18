@@ -204,7 +204,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#bcdd76'
           }
-        }]
+        }],
+      coingecko_id: 'mad-scientists'
     },
     {
       description: 'CDT - Membrane\'s solvency preserving stablecoin',
@@ -238,7 +239,8 @@ const info: AssetList = {
             chain_name: 'osmosis',
             base_denom: 'factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt'
           }
-        }]
+        }],
+      coingecko_id: 'collateralized-debt-token'
     },
     {
       description: 'MBRN - Membrane\'s network token',
@@ -272,7 +274,8 @@ const info: AssetList = {
             chain_name: 'osmosis',
             base_denom: 'factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/umbrn'
           }
-        }]
+        }],
+      coingecko_id: 'membrane'
     },
     {
       description: 'Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.',
@@ -315,7 +318,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#4056e9'
           }
-        }]
+        }],
+      coingecko_id: 'astroport-fi'
     },
     {
       description: 'PLEB',
@@ -761,7 +765,8 @@ const info: AssetList = {
             primary_color_hex: '#342c2c'
           }
         }
-      ]
+      ],
+      coingecko_id: 'mantra-dao'
     },
     {
       description: 'HOOD',

@@ -178,7 +178,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
-      }
+      },
+      coingecko_id: 'cosmos'
     },
     {
       description: 'Tether USDT on Persistence',
@@ -222,7 +223,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg'
-      }
+      },
+      coingecko_id: 'tether'
     },
     {
       denom_units: [{
@@ -265,7 +267,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
-      }
+      },
+      coingecko_id: 'usd-coin'
     },
     {
       description: 'dydx staking token',
@@ -308,7 +311,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg'
-      }
+      },
+      coingecko_id: 'dydx-chain'
     },
     {
       description: '(Deprecated) PSTAKE Liquid-Staked OSMO',
@@ -462,7 +466,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg'
-      }
+      },
+      coingecko_id: 'stargaze'
     },
     {
       description: 'The native token cw20 for Shade on Secret Network',
@@ -507,7 +512,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#342c52'
           }
-        }]
+        }],
+      coingecko_id: 'shade-protocol'
     },
     {
       description: '(Deprecated) PSTAKE Liquid-Staked HUAHUA',
@@ -586,7 +592,8 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg'
-      }
+      },
+      coingecko_id: 'chihuahua-token'
     },
     {
       description: '(Deprecated) PSTAKE Liquid-Staked XPRT',
@@ -666,7 +673,8 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#f39444'
           }
-        }]
+        }],
+      coingecko_id: 'wrapped-bitcoin'
     }
   ]
 };

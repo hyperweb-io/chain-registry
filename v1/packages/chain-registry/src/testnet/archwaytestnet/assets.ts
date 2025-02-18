@@ -49,7 +49,8 @@ const info: AssetList = {
         website: 'https://archway.io/',
         twitter: 'https://twitter.com/archwayHQ'
       },
-      type_asset: 'sdk.coin'
+      type_asset: 'sdk.coin',
+      coingecko_id: 'archway'
     }, {
       description: 'Wrapped CONST (Archway Testnet token)',
       type_asset: 'cw20',
