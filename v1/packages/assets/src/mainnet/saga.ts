@@ -131,6 +131,48 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Eden BOOST token definition',
+      denom_units: [
+        {
+          denom: 'ibc/E5EB90003A770A9E1AFB59FA1CA7FA4BB2647E48B7C5A70E44A9B626E4B2BC00',
+          exponent: 0,
+          aliases: ['uedenb']
+        },
+        {
+          denom: 'medenb',
+          exponent: 3,
+          aliases: ['milliedenb']
+        },
+        {
+          denom: 'edenb',
+          exponent: 6,
+          aliases: []
+        }
+      ],
+      base: 'ibc/E5EB90003A770A9E1AFB59FA1CA7FA4BB2647E48B7C5A70E44A9B626E4B2BC00',
+      name: 'Eden BOOST',
+      display: 'edenb',
+      symbol: 'EDEN BOOST',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-9',
+            base_denom: 'uedenb',
+            chain_name: 'elys'
+          },
+          chain: {
+            channel_id: 'channel-35'
+          }
+        }]
+    },
+    {
       description: 'Neutron is a smart contract blockchain within the Cosmos ecosystem, leveraging the Cosmos Hub\'s security to provide cross-chain DeFi applications.',
       denom_units: [{
           denom: 'ibc/E579AC2CC529ED12D8FD1EC623AAB4825BC23B0E0C04185BC596F50FAF57125F',
@@ -534,6 +576,48 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-9',
             base_denom: 'ueden',
+            chain_name: 'elys'
+          },
+          chain: {
+            channel_id: 'channel-35'
+          }
+        }]
+    },
+    {
+      description: 'Eden BOOST token definition',
+      denom_units: [
+        {
+          denom: 'ibc/E5EB90003A770A9E1AFB59FA1CA7FA4BB2647E48B7C5A70E44A9B626E4B2BC00',
+          exponent: 0,
+          aliases: ['uedenb']
+        },
+        {
+          denom: 'medenb',
+          exponent: 3,
+          aliases: ['milliedenb']
+        },
+        {
+          denom: 'edenb',
+          exponent: 6,
+          aliases: []
+        }
+      ],
+      base: 'ibc/E5EB90003A770A9E1AFB59FA1CA7FA4BB2647E48B7C5A70E44A9B626E4B2BC00',
+      name: 'Eden BOOST',
+      display: 'edenb',
+      symbol: 'EDEN BOOST',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-9',
+            base_denom: 'uedenb',
             chain_name: 'elys'
           },
           chain: {

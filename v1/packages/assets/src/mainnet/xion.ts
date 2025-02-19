@@ -131,6 +131,48 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Eden BOOST token definition',
+      denom_units: [
+        {
+          denom: 'ibc/FD77C96B3103DDF1F484A2B7159207D5A3C499EE429502D6337AE9FBE7FB3C38',
+          exponent: 0,
+          aliases: ['uedenb']
+        },
+        {
+          denom: 'medenb',
+          exponent: 3,
+          aliases: ['milliedenb']
+        },
+        {
+          denom: 'edenb',
+          exponent: 6,
+          aliases: []
+        }
+      ],
+      base: 'ibc/FD77C96B3103DDF1F484A2B7159207D5A3C499EE429502D6337AE9FBE7FB3C38',
+      name: 'Eden BOOST',
+      display: 'edenb',
+      symbol: 'EDEN BOOST',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-8',
+            base_denom: 'uedenb',
+            chain_name: 'elys'
+          },
+          chain: {
+            channel_id: 'channel-9'
+          }
+        }]
+    },
+    {
       description: 'Injective is a decentralized exchange protocol that enables fast, secure, and fully decentralized trading of derivatives, futures, and spot markets.',
       denom_units: [{
           denom: 'ibc/67E8387284A038A0AD42BAE9EAA4C6A90E0D82B5C556F37FB57A3D1C8773C042',
@@ -780,6 +822,48 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-8',
             base_denom: 'ueden',
+            chain_name: 'elys'
+          },
+          chain: {
+            channel_id: 'channel-9'
+          }
+        }]
+    },
+    {
+      description: 'Eden BOOST token definition',
+      denom_units: [
+        {
+          denom: 'ibc/FD77C96B3103DDF1F484A2B7159207D5A3C499EE429502D6337AE9FBE7FB3C38',
+          exponent: 0,
+          aliases: ['uedenb']
+        },
+        {
+          denom: 'medenb',
+          exponent: 3,
+          aliases: ['milliedenb']
+        },
+        {
+          denom: 'edenb',
+          exponent: 6,
+          aliases: []
+        }
+      ],
+      base: 'ibc/FD77C96B3103DDF1F484A2B7159207D5A3C499EE429502D6337AE9FBE7FB3C38',
+      name: 'Eden BOOST',
+      display: 'edenb',
+      symbol: 'EDEN BOOST',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-8',
+            base_denom: 'uedenb',
             chain_name: 'elys'
           },
           chain: {
