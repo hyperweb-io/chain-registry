@@ -28,16 +28,16 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/cosmos/gaia',
-    recommendedVersion: 'v22.0.0-rc0',
-    compatibleVersions: ['v22.0.0-rc0'],
+    recommendedVersion: 'v22.2.0',
+    compatibleVersions: ['v22.2.0'],
     consensus: {
       type: 'cometbft',
-      version: 'v0.38.15'
+      version: 'v0.38.17'
     },
     binaries: {
-      "linux/amd64": 'https://github.com/cosmos/gaia/releases/download/v22.0.0-rc0/gaiad-v22.0.0-rc0-linux-amd64',
-      "darwin/amd64": 'https://github.com/cosmos/gaia/releases/download/v22.0.0-rc0/gaiad-v22.0.0-rc0-darwin-amd64',
-      "darwin/arm64": 'https://github.com/cosmos/gaia/releases/download/v22.0.0-rc0/gaiad-v22.0.0-rc0-darwin-arm64'
+      "linux/amd64": 'https://github.com/cosmos/gaia/releases/download/v22.2.0/gaiad-v22.2.0-linux-amd64',
+      "darwin/amd64": 'https://github.com/cosmos/gaia/releases/download/v22.2.0/gaiad-v22.2.0-darwin-amd64',
+      "darwin/arm64": 'https://github.com/cosmos/gaia/releases/download/v22.2.0/gaiad-v22.2.0-darwin-arm64'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/cosmos/testnets/master/interchain-security/provider/provider-genesis.json'

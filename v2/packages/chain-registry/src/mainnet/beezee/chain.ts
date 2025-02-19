@@ -29,14 +29,14 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/bze-alphateam/bze',
-    recommendedVersion: 'v7.1.1',
-    compatibleVersions: ['v7.1.1'],
+    recommendedVersion: 'v7.2.0',
+    compatibleVersions: ['v7.2.0'],
     binaries: {
-      "darwin/amd64": 'https://github.com/bze-alphateam/bze/releases/download/v7.1.1/bze-7.1.1-darwin-amd64.tar.gz',
-      "darwin/arm64": 'https://github.com/bze-alphateam/bze/releases/download/v7.1.1/bze-7.1.1-darwin-arm64.tar.gz',
-      "linux/amd64": 'https://github.com/bze-alphateam/bze/releases/download/v7.1.1/bze-7.1.1-linux-amd64.tar.gz',
-      "linux/arm64": 'https://github.com/bze-alphateam/bze/releases/download/v7.1.1/bze-7.1.1-linux-arm64.tar.gz',
-      "windows/amd64": 'https://github.com/bze-alphateam/bze/releases/download/v7.1.1/bze-7.1.1-win64.zip'
+      "darwin/amd64": 'https://github.com/bze-alphateam/bze/releases/download/v7.2.0/bze-7.2.0-darwin-amd64.tar.gz',
+      "darwin/arm64": 'https://github.com/bze-alphateam/bze/releases/download/v7.2.0/bze-7.2.0-darwin-arm64.tar.gz',
+      "linux/amd64": 'https://github.com/bze-alphateam/bze/releases/download/v7.2.0/bze-7.2.0-linux-amd64.tar.gz',
+      "linux/arm64": 'https://github.com/bze-alphateam/bze/releases/download/v7.2.0/bze-7.2.0-linux-arm64.tar.gz',
+      "windows/amd64": 'https://github.com/bze-alphateam/bze/releases/download/v7.2.0/bze-7.2.0-win64.zip'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/bze-alphateam/bze/main/genesis.json'

@@ -10,7 +10,7 @@ const info: IBCData[] = [
     chain2: {
       chainName: 'noble',
       clientId: '07-tendermint-32',
-      connectionId: 'connection-40'
+      connectionId: 'connection-38'
     },
     channels: [{
         chain1: {

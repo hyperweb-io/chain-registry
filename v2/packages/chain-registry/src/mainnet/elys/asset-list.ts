@@ -67,6 +67,37 @@ const info: AssetList = {
       typeAsset: 'sdk.coin'
     },
     {
+      description: 'Eden BOOST token definition',
+      denomUnits: [
+        {
+          denom: 'uedenb',
+          exponent: 0,
+          aliases: ['microedenb']
+        },
+        {
+          denom: 'medenb',
+          exponent: 3,
+          aliases: ['milliedenb']
+        },
+        {
+          denom: 'edenb',
+          exponent: 6,
+          aliases: []
+        }
+      ],
+      base: 'uedenb',
+      name: 'Eden BOOST',
+      display: 'edenb',
+      symbol: 'EDEN BOOST',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
       description: 'USDC from Noble',
       denomUnits: [{
           denom: 'ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349',

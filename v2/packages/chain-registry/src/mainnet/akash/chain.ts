@@ -60,10 +60,6 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://rpc.akash.forbole.com:443',
-        provider: 'forbole'
-      },
-      {
         address: 'https://rpc-akash.ecostake.com:443',
         provider: 'ecostake'
       },
@@ -76,7 +72,7 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'http://akash.c29r3.xyz:80/rpc',
+        address: 'https://akash.c29r3.xyz:80/rpc',
         provider: 'c29r3'
       },
       {
@@ -96,19 +92,11 @@ const info: Chain = {
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
       {
-        address: 'https://akash.declab.pro:26601',
-        provider: 'Decloud Nodes Lab'
-      },
-      {
         address: 'https://rpc.akash.bronbro.io:443',
         provider: 'Bro_n_Bro'
       }
     ],
     rest: [
-      {
-        address: 'https://api.akash.forbole.com:443',
-        provider: 'forbole'
-      },
       {
         address: 'https://rest-akash.ecostake.com',
         provider: 'ecostake'
@@ -120,14 +108,6 @@ const info: Chain = {
       {
         address: 'https://akash-api.polkachu.com',
         provider: 'Polkachu'
-      },
-      {
-        address: 'https://api-akash.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
-        address: 'https://api-akash-ia.cosmosia.notional.ventures',
-        provider: 'Notional'
       },
       {
         address: 'https://akash.c29r3.xyz:443/api',
@@ -162,72 +142,17 @@ const info: Chain = {
         provider: 'ValidatorNode'
       },
       {
-        address: 'https://api-akash.whispernode.com:443',
-        provider: 'WhisperNode 🤐'
-      },
-      {
-        address: 'https://public.stakewolle.com/cosmos/akash/rest',
-        provider: 'Stakewolle'
-      },
-      {
-        address: 'https://akash.declab.pro:443',
-        provider: 'Decloud Nodes Lab'
-      },
-      {
         address: 'https://lcd.akash.bronbro.io:443',
         provider: 'Bro_n_Bro'
       }
     ],
-    grpc: [
-      {
-        address: 'grpc-akash-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
-      },
-      {
+    grpc: [{
         address: 'akash.lavenderfive.com:443',
         provider: 'Lavender.Five Nodes 🐝'
-      },
-      {
-        address: 'akash-grpc.polkachu.com:12890',
-        provider: 'Polkachu'
-      },
-      {
-        address: 'akash-mainnet-grpc.autostake.com:443',
-        provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'grpc-akash.cosmos-spaces.cloud:1110',
-        provider: 'Cosmos Spaces'
-      },
-      {
-        address: 'grpc-akash-01.stakeflow.io:1502',
-        provider: 'Stakeflow'
-      },
-      {
-        address: 'akash-grpc.w3coins.io:12890',
-        provider: 'w3coins'
-      },
-      {
+      }, {
         address: 'akash-grpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https://akash.declab.pro:9001',
-        provider: 'Decloud Nodes Lab'
-      },
-      {
-        address: 'grpc-akash.whispernode.com:443',
-        provider: 'WhisperNode 🤐'
-      },
-      {
-        address: 'https://grpc.akash.bronbro.io:443',
-        provider: 'Bro_n_Bro'
-      },
-      {
-        address: 'akash-mainnet-grpc.cosmonautstakes.com:14090',
-        provider: 'Cosmonaut Stakes'
-      }
-    ]
+      }]
   },
   explorers: [
     {
@@ -237,15 +162,15 @@ const info: Chain = {
       accountPage: 'https://ezstaking.app/akash/account/${accountAddress}'
     },
     {
+      kind: 'ping.pub',
+      url: 'https://ping.pub/akash',
+      txPage: 'https://ping.pub/akash-network/tx/${txHash}'
+    },
+    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/akash',
       txPage: 'https://www.mintscan.io/akash/transactions/${txHash}',
       accountPage: 'https://www.mintscan.io/akash/accounts/${accountAddress}'
-    },
-    {
-      kind: 'ping.pub',
-      url: 'https://ping.pub/akash-network',
-      txPage: 'https://ping.pub/akash-network/tx/${txHash}'
     },
     {
       kind: 'staking-explorer.com',
@@ -260,19 +185,9 @@ const info: Chain = {
       accountPage: 'https://atomscan.com/akash/accounts/${accountAddress}'
     },
     {
-      kind: 'cloudmos',
-      url: 'https://cloudmos.io/blocks',
-      txPage: 'https://cloudmos.io/transactions/${txHash}'
-    },
-    {
       kind: 'Stakeflow',
       url: 'https://stakeflow.io/akash',
       accountPage: 'https://stakeflow.io/akash/accounts/${accountAddress}'
-    },
-    {
-      kind: 'ValidatorNode',
-      url: 'https://explorer.validatornode.com/akash-network',
-      txPage: 'https://explorer.validatornode.com/akash-network/tx/${txHash}'
     },
     {
       kind: 'Decloud Nodes Lab',
