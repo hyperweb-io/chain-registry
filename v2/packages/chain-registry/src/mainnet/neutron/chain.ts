@@ -120,10 +120,6 @@ const info: Chain = {
         provider: 'Cosmos Spaces'
       },
       {
-        address: 'http://rpc.neutron.nodestake.org',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://neutron-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
@@ -166,10 +162,6 @@ const info: Chain = {
         provider: 'Cosmos Spaces'
       },
       {
-        address: 'http://api.neutron.nodestake.org',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://neutron-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
@@ -210,10 +202,6 @@ const info: Chain = {
       {
         address: 'grpc-neutron.cosmos-spaces.cloud:3090',
         provider: 'Cosmos Spaces'
-      },
-      {
-        address: 'grpc.neutron.nodestake.org:443',
-        provider: 'NodeStake'
       },
       {
         address: 'neutron-grpc.publicnode.com:443',

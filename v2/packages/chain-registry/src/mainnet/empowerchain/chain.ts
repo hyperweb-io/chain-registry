@@ -69,10 +69,6 @@ const info: Chain = {
         provider: 'vinjan'
       },
       {
-        address: 'https://rpc.empower.nodestake.top',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://mainnet-empower-rpc.konsortech.xyz',
         provider: 'KonsorTech'
       },
@@ -125,10 +121,6 @@ const info: Chain = {
       {
         address: 'https://api-empower.vinjan.xyz:443',
         provider: 'vinjan'
-      },
-      {
-        address: 'https://api.empower.nodestake.top',
-        provider: 'NodeStake'
       },
       {
         address: 'https://mainnet-empower-api.konsortech.xyz',
@@ -185,10 +177,6 @@ const info: Chain = {
         provider: 'vinjan'
       },
       {
-        address: 'https://grpc.empower.nodestake.top:443',
-        provider: 'NodeStake'
-      },
-      {
         address: 'empower.grpc.stakevillage.net:16890',
         provider: 'Stake Village'
       },
@@ -225,9 +213,9 @@ const info: Chain = {
     },
     {
       kind: 'NodeStake Explorer',
-      url: 'https://explorer.nodestake.top/empower',
-      txPage: 'https://explorer.nodestake.top/empower/tx/${txHash}',
-      accountPage: 'https://explorer.nodestake.top/empower/account/{$accountAddress}'
+      url: 'https://explorer.nodestake.org/empower',
+      txPage: 'https://explorer.nodestake.org/empower/tx/${txHash}',
+      accountPage: 'https://explorer.nodestake.org/empower/account/{$accountAddress}'
     },
     {
       kind: 'Stake Village',

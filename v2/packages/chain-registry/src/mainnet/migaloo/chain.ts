@@ -70,10 +70,6 @@ const info: Chain = {
         provider: 'Kleomedes'
       },
       {
-        address: 'https://rpc.whitewhale.nodestake.top',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://migaloo-rpc.highstakes.ch',
         provider: 'High Stakes 🇨🇭'
       },
@@ -96,10 +92,6 @@ const info: Chain = {
         provider: 'Kleomedes'
       },
       {
-        address: 'https://api.whitewhale.nodestake.top',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://migaloo-api.highstakes.ch',
         provider: 'High Stakes 🇨🇭'
       },
@@ -120,10 +112,6 @@ const info: Chain = {
       {
         address: 'grpc-migaloo.cosmos-spaces.cloud:4810',
         provider: 'Cosmos Spaces'
-      },
-      {
-        address: 'https://grpc.whitewhale.nodestake.top',
-        provider: 'NodeStake'
       },
       {
         address: 'migaloo-grpc.publicnode.com:443',

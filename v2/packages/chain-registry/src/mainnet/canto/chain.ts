@@ -41,10 +41,6 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://rpc.canto.nodestake.top',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://canto-rpc.polkachu.com',
         provider: 'Polkachu'
       },
@@ -67,10 +63,6 @@ const info: Chain = {
     ],
     rest: [
       {
-        address: 'https://api.canto.nodestake.top',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://canto-api.polkachu.com',
         provider: 'Polkachu'
       },
@@ -91,10 +83,6 @@ const info: Chain = {
       {
         address: 'canto-grpc.polkachu.com:15590',
         provider: 'Polkachu'
-      },
-      {
-        address: 'grpc.canto.nodestake.top:443',
-        provider: 'NodeStake'
       },
       {
         address: 'https://grpc.canto.silentvalidator.com/',
@@ -121,10 +109,6 @@ const info: Chain = {
       {
         address: 'https://canto.slingshot.finance',
         provider: 'Slingshot'
-      },
-      {
-        address: 'https://jsonrpc.canto.nodestake.top',
-        provider: 'NodeStake'
       },
       {
         address: 'https://evm-rpc.canto.silentvalidator.com/',

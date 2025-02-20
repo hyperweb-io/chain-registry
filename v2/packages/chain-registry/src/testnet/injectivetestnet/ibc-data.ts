@@ -48,21 +48,21 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'injectivetestnet',
-      clientId: '07-tendermint-189',
-      connectionId: 'connection-180'
+      clientId: '07-tendermint-305',
+      connectionId: 'connection-272'
     },
     chain2: {
       chainName: 'osmosistestnet',
-      clientId: '07-tendermint-1273',
-      connectionId: 'connection-1173'
+      clientId: '07-tendermint-4379',
+      connectionId: 'connection-3814'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-129',
+          channelId: 'channel-77026',
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-4174',
+          channelId: 'channel-10092',
           portId: 'transfer'
         },
         ordering: 'unordered',

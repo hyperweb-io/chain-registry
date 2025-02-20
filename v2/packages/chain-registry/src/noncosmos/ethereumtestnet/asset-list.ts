@@ -104,6 +104,56 @@ const info: AssetList = {
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
         }]
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0xaA8E23Fb1079EA71e0a56F48a2aA51851D8433D0',
+      denomUnits: [{
+          denom: '0xaA8E23Fb1079EA71e0a56F48a2aA51851D8433D0',
+          exponent: 0,
+          aliases: ['uusdt']
+        }, {
+          denom: 'usdt',
+          exponent: 6
+        }],
+      base: '0xaA8E23Fb1079EA71e0a56F48a2aA51851D8433D0',
+      name: 'Tether USD',
+      display: 'usdt',
+      symbol: 'USDT',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0xdac17f958d2ee523a2206206994597c13d831ec7'
+          },
+          provider: 'Tether'
+        }],
+      coingeckoId: 'tether',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0xdac17f958d2ee523a2206206994597c13d831ec7'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
+          theme: {
+            circle: true,
+            primaryColorHex: '#009393',
+            backgroundColorHex: '#009393'
+          }
+        }, {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt_logomark.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt_logomark.svg',
+          theme: {
+            circle: false,
+            primaryColorHex: '#50AF95',
+            backgroundColorHex: '#00000000'
+          }
+        }]
     }
   ]
 };

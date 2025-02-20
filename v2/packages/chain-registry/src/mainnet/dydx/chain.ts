@@ -93,10 +93,6 @@ const info: Chain = {
         provider: 'ecostake'
       },
       {
-        address: 'https://rpc.dydx.nodestake.top:443',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://rpc-dydx.cosmos-spaces.cloud',
         provider: 'Cosmos Spaces'
       },
@@ -159,10 +155,6 @@ const info: Chain = {
         provider: 'Cosmos Spaces'
       },
       {
-        address: 'https://api.dydx.nodestake.top:443',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://dydx-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
@@ -221,10 +213,6 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'https://grpc.dydx.nodestake.top',
-        provider: 'NodeStake'
-      },
-      {
         address: 'dydx.grpc.kjnodes.com:443',
         provider: 'kjnodes'
       },
@@ -263,9 +251,9 @@ const info: Chain = {
     },
     {
       kind: 'NodeStake',
-      url: 'https://explorer.nodestake.top/dydx/',
-      txPage: 'https://explorer.nodestake.top/dydx/txs/${txHash}',
-      accountPage: 'https://explorer.nodestake.top/dydx/account/${accountAddress}'
+      url: 'https://explorer.nodestake.org/dydx/',
+      txPage: 'https://explorer.nodestake.org/dydx/txs/${txHash}',
+      accountPage: 'https://explorer.nodestake.org/dydx/account/${accountAddress}'
     },
     {
       kind: 'TC Network',

@@ -81,10 +81,6 @@ const info: Chain = {
         provider: 'TestNetRun'
       },
       {
-        address: 'https://rpc.evmos.nodestake.top',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://rpc.evmos.chaintools.tech/',
         provider: 'ChainTools'
       },
@@ -179,10 +175,6 @@ const info: Chain = {
         provider: 'Notional'
       },
       {
-        address: 'https://api.evmos.nodestake.top',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://evmos-api.polkachu.com',
         provider: 'Polkachu'
       },
@@ -265,10 +257,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'grpc.evmos.nodestake.top:443',
-        provider: 'NodeStake'
-      },
-      {
         address: 'grpc-evmos.cosmos-spaces.cloud:1190',
         provider: 'Cosmos Spaces'
       },
@@ -345,10 +333,6 @@ const info: Chain = {
       {
         address: 'https://evmos-json-rpc.stakely.io',
         provider: 'Stakely'
-      },
-      {
-        address: 'https://jsonrpc.evmos.nodestake.top',
-        provider: 'NodeStake'
       },
       {
         address: 'https://json-rpc.evmos.bh.rocks',
