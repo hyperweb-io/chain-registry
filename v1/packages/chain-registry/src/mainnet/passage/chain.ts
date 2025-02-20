@@ -78,10 +78,6 @@ const info: Chain = {
         provider: 'Cosmos Spaces'
       },
       {
-        address: 'https://rpc.passage.nodestake.top',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://passage-rpc.polkachu.com',
         provider: 'Polkachu'
       },
@@ -148,10 +144,6 @@ const info: Chain = {
         provider: 'Notional'
       },
       {
-        address: 'https://api.passage.nodestake.top',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://passage-api.polkachu.com',
         provider: 'Polkachu'
       },
@@ -208,10 +200,6 @@ const info: Chain = {
       {
         address: 'grpc-passage.cosmos-spaces.cloud:2320',
         provider: 'Cosmos Spaces'
-      },
-      {
-        address: 'grpc.passage.nodestake.top:443',
-        provider: 'NodeStake'
       },
       {
         address: 'passage-mainnet-grpc.autostake.com:443',
