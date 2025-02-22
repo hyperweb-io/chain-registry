@@ -29,11 +29,11 @@ const info: Chain = {
   },
   codebase: {
     git_repo: 'https://github.com/xpladev/xpla',
-    recommended_version: 'v1.6.0',
-    compatible_versions: ['v1.6.0'],
+    recommended_version: 'v1.7.0-cube',
+    compatible_versions: ['v1.7.0-cube'],
     consensus: {
       type: 'cometbft',
-      version: 'v0.37.5'
+      version: 'v0.38.12'
     },
     genesis: {
       genesis_url: 'https://github.com/xpladev/testnets/blob/main/cube_47-5/genesis.json'
@@ -41,15 +41,15 @@ const info: Chain = {
     sdk: {
       type: 'cosmos',
       repo: 'https://github.com/xpladev/cosmos-sdk',
-      version: 'v0.47.13',
-      tag: 'v0.47.13-xpla'
+      version: 'v0.50.10',
+      tag: 'v0.50.10-xpla'
     },
     ibc: {
       type: 'go',
-      version: 'v7.7.0'
+      version: 'v8.4.0'
     },
     cosmwasm: {
-      version: 'v0.46.0'
+      version: 'v0.53.2'
     }
   },
   logo_URIs: {
