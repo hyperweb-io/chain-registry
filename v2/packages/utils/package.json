@@ -1,6 +1,6 @@
 {
   "name": "@chain-registry/v2-utils",
-  "version": "1.52.130",
+  "version": "1.52.131",
   "description": "Chain Registry Utils",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "homepage": "https://github.com/hyperweb-io/chain-registry",
@@ -32,7 +32,7 @@
     "@types/sha.js": "^2.4.0"
   },
   "dependencies": {
-    "@chain-registry/v2": "^1.71.130",
+    "@chain-registry/v2": "^1.71.131",
     "@chain-registry/v2-types": "^0.53.77",
     "bignumber.js": "9.1.2",
     "sha.js": "^2.4.11"
