@@ -30,11 +30,11 @@ const info: Chain = {
   },
   codebase: {
     git_repo: 'https://github.com/titantkx/titan',
-    recommended_version: 'v2.0.1',
-    compatible_versions: ['v2.0.1'],
+    recommended_version: 'v3.0.0',
+    compatible_versions: ['v3.0.0'],
     consensus: {
       type: 'cometbft',
-      version: '0.37.4'
+      version: '0.37.6'
     },
     genesis: {
       genesis_url: 'https://raw.githubusercontent.com/titantkx/titan-mainnet/main/public/genesis.json'
@@ -42,11 +42,11 @@ const info: Chain = {
     sdk: {
       type: 'cosmos',
       version: '0.47.6',
-      tag: '0.47.6-titan.4'
+      tag: 'v0.47.6-titan.8'
     },
     ibc: {
       type: 'go',
-      version: '7.3.0',
+      version: '7.4.0',
       ics_enabled: ['ics20-1', 'ics27-1']
     },
     cosmwasm: {

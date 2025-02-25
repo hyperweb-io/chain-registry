@@ -322,6 +322,36 @@ const info: AssetList = {
           }
         }],
       coingecko_id: 'axelar'
+    },
+    {
+      description: 'The OG meme coin on MANTRA Chain',
+      extended_description: 'ex-Wall Street banker turned crypto kingpin. Ali now rides with his OMies representing his biker gang, cruising towards RWA glory on his pink EV motorcycle.',
+      denom_units: [{
+          denom: 'factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE',
+          exponent: 0,
+          aliases: ['ubike']
+        }, {
+          denom: 'bike',
+          exponent: 6
+        }],
+      base: 'factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE',
+      name: 'Ali-Rev-Gator',
+      display: 'bike',
+      symbol: 'BIKE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/BIKE.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/BIKE.png',
+          theme: {
+            primary_color_hex: '#80c75d'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://www.hodlthethrottle.bike/',
+        twitter: 'https://x.com/BikeOnMANTRA'
+      }
     }
   ]
 };
