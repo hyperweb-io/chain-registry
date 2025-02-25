@@ -23531,6 +23531,50 @@ const info: AssetList = {
             primaryColorHex: '#24241c'
           }
         }]
+    },
+    {
+      description: 'The OG meme coin on MANTRA Chain',
+      extendedDescription: 'ex-Wall Street banker turned crypto kingpin. Ali now rides with his OMies representing his biker gang, cruising towards RWA glory on his pink EV motorcycle.',
+      denomUnits: [{
+          denom: 'ibc/512F2595204C4BCAC1C000A394CAB9529A4E519C97ED465B9230B563D2D4AFBA',
+          exponent: 0,
+          aliases: ['ubike']
+        }, {
+          denom: 'bike',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/512F2595204C4BCAC1C000A394CAB9529A4E519C97ED465B9230B563D2D4AFBA',
+      name: 'Ali-Rev-Gator',
+      display: 'bike',
+      symbol: 'BIKE',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'mantrachain',
+            baseDenom: 'factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-85077',
+            path: 'transfer/channel-85077/factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/BIKE.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/BIKE.png',
+          theme: {
+            darkMode: false,
+            circle: true,
+            primaryColorHex: '#80c75d'
+          }
+        }],
+      socials: {
+        website: 'https://www.hodlthethrottle.bike/',
+        twitter: 'https://x.com/BikeOnMANTRA'
+      }
     }
   ]
 };

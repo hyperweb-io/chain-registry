@@ -27,7 +27,8 @@ const info: AssetList = {
       socials: {
         website: 'https://atom.one',
         twitter: 'https://x.com/_atomone'
-      }
+      },
+      coingeckoId: 'atomone'
     }]
 };
 export default info;
