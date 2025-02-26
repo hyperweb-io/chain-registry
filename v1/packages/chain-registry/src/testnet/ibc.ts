@@ -8,6 +8,7 @@ import * as _chain4energytestnet from './chain4energytestnet';
 import * as _composabletestnet from './composabletestnet';
 import * as _coreumtestnet from './coreumtestnet';
 import * as _cosmoshubtestnet from './cosmoshubtestnet';
+import * as _cosmosicsprovidertestnet from './cosmosicsprovidertestnet';
 import * as _doravotatestnet from './doravotatestnet';
 import * as _dydxtestnet from './dydxtestnet';
 import * as _elystestnet from './elystestnet';
@@ -23,6 +24,7 @@ import * as _lavatestnet from './lavatestnet';
 import * as _likecointestnet from './likecointestnet';
 import * as _manifesttestnet from './manifesttestnet';
 import * as _mantrachaintestnet from './mantrachaintestnet';
+import * as _mantrachaintestnet2 from './mantrachaintestnet2';
 import * as _marstestnet from './marstestnet';
 import * as _neutrontestnet from './neutrontestnet';
 import * as _nobletestnet from './nobletestnet';
@@ -53,6 +55,7 @@ const ibc: IBCInfo[] = [
   ..._composabletestnet.ibc,
   ..._coreumtestnet.ibc,
   ..._cosmoshubtestnet.ibc,
+  ..._cosmosicsprovidertestnet.ibc,
   ..._doravotatestnet.ibc,
   ..._dydxtestnet.ibc,
   ..._elystestnet.ibc,
@@ -68,6 +71,7 @@ const ibc: IBCInfo[] = [
   ..._likecointestnet.ibc,
   ..._manifesttestnet.ibc,
   ..._mantrachaintestnet.ibc,
+  ..._mantrachaintestnet2.ibc,
   ..._marstestnet.ibc,
   ..._neutrontestnet.ibc,
   ..._nobletestnet.ibc,
