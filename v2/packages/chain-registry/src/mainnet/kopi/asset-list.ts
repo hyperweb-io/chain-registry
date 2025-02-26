@@ -146,13 +146,13 @@ const info: AssetList = {
     {
       description: 'USDC from Noble Chain',
       denomUnits: [{
-          denom: 'ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5',
+          denom: 'ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F',
           exponent: 0
         }, {
           denom: 'USDC',
           exponent: 6
         }],
-      base: 'ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5',
+      base: 'ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F',
       name: 'USDC',
       display: 'USDC',
       symbol: 'USDC',
@@ -169,11 +169,11 @@ const info: AssetList = {
           counterparty: {
             chainName: 'noble',
             baseDenom: 'uusdc',
-            channelId: 'channel-109'
+            channelId: 'channel-122'
           },
           chain: {
-            channelId: 'channel-0',
-            path: 'transfer/channel-0/uusdc'
+            channelId: 'channel-9',
+            path: 'transfer/channel-9/uusdc'
           }
         }],
       coingeckoId: 'usd-coin'

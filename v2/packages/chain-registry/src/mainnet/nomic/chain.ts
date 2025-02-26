@@ -19,11 +19,6 @@ const info: Chain = {
         lowGasPrice: 0,
         averageGasPrice: 0,
         highGasPrice: 0
-      }, {
-        denom: 'usat',
-        lowGasPrice: 0,
-        averageGasPrice: 0,
-        highGasPrice: 0
       }]
   },
   staking: {

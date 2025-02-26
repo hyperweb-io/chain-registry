@@ -63,20 +63,20 @@ const info: IBCData[] = [
     chain1: {
       chainName: 'kopi',
       clientId: '07-tendermint-0',
-      connectionId: 'connection-0'
+      connectionId: 'connection-1'
     },
     chain2: {
       chainName: 'noble',
-      clientId: '07-tendermint-124',
-      connectionId: 'connection-120'
+      clientId: '07-tendermint-140',
+      connectionId: 'connection-135'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-0',
+          channelId: 'channel-9',
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-109',
+          channelId: 'channel-122',
           portId: 'transfer'
         },
         ordering: 'unordered',
