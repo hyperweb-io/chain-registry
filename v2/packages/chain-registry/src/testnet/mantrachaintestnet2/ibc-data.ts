@@ -62,7 +62,7 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'mantrachaintestnet2',
-      clientId: '07-tendermint-10',
+      clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
     chain2: {
