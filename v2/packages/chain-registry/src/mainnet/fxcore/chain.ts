@@ -5,7 +5,7 @@ const info: Chain = {
   chainType: 'cosmos',
   chainId: 'fxcore',
   website: 'https://functionx.io',
-  prettyName: 'f(x)Core',
+  prettyName: 'Pundi AIFX',
   status: 'live',
   networkType: 'mainnet',
   bech32Prefix: 'fx',
@@ -16,45 +16,45 @@ const info: Chain = {
   slip44: 60,
   fees: {
     feeTokens: [{
-        denom: 'FX',
-        fixedMinGasPrice: 4000000000000,
-        lowGasPrice: 4000000000000,
-        averageGasPrice: 4200000000000,
-        highGasPrice: 5000000000000
+        denom: 'apundiai',
+        fixedMinGasPrice: 5100000000,
+        lowGasPrice: 5000000000,
+        averageGasPrice: 5100000000,
+        highGasPrice: 5200000000
       }]
   },
   staking: {
     stakingTokens: [{
-        denom: 'FX'
+        denom: 'apundiai'
       }]
   },
   codebase: {
-    gitRepo: 'https://github.com/functionx/fx-core',
-    recommendedVersion: 'v7.5.0',
-    compatibleVersions: ['v7.5.0'],
+    gitRepo: 'https://github.com/PundiAI/fx-core',
+    recommendedVersion: 'v8.5.0',
+    compatibleVersions: ['v8.5.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/FunctionX/fx-core/releases/download/v7.5.0/fxcored-v7.5.0-linux-amd64',
-      "linux/arm64": 'https://github.com/FunctionX/fx-core/releases/download/v7.5.0/fxcored-v7.5.0-linux-arm64',
-      "darwin/amd64": 'https://github.com/FunctionX/fx-core/releases/download/v7.5.0/fxcored-v7.5.0-darwin-amd64',
-      "darwin/arm64": 'https://github.com/FunctionX/fx-core/releases/download/v7.5.0/fxcored-v7.5.0-darwin-amd64',
-      "windows/amd64": 'https://github.com/FunctionX/fx-core/releases/download/v7.5.0/fxcored-v7.5.0-windows-amd64.exe'
+      "linux/amd64": 'https://github.com/PundiAI/fx-core/releases/download/v8.5.0/fxcored-v8.5.0-linux-amd64',
+      "linux/arm64": 'https://github.com/PundiAI/fx-core/releases/download/v8.5.0/fxcored-v8.5.0-linux-arm64',
+      "darwin/amd64": 'https://github.com/PundiAI/fx-core/releases/download/v8.5.0/fxcored-v8.5.0-darwin-amd64',
+      "darwin/arm64": 'https://github.com/PundiAI/fx-core/releases/download/v8.5.0/fxcored-v8.5.0-darwin-amd64',
+      "windows/amd64": 'https://github.com/PundiAI/fx-core/releases/download/v8.5.0/fxcored-v8.5.0-windows-amd64.exe'
     },
     genesis: {
       name: 'fxv1',
-      genesisUrl: 'https://github.com/functionx/fx-core/raw/main/public/mainnet/genesis.json'
+      genesisUrl: 'https://github.com/PundiAI/fx-core/raw/main/public/mainnet/genesis.json'
     },
     consensus: {
       type: 'cometbft',
-      version: 'v0.37.9'
+      version: 'v0.38.13'
     },
     sdk: {
       type: 'cosmos',
-      version: 'v0.47.13',
-      tag: 'v0.47.13'
+      version: 'v0.50.11',
+      tag: 'v0.50.11'
     },
     ibc: {
       type: 'go',
-      version: 'v7.6.0'
+      version: 'v8.5.2'
     }
   },
   apis: {

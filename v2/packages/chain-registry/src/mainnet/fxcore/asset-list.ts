@@ -2,7 +2,40 @@ import { AssetList } from '@chain-registry/v2-types';
 const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chainName: 'fxcore',
-  assets: [{
+  assets: [
+    {
+      description: 'PUNDIAI is an ERC-20 utility and governance token of Pundi AI ecosystem, including Pundi AI Data Platform, Pundi AI Marketplace, Pundi AIFX Omni Layer and Pundi MM AI Agent Launcher.',
+      extendedDescription: 'PundiAI is the token rebrand of Function X (FX token) to align with the project\'s evolving AI and data-driven focus, updating tokenomics to reflect current value, enhancing market perception, improving user adoption, and possibly supporting technical or ecosystem improvements.',
+      denomUnits: [{
+          denom: 'apundiai',
+          exponent: 0
+        }, {
+          denom: 'pundiai',
+          exponent: 18
+        }],
+      base: 'apundiai',
+      name: 'Pundi AI',
+      display: 'pundiai',
+      symbol: 'PUNDIAI',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.svg'
+      },
+      coingeckoId: 'pundi-aifx',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.svg',
+          theme: {
+            primaryColorHex: '#1c1c1c'
+          }
+        }],
+      socials: {
+        website: 'https://functionx.io',
+        twitter: 'https://x.com/PundiAI'
+      },
+      typeAsset: 'sdk.coin'
+    },
+    {
       description: 'The native staking token of the Function X',
       extendedDescription: 'FX coin is the native token on the Function X ecosystem. It is currently utilized as a governance token as well as a gas token on f(x)Core and f(x)EVM. The subnets that are built on the Function X ecosystem can also choose to utilize FX as their gas token.',
       denomUnits: [{
@@ -33,7 +66,8 @@ const info: AssetList = {
         twitter: 'https://x.com/functionx_io'
       },
       typeAsset: 'sdk.coin'
-    }, {
+    },
+    {
       description: 'The cross chain token of the Function X',
       extendedDescription: 'PUNDIX token is the native token that functions within the Pundi X ecosystem, including PundiX Chain and XPOS. PUNDIX has several core use cases, including:\n- Payment for goods and services from merchants through XPOS\n- Gas Fee on PundiX Chain\n- Listing tokens in the XPOS\n- Merchant payments for loyalty programs and ads',
       denomUnits: [{
@@ -72,6 +106,7 @@ const info: AssetList = {
         twitter: 'https://x.com/PundiXLabs'
       },
       typeAsset: 'sdk.coin'
-    }]
+    }
+  ]
 };
 export default info;
