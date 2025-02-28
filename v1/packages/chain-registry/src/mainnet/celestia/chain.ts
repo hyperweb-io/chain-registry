@@ -180,6 +180,10 @@ const info: Chain = {
       {
         address: 'https://celestia-rpc.stakeandrelax.net',
         provider: 'Stake&Relax Validator 🦥'
+      },
+      {
+        address: 'https://rpc.celestia.node75.org',
+        provider: 'Pro-Nodes75'
       }
     ],
     rest: [
@@ -286,6 +290,10 @@ const info: Chain = {
       {
         address: 'https://celestia-api.stakeandrelax.net',
         provider: 'Stake&Relax Validator 🦥'
+      },
+      {
+        address: 'https://api.celestia.node75.org',
+        provider: 'Pro-Nodes75'
       }
     ],
     grpc: [
@@ -376,6 +384,10 @@ const info: Chain = {
       {
         address: 'http://celestia-grpc.stakeandrelax.net:11690',
         provider: 'Stake&Relax Validator 🦥'
+      },
+      {
+        address: 'grpc.celestia.node75.org:9220',
+        provider: 'Pro-Nodes75'
       }
     ]
   },

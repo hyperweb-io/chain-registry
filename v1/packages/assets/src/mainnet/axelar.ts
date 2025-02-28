@@ -1428,6 +1428,49 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'PUNDIAI is an ERC-20 utility and governance token of Pundi AI ecosystem, including Pundi AI Data Platform, Pundi AI Marketplace, Pundi AIFX Omni Layer and Pundi MM AI Agent Launcher.',
+      denom_units: [{
+          denom: 'ibc/21EF712F20479AC9D4745637003C12399E6587F1622E04ADC5A160D03004CA73',
+          exponent: 0,
+          aliases: ['apundiai']
+        }, {
+          denom: 'pundiai',
+          exponent: 18
+        }],
+      base: 'ibc/21EF712F20479AC9D4745637003C12399E6587F1622E04ADC5A160D03004CA73',
+      name: 'Pundi AI',
+      display: 'pundiai',
+      symbol: 'PUNDIAI',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.svg'
+      },
+      coingecko_id: 'pundi-aifx',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.svg',
+          theme: {
+            primary_color_hex: '#1c1c1c'
+          }
+        }],
+      socials: {
+        website: 'https://functionx.io',
+        twitter: 'https://x.com/PundiAI'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-20',
+            base_denom: 'apundiai',
+            chain_name: 'fxcore'
+          },
+          chain: {
+            channel_id: 'channel-128'
+          }
+        }]
+    },
+    {
       description: 'The native staking token of the Function X',
       denom_units: [{
           denom: 'ibc/4C64C29DD6CC71639E9C3FB7F43D0068F86C447F38951527B95F0DF4CABD0E66',
@@ -8919,6 +8962,49 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-22'
+          }
+        }]
+    },
+    {
+      description: 'PUNDIAI is an ERC-20 utility and governance token of Pundi AI ecosystem, including Pundi AI Data Platform, Pundi AI Marketplace, Pundi AIFX Omni Layer and Pundi MM AI Agent Launcher.',
+      denom_units: [{
+          denom: 'ibc/21EF712F20479AC9D4745637003C12399E6587F1622E04ADC5A160D03004CA73',
+          exponent: 0,
+          aliases: ['apundiai']
+        }, {
+          denom: 'pundiai',
+          exponent: 18
+        }],
+      base: 'ibc/21EF712F20479AC9D4745637003C12399E6587F1622E04ADC5A160D03004CA73',
+      name: 'Pundi AI',
+      display: 'pundiai',
+      symbol: 'PUNDIAI',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.svg'
+      },
+      coingecko_id: 'pundi-aifx',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.svg',
+          theme: {
+            primary_color_hex: '#1c1c1c'
+          }
+        }],
+      socials: {
+        website: 'https://functionx.io',
+        twitter: 'https://x.com/PundiAI'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-20',
+            base_denom: 'apundiai',
+            chain_name: 'fxcore'
+          },
+          chain: {
+            channel_id: 'channel-128'
           }
         }]
     },
