@@ -18,7 +18,7 @@ const info: Chain = {
     feeTokens: [{
         denom: 'apundiai',
         fixedMinGasPrice: 5100000000,
-        lowGasPrice: 5000000000,
+        lowGasPrice: 5100000000,
         averageGasPrice: 5100000000,
         highGasPrice: 5200000000
       }]

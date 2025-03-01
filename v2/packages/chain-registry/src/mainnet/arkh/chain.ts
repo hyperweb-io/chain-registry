@@ -47,40 +47,25 @@ const info: Chain = {
     rpc: [{
         address: 'https://asc-dataseed.arkhadian.com/',
         provider: 'arkhnetwork'
-      }, {
-        address: 'https://arkh_mainnet_rpc.chain.whenmoonwhenlambo.money',
-        provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }],
     rest: [{
         address: 'https://asc-blockchain-api.arkhadian.com/',
         provider: 'arkhnetwork'
-      }, {
-        address: 'https://arkh_mainnet_api.chain.whenmoonwhenlambo.money',
-        provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }],
     grpc: [{
         address: 'https://grpc.arkh.nodexcapital.com:443',
         provider: 'NodeX Validator'
       }]
   },
-  explorers: [
-    {
+  explorers: [{
       kind: 'Kynraze Explorer',
       url: 'https://explorer.kynraze.com/arkhadian',
       txPage: 'https://explorer.kynraze.com/arkhadian/tx/${txHash}'
-    },
-    {
+    }, {
       kind: 'NODEXPLORER',
       url: 'https://explorer.nodexcapital.com/arkhadian',
       txPage: 'https://explorer.nodexcapital.com/arkhadian/tx/${txHash}'
-    },
-    {
-      kind: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥',
-      url: 'https://explorer.whenmoonwhenlambo.money/arkhadian',
-      txPage: 'https://explorer.whenmoonwhenlambo.money/arkhadian/tx/${txHash}',
-      accountPage: 'https://explorer.whenmoonwhenlambo.money/arkhadian/account/${accountAddress}'
-    }
-  ],
+    }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkh/images/arkh.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkh/images/arkh.svg',

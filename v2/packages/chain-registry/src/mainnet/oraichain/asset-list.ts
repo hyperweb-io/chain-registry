@@ -673,6 +673,11 @@ const info: AssetList = {
       name: 'SAM',
       display: 'sam',
       symbol: 'SAM',
+      coingeckoId: 'sam-2',
+      socials: {
+        website: 'https://www.lastsamorais.com/',
+        twitter: 'https://x.com/sam_thecoin'
+      },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/sam.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/sam.svg'
