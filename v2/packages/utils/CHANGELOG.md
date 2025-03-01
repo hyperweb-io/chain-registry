@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.52.137 (2025-03-01)
+
+**Note:** Version bump only for package @chain-registry/v2-utils
+
+
+
+
+
 ## 1.52.136 (2025-02-28)
 
 **Note:** Version bump only for package @chain-registry/v2-utils
