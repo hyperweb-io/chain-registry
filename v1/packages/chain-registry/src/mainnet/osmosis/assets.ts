@@ -23432,10 +23432,15 @@ const info: AssetList = {
           provider: 'Osmosis'
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dydx.dydx.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dydx.dydx.png'
       },
-      images: [{
+      images: [
+        {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dydx.dydx.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dydx.dydx.png'
+        },
+        {
           image_sync: {
             chain_name: 'dydx',
             base_denom: 'adydx'
@@ -23445,12 +23450,14 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#21212f'
           }
-        }, {
+        },
+        {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg',
           theme: {
             circle: true
           }
-        }]
+        }
+      ]
     },
     {
       description: 'An alloy of FET asset variants on Osmosis.',
@@ -23477,10 +23484,13 @@ const info: AssetList = {
           provider: 'Osmosis'
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fet.fet.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fet.fet.svg'
       },
       images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fet.fet.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fet.fet.png'
+        }, {
           image_sync: {
             chain_name: 'fetchhub',
             base_denom: 'afet'
@@ -23517,10 +23527,13 @@ const info: AssetList = {
           provider: 'Osmosis'
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.svg'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/aioz.aioz.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/aioz.aioz.png'
       },
       images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/aioz.aioz.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/aioz.aioz.png'
+        }, {
           image_sync: {
             chain_name: 'aioz',
             base_denom: 'attoaioz'
