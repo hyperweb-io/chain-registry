@@ -30,7 +30,7 @@ const info: AssetList = {
           }
         }],
       socials: {
-        website: 'https://functionx.io',
+        website: 'https://fx.pundi.ai',
         twitter: 'https://x.com/PundiAI'
       },
       typeAsset: 'sdk.coin'
@@ -62,7 +62,7 @@ const info: AssetList = {
           }
         }],
       socials: {
-        website: 'https://functionx.io',
+        website: 'https://fx.pundi.ai',
         twitter: 'https://x.com/functionx_io'
       },
       typeAsset: 'sdk.coin'

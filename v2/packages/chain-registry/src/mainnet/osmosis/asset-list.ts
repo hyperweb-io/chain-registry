@@ -2616,10 +2616,13 @@ const info: AssetList = {
           }
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fet.fet.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fet.fet.svg'
       },
       images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fet.fet.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fet.fet.png'
+        }, {
           imageSync: {
             chainName: 'fetchhub',
             baseDenom: 'afet'
@@ -11481,14 +11484,21 @@ const info: AssetList = {
           }
         }],
       logoURIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dydx.dydx.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dydx.dydx.png'
       },
-      images: [{
+      images: [
+        {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dydx.dydx.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dydx.dydx.png'
+        },
+        {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg',
           theme: {
             circle: true
           }
-        }, {
+        },
+        {
           imageSync: {
             chainName: 'dydx',
             baseDenom: 'adydx'
@@ -11498,7 +11508,8 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#21212f'
           }
-        }],
+        }
+      ],
       coingeckoId: 'dydx-chain'
     },
     {
@@ -14178,10 +14189,13 @@ const info: AssetList = {
           }
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.svg'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/aioz.aioz.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/aioz.aioz.png'
       },
       images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/aioz.aioz.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/aioz.aioz.png'
+        }, {
           imageSync: {
             chainName: 'aioz',
             baseDenom: 'attoaioz'
@@ -23432,15 +23446,14 @@ const info: AssetList = {
           provider: 'Osmosis'
         }],
       logoURIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dydx.dydx.svg',
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dydx.dydx.png'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg'
       },
-      images: [
-        {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dydx.dydx.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dydx.dydx.png'
-        },
-        {
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg',
+          theme: {
+            circle: true
+          }
+        }, {
           imageSync: {
             chainName: 'dydx',
             baseDenom: 'adydx'
@@ -23450,14 +23463,7 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#21212f'
           }
-        },
-        {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg',
-          theme: {
-            circle: true
-          }
-        }
-      ]
+        }]
     },
     {
       description: 'An alloy of FET asset variants on Osmosis.',
@@ -23484,13 +23490,10 @@ const info: AssetList = {
           provider: 'Osmosis'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fet.fet.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fet.fet.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fet.fet.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fet.fet.png'
-        }, {
           imageSync: {
             chainName: 'fetchhub',
             baseDenom: 'afet'
@@ -23527,13 +23530,10 @@ const info: AssetList = {
           provider: 'Osmosis'
         }],
       logoURIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/aioz.aioz.svg',
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/aioz.aioz.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.svg'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/aioz.aioz.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/aioz.aioz.png'
-        }, {
           imageSync: {
             chainName: 'aioz',
             baseDenom: 'attoaioz'
@@ -23587,6 +23587,44 @@ const info: AssetList = {
       socials: {
         website: 'https://www.hodlthethrottle.bike/',
         twitter: 'https://x.com/BikeOnMANTRA'
+      }
+    },
+    {
+      description: 'The community token for The Fortunate Few, a multi chain NFT community platform.',
+      extendedDescription: 'HOOD is the community token for The Fortunate Few, a multi-chain NFT community platform and DAO, with its genesis collection available on the Stargaze marketplace. The community interfaces with other NFT collections and communities, including Hooded Syndicate, Jack-O-Hoods and Hoods of Christmas NFT collections. The project also contributed collaboration NFTS on The Cosmic Gumball Machine NFT collection and Wolfhunters, also on Stargaze. Join the ranks of The Fortunate Few and learn more in the official Discord channel here: https://discord.gg/HDRNRTUTXC',
+      denomUnits: [{
+          denom: 'ibc/48047CBAA27D0526BA9E6BEC9D77D9B796AA95E35C95891C7F19C3F0D32473F6',
+          exponent: 0
+        }, {
+          denom: 'HOOD',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/48047CBAA27D0526BA9E6BEC9D77D9B796AA95E35C95891C7F19C3F0D32473F6',
+      name: 'Hood',
+      display: 'HOOD',
+      symbol: 'HOOD',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'stargaze',
+            baseDenom: 'factory/stars1rru5m2wh3fylpheqh8h5g968jwhe7rctkfm7u0gwk7ka4vx3q5tqukjl4z/hood',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-75',
+            path: 'transfer/channel-75/factory/stars1rru5m2wh3fylpheqh8h5g968jwhe7rctkfm7u0gwk7ka4vx3q5tqukjl4z/hood'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/hood.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/hood.png'
+        }],
+      socials: {
+        website: 'https://ffsc.site',
+        twitter: 'https://x.com/FortunateFewNFT'
       }
     }
   ]

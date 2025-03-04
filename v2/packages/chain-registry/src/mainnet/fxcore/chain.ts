@@ -4,7 +4,7 @@ const info: Chain = {
   chainName: 'fxcore',
   chainType: 'cosmos',
   chainId: 'fxcore',
-  website: 'https://functionx.io',
+  website: 'https://fx.pundi.ai',
   prettyName: 'Pundi AIFX',
   status: 'live',
   networkType: 'mainnet',
@@ -17,8 +17,8 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'apundiai',
-        fixedMinGasPrice: 5100000000,
-        lowGasPrice: 5100000000,
+        fixedMinGasPrice: 5000000000,
+        lowGasPrice: 5000000000,
         averageGasPrice: 5100000000,
         highGasPrice: 5200000000
       }]
