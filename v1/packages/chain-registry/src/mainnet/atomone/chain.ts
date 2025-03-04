@@ -117,6 +117,10 @@ const info: Chain = {
       {
         address: 'https://rpc-atone.vinjan.xyz',
         provider: 'Vinjan.Inc'
+      },
+      {
+        address: 'https://rpc-atomone.ecostake.com',
+        provider: 'ecostake'
       }
     ],
     rest: [
@@ -179,6 +183,10 @@ const info: Chain = {
       {
         address: 'https://api-atone.vinjan.xyz',
         provider: 'Vinjan.Inc'
+      },
+      {
+        address: 'https://rest-atomone.ecostake.com',
+        provider: 'ecostake'
       }
     ],
     grpc: [

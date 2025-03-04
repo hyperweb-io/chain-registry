@@ -5,6 +5,7 @@ const info: AssetList = {
   assets: [
     {
       description: 'The native token of kopi',
+      extended_description: 'Kopi provides a full suite of DeFi applications all built into the native L1 and automations that will allow users to automate all things defi without a single line of code, has it\'s own stablecoin and a \'global\' liquidity pool. ',
       denom_units: [{
           denom: 'ukopi',
           exponent: 0
