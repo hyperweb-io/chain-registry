@@ -23626,6 +23626,28 @@ const info: AssetList = {
         website: 'https://ffsc.site',
         twitter: 'https://x.com/FortunateFewNFT'
       }
+    },
+    {
+      description: 'The Seven Green Shade Token, limited to 7777 units, represents exclusive access and utilities in the upcoming Seven Shaders RPG AI game.',
+      denomUnits: [{
+          denom: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s',
+          exponent: 0
+        }, {
+          denom: 'T7S',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      address: 'osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8',
+      base: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s',
+      name: 'The seven green shade ',
+      display: 'T7S',
+      symbol: 'T7S',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/T7S.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/T7S.png'
+        }]
     }
   ]
 };
