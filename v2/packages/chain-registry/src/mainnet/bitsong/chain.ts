@@ -170,7 +170,7 @@ const info: Chain = {
         provider: 'Safe Block'
       },
       {
-        address: 'grpc.bitsong.mathnodes.com:9092',
+        address: 'grpc.bitsong.mathnodes.com:443',
         provider: 'MathNodes'
       },
       {

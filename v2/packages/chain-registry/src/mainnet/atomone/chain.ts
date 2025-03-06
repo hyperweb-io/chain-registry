@@ -16,10 +16,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'uatone',
-        fixedMinGasPrice: 0.001,
-        lowGasPrice: 0.006,
-        averageGasPrice: 0.006,
-        highGasPrice: 0.009
+        fixedMinGasPrice: 0.025,
+        lowGasPrice: 0.025,
+        averageGasPrice: 0.04,
+        highGasPrice: 0.08
       }]
   },
   staking: {
