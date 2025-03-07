@@ -68,10 +68,10 @@ const info: AssetList = {
           counterparty: {
             chainName: 'osmosistestnet',
             baseDenom: 'uosmo',
-            channelId: 'channel-10016'
+            channelId: 'channel-10183'
           },
           chain: {
-            channelId: 'channel-0',
+            channelId: 'channel-5',
             path: 'transfer/channel-0/uosmo'
           }
         }],
@@ -1367,6 +1367,75 @@ const info: AssetList = {
       name: 'SNOOP Token',
       display: 'snoop',
       symbol: 'SNOOP',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'ADAM Token',
+      denomUnits: [{
+          denom: 'factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uadam',
+          exponent: 0
+        }, {
+          denom: 'adam',
+          exponent: 6
+        }],
+      base: 'factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uadam',
+      name: 'ADAM Token',
+      display: 'adam',
+      symbol: 'ADAM',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'AGA Token',
+      denomUnits: [{
+          denom: 'factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uaga',
+          exponent: 0
+        }, {
+          denom: 'aga',
+          exponent: 6
+        }],
+      base: 'factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uaga',
+      name: 'AGA Token',
+      display: 'aga',
+      symbol: 'AGA',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'GAS Token on Manifest Ledger Testnet',
+      denomUnits: [{
+          denom: 'factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/ugas',
+          exponent: 0
+        }, {
+          denom: 'gas',
+          exponent: 6
+        }],
+      base: 'factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/ugas',
+      name: 'GAS Token',
+      display: 'gas',
+      symbol: 'GAS',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg'
