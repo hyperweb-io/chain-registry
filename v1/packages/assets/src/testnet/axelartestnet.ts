@@ -39,14 +39,14 @@ const assets: AssetList = {
     {
       description: 'Manifest testnet native token',
       denom_units: [{
-          denom: 'ibc/EAC654CC560CC03D82AE4BAA808BD0B6E06E9F29F62194B46C0502D967349E24',
+          denom: 'ibc/FBB845E40F35378F2CDD02E0A8E9A42DECDBE1067F3E5CB08DBCF616B029569C',
           exponent: 0,
           aliases: ['umfx']
         }, {
           denom: 'mfx',
           exponent: 6
         }],
-      base: 'ibc/EAC654CC560CC03D82AE4BAA808BD0B6E06E9F29F62194B46C0502D967349E24',
+      base: 'ibc/FBB845E40F35378F2CDD02E0A8E9A42DECDBE1067F3E5CB08DBCF616B029569C',
       name: 'Manifest Testnet Token',
       display: 'mfx',
       symbol: 'MFX',
@@ -62,26 +62,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-3',
+            channel_id: 'channel-6',
             base_denom: 'umfx',
             chain_name: 'manifesttestnet'
           },
           chain: {
-            channel_id: 'channel-590'
+            channel_id: 'channel-594'
           }
         }]
     },
     {
       description: 'Proof of Authority token for the Manifest testnet',
       denom_units: [{
-          denom: 'ibc/19E6407BFF89388736741F6EE3CBED86EAA29DA8CF3314E14CA916FF76577A5F',
+          denom: 'ibc/C6CF685B912065AE7ABE933C5E42F28CE2890E7FA4CF996A7DF95028227CF2E3',
           exponent: 0,
           aliases: ['upoa']
         }, {
           denom: 'poa',
           exponent: 6
         }],
-      base: 'ibc/19E6407BFF89388736741F6EE3CBED86EAA29DA8CF3314E14CA916FF76577A5F',
+      base: 'ibc/C6CF685B912065AE7ABE933C5E42F28CE2890E7FA4CF996A7DF95028227CF2E3',
       name: 'Manifest Testnet Token',
       display: 'poa',
       symbol: 'POA',
@@ -97,12 +97,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-3',
+            channel_id: 'channel-6',
             base_denom: 'upoa',
             chain_name: 'manifesttestnet'
           },
           chain: {
-            channel_id: 'channel-590'
+            channel_id: 'channel-594'
           }
         }]
     },
@@ -408,14 +408,14 @@ const assets: AssetList = {
     {
       description: 'Manifest testnet native token',
       denom_units: [{
-          denom: 'ibc/EAC654CC560CC03D82AE4BAA808BD0B6E06E9F29F62194B46C0502D967349E24',
+          denom: 'ibc/FBB845E40F35378F2CDD02E0A8E9A42DECDBE1067F3E5CB08DBCF616B029569C',
           exponent: 0,
           aliases: ['umfx']
         }, {
           denom: 'mfx',
           exponent: 6
         }],
-      base: 'ibc/EAC654CC560CC03D82AE4BAA808BD0B6E06E9F29F62194B46C0502D967349E24',
+      base: 'ibc/FBB845E40F35378F2CDD02E0A8E9A42DECDBE1067F3E5CB08DBCF616B029569C',
       name: 'Manifest Testnet Token',
       display: 'mfx',
       symbol: 'MFX',
@@ -431,26 +431,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-3',
+            channel_id: 'channel-6',
             base_denom: 'umfx',
             chain_name: 'manifesttestnet'
           },
           chain: {
-            channel_id: 'channel-590'
+            channel_id: 'channel-594'
           }
         }]
     },
     {
       description: 'Proof of Authority token for the Manifest testnet',
       denom_units: [{
-          denom: 'ibc/19E6407BFF89388736741F6EE3CBED86EAA29DA8CF3314E14CA916FF76577A5F',
+          denom: 'ibc/C6CF685B912065AE7ABE933C5E42F28CE2890E7FA4CF996A7DF95028227CF2E3',
           exponent: 0,
           aliases: ['upoa']
         }, {
           denom: 'poa',
           exponent: 6
         }],
-      base: 'ibc/19E6407BFF89388736741F6EE3CBED86EAA29DA8CF3314E14CA916FF76577A5F',
+      base: 'ibc/C6CF685B912065AE7ABE933C5E42F28CE2890E7FA4CF996A7DF95028227CF2E3',
       name: 'Manifest Testnet Token',
       display: 'poa',
       symbol: 'POA',
@@ -466,12 +466,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-3',
+            channel_id: 'channel-6',
             base_denom: 'upoa',
             chain_name: 'manifesttestnet'
           },
           chain: {
-            channel_id: 'channel-590'
+            channel_id: 'channel-594'
           }
         }]
     },
