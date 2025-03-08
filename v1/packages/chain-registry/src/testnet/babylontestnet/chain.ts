@@ -16,7 +16,10 @@ const info: Chain = {
   key_algos: ['secp256k1'],
   fees: {
     fee_tokens: [{
-        denom: 'ubbn'
+        denom: 'ubbn',
+        low_gas_price: 0.007,
+        average_gas_price: 0.007,
+        high_gas_price: 0.01
       }]
   },
   staking: {

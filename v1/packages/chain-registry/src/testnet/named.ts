@@ -9,6 +9,7 @@ export * as auratestnet from './auratestnet';
 export * as autheotestnet from './autheotestnet';
 export * as axelartestnet from './axelartestnet';
 export * as babylontestnet from './babylontestnet';
+export * as bfhevmtestnet from './bfhevmtestnet';
 export * as bitcannadevnet from './bitcannadevnet';
 export * as blockxtestnet from './blockxtestnet';
 export * as cascadiatestnet from './cascadiatestnet';
