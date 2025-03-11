@@ -1,9 +1,9 @@
 import { AssetList } from '@chain-registry/v2-types';
 const info: AssetList = {
-  $schema: '../../assetlist.schema.json',
-  chainName: 'manifestdevnet',
+  $schema: '../assetlist.schema.json',
+  chainName: 'manifest',
   assets: [{
-      description: 'Manifest devnet native token',
+      description: 'Manifest native token',
       denomUnits: [{
           denom: 'umfx',
           exponent: 0
@@ -12,7 +12,7 @@ const info: AssetList = {
           exponent: 6
         }],
       base: 'umfx',
-      name: 'Manifest Devnet Token',
+      name: 'Manifest Token',
       display: 'mfx',
       symbol: 'MFX',
       logoURIs: {
@@ -25,7 +25,7 @@ const info: AssetList = {
         }],
       typeAsset: 'sdk.coin'
     }, {
-      description: 'Proof of Authority token for the Manifest devnet',
+      description: 'Proof of Authority token for the Manifest network',
       denomUnits: [{
           denom: 'upoa',
           exponent: 0
@@ -34,7 +34,7 @@ const info: AssetList = {
           exponent: 6
         }],
       base: 'upoa',
-      name: 'Manifest Devnet Authority Token',
+      name: 'Manifest Proof of Authority Token',
       display: 'poa',
       symbol: 'POA',
       logoURIs: {

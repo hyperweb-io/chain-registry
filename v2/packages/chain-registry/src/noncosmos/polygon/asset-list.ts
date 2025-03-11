@@ -4,21 +4,62 @@ const info: AssetList = {
   chainName: 'polygon',
   assets: [
     {
+      description: 'Polygon combines the best of Ethereum and sovereign blockchains into a full-fledged multi-chain system.',
+      extendedDescription: 'POL (ex-MATIC) is the native coin of the Polygon network, used to pay transaction fees and staking rewards. It\'s also an ERC-20 token and will power a vast ecosystem of zero-knowledge-based Layer 2 chains. POL will gradually replace the current MATIC token over 4 years as part of Polygon 2.0.',
+      typeAsset: 'erc20',
+      address: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
+      denomUnits: [{
+          denom: '0x0000000000000000000000000000000000001010',
+          exponent: 0
+        }, {
+          denom: 'pol',
+          exponent: 18
+        }],
+      base: '0x0000000000000000000000000000000000001010',
+      name: 'Polygon (ex-MATIC)',
+      display: 'pol',
+      symbol: 'POL',
+      traces: [{
+          type: 'wrapped',
+          counterparty: {
+            chainName: 'polygon',
+            baseDenom: 'wei'
+          },
+          provider: 'Polygon'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg'
+      },
+      coingeckoId: 'polygon-ecosystem-token',
+      images: [{
+          imageSync: {
+            chainName: 'polygon',
+            baseDenom: 'wei'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg',
+          theme: {
+            primaryColorHex: '#8444e4'
+          }
+        }]
+    },
+    {
+      deprecated: true,
       description: 'Polygon, previously known as Matic Network, is a Layer 2 scaling solution for Ethereum that aims to provide faster and cheaper transactions.',
       extendedDescription: 'Polygon is a Layer 2 scaling solution for Ethereum, designed to improve the scalability and usability of the Ethereum blockchain. It achieves this by using sidechains for off-chain computation while ensuring asset security using the Plasma framework and a decentralized network of Proof-of-Stake (PoS) validators. Polygon supports various DeFi and NFT projects by providing a faster, more efficient, and low-cost environment for transactions. Its native token, MATIC, is used for staking, governance, and paying transaction fees on the network. The platform aims to transform Ethereum into a multi-chain system, similar to Polkadot, but with the benefits of Ethereum\'s security and vibrant ecosystem.',
       denomUnits: [{
           denom: 'wei',
           exponent: 0
         }, {
-          denom: 'pol',
-          exponent: 18,
-          aliases: ['polygon', 'matic']
+          denom: 'matic',
+          exponent: 18
         }],
       typeAsset: 'evm-base',
       base: 'wei',
       name: 'Polygon',
-      display: 'pol',
-      symbol: 'POL',
+      display: 'matic',
+      symbol: 'MATIC',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg'
@@ -42,8 +83,7 @@ const info: AssetList = {
           aliases: ['wmatic-wei']
         }, {
           denom: 'wmatic',
-          exponent: 18,
-          aliases: ['polygon']
+          exponent: 18
         }],
       base: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
       name: 'Wrapped Matic',

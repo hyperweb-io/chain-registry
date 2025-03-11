@@ -16,10 +16,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'urock',
-        fixedMinGasPrice: 0.5,
-        lowGasPrice: 0.5,
-        averageGasPrice: 0.55,
-        highGasPrice: 0.6
+        fixedMinGasPrice: 2.5,
+        lowGasPrice: 2.5,
+        averageGasPrice: 2.75,
+        highGasPrice: 3
       }]
   },
   staking: {

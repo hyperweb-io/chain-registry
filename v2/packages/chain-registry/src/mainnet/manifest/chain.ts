@@ -1,12 +1,12 @@
 import { Chain } from '@chain-registry/v2-types';
 const info: Chain = {
-  $schema: '../../chain.schema.json',
-  chainName: 'manifestdevnet',
+  $schema: '../chain.schema.json',
+  chainName: 'manifest',
   status: 'live',
-  networkType: 'devnet',
+  networkType: 'mainnet',
   website: 'https://liftedinit.org/',
-  prettyName: 'Manifest Devnet',
-  chainId: 'manifest-ledger-qa',
+  prettyName: 'Manifest',
+  chainId: 'manifest-ledger-mainnet',
   chainType: 'cosmos',
   bech32Prefix: 'manifest',
   daemonName: 'manifest',
@@ -28,33 +28,39 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/liftedinit/manifest-ledger',
-    recommendedVersion: 'v0.0.1-rc.1',
-    compatibleVersions: ['v0.0.1-rc.1'],
+    recommendedVersion: 'v1.0.1',
+    compatibleVersions: ['v1.0.1'],
     binaries: {
-      "linux/amd64": 'https://github.com/liftedinit/manifest-ledger/releases/download/v0.0.1-rc.1/manifest-ledger-v0.0.1-rc.1-linux-amd64.tar.gz'
+      "linux/amd64": 'https://github.com/liftedinit/manifest-ledger/releases/download/v1.0.1/manifest-ledger-v1.0.1-linux-amd64.tar.gz'
     },
     genesis: {
-      genesisUrl: 'https://github.com/liftedinit/manifest-ledger/blob/main/network/manifest-1/manifest-1_genesis.json'
+      genesisUrl: 'https://raw.githubusercontent.com/liftedinit/manifest-ledger-genesis/refs/heads/main/mainnet/genesis.json'
     }
   },
   apis: {
     rpc: [{
-        address: 'https://nodes.liftedinit.tech/manifest/qa/rpc',
+        address: 'https://nodes.liftedinit.app/manifest/rpc',
+        provider: 'The Lifted Initiative'
+      }, {
+        address: 'https://manifest-rpc.liftedinit.app',
         provider: 'The Lifted Initiative'
       }],
     rest: [{
-        address: 'https://nodes.liftedinit.tech/manifest/qa/api',
+        address: 'https://nodes.liftedinit.app/manifest/api',
+        provider: 'The Lifted Initiative'
+      }, {
+        address: 'https://manifest-rest.liftedinit.app',
         provider: 'The Lifted Initiative'
       }],
     grpc: [{
-        address: 'https://manifest-qa-grpc.liftedinit.tech',
+        address: 'https://manifest-grpc.liftedinit.app',
         provider: 'The Lifted Initiative'
       }]
   },
   explorers: [{
       kind: 'Default Explorer',
-      url: 'https://testnet.manifest.explorers.guru/',
-      txPage: 'https://testnet.manifest.explorers.guru/transactions'
+      url: 'https://manifest.explorers.guru/',
+      txPage: 'https://manifest.explorers.guru/transactions'
     }],
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
@@ -62,7 +68,7 @@ const info: Chain = {
   },
   images: [{
       imageSync: {
-        chainName: 'manifestdevnet'
+        chainName: 'manifest'
       },
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg',

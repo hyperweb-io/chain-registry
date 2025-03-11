@@ -91,6 +91,7 @@ import * as _quicksilvertestnet from './quicksilvertestnet';
 import * as _qwoyntestnet from './qwoyntestnet';
 import * as _sagatestnet from './sagatestnet';
 import * as _secretnetworktestnet from './secretnetworktestnet';
+import * as _sedatestnet from './sedatestnet';
 import * as _seitestnet from './seitestnet';
 import * as _seitestnet2 from './seitestnet2';
 import * as _selfchaindevnet from './selfchaindevnet';
@@ -219,6 +220,7 @@ const assetList: AssetList[] = [
   _qwoyntestnet.assetList,
   _sagatestnet.assetList,
   _secretnetworktestnet.assetList,
+  _sedatestnet.assetList,
   _seitestnet.assetList,
   _seitestnet2.assetList,
   _selfchaindevnet.assetList,

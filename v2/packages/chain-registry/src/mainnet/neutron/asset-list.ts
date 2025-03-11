@@ -1442,6 +1442,214 @@ const info: AssetList = {
         twitter: 'https://x.com/neptune_finance'
       },
       typeAsset: 'ics20'
+    },
+    {
+      description: 'Dogecoin on Int3face',
+      denomUnits: [{
+          denom: 'ibc/F16C7C5B6F7E96ACDA73E35BCA3A3DE49DDF7164066A359C843E9709041CE6B9',
+          exponent: 0,
+          aliases: ['factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge']
+        }, {
+          denom: 'doge',
+          exponent: 8
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/F16C7C5B6F7E96ACDA73E35BCA3A3DE49DDF7164066A359C843E9709041CE6B9',
+      name: 'Dogecoin (Int3)',
+      display: 'doge',
+      symbol: 'DOGE.int3',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'dogecoin',
+            baseDenom: 'shibe'
+          },
+          provider: 'Int3face'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'int3face',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-6455',
+            path: 'transfer/channel-6455/factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge'
+          }
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png'
+        }, {
+          imageSync: {
+            chainName: 'int3face',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png',
+          theme: {
+            primaryColorHex: '#3d3d3d'
+          }
+        }]
+    },
+    {
+      description: 'Bitcoin on Int3face',
+      denomUnits: [{
+          denom: 'ibc/D9E2128761E0A60C6C7C166BF30A23E9C2029576817F16CD4BD4F598A2077C04',
+          exponent: 0,
+          aliases: ['factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc']
+        }, {
+          denom: 'btc',
+          exponent: 8
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/D9E2128761E0A60C6C7C166BF30A23E9C2029576817F16CD4BD4F598A2077C04',
+      name: 'Bitcoin (Int3)',
+      display: 'btc',
+      symbol: 'BTC.int3',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'bitcoin',
+            baseDenom: 'sat'
+          },
+          provider: 'Int3face'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'int3face',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-6455',
+            path: 'transfer/channel-6455/factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc'
+          }
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.png'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.png'
+        }, {
+          imageSync: {
+            chainName: 'int3face',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.png',
+          theme: {
+            primaryColorHex: '#3d3d3d'
+          }
+        }]
+    },
+    {
+      description: 'Bitcoin-Cash on Int3face',
+      denomUnits: [{
+          denom: 'ibc/1D45F4770FA033E69A3A3B751263FD774952C2452F65944A1CB914E58C74A35B',
+          exponent: 0,
+          aliases: ['factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch']
+        }, {
+          denom: 'bch',
+          exponent: 8
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/1D45F4770FA033E69A3A3B751263FD774952C2452F65944A1CB914E58C74A35B',
+      name: 'Bitcoin Cash (Int3)',
+      display: 'bch',
+      symbol: 'BCH.int3',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'bitcoincash',
+            baseDenom: 'sat'
+          },
+          provider: 'Int3face'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'int3face',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-6455',
+            path: 'transfer/channel-6455/factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch'
+          }
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.png'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.png'
+        }, {
+          imageSync: {
+            chainName: 'int3face',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.png',
+          theme: {
+            primaryColorHex: '#3d3d3d'
+          }
+        }]
+    },
+    {
+      description: 'Litecoin on Int3face',
+      denomUnits: [{
+          denom: 'ibc/C4C791209A16419A4BB3C3177E5E8AE4477C9D7457842E7F531F91C513FA79A0',
+          exponent: 0,
+          aliases: ['factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc']
+        }, {
+          denom: 'ltc',
+          exponent: 8
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/C4C791209A16419A4BB3C3177E5E8AE4477C9D7457842E7F531F91C513FA79A0',
+      name: 'Litecoin (Int3)',
+      display: 'ltc',
+      symbol: 'LTC.int3',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'litecoin',
+            baseDenom: 'litoshi'
+          },
+          provider: 'Int3face'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'int3face',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-6455',
+            path: 'transfer/channel-6455/factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc'
+          }
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.png'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.png'
+        }, {
+          imageSync: {
+            chainName: 'int3face',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.png',
+          theme: {
+            primaryColorHex: '#3d3d3d'
+          }
+        }]
     }
   ]
 };

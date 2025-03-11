@@ -634,7 +634,7 @@ const info: AssetList = {
       base: 'ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB',
       name: 'Polygon',
       display: 'wmatic',
-      symbol: 'POL',
+      symbol: 'MATIC',
       traces: [
         {
           type: 'wrapped',
@@ -23647,6 +23647,98 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/T7S.png'
+        }]
+    },
+    {
+      description: 'An alloy of DYM asset variants on Osmosis.',
+      extendedDescription: 'Multiple DYM variants on Osmosis comprise the liquidity backing of a tokenized transmuter pool to create an alloy of DYM.',
+      denomUnits: [{
+          denom: 'factory/osmo12cf6l99qrchfppmjp80gvkpnle2tuxpck2cf6fz030w74mq49u4qm3dh4d/alloyed/allDYM',
+          exponent: 0
+        }, {
+          denom: 'allDYM',
+          exponent: 12
+        }],
+      typeAsset: 'sdk.coin',
+      address: 'osmo12cf6l99qrchfppmjp80gvkpnle2tuxpck2cf6fz030w74mq49u4qm3dh4d',
+      base: 'factory/osmo12cf6l99qrchfppmjp80gvkpnle2tuxpck2cf6fz030w74mq49u4qm3dh4d/alloyed/allDYM',
+      name: 'Dymension Hub (Alloy)',
+      display: 'allDYM',
+      symbol: 'allDYM',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chainName: 'dymension',
+            baseDenom: 'adym'
+          },
+          provider: 'Osmosis'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDYM.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDYM.png'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDYM.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDYM.png',
+          theme: {
+            primaryColorHex: '#f4e4d4'
+          }
+        }, {
+          imageSync: {
+            chainName: 'dymension',
+            baseDenom: 'adym'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg',
+          theme: {
+            primaryColorHex: '#f4e4d4'
+          }
+        }]
+    },
+    {
+      description: 'An alloy of POL asset variants on Osmosis.',
+      extendedDescription: 'Multiple POL variants on Osmosis comprise the liquidity backing of a tokenized transmuter pool to create an alloy of POL.',
+      denomUnits: [{
+          denom: 'factory/osmo1fg7y3j86fkp93yxpq5q8lk8c64k8wxj3qw8us49msgpr2gsgddjqxpgr9m/alloyed/allPOL',
+          exponent: 0
+        }, {
+          denom: 'allPOL',
+          exponent: 12
+        }],
+      typeAsset: 'sdk.coin',
+      address: 'osmo1fg7y3j86fkp93yxpq5q8lk8c64k8wxj3qw8us49msgpr2gsgddjqxpgr9m',
+      base: 'factory/osmo1fg7y3j86fkp93yxpq5q8lk8c64k8wxj3qw8us49msgpr2gsgddjqxpgr9m/alloyed/allPOL',
+      name: 'Polygon (ex-MATIC) (Alloy)',
+      display: 'allPOL',
+      symbol: 'allPOL',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chainName: 'polygon',
+            baseDenom: '0x0000000000000000000000000000000000001010'
+          },
+          provider: 'Osmosis'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allPOL.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allPOL.png'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allPOL.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allPOL.png',
+          theme: {
+            primaryColorHex: '#8444e4'
+          }
+        }, {
+          imageSync: {
+            chainName: 'polygon',
+            baseDenom: '0x0000000000000000000000000000000000001010'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg',
+          theme: {
+            primaryColorHex: '#8444e4'
+          }
         }]
     }
   ]

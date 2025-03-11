@@ -213,45 +213,29 @@ const info: AssetList = {
       coingeckoId: 'monerium-eur-money'
     },
     {
-      description: 'The token of Crowdpunk DAO',
+      description: 'USDN token',
       denomUnits: [{
-          denom: 'ibc/9BE17980291443F276406CFE7368A720676FC06D5805C1A23AE52C2534E705F1',
+          denom: 'uusdn',
           exponent: 0,
-          aliases: ['erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F']
+          aliases: ['microusdn']
         }, {
-          denom: 'crowdp',
-          exponent: 18
+          denom: 'usdn',
+          exponent: 6
         }],
-      typeAsset: 'ics20',
-      base: 'ibc/9BE17980291443F276406CFE7368A720676FC06D5805C1A23AE52C2534E705F1',
-      name: 'Crowdpunk DAO',
-      display: 'crowdp',
-      symbol: 'CROWDP',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            chainName: 'evmos',
-            baseDenom: 'erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F',
-            channelId: 'channel-64'
-          },
-          chain: {
-            channelId: 'channel-7',
-            path: 'transfer/channel-7/erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F'
-          }
-        }],
+      typeAsset: 'sdk.coin',
+      base: 'uusdn',
+      name: 'Noble Dollar',
+      display: 'usdn',
+      symbol: 'USDN',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/crowdp.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/crowdp.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg'
       },
       images: [{
-          imageSync: {
-            chainName: 'evmos',
-            baseDenom: 'erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F'
-          },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/crowdp.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/crowdp.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg',
           theme: {
-            primaryColorHex: '#04fbfb'
+            primaryColorHex: '#2E8564'
           }
         }]
     }
