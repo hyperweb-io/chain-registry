@@ -1,6 +1,7 @@
 export * as akashtestnet from './akashtestnet';
 export * as archwaytestnet from './archwaytestnet';
 export * as axelartestnet from './axelartestnet';
+export * as babylontestnet from './babylontestnet';
 export * as celestiatestnet3 from './celestiatestnet3';
 export * as chain4energytestnet from './chain4energytestnet';
 export * as composabletestnet from './composabletestnet';
@@ -42,4 +43,5 @@ export * as synternettestnet from './synternettestnet';
 export * as terra2testnet from './terra2testnet';
 export * as titannettestnet from './titannettestnet';
 export * as titantestnet from './titantestnet';
-export * as xiontestnet from './xiontestnet'
+export * as xiontestnet from './xiontestnet';
+export * as xiontestnet2 from './xiontestnet2'

@@ -1837,6 +1837,44 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'USDN token',
+      denom_units: [{
+          denom: 'ibc/5100092BD8ED0863E95B9F6542E98AD8072F5AA2E5EE294A1DE2CAF35BC0490B',
+          exponent: 0,
+          aliases: ['uusdn']
+        }, {
+          denom: 'usdn',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/5100092BD8ED0863E95B9F6542E98AD8072F5AA2E5EE294A1DE2CAF35BC0490B',
+      name: 'Noble Dollar',
+      display: 'usdn',
+      symbol: 'USDN',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg',
+          theme: {
+            primary_color_hex: '#2E8564'
+          }
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-31',
+            base_denom: 'uusdn',
+            chain_name: 'noble'
+          },
+          chain: {
+            channel_id: 'channel-148'
+          }
+        }]
+    },
+    {
       description: 'ODIN is the Staking and governance token for ODIN Protocol',
       denom_units: [{
           denom: 'ibc/6ED95AEFA5D9A6F9EF9CDD05FED7D7C9D7F42D9892E7236EB9B251CE9E999701',
@@ -8068,6 +8106,44 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-31',
             base_denom: 'ausdy',
+            chain_name: 'noble'
+          },
+          chain: {
+            channel_id: 'channel-148'
+          }
+        }]
+    },
+    {
+      description: 'USDN token',
+      denom_units: [{
+          denom: 'ibc/5100092BD8ED0863E95B9F6542E98AD8072F5AA2E5EE294A1DE2CAF35BC0490B',
+          exponent: 0,
+          aliases: ['uusdn']
+        }, {
+          denom: 'usdn',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/5100092BD8ED0863E95B9F6542E98AD8072F5AA2E5EE294A1DE2CAF35BC0490B',
+      name: 'Noble Dollar',
+      display: 'usdn',
+      symbol: 'USDN',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg',
+          theme: {
+            primary_color_hex: '#2E8564'
+          }
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-31',
+            base_denom: 'uusdn',
             chain_name: 'noble'
           },
           chain: {

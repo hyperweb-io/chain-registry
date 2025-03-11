@@ -1212,6 +1212,44 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'USDN token',
+      denom_units: [{
+          denom: 'ibc/767C4B66E5C6C8E36EFB82FC2B617F2988A78202C21EAB2EBE2A49973DFB20C5',
+          exponent: 0,
+          aliases: ['uusdn']
+        }, {
+          denom: 'usdn',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/767C4B66E5C6C8E36EFB82FC2B617F2988A78202C21EAB2EBE2A49973DFB20C5',
+      name: 'Noble Dollar',
+      display: 'usdn',
+      symbol: 'USDN',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg',
+          theme: {
+            primary_color_hex: '#2E8564'
+          }
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-11',
+            base_denom: 'uusdn',
+            chain_name: 'noble'
+          },
+          chain: {
+            channel_id: 'channel-204'
+          }
+        }]
+    },
+    {
       description: 'OmniFlix is a decentralized media platform that enables content creators to distribute, monetize, and manage their digital content using blockchain technology.',
       denom_units: [{
           denom: 'ibc/FF10A7DB6B25599B134B3700159ED3C38149448E3564B362F77C4D50D744182E',
@@ -2671,6 +2709,44 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-11',
             base_denom: 'ausdy',
+            chain_name: 'noble'
+          },
+          chain: {
+            channel_id: 'channel-204'
+          }
+        }]
+    },
+    {
+      description: 'USDN token',
+      denom_units: [{
+          denom: 'ibc/767C4B66E5C6C8E36EFB82FC2B617F2988A78202C21EAB2EBE2A49973DFB20C5',
+          exponent: 0,
+          aliases: ['uusdn']
+        }, {
+          denom: 'usdn',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/767C4B66E5C6C8E36EFB82FC2B617F2988A78202C21EAB2EBE2A49973DFB20C5',
+      name: 'Noble Dollar',
+      display: 'usdn',
+      symbol: 'USDN',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg',
+          theme: {
+            primary_color_hex: '#2E8564'
+          }
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-11',
+            base_denom: 'uusdn',
             chain_name: 'noble'
           },
           chain: {

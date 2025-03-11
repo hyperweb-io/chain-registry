@@ -88,6 +88,10 @@ const info: Chain = {
       {
         address: 'https://rpc.kopi.nodestake.org',
         provider: 'NodeStake'
+      },
+      {
+        address: 'https://kopi-rpc.node39.top:443',
+        provider: 'Node39'
       }
     ],
     rest: [
@@ -96,7 +100,7 @@ const info: Chain = {
         provider: 'Kopi Foundation'
       },
       {
-        address: 'https://rpc.kopi.chaintools.tech',
+        address: 'https://api.kopi.chaintools.tech',
         provider: 'Chaintools'
       },
       {
@@ -138,6 +142,10 @@ const info: Chain = {
       {
         address: 'https://api.kopi.nodestake.org',
         provider: 'NodeStake'
+      },
+      {
+        address: 'https://kopi-api.node39.top:443',
+        provider: 'Node39'
       }
     ],
     grpc: [
@@ -168,6 +176,10 @@ const info: Chain = {
       {
         address: 'https://grpc.kopi.nodestake.org:443',
         provider: 'NodeStake'
+      },
+      {
+        address: 'https://kopi-grpc.node39.top:15090',
+        provider: 'Node39'
       }
     ]
   },
@@ -219,6 +231,12 @@ const info: Chain = {
       url: 'https://explorer.nodestake.org/kopi/',
       tx_page: 'https://explorer.nodestake.org/kopi/txs/${txHash}',
       account_page: 'https://explorer.nodestake.org/kopi/account/${accountAddress}'
+    },
+    {
+      kind: 'Node39 Explorer',
+      url: 'https://explorer.node39.top/kopi/',
+      tx_page: 'https://explorer.node39.top/kopi/txs/${txHash}',
+      account_page: 'https://explorer.node39.top/kopi/account/${accountAddress}'
     }
   ],
   images: [{

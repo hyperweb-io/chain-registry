@@ -91,6 +91,7 @@ import * as _quicksilvertestnet from './quicksilvertestnet';
 import * as _qwoyntestnet from './qwoyntestnet';
 import * as _sagatestnet from './sagatestnet';
 import * as _secretnetworktestnet from './secretnetworktestnet';
+import * as _sedatestnet from './sedatestnet';
 import * as _seitestnet from './seitestnet';
 import * as _seitestnet2 from './seitestnet2';
 import * as _selfchaindevnet from './selfchaindevnet';
@@ -219,6 +220,7 @@ const chains: Chain[] = [
   _qwoyntestnet.chain,
   _sagatestnet.chain,
   _secretnetworktestnet.chain,
+  _sedatestnet.chain,
   _seitestnet.chain,
   _seitestnet2.chain,
   _selfchaindevnet.chain,

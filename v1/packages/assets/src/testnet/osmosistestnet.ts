@@ -324,12 +324,12 @@ const assets: AssetList = {
       display: 'mfx',
       symbol: 'MFX',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -359,12 +359,12 @@ const assets: AssetList = {
       display: 'poa',
       symbol: 'POA',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -964,12 +964,12 @@ const assets: AssetList = {
       display: 'mfx',
       symbol: 'MFX',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -999,12 +999,12 @@ const assets: AssetList = {
       display: 'poa',
       symbol: 'POA',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifest/images/manifest.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -1974,6 +1974,40 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native staking token of the Xion network.',
+      denom_units: [{
+          denom: 'ibc/C34D578ABDA051E1CB3AC2C24834E7E43E0F7FA37DB8EE114FB5F263AF545622',
+          exponent: 0,
+          aliases: ['uxion']
+        }, {
+          denom: 'XION',
+          exponent: 6,
+          aliases: ['xion']
+        }],
+      base: 'ibc/C34D578ABDA051E1CB3AC2C24834E7E43E0F7FA37DB8EE114FB5F263AF545622',
+      display: 'XION',
+      name: 'xion',
+      symbol: 'XION',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'uxion',
+            chain_name: 'xiontestnet2'
+          },
+          chain: {
+            channel_id: 'channel-10231'
+          }
+        }]
+    },
+    {
       description: 'PSTAKE Liquid-Staked ATOM',
       denom_units: [{
           denom: 'ibc/D9A34ACE6D4867DB2C0C33158DBAED4344544FCAE8E7CA8CE99D3E8D6B2288EC',
@@ -2661,6 +2695,40 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-6668'
+          }
+        }]
+    },
+    {
+      description: 'The native staking token of the Xion network.',
+      denom_units: [{
+          denom: 'ibc/C34D578ABDA051E1CB3AC2C24834E7E43E0F7FA37DB8EE114FB5F263AF545622',
+          exponent: 0,
+          aliases: ['uxion']
+        }, {
+          denom: 'XION',
+          exponent: 6,
+          aliases: ['xion']
+        }],
+      base: 'ibc/C34D578ABDA051E1CB3AC2C24834E7E43E0F7FA37DB8EE114FB5F263AF545622',
+      display: 'XION',
+      name: 'xion',
+      symbol: 'XION',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'uxion',
+            chain_name: 'xiontestnet2'
+          },
+          chain: {
+            channel_id: 'channel-10231'
           }
         }]
     }

@@ -3,6 +3,7 @@ import { IBCInfo } from '@chain-registry/types';
 import * as _akashtestnet from './akashtestnet';
 import * as _archwaytestnet from './archwaytestnet';
 import * as _axelartestnet from './axelartestnet';
+import * as _babylontestnet from './babylontestnet';
 import * as _celestiatestnet3 from './celestiatestnet3';
 import * as _chain4energytestnet from './chain4energytestnet';
 import * as _composabletestnet from './composabletestnet';
@@ -45,11 +46,13 @@ import * as _terra2testnet from './terra2testnet';
 import * as _titannettestnet from './titannettestnet';
 import * as _titantestnet from './titantestnet';
 import * as _xiontestnet from './xiontestnet';
+import * as _xiontestnet2 from './xiontestnet2';
 
 const ibc: IBCInfo[] = [
   ..._akashtestnet.ibc,
   ..._archwaytestnet.ibc,
   ..._axelartestnet.ibc,
+  ..._babylontestnet.ibc,
   ..._celestiatestnet3.ibc,
   ..._chain4energytestnet.ibc,
   ..._composabletestnet.ibc,
@@ -91,7 +94,8 @@ const ibc: IBCInfo[] = [
   ..._terra2testnet.ibc,
   ..._titannettestnet.ibc,
   ..._titantestnet.ibc,
-  ..._xiontestnet.ibc
+  ..._xiontestnet.ibc,
+  ..._xiontestnet2.ibc
 ];
 
 export default ibc;

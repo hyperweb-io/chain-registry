@@ -379,6 +379,40 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native staking token of the Xion network.',
+      denom_units: [{
+          denom: 'ibc/7CD6EC852D30D46DF9CB62738D2851BB0CB27A185A887B38C5674DEE819D7780',
+          exponent: 0,
+          aliases: ['uxion']
+        }, {
+          denom: 'XION',
+          exponent: 6,
+          aliases: ['xion']
+        }],
+      base: 'ibc/7CD6EC852D30D46DF9CB62738D2851BB0CB27A185A887B38C5674DEE819D7780',
+      display: 'XION',
+      name: 'xion',
+      symbol: 'XION',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'uxion',
+            chain_name: 'xiontestnet2'
+          },
+          chain: {
+            channel_id: 'channel-333'
+          }
+        }]
+    },
+    {
       description: 'The native staking and governance token of the Atlantic testnet version of Sei.',
       denom_units: [{
           denom: 'ibc/C27A06C741FEAFE57DE859ECFAA568928862219C0301F44A98D9B1A1770B1933',
@@ -490,6 +524,40 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-147'
+          }
+        }]
+    },
+    {
+      description: 'The native staking token of the Xion network.',
+      denom_units: [{
+          denom: 'ibc/7CD6EC852D30D46DF9CB62738D2851BB0CB27A185A887B38C5674DEE819D7780',
+          exponent: 0,
+          aliases: ['uxion']
+        }, {
+          denom: 'XION',
+          exponent: 6,
+          aliases: ['xion']
+        }],
+      base: 'ibc/7CD6EC852D30D46DF9CB62738D2851BB0CB27A185A887B38C5674DEE819D7780',
+      display: 'XION',
+      name: 'xion',
+      symbol: 'XION',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'uxion',
+            chain_name: 'xiontestnet2'
+          },
+          chain: {
+            channel_id: 'channel-333'
           }
         }]
     },

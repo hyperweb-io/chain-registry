@@ -89,6 +89,7 @@ export * as quicksilvertestnet from './quicksilvertestnet';
 export * as qwoyntestnet from './qwoyntestnet';
 export * as sagatestnet from './sagatestnet';
 export * as secretnetworktestnet from './secretnetworktestnet';
+export * as sedatestnet from './sedatestnet';
 export * as seitestnet from './seitestnet';
 export * as seitestnet2 from './seitestnet2';
 export * as selfchaindevnet from './selfchaindevnet';

@@ -103,6 +103,7 @@ export * as lorenzo from './lorenzo';
 export * as loyal from './loyal';
 export * as lumnetwork from './lumnetwork';
 export * as mande from './mande';
+export * as manifest from './manifest';
 export * as mantrachain from './mantrachain';
 export * as mars from './mars';
 export * as mayachain from './mayachain';

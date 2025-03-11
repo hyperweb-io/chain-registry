@@ -3,6 +3,72 @@ const assets: AssetList = {
   chain_name: 'neutrontestnet',
   assets: [
     {
+      description: 'The native staking token of Babylon.',
+      denom_units: [{
+          denom: 'ibc/6EE6B25F18B695CF13D211B084904B1F27B9B469F9B90617699CECD67563F305',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ibc/6EE6B25F18B695CF13D211B084904B1F27B9B469F9B90617699CECD67563F305',
+      name: 'Babylon Testnet',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'ubbn',
+            chain_name: 'babylontestnet'
+          },
+          chain: {
+            channel_id: 'channel-1651'
+          }
+        }]
+    },
+    {
+      description: 'The native staking token of Babylon.',
+      denom_units: [{
+          denom: 'ibc/6EE6B25F18B695CF13D211B084904B1F27B9B469F9B90617699CECD67563F305',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ibc/6EE6B25F18B695CF13D211B084904B1F27B9B469F9B90617699CECD67563F305',
+      name: 'Babylon Testnet',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'ubbn',
+            chain_name: 'babylontestnet'
+          },
+          chain: {
+            channel_id: 'channel-1651'
+          }
+        }]
+    },
+    {
       description: 'The native token of Nois',
       denom_units: [{
           denom: 'ibc/26139E488F510BDA8DDE5614D358A38502BDA061954B8D10ADEFC4EAA58552FF',

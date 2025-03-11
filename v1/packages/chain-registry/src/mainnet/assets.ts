@@ -105,6 +105,7 @@ import * as _lorenzo from './lorenzo';
 import * as _loyal from './loyal';
 import * as _lumnetwork from './lumnetwork';
 import * as _mande from './mande';
+import * as _manifest from './manifest';
 import * as _mantrachain from './mantrachain';
 import * as _mars from './mars';
 import * as _mayachain from './mayachain';
@@ -302,6 +303,7 @@ const assets: AssetList[] = [
   _loyal.assets,
   _lumnetwork.assets,
   _mande.assets,
+  _manifest.assets,
   _mantrachain.assets,
   _mars.assets,
   _mayachain.assets,
