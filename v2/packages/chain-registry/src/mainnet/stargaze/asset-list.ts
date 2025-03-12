@@ -836,6 +836,43 @@ const info: AssetList = {
             circle: true
           }
         }]
+    },
+    {
+      description: 'The Seven Green Shade Token, limited to 7777 units, represents exclusive access and utilities in the upcoming Seven Shaders RPG AI game.',
+      denomUnits: [{
+          denom: 'ibc/FEF6B2D5C0F7D3C3EE2E27D1C01EAE9CA04A7201661E69215726E7F84AFCD0FB',
+          exponent: 0
+        }, {
+          denom: 'T7S',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/FEF6B2D5C0F7D3C3EE2E27D1C01EAE9CA04A7201661E69215726E7F84AFCD0FB',
+      name: 'The seven green shade',
+      display: 'T7S',
+      symbol: 'T7S',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/T7S.png'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'osmosis',
+            baseDenom: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s',
+            channelId: 'channel-75'
+          },
+          chain: {
+            channelId: 'channel-0',
+            path: 'transfer/channel-0/factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s'
+          }
+        }],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/T7S.png',
+          imageSync: {
+            chainName: 'osmosis',
+            baseDenom: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s'
+          }
+        }]
     }
   ]
 };

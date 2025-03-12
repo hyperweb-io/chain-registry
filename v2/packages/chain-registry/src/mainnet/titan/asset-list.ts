@@ -2,7 +2,8 @@ import { AssetList } from '@chain-registry/v2-types';
 const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chainName: 'titan',
-  assets: [{
+  assets: [
+    {
       description: 'The native token of the Titan network.',
       denomUnits: [
         {
@@ -42,7 +43,8 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/tkx.png'
       },
       typeAsset: 'sdk.coin'
-    }, {
+    },
+    {
       description: 'Noble USDC on Titan Chain.',
       denomUnits: [{
           denom: 'ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5',
@@ -92,6 +94,44 @@ const info: AssetList = {
           }
         }],
       coingeckoId: 'usd-coin'
-    }]
+    },
+    {
+      description: 'Wrapped Bitcoin (BTC) is BTC token bridged from Bitcoin to titan chain through Titan bridge https://titanearn.com/bridge',
+      denomUnits: [{
+          denom: 'factory/titan1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalaj2e/wbtc',
+          exponent: 0,
+          aliases: ['btc-satoshi']
+        }, {
+          denom: 'btc',
+          exponent: 8
+        }],
+      typeAsset: 'sdk.coin',
+      address: 'titan1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalaj2e',
+      base: 'factory/titan1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalaj2e/wbtc',
+      name: 'Bitcoin',
+      display: 'btc',
+      symbol: 'BTC',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'bitcoin',
+            baseDenom: 'sat'
+          },
+          provider: 'BitGo, Titanlab.io'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.svg',
+          theme: {
+            primaryColorHex: '#f39444'
+          }
+        }],
+      coingeckoId: 'bitcoin'
+    }
+  ]
 };
 export default info;
