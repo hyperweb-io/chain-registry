@@ -19,14 +19,6 @@ const info: AssetList = {
       name: 'Polygon (ex-MATIC)',
       display: 'pol',
       symbol: 'POL',
-      traces: [{
-          type: 'wrapped',
-          counterparty: {
-            chain_name: 'polygon',
-            base_denom: 'wei'
-          },
-          provider: 'Polygon'
-        }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg'
@@ -60,6 +52,14 @@ const info: AssetList = {
       name: 'Polygon',
       display: 'matic',
       symbol: 'MATIC',
+      traces: [{
+          type: 'legacy-mintage',
+          counterparty: {
+            chain_name: 'polygon',
+            base_denom: '0x0000000000000000000000000000000000001010'
+          },
+          provider: 'Polygon'
+        }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg'
@@ -93,7 +93,7 @@ const info: AssetList = {
           type: 'wrapped',
           counterparty: {
             chain_name: 'polygon',
-            base_denom: 'wei'
+            base_denom: '0x0000000000000000000000000000000000001010'
           },
           provider: 'Polygon'
         }],
