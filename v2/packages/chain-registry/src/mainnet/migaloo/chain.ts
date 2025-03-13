@@ -70,10 +70,6 @@ const info: Chain = {
         provider: 'Kleomedes'
       },
       {
-        address: 'https://migaloo-rpc.highstakes.ch',
-        provider: 'High Stakes 🇨🇭'
-      },
-      {
         address: 'https://migaloo-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       }
@@ -90,10 +86,6 @@ const info: Chain = {
       {
         address: 'https://migaloo-api.kleomedes.network:443',
         provider: 'Kleomedes'
-      },
-      {
-        address: 'https://migaloo-api.highstakes.ch',
-        provider: 'High Stakes 🇨🇭'
       },
       {
         address: 'https://migaloo-rest.publicnode.com',

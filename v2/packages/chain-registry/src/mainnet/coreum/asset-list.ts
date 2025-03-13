@@ -230,6 +230,37 @@ const info: AssetList = {
         twitter: 'https://twitter.com/pulsara_io'
       },
       typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Rewards token designed to incentivize participation in Coreum Community DAO',
+      extendedDescription: 'The Coreum Community DAO (CCD) token incentivizes and rewards members for their contributions and support in community growth and educational initiatives.',
+      denomUnits: [{
+          denom: 'uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv',
+          exponent: 0
+        }, {
+          denom: 'ccd',
+          exponent: 6
+        }],
+      base: 'uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv',
+      name: 'Coreum Community DAO Token',
+      display: 'ccd',
+      symbol: 'CCD',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg',
+          theme: {
+            primaryColorHex: '#a50dda'
+          }
+        }],
+      socials: {
+        website: 'https://coreumcommunitydao.com/',
+        twitter: 'https://x.com/Cor3_Community'
+      },
+      typeAsset: 'sdk.coin'
     }
   ]
 };

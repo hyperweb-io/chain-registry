@@ -141,6 +141,10 @@ const info: Chain = {
       {
         address: 'https://elys-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake'
+      },
+      {
+        address: 'https://elys-rpc.node39.top:443',
+        provider: 'Node39'
       }
     ],
     rest: [
@@ -211,6 +215,10 @@ const info: Chain = {
       {
         address: 'https://elys-mainnet-lcd.autostake.com:443',
         provider: 'AutoStaked'
+      },
+      {
+        address: 'https://elys-api.node39.top:443',
+        provider: 'Node39'
       }
     ],
     grpc: [
@@ -257,6 +265,10 @@ const info: Chain = {
       {
         address: 'elys-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake'
+      },
+      {
+        address: 'elys-grpc.node39.top:12090',
+        provider: 'Node39'
       }
     ]
   },
@@ -302,6 +314,12 @@ const info: Chain = {
       url: 'https://explorer.whenmoonwhenlambo.money/elys',
       txPage: 'https://explorer.whenmoonwhenlambo.money/elys/tx/${txHash}',
       accountPage: 'https://explorer.whenmoonwhenlambo.money/elys/account/${accountAddress}'
+    },
+    {
+      kind: 'Node39',
+      url: 'https://explorer.node39.top/elys',
+      txPage: 'https://explorer.node39.top/elys/tx/${txHash}',
+      accountPage: 'https://explorer.node39.top/elys/account/${accountAddress}'
     }
   ]
 };
