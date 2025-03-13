@@ -520,6 +520,48 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Rewards token designed to incentivize participation in Coreum Community DAO',
+      denom_units: [{
+          denom: 'ibc/5A4A17EC3A7B17C0D886A41AFE80BCBB18119CCC94B0842D5430FFD2CCD411F4',
+          exponent: 0,
+          aliases: ['uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv']
+        }, {
+          denom: 'ccd',
+          exponent: 6
+        }],
+      base: 'ibc/5A4A17EC3A7B17C0D886A41AFE80BCBB18119CCC94B0842D5430FFD2CCD411F4',
+      name: 'Coreum Community DAO Token',
+      display: 'ccd',
+      symbol: 'CCD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg',
+          theme: {
+            primary_color_hex: '#a50dda'
+          }
+        }],
+      socials: {
+        website: 'https://coreumcommunitydao.com/',
+        twitter: 'https://x.com/Cor3_Community'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-7',
+            base_denom: 'uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv',
+            chain_name: 'coreum'
+          },
+          chain: {
+            channel_id: 'channel-142'
+          }
+        }]
+    },
+    {
       description: 'The native token of Crescent',
       denom_units: [{
           denom: 'ibc/4CD51DA94425EB1C8D1983832E46F410528DB2AAFBFC0C646845DAC2DB7D97AE',
@@ -1268,6 +1310,48 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-7',
             base_denom: 'ulicore-core13gza3msdh8hegqxhgezll9quucsr63s0gp43k274xwt66k4e8pmq5zpnm9',
+            chain_name: 'coreum'
+          },
+          chain: {
+            channel_id: 'channel-142'
+          }
+        }]
+    },
+    {
+      description: 'Rewards token designed to incentivize participation in Coreum Community DAO',
+      denom_units: [{
+          denom: 'ibc/5A4A17EC3A7B17C0D886A41AFE80BCBB18119CCC94B0842D5430FFD2CCD411F4',
+          exponent: 0,
+          aliases: ['uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv']
+        }, {
+          denom: 'ccd',
+          exponent: 6
+        }],
+      base: 'ibc/5A4A17EC3A7B17C0D886A41AFE80BCBB18119CCC94B0842D5430FFD2CCD411F4',
+      name: 'Coreum Community DAO Token',
+      display: 'ccd',
+      symbol: 'CCD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg',
+          theme: {
+            primary_color_hex: '#a50dda'
+          }
+        }],
+      socials: {
+        website: 'https://coreumcommunitydao.com/',
+        twitter: 'https://x.com/Cor3_Community'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-7',
+            base_denom: 'uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv',
             chain_name: 'coreum'
           },
           chain: {

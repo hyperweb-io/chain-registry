@@ -126,6 +126,10 @@ const info: Chain = {
       {
         address: 'https://nibiru_mainnet_rpc.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://nibiru-rpc.node39.top:443',
+        provider: 'Node39'
       }
     ],
     rest: [
@@ -184,6 +188,10 @@ const info: Chain = {
       {
         address: 'https://nibiru_mainnet_api.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://nibiru-api.node39.top:443',
+        provider: 'Node39'
       }
     ],
     grpc: [
@@ -238,6 +246,10 @@ const info: Chain = {
       {
         address: 'grpc.nibiru.roomit.xyz:8443',
         provider: 'Roomit'
+      },
+      {
+        address: 'nibiru-grpc.node39.top:14090',
+        provider: 'Node39'
       }
     ]
   },
@@ -295,6 +307,12 @@ const info: Chain = {
       url: 'https://explorer.whenmoonwhenlambo.money/nibiru',
       tx_page: 'https://explorer.whenmoonwhenlambo.money/nibiru/tx/${txHash}',
       account_page: 'https://explorer.whenmoonwhenlambo.money/nibiru/account/${accountAddress}'
+    },
+    {
+      kind: 'Node39',
+      url: 'https://explorer.node39.top/Nibiru',
+      tx_page: 'https://explorer.node39.top/Nibiru/tx/${txHash}',
+      account_page: 'https://explorer.node39.top/Nibiru/account/${accountAddress}'
     }
   ],
   images: [{

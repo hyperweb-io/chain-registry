@@ -23626,7 +23626,8 @@ const assets: AssetList = {
       }
     },
     {
-      description: 'The Seven Green Shade Token, limited to 7777 units, represents exclusive access and utilities in the upcoming Seven Shaders RPG AI game.',
+      description: 'T7S is the heartbeat of the Seven Shaders universe—powering NFTs, AI adventures, and gaming rewards. One token, endless possibilities.',
+      extended_description: 'T7S is more than just a token—it\'s the driving force behind the Seven Shaders ecosystem, bringing together NFTs, AI-powered experiences, and gaming rewards into one interconnected universe. Whether you\'re an explorer, creator, or strategist, T7S unlocks new dimensions of engagement and rewards. \n\nWith T7S, you can mint and upgrade exclusive NFTs, immersing yourself in a world where rarity and utility go hand in hand. Gamers and strategists can earn and trade rewards through Oddsgarden.io, while AI enthusiasts can embark on intelligent adventures shaped by cutting-edge technology. \n\nThe token also plays a pivotal role in governance through DAODAO, allowing the community to actively shape the future of Seven Shaders. As the ecosystem expands, T7S continues to evolve, introducing new staking opportunities, enhanced rewards, and interactive experiences that push the boundaries of Web3 engagement. \n\nWhether you\'re here to collect, compete, or create, T7S ensures that every interaction brings value, making it your ultimate gateway to a universe filled with limitless potential.',
       denom_units: [{
           denom: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s',
           exponent: 0
@@ -23645,7 +23646,11 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/T7S.png'
-        }]
+        }],
+      socials: {
+        website: 'https://www.oddsgarden.io/',
+        twitter: 'https://x.com/Se7enGreenShade'
+      }
     },
     {
       description: 'An alloy of DYM asset variants on Osmosis.',
@@ -23737,6 +23742,28 @@ const assets: AssetList = {
           theme: {
             primary_color_hex: '#8444e4'
           }
+        }]
+    },
+    {
+      description: 'ALLiN Gaming is a GameFi platform on Dymension and Osmosis, featuring casino games, PvP games, and prediction markets. It offers a fun, transparent, and rewarding experience with a unique points system.',
+      denom_units: [{
+          denom: 'factory/osmo1gzcz4anh88fz3vanx0842gsa3y8jcvck3qw90e/uallin',
+          exponent: 0
+        }, {
+          denom: 'allin',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      address: 'osmo1gzcz4anh88fz3vanx0842gsa3y8jcvck3qw90e',
+      base: 'factory/osmo1gzcz4anh88fz3vanx0842gsa3y8jcvck3qw90e/uallin',
+      name: 'ALLIN',
+      display: 'allin',
+      symbol: 'ALLIN',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allin.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allin.png'
         }]
     }
   ]
