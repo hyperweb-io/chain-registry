@@ -74,9 +74,6 @@ const info: Chain = {
     grpcWeb: [{
         address: 'axelar-grpcweb.chainode.tech',
         provider: 'Chainode'
-      }, {
-        address: 'axelar-grpcweb.quantnode.tech:9091',
-        provider: 'Quantnode'
       }],
     rpc: [
       {
@@ -128,7 +125,7 @@ const info: Chain = {
         provider: 'WhisperNode 🤐'
       },
       {
-        address: 'https://axelar-rpc.quantnode.tech/',
+        address: 'https://axelar.rpc.quantnode.xyz/',
         provider: 'QuantNode'
       },
       {
@@ -214,7 +211,7 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'https://axelar-lcd.quantnode.tech/',
+        address: 'https://axelar.lcd.quantnode.xyz/',
         provider: 'QuantNode'
       },
       {
@@ -244,7 +241,7 @@ const info: Chain = {
         provider: 'Qubelabs'
       },
       {
-        address: 'axelar-grpc.quantnode.tech:9090',
+        address: 'axelar.grpc.quantnode.xyz:21990',
         provider: 'Quantnode'
       },
       {

@@ -4,7 +4,7 @@ const info: Chain = {
   chainName: 'manifestdevnet',
   status: 'live',
   networkType: 'devnet',
-  website: 'https://liftedinit.org/',
+  website: 'https://manifestai.org/',
   prettyName: 'Manifest Devnet',
   chainId: 'manifest-ledger-qa',
   chainType: 'cosmos',
@@ -15,10 +15,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'umfx',
-        fixedMinGasPrice: 0.001,
-        lowGasPrice: 0.01,
-        averageGasPrice: 0.02,
-        highGasPrice: 0.1
+        fixedMinGasPrice: 0.05,
+        lowGasPrice: 0.5,
+        averageGasPrice: 1,
+        highGasPrice: 5
       }]
   },
   staking: {

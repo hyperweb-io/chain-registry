@@ -386,17 +386,6 @@ const info: Chain = {
       txPage: 'https://ping.pub/juno/tx/${txHash}'
     },
     {
-      kind: 'explorers.guru',
-      url: 'https://juno.explorers.guru',
-      txPage: 'https://juno.explorers.guru/transaction/${txHash}'
-    },
-    {
-      kind: 'mintscan',
-      url: 'https://www.mintscan.io/juno',
-      txPage: 'https://www.mintscan.io/juno/transactions/${txHash}',
-      accountPage: 'https://www.mintscan.io/juno/accounts/${accountAddress}'
-    },
-    {
       kind: 'staking-explorer.com',
       url: 'https://staking-explorer.com/explorer/juno',
       txPage: 'https://staking-explorer.com/transaction.php?chain=juno&tx=${txHash}',

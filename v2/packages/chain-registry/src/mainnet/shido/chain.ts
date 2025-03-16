@@ -131,6 +131,10 @@ const info: Chain = {
     ],
     grpc: [
       {
+        address: 'https://grpc.shidoscan.net',
+        provider: 'Shido'
+      },
+      {
         address: 'https://grpc.shidoscan.com',
         provider: 'shido.io'
       },

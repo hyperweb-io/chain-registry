@@ -102,7 +102,7 @@ const info: Chain = {
         provider: 'Cosmonaut Stakes'
       },
       {
-        address: 'https://persistence-rpc.quantnode.tech',
+        address: 'https://persistence.rpc.quantnode.xyz',
         provider: 'QuantNode'
       },
       {
@@ -192,7 +192,7 @@ const info: Chain = {
         provider: 'Cosmonaut Stakes'
       },
       {
-        address: 'https://persistence-lcd.quantnode.tech',
+        address: 'https://persistence.lcd.quantnode.xyz',
         provider: 'QuantNode'
       },
       {
@@ -300,6 +300,10 @@ const info: Chain = {
       {
         address: 'persistence-grpc.stake-town.com:443',
         provider: 'StakeTown'
+      },
+      {
+        address: 'persistence.grpc.quantnode.xyz:22990',
+        provider: 'QuantNode'
       }
     ]
   },

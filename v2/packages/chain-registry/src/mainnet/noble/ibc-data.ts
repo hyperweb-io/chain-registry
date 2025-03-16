@@ -380,6 +380,34 @@ const info: IBCData[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain1: {
+      chainName: 'gateway',
+      clientId: '07-tendermint-21',
+      connectionId: 'connection-16'
+    },
+    chain2: {
+      chainName: 'noble',
+      clientId: '07-tendermint-143',
+      connectionId: 'connection-137'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-16',
+          portId: 'wasm.wormhole1wkwy0xh89ksdgj9hr347dyd2dw7zesmtrue6kfzyml4vdtz6e5ws2y050r'
+        },
+        chain2: {
+          channelId: 'channel-128',
+          portId: 'wormhole'
+        },
+        ordering: 'unordered',
+        version: 'ibc-wormhole-v1',
+        tags: {
+          status: 'live'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
       chainName: 'haqq',
       clientId: '07-tendermint-4',
       connectionId: 'connection-4'

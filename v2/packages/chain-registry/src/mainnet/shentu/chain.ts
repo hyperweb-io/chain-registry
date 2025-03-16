@@ -89,6 +89,10 @@ const info: Chain = {
       {
         address: 'https://shentu-rpc.chainroot.io',
         provider: 'Chainroot'
+      },
+      {
+        address: 'https://shentu-rpc.node39.top:443',
+        provider: 'Node39'
       }
     ],
     rest: [
@@ -135,6 +139,10 @@ const info: Chain = {
       {
         address: 'https://shentu-api.chainroot.io',
         provider: 'Chainroot'
+      },
+      {
+        address: 'https://shentu-api.node39.top:443',
+        provider: 'Node39'
       }
     ],
     grpc: [
@@ -173,6 +181,10 @@ const info: Chain = {
       {
         address: 'shentu-grpc.chainroot.io:443',
         provider: 'Chainroot'
+      },
+      {
+        address: 'shentu-grpc.node39.top:11656',
+        provider: 'Node39'
       }
     ]
   },
@@ -233,6 +245,12 @@ const info: Chain = {
       url: 'https://explorer.chainroot.io/shentu',
       txPage: 'https://explorer.chainroot.io/shentu/transactions/${txHash}',
       accountPage: 'https://explorer.chainroot.io/shentu/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Node39',
+      url: 'https://explorer.node39.top/shentu',
+      txPage: 'https://explorer.node39.top/shentu/transactions/${txHash}',
+      accountPage: 'https://explorer.node39.top/shentu/accounts/${accountAddress}'
     }
   ],
   images: [{
