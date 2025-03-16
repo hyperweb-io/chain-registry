@@ -42,6 +42,10 @@ const info: Chain = {
       {
         address: 'https://axelar-testnet-rpc.ibs.team:443',
         provider: 'Inter Blockchain Services'
+      },
+      {
+        address: 'https://axelartest.rpc.quantnode.xyz',
+        provider: 'QuantNode'
       }
     ],
     rest: [
@@ -56,8 +60,16 @@ const info: Chain = {
       {
         address: 'https://axelar-testnet-api.ibs.team:443',
         provider: 'Inter Blockchain Services'
+      },
+      {
+        address: 'https://axelartest.lcd.quantnode.xyz',
+        provider: 'QuantNode'
       }
-    ]
+    ],
+    grpc: [{
+        address: 'axelartest.grpc.quantnode.xyz:20990',
+        provider: 'QuantNode'
+      }]
   },
   explorers: [{
       kind: 'axelarscan',

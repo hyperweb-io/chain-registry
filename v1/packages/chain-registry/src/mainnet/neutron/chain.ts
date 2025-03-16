@@ -96,6 +96,18 @@ const info: Chain = {
   apis: {
     rpc: [
       {
+        address: 'https://rpc-lb.neutron.org',
+        provider: 'Neutron'
+      },
+      {
+        address: 'https://rpc-solara.neutron-1.neutron.org',
+        provider: 'Neutron'
+      },
+      {
+        address: 'https://rpc-vertexa.neutron-1.neutron.org',
+        provider: 'Neutron'
+      },
+      {
         address: 'https://rpc-voidara.neutron-1.neutron.org',
         provider: 'Neutron'
       },
@@ -146,6 +158,26 @@ const info: Chain = {
     ],
     rest: [
       {
+        address: 'https://rest-lb.neutron.org',
+        provider: 'Neutron'
+      },
+      {
+        address: 'https://rest-solara.neutron-1.neutron.org',
+        provider: 'Neutron'
+      },
+      {
+        address: 'https://rest-vertexa.neutron-1.neutron.org',
+        provider: 'Neutron'
+      },
+      {
+        address: 'https://rest-voidara.neutron-1.neutron.org',
+        provider: 'Neutron'
+      },
+      {
+        address: 'https://rest-pulsarix.neutron-1.neutron.org',
+        provider: 'Neutron'
+      },
+      {
         address: 'https://api.novel.remedy.tm.p2p.org',
         provider: 'P2P'
       },
@@ -183,6 +215,10 @@ const info: Chain = {
       }
     ],
     grpc: [
+      {
+        address: 'grpc-lb.neutron.org:80',
+        provider: 'Neutron'
+      },
       {
         address: 'grpc-kralum.neutron-1.neutron.org:80',
         provider: 'Neutron'

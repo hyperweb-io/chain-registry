@@ -102,6 +102,10 @@ const info: Chain = {
       {
         address: 'https://orai-rpc.owallet.io',
         provider: 'OWALLET'
+      },
+      {
+        address: 'https://oraichain-mainnet-rpc.itrocket.net',
+        provider: 'ITRocket'
       }
     ],
     rest: [
@@ -136,6 +140,10 @@ const info: Chain = {
       {
         address: 'https://orai-rest.owallet.io',
         provider: 'OWALLET'
+      },
+      {
+        address: 'https://oraichain-mainnet-api.itrocket.net',
+        provider: 'ITRocket'
       }
     ],
     grpc: [
@@ -170,6 +178,10 @@ const info: Chain = {
       {
         address: 'orai-grpc.owallet.io:9999',
         provider: 'OWALLET'
+      },
+      {
+        address: 'oraichain-mainnet-grpc.itrocket.net:443',
+        provider: 'ITRocket'
       }
     ]
   },
@@ -218,6 +230,12 @@ const info: Chain = {
       url: 'https://explorer.imdev.app/oraichain',
       tx_page: 'https://explorer.imdev.app/oraichain/tx/${txHash}',
       account_page: 'https://explorer.imdev.app/oraichain/account/${accountAddress}'
+    },
+    {
+      kind: 'ITRocket',
+      url: 'https://mainnet.itrocket.net/oraichain',
+      tx_page: 'https://mainnet.itrocket.net/oraichain/tx/${txHash}',
+      account_page: 'https://mainnet.itrocket.net/oraichain/account/${accountAddress}'
     }
   ],
   images: [{

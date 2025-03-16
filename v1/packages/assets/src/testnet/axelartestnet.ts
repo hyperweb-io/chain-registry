@@ -3,6 +3,39 @@ const assets: AssetList = {
   chain_name: 'axelartestnet',
   assets: [
     {
+      description: 'The native staking token of Babylon.',
+      denom_units: [{
+          denom: 'ibc/19142C352B3DB3B2C6CCE8B9EDCC8D4D8EF9E4A1335E54A69DE5F4ECFBBD8A36',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ibc/19142C352B3DB3B2C6CCE8B9EDCC8D4D8EF9E4A1335E54A69DE5F4ECFBBD8A36',
+      name: 'Babylon Testnet',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-13',
+            base_denom: 'ubbn',
+            chain_name: 'babylontestnet'
+          },
+          chain: {
+            channel_id: 'channel-598'
+          }
+        }]
+    },
+    {
       description: 'The native token of Lava',
       denom_units: [{
           denom: 'ibc/40BDF4D1CFC245BA82B7F75833B27E7BEDE1ED37D061085E9ED629B6AE67699A',
@@ -59,6 +92,10 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
         }],
       type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://manifestai.org/',
+        twitter: 'https://x.com/ManifestAIs/'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -372,6 +409,39 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native staking token of Babylon.',
+      denom_units: [{
+          denom: 'ibc/19142C352B3DB3B2C6CCE8B9EDCC8D4D8EF9E4A1335E54A69DE5F4ECFBBD8A36',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ibc/19142C352B3DB3B2C6CCE8B9EDCC8D4D8EF9E4A1335E54A69DE5F4ECFBBD8A36',
+      name: 'Babylon Testnet',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-13',
+            base_denom: 'ubbn',
+            chain_name: 'babylontestnet'
+          },
+          chain: {
+            channel_id: 'channel-598'
+          }
+        }]
+    },
+    {
       description: 'The native token of Lava',
       denom_units: [{
           denom: 'ibc/40BDF4D1CFC245BA82B7F75833B27E7BEDE1ED37D061085E9ED629B6AE67699A',
@@ -428,6 +498,10 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
         }],
       type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://manifestai.org/',
+        twitter: 'https://x.com/ManifestAIs/'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {

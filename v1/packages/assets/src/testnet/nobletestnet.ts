@@ -3,6 +3,39 @@ const assets: AssetList = {
   chain_name: 'nobletestnet',
   assets: [
     {
+      description: 'The native staking token of Babylon.',
+      denom_units: [{
+          denom: 'ibc/3400F6784977CE5662A5E2975A891E2A88FA54FBA8E88B774CEBB0AB70E613F5',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ibc/3400F6784977CE5662A5E2975A891E2A88FA54FBA8E88B774CEBB0AB70E613F5',
+      name: 'Babylon Testnet',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-7',
+            base_denom: 'ubbn',
+            chain_name: 'babylontestnet'
+          },
+          chain: {
+            channel_id: 'channel-329'
+          }
+        }]
+    },
+    {
       description: 'Eden token definition',
       denom_units: [
         {
@@ -110,6 +143,39 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-237'
+          }
+        }]
+    },
+    {
+      description: 'The native staking token of Babylon.',
+      denom_units: [{
+          denom: 'ibc/3400F6784977CE5662A5E2975A891E2A88FA54FBA8E88B774CEBB0AB70E613F5',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ibc/3400F6784977CE5662A5E2975A891E2A88FA54FBA8E88B774CEBB0AB70E613F5',
+      name: 'Babylon Testnet',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-7',
+            base_denom: 'ubbn',
+            chain_name: 'babylontestnet'
+          },
+          chain: {
+            channel_id: 'channel-329'
           }
         }]
     },

@@ -35,6 +35,7 @@ export * as hall from './hall';
 export * as initia from './initia';
 export * as movement from './movement';
 export * as namada from './namada';
+export * as cosmoshubicstestnet from './cosmoshubicstestnet';
 export * as avalanchetestnet from './avalanchetestnet';
 export * as binancesmartchaintestnet from './binancesmartchaintestnet';
 export * as bitcointestnet from './bitcointestnet';

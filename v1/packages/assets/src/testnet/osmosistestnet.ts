@@ -332,6 +332,10 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
         }],
       type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://manifestai.org/',
+        twitter: 'https://x.com/ManifestAIs/'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -972,6 +976,10 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
         }],
       type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://manifestai.org/',
+        twitter: 'https://x.com/ManifestAIs/'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {
