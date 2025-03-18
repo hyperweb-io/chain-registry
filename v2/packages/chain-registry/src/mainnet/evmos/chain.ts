@@ -129,10 +129,6 @@ const info: Chain = {
         provider: 'w3coins'
       },
       {
-        address: 'https://evmos-rpc.stake-town.com',
-        provider: 'StakeTown'
-      },
-      {
         address: 'https://evmos.rpc.liveraven.net',
         provider: 'LiveRaveN'
       },
@@ -219,10 +215,6 @@ const info: Chain = {
         provider: 'w3coins'
       },
       {
-        address: 'https://evmos-api.stake-town.com',
-        provider: 'StakeTown'
-      },
-      {
         address: 'https://evmos.api.liveraven.net',
         provider: 'LiveRaveN'
       },
@@ -297,10 +289,6 @@ const info: Chain = {
         provider: 'MMS'
       },
       {
-        address: 'evmos-grpc.stake-town.com:443',
-        provider: 'StakeTown'
-      },
-      {
         address: 'evmos.grpc.liveraven.net:443',
         provider: 'LiveRaveN'
       },
@@ -365,10 +353,6 @@ const info: Chain = {
       {
         address: 'https://jsonrpc-evmos.mms.team',
         provider: 'MMS'
-      },
-      {
-        address: 'https://evmos-jsonrpc.stake-town.com',
-        provider: 'StakeTown'
       },
       {
         address: 'https://evmos.jsonrpc.liveraven.net',

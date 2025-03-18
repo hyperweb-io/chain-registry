@@ -46,20 +46,34 @@ const info: Chain = {
     }
   },
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://zetachain-athens.blockpi.network/rpc/v1/public',
         provider: 'BlockPI'
-      }, {
+      },
+      {
         address: 'https://zetachain-testnet-archive.allthatnode.com:26657',
         provider: 'All That Node'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://zetachain-testnet-tendermint.reliableninjas.com',
+        provider: 'Reliable Ninjas'
+      }
+    ],
+    rest: [
+      {
         address: 'https://zetachain-athens.blockpi.network/lcd/v1/public',
         provider: 'BlockPI'
-      }, {
+      },
+      {
         address: 'https://zetachain-testnet-archive.allthatnode.com:1317',
         provider: 'All That Node'
-      }]
+      },
+      {
+        address: 'https://zetachain-testnet-cosmos.reliableninjas.com',
+        provider: 'Reliable Ninjas'
+      }
+    ]
   },
   explorers: [{
       kind: 'ZetaScan',

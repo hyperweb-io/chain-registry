@@ -28,8 +28,8 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/MANTRA-Chain/mantrachain',
-    recommendedVersion: 'v3.0.0',
-    compatibleVersions: ['v3.0.0'],
+    recommendedVersion: 'v3.0.1',
+    compatibleVersions: ['v3.0.0', 'v3.0.1'],
     consensus: {
       type: 'cometbft',
       version: 'v0.38.17'
@@ -46,7 +46,7 @@ const info: Chain = {
     },
     ibc: {
       type: 'go',
-      version: 'v8.6.1'
+      version: 'v8.7.0'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/MANTRA-Chain/mantrachain/refs/heads/main/networks/mantra-dukong-1/genesis.json'

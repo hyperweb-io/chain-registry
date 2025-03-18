@@ -83,6 +83,10 @@ const info: Chain = {
       {
         address: 'https://zetachain-mainnet-rpc.cosmonautstakes.com',
         provider: 'Cosmonaut Stakes'
+      },
+      {
+        address: 'https://zetachain-mainnet-tendermint.reliableninjas.com',
+        provider: 'Reliable Ninjas'
       }
     ],
     rest: [
@@ -117,6 +121,10 @@ const info: Chain = {
       {
         address: 'https://zetachain-mainnet-rest.cosmonautstakes.com',
         provider: 'Cosmonaut Stakes'
+      },
+      {
+        address: 'https://zetachain-mainnet-cosmos.reliableninjas.com',
+        provider: 'Reliable Ninjas'
       }
     ],
     grpc: [
