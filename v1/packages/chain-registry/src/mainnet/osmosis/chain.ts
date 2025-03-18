@@ -710,6 +710,10 @@ const info: Chain = {
       {
         address: 'https://osmosis.rpc.quasarstaking.ai:443',
         provider: 'Quasar'
+      },
+      {
+        address: 'https://osmosis-mainnet-tendermint.reliableninjas.com',
+        provider: 'Reliable Ninjas'
       }
     ],
     rest: [
@@ -820,6 +824,10 @@ const info: Chain = {
       {
         address: 'https://osmosis.api.quasarstaking.ai:443',
         provider: 'Quasar'
+      },
+      {
+        address: 'https://osmosis-mainnet-cosmos.reliableninjas.com',
+        provider: 'Reliable Ninjas'
       }
     ],
     grpc: [
@@ -898,6 +906,10 @@ const info: Chain = {
       {
         address: 'osmosis.grpc.quasarstaking.ai:443',
         provider: 'Quasar'
+      },
+      {
+        address: 'osmosis-mainnet-grpc.reliableninjas.com:443',
+        provider: 'Reliable Ninjas'
       }
     ]
   },

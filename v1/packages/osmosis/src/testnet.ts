@@ -50,14 +50,23 @@ const testnet: Chain = {
     rpc: [{
         address: 'https://rpc.osmotest5.osmosis.zone/',
         provider: 'Osmosis'
+      }, {
+        address: 'https://osmosis-testnet-tendermint.reliableninjas.com',
+        provider: 'Reliable Ninjas'
       }],
     rest: [{
         address: 'https://lcd.osmotest5.osmosis.zone/',
         provider: 'Osmosis'
+      }, {
+        address: 'https://osmosis-testnet-cosmos.reliableninjas.com',
+        provider: 'Reliable Ninjas'
       }],
     grpc: [{
         address: 'https://grpc.osmotest5.osmosis.zone/',
         provider: 'Osmosis'
+      }, {
+        address: 'osmosis-testnet-grpc.reliableninjas.com:443',
+        provider: 'Reliable Ninjas'
       }]
   },
   logo_URIs: {
