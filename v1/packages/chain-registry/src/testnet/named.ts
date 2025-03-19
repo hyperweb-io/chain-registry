@@ -47,6 +47,7 @@ export * as hypersigntestnet from './hypersigntestnet';
 export * as impacthubtestnet from './impacthubtestnet';
 export * as imversedtestnet from './imversedtestnet';
 export * as injectivetestnet from './injectivetestnet';
+export * as int3facetestnet from './int3facetestnet';
 export * as iopntestnet from './iopntestnet';
 export * as jackaltestnet from './jackaltestnet';
 export * as jackaltestnet2 from './jackaltestnet2';

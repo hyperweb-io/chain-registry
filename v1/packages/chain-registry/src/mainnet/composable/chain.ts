@@ -106,6 +106,10 @@ const info: Chain = {
       {
         address: 'https://composable.rpc.m.stavr.tech:443',
         provider: '🔥STAVR🔥'
+      },
+      {
+        address: 'https://composable_mainnet_rpc.chain.whenmoonwhenlambo.money',
+        provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }
     ],
     rest: [
@@ -152,6 +156,10 @@ const info: Chain = {
       {
         address: 'https://composable.api.m.stavr.tech',
         provider: '🔥STAVR🔥'
+      },
+      {
+        address: 'https://composable_mainnet_api.chain.whenmoonwhenlambo.money',
+        provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }
     ],
     grpc: [
@@ -259,6 +267,12 @@ const info: Chain = {
       kind: 'Moonbridge',
       url: 'https://explorer.moonbridge.org/picasso',
       tx_page: 'https://explorer.moonbridge.org/picasso/tx/${txHash}'
+    },
+    {
+      kind: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥',
+      url: 'https://explorer.whenmoonwhenlambo.money/picasso',
+      tx_page: 'https://explorer.whenmoonwhenlambo.money/picasso/tx/${txHash}',
+      account_page: 'https://explorer.whenmoonwhenlambo.money/picasso/account/${accountAddress}'
     }
   ],
   images: [{

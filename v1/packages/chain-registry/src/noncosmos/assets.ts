@@ -39,12 +39,17 @@ import * as _movement from './movement';
 import * as _namada from './namada';
 import * as _avalanchetestnet from './avalanchetestnet';
 import * as _binancesmartchaintestnet from './binancesmartchaintestnet';
+import * as _bitcoincashtestnet from './bitcoincashtestnet';
 import * as _bitcointestnet from './bitcointestnet';
+import * as _dogecointestnet from './dogecointestnet';
 import * as _ethereumtestnet from './ethereumtestnet';
 import * as _fantomtestnet from './fantomtestnet';
+import * as _litecointestnet from './litecointestnet';
 import * as _moonbeamtestnet from './moonbeamtestnet';
 import * as _polkadottestnet from './polkadottestnet';
 import * as _polygontestnet from './polygontestnet';
+import * as _solanatestnet from './solanatestnet';
+import * as _tontestnet from './tontestnet';
 import * as _ojotestnet from './ojotestnet';
 
 const assets: AssetList[] = [
@@ -87,12 +92,17 @@ const assets: AssetList[] = [
   _namada.assets,
   _avalanchetestnet.assets,
   _binancesmartchaintestnet.assets,
+  _bitcoincashtestnet.assets,
   _bitcointestnet.assets,
+  _dogecointestnet.assets,
   _ethereumtestnet.assets,
   _fantomtestnet.assets,
+  _litecointestnet.assets,
   _moonbeamtestnet.assets,
   _polkadottestnet.assets,
   _polygontestnet.assets,
+  _solanatestnet.assets,
+  _tontestnet.assets,
   _ojotestnet.assets
 ];
 

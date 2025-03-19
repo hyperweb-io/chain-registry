@@ -906,10 +906,6 @@ const chain: Chain = {
       {
         address: 'osmosis.grpc.quasarstaking.ai:443',
         provider: 'Quasar'
-      },
-      {
-        address: 'osmosis-mainnet-grpc.reliableninjas.com:443',
-        provider: 'Reliable Ninjas'
       }
     ]
   },

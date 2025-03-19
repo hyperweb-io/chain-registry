@@ -64,9 +64,6 @@ const testnet: Chain = {
     grpc: [{
         address: 'https://grpc.osmotest5.osmosis.zone/',
         provider: 'Osmosis'
-      }, {
-        address: 'osmosis-testnet-grpc.reliableninjas.com:443',
-        provider: 'Reliable Ninjas'
       }]
   },
   logo_URIs: {

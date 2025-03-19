@@ -49,6 +49,7 @@ import * as _hypersigntestnet from './hypersigntestnet';
 import * as _impacthubtestnet from './impacthubtestnet';
 import * as _imversedtestnet from './imversedtestnet';
 import * as _injectivetestnet from './injectivetestnet';
+import * as _int3facetestnet from './int3facetestnet';
 import * as _iopntestnet from './iopntestnet';
 import * as _jackaltestnet from './jackaltestnet';
 import * as _jackaltestnet2 from './jackaltestnet2';
@@ -178,6 +179,7 @@ const assets: AssetList[] = [
   _impacthubtestnet.assets,
   _imversedtestnet.assets,
   _injectivetestnet.assets,
+  _int3facetestnet.assets,
   _iopntestnet.assets,
   _jackaltestnet.assets,
   _jackaltestnet2.assets,
