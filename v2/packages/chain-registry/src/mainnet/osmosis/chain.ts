@@ -524,13 +524,8 @@ const info: Chain = {
       name: 'v3',
       genesisUrl: 'https://github.com/osmosis-labs/networks/raw/main/osmosis-1/genesis.json'
     },
-    recommendedVersion: '28.0.4',
-    compatibleVersions: [
-      '28.0.1',
-      '28.0.2',
-      '28.0.3',
-      '28.0.4'
-    ],
+    recommendedVersion: '29.0.0',
+    compatibleVersions: ['29.0.0-rc1'],
     consensus: {
       type: 'cometbft',
       version: '0.38.17',
@@ -538,9 +533,9 @@ const info: Chain = {
       tag: 'v0.38.17-v28-osmo-1'
     },
     cosmwasm: {
-      version: '0.53.0',
+      version: '0.53.2',
       repo: 'https://github.com/CosmWasm/wasmd',
-      tag: 'v0.53.0',
+      tag: 'v0.53.2',
       enabled: true
     },
     sdk: {
@@ -551,9 +546,9 @@ const info: Chain = {
     },
     ibc: {
       type: 'go',
-      version: '8.5.2',
+      version: 'v8.7.0',
       repo: 'https://github.com/cosmos/ibc-go',
-      tag: 'v8.5.2',
+      tag: '8.7.0',
       icsEnabled: ['ics20-1']
     },
     language: {
@@ -561,8 +556,8 @@ const info: Chain = {
       version: '1.22.11'
     },
     binaries: {
-      "linux/amd64": 'https://github.com/osmosis-labs/osmosis/releases/download/v28.0.4/osmosisd-28.0.4-linux-amd64',
-      "linux/arm64": 'https://github.com/osmosis-labs/osmosis/releases/download/v28.0.4/osmosisd-28.0.4-linux-arm64'
+      "linux/amd64": 'https://github.com/osmosis-labs/osmosis/releases/download/v29.0.0-rc1/osmosisd-29.0.0-rc1-linux-amd64',
+      "linux/arm64": 'https://github.com/osmosis-labs/osmosis/releases/download/v29.0.0-rc1/osmosisd-29.0.0-rc1-linux-arm64'
     }
   },
   images: [{

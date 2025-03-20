@@ -2,7 +2,8 @@ import { AssetList } from '@chain-registry/v2-types';
 const info: AssetList = {
   $schema: '../../assetlist.schema.json',
   chainName: 'xiontestnet2',
-  assets: [{
+  assets: [
+    {
       description: 'The native staking token of the Xion network.',
       denomUnits: [{
           denom: 'uxion',
@@ -24,6 +25,91 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
         }],
       typeAsset: 'sdk.coin'
-    }]
+    },
+    {
+      denomUnits: [{
+          denom: 'ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B',
+          exponent: 0,
+          aliases: ['uosmo']
+        }, {
+          denom: 'osmo',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B',
+      name: 'Osmosis OSMO Token',
+      display: 'osmo',
+      symbol: 'OSMO',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'osmosistestnet',
+            baseDenom: 'uosmo',
+            channelId: 'channel-10231'
+          },
+          chain: {
+            channelId: 'channel-2',
+            path: 'transfer/channel-2/uosmo'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'osmosistestnet',
+            baseDenom: 'uosmo'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
+      },
+      coingeckoId: 'osmosis'
+    },
+    {
+      denomUnits: [{
+          denom: 'ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4',
+          exponent: 0,
+          aliases: ['uusdc']
+        }, {
+          denom: 'usdc',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4',
+      name: 'Noble USDC Token',
+      display: 'usdc',
+      symbol: 'USDC',
+      coingeckoId: 'usd-coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'nobletestnet',
+            baseDenom: 'uusdc',
+            channelId: 'channel-333'
+          },
+          chain: {
+            channelId: 'channel-3',
+            path: 'transfer/channel-3/uusdc'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'nobletestnet',
+            baseDenom: 'uusdc'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          theme: {
+            circle: true,
+            primaryColorHex: '#2775CA'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+      }
+    }
+  ]
 };
 export default info;
