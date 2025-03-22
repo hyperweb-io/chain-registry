@@ -121,6 +121,7 @@ import * as _neura from './neura';
 import * as _neutaro from './neutaro';
 import * as _neutron from './neutron';
 import * as _nibiru from './nibiru';
+import * as _nillion from './nillion';
 import * as _nim from './nim';
 import * as _noble from './noble';
 import * as _nolus from './nolus';
@@ -319,6 +320,7 @@ const assetList: AssetList[] = [
   _neutaro.assetList,
   _neutron.assetList,
   _nibiru.assetList,
+  _nillion.assetList,
   _nim.assetList,
   _noble.assetList,
   _nolus.assetList,
