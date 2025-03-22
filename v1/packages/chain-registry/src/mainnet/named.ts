@@ -119,6 +119,7 @@ export * as neura from './neura';
 export * as neutaro from './neutaro';
 export * as neutron from './neutron';
 export * as nibiru from './nibiru';
+export * as nillion from './nillion';
 export * as nim from './nim';
 export * as noble from './noble';
 export * as nolus from './nolus';

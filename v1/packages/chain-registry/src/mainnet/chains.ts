@@ -121,6 +121,7 @@ import * as _neura from './neura';
 import * as _neutaro from './neutaro';
 import * as _neutron from './neutron';
 import * as _nibiru from './nibiru';
+import * as _nillion from './nillion';
 import * as _nim from './nim';
 import * as _noble from './noble';
 import * as _nolus from './nolus';
@@ -319,6 +320,7 @@ const chains: Chain[] = [
   _neutaro.chain,
   _neutron.chain,
   _nibiru.chain,
+  _nillion.chain,
   _nim.chain,
   _noble.chain,
   _nolus.chain,
