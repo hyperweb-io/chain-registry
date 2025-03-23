@@ -62,10 +62,6 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://uptick-rpc.brocha.in:443',
-        provider: 'Brochain'
-      },
-      {
         address: 'https://uptick.rpc.bccnodes.com:443',
         provider: 'BccNodes'
       },
@@ -115,10 +111,6 @@ const info: Chain = {
       }
     ],
     rest: [
-      {
-        address: 'https://uptick-rest.brocha.in:443',
-        provider: 'Brochain'
-      },
       {
         address: 'https://api.uptick.nodestake.org',
         provider: 'NodeStake'
@@ -234,11 +226,6 @@ const info: Chain = {
     ]
   },
   explorers: [
-    {
-      kind: 'ping.pub',
-      url: 'https://explorers.brocha.in/uptick',
-      tx_page: 'https://explorers.brocha.in/uptick/tx/${txHash}'
-    },
     {
       kind: 'staking-explorer.com',
       url: 'https://staking-explorer.com/explorer/uptick',

@@ -39,16 +39,10 @@ const info: Chain = {
     rpc: [{
         address: 'https://rpc.sei-devnet-3.seinetwork.io',
         provider: 'Sei Foundation'
-      }, {
-        address: 'https://sei-testnet-2-rpc.brocha.in',
-        provider: 'Brochain'
       }],
     rest: [{
         address: 'https://rest.sei-devnet-3.seinetwork.io',
         provider: 'Sei Foundation'
-      }, {
-        address: 'https://sei-testnet-2-rest.brocha.in',
-        provider: 'Brochain'
       }],
     grpc: [{
         address: 'https://grpc.sei-devnet-3.seinetwork.io',
@@ -59,10 +53,6 @@ const info: Chain = {
       kind: 'explorers.guru',
       url: 'https://devnet.sei.explorers.guru',
       tx_page: 'https://devnet.sei.explorers.guru/transaction/${txHash}'
-    }, {
-      kind: 'Brochain',
-      url: 'https://testnet-explorer.brocha.in/sei%20atlantic%202',
-      tx_page: 'https://testnet-explorer.brocha.in/sei%20atlantic%202/tx/${txHash}'
     }]
 };
 export default info;

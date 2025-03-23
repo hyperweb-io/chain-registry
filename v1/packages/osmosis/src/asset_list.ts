@@ -4909,6 +4909,80 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'Manifest native token',
+      denom_units: [{
+          denom: 'ibc/1A3DE66CCE39FA151DA710B21E06C8FBC47178C1DCE7BB35D2A79466F754CD51',
+          exponent: 0,
+          aliases: ['umfx']
+        }, {
+          denom: 'mfx',
+          exponent: 6
+        }],
+      base: 'ibc/1A3DE66CCE39FA151DA710B21E06C8FBC47178C1DCE7BB35D2A79466F754CD51',
+      name: 'Manifest Token',
+      display: 'mfx',
+      symbol: 'MFX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://manifestai.org/',
+        twitter: 'https://x.com/ManifestAIs/'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'umfx',
+            chain_name: 'manifest'
+          },
+          chain: {
+            channel_id: 'channel-100418'
+          }
+        }]
+    },
+    {
+      description: 'Proof of Authority token for the Manifest network',
+      denom_units: [{
+          denom: 'ibc/B1DA72A9BF8F97F0575AB93681D476AFE640A0CD1FB44DD016BE156EEA8B8C7A',
+          exponent: 0,
+          aliases: ['upoa']
+        }, {
+          denom: 'poa',
+          exponent: 6
+        }],
+      base: 'ibc/B1DA72A9BF8F97F0575AB93681D476AFE640A0CD1FB44DD016BE156EEA8B8C7A',
+      name: 'Manifest Proof of Authority Token',
+      display: 'poa',
+      symbol: 'POA',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'upoa',
+            chain_name: 'manifest'
+          },
+          chain: {
+            channel_id: 'channel-100418'
+          }
+        }]
+    },
+    {
       description: 'The native token of MANTRA',
       denom_units: [{
           denom: 'ibc/164807F6226F91990F358C6467EEE8B162E437BDCD3DADEC3F0CE20693720795',
@@ -11109,6 +11183,80 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-115'
+          }
+        }]
+    },
+    {
+      description: 'Manifest native token',
+      denom_units: [{
+          denom: 'ibc/1A3DE66CCE39FA151DA710B21E06C8FBC47178C1DCE7BB35D2A79466F754CD51',
+          exponent: 0,
+          aliases: ['umfx']
+        }, {
+          denom: 'mfx',
+          exponent: 6
+        }],
+      base: 'ibc/1A3DE66CCE39FA151DA710B21E06C8FBC47178C1DCE7BB35D2A79466F754CD51',
+      name: 'Manifest Token',
+      display: 'mfx',
+      symbol: 'MFX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://manifestai.org/',
+        twitter: 'https://x.com/ManifestAIs/'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'umfx',
+            chain_name: 'manifest'
+          },
+          chain: {
+            channel_id: 'channel-100418'
+          }
+        }]
+    },
+    {
+      description: 'Proof of Authority token for the Manifest network',
+      denom_units: [{
+          denom: 'ibc/B1DA72A9BF8F97F0575AB93681D476AFE640A0CD1FB44DD016BE156EEA8B8C7A',
+          exponent: 0,
+          aliases: ['upoa']
+        }, {
+          denom: 'poa',
+          exponent: 6
+        }],
+      base: 'ibc/B1DA72A9BF8F97F0575AB93681D476AFE640A0CD1FB44DD016BE156EEA8B8C7A',
+      name: 'Manifest Proof of Authority Token',
+      display: 'poa',
+      symbol: 'POA',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'upoa',
+            chain_name: 'manifest'
+          },
+          chain: {
+            channel_id: 'channel-100418'
           }
         }]
     },

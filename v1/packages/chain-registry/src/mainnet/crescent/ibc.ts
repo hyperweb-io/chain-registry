@@ -442,7 +442,7 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
+          status: 'killed',
           preferred: true,
           dex: 'crescent'
         }

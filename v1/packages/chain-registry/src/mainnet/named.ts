@@ -105,7 +105,6 @@ export * as lumnetwork from './lumnetwork';
 export * as mande from './mande';
 export * as manifest from './manifest';
 export * as mantrachain from './mantrachain';
-export * as mars from './mars';
 export * as mayachain from './mayachain';
 export * as medasdigital from './medasdigital';
 export * as meme from './meme';

@@ -66,10 +66,6 @@ const info: Chain = {
         provider: 'Rebuschain'
       },
       {
-        address: 'https://rebus-rpc.brocha.in',
-        provider: 'Brochain'
-      },
-      {
         address: 'https://rebus-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -108,10 +104,6 @@ const info: Chain = {
         provider: 'Rebuschain'
       },
       {
-        address: 'https://rebus-rest.brocha.in',
-        provider: 'Brochain'
-      },
-      {
         address: 'https://rebus-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -144,10 +136,6 @@ const info: Chain = {
       {
         address: 'http://rebus.grpc.m.stavr.tech:3211',
         provider: '🔥STAVR🔥'
-      },
-      {
-        address: 'rebus-grpc.brocha.in:443',
-        provider: 'Brochain'
       },
       {
         address: 'rebus-mainnet-grpc.autostake.com:443',
@@ -188,11 +176,6 @@ const info: Chain = {
       kind: 'BccNodes',
       url: 'https://explorer.bccnodes.com/rebus-M',
       tx_page: 'https://explorer.bccnodes.com/rebus-M/tx/${txHash}'
-    },
-    {
-      kind: 'Brochain',
-      url: 'https://explorer.brocha.in/rebus',
-      tx_page: 'https://explorer.brocha.in/rebus/tx/${txHash}'
     },
     {
       kind: '🔥STAVR🔥 Explorer',

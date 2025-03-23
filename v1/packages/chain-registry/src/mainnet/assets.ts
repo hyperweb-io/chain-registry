@@ -107,7 +107,6 @@ import * as _lumnetwork from './lumnetwork';
 import * as _mande from './mande';
 import * as _manifest from './manifest';
 import * as _mantrachain from './mantrachain';
-import * as _mars from './mars';
 import * as _mayachain from './mayachain';
 import * as _medasdigital from './medasdigital';
 import * as _meme from './meme';
@@ -306,7 +305,6 @@ const assets: AssetList[] = [
   _mande.assets,
   _manifest.assets,
   _mantrachain.assets,
-  _mars.assets,
   _mayachain.assets,
   _medasdigital.assets,
   _meme.assets,

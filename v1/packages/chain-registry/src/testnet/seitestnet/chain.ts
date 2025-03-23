@@ -33,23 +33,13 @@ const info: Chain = {
   },
   description: 'Sei is the fastest Layer 1 blockchain, designed to scale with the industry.',
   apis: {
-    rpc: [{
-        address: 'https://sei-testnet-rpc.brocha.in',
-        provider: 'Brochain'
-      }],
-    rest: [{
-        address: 'https://sei-testnet-rest.brocha.in',
-        provider: 'Brochain'
-      }]
+    rpc: [],
+    rest: []
   },
   explorers: [{
       kind: 'explorers.guru',
       url: 'https://sei.explorers.guru',
       tx_page: 'https://sei.explorers.guru/transaction/${txHash}'
-    }, {
-      kind: 'Brochain',
-      url: 'https://testnet-explorer.brocha.in/sei',
-      tx_page: 'https://testnet-explorer.brocha.in/sei/tx/${txHash}'
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png',
