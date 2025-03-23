@@ -114,11 +114,6 @@ const info: Chain = {
       accountPage: 'https://atomscan.com/meme/accounts/${accountAddress}'
     },
     {
-      kind: 'Brochain',
-      url: 'https://explorer.brocha.in/meme',
-      txPage: 'https://explorer.brocha.in/meme/tx/${txHash}'
-    },
-    {
       kind: 'Stake-Take',
       url: 'https://explorer.stake-take.com/meme',
       txPage: 'https://explorer.stake-take.com/meme/tx/${txHash}',

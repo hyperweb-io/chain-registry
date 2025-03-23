@@ -23640,7 +23640,7 @@ const info: AssetList = {
       typeAsset: 'sdk.coin',
       address: 'osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8',
       base: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s',
-      name: 'The seven green shade',
+      name: 'The Seven Green Shade',
       display: 'T7S',
       symbol: 'T7S',
       logoURIs: {
@@ -23767,6 +23767,91 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allin.png'
         }]
+    },
+    {
+      description: 'Manifest native token',
+      extendedDescription: 'MFX is the foundational utility token powering the Manifest Network ecosystem - a decentralized platform bridging Web2 reliability with Web3 freedom. As the primary medium of exchange, MFX facilitates transactions across Manifest\'s privacy-first AI infrastructure, providing access to decentralized compute resources, industry-leading GPUs, blockchain-secured storage, and comprehensive deployment tools.  MFX represents more than just currency; it embodies Manifest\'s mission to democratize access to sovereign technologies and ethical AI applications, empowering developers to build scalable solutions that prioritize individual autonomy and data privacy without sacrificing performance or reliability. By holding MFX, users gain privileged access to a global network spanning multiple continents, designed for visionaries building the next generation of self-sovereign, ethical technology.',
+      denomUnits: [{
+          denom: 'ibc/1A3DE66CCE39FA151DA710B21E06C8FBC47178C1DCE7BB35D2A79466F754CD51',
+          exponent: 0,
+          aliases: ['umfx']
+        }, {
+          denom: 'mfx',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/1A3DE66CCE39FA151DA710B21E06C8FBC47178C1DCE7BB35D2A79466F754CD51',
+      name: 'Manifest',
+      display: 'mfx',
+      symbol: 'MFX',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'manifest',
+            baseDenom: 'umfx',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-100418',
+            path: 'transfer/channel-100418/umfx'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
+        }]
+    },
+    {
+      description: 'Rewards token designed to incentivize participation in Coreum Community DAO',
+      extendedDescription: 'The Coreum Community DAO (CCD) token incentivizes and rewards members for their contributions and support in community growth and educational initiatives.',
+      denomUnits: [{
+          denom: 'ibc/BA368CD4ED32975C333F69DA8FE0AB482D2E0F3C04227053EEB9B597A6789F6E',
+          exponent: 0,
+          aliases: ['uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv']
+        }, {
+          denom: 'ccd',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/BA368CD4ED32975C333F69DA8FE0AB482D2E0F3C04227053EEB9B597A6789F6E',
+      name: 'Coreum Community DAO Token',
+      display: 'ccd',
+      symbol: 'CCD',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'coreum',
+            baseDenom: 'uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv',
+            channelId: 'channel-2'
+          },
+          chain: {
+            channelId: 'channel-2188',
+            path: 'transfer/channel-2188/uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'coreum',
+            baseDenom: 'uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg',
+          theme: {
+            primaryColorHex: '#a50dda'
+          }
+        }],
+      socials: {
+        website: 'https://coreumcommunitydao.com/',
+        twitter: 'https://x.com/Cor3_Community'
+      }
     }
   ]
 };

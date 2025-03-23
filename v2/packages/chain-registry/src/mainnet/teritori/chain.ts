@@ -69,10 +69,6 @@ const info: Chain = {
         provider: 'silent'
       },
       {
-        address: 'https://teritori-rpc.brocha.in',
-        provider: 'Brochain'
-      },
-      {
         address: 'https://teritori-rpc.ibs.team',
         provider: 'Inter Blockchain Services'
       },
@@ -193,10 +189,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'teritori-grpc.brocha.in:443',
-        provider: 'Brochain'
-      },
-      {
         address: 'teritori-grpc.polkachu.com:15990',
         provider: 'Polkachu'
       },
@@ -243,11 +235,6 @@ const info: Chain = {
       kind: 'guru',
       url: 'https://teritori.explorers.guru/',
       txPage: 'https://teritori.explorers.guru/transaction/${txHash}'
-    },
-    {
-      kind: 'Brochain',
-      url: 'https://explorer.brocha.in/teritori',
-      txPage: 'https://explorer.brocha.in/teritori/tx/${txHash}'
     },
     {
       kind: '𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀',

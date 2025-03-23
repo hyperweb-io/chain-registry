@@ -80,8 +80,8 @@ import * as _likecoin from './likecoin';
 import * as _lorenzo from './lorenzo';
 import * as _lumnetwork from './lumnetwork';
 import * as _mande from './mande';
+import * as _manifest from './manifest';
 import * as _mantrachain from './mantrachain';
-import * as _mars from './mars';
 import * as _medasdigital from './medasdigital';
 import * as _meme from './meme';
 import * as _migaloo from './migaloo';
@@ -232,8 +232,8 @@ const ibcData: IBCData[] = [
   ..._lorenzo.ibcData,
   ..._lumnetwork.ibcData,
   ..._mande.ibcData,
+  ..._manifest.ibcData,
   ..._mantrachain.ibcData,
-  ..._mars.ibcData,
   ..._medasdigital.ibcData,
   ..._meme.ibcData,
   ..._migaloo.ibcData,
