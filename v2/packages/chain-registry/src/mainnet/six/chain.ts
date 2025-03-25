@@ -28,8 +28,8 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/thesixnetwork/six-protocol',
-    recommendedVersion: 'v3.1.1-fn',
-    compatibleVersions: ['v3.1.1-fn'],
+    recommendedVersion: 'v3.3.0',
+    compatibleVersions: ['v3.3.0'],
     consensus: {
       type: 'tendermint',
       version: '0.34'
@@ -44,10 +44,10 @@ const info: Chain = {
   },
   apis: {
     rpc: [{
-        address: 'https://sixnet-rpc.sixprotocol.net:443'
+        address: 'https://sixnet-rpc.sixprotocol.net'
       }],
     rest: [{
-        address: 'https://sixnet-api.sixprotocol.net:443'
+        address: 'https://sixnet-api.sixprotocol.net'
       }]
   },
   explorers: [{

@@ -89,6 +89,7 @@ import * as _milkyway from './milkyway';
 import * as _neutaro from './neutaro';
 import * as _neutron from './neutron';
 import * as _nibiru from './nibiru';
+import * as _nillion from './nillion';
 import * as _nim from './nim';
 import * as _noble from './noble';
 import * as _nolus from './nolus';
@@ -241,6 +242,7 @@ const ibcData: IBCData[] = [
   ..._neutaro.ibcData,
   ..._neutron.ibcData,
   ..._nibiru.ibcData,
+  ..._nillion.ibcData,
   ..._nim.ibcData,
   ..._noble.ibcData,
   ..._nolus.ibcData,

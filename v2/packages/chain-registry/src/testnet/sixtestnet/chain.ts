@@ -28,8 +28,8 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/thesixnetwork/six-protocol',
-    recommendedVersion: 'v3.1.1-fn',
-    compatibleVersions: ['v3.1.1-fn'],
+    recommendedVersion: 'v3.3.0',
+    compatibleVersions: ['v3.3.0'],
     consensus: {
       type: 'tendermint',
       version: '0.34'
