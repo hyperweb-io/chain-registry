@@ -5569,6 +5569,42 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'NIL - the native token of Nillion',
+      denom_units: [{
+          denom: 'ibc/D37860EB1D2669F34B47A7BC48885853D5AB23642EF958CDEA35EB6074087064',
+          exponent: 0,
+          aliases: ['unil']
+        }, {
+          denom: 'nil',
+          exponent: 6
+        }],
+      base: 'ibc/D37860EB1D2669F34B47A7BC48885853D5AB23642EF958CDEA35EB6074087064',
+      name: 'Nillion',
+      display: 'nil',
+      symbol: 'NIL',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://nillion.com',
+        twitter: 'https://x.com/nillionnetwork'
+      },
+      coingecko_id: 'nillion',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'unil',
+            chain_name: 'nillion'
+          },
+          chain: {
+            channel_id: 'channel-98416'
+          }
+        }]
+    },
+    {
       description: 'The permissioned staking asset for Noble Chain',
       denom_units: [{
           denom: 'ibc/B36FA1449007D770F373A0806EC5A907CC2D7DC11AE73FA8AFF76C5903A4F9B0',
@@ -11843,6 +11879,42 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-21113'
+          }
+        }]
+    },
+    {
+      description: 'NIL - the native token of Nillion',
+      denom_units: [{
+          denom: 'ibc/D37860EB1D2669F34B47A7BC48885853D5AB23642EF958CDEA35EB6074087064',
+          exponent: 0,
+          aliases: ['unil']
+        }, {
+          denom: 'nil',
+          exponent: 6
+        }],
+      base: 'ibc/D37860EB1D2669F34B47A7BC48885853D5AB23642EF958CDEA35EB6074087064',
+      name: 'Nillion',
+      display: 'nil',
+      symbol: 'NIL',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://nillion.com',
+        twitter: 'https://x.com/nillionnetwork'
+      },
+      coingecko_id: 'nillion',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'unil',
+            chain_name: 'nillion'
+          },
+          chain: {
+            channel_id: 'channel-98416'
           }
         }]
     },

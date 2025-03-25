@@ -1,6 +1,7 @@
 import { AssetList } from '@chain-registry/types';
 
 import * as _airchainstestnet from './airchainstestnet';
+import * as _airchainsvaranasitestnet from './airchainsvaranasitestnet';
 import * as _akashtestnet from './akashtestnet';
 import * as _alloratestnet from './alloratestnet';
 import * as _archwaytestnet from './archwaytestnet';
@@ -131,6 +132,7 @@ import * as _zigchaintestnet from './zigchaintestnet';
 
 const assets: AssetList[] = [
   _airchainstestnet.assets,
+  _airchainsvaranasitestnet.assets,
   _akashtestnet.assets,
   _alloratestnet.assets,
   _archwaytestnet.assets,

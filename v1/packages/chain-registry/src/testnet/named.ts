@@ -1,4 +1,5 @@
 export * as airchainstestnet from './airchainstestnet';
+export * as airchainsvaranasitestnet from './airchainsvaranasitestnet';
 export * as akashtestnet from './akashtestnet';
 export * as alloratestnet from './alloratestnet';
 export * as archwaytestnet from './archwaytestnet';
