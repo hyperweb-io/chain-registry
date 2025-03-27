@@ -773,21 +773,21 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'injective',
-      clientId: '07-tendermint-293',
-      connectionId: 'connection-299'
+      clientId: '07-tendermint-298',
+      connectionId: 'connection-301'
     },
     chain2: {
       chainName: 'sidechain',
-      clientId: '07-tendermint-17',
-      connectionId: 'connection-5'
+      clientId: '07-tendermint-24',
+      connectionId: 'connection-10'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-429',
+          channelId: 'channel-431',
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-4',
+          channelId: 'channel-9',
           portId: 'transfer'
         },
         ordering: 'unordered',

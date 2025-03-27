@@ -33,21 +33,21 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'cosmoshub',
-      clientId: '07-tendermint-1353',
-      connectionId: 'connection-1090'
+      clientId: '07-tendermint-1362',
+      connectionId: 'connection-1097'
     },
     chain2: {
       chainName: 'sidechain',
-      clientId: '07-tendermint-12',
-      connectionId: 'connection-3'
+      clientId: '07-tendermint-22',
+      connectionId: 'connection-8'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-1318',
+          channelId: 'channel-1335',
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-2',
+          channelId: 'channel-7',
           portId: 'transfer'
         },
         ordering: 'unordered',
@@ -62,21 +62,21 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'injective',
-      clientId: '07-tendermint-293',
-      connectionId: 'connection-299'
+      clientId: '07-tendermint-298',
+      connectionId: 'connection-301'
     },
     chain2: {
       chainName: 'sidechain',
-      clientId: '07-tendermint-17',
-      connectionId: 'connection-5'
+      clientId: '07-tendermint-24',
+      connectionId: 'connection-10'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-429',
+          channelId: 'channel-431',
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-4',
+          channelId: 'channel-9',
           portId: 'transfer'
         },
         ordering: 'unordered',
@@ -91,21 +91,21 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'neutron',
-      clientId: '07-tendermint-156',
-      connectionId: 'connection-116'
+      clientId: '07-tendermint-160',
+      connectionId: 'connection-117'
     },
     chain2: {
       chainName: 'sidechain',
-      clientId: '07-tendermint-16',
-      connectionId: 'connection-4'
+      clientId: '07-tendermint-23',
+      connectionId: 'connection-9'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-6561',
+          channelId: 'channel-6852',
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-3',
+          channelId: 'channel-8',
           portId: 'transfer'
         },
         ordering: 'unordered',
