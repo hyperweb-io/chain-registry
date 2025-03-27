@@ -48,14 +48,14 @@ const assets: AssetList = {
     {
       description: 'ATOM is the native cryptocurrency of the Cosmos network, designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.',
       denom_units: [{
-          denom: 'ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E',
+          denom: 'ibc/25418646C017D377ADF3202FF1E43590D0DAE3346E594E8D78176A139A928F88',
           exponent: 0,
           aliases: ['uatom']
         }, {
           denom: 'atom',
           exponent: 6
         }],
-      base: 'ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E',
+      base: 'ibc/25418646C017D377ADF3202FF1E43590D0DAE3346E594E8D78176A139A928F88',
       name: 'Cosmos Hub Atom',
       display: 'atom',
       symbol: 'ATOM',
@@ -79,26 +79,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-1318',
+            channel_id: 'channel-1335',
             base_denom: 'uatom',
             chain_name: 'cosmoshub'
           },
           chain: {
-            channel_id: 'channel-2'
+            channel_id: 'channel-7'
           }
         }]
     },
     {
       description: 'Injective is a decentralized exchange protocol that enables fast, secure, and fully decentralized trading of derivatives, futures, and spot markets.',
       denom_units: [{
-          denom: 'ibc/67E8387284A038A0AD42BAE9EAA4C6A90E0D82B5C556F37FB57A3D1C8773C042',
+          denom: 'ibc/1704820C9E1F4A9925E0F23D3B92ED0E53DEE28726257E39FABD444BFC6B6AE3',
           exponent: 0,
           aliases: ['inj']
         }, {
           denom: 'INJ',
           exponent: 18
         }],
-      base: 'ibc/67E8387284A038A0AD42BAE9EAA4C6A90E0D82B5C556F37FB57A3D1C8773C042',
+      base: 'ibc/1704820C9E1F4A9925E0F23D3B92ED0E53DEE28726257E39FABD444BFC6B6AE3',
       name: 'Injective',
       display: 'INJ',
       symbol: 'INJ',
@@ -122,26 +122,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-429',
+            channel_id: 'channel-431',
             base_denom: 'inj',
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-9'
           }
         }]
     },
     {
       description: 'The second meme coin on Injective.',
       denom_units: [{
-          denom: 'ibc/A0221408BBFA4C2D0EC659259B53F451DAA451A658D2DB4C6FAD212A1EB768B5',
+          denom: 'ibc/F6BC5D3A9F95BFB802BCDE65BF0DDD9D10E738D5E5E507A780B09A94F02497C5',
           exponent: 0,
           aliases: ['inj1sudjgsyhufqu95yp7rqad3g78ws8g6htf32h88']
         }, {
           denom: 'NINPO',
           exponent: 6
         }],
-      base: 'ibc/A0221408BBFA4C2D0EC659259B53F451DAA451A658D2DB4C6FAD212A1EB768B5',
+      base: 'ibc/F6BC5D3A9F95BFB802BCDE65BF0DDD9D10E738D5E5E507A780B09A94F02497C5',
       name: 'Ninpo',
       display: 'NINPO',
       symbol: 'NINPO',
@@ -158,26 +158,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-429',
+            channel_id: 'channel-431',
             base_denom: 'inj1sudjgsyhufqu95yp7rqad3g78ws8g6htf32h88',
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-9'
           }
         }]
     },
     {
       description: 'JUDO is a very futuristic meme token.',
       denom_units: [{
-          denom: 'ibc/4443F23B5D6875157A5C6D7D4A09D574A99881A76DD10C10D0DF6DD0A6F3F5EA',
+          denom: 'ibc/B7D43B2ED0400FDB689561F9C8845B388A24D21635E64DBB917AE4E6494D124A',
           exponent: 0,
           aliases: ['inj16ukv8g2jcmml7gykxn5ws8ykhxjkugl4zhft5h']
         }, {
           denom: 'JUDO',
           exponent: 6
         }],
-      base: 'ibc/4443F23B5D6875157A5C6D7D4A09D574A99881A76DD10C10D0DF6DD0A6F3F5EA',
+      base: 'ibc/B7D43B2ED0400FDB689561F9C8845B388A24D21635E64DBB917AE4E6494D124A',
       name: 'Judo',
       display: 'JUDO',
       symbol: 'JUDO',
@@ -194,26 +194,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-429',
+            channel_id: 'channel-431',
             base_denom: 'inj16ukv8g2jcmml7gykxn5ws8ykhxjkugl4zhft5h',
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-9'
           }
         }]
     },
     {
       description: 'A receipt token for lent INJ issued by the Neptune Protocol.',
       denom_units: [{
-          denom: 'ibc/FD436E49CE8415DD4CDDC6257D7ABC5112E2FB6CFAEF6C68F2CE4B331CD1A4F6',
+          denom: 'ibc/D0157551AFDA5270C8C8DD599258C8E8F3488A62C0BE38637ED625D26E2B62C4',
           exponent: 0,
           aliases: ['inj1rmzufd7h09sqfrre5dtvu5d09ta7c0t4jzkr2f']
         }, {
           denom: 'nINJ',
           exponent: 18
         }],
-      base: 'ibc/FD436E49CE8415DD4CDDC6257D7ABC5112E2FB6CFAEF6C68F2CE4B331CD1A4F6',
+      base: 'ibc/D0157551AFDA5270C8C8DD599258C8E8F3488A62C0BE38637ED625D26E2B62C4',
       name: 'Neptune Receipt INJ',
       display: 'nINJ',
       symbol: 'nINJ',
@@ -227,26 +227,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-429',
+            channel_id: 'channel-431',
             base_denom: 'inj1rmzufd7h09sqfrre5dtvu5d09ta7c0t4jzkr2f',
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-9'
           }
         }]
     },
     {
       description: 'A receipt token for lent ATOM issued by the Neptune Protocol.',
       denom_units: [{
-          denom: 'ibc/2896DC4D18C543D228E3DB1C5853BE6CBCF49E587BAC47E875CF9875F75DFFAB',
+          denom: 'ibc/9195A69838C26E6632976809302053BE5C54CD8E9AD8FF15544615ABF74FEEE4',
           exponent: 0,
           aliases: ['inj16jf4qkcarp3lan4wl2qkrelf4kduvvujwg0780']
         }, {
           denom: 'nATOM',
           exponent: 6
         }],
-      base: 'ibc/2896DC4D18C543D228E3DB1C5853BE6CBCF49E587BAC47E875CF9875F75DFFAB',
+      base: 'ibc/9195A69838C26E6632976809302053BE5C54CD8E9AD8FF15544615ABF74FEEE4',
       name: 'Neptune Receipt ATOM',
       display: 'nATOM',
       symbol: 'nATOM',
@@ -260,26 +260,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-429',
+            channel_id: 'channel-431',
             base_denom: 'inj16jf4qkcarp3lan4wl2qkrelf4kduvvujwg0780',
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-9'
           }
         }]
     },
     {
       description: 'A receipt token for lent WETH issued by the Neptune Protocol.',
       denom_units: [{
-          denom: 'ibc/E9643F45705F78D214F6A2A55B12FAB25124642CB7F5488ABE27508CCFCD9D6D',
+          denom: 'ibc/FF3CB3F5219EC2A4D1F76AA707D511C970555E9F76C2B97E5D398B6F1F9F31FF',
           exponent: 0,
           aliases: ['inj1kehk5nvreklhylx22p3x0yjydfsz9fv3fvg5xt']
         }, {
           denom: 'nWETH',
           exponent: 18
         }],
-      base: 'ibc/E9643F45705F78D214F6A2A55B12FAB25124642CB7F5488ABE27508CCFCD9D6D',
+      base: 'ibc/FF3CB3F5219EC2A4D1F76AA707D511C970555E9F76C2B97E5D398B6F1F9F31FF',
       name: 'Neptune Receipt WETH',
       display: 'nWETH',
       symbol: 'nWETH',
@@ -293,26 +293,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-429',
+            channel_id: 'channel-431',
             base_denom: 'inj1kehk5nvreklhylx22p3x0yjydfsz9fv3fvg5xt',
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-9'
           }
         }]
     },
     {
       description: 'A receipt token for lent USDT issued by the Neptune Protocol.',
       denom_units: [{
-          denom: 'ibc/D88698DD00F78C4E368A749DB80130E4D3F953974FD8C13CA7D17159A1269C53',
+          denom: 'ibc/A8E3B31CF53E3FF36662C72C66B97275C8877ED2BEEE61AA6B14F17C9E07300C',
           exponent: 0,
           aliases: ['inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s']
         }, {
           denom: 'nUSDT',
           exponent: 6
         }],
-      base: 'ibc/D88698DD00F78C4E368A749DB80130E4D3F953974FD8C13CA7D17159A1269C53',
+      base: 'ibc/A8E3B31CF53E3FF36662C72C66B97275C8877ED2BEEE61AA6B14F17C9E07300C',
       name: 'Neptune Receipt USDT',
       display: 'nUSDT',
       symbol: 'nUSDT',
@@ -326,26 +326,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-429',
+            channel_id: 'channel-431',
             base_denom: 'inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s',
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-9'
           }
         }]
     },
     {
       description: 'A receipt token for lent TIA issued by the Neptune Protocol.',
       denom_units: [{
-          denom: 'ibc/A6EDE112216DAB11032434F586CB396F414604D34A127FF88945CD31293E3EAF',
+          denom: 'ibc/4CFD611BB239E8CFE0F938FB3E9601B436736007DD580B0D7C185839AD9EA95B',
           exponent: 0,
           aliases: ['inj1fzquxxxam59z6fzewy2hvvreeh3m04x83zg4vv']
         }, {
           denom: 'nTIA',
           exponent: 6
         }],
-      base: 'ibc/A6EDE112216DAB11032434F586CB396F414604D34A127FF88945CD31293E3EAF',
+      base: 'ibc/4CFD611BB239E8CFE0F938FB3E9601B436736007DD580B0D7C185839AD9EA95B',
       name: 'Neptune Receipt TIA',
       display: 'nTIA',
       symbol: 'nTIA',
@@ -359,26 +359,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-429',
+            channel_id: 'channel-431',
             base_denom: 'inj1fzquxxxam59z6fzewy2hvvreeh3m04x83zg4vv',
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-9'
           }
         }]
     },
     {
       description: 'Neutron is a smart contract blockchain within the Cosmos ecosystem, leveraging the Cosmos Hub\'s security to provide cross-chain DeFi applications.',
       denom_units: [{
-          denom: 'ibc/7C1B575B45FDB34A291FDBFC1CDC01A2196D4BDD11C8C1930F2576D310B31119',
+          denom: 'ibc/A020C9A03670A74D9BAD0E914FB4C0FC8AC9E762808BDB0EE4A0F6840297014B',
           exponent: 0,
           aliases: ['untrn']
         }, {
           denom: 'ntrn',
           exponent: 6
         }],
-      base: 'ibc/7C1B575B45FDB34A291FDBFC1CDC01A2196D4BDD11C8C1930F2576D310B31119',
+      base: 'ibc/A020C9A03670A74D9BAD0E914FB4C0FC8AC9E762808BDB0EE4A0F6840297014B',
       name: 'Neutron',
       display: 'ntrn',
       symbol: 'NTRN',
@@ -404,26 +404,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-6561',
+            channel_id: 'channel-6852',
             base_denom: 'untrn',
             chain_name: 'neutron'
           },
           chain: {
-            channel_id: 'channel-3'
+            channel_id: 'channel-8'
           }
         }]
     },
     {
       description: 'BITCOSMOS',
       denom_units: [{
-          denom: 'ibc/209706573960746A3EB58E474DF3947A3EA8C092EF1EE64C88CF6B187E3D4701',
+          denom: 'ibc/9F972735788701AC6BEA3F75B25E47316DF9B6261B427557520818BB120BD648',
           exponent: 0,
           aliases: ['neutron1fjzg7fmv770hsvahqm0nwnu6grs3rjnd2wa6fvm9unv6vedkzekqpw44qj']
         }, {
           denom: 'bitcosmos',
           exponent: 6
         }],
-      base: 'ibc/209706573960746A3EB58E474DF3947A3EA8C092EF1EE64C88CF6B187E3D4701',
+      base: 'ibc/9F972735788701AC6BEA3F75B25E47316DF9B6261B427557520818BB120BD648',
       name: 'Bitcosmos',
       display: 'bitcosmos',
       symbol: 'BTC',
@@ -440,26 +440,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-6561',
+            channel_id: 'channel-6852',
             base_denom: 'neutron1fjzg7fmv770hsvahqm0nwnu6grs3rjnd2wa6fvm9unv6vedkzekqpw44qj',
             chain_name: 'neutron'
           },
           chain: {
-            channel_id: 'channel-3'
+            channel_id: 'channel-8'
           }
         }]
     },
     {
       description: 'What the Fuck',
       denom_units: [{
-          denom: 'ibc/1DB5D131618B9733A86BE71EFFB75297EE9F17F525E1318FA75C3AF03F4BB8BF',
+          denom: 'ibc/F45CB3152E94668155744CA84B6DF1E980B3752BBB32881DF9EDB2B1C9D02E40',
           exponent: 0,
           aliases: ['neutron12h09p8hq5y4xpsmcuxxzsn9juef4f6jvekp8yefc6xnlwm6uumnsdk29wf']
         }, {
           denom: 'wtf',
           exponent: 6
         }],
-      base: 'ibc/1DB5D131618B9733A86BE71EFFB75297EE9F17F525E1318FA75C3AF03F4BB8BF',
+      base: 'ibc/F45CB3152E94668155744CA84B6DF1E980B3752BBB32881DF9EDB2B1C9D02E40',
       name: 'wtf',
       display: 'wtf',
       symbol: 'WTF',
@@ -476,26 +476,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-6561',
+            channel_id: 'channel-6852',
             base_denom: 'neutron12h09p8hq5y4xpsmcuxxzsn9juef4f6jvekp8yefc6xnlwm6uumnsdk29wf',
             chain_name: 'neutron'
           },
           chain: {
-            channel_id: 'channel-3'
+            channel_id: 'channel-8'
           }
         }]
     },
     {
       description: 'Astro BOY',
       denom_units: [{
-          denom: 'ibc/4BBC5697186A0A5413E042B7829BD3B5D94FAA7D4F7C4E810B7ED617EBBF3A8E',
+          denom: 'ibc/6BC14F65B2EA9111E37D3E460575C5A2A51E19E4495D9E4DA84AFF82E6F69DC8',
           exponent: 0,
           aliases: ['neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv']
         }, {
           denom: 'boy',
           exponent: 6
         }],
-      base: 'ibc/4BBC5697186A0A5413E042B7829BD3B5D94FAA7D4F7C4E810B7ED617EBBF3A8E',
+      base: 'ibc/6BC14F65B2EA9111E37D3E460575C5A2A51E19E4495D9E4DA84AFF82E6F69DC8',
       name: 'boy',
       display: 'boy',
       symbol: 'BOY',
@@ -512,12 +512,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-6561',
+            channel_id: 'channel-6852',
             base_denom: 'neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv',
             chain_name: 'neutron'
           },
           chain: {
-            channel_id: 'channel-3'
+            channel_id: 'channel-8'
           }
         }]
     },
@@ -812,14 +812,14 @@ const assets: AssetList = {
     {
       description: 'ATOM is the native cryptocurrency of the Cosmos network, designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.',
       denom_units: [{
-          denom: 'ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E',
+          denom: 'ibc/25418646C017D377ADF3202FF1E43590D0DAE3346E594E8D78176A139A928F88',
           exponent: 0,
           aliases: ['uatom']
         }, {
           denom: 'atom',
           exponent: 6
         }],
-      base: 'ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E',
+      base: 'ibc/25418646C017D377ADF3202FF1E43590D0DAE3346E594E8D78176A139A928F88',
       name: 'Cosmos Hub Atom',
       display: 'atom',
       symbol: 'ATOM',
@@ -843,26 +843,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-1318',
+            channel_id: 'channel-1335',
             base_denom: 'uatom',
             chain_name: 'cosmoshub'
           },
           chain: {
-            channel_id: 'channel-2'
+            channel_id: 'channel-7'
           }
         }]
     },
     {
       description: 'Injective is a decentralized exchange protocol that enables fast, secure, and fully decentralized trading of derivatives, futures, and spot markets.',
       denom_units: [{
-          denom: 'ibc/67E8387284A038A0AD42BAE9EAA4C6A90E0D82B5C556F37FB57A3D1C8773C042',
+          denom: 'ibc/1704820C9E1F4A9925E0F23D3B92ED0E53DEE28726257E39FABD444BFC6B6AE3',
           exponent: 0,
           aliases: ['inj']
         }, {
           denom: 'INJ',
           exponent: 18
         }],
-      base: 'ibc/67E8387284A038A0AD42BAE9EAA4C6A90E0D82B5C556F37FB57A3D1C8773C042',
+      base: 'ibc/1704820C9E1F4A9925E0F23D3B92ED0E53DEE28726257E39FABD444BFC6B6AE3',
       name: 'Injective',
       display: 'INJ',
       symbol: 'INJ',
@@ -886,26 +886,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-429',
+            channel_id: 'channel-431',
             base_denom: 'inj',
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-9'
           }
         }]
     },
     {
       description: 'The second meme coin on Injective.',
       denom_units: [{
-          denom: 'ibc/A0221408BBFA4C2D0EC659259B53F451DAA451A658D2DB4C6FAD212A1EB768B5',
+          denom: 'ibc/F6BC5D3A9F95BFB802BCDE65BF0DDD9D10E738D5E5E507A780B09A94F02497C5',
           exponent: 0,
           aliases: ['inj1sudjgsyhufqu95yp7rqad3g78ws8g6htf32h88']
         }, {
           denom: 'NINPO',
           exponent: 6
         }],
-      base: 'ibc/A0221408BBFA4C2D0EC659259B53F451DAA451A658D2DB4C6FAD212A1EB768B5',
+      base: 'ibc/F6BC5D3A9F95BFB802BCDE65BF0DDD9D10E738D5E5E507A780B09A94F02497C5',
       name: 'Ninpo',
       display: 'NINPO',
       symbol: 'NINPO',
@@ -922,26 +922,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-429',
+            channel_id: 'channel-431',
             base_denom: 'inj1sudjgsyhufqu95yp7rqad3g78ws8g6htf32h88',
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-9'
           }
         }]
     },
     {
       description: 'JUDO is a very futuristic meme token.',
       denom_units: [{
-          denom: 'ibc/4443F23B5D6875157A5C6D7D4A09D574A99881A76DD10C10D0DF6DD0A6F3F5EA',
+          denom: 'ibc/B7D43B2ED0400FDB689561F9C8845B388A24D21635E64DBB917AE4E6494D124A',
           exponent: 0,
           aliases: ['inj16ukv8g2jcmml7gykxn5ws8ykhxjkugl4zhft5h']
         }, {
           denom: 'JUDO',
           exponent: 6
         }],
-      base: 'ibc/4443F23B5D6875157A5C6D7D4A09D574A99881A76DD10C10D0DF6DD0A6F3F5EA',
+      base: 'ibc/B7D43B2ED0400FDB689561F9C8845B388A24D21635E64DBB917AE4E6494D124A',
       name: 'Judo',
       display: 'JUDO',
       symbol: 'JUDO',
@@ -958,26 +958,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-429',
+            channel_id: 'channel-431',
             base_denom: 'inj16ukv8g2jcmml7gykxn5ws8ykhxjkugl4zhft5h',
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-9'
           }
         }]
     },
     {
       description: 'A receipt token for lent INJ issued by the Neptune Protocol.',
       denom_units: [{
-          denom: 'ibc/FD436E49CE8415DD4CDDC6257D7ABC5112E2FB6CFAEF6C68F2CE4B331CD1A4F6',
+          denom: 'ibc/D0157551AFDA5270C8C8DD599258C8E8F3488A62C0BE38637ED625D26E2B62C4',
           exponent: 0,
           aliases: ['inj1rmzufd7h09sqfrre5dtvu5d09ta7c0t4jzkr2f']
         }, {
           denom: 'nINJ',
           exponent: 18
         }],
-      base: 'ibc/FD436E49CE8415DD4CDDC6257D7ABC5112E2FB6CFAEF6C68F2CE4B331CD1A4F6',
+      base: 'ibc/D0157551AFDA5270C8C8DD599258C8E8F3488A62C0BE38637ED625D26E2B62C4',
       name: 'Neptune Receipt INJ',
       display: 'nINJ',
       symbol: 'nINJ',
@@ -991,26 +991,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-429',
+            channel_id: 'channel-431',
             base_denom: 'inj1rmzufd7h09sqfrre5dtvu5d09ta7c0t4jzkr2f',
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-9'
           }
         }]
     },
     {
       description: 'A receipt token for lent ATOM issued by the Neptune Protocol.',
       denom_units: [{
-          denom: 'ibc/2896DC4D18C543D228E3DB1C5853BE6CBCF49E587BAC47E875CF9875F75DFFAB',
+          denom: 'ibc/9195A69838C26E6632976809302053BE5C54CD8E9AD8FF15544615ABF74FEEE4',
           exponent: 0,
           aliases: ['inj16jf4qkcarp3lan4wl2qkrelf4kduvvujwg0780']
         }, {
           denom: 'nATOM',
           exponent: 6
         }],
-      base: 'ibc/2896DC4D18C543D228E3DB1C5853BE6CBCF49E587BAC47E875CF9875F75DFFAB',
+      base: 'ibc/9195A69838C26E6632976809302053BE5C54CD8E9AD8FF15544615ABF74FEEE4',
       name: 'Neptune Receipt ATOM',
       display: 'nATOM',
       symbol: 'nATOM',
@@ -1024,26 +1024,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-429',
+            channel_id: 'channel-431',
             base_denom: 'inj16jf4qkcarp3lan4wl2qkrelf4kduvvujwg0780',
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-9'
           }
         }]
     },
     {
       description: 'A receipt token for lent WETH issued by the Neptune Protocol.',
       denom_units: [{
-          denom: 'ibc/E9643F45705F78D214F6A2A55B12FAB25124642CB7F5488ABE27508CCFCD9D6D',
+          denom: 'ibc/FF3CB3F5219EC2A4D1F76AA707D511C970555E9F76C2B97E5D398B6F1F9F31FF',
           exponent: 0,
           aliases: ['inj1kehk5nvreklhylx22p3x0yjydfsz9fv3fvg5xt']
         }, {
           denom: 'nWETH',
           exponent: 18
         }],
-      base: 'ibc/E9643F45705F78D214F6A2A55B12FAB25124642CB7F5488ABE27508CCFCD9D6D',
+      base: 'ibc/FF3CB3F5219EC2A4D1F76AA707D511C970555E9F76C2B97E5D398B6F1F9F31FF',
       name: 'Neptune Receipt WETH',
       display: 'nWETH',
       symbol: 'nWETH',
@@ -1057,26 +1057,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-429',
+            channel_id: 'channel-431',
             base_denom: 'inj1kehk5nvreklhylx22p3x0yjydfsz9fv3fvg5xt',
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-9'
           }
         }]
     },
     {
       description: 'A receipt token for lent USDT issued by the Neptune Protocol.',
       denom_units: [{
-          denom: 'ibc/D88698DD00F78C4E368A749DB80130E4D3F953974FD8C13CA7D17159A1269C53',
+          denom: 'ibc/A8E3B31CF53E3FF36662C72C66B97275C8877ED2BEEE61AA6B14F17C9E07300C',
           exponent: 0,
           aliases: ['inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s']
         }, {
           denom: 'nUSDT',
           exponent: 6
         }],
-      base: 'ibc/D88698DD00F78C4E368A749DB80130E4D3F953974FD8C13CA7D17159A1269C53',
+      base: 'ibc/A8E3B31CF53E3FF36662C72C66B97275C8877ED2BEEE61AA6B14F17C9E07300C',
       name: 'Neptune Receipt USDT',
       display: 'nUSDT',
       symbol: 'nUSDT',
@@ -1090,26 +1090,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-429',
+            channel_id: 'channel-431',
             base_denom: 'inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s',
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-9'
           }
         }]
     },
     {
       description: 'A receipt token for lent TIA issued by the Neptune Protocol.',
       denom_units: [{
-          denom: 'ibc/A6EDE112216DAB11032434F586CB396F414604D34A127FF88945CD31293E3EAF',
+          denom: 'ibc/4CFD611BB239E8CFE0F938FB3E9601B436736007DD580B0D7C185839AD9EA95B',
           exponent: 0,
           aliases: ['inj1fzquxxxam59z6fzewy2hvvreeh3m04x83zg4vv']
         }, {
           denom: 'nTIA',
           exponent: 6
         }],
-      base: 'ibc/A6EDE112216DAB11032434F586CB396F414604D34A127FF88945CD31293E3EAF',
+      base: 'ibc/4CFD611BB239E8CFE0F938FB3E9601B436736007DD580B0D7C185839AD9EA95B',
       name: 'Neptune Receipt TIA',
       display: 'nTIA',
       symbol: 'nTIA',
@@ -1123,26 +1123,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-429',
+            channel_id: 'channel-431',
             base_denom: 'inj1fzquxxxam59z6fzewy2hvvreeh3m04x83zg4vv',
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-9'
           }
         }]
     },
     {
       description: 'Neutron is a smart contract blockchain within the Cosmos ecosystem, leveraging the Cosmos Hub\'s security to provide cross-chain DeFi applications.',
       denom_units: [{
-          denom: 'ibc/7C1B575B45FDB34A291FDBFC1CDC01A2196D4BDD11C8C1930F2576D310B31119',
+          denom: 'ibc/A020C9A03670A74D9BAD0E914FB4C0FC8AC9E762808BDB0EE4A0F6840297014B',
           exponent: 0,
           aliases: ['untrn']
         }, {
           denom: 'ntrn',
           exponent: 6
         }],
-      base: 'ibc/7C1B575B45FDB34A291FDBFC1CDC01A2196D4BDD11C8C1930F2576D310B31119',
+      base: 'ibc/A020C9A03670A74D9BAD0E914FB4C0FC8AC9E762808BDB0EE4A0F6840297014B',
       name: 'Neutron',
       display: 'ntrn',
       symbol: 'NTRN',
@@ -1168,26 +1168,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-6561',
+            channel_id: 'channel-6852',
             base_denom: 'untrn',
             chain_name: 'neutron'
           },
           chain: {
-            channel_id: 'channel-3'
+            channel_id: 'channel-8'
           }
         }]
     },
     {
       description: 'BITCOSMOS',
       denom_units: [{
-          denom: 'ibc/209706573960746A3EB58E474DF3947A3EA8C092EF1EE64C88CF6B187E3D4701',
+          denom: 'ibc/9F972735788701AC6BEA3F75B25E47316DF9B6261B427557520818BB120BD648',
           exponent: 0,
           aliases: ['neutron1fjzg7fmv770hsvahqm0nwnu6grs3rjnd2wa6fvm9unv6vedkzekqpw44qj']
         }, {
           denom: 'bitcosmos',
           exponent: 6
         }],
-      base: 'ibc/209706573960746A3EB58E474DF3947A3EA8C092EF1EE64C88CF6B187E3D4701',
+      base: 'ibc/9F972735788701AC6BEA3F75B25E47316DF9B6261B427557520818BB120BD648',
       name: 'Bitcosmos',
       display: 'bitcosmos',
       symbol: 'BTC',
@@ -1204,26 +1204,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-6561',
+            channel_id: 'channel-6852',
             base_denom: 'neutron1fjzg7fmv770hsvahqm0nwnu6grs3rjnd2wa6fvm9unv6vedkzekqpw44qj',
             chain_name: 'neutron'
           },
           chain: {
-            channel_id: 'channel-3'
+            channel_id: 'channel-8'
           }
         }]
     },
     {
       description: 'What the Fuck',
       denom_units: [{
-          denom: 'ibc/1DB5D131618B9733A86BE71EFFB75297EE9F17F525E1318FA75C3AF03F4BB8BF',
+          denom: 'ibc/F45CB3152E94668155744CA84B6DF1E980B3752BBB32881DF9EDB2B1C9D02E40',
           exponent: 0,
           aliases: ['neutron12h09p8hq5y4xpsmcuxxzsn9juef4f6jvekp8yefc6xnlwm6uumnsdk29wf']
         }, {
           denom: 'wtf',
           exponent: 6
         }],
-      base: 'ibc/1DB5D131618B9733A86BE71EFFB75297EE9F17F525E1318FA75C3AF03F4BB8BF',
+      base: 'ibc/F45CB3152E94668155744CA84B6DF1E980B3752BBB32881DF9EDB2B1C9D02E40',
       name: 'wtf',
       display: 'wtf',
       symbol: 'WTF',
@@ -1240,26 +1240,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-6561',
+            channel_id: 'channel-6852',
             base_denom: 'neutron12h09p8hq5y4xpsmcuxxzsn9juef4f6jvekp8yefc6xnlwm6uumnsdk29wf',
             chain_name: 'neutron'
           },
           chain: {
-            channel_id: 'channel-3'
+            channel_id: 'channel-8'
           }
         }]
     },
     {
       description: 'Astro BOY',
       denom_units: [{
-          denom: 'ibc/4BBC5697186A0A5413E042B7829BD3B5D94FAA7D4F7C4E810B7ED617EBBF3A8E',
+          denom: 'ibc/6BC14F65B2EA9111E37D3E460575C5A2A51E19E4495D9E4DA84AFF82E6F69DC8',
           exponent: 0,
           aliases: ['neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv']
         }, {
           denom: 'boy',
           exponent: 6
         }],
-      base: 'ibc/4BBC5697186A0A5413E042B7829BD3B5D94FAA7D4F7C4E810B7ED617EBBF3A8E',
+      base: 'ibc/6BC14F65B2EA9111E37D3E460575C5A2A51E19E4495D9E4DA84AFF82E6F69DC8',
       name: 'boy',
       display: 'boy',
       symbol: 'BOY',
@@ -1276,12 +1276,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-6561',
+            channel_id: 'channel-6852',
             base_denom: 'neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv',
             chain_name: 'neutron'
           },
           chain: {
-            channel_id: 'channel-3'
+            channel_id: 'channel-8'
           }
         }]
     },

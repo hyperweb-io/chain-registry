@@ -7361,14 +7361,14 @@ const assets: AssetList = {
     {
       description: 'The native token of Side Chain.',
       denom_units: [{
-          denom: 'ibc/8B42809DBB72F52A05545F347C965561E5795F77D3E62BC1F9E5E2AE291BF2B3',
+          denom: 'ibc/589B02B56655FE2977D76D53ABA89BAFE270D86827D02FD5339AC7BD5FCB75EF',
           exponent: 0,
           aliases: ['uside']
         }, {
           denom: 'side',
           exponent: 6
         }],
-      base: 'ibc/8B42809DBB72F52A05545F347C965561E5795F77D3E62BC1F9E5E2AE291BF2B3',
+      base: 'ibc/589B02B56655FE2977D76D53ABA89BAFE270D86827D02FD5339AC7BD5FCB75EF',
       name: 'Side Chain native token',
       display: 'side',
       symbol: 'SIDE',
@@ -7391,12 +7391,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-3',
+            channel_id: 'channel-8',
             base_denom: 'uside',
             chain_name: 'sidechain'
           },
           chain: {
-            channel_id: 'channel-6561'
+            channel_id: 'channel-6852'
           }
         }]
     },
@@ -12697,14 +12697,14 @@ const assets: AssetList = {
     {
       description: 'The native token of Side Chain.',
       denom_units: [{
-          denom: 'ibc/8B42809DBB72F52A05545F347C965561E5795F77D3E62BC1F9E5E2AE291BF2B3',
+          denom: 'ibc/589B02B56655FE2977D76D53ABA89BAFE270D86827D02FD5339AC7BD5FCB75EF',
           exponent: 0,
           aliases: ['uside']
         }, {
           denom: 'side',
           exponent: 6
         }],
-      base: 'ibc/8B42809DBB72F52A05545F347C965561E5795F77D3E62BC1F9E5E2AE291BF2B3',
+      base: 'ibc/589B02B56655FE2977D76D53ABA89BAFE270D86827D02FD5339AC7BD5FCB75EF',
       name: 'Side Chain native token',
       display: 'side',
       symbol: 'SIDE',
@@ -12727,12 +12727,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-3',
+            channel_id: 'channel-8',
             base_denom: 'uside',
             chain_name: 'sidechain'
           },
           chain: {
-            channel_id: 'channel-6561'
+            channel_id: 'channel-6852'
           }
         }]
     },

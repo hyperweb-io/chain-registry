@@ -10077,14 +10077,14 @@ const assets: AssetList = {
     {
       description: 'The native token of Side Chain.',
       denom_units: [{
-          denom: 'ibc/6DAAA2C5A3BF6AF99905321077466E006432E47C5153DF654A48620A8C3F1E71',
+          denom: 'ibc/B1928D044B9D53DB0D0B7E759B2FF57F57A062F3EB997C380FF74E06D12662C9',
           exponent: 0,
           aliases: ['uside']
         }, {
           denom: 'side',
           exponent: 6
         }],
-      base: 'ibc/6DAAA2C5A3BF6AF99905321077466E006432E47C5153DF654A48620A8C3F1E71',
+      base: 'ibc/B1928D044B9D53DB0D0B7E759B2FF57F57A062F3EB997C380FF74E06D12662C9',
       name: 'Side Chain native token',
       display: 'side',
       symbol: 'SIDE',
@@ -10107,12 +10107,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-2',
+            channel_id: 'channel-7',
             base_denom: 'uside',
             chain_name: 'sidechain'
           },
           chain: {
-            channel_id: 'channel-1318'
+            channel_id: 'channel-1335'
           }
         }]
     },
@@ -18302,14 +18302,14 @@ const assets: AssetList = {
     {
       description: 'The native token of Side Chain.',
       denom_units: [{
-          denom: 'ibc/6DAAA2C5A3BF6AF99905321077466E006432E47C5153DF654A48620A8C3F1E71',
+          denom: 'ibc/B1928D044B9D53DB0D0B7E759B2FF57F57A062F3EB997C380FF74E06D12662C9',
           exponent: 0,
           aliases: ['uside']
         }, {
           denom: 'side',
           exponent: 6
         }],
-      base: 'ibc/6DAAA2C5A3BF6AF99905321077466E006432E47C5153DF654A48620A8C3F1E71',
+      base: 'ibc/B1928D044B9D53DB0D0B7E759B2FF57F57A062F3EB997C380FF74E06D12662C9',
       name: 'Side Chain native token',
       display: 'side',
       symbol: 'SIDE',
@@ -18332,12 +18332,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-2',
+            channel_id: 'channel-7',
             base_denom: 'uside',
             chain_name: 'sidechain'
           },
           chain: {
-            channel_id: 'channel-1318'
+            channel_id: 'channel-1335'
           }
         }]
     },
