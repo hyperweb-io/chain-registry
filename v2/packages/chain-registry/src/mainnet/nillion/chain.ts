@@ -49,28 +49,67 @@ const info: Chain = {
     }
   },
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://nillion-rpc.lavenderfive.com',
         provider: 'lavenderfive'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://rpc.nillion.nodestake.org',
+        provider: 'NodeStake'
+      },
+      {
+        address: 'https://nillion-mainnet-rpc.autostake.com:443',
+        provider: 'AutoStake 🛡️ Slash Protected'
+      }
+    ],
+    rest: [
+      {
         address: 'https://nillion-api.lavenderfive.com',
         provider: 'lavenderfive'
-      }],
-    grpc: [{
+      },
+      {
+        address: 'https://api.nillion.nodestake.org',
+        provider: 'NodeStake'
+      },
+      {
+        address: 'https://nillion-mainnet-lcd.autostake.com:443',
+        provider: 'AutoStake 🛡️ Slash Protected'
+      }
+    ],
+    grpc: [
+      {
         address: 'https://nillion-grpc.lavenderfive.com',
         provider: 'lavenderfive'
-      }]
+      },
+      {
+        address: 'https://grpc.nillion.nodestake.org',
+        provider: 'NodeStake'
+      },
+      {
+        address: 'nillion-mainnet-grpc.autostake.com:443',
+        provider: 'AutoStake 🛡️ Slash Protected'
+      }
+    ]
   },
-  explorers: [{
+  explorers: [
+    {
       url: 'https://nillion.explorers.guru',
       txPage: 'https://nillion.explorers.guru/transaction/${txHash}',
       accountPage: 'https://nillion.explorers.guru/account/${accountAddress}'
-    }, {
+    },
+    {
       url: 'https://www.mintscan.io/nillion',
       txPage: 'https://www.mintscan.io/nillion/tx/${txHash}',
       accountPage: 'https://www.mintscan.io/nillion/address/${accountAddress}'
-    }],
+    },
+    {
+      kind: 'NodeStake',
+      url: 'https://explorer.nodestake.org/nillion/',
+      txPage: 'https://explorer.nodestake.org/nillion/txs/${txHash}',
+      accountPage: 'https://explorer.nodestake.org/nillion/account/${accountAddress}'
+    }
+  ],
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.svg',
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.png'
