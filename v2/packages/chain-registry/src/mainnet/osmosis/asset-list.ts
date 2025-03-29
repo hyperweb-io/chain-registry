@@ -23852,6 +23852,28 @@ const info: AssetList = {
         website: 'https://coreumcommunitydao.com/',
         twitter: 'https://x.com/Cor3_Community'
       }
+    },
+    {
+      description: 'Commemorative token dedicated to the old Prussian noble family',
+      denomUnits: [{
+          denom: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/ba-ba',
+          exponent: 0
+        }, {
+          denom: 'BA-BA',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      address: 'osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8',
+      base: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/ba-ba',
+      name: 'von Baysen-Bażeński',
+      display: 'BA-BA',
+      symbol: 'BABA',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/BA-BA.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/BA-BA.png'
+        }]
     }
   ]
 };

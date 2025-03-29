@@ -15,9 +15,9 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'unil',
-        lowGasPrice: 0.0001,
-        averageGasPrice: 0.0001,
-        highGasPrice: 0.00025
+        lowGasPrice: 0.025,
+        averageGasPrice: 0.025,
+        highGasPrice: 0.1
       }]
   },
   staking: {
