@@ -23874,6 +23874,50 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/BA-BA.png'
         }]
+    },
+    {
+      description: 'NIL - the native token of Nillion',
+      denomUnits: [{
+          denom: 'ibc/D37860EB1D2669F34B47A7BC48885853D5AB23642EF958CDEA35EB6074087064',
+          exponent: 0,
+          aliases: ['unil']
+        }, {
+          denom: 'nil',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/D37860EB1D2669F34B47A7BC48885853D5AB23642EF958CDEA35EB6074087064',
+      name: 'Nillion',
+      display: 'nil',
+      symbol: 'NIL',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'nillion',
+            baseDenom: 'unil',
+            channelId: 'channel-2'
+          },
+          chain: {
+            channelId: 'channel-98416',
+            path: 'transfer/channel-98416/unil'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'nillion',
+            baseDenom: 'unil'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.svg',
+          theme: {
+            primaryColorHex: '#0101FF'
+          }
+        }],
+      coingeckoId: 'nillion'
     }
   ]
 };

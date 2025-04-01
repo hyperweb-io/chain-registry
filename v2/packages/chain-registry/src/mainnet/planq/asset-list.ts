@@ -118,6 +118,135 @@ const info: AssetList = {
             primaryColorHex: '#050505'
           }
         }]
+    },
+    {
+      description: 'The token of Anubis.',
+      extendedDescription: 'Anubis is a Meme coin created via the Physica launchpad.',
+      denomUnits: [{
+          denom: 'erc20/0xF630B96760B91f6FCbE8b3C24f2786AcA3D03648',
+          exponent: 0
+        }, {
+          denom: 'anubi',
+          exponent: 18
+        }],
+      base: 'erc20/0xF630B96760B91f6FCbE8b3C24f2786AcA3D03648',
+      name: 'Anubis',
+      display: 'anubi',
+      symbol: 'ANUBI',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/anubis.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/anubis.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/Anubis_Phy'
+      },
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'The token of Astonic.',
+      extendedDescription: 'Astonic is a decentralized and transparent protocol powering the next generation of stable value digital assets.',
+      denomUnits: [{
+          denom: 'erc20/0x8F4d86ABa1b47832C46f11e0fFD0F7aDa4498345',
+          exponent: 0
+        }, {
+          denom: 'astonic',
+          exponent: 18
+        }],
+      base: 'erc20/0x8F4d86ABa1b47832C46f11e0fFD0F7aDa4498345',
+      name: 'Astonic',
+      display: 'astonic',
+      symbol: 'ATC',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Astonic USD (aUSD) is a stable asset pegged to the US Dollar.',
+      extendedDescription: 'Astonic USD (aUSD) is a stable asset pegged to the US Dollar. With aUSD, you can transfer money more quickly, affordably, and easily using your mobile phone.',
+      denomUnits: [{
+          denom: 'erc20/0xA2871B267a7d888F830251F6B4D9d3DFf184995a',
+          exponent: 0
+        }, {
+          denom: 'ausd',
+          exponent: 18
+        }],
+      base: 'erc20/0xA2871B267a7d888F830251F6B4D9d3DFf184995a',
+      name: 'Astonic USD',
+      display: 'ausd',
+      symbol: 'aUSD',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Astonic EUR (aEUR) is a stable asset pegged to the Euro.',
+      extendedDescription: 'Astonic EUR (aEUR) is a stable asset pegged to the Euro. With aEUR, you can transfer money more quickly, affordably, and easily using your mobile phone.',
+      denomUnits: [{
+          denom: 'erc20/0xd5be2932FEbD73019ba1d5d97DFC35E1Ab09E501',
+          exponent: 0
+        }, {
+          denom: 'aeur',
+          exponent: 18
+        }],
+      base: 'erc20/0xd5be2932FEbD73019ba1d5d97DFC35E1Ab09E501',
+      name: 'Astonic EUR',
+      display: 'aeur',
+      symbol: 'aEUR',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Astonic BRL (aBRL) is a stable asset pegged to the Brazilian Real.',
+      extendedDescription: 'Astonic BRL (aBRL) is a stable asset pegged to the Brazilian Real. With aBRL, you can transfer money more quickly, affordably, and easily using your mobile phone.',
+      denomUnits: [{
+          denom: 'erc20/0x240642C6f69878A0b199065f25EDf82023BC59ce',
+          exponent: 0
+        }, {
+          denom: 'abrl',
+          exponent: 18
+        }],
+      base: 'erc20/0x240642C6f69878A0b199065f25EDf82023BC59ce',
+      name: 'Astonic BRL',
+      display: 'abrl',
+      symbol: 'aBRL',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      typeAsset: 'sdk.coin'
     }
   ]
 };

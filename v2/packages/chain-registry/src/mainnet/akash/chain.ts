@@ -15,9 +15,9 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'uakt',
-        fixedMinGasPrice: 0.00025,
-        lowGasPrice: 0.00025,
-        averageGasPrice: 0.0025,
+        fixedMinGasPrice: 0.025,
+        lowGasPrice: 0.025,
+        averageGasPrice: 0.025,
         highGasPrice: 0.025
       }]
   },

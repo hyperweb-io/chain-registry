@@ -45,26 +45,22 @@ const info: Chain = {
   },
   apis: {
     rpc: [{
-        address: 'https://asc-dataseed.arkhadian.com/',
+        address: 'https://arkhadian-mainnet-rpc.bonynode.online/',
         provider: 'arkhnetwork'
       }],
     rest: [{
-        address: 'https://asc-blockchain-api.arkhadian.com/',
+        address: 'https://arkhadian-mainnet-api.bonynode.online/',
         provider: 'arkhnetwork'
       }],
     grpc: [{
-        address: 'https://grpc.arkh.nodexcapital.com:443',
-        provider: 'NodeX Validator'
+        address: 'https://arkhadian-mainnet-grpc.bonynode.online/',
+        provider: 'arkhnetwork'
       }]
   },
   explorers: [{
-      kind: 'Kynraze Explorer',
-      url: 'https://explorer.kynraze.com/arkhadian',
-      txPage: 'https://explorer.kynraze.com/arkhadian/tx/${txHash}'
-    }, {
-      kind: 'NODEXPLORER',
-      url: 'https://explorer.nodexcapital.com/arkhadian',
-      txPage: 'https://explorer.nodexcapital.com/arkhadian/tx/${txHash}'
+      kind: 'BonyNode Explorer',
+      url: 'https://explorer.bonynode.online/arkhadian',
+      txPage: 'https://explorer.bonynode.online/arkhadian/tx/${txHash}'
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkh/images/arkh.png',
