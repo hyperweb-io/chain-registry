@@ -851,6 +851,190 @@ const assets: AssetList = {
       type_asset: 'sdk.coin'
     },
     {
+      description: 'The token of Anubis.',
+      denom_units: [{
+          denom: 'ibc/C05360CAF53CA81C6930EC8A9D01EF91E9A10FDD46C6F1D84CD72B29783B3194',
+          exponent: 0,
+          aliases: ['erc20/0xF630B96760B91f6FCbE8b3C24f2786AcA3D03648']
+        }, {
+          denom: 'anubi',
+          exponent: 18
+        }],
+      base: 'ibc/C05360CAF53CA81C6930EC8A9D01EF91E9A10FDD46C6F1D84CD72B29783B3194',
+      name: 'Anubis',
+      display: 'anubi',
+      symbol: 'ANUBI',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/anubis.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/anubis.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/Anubis_Phy'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-59',
+            base_denom: 'erc20/0xF630B96760B91f6FCbE8b3C24f2786AcA3D03648',
+            chain_name: 'planq'
+          },
+          chain: {
+            channel_id: 'channel-13'
+          }
+        }]
+    },
+    {
+      description: 'The token of Astonic.',
+      denom_units: [{
+          denom: 'ibc/0B3ECAAFE64F4E163BB4CAB149330A16B1D92EEE1BE2A4B455F2980C5DEF9EC4',
+          exponent: 0,
+          aliases: ['erc20/0x8F4d86ABa1b47832C46f11e0fFD0F7aDa4498345']
+        }, {
+          denom: 'astonic',
+          exponent: 18
+        }],
+      base: 'ibc/0B3ECAAFE64F4E163BB4CAB149330A16B1D92EEE1BE2A4B455F2980C5DEF9EC4',
+      name: 'Astonic',
+      display: 'astonic',
+      symbol: 'ATC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-59',
+            base_denom: 'erc20/0x8F4d86ABa1b47832C46f11e0fFD0F7aDa4498345',
+            chain_name: 'planq'
+          },
+          chain: {
+            channel_id: 'channel-13'
+          }
+        }]
+    },
+    {
+      description: 'Astonic USD (aUSD) is a stable asset pegged to the US Dollar.',
+      denom_units: [{
+          denom: 'ibc/F704F0F1BF11BFF356C485C428451928A21D772F14F97F176E0A28C309DB3A37',
+          exponent: 0,
+          aliases: ['erc20/0xA2871B267a7d888F830251F6B4D9d3DFf184995a']
+        }, {
+          denom: 'ausd',
+          exponent: 18
+        }],
+      base: 'ibc/F704F0F1BF11BFF356C485C428451928A21D772F14F97F176E0A28C309DB3A37',
+      name: 'Astonic USD',
+      display: 'ausd',
+      symbol: 'aUSD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-59',
+            base_denom: 'erc20/0xA2871B267a7d888F830251F6B4D9d3DFf184995a',
+            chain_name: 'planq'
+          },
+          chain: {
+            channel_id: 'channel-13'
+          }
+        }]
+    },
+    {
+      description: 'Astonic EUR (aEUR) is a stable asset pegged to the Euro.',
+      denom_units: [{
+          denom: 'ibc/5F7E2693D4BC709740168DA6773E03AA1F8338988B34E04CFA4A2B3AEBB69DF3',
+          exponent: 0,
+          aliases: ['erc20/0xd5be2932FEbD73019ba1d5d97DFC35E1Ab09E501']
+        }, {
+          denom: 'aeur',
+          exponent: 18
+        }],
+      base: 'ibc/5F7E2693D4BC709740168DA6773E03AA1F8338988B34E04CFA4A2B3AEBB69DF3',
+      name: 'Astonic EUR',
+      display: 'aeur',
+      symbol: 'aEUR',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-59',
+            base_denom: 'erc20/0xd5be2932FEbD73019ba1d5d97DFC35E1Ab09E501',
+            chain_name: 'planq'
+          },
+          chain: {
+            channel_id: 'channel-13'
+          }
+        }]
+    },
+    {
+      description: 'Astonic BRL (aBRL) is a stable asset pegged to the Brazilian Real.',
+      denom_units: [{
+          denom: 'ibc/A5828B4B375D3BA94CF0F440D9CA33B03A8CE65F83E8D3D661A3D29940F12117',
+          exponent: 0,
+          aliases: ['erc20/0x240642C6f69878A0b199065f25EDf82023BC59ce']
+        }, {
+          denom: 'abrl',
+          exponent: 18
+        }],
+      base: 'ibc/A5828B4B375D3BA94CF0F440D9CA33B03A8CE65F83E8D3D661A3D29940F12117',
+      name: 'Astonic BRL',
+      display: 'abrl',
+      symbol: 'aBRL',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-59',
+            base_denom: 'erc20/0x240642C6f69878A0b199065f25EDf82023BC59ce',
+            chain_name: 'planq'
+          },
+          chain: {
+            channel_id: 'channel-13'
+          }
+        }]
+    },
+    {
       description: 'Axelar is a decentralized interoperability network connecting multiple blockchain ecosystems, enabling seamless cross-chain communication and value transfer.',
       denom_units: [{
           denom: 'ibc/C0E66D1C81D8AAF0E6896E05190FDFBC222367148F86AC3EA679C28327A763CD',
@@ -1697,6 +1881,190 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/srcx.png'
       },
       type_asset: 'sdk.coin'
+    },
+    {
+      description: 'The token of Anubis.',
+      denom_units: [{
+          denom: 'ibc/C05360CAF53CA81C6930EC8A9D01EF91E9A10FDD46C6F1D84CD72B29783B3194',
+          exponent: 0,
+          aliases: ['erc20/0xF630B96760B91f6FCbE8b3C24f2786AcA3D03648']
+        }, {
+          denom: 'anubi',
+          exponent: 18
+        }],
+      base: 'ibc/C05360CAF53CA81C6930EC8A9D01EF91E9A10FDD46C6F1D84CD72B29783B3194',
+      name: 'Anubis',
+      display: 'anubi',
+      symbol: 'ANUBI',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/anubis.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/anubis.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/Anubis_Phy'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-59',
+            base_denom: 'erc20/0xF630B96760B91f6FCbE8b3C24f2786AcA3D03648',
+            chain_name: 'planq'
+          },
+          chain: {
+            channel_id: 'channel-13'
+          }
+        }]
+    },
+    {
+      description: 'The token of Astonic.',
+      denom_units: [{
+          denom: 'ibc/0B3ECAAFE64F4E163BB4CAB149330A16B1D92EEE1BE2A4B455F2980C5DEF9EC4',
+          exponent: 0,
+          aliases: ['erc20/0x8F4d86ABa1b47832C46f11e0fFD0F7aDa4498345']
+        }, {
+          denom: 'astonic',
+          exponent: 18
+        }],
+      base: 'ibc/0B3ECAAFE64F4E163BB4CAB149330A16B1D92EEE1BE2A4B455F2980C5DEF9EC4',
+      name: 'Astonic',
+      display: 'astonic',
+      symbol: 'ATC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-59',
+            base_denom: 'erc20/0x8F4d86ABa1b47832C46f11e0fFD0F7aDa4498345',
+            chain_name: 'planq'
+          },
+          chain: {
+            channel_id: 'channel-13'
+          }
+        }]
+    },
+    {
+      description: 'Astonic USD (aUSD) is a stable asset pegged to the US Dollar.',
+      denom_units: [{
+          denom: 'ibc/F704F0F1BF11BFF356C485C428451928A21D772F14F97F176E0A28C309DB3A37',
+          exponent: 0,
+          aliases: ['erc20/0xA2871B267a7d888F830251F6B4D9d3DFf184995a']
+        }, {
+          denom: 'ausd',
+          exponent: 18
+        }],
+      base: 'ibc/F704F0F1BF11BFF356C485C428451928A21D772F14F97F176E0A28C309DB3A37',
+      name: 'Astonic USD',
+      display: 'ausd',
+      symbol: 'aUSD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-59',
+            base_denom: 'erc20/0xA2871B267a7d888F830251F6B4D9d3DFf184995a',
+            chain_name: 'planq'
+          },
+          chain: {
+            channel_id: 'channel-13'
+          }
+        }]
+    },
+    {
+      description: 'Astonic EUR (aEUR) is a stable asset pegged to the Euro.',
+      denom_units: [{
+          denom: 'ibc/5F7E2693D4BC709740168DA6773E03AA1F8338988B34E04CFA4A2B3AEBB69DF3',
+          exponent: 0,
+          aliases: ['erc20/0xd5be2932FEbD73019ba1d5d97DFC35E1Ab09E501']
+        }, {
+          denom: 'aeur',
+          exponent: 18
+        }],
+      base: 'ibc/5F7E2693D4BC709740168DA6773E03AA1F8338988B34E04CFA4A2B3AEBB69DF3',
+      name: 'Astonic EUR',
+      display: 'aeur',
+      symbol: 'aEUR',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-59',
+            base_denom: 'erc20/0xd5be2932FEbD73019ba1d5d97DFC35E1Ab09E501',
+            chain_name: 'planq'
+          },
+          chain: {
+            channel_id: 'channel-13'
+          }
+        }]
+    },
+    {
+      description: 'Astonic BRL (aBRL) is a stable asset pegged to the Brazilian Real.',
+      denom_units: [{
+          denom: 'ibc/A5828B4B375D3BA94CF0F440D9CA33B03A8CE65F83E8D3D661A3D29940F12117',
+          exponent: 0,
+          aliases: ['erc20/0x240642C6f69878A0b199065f25EDf82023BC59ce']
+        }, {
+          denom: 'abrl',
+          exponent: 18
+        }],
+      base: 'ibc/A5828B4B375D3BA94CF0F440D9CA33B03A8CE65F83E8D3D661A3D29940F12117',
+      name: 'Astonic BRL',
+      display: 'abrl',
+      symbol: 'aBRL',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-59',
+            base_denom: 'erc20/0x240642C6f69878A0b199065f25EDf82023BC59ce',
+            chain_name: 'planq'
+          },
+          chain: {
+            channel_id: 'channel-13'
+          }
+        }]
     },
     {
       description: 'Stride is a liquid staking blockchain in the Cosmos ecosystem that allows users to stake any IBC-compatible tokens and receive stTokens in return, providing liquidity while earning staking rewards.',
