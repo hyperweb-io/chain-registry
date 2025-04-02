@@ -988,6 +988,93 @@ const info: AssetList = {
       coingeckoId: 'mantra-dao'
     },
     {
+      description: 'NIL transferred from the Osmosis mainnet that is supported on the Nolus chain',
+      denomUnits: [{
+          denom: 'ibc/56AD715B6EBE187ACE16DA331CCFFE41655B42373FBE4A43748DEE16A95EE895',
+          exponent: 0,
+          aliases: ['unil']
+        }, {
+          denom: 'nil',
+          exponent: 6,
+          aliases: []
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/56AD715B6EBE187ACE16DA331CCFFE41655B42373FBE4A43748DEE16A95EE895',
+      name: 'NIL',
+      display: 'nil',
+      symbol: 'NIL',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'osmosis',
+            baseDenom: 'ibc/D37860EB1D2669F34B47A7BC48885853D5AB23642EF958CDEA35EB6074087064',
+            channelId: 'channel-783'
+          },
+          chain: {
+            channelId: 'channel-0',
+            path: 'transfer/channel-783/transfer/channel-98416/unil'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'osmosis',
+            baseDenom: 'ibc/D37860EB1D2669F34B47A7BC48885853D5AB23642EF958CDEA35EB6074087064'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.svg'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.svg'
+      },
+      coingeckoId: 'nillion'
+    },
+    {
+      description: 'XION transferred from the Osmosis mainnet that is supported on the Nolus chain',
+      denomUnits: [{
+          denom: 'ibc/B8E95841C22213AC4E3EF000CB9D1D3B06FFAA1784FCE1169C6E92982BCC89B4',
+          exponent: 0,
+          aliases: ['uxion']
+        }, {
+          denom: 'xion',
+          exponent: 6,
+          aliases: []
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/B8E95841C22213AC4E3EF000CB9D1D3B06FFAA1784FCE1169C6E92982BCC89B4',
+      name: 'XION',
+      display: 'xion',
+      symbol: 'XION',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'osmosis',
+            baseDenom: 'ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5',
+            channelId: 'channel-783'
+          },
+          chain: {
+            channelId: 'channel-0',
+            path: 'transfer/channel-783/transfer/channel-89321/uxion'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'osmosis',
+            baseDenom: 'ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.svg',
+          theme: {
+            primaryColorHex: '#2775CA'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.svg'
+      },
+      coingeckoId: 'xion-2'
+    },
+    {
       description: 'NTRN transferred from the Neutron mainnet that is supported on the Nolus chain',
       denomUnits: [{
           denom: 'ibc/3D6BC6E049CAEB905AC97031A42800588C58FB471EBDC7A3530FFCD0C3DC9E09',

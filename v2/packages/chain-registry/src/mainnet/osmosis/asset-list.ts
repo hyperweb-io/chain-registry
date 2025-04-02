@@ -23918,6 +23918,55 @@ const info: AssetList = {
           }
         }],
       coingeckoId: 'nillion'
+    },
+    {
+      description: 'Movement ($MOVE) from Ethereum via Axelar bridge',
+      typeAsset: 'ics20',
+      denomUnits: [{
+          denom: 'ibc/D19DA6AE5B3CB19A035FCB51DEE5A36392E0D64D51C20D159A155D1581911A39',
+          exponent: 0,
+          aliases: [
+            'unit-move',
+            '0x3073f7aaa4db83f95e9fff17424f71d4751a3073',
+            '0xa',
+            'octa'
+          ]
+        }, {
+          denom: 'move',
+          exponent: 8
+        }],
+      base: 'ibc/D19DA6AE5B3CB19A035FCB51DEE5A36392E0D64D51C20D159A155D1581911A39',
+      name: 'Movement (Ethereum)',
+      display: 'move',
+      symbol: 'MOVE',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'axelar',
+            baseDenom: 'unit-move',
+            channelId: 'channel-3'
+          },
+          chain: {
+            channelId: 'channel-208',
+            path: 'transfer/channel-208/unit-move'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'axelar',
+            baseDenom: 'unit-move'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/movement/images/move.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/movement/images/move.png',
+          theme: {
+            circle: true,
+            primaryColorHex: '#F1BB15'
+          }
+        }],
+      socials: {
+        website: 'https://www.movementnetwork.xyz/',
+        twitter: 'https://twitter.com/movementfdn'
+      }
     }
   ]
 };

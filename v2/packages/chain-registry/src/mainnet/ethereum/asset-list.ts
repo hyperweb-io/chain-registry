@@ -1575,6 +1575,48 @@ const info: AssetList = {
         website: 'https://lombard.finance',
         twitter: 'https://x.com/Lombard_Finance'
       }
+    },
+    {
+      description: 'The Ethereum ERC20 issuance of Movement ($MOVE).',
+      typeAsset: 'erc20',
+      address: '0x3073f7aaa4db83f95e9fff17424f71d4751a3073',
+      denomUnits: [{
+          denom: '0x3073f7aaa4db83f95e9fff17424f71d4751a3073',
+          exponent: 0,
+          aliases: ['0xa', 'octa']
+        }, {
+          denom: 'move',
+          exponent: 8
+        }],
+      base: '0x3073f7aaa4db83f95e9fff17424f71d4751a3073',
+      name: 'Movement',
+      display: 'move',
+      symbol: 'MOVE',
+      coingeckoId: 'movement',
+      traces: [{
+          type: 'additional-mintage',
+          counterparty: {
+            chainName: 'movement',
+            baseDenom: '0xa'
+          },
+          provider: 'Movement Foundation'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'movement',
+            baseDenom: '0xa'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/movement/images/move.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/movement/images/move.png',
+          theme: {
+            circle: true,
+            primaryColorHex: '#F1BB15'
+          }
+        }],
+      socials: {
+        website: 'https://www.movementnetwork.xyz/',
+        twitter: 'https://twitter.com/movementfdn'
+      }
     }
   ]
 };

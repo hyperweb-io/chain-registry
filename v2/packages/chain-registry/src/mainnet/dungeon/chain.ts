@@ -13,10 +13,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'udgn',
-        fixedMinGasPrice: 0,
-        lowGasPrice: 0,
-        averageGasPrice: 0,
-        highGasPrice: 0.001
+        fixedMinGasPrice: 0.05,
+        lowGasPrice: 0.05,
+        averageGasPrice: 0.07,
+        highGasPrice: 0.09
       }]
   },
   apis: {

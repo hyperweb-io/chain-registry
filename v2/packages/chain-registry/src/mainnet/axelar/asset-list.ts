@@ -1652,6 +1652,50 @@ const info: AssetList = {
             primaryColorHex: '#04fbfb'
           }
         }]
+    },
+    {
+      description: 'Movement ($MOVE) from Ethereum via Axelar bridge',
+      typeAsset: 'sdk.coin',
+      denomUnits: [{
+          denom: 'unit-move',
+          exponent: 0,
+          aliases: [
+            '0x3073f7aaa4db83f95e9fff17424f71d4751a3073',
+            '0xa',
+            'octa'
+          ]
+        }, {
+          denom: 'move',
+          exponent: 8
+        }],
+      base: 'unit-move',
+      name: 'Movement',
+      display: 'move',
+      symbol: 'axlMOVE',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x3073f7aaa4db83f95e9fff17424f71d4751a3073'
+          },
+          provider: 'Axelar'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x3073f7aaa4db83f95e9fff17424f71d4751a3073'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/movement/images/move.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/movement/images/move.png',
+          theme: {
+            circle: true,
+            primaryColorHex: '#F1BB15'
+          }
+        }],
+      socials: {
+        website: 'https://www.movementnetwork.xyz/',
+        twitter: 'https://twitter.com/movementfdn'
+      }
     }
   ]
 };

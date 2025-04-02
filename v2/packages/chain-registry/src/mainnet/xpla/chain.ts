@@ -122,7 +122,7 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'explorer.xpla',
+      kind: 'explorer.xpla/mainnet',
       url: 'https://explorer.xpla.io',
       txPage: 'https://explorer.xpla.io/mainnet/tx/${txHash}'
     },
