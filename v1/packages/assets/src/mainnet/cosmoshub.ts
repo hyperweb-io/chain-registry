@@ -10095,6 +10095,49 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of SEDA Chain.',
+      denom_units: [{
+          denom: 'ibc/D0BD765CF2EC6B97264795351BD75685A7B806F857D7D84633F5AC5E4A9812ED',
+          exponent: 0,
+          aliases: ['aseda']
+        }, {
+          denom: 'seda',
+          exponent: 18
+        }],
+      base: 'ibc/D0BD765CF2EC6B97264795351BD75685A7B806F857D7D84633F5AC5E4A9812ED',
+      name: 'Seda',
+      display: 'seda',
+      symbol: 'SEDA',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg'
+      },
+      coingecko_id: 'seda-2',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg',
+          theme: {
+            primary_color_hex: '#8178d1'
+          }
+        }],
+      socials: {
+        website: 'https://www.seda.xyz/',
+        twitter: 'https://twitter.com/sedaprotocol'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'aseda',
+            chain_name: 'seda'
+          },
+          chain: {
+            channel_id: 'channel-1337'
+          }
+        }]
+    },
+    {
       description: 'Sei is a layer-1 blockchain optimized for trading, focusing on providing high throughput, low latency, and efficient execution for decentralized exchanges.',
       denom_units: [{
           denom: 'ibc/261460D72BA2141BC77D439038343CB2B37C87B4148B4D5E30A5168A93E3E1D9',
@@ -18500,6 +18543,49 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-235'
+          }
+        }]
+    },
+    {
+      description: 'The native token of SEDA Chain.',
+      denom_units: [{
+          denom: 'ibc/D0BD765CF2EC6B97264795351BD75685A7B806F857D7D84633F5AC5E4A9812ED',
+          exponent: 0,
+          aliases: ['aseda']
+        }, {
+          denom: 'seda',
+          exponent: 18
+        }],
+      base: 'ibc/D0BD765CF2EC6B97264795351BD75685A7B806F857D7D84633F5AC5E4A9812ED',
+      name: 'Seda',
+      display: 'seda',
+      symbol: 'SEDA',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg'
+      },
+      coingecko_id: 'seda-2',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg',
+          theme: {
+            primary_color_hex: '#8178d1'
+          }
+        }],
+      socials: {
+        website: 'https://www.seda.xyz/',
+        twitter: 'https://twitter.com/sedaprotocol'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'aseda',
+            chain_name: 'seda'
+          },
+          chain: {
+            channel_id: 'channel-1337'
           }
         }]
     },

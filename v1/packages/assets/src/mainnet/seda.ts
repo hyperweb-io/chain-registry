@@ -3,6 +3,49 @@ const assets: AssetList = {
   chain_name: 'seda',
   assets: [
     {
+      description: 'ATOM is the native cryptocurrency of the Cosmos network, designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.',
+      denom_units: [{
+          denom: 'ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9',
+          exponent: 0,
+          aliases: ['uatom']
+        }, {
+          denom: 'atom',
+          exponent: 6
+        }],
+      base: 'ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9',
+      name: 'Cosmos Hub Atom',
+      display: 'atom',
+      symbol: 'ATOM',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
+      },
+      coingecko_id: 'cosmos',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg',
+          theme: {
+            primary_color_hex: '#272d45'
+          }
+        }],
+      socials: {
+        website: 'https://cosmos.network',
+        twitter: 'https://twitter.com/cosmoshub'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1337',
+            base_denom: 'uatom',
+            chain_name: 'cosmoshub'
+          },
+          chain: {
+            channel_id: 'channel-1'
+          }
+        }]
+    },
+    {
       description: 'The native token of Osmosis',
       denom_units: [{
           denom: 'ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518',
@@ -87,6 +130,49 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-0'
+          }
+        }]
+    },
+    {
+      description: 'ATOM is the native cryptocurrency of the Cosmos network, designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.',
+      denom_units: [{
+          denom: 'ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9',
+          exponent: 0,
+          aliases: ['uatom']
+        }, {
+          denom: 'atom',
+          exponent: 6
+        }],
+      base: 'ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9',
+      name: 'Cosmos Hub Atom',
+      display: 'atom',
+      symbol: 'ATOM',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
+      },
+      coingecko_id: 'cosmos',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg',
+          theme: {
+            primary_color_hex: '#272d45'
+          }
+        }],
+      socials: {
+        website: 'https://cosmos.network',
+        twitter: 'https://twitter.com/cosmoshub'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1337',
+            base_denom: 'uatom',
+            chain_name: 'cosmoshub'
+          },
+          chain: {
+            channel_id: 'channel-1'
           }
         }]
     },

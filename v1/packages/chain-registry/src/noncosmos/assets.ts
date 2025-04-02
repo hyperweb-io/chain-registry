@@ -22,6 +22,7 @@ import * as _kusama from './kusama';
 import * as _litecoin from './litecoin';
 import * as _mantle from './mantle';
 import * as _moonbeam from './moonbeam';
+import * as _movement from './movement';
 import * as _neo from './neo';
 import * as _optimism from './optimism';
 import * as _polkadot from './polkadot';
@@ -35,7 +36,6 @@ import * as _zilliqa from './zilliqa';
 import * as _berachain from './berachain';
 import * as _hall from './hall';
 import * as _initia from './initia';
-import * as _movement from './movement';
 import * as _namada from './namada';
 import * as _avalanchetestnet from './avalanchetestnet';
 import * as _binancesmartchaintestnet from './binancesmartchaintestnet';
@@ -75,6 +75,7 @@ const assets: AssetList[] = [
   _litecoin.assets,
   _mantle.assets,
   _moonbeam.assets,
+  _movement.assets,
   _neo.assets,
   _optimism.assets,
   _polkadot.assets,
@@ -88,7 +89,6 @@ const assets: AssetList[] = [
   _berachain.assets,
   _hall.assets,
   _initia.assets,
-  _movement.assets,
   _namada.assets,
   _avalanchetestnet.assets,
   _binancesmartchaintestnet.assets,
