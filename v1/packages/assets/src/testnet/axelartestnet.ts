@@ -375,40 +375,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native staking token of the Xion network.',
-      denom_units: [{
-          denom: 'ibc/5EF71E3BE703AF789703FCFABEDDAD6EE008576B98810056333DF999A6BA7A16',
-          exponent: 0,
-          aliases: ['uxion']
-        }, {
-          denom: 'XION',
-          exponent: 6,
-          aliases: ['xion']
-        }],
-      base: 'ibc/5EF71E3BE703AF789703FCFABEDDAD6EE008576B98810056333DF999A6BA7A16',
-      display: 'XION',
-      name: 'xion',
-      symbol: 'XION',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-225057',
-            base_denom: 'uxion',
-            chain_name: 'xiontestnet'
-          },
-          chain: {
-            channel_id: 'channel-521'
-          }
-        }]
-    },
-    {
       description: 'The native staking token of Babylon.',
       denom_units: [{
           denom: 'ibc/19142C352B3DB3B2C6CCE8B9EDCC8D4D8EF9E4A1335E54A69DE5F4ECFBBD8A36',
@@ -738,40 +704,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-537'
-          }
-        }]
-    },
-    {
-      description: 'The native staking token of the Xion network.',
-      denom_units: [{
-          denom: 'ibc/5EF71E3BE703AF789703FCFABEDDAD6EE008576B98810056333DF999A6BA7A16',
-          exponent: 0,
-          aliases: ['uxion']
-        }, {
-          denom: 'XION',
-          exponent: 6,
-          aliases: ['xion']
-        }],
-      base: 'ibc/5EF71E3BE703AF789703FCFABEDDAD6EE008576B98810056333DF999A6BA7A16',
-      display: 'XION',
-      name: 'xion',
-      symbol: 'XION',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-225057',
-            base_denom: 'uxion',
-            chain_name: 'xiontestnet'
-          },
-          chain: {
-            channel_id: 'channel-521'
           }
         }]
     },

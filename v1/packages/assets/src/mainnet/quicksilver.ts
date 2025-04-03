@@ -1973,8 +1973,11 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
         }],
       socials: {
-        website: 'https://xion.burnt.com/',
-        twitter: 'https://twitter.com/burnt_xion'
+        discord: 'https://discord.com/invite/burnt',
+        github: 'https://github.com/burnt-labs',
+        telegram: 'https://t.me/xion_announcements',
+        twitter: 'https://x.com/burnt_xion',
+        website: 'https://xion.burnt.com'
       },
       traces: [{
           type: 'ibc',
@@ -2361,8 +2364,11 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
         }],
       socials: {
-        website: 'https://xion.burnt.com/',
-        twitter: 'https://twitter.com/burnt_xion'
+        discord: 'https://discord.com/invite/burnt',
+        github: 'https://github.com/burnt-labs',
+        telegram: 'https://t.me/xion_announcements',
+        twitter: 'https://x.com/burnt_xion',
+        website: 'https://xion.burnt.com'
       },
       traces: [{
           type: 'ibc',

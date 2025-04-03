@@ -413,40 +413,6 @@ const assets: AssetList = {
     {
       description: 'The native staking token of the Xion network.',
       denom_units: [{
-          denom: 'ibc/475ED5117C702EF62A36D41F1EB50AF2770427251920C605CA34014895FF10EC',
-          exponent: 0,
-          aliases: ['uxion']
-        }, {
-          denom: 'XION',
-          exponent: 6,
-          aliases: ['xion']
-        }],
-      base: 'ibc/475ED5117C702EF62A36D41F1EB50AF2770427251920C605CA34014895FF10EC',
-      display: 'XION',
-      name: 'xion',
-      symbol: 'XION',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-489',
-            base_denom: 'uxion',
-            chain_name: 'xiontestnet'
-          },
-          chain: {
-            channel_id: 'channel-147'
-          }
-        }]
-    },
-    {
-      description: 'The native staking token of the Xion network.',
-      denom_units: [{
           denom: 'ibc/7CD6EC852D30D46DF9CB62738D2851BB0CB27A185A887B38C5674DEE819D7780',
           exponent: 0,
           aliases: ['uxion']
@@ -465,6 +431,13 @@ const assets: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
         }],
+      socials: {
+        discord: 'https://discord.com/invite/burnt',
+        github: 'https://github.com/burnt-labs',
+        telegram: 'https://t.me/xion_announcements',
+        twitter: 'https://x.com/burnt_xion',
+        website: 'https://xion.burnt.com'
+      },
       type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
@@ -562,40 +535,6 @@ const assets: AssetList = {
     {
       description: 'The native staking token of the Xion network.',
       denom_units: [{
-          denom: 'ibc/475ED5117C702EF62A36D41F1EB50AF2770427251920C605CA34014895FF10EC',
-          exponent: 0,
-          aliases: ['uxion']
-        }, {
-          denom: 'XION',
-          exponent: 6,
-          aliases: ['xion']
-        }],
-      base: 'ibc/475ED5117C702EF62A36D41F1EB50AF2770427251920C605CA34014895FF10EC',
-      display: 'XION',
-      name: 'xion',
-      symbol: 'XION',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-489',
-            base_denom: 'uxion',
-            chain_name: 'xiontestnet'
-          },
-          chain: {
-            channel_id: 'channel-147'
-          }
-        }]
-    },
-    {
-      description: 'The native staking token of the Xion network.',
-      denom_units: [{
           denom: 'ibc/7CD6EC852D30D46DF9CB62738D2851BB0CB27A185A887B38C5674DEE819D7780',
           exponent: 0,
           aliases: ['uxion']
@@ -614,6 +553,13 @@ const assets: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
         }],
+      socials: {
+        discord: 'https://discord.com/invite/burnt',
+        github: 'https://github.com/burnt-labs',
+        telegram: 'https://t.me/xion_announcements',
+        twitter: 'https://x.com/burnt_xion',
+        website: 'https://xion.burnt.com'
+      },
       type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
