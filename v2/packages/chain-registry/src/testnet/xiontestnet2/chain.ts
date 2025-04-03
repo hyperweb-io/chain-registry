@@ -70,24 +70,80 @@ const info: Chain = {
     }
   },
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://rpc.xion-testnet-2.burnt.com:443',
         provider: '🔥BurntLabs🔥'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://testnet-2-rpc.xion-api.com:443',
+        provider: 'Lavender.Five Nodes 🐝'
+      },
+      {
+        address: 'https://xion-testnet-rpc.polkachu.com:443',
+        provider: 'Polkachu'
+      },
+      {
+        address: 'https://burnt-testnet-rpc.itrocket.net:443',
+        provider: 'ITRocket'
+      }
+    ],
+    rest: [
+      {
         address: 'https://api.xion-testnet-2.burnt.com',
         provider: '🔥BurntLabs🔥'
-      }],
-    grpc: [{
+      },
+      {
+        address: 'https://testnet-2-api.xion-api.com',
+        provider: 'Lavender.Five Nodes 🐝'
+      },
+      {
+        address: 'https://xion-testnet-api.polkachu.com',
+        provider: 'Polkachu'
+      },
+      {
+        address: 'https://burnt-testnet-api.itrocket.net',
+        provider: 'ITRocket'
+      }
+    ],
+    grpc: [
+      {
         address: 'grpc.xion-testnet-2.burnt.com:443',
         provider: '🔥BurntLabs🔥'
-      }]
+      },
+      {
+        address: 'testnet-2-grpc.xion-api.com:443',
+        provider: 'Lavender.Five Nodes 🐝'
+      },
+      {
+        address: 'xion-testnet-grpc.polkachu.com:22390',
+        provider: 'Polkachu'
+      },
+      {
+        address: 'burnt-testnet-grpc.itrocket.net:443',
+        provider: 'ITRocket'
+      }
+    ]
   },
-  explorers: [{
+  explorers: [
+    {
+      kind: 'mintscan',
+      url: 'https://www.mintscan.io/xion-testnet',
+      txPage: 'https://www.mintscan.io/xion-testnet/transactions/${txHash}',
+      accountPage: 'https://www.mintscan.io/xion-testnet/accounts/${accountAddress}'
+    },
+    {
       url: 'https://explorer.burnt.com/xion-testnet-2',
       txPage: 'https://explorer.burnt.com/xion-testnet-2/tx/${txHash}',
       accountPage: 'https://explorer.burnt.com/xion-testnet-2/account/${accountAddress}'
-    }],
+    },
+    {
+      kind: 'ITRocket',
+      url: 'https://testnet.itrocket.net/burnt',
+      txPage: 'https://testnet.itrocket.net/burnt/tx/${txHash}',
+      accountPage: 'https://testnet.itrocket.net/burnt/account/${accountAddress}'
+    }
+  ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt.png'
     }],

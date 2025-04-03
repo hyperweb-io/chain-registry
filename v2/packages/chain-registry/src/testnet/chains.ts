@@ -123,7 +123,6 @@ import * as _uniontestnet from './uniontestnet';
 import * as _upticktestnet from './upticktestnet';
 import * as _wardenprotocoltestnet from './wardenprotocoltestnet';
 import * as _wavehashtestnet from './wavehashtestnet';
-import * as _xiontestnet from './xiontestnet';
 import * as _xiontestnet2 from './xiontestnet2';
 import * as _xplatestnet from './xplatestnet';
 import * as _zenrocktestnet from './zenrocktestnet';
@@ -254,7 +253,6 @@ const chains: Chain[] = [
   _upticktestnet.chain,
   _wardenprotocoltestnet.chain,
   _wavehashtestnet.chain,
-  _xiontestnet.chain,
   _xiontestnet2.chain,
   _xplatestnet.chain,
   _zenrocktestnet.chain,

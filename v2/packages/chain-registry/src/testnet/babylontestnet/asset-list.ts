@@ -221,6 +221,35 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
         }],
       typeAsset: 'ics20'
+    },
+    {
+      base: 'cw20:bbn1cnx34p82zngq0uuaendsne0x4s5gsm7gpwk2es8zk8rz8tnj938qqyq8f9',
+      name: 'Babylon Testnet Escher LST',
+      address: 'bbn1cnx34p82zngq0uuaendsne0x4s5gsm7gpwk2es8zk8rz8tnj938qqyq8f9',
+      symbol: 'eBABY',
+      display: 'eBABY',
+      typeAsset: 'cw20',
+      denomUnits: [{
+          denom: 'cw20:bbn1cnx34p82zngq0uuaendsne0x4s5gsm7gpwk2es8zk8rz8tnj938qqyq8f9',
+          exponent: 0
+        }, {
+          denom: 'eBABY',
+          exponent: 6
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/eBABY.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/eBABY.svg'
+        }],
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chainName: 'babylontestnet',
+            baseDenom: 'ubbn'
+          },
+          provider: 'Escher'
+        }]
     }
   ]
 };
