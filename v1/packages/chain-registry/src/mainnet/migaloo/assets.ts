@@ -742,7 +742,7 @@ const info: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            chain_name: 'dungeon',
+            chain_name: 'dungeon1',
             base_denom: 'udgn',
             channel_id: 'channel-6'
           },
@@ -756,7 +756,7 @@ const info: AssetList = {
       },
       images: [{
           image_sync: {
-            chain_name: 'dungeon',
+            chain_name: 'dungeon1',
             base_denom: 'udgn'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png',

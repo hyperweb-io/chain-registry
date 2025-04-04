@@ -530,7 +530,7 @@ const info: IBCInfo[] = [
       connection_id: 'connection-1057'
     },
     chain_2: {
-      chain_name: 'dungeon',
+      chain_name: 'dungeon1',
       client_id: '07-tendermint-4',
       connection_id: 'connection-9'
     },

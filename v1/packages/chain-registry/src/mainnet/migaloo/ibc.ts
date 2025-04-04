@@ -119,7 +119,7 @@ const info: IBCInfo[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain_1: {
-      chain_name: 'dungeon',
+      chain_name: 'dungeon1',
       client_id: '07-tendermint-10',
       connection_id: 'connection-12'
     },
