@@ -21539,9 +21539,51 @@ const info: AssetList = {
         }]
     },
     {
-      description: 'Dragon Token is the native staking and governance token of Dungeon Chain, serving as the backbone of the ecosystem. Its primary roles include staking, where users stake Dragon Tokens to secure the network, enhance its functionality, and earn rewards in return; governance, granting token holders voting rights to influence key decisions such as game onboarding, protocol updates, and community-driven initiatives; and ecosystem growth, facilitating transactions, incentivizing developers, and promoting the creation of new interchain games. Dragon Token ensures a decentralized, fair, and community-driven ecosystem, fostering the evolution of blockchain-based gaming. It plays a crucial role in driving the growth of Dungeon Chain by empowering both developers and players to participate actively in the ecosystem\'s governance and success.',
+      description: 'Deprecated after hard fork: Dragon Token is the native staking and governance token of Dungeon Chain, serving as the backbone of the ecosystem. Its primary roles include staking, where users stake Dragon Tokens to secure the network, enhance its functionality, and earn rewards in return; governance, granting token holders voting rights to influence key decisions such as game onboarding, protocol updates, and community-driven initiatives; and ecosystem growth, facilitating transactions, incentivizing developers, and promoting the creation of new interchain games. Dragon Token ensures a decentralized, fair, and community-driven ecosystem, fostering the evolution of blockchain-based gaming. It plays a crucial role in driving the growth of Dungeon Chain by empowering both developers and players to participate actively in the ecosystem\'s governance and success.',
+      deprecated: true,
       denomUnits: [{
           denom: 'ibc/3B95D63B520C283BCA86F8CD426D57584039463FD684A5CBA31D2780B86A1995',
+          exponent: 0,
+          aliases: ['udgn']
+        }, {
+          denom: 'OLDDGN',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/3B95D63B520C283BCA86F8CD426D57584039463FD684A5CBA31D2780B86A1995',
+      name: 'Dragon',
+      display: 'OLDDGN',
+      symbol: 'OLDDGN',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'dungeon1',
+            baseDenom: 'udgn',
+            channelId: 'channel-2'
+          },
+          chain: {
+            channelId: 'channel-85791',
+            path: 'transfer/channel-85791/udgn'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'dungeon',
+            baseDenom: 'udgn'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png',
+          theme: {
+            circle: true
+          }
+        }]
+    },
+    {
+      description: 'Dragon Token is the native staking and governance token of Dungeon Chain, serving as the backbone of the ecosystem. Its primary roles include staking, where users stake Dragon Tokens to secure the network, enhance its functionality, and earn rewards in return; governance, granting token holders voting rights to influence key decisions such as game onboarding, protocol updates, and community-driven initiatives; and ecosystem growth, facilitating transactions, incentivizing developers, and promoting the creation of new interchain games. Dragon Token ensures a decentralized, fair, and community-driven ecosystem, fostering the evolution of blockchain-based gaming. It plays a crucial role in driving the growth of Dungeon Chain by empowering both developers and players to participate actively in the ecosystem\'s governance and success.',
+      denomUnits: [{
+          denom: 'ibc/CD6412358F33B372A355CF22786D8C19477C15092B56BD56188679EED8556964',
           exponent: 0,
           aliases: ['udgn']
         }, {
@@ -21549,7 +21591,7 @@ const info: AssetList = {
           exponent: 6
         }],
       typeAsset: 'ics20',
-      base: 'ibc/3B95D63B520C283BCA86F8CD426D57584039463FD684A5CBA31D2780B86A1995',
+      base: 'ibc/CD6412358F33B372A355CF22786D8C19477C15092B56BD56188679EED8556964',
       name: 'Dragon',
       display: 'DGN',
       symbol: 'DGN',
@@ -21558,11 +21600,11 @@ const info: AssetList = {
           counterparty: {
             chainName: 'dungeon',
             baseDenom: 'udgn',
-            channelId: 'channel-2'
+            channelId: 'channel-5305'
           },
           chain: {
-            channelId: 'channel-85791',
-            path: 'transfer/channel-85791/udgn'
+            channelId: 'channel-101249',
+            path: 'transfer/channel-101249/udgn'
           }
         }],
       logoURIs: {
