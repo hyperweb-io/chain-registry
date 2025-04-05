@@ -121,6 +121,10 @@ const info: Chain = {
       {
         address: 'https://rpc-atomone.ecostake.com',
         provider: 'ecostake'
+      },
+      {
+        address: 'https://rpc.atomone.roomit.xyz',
+        provider: 'Roomit'
       }
     ],
     rest: [
@@ -187,6 +191,10 @@ const info: Chain = {
       {
         address: 'https://rest-atomone.ecostake.com',
         provider: 'ecostake'
+      },
+      {
+        address: 'https://api.atomone.roomit.xyz',
+        provider: 'Roomit'
       }
     ],
     grpc: [
@@ -229,6 +237,10 @@ const info: Chain = {
       {
         address: 'atomone-mainnet-grpc.itrocket.net:443',
         provider: 'ITRocket'
+      },
+      {
+        address: 'grpc.atomone.roomit.xyz:8443',
+        provider: 'Roomit'
       }
     ]
   },
@@ -274,6 +286,12 @@ const info: Chain = {
       url: 'https://mainnet.itrocket.net/atomone',
       tx_page: 'https://mainnet.itrocket.net/atomone/tx/${txHash}',
       account_page: 'https://mainnet.itrocket.net/atomone/account/${accountAddress}'
+    },
+    {
+      kind: 'Roomit',
+      url: 'https://explorer.tendermint.roomit.xyz/atomone-mainnet',
+      tx_page: 'https://explorer.tendermint.roomit.xyz/atomone-mainnet/tx/${txHash}',
+      account_page: 'https://explorer.tendermint.roomit.xyz/atomone-mainnet/account/${accountAddress}'
     }
   ],
   images: [{

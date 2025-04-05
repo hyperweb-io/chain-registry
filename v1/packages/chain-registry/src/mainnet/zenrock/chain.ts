@@ -63,13 +63,20 @@ const info: Chain = {
         address: 'https://rpc.zenrock.nodestake.org',
         provider: 'NodeStake'
       }],
-    rest: [{
+    rest: [
+      {
         address: 'https://api.diamond.zenrocklabs.io/',
         provider: 'zenrock'
-      }, {
+      },
+      {
         address: 'https://api.zenrock.nodestake.org',
         provider: 'NodeStake'
-      }],
+      },
+      {
+        address: 'https://zenrock.api.m.stavr.tech',
+        provider: '🔥STAVR🔥'
+      }
+    ],
     grpc: [{
         address: 'https://grpc.diamond.zenrocklabs.io/',
         provider: 'zenrock'

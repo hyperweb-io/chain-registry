@@ -91,6 +91,10 @@ const info: Chain = {
       {
         address: 'https://rpc.side.bh.rocks',
         provider: 'BlockHunters'
+      },
+      {
+        address: 'https://side.rpc.m.stavr.tech',
+        provider: '🔥STAVR🔥'
       }
     ],
     rest: [
@@ -121,6 +125,10 @@ const info: Chain = {
       {
         address: 'https://api.side.bh.rocks',
         provider: 'BlockHunters'
+      },
+      {
+        address: 'https://side.api.m.stavr.tech',
+        provider: '🔥STAVR🔥'
       }
     ],
     grpc: [
@@ -151,6 +159,10 @@ const info: Chain = {
       {
         address: 'grpc.side.bh.rocks:443',
         provider: 'BlockHunters'
+      },
+      {
+        address: 'side.grpc.m.stavr.tech:9917',
+        provider: '🔥STAVR🔥'
       }
     ]
   },
@@ -184,6 +196,12 @@ const info: Chain = {
       url: 'https://bh.rocks/side',
       tx_page: 'https://bh.rocks/side/tx/${txHash}',
       account_page: 'https://bh.rocks/side/account/${accountAddress}'
+    },
+    {
+      kind: '🔥STAVR🔥',
+      url: 'https://explorer.stavr.tech/Side-Mainnet',
+      tx_page: 'https://explorer.stavr.tech/Side-Mainnet/tx/${txHash}',
+      account_page: 'https://explorer.stavr.tech/Side-Mainnet/account/${accountAddress}'
     }
   ],
   images: [{
