@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.53.105 (2025-04-05)
+
+**Note:** Version bump only for package @chain-registry/cli
+
+
+
+
+
 ## 1.53.104 (2025-04-04)
 
 **Note:** Version bump only for package @chain-registry/cli
