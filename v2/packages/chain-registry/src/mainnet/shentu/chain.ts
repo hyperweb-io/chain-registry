@@ -183,7 +183,7 @@ const info: Chain = {
         provider: 'Chainroot'
       },
       {
-        address: 'shentu-grpc.node39.top:11656',
+        address: 'shentu-grpc.node39.top:12656',
         provider: 'Node39'
       }
     ]

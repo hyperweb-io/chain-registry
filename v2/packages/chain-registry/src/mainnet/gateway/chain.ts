@@ -73,21 +73,21 @@ const info: Chain = {
   },
   apis: {
     rpc: [{
-        address: 'https://tncnt-eu-wormchain-main-01.rpc.p2p.world/',
+        address: 'http://wormchain-mainnet-1-full.tm.p2p.org/',
         provider: 'P2P'
       }, {
         address: 'https://wormchain-rpc.quickapi.com/',
         provider: 'ChainLayer'
       }],
     rest: [{
-        address: 'https://tncnt-eu-wormchain-main-01.rpc.p2p.world/lcd/',
+        address: 'http://wormchain-mainnet-1-full-rest.tm.p2p.org/',
         provider: 'P2P'
       }, {
         address: 'https://wormchain-lcd.quickapi.com/',
         provider: 'ChainLayer'
       }],
     grpc: [{
-        address: 'tncnt-eu-wormchain-main-01-grpc.rpc.p2p.world:80',
+        address: 'http://wormchain-mainnet-1-full-grpc.tm.p2p.org',
         provider: 'P2P'
       }]
   },

@@ -16,10 +16,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'ukyve',
-        fixedMinGasPrice: 0.02,
-        lowGasPrice: 0.02,
-        averageGasPrice: 0.03,
-        highGasPrice: 0.06
+        fixedMinGasPrice: 2,
+        lowGasPrice: 2,
+        averageGasPrice: 3,
+        highGasPrice: 6
       }]
   },
   staking: {
