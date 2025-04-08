@@ -1,7 +1,7 @@
 import { AssetList } from '@chain-registry/v2-types';
 const info: AssetList = {
-  $schema: '../../assetlist.schema.json',
-  chainName: 'pockettestnet',
+  $schema: '../assetlist.schema.json',
+  chainName: 'pocket',
   assets: [{
       description: 'The native token of Pocket Network',
       denomUnits: [{
@@ -24,6 +24,10 @@ const info: AssetList = {
         }, {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pocket/images/pokt-icon.png'
         }],
+      socials: {
+        website: 'https://pocket.network/',
+        twitter: 'https://twitter.com/POKTnetwork'
+      },
       typeAsset: 'sdk.coin'
     }]
 };

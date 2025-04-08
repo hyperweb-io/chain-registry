@@ -1,18 +1,19 @@
 import { Chain } from '@chain-registry/v2-types';
 const info: Chain = {
-  $schema: '../../chain.schema.json',
-  chainName: 'pockettestnet',
+  $schema: '../chain.schema.json',
+  chainName: 'pocket',
   status: 'live',
-  networkType: 'testnet',
-  website: 'https://www.pokt.network/',
-  prettyName: 'Pocket Beta TestNet',
+  networkType: 'mainnet',
+  website: 'https://pocket.network/',
+  prettyName: 'Pocket Network',
   chainType: 'cosmos',
-  chainId: 'pocket-beta',
+  chainId: 'pocket',
   bech32Prefix: 'pokt',
   daemonName: 'pocketd',
   nodeHome: '$HOME/.pocket',
   keyAlgos: ['secp256k1'],
   slip44: 118,
+  description: 'Pocket Network is a decentralized infrastructure protocol that incentivizes a global network of node operators to provide reliable and cost-effective data access for applications across multiple platforms, including blockchains, AI services, and other APIs.',
   fees: {
     feeTokens: [{
         denom: 'upokt',
@@ -43,47 +44,54 @@ const info: Chain = {
     },
     genesis: {
       name: 'v0.1.1',
-      genesisUrl: 'https://github.com/pokt-network/pocket-network-genesis/blob/master/shannon/testnet/genesis.json'
+      genesisUrl: 'https://raw.githubusercontent.com/pokt-network/pocket-network-genesis/refs/heads/master/shannon/mainnet/genesis.json'
     },
     sdk: {
       type: 'cosmos',
       version: 'v0.50.13'
     },
     ibc: {
-      type: 'go'
+      type: 'go',
+      version: 'v8.7.0'
     },
     cosmwasm: {
       enabled: false
     }
   },
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pocket/images/pokt-icon.png'
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pocket/images/pokt-icon.png',
+      theme: {
+        circle: true
+      }
     }, {
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pocket/images/pokt-icon.svg'
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pocket/images/pokt-icon.svg',
+      theme: {
+        circle: true
+      }
     }],
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pocket/images/pokt-icon.png'
   },
   apis: {
     rpc: [{
-        address: 'https://shannon-testnet-grove-rpc.beta.poktroll.com',
+        address: 'https://shannon-grove-rpc.mainnet.poktroll.com',
         provider: 'Grove'
       }],
     rest: [{
-        address: 'https://shannon-testnet-grove-api.beta.poktroll.com',
+        address: 'https://shannon-grove-rest.mainnet.poktroll.com',
         provider: 'Grove'
       }]
   },
   explorers: [{
       kind: '🔍 Pocket Explorer by Soothe 🔎',
-      url: 'https://shannon-beta.trustsoothe.io',
-      txPage: 'https://shannon-beta.trustsoothe.io/tx/${txHash}',
-      accountPage: 'https://shannon-beta.trustsoothe.io/accounts/${accountAddress}'
+      url: 'https://shannon.trustsoothe.io',
+      txPage: 'https://shannon.trustsoothe.io/tx/${txHash}',
+      accountPage: 'https://shannon.trustsoothe.io/accounts/${accountAddress}'
     }, {
       kind: '🗺 Pocket Explorer by Stakenodes.org 🗺',
-      url: 'https://shannon.beta.testnet.pokt.network',
-      txPage: 'https://shannon.beta.testnet.pokt.network/tx/${txHash}',
-      accountPage: 'https://shannon.beta.testnet.pokt.network/poktroll/account/${accountAddress}'
+      url: 'https://shannon.pokt.network',
+      txPage: 'https://shannon.pokt.network/tx/${txHash}',
+      accountPage: 'https://shannon.pokt.network/poktroll/account/${accountAddress}'
     }],
   keywords: [
     'rpc',

@@ -123,6 +123,10 @@ const info: Chain = {
         provider: 'ecostake'
       },
       {
+        address: 'https://m-atomone.rpc.utsa.tech/',
+        provider: 'UTSA'
+      },
+      {
         address: 'https://rpc.atomone.roomit.xyz',
         provider: 'Roomit'
       }
@@ -191,6 +195,10 @@ const info: Chain = {
       {
         address: 'https://rest-atomone.ecostake.com',
         provider: 'ecostake'
+      },
+      {
+        address: 'https://m-atomone.api.utsa.tech/',
+        provider: 'UTSA'
       },
       {
         address: 'https://api.atomone.roomit.xyz',

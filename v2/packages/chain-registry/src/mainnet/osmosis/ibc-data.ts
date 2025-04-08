@@ -3425,6 +3425,22 @@ const info: IBCData[] = [
         ordering: 'ordered',
         version: 'ics27-1',
         tags: {
+          status: 'killed',
+          preferred: false
+        }
+      },
+      {
+        chain1: {
+          channelId: 'channel-101479',
+          portId: 'icahost'
+        },
+        chain2: {
+          channelId: 'channel-29',
+          portId: 'icacontroller-delegation-uosmo'
+        },
+        ordering: 'ordered',
+        version: 'ics27-1',
+        tags: {
           status: 'live',
           preferred: true
         }

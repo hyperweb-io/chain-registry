@@ -22833,7 +22833,11 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/cult.png'
-        }]
+        }],
+      socials: {
+        website: 'https://www.architectsnft.io/',
+        twitter: 'https://x.com/Architects_nft'
+      }
     },
     {
       description: 'Tek ovah!',
@@ -24066,49 +24070,6 @@ const info: AssetList = {
         website: 'https://www.movementnetwork.xyz/',
         twitter: 'https://twitter.com/movementfdn'
       }
-    },
-    {
-      description: 'An alloy of DGN asset variants on Osmosis.',
-      extendedDescription: 'Multiple DGN variants on Osmosis comprise the liquidity backing of a tokenized transmuter pool to create an alloy of DGN.',
-      denomUnits: [{
-          denom: 'factory/osmo10ca28knpu7yuf6mkcvvdf8w7g3ydamrcmfraxyejc6exv2ff748s4hzk4n/alloyed/allDGN',
-          exponent: 0
-        }, {
-          denom: 'allDGN',
-          exponent: 6
-        }],
-      typeAsset: 'sdk.coin',
-      base: 'factory/osmo10ca28knpu7yuf6mkcvvdf8w7g3ydamrcmfraxyejc6exv2ff748s4hzk4n/alloyed/allDGN',
-      address: 'osmo10ca28knpu7yuf6mkcvvdf8w7g3ydamrcmfraxyejc6exv2ff748s4hzk4n',
-      name: 'Dragon (Alloy)',
-      display: 'allDGN',
-      symbol: 'allDGN',
-      traces: [{
-          type: 'synthetic',
-          counterparty: {
-            chainName: 'dungeon',
-            baseDenom: 'udgn'
-          },
-          provider: 'Osmosis'
-        }],
-      logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDGN.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDGN.png',
-          theme: {
-            circle: true
-          }
-        }, {
-          imageSync: {
-            chainName: 'dungeon',
-            baseDenom: 'udgn'
-          },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png',
-          theme: {
-            circle: true
-          }
-        }]
     }
   ]
 };

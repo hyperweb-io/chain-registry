@@ -14,11 +14,13 @@ import * as _allora from './allora';
 import * as _althea from './althea';
 import * as _andromeda from './andromeda';
 import * as _archway from './archway';
+import * as _arkeo from './arkeo';
 import * as _arkh from './arkh';
 import * as _assetmantle from './assetmantle';
 import * as _atomone from './atomone';
 import * as _aura from './aura';
 import * as _axelar from './axelar';
+import * as _babylon from './babylon';
 import * as _bandchain from './bandchain';
 import * as _beezee from './beezee';
 import * as _bitbadges from './bitbadges';
@@ -140,6 +142,7 @@ import * as _panacea from './panacea';
 import * as _passage from './passage';
 import * as _persistence from './persistence';
 import * as _planq from './planq';
+import * as _pocket from './pocket';
 import * as _point from './point';
 import * as _provenance from './provenance';
 import * as _pryzm from './pryzm';
@@ -212,11 +215,13 @@ const assetList: AssetList[] = [
   _althea.assetList,
   _andromeda.assetList,
   _archway.assetList,
+  _arkeo.assetList,
   _arkh.assetList,
   _assetmantle.assetList,
   _atomone.assetList,
   _aura.assetList,
   _axelar.assetList,
+  _babylon.assetList,
   _bandchain.assetList,
   _beezee.assetList,
   _bitbadges.assetList,
@@ -338,6 +343,7 @@ const assetList: AssetList[] = [
   _passage.assetList,
   _persistence.assetList,
   _planq.assetList,
+  _pocket.assetList,
   _point.assetList,
   _provenance.assetList,
   _pryzm.assetList,
