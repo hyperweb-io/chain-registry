@@ -22831,7 +22831,11 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/cult.png'
-        }]
+        }],
+      socials: {
+        website: 'https://www.architectsnft.io/',
+        twitter: 'https://x.com/Architects_nft'
+      }
     },
     {
       description: 'Tek ovah!',
@@ -24064,49 +24068,6 @@ const assets: AssetList = {
         website: 'https://www.movementnetwork.xyz/',
         twitter: 'https://twitter.com/movementfdn'
       }
-    },
-    {
-      description: 'An alloy of DGN asset variants on Osmosis.',
-      extended_description: 'Multiple DGN variants on Osmosis comprise the liquidity backing of a tokenized transmuter pool to create an alloy of DGN.',
-      denom_units: [{
-          denom: 'factory/osmo10ca28knpu7yuf6mkcvvdf8w7g3ydamrcmfraxyejc6exv2ff748s4hzk4n/alloyed/allDGN',
-          exponent: 0
-        }, {
-          denom: 'allDGN',
-          exponent: 6
-        }],
-      type_asset: 'sdk.coin',
-      base: 'factory/osmo10ca28knpu7yuf6mkcvvdf8w7g3ydamrcmfraxyejc6exv2ff748s4hzk4n/alloyed/allDGN',
-      address: 'osmo10ca28knpu7yuf6mkcvvdf8w7g3ydamrcmfraxyejc6exv2ff748s4hzk4n',
-      name: 'Dragon (Alloy)',
-      display: 'allDGN',
-      symbol: 'allDGN',
-      traces: [{
-          type: 'synthetic',
-          counterparty: {
-            chain_name: 'dungeon',
-            base_denom: 'udgn'
-          },
-          provider: 'Osmosis'
-        }],
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDGN.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDGN.png',
-          theme: {
-            circle: true
-          }
-        }, {
-          image_sync: {
-            chain_name: 'dungeon',
-            base_denom: 'udgn'
-          },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png',
-          theme: {
-            circle: true
-          }
-        }]
     }
   ]
 };

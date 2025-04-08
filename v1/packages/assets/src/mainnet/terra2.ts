@@ -16055,7 +16055,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'Auto componded USDC despoited into Ginkou on Migaloo chain',
+      description: 'Auto componded USDC deposited into Ginkou on Migaloo chain',
       denom_units: [{
           denom: 'ibc/B2B60A0A69DA9C4B98C3042B5B0BDFF269A2251C3C93D0776939FA877DD0D054',
           exponent: 0,
@@ -16550,7 +16550,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'Auto componded USDC despoited into Ginkou on Migaloo chain',
+      description: 'Auto componded USDC deposited into Ginkou on Migaloo chain',
       denom_units: [{
           denom: 'ibc/B2B60A0A69DA9C4B98C3042B5B0BDFF269A2251C3C93D0776939FA877DD0D054',
           exponent: 0,

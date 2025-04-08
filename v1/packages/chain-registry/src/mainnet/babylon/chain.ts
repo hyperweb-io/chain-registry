@@ -1,0 +1,130 @@
+import { Chain } from '@chain-registry/types';
+const info: Chain = {
+  $schema: '../chain.schema.json',
+  chain_name: 'babylon',
+  status: 'live',
+  website: 'https://babylonlabs.io/',
+  network_type: 'mainnet',
+  pretty_name: 'Babylon Genesis',
+  chain_type: 'cosmos',
+  chain_id: 'bbn-1',
+  bech32_prefix: 'bbn',
+  slip44: 118,
+  daemon_name: 'babylond',
+  node_home: '$HOME/.babylond',
+  key_algos: ['secp256k1'],
+  fees: {
+    fee_tokens: [{
+        denom: 'ubbn',
+        low_gas_price: 0.007,
+        average_gas_price: 0.007,
+        high_gas_price: 0.01
+      }]
+  },
+  staking: {
+    staking_tokens: [{
+        denom: 'ubbn'
+      }]
+  },
+  codebase: {
+    git_repo: 'https://github.com/babylonlabs-io/babylon',
+    recommended_version: 'v1.0.1',
+    compatible_versions: ['v1.0.0', 'v1.0.1'],
+    genesis: {
+      genesis_url: 'https://github.com/babylonlabs-io/networks/blob/main/bbn-1/network-artifacts/genesis.json'
+    },
+    consensus: {
+      type: 'cometbft',
+      repo: 'https://github.com/cometbft/cometbft',
+      version: 'v0.38.17',
+      tag: 'v0.38.17'
+    },
+    sdk: {
+      type: 'cosmos',
+      repo: 'https://github.com/cosmos/cosmos-sdk',
+      version: 'v0.50.12',
+      tag: 'v0.50.12'
+    },
+    ibc: {
+      type: 'go',
+      repo: 'https://github.com/cosmos/ibc-go',
+      version: 'v8.7.0',
+      tag: 'v8.7.0',
+      ics_enabled: ['ics20-1']
+    },
+    cosmwasm: {
+      version: 'v0.54.0',
+      repo: 'https://github.com/CosmWasm/wasmd',
+      tag: 'v0.54.0',
+      enabled: true
+    },
+    language: {
+      type: 'go',
+      version: '1.23.1'
+    }
+  },
+  logo_URIs: {
+    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+  },
+  apis: {
+    rpc: [
+      {
+        address: 'https://babylon.nodes.guru/rpc',
+        provider: 'Nodes.Guru'
+      },
+      {
+        address: 'https://babylon-archive.nodes.guru/rpc',
+        provider: 'Nodes.Guru'
+      },
+      {
+        address: 'https://babylon-rpc.polkachu.com',
+        provider: 'Polkachu'
+      },
+      {
+        address: 'https://babylon-archive-rpc.polkachu.com',
+        provider: 'Polkachu'
+      }
+    ],
+    rest: [
+      {
+        address: 'https://babylon.nodes.guru/api',
+        provider: 'Nodes.Guru'
+      },
+      {
+        address: 'https://babylon-archive.nodes.guru/api',
+        provider: 'Nodes.Guru'
+      },
+      {
+        address: 'https://babylon-api.polkachu.com',
+        provider: 'Polkachu'
+      },
+      {
+        address: 'https://babylon-archive-api.polkachu.com',
+        provider: 'Polkachu'
+      }
+    ],
+    grpc: [
+      {
+        address: 'babylon.nodes.guru:443/grpc',
+        provider: 'Nodes.Guru'
+      },
+      {
+        address: 'babylon-archive.nodes.guru:443/grpc',
+        provider: 'Nodes.Guru'
+      },
+      {
+        address: 'babylon-grpc.polkachu.com:20690',
+        provider: 'Polkachu'
+      },
+      {
+        address: 'babylon-archive-grpc.polkachu.com:20690',
+        provider: 'Polkachu'
+      }
+    ]
+  },
+  explorers: [],
+  images: [{
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+    }]
+};
+export default info;

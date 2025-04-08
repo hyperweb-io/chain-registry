@@ -63,7 +63,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://fx.pundi.ai',
-        twitter: 'https://x.com/functionx_io'
+        twitter: 'https://x.com/PundiAI'
       },
       type_asset: 'sdk.coin'
     },

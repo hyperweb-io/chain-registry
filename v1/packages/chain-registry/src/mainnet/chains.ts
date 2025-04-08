@@ -14,11 +14,13 @@ import * as _allora from './allora';
 import * as _althea from './althea';
 import * as _andromeda from './andromeda';
 import * as _archway from './archway';
+import * as _arkeo from './arkeo';
 import * as _arkh from './arkh';
 import * as _assetmantle from './assetmantle';
 import * as _atomone from './atomone';
 import * as _aura from './aura';
 import * as _axelar from './axelar';
+import * as _babylon from './babylon';
 import * as _bandchain from './bandchain';
 import * as _beezee from './beezee';
 import * as _bitbadges from './bitbadges';
@@ -140,6 +142,7 @@ import * as _panacea from './panacea';
 import * as _passage from './passage';
 import * as _persistence from './persistence';
 import * as _planq from './planq';
+import * as _pocket from './pocket';
 import * as _point from './point';
 import * as _provenance from './provenance';
 import * as _pryzm from './pryzm';
@@ -212,11 +215,13 @@ const chains: Chain[] = [
   _althea.chain,
   _andromeda.chain,
   _archway.chain,
+  _arkeo.chain,
   _arkh.chain,
   _assetmantle.chain,
   _atomone.chain,
   _aura.chain,
   _axelar.chain,
+  _babylon.chain,
   _bandchain.chain,
   _beezee.chain,
   _bitbadges.chain,
@@ -338,6 +343,7 @@ const chains: Chain[] = [
   _passage.chain,
   _persistence.chain,
   _planq.chain,
+  _pocket.chain,
   _point.chain,
   _provenance.chain,
   _pryzm.chain,

@@ -122,6 +122,10 @@ const info: Chain = {
       {
         address: 'https://rpc-seda-mainnet.keepitstaked.com:443',
         provider: 'KeepItStaked.com'
+      },
+      {
+        address: 'https://seda-rpc.node39.top:443',
+        provider: 'Node39.TOP'
       }
     ],
     rest: [
@@ -180,6 +184,10 @@ const info: Chain = {
       {
         address: 'https://api-seda-mainnet.keepitstaked.com:443',
         provider: 'KeepItStaked.com'
+      },
+      {
+        address: 'https://seda-api.node39.top:443',
+        provider: 'Node39.TOP'
       }
     ],
     grpc: [
@@ -210,6 +218,10 @@ const info: Chain = {
       {
         address: 'grpc-seda.whispernode.com:443',
         provider: 'WhisperNode 🤐'
+      },
+      {
+        address: 'seda-grpc.node39.top:13090',
+        provider: 'Node39.TOP'
       }
     ]
   },
@@ -249,6 +261,12 @@ const info: Chain = {
       url: 'https://explorer.whenmoonwhenlambo.money/seda',
       tx_page: 'https://explorer.whenmoonwhenlambo.money/seda/tx/${txHash}',
       account_page: 'https://explorer.whenmoonwhenlambo.money/seda/account/${accountAddress}'
+    },
+    {
+      kind: 'Node39.TOP',
+      url: 'https://explorer.node39.top/Seda',
+      tx_page: 'https://explorer.node39.top/Seda/tx/${txHash}',
+      account_page: 'https://explorer.node39.top/Seda/account/${accountAddress}'
     }
   ],
   images: [{

@@ -1,0 +1,27 @@
+import { AssetList } from '@chain-registry/types';
+const info: AssetList = {
+  $schema: '../assetlist.schema.json',
+  chain_name: 'babylon',
+  assets: [{
+      description: 'The native token of Babylon Genesis.',
+      denom_units: [{
+          denom: 'ubbn',
+          exponent: 0
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ubbn',
+      name: 'Babylon',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+        }],
+      type_asset: 'sdk.coin'
+    }]
+};
+export default info;

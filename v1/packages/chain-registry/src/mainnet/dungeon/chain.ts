@@ -75,6 +75,15 @@ const info: Chain = {
       url: 'https://explorer.whenmoonwhenlambo.money/dungeon',
       tx_page: 'https://explorer.whenmoonwhenlambo.money/dungeon/tx/${txHash}',
       account_page: 'https://explorer.whenmoonwhenlambo.money/dungeon/account/${accountAddress}'
+    }],
+  logo_URIs: {
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png'
+  },
+  images: [{
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png',
+      theme: {
+        circle: true
+      }
     }]
 };
 export default info;
