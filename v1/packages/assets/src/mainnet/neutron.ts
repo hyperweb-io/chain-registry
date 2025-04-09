@@ -1038,6 +1038,71 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of MANTRA',
+      denom_units: [{
+          denom: 'ibc/E714C2378FF5786A97E372CA491F9649319E278C8DD0F8BB42387AE26FA17B2B',
+          exponent: 0,
+          aliases: ['uom']
+        }, {
+          denom: 'om',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/E714C2378FF5786A97E372CA491F9649319E278C8DD0F8BB42387AE26FA17B2B',
+      name: 'MANTRA Chain',
+      display: 'om',
+      symbol: 'OM',
+      coingecko_id: 'mantra-dao',
+      keywords: [
+        'rwa',
+        'wasm',
+        'staking'
+      ],
+      images: [
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg',
+          theme: {
+            circle: true,
+            primary_color_hex: '#fba0c1'
+          }
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Darkmatt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Darkmatt.svg',
+          theme: {
+            dark_mode: true,
+            circle: true,
+            primary_color_hex: '#342c2c'
+          }
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-WHT.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-WHT.svg',
+          theme: {
+            dark_mode: false,
+            circle: true,
+            primary_color_hex: '#342c2c'
+          }
+        }
+      ],
+      socials: {
+        website: 'https://www.mantrachain.io/',
+        twitter: 'https://x.com/MANTRA_Chain'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-7',
+            base_denom: 'uom',
+            chain_name: 'mantrachain'
+          },
+          chain: {
+            channel_id: 'channel-6964'
+          }
+        }]
+    },
+    {
       description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
       denom_units: [{
           denom: 'ibc/B074BCF31E5892A522FD48DDD5DD80C3953D4B43D59A6E4FD0DC6759685FD36C',
@@ -2069,6 +2134,71 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-3'
+          }
+        }]
+    },
+    {
+      description: 'The native token of MANTRA',
+      denom_units: [{
+          denom: 'ibc/E714C2378FF5786A97E372CA491F9649319E278C8DD0F8BB42387AE26FA17B2B',
+          exponent: 0,
+          aliases: ['uom']
+        }, {
+          denom: 'om',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/E714C2378FF5786A97E372CA491F9649319E278C8DD0F8BB42387AE26FA17B2B',
+      name: 'MANTRA Chain',
+      display: 'om',
+      symbol: 'OM',
+      coingecko_id: 'mantra-dao',
+      keywords: [
+        'rwa',
+        'wasm',
+        'staking'
+      ],
+      images: [
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg',
+          theme: {
+            circle: true,
+            primary_color_hex: '#fba0c1'
+          }
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Darkmatt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Darkmatt.svg',
+          theme: {
+            dark_mode: true,
+            circle: true,
+            primary_color_hex: '#342c2c'
+          }
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-WHT.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-WHT.svg',
+          theme: {
+            dark_mode: false,
+            circle: true,
+            primary_color_hex: '#342c2c'
+          }
+        }
+      ],
+      socials: {
+        website: 'https://www.mantrachain.io/',
+        twitter: 'https://x.com/MANTRA_Chain'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-7',
+            base_denom: 'uom',
+            chain_name: 'mantrachain'
+          },
+          chain: {
+            channel_id: 'channel-6964'
           }
         }]
     },

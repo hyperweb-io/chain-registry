@@ -657,6 +657,39 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Babylon Genesis.',
+      denom_units: [{
+          denom: 'ibc/331F1904D36D53358B18AB6E26EFCAFB2156DE56374F947C6781A96CDFE9DBE9',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ibc/331F1904D36D53358B18AB6E26EFCAFB2156DE56374F947C6781A96CDFE9DBE9',
+      name: 'Babylon',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'ubbn',
+            chain_name: 'babylon'
+          },
+          chain: {
+            channel_id: 'channel-175'
+          }
+        }]
+    },
+    {
       description: 'BitSong Native Token',
       denom_units: [{
           denom: 'ibc/2F740C82769D1D7697CFB3D211F952E835AFD9C1852D23B49F3FA7F0475D794B',
@@ -1965,14 +1998,14 @@ const assets: AssetList = {
     {
       description: 'Jackal Network is a decentralized storage platform that aims to provide secure, private, and efficient data storage solutions on the blockchain.',
       denom_units: [{
-          denom: 'ibc/A510E27678EF927ABF6781D9A96D3AE1FCA083ACE89EBFF3CC55D343C5192444',
+          denom: 'ibc/2027EC8CD73EB3F0E7E46FFFD71F5A06F91067BE188ADC9D5F512CD8F2145226',
           exponent: 0,
           aliases: ['ujkl']
         }, {
           denom: 'jkl',
           exponent: 6
         }],
-      base: 'ibc/A510E27678EF927ABF6781D9A96D3AE1FCA083ACE89EBFF3CC55D343C5192444',
+      base: 'ibc/2027EC8CD73EB3F0E7E46FFFD71F5A06F91067BE188ADC9D5F512CD8F2145226',
       name: 'Jackal',
       display: 'jkl',
       symbol: 'JKL',
@@ -1992,12 +2025,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-153',
+            channel_id: 'channel-49',
             base_denom: 'ujkl',
             chain_name: 'jackal'
           },
           chain: {
-            channel_id: 'channel-168'
+            channel_id: 'channel-137'
           }
         }]
     },
@@ -8240,6 +8273,39 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Babylon Genesis.',
+      denom_units: [{
+          denom: 'ibc/331F1904D36D53358B18AB6E26EFCAFB2156DE56374F947C6781A96CDFE9DBE9',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ibc/331F1904D36D53358B18AB6E26EFCAFB2156DE56374F947C6781A96CDFE9DBE9',
+      name: 'Babylon',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'ubbn',
+            chain_name: 'babylon'
+          },
+          chain: {
+            channel_id: 'channel-175'
+          }
+        }]
+    },
+    {
       description: 'BitSong Native Token',
       denom_units: [{
           denom: 'ibc/2F740C82769D1D7697CFB3D211F952E835AFD9C1852D23B49F3FA7F0475D794B',
@@ -9548,14 +9614,14 @@ const assets: AssetList = {
     {
       description: 'Jackal Network is a decentralized storage platform that aims to provide secure, private, and efficient data storage solutions on the blockchain.',
       denom_units: [{
-          denom: 'ibc/A510E27678EF927ABF6781D9A96D3AE1FCA083ACE89EBFF3CC55D343C5192444',
+          denom: 'ibc/2027EC8CD73EB3F0E7E46FFFD71F5A06F91067BE188ADC9D5F512CD8F2145226',
           exponent: 0,
           aliases: ['ujkl']
         }, {
           denom: 'jkl',
           exponent: 6
         }],
-      base: 'ibc/A510E27678EF927ABF6781D9A96D3AE1FCA083ACE89EBFF3CC55D343C5192444',
+      base: 'ibc/2027EC8CD73EB3F0E7E46FFFD71F5A06F91067BE188ADC9D5F512CD8F2145226',
       name: 'Jackal',
       display: 'jkl',
       symbol: 'JKL',
@@ -9575,12 +9641,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-153',
+            channel_id: 'channel-49',
             base_denom: 'ujkl',
             chain_name: 'jackal'
           },
           chain: {
-            channel_id: 'channel-168'
+            channel_id: 'channel-137'
           }
         }]
     },

@@ -89,14 +89,14 @@ const assets: AssetList = {
     {
       description: 'Axelar is a decentralized interoperability network connecting multiple blockchain ecosystems, enabling seamless cross-chain communication and value transfer.',
       denom_units: [{
-          denom: 'ibc/BC0F3294973FC1EAF08D30653B38EDCE3C330283AC85D343F02EB6165C98A39E',
+          denom: 'ibc/E24063D336A506ED538263714714573823661773663A58A6E9A2A79892BA5180',
           exponent: 0,
           aliases: ['uaxl']
         }, {
           denom: 'axl',
           exponent: 6
         }],
-      base: 'ibc/BC0F3294973FC1EAF08D30653B38EDCE3C330283AC85D343F02EB6165C98A39E',
+      base: 'ibc/E24063D336A506ED538263714714573823661773663A58A6E9A2A79892BA5180',
       name: 'Axelar',
       display: 'axl',
       symbol: 'AXL',
@@ -120,12 +120,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-168',
+            channel_id: 'channel-137',
             base_denom: 'uaxl',
             chain_name: 'axelar'
           },
           chain: {
-            channel_id: 'channel-153'
+            channel_id: 'channel-49'
           }
         }]
     },
@@ -335,14 +335,14 @@ const assets: AssetList = {
     {
       description: 'Axelar is a decentralized interoperability network connecting multiple blockchain ecosystems, enabling seamless cross-chain communication and value transfer.',
       denom_units: [{
-          denom: 'ibc/BC0F3294973FC1EAF08D30653B38EDCE3C330283AC85D343F02EB6165C98A39E',
+          denom: 'ibc/E24063D336A506ED538263714714573823661773663A58A6E9A2A79892BA5180',
           exponent: 0,
           aliases: ['uaxl']
         }, {
           denom: 'axl',
           exponent: 6
         }],
-      base: 'ibc/BC0F3294973FC1EAF08D30653B38EDCE3C330283AC85D343F02EB6165C98A39E',
+      base: 'ibc/E24063D336A506ED538263714714573823661773663A58A6E9A2A79892BA5180',
       name: 'Axelar',
       display: 'axl',
       symbol: 'AXL',
@@ -366,12 +366,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-168',
+            channel_id: 'channel-137',
             base_denom: 'uaxl',
             chain_name: 'axelar'
           },
           chain: {
-            channel_id: 'channel-153'
+            channel_id: 'channel-49'
           }
         }]
     },

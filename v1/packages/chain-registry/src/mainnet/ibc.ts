@@ -14,6 +14,7 @@ import * as _assetmantle from './assetmantle';
 import * as _atomone from './atomone';
 import * as _aura from './aura';
 import * as _axelar from './axelar';
+import * as _babylon from './babylon';
 import * as _bandchain from './bandchain';
 import * as _beezee from './beezee';
 import * as _bitcanna from './bitcanna';
@@ -167,6 +168,7 @@ const ibc: IBCInfo[] = [
   ..._atomone.ibc,
   ..._aura.ibc,
   ..._axelar.ibc,
+  ..._babylon.ibc,
   ..._bandchain.ibc,
   ..._beezee.ibc,
   ..._bitcanna.ibc,

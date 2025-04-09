@@ -12,6 +12,7 @@ export * as assetmantle from './assetmantle';
 export * as atomone from './atomone';
 export * as aura from './aura';
 export * as axelar from './axelar';
+export * as babylon from './babylon';
 export * as bandchain from './bandchain';
 export * as beezee from './beezee';
 export * as bitcanna from './bitcanna';

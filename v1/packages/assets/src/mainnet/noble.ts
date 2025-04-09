@@ -208,6 +208,39 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Babylon Genesis.',
+      denom_units: [{
+          denom: 'ibc/0C817F0C77FAE08034E5354D1BDEF1672104ECC3E5B1B8811A580290A4A80614',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ibc/0C817F0C77FAE08034E5354D1BDEF1672104ECC3E5B1B8811A580290A4A80614',
+      name: 'Babylon',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'ubbn',
+            chain_name: 'babylon'
+          },
+          chain: {
+            channel_id: 'channel-132'
+          }
+        }]
+    },
+    {
       description: 'BeeZee network native coin',
       denom_units: [{
           denom: 'ibc/013AE50CCCE7DC02463EE602010A0F25C8405F39D7CB3BB4E944DCF2213C18AF',
@@ -2649,6 +2682,39 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-41'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Babylon Genesis.',
+      denom_units: [{
+          denom: 'ibc/0C817F0C77FAE08034E5354D1BDEF1672104ECC3E5B1B8811A580290A4A80614',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ibc/0C817F0C77FAE08034E5354D1BDEF1672104ECC3E5B1B8811A580290A4A80614',
+      name: 'Babylon',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'ubbn',
+            chain_name: 'babylon'
+          },
+          chain: {
+            channel_id: 'channel-132'
           }
         }]
     },
