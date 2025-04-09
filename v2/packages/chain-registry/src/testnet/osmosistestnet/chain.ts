@@ -28,23 +28,8 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/osmosis-labs/osmosis',
-    recommendedVersion: 'v15.0.0',
-    compatibleVersions: ['v15.0.0-rc3', 'v15.0.0'],
-    consensus: {
-      type: 'tendermint',
-      version: '0.34'
-    },
-    genesis: {
-      genesisUrl: 'https://genesis.osmotest5.osmosis.zone/genesis.json'
-    },
-    sdk: {
-      type: 'cosmos',
-      version: '0.45'
-    },
-    cosmwasm: {
-      version: '0.30',
-      enabled: true
-    }
+    recommendedVersion: '29.0.0',
+    compatibleVersions: ['29.0.0-rc1', '29.0.0']
   },
   apis: {
     rpc: [{

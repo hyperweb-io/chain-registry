@@ -666,10 +666,16 @@ const info: AssetList = {
         }
       ],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/pol.axl.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/pol.axl.png'
       },
       images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/pol.axl.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/pol.axl.png',
+          theme: {
+            primaryColorHex: '#8444e4'
+          }
+        }, {
           imageSync: {
             chainName: 'polygon',
             baseDenom: 'wei'
@@ -13574,10 +13580,16 @@ const info: AssetList = {
           }
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dym.dym.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dym.dym.png'
       },
       images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dym.dym.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dym.dym.png',
+          theme: {
+            primaryColorHex: '#f4e4d4'
+          }
+        }, {
           imageSync: {
             chainName: 'dymension',
             baseDenom: 'adym'

@@ -525,7 +525,7 @@ const info: Chain = {
       genesisUrl: 'https://github.com/osmosis-labs/networks/raw/main/osmosis-1/genesis.json'
     },
     recommendedVersion: '29.0.0',
-    compatibleVersions: ['29.0.0-rc1'],
+    compatibleVersions: ['29.0.0'],
     consensus: {
       type: 'cometbft',
       version: '0.38.17',
@@ -546,9 +546,9 @@ const info: Chain = {
     },
     ibc: {
       type: 'go',
-      version: 'v8.7.0',
+      version: '8.7.0',
       repo: 'https://github.com/cosmos/ibc-go',
-      tag: '8.7.0',
+      tag: 'v8.7.0',
       icsEnabled: ['ics20-1']
     },
     language: {
@@ -556,8 +556,8 @@ const info: Chain = {
       version: '1.22.11'
     },
     binaries: {
-      "linux/amd64": 'https://github.com/osmosis-labs/osmosis/releases/download/v29.0.0-rc1/osmosisd-29.0.0-rc1-linux-amd64',
-      "linux/arm64": 'https://github.com/osmosis-labs/osmosis/releases/download/v29.0.0-rc1/osmosisd-29.0.0-rc1-linux-arm64'
+      "linux/amd64": 'https://github.com/osmosis-labs/osmosis/releases/download/v29.0.0/osmosisd-29.0.0-linux-amd64?checksum=6999331507e5119228456a64f733eb1d945f5392ffcfd4673bdad25886b19a7e',
+      "linux/arm64": 'https://github.com/osmosis-labs/osmosis/releases/download/v29.0.0/osmosisd-29.0.0-linux-arm64?checksum=079d836d1bf009aab09149eb79d3c187980c5116b8319e09c66a8cae7fa0704c'
     }
   },
   images: [{
