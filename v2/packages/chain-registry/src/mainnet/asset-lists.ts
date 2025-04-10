@@ -102,6 +102,7 @@ import * as _lava from './lava';
 import * as _lefeef from './lefeef';
 import * as _likecoin from './likecoin';
 import * as _logos from './logos';
+import * as _lombardledger from './lombardledger';
 import * as _loop from './loop';
 import * as _lorenzo from './lorenzo';
 import * as _loyal from './loyal';
@@ -303,6 +304,7 @@ const assetList: AssetList[] = [
   _lefeef.assetList,
   _likecoin.assetList,
   _logos.assetList,
+  _lombardledger.assetList,
   _loop.assetList,
   _lorenzo.assetList,
   _loyal.assetList,

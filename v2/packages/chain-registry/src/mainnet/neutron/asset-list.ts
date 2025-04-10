@@ -170,6 +170,47 @@ const info: AssetList = {
       coingeckoId: 'celestia'
     },
     {
+      description: 'ELYS on Neutron',
+      denomUnits: [{
+          denom: 'ibc/28FC965E05DB1A4C0A6DE6B720F67AFF8CAB571FE262824976DDDFF49A4BAAF7',
+          exponent: 0,
+          aliases: ['uelys']
+        }, {
+          denom: 'elys',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/28FC965E05DB1A4C0A6DE6B720F67AFF8CAB571FE262824976DDDFF49A4BAAF7',
+      name: 'ELYS',
+      display: 'elys',
+      symbol: 'ELYS',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'elys',
+            baseDenom: 'uelys',
+            channelId: 'channel-16'
+          },
+          chain: {
+            channelId: 'channel-6476',
+            path: 'transfer/channel-6476/uelys'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'elys',
+            baseDenom: 'uelys'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.svg'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.svg'
+      },
+      coingeckoId: 'elys-network'
+    },
+    {
       description: 'Astropepe meme coin',
       denomUnits: [{
           denom: 'factory/neutron14henrqx9y328fjrdvz6l6d92r0t7g5hk86q5nd/uastropepe',

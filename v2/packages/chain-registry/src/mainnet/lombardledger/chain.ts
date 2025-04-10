@@ -1,24 +1,24 @@
 import { Chain } from '@chain-registry/v2-types';
 const info: Chain = {
-  $schema: '../../chain.schema.json',
-  chainName: 'lombardledgertestnet',
+  $schema: '../chain.schema.json',
+  chainName: 'lombardledger',
   chainType: 'cosmos',
-  chainId: 'ledger-testnet-1',
+  chainId: 'ledger-mainnet-1',
   status: 'live',
-  networkType: 'testnet',
+  networkType: 'mainnet',
   bech32Prefix: 'lom',
   daemonName: 'ledgerd',
   nodeHome: '$HOME/.ledgerd',
   keyAlgos: ['secp256k1'],
-  prettyName: 'Lombard Ledger Testnet',
+  prettyName: 'Lombard Ledger',
   slip44: 118,
   fees: {
     feeTokens: [{
         denom: 'ulom',
-        fixedMinGasPrice: 1,
-        lowGasPrice: 1,
-        averageGasPrice: 1,
-        highGasPrice: 1
+        fixedMinGasPrice: 100,
+        lowGasPrice: 100,
+        averageGasPrice: 100,
+        highGasPrice: 100
       }]
   },
   staking: {
@@ -30,7 +30,7 @@ const info: Chain = {
     gitRepo: 'https://github.com/lombard-finance/ledger',
     recommendedVersion: 'v1.2.0',
     genesis: {
-      genesisUrl: 'https://github.com/lombard-finance/ledger-testnets/blob/d9a6a4e1ca48bd6f9cbe5330d3e10eb157c38252/gastald/config/genesis.json'
+      genesisUrl: 'https://github.com/lombard-finance/ledger-testnets/blob/441861abd12e5149663079c6e36db3064ec4745a/mainnet/config/genesis.json'
     }
   },
   apis: {
@@ -40,8 +40,8 @@ const info: Chain = {
   },
   explorers: [{
       kind: 'Mintscan',
-      url: 'https://www.mintscan.io/lombard-testnet',
-      txPage: 'https://www.mintscan.io/lombard-testnet/tx/${txHash}'
+      url: 'https://www.mintscan.io/lombard',
+      txPage: 'https://www.mintscan.io/lombard/tx/${txHash}'
     }]
 };
 export default info;

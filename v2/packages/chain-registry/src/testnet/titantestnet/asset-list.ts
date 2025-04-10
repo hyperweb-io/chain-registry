@@ -127,6 +127,40 @@ const info: AssetList = {
             primaryColorHex: '#f39444'
           }
         }]
+    },
+    {
+      description: 'Ethereum (ETH) is ETH token bridged from Sepolia to titan chain through Titan Power flow bridge https://dev.powerflow.asia/bridge',
+      denomUnits: [{
+          denom: 'factory/titan16gyvmp43st00s220zypex4lgvwqc3ve8l4657rhxj8myeadswmkq75slkc/eth',
+          exponent: 0,
+          aliases: ['wei']
+        }, {
+          denom: 'eth',
+          exponent: 18
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/titan16gyvmp43st00s220zypex4lgvwqc3ve8l4657rhxj8myeadswmkq75slkc/eth',
+      name: 'Ethereum',
+      display: 'eth',
+      symbol: 'ETH',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'ethereumtestnet',
+            baseDenom: 'wei',
+            contract: '0x63e4dAcAFbBf0a02d70e5b47506eebEDDe49b1c6'
+          },
+          chain: {
+            contract: 'titan16gyvmp43st00s220zypex4lgvwqc3ve8l4657rhxj8myeadswmkq75slkc'
+          },
+          provider: 'powerflow.asia, titanlab.io'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth.svg'
+        }]
     }
   ]
 };

@@ -4,6 +4,7 @@ const info: AssetList = {
   chainName: 'babylon',
   assets: [{
       description: 'The native token of Babylon Genesis.',
+      extendedDescription: 'Babylon Genesis enables Bitcoin tokens to be used as an economic security layer for Proof of Stake (PoS) systems without relying on bridges, wrapping, or third-party custody.',
       denomUnits: [{
           denom: 'ubbn',
           exponent: 0
@@ -21,7 +22,11 @@ const info: AssetList = {
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
         }],
-      typeAsset: 'sdk.coin'
+      typeAsset: 'sdk.coin',
+      socials: {
+        website: 'https://babylonlabs.io/',
+        twitter: 'https://x.com/babylonlabs_io'
+      }
     }]
 };
 export default info;

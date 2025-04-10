@@ -122,9 +122,20 @@ const info: Chain = {
       }
     ]
   },
-  explorers: [],
+  explorers: [{
+      kind: 'mintscan',
+      url: 'https://www.mintscan.io/babylon',
+      txPage: 'https://www.mintscan.io/babylon/transactions/${txHash}',
+      accountPage: 'https://www.mintscan.io/babylon/accounts/${accountAddress}'
+    }, {
+      kind: 'Nodes Guru',
+      url: 'https://babylon.explorers.guru/',
+      txPage: 'https://babylon.explorers.guru/transaction/${txHash}',
+      accountPage: 'https://babylon.explorers.guru/account/${accountAddress}'
+    }],
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
-    }]
+    }],
+  description: 'Babylon Genesis enables Bitcoin tokens to be used as an economic security layer for Proof of Stake (PoS) systems without relying on bridges, wrapping, or third-party custody.'
 };
 export default info;
