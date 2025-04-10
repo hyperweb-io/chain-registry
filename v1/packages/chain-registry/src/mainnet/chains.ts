@@ -102,6 +102,7 @@ import * as _lava from './lava';
 import * as _lefeef from './lefeef';
 import * as _likecoin from './likecoin';
 import * as _logos from './logos';
+import * as _lombardledger from './lombardledger';
 import * as _loop from './loop';
 import * as _lorenzo from './lorenzo';
 import * as _loyal from './loyal';
@@ -303,6 +304,7 @@ const chains: Chain[] = [
   _lefeef.chain,
   _likecoin.chain,
   _logos.chain,
+  _lombardledger.chain,
   _loop.chain,
   _lorenzo.chain,
   _loyal.chain,

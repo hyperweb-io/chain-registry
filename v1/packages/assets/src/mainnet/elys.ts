@@ -347,6 +347,159 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Neutron is a smart contract blockchain within the Cosmos ecosystem, leveraging the Cosmos Hub\'s security to provide cross-chain DeFi applications.',
+      denom_units: [{
+          denom: 'ibc/8BFE59DCD5A7054F0A97CF91F3E3ABCA8C5BA454E548FA512B729D4004584D47',
+          exponent: 0,
+          aliases: ['untrn']
+        }, {
+          denom: 'ntrn',
+          exponent: 6
+        }],
+      base: 'ibc/8BFE59DCD5A7054F0A97CF91F3E3ABCA8C5BA454E548FA512B729D4004584D47',
+      name: 'Neutron',
+      display: 'ntrn',
+      symbol: 'NTRN',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg'
+      },
+      coingecko_id: 'neutron-3',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg',
+          theme: {
+            primary_color_hex: '#040404',
+            background_color_hex: '#000000',
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://neutron.org/',
+        twitter: 'https://twitter.com/Neutron_org'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6476',
+            base_denom: 'untrn',
+            chain_name: 'neutron'
+          },
+          chain: {
+            channel_id: 'channel-16'
+          }
+        }]
+    },
+    {
+      description: 'BITCOSMOS',
+      denom_units: [{
+          denom: 'ibc/480A64D296960A7497EDE3FFEA0FF1ECC1B40E8B428F1645B2CEBCEF71E3E849',
+          exponent: 0,
+          aliases: ['neutron1fjzg7fmv770hsvahqm0nwnu6grs3rjnd2wa6fvm9unv6vedkzekqpw44qj']
+        }, {
+          denom: 'bitcosmos',
+          exponent: 6
+        }],
+      base: 'ibc/480A64D296960A7497EDE3FFEA0FF1ECC1B40E8B428F1645B2CEBCEF71E3E849',
+      name: 'Bitcosmos',
+      display: 'bitcosmos',
+      symbol: 'BTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bitcosmos.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bitcosmos.png',
+          theme: {
+            primary_color_hex: '#1b0847'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6476',
+            base_denom: 'neutron1fjzg7fmv770hsvahqm0nwnu6grs3rjnd2wa6fvm9unv6vedkzekqpw44qj',
+            chain_name: 'neutron'
+          },
+          chain: {
+            channel_id: 'channel-16'
+          }
+        }]
+    },
+    {
+      description: 'What the Fuck',
+      denom_units: [{
+          denom: 'ibc/CE0A866A73CB66986FCC79084269BB89709EBE2745E4995090305FDAC16ADB1B',
+          exponent: 0,
+          aliases: ['neutron12h09p8hq5y4xpsmcuxxzsn9juef4f6jvekp8yefc6xnlwm6uumnsdk29wf']
+        }, {
+          denom: 'wtf',
+          exponent: 6
+        }],
+      base: 'ibc/CE0A866A73CB66986FCC79084269BB89709EBE2745E4995090305FDAC16ADB1B',
+      name: 'wtf',
+      display: 'wtf',
+      symbol: 'WTF',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/WTF.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/WTF.png',
+          theme: {
+            primary_color_hex: '#dcd5ab'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6476',
+            base_denom: 'neutron12h09p8hq5y4xpsmcuxxzsn9juef4f6jvekp8yefc6xnlwm6uumnsdk29wf',
+            chain_name: 'neutron'
+          },
+          chain: {
+            channel_id: 'channel-16'
+          }
+        }]
+    },
+    {
+      description: 'Astro BOY',
+      denom_units: [{
+          denom: 'ibc/DE4E49A018B0BEA2DC100E8985307B4C748974962F4A68DC64E52DD3FC052EAD',
+          exponent: 0,
+          aliases: ['neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv']
+        }, {
+          denom: 'boy',
+          exponent: 6
+        }],
+      base: 'ibc/DE4E49A018B0BEA2DC100E8985307B4C748974962F4A68DC64E52DD3FC052EAD',
+      name: 'boy',
+      display: 'boy',
+      symbol: 'BOY',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/boy.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/boy.png',
+          theme: {
+            primary_color_hex: '#333333'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6476',
+            base_denom: 'neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv',
+            chain_name: 'neutron'
+          },
+          chain: {
+            channel_id: 'channel-16'
+          }
+        }]
+    },
+    {
       description: 'The permissioned staking asset for Noble Chain',
       denom_units: [{
           denom: 'ibc/825446D2FFB7DD0FE55C78C9C6D4855F253136BE596FE20E3AFCB856A86340AE',
@@ -681,6 +834,159 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-8'
+          }
+        }]
+    },
+    {
+      description: 'Neutron is a smart contract blockchain within the Cosmos ecosystem, leveraging the Cosmos Hub\'s security to provide cross-chain DeFi applications.',
+      denom_units: [{
+          denom: 'ibc/8BFE59DCD5A7054F0A97CF91F3E3ABCA8C5BA454E548FA512B729D4004584D47',
+          exponent: 0,
+          aliases: ['untrn']
+        }, {
+          denom: 'ntrn',
+          exponent: 6
+        }],
+      base: 'ibc/8BFE59DCD5A7054F0A97CF91F3E3ABCA8C5BA454E548FA512B729D4004584D47',
+      name: 'Neutron',
+      display: 'ntrn',
+      symbol: 'NTRN',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg'
+      },
+      coingecko_id: 'neutron-3',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg',
+          theme: {
+            primary_color_hex: '#040404',
+            background_color_hex: '#000000',
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://neutron.org/',
+        twitter: 'https://twitter.com/Neutron_org'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6476',
+            base_denom: 'untrn',
+            chain_name: 'neutron'
+          },
+          chain: {
+            channel_id: 'channel-16'
+          }
+        }]
+    },
+    {
+      description: 'BITCOSMOS',
+      denom_units: [{
+          denom: 'ibc/480A64D296960A7497EDE3FFEA0FF1ECC1B40E8B428F1645B2CEBCEF71E3E849',
+          exponent: 0,
+          aliases: ['neutron1fjzg7fmv770hsvahqm0nwnu6grs3rjnd2wa6fvm9unv6vedkzekqpw44qj']
+        }, {
+          denom: 'bitcosmos',
+          exponent: 6
+        }],
+      base: 'ibc/480A64D296960A7497EDE3FFEA0FF1ECC1B40E8B428F1645B2CEBCEF71E3E849',
+      name: 'Bitcosmos',
+      display: 'bitcosmos',
+      symbol: 'BTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bitcosmos.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bitcosmos.png',
+          theme: {
+            primary_color_hex: '#1b0847'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6476',
+            base_denom: 'neutron1fjzg7fmv770hsvahqm0nwnu6grs3rjnd2wa6fvm9unv6vedkzekqpw44qj',
+            chain_name: 'neutron'
+          },
+          chain: {
+            channel_id: 'channel-16'
+          }
+        }]
+    },
+    {
+      description: 'What the Fuck',
+      denom_units: [{
+          denom: 'ibc/CE0A866A73CB66986FCC79084269BB89709EBE2745E4995090305FDAC16ADB1B',
+          exponent: 0,
+          aliases: ['neutron12h09p8hq5y4xpsmcuxxzsn9juef4f6jvekp8yefc6xnlwm6uumnsdk29wf']
+        }, {
+          denom: 'wtf',
+          exponent: 6
+        }],
+      base: 'ibc/CE0A866A73CB66986FCC79084269BB89709EBE2745E4995090305FDAC16ADB1B',
+      name: 'wtf',
+      display: 'wtf',
+      symbol: 'WTF',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/WTF.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/WTF.png',
+          theme: {
+            primary_color_hex: '#dcd5ab'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6476',
+            base_denom: 'neutron12h09p8hq5y4xpsmcuxxzsn9juef4f6jvekp8yefc6xnlwm6uumnsdk29wf',
+            chain_name: 'neutron'
+          },
+          chain: {
+            channel_id: 'channel-16'
+          }
+        }]
+    },
+    {
+      description: 'Astro BOY',
+      denom_units: [{
+          denom: 'ibc/DE4E49A018B0BEA2DC100E8985307B4C748974962F4A68DC64E52DD3FC052EAD',
+          exponent: 0,
+          aliases: ['neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv']
+        }, {
+          denom: 'boy',
+          exponent: 6
+        }],
+      base: 'ibc/DE4E49A018B0BEA2DC100E8985307B4C748974962F4A68DC64E52DD3FC052EAD',
+      name: 'boy',
+      display: 'boy',
+      symbol: 'BOY',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/boy.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/boy.png',
+          theme: {
+            primary_color_hex: '#333333'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6476',
+            base_denom: 'neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv',
+            chain_name: 'neutron'
+          },
+          chain: {
+            channel_id: 'channel-16'
           }
         }]
     },

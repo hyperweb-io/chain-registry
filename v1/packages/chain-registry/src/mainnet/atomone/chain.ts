@@ -129,6 +129,10 @@ const info: Chain = {
       {
         address: 'https://rpc.atomone.roomit.xyz',
         provider: 'Roomit'
+      },
+      {
+        address: 'https://rpc.atomone.chaintools.tech',
+        provider: 'ChainTools'
       }
     ],
     rest: [
@@ -203,6 +207,10 @@ const info: Chain = {
       {
         address: 'https://api.atomone.roomit.xyz',
         provider: 'Roomit'
+      },
+      {
+        address: 'https://api.atomone.chaintools.tech',
+        provider: 'ChainTools'
       }
     ],
     grpc: [
@@ -249,6 +257,10 @@ const info: Chain = {
       {
         address: 'grpc.atomone.roomit.xyz:8443',
         provider: 'Roomit'
+      },
+      {
+        address: 'grps.aomone.chaintools.tech:443',
+        provider: 'ChainTools'
       }
     ]
   },
@@ -300,6 +312,12 @@ const info: Chain = {
       url: 'https://explorer.tendermint.roomit.xyz/atomone-mainnet',
       tx_page: 'https://explorer.tendermint.roomit.xyz/atomone-mainnet/tx/${txHash}',
       account_page: 'https://explorer.tendermint.roomit.xyz/atomone-mainnet/account/${accountAddress}'
+    },
+    {
+      kind: 'ChainTools',
+      url: 'https://explorer.chaintools.tech/atomone',
+      tx_page: 'https://explorer.chaintools.tech/atomone/tx/${txHash}',
+      account_page: 'https://explorer.chaintools.tech/atomone/account/${accountAddress}'
     }
   ],
   images: [{

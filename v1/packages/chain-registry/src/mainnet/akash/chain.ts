@@ -94,6 +94,10 @@ const info: Chain = {
       {
         address: 'https://rpc.akash.bronbro.io:443',
         provider: 'Bro_n_Bro'
+      },
+      {
+        address: 'https://akash.rpc.arcturian.tech/',
+        provider: 'Arcturian Tech'
       }
     ],
     rest: [
@@ -144,6 +148,10 @@ const info: Chain = {
       {
         address: 'https://lcd.akash.bronbro.io:443',
         provider: 'Bro_n_Bro'
+      },
+      {
+        address: 'https://akash.api.arcturian.tech',
+        provider: 'Arcturian Tech'
       }
     ],
     grpc: [{
@@ -199,6 +207,11 @@ const info: Chain = {
       url: 'https://mainnet.whispernode.com/akash',
       tx_page: 'https://mainnet.whispernode.com/akash/tx/${txHash}',
       account_page: 'https://mainnet.whispernode.com/akash/account/${accountAddress}'
+    },
+    {
+      kind: 'Arcturian Tech',
+      url: 'https://explorer.arcturian.tech',
+      tx_page: 'https://explorer.arcturian.tech/akash/tx/${txHash}'
     }
   ],
   images: [{

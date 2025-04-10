@@ -100,6 +100,7 @@ export * as lava from './lava';
 export * as lefeef from './lefeef';
 export * as likecoin from './likecoin';
 export * as logos from './logos';
+export * as lombardledger from './lombardledger';
 export * as loop from './loop';
 export * as lorenzo from './lorenzo';
 export * as loyal from './loyal';
