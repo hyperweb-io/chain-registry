@@ -218,7 +218,7 @@ const assets: AssetList = {
           exponent: 6
         }],
       base: 'ibc/0C817F0C77FAE08034E5354D1BDEF1672104ECC3E5B1B8811A580290A4A80614',
-      name: 'Babylon',
+      name: 'BABY',
       display: 'BABY',
       symbol: 'BABY',
       logo_URIs: {
@@ -227,7 +227,12 @@ const assets: AssetList = {
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
         }],
+      coingecko_id: 'babylon',
       type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://babylonlabs.io/',
+        twitter: 'https://x.com/babylonlabs_io'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -2696,7 +2701,7 @@ const assets: AssetList = {
           exponent: 6
         }],
       base: 'ibc/0C817F0C77FAE08034E5354D1BDEF1672104ECC3E5B1B8811A580290A4A80614',
-      name: 'Babylon',
+      name: 'BABY',
       display: 'BABY',
       symbol: 'BABY',
       logo_URIs: {
@@ -2705,7 +2710,12 @@ const assets: AssetList = {
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
         }],
+      coingecko_id: 'babylon',
       type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://babylonlabs.io/',
+        twitter: 'https://x.com/babylonlabs_io'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {

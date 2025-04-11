@@ -49,10 +49,16 @@ const info: Chain = {
     rpc: [{
         address: 'https://rpc-seed.arkeo.network',
         provider: 'Arkeo'
+      }, {
+        address: 'https://arkeo-mainnet-rpc.autostake.com:443',
+        provider: 'AutoStake 🛡️ Slash Protected'
       }],
     rest: [{
         address: 'https://rest-seed.arkeo.network',
         provider: 'Arkeo'
+      }, {
+        address: 'https://arkeo-mainnet-lcd.autostake.com:443',
+        provider: 'AutoStake 🛡️ Slash Protected'
       }]
   },
   explorers: [{

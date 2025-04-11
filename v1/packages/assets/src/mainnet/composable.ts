@@ -798,6 +798,251 @@ const assets: AssetList = {
         }]
     },
     {
+      type_asset: 'erc20',
+      address: '0x657e8c867d8b37dcc18fa4caead9c45eb088c642',
+      denom_units: [{
+          denom: 'ibc/D6781C32782BBECDF66379B4C3F40459DEAFFFDB072ECFE4A3B650E9A600FC25',
+          exponent: 0,
+          aliases: ['0x657e8c867d8b37dcc18fa4caead9c45eb088c642']
+        }, {
+          denom: 'ebtc',
+          exponent: 8
+        }],
+      base: 'ibc/D6781C32782BBECDF66379B4C3F40459DEAFFFDB072ECFE4A3B650E9A600FC25',
+      name: 'ether.fi BTC',
+      display: 'ebtc',
+      symbol: 'eBTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png'
+      },
+      coingecko_id: 'ether-fi-staked-btc',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0x657e8c867d8b37dcc18fa4caead9c45eb088c642',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3',
+      denom_units: [{
+          denom: 'ibc/5904B181B919322225CFA56E3FD0A388AA360B8080A4EF5739F84E32FB7F67F6',
+          exponent: 0,
+          aliases: ['0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3']
+        }, {
+          denom: 'stbtc',
+          exponent: 18
+        }],
+      base: 'ibc/5904B181B919322225CFA56E3FD0A388AA360B8080A4EF5739F84E32FB7F67F6',
+      name: 'Lorenzo stBTC',
+      display: 'stbtc',
+      symbol: 'stBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
+      },
+      coingecko_id: 'lorenzo-stbtc',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0x9356f6d95b8e109f4b7ce3e49d672967d3b48383',
+      denom_units: [{
+          denom: 'ibc/6188182ADEC57C792BEF2351A42B49688BDCED25F51AFD534DEE90503266CE6D',
+          exponent: 0,
+          aliases: ['0x9356f6d95b8e109f4b7ce3e49d672967d3b48383']
+        }, {
+          denom: 'kbtc',
+          exponent: 18
+        }],
+      base: 'ibc/6188182ADEC57C792BEF2351A42B49688BDCED25F51AFD534DEE90503266CE6D',
+      name: 'Kinza Babylon Staked BTC',
+      display: 'kbtc',
+      symbol: 'kBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg'
+      },
+      coingecko_id: 'kintsugi-btc',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0x9356f6d95b8e109f4b7ce3e49d672967d3b48383',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568',
+      denom_units: [{
+          denom: 'ibc/A3CCBB0769980E4FCBAA6E1D667E8AE9CC38803E92F21189E668358731494ED9',
+          exponent: 0,
+          aliases: ['0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568']
+        }, {
+          denom: 'unibtc',
+          exponent: 8
+        }],
+      base: 'ibc/A3CCBB0769980E4FCBAA6E1D667E8AE9CC38803E92F21189E668358731494ED9',
+      name: 'uniBTC',
+      display: 'unibtc',
+      symbol: 'uniBTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC_200px.png'
+      },
+      coingecko_id: 'universal-btc',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0xbdf245957992bfbc62b07e344128a1eec7b7ee3f',
+      denom_units: [{
+          denom: 'ibc/C5A2F4E4C40816754E8F3F9886A8B8E01A7C58BE3B3741AB79A0C84D496BA513',
+          exponent: 0,
+          aliases: ['0xbdf245957992bfbc62b07e344128a1eec7b7ee3f']
+        }, {
+          denom: 'mbtc',
+          exponent: 8
+        }],
+      base: 'ibc/C5A2F4E4C40816754E8F3F9886A8B8E01A7C58BE3B3741AB79A0C84D496BA513',
+      name: 'mBTC',
+      display: 'mbtc',
+      symbol: 'mBTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/mbtc.png'
+      },
+      coingecko_id: 'babypie-wrapped-btc',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0xbdf245957992bfbc62b07e344128a1eec7b7ee3f',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e',
+      denom_units: [{
+          denom: 'ibc/56DC152486BEEDFDA4201555A3340B239BE517717543205375C1395C69BF4F45',
+          exponent: 0,
+          aliases: ['0xf469fbd2abcd6b9de8e169d128226c0fc90a012e']
+        }, {
+          denom: 'pumpbtc',
+          exponent: 8
+        }],
+      base: 'ibc/56DC152486BEEDFDA4201555A3340B239BE517717543205375C1395C69BF4F45',
+      name: 'pumpBTC',
+      display: 'pumpbtc',
+      symbol: 'pumpBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
+      },
+      coingecko_id: 'pumpbtc',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0xd9d920aa40f578ab794426f5c90f6c731d159def',
+      denom_units: [{
+          denom: 'ibc/B642D92A727DEAB78E01AF01DA5CD8EC7C1706361B1A03EBD87DDFE54969FD9E',
+          exponent: 0,
+          aliases: ['0xd9d920aa40f578ab794426f5c90f6c731d159def']
+        }, {
+          denom: 'xsolvbtc',
+          exponent: 18
+        }],
+      base: 'ibc/B642D92A727DEAB78E01AF01DA5CD8EC7C1706361B1A03EBD87DDFE54969FD9E',
+      name: 'xSolvBTC',
+      display: 'xsolvbtc',
+      symbol: 'xsolvBTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png'
+      },
+      coingecko_id: 'solv-protocol-solvbtc-bbn',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0xd9d920aa40f578ab794426f5c90f6c731d159def',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a',
+      denom_units: [{
+          denom: 'ibc/413B0A121848E03C0549C440A0C68BA86C04BE03F0BAD8D7D4B98D8C2B5B546E',
+          exponent: 0,
+          aliases: ['0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a']
+        }, {
+          denom: 'enzobtc',
+          exponent: 8
+        }],
+      base: 'ibc/413B0A121848E03C0549C440A0C68BA86C04BE03F0BAD8D7D4B98D8C2B5B546E',
+      name: 'enzoBTC',
+      display: 'enzobtc',
+      symbol: 'enzoBTC',
+      coingecko_id: 'lorenzo-wrapped-bitcoin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
       description: 'Solana is a high-performance blockchain platform known for its fast transaction speeds, low costs, and scalability, ideal for decentralized applications and crypto projects.',
       denom_units: [{
           denom: 'ibc/C7F9D7DFF5469F53AB878ED0FBE53CC6B8B2720CD0ED09FD65F25343B13517CC',
@@ -2624,6 +2869,251 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-2',
             base_denom: '0xcE682c89C63d2850Cb2ca898E44D6c7c30d897a6',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0x657e8c867d8b37dcc18fa4caead9c45eb088c642',
+      denom_units: [{
+          denom: 'ibc/D6781C32782BBECDF66379B4C3F40459DEAFFFDB072ECFE4A3B650E9A600FC25',
+          exponent: 0,
+          aliases: ['0x657e8c867d8b37dcc18fa4caead9c45eb088c642']
+        }, {
+          denom: 'ebtc',
+          exponent: 8
+        }],
+      base: 'ibc/D6781C32782BBECDF66379B4C3F40459DEAFFFDB072ECFE4A3B650E9A600FC25',
+      name: 'ether.fi BTC',
+      display: 'ebtc',
+      symbol: 'eBTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png'
+      },
+      coingecko_id: 'ether-fi-staked-btc',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0x657e8c867d8b37dcc18fa4caead9c45eb088c642',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3',
+      denom_units: [{
+          denom: 'ibc/5904B181B919322225CFA56E3FD0A388AA360B8080A4EF5739F84E32FB7F67F6',
+          exponent: 0,
+          aliases: ['0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3']
+        }, {
+          denom: 'stbtc',
+          exponent: 18
+        }],
+      base: 'ibc/5904B181B919322225CFA56E3FD0A388AA360B8080A4EF5739F84E32FB7F67F6',
+      name: 'Lorenzo stBTC',
+      display: 'stbtc',
+      symbol: 'stBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
+      },
+      coingecko_id: 'lorenzo-stbtc',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0x9356f6d95b8e109f4b7ce3e49d672967d3b48383',
+      denom_units: [{
+          denom: 'ibc/6188182ADEC57C792BEF2351A42B49688BDCED25F51AFD534DEE90503266CE6D',
+          exponent: 0,
+          aliases: ['0x9356f6d95b8e109f4b7ce3e49d672967d3b48383']
+        }, {
+          denom: 'kbtc',
+          exponent: 18
+        }],
+      base: 'ibc/6188182ADEC57C792BEF2351A42B49688BDCED25F51AFD534DEE90503266CE6D',
+      name: 'Kinza Babylon Staked BTC',
+      display: 'kbtc',
+      symbol: 'kBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg'
+      },
+      coingecko_id: 'kintsugi-btc',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0x9356f6d95b8e109f4b7ce3e49d672967d3b48383',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568',
+      denom_units: [{
+          denom: 'ibc/A3CCBB0769980E4FCBAA6E1D667E8AE9CC38803E92F21189E668358731494ED9',
+          exponent: 0,
+          aliases: ['0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568']
+        }, {
+          denom: 'unibtc',
+          exponent: 8
+        }],
+      base: 'ibc/A3CCBB0769980E4FCBAA6E1D667E8AE9CC38803E92F21189E668358731494ED9',
+      name: 'uniBTC',
+      display: 'unibtc',
+      symbol: 'uniBTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC_200px.png'
+      },
+      coingecko_id: 'universal-btc',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0xbdf245957992bfbc62b07e344128a1eec7b7ee3f',
+      denom_units: [{
+          denom: 'ibc/C5A2F4E4C40816754E8F3F9886A8B8E01A7C58BE3B3741AB79A0C84D496BA513',
+          exponent: 0,
+          aliases: ['0xbdf245957992bfbc62b07e344128a1eec7b7ee3f']
+        }, {
+          denom: 'mbtc',
+          exponent: 8
+        }],
+      base: 'ibc/C5A2F4E4C40816754E8F3F9886A8B8E01A7C58BE3B3741AB79A0C84D496BA513',
+      name: 'mBTC',
+      display: 'mbtc',
+      symbol: 'mBTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/mbtc.png'
+      },
+      coingecko_id: 'babypie-wrapped-btc',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0xbdf245957992bfbc62b07e344128a1eec7b7ee3f',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e',
+      denom_units: [{
+          denom: 'ibc/56DC152486BEEDFDA4201555A3340B239BE517717543205375C1395C69BF4F45',
+          exponent: 0,
+          aliases: ['0xf469fbd2abcd6b9de8e169d128226c0fc90a012e']
+        }, {
+          denom: 'pumpbtc',
+          exponent: 8
+        }],
+      base: 'ibc/56DC152486BEEDFDA4201555A3340B239BE517717543205375C1395C69BF4F45',
+      name: 'pumpBTC',
+      display: 'pumpbtc',
+      symbol: 'pumpBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
+      },
+      coingecko_id: 'pumpbtc',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0xd9d920aa40f578ab794426f5c90f6c731d159def',
+      denom_units: [{
+          denom: 'ibc/B642D92A727DEAB78E01AF01DA5CD8EC7C1706361B1A03EBD87DDFE54969FD9E',
+          exponent: 0,
+          aliases: ['0xd9d920aa40f578ab794426f5c90f6c731d159def']
+        }, {
+          denom: 'xsolvbtc',
+          exponent: 18
+        }],
+      base: 'ibc/B642D92A727DEAB78E01AF01DA5CD8EC7C1706361B1A03EBD87DDFE54969FD9E',
+      name: 'xSolvBTC',
+      display: 'xsolvbtc',
+      symbol: 'xsolvBTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png'
+      },
+      coingecko_id: 'solv-protocol-solvbtc-bbn',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0xd9d920aa40f578ab794426f5c90f6c731d159def',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a',
+      denom_units: [{
+          denom: 'ibc/413B0A121848E03C0549C440A0C68BA86C04BE03F0BAD8D7D4B98D8C2B5B546E',
+          exponent: 0,
+          aliases: ['0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a']
+        }, {
+          denom: 'enzobtc',
+          exponent: 8
+        }],
+      base: 'ibc/413B0A121848E03C0549C440A0C68BA86C04BE03F0BAD8D7D4B98D8C2B5B546E',
+      name: 'enzoBTC',
+      display: 'enzobtc',
+      symbol: 'enzoBTC',
+      coingecko_id: 'lorenzo-wrapped-bitcoin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a',
             chain_name: 'ethereum'
           },
           chain: {

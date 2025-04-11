@@ -476,7 +476,7 @@ const assets: AssetList = {
           exponent: 6
         }],
       base: 'ibc/7017AD43F9A09EFE8760556753B019B1B5C2E965095DEC22B613F7B010DF91D6',
-      name: 'Babylon',
+      name: 'BABY',
       display: 'BABY',
       symbol: 'BABY',
       logo_URIs: {
@@ -485,7 +485,12 @@ const assets: AssetList = {
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
         }],
+      coingecko_id: 'babylon',
       type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://babylonlabs.io/',
+        twitter: 'https://x.com/babylonlabs_io'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -1634,7 +1639,7 @@ const assets: AssetList = {
           exponent: 6
         }],
       base: 'ibc/7017AD43F9A09EFE8760556753B019B1B5C2E965095DEC22B613F7B010DF91D6',
-      name: 'Babylon',
+      name: 'BABY',
       display: 'BABY',
       symbol: 'BABY',
       logo_URIs: {
@@ -1643,7 +1648,12 @@ const assets: AssetList = {
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
         }],
+      coingecko_id: 'babylon',
       type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://babylonlabs.io/',
+        twitter: 'https://x.com/babylonlabs_io'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -4288,6 +4298,57 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-217'
+          }
+        }]
+    },
+    {
+      description: 'LOM is the native fee token of Lombard Ledger',
+      denom_units: [{
+          denom: 'ibc/CA894919487EB2CFED8A23618B2291CF014F4DF09E4FD23A574817DC9018EE88',
+          exponent: 0,
+          aliases: ['ulom']
+        }, {
+          denom: 'lom',
+          exponent: 6
+        }],
+      base: 'ibc/CA894919487EB2CFED8A23618B2291CF014F4DF09E4FD23A574817DC9018EE88',
+      name: 'Lom',
+      display: 'lom',
+      symbol: 'LOM',
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ulom',
+            chain_name: 'lombardledger'
+          },
+          chain: {
+            channel_id: 'channel-1340'
+          }
+        }]
+    },
+    {
+      description: 'ustake is a syntetic token to implement a PoA with BFT features over CometBFT',
+      denom_units: [{
+          denom: 'ibc/5DB06CF0697F085EA4A630A9635819C5036299E9EFEFAE8402CF36D6014C04E7',
+          exponent: 0,
+          aliases: ['ustake']
+        }],
+      base: 'ibc/5DB06CF0697F085EA4A630A9635819C5036299E9EFEFAE8402CF36D6014C04E7',
+      name: 'ustake',
+      display: 'ustake',
+      symbol: 'USTAKE',
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ustake',
+            chain_name: 'lombardledger'
+          },
+          chain: {
+            channel_id: 'channel-1340'
           }
         }]
     },
@@ -12699,6 +12760,57 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-217'
+          }
+        }]
+    },
+    {
+      description: 'LOM is the native fee token of Lombard Ledger',
+      denom_units: [{
+          denom: 'ibc/CA894919487EB2CFED8A23618B2291CF014F4DF09E4FD23A574817DC9018EE88',
+          exponent: 0,
+          aliases: ['ulom']
+        }, {
+          denom: 'lom',
+          exponent: 6
+        }],
+      base: 'ibc/CA894919487EB2CFED8A23618B2291CF014F4DF09E4FD23A574817DC9018EE88',
+      name: 'Lom',
+      display: 'lom',
+      symbol: 'LOM',
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ulom',
+            chain_name: 'lombardledger'
+          },
+          chain: {
+            channel_id: 'channel-1340'
+          }
+        }]
+    },
+    {
+      description: 'ustake is a syntetic token to implement a PoA with BFT features over CometBFT',
+      denom_units: [{
+          denom: 'ibc/5DB06CF0697F085EA4A630A9635819C5036299E9EFEFAE8402CF36D6014C04E7',
+          exponent: 0,
+          aliases: ['ustake']
+        }],
+      base: 'ibc/5DB06CF0697F085EA4A630A9635819C5036299E9EFEFAE8402CF36D6014C04E7',
+      name: 'ustake',
+      display: 'ustake',
+      symbol: 'USTAKE',
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ustake',
+            chain_name: 'lombardledger'
+          },
+          chain: {
+            channel_id: 'channel-1340'
           }
         }]
     },

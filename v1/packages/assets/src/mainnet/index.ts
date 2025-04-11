@@ -76,6 +76,7 @@ export * as kyve from './kyve';
 export * as lambda from './lambda';
 export * as lava from './lava';
 export * as likecoin from './likecoin';
+export * as lombardledger from './lombardledger';
 export * as lorenzo from './lorenzo';
 export * as lumnetwork from './lumnetwork';
 export * as mande from './mande';

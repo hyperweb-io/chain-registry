@@ -83,6 +83,14 @@ const info: Chain = {
       {
         address: 'https://babylon-archive-rpc.polkachu.com',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://babylon-rpc.publicnode.com:443',
+        provider: 'Allnodes ⚡️ Nodes & Staking'
+      },
+      {
+        address: 'https://babylon-mainnet-rpc.autostake.com:443',
+        provider: 'AutoStake 🛡️ Slash Protected'
       }
     ],
     rest: [
@@ -101,6 +109,14 @@ const info: Chain = {
       {
         address: 'https://babylon-archive-api.polkachu.com',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://babylon-rest.publicnode.com',
+        provider: 'Allnodes ⚡️ Nodes & Staking'
+      },
+      {
+        address: 'https://babylon-mainnet-lcd.autostake.com:443',
+        provider: 'AutoStake 🛡️ Slash Protected'
       }
     ],
     grpc: [
@@ -119,12 +135,31 @@ const info: Chain = {
       {
         address: 'babylon-archive-grpc.polkachu.com:20690',
         provider: 'Polkachu'
+      },
+      {
+        address: 'babylon-grpc.publicnode.com:443',
+        provider: 'Allnodes ⚡️ Nodes & Staking'
+      },
+      {
+        address: 'babylon-mainnet-grpc.autostake.com:443',
+        provider: 'AutoStake 🛡️ Slash Protected'
       }
     ]
   },
-  explorers: [],
+  explorers: [{
+      kind: 'mintscan',
+      url: 'https://www.mintscan.io/babylon',
+      tx_page: 'https://www.mintscan.io/babylon/transactions/${txHash}',
+      account_page: 'https://www.mintscan.io/babylon/accounts/${accountAddress}'
+    }, {
+      kind: 'Nodes Guru',
+      url: 'https://babylon.explorers.guru/',
+      tx_page: 'https://babylon.explorers.guru/transaction/${txHash}',
+      account_page: 'https://babylon.explorers.guru/account/${accountAddress}'
+    }],
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
-    }]
+    }],
+  description: 'Babylon Genesis enables Bitcoin tokens to be used as an economic security layer for Proof of Stake (PoS) systems without relying on bridges, wrapping, or third-party custody.'
 };
 export default info;
