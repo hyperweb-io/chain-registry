@@ -1617,6 +1617,183 @@ const info: AssetList = {
         website: 'https://www.movementnetwork.xyz/',
         twitter: 'https://twitter.com/movementfdn'
       }
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0x657e8c867d8b37dcc18fa4caead9c45eb088c642',
+      denomUnits: [{
+          denom: '0x657e8c867d8b37dcc18fa4caead9c45eb088c642',
+          exponent: 0
+        }, {
+          denom: 'ebtc',
+          exponent: 8
+        }],
+      base: '0x657e8c867d8b37dcc18fa4caead9c45eb088c642',
+      name: 'ether.fi BTC',
+      display: 'ebtc',
+      symbol: 'eBTC',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png'
+      },
+      coingeckoId: 'ether-fi-staked-btc'
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3',
+      denomUnits: [{
+          denom: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3',
+          exponent: 0
+        }, {
+          denom: 'stbtc',
+          exponent: 18
+        }],
+      base: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3',
+      name: 'Lorenzo stBTC',
+      display: 'stbtc',
+      symbol: 'stBTC',
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
+      },
+      coingeckoId: 'lorenzo-stbtc'
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0x9356f6d95b8e109f4b7ce3e49d672967d3b48383',
+      denomUnits: [{
+          denom: '0x9356f6d95b8e109f4b7ce3e49d672967d3b48383',
+          exponent: 0
+        }, {
+          denom: 'kbtc',
+          exponent: 18
+        }],
+      base: '0x9356f6d95b8e109f4b7ce3e49d672967d3b48383',
+      name: 'Kinza Babylon Staked BTC',
+      display: 'kbtc',
+      symbol: 'kBTC',
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg'
+      },
+      coingeckoId: 'kintsugi-btc'
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568',
+      denomUnits: [{
+          denom: '0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568',
+          exponent: 0
+        }, {
+          denom: 'unibtc',
+          exponent: 8
+        }],
+      base: '0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568',
+      name: 'uniBTC',
+      display: 'unibtc',
+      symbol: 'uniBTC',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC_200px.png'
+      },
+      coingeckoId: 'universal-btc'
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0xbdf245957992bfbc62b07e344128a1eec7b7ee3f',
+      denomUnits: [{
+          denom: '0xbdf245957992bfbc62b07e344128a1eec7b7ee3f',
+          exponent: 0
+        }, {
+          denom: 'mbtc',
+          exponent: 8
+        }],
+      base: '0xbdf245957992bfbc62b07e344128a1eec7b7ee3f',
+      name: 'mBTC',
+      display: 'mbtc',
+      symbol: 'mBTC',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/mbtc.png'
+      },
+      coingeckoId: 'babypie-wrapped-btc'
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e',
+      denomUnits: [{
+          denom: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e',
+          exponent: 0
+        }, {
+          denom: 'pumpbtc',
+          exponent: 8
+        }],
+      base: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e',
+      name: 'pumpBTC',
+      display: 'pumpbtc',
+      symbol: 'pumpBTC',
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
+      },
+      coingeckoId: 'pumpbtc'
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0x7a56e1c57c7475ccf742a1832b028f0456652f97',
+      denomUnits: [{
+          denom: '0x7a56e1c57c7475ccf742a1832b028f0456652f97',
+          exponent: 0
+        }, {
+          denom: 'solvbtc',
+          exponent: 18
+        }],
+      base: '0x7a56e1c57c7475ccf742a1832b028f0456652f97',
+      name: 'SolvBTC',
+      display: 'solvbtc',
+      symbol: 'solvBTC',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chainName: 'bitcoin',
+            baseDenom: 'sat'
+          },
+          provider: 'Solv Protocol'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png'
+      },
+      coingeckoId: 'solv-btc'
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0xd9d920aa40f578ab794426f5c90f6c731d159def',
+      denomUnits: [{
+          denom: '0xd9d920aa40f578ab794426f5c90f6c731d159def',
+          exponent: 0
+        }, {
+          denom: 'xsolvbtc',
+          exponent: 18
+        }],
+      base: '0xd9d920aa40f578ab794426f5c90f6c731d159def',
+      name: 'xSolvBTC',
+      display: 'xsolvbtc',
+      symbol: 'xsolvBTC',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png'
+      },
+      coingeckoId: 'solv-protocol-solvbtc-bbn'
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a',
+      denomUnits: [{
+          denom: '0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a',
+          exponent: 0
+        }, {
+          denom: 'enzobtc',
+          exponent: 8
+        }],
+      base: '0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a',
+      name: 'enzoBTC',
+      display: 'enzobtc',
+      symbol: 'enzoBTC',
+      coingeckoId: 'lorenzo-wrapped-bitcoin'
     }
   ]
 };

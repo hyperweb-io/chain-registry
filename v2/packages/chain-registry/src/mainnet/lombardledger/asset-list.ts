@@ -31,7 +31,15 @@ const info: AssetList = {
       name: 'Liquid Bitcoin',
       display: 'lbtc',
       symbol: 'LBTC',
-      typeAsset: 'sdk.coin'
+      typeAsset: 'sdk.coin',
+      traces: [{
+          type: 'additional-mintage',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x8236a87084f8B84306f72007F36F2618A5634494'
+          },
+          provider: 'Lombard'
+        }]
     },
     {
       description: 'ustake is a syntetic token to implement a PoA with BFT features over CometBFT',

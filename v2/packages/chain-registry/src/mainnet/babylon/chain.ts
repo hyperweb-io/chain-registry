@@ -83,6 +83,14 @@ const info: Chain = {
       {
         address: 'https://babylon-archive-rpc.polkachu.com',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://babylon-rpc.publicnode.com:443',
+        provider: 'Allnodes ⚡️ Nodes & Staking'
+      },
+      {
+        address: 'https://babylon-mainnet-rpc.autostake.com:443',
+        provider: 'AutoStake 🛡️ Slash Protected'
       }
     ],
     rest: [
@@ -101,6 +109,14 @@ const info: Chain = {
       {
         address: 'https://babylon-archive-api.polkachu.com',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://babylon-rest.publicnode.com',
+        provider: 'Allnodes ⚡️ Nodes & Staking'
+      },
+      {
+        address: 'https://babylon-mainnet-lcd.autostake.com:443',
+        provider: 'AutoStake 🛡️ Slash Protected'
       }
     ],
     grpc: [
@@ -119,6 +135,14 @@ const info: Chain = {
       {
         address: 'babylon-archive-grpc.polkachu.com:20690',
         provider: 'Polkachu'
+      },
+      {
+        address: 'babylon-grpc.publicnode.com:443',
+        provider: 'Allnodes ⚡️ Nodes & Staking'
+      },
+      {
+        address: 'babylon-mainnet-grpc.autostake.com:443',
+        provider: 'AutoStake 🛡️ Slash Protected'
       }
     ]
   },

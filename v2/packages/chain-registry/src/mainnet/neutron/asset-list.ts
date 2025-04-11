@@ -1083,6 +1083,32 @@ const info: AssetList = {
       typeAsset: 'sdk.coin'
     },
     {
+      description: 'Drop staked NTRN',
+      extendedDescription: 'Drop protocol token for the interchain liquidity',
+      denomUnits: [{
+          denom: 'factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn',
+          exponent: 0
+        }, {
+          denom: 'dNTRN',
+          exponent: 6
+        }],
+      base: 'factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn',
+      name: 'dNTRN',
+      display: 'dNTRN',
+      symbol: 'dNTRN',
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dNTRN.svg'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dNTRN.svg'
+      },
+      socials: {
+        website: 'https://www.drop.money/',
+        twitter: 'https://x.com/Dropdotmoney'
+      },
+      typeAsset: 'sdk.coin'
+    },
+    {
       description: 'Drop staked ATOM',
       extendedDescription: 'Drop protocol token for the interchain liquidity',
       denomUnits: [{
