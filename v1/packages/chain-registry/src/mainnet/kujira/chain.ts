@@ -174,10 +174,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://rpc.kujira.chaintools.tech/',
-        provider: 'ChainTools'
-      },
-      {
         address: 'https://rpc-kujira-ia.cosmosia.notional.ventures/',
         provider: 'Notional'
       },
@@ -297,10 +293,6 @@ const info: Chain = {
       }
     ],
     grpc: [
-      {
-        address: 'kujira.grpcui.chaintools.host:443',
-        provider: 'ChainTools'
-      },
       {
         address: 'grpc-kujira-ia.cosmosia.notional.ventures:443',
         provider: 'Notional'

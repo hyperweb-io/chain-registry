@@ -87,10 +87,6 @@ const info: Chain = {
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
       {
-        address: 'https://elys.rpc.vnodesv.net:443',
-        provider: 'vNodes[V] [S]er|V|ice[S]'
-      },
-      {
         address: 'https://elys-mainnet-rpc.itrocket.net:443',
         provider: 'itrocket'
       },
@@ -145,6 +141,14 @@ const info: Chain = {
       {
         address: 'https://elys-rpc.node39.top:443',
         provider: 'Node39'
+      },
+      {
+        address: 'https://elys.rpc.vnodesv.net:443',
+        provider: 'vNodes[V] [MTL Canada] Ser[V]ices'
+      },
+      {
+        address: 'https://elys.rpc.fr.vnodesv.net:443',
+        provider: 'vNodes[V] [RBX France] Ser[V]ices'
       }
     ],
     rest: [
@@ -159,10 +163,6 @@ const info: Chain = {
       {
         address: 'https://elys-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https://elys.rest.vnodesv.net:443',
-        provider: 'vNodes[V] [S]er|V|ice[S]'
       },
       {
         address: 'https://elys-mainnet-api.itrocket.net',
@@ -219,6 +219,14 @@ const info: Chain = {
       {
         address: 'https://elys-api.node39.top:443',
         provider: 'Node39'
+      },
+      {
+        address: 'https://elys.rest.vnodesv.net:443',
+        provider: 'vNodes[V] [MTL Canada] Ser[V]ices'
+      },
+      {
+        address: 'https://elys.rest.fr.vnodesv.net:443',
+        provider: 'vNodes[V] [RBX France] Ser[V]ices'
       }
     ],
     grpc: [

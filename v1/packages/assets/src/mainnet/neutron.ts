@@ -212,6 +212,44 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Babylon Genesis.',
+      denom_units: [{
+          denom: 'ibc/42B08C3E209022A4D062EF96AEA94AEBD1C2C1F14398C421027F80D9FF4994FA',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ibc/42B08C3E209022A4D062EF96AEA94AEBD1C2C1F14398C421027F80D9FF4994FA',
+      name: 'BABY',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+        }],
+      coingecko_id: 'babylon',
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://babylonlabs.io/',
+        twitter: 'https://x.com/babylonlabs_io'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-5',
+            base_denom: 'ubbn',
+            chain_name: 'babylon'
+          },
+          chain: {
+            channel_id: 'channel-6980'
+          }
+        }]
+    },
+    {
       description: 'Celestia is a modular blockchain network focused on data availability, allowing developers to deploy their own customizable blockchains with ease.',
       denom_units: [{
           denom: 'ibc/773B4D0A3CD667B2275D5A4A7A2F0909C0BA0F4059C0B9181E680DDF4965DCC7',
@@ -1435,6 +1473,44 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-2'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Babylon Genesis.',
+      denom_units: [{
+          denom: 'ibc/42B08C3E209022A4D062EF96AEA94AEBD1C2C1F14398C421027F80D9FF4994FA',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ibc/42B08C3E209022A4D062EF96AEA94AEBD1C2C1F14398C421027F80D9FF4994FA',
+      name: 'BABY',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+        }],
+      coingecko_id: 'babylon',
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://babylonlabs.io/',
+        twitter: 'https://x.com/babylonlabs_io'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-5',
+            base_denom: 'ubbn',
+            chain_name: 'babylon'
+          },
+          chain: {
+            channel_id: 'channel-6980'
           }
         }]
     },

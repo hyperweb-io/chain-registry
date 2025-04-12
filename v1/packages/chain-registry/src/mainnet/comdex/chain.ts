@@ -74,10 +74,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://rpc.comdex.chaintools.tech/',
-        provider: 'ChainTools'
-      },
-      {
         address: 'https://rpc.lavenderfive.com:443/comdex',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -126,10 +122,6 @@ const info: Chain = {
       {
         address: 'https://rest.comdex.one',
         provider: 'comdex'
-      },
-      {
-        address: 'https://api.comdex.chaintools.tech/',
-        provider: 'ChainTools'
       },
       {
         address: 'https://comdex-api.polkachu.com',
@@ -188,10 +180,6 @@ const info: Chain = {
       {
         address: 'grpc-comdex-ia.cosmosia.notional.ventures:443',
         provider: 'Notional'
-      },
-      {
-        address: 'comdex.grpcui.chaintools.host:443',
-        provider: 'ChainTools'
       },
       {
         address: 'comdex-grpc.polkachu.com:13190',

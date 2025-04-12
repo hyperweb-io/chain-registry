@@ -23818,7 +23818,7 @@ const assets: AssetList = {
       base: 'ibc/89EE10FCF78800B572BAAC7080AEFA301B5F3BBC51C5371E907EB129C5B900E7',
       name: 'Lombard Staked Bitcoin (Lombard Ledger) (Cosmos Hub)',
       display: 'lbtc',
-      symbol: 'LBTC.lom.cosmos',
+      symbol: 'LBTC.lom.atom',
       traces: [
         {
           type: 'liquid-stake',
@@ -23862,19 +23862,19 @@ const assets: AssetList = {
         }
       ],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/lbtc.atom.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/lbtc.atom.png'
       },
       images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/lbtc.atom.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/lbtc.atom.png'
+        }, {
           image_sync: {
             chain_name: 'cosmoshub',
             base_denom: 'ibc/DBD9E339E1B093A052D76BECFFDE8435EAC114CF2133346B4D691F3F2068C957'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/lbtc.atom.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/lbtc.atom.png'
         }]
     },
     {
@@ -23928,12 +23928,12 @@ const assets: AssetList = {
         }
       ],
       logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/solvBTC.atom.svg',
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/solvBTC.atom.png'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/solvbtc.atom.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/solvbtc.atom.png'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/solvBTC.atom.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/solvBTC.atom.png'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/solvbtc.atom.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/solvbtc.atom.png'
         }, {
           image_sync: {
             chain_name: 'cosmoshub',
