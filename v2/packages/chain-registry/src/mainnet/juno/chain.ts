@@ -96,10 +96,6 @@ const info: Chain = {
         provider: 'Notional'
       },
       {
-        address: 'https://rpc.juno.chaintools.tech/',
-        provider: 'ChainTools'
-      },
-      {
         address: 'https://juno-rpc.kleomedes.network',
         provider: 'Kleomedes'
       },
@@ -200,10 +196,6 @@ const info: Chain = {
       {
         address: 'https://api-juno-ia.cosmosia.notional.ventures/',
         provider: 'Notional'
-      },
-      {
-        address: 'https://api.juno.chaintools.tech/',
-        provider: 'ChainTools'
       },
       {
         address: 'https://juno-api.polkachu.com',

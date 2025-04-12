@@ -36,8 +36,8 @@ const info: Chain = {
     genesis: {
       genesisUrl: 'https://main.agoric.net/genesis.json'
     },
-    recommendedVersion: 'agoric-upgrade-18a',
-    compatibleVersions: ['agoric-upgrade-18a'],
+    recommendedVersion: 'agoric-upgrade-19',
+    compatibleVersions: ['agoric-upgrade-19'],
     consensus: {
       type: 'cometbft',
       version: 'v0.34.35',
@@ -61,7 +61,7 @@ const info: Chain = {
       type: 'go',
       version: 'v6.3.1',
       repo: 'https://github.com/agoric-labs/ibc-go',
-      tag: 'v6.3.1-alpha.agoric.2',
+      tag: 'v6.3.1-alpha.agoric.4',
       icsEnabled: ['ics20-1']
     }
   },

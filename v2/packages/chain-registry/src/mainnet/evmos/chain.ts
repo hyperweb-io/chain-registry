@@ -81,10 +81,6 @@ const info: Chain = {
         provider: 'TestNetRun'
       },
       {
-        address: 'https://rpc.evmos.chaintools.tech/',
-        provider: 'ChainTools'
-      },
-      {
         address: 'https://evmos-rpc.polkachu.com',
         provider: 'Polkachu'
       },
@@ -251,10 +247,6 @@ const info: Chain = {
       {
         address: 'grpc-evmos.cosmos-spaces.cloud:1190',
         provider: 'Cosmos Spaces'
-      },
-      {
-        address: 'evmos.grpcui.chaintools.host:443',
-        provider: 'ChainTools'
       },
       {
         address: 'evmos-grpc.polkachu.com:13490',
