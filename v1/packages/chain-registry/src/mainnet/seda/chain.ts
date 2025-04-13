@@ -126,6 +126,10 @@ const info: Chain = {
       {
         address: 'https://seda-rpc.node39.top:443',
         provider: 'Node39.TOP'
+      },
+      {
+        address: 'https://seda-rpc.cosmos-apis.com:443',
+        provider: 'RHINO 🦏'
       }
     ],
     rest: [
@@ -188,6 +192,10 @@ const info: Chain = {
       {
         address: 'https://seda-api.node39.top:443',
         provider: 'Node39.TOP'
+      },
+      {
+        address: 'https://seda-rest.cosmos-apis.com:443',
+        provider: 'RHINO 🦏'
       }
     ],
     grpc: [
@@ -222,6 +230,10 @@ const info: Chain = {
       {
         address: 'seda-grpc.node39.top:13090',
         provider: 'Node39.TOP'
+      },
+      {
+        address: 'seda-grpc.cosmos-apis.com:443',
+        provider: 'RHINO 🦏'
       }
     ]
   },

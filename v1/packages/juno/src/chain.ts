@@ -72,7 +72,7 @@ const chain: Chain = {
         provider: 'itastakers'
       },
       {
-        address: 'http://juno.rpc.m.stavr.tech:1067',
+        address: 'https://juno.rpc.m.stavr.tech',
         provider: '🔥STAVR🔥'
       },
       {
@@ -288,7 +288,7 @@ const chain: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'http://juno.grpc.m.stavr.tech:504',
+        address: 'https://juno.grpc.m.stavr.tech:443',
         provider: '🔥STAVR🔥'
       },
       {

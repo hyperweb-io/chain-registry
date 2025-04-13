@@ -43,10 +43,6 @@ const info: Chain = {
       {
         address: 'https://api-testnet-union.nodeist.net',
         provider: 'Nodeist'
-      },
-      {
-        address: 'https://union-testnet-api.itrocket.net',
-        provider: 'ITRocket'
       }
     ],
     grpc: [{
