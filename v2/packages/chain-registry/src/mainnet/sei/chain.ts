@@ -64,7 +64,7 @@ const info: Chain = {
     rpc: [
       {
         address: 'https://rpc.sei-apis.com',
-        provider: 'Rhino Stake'
+        provider: 'RHINO 🦏'
       },
       {
         address: 'https://rpc.lavenderfive.com:443/sei',
@@ -102,7 +102,7 @@ const info: Chain = {
     rest: [
       {
         address: 'https://rest.sei-apis.com',
-        provider: 'Rhino Stake'
+        provider: 'RHINO 🦏'
       },
       {
         address: 'https://rest.lavenderfive.com:443/sei',
@@ -136,7 +136,7 @@ const info: Chain = {
     grpc: [
       {
         address: 'https://grpc.sei-apis.com:443',
-        provider: 'Rhino Stake'
+        provider: 'RHINO 🦏'
       },
       {
         address: 'sei.lavenderfive.com:443',
@@ -166,7 +166,7 @@ const info: Chain = {
     evmHttpJsonrpc: [
       {
         address: 'https://evm-rpc.sei-apis.com',
-        provider: 'Rhino Stake'
+        provider: 'RHINO 🦏'
       },
       {
         address: 'https://seievm-rpc.polkachu.com',

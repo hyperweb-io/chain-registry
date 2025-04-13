@@ -24533,6 +24533,68 @@ const info: AssetList = {
         website: 'https://coreumcommunitydao.com/',
         twitter: 'https://x.com/Cor3_Community'
       }
+    },
+    {
+      description: 'Fractionalized Crypto Hamsters',
+      extendedDescription: 'Fractionalized Crypto Hamsters NFT Via Fractal.fun',
+      denomUnits: [{
+          denom: 'factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fHAM',
+          exponent: 0
+        }, {
+          denom: 'fHAM',
+          exponent: 9
+        }],
+      typeAsset: 'sdk.coin',
+      address: 'osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv',
+      base: 'factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fHAM',
+      name: 'fHAM',
+      display: 'fHAM',
+      symbol: 'fHAM',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fHAM.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fHAM.png',
+          theme: {
+            primaryColorHex: '#639BFF'
+          }
+        }],
+      keywords: ['nft'],
+      socials: {
+        website: 'https://fractal.fun',
+        twitter: 'https://twitter.com/fractaldotfun'
+      }
+    },
+    {
+      description: 'Fractionalized CEWTs',
+      extendedDescription: 'Fractionalized CEWTs NFT Via Fractal.fun',
+      denomUnits: [{
+          denom: 'factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fCEWT',
+          exponent: 0
+        }, {
+          denom: 'fCEWT',
+          exponent: 9
+        }],
+      typeAsset: 'sdk.coin',
+      address: 'osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv',
+      base: 'factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fCEWT',
+      name: 'fCEWT',
+      display: 'fCEWT',
+      symbol: 'fCEWT',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fCEWT.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fCEWT.png',
+          theme: {
+            primaryColorHex: '#639BFF'
+          }
+        }],
+      keywords: ['nft'],
+      socials: {
+        website: 'https://fractal.fun',
+        twitter: 'https://twitter.com/fractaldotfun'
+      }
     }
   ]
 };

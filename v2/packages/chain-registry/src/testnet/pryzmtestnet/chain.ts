@@ -50,23 +50,14 @@ const info: Chain = {
     rpc: [{
         address: 'https://testnet-rpc.pryzm.zone',
         provider: 'PRYZM'
-      }, {
-        address: 'https://pryzm-testnet-rpc.itrocket.net',
-        provider: 'ITRocket'
       }],
     rest: [{
         address: 'https://testnet-api.pryzm.zone',
         provider: 'PRYZM'
-      }, {
-        address: 'https://pryzm-testnet-api.itrocket.net',
-        provider: 'ITRocket'
       }],
     grpc: [{
         address: 'https://testnet-grpc.pryzm.zone',
         provider: 'PRYZM'
-      }, {
-        address: 'http://pryzm-testnet-grpc.itrocket.net:41090',
-        provider: 'ITRocket'
       }]
   },
   logoURIs: {
@@ -78,11 +69,6 @@ const info: Chain = {
       url: 'https://testnets.cosmosrun.info/pryzm-indigo-1',
       txPage: 'https://testnets.cosmosrun.info/pryzm-indigo-1/tx/${txHash}',
       accountPage: 'https://testnets.cosmosrun.info/pryzm-indigo-1/account/${accountAddress}'
-    }, {
-      kind: 'ITRocket',
-      url: 'https://testnet.itrocket.net/pryzm',
-      txPage: 'https://testnet.itrocket.net/pryzm/tx/${txHash}',
-      accountPage: 'https://testnet.itrocket.net/pryzm/account/${accountAddress}'
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/pryzmtestnet/images/pryzm-logo.png',
