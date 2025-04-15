@@ -212,6 +212,12 @@ const info: Chain = {
       kind: 'Arcturian Tech',
       url: 'https://explorer.arcturian.tech',
       txPage: 'https://explorer.arcturian.tech/akash/tx/${txHash}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://akash.valopers.com/',
+      txPage: 'https://akash.valopers.com/transactions/${txHash}',
+      accountPage: 'https://akash.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

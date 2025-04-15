@@ -66,7 +66,7 @@ const info: Chain = {
       version: 'v8.7.0'
     },
     genesis: {
-      genesisUrl: 'https://raw.githubusercontent.com/burnt-labs/burnt-networks/refs/heads/main/mainnet/xion-mainnet-1/genesis.json'
+      genesisUrl: 'https://raw.githubusercontent.com/burnt-labs/xion-mainnet-1/refs/heads/main/config/genesis.json'
     }
   },
   apis: {

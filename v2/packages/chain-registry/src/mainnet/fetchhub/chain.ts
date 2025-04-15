@@ -285,6 +285,12 @@ const info: Chain = {
       url: 'https://mainnet.explorer.aviaone.com/fetchhub',
       txPage: 'https://mainnet.explorer.aviaone.com/fetchhub/tx/${txHash}',
       accountPage: 'https://mainnet.explorer.aviaone.com/fetchhub/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://asi.valopers.com/',
+      txPage: 'https://asi.valopers.com/transactions/${txHash}',
+      accountPage: 'https://asi.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

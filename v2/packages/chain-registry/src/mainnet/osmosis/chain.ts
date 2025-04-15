@@ -977,6 +977,12 @@ const info: Chain = {
       url: 'https://explorer.chainroot.io/osmosis',
       txPage: 'https://explorer.chainroot.io/osmosis/transactions/${txHash}',
       accountPage: 'https://explorer.chainroot.io/osmosis/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://osmosis.valopers.com/',
+      txPage: 'https://osmosis.valopers.com/transactions/${txHash}',
+      accountPage: 'https://osmosis.valopers.com/account/${accountAddress}'
     }
   ],
   keywords: ['dex']

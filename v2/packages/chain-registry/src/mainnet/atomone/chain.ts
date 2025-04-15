@@ -318,6 +318,12 @@ const info: Chain = {
       url: 'https://explorer.chaintools.tech/atomone',
       txPage: 'https://explorer.chaintools.tech/atomone/tx/${txHash}',
       accountPage: 'https://explorer.chaintools.tech/atomone/account/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://atomone.valopers.com/',
+      txPage: 'https://atomone.valopers.com/transactions/${txHash}',
+      accountPage: 'https://atomone.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

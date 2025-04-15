@@ -342,6 +342,12 @@ const info: Chain = {
       url: 'https://explorer.chainroot.io/ux',
       txPage: 'https://explorer.chainroot.io/ux/transactions/${txHash}',
       accountPage: 'https://explorer.chainroot.io/ux/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://ux.valopers.com/',
+      txPage: 'https://ux.valopers.com/transactions/${txHash}',
+      accountPage: 'https://ux.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

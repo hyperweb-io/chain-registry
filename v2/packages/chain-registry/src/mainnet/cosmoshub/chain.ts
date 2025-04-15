@@ -561,6 +561,12 @@ const info: Chain = {
       validatorPage: 'https://explorer.nodestake.org/cosmos/staking/${validatorAddress}',
       proposalPage: 'https://explorer.nodestake.org/cosmos/gov/${proposalId}',
       blockPage: 'https://explorer.nodestake.org/cosmos/block/${blockHeight}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://cosmos.valopers.com/',
+      txPage: 'https://cosmos.valopers.com/transactions/${txHash}',
+      accountPage: 'https://cosmos.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

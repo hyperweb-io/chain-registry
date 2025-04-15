@@ -66,6 +66,11 @@ const info: Chain = {
       url: 'https://exp.stakevillage.net/arkeo-mainnet',
       txPage: 'https://exp.stakevillage.net/arkeo-mainnet/tx/${txHash}',
       accountPage: 'https://exp.stakevillage.net/arkeo-mainnet/account/${accountAddress}'
+    }, {
+      kind: 'Valopers',
+      url: 'https://arkeo.valopers.com/',
+      txPage: 'https://arkeo.valopers.com/transactions/${txHash}',
+      accountPage: 'https://arkeo.valopers.com/account/${accountAddress}'
     }],
   keywords: [
     'validator',

@@ -194,6 +194,12 @@ const info: Chain = {
       url: 'https://atomscan.com/regen-network',
       txPage: 'https://atomscan.com/regen-network/transactions/${txHash}',
       accountPage: 'https://atomscan.com/regen-network/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://regen.valopers.com/',
+      txPage: 'https://regen.valopers.com/transactions/${txHash}',
+      accountPage: 'https://regen.valopers.com/account/${accountAddress}'
     }
   ],
   logoURIs: {

@@ -500,6 +500,12 @@ const info: Chain = {
       url: 'https://explorer.mainnet.dteam.tech/dymension',
       txPage: 'https://explorer.mainnet.dteam.tech/dymension/tx/${txHash}',
       accountPage: 'https://explorer.mainnet.dteam.tech/dymension/account/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://dymension.valopers.com/',
+      txPage: 'https://dymension.valopers.com/transactions/${txHash}',
+      accountPage: 'https://dymension.valopers.com/account/${accountAddress}'
     }
   ]
 };

@@ -154,6 +154,12 @@ const info: Chain = {
       url: 'https://testnet.explorer.stakeandrelax.net/celestia',
       txPage: 'https://testnet.explorer.stakeandrelax.net/celestia/transaction/${txHash}',
       accountPage: 'https://testnet.explorer.stakeandrelax.net/celestia/account/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://testnet.celestia.valopers.com/',
+      txPage: 'https://testnet.celestia.valopers.com/transactions/${txHash}',
+      accountPage: 'https://testnet.celestia.valopers.com/account/${accountAddress}'
     }
   ]
 };

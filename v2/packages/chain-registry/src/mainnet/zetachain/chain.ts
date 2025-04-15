@@ -187,6 +187,12 @@ const info: Chain = {
       url: 'https://explorer.stavr.tech/Zetachain-Mainnet',
       txPage: 'https://explorer.stavr.tech/Zetachain-Mainnet/tx/${txHash}',
       accountPage: 'https://explorer.stavr.tech/Zetachain-Mainnet/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://zetachain.valopers.com/',
+      txPage: 'https://zetachain.valopers.com/transactions/${txHash}',
+      accountPage: 'https://zetachain.valopers.com/account/${accountAddress}'
     }
   ]
 };

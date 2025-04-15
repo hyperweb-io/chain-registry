@@ -181,6 +181,12 @@ const info: Chain = {
       kind: 'KonsorTech',
       url: 'https://explorer.konsortech.xyz/iris',
       txPage: 'https://explorer.konsortech.xyz/iris/tx/${txHash}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://iris.valopers.com/',
+      txPage: 'https://iris.valopers.com/transactions/${txHash}',
+      accountPage: 'https://iris.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

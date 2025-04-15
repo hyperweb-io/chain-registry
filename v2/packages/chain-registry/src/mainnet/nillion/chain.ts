@@ -94,6 +94,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Nillionhub [Noders]',
+      url: 'https://nillionhub.org/explorer/dashboard',
+      txPage: 'https://nillionhub.org/explorer/transactions/${txHash}',
+      accountPage: 'https://nillionhub.org/explorer/accounts/${accountAddress}'
+    },
+    {
       url: 'https://nillion.explorers.guru',
       txPage: 'https://nillion.explorers.guru/transaction/${txHash}',
       accountPage: 'https://nillion.explorers.guru/account/${accountAddress}'

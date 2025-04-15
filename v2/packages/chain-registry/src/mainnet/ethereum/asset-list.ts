@@ -1686,12 +1686,33 @@ const info: AssetList = {
           exponent: 8
         }],
       base: '0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568',
-      name: 'uniBTC',
+      name: 'Universal BTC',
       display: 'unibtc',
       symbol: 'uniBTC',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chainName: 'bitcoin',
+            baseDenom: 'sat'
+          },
+          provider: 'Bedrock'
+        }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC_200px.png'
       },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC_200px.png',
+          theme: {
+            circle: false,
+            backgroundColorHex: '#00000000'
+          }
+        }, {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg',
+          theme: {
+            circle: true,
+            backgroundColorHex: '#000000'
+          }
+        }],
       coingeckoId: 'universal-btc'
     },
     {

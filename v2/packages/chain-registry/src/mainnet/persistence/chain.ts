@@ -346,6 +346,12 @@ const info: Chain = {
       kind: 'Stakeflow',
       url: 'https://stakeflow.io/persistence',
       accountPage: 'https://stakeflow.io/persistence/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://persistence.valopers.com/',
+      txPage: 'https://persistence.valopers.com/transactions/${txHash}',
+      accountPage: 'https://persistence.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

@@ -272,6 +272,12 @@ const info: Chain = {
       url: 'https://mainnet.whispernode.com/injective',
       txPage: 'https://mainnet.whispernode.com/injective/tx/${txHash}',
       accountPage: 'https://mainnet.whispernode.com/injective/account/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://injective.valopers.com/',
+      txPage: 'https://injective.valopers.com/transactions/${txHash}',
+      accountPage: 'https://injective.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

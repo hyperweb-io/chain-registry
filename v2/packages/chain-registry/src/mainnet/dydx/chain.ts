@@ -267,6 +267,12 @@ const info: Chain = {
       url: 'https://explorer.tcnetwork.io/dydx',
       txPage: 'https://explorer.tcnetwork.io/dydx/transaction/${txHash}',
       accountPage: 'https://explorer.tcnetwork.io/dydx/account/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://dydx.valopers.com/',
+      txPage: 'https://dydx.valopers.com/transactions/${txHash}',
+      accountPage: 'https://dydx.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

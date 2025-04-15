@@ -104,6 +104,11 @@ const info: Chain = {
       url: 'https://www.mintscan.io/dydx-testnet',
       txPage: 'https://www.mintscan.io/dydx-testnet/txs/${txHash}',
       accountPage: 'https://www.mintscan.io/dydx-testnet/account/${accountAddress}'
+    }, {
+      kind: 'Valopers',
+      url: 'https://testnet.dydx.valopers.com/',
+      txPage: 'https://testnet.dydx.valopers.com/transactions/${txHash}',
+      accountPage: 'https://testnet.dydx.valopers.com/account/${accountAddress}'
     }],
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',

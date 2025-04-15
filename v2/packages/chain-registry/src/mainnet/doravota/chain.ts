@@ -112,6 +112,12 @@ const info: Chain = {
       kind: 'Explorers',
       url: 'https://dora.explorers.guru',
       txPage: 'https://dora.explorers.guru/transaction/${txHash}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://dora.valopers.com/',
+      txPage: 'https://dora.valopers.com/transactions/${txHash}',
+      accountPage: 'https://dora.valopers.com/account/${accountAddress}'
     }
   ]
 };

@@ -124,6 +124,12 @@ const info: Chain = {
       url: 'https://testnet-explorer.baryon.dev/test-core-2',
       txPage: 'https://testnet-explorer.baryon.dev/test-core-2/tx/{txHash}',
       accountPage: 'https://testnet-explorer.baryon.dev/test-core-2/account/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://testnet.persistence.valopers.com/',
+      txPage: 'https://testnet.persistence.valopers.com/transactions/${txHash}',
+      accountPage: 'https://testnet.persistence.valopers.com/account/${accountAddress}'
     }
   ]
 };

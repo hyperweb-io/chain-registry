@@ -82,16 +82,25 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       }]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'staking-explorer.com',
       url: 'https://staking-explorer.com/explorer/althea',
       txPage: 'https://staking-explorer.com/transaction.php?chain=althea&tx=${txHash}',
       accountPage: 'https://staking-explorer.com/account.php?chain=althea&addr=${accountAddress}'
-    }, {
+    },
+    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/althea',
       txPage: 'https://www.mintscan.io/althea/transactions/${txHash}',
       accountPage: 'https://www.mintscan.io/althea/accounts/${accountAddress}'
-    }]
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://althea.valopers.com/',
+      txPage: 'https://althea.valopers.com/transactions/${txHash}',
+      accountPage: 'https://althea.valopers.com/account/${accountAddress}'
+    }
+  ]
 };
 export default info;

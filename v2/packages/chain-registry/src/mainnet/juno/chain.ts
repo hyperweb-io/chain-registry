@@ -427,6 +427,12 @@ const info: Chain = {
       url: 'https://explorer.chainroot.io/juno',
       txPage: 'https://explorer.chainroot.io/juno/transactions/${txHash}',
       accountPage: 'https://explorer.chainroot.io/juno/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://juno.valopers.com/',
+      txPage: 'https://juno.valopers.com/transactions/${txHash}',
+      accountPage: 'https://juno.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

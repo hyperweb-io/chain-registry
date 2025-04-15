@@ -268,6 +268,12 @@ const info: Chain = {
       url: 'https://explorer.stakr.space/omniflix/',
       txPage: 'https://explorer.stakr.space/omniflix/tx/${txHash}',
       accountPage: 'https://explorer.stakr.space/omniflix/account/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://omniflix.valopers.com/',
+      txPage: 'https://omniflix.valopers.com/transactions/${txHash}',
+      accountPage: 'https://omniflix.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{
