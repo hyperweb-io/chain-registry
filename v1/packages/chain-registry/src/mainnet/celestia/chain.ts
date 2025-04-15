@@ -393,6 +393,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'CelestiaHub [Noders]',
+      url: 'https://celestiahub.org/explorer/dashboard',
+      tx_page: 'https://celestiahub.org/explorer/transactions/${txHash}',
+      account_page: 'https://celestiahub.org/explorer/accounts/${accountAddress}'
+    },
+    {
       kind: 'Mintscan',
       url: 'https://mintscan.io/celestia',
       tx_page: 'https://mintscan.io/celestia/txs/${txHash}',
@@ -456,6 +462,12 @@ const info: Chain = {
       url: 'https://explorer.stakeandrelax.net/celestia',
       tx_page: 'https://explorer.stakeandrelax.net/celestia/transaction/${txHash}',
       account_page: 'https://explorer.stakeandrelax.net/celestia/account/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://celestia.valopers.com/',
+      tx_page: 'https://celestia.valopers.com/transactions/${txHash}',
+      account_page: 'https://celestia.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

@@ -195,6 +195,12 @@ const info: Chain = {
       kind: 'Stakeflow',
       url: 'https://stakeflow.io/kava',
       account_page: 'https://stakeflow.io/kava/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://kava.valopers.com/',
+      tx_page: 'https://kava.valopers.com/transactions/${txHash}',
+      account_page: 'https://kava.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

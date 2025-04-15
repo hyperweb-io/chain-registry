@@ -463,6 +463,12 @@ const info: Chain = {
       url: 'https://mainnet.explorer.aviaone.com/bitcanna',
       tx_page: 'https://mainnet.explorer.aviaone.com/bitcanna/tx/${txHash}',
       account_page: 'https://mainnet.explorer.aviaone.com/bitcanna/account/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://bitcanna.valopers.com/',
+      tx_page: 'https://bitcanna.valopers.com/transactions/${txHash}',
+      account_page: 'https://bitcanna.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

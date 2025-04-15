@@ -331,6 +331,12 @@ const info: Chain = {
       url: 'https://mainnet.whispernode.com/axelar',
       tx_page: 'https://mainnet.whispernode.com/axelar/tx/${txHash}',
       account_page: 'https://mainnet.whispernode.com/axelar/account/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://axelar.valopers.com/',
+      tx_page: 'https://axelar.valopers.com/transactions/${txHash}',
+      account_page: 'https://axelar.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

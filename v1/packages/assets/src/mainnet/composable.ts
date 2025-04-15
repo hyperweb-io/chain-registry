@@ -892,37 +892,6 @@ const assets: AssetList = {
     },
     {
       type_asset: 'erc20',
-      address: '0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568',
-      denom_units: [{
-          denom: 'ibc/A3CCBB0769980E4FCBAA6E1D667E8AE9CC38803E92F21189E668358731494ED9',
-          exponent: 0,
-          aliases: ['0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568']
-        }, {
-          denom: 'unibtc',
-          exponent: 8
-        }],
-      base: 'ibc/A3CCBB0769980E4FCBAA6E1D667E8AE9CC38803E92F21189E668358731494ED9',
-      name: 'uniBTC',
-      display: 'unibtc',
-      symbol: 'uniBTC',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC_200px.png'
-      },
-      coingecko_id: 'universal-btc',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-2',
-            base_denom: '0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568',
-            chain_name: 'ethereum'
-          },
-          chain: {
-            channel_id: 'channel-52'
-          }
-        }]
-    },
-    {
-      type_asset: 'erc20',
       address: '0xbdf245957992bfbc62b07e344128a1eec7b7ee3f',
       denom_units: [{
           denom: 'ibc/C5A2F4E4C40816754E8F3F9886A8B8E01A7C58BE3B3741AB79A0C84D496BA513',
@@ -2962,37 +2931,6 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-2',
             base_denom: '0x9356f6d95b8e109f4b7ce3e49d672967d3b48383',
-            chain_name: 'ethereum'
-          },
-          chain: {
-            channel_id: 'channel-52'
-          }
-        }]
-    },
-    {
-      type_asset: 'erc20',
-      address: '0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568',
-      denom_units: [{
-          denom: 'ibc/A3CCBB0769980E4FCBAA6E1D667E8AE9CC38803E92F21189E668358731494ED9',
-          exponent: 0,
-          aliases: ['0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568']
-        }, {
-          denom: 'unibtc',
-          exponent: 8
-        }],
-      base: 'ibc/A3CCBB0769980E4FCBAA6E1D667E8AE9CC38803E92F21189E668358731494ED9',
-      name: 'uniBTC',
-      display: 'unibtc',
-      symbol: 'uniBTC',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC_200px.png'
-      },
-      coingecko_id: 'universal-btc',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-2',
-            base_denom: '0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568',
             chain_name: 'ethereum'
           },
           chain: {

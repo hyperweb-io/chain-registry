@@ -314,6 +314,12 @@ const info: Chain = {
       url: 'https://explorer.chainroot.io/stargaze',
       tx_page: 'https://explorer.chainroot.io/stargaze/transactions/${txHash}',
       account_page: 'https://explorer.chainroot.io/stargaze/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://stargaze.valopers.com/',
+      tx_page: 'https://stargaze.valopers.com/transactions/${txHash}',
+      account_page: 'https://stargaze.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{
