@@ -47,6 +47,9 @@ const info: Chain = {
     rpc: [{
         address: 'https://arkhadian-mainnet-rpc.bonynode.online/',
         provider: 'arkhnetwork'
+      }, {
+        address: 'http://arkh.rpc.wellnode.net:26657/',
+        provider: 'wellnode'
       }],
     rest: [{
         address: 'https://arkhadian-mainnet-api.bonynode.online/',

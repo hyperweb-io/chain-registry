@@ -1075,6 +1075,127 @@ const info: AssetList = {
       coingeckoId: 'xion-2'
     },
     {
+      description: 'Alloyed ETH transferred from the Osmosis mainnet that is supported on the Nolus chain',
+      denomUnits: [{
+          denom: 'ibc/7879B1CBBD2E07347002334792368E65C11A7D1629297D04B6A2155F557E02D4',
+          exponent: 0
+        }, {
+          denom: 'allETH',
+          exponent: 18,
+          aliases: []
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/7879B1CBBD2E07347002334792368E65C11A7D1629297D04B6A2155F557E02D4',
+      name: 'Alloyed ETH',
+      display: 'allETH',
+      symbol: 'ETH',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'osmosis',
+            baseDenom: 'factory/osmo1k6c8jln7ejuqwtqmay3yvzrg3kueaczl96pk067ldg8u835w0yhsw27twm/alloyed/allETH',
+            channelId: 'channel-783'
+          },
+          chain: {
+            channelId: 'channel-0',
+            path: 'transfer/channel-0/factory/osmo1k6c8jln7ejuqwtqmay3yvzrg3kueaczl96pk067ldg8u835w0yhsw27twm/alloyed/allETH'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'osmosis',
+            baseDenom: 'factory/osmo1k6c8jln7ejuqwtqmay3yvzrg3kueaczl96pk067ldg8u835w0yhsw27twm/alloyed/allETH'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg',
+          theme: {
+            circle: true,
+            backgroundColorHex: '#303030'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg'
+      }
+    },
+    {
+      description: 'BABY transferred from the Osmosis mainnet that is supported on the Nolus chain',
+      denomUnits: [{
+          denom: 'ibc/BE816110CD184D1DEE3BB03B1D5C509512A4C0A14445DC4A3D22A67E68ECE212',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'baby',
+          exponent: 6,
+          aliases: []
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/BE816110CD184D1DEE3BB03B1D5C509512A4C0A14445DC4A3D22A67E68ECE212',
+      name: 'BABY',
+      display: 'baby',
+      symbol: 'BABY',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'osmosis',
+            baseDenom: 'ibc/EC3A4ACBA1CFBEE698472D3563B70985AEA5A7144C319B61B3EBDFB57B5E1535',
+            channelId: 'channel-783'
+          },
+          chain: {
+            channelId: 'channel-0',
+            path: 'transfer/channel-0/transfer/channel-101635/ubbn'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'osmosis',
+            baseDenom: 'ibc/EC3A4ACBA1CFBEE698472D3563B70985AEA5A7144C319B61B3EBDFB57B5E1535'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
+      }
+    },
+    {
+      description: 'dNTRN transferred from the Neutron mainnet that is supported on the Nolus chain',
+      denomUnits: [{
+          denom: 'ibc/2DA920A297BE3FD54A8793F69CC9CBC6B331FFD0FAB500A96637218BA7D5C64E',
+          exponent: 0
+        }, {
+          denom: 'dNTRN',
+          exponent: 6,
+          aliases: []
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/2DA920A297BE3FD54A8793F69CC9CBC6B331FFD0FAB500A96637218BA7D5C64E',
+      name: 'dNTRN',
+      display: 'dNTRN',
+      symbol: 'dNTRN',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'neutron',
+            baseDenom: 'factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn',
+            channelId: 'channel-44'
+          },
+          chain: {
+            channelId: 'channel-3839',
+            path: 'transfer/channel-3839/factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'neutron',
+            baseDenom: 'factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dNTRN.svg'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dNTRN.svg'
+      }
+    },
+    {
       description: 'NTRN transferred from the Neutron mainnet that is supported on the Nolus chain',
       denomUnits: [{
           denom: 'ibc/3D6BC6E049CAEB905AC97031A42800588C58FB471EBDC7A3530FFCD0C3DC9E09',
