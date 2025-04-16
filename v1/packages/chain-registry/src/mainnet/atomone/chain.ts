@@ -259,7 +259,7 @@ const info: Chain = {
         provider: 'Roomit'
       },
       {
-        address: 'grps.aomone.chaintools.tech:443',
+        address: 'grpc.atomone.chaintools.tech:443',
         provider: 'ChainTools'
       }
     ]
