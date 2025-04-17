@@ -131,6 +131,69 @@ const info: AssetList = {
           }
         }],
       coingeckoId: 'bitcoin'
+    },
+    {
+      description: 'Ethereum (ETH) is ETH token bridged from Ethereum to titan chain through Titan Power flow bridge https://powerflow.asia/bridge',
+      denomUnits: [{
+          denom: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/eth',
+          exponent: 0,
+          aliases: ['wei']
+        }, {
+          denom: 'eth',
+          exponent: 18
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/eth',
+      name: 'Ethereum',
+      display: 'eth',
+      symbol: 'ETH',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: 'wei'
+          },
+          provider: 'powerflow.asia, titanlab.io'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth.svg'
+        }]
+    },
+    {
+      description: 'Tether\'s USD stablecoin on Titan. Bridge into titan chain through Titan Power flow bridge https://powerflow.asia/bridge',
+      denomUnits: [{
+          denom: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/usdt',
+          exponent: 0,
+          aliases: ['uusdt']
+        }, {
+          denom: 'usdt',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/usdt',
+      name: 'Tether',
+      display: 'usdt',
+      symbol: 'USDT',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0xdac17f958d2ee523a2206206994597c13d831ec7',
+            contract: '0xdac17f958d2ee523a2206206994597c13d831ec7'
+          },
+          provider: 'powerflow.asia, titanlab.io'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg'
+        }]
     }
   ]
 };
