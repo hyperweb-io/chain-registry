@@ -3954,14 +3954,14 @@ const assets: AssetList = {
     {
       description: 'The native token of kopi',
       denom_units: [{
-          denom: 'ibc/EE74E08414A8B5D193E0287420F112ED527BA6CDE5E74CCE66601A2E5172C2BF',
+          denom: 'ibc/E1BB6871F62146B83074441294F1FECC0829D08D79DC25D86A1962ABAC9B73B8',
           exponent: 0,
           aliases: ['ukopi']
         }, {
           denom: 'XKP',
           exponent: 6
         }],
-      base: 'ibc/EE74E08414A8B5D193E0287420F112ED527BA6CDE5E74CCE66601A2E5172C2BF',
+      base: 'ibc/E1BB6871F62146B83074441294F1FECC0829D08D79DC25D86A1962ABAC9B73B8',
       name: 'XKP',
       display: 'XKP',
       symbol: 'XKP',
@@ -3985,26 +3985,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-7',
+            channel_id: 'channel-15',
             base_denom: 'ukopi',
             chain_name: 'kopi'
           },
           chain: {
-            channel_id: 'channel-1253'
+            channel_id: 'channel-1351'
           }
         }]
     },
     {
       description: 'A MM deposit receipt of the Stablecoin native to the Kopi blockchain',
       denom_units: [{
-          denom: 'ibc/FFBBEFA83D3C0347CCCCAAF1A5FA4C2F064FF1D57819D1D5F2380C2852C5B291',
+          denom: 'ibc/31A8DBF578862EB2AD9458CD0F03510D8BEE8BBA839FE70F4B5C11477B86C599',
           exponent: 0,
           aliases: ['uckusd']
         }, {
           denom: 'ckUSD',
           exponent: 6
         }],
-      base: 'ibc/FFBBEFA83D3C0347CCCCAAF1A5FA4C2F064FF1D57819D1D5F2380C2852C5B291',
+      base: 'ibc/31A8DBF578862EB2AD9458CD0F03510D8BEE8BBA839FE70F4B5C11477B86C599',
       name: 'ckUSD',
       display: 'ckUSD',
       symbol: 'CKUSD',
@@ -4023,26 +4023,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-7',
+            channel_id: 'channel-15',
             base_denom: 'uckusd',
             chain_name: 'kopi'
           },
           chain: {
-            channel_id: 'channel-1253'
+            channel_id: 'channel-1351'
           }
         }]
     },
     {
       description: 'A MM deposit receipt of the Stablecoin USDC from noble Chain',
       denom_units: [{
-          denom: 'ibc/3AA9A34265EF34FAC48198C2482F7341F0C1ADDCFAB463B1C25E03019A86C660',
+          denom: 'ibc/42B3BA076434E9BB58ACA07F8C0019857548257F2CFCB1112C059455E87993E0',
           exponent: 0,
           aliases: ['ucusdc']
         }, {
           denom: 'cUSDC',
           exponent: 6
         }],
-      base: 'ibc/3AA9A34265EF34FAC48198C2482F7341F0C1ADDCFAB463B1C25E03019A86C660',
+      base: 'ibc/42B3BA076434E9BB58ACA07F8C0019857548257F2CFCB1112C059455E87993E0',
       name: 'cUSDC',
       display: 'cUSDC',
       symbol: 'CUSDC',
@@ -4057,26 +4057,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-7',
+            channel_id: 'channel-15',
             base_denom: 'ucusdc',
             chain_name: 'kopi'
           },
           chain: {
-            channel_id: 'channel-1253'
+            channel_id: 'channel-1351'
           }
         }]
     },
     {
       description: 'A MM deposit receipt of the Stablecoin USDT from Injective Chain',
       denom_units: [{
-          denom: 'ibc/7C786F32F74F43D6B529B23500B4447925AA8E9161979607988D8C4D89AB7334',
+          denom: 'ibc/BC1000468BB8D49034565FE4855DDDDB711ACD319C4A5B8B034618E4CF59C2B8',
           exponent: 0,
           aliases: ['ucusdtinj']
         }, {
           denom: 'cUSDT.inj',
           exponent: 6
         }],
-      base: 'ibc/7C786F32F74F43D6B529B23500B4447925AA8E9161979607988D8C4D89AB7334',
+      base: 'ibc/BC1000468BB8D49034565FE4855DDDDB711ACD319C4A5B8B034618E4CF59C2B8',
       name: 'cUSDT.inj',
       display: 'cUSDT.inj',
       symbol: 'cUSDT.inj',
@@ -4091,26 +4091,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-7',
+            channel_id: 'channel-15',
             base_denom: 'ucusdtinj',
             chain_name: 'kopi'
           },
           chain: {
-            channel_id: 'channel-1253'
+            channel_id: 'channel-1351'
           }
         }]
     },
     {
       description: 'arbitrage receipt token of cUSDT',
       denom_units: [{
-          denom: 'ibc/6D6CF93232AE8B235853C4C1ED98580F66606D0B2C6A1101C08BC961CAF36044',
+          denom: 'ibc/DC800105E0C6997C513D5572F4BECB8810C20F5D8BC3FA32F6B86DBAA5F5EC00',
           exponent: 0,
           aliases: ['uasusdtinj']
         }, {
           denom: 'asusdtinj',
           exponent: 6
         }],
-      base: 'ibc/6D6CF93232AE8B235853C4C1ED98580F66606D0B2C6A1101C08BC961CAF36044',
+      base: 'ibc/DC800105E0C6997C513D5572F4BECB8810C20F5D8BC3FA32F6B86DBAA5F5EC00',
       name: 'asUSDT.inj',
       display: 'asusdtinj',
       symbol: 'asUSDT.inj',
@@ -4125,26 +4125,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-7',
+            channel_id: 'channel-15',
             base_denom: 'uasusdtinj',
             chain_name: 'kopi'
           },
           chain: {
-            channel_id: 'channel-1253'
+            channel_id: 'channel-1351'
           }
         }]
     },
     {
       description: 'arbitrage receipt token of cUSDC',
       denom_units: [{
-          denom: 'ibc/BDA22DE5A0CB0DD4B064FE4A8C79163B0ED990B50F85895FEF2708674A2D9775',
+          denom: 'ibc/0D9438F920A4D000D6FD9D37BCB874D8142BA6E56B9967E33E60D0999C7AD014',
           exponent: 0,
           aliases: ['uasusdc']
         }, {
           denom: 'asUSDC',
           exponent: 6
         }],
-      base: 'ibc/BDA22DE5A0CB0DD4B064FE4A8C79163B0ED990B50F85895FEF2708674A2D9775',
+      base: 'ibc/0D9438F920A4D000D6FD9D37BCB874D8142BA6E56B9967E33E60D0999C7AD014',
       name: 'asUSDC',
       display: 'asUSDC',
       symbol: 'ASUSDC',
@@ -4159,12 +4159,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-7',
+            channel_id: 'channel-15',
             base_denom: 'uasusdc',
             chain_name: 'kopi'
           },
           chain: {
-            channel_id: 'channel-1253'
+            channel_id: 'channel-1351'
           }
         }]
     },
@@ -12416,14 +12416,14 @@ const assets: AssetList = {
     {
       description: 'The native token of kopi',
       denom_units: [{
-          denom: 'ibc/EE74E08414A8B5D193E0287420F112ED527BA6CDE5E74CCE66601A2E5172C2BF',
+          denom: 'ibc/E1BB6871F62146B83074441294F1FECC0829D08D79DC25D86A1962ABAC9B73B8',
           exponent: 0,
           aliases: ['ukopi']
         }, {
           denom: 'XKP',
           exponent: 6
         }],
-      base: 'ibc/EE74E08414A8B5D193E0287420F112ED527BA6CDE5E74CCE66601A2E5172C2BF',
+      base: 'ibc/E1BB6871F62146B83074441294F1FECC0829D08D79DC25D86A1962ABAC9B73B8',
       name: 'XKP',
       display: 'XKP',
       symbol: 'XKP',
@@ -12447,26 +12447,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-7',
+            channel_id: 'channel-15',
             base_denom: 'ukopi',
             chain_name: 'kopi'
           },
           chain: {
-            channel_id: 'channel-1253'
+            channel_id: 'channel-1351'
           }
         }]
     },
     {
       description: 'A MM deposit receipt of the Stablecoin native to the Kopi blockchain',
       denom_units: [{
-          denom: 'ibc/FFBBEFA83D3C0347CCCCAAF1A5FA4C2F064FF1D57819D1D5F2380C2852C5B291',
+          denom: 'ibc/31A8DBF578862EB2AD9458CD0F03510D8BEE8BBA839FE70F4B5C11477B86C599',
           exponent: 0,
           aliases: ['uckusd']
         }, {
           denom: 'ckUSD',
           exponent: 6
         }],
-      base: 'ibc/FFBBEFA83D3C0347CCCCAAF1A5FA4C2F064FF1D57819D1D5F2380C2852C5B291',
+      base: 'ibc/31A8DBF578862EB2AD9458CD0F03510D8BEE8BBA839FE70F4B5C11477B86C599',
       name: 'ckUSD',
       display: 'ckUSD',
       symbol: 'CKUSD',
@@ -12485,26 +12485,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-7',
+            channel_id: 'channel-15',
             base_denom: 'uckusd',
             chain_name: 'kopi'
           },
           chain: {
-            channel_id: 'channel-1253'
+            channel_id: 'channel-1351'
           }
         }]
     },
     {
       description: 'A MM deposit receipt of the Stablecoin USDC from noble Chain',
       denom_units: [{
-          denom: 'ibc/3AA9A34265EF34FAC48198C2482F7341F0C1ADDCFAB463B1C25E03019A86C660',
+          denom: 'ibc/42B3BA076434E9BB58ACA07F8C0019857548257F2CFCB1112C059455E87993E0',
           exponent: 0,
           aliases: ['ucusdc']
         }, {
           denom: 'cUSDC',
           exponent: 6
         }],
-      base: 'ibc/3AA9A34265EF34FAC48198C2482F7341F0C1ADDCFAB463B1C25E03019A86C660',
+      base: 'ibc/42B3BA076434E9BB58ACA07F8C0019857548257F2CFCB1112C059455E87993E0',
       name: 'cUSDC',
       display: 'cUSDC',
       symbol: 'CUSDC',
@@ -12519,26 +12519,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-7',
+            channel_id: 'channel-15',
             base_denom: 'ucusdc',
             chain_name: 'kopi'
           },
           chain: {
-            channel_id: 'channel-1253'
+            channel_id: 'channel-1351'
           }
         }]
     },
     {
       description: 'A MM deposit receipt of the Stablecoin USDT from Injective Chain',
       denom_units: [{
-          denom: 'ibc/7C786F32F74F43D6B529B23500B4447925AA8E9161979607988D8C4D89AB7334',
+          denom: 'ibc/BC1000468BB8D49034565FE4855DDDDB711ACD319C4A5B8B034618E4CF59C2B8',
           exponent: 0,
           aliases: ['ucusdtinj']
         }, {
           denom: 'cUSDT.inj',
           exponent: 6
         }],
-      base: 'ibc/7C786F32F74F43D6B529B23500B4447925AA8E9161979607988D8C4D89AB7334',
+      base: 'ibc/BC1000468BB8D49034565FE4855DDDDB711ACD319C4A5B8B034618E4CF59C2B8',
       name: 'cUSDT.inj',
       display: 'cUSDT.inj',
       symbol: 'cUSDT.inj',
@@ -12553,26 +12553,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-7',
+            channel_id: 'channel-15',
             base_denom: 'ucusdtinj',
             chain_name: 'kopi'
           },
           chain: {
-            channel_id: 'channel-1253'
+            channel_id: 'channel-1351'
           }
         }]
     },
     {
       description: 'arbitrage receipt token of cUSDT',
       denom_units: [{
-          denom: 'ibc/6D6CF93232AE8B235853C4C1ED98580F66606D0B2C6A1101C08BC961CAF36044',
+          denom: 'ibc/DC800105E0C6997C513D5572F4BECB8810C20F5D8BC3FA32F6B86DBAA5F5EC00',
           exponent: 0,
           aliases: ['uasusdtinj']
         }, {
           denom: 'asusdtinj',
           exponent: 6
         }],
-      base: 'ibc/6D6CF93232AE8B235853C4C1ED98580F66606D0B2C6A1101C08BC961CAF36044',
+      base: 'ibc/DC800105E0C6997C513D5572F4BECB8810C20F5D8BC3FA32F6B86DBAA5F5EC00',
       name: 'asUSDT.inj',
       display: 'asusdtinj',
       symbol: 'asUSDT.inj',
@@ -12587,26 +12587,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-7',
+            channel_id: 'channel-15',
             base_denom: 'uasusdtinj',
             chain_name: 'kopi'
           },
           chain: {
-            channel_id: 'channel-1253'
+            channel_id: 'channel-1351'
           }
         }]
     },
     {
       description: 'arbitrage receipt token of cUSDC',
       denom_units: [{
-          denom: 'ibc/BDA22DE5A0CB0DD4B064FE4A8C79163B0ED990B50F85895FEF2708674A2D9775',
+          denom: 'ibc/0D9438F920A4D000D6FD9D37BCB874D8142BA6E56B9967E33E60D0999C7AD014',
           exponent: 0,
           aliases: ['uasusdc']
         }, {
           denom: 'asUSDC',
           exponent: 6
         }],
-      base: 'ibc/BDA22DE5A0CB0DD4B064FE4A8C79163B0ED990B50F85895FEF2708674A2D9775',
+      base: 'ibc/0D9438F920A4D000D6FD9D37BCB874D8142BA6E56B9967E33E60D0999C7AD014',
       name: 'asUSDC',
       display: 'asUSDC',
       symbol: 'ASUSDC',
@@ -12621,12 +12621,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-7',
+            channel_id: 'channel-15',
             base_denom: 'uasusdc',
             chain_name: 'kopi'
           },
           chain: {
-            channel_id: 'channel-1253'
+            channel_id: 'channel-1351'
           }
         }]
     },

@@ -149,6 +149,10 @@ const info: Chain = {
       {
         address: 'https://elys.rpc.fr.vnodesv.net:443',
         provider: 'vNodes[V] [RBX France] Ser[V]ices'
+      },
+      {
+        address: 'https://rpc.elys.node75.org:443',
+        provider: 'Pro-Nodes75'
       }
     ],
     rest: [
@@ -227,6 +231,10 @@ const info: Chain = {
       {
         address: 'https://elys.rest.fr.vnodesv.net:443',
         provider: 'vNodes[V] [RBX France] Ser[V]ices'
+      },
+      {
+        address: 'https://api.elys.node75.org:443',
+        provider: 'Pro-Nodes75'
       }
     ],
     grpc: [
@@ -277,6 +285,10 @@ const info: Chain = {
       {
         address: 'elys-grpc.node39.top:12090',
         provider: 'Node39'
+      },
+      {
+        address: 'grpc.elys.node75.org:9210',
+        provider: 'Pro-Nodes75'
       }
     ]
   },
