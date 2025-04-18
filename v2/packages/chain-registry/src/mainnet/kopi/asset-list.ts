@@ -321,13 +321,13 @@ const info: AssetList = {
     {
       description: 'Atom from cosmoshub Chain',
       denomUnits: [{
-          denom: 'ibc/25418646C017D377ADF3202FF1E43590D0DAE3346E594E8D78176A139A928F88',
+          denom: 'ibc/A2E2EEC9057A4A1C2C0A6A4C78B0239118DF5F278830F50B4A6BDD7A66506B78',
           exponent: 0
         }, {
           denom: 'Atom',
           exponent: 6
         }],
-      base: 'ibc/25418646C017D377ADF3202FF1E43590D0DAE3346E594E8D78176A139A928F88',
+      base: 'ibc/A2E2EEC9057A4A1C2C0A6A4C78B0239118DF5F278830F50B4A6BDD7A66506B78',
       name: 'ATOM',
       display: 'Atom',
       symbol: 'ATOM',
@@ -344,11 +344,11 @@ const info: AssetList = {
           counterparty: {
             chainName: 'cosmoshub',
             baseDenom: 'uatom',
-            channelId: 'channel-1253'
+            channelId: 'channel-1351'
           },
           chain: {
-            channelId: 'channel-7',
-            path: 'transfer/channel-7/uatom'
+            channelId: 'channel-15',
+            path: 'transfer/channel-15/uatom'
           }
         }],
       coingeckoId: 'cosmos'
