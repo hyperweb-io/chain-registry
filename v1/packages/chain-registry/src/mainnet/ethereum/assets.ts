@@ -1651,6 +1651,14 @@ const info: AssetList = {
       name: 'Lorenzo stBTC',
       display: 'stbtc',
       symbol: 'stBTC',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chain_name: 'bitcoin',
+            base_denom: 'sat'
+          },
+          provider: 'Lorenzo'
+        }],
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
       },
@@ -1748,6 +1756,14 @@ const info: AssetList = {
       name: 'pumpBTC',
       display: 'pumpbtc',
       symbol: 'pumpBTC',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chain_name: 'bitcoin',
+            base_denom: 'sat'
+          },
+          provider: 'pumpBTC'
+        }],
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
       },

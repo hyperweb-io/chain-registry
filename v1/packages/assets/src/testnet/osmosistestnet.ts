@@ -38,6 +38,39 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native staking token of Babylon.',
+      denom_units: [{
+          denom: 'ibc/D538E142FC525F8CE0937169ED4645AE6E5BFC37F9C2C5CB178603F5DF1FEDF3',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ibc/D538E142FC525F8CE0937169ED4645AE6E5BFC37F9C2C5CB178603F5DF1FEDF3',
+      name: 'Babylon Testnet',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-21',
+            base_denom: 'ubbn',
+            chain_name: 'babylontestnet'
+          },
+          chain: {
+            channel_id: 'channel-10366'
+          }
+        }]
+    },
+    {
       denom_units: [{
           denom: 'ibc/0E22FFB61DB307FE01D3D0DFF4A8EBEB6CC4997DCF9E901AE0751A2FFF4B90DD',
           exponent: 0,
@@ -682,6 +715,39 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native staking token of Babylon.',
+      denom_units: [{
+          denom: 'ibc/D538E142FC525F8CE0937169ED4645AE6E5BFC37F9C2C5CB178603F5DF1FEDF3',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ibc/D538E142FC525F8CE0937169ED4645AE6E5BFC37F9C2C5CB178603F5DF1FEDF3',
+      name: 'Babylon Testnet',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-21',
+            base_denom: 'ubbn',
+            chain_name: 'babylontestnet'
+          },
+          chain: {
+            channel_id: 'channel-10366'
+          }
+        }]
+    },
+    {
       denom_units: [{
           denom: 'ibc/0E22FFB61DB307FE01D3D0DFF4A8EBEB6CC4997DCF9E901AE0751A2FFF4B90DD',
           exponent: 0,
@@ -2683,6 +2749,76 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-10231'
+          }
+        }]
+    },
+    {
+      base: 'ibc/7C7668A6015508285CA5725BB500F34D0C019E953C01E9767823D3877F3FC241',
+      name: 'Babylon Testnet Escher LST',
+      address: 'bbn1cnx34p82zngq0uuaendsne0x4s5gsm7gpwk2es8zk8rz8tnj938qqyq8f9',
+      symbol: 'eBABY',
+      display: 'eBABY',
+      type_asset: 'cw20',
+      denom_units: [{
+          denom: 'ibc/7C7668A6015508285CA5725BB500F34D0C019E953C01E9767823D3877F3FC241',
+          exponent: 0,
+          aliases: ['cw20:bbn1cnx34p82zngq0uuaendsne0x4s5gsm7gpwk2es8zk8rz8tnj938qqyq8f9']
+        }, {
+          denom: 'eBABY',
+          exponent: 6
+        }],
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/eBABY.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/eBABY.svg'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn17tu5q57xdf3u4m0u8j4mnjlcwe9kt4n87fmc4cdnrkf9zungn7wsjfhts0',
+            channel_id: 'channel-22',
+            base_denom: 'cw20:bbn1cnx34p82zngq0uuaendsne0x4s5gsm7gpwk2es8zk8rz8tnj938qqyq8f9',
+            chain_name: 'babylontestnet'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-10367'
+          }
+        }]
+    },
+    {
+      base: 'ibc/7C7668A6015508285CA5725BB500F34D0C019E953C01E9767823D3877F3FC241',
+      name: 'Babylon Testnet Escher LST',
+      address: 'bbn1cnx34p82zngq0uuaendsne0x4s5gsm7gpwk2es8zk8rz8tnj938qqyq8f9',
+      symbol: 'eBABY',
+      display: 'eBABY',
+      type_asset: 'cw20',
+      denom_units: [{
+          denom: 'ibc/7C7668A6015508285CA5725BB500F34D0C019E953C01E9767823D3877F3FC241',
+          exponent: 0,
+          aliases: ['cw20:bbn1cnx34p82zngq0uuaendsne0x4s5gsm7gpwk2es8zk8rz8tnj938qqyq8f9']
+        }, {
+          denom: 'eBABY',
+          exponent: 6
+        }],
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/eBABY.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/eBABY.svg'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn17tu5q57xdf3u4m0u8j4mnjlcwe9kt4n87fmc4cdnrkf9zungn7wsjfhts0',
+            channel_id: 'channel-22',
+            base_denom: 'cw20:bbn1cnx34p82zngq0uuaendsne0x4s5gsm7gpwk2es8zk8rz8tnj938qqyq8f9',
+            chain_name: 'babylontestnet'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-10367'
           }
         }]
     }

@@ -28473,6 +28473,277 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'Liquid staking token from Cube by SatLayer',
+      denom_units: [{
+          denom: 'ibc/C0B56CB79B3CC7759C4DB504C2577ED763E2B3A39A39AB0EC3AB1A76B556A800',
+          exponent: 0,
+          aliases: ['cw20:bbn17y5zvse30629t7r37xsdj73xsqp7qsdr7gpnh966wf5aslpn66rq5ekwsz']
+        }, {
+          denom: 'cBABY',
+          exponent: 6
+        }],
+      address: 'bbn17y5zvse30629t7r37xsdj73xsqp7qsdr7gpnh966wf5aslpn66rq5ekwsz',
+      base: 'ibc/C0B56CB79B3CC7759C4DB504C2577ED763E2B3A39A39AB0EC3AB1A76B556A800',
+      name: 'Cube Baby',
+      display: 'cBABY',
+      symbol: 'cBABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/cbaby.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/cbaby.svg'
+        }],
+      coingecko_id: 'cube-staked-baby',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn17y5zvse30629t7r37xsdj73xsqp7qsdr7gpnh966wf5aslpn66rq5ekwsz',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }],
+      type_asset: 'cw20',
+      socials: {
+        website: 'https://www.satlayer.xyz',
+        twitter: 'https://x.com/satlayer',
+        github: 'https://github.com/satlayer',
+        telegram: 'https://t.me/satlayerannouncements',
+        discord: 'https://discord.com/invite/satlayer'
+      }
+    },
+    {
+      base: 'ibc/3F5F0DB5516ECB13C11E92B8A88A000D2879E840215564BD648AAF7882957360',
+      name: 'Babylon Escher LST',
+      address: 'bbn1s7jzz7cyuqmy5xpr07yepka5ngktexsferu2cr4xeww897ftj77sv30f5s',
+      symbol: 'eBABY',
+      display: 'eBABY',
+      type_asset: 'cw20',
+      denom_units: [{
+          denom: 'ibc/3F5F0DB5516ECB13C11E92B8A88A000D2879E840215564BD648AAF7882957360',
+          exponent: 0,
+          aliases: ['cw20:bbn1s7jzz7cyuqmy5xpr07yepka5ngktexsferu2cr4xeww897ftj77sv30f5s']
+        }, {
+          denom: 'eBABY',
+          exponent: 6
+        }],
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/eBABY.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/eBABY.svg'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1s7jzz7cyuqmy5xpr07yepka5ngktexsferu2cr4xeww897ftj77sv30f5s',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/DB1615E42048886CD0D57A2FD6AA7656882A022127E8E224AD119C5D6802DB5E',
+          exponent: 0,
+          aliases: ['cw20:bbn1fkz8dcvsqyfy3apfh8ufexdn4ag00w5jts99zjw9nkjue0zhs4ts6hfdz2']
+        }, {
+          denom: 'uniBTC',
+          exponent: 8
+        }],
+      base: 'ibc/DB1615E42048886CD0D57A2FD6AA7656882A022127E8E224AD119C5D6802DB5E',
+      address: 'bbn1fkz8dcvsqyfy3apfh8ufexdn4ag00w5jts99zjw9nkjue0zhs4ts6hfdz2',
+      name: 'Universal BTC',
+      display: 'uniBTC',
+      symbol: 'uniBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1fkz8dcvsqyfy3apfh8ufexdn4ag00w5jts99zjw9nkjue0zhs4ts6hfdz2',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/BF15C7E44E9BF77E000D4688A0FD1820ED66E5AA57DC3A83BB3D2DCB6B5C26FE',
+          exponent: 0,
+          aliases: ['cw20:bbn1z5gne4pe84tqerdrjta5sp966m98zgg5czqe4xu2yzxqfqv5tfkqed0jyy']
+        }, {
+          denom: 'LBTC',
+          exponent: 8
+        }],
+      base: 'ibc/BF15C7E44E9BF77E000D4688A0FD1820ED66E5AA57DC3A83BB3D2DCB6B5C26FE',
+      address: 'bbn1z5gne4pe84tqerdrjta5sp966m98zgg5czqe4xu2yzxqfqv5tfkqed0jyy',
+      name: 'Lombard Staked Bitcoin',
+      display: 'LBTC',
+      symbol: 'LBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1z5gne4pe84tqerdrjta5sp966m98zgg5czqe4xu2yzxqfqv5tfkqed0jyy',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/6318B2FF2D25FD8203712BE6074C8340F2A34D056EF6BCDF5064BC1919B0C517',
+          exponent: 0,
+          aliases: ['cw20:bbn1tyvxlr8qjt7yx48lhhle7xzxfxkyqwzkaxey3jekrl0gql260jlqlxgfst']
+        }, {
+          denom: 'SolvBTC',
+          exponent: 18
+        }],
+      base: 'ibc/6318B2FF2D25FD8203712BE6074C8340F2A34D056EF6BCDF5064BC1919B0C517',
+      address: 'bbn1tyvxlr8qjt7yx48lhhle7xzxfxkyqwzkaxey3jekrl0gql260jlqlxgfst',
+      name: 'Solv BTC',
+      display: 'SolvBTC',
+      symbol: 'SolvBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1tyvxlr8qjt7yx48lhhle7xzxfxkyqwzkaxey3jekrl0gql260jlqlxgfst',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/B48F33A8ADF88830966DEA6970E238C588D1828D406F94876F0F41B518D4A876',
+          exponent: 0,
+          aliases: ['cw20:bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks']
+        }, {
+          denom: 'stBTC',
+          exponent: 18
+        }],
+      base: 'ibc/B48F33A8ADF88830966DEA6970E238C588D1828D406F94876F0F41B518D4A876',
+      address: 'bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks',
+      name: 'Lorenzo stBTC',
+      display: 'stBTC',
+      symbol: 'stBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/3B78E60C2363983E33F8AE7661345DC6C9BD3EC7439943830693D548F346C713',
+          exponent: 0,
+          aliases: ['cw20:bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d']
+        }, {
+          denom: 'pumpBTC',
+          exponent: 8
+        }],
+      base: 'ibc/3B78E60C2363983E33F8AE7661345DC6C9BD3EC7439943830693D548F346C713',
+      address: 'bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d',
+      name: 'pumpBTC',
+      display: 'pumpBTC',
+      symbol: 'pumpBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/7CDB6FB5DB19FAD6E8E265A333C6F6567DE096BD70F122379449547F412A992B',
+          exponent: 0,
+          aliases: ['cw20:bbn1300se0vwue77hn6s8wph64ey6d55zaf48jrveg9wafsquncn3e4scssgvd']
+        }, {
+          denom: 'WETH',
+          exponent: 18
+        }],
+      base: 'ibc/7CDB6FB5DB19FAD6E8E265A333C6F6567DE096BD70F122379449547F412A992B',
+      address: 'bbn1300se0vwue77hn6s8wph64ey6d55zaf48jrveg9wafsquncn3e4scssgvd',
+      name: 'Wrapped Ether',
+      display: 'WETH',
+      symbol: 'WETH',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1300se0vwue77hn6s8wph64ey6d55zaf48jrveg9wafsquncn3e4scssgvd',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
       description: 'Puppy',
       denom_units: [{
           denom: 'ibc/46AC07DBFF1352EC94AF5BD4D23740D92D9803A6B41F6E213E77F3A1143FB963',
@@ -31364,6 +31635,277 @@ const asset_list: AssetList = {
           chain: {
             port: 'transfer',
             channel_id: 'channel-261'
+          }
+        }]
+    },
+    {
+      description: 'Liquid staking token from Cube by SatLayer',
+      denom_units: [{
+          denom: 'ibc/C0B56CB79B3CC7759C4DB504C2577ED763E2B3A39A39AB0EC3AB1A76B556A800',
+          exponent: 0,
+          aliases: ['cw20:bbn17y5zvse30629t7r37xsdj73xsqp7qsdr7gpnh966wf5aslpn66rq5ekwsz']
+        }, {
+          denom: 'cBABY',
+          exponent: 6
+        }],
+      address: 'bbn17y5zvse30629t7r37xsdj73xsqp7qsdr7gpnh966wf5aslpn66rq5ekwsz',
+      base: 'ibc/C0B56CB79B3CC7759C4DB504C2577ED763E2B3A39A39AB0EC3AB1A76B556A800',
+      name: 'Cube Baby',
+      display: 'cBABY',
+      symbol: 'cBABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/cbaby.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/cbaby.svg'
+        }],
+      coingecko_id: 'cube-staked-baby',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn17y5zvse30629t7r37xsdj73xsqp7qsdr7gpnh966wf5aslpn66rq5ekwsz',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }],
+      type_asset: 'cw20',
+      socials: {
+        website: 'https://www.satlayer.xyz',
+        twitter: 'https://x.com/satlayer',
+        github: 'https://github.com/satlayer',
+        telegram: 'https://t.me/satlayerannouncements',
+        discord: 'https://discord.com/invite/satlayer'
+      }
+    },
+    {
+      base: 'ibc/3F5F0DB5516ECB13C11E92B8A88A000D2879E840215564BD648AAF7882957360',
+      name: 'Babylon Escher LST',
+      address: 'bbn1s7jzz7cyuqmy5xpr07yepka5ngktexsferu2cr4xeww897ftj77sv30f5s',
+      symbol: 'eBABY',
+      display: 'eBABY',
+      type_asset: 'cw20',
+      denom_units: [{
+          denom: 'ibc/3F5F0DB5516ECB13C11E92B8A88A000D2879E840215564BD648AAF7882957360',
+          exponent: 0,
+          aliases: ['cw20:bbn1s7jzz7cyuqmy5xpr07yepka5ngktexsferu2cr4xeww897ftj77sv30f5s']
+        }, {
+          denom: 'eBABY',
+          exponent: 6
+        }],
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/eBABY.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/eBABY.svg'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1s7jzz7cyuqmy5xpr07yepka5ngktexsferu2cr4xeww897ftj77sv30f5s',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/DB1615E42048886CD0D57A2FD6AA7656882A022127E8E224AD119C5D6802DB5E',
+          exponent: 0,
+          aliases: ['cw20:bbn1fkz8dcvsqyfy3apfh8ufexdn4ag00w5jts99zjw9nkjue0zhs4ts6hfdz2']
+        }, {
+          denom: 'uniBTC',
+          exponent: 8
+        }],
+      base: 'ibc/DB1615E42048886CD0D57A2FD6AA7656882A022127E8E224AD119C5D6802DB5E',
+      address: 'bbn1fkz8dcvsqyfy3apfh8ufexdn4ag00w5jts99zjw9nkjue0zhs4ts6hfdz2',
+      name: 'Universal BTC',
+      display: 'uniBTC',
+      symbol: 'uniBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1fkz8dcvsqyfy3apfh8ufexdn4ag00w5jts99zjw9nkjue0zhs4ts6hfdz2',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/BF15C7E44E9BF77E000D4688A0FD1820ED66E5AA57DC3A83BB3D2DCB6B5C26FE',
+          exponent: 0,
+          aliases: ['cw20:bbn1z5gne4pe84tqerdrjta5sp966m98zgg5czqe4xu2yzxqfqv5tfkqed0jyy']
+        }, {
+          denom: 'LBTC',
+          exponent: 8
+        }],
+      base: 'ibc/BF15C7E44E9BF77E000D4688A0FD1820ED66E5AA57DC3A83BB3D2DCB6B5C26FE',
+      address: 'bbn1z5gne4pe84tqerdrjta5sp966m98zgg5czqe4xu2yzxqfqv5tfkqed0jyy',
+      name: 'Lombard Staked Bitcoin',
+      display: 'LBTC',
+      symbol: 'LBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1z5gne4pe84tqerdrjta5sp966m98zgg5czqe4xu2yzxqfqv5tfkqed0jyy',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/6318B2FF2D25FD8203712BE6074C8340F2A34D056EF6BCDF5064BC1919B0C517',
+          exponent: 0,
+          aliases: ['cw20:bbn1tyvxlr8qjt7yx48lhhle7xzxfxkyqwzkaxey3jekrl0gql260jlqlxgfst']
+        }, {
+          denom: 'SolvBTC',
+          exponent: 18
+        }],
+      base: 'ibc/6318B2FF2D25FD8203712BE6074C8340F2A34D056EF6BCDF5064BC1919B0C517',
+      address: 'bbn1tyvxlr8qjt7yx48lhhle7xzxfxkyqwzkaxey3jekrl0gql260jlqlxgfst',
+      name: 'Solv BTC',
+      display: 'SolvBTC',
+      symbol: 'SolvBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1tyvxlr8qjt7yx48lhhle7xzxfxkyqwzkaxey3jekrl0gql260jlqlxgfst',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/B48F33A8ADF88830966DEA6970E238C588D1828D406F94876F0F41B518D4A876',
+          exponent: 0,
+          aliases: ['cw20:bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks']
+        }, {
+          denom: 'stBTC',
+          exponent: 18
+        }],
+      base: 'ibc/B48F33A8ADF88830966DEA6970E238C588D1828D406F94876F0F41B518D4A876',
+      address: 'bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks',
+      name: 'Lorenzo stBTC',
+      display: 'stBTC',
+      symbol: 'stBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/3B78E60C2363983E33F8AE7661345DC6C9BD3EC7439943830693D548F346C713',
+          exponent: 0,
+          aliases: ['cw20:bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d']
+        }, {
+          denom: 'pumpBTC',
+          exponent: 8
+        }],
+      base: 'ibc/3B78E60C2363983E33F8AE7661345DC6C9BD3EC7439943830693D548F346C713',
+      address: 'bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d',
+      name: 'pumpBTC',
+      display: 'pumpBTC',
+      symbol: 'pumpBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/7CDB6FB5DB19FAD6E8E265A333C6F6567DE096BD70F122379449547F412A992B',
+          exponent: 0,
+          aliases: ['cw20:bbn1300se0vwue77hn6s8wph64ey6d55zaf48jrveg9wafsquncn3e4scssgvd']
+        }, {
+          denom: 'WETH',
+          exponent: 18
+        }],
+      base: 'ibc/7CDB6FB5DB19FAD6E8E265A333C6F6567DE096BD70F122379449547F412A992B',
+      address: 'bbn1300se0vwue77hn6s8wph64ey6d55zaf48jrveg9wafsquncn3e4scssgvd',
+      name: 'Wrapped Ether',
+      display: 'WETH',
+      symbol: 'WETH',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1300se0vwue77hn6s8wph64ey6d55zaf48jrveg9wafsquncn3e4scssgvd',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
           }
         }]
     },

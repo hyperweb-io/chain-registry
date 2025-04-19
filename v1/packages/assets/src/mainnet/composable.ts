@@ -830,37 +830,6 @@ const assets: AssetList = {
     },
     {
       type_asset: 'erc20',
-      address: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3',
-      denom_units: [{
-          denom: 'ibc/5904B181B919322225CFA56E3FD0A388AA360B8080A4EF5739F84E32FB7F67F6',
-          exponent: 0,
-          aliases: ['0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3']
-        }, {
-          denom: 'stbtc',
-          exponent: 18
-        }],
-      base: 'ibc/5904B181B919322225CFA56E3FD0A388AA360B8080A4EF5739F84E32FB7F67F6',
-      name: 'Lorenzo stBTC',
-      display: 'stbtc',
-      symbol: 'stBTC',
-      logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
-      },
-      coingecko_id: 'lorenzo-stbtc',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-2',
-            base_denom: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3',
-            chain_name: 'ethereum'
-          },
-          chain: {
-            channel_id: 'channel-52'
-          }
-        }]
-    },
-    {
-      type_asset: 'erc20',
       address: '0x9356f6d95b8e109f4b7ce3e49d672967d3b48383',
       denom_units: [{
           denom: 'ibc/6188182ADEC57C792BEF2351A42B49688BDCED25F51AFD534DEE90503266CE6D',
@@ -914,37 +883,6 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-2',
             base_denom: '0xbdf245957992bfbc62b07e344128a1eec7b7ee3f',
-            chain_name: 'ethereum'
-          },
-          chain: {
-            channel_id: 'channel-52'
-          }
-        }]
-    },
-    {
-      type_asset: 'erc20',
-      address: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e',
-      denom_units: [{
-          denom: 'ibc/56DC152486BEEDFDA4201555A3340B239BE517717543205375C1395C69BF4F45',
-          exponent: 0,
-          aliases: ['0xf469fbd2abcd6b9de8e169d128226c0fc90a012e']
-        }, {
-          denom: 'pumpbtc',
-          exponent: 8
-        }],
-      base: 'ibc/56DC152486BEEDFDA4201555A3340B239BE517717543205375C1395C69BF4F45',
-      name: 'pumpBTC',
-      display: 'pumpbtc',
-      symbol: 'pumpBTC',
-      logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
-      },
-      coingecko_id: 'pumpbtc',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-2',
-            base_denom: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e',
             chain_name: 'ethereum'
           },
           chain: {
@@ -2878,37 +2816,6 @@ const assets: AssetList = {
     },
     {
       type_asset: 'erc20',
-      address: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3',
-      denom_units: [{
-          denom: 'ibc/5904B181B919322225CFA56E3FD0A388AA360B8080A4EF5739F84E32FB7F67F6',
-          exponent: 0,
-          aliases: ['0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3']
-        }, {
-          denom: 'stbtc',
-          exponent: 18
-        }],
-      base: 'ibc/5904B181B919322225CFA56E3FD0A388AA360B8080A4EF5739F84E32FB7F67F6',
-      name: 'Lorenzo stBTC',
-      display: 'stbtc',
-      symbol: 'stBTC',
-      logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
-      },
-      coingecko_id: 'lorenzo-stbtc',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-2',
-            base_denom: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3',
-            chain_name: 'ethereum'
-          },
-          chain: {
-            channel_id: 'channel-52'
-          }
-        }]
-    },
-    {
-      type_asset: 'erc20',
       address: '0x9356f6d95b8e109f4b7ce3e49d672967d3b48383',
       denom_units: [{
           denom: 'ibc/6188182ADEC57C792BEF2351A42B49688BDCED25F51AFD534DEE90503266CE6D',
@@ -2962,37 +2869,6 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-2',
             base_denom: '0xbdf245957992bfbc62b07e344128a1eec7b7ee3f',
-            chain_name: 'ethereum'
-          },
-          chain: {
-            channel_id: 'channel-52'
-          }
-        }]
-    },
-    {
-      type_asset: 'erc20',
-      address: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e',
-      denom_units: [{
-          denom: 'ibc/56DC152486BEEDFDA4201555A3340B239BE517717543205375C1395C69BF4F45',
-          exponent: 0,
-          aliases: ['0xf469fbd2abcd6b9de8e169d128226c0fc90a012e']
-        }, {
-          denom: 'pumpbtc',
-          exponent: 8
-        }],
-      base: 'ibc/56DC152486BEEDFDA4201555A3340B239BE517717543205375C1395C69BF4F45',
-      name: 'pumpBTC',
-      display: 'pumpbtc',
-      symbol: 'pumpBTC',
-      logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
-      },
-      coingecko_id: 'pumpbtc',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-2',
-            base_denom: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e',
             chain_name: 'ethereum'
           },
           chain: {
