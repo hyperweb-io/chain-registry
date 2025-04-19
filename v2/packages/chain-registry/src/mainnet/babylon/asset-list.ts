@@ -503,6 +503,161 @@ const info: AssetList = {
             path: '0'
           }
         }]
+    },
+    {
+      denomUnits: [{
+          denom: 'cw20:bbn1z5gne4pe84tqerdrjta5sp966m98zgg5czqe4xu2yzxqfqv5tfkqed0jyy',
+          exponent: 0
+        }, {
+          denom: 'LBTC',
+          exponent: 8
+        }],
+      base: 'cw20:bbn1z5gne4pe84tqerdrjta5sp966m98zgg5czqe4xu2yzxqfqv5tfkqed0jyy',
+      address: 'bbn1z5gne4pe84tqerdrjta5sp966m98zgg5czqe4xu2yzxqfqv5tfkqed0jyy',
+      name: 'Lombard Staked Bitcoin',
+      display: 'LBTC',
+      symbol: 'LBTC',
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
+      },
+      typeAsset: 'cw20',
+      traces: [{
+          type: 'ibc-bridge',
+          provider: 'Union',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x8236a87084f8B84306f72007F36F2618A5634494',
+            channelId: '1'
+          },
+          chain: {
+            channelId: '3',
+            path: '0'
+          }
+        }]
+    },
+    {
+      denomUnits: [{
+          denom: 'cw20:bbn1tyvxlr8qjt7yx48lhhle7xzxfxkyqwzkaxey3jekrl0gql260jlqlxgfst',
+          exponent: 0
+        }, {
+          denom: 'SolvBTC',
+          exponent: 18
+        }],
+      base: 'cw20:bbn1tyvxlr8qjt7yx48lhhle7xzxfxkyqwzkaxey3jekrl0gql260jlqlxgfst',
+      address: 'bbn1tyvxlr8qjt7yx48lhhle7xzxfxkyqwzkaxey3jekrl0gql260jlqlxgfst',
+      name: 'Solv BTC',
+      display: 'SolvBTC',
+      symbol: 'SolvBTC',
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
+      },
+      typeAsset: 'cw20',
+      traces: [{
+          type: 'ibc-bridge',
+          provider: 'Union',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x7a56e1c57c7475ccf742a1832b028f0456652f97',
+            channelId: '1'
+          },
+          chain: {
+            channelId: '3',
+            path: '0'
+          }
+        }]
+    },
+    {
+      denomUnits: [{
+          denom: 'cw20:bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks',
+          exponent: 0
+        }, {
+          denom: 'stBTC',
+          exponent: 18
+        }],
+      base: 'cw20:bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks',
+      address: 'bbn1ccylwef8yfhafxpmtzq4ps24kxce9cfnz0wnkucsvf2rylfh0jzswhk5ks',
+      name: 'Lorenzo stBTC',
+      display: 'stBTC',
+      symbol: 'stBTC',
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
+      },
+      typeAsset: 'cw20',
+      traces: [{
+          type: 'ibc-bridge',
+          provider: 'Union',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3',
+            channelId: '1'
+          },
+          chain: {
+            channelId: '3',
+            path: '0'
+          }
+        }]
+    },
+    {
+      denomUnits: [{
+          denom: 'cw20:bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d',
+          exponent: 0
+        }, {
+          denom: 'pumpBTC',
+          exponent: 8
+        }],
+      base: 'cw20:bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d',
+      address: 'bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d',
+      name: 'pumpBTC',
+      display: 'pumpBTC',
+      symbol: 'pumpBTC',
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
+      },
+      typeAsset: 'cw20',
+      traces: [{
+          type: 'ibc-bridge',
+          provider: 'Union',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e',
+            channelId: '1'
+          },
+          chain: {
+            channelId: '3',
+            path: '0'
+          }
+        }]
+    },
+    {
+      denomUnits: [{
+          denom: 'cw20:bbn1300se0vwue77hn6s8wph64ey6d55zaf48jrveg9wafsquncn3e4scssgvd',
+          exponent: 0
+        }, {
+          denom: 'WETH',
+          exponent: 18
+        }],
+      base: 'cw20:bbn1300se0vwue77hn6s8wph64ey6d55zaf48jrveg9wafsquncn3e4scssgvd',
+      address: 'bbn1300se0vwue77hn6s8wph64ey6d55zaf48jrveg9wafsquncn3e4scssgvd',
+      name: 'Wrapped Ether',
+      display: 'WETH',
+      symbol: 'WETH',
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg'
+      },
+      typeAsset: 'cw20',
+      traces: [{
+          type: 'ibc-bridge',
+          provider: 'Union',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
+            channelId: '1'
+          },
+          chain: {
+            channelId: '3',
+            path: '0'
+          }
+        }]
     }
   ]
 };

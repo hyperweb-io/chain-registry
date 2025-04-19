@@ -123,6 +123,52 @@ const info: IBCData[] = [
   {
     $schema: '../../ibc_data.schema.json',
     chain1: {
+      chainName: 'babylontestnet',
+      clientId: '07-tendermint-31',
+      connectionId: 'connection-29'
+    },
+    chain2: {
+      chainName: 'osmosistestnet',
+      clientId: '07-tendermint-4636',
+      connectionId: 'connection-3994'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-21',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-10366',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true,
+          dex: 'osmosis'
+        }
+      }, {
+        chain1: {
+          channelId: 'channel-22',
+          portId: 'wasm.bbn17tu5q57xdf3u4m0u8j4mnjlcwe9kt4n87fmc4cdnrkf9zungn7wsjfhts0'
+        },
+        chain2: {
+          channelId: 'channel-10367',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true,
+          description: 'cw20-ics20'
+        }
+      }]
+  },
+  {
+    $schema: '../../ibc_data.schema.json',
+    chain1: {
       chainName: 'celestiatestnet3',
       clientId: '07-tendermint-118',
       connectionId: 'connection-98'

@@ -16,10 +16,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'axpla',
-        fixedMinGasPrice: 850000000000,
-        lowGasPrice: 850000000000,
-        averageGasPrice: 1147500000000,
-        highGasPrice: 1487500000000
+        fixedMinGasPrice: 280000000000,
+        lowGasPrice: 280000000000,
+        averageGasPrice: 280000000000,
+        highGasPrice: 280000000000
       }]
   },
   staking: {
