@@ -60,7 +60,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.svg'
       },
-      coingeckoId: 'deenar-gold',
       socials: {
         website: 'https://deenar.com',
         twitter: 'https://x.com/DeenarGold'

@@ -219,7 +219,6 @@ const info: AssetList = {
           },
           provider: 'Arbitrum Bridge'
         }],
-      coingeckoId: 'arbitrum-bridged-usdt-arbitrum',
       images: [{
           imageSync: {
             chainName: 'ethereum',

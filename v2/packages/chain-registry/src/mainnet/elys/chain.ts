@@ -151,6 +151,10 @@ const info: Chain = {
         provider: 'vNodes[V] [RBX France] Ser[V]ices'
       },
       {
+        address: 'https://elys-rpc.kleomedes.network/',
+        provider: 'Kleomedes'
+      },
+      {
         address: 'https://rpc.elys.node75.org:443',
         provider: 'Pro-Nodes75'
       }
@@ -218,7 +222,7 @@ const info: Chain = {
       },
       {
         address: 'https://elys-mainnet-lcd.autostake.com:443',
-        provider: 'AutoStaked'
+        provider: 'AutoStake'
       },
       {
         address: 'https://elys-api.node39.top:443',
@@ -231,6 +235,10 @@ const info: Chain = {
       {
         address: 'https://elys.rest.fr.vnodesv.net:443',
         provider: 'vNodes[V] [RBX France] Ser[V]ices'
+      },
+      {
+        address: 'https://elys-api.kleomedes.network/',
+        provider: 'Kleomedes'
       },
       {
         address: 'https://api.elys.node75.org:443',
@@ -287,6 +295,10 @@ const info: Chain = {
         provider: 'Node39'
       },
       {
+        address: 'elys.grpc.kleomedes.network:443',
+        provider: 'Kleomedes'
+      },
+      {
         address: 'grpc.elys.node75.org:9210',
         provider: 'Pro-Nodes75'
       }
@@ -340,6 +352,10 @@ const info: Chain = {
       url: 'https://explorer.node39.top/elys',
       txPage: 'https://explorer.node39.top/elys/tx/${txHash}',
       accountPage: 'https://explorer.node39.top/elys/account/${accountAddress}'
+    },
+    {
+      kind: 'Stake-Hub by Kleomedes',
+      url: 'https://www.stake-hub.xyz/elys'
     }
   ]
 };
