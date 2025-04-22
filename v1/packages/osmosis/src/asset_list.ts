@@ -3533,7 +3533,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.svg'
       },
-      coingecko_id: 'deenar-gold',
       socials: {
         website: 'https://deenar.com',
         twitter: 'https://x.com/DeenarGold'
@@ -5218,12 +5217,12 @@ const asset_list: AssetList = {
       display: 'milk',
       symbol: 'MILK',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg',
           theme: {
             primary_color_hex: '#760dbb'
           }
@@ -9885,7 +9884,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.svg'
       },
-      coingecko_id: 'deenar-gold',
       socials: {
         website: 'https://deenar.com',
         twitter: 'https://x.com/DeenarGold'
@@ -11570,12 +11568,12 @@ const asset_list: AssetList = {
       display: 'milk',
       symbol: 'MILK',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg',
           theme: {
             primary_color_hex: '#760dbb'
           }
@@ -35069,7 +35067,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.svg'
       },
-      coingecko_id: 'alter',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.svg',
@@ -43947,7 +43944,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.svg'
       },
-      coingecko_id: 'alter',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.svg',

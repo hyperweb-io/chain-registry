@@ -1132,7 +1132,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.svg'
       },
-      coingecko_id: 'deenar-gold',
       socials: {
         website: 'https://deenar.com',
         twitter: 'https://x.com/DeenarGold'
@@ -3615,7 +3614,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.svg'
       },
-      coingecko_id: 'deenar-gold',
       socials: {
         website: 'https://deenar.com',
         twitter: 'https://x.com/DeenarGold'

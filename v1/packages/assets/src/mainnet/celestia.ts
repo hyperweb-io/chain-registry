@@ -921,12 +921,12 @@ const assets: AssetList = {
       display: 'milk',
       symbol: 'MILK',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg',
           theme: {
             primary_color_hex: '#760dbb'
           }
@@ -6895,12 +6895,12 @@ const assets: AssetList = {
       display: 'milk',
       symbol: 'MILK',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg',
           theme: {
             primary_color_hex: '#760dbb'
           }

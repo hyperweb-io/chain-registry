@@ -19,12 +19,12 @@ const info: AssetList = {
       display: 'milk',
       symbol: 'MILK',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg',
           theme: {
             primary_color_hex: '#760dbb'
           }
@@ -380,6 +380,33 @@ const info: AssetList = {
           }
         }],
       coingecko_id: 'usd-coin'
+    },
+    {
+      description: 'MilkyWay\'s liquid staked BABY',
+      denom_units: [{
+          denom: 'factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN',
+          exponent: 0,
+          aliases: []
+        }, {
+          denom: 'milkBABY',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN',
+      name: 'milkBABY',
+      display: 'milkBABY',
+      symbol: 'milkBABY',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.svg',
+          theme: {
+            primary_color_hex: '#d18dfc'
+          }
+        }]
     }
   ]
 };

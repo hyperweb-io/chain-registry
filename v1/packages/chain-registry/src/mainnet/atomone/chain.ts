@@ -133,6 +133,10 @@ const info: Chain = {
       {
         address: 'https://rpc.atomone.chaintools.tech',
         provider: 'ChainTools'
+      },
+      {
+        address: 'https://atomone-mainnet-rpc.bonynode.online',
+        provider: 'BonyNode💚'
       }
     ],
     rest: [
@@ -211,6 +215,10 @@ const info: Chain = {
       {
         address: 'https://api.atomone.chaintools.tech',
         provider: 'ChainTools'
+      },
+      {
+        address: 'https://atomone-mainnet-api.bonynode.online',
+        provider: 'BonyNode💚'
       }
     ],
     grpc: [
@@ -261,6 +269,10 @@ const info: Chain = {
       {
         address: 'grpc.atomone.chaintools.tech:443',
         provider: 'ChainTools'
+      },
+      {
+        address: 'https://atomone-mainnet-grpc.bonynode.online:443',
+        provider: 'BonyNode💚'
       }
     ]
   },
@@ -324,6 +336,12 @@ const info: Chain = {
       url: 'https://atomone.valopers.com/',
       tx_page: 'https://atomone.valopers.com/transactions/${txHash}',
       account_page: 'https://atomone.valopers.com/account/${accountAddress}'
+    },
+    {
+      kind: 'BonyNode💚',
+      url: 'https://explorer.bonynode.online/atomone',
+      tx_page: 'https://explorer.bonynode.online/atomone/transactions/${txHash}',
+      account_page: 'https://explorer.bonynode.online/atomone/account/${accountAddress}'
     }
   ],
   images: [{
