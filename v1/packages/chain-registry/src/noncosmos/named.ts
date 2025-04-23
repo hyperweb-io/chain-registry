@@ -33,7 +33,6 @@ export * as xrpl from './xrpl';
 export * as zilliqa from './zilliqa';
 export * as berachain from './berachain';
 export * as hall from './hall';
-export * as initia from './initia';
 export * as namada from './namada';
 export * as cosmoshubicstestnet from './cosmoshubicstestnet';
 export * as avalanchetestnet from './avalanchetestnet';

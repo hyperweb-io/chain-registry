@@ -93,10 +93,6 @@ const info: Chain = {
         provider: 'genznodes'
       },
       {
-        address: 'https://rpc.planq.safeblock.space',
-        provider: 'Safe Block'
-      },
-      {
         address: 'https://planq.rpc.skynodejs.net',
         provider: 'skynodejs'
       },
@@ -145,10 +141,6 @@ const info: Chain = {
       {
         address: 'https://planq-api.genznodes.dev',
         provider: 'genznodes'
-      },
-      {
-        address: 'https://api.planq.safeblock.space',
-        provider: 'Safe Block'
       },
       {
         address: 'https://planq.api.skynodejs.net',
@@ -213,10 +205,6 @@ const info: Chain = {
         provider: 'genznodes'
       },
       {
-        address: 'grpc.planq.safeblock.space:9090',
-        provider: 'Safe Block'
-      },
-      {
         address: 'https://planq.grpc.skynodejs.net',
         provider: 'skynodejs'
       },
@@ -253,10 +241,6 @@ const info: Chain = {
       {
         address: 'https://planq-rpc-evm.genznodes.dev',
         provider: 'genznodes'
-      },
-      {
-        address: 'https://evm.planq.safeblock.space',
-        provider: 'Safe Block'
       },
       {
         address: 'https://planq-jsonrpc.stake-town.com',
@@ -338,11 +322,6 @@ const info: Chain = {
       kind: 'Indonode',
       url: 'https://explorer.indonode.net/planq',
       tx_page: 'https://explorer.indonode.net/planq/tx/${txHash}'
-    },
-    {
-      kind: 'Safe Block',
-      url: 'https://explorer.safeblock.space/planq',
-      tx_page: 'https://explorer.safeblock.space/planq/tx/${txHash}'
     },
     {
       kind: 'KonsorTech',

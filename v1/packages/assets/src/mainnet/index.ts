@@ -60,6 +60,7 @@ export * as haqq from './haqq';
 export * as humans from './humans';
 export * as impacthub from './impacthub';
 export * as imversed from './imversed';
+export * as initia from './initia';
 export * as injective from './injective';
 export * as int3face from './int3face';
 export * as irisnet from './irisnet';

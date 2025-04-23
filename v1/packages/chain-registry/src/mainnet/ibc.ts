@@ -62,6 +62,7 @@ import * as _haqq from './haqq';
 import * as _humans from './humans';
 import * as _impacthub from './impacthub';
 import * as _imversed from './imversed';
+import * as _initia from './initia';
 import * as _injective from './injective';
 import * as _int3face from './int3face';
 import * as _irisnet from './irisnet';
@@ -217,6 +218,7 @@ const ibc: IBCInfo[] = [
   ..._humans.ibc,
   ..._impacthub.ibc,
   ..._imversed.ibc,
+  ..._initia.ibc,
   ..._injective.ibc,
   ..._int3face.ibc,
   ..._irisnet.ibc,

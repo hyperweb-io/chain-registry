@@ -74,10 +74,6 @@ const info: Chain = {
         provider: 'Architect Nodes'
       },
       {
-        address: 'https://rpc.bitsong.safeblock.space',
-        provider: 'Safe Block'
-      },
-      {
         address: 'https://bitsong.tdrsys.com:2053',
         provider: 'TdrSys'
       },
@@ -124,10 +120,6 @@ const info: Chain = {
         provider: 'Architect Nodes'
       },
       {
-        address: 'https://api.bitsong.safeblock.space',
-        provider: 'Safe Block'
-      },
-      {
         address: 'https://bitsong.tdrsys.com',
         provider: 'TdrSys'
       },
@@ -164,10 +156,6 @@ const info: Chain = {
       {
         address: 'bitsong-grpc.polkachu.com:16090',
         provider: 'Polkachu'
-      },
-      {
-        address: 'grpc.bitsong.safeblock.space:9090',
-        provider: 'Safe Block'
       },
       {
         address: 'grpc.bitsong.mathnodes.com:443',
@@ -220,12 +208,6 @@ const info: Chain = {
       url: 'https://atomscan.com/bitsong',
       tx_page: 'https://atomscan.com/bitsong/transactions/${txHash}',
       account_page: 'https://atomscan.com/bitsong/accounts/${accountAddress}'
-    },
-    {
-      kind: 'Safe Block',
-      url: 'https://explorer.safeblok.space/bitsong',
-      tx_page: 'https://explorer.safeblock.space/bitsong/tx/${txHash}',
-      account_page: 'https://explorer.safeblock.space/bitsong/account/${accountAddress}'
     },
     {
       kind: '🔥STAVR🔥',

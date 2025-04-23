@@ -116,6 +116,10 @@ const info: Chain = {
       {
         address: 'https://sentinel-rpc.ibs.team:443',
         provider: 'Inter Blockchain Services'
+      },
+      {
+        address: 'https://sentinel.rpc.quasarstaking.ai:443',
+        provider: 'Quasar'
       }
     ],
     rest: [
@@ -186,6 +190,10 @@ const info: Chain = {
       {
         address: 'https://sentinel-api.ibs.team:443',
         provider: 'Inter Blockchain Services'
+      },
+      {
+        address: 'https://sentinel.api.quasarstaking.ai:443',
+        provider: 'Quasar'
       }
     ],
     grpc: [
@@ -240,6 +248,10 @@ const info: Chain = {
       {
         address: 'https://grpc.noncompliant.network:9090',
         provider: 'Noncompliant Network (Insecure)'
+      },
+      {
+        address: 'sentinel.grpc.quasarstaking.ai:80',
+        provider: 'Quasar'
       }
     ]
   },

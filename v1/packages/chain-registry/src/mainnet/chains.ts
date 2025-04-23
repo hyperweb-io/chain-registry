@@ -84,6 +84,7 @@ import * as _humans from './humans';
 import * as _idep from './idep';
 import * as _impacthub from './impacthub';
 import * as _imversed from './imversed';
+import * as _initia from './initia';
 import * as _injective from './injective';
 import * as _int3face from './int3face';
 import * as _irisnet from './irisnet';
@@ -286,6 +287,7 @@ const chains: Chain[] = [
   _idep.chain,
   _impacthub.chain,
   _imversed.chain,
+  _initia.chain,
   _injective.chain,
   _int3face.chain,
   _irisnet.chain,

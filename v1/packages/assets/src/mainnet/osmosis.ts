@@ -3668,6 +3668,45 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Initia',
+      denom_units: [{
+          denom: 'ibc/70932FA3E9291DC51EE280CEEA490BDA58D927598BAEFED5947F99365EE97806',
+          exponent: 0,
+          aliases: ['uinit']
+        }, {
+          denom: 'INIT',
+          exponent: 6
+        }],
+      base: 'ibc/70932FA3E9291DC51EE280CEEA490BDA58D927598BAEFED5947F99365EE97806',
+      display: 'INIT',
+      name: 'Initia',
+      symbol: 'INIT',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.svg',
+          theme: {
+            circle: true,
+            primary_color_hex: '#040404'
+          }
+        }],
+      socials: {
+        website: 'https://initia.xyz/',
+        twitter: 'https://twitter.com/initiaFDN'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uinit',
+            chain_name: 'initia'
+          },
+          chain: {
+            channel_id: 'channel-100108'
+          }
+        }]
+    },
+    {
       description: 'Injective is a decentralized exchange protocol that enables fast, secure, and fully decentralized trading of derivatives, futures, and spot markets.',
       denom_units: [{
           denom: 'ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273',
@@ -10019,6 +10058,45 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Initia',
+      denom_units: [{
+          denom: 'ibc/70932FA3E9291DC51EE280CEEA490BDA58D927598BAEFED5947F99365EE97806',
+          exponent: 0,
+          aliases: ['uinit']
+        }, {
+          denom: 'INIT',
+          exponent: 6
+        }],
+      base: 'ibc/70932FA3E9291DC51EE280CEEA490BDA58D927598BAEFED5947F99365EE97806',
+      display: 'INIT',
+      name: 'Initia',
+      symbol: 'INIT',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.svg',
+          theme: {
+            circle: true,
+            primary_color_hex: '#040404'
+          }
+        }],
+      socials: {
+        website: 'https://initia.xyz/',
+        twitter: 'https://twitter.com/initiaFDN'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uinit',
+            chain_name: 'initia'
+          },
+          chain: {
+            channel_id: 'channel-100108'
+          }
+        }]
+    },
+    {
       description: 'Injective is a decentralized exchange protocol that enables fast, secure, and fully decentralized trading of derivatives, futures, and spot markets.',
       denom_units: [{
           denom: 'ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273',
@@ -28742,6 +28820,38 @@ const assets: AssetList = {
         }]
     },
     {
+      denom_units: [{
+          denom: 'ibc/F5F5B3929B2A955C4F901ADE7089A7711DA87C1B6B58056493C480A95BCBFD97',
+          exponent: 0,
+          aliases: ['cw20:bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x']
+        }, {
+          denom: 'satUniBTC',
+          exponent: 8
+        }],
+      base: 'ibc/F5F5B3929B2A955C4F901ADE7089A7711DA87C1B6B58056493C480A95BCBFD97',
+      address: 'bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x',
+      name: 'Satlayer uniBTC',
+      display: 'satUniBTC',
+      symbol: 'satUniBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
       description: 'Puppy',
       denom_units: [{
           denom: 'ibc/46AC07DBFF1352EC94AF5BD4D23740D92D9803A6B41F6E213E77F3A1143FB963',
@@ -31899,6 +32009,38 @@ const assets: AssetList = {
             port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
             channel_id: 'channel-7',
             base_denom: 'cw20:bbn1300se0vwue77hn6s8wph64ey6d55zaf48jrveg9wafsquncn3e4scssgvd',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/F5F5B3929B2A955C4F901ADE7089A7711DA87C1B6B58056493C480A95BCBFD97',
+          exponent: 0,
+          aliases: ['cw20:bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x']
+        }, {
+          denom: 'satUniBTC',
+          exponent: 8
+        }],
+      base: 'ibc/F5F5B3929B2A955C4F901ADE7089A7711DA87C1B6B58056493C480A95BCBFD97',
+      address: 'bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x',
+      name: 'Satlayer uniBTC',
+      display: 'satUniBTC',
+      symbol: 'satUniBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x',
             chain_name: 'babylon'
           },
           chain: {
