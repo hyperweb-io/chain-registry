@@ -1831,6 +1831,32 @@ const info: AssetList = {
       display: 'enzobtc',
       symbol: 'enzoBTC',
       coingeckoId: 'lorenzo-wrapped-bitcoin'
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0xF7De2B7afdb07AA5dD143180Ed758165821E076e',
+      denomUnits: [{
+          denom: '0xF7De2B7afdb07AA5dD143180Ed758165821E076e',
+          exponent: 0
+        }, {
+          denom: 'satunibtc',
+          exponent: 8
+        }],
+      base: '0xF7De2B7afdb07AA5dD143180Ed758165821E076e',
+      name: 'Satlayer uniBTC',
+      display: 'satunibtc',
+      symbol: 'satUniBTC',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568'
+          },
+          provider: 'SatLayer'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg'
+      }
     }
   ]
 };

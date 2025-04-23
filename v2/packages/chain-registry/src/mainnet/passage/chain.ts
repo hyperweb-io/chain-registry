@@ -17,10 +17,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'upasg',
-        fixedMinGasPrice: 0,
-        lowGasPrice: 0.001,
-        averageGasPrice: 0.0025,
-        highGasPrice: 0.01
+        fixedMinGasPrice: 12.5,
+        lowGasPrice: 12.5,
+        averageGasPrice: 12.5,
+        highGasPrice: 12.5
       }]
   },
   staking: {

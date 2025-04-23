@@ -90,10 +90,6 @@ const info: Chain = {
         provider: 'Sr20de'
       },
       {
-        address: 'https://rpc.realio.safeblock.space',
-        provider: 'Safe Block'
-      },
-      {
         address: 'https://realio.declab.pro:26622',
         provider: 'Decloud Nodes Lab'
       },
@@ -144,10 +140,6 @@ const info: Chain = {
         provider: 'Sr20de'
       },
       {
-        address: 'https://api.realio.safeblock.space',
-        provider: 'Safe Block'
-      },
-      {
         address: 'https://realio.declab.pro:443',
         provider: 'Decloud Nodes Lab'
       },
@@ -194,10 +186,6 @@ const info: Chain = {
         provider: 'Sr20de'
       },
       {
-        address: 'grpc.realio.safeblock.space:9090',
-        provider: 'Safe Block'
-      },
-      {
         address: 'realio.grpc.skynodejs.net',
         provider: 'skynodejs'
       },
@@ -226,10 +214,6 @@ const info: Chain = {
       {
         address: 'https://evm-realio.sr20de.xyz',
         provider: 'Sr20de'
-      },
-      {
-        address: 'https://evm.realio.safeblock.space',
-        provider: 'Safe Block'
       },
       {
         address: 'https://realio-jsonrpc.noders.services',
@@ -265,12 +249,6 @@ const info: Chain = {
       url: 'https://explorer.tcnetwork.io/realio',
       txPage: 'https://explorer.tcnetwork.io/realio/transaction/${txHash}',
       accountPage: 'https://explorer.tcnetwork.io/realio/account/${accountAddress}'
-    },
-    {
-      kind: 'Safe Block',
-      url: 'https://explorer.safeblock.space/realio',
-      txPage: 'https://explorer.safeblock.space/realio/tx/${txHash}',
-      accountPage: 'https://explorer.safeblock.space/realio/account/${accountAddress}'
     },
     {
       kind: 'Decloud Nodes Lab',

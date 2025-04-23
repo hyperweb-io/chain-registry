@@ -95,10 +95,6 @@ const info: Chain = {
         provider: 'Sr20de'
       },
       {
-        address: 'https://rpc.sge.safeblock.space',
-        provider: 'Safe Block'
-      },
-      {
         address: 'https://mainnet-sge-rpc.konsortech.xyz',
         provider: 'KonsorTech'
       },
@@ -147,10 +143,6 @@ const info: Chain = {
       {
         address: 'https://sge-api.sr20de.xyz',
         provider: 'Sr20de'
-      },
-      {
-        address: 'https://api.sge.safeblock.space',
-        provider: 'Safe Block'
       },
       {
         address: 'https://mainnet-sge-api.konsortech.xyz',
@@ -245,12 +237,6 @@ const info: Chain = {
       url: 'https://staking-explorer.com/explorer/sge',
       txPage: 'https://staking-explorer.com/transaction.php?chain=sge&tx=${txHash}',
       accountPage: 'https://staking-explorer.com/account.php?chain=sge&addr=${accountAddress}'
-    },
-    {
-      kind: 'Safe Block',
-      url: 'https://explorer.safeblock.space/sge',
-      txPage: 'https://explorer.safeblock.space/sge/tx/${txHash}',
-      accountPage: 'https://explorer.safeblock.space/sge/account/${accountAddress}'
     },
     {
       kind: 'KonsorTech',

@@ -84,6 +84,7 @@ import * as _humans from './humans';
 import * as _idep from './idep';
 import * as _impacthub from './impacthub';
 import * as _imversed from './imversed';
+import * as _initia from './initia';
 import * as _injective from './injective';
 import * as _int3face from './int3face';
 import * as _irisnet from './irisnet';
@@ -286,6 +287,7 @@ const assetList: AssetList[] = [
   _idep.assetList,
   _impacthub.assetList,
   _imversed.assetList,
+  _initia.assetList,
   _injective.assetList,
   _int3face.assetList,
   _irisnet.assetList,

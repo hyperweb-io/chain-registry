@@ -658,6 +658,37 @@ const info: AssetList = {
             path: '0'
           }
         }]
+    },
+    {
+      denomUnits: [{
+          denom: 'cw20:bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x',
+          exponent: 0
+        }, {
+          denom: 'satUniBTC',
+          exponent: 8
+        }],
+      base: 'cw20:bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x',
+      address: 'bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x',
+      name: 'Satlayer uniBTC',
+      display: 'satUniBTC',
+      symbol: 'satUniBTC',
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg'
+      },
+      typeAsset: 'cw20',
+      traces: [{
+          type: 'ibc-bridge',
+          provider: 'Union',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0xF7De2B7afdb07AA5dD143180Ed758165821E076e',
+            channelId: '1'
+          },
+          chain: {
+            channelId: '3',
+            path: '0'
+          }
+        }]
     }
   ]
 };
