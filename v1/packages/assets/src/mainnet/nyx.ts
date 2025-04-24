@@ -3,6 +3,49 @@ const assets: AssetList = {
   chain_name: 'nyx',
   assets: [
     {
+      description: 'Axelar is a decentralized interoperability network connecting multiple blockchain ecosystems, enabling seamless cross-chain communication and value transfer.',
+      denom_units: [{
+          denom: 'ibc/2253DE2F950B35D9AB9B403F58F30B970ABDFE1A35AD23E9AB20AE575C68984A',
+          exponent: 0,
+          aliases: ['uaxl']
+        }, {
+          denom: 'axl',
+          exponent: 6
+        }],
+      base: 'ibc/2253DE2F950B35D9AB9B403F58F30B970ABDFE1A35AD23E9AB20AE575C68984A',
+      name: 'Axelar',
+      display: 'axl',
+      symbol: 'AXL',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'
+      },
+      coingecko_id: 'axelar',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg',
+          theme: {
+            primary_color_hex: '#040404'
+          }
+        }],
+      socials: {
+        website: 'https://axelar.network/',
+        twitter: 'https://twitter.com/axelarnetwork'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-177',
+            base_denom: 'uaxl',
+            chain_name: 'axelar'
+          },
+          chain: {
+            channel_id: 'channel-14'
+          }
+        }]
+    },
+    {
       description: 'The native token of Gravity Bridge',
       denom_units: [{
           denom: 'ibc/FC9D92EC12BC974E8B6179D411351524CD5C2EBC3CE29D5BA856414FEFA47093',
@@ -42,6 +85,49 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-0'
+          }
+        }]
+    },
+    {
+      description: 'Axelar is a decentralized interoperability network connecting multiple blockchain ecosystems, enabling seamless cross-chain communication and value transfer.',
+      denom_units: [{
+          denom: 'ibc/2253DE2F950B35D9AB9B403F58F30B970ABDFE1A35AD23E9AB20AE575C68984A',
+          exponent: 0,
+          aliases: ['uaxl']
+        }, {
+          denom: 'axl',
+          exponent: 6
+        }],
+      base: 'ibc/2253DE2F950B35D9AB9B403F58F30B970ABDFE1A35AD23E9AB20AE575C68984A',
+      name: 'Axelar',
+      display: 'axl',
+      symbol: 'AXL',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'
+      },
+      coingecko_id: 'axelar',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg',
+          theme: {
+            primary_color_hex: '#040404'
+          }
+        }],
+      socials: {
+        website: 'https://axelar.network/',
+        twitter: 'https://twitter.com/axelarnetwork'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-177',
+            base_denom: 'uaxl',
+            chain_name: 'axelar'
+          },
+          chain: {
+            channel_id: 'channel-14'
           }
         }]
     },

@@ -48,14 +48,14 @@ const assets: AssetList = {
     {
       description: 'ATOM is the native cryptocurrency of the Cosmos network, designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.',
       denom_units: [{
-          denom: 'ibc/25418646C017D377ADF3202FF1E43590D0DAE3346E594E8D78176A139A928F88',
+          denom: 'ibc/A670D9568B3E399316EEDE40C1181B7AA4BD0695F0B37513CE9B95B977DFC12E',
           exponent: 0,
           aliases: ['uatom']
         }, {
           denom: 'atom',
           exponent: 6
         }],
-      base: 'ibc/25418646C017D377ADF3202FF1E43590D0DAE3346E594E8D78176A139A928F88',
+      base: 'ibc/A670D9568B3E399316EEDE40C1181B7AA4BD0695F0B37513CE9B95B977DFC12E',
       name: 'Cosmos Hub Atom',
       display: 'atom',
       symbol: 'ATOM',
@@ -79,12 +79,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-1335',
+            channel_id: 'channel-1352',
             base_denom: 'uatom',
             chain_name: 'cosmoshub'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-10'
           }
         }]
     },
@@ -812,14 +812,14 @@ const assets: AssetList = {
     {
       description: 'ATOM is the native cryptocurrency of the Cosmos network, designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.',
       denom_units: [{
-          denom: 'ibc/25418646C017D377ADF3202FF1E43590D0DAE3346E594E8D78176A139A928F88',
+          denom: 'ibc/A670D9568B3E399316EEDE40C1181B7AA4BD0695F0B37513CE9B95B977DFC12E',
           exponent: 0,
           aliases: ['uatom']
         }, {
           denom: 'atom',
           exponent: 6
         }],
-      base: 'ibc/25418646C017D377ADF3202FF1E43590D0DAE3346E594E8D78176A139A928F88',
+      base: 'ibc/A670D9568B3E399316EEDE40C1181B7AA4BD0695F0B37513CE9B95B977DFC12E',
       name: 'Cosmos Hub Atom',
       display: 'atom',
       symbol: 'ATOM',
@@ -843,12 +843,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-1335',
+            channel_id: 'channel-1352',
             base_denom: 'uatom',
             chain_name: 'cosmoshub'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-10'
           }
         }]
     },
