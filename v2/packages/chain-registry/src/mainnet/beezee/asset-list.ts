@@ -488,6 +488,34 @@ const info: AssetList = {
         twitter: 'https://twitter.com/POSTHUMAN_DVS'
       },
       coingeckoId: 'posthuman'
+    },
+    {
+      description: 'GEEGEE (GGE) on Cosmos is a community driven meme coin. Sharing knowledge and create visibility. How strong can we be? ☀️',
+      denomUnits: [{
+          denom: 'factory/bze12gyp30f29zg26nuqrwdhl26ej4q066pt572fhm/GGE',
+          exponent: 0
+        }, {
+          denom: 'GGE',
+          exponent: 6
+        }],
+      base: 'factory/bze12gyp30f29zg26nuqrwdhl26ej4q066pt572fhm/GGE',
+      name: 'GEEGEE',
+      display: 'GGE',
+      symbol: 'GGE',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/gge.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/gge.png',
+          theme: {
+            primaryColorHex: '#FEFEFE'
+          }
+        }],
+      socials: {
+        website: 'https://geegeecoin.io/',
+        twitter: 'https://x.com/gge_crypto'
+      },
+      typeAsset: 'sdk.coin'
     }
   ]
 };
