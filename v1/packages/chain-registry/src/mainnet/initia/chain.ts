@@ -41,19 +41,28 @@ const info: Chain = {
       genesis_url: 'https://storage.googleapis.com/init-common-genesis/interwoven-1/genesis.json'
     }
   },
-  description: 'Initia Mainnet',
+  description: 'Initia L1 is a Layer 1 blockchain designed to serve as the coordination layer and central hub for all Initia rollups. This layer provides essential services to Rollups, including: Network Security, Governance, Liquidity Solutions, Bridging and Interoperability.',
   apis: {
     rpc: [{
         address: 'https://rpc.initia.xyz',
         provider: 'Initia Labs'
+      }, {
+        address: 'https://initia.rpc.quasarstaking.ai:443',
+        provider: 'Quasar'
       }],
     rest: [{
         address: 'https://rest.initia.xyz',
         provider: 'Initia Labs'
+      }, {
+        address: 'https://initia.api.quasarstaking.ai:443',
+        provider: 'Quasar'
       }],
     grpc: [{
         address: 'grpc.initia.xyz:443',
         provider: 'Initia Labs'
+      }, {
+        address: 'initia.grpc.quasarstaking.ai:80',
+        provider: 'Quasar'
       }]
   },
   explorers: [{

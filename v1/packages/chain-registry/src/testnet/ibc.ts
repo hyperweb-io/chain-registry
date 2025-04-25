@@ -46,6 +46,7 @@ import * as _terra2testnet from './terra2testnet';
 import * as _titannettestnet from './titannettestnet';
 import * as _titantestnet from './titantestnet';
 import * as _xiontestnet2 from './xiontestnet2';
+import * as _xrplevmtestnet from './xrplevmtestnet';
 
 const ibc: IBCInfo[] = [
   ..._akashtestnet.ibc,
@@ -93,7 +94,8 @@ const ibc: IBCInfo[] = [
   ..._terra2testnet.ibc,
   ..._titannettestnet.ibc,
   ..._titantestnet.ibc,
-  ..._xiontestnet2.ibc
+  ..._xiontestnet2.ibc,
+  ..._xrplevmtestnet.ibc
 ];
 
 export default ibc;

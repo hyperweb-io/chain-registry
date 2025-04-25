@@ -125,6 +125,7 @@ export * as wardenprotocoltestnet from './wardenprotocoltestnet';
 export * as wavehashtestnet from './wavehashtestnet';
 export * as xiontestnet2 from './xiontestnet2';
 export * as xplatestnet from './xplatestnet';
+export * as xrplevmtestnet from './xrplevmtestnet';
 export * as zenrocktestnet from './zenrocktestnet';
 export * as zetachaintestnet from './zetachaintestnet';
 export * as zigchaintestnet from './zigchaintestnet';

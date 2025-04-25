@@ -3670,14 +3670,14 @@ const assets: AssetList = {
     {
       description: 'The native token of Initia',
       denom_units: [{
-          denom: 'ibc/70932FA3E9291DC51EE280CEEA490BDA58D927598BAEFED5947F99365EE97806',
+          denom: 'ibc/DD7EA9AF1E58E9FDD7F9810976817E203D5B87BAEF7AEA592FA34DF73310620B',
           exponent: 0,
           aliases: ['uinit']
         }, {
           denom: 'INIT',
           exponent: 6
         }],
-      base: 'ibc/70932FA3E9291DC51EE280CEEA490BDA58D927598BAEFED5947F99365EE97806',
+      base: 'ibc/DD7EA9AF1E58E9FDD7F9810976817E203D5B87BAEF7AEA592FA34DF73310620B',
       display: 'INIT',
       name: 'Initia',
       symbol: 'INIT',
@@ -3694,15 +3694,16 @@ const assets: AssetList = {
         twitter: 'https://twitter.com/initiaFDN'
       },
       type_asset: 'sdk.coin',
+      coingecko_id: 'initia',
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-0',
+            channel_id: 'channel-68',
             base_denom: 'uinit',
             chain_name: 'initia'
           },
           chain: {
-            channel_id: 'channel-100108'
+            channel_id: 'channel-102122'
           }
         }]
     },
@@ -10060,14 +10061,14 @@ const assets: AssetList = {
     {
       description: 'The native token of Initia',
       denom_units: [{
-          denom: 'ibc/70932FA3E9291DC51EE280CEEA490BDA58D927598BAEFED5947F99365EE97806',
+          denom: 'ibc/DD7EA9AF1E58E9FDD7F9810976817E203D5B87BAEF7AEA592FA34DF73310620B',
           exponent: 0,
           aliases: ['uinit']
         }, {
           denom: 'INIT',
           exponent: 6
         }],
-      base: 'ibc/70932FA3E9291DC51EE280CEEA490BDA58D927598BAEFED5947F99365EE97806',
+      base: 'ibc/DD7EA9AF1E58E9FDD7F9810976817E203D5B87BAEF7AEA592FA34DF73310620B',
       display: 'INIT',
       name: 'Initia',
       symbol: 'INIT',
@@ -10084,15 +10085,16 @@ const assets: AssetList = {
         twitter: 'https://twitter.com/initiaFDN'
       },
       type_asset: 'sdk.coin',
+      coingecko_id: 'initia',
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-0',
+            channel_id: 'channel-68',
             base_denom: 'uinit',
             chain_name: 'initia'
           },
           chain: {
-            channel_id: 'channel-100108'
+            channel_id: 'channel-102122'
           }
         }]
     },
@@ -28825,14 +28827,14 @@ const assets: AssetList = {
           exponent: 0,
           aliases: ['cw20:bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x']
         }, {
-          denom: 'satUniBTC',
+          denom: 'satUniBTC.e',
           exponent: 8
         }],
       base: 'ibc/F5F5B3929B2A955C4F901ADE7089A7711DA87C1B6B58056493C480A95BCBFD97',
       address: 'bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x',
-      name: 'Satlayer uniBTC',
-      display: 'satUniBTC',
-      symbol: 'satUniBTC',
+      name: 'SatLayer uniBTC Bridged',
+      display: 'satUniBTC.e',
+      symbol: 'satUniBTC.e',
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg'
       },
@@ -32023,14 +32025,14 @@ const assets: AssetList = {
           exponent: 0,
           aliases: ['cw20:bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x']
         }, {
-          denom: 'satUniBTC',
+          denom: 'satUniBTC.e',
           exponent: 8
         }],
       base: 'ibc/F5F5B3929B2A955C4F901ADE7089A7711DA87C1B6B58056493C480A95BCBFD97',
       address: 'bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x',
-      name: 'Satlayer uniBTC',
-      display: 'satUniBTC',
-      symbol: 'satUniBTC',
+      name: 'SatLayer uniBTC Bridged',
+      display: 'satUniBTC.e',
+      symbol: 'satUniBTC.e',
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg'
       },

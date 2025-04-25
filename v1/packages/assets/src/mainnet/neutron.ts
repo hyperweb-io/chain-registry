@@ -593,6 +593,46 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Initia',
+      denom_units: [{
+          denom: 'ibc/739368B97C6A578432701EEE54CF8BAE535F2EDD28BE051E05268BFA99229090',
+          exponent: 0,
+          aliases: ['uinit']
+        }, {
+          denom: 'INIT',
+          exponent: 6
+        }],
+      base: 'ibc/739368B97C6A578432701EEE54CF8BAE535F2EDD28BE051E05268BFA99229090',
+      display: 'INIT',
+      name: 'Initia',
+      symbol: 'INIT',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.svg',
+          theme: {
+            circle: true,
+            primary_color_hex: '#040404'
+          }
+        }],
+      socials: {
+        website: 'https://initia.xyz/',
+        twitter: 'https://twitter.com/initiaFDN'
+      },
+      type_asset: 'sdk.coin',
+      coingecko_id: 'initia',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-37',
+            base_denom: 'uinit',
+            chain_name: 'initia'
+          },
+          chain: {
+            channel_id: 'channel-6885'
+          }
+        }]
+    },
+    {
       description: 'Injective is a decentralized exchange protocol that enables fast, secure, and fully decentralized trading of derivatives, futures, and spot markets.',
       denom_units: [{
           denom: 'ibc/69BEAFC2FDF0C6F0124520B0A06E432AD8490732DFC309337FA6C307124FDABC',
@@ -1854,6 +1894,46 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-6476'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Initia',
+      denom_units: [{
+          denom: 'ibc/739368B97C6A578432701EEE54CF8BAE535F2EDD28BE051E05268BFA99229090',
+          exponent: 0,
+          aliases: ['uinit']
+        }, {
+          denom: 'INIT',
+          exponent: 6
+        }],
+      base: 'ibc/739368B97C6A578432701EEE54CF8BAE535F2EDD28BE051E05268BFA99229090',
+      display: 'INIT',
+      name: 'Initia',
+      symbol: 'INIT',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.svg',
+          theme: {
+            circle: true,
+            primary_color_hex: '#040404'
+          }
+        }],
+      socials: {
+        website: 'https://initia.xyz/',
+        twitter: 'https://twitter.com/initiaFDN'
+      },
+      type_asset: 'sdk.coin',
+      coingecko_id: 'initia',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-37',
+            base_denom: 'uinit',
+            chain_name: 'initia'
+          },
+          chain: {
+            channel_id: 'channel-6885'
           }
         }]
     },

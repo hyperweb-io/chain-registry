@@ -201,6 +201,57 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of XRPL EVM Testnet',
+      denom_units: [{
+          denom: 'ibc/E925EC46A2F4B84815DB7218ADF272989DADD18372C779F68DB31A6BC4F91B7D',
+          exponent: 0,
+          aliases: ['axrp']
+        }, {
+          denom: 'XRP',
+          exponent: 18
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/E925EC46A2F4B84815DB7218ADF272989DADD18372C779F68DB31A6BC4F91B7D',
+      name: 'XRP',
+      display: 'XRP',
+      symbol: 'XRP',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg',
+          theme: {
+            primary_color_hex: '#040404'
+          }
+        }],
+      keywords: [
+        'xrpl',
+        'evm',
+        'testnet',
+        'sidechain',
+        'ripple',
+        'peersyst',
+        'cosmos',
+        'evmos',
+        'axelar',
+        'xrp',
+        'xrplevm'
+      ],
+      socials: {
+        website: 'https://xrplevm.org',
+        twitter: 'https://twitter.com/Peersyst'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'axrp',
+            chain_name: 'xrplevmtestnet'
+          },
+          chain: {
+            channel_id: 'channel-10'
+          }
+        }]
+    },
+    {
       description: 'The controlled staking asset for Noble Chain',
       denom_units: [{
           denom: 'ibc/6F68FCA68B0C4AF34D0C9875541BB993A395D6BAF40A56DB1B105D09C180EB33',
@@ -286,6 +337,57 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-12'
+          }
+        }]
+    },
+    {
+      description: 'The native token of XRPL EVM Testnet',
+      denom_units: [{
+          denom: 'ibc/E925EC46A2F4B84815DB7218ADF272989DADD18372C779F68DB31A6BC4F91B7D',
+          exponent: 0,
+          aliases: ['axrp']
+        }, {
+          denom: 'XRP',
+          exponent: 18
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/E925EC46A2F4B84815DB7218ADF272989DADD18372C779F68DB31A6BC4F91B7D',
+      name: 'XRP',
+      display: 'XRP',
+      symbol: 'XRP',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg',
+          theme: {
+            primary_color_hex: '#040404'
+          }
+        }],
+      keywords: [
+        'xrpl',
+        'evm',
+        'testnet',
+        'sidechain',
+        'ripple',
+        'peersyst',
+        'cosmos',
+        'evmos',
+        'axelar',
+        'xrp',
+        'xrplevm'
+      ],
+      socials: {
+        website: 'https://xrplevm.org',
+        twitter: 'https://twitter.com/Peersyst'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'axrp',
+            chain_name: 'xrplevmtestnet'
+          },
+          chain: {
+            channel_id: 'channel-10'
           }
         }]
     },
