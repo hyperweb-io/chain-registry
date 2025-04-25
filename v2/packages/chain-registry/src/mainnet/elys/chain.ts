@@ -123,6 +123,10 @@ const info: Chain = {
         provider: 'Cogwheel ⚙️'
       },
       {
+        address: 'https://rpc-elys.ottersync.io:443',
+        provider: 'OtterSync'
+      },
+      {
         address: 'https://elys.rpc.quasarstaking.ai:443',
         provider: 'Quasar'
       },
@@ -209,6 +213,10 @@ const info: Chain = {
         provider: 'Cogwheel ⚙️'
       },
       {
+        address: 'https://api-elys.ottersync.io:443',
+        provider: 'OtterSync'
+      },
+      {
         address: 'https://elys.api.quasarstaking.ai:443',
         provider: 'Quasar'
       },
@@ -277,6 +285,10 @@ const info: Chain = {
       {
         address: 'elys-grpc.cogwheel.zone:443',
         provider: 'Cogwheel ⚙️'
+      },
+      {
+        address: 'https://grpc-elys.ottersync.io:443',
+        provider: 'OtterSync'
       },
       {
         address: 'elys.grpc.quasarstaking.ai:443',
@@ -356,6 +368,12 @@ const info: Chain = {
     {
       kind: 'Stake-Hub by Kleomedes',
       url: 'https://www.stake-hub.xyz/elys'
+    },
+    {
+      kind: 'ElysScan by Kwak',
+      url: 'https://elysscan.io',
+      txPage: 'https://elysscan.io/tx/${txHash}',
+      accountPage: 'https://elysscan.io/address/${accountAddress}'
     }
   ]
 };

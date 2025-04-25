@@ -127,6 +127,7 @@ import * as _wardenprotocoltestnet from './wardenprotocoltestnet';
 import * as _wavehashtestnet from './wavehashtestnet';
 import * as _xiontestnet2 from './xiontestnet2';
 import * as _xplatestnet from './xplatestnet';
+import * as _xrplevmtestnet from './xrplevmtestnet';
 import * as _zenrocktestnet from './zenrocktestnet';
 import * as _zetachaintestnet from './zetachaintestnet';
 import * as _zigchaintestnet from './zigchaintestnet';
@@ -259,6 +260,7 @@ const chains: Chain[] = [
   _wavehashtestnet.chain,
   _xiontestnet2.chain,
   _xplatestnet.chain,
+  _xrplevmtestnet.chain,
   _zenrocktestnet.chain,
   _zetachaintestnet.chain,
   _zigchaintestnet.chain

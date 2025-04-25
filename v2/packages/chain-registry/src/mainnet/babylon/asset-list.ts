@@ -664,14 +664,14 @@ const info: AssetList = {
           denom: 'cw20:bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x',
           exponent: 0
         }, {
-          denom: 'satUniBTC',
+          denom: 'satUniBTC.e',
           exponent: 8
         }],
       base: 'cw20:bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x',
       address: 'bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x',
-      name: 'Satlayer uniBTC',
-      display: 'satUniBTC',
-      symbol: 'satUniBTC',
+      name: 'SatLayer uniBTC Bridged',
+      display: 'satUniBTC.e',
+      symbol: 'satUniBTC.e',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg'
       },

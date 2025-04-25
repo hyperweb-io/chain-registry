@@ -27,5 +27,34 @@ const info: IBCData[] = [{
           preferred: true
         }
       }]
+  }, {
+    $schema: '../../ibc_data.schema.json',
+    chain1: {
+      chainName: 'cosmosicsprovidertestnet',
+      clientId: '07-tendermint-290',
+      connectionId: 'connection-208'
+    },
+    chain2: {
+      chainName: 'xrplevmtestnet',
+      clientId: '07-tendermint-9',
+      connectionId: 'connection-1'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-374',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-1',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true,
+          dex: 'osmosis'
+        }
+      }]
   }];
 export default info;

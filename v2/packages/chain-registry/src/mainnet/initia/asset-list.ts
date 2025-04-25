@@ -4,6 +4,7 @@ const info: AssetList = {
   chainName: 'initia',
   assets: [{
       description: 'The native token of Initia',
+      extendedDescription: 'Initia L1 is a Layer 1 blockchain designed to serve as the coordination layer and central hub for all Initia rollups. This layer provides essential services to Rollups, including: Network Security, Governance, Liquidity Solutions, Bridging and Interoperability.',
       denomUnits: [{
           denom: 'uinit',
           exponent: 0
@@ -27,7 +28,8 @@ const info: AssetList = {
         website: 'https://initia.xyz/',
         twitter: 'https://twitter.com/initiaFDN'
       },
-      typeAsset: 'sdk.coin'
+      typeAsset: 'sdk.coin',
+      coingeckoId: 'initia'
     }]
 };
 export default info;
