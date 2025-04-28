@@ -393,6 +393,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Nodes.Guru',
+      url: 'https://celestia.explorers.guru/',
+      txPage: 'https://celestia.explorers.guru/transaction/${txHash}',
+      accountPage: 'https://celestia.explorers.guru/account/${accountAddress}'
+    },
+    {
       kind: 'CelestiaHub [Noders]',
       url: 'https://celestiahub.org/explorer/dashboard',
       txPage: 'https://celestiahub.org/explorer/transactions/${txHash}',

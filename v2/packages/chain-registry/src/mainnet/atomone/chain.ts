@@ -137,6 +137,10 @@ const info: Chain = {
       {
         address: 'https://atomone-mainnet-rpc.bonynode.online',
         provider: 'BonyNode💚'
+      },
+      {
+        address: 'https://atomone-mainnet-rpc.shazoe.xyz',
+        provider: 'Shazoe'
       }
     ],
     rest: [
@@ -219,6 +223,10 @@ const info: Chain = {
       {
         address: 'https://atomone-mainnet-api.bonynode.online',
         provider: 'BonyNode💚'
+      },
+      {
+        address: 'https://atomone-mainnet-api.shazoe.xyz',
+        provider: 'Shazoe'
       }
     ],
     grpc: [
@@ -273,6 +281,10 @@ const info: Chain = {
       {
         address: 'https://atomone-mainnet-grpc.bonynode.online:443',
         provider: 'BonyNode💚'
+      },
+      {
+        address: 'atomone-mainnet-grpc.shazoe.xyz:12090',
+        provider: 'Shazoe'
       }
     ]
   },

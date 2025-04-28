@@ -107,6 +107,7 @@ import * as _lombardledger from './lombardledger';
 import * as _loop from './loop';
 import * as _lorenzo from './lorenzo';
 import * as _loyal from './loyal';
+import * as _lumera from './lumera';
 import * as _lumnetwork from './lumnetwork';
 import * as _mande from './mande';
 import * as _manifest from './manifest';
@@ -310,6 +311,7 @@ const chains: Chain[] = [
   _loop.chain,
   _lorenzo.chain,
   _loyal.chain,
+  _lumera.chain,
   _lumnetwork.chain,
   _mande.chain,
   _manifest.chain,

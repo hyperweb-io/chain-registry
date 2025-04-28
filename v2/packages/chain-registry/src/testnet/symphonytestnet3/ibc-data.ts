@@ -59,7 +59,7 @@ const info: IBCData[] = [
   {
     $schema: '../../ibc_data.schema.json',
     chain1: {
-      chainName: 'junotestnet',
+      chainName: 'junotestnet6',
       clientId: '07-tendermint-789',
       connectionId: 'connection-868'
     },
@@ -80,7 +80,7 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live'
+          status: 'killed'
         }
       }]
   },

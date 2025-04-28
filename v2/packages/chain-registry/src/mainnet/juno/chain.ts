@@ -35,10 +35,10 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/CosmosContracts/juno',
-    recommendedVersion: 'v24.0.0',
-    compatibleVersions: ['v24.0.0'],
+    recommendedVersion: 'v27.0.0',
+    compatibleVersions: ['v27.0.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/CosmosContracts/juno/releases/download/v24.0.0/junod'
+      "linux/amd64": 'https://github.com/CosmosContracts/juno/releases/download/v27.0.0/junod'
     },
     consensus: {
       type: 'cometbft',
@@ -49,7 +49,7 @@ const info: Chain = {
     },
     sdk: {
       type: 'cosmos',
-      version: 'v0.47.12'
+      version: 'v0.47.15'
     },
     ibc: {
       type: 'go',

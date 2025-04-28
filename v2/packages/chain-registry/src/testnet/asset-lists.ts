@@ -64,6 +64,7 @@ import * as _lavatestnet from './lavatestnet';
 import * as _likecointestnet from './likecointestnet';
 import * as _lombardledgertestnet from './lombardledgertestnet';
 import * as _lumenxtestnet from './lumenxtestnet';
+import * as _lumeratestnet from './lumeratestnet';
 import * as _manifesttestnet from './manifesttestnet';
 import * as _mantrachaintestnet from './mantrachaintestnet';
 import * as _mantrachaintestnet2 from './mantrachaintestnet2';
@@ -197,6 +198,7 @@ const assetList: AssetList[] = [
   _likecointestnet.assetList,
   _lombardledgertestnet.assetList,
   _lumenxtestnet.assetList,
+  _lumeratestnet.assetList,
   _manifesttestnet.assetList,
   _mantrachaintestnet.assetList,
   _mantrachaintestnet2.assetList,
