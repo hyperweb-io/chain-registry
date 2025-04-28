@@ -239,7 +239,7 @@ const info: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            chain_name: 'junotestnet',
+            chain_name: 'junotestnet6',
             base_denom: 'ujunox',
             channel_id: 'channel-889'
           },

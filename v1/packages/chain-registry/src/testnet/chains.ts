@@ -64,6 +64,7 @@ import * as _lavatestnet from './lavatestnet';
 import * as _likecointestnet from './likecointestnet';
 import * as _lombardledgertestnet from './lombardledgertestnet';
 import * as _lumenxtestnet from './lumenxtestnet';
+import * as _lumeratestnet from './lumeratestnet';
 import * as _manifesttestnet from './manifesttestnet';
 import * as _mantrachaintestnet from './mantrachaintestnet';
 import * as _mantrachaintestnet2 from './mantrachaintestnet2';
@@ -197,6 +198,7 @@ const chains: Chain[] = [
   _likecointestnet.chain,
   _lombardledgertestnet.chain,
   _lumenxtestnet.chain,
+  _lumeratestnet.chain,
   _manifesttestnet.chain,
   _mantrachaintestnet.chain,
   _mantrachaintestnet2.chain,

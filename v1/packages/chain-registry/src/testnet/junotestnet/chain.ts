@@ -6,7 +6,7 @@ const info: Chain = {
   network_type: 'testnet',
   pretty_name: 'Juno Testnet',
   chain_type: 'cosmos',
-  chain_id: 'uni-6',
+  chain_id: 'uni-7',
   bech32_prefix: 'juno',
   daemon_name: 'junod',
   node_home: '$HOME/.juno',
@@ -27,25 +27,25 @@ const info: Chain = {
   },
   codebase: {
     git_repo: 'https://github.com/CosmosContracts/juno',
-    recommended_version: 'v15.0.0-alpha.2',
-    compatible_versions: ['v15.0.0', 'v15.0.0-alpha.2'],
+    recommended_version: 'v27.0.0',
+    compatible_versions: ['v27.0.0'],
     consensus: {
-      type: 'tendermint',
-      version: '0.34'
+      type: 'cometbft',
+      version: 'v0.37.8'
     },
     genesis: {
-      genesis_url: 'https://raw.githubusercontent.com/CosmosContracts/testnets/main/uni-6/genesis.json'
+      genesis_url: 'https://raw.githubusercontent.com/CosmosContracts/testnets/main/uni-7/genesis.zip'
     },
     sdk: {
       type: 'cosmos',
-      version: '0.45'
+      version: 'v0.47.15'
     },
     ibc: {
       type: 'go',
-      version: '4.3.1'
+      version: 'v7.6.0'
     },
     cosmwasm: {
-      version: '0.31',
+      version: 'v0.46',
       enabled: true
     }
   },
@@ -53,13 +53,16 @@ const info: Chain = {
     rpc: [{
         address: 'https://juno-testnet-rpc.polkachu.com',
         provider: 'Polkachu'
+      }, {
+        address: 'https://rpc-uni.junonetwork.io',
+        provider: 'Juno Network'
       }],
     rest: [{
         address: 'https://juno-testnet-api.polkachu.com',
         provider: 'Polkachu'
       }, {
-        address: 'https://juno.api.t.stavr.tech',
-        provider: '🔥STAVR🔥'
+        address: 'https://lcd-uni.junonetwork.io',
+        provider: 'Juno Network'
       }],
     grpc: [{
         address: 'juno-testnet-grpc.polkachu.com:12690',
