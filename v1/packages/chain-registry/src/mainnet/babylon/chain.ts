@@ -95,6 +95,10 @@ const info: Chain = {
       {
         address: 'https://community.nuxian-node.ch:6797/babylon/trpc',
         provider: 'PRO Delegators'
+      },
+      {
+        address: 'https://babylon-mainnet-rpc.shazoe.xyz',
+        provider: 'Shazoe'
       }
     ],
     rest: [
@@ -125,6 +129,10 @@ const info: Chain = {
       {
         address: 'https://community.nuxian-node.ch:6797/babylon/crpc',
         provider: 'PRO Delegators'
+      },
+      {
+        address: 'https://babylon-mainnet-api.shazoe.xyz',
+        provider: 'Shazoe'
       }
     ],
     grpc: [
@@ -151,6 +159,10 @@ const info: Chain = {
       {
         address: 'babylon-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
+      },
+      {
+        address: 'babylon-mainnet-grpc.shazoe.xyz:30190',
+        provider: 'Shazoe'
       }
     ]
   },

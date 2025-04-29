@@ -101,6 +101,10 @@ const info: Chain = {
       {
         address: 'https://rpc.pio-mainnet-1.provenance.aviaone.com',
         provider: 'AVIAONE 🟢'
+      },
+      {
+        address: 'https://provenance-mainnet-rpc.shazoe.xyz',
+        provider: 'Shazoe'
       }
     ],
     rest: [
@@ -147,6 +151,10 @@ const info: Chain = {
       {
         address: 'https://api.pio-mainnet-1.provenance.aviaone.com',
         provider: 'AVIAONE 🟢'
+      },
+      {
+        address: 'https://provenance-mainnet-api.shazoe.xyz',
+        provider: 'Shazoe'
       }
     ],
     grpc: [
@@ -173,6 +181,10 @@ const info: Chain = {
       {
         address: 'grpc.pio-mainnet-1.provenance.aviaone.com:9231',
         provider: 'AVIAONE 🟢'
+      },
+      {
+        address: 'provenance-mainnet-grpc.shazoe.xyz:12090',
+        provider: 'Shazoe'
       }
     ]
   },

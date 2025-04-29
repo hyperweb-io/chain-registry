@@ -130,6 +130,10 @@ const info: Chain = {
       {
         address: 'https://seda-rpc.cosmos-apis.com:443',
         provider: 'RHINO 🦏'
+      },
+      {
+        address: 'https://seda-mainnet-rpc.shazoe.xyz',
+        provider: 'Shazoe'
       }
     ],
     rest: [
@@ -196,6 +200,10 @@ const info: Chain = {
       {
         address: 'https://seda-rest.cosmos-apis.com:443',
         provider: 'RHINO 🦏'
+      },
+      {
+        address: 'https://seda-mainnet-api.shazoe.xyz',
+        provider: 'Shazoe'
       }
     ],
     grpc: [
@@ -234,6 +242,10 @@ const info: Chain = {
       {
         address: 'seda-grpc.cosmos-apis.com:443',
         provider: 'RHINO 🦏'
+      },
+      {
+        address: 'seda-mainnet-grpc.shazoe.xyz:6090',
+        provider: 'Shazoe'
       }
     ]
   },

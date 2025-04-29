@@ -65,6 +65,10 @@ const info: Chain = {
       {
         address: 'https://synternet-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
+      },
+      {
+        address: 'https://synternet-mainnet-rpc.shazoe.xyz',
+        provider: 'Shazoe'
       }
     ],
     rest: [
@@ -79,8 +83,16 @@ const info: Chain = {
       {
         address: 'https://synternet-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
+      },
+      {
+        address: 'https://synternet-mainnet-api.shazoe.xyz',
+        provider: 'Shazoe'
       }
-    ]
+    ],
+    grpc: [{
+        address: 'synternet-mainnet-grpc.shazoe.xyz:11090',
+        provider: 'Shazoe'
+      }]
   },
   explorers: [
     {
