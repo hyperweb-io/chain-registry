@@ -28854,6 +28854,70 @@ const assets: AssetList = {
         }]
     },
     {
+      denom_units: [{
+          denom: 'ibc/4762DABA78EFBB1C343A97F3FB1F6589C780ACBB7FD2BAD57780F7DEE8F92F5F',
+          exponent: 0,
+          aliases: ['cw20:bbn1rl75n93kk075clrt72hqa7md6mwl78u28sghs380xuvlmksw6x3q07n2tc']
+        }, {
+          denom: 'satSolvBTC.e',
+          exponent: 18
+        }],
+      base: 'ibc/4762DABA78EFBB1C343A97F3FB1F6589C780ACBB7FD2BAD57780F7DEE8F92F5F',
+      address: 'bbn1rl75n93kk075clrt72hqa7md6mwl78u28sghs380xuvlmksw6x3q07n2tc',
+      name: 'SatLayer xSatSolvBTC Bridged',
+      display: 'satSolvBTC.e',
+      symbol: 'satSolvBTC.e',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1rl75n93kk075clrt72hqa7md6mwl78u28sghs380xuvlmksw6x3q07n2tc',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/FB0768E2198EDEBF03DE31A4B312B525E4EB975F9D0CA6D3E37345919B56E41F',
+          exponent: 0,
+          aliases: ['cw20:bbn1rluxqjaqsczmdaxl4kr0qa42pp78zszlmdrt248hel59z3fh8y9qrh4dvq']
+        }, {
+          denom: 'satLBTC.e',
+          exponent: 8
+        }],
+      base: 'ibc/FB0768E2198EDEBF03DE31A4B312B525E4EB975F9D0CA6D3E37345919B56E41F',
+      address: 'bbn1rluxqjaqsczmdaxl4kr0qa42pp78zszlmdrt248hel59z3fh8y9qrh4dvq',
+      name: 'SatLayer LBTC Bridged',
+      display: 'satLBTC.e',
+      symbol: 'satLBTC.e',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1rluxqjaqsczmdaxl4kr0qa42pp78zszlmdrt248hel59z3fh8y9qrh4dvq',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
       description: 'Puppy',
       denom_units: [{
           denom: 'ibc/46AC07DBFF1352EC94AF5BD4D23740D92D9803A6B41F6E213E77F3A1143FB963',
@@ -32043,6 +32107,70 @@ const assets: AssetList = {
             port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
             channel_id: 'channel-7',
             base_denom: 'cw20:bbn1j2nchmpuhkq0yj93g84txe33j5lhw2y7p3anhqjhvamqxsev6rmsneu85x',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/4762DABA78EFBB1C343A97F3FB1F6589C780ACBB7FD2BAD57780F7DEE8F92F5F',
+          exponent: 0,
+          aliases: ['cw20:bbn1rl75n93kk075clrt72hqa7md6mwl78u28sghs380xuvlmksw6x3q07n2tc']
+        }, {
+          denom: 'satSolvBTC.e',
+          exponent: 18
+        }],
+      base: 'ibc/4762DABA78EFBB1C343A97F3FB1F6589C780ACBB7FD2BAD57780F7DEE8F92F5F',
+      address: 'bbn1rl75n93kk075clrt72hqa7md6mwl78u28sghs380xuvlmksw6x3q07n2tc',
+      name: 'SatLayer xSatSolvBTC Bridged',
+      display: 'satSolvBTC.e',
+      symbol: 'satSolvBTC.e',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1rl75n93kk075clrt72hqa7md6mwl78u28sghs380xuvlmksw6x3q07n2tc',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/FB0768E2198EDEBF03DE31A4B312B525E4EB975F9D0CA6D3E37345919B56E41F',
+          exponent: 0,
+          aliases: ['cw20:bbn1rluxqjaqsczmdaxl4kr0qa42pp78zszlmdrt248hel59z3fh8y9qrh4dvq']
+        }, {
+          denom: 'satLBTC.e',
+          exponent: 8
+        }],
+      base: 'ibc/FB0768E2198EDEBF03DE31A4B312B525E4EB975F9D0CA6D3E37345919B56E41F',
+      address: 'bbn1rluxqjaqsczmdaxl4kr0qa42pp78zszlmdrt248hel59z3fh8y9qrh4dvq',
+      name: 'SatLayer LBTC Bridged',
+      display: 'satLBTC.e',
+      symbol: 'satLBTC.e',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1rluxqjaqsczmdaxl4kr0qa42pp78zszlmdrt248hel59z3fh8y9qrh4dvq',
             chain_name: 'babylon'
           },
           chain: {

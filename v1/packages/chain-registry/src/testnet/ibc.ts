@@ -32,7 +32,6 @@ import * as _noistestnet from './noistestnet';
 import * as _nolustestnet from './nolustestnet';
 import * as _osmosistestnet from './osmosistestnet';
 import * as _persistencetestnet2 from './persistencetestnet2';
-import * as _quicksilvertestnet from './quicksilvertestnet';
 import * as _sagatestnet from './sagatestnet';
 import * as _seitestnet2 from './seitestnet2';
 import * as _sgetestnet from './sgetestnet';
@@ -80,7 +79,6 @@ const ibc: IBCInfo[] = [
   ..._nolustestnet.ibc,
   ..._osmosistestnet.ibc,
   ..._persistencetestnet2.ibc,
-  ..._quicksilvertestnet.ibc,
   ..._sagatestnet.ibc,
   ..._seitestnet2.ibc,
   ..._sgetestnet.ibc,

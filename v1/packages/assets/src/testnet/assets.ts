@@ -32,7 +32,6 @@ import _noistestnet from './noistestnet';
 import _nolustestnet from './nolustestnet';
 import _osmosistestnet from './osmosistestnet';
 import _persistencetestnet2 from './persistencetestnet2';
-import _quicksilvertestnet from './quicksilvertestnet';
 import _sagatestnet from './sagatestnet';
 import _seitestnet2 from './seitestnet2';
 import _sgetestnet from './sgetestnet';
@@ -47,6 +46,6 @@ import _titantestnet from './titantestnet';
 import _xiontestnet2 from './xiontestnet2';
 import _xrplevmtestnet from './xrplevmtestnet'
 
-const assets: AssetList[] = [_akashtestnet,_archwaytestnet,_axelartestnet,_babylontestnet,_celestiatestnet3,_chain4energytestnet,_composabletestnet,_coreumtestnet,_cosmoshubtestnet,_cosmosicsprovidertestnet,_doravotatestnet,_dydxtestnet,_elystestnet,_empowertestnet,_impacthubtestnet,_injectivetestnet,_jackaltestnet2,_kimanetworktestnet,_kujiratestnet,_kyvetestnet,_lavatestnet,_likecointestnet,_manifesttestnet,_mantrachaintestnet,_mantrachaintestnet2,_marstestnet,_neutrontestnet,_nobletestnet,_noistestnet,_nolustestnet,_osmosistestnet,_persistencetestnet2,_quicksilvertestnet,_sagatestnet,_seitestnet2,_sgetestnet,_stargazetestnet,_swisstroniktestnet,_symphonytestnet,_symphonytestnet3,_synternettestnet,_terra2testnet,_titannettestnet,_titantestnet,_xiontestnet2,_xrplevmtestnet];
+const assets: AssetList[] = [_akashtestnet,_archwaytestnet,_axelartestnet,_babylontestnet,_celestiatestnet3,_chain4energytestnet,_composabletestnet,_coreumtestnet,_cosmoshubtestnet,_cosmosicsprovidertestnet,_doravotatestnet,_dydxtestnet,_elystestnet,_empowertestnet,_impacthubtestnet,_injectivetestnet,_jackaltestnet2,_kimanetworktestnet,_kujiratestnet,_kyvetestnet,_lavatestnet,_likecointestnet,_manifesttestnet,_mantrachaintestnet,_mantrachaintestnet2,_marstestnet,_neutrontestnet,_nobletestnet,_noistestnet,_nolustestnet,_osmosistestnet,_persistencetestnet2,_sagatestnet,_seitestnet2,_sgetestnet,_stargazetestnet,_swisstroniktestnet,_symphonytestnet,_symphonytestnet3,_synternettestnet,_terra2testnet,_titannettestnet,_titantestnet,_xiontestnet2,_xrplevmtestnet];
 
 export default assets;

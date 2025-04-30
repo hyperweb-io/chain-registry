@@ -483,7 +483,7 @@ const info: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            chain_name: 'quicksilvertestnet',
+            chain_name: 'quicksilvertestnet2',
             base_denom: 'uqck',
             channel_id: 'channel-20'
           },
@@ -497,7 +497,7 @@ const info: AssetList = {
       },
       images: [{
           image_sync: {
-            chain_name: 'quicksilvertestnet',
+            chain_name: 'quicksilvertestnet2',
             base_denom: 'uqck'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png'

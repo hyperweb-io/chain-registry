@@ -30,7 +30,6 @@ export * as noistestnet from './noistestnet';
 export * as nolustestnet from './nolustestnet';
 export * as osmosistestnet from './osmosistestnet';
 export * as persistencetestnet2 from './persistencetestnet2';
-export * as quicksilvertestnet from './quicksilvertestnet';
 export * as sagatestnet from './sagatestnet';
 export * as seitestnet2 from './seitestnet2';
 export * as sgetestnet from './sgetestnet';
