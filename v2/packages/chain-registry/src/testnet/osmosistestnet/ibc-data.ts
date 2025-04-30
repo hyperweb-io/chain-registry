@@ -888,7 +888,7 @@ const info: IBCData[] = [
       connectionId: 'connection-14'
     },
     chain2: {
-      chainName: 'quicksilvertestnet',
+      chainName: 'quicksilvertestnet2',
       clientId: '07-tendermint-6',
       connectionId: 'connection-4'
     },
@@ -904,7 +904,7 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
+          status: 'killed',
           preferred: true,
           dex: 'osmosis'
         }

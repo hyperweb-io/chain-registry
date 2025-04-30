@@ -6,7 +6,7 @@ const info: Chain = {
   networkType: 'testnet',
   prettyName: 'Quicksilver Testnet',
   chainType: 'cosmos',
-  chainId: 'rhye-2',
+  chainId: 'rhye-3',
   bech32Prefix: 'quick',
   daemonName: 'quicksilverd',
   nodeHome: '$HOME/.quicksilverd',
@@ -27,8 +27,8 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/ingenuity-build/quicksilver',
-    recommendedVersion: 'v1.4.5-rc2',
-    compatibleVersions: ['v1.4.5-rc2'],
+    recommendedVersion: 'v1.8.0-rc.1',
+    compatibleVersions: ['v1.8.0-rc.1'],
     consensus: {
       type: 'tendermint',
       version: '0.34'

@@ -208,7 +208,7 @@ const info: IBCData[] = [
       connectionId: 'connection-9'
     },
     chain2: {
-      chainName: 'quicksilvertestnet',
+      chainName: 'quicksilvertestnet2',
       clientId: '07-tendermint-4',
       connectionId: 'connection-3'
     },
@@ -222,7 +222,10 @@ const info: IBCData[] = [
           portId: 'transfer'
         },
         ordering: 'unordered',
-        version: 'ics20-1'
+        version: 'ics20-1',
+        tags: {
+          status: 'killed'
+        }
       }]
   },
   {

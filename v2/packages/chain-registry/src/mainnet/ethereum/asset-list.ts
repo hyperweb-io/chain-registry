@@ -1857,6 +1857,58 @@ const info: AssetList = {
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg'
       }
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0x17140b69FfaDfF9e87BF1D86D99119ee10AD24ff',
+      denomUnits: [{
+          denom: '0x17140b69FfaDfF9e87BF1D86D99119ee10AD24ff',
+          exponent: 0
+        }, {
+          denom: 'satsolvbtc',
+          exponent: 18
+        }],
+      base: '0x17140b69FfaDfF9e87BF1D86D99119ee10AD24ff',
+      name: 'Satlayer SolvBTC.BBN',
+      display: 'satsolvbtc',
+      symbol: 'satSolvBTC',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0xd9d920aa40f578ab794426f5c90f6c731d159def'
+          },
+          provider: 'SatLayer'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
+      }
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0x067e11Ac5471C853aea205B3C1933a5f6367152F',
+      denomUnits: [{
+          denom: '0x067e11Ac5471C853aea205B3C1933a5f6367152F',
+          exponent: 0
+        }, {
+          denom: 'satlbtc',
+          exponent: 8
+        }],
+      base: '0x067e11Ac5471C853aea205B3C1933a5f6367152F',
+      name: 'Satlayer LBTC',
+      display: 'satlbtc',
+      symbol: 'satLBTC',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x8236a87084f8B84306f72007F36F2618A5634494'
+          },
+          provider: 'SatLayer'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
+      }
     }
   ]
 };
