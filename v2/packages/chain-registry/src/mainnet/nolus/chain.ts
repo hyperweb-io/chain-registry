@@ -14,13 +14,50 @@ const info: Chain = {
   keyAlgos: ['secp256k1'],
   slip44: 118,
   fees: {
-    feeTokens: [{
+    feeTokens: [
+      {
         denom: 'unls',
         fixedMinGasPrice: 0.025,
         lowGasPrice: 0.025,
         averageGasPrice: 0.025,
         highGasPrice: 0.05
-      }]
+      },
+      {
+        denom: 'ibc/F5FABF52B54E65064B57BF6DBD8E5FAD22CEE9F4B8A57ADBB20CCD0173AA72A4',
+        fixedMinGasPrice: 0.05,
+        lowGasPrice: 0.05,
+        averageGasPrice: 0.07,
+        highGasPrice: 0.09
+      },
+      {
+        denom: 'ibc/18161D8EFBD00FF5B7683EF8E923B8913453567FBE3FB6672D75712B0DEB6682',
+        fixedMinGasPrice: 0.05,
+        lowGasPrice: 0.05,
+        averageGasPrice: 0.07,
+        highGasPrice: 0.09
+      },
+      {
+        denom: 'ibc/6CDD4663F2F09CD62285E2D45891FC149A3568E316CE3EBBE201A71A78A69388',
+        fixedMinGasPrice: 0.0058,
+        lowGasPrice: 0.0058,
+        averageGasPrice: 0.0072,
+        highGasPrice: 0.0088
+      },
+      {
+        denom: 'ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518',
+        fixedMinGasPrice: 0.088,
+        lowGasPrice: 0.088,
+        averageGasPrice: 0.11,
+        highGasPrice: 0.13
+      },
+      {
+        denom: 'ibc/3D6BC6E049CAEB905AC97031A42800588C58FB471EBDC7A3530FFCD0C3DC9E09',
+        fixedMinGasPrice: 0.1,
+        lowGasPrice: 0.1,
+        averageGasPrice: 0.12,
+        highGasPrice: 0.14
+      }
+    ]
   },
   staking: {
     stakingTokens: [{
