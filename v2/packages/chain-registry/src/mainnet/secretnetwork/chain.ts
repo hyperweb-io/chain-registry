@@ -152,6 +152,12 @@ const info: Chain = {
       url: 'https://mainnet.whispernode.com/secret',
       txPage: 'https://mainnet.whispernode.com/secret/tx/${txHash}',
       accountPage: 'https://mainnet.whispernode.com/secret/account/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://secret.valopers.com/',
+      txPage: 'https://secret.valopers.com/transactions/${txHash}',
+      accountPage: 'https://secret.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

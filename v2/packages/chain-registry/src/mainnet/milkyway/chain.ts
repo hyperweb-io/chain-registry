@@ -155,7 +155,12 @@ const info: Chain = {
         provider: 'MilkyWay Labs'
       }]
   },
-  explorers: [],
+  explorers: [{
+      kind: 'Valopers',
+      url: 'https://milkyway.valopers.com/',
+      txPage: 'https://milkyway.valopers.com/transactions/${txHash}',
+      accountPage: 'https://milkyway.valopers.com/account/${accountAddress}'
+    }],
   keywords: ['liquid staking', 'restaking']
 };
 export default info;
