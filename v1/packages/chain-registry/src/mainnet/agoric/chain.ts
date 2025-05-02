@@ -241,6 +241,12 @@ const info: Chain = {
       url: 'https://explorer.stavr.tech/Agoric',
       tx_page: 'https://explorer.stavr.tech/Agoric/tx/${txHash}',
       account_page: 'https://explorer.stavr.tech/Agoric/account/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://agoric.valopers.com/',
+      tx_page: 'https://agoric.valopers.com/transactions/${txHash}',
+      account_page: 'https://agoric.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{
