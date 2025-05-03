@@ -184,6 +184,14 @@ const info: AssetList = {
       name: 'Astonic USD',
       display: 'ausd',
       symbol: 'aUSD',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chain_name: 'forex',
+            base_denom: 'USD'
+          },
+          provider: 'Astonic'
+        }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
       },
@@ -210,6 +218,14 @@ const info: AssetList = {
       name: 'Astonic EUR',
       display: 'aeur',
       symbol: 'aEUR',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chain_name: 'forex',
+            base_denom: 'EUR'
+          },
+          provider: 'Astonic'
+        }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
       },
@@ -236,6 +252,14 @@ const info: AssetList = {
       name: 'Astonic BRL',
       display: 'abrl',
       symbol: 'aBRL',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chain_name: 'forex',
+            base_denom: 'BRL'
+          },
+          provider: 'Astonic'
+        }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
       },

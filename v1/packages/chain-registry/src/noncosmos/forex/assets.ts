@@ -2,7 +2,8 @@ import { AssetList } from '@chain-registry/types';
 const info: AssetList = {
   $schema: '../../assetlist.schema.json',
   chain_name: 'forex',
-  assets: [{
+  assets: [
+    {
       type_asset: 'unknown',
       denom_units: [{
           denom: 'USD',
@@ -12,7 +13,8 @@ const info: AssetList = {
       display: 'USD',
       name: 'United States Dollar',
       symbol: 'USD'
-    }, {
+    },
+    {
       type_asset: 'unknown',
       denom_units: [{
           denom: 'EUR',
@@ -22,6 +24,18 @@ const info: AssetList = {
       display: 'EUR',
       name: 'Euro',
       symbol: 'EUR'
-    }]
+    },
+    {
+      type_asset: 'unknown',
+      denom_units: [{
+          denom: 'BRL',
+          exponent: 0
+        }],
+      base: 'BRL',
+      display: 'BRL',
+      name: 'Brazilian Real',
+      symbol: 'BRL'
+    }
+  ]
 };
 export default info;

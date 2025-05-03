@@ -46,32 +46,59 @@ const info: Chain = {
       }
     }],
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://rpc-seed.arkeo.network',
         provider: 'Arkeo'
-      }, {
+      },
+      {
         address: 'https://arkeo-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://rpc.arkeo.roomit.xyz',
+        provider: 'Roomit'
+      }
+    ],
+    rest: [
+      {
         address: 'https://rest-seed.arkeo.network',
         provider: 'Arkeo'
-      }, {
+      },
+      {
         address: 'https://arkeo-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
+      },
+      {
+        address: 'https://api.arkeo.roomit.xyz',
+        provider: 'Roomit'
+      }
+    ],
+    grpc: [{
+        address: 'grpc.arkeo.roomit.xyz:8443',
+        provider: 'Roomit'
       }]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'stakevillage',
       url: 'https://exp.stakevillage.net/arkeo-mainnet',
       tx_page: 'https://exp.stakevillage.net/arkeo-mainnet/tx/${txHash}',
       account_page: 'https://exp.stakevillage.net/arkeo-mainnet/account/${accountAddress}'
-    }, {
+    },
+    {
       kind: 'Valopers',
       url: 'https://arkeo.valopers.com/',
       tx_page: 'https://arkeo.valopers.com/transactions/${txHash}',
       account_page: 'https://arkeo.valopers.com/account/${accountAddress}'
-    }],
+    },
+    {
+      kind: 'Roomit',
+      url: 'https://explorer.tendermint.roomit.xyz/arkeo-mainnet',
+      tx_page: 'https://explorer.tendermint.roomit.xyz/arkeo-mainnet/transactions/${txHash}',
+      account_page: 'https://explorer.tendermint.roomit.xyz/arkeo-mainnet/account/${accountAddress}'
+    }
+  ],
   keywords: [
     'validator',
     'node',

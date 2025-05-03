@@ -5176,17 +5176,6 @@ const assets: AssetList = {
       name: 'Astonic USD',
       display: 'ausd',
       symbol: 'aUSD',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
-        }],
-      socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
-      },
-      type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -5197,7 +5186,18 @@ const assets: AssetList = {
           chain: {
             channel_id: 'channel-446'
           }
-        }]
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      type_asset: 'sdk.coin'
     },
     {
       description: 'Astonic EUR (aEUR) is a stable asset pegged to the Euro.',
@@ -5213,17 +5213,6 @@ const assets: AssetList = {
       name: 'Astonic EUR',
       display: 'aeur',
       symbol: 'aEUR',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
-        }],
-      socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
-      },
-      type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -5234,7 +5223,18 @@ const assets: AssetList = {
           chain: {
             channel_id: 'channel-446'
           }
-        }]
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      type_asset: 'sdk.coin'
     },
     {
       description: 'Astonic BRL (aBRL) is a stable asset pegged to the Brazilian Real.',
@@ -5250,17 +5250,6 @@ const assets: AssetList = {
       name: 'Astonic BRL',
       display: 'abrl',
       symbol: 'aBRL',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
-        }],
-      socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
-      },
-      type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -5271,7 +5260,18 @@ const assets: AssetList = {
           chain: {
             channel_id: 'channel-446'
           }
-        }]
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      type_asset: 'sdk.coin'
     },
     {
       description: 'The native governance and staking token of the Point network',
@@ -13637,17 +13637,6 @@ const assets: AssetList = {
       name: 'Astonic USD',
       display: 'ausd',
       symbol: 'aUSD',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
-        }],
-      socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
-      },
-      type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -13658,7 +13647,18 @@ const assets: AssetList = {
           chain: {
             channel_id: 'channel-446'
           }
-        }]
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      type_asset: 'sdk.coin'
     },
     {
       description: 'Astonic EUR (aEUR) is a stable asset pegged to the Euro.',
@@ -13674,17 +13674,6 @@ const assets: AssetList = {
       name: 'Astonic EUR',
       display: 'aeur',
       symbol: 'aEUR',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
-        }],
-      socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
-      },
-      type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -13695,7 +13684,18 @@ const assets: AssetList = {
           chain: {
             channel_id: 'channel-446'
           }
-        }]
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      type_asset: 'sdk.coin'
     },
     {
       description: 'Astonic BRL (aBRL) is a stable asset pegged to the Brazilian Real.',
@@ -13711,17 +13711,6 @@ const assets: AssetList = {
       name: 'Astonic BRL',
       display: 'abrl',
       symbol: 'aBRL',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
-        }],
-      socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
-      },
-      type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -13732,7 +13721,18 @@ const assets: AssetList = {
           chain: {
             channel_id: 'channel-446'
           }
-        }]
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
+        }],
+      socials: {
+        twitter: 'https://x.com/astonic_xyz',
+        telegram: 'https://t.me/astonic_io'
+      },
+      type_asset: 'sdk.coin'
     },
     {
       description: 'The native governance and staking token of the Point network',
