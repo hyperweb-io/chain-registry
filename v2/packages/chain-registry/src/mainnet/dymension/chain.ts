@@ -12,6 +12,7 @@ const info: Chain = {
   slip44: 60,
   nodeHome: '$HOME/.dymension',
   daemonName: 'dymd',
+  keyAlgos: ['ethsecp256k1'],
   fees: {
     feeTokens: [{
         denom: 'adym',

@@ -323,6 +323,54 @@ const info: AssetList = {
           }
         }],
       typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Rewards token designed to incentivize participation in Coreum Community DAO',
+      extendedDescription: 'The Coreum Community DAO (CCD) token incentivizes and rewards members for their contributions and support in community growth and educational initiatives.',
+      denomUnits: [{
+          denom: 'ibc/1F8E19CD32FC6B2DBA825E7C3B370004BF5041BAB1099FC1BEBD6054FD5E8D08',
+          exponent: 0,
+          aliases: ['uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv']
+        }, {
+          denom: 'ccd',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/1F8E19CD32FC6B2DBA825E7C3B370004BF5041BAB1099FC1BEBD6054FD5E8D08',
+      name: 'Coreum Community DAO Token',
+      display: 'ccd',
+      symbol: 'CCD',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'osmosis',
+            baseDenom: 'ibc/BA368CD4ED32975C333F69DA8FE0AB482D2E0F3C04227053EEB9B597A6789F6E',
+            channelId: 'channel-199'
+          },
+          chain: {
+            channelId: 'channel-1',
+            path: 'transfer/channel-1/transfer/channel-2188/uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'coreum',
+            baseDenom: 'uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg',
+          theme: {
+            primaryColorHex: '#a50dda'
+          }
+        }],
+      socials: {
+        website: 'https://coreumcommunitydao.com/',
+        twitter: 'https://x.com/Cor3_Community'
+      }
     }
   ]
 };
