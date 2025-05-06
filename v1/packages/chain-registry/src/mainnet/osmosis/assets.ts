@@ -2076,10 +2076,15 @@ const info: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/vdl.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/vdl.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/VDL.vdl.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/VDL.vdl.svg'
       },
-      images: [{
+      images: [
+        {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/VDL.vdl.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/VDL.vdl.png'
+        },
+        {
           image_sync: {
             chain_name: 'vidulum',
             base_denom: 'uvdl'
@@ -2089,10 +2094,12 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#3454bc'
           }
-        }, {
+        },
+        {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.svg'
-        }],
+        }
+      ],
       keywords: ['osmosis_unstable']
     },
     {
@@ -24650,7 +24657,7 @@ const info: AssetList = {
           exponent: 0
         }, {
           denom: 'eth',
-          exponent: 6
+          exponent: 18
         }],
       type_asset: 'ics20',
       base: 'ibc/20850C646CDDDC2270E9BBDB08558B5FEE57B647EC6827F41096AABFD8A0471B',
@@ -24695,7 +24702,7 @@ const info: AssetList = {
           exponent: 0
         }, {
           denom: 'wbtc',
-          exponent: 6
+          exponent: 8
         }],
       type_asset: 'ics20',
       base: 'ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB',
