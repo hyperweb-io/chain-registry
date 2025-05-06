@@ -547,7 +547,7 @@ const info: AssetList = {
           exponent: 0
         }, {
           denom: 'eth',
-          exponent: 6
+          exponent: 18
         }],
       typeAsset: 'ics20',
       base: 'ibc/C0B53D3D23827AE38058BED0BDCD554229278AF530A8D265FCF6DFF7C4B2ADFF',
