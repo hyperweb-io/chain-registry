@@ -43,6 +43,7 @@ import * as _synternettestnet from './synternettestnet';
 import * as _terra2testnet from './terra2testnet';
 import * as _titannettestnet from './titannettestnet';
 import * as _titantestnet from './titantestnet';
+import * as _wardenprotocoltestnet from './wardenprotocoltestnet';
 import * as _xiontestnet2 from './xiontestnet2';
 import * as _xrplevmtestnet from './xrplevmtestnet';
 
@@ -90,6 +91,7 @@ const ibcData: IBCData[] = [
   ..._terra2testnet.ibcData,
   ..._titannettestnet.ibcData,
   ..._titantestnet.ibcData,
+  ..._wardenprotocoltestnet.ibcData,
   ..._xiontestnet2.ibcData,
   ..._xrplevmtestnet.ibcData
 ];
