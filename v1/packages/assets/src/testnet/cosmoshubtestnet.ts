@@ -646,6 +646,38 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Temporary staking token for Warden Protocol',
+      denom_units: [{
+          denom: 'ibc/73461D405A6A7E5137D1C621B268A08A7CE47EBE24CFB964639A3AFB62393D80',
+          exponent: 0,
+          aliases: ['wSTAKE']
+        }],
+      base: 'ibc/73461D405A6A7E5137D1C621B268A08A7CE47EBE24CFB964639A3AFB62393D80',
+      name: 'wSTAKE',
+      display: 'wSTAKE',
+      symbol: 'wSTAKE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'wSTAKE',
+            chain_name: 'wardenprotocoltestnet'
+          },
+          chain: {
+            channel_id: 'channel-373'
+          }
+        }]
+    },
+    {
       description: 'Eden token definition',
       denom_units: [
         {
@@ -1178,6 +1210,38 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-3910'
+          }
+        }]
+    },
+    {
+      description: 'Temporary staking token for Warden Protocol',
+      denom_units: [{
+          denom: 'ibc/73461D405A6A7E5137D1C621B268A08A7CE47EBE24CFB964639A3AFB62393D80',
+          exponent: 0,
+          aliases: ['wSTAKE']
+        }],
+      base: 'ibc/73461D405A6A7E5137D1C621B268A08A7CE47EBE24CFB964639A3AFB62393D80',
+      name: 'wSTAKE',
+      display: 'wSTAKE',
+      symbol: 'wSTAKE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'wSTAKE',
+            chain_name: 'wardenprotocoltestnet'
+          },
+          chain: {
+            channel_id: 'channel-373'
           }
         }]
     },

@@ -41,5 +41,6 @@ export * as synternettestnet from './synternettestnet';
 export * as terra2testnet from './terra2testnet';
 export * as titannettestnet from './titannettestnet';
 export * as titantestnet from './titantestnet';
+export * as wardenprotocoltestnet from './wardenprotocoltestnet';
 export * as xiontestnet2 from './xiontestnet2';
 export * as xrplevmtestnet from './xrplevmtestnet'

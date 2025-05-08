@@ -4,58 +4,58 @@ const info: Chain = {
   chain_name: 'wardenprotocoltestnet',
   status: 'live',
   network_type: 'testnet',
-  pretty_name: 'Warden Protocol Buenavista',
+  pretty_name: 'Warden Protocol Docas',
   chain_type: 'cosmos',
-  chain_id: 'buenavista-1',
+  chain_id: 'docas_10100-1',
   bech32_prefix: 'warden',
   daemon_name: 'wardend',
   node_home: '$HOME/.warden',
-  key_algos: ['secp256k1'],
+  key_algos: ['ethsecp256k1', 'secp256k1'],
   slip44: 118,
   fees: {
     fee_tokens: [{
-        denom: 'uward',
-        fixed_min_gas_price: 0.005,
+        denom: 'ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2',
+        fixed_min_gas_price: 0.001,
         low_gas_price: 0.01,
         average_gas_price: 0.025,
-        high_gas_price: 0.03
+        high_gas_price: 1
       }]
   },
   staking: {
     staking_tokens: [{
-        denom: 'uward'
+        denom: 'wSTAKE'
       }]
   },
   codebase: {
     git_repo: 'https://github.com/warden-protocol/wardenprotocol',
-    recommended_version: 'v0.3.0',
-    compatible_versions: ['v0.3.0'],
+    recommended_version: 'v0.6.2',
+    compatible_versions: ['v0.6.2'],
     consensus: {
       type: 'cometbft',
       version: '0.38'
     },
     genesis: {
-      genesis_url: 'https://raw.githubusercontent.com/warden-protocol/networks/main/testnets/buenavista/genesis.json'
+      genesis_url: 'https://raw.githubusercontent.com/warden-protocol/networks/main/testnets/docas/genesis.json'
     },
     sdk: {
       type: 'cosmos',
       version: '0.50'
     },
     cosmwasm: {
-      enabled: false
+      enabled: true
     }
   },
   apis: {
     rpc: [{
-        address: 'https://rpc.buenavista.wardenprotocol.org/',
+        address: 'https://rpc.docas.wardenprotocol.org/',
         provider: 'Warden Protocol'
       }],
     rest: [{
-        address: 'https://api.buenavista.wardenprotocol.org/',
+        address: 'https://api.docas.wardenprotocol.org/',
         provider: 'Warden Protocol'
       }],
     grpc: [{
-        address: 'https://grpc.buenavista.wardenprotocol.org/',
+        address: 'https://grpc.docas.wardenprotocol.org/',
         provider: 'Warden Protocol'
       }]
   },
