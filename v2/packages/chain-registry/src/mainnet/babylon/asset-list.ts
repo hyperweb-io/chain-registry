@@ -599,6 +599,68 @@ const info: AssetList = {
     },
     {
       denomUnits: [{
+          denom: 'cw20:bbn1rgsgnu9hcssn97hprmavtt58vt3qg5y4qha4ky6q09urczsuzwlss60thh',
+          exponent: 0
+        }, {
+          denom: 'eBTC',
+          exponent: 8
+        }],
+      base: 'cw20:bbn1rgsgnu9hcssn97hprmavtt58vt3qg5y4qha4ky6q09urczsuzwlss60thh',
+      address: 'bbn1rgsgnu9hcssn97hprmavtt58vt3qg5y4qha4ky6q09urczsuzwlss60thh',
+      name: 'ether.fi BTC',
+      display: 'eBTC',
+      symbol: 'eBTC',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png'
+      },
+      typeAsset: 'cw20',
+      traces: [{
+          type: 'ibc-bridge',
+          provider: 'Union',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x657e8c867d8b37dcc18fa4caead9c45eb088c642',
+            channelId: '1'
+          },
+          chain: {
+            channelId: '3',
+            path: '0'
+          }
+        }]
+    },
+    {
+      denomUnits: [{
+          denom: 'cw20:bbn1j7yz208yls9v5vcgsekwaf096wk2ysyrdn0u747868v80fd05tjsalq9ll',
+          exponent: 0
+        }, {
+          denom: 'mBTC',
+          exponent: 8
+        }],
+      base: 'cw20:bbn1j7yz208yls9v5vcgsekwaf096wk2ysyrdn0u747868v80fd05tjsalq9ll',
+      address: 'bbn1j7yz208yls9v5vcgsekwaf096wk2ysyrdn0u747868v80fd05tjsalq9ll',
+      name: 'Liquid Staked BTC',
+      display: 'mBTC',
+      symbol: 'mBTC',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mBTC.png'
+      },
+      typeAsset: 'cw20',
+      traces: [{
+          type: 'ibc-bridge',
+          provider: 'Union',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0xbdf245957992bfbc62b07e344128a1eec7b7ee3f',
+            channelId: '1'
+          },
+          chain: {
+            channelId: '3',
+            path: '0'
+          }
+        }]
+    },
+    {
+      denomUnits: [{
           denom: 'cw20:bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d',
           exponent: 0
         }, {
@@ -744,6 +806,37 @@ const info: AssetList = {
           counterparty: {
             chainName: 'ethereum',
             baseDenom: '0x067e11Ac5471C853aea205B3C1933a5f6367152F',
+            channelId: '1'
+          },
+          chain: {
+            channelId: '3',
+            path: '0'
+          }
+        }]
+    },
+    {
+      denomUnits: [{
+          denom: 'cw20:bbn13vejhl4x0arsq7wajcmlu5hx3phmxdcrp3s2jvy65ucyt9kfkh7qr2laaa',
+          exponent: 0
+        }, {
+          denom: 'satFBTC.e',
+          exponent: 8
+        }],
+      base: 'cw20:bbn13vejhl4x0arsq7wajcmlu5hx3phmxdcrp3s2jvy65ucyt9kfkh7qr2laaa',
+      address: 'bbn13vejhl4x0arsq7wajcmlu5hx3phmxdcrp3s2jvy65ucyt9kfkh7qr2laaa',
+      name: 'SatLayer FBTC Bridged',
+      display: 'satFBTC.e',
+      symbol: 'satFBTC.e',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png'
+      },
+      typeAsset: 'cw20',
+      traces: [{
+          type: 'ibc-bridge',
+          provider: 'Union',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0xe2C6755C10d0B61D8B11Dd2851AE8266Cea912DC',
             channelId: '1'
           },
           chain: {

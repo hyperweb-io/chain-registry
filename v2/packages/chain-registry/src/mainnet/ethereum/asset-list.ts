@@ -1909,6 +1909,50 @@ const info: AssetList = {
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
       }
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0xC96dE26018A54D51c097160568752c4E3BD6C364',
+      denomUnits: [{
+          denom: '0xC96dE26018A54D51c097160568752c4E3BD6C364',
+          exponent: 0
+        }, {
+          denom: 'fbtc',
+          exponent: 8
+        }],
+      base: '0xC96dE26018A54D51c097160568752c4E3BD6C364',
+      name: 'Fire Bitcoin',
+      display: 'fbtc',
+      symbol: 'FBTC',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png'
+      }
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0xe2C6755C10d0B61D8B11Dd2851AE8266Cea912DC',
+      denomUnits: [{
+          denom: '0xe2C6755C10d0B61D8B11Dd2851AE8266Cea912DC',
+          exponent: 0
+        }, {
+          denom: 'satfbtc',
+          exponent: 8
+        }],
+      base: '0xe2C6755C10d0B61D8B11Dd2851AE8266Cea912DC',
+      name: 'Satlayer FBTC',
+      display: 'satfbtc',
+      symbol: 'satFBTC',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0xC96dE26018A54D51c097160568752c4E3BD6C364'
+          },
+          provider: 'SatLayer'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png'
+      }
     }
   ]
 };
