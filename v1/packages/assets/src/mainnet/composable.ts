@@ -950,6 +950,36 @@ const assets: AssetList = {
         }]
     },
     {
+      type_asset: 'erc20',
+      address: '0xC96dE26018A54D51c097160568752c4E3BD6C364',
+      denom_units: [{
+          denom: 'ibc/E385F0A14A503CAD3E10D6F27EF55F729541D02E2B05F12318DE9939B33E060E',
+          exponent: 0,
+          aliases: ['0xC96dE26018A54D51c097160568752c4E3BD6C364']
+        }, {
+          denom: 'fbtc',
+          exponent: 8
+        }],
+      base: 'ibc/E385F0A14A503CAD3E10D6F27EF55F729541D02E2B05F12318DE9939B33E060E',
+      name: 'Fire Bitcoin',
+      display: 'fbtc',
+      symbol: 'FBTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0xC96dE26018A54D51c097160568752c4E3BD6C364',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
       description: 'Solana is a high-performance blockchain platform known for its fast transaction speeds, low costs, and scalability, ideal for decentralized applications and crypto projects.',
       denom_units: [{
           denom: 'ibc/C7F9D7DFF5469F53AB878ED0FBE53CC6B8B2720CD0ED09FD65F25343B13517CC',
@@ -2928,6 +2958,36 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-2',
             base_denom: '0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0xC96dE26018A54D51c097160568752c4E3BD6C364',
+      denom_units: [{
+          denom: 'ibc/E385F0A14A503CAD3E10D6F27EF55F729541D02E2B05F12318DE9939B33E060E',
+          exponent: 0,
+          aliases: ['0xC96dE26018A54D51c097160568752c4E3BD6C364']
+        }, {
+          denom: 'fbtc',
+          exponent: 8
+        }],
+      base: 'ibc/E385F0A14A503CAD3E10D6F27EF55F729541D02E2B05F12318DE9939B33E060E',
+      name: 'Fire Bitcoin',
+      display: 'fbtc',
+      symbol: 'FBTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0xC96dE26018A54D51c097160568752c4E3BD6C364',
             chain_name: 'ethereum'
           },
           chain: {

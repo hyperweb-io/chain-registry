@@ -24739,6 +24739,28 @@ const info: AssetList = {
             primary_color_hex: '#f39444'
           }
         }]
+    },
+    {
+      description: 'Real power moves quietly.',
+      denom_units: [{
+          denom: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stlth',
+          exponent: 0
+        }, {
+          denom: 'STLTH',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      address: 'osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8',
+      base: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stlth',
+      name: 'Stealth',
+      display: 'STLTH',
+      symbol: 'STLTH',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/STLTH.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/STLTH.png'
+        }]
     }
   ]
 };

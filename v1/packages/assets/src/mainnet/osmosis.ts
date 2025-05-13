@@ -13078,10 +13078,10 @@ const assets: AssetList = {
       display: 'astonic',
       symbol: 'ATC',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.png'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.png'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.svg'
         }],
       socials: {
         twitter: 'https://x.com/astonic_xyz',
@@ -13126,10 +13126,10 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.svg'
         }],
       socials: {
         twitter: 'https://x.com/astonic_xyz',
@@ -13163,10 +13163,10 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.svg'
         }],
       socials: {
         twitter: 'https://x.com/astonic_xyz',
@@ -13200,10 +13200,10 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.svg'
         }],
       socials: {
         twitter: 'https://x.com/astonic_xyz',
@@ -20922,10 +20922,10 @@ const assets: AssetList = {
       display: 'astonic',
       symbol: 'ATC',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.png'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.png'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.svg'
         }],
       socials: {
         twitter: 'https://x.com/astonic_xyz',
@@ -20970,10 +20970,10 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.png'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.svg'
         }],
       socials: {
         twitter: 'https://x.com/astonic_xyz',
@@ -21007,10 +21007,10 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.png'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.svg'
         }],
       socials: {
         twitter: 'https://x.com/astonic_xyz',
@@ -21044,10 +21044,10 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.png'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.svg'
         }],
       socials: {
         twitter: 'https://x.com/astonic_xyz',
@@ -28759,6 +28759,70 @@ const assets: AssetList = {
     },
     {
       denom_units: [{
+          denom: 'ibc/3D11C7C57643E40B5E4B2A71E64C37D32333096086393B0E64D6DC9F1576F4A8',
+          exponent: 0,
+          aliases: ['cw20:bbn1rgsgnu9hcssn97hprmavtt58vt3qg5y4qha4ky6q09urczsuzwlss60thh']
+        }, {
+          denom: 'eBTC',
+          exponent: 8
+        }],
+      base: 'ibc/3D11C7C57643E40B5E4B2A71E64C37D32333096086393B0E64D6DC9F1576F4A8',
+      address: 'bbn1rgsgnu9hcssn97hprmavtt58vt3qg5y4qha4ky6q09urczsuzwlss60thh',
+      name: 'ether.fi BTC',
+      display: 'eBTC',
+      symbol: 'eBTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1rgsgnu9hcssn97hprmavtt58vt3qg5y4qha4ky6q09urczsuzwlss60thh',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/C61EBD52A18250353AED7822A88944C0EAFA20457DDA30745E19EF56C4F4E9ED',
+          exponent: 0,
+          aliases: ['cw20:bbn1j7yz208yls9v5vcgsekwaf096wk2ysyrdn0u747868v80fd05tjsalq9ll']
+        }, {
+          denom: 'mBTC',
+          exponent: 8
+        }],
+      base: 'ibc/C61EBD52A18250353AED7822A88944C0EAFA20457DDA30745E19EF56C4F4E9ED',
+      address: 'bbn1j7yz208yls9v5vcgsekwaf096wk2ysyrdn0u747868v80fd05tjsalq9ll',
+      name: 'Liquid Staked BTC',
+      display: 'mBTC',
+      symbol: 'mBTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mBTC.png'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1j7yz208yls9v5vcgsekwaf096wk2ysyrdn0u747868v80fd05tjsalq9ll',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
           denom: 'ibc/3B78E60C2363983E33F8AE7661345DC6C9BD3EC7439943830693D548F346C713',
           exponent: 0,
           aliases: ['cw20:bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d']
@@ -28909,6 +28973,38 @@ const assets: AssetList = {
             port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
             channel_id: 'channel-7',
             base_denom: 'cw20:bbn1rluxqjaqsczmdaxl4kr0qa42pp78zszlmdrt248hel59z3fh8y9qrh4dvq',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/4545039FDA0113359C7FF308F2DB22F3FB0EE1E096299B910791F452B0F4CD3B',
+          exponent: 0,
+          aliases: ['cw20:bbn13vejhl4x0arsq7wajcmlu5hx3phmxdcrp3s2jvy65ucyt9kfkh7qr2laaa']
+        }, {
+          denom: 'satFBTC.e',
+          exponent: 8
+        }],
+      base: 'ibc/4545039FDA0113359C7FF308F2DB22F3FB0EE1E096299B910791F452B0F4CD3B',
+      address: 'bbn13vejhl4x0arsq7wajcmlu5hx3phmxdcrp3s2jvy65ucyt9kfkh7qr2laaa',
+      name: 'SatLayer FBTC Bridged',
+      display: 'satFBTC.e',
+      symbol: 'satFBTC.e',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn13vejhl4x0arsq7wajcmlu5hx3phmxdcrp3s2jvy65ucyt9kfkh7qr2laaa',
             chain_name: 'babylon'
           },
           chain: {
@@ -32021,6 +32117,70 @@ const assets: AssetList = {
     },
     {
       denom_units: [{
+          denom: 'ibc/3D11C7C57643E40B5E4B2A71E64C37D32333096086393B0E64D6DC9F1576F4A8',
+          exponent: 0,
+          aliases: ['cw20:bbn1rgsgnu9hcssn97hprmavtt58vt3qg5y4qha4ky6q09urczsuzwlss60thh']
+        }, {
+          denom: 'eBTC',
+          exponent: 8
+        }],
+      base: 'ibc/3D11C7C57643E40B5E4B2A71E64C37D32333096086393B0E64D6DC9F1576F4A8',
+      address: 'bbn1rgsgnu9hcssn97hprmavtt58vt3qg5y4qha4ky6q09urczsuzwlss60thh',
+      name: 'ether.fi BTC',
+      display: 'eBTC',
+      symbol: 'eBTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1rgsgnu9hcssn97hprmavtt58vt3qg5y4qha4ky6q09urczsuzwlss60thh',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/C61EBD52A18250353AED7822A88944C0EAFA20457DDA30745E19EF56C4F4E9ED',
+          exponent: 0,
+          aliases: ['cw20:bbn1j7yz208yls9v5vcgsekwaf096wk2ysyrdn0u747868v80fd05tjsalq9ll']
+        }, {
+          denom: 'mBTC',
+          exponent: 8
+        }],
+      base: 'ibc/C61EBD52A18250353AED7822A88944C0EAFA20457DDA30745E19EF56C4F4E9ED',
+      address: 'bbn1j7yz208yls9v5vcgsekwaf096wk2ysyrdn0u747868v80fd05tjsalq9ll',
+      name: 'Liquid Staked BTC',
+      display: 'mBTC',
+      symbol: 'mBTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mBTC.png'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1j7yz208yls9v5vcgsekwaf096wk2ysyrdn0u747868v80fd05tjsalq9ll',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
           denom: 'ibc/3B78E60C2363983E33F8AE7661345DC6C9BD3EC7439943830693D548F346C713',
           exponent: 0,
           aliases: ['cw20:bbn1jr0xpgy90hqmaafdq3jtapr2p63tv59s9hcced5j4qqgs5ed9x7sr3sv0d']
@@ -32171,6 +32331,38 @@ const assets: AssetList = {
             port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
             channel_id: 'channel-7',
             base_denom: 'cw20:bbn1rluxqjaqsczmdaxl4kr0qa42pp78zszlmdrt248hel59z3fh8y9qrh4dvq',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/4545039FDA0113359C7FF308F2DB22F3FB0EE1E096299B910791F452B0F4CD3B',
+          exponent: 0,
+          aliases: ['cw20:bbn13vejhl4x0arsq7wajcmlu5hx3phmxdcrp3s2jvy65ucyt9kfkh7qr2laaa']
+        }, {
+          denom: 'satFBTC.e',
+          exponent: 8
+        }],
+      base: 'ibc/4545039FDA0113359C7FF308F2DB22F3FB0EE1E096299B910791F452B0F4CD3B',
+      address: 'bbn13vejhl4x0arsq7wajcmlu5hx3phmxdcrp3s2jvy65ucyt9kfkh7qr2laaa',
+      name: 'SatLayer FBTC Bridged',
+      display: 'satFBTC.e',
+      symbol: 'satFBTC.e',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn13vejhl4x0arsq7wajcmlu5hx3phmxdcrp3s2jvy65ucyt9kfkh7qr2laaa',
             chain_name: 'babylon'
           },
           chain: {
