@@ -7,6 +7,7 @@ export * as aioz from './aioz';
 export * as akash from './akash';
 export * as andromeda from './andromeda';
 export * as archway from './archway';
+export * as arkeo from './arkeo';
 export * as arkh from './arkh';
 export * as assetmantle from './assetmantle';
 export * as atomone from './atomone';

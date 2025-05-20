@@ -10519,6 +10519,1089 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Terra Classic is the original blockchain platform that powered the UST stablecoin and LUNA token before the launch of Terra 2.0, focusing on stablecoins and DeFi applications.',
+      denom_units: [
+        {
+          denom: 'ibc/557F32AB960241677962D6A1AED510CFA6EB34FE8D3C17FCFB3A88CB27380087',
+          exponent: 0,
+          aliases: ['uluna']
+        },
+        {
+          denom: 'mluna',
+          exponent: 3,
+          aliases: ['milliluna']
+        },
+        {
+          denom: 'luna',
+          exponent: 6,
+          aliases: ['lunc']
+        }
+      ],
+      base: 'ibc/557F32AB960241677962D6A1AED510CFA6EB34FE8D3C17FCFB3A88CB27380087',
+      name: 'Luna Classic',
+      display: 'luna',
+      symbol: 'LUNC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg'
+      },
+      coingecko_id: 'terra-luna',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg',
+          theme: {
+            primary_color_hex: '#fcdb5b'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uluna',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The USD stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/916C9261968E4904C2D0F449BC5C853AE337A0D0E2FEDDD59202818BEFDE9EB4',
+          exponent: 0,
+          aliases: ['uusd']
+        },
+        {
+          denom: 'musd',
+          exponent: 3,
+          aliases: ['milliusd']
+        },
+        {
+          denom: 'ust',
+          exponent: 6,
+          aliases: ['ustc']
+        }
+      ],
+      base: 'ibc/916C9261968E4904C2D0F449BC5C853AE337A0D0E2FEDDD59202818BEFDE9EB4',
+      name: 'TerraClassicUSD',
+      display: 'ust',
+      symbol: 'USTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.svg'
+      },
+      coingecko_id: 'terrausd',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.svg',
+          theme: {
+            primary_color_hex: '#5493f2'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uusd',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The KRW stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/F22F72821012AE6A929161001FF0353EF146C4998558C4B7FA934E8A91172658',
+          exponent: 0,
+          aliases: ['ukrw']
+        },
+        {
+          denom: 'mkrw',
+          exponent: 3,
+          aliases: ['millikrw']
+        },
+        {
+          denom: 'krt',
+          exponent: 6,
+          aliases: ['krtc']
+        }
+      ],
+      base: 'ibc/F22F72821012AE6A929161001FF0353EF146C4998558C4B7FA934E8A91172658',
+      name: 'TerraClassicKRW',
+      display: 'krt',
+      symbol: 'KRTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.svg',
+          theme: {
+            primary_color_hex: '#4b83e0'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'ukrw',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The AUD stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/B4D51BEC0B8411F6134D5383281CF9D608236FFE2129701265C5805F24A35041',
+          exponent: 0,
+          aliases: ['uaud']
+        },
+        {
+          denom: 'maud',
+          exponent: 3,
+          aliases: ['milliaud']
+        },
+        {
+          denom: 'aut',
+          exponent: 6,
+          aliases: ['autc']
+        }
+      ],
+      base: 'ibc/B4D51BEC0B8411F6134D5383281CF9D608236FFE2129701265C5805F24A35041',
+      display: 'aut',
+      name: 'TerraClassicAUD',
+      symbol: 'AUTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aut.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aut.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aut.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aut.svg',
+          theme: {
+            primary_color_hex: '#5981d7'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uaud',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The CAD stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/66060A8D9D739BDF54C15EC7B7DC30BC699882DB6A84433F7654BD8D48713864',
+          exponent: 0,
+          aliases: ['ucad']
+        },
+        {
+          denom: 'mcad',
+          exponent: 3,
+          aliases: ['millicad']
+        },
+        {
+          denom: 'cat',
+          exponent: 6,
+          aliases: ['catc']
+        }
+      ],
+      base: 'ibc/66060A8D9D739BDF54C15EC7B7DC30BC699882DB6A84433F7654BD8D48713864',
+      display: 'cat',
+      name: 'TerraClassicCAD',
+      symbol: 'CATC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cat.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cat.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cat.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cat.svg',
+          theme: {
+            primary_color_hex: '#de725b'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'ucad',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The CHF stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/D532CF77B36211E6EC31F678B141E3631699DDCFF92B45DE0633155A17039643',
+          exponent: 0,
+          aliases: ['uchf']
+        },
+        {
+          denom: 'mchf',
+          exponent: 3,
+          aliases: ['millichf']
+        },
+        {
+          denom: 'cht',
+          exponent: 6,
+          aliases: ['chtc']
+        }
+      ],
+      base: 'ibc/D532CF77B36211E6EC31F678B141E3631699DDCFF92B45DE0633155A17039643',
+      display: 'cht',
+      name: 'TerraClassicCHF',
+      symbol: 'CHTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cht.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cht.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cht.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cht.svg',
+          theme: {
+            primary_color_hex: '#c95c41'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uchf',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The CNY stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/8FD1860025A1601E79CE64760EA42DE83193DAC2E862164EA18FC7C378FA462B',
+          exponent: 0,
+          aliases: ['ucny']
+        },
+        {
+          denom: 'mcny',
+          exponent: 3,
+          aliases: ['millicny']
+        },
+        {
+          denom: 'cnt',
+          exponent: 6,
+          aliases: ['cntc']
+        }
+      ],
+      base: 'ibc/8FD1860025A1601E79CE64760EA42DE83193DAC2E862164EA18FC7C378FA462B',
+      display: 'cnt',
+      name: 'TerraClassicCNY',
+      symbol: 'CNTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cnt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cnt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cnt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cnt.svg',
+          theme: {
+            primary_color_hex: '#d3684c'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'ucny',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The DKK stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/3E0BA97AB9478146BBBC31A7CED337F1410F9A1148DD2FB09091897B033149B8',
+          exponent: 0,
+          aliases: ['udkk']
+        },
+        {
+          denom: 'mdkk',
+          exponent: 3,
+          aliases: ['millidkk']
+        },
+        {
+          denom: 'dkt',
+          exponent: 6,
+          aliases: ['dktc']
+        }
+      ],
+      base: 'ibc/3E0BA97AB9478146BBBC31A7CED337F1410F9A1148DD2FB09091897B033149B8',
+      display: 'dkt',
+      name: 'TerraClassicDKK',
+      symbol: 'DKTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dkt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dkt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dkt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dkt.svg',
+          theme: {
+            primary_color_hex: '#db300a'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'udkk',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The EUR stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/FD797DFE3A31FF4860C2BB6BF5EBFEBF3BD49655DB9EBD3B2D58A966F071CD6F',
+          exponent: 0,
+          aliases: ['ueur']
+        },
+        {
+          denom: 'meur',
+          exponent: 3,
+          aliases: ['millieur']
+        },
+        {
+          denom: 'eut',
+          exponent: 6,
+          aliases: ['eutc']
+        }
+      ],
+      base: 'ibc/FD797DFE3A31FF4860C2BB6BF5EBFEBF3BD49655DB9EBD3B2D58A966F071CD6F',
+      display: 'eut',
+      name: 'TerraClassicEUR',
+      symbol: 'EUTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eut.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eut.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eut.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eut.svg',
+          theme: {
+            primary_color_hex: '#1535b2'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'ueur',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The GBP stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/F989619E798F31174D54734DE9EF56EC2908D3BB6943084666AE0293EDD8CC10',
+          exponent: 0,
+          aliases: ['ugbp']
+        },
+        {
+          denom: 'mgbp',
+          exponent: 3,
+          aliases: ['milligbp']
+        },
+        {
+          denom: 'gbt',
+          exponent: 6,
+          aliases: ['gbtc']
+        }
+      ],
+      base: 'ibc/F989619E798F31174D54734DE9EF56EC2908D3BB6943084666AE0293EDD8CC10',
+      display: 'gbt',
+      name: 'TerraClassicGBP',
+      symbol: 'GBTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gbt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gbt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gbt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gbt.svg',
+          theme: {
+            primary_color_hex: '#d49b9c'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'ugbp',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The HKD stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/9CBC4656B1C79225939396C931D46B05B83D2636051E9369CEBE65E272CC22C2',
+          exponent: 0,
+          aliases: ['uhkd']
+        },
+        {
+          denom: 'mhkd',
+          exponent: 3,
+          aliases: ['millihkd']
+        },
+        {
+          denom: 'hkt',
+          exponent: 6,
+          aliases: ['hktc']
+        }
+      ],
+      base: 'ibc/9CBC4656B1C79225939396C931D46B05B83D2636051E9369CEBE65E272CC22C2',
+      display: 'hkt',
+      name: 'TerraClassicHKD',
+      symbol: 'HKTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/hkt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/hkt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/hkt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/hkt.svg',
+          theme: {
+            primary_color_hex: '#dc300a'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uhkd',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The IDR stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/F75A57B94DC333E1AC228490F42C9FB81DF34081B1230B6257943B81D1EB1246',
+          exponent: 0,
+          aliases: ['uidr']
+        },
+        {
+          denom: 'midr',
+          exponent: 3,
+          aliases: ['milliidr']
+        },
+        {
+          denom: 'idt',
+          exponent: 6,
+          aliases: ['idtc']
+        }
+      ],
+      base: 'ibc/F75A57B94DC333E1AC228490F42C9FB81DF34081B1230B6257943B81D1EB1246',
+      display: 'idt',
+      name: 'TerraClassicIDR',
+      symbol: 'IDTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/idt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/idt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/idt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/idt.svg',
+          theme: {
+            primary_color_hex: '#5893ed'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uidr',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The INR stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/699ACF5A008F972AC25E1C79A9BF12FC4B68337B6B3A1D8EAAA9D07B65D8B693',
+          exponent: 0,
+          aliases: ['uinr']
+        },
+        {
+          denom: 'minr',
+          exponent: 3,
+          aliases: ['milliinr']
+        },
+        {
+          denom: 'int',
+          exponent: 6,
+          aliases: ['intc']
+        }
+      ],
+      base: 'ibc/699ACF5A008F972AC25E1C79A9BF12FC4B68337B6B3A1D8EAAA9D07B65D8B693',
+      display: 'int',
+      name: 'TerraClassicINR',
+      symbol: 'INTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/int.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/int.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/int.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/int.svg',
+          theme: {
+            primary_color_hex: '#4b87e6'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uinr',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The JPY stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/D9A58421F3DCA222C95982D251A2AABFF6EECFF45A624D35B7E7FEC0A0542996',
+          exponent: 0,
+          aliases: ['ujpy']
+        },
+        {
+          denom: 'mjpy',
+          exponent: 3,
+          aliases: ['millijpy']
+        },
+        {
+          denom: 'jpt',
+          exponent: 6,
+          aliases: ['jptc']
+        }
+      ],
+      base: 'ibc/D9A58421F3DCA222C95982D251A2AABFF6EECFF45A624D35B7E7FEC0A0542996',
+      display: 'jpt',
+      name: 'TerraClassicJPY',
+      symbol: 'JPTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/jpt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/jpt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/jpt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/jpt.svg',
+          theme: {
+            primary_color_hex: '#cfcfcf'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'ujpy',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The MNT stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/A6DB649941408CA62C2A1A42D37C3476A5D82065CA3C0D0222DF7CF48D092127',
+          exponent: 0,
+          aliases: ['umnt']
+        },
+        {
+          denom: 'mmnt',
+          exponent: 3,
+          aliases: ['millimnt']
+        },
+        {
+          denom: 'mnt',
+          exponent: 6,
+          aliases: ['mntc']
+        }
+      ],
+      base: 'ibc/A6DB649941408CA62C2A1A42D37C3476A5D82065CA3C0D0222DF7CF48D092127',
+      display: 'mnt',
+      name: 'TerraClassicMNT',
+      symbol: 'MNTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnt.svg',
+          theme: {
+            primary_color_hex: '#4085f0'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'umnt',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The MYR stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/5DD4C696095FE91B45A88D104AAE25B7ED849037E674ED39D0CB68FC7247C262',
+          exponent: 0,
+          aliases: ['umyr']
+        },
+        {
+          denom: 'mmyr',
+          exponent: 3,
+          aliases: ['millimyr']
+        },
+        {
+          denom: 'myt',
+          exponent: 6,
+          aliases: ['mytc']
+        }
+      ],
+      base: 'ibc/5DD4C696095FE91B45A88D104AAE25B7ED849037E674ED39D0CB68FC7247C262',
+      display: 'myt',
+      name: 'TerraClassicMYR',
+      symbol: 'MYTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/myt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/myt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/myt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/myt.svg',
+          theme: {
+            primary_color_hex: '#5893ed'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'umyr',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The NOK stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/992A8C24D68CC1CB9B5780B6E84533B0A2DC0F5B75FC6BC7CC45DA502716BD25',
+          exponent: 0,
+          aliases: ['unok']
+        },
+        {
+          denom: 'mnok',
+          exponent: 3,
+          aliases: ['millinok']
+        },
+        {
+          denom: 'not',
+          exponent: 6,
+          aliases: ['notc']
+        }
+      ],
+      base: 'ibc/992A8C24D68CC1CB9B5780B6E84533B0A2DC0F5B75FC6BC7CC45DA502716BD25',
+      display: 'not',
+      name: 'TerraClassicNOK',
+      symbol: 'NOTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/not.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/not.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/not.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/not.svg',
+          theme: {
+            primary_color_hex: '#5493f3'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'unok',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The PHP stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/7EDD45DFD1BAD104511E70FA1C7A9322E2E5B892D0B0A0C07A00787E54875914',
+          exponent: 0,
+          aliases: ['uphp']
+        },
+        {
+          denom: 'mphp',
+          exponent: 3,
+          aliases: ['milliphp']
+        },
+        {
+          denom: 'pht',
+          exponent: 6,
+          aliases: ['phtc']
+        }
+      ],
+      base: 'ibc/7EDD45DFD1BAD104511E70FA1C7A9322E2E5B892D0B0A0C07A00787E54875914',
+      display: 'pht',
+      name: 'TerraClassicPHP',
+      symbol: 'PHTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pht.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pht.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pht.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pht.svg',
+          theme: {
+            primary_color_hex: '#e88057'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uphp',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The SDR stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/291ACE86C74C947DCB067127945638C2A68C83113E83D20B442D35BDBB19B8B1',
+          exponent: 0,
+          aliases: ['usdr']
+        },
+        {
+          denom: 'msdr',
+          exponent: 3,
+          aliases: ['millisdr']
+        },
+        {
+          denom: 'sdt',
+          exponent: 6,
+          aliases: ['sdtc']
+        }
+      ],
+      base: 'ibc/291ACE86C74C947DCB067127945638C2A68C83113E83D20B442D35BDBB19B8B1',
+      display: 'sdt',
+      name: 'TerraClassicSDR',
+      symbol: 'SDTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sdt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sdt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sdt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sdt.svg',
+          theme: {
+            primary_color_hex: '#2fa4f1'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'usdr',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The SEK stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/84CB8B7AEDBCF935307587C0A4CB7FD1A3BD3F35C8F64EFAB59DC612503E830C',
+          exponent: 0,
+          aliases: ['usek']
+        },
+        {
+          denom: 'msek',
+          exponent: 3,
+          aliases: ['millisek']
+        },
+        {
+          denom: 'set',
+          exponent: 6,
+          aliases: ['setc']
+        }
+      ],
+      base: 'ibc/84CB8B7AEDBCF935307587C0A4CB7FD1A3BD3F35C8F64EFAB59DC612503E830C',
+      display: 'set',
+      name: 'TerraClassicSEK',
+      symbol: 'SETC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/set.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/set.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/set.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/set.svg',
+          theme: {
+            primary_color_hex: '#2e71e1'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'usek',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The SGD stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/2B7D7BA960A7558FB83A58F4438B6EAA3EE01608ECAC3870C03940E3BE8DC9AD',
+          exponent: 0,
+          aliases: ['usgd']
+        },
+        {
+          denom: 'msgd',
+          exponent: 3,
+          aliases: ['millisgd']
+        },
+        {
+          denom: 'sgt',
+          exponent: 6,
+          aliases: ['sgtc']
+        }
+      ],
+      base: 'ibc/2B7D7BA960A7558FB83A58F4438B6EAA3EE01608ECAC3870C03940E3BE8DC9AD',
+      display: 'sgt',
+      name: 'TerraClassicSGD',
+      symbol: 'SGTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sgt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sgt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sgt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sgt.svg',
+          theme: {
+            primary_color_hex: '#4886e7'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'usgd',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The THB stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/A583394AA1912F5DC4974F391DE8FBDC2DF01F4DBFFCB3587BE44F2E0DDCFEA9',
+          exponent: 0,
+          aliases: ['uthb']
+        },
+        {
+          denom: 'mthb',
+          exponent: 3,
+          aliases: ['millithb']
+        },
+        {
+          denom: 'tht',
+          exponent: 6,
+          aliases: ['thtc']
+        }
+      ],
+      base: 'ibc/A583394AA1912F5DC4974F391DE8FBDC2DF01F4DBFFCB3587BE44F2E0DDCFEA9',
+      display: 'tht',
+      name: 'TerraClassicTHB',
+      symbol: 'THTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tht.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tht.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tht.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tht.svg',
+          theme: {
+            primary_color_hex: '#5493f3'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uthb',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The TWD stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/B228967192B04944DA47E69CB24735FB8934DE24AF6231F1FDED20C7CBA52B31',
+          exponent: 0,
+          aliases: ['utwd']
+        },
+        {
+          denom: 'mtwd',
+          exponent: 3,
+          aliases: ['millitwd']
+        },
+        {
+          denom: 'twt',
+          exponent: 6,
+          aliases: ['twtc']
+        }
+      ],
+      base: 'ibc/B228967192B04944DA47E69CB24735FB8934DE24AF6231F1FDED20C7CBA52B31',
+      display: 'twt',
+      name: 'TerraClassicTWD',
+      symbol: 'TWTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twt.svg',
+          theme: {
+            primary_color_hex: '#5493f3'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'utwd',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
       description: 'The native staking token of Terra.',
       denom_units: [{
           denom: 'ibc/BE8B9A10C7F6E014F617E4C883D24A8E34A4399C2E18D583DD9506CEADF0D7E5',
@@ -16243,6 +17326,1089 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-54'
+          }
+        }]
+    },
+    {
+      description: 'Terra Classic is the original blockchain platform that powered the UST stablecoin and LUNA token before the launch of Terra 2.0, focusing on stablecoins and DeFi applications.',
+      denom_units: [
+        {
+          denom: 'ibc/557F32AB960241677962D6A1AED510CFA6EB34FE8D3C17FCFB3A88CB27380087',
+          exponent: 0,
+          aliases: ['uluna']
+        },
+        {
+          denom: 'mluna',
+          exponent: 3,
+          aliases: ['milliluna']
+        },
+        {
+          denom: 'luna',
+          exponent: 6,
+          aliases: ['lunc']
+        }
+      ],
+      base: 'ibc/557F32AB960241677962D6A1AED510CFA6EB34FE8D3C17FCFB3A88CB27380087',
+      name: 'Luna Classic',
+      display: 'luna',
+      symbol: 'LUNC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg'
+      },
+      coingecko_id: 'terra-luna',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg',
+          theme: {
+            primary_color_hex: '#fcdb5b'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uluna',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The USD stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/916C9261968E4904C2D0F449BC5C853AE337A0D0E2FEDDD59202818BEFDE9EB4',
+          exponent: 0,
+          aliases: ['uusd']
+        },
+        {
+          denom: 'musd',
+          exponent: 3,
+          aliases: ['milliusd']
+        },
+        {
+          denom: 'ust',
+          exponent: 6,
+          aliases: ['ustc']
+        }
+      ],
+      base: 'ibc/916C9261968E4904C2D0F449BC5C853AE337A0D0E2FEDDD59202818BEFDE9EB4',
+      name: 'TerraClassicUSD',
+      display: 'ust',
+      symbol: 'USTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.svg'
+      },
+      coingecko_id: 'terrausd',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.svg',
+          theme: {
+            primary_color_hex: '#5493f2'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uusd',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The KRW stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/F22F72821012AE6A929161001FF0353EF146C4998558C4B7FA934E8A91172658',
+          exponent: 0,
+          aliases: ['ukrw']
+        },
+        {
+          denom: 'mkrw',
+          exponent: 3,
+          aliases: ['millikrw']
+        },
+        {
+          denom: 'krt',
+          exponent: 6,
+          aliases: ['krtc']
+        }
+      ],
+      base: 'ibc/F22F72821012AE6A929161001FF0353EF146C4998558C4B7FA934E8A91172658',
+      name: 'TerraClassicKRW',
+      display: 'krt',
+      symbol: 'KRTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.svg',
+          theme: {
+            primary_color_hex: '#4b83e0'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'ukrw',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The AUD stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/B4D51BEC0B8411F6134D5383281CF9D608236FFE2129701265C5805F24A35041',
+          exponent: 0,
+          aliases: ['uaud']
+        },
+        {
+          denom: 'maud',
+          exponent: 3,
+          aliases: ['milliaud']
+        },
+        {
+          denom: 'aut',
+          exponent: 6,
+          aliases: ['autc']
+        }
+      ],
+      base: 'ibc/B4D51BEC0B8411F6134D5383281CF9D608236FFE2129701265C5805F24A35041',
+      display: 'aut',
+      name: 'TerraClassicAUD',
+      symbol: 'AUTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aut.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aut.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aut.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aut.svg',
+          theme: {
+            primary_color_hex: '#5981d7'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uaud',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The CAD stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/66060A8D9D739BDF54C15EC7B7DC30BC699882DB6A84433F7654BD8D48713864',
+          exponent: 0,
+          aliases: ['ucad']
+        },
+        {
+          denom: 'mcad',
+          exponent: 3,
+          aliases: ['millicad']
+        },
+        {
+          denom: 'cat',
+          exponent: 6,
+          aliases: ['catc']
+        }
+      ],
+      base: 'ibc/66060A8D9D739BDF54C15EC7B7DC30BC699882DB6A84433F7654BD8D48713864',
+      display: 'cat',
+      name: 'TerraClassicCAD',
+      symbol: 'CATC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cat.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cat.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cat.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cat.svg',
+          theme: {
+            primary_color_hex: '#de725b'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'ucad',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The CHF stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/D532CF77B36211E6EC31F678B141E3631699DDCFF92B45DE0633155A17039643',
+          exponent: 0,
+          aliases: ['uchf']
+        },
+        {
+          denom: 'mchf',
+          exponent: 3,
+          aliases: ['millichf']
+        },
+        {
+          denom: 'cht',
+          exponent: 6,
+          aliases: ['chtc']
+        }
+      ],
+      base: 'ibc/D532CF77B36211E6EC31F678B141E3631699DDCFF92B45DE0633155A17039643',
+      display: 'cht',
+      name: 'TerraClassicCHF',
+      symbol: 'CHTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cht.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cht.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cht.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cht.svg',
+          theme: {
+            primary_color_hex: '#c95c41'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uchf',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The CNY stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/8FD1860025A1601E79CE64760EA42DE83193DAC2E862164EA18FC7C378FA462B',
+          exponent: 0,
+          aliases: ['ucny']
+        },
+        {
+          denom: 'mcny',
+          exponent: 3,
+          aliases: ['millicny']
+        },
+        {
+          denom: 'cnt',
+          exponent: 6,
+          aliases: ['cntc']
+        }
+      ],
+      base: 'ibc/8FD1860025A1601E79CE64760EA42DE83193DAC2E862164EA18FC7C378FA462B',
+      display: 'cnt',
+      name: 'TerraClassicCNY',
+      symbol: 'CNTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cnt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cnt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cnt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cnt.svg',
+          theme: {
+            primary_color_hex: '#d3684c'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'ucny',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The DKK stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/3E0BA97AB9478146BBBC31A7CED337F1410F9A1148DD2FB09091897B033149B8',
+          exponent: 0,
+          aliases: ['udkk']
+        },
+        {
+          denom: 'mdkk',
+          exponent: 3,
+          aliases: ['millidkk']
+        },
+        {
+          denom: 'dkt',
+          exponent: 6,
+          aliases: ['dktc']
+        }
+      ],
+      base: 'ibc/3E0BA97AB9478146BBBC31A7CED337F1410F9A1148DD2FB09091897B033149B8',
+      display: 'dkt',
+      name: 'TerraClassicDKK',
+      symbol: 'DKTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dkt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dkt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dkt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dkt.svg',
+          theme: {
+            primary_color_hex: '#db300a'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'udkk',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The EUR stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/FD797DFE3A31FF4860C2BB6BF5EBFEBF3BD49655DB9EBD3B2D58A966F071CD6F',
+          exponent: 0,
+          aliases: ['ueur']
+        },
+        {
+          denom: 'meur',
+          exponent: 3,
+          aliases: ['millieur']
+        },
+        {
+          denom: 'eut',
+          exponent: 6,
+          aliases: ['eutc']
+        }
+      ],
+      base: 'ibc/FD797DFE3A31FF4860C2BB6BF5EBFEBF3BD49655DB9EBD3B2D58A966F071CD6F',
+      display: 'eut',
+      name: 'TerraClassicEUR',
+      symbol: 'EUTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eut.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eut.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eut.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eut.svg',
+          theme: {
+            primary_color_hex: '#1535b2'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'ueur',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The GBP stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/F989619E798F31174D54734DE9EF56EC2908D3BB6943084666AE0293EDD8CC10',
+          exponent: 0,
+          aliases: ['ugbp']
+        },
+        {
+          denom: 'mgbp',
+          exponent: 3,
+          aliases: ['milligbp']
+        },
+        {
+          denom: 'gbt',
+          exponent: 6,
+          aliases: ['gbtc']
+        }
+      ],
+      base: 'ibc/F989619E798F31174D54734DE9EF56EC2908D3BB6943084666AE0293EDD8CC10',
+      display: 'gbt',
+      name: 'TerraClassicGBP',
+      symbol: 'GBTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gbt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gbt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gbt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gbt.svg',
+          theme: {
+            primary_color_hex: '#d49b9c'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'ugbp',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The HKD stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/9CBC4656B1C79225939396C931D46B05B83D2636051E9369CEBE65E272CC22C2',
+          exponent: 0,
+          aliases: ['uhkd']
+        },
+        {
+          denom: 'mhkd',
+          exponent: 3,
+          aliases: ['millihkd']
+        },
+        {
+          denom: 'hkt',
+          exponent: 6,
+          aliases: ['hktc']
+        }
+      ],
+      base: 'ibc/9CBC4656B1C79225939396C931D46B05B83D2636051E9369CEBE65E272CC22C2',
+      display: 'hkt',
+      name: 'TerraClassicHKD',
+      symbol: 'HKTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/hkt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/hkt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/hkt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/hkt.svg',
+          theme: {
+            primary_color_hex: '#dc300a'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uhkd',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The IDR stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/F75A57B94DC333E1AC228490F42C9FB81DF34081B1230B6257943B81D1EB1246',
+          exponent: 0,
+          aliases: ['uidr']
+        },
+        {
+          denom: 'midr',
+          exponent: 3,
+          aliases: ['milliidr']
+        },
+        {
+          denom: 'idt',
+          exponent: 6,
+          aliases: ['idtc']
+        }
+      ],
+      base: 'ibc/F75A57B94DC333E1AC228490F42C9FB81DF34081B1230B6257943B81D1EB1246',
+      display: 'idt',
+      name: 'TerraClassicIDR',
+      symbol: 'IDTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/idt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/idt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/idt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/idt.svg',
+          theme: {
+            primary_color_hex: '#5893ed'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uidr',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The INR stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/699ACF5A008F972AC25E1C79A9BF12FC4B68337B6B3A1D8EAAA9D07B65D8B693',
+          exponent: 0,
+          aliases: ['uinr']
+        },
+        {
+          denom: 'minr',
+          exponent: 3,
+          aliases: ['milliinr']
+        },
+        {
+          denom: 'int',
+          exponent: 6,
+          aliases: ['intc']
+        }
+      ],
+      base: 'ibc/699ACF5A008F972AC25E1C79A9BF12FC4B68337B6B3A1D8EAAA9D07B65D8B693',
+      display: 'int',
+      name: 'TerraClassicINR',
+      symbol: 'INTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/int.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/int.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/int.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/int.svg',
+          theme: {
+            primary_color_hex: '#4b87e6'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uinr',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The JPY stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/D9A58421F3DCA222C95982D251A2AABFF6EECFF45A624D35B7E7FEC0A0542996',
+          exponent: 0,
+          aliases: ['ujpy']
+        },
+        {
+          denom: 'mjpy',
+          exponent: 3,
+          aliases: ['millijpy']
+        },
+        {
+          denom: 'jpt',
+          exponent: 6,
+          aliases: ['jptc']
+        }
+      ],
+      base: 'ibc/D9A58421F3DCA222C95982D251A2AABFF6EECFF45A624D35B7E7FEC0A0542996',
+      display: 'jpt',
+      name: 'TerraClassicJPY',
+      symbol: 'JPTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/jpt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/jpt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/jpt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/jpt.svg',
+          theme: {
+            primary_color_hex: '#cfcfcf'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'ujpy',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The MNT stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/A6DB649941408CA62C2A1A42D37C3476A5D82065CA3C0D0222DF7CF48D092127',
+          exponent: 0,
+          aliases: ['umnt']
+        },
+        {
+          denom: 'mmnt',
+          exponent: 3,
+          aliases: ['millimnt']
+        },
+        {
+          denom: 'mnt',
+          exponent: 6,
+          aliases: ['mntc']
+        }
+      ],
+      base: 'ibc/A6DB649941408CA62C2A1A42D37C3476A5D82065CA3C0D0222DF7CF48D092127',
+      display: 'mnt',
+      name: 'TerraClassicMNT',
+      symbol: 'MNTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnt.svg',
+          theme: {
+            primary_color_hex: '#4085f0'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'umnt',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The MYR stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/5DD4C696095FE91B45A88D104AAE25B7ED849037E674ED39D0CB68FC7247C262',
+          exponent: 0,
+          aliases: ['umyr']
+        },
+        {
+          denom: 'mmyr',
+          exponent: 3,
+          aliases: ['millimyr']
+        },
+        {
+          denom: 'myt',
+          exponent: 6,
+          aliases: ['mytc']
+        }
+      ],
+      base: 'ibc/5DD4C696095FE91B45A88D104AAE25B7ED849037E674ED39D0CB68FC7247C262',
+      display: 'myt',
+      name: 'TerraClassicMYR',
+      symbol: 'MYTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/myt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/myt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/myt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/myt.svg',
+          theme: {
+            primary_color_hex: '#5893ed'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'umyr',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The NOK stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/992A8C24D68CC1CB9B5780B6E84533B0A2DC0F5B75FC6BC7CC45DA502716BD25',
+          exponent: 0,
+          aliases: ['unok']
+        },
+        {
+          denom: 'mnok',
+          exponent: 3,
+          aliases: ['millinok']
+        },
+        {
+          denom: 'not',
+          exponent: 6,
+          aliases: ['notc']
+        }
+      ],
+      base: 'ibc/992A8C24D68CC1CB9B5780B6E84533B0A2DC0F5B75FC6BC7CC45DA502716BD25',
+      display: 'not',
+      name: 'TerraClassicNOK',
+      symbol: 'NOTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/not.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/not.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/not.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/not.svg',
+          theme: {
+            primary_color_hex: '#5493f3'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'unok',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The PHP stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/7EDD45DFD1BAD104511E70FA1C7A9322E2E5B892D0B0A0C07A00787E54875914',
+          exponent: 0,
+          aliases: ['uphp']
+        },
+        {
+          denom: 'mphp',
+          exponent: 3,
+          aliases: ['milliphp']
+        },
+        {
+          denom: 'pht',
+          exponent: 6,
+          aliases: ['phtc']
+        }
+      ],
+      base: 'ibc/7EDD45DFD1BAD104511E70FA1C7A9322E2E5B892D0B0A0C07A00787E54875914',
+      display: 'pht',
+      name: 'TerraClassicPHP',
+      symbol: 'PHTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pht.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pht.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pht.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pht.svg',
+          theme: {
+            primary_color_hex: '#e88057'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uphp',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The SDR stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/291ACE86C74C947DCB067127945638C2A68C83113E83D20B442D35BDBB19B8B1',
+          exponent: 0,
+          aliases: ['usdr']
+        },
+        {
+          denom: 'msdr',
+          exponent: 3,
+          aliases: ['millisdr']
+        },
+        {
+          denom: 'sdt',
+          exponent: 6,
+          aliases: ['sdtc']
+        }
+      ],
+      base: 'ibc/291ACE86C74C947DCB067127945638C2A68C83113E83D20B442D35BDBB19B8B1',
+      display: 'sdt',
+      name: 'TerraClassicSDR',
+      symbol: 'SDTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sdt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sdt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sdt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sdt.svg',
+          theme: {
+            primary_color_hex: '#2fa4f1'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'usdr',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The SEK stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/84CB8B7AEDBCF935307587C0A4CB7FD1A3BD3F35C8F64EFAB59DC612503E830C',
+          exponent: 0,
+          aliases: ['usek']
+        },
+        {
+          denom: 'msek',
+          exponent: 3,
+          aliases: ['millisek']
+        },
+        {
+          denom: 'set',
+          exponent: 6,
+          aliases: ['setc']
+        }
+      ],
+      base: 'ibc/84CB8B7AEDBCF935307587C0A4CB7FD1A3BD3F35C8F64EFAB59DC612503E830C',
+      display: 'set',
+      name: 'TerraClassicSEK',
+      symbol: 'SETC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/set.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/set.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/set.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/set.svg',
+          theme: {
+            primary_color_hex: '#2e71e1'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'usek',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The SGD stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/2B7D7BA960A7558FB83A58F4438B6EAA3EE01608ECAC3870C03940E3BE8DC9AD',
+          exponent: 0,
+          aliases: ['usgd']
+        },
+        {
+          denom: 'msgd',
+          exponent: 3,
+          aliases: ['millisgd']
+        },
+        {
+          denom: 'sgt',
+          exponent: 6,
+          aliases: ['sgtc']
+        }
+      ],
+      base: 'ibc/2B7D7BA960A7558FB83A58F4438B6EAA3EE01608ECAC3870C03940E3BE8DC9AD',
+      display: 'sgt',
+      name: 'TerraClassicSGD',
+      symbol: 'SGTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sgt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sgt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sgt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sgt.svg',
+          theme: {
+            primary_color_hex: '#4886e7'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'usgd',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The THB stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/A583394AA1912F5DC4974F391DE8FBDC2DF01F4DBFFCB3587BE44F2E0DDCFEA9',
+          exponent: 0,
+          aliases: ['uthb']
+        },
+        {
+          denom: 'mthb',
+          exponent: 3,
+          aliases: ['millithb']
+        },
+        {
+          denom: 'tht',
+          exponent: 6,
+          aliases: ['thtc']
+        }
+      ],
+      base: 'ibc/A583394AA1912F5DC4974F391DE8FBDC2DF01F4DBFFCB3587BE44F2E0DDCFEA9',
+      display: 'tht',
+      name: 'TerraClassicTHB',
+      symbol: 'THTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tht.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tht.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tht.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tht.svg',
+          theme: {
+            primary_color_hex: '#5493f3'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'uthb',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
+          }
+        }]
+    },
+    {
+      description: 'The TWD stablecoin of Terra Classic.',
+      denom_units: [
+        {
+          denom: 'ibc/B228967192B04944DA47E69CB24735FB8934DE24AF6231F1FDED20C7CBA52B31',
+          exponent: 0,
+          aliases: ['utwd']
+        },
+        {
+          denom: 'mtwd',
+          exponent: 3,
+          aliases: ['millitwd']
+        },
+        {
+          denom: 'twt',
+          exponent: 6,
+          aliases: ['twtc']
+        }
+      ],
+      base: 'ibc/B228967192B04944DA47E69CB24735FB8934DE24AF6231F1FDED20C7CBA52B31',
+      display: 'twt',
+      name: 'TerraClassicTWD',
+      symbol: 'TWTC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twt.svg',
+          theme: {
+            primary_color_hex: '#5493f3'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-113',
+            base_denom: 'utwd',
+            chain_name: 'terra'
+          },
+          chain: {
+            channel_id: 'channel-149'
           }
         }]
     },

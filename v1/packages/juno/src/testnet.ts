@@ -50,23 +50,40 @@ const testnet: Chain = {
     }
   },
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://juno-testnet-rpc.polkachu.com',
         provider: 'Polkachu'
-      }, {
+      },
+      {
         address: 'https://rpc-uni.junonetwork.io',
         provider: 'Juno Network'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://junotestnet-rpc.kleomedes.network',
+        provider: 'Kleomedes'
+      }
+    ],
+    rest: [
+      {
         address: 'https://juno-testnet-api.polkachu.com',
         provider: 'Polkachu'
-      }, {
+      },
+      {
         address: 'https://lcd-uni.junonetwork.io',
         provider: 'Juno Network'
-      }],
+      },
+      {
+        address: 'https://junotestnet-api.kleomedes.network',
+        provider: 'Kleomedes'
+      }
+    ],
     grpc: [{
         address: 'juno-testnet-grpc.polkachu.com:12690',
         provider: 'Polkachu'
+      }, {
+        address: 'junotestnet.gprc.kleomedes.network',
+        provider: 'Kleomedes'
       }]
   },
   explorers: [{
@@ -74,6 +91,9 @@ const testnet: Chain = {
       url: 'https://explorer.stavr.tech/Juno-Testnet',
       tx_page: 'https://explorer.stavr.tech/Juno-Testnet/txs/${txHash}',
       account_page: 'https://explorer.stavr.tech/Juno-Testnet/account/${accountAddress}'
+    }, {
+      kind: 'Stake Hub by Kleomedes',
+      url: 'https://www.stake-hub.xyz/junotestnet'
     }]
 };
 export default testnet;

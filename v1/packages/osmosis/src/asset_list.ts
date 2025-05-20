@@ -469,6 +469,46 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'Arkeo is a decentralized marketplace that connects API providers with consumers, bringing web2 data on-chain in a secure and incentivized manner.',
+      denom_units: [{
+          denom: 'ibc/AD969E97A63B64B30A6E4D9F598341A403B849F5ACFEAA9F18DBD9255305EC65',
+          exponent: 0,
+          aliases: ['uarkeo']
+        }, {
+          denom: 'arkeo',
+          exponent: 8
+        }],
+      base: 'ibc/AD969E97A63B64B30A6E4D9F598341A403B849F5ACFEAA9F18DBD9255305EC65',
+      name: 'Arkeo',
+      display: 'arkeo',
+      symbol: 'ARKEO',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkeo/images/arkeo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkeo/images/arkeo.svg',
+          theme: {
+            primary_color_hex: '#3BE0FF'
+          }
+        }],
+      socials: {
+        website: 'https://arkeo.network/',
+        twitter: 'https://twitter.com/ArkeoNetwork'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'uarkeo',
+            chain_name: 'arkeo'
+          },
+          chain: {
+            channel_id: 'channel-103074'
+          }
+        }]
+    },
+    {
       description: 'The native token of Arkhadian',
       denom_units: [{
           denom: 'ibc/0F91EE8B98AAE3CF393D94CD7F89A10F8D7758C5EC707E721899DFE65C164C28',
@@ -6860,6 +6900,46 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'Arkeo is a decentralized marketplace that connects API providers with consumers, bringing web2 data on-chain in a secure and incentivized manner.',
+      denom_units: [{
+          denom: 'ibc/AD969E97A63B64B30A6E4D9F598341A403B849F5ACFEAA9F18DBD9255305EC65',
+          exponent: 0,
+          aliases: ['uarkeo']
+        }, {
+          denom: 'arkeo',
+          exponent: 8
+        }],
+      base: 'ibc/AD969E97A63B64B30A6E4D9F598341A403B849F5ACFEAA9F18DBD9255305EC65',
+      name: 'Arkeo',
+      display: 'arkeo',
+      symbol: 'ARKEO',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkeo/images/arkeo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkeo/images/arkeo.svg',
+          theme: {
+            primary_color_hex: '#3BE0FF'
+          }
+        }],
+      socials: {
+        website: 'https://arkeo.network/',
+        twitter: 'https://twitter.com/ArkeoNetwork'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'uarkeo',
+            chain_name: 'arkeo'
+          },
+          chain: {
+            channel_id: 'channel-103074'
+          }
+        }]
+    },
+    {
       description: 'The native token of Arkhadian',
       denom_units: [{
           denom: 'ibc/0F91EE8B98AAE3CF393D94CD7F89A10F8D7758C5EC707E721899DFE65C164C28',
@@ -28923,16 +29003,16 @@ const asset_list: AssetList = {
           exponent: 0,
           aliases: ['cw20:bbn1rl75n93kk075clrt72hqa7md6mwl78u28sghs380xuvlmksw6x3q07n2tc']
         }, {
-          denom: 'satSolvBTC.e',
+          denom: 'satXSolvBTC.e',
           exponent: 18
         }],
       base: 'ibc/4762DABA78EFBB1C343A97F3FB1F6589C780ACBB7FD2BAD57780F7DEE8F92F5F',
       address: 'bbn1rl75n93kk075clrt72hqa7md6mwl78u28sghs380xuvlmksw6x3q07n2tc',
       name: 'SatLayer xSatSolvBTC Bridged',
-      display: 'satSolvBTC.e',
-      symbol: 'satSolvBTC.e',
+      display: 'satXSolvBTC.e',
+      symbol: 'satXSolvBTC.e',
       logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png'
       },
       type_asset: 'cw20',
       traces: [{
@@ -29005,6 +29085,102 @@ const asset_list: AssetList = {
             port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
             channel_id: 'channel-7',
             base_denom: 'cw20:bbn13vejhl4x0arsq7wajcmlu5hx3phmxdcrp3s2jvy65ucyt9kfkh7qr2laaa',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/73735D49956D9B4C277D9967101A315BA44CD1BE370F335924729B1C6DA5E42E',
+          exponent: 0,
+          aliases: ['cw20:bbn1m83xl7pshe9dt25ztlnlqfy8ksaxdp5e098fcl372fjdacpusdcqjp4zx3']
+        }, {
+          denom: 'satWBTC.e',
+          exponent: 8
+        }],
+      base: 'ibc/73735D49956D9B4C277D9967101A315BA44CD1BE370F335924729B1C6DA5E42E',
+      address: 'bbn1m83xl7pshe9dt25ztlnlqfy8ksaxdp5e098fcl372fjdacpusdcqjp4zx3',
+      name: 'SatLayer WBTC Bridged',
+      display: 'satWBTC.e',
+      symbol: 'satWBTC.e',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1m83xl7pshe9dt25ztlnlqfy8ksaxdp5e098fcl372fjdacpusdcqjp4zx3',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/F26E8336E8F3BBDCF179778548F94ADB6F2DA3A3B938BA8C441009136FCFB875',
+          exponent: 0,
+          aliases: ['cw20:bbn1zwg6c8rzk8htpn67cj4vrq5y2qdhfgtzvslyy9574s4j8j5xynlqg0qzs2']
+        }, {
+          denom: 'satPumpBTC.e',
+          exponent: 8
+        }],
+      base: 'ibc/F26E8336E8F3BBDCF179778548F94ADB6F2DA3A3B938BA8C441009136FCFB875',
+      address: 'bbn1zwg6c8rzk8htpn67cj4vrq5y2qdhfgtzvslyy9574s4j8j5xynlqg0qzs2',
+      name: 'SatLayer pumpBTC Bridged',
+      display: 'satPumpBTC.e',
+      symbol: 'satPumpBTC.e',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1zwg6c8rzk8htpn67cj4vrq5y2qdhfgtzvslyy9574s4j8j5xynlqg0qzs2',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/3DCA5A763F7623D0A3DB25DD9FE435D3AFCFF0C9B8B1B4845B49E656804FB5F0',
+          exponent: 0,
+          aliases: ['cw20:bbn17awjw4g3a7wn5eruejf6hmshc8y06wpz6qu7ue32xygcueu55zqs33aq93']
+        }, {
+          denom: 'satStBTC.e',
+          exponent: 18
+        }],
+      base: 'ibc/3DCA5A763F7623D0A3DB25DD9FE435D3AFCFF0C9B8B1B4845B49E656804FB5F0',
+      address: 'bbn17awjw4g3a7wn5eruejf6hmshc8y06wpz6qu7ue32xygcueu55zqs33aq93',
+      name: 'SatLayer stBTC Bridged',
+      display: 'satStBTC.e',
+      symbol: 'satStBTC.e',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn17awjw4g3a7wn5eruejf6hmshc8y06wpz6qu7ue32xygcueu55zqs33aq93',
             chain_name: 'babylon'
           },
           chain: {
@@ -32281,16 +32457,16 @@ const asset_list: AssetList = {
           exponent: 0,
           aliases: ['cw20:bbn1rl75n93kk075clrt72hqa7md6mwl78u28sghs380xuvlmksw6x3q07n2tc']
         }, {
-          denom: 'satSolvBTC.e',
+          denom: 'satXSolvBTC.e',
           exponent: 18
         }],
       base: 'ibc/4762DABA78EFBB1C343A97F3FB1F6589C780ACBB7FD2BAD57780F7DEE8F92F5F',
       address: 'bbn1rl75n93kk075clrt72hqa7md6mwl78u28sghs380xuvlmksw6x3q07n2tc',
       name: 'SatLayer xSatSolvBTC Bridged',
-      display: 'satSolvBTC.e',
-      symbol: 'satSolvBTC.e',
+      display: 'satXSolvBTC.e',
+      symbol: 'satXSolvBTC.e',
       logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png'
       },
       type_asset: 'cw20',
       traces: [{
@@ -32363,6 +32539,102 @@ const asset_list: AssetList = {
             port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
             channel_id: 'channel-7',
             base_denom: 'cw20:bbn13vejhl4x0arsq7wajcmlu5hx3phmxdcrp3s2jvy65ucyt9kfkh7qr2laaa',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/73735D49956D9B4C277D9967101A315BA44CD1BE370F335924729B1C6DA5E42E',
+          exponent: 0,
+          aliases: ['cw20:bbn1m83xl7pshe9dt25ztlnlqfy8ksaxdp5e098fcl372fjdacpusdcqjp4zx3']
+        }, {
+          denom: 'satWBTC.e',
+          exponent: 8
+        }],
+      base: 'ibc/73735D49956D9B4C277D9967101A315BA44CD1BE370F335924729B1C6DA5E42E',
+      address: 'bbn1m83xl7pshe9dt25ztlnlqfy8ksaxdp5e098fcl372fjdacpusdcqjp4zx3',
+      name: 'SatLayer WBTC Bridged',
+      display: 'satWBTC.e',
+      symbol: 'satWBTC.e',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1m83xl7pshe9dt25ztlnlqfy8ksaxdp5e098fcl372fjdacpusdcqjp4zx3',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/F26E8336E8F3BBDCF179778548F94ADB6F2DA3A3B938BA8C441009136FCFB875',
+          exponent: 0,
+          aliases: ['cw20:bbn1zwg6c8rzk8htpn67cj4vrq5y2qdhfgtzvslyy9574s4j8j5xynlqg0qzs2']
+        }, {
+          denom: 'satPumpBTC.e',
+          exponent: 8
+        }],
+      base: 'ibc/F26E8336E8F3BBDCF179778548F94ADB6F2DA3A3B938BA8C441009136FCFB875',
+      address: 'bbn1zwg6c8rzk8htpn67cj4vrq5y2qdhfgtzvslyy9574s4j8j5xynlqg0qzs2',
+      name: 'SatLayer pumpBTC Bridged',
+      display: 'satPumpBTC.e',
+      symbol: 'satPumpBTC.e',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1zwg6c8rzk8htpn67cj4vrq5y2qdhfgtzvslyy9574s4j8j5xynlqg0qzs2',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/3DCA5A763F7623D0A3DB25DD9FE435D3AFCFF0C9B8B1B4845B49E656804FB5F0',
+          exponent: 0,
+          aliases: ['cw20:bbn17awjw4g3a7wn5eruejf6hmshc8y06wpz6qu7ue32xygcueu55zqs33aq93']
+        }, {
+          denom: 'satStBTC.e',
+          exponent: 18
+        }],
+      base: 'ibc/3DCA5A763F7623D0A3DB25DD9FE435D3AFCFF0C9B8B1B4845B49E656804FB5F0',
+      address: 'bbn17awjw4g3a7wn5eruejf6hmshc8y06wpz6qu7ue32xygcueu55zqs33aq93',
+      name: 'SatLayer stBTC Bridged',
+      display: 'satStBTC.e',
+      symbol: 'satStBTC.e',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn17awjw4g3a7wn5eruejf6hmshc8y06wpz6qu7ue32xygcueu55zqs33aq93',
             chain_name: 'babylon'
           },
           chain: {

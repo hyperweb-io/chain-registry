@@ -64,16 +64,8 @@ const info: Chain = {
         provider: 'ecostake'
       },
       {
-        address: 'https://rpc.lavenderfive.com:443/akash',
-        provider: 'Lavender.Five Nodes'
-      },
-      {
         address: 'https://akash-rpc.polkachu.com',
         provider: 'Polkachu'
-      },
-      {
-        address: 'https://akash.c29r3.xyz:80/rpc',
-        provider: 'c29r3'
       },
       {
         address: 'https://akash-rpc.kleomedes.network',
@@ -92,10 +84,6 @@ const info: Chain = {
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
       {
-        address: 'https://rpc.akash.bronbro.io:443',
-        provider: 'Bro_n_Bro'
-      },
-      {
         address: 'https://akash.rpc.arcturian.tech/',
         provider: 'Arcturian Tech'
       }
@@ -106,20 +94,12 @@ const info: Chain = {
         provider: 'ecostake'
       },
       {
-        address: 'https://rest.lavenderfive.com:443/akash',
-        provider: 'Lavender.Five Nodes'
-      },
-      {
         address: 'https://akash-api.polkachu.com',
         provider: 'Polkachu'
       },
       {
         address: 'https://akash.c29r3.xyz:443/api',
         provider: 'c29r3'
-      },
-      {
-        address: 'https://akash-mainnet-lcd.autostake.com:443',
-        provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
         address: 'https://akash-api.kleomedes.network',
@@ -144,10 +124,6 @@ const info: Chain = {
       {
         address: 'https://akash-api.validatornode.com',
         provider: 'ValidatorNode'
-      },
-      {
-        address: 'https://lcd.akash.bronbro.io:443',
-        provider: 'Bro_n_Bro'
       },
       {
         address: 'https://akash.api.arcturian.tech',

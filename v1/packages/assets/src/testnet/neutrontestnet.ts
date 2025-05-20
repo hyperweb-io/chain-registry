@@ -69,6 +69,95 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The controlled staking asset for Noble Chain',
+      denom_units: [{
+          denom: 'ibc/C1CCDE2852D142DCDD5760DAB22163D4C2B22E6C54417265AC9C6CA3642CFD1B',
+          exponent: 0,
+          aliases: ['ustake']
+        }, {
+          denom: 'stake',
+          exponent: 6
+        }],
+      base: 'ibc/C1CCDE2852D142DCDD5760DAB22163D4C2B22E6C54417265AC9C6CA3642CFD1B',
+      name: 'Stake',
+      display: 'stake',
+      symbol: 'STAKE',
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-43',
+            base_denom: 'ustake',
+            chain_name: 'nobletestnet'
+          },
+          chain: {
+            channel_id: 'channel-496'
+          }
+        }]
+    },
+    {
+      description: 'Love is a test tokenfactory asset controlled by the Strangelove Team',
+      denom_units: [{
+          denom: 'ibc/94EB4409DEB59D927FF3CA044B3E1058604A2928EE4AF7CF360FB0148D4DA4A9',
+          exponent: 0,
+          aliases: ['ulove']
+        }, {
+          denom: 'love',
+          exponent: 6
+        }],
+      base: 'ibc/94EB4409DEB59D927FF3CA044B3E1058604A2928EE4AF7CF360FB0148D4DA4A9',
+      display: 'love',
+      name: 'Love',
+      symbol: 'LOVE',
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-43',
+            base_denom: 'ulove',
+            chain_name: 'nobletestnet'
+          },
+          chain: {
+            channel_id: 'channel-496'
+          }
+        }]
+    },
+    {
+      description: 'Ondo US Dollar Yield',
+      denom_units: [{
+          denom: 'ibc/6AFBF88ABC99033E07C6486C85E2E6D953FB67C4FA6ED7062D46ECF748205DAB',
+          exponent: 0,
+          aliases: ['ausdy']
+        }, {
+          denom: 'usdy',
+          exponent: 18
+        }],
+      base: 'ibc/6AFBF88ABC99033E07C6486C85E2E6D953FB67C4FA6ED7062D46ECF748205DAB',
+      display: 'usdy',
+      name: 'Ondo US Dollar Yield',
+      symbol: 'USDY',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdy.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdy.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdy.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdy.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-43',
+            base_denom: 'ausdy',
+            chain_name: 'nobletestnet'
+          },
+          chain: {
+            channel_id: 'channel-496'
+          }
+        }]
+    },
+    {
       description: 'The native token of Nois',
       denom_units: [{
           denom: 'ibc/26139E488F510BDA8DDE5614D358A38502BDA061954B8D10ADEFC4EAA58552FF',
@@ -141,6 +230,95 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-1061'
+          }
+        }]
+    },
+    {
+      description: 'The controlled staking asset for Noble Chain',
+      denom_units: [{
+          denom: 'ibc/C1CCDE2852D142DCDD5760DAB22163D4C2B22E6C54417265AC9C6CA3642CFD1B',
+          exponent: 0,
+          aliases: ['ustake']
+        }, {
+          denom: 'stake',
+          exponent: 6
+        }],
+      base: 'ibc/C1CCDE2852D142DCDD5760DAB22163D4C2B22E6C54417265AC9C6CA3642CFD1B',
+      name: 'Stake',
+      display: 'stake',
+      symbol: 'STAKE',
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-43',
+            base_denom: 'ustake',
+            chain_name: 'nobletestnet'
+          },
+          chain: {
+            channel_id: 'channel-496'
+          }
+        }]
+    },
+    {
+      description: 'Love is a test tokenfactory asset controlled by the Strangelove Team',
+      denom_units: [{
+          denom: 'ibc/94EB4409DEB59D927FF3CA044B3E1058604A2928EE4AF7CF360FB0148D4DA4A9',
+          exponent: 0,
+          aliases: ['ulove']
+        }, {
+          denom: 'love',
+          exponent: 6
+        }],
+      base: 'ibc/94EB4409DEB59D927FF3CA044B3E1058604A2928EE4AF7CF360FB0148D4DA4A9',
+      display: 'love',
+      name: 'Love',
+      symbol: 'LOVE',
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-43',
+            base_denom: 'ulove',
+            chain_name: 'nobletestnet'
+          },
+          chain: {
+            channel_id: 'channel-496'
+          }
+        }]
+    },
+    {
+      description: 'Ondo US Dollar Yield',
+      denom_units: [{
+          denom: 'ibc/6AFBF88ABC99033E07C6486C85E2E6D953FB67C4FA6ED7062D46ECF748205DAB',
+          exponent: 0,
+          aliases: ['ausdy']
+        }, {
+          denom: 'usdy',
+          exponent: 18
+        }],
+      base: 'ibc/6AFBF88ABC99033E07C6486C85E2E6D953FB67C4FA6ED7062D46ECF748205DAB',
+      display: 'usdy',
+      name: 'Ondo US Dollar Yield',
+      symbol: 'USDY',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdy.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdy.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdy.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdy.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-43',
+            base_denom: 'ausdy',
+            chain_name: 'nobletestnet'
+          },
+          chain: {
+            channel_id: 'channel-496'
           }
         }]
     },

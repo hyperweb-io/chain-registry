@@ -46,8 +46,16 @@ const info: Chain = {
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       },
       {
-        address: 'https://aaron.rpc.nodeshub.online',
-        provider: 'NodesHub'
+        address: 'https://rpc-aaronetwork.sychonix.com/',
+        provider: 'sychonix'
+      },
+      {
+        address: 'https://rpc-aaronetwork.vinjan.xyz/',
+        provider: 'Vinjan.Inc'
+      },
+      {
+        address: 'https://rpc.aaronetwork.indonode.net',
+        provider: 'Indonode'
       }
     ],
     rest: [
@@ -60,10 +68,25 @@ const info: Chain = {
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       },
       {
-        address: 'https://aaron.api.nodeshub.online',
-        provider: 'NodesHub'
+        address: 'https://api-aaronetwork.sychonix.com/',
+        provider: 'sychonix'
+      },
+      {
+        address: 'https://api-aaronetwork.vinjan.xyz',
+        provider: 'Vinjan.Inc'
+      },
+      {
+        address: 'https://api.aaronetwork.indonode.net',
+        provider: 'Indonode'
       }
-    ]
+    ],
+    grpc: [{
+        address: 'grpc.aaronetwork.indonode.net:29090',
+        provider: 'Indonode'
+      }, {
+        address: '63.250.41.78:9090',
+        provider: 'Aaron Network'
+      }]
   },
   explorers: [
     {
@@ -83,12 +106,6 @@ const info: Chain = {
       url: 'https://explorer.whenmoonwhenlambo.money/aaronetwork',
       tx_page: 'https://explorer.whenmoonwhenlambo.money/aaronetwork/tx/${txHash}',
       account_page: 'https://explorer.whenmoonwhenlambo.money/aaronetwork/account/${accountAddress}'
-    },
-    {
-      kind: 'NodesHub',
-      url: 'https://explorer.nodeshub.online/aaron',
-      tx_page: 'https://explorer.nodeshub.online/aaron/tx/${txHash}',
-      account_page: 'https://explorer.nodeshub.online/aaron/${accountAddress}'
     }
   ],
   keywords: [

@@ -1,5 +1,6 @@
 import { Chain } from '@chain-registry/types';
 
+import * as _agoricdevnet from './agoricdevnet';
 import * as _airchainstestnet from './airchainstestnet';
 import * as _airchainsvaranasitestnet from './airchainsvaranasitestnet';
 import * as _akashtestnet from './akashtestnet';
@@ -134,6 +135,7 @@ import * as _zetachaintestnet from './zetachaintestnet';
 import * as _zigchaintestnet from './zigchaintestnet';
 
 const chains: Chain[] = [
+  _agoricdevnet.chain,
   _airchainstestnet.chain,
   _airchainsvaranasitestnet.chain,
   _akashtestnet.chain,

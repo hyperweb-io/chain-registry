@@ -5,7 +5,7 @@ const info: Chain = {
   status: 'live',
   website: 'https://xpla.io',
   network_type: 'testnet',
-  pretty_name: 'XPLA',
+  pretty_name: 'XPLA Testnet',
   chain_type: 'cosmos',
   chain_id: 'cube_47-5',
   bech32_prefix: 'xpla',

@@ -92,6 +92,10 @@ const info: Chain = {
       {
         address: 'https://kopi-rpc.node39.top:443',
         provider: 'Node39'
+      },
+      {
+        address: 'https://kopi.rpc.quasarstaking.ai:443',
+        provider: 'Quasar'
       }
     ],
     rest: [
@@ -146,6 +150,10 @@ const info: Chain = {
       {
         address: 'https://kopi-api.node39.top:443',
         provider: 'Node39'
+      },
+      {
+        address: 'https://kopi.api.quasarstaking.ai:443',
+        provider: 'Quasar'
       }
     ],
     grpc: [
@@ -180,6 +188,10 @@ const info: Chain = {
       {
         address: 'https://kopi-grpc.node39.top:15090',
         provider: 'Node39'
+      },
+      {
+        address: 'kopi.grpc.quasarstaking.ai:80',
+        provider: 'Quasar'
       }
     ]
   },

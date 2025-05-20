@@ -67,8 +67,8 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'https://synternet-mainnet-rpc.shazoe.xyz',
-        provider: 'Shazoe'
+        address: 'https://synternet-mainnet-rpc.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     rest: [
@@ -85,13 +85,13 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'https://synternet-mainnet-api.shazoe.xyz',
-        provider: 'Shazoe'
+        address: 'https://synternet-mainnet-api.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     grpc: [{
-        address: 'synternet-mainnet-grpc.shazoe.xyz:11090',
-        provider: 'Shazoe'
+        address: 'synternet-mainnet-grpc.shazoes.xyz:11090',
+        provider: 'Shazoes'
       }]
   },
   explorers: [

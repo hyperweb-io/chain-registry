@@ -1,3 +1,4 @@
+export * as agoricdevnet from './agoricdevnet';
 export * as airchainstestnet from './airchainstestnet';
 export * as airchainsvaranasitestnet from './airchainsvaranasitestnet';
 export * as akashtestnet from './akashtestnet';

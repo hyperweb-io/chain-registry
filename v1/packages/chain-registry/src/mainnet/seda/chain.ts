@@ -132,8 +132,8 @@ const info: Chain = {
         provider: 'RHINO 🦏'
       },
       {
-        address: 'https://seda-mainnet-rpc.shazoe.xyz',
-        provider: 'Shazoe'
+        address: 'https://seda-mainnet-rpc.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     rest: [
@@ -202,8 +202,8 @@ const info: Chain = {
         provider: 'RHINO 🦏'
       },
       {
-        address: 'https://seda-mainnet-api.shazoe.xyz',
-        provider: 'Shazoe'
+        address: 'https://seda-mainnet-api.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     grpc: [
@@ -244,8 +244,8 @@ const info: Chain = {
         provider: 'RHINO 🦏'
       },
       {
-        address: 'seda-mainnet-grpc.shazoe.xyz:6090',
-        provider: 'Shazoe'
+        address: 'seda-mainnet-grpc.shazoes.xyz:6090',
+        provider: 'Shazoes'
       }
     ]
   },
