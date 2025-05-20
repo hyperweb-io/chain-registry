@@ -61,69 +61,39 @@ const info: Chain = {
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg'
   },
   apis: {
-    rpc: [
-      {
+    rpc: [{
         address: 'https://rpc.dhealth.com',
         provider: 'dhealth'
-      },
-      {
+      }, {
         address: 'https://rpc.dhealth.nodestake.org',
         provider: 'NodeStake'
-      },
-      {
-        address: 'https://dhealth.rpc.nodeshub.online:443',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️'
-      }
-    ],
-    rest: [
-      {
+      }],
+    rest: [{
         address: 'https://lcd.dhealth.com',
         provider: 'dhealth'
-      },
-      {
+      }, {
         address: 'https://api.dhealth.nodestake.org',
         provider: 'NodeStake'
-      },
-      {
-        address: 'https://dhealth.api.nodeshub.online',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️'
-      }
-    ],
-    grpc: [
-      {
+      }],
+    grpc: [{
         address: 'https://grpc.dhealth.com:443',
         provider: 'dhealth'
-      },
-      {
+      }, {
         address: 'https://grpc.dhealth.nodestake.org:443',
         provider: 'NodeStake'
-      },
-      {
-        address: 'dhealth.grpc.nodeshub.online',
-        provider: 'Nodes Hub'
-      }
-    ]
+      }]
   },
-  explorers: [
-    {
+  explorers: [{
       kind: 'staking-explorer.com',
       url: 'https://staking-explorer.com/explorer/dhealth',
       txPage: 'https://staking-explorer.com/transaction.php?chain=dhealth&tx=${txHash}',
       accountPage: 'https://staking-explorer.com/account.php?chain=dhealth&addr=${accountAddress}'
-    },
-    {
+    }, {
       kind: 'nodestake',
       url: 'https://explorer.nodestake.org/dhealth',
       txPage: 'https://explorer.nodestake.org/dhealth/tx/${txHash}',
       accountPage: 'https://explorer.nodestake.org/dhealth/account/${accountAddress}'
-    },
-    {
-      kind: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️',
-      url: 'https://explorer.nodeshub.online/dhealth/',
-      txPage: 'https://explorer.nodeshub.online/dhealth/tx/${txHash}',
-      accountPage: 'https://explorer.nodeshub.online/dhealth/accounts/${accountAddress}'
-    }
-  ],
+    }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg',

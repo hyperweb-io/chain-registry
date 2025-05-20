@@ -95,8 +95,8 @@ const info: Chain = {
         provider: 'Node39'
       },
       {
-        address: 'https://shentu-mainnet-rpc.shazoe.xyz',
-        provider: 'Shazoe'
+        address: 'https://shentu-mainnet-rpc.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     rest: [
@@ -149,8 +149,8 @@ const info: Chain = {
         provider: 'Node39'
       },
       {
-        address: 'https://shentu-mainnet-api.shazoe.xyz',
-        provider: 'Shazoe'
+        address: 'https://shentu-mainnet-api.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     grpc: [
@@ -195,8 +195,8 @@ const info: Chain = {
         provider: 'Node39'
       },
       {
-        address: 'shentu-mainnet-grpc.shazoe.xyz:9090',
-        provider: 'Shazoe'
+        address: 'shentu-mainnet-grpc.shazoes.xyz:9090',
+        provider: 'Shazoes'
       }
     ]
   },

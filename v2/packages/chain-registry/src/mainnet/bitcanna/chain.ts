@@ -67,10 +67,6 @@ const info: Chain = {
         provider: 'bitcanna'
       },
       {
-        address: 'https://bcna-rpc.ibs.team/',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://rpc.bitcanna.sgtstake.com/',
         provider: 'SGTstake'
       },
@@ -159,10 +155,6 @@ const info: Chain = {
         provider: 'Kalia Network'
       },
       {
-        address: 'https://bitcanna.rpc.nodeshub.online:443',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️'
-      },
-      {
         address: 'https://bitcanna_mainnet_rpc.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }
@@ -235,10 +227,6 @@ const info: Chain = {
       {
         address: 'bitcanna-grpc.kalia.network:443',
         provider: 'Kalia Network'
-      },
-      {
-        address: 'bitcanna.grpc.nodeshub.online:13090',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️'
       }
     ],
     rest: [
@@ -253,10 +241,6 @@ const info: Chain = {
       {
         address: 'https://bitcanna.api.m.stavr.tech',
         provider: '🔥STAVR🔥'
-      },
-      {
-        address: 'https://bcna-api.ibs.team/',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://bitcanna.api.m.anode.team',
@@ -337,10 +321,6 @@ const info: Chain = {
       {
         address: 'https://api.bitcanna.citizenweb3.com',
         provider: 'Citizen Web3'
-      },
-      {
-        address: 'https://bitcanna.api.nodeshub.online',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️'
       },
       {
         address: 'https://bitcanna_mainnet_api.chain.whenmoonwhenlambo.money',
@@ -445,12 +425,6 @@ const info: Chain = {
       url: 'https://mainnet.explorer.aviaone.com/bitcanna',
       txPage: 'https://mainnet.explorer.aviaone.com/bitcanna/tx/${txHash}',
       accountPage: 'https://mainnet.explorer.aviaone.com/bitcanna/account/${accountAddress}'
-    },
-    {
-      kind: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️',
-      url: 'https://explorer.nodeshub.online/bitcanna/',
-      txPage: 'https://explorer.nodeshub.online/bitcanna/tx/${txHash}',
-      accountPage: 'https://explorer.nodeshub.online/bitcanna/accounts/${accountAddress}'
     },
     {
       kind: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥',

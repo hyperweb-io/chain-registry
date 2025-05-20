@@ -84,10 +84,6 @@ const info: Chain = {
         provider: 'BlockHunters 🎯'
       },
       {
-        address: 'https://gravity-rpc.ibs.team',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://gravity-rpc.ramuchi.tech',
         provider: 'ramuchi.tech'
       },
@@ -132,10 +128,6 @@ const info: Chain = {
       {
         address: 'https://api.gravity.bh.rocks/',
         provider: 'BlockHunters 🎯'
-      },
-      {
-        address: 'https://gravity-api.ibs.team',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://gravity-api.ramuchi.tech',

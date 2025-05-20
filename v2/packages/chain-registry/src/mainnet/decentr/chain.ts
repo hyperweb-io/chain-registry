@@ -53,10 +53,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://decentr-rpc.ibs.team/',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://rpc-dcntr.nodine.id/',
         provider: 'Nodine.ID'
       },
@@ -77,10 +73,6 @@ const info: Chain = {
       {
         address: 'https://api.decentr.chaintools.tech/',
         provider: 'ChainTools'
-      },
-      {
-        address: 'https://decentr-api.ibs.team/',
-        provider: 'Inter Blockchain Services'
       }
     ],
     grpc: [

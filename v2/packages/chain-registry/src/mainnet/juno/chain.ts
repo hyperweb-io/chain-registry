@@ -184,6 +184,10 @@ const info: Chain = {
         provider: 'Stake&Relax Validator 🦥'
       },
       {
+        address: 'juno.grpc.kleomedes.network',
+        provider: 'Kleomedes'
+      },
+      {
         address: 'juno.lavenderfive.com:443',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -251,7 +255,7 @@ const info: Chain = {
       txPage: 'https://explorer.tcnetwork.io/juno/transaction/${txHash}'
     },
     {
-      kind: 'Kleomedes',
+      kind: 'Stake Hub by Kleomedes',
       url: 'https://www.stake-hub.xyz/juno'
     },
     {

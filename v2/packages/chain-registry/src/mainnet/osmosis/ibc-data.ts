@@ -269,6 +269,36 @@ const info: IBCData[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain1: {
+      chainName: 'arkeo',
+      clientId: '07-tendermint-1',
+      connectionId: 'connection-2'
+    },
+    chain2: {
+      chainName: 'osmosis',
+      clientId: '07-tendermint-3489',
+      connectionId: 'connection-10730'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-1',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-103074',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true,
+          dex: 'osmosis'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
       chainName: 'arkh',
       clientId: '07-tendermint-34',
       connectionId: 'connection-27'

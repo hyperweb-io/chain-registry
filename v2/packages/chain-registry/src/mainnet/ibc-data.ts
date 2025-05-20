@@ -9,6 +9,7 @@ import * as _aioz from './aioz';
 import * as _akash from './akash';
 import * as _andromeda from './andromeda';
 import * as _archway from './archway';
+import * as _arkeo from './arkeo';
 import * as _arkh from './arkh';
 import * as _assetmantle from './assetmantle';
 import * as _atomone from './atomone';
@@ -165,6 +166,7 @@ const ibcData: IBCData[] = [
   ..._akash.ibcData,
   ..._andromeda.ibcData,
   ..._archway.ibcData,
+  ..._arkeo.ibcData,
   ..._arkh.ibcData,
   ..._assetmantle.ibcData,
   ..._atomone.ibcData,

@@ -1953,6 +1953,84 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png'
       }
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0x69223B5B36a785Ec08e5f685fd7961399982C566',
+      denomUnits: [{
+          denom: '0x69223B5B36a785Ec08e5f685fd7961399982C566',
+          exponent: 0
+        }, {
+          denom: 'satwbtc',
+          exponent: 8
+        }],
+      base: '0x69223B5B36a785Ec08e5f685fd7961399982C566',
+      name: 'Satlayer WBTC',
+      display: 'satwbtc',
+      symbol: 'satWBTC',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'
+          },
+          provider: 'SatLayer'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg'
+      }
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0x0c4dd69705D16d91bC9C0534Cc926966f23430c7',
+      denomUnits: [{
+          denom: '0x0c4dd69705D16d91bC9C0534Cc926966f23430c7',
+          exponent: 0
+        }, {
+          denom: 'satpumpbtc',
+          exponent: 8
+        }],
+      base: '0x0c4dd69705D16d91bC9C0534Cc926966f23430c7',
+      name: 'Satlayer pumpBTC',
+      display: 'satpumpbtc',
+      symbol: 'satPumpBTC',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e'
+          },
+          provider: 'SatLayer'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
+      }
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0xFF2858Cc8227aA45a51c8961598Edc2d44B5ee5b',
+      denomUnits: [{
+          denom: '0xFF2858Cc8227aA45a51c8961598Edc2d44B5ee5b',
+          exponent: 0
+        }, {
+          denom: 'satstbtc',
+          exponent: 18
+        }],
+      base: '0xFF2858Cc8227aA45a51c8961598Edc2d44B5ee5b',
+      name: 'Satlayer stBTC',
+      display: 'satstbtc',
+      symbol: 'satStBTC',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3'
+          },
+          provider: 'SatLayer'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
+      }
     }
   ]
 };

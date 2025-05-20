@@ -7,7 +7,7 @@ const info: Chain = {
   networkType: 'testnet',
   chainType: 'cosmos',
   prettyName: 'Zenrock Gardia Testnet',
-  chainId: 'gardia-4',
+  chainId: 'gardia-5',
   bech32Prefix: 'zen',
   daemonName: 'zenrockd',
   nodeHome: '$HOME/.zenrockd',

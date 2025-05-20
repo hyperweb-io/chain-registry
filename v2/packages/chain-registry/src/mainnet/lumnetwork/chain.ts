@@ -74,10 +74,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://lum-rpc.ibs.team',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://lum-rpc.stakerhouse.com',
         provider: 'StakerHouse'
       },
@@ -98,10 +94,6 @@ const info: Chain = {
       {
         address: 'https://lum.api.m.stavr.tech',
         provider: '🔥STAVR🔥'
-      },
-      {
-        address: 'https://lum-api.ibs.team',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://lum-rest.stakerhouse.com',

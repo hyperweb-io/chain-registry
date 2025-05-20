@@ -99,6 +99,14 @@ const info: Chain = {
       {
         address: 'https://babylon-mainnet-rpc.shazoe.xyz',
         provider: 'Shazoe'
+      },
+      {
+        address: 'https://babylon.rpc.nodeshub.online:443',
+        provider: 'NodesHub'
+      },
+      {
+        address: 'https://babylon-mainnet-rpc.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     rest: [
@@ -133,6 +141,14 @@ const info: Chain = {
       {
         address: 'https://babylon-mainnet-api.shazoe.xyz',
         provider: 'Shazoe'
+      },
+      {
+        address: 'https://babylon.api.nodeshub.online',
+        provider: 'NodesHub'
+      },
+      {
+        address: 'https://babylon-mainnet-api.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     grpc: [
@@ -163,20 +179,37 @@ const info: Chain = {
       {
         address: 'babylon-mainnet-grpc.shazoe.xyz:30190',
         provider: 'Shazoe'
+      },
+      {
+        address: 'babylon.grpc.nodeshub.online',
+        provider: 'NodesHub'
+      },
+      {
+        address: 'babylon-mainnet-grpc.shazoes.xyz:30190',
+        provider: 'Shazoes'
       }
     ]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/babylon',
       txPage: 'https://www.mintscan.io/babylon/transactions/${txHash}',
       accountPage: 'https://www.mintscan.io/babylon/accounts/${accountAddress}'
-    }, {
+    },
+    {
       kind: 'Nodes Guru',
       url: 'https://babylon.explorers.guru/',
       txPage: 'https://babylon.explorers.guru/transaction/${txHash}',
       accountPage: 'https://babylon.explorers.guru/account/${accountAddress}'
-    }],
+    },
+    {
+      kind: 'NodesHub',
+      url: 'https://explorer.nodeshub.online/babylon/',
+      txPage: 'https://explorer.nodeshub.online/babylon/tx/${txHash}',
+      accountPage: 'https://explorer.nodeshub.online/babylon/accounts/${accountAddress}'
+    }
+  ],
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
     }],

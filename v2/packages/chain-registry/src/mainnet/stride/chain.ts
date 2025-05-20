@@ -224,6 +224,10 @@ const info: Chain = {
       {
         address: 'https://stride-rpc.ibs.team',
         provider: 'Inter Blockchain Services'
+      },
+      {
+        address: 'https://stride.rpc.quasarstaking.ai:443',
+        provider: 'Quasar'
       }
     ],
     rest: [
@@ -294,6 +298,10 @@ const info: Chain = {
       {
         address: 'https://stride-api.ibs.team',
         provider: 'Inter Blockchain Services'
+      },
+      {
+        address: 'https://stride.api.quasarstaking.ai:443',
+        provider: 'Quasar'
       }
     ],
     grpc: [
@@ -344,6 +352,10 @@ const info: Chain = {
       {
         address: 'https://grpc.stride.bronbro.io:443',
         provider: 'Bro_n_Bro'
+      },
+      {
+        address: 'stride.grpc.quasarstaking.ai:80',
+        provider: 'Quasar'
       }
     ]
   },

@@ -7,7 +7,7 @@ const info: Chain = {
   prettyName: 'ZIGChain Testnet',
   website: 'https://zigchain.com/',
   chainType: 'cosmos',
-  chainId: 'zig-test-1',
+  chainId: 'zig-test-2',
   bech32Prefix: 'zig',
   daemonName: 'zigchaind',
   nodeHome: '$HOME/.zigchain',

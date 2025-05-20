@@ -874,6 +874,48 @@ const info: AssetList = {
             baseDenom: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s'
           }
         }]
+    },
+    {
+      description: 'Stealth Mode: Always On',
+      extendedDescription: '$STLTH is the official token powering the Stealth Creations ecosystem — a multi-collection NFT project that launched entirely through free mints and airdrops on Stargaze. Built with decentralization and community-first values, $STLTH is on Osmosis and stakeable through DAO DAO, with rewards distributed in cosmos tokens',
+      denomUnits: [{
+          denom: 'ibc/D8B11C80BF6D03FD7DFF43EE3CCFDA70009B1FA8594F291EE0E2353070F4CABB',
+          exponent: 0
+        }, {
+          denom: 'stlth',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/D8B11C80BF6D03FD7DFF43EE3CCFDA70009B1FA8594F291EE0E2353070F4CABB',
+      name: 'Stealth',
+      display: 'stlth',
+      symbol: 'STLTH',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/STLTH.png'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'osmosis',
+            baseDenom: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stlth',
+            channelId: 'channel-75'
+          },
+          chain: {
+            channelId: 'channel-0',
+            path: 'transfer/channel-0/factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stlth'
+          }
+        }],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/STLTH.png',
+          imageSync: {
+            chainName: 'osmosis',
+            baseDenom: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stlth'
+          },
+          theme: {
+            primaryColorHex: '#645dc7',
+            circle: true
+          }
+        }]
     }
   ]
 };

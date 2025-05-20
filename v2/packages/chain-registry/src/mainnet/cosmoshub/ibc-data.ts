@@ -1624,6 +1624,21 @@ const info: IBCData[] = [
           preferred: true,
           properties: 'privacy'
         }
+      }, {
+        chain1: {
+          channelId: 'channel-1355',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-187',
+          portId: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          properties: 'cw20'
+        }
       }]
   },
   {

@@ -113,10 +113,6 @@ const info: Chain = {
         provider: 'StakeTown'
       },
       {
-        address: 'https://quasar-rpc.ibs.team',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://quasar-rpc.stakeandrelax.net',
         provider: 'Stake&Relax 🦥'
       },
@@ -165,10 +161,6 @@ const info: Chain = {
       {
         address: 'https://quasar-api.stake-town.com',
         provider: 'StakeTown'
-      },
-      {
-        address: 'https://quasar-api.ibs.team',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://quasar-api.stakeandrelax.net',

@@ -8,7 +8,7 @@ const info: Chain = {
   prettyName: 'Side Chain',
   chainType: 'cosmos',
   chainId: 'sidechain-1',
-  bech32Prefix: 'side',
+  bech32Prefix: 'bc',
   daemonName: 'sided',
   nodeHome: '$HOME/.side',
   keyAlgos: ['secp256k1'],

@@ -73,10 +73,6 @@ const info: Chain = {
         provider: 'Staketab'
       },
       {
-        address: 'https://gitopia-rpc.ibs.team:443',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://m-gitopia.rpc.utsa.tech',
         provider: '𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀'
       },
@@ -189,10 +185,6 @@ const info: Chain = {
       {
         address: 'https://gitopia-mainnet-lcd.autostake.com:443',
         provider: 'autostake'
-      },
-      {
-        address: 'https://gitopia-api.ibs.team:443',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://m-gitopia.api.utsa.tech',

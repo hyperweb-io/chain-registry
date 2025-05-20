@@ -68,10 +68,6 @@ const info: Chain = {
         provider: 'desmos'
       },
       {
-        address: 'https://desmos-rpc.ibs.team/',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://desmos-rpc.staketab.org:443',
         provider: 'Staketab'
       },
@@ -96,10 +92,6 @@ const info: Chain = {
       {
         address: 'https://api.mainnet.desmos.network',
         provider: 'desmos'
-      },
-      {
-        address: 'https://desmos-api.ibs.team/',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://desmos-rest.staketab.org',
