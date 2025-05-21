@@ -28,6 +28,32 @@ const info: AssetList = {
         website: 'https://atom.one',
         twitter: 'https://x.com/_atomone'
       }
+    }, {
+      description: 'The fee token of AtomOne',
+      denomUnits: [{
+          denom: 'uphoton',
+          exponent: 0
+        }, {
+          denom: 'photon',
+          exponent: 6
+        }],
+      base: 'uphoton',
+      name: 'Photon',
+      display: 'photon',
+      symbol: 'PHOTON',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg'
+        }],
+      typeAsset: 'sdk.coin',
+      socials: {
+        website: 'https://atom.one',
+        twitter: 'https://x.com/_atomone'
+      }
     }]
 };
 export default info;

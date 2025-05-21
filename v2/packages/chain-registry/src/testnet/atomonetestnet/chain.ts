@@ -15,11 +15,17 @@ const info: Chain = {
   slip44: 118,
   fees: {
     feeTokens: [{
+        denom: 'uphoton',
+        fixedMinGasPrice: 0.225,
+        lowGasPrice: 0.225,
+        averageGasPrice: 0.3,
+        highGasPrice: 0.5
+      }, {
         denom: 'uatone',
-        fixedMinGasPrice: 0.001,
-        lowGasPrice: 0.006,
-        averageGasPrice: 0.006,
-        highGasPrice: 0.009
+        fixedMinGasPrice: 0.025,
+        lowGasPrice: 0.01,
+        averageGasPrice: 0.025,
+        highGasPrice: 0.05
       }]
   },
   staking: {
@@ -29,15 +35,15 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/atomone-hub/atomone',
-    recommendedVersion: 'v1.1.2',
-    compatibleVersions: ['v1.1.2'],
+    recommendedVersion: 'v2.0.0-rc2',
+    compatibleVersions: ['v2.0.0-rc2'],
     binaries: {
-      "linux/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v1.1.2/atomoned-v1.1.2-linux-amd64',
-      "linux/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v1.1.2/atomoned-v1.1.2-linux-arm64',
-      "darwin/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v1.1.2/atomoned-v1.1.2-darwin-amd64',
-      "darwin/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v1.1.2/atomoned-v1.1.2-darwin-arm64',
-      "windows/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v1.1.2/atomoned-v1.1.2-windows-amd64.exe',
-      "windows/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v1.1.2/atomoned-v1.1.2-windows-arm64.exe'
+      "linux/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v2.0.0-rc2/atomoned-v2.0.0-rc2-linux-amd64',
+      "linux/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v2.0.0-rc2/atomoned-v2.0.0-rc2-linux-arm64',
+      "darwin/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v2.0.0-rc2/atomoned-v2.0.0-rc2-darwin-amd64',
+      "darwin/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v2.0.0-rc2/atomoned-v2.0.0-rc2-darwin-arm64',
+      "windows/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v2.0.0-rc2/atomoned-v2.0.0-rc2-windows-amd64.exe',
+      "windows/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v2.0.0-rc2/atomoned-v2.0.0-rc2-windows-arm64.exe'
     },
     genesis: {
       genesisUrl: 'https://atomone.fra1.digitaloceanspaces.com/atomone-testnet-1/genesis.json'
@@ -48,7 +54,7 @@ const info: Chain = {
     },
     sdk: {
       type: 'cosmos',
-      version: 'v0.47.13'
+      version: 'v0.47.17'
     }
   },
   logoURIs: {
