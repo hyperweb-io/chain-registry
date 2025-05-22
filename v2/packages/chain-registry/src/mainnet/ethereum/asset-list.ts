@@ -2031,6 +2031,26 @@ const info: AssetList = {
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
       }
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD',
+      denomUnits: [{
+          denom: '0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD',
+          exponent: 0
+        }, {
+          denom: 'susds',
+          exponent: 18
+        }],
+      base: '0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD',
+      name: 'Savings USDS',
+      display: 'susds',
+      symbol: 'sUSDS',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.svg'
+      },
+      coingeckoId: 'susds'
     }
   ]
 };

@@ -582,6 +582,46 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg'
       }
+    },
+    {
+      description: 'sUSDS on the Cosmos Hub',
+      denomUnits: [{
+          denom: 'ibc/B9B561EB378C9EB8C13CAA11FCBC78E6B865A3C65707972F17B1052CFC39F473',
+          exponent: 0
+        }, {
+          denom: 'susds',
+          exponent: 18
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/B9B561EB378C9EB8C13CAA11FCBC78E6B865A3C65707972F17B1052CFC39F473',
+      name: 'Savings USDS',
+      display: 'susds',
+      symbol: 'sUSDS',
+      traces: [{
+          type: 'ibc-bridge',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: '08-wasm-1369',
+            path: 'transfer/08-wasm-1369/0xa3931d71877c0e7a3148cb7eb4463524fec27fbd'
+          },
+          provider: 'Eureka'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.svg'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.svg'
+      }
     }
   ]
 };
