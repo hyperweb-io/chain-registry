@@ -4846,6 +4846,146 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Pryzm\'s refracted principal token for sUSDS with maturity of 30Jun2025',
+      denom_units: [{
+          denom: 'ibc/5B4100AE8EB731C3E1BDC9A6D88EEC5FB0DB7008E4E463B435B42AF6FCC1D1FC',
+          exponent: 0,
+          aliases: ['p:asusds:30Jun2025']
+        }, {
+          denom: 'psUSDS30Jun2025',
+          exponent: 18
+        }],
+      base: 'ibc/5B4100AE8EB731C3E1BDC9A6D88EEC5FB0DB7008E4E463B435B42AF6FCC1D1FC',
+      name: 'psUsds (30Jun2025)',
+      display: 'psUSDS30Jun2025',
+      symbol: 'psUSDS-30Jun2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'p:asusds:30Jun2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted principal token for sUSDS with maturity of 30Sep2025',
+      denom_units: [{
+          denom: 'ibc/056A2B1BA87702B162FE6AF08ED152898D2954D5BF712442BB8EB7B96986FE1A',
+          exponent: 0,
+          aliases: ['p:asusds:30Sep2025']
+        }, {
+          denom: 'psUSDS30Sep2025',
+          exponent: 18
+        }],
+      base: 'ibc/056A2B1BA87702B162FE6AF08ED152898D2954D5BF712442BB8EB7B96986FE1A',
+      name: 'psUsds (30Sep2025)',
+      display: 'psUSDS30Sep2025',
+      symbol: 'psUSDS-30Sep2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'p:asusds:30Sep2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted principal token for sUSDS with maturity of 31Dec2025',
+      denom_units: [{
+          denom: 'ibc/480DB918F0B9C8CCA8FA3E89437F3F628CD1A88FE83900CF452037D38FB2F8BE',
+          exponent: 0,
+          aliases: ['p:asusds:31Dec2025']
+        }, {
+          denom: 'psUSDS31Dec2025',
+          exponent: 18
+        }],
+      base: 'ibc/480DB918F0B9C8CCA8FA3E89437F3F628CD1A88FE83900CF452037D38FB2F8BE',
+      name: 'psUsds (31Dec2025)',
+      display: 'psUSDS31Dec2025',
+      symbol: 'psUSDS-31Dec2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'p:asusds:31Dec2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted principal token for sUSDS with maturity of 31Mar2026',
+      denom_units: [{
+          denom: 'ibc/4F86DE0444D5F01C39419E0529462BA222BFCFF76F701B5795421189A56F656A',
+          exponent: 0,
+          aliases: ['p:asusds:31Mar2026']
+        }, {
+          denom: 'psUSDS31Mar2026',
+          exponent: 18
+        }],
+      base: 'ibc/4F86DE0444D5F01C39419E0529462BA222BFCFF76F701B5795421189A56F656A',
+      name: 'psUsds (31Mar2026)',
+      display: 'psUSDS31Mar2026',
+      symbol: 'psUSDS-31Mar2026',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'p:asusds:31Mar2026',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
       description: 'Pryzm\'s refracted yield token for ATOM with maturity of 30Sep2024',
       denom_units: [{
           denom: 'ibc/3BFA0B28E6E53FF48481996CEED90695D3C489A75D687AD8C11AC98D64D69AEC',
@@ -6631,6 +6771,146 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Pryzm\'s refracted yield token for sUSDS with maturity of 30Jun2025',
+      denom_units: [{
+          denom: 'ibc/E87909E9D727FAF279C6E3E7400F0DC28CA40C6C4070627151D4BC06FE45B992',
+          exponent: 0,
+          aliases: ['y:asusds:30Jun2025']
+        }, {
+          denom: 'ysUSDS30Jun2025',
+          exponent: 18
+        }],
+      base: 'ibc/E87909E9D727FAF279C6E3E7400F0DC28CA40C6C4070627151D4BC06FE45B992',
+      name: 'ysUsds (30Jun2025)',
+      display: 'ysUSDS30Jun2025',
+      symbol: 'ysUSDS-30Jun2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'y:asusds:30Jun2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted yield token for sUSDS with maturity of 30Sep2025',
+      denom_units: [{
+          denom: 'ibc/5F70E1B59F683593AC7492F981D4BB105E10ADC18C50488B2DBE3187952A6994',
+          exponent: 0,
+          aliases: ['y:asusds:30Sep2025']
+        }, {
+          denom: 'ysUSDS30Sep2025',
+          exponent: 18
+        }],
+      base: 'ibc/5F70E1B59F683593AC7492F981D4BB105E10ADC18C50488B2DBE3187952A6994',
+      name: 'ysUsds (30Sep2025)',
+      display: 'ysUSDS30Sep2025',
+      symbol: 'ysUSDS-30Sep2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'y:asusds:30Sep2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted yield token for sUSDS with maturity of 31Dec2025',
+      denom_units: [{
+          denom: 'ibc/89CF081EFCD2389BFCD4BB00A57A859F7B0B1DADCB2CF18957A89E63DE2E0E84',
+          exponent: 0,
+          aliases: ['y:asusds:31Dec2025']
+        }, {
+          denom: 'ysUSDS31Dec2025',
+          exponent: 18
+        }],
+      base: 'ibc/89CF081EFCD2389BFCD4BB00A57A859F7B0B1DADCB2CF18957A89E63DE2E0E84',
+      name: 'ysUsds (31Dec2025)',
+      display: 'ysUSDS31Dec2025',
+      symbol: 'ysUSDS-31Dec2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'y:asusds:31Dec2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted yield token for sUSDS with maturity of 31Mar2026',
+      denom_units: [{
+          denom: 'ibc/3DFA0D1207564F77750F7434D12C99D5F5FEA54BF85F9C1E23514AA5CF2FC866',
+          exponent: 0,
+          aliases: ['y:asusds:31Mar2026']
+        }, {
+          denom: 'ysUSDS31Mar2026',
+          exponent: 18
+        }],
+      base: 'ibc/3DFA0D1207564F77750F7434D12C99D5F5FEA54BF85F9C1E23514AA5CF2FC866',
+      name: 'ysUsds (31Mar2026)',
+      display: 'ysUSDS31Mar2026',
+      symbol: 'ysUSDS-31Mar2026',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'y:asusds:31Mar2026',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
       description: 'Pryzm\'s LP token for USDC / USDC.axl pool',
       denom_units: [{
           denom: 'ibc/5D7DB05BE95798EB5700FE5A939BCC015D305EEB402EB40622C0BF53EC629B70',
@@ -7638,6 +7918,76 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-6',
             base_denom: 'lp:33:upryzm',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s LP token for sUSDS Yield pool',
+      denom_units: [{
+          denom: 'ibc/D85C6B77C9960CAB3DF3B6992ECD61B4E4653C292A1144FF2C80A50F18ECBD05',
+          exponent: 0,
+          aliases: ['lp:36:asusds']
+        }, {
+          denom: 'lp:36:susds',
+          exponent: 18
+        }],
+      base: 'ibc/D85C6B77C9960CAB3DF3B6992ECD61B4E4653C292A1144FF2C80A50F18ECBD05',
+      name: 'sUSDS Yield LP',
+      display: 'lp:36:susds',
+      symbol: 'sUSDS-YIELD-LP',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'lp:36:asusds',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s LP token for sUSDS Boost pool',
+      denom_units: [{
+          denom: 'ibc/6BD9D402976CF2BB0C176D345CE53F78B504AED6AAA29E28F1E093F00668E8E6',
+          exponent: 0,
+          aliases: ['lp:37:asusdsypt-uusdc']
+        }, {
+          denom: 'lp:37:susdsypt-usdc',
+          exponent: 18
+        }],
+      base: 'ibc/6BD9D402976CF2BB0C176D345CE53F78B504AED6AAA29E28F1E093F00668E8E6',
+      name: 'sUSDS Boost LP',
+      display: 'lp:37:susdsypt-usdc',
+      symbol: 'sUSDS-BOOST-LP',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'lp:37:asusdsypt-uusdc',
             chain_name: 'pryzm'
           },
           chain: {
@@ -10182,6 +10532,146 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Pryzm\'s refracted principal token for sUSDS with maturity of 30Jun2025',
+      denom_units: [{
+          denom: 'ibc/5B4100AE8EB731C3E1BDC9A6D88EEC5FB0DB7008E4E463B435B42AF6FCC1D1FC',
+          exponent: 0,
+          aliases: ['p:asusds:30Jun2025']
+        }, {
+          denom: 'psUSDS30Jun2025',
+          exponent: 18
+        }],
+      base: 'ibc/5B4100AE8EB731C3E1BDC9A6D88EEC5FB0DB7008E4E463B435B42AF6FCC1D1FC',
+      name: 'psUsds (30Jun2025)',
+      display: 'psUSDS30Jun2025',
+      symbol: 'psUSDS-30Jun2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'p:asusds:30Jun2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted principal token for sUSDS with maturity of 30Sep2025',
+      denom_units: [{
+          denom: 'ibc/056A2B1BA87702B162FE6AF08ED152898D2954D5BF712442BB8EB7B96986FE1A',
+          exponent: 0,
+          aliases: ['p:asusds:30Sep2025']
+        }, {
+          denom: 'psUSDS30Sep2025',
+          exponent: 18
+        }],
+      base: 'ibc/056A2B1BA87702B162FE6AF08ED152898D2954D5BF712442BB8EB7B96986FE1A',
+      name: 'psUsds (30Sep2025)',
+      display: 'psUSDS30Sep2025',
+      symbol: 'psUSDS-30Sep2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'p:asusds:30Sep2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted principal token for sUSDS with maturity of 31Dec2025',
+      denom_units: [{
+          denom: 'ibc/480DB918F0B9C8CCA8FA3E89437F3F628CD1A88FE83900CF452037D38FB2F8BE',
+          exponent: 0,
+          aliases: ['p:asusds:31Dec2025']
+        }, {
+          denom: 'psUSDS31Dec2025',
+          exponent: 18
+        }],
+      base: 'ibc/480DB918F0B9C8CCA8FA3E89437F3F628CD1A88FE83900CF452037D38FB2F8BE',
+      name: 'psUsds (31Dec2025)',
+      display: 'psUSDS31Dec2025',
+      symbol: 'psUSDS-31Dec2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'p:asusds:31Dec2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted principal token for sUSDS with maturity of 31Mar2026',
+      denom_units: [{
+          denom: 'ibc/4F86DE0444D5F01C39419E0529462BA222BFCFF76F701B5795421189A56F656A',
+          exponent: 0,
+          aliases: ['p:asusds:31Mar2026']
+        }, {
+          denom: 'psUSDS31Mar2026',
+          exponent: 18
+        }],
+      base: 'ibc/4F86DE0444D5F01C39419E0529462BA222BFCFF76F701B5795421189A56F656A',
+      name: 'psUsds (31Mar2026)',
+      display: 'psUSDS31Mar2026',
+      symbol: 'psUSDS-31Mar2026',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/psUsds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'p:asusds:31Mar2026',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
       description: 'Pryzm\'s refracted yield token for ATOM with maturity of 30Sep2024',
       denom_units: [{
           denom: 'ibc/3BFA0B28E6E53FF48481996CEED90695D3C489A75D687AD8C11AC98D64D69AEC',
@@ -11967,6 +12457,146 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Pryzm\'s refracted yield token for sUSDS with maturity of 30Jun2025',
+      denom_units: [{
+          denom: 'ibc/E87909E9D727FAF279C6E3E7400F0DC28CA40C6C4070627151D4BC06FE45B992',
+          exponent: 0,
+          aliases: ['y:asusds:30Jun2025']
+        }, {
+          denom: 'ysUSDS30Jun2025',
+          exponent: 18
+        }],
+      base: 'ibc/E87909E9D727FAF279C6E3E7400F0DC28CA40C6C4070627151D4BC06FE45B992',
+      name: 'ysUsds (30Jun2025)',
+      display: 'ysUSDS30Jun2025',
+      symbol: 'ysUSDS-30Jun2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'y:asusds:30Jun2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted yield token for sUSDS with maturity of 30Sep2025',
+      denom_units: [{
+          denom: 'ibc/5F70E1B59F683593AC7492F981D4BB105E10ADC18C50488B2DBE3187952A6994',
+          exponent: 0,
+          aliases: ['y:asusds:30Sep2025']
+        }, {
+          denom: 'ysUSDS30Sep2025',
+          exponent: 18
+        }],
+      base: 'ibc/5F70E1B59F683593AC7492F981D4BB105E10ADC18C50488B2DBE3187952A6994',
+      name: 'ysUsds (30Sep2025)',
+      display: 'ysUSDS30Sep2025',
+      symbol: 'ysUSDS-30Sep2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'y:asusds:30Sep2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted yield token for sUSDS with maturity of 31Dec2025',
+      denom_units: [{
+          denom: 'ibc/89CF081EFCD2389BFCD4BB00A57A859F7B0B1DADCB2CF18957A89E63DE2E0E84',
+          exponent: 0,
+          aliases: ['y:asusds:31Dec2025']
+        }, {
+          denom: 'ysUSDS31Dec2025',
+          exponent: 18
+        }],
+      base: 'ibc/89CF081EFCD2389BFCD4BB00A57A859F7B0B1DADCB2CF18957A89E63DE2E0E84',
+      name: 'ysUsds (31Dec2025)',
+      display: 'ysUSDS31Dec2025',
+      symbol: 'ysUSDS-31Dec2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'y:asusds:31Dec2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted yield token for sUSDS with maturity of 31Mar2026',
+      denom_units: [{
+          denom: 'ibc/3DFA0D1207564F77750F7434D12C99D5F5FEA54BF85F9C1E23514AA5CF2FC866',
+          exponent: 0,
+          aliases: ['y:asusds:31Mar2026']
+        }, {
+          denom: 'ysUSDS31Mar2026',
+          exponent: 18
+        }],
+      base: 'ibc/3DFA0D1207564F77750F7434D12C99D5F5FEA54BF85F9C1E23514AA5CF2FC866',
+      name: 'ysUsds (31Mar2026)',
+      display: 'ysUSDS31Mar2026',
+      symbol: 'ysUSDS-31Mar2026',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ysUsds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'y:asusds:31Mar2026',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
       description: 'Pryzm\'s LP token for USDC / USDC.axl pool',
       denom_units: [{
           denom: 'ibc/5D7DB05BE95798EB5700FE5A939BCC015D305EEB402EB40622C0BF53EC629B70',
@@ -12982,6 +13612,76 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Pryzm\'s LP token for sUSDS Yield pool',
+      denom_units: [{
+          denom: 'ibc/D85C6B77C9960CAB3DF3B6992ECD61B4E4653C292A1144FF2C80A50F18ECBD05',
+          exponent: 0,
+          aliases: ['lp:36:asusds']
+        }, {
+          denom: 'lp:36:susds',
+          exponent: 18
+        }],
+      base: 'ibc/D85C6B77C9960CAB3DF3B6992ECD61B4E4653C292A1144FF2C80A50F18ECBD05',
+      name: 'sUSDS Yield LP',
+      display: 'lp:36:susds',
+      symbol: 'sUSDS-YIELD-LP',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'lp:36:asusds',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s LP token for sUSDS Boost pool',
+      denom_units: [{
+          denom: 'ibc/6BD9D402976CF2BB0C176D345CE53F78B504AED6AAA29E28F1E093F00668E8E6',
+          exponent: 0,
+          aliases: ['lp:37:asusdsypt-uusdc']
+        }, {
+          denom: 'lp:37:susdsypt-usdc',
+          exponent: 18
+        }],
+      base: 'ibc/6BD9D402976CF2BB0C176D345CE53F78B504AED6AAA29E28F1E093F00668E8E6',
+      name: 'sUSDS Boost LP',
+      display: 'lp:37:susdsypt-usdc',
+      symbol: 'sUSDS-BOOST-LP',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'lp:37:asusdsypt-uusdc',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-4329'
+          }
+        }]
+    },
+    {
       description: 'Saga is a blockchain platform focused on providing customizable blockchain solutions with a strong emphasis on security and scalability.',
       denom_units: [{
           denom: 'ibc/74B554DD3FF10F5D60E30175ADFB47E59F77F7C57024A8104A4F78CDC2EAD125',
@@ -13672,6 +14372,88 @@ const assets: AssetList = {
             port: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4',
             channel_id: 'channel-151',
             base_denom: 'cw20:secret1fl449muk5yq8dlad7a22nje4p5d2pnsgymhjfd',
+            chain_name: 'secretnetwork'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-1950'
+          }
+        }]
+    },
+    {
+      description: 'The native token cw20 for dSilk on Secret Network',
+      denom_units: [{
+          denom: 'ibc/2259287C1DB42AB8407C7FE06608B59D62BB85734EE462CB93D4BC348874D23A',
+          exponent: 0,
+          aliases: ['cw20:secret1apxywjp2h8vet54xzyfc96htlt9qqgrh7gawhw']
+        }, {
+          denom: 'dsilk',
+          exponent: 6
+        }],
+      type_asset: 'snip25',
+      address: 'secret1apxywjp2h8vet54xzyfc96htlt9qqgrh7gawhw',
+      base: 'ibc/2259287C1DB42AB8407C7FE06608B59D62BB85734EE462CB93D4BC348874D23A',
+      name: 'dSilk',
+      display: 'dsilk',
+      symbol: 'dSILK',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.svg',
+          theme: {
+            primary_color_hex: '#3142fc'
+          }
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4',
+            channel_id: 'channel-151',
+            base_denom: 'cw20:secret1apxywjp2h8vet54xzyfc96htlt9qqgrh7gawhw',
+            chain_name: 'secretnetwork'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-1950'
+          }
+        }]
+    },
+    {
+      description: 'The native token cw20 for xSilk on Secret Network',
+      denom_units: [{
+          denom: 'ibc/2A00A2767FC48FED1A444AB4A8C40BFA40495F6576B0282F2B42CF653343E33E',
+          exponent: 0,
+          aliases: ['cw20:secret1lqt2u3ntzrkjev8z5m6ennu4n3zl3trx67ck82']
+        }, {
+          denom: 'xsilk',
+          exponent: 6
+        }],
+      type_asset: 'snip25',
+      address: 'secret1lqt2u3ntzrkjev8z5m6ennu4n3zl3trx67ck82',
+      base: 'ibc/2A00A2767FC48FED1A444AB4A8C40BFA40495F6576B0282F2B42CF653343E33E',
+      name: 'xSilk',
+      display: 'xsilk',
+      symbol: 'xSILK',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg',
+          theme: {
+            primary_color_hex: '#3142fc'
+          }
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4',
+            channel_id: 'channel-151',
+            base_denom: 'cw20:secret1lqt2u3ntzrkjev8z5m6ennu4n3zl3trx67ck82',
             chain_name: 'secretnetwork'
           },
           chain: {
@@ -15379,6 +16161,88 @@ const assets: AssetList = {
             port: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4',
             channel_id: 'channel-151',
             base_denom: 'cw20:secret1fl449muk5yq8dlad7a22nje4p5d2pnsgymhjfd',
+            chain_name: 'secretnetwork'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-1950'
+          }
+        }]
+    },
+    {
+      description: 'The native token cw20 for dSilk on Secret Network',
+      denom_units: [{
+          denom: 'ibc/2259287C1DB42AB8407C7FE06608B59D62BB85734EE462CB93D4BC348874D23A',
+          exponent: 0,
+          aliases: ['cw20:secret1apxywjp2h8vet54xzyfc96htlt9qqgrh7gawhw']
+        }, {
+          denom: 'dsilk',
+          exponent: 6
+        }],
+      type_asset: 'snip25',
+      address: 'secret1apxywjp2h8vet54xzyfc96htlt9qqgrh7gawhw',
+      base: 'ibc/2259287C1DB42AB8407C7FE06608B59D62BB85734EE462CB93D4BC348874D23A',
+      name: 'dSilk',
+      display: 'dsilk',
+      symbol: 'dSILK',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.svg',
+          theme: {
+            primary_color_hex: '#3142fc'
+          }
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4',
+            channel_id: 'channel-151',
+            base_denom: 'cw20:secret1apxywjp2h8vet54xzyfc96htlt9qqgrh7gawhw',
+            chain_name: 'secretnetwork'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-1950'
+          }
+        }]
+    },
+    {
+      description: 'The native token cw20 for xSilk on Secret Network',
+      denom_units: [{
+          denom: 'ibc/2A00A2767FC48FED1A444AB4A8C40BFA40495F6576B0282F2B42CF653343E33E',
+          exponent: 0,
+          aliases: ['cw20:secret1lqt2u3ntzrkjev8z5m6ennu4n3zl3trx67ck82']
+        }, {
+          denom: 'xsilk',
+          exponent: 6
+        }],
+      type_asset: 'snip25',
+      address: 'secret1lqt2u3ntzrkjev8z5m6ennu4n3zl3trx67ck82',
+      base: 'ibc/2A00A2767FC48FED1A444AB4A8C40BFA40495F6576B0282F2B42CF653343E33E',
+      name: 'xSilk',
+      display: 'xsilk',
+      symbol: 'xSILK',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg',
+          theme: {
+            primary_color_hex: '#3142fc'
+          }
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4',
+            channel_id: 'channel-151',
+            base_denom: 'cw20:secret1lqt2u3ntzrkjev8z5m6ennu4n3zl3trx67ck82',
             chain_name: 'secretnetwork'
           },
           chain: {

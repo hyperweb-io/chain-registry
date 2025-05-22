@@ -3157,6 +3157,88 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token cw20 for dSilk on Secret Network',
+      denom_units: [{
+          denom: 'ibc/14DBE35840F95DB1BEA181E3904F65D27EC93D9F3982EC44828A275621345F58',
+          exponent: 0,
+          aliases: ['cw20:secret1apxywjp2h8vet54xzyfc96htlt9qqgrh7gawhw']
+        }, {
+          denom: 'dsilk',
+          exponent: 6
+        }],
+      type_asset: 'snip25',
+      address: 'secret1apxywjp2h8vet54xzyfc96htlt9qqgrh7gawhw',
+      base: 'ibc/14DBE35840F95DB1BEA181E3904F65D27EC93D9F3982EC44828A275621345F58',
+      name: 'dSilk',
+      display: 'dsilk',
+      symbol: 'dSILK',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.svg',
+          theme: {
+            primary_color_hex: '#3142fc'
+          }
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4',
+            channel_id: 'channel-148',
+            base_denom: 'cw20:secret1apxywjp2h8vet54xzyfc96htlt9qqgrh7gawhw',
+            chain_name: 'secretnetwork'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-150'
+          }
+        }]
+    },
+    {
+      description: 'The native token cw20 for xSilk on Secret Network',
+      denom_units: [{
+          denom: 'ibc/B800E6492CA925A0BAD69AC9C067EC0655085437557602F54819085D1C397089',
+          exponent: 0,
+          aliases: ['cw20:secret1lqt2u3ntzrkjev8z5m6ennu4n3zl3trx67ck82']
+        }, {
+          denom: 'xsilk',
+          exponent: 6
+        }],
+      type_asset: 'snip25',
+      address: 'secret1lqt2u3ntzrkjev8z5m6ennu4n3zl3trx67ck82',
+      base: 'ibc/B800E6492CA925A0BAD69AC9C067EC0655085437557602F54819085D1C397089',
+      name: 'xSilk',
+      display: 'xsilk',
+      symbol: 'xSILK',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg',
+          theme: {
+            primary_color_hex: '#3142fc'
+          }
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4',
+            channel_id: 'channel-148',
+            base_denom: 'cw20:secret1lqt2u3ntzrkjev8z5m6ennu4n3zl3trx67ck82',
+            chain_name: 'secretnetwork'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-150'
+          }
+        }]
+    },
+    {
       description: 'The native token cw20 for SCRT Staking Derivatives on Secret Network',
       denom_units: [{
           denom: 'ibc/7EE5EC1550240B78E2681B05CA500DBF5B38C99F7F95EEA5E8AA93B6B041C3D9',
@@ -3524,6 +3606,88 @@ const assets: AssetList = {
             port: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4',
             channel_id: 'channel-148',
             base_denom: 'cw20:secret1fl449muk5yq8dlad7a22nje4p5d2pnsgymhjfd',
+            chain_name: 'secretnetwork'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-150'
+          }
+        }]
+    },
+    {
+      description: 'The native token cw20 for dSilk on Secret Network',
+      denom_units: [{
+          denom: 'ibc/14DBE35840F95DB1BEA181E3904F65D27EC93D9F3982EC44828A275621345F58',
+          exponent: 0,
+          aliases: ['cw20:secret1apxywjp2h8vet54xzyfc96htlt9qqgrh7gawhw']
+        }, {
+          denom: 'dsilk',
+          exponent: 6
+        }],
+      type_asset: 'snip25',
+      address: 'secret1apxywjp2h8vet54xzyfc96htlt9qqgrh7gawhw',
+      base: 'ibc/14DBE35840F95DB1BEA181E3904F65D27EC93D9F3982EC44828A275621345F58',
+      name: 'dSilk',
+      display: 'dsilk',
+      symbol: 'dSILK',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.svg',
+          theme: {
+            primary_color_hex: '#3142fc'
+          }
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4',
+            channel_id: 'channel-148',
+            base_denom: 'cw20:secret1apxywjp2h8vet54xzyfc96htlt9qqgrh7gawhw',
+            chain_name: 'secretnetwork'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-150'
+          }
+        }]
+    },
+    {
+      description: 'The native token cw20 for xSilk on Secret Network',
+      denom_units: [{
+          denom: 'ibc/B800E6492CA925A0BAD69AC9C067EC0655085437557602F54819085D1C397089',
+          exponent: 0,
+          aliases: ['cw20:secret1lqt2u3ntzrkjev8z5m6ennu4n3zl3trx67ck82']
+        }, {
+          denom: 'xsilk',
+          exponent: 6
+        }],
+      type_asset: 'snip25',
+      address: 'secret1lqt2u3ntzrkjev8z5m6ennu4n3zl3trx67ck82',
+      base: 'ibc/B800E6492CA925A0BAD69AC9C067EC0655085437557602F54819085D1C397089',
+      name: 'xSilk',
+      display: 'xsilk',
+      symbol: 'xSILK',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg',
+          theme: {
+            primary_color_hex: '#3142fc'
+          }
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4',
+            channel_id: 'channel-148',
+            base_denom: 'cw20:secret1lqt2u3ntzrkjev8z5m6ennu4n3zl3trx67ck82',
             chain_name: 'secretnetwork'
           },
           chain: {
