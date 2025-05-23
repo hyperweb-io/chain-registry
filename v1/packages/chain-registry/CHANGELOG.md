@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.69.222 (2025-05-23)
+
+**Note:** Version bump only for package chain-registry
+
+
+
+
+
 ## 1.69.221 (2025-05-22)
 
 **Note:** Version bump only for package chain-registry
