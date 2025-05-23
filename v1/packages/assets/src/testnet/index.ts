@@ -14,6 +14,7 @@ export * as elystestnet from './elystestnet';
 export * as empowertestnet from './empowertestnet';
 export * as impacthubtestnet from './impacthubtestnet';
 export * as injectivetestnet from './injectivetestnet';
+export * as int3facetestnet from './int3facetestnet';
 export * as jackaltestnet2 from './jackaltestnet2';
 export * as kimanetworktestnet from './kimanetworktestnet';
 export * as kujiratestnet from './kujiratestnet';

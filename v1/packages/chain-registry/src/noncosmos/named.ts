@@ -48,4 +48,5 @@ export * as polkadottestnet from './polkadottestnet';
 export * as polygontestnet from './polygontestnet';
 export * as solanatestnet from './solanatestnet';
 export * as tontestnet from './tontestnet';
+export * as xrpltestnet from './xrpltestnet';
 export * as ojotestnet from './ojotestnet';

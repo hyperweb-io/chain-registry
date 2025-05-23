@@ -274,6 +274,46 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Int3face Testnet blockchain native token',
+      denom_units: [{
+          denom: 'ibc/6C006ECBB6CE8BDBB32140CE977E07282A42CF5058141A0D9D67346F3935A590',
+          exponent: 0,
+          aliases: ['uint3']
+        }, {
+          denom: 'int3',
+          exponent: 6
+        }],
+      base: 'ibc/6C006ECBB6CE8BDBB32140CE977E07282A42CF5058141A0D9D67346F3935A590',
+      name: 'Int3face Testnet Token',
+      display: 'int3',
+      symbol: 'INT3',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png',
+          theme: {
+            primary_color_hex: '#3d3d3d'
+          }
+        }],
+      socials: {
+        website: 'https://testnet.app.int3face.zone/',
+        twitter: 'https://x.com/_Bitfrost_'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'uint3',
+            chain_name: 'int3facetestnet'
+          },
+          chain: {
+            channel_id: 'channel-9755'
+          }
+        }]
+    },
+    {
       description: 'The native token of Lava',
       denom_units: [{
           denom: 'ibc/6E2853D2B0D521D6CD05CFD8597251AD5CC8E3B4141701311679944753A4A03F',
@@ -947,6 +987,46 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-155'
+          }
+        }]
+    },
+    {
+      description: 'Int3face Testnet blockchain native token',
+      denom_units: [{
+          denom: 'ibc/6C006ECBB6CE8BDBB32140CE977E07282A42CF5058141A0D9D67346F3935A590',
+          exponent: 0,
+          aliases: ['uint3']
+        }, {
+          denom: 'int3',
+          exponent: 6
+        }],
+      base: 'ibc/6C006ECBB6CE8BDBB32140CE977E07282A42CF5058141A0D9D67346F3935A590',
+      name: 'Int3face Testnet Token',
+      display: 'int3',
+      symbol: 'INT3',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png',
+          theme: {
+            primary_color_hex: '#3d3d3d'
+          }
+        }],
+      socials: {
+        website: 'https://testnet.app.int3face.zone/',
+        twitter: 'https://x.com/_Bitfrost_'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'uint3',
+            chain_name: 'int3facetestnet'
+          },
+          chain: {
+            channel_id: 'channel-9755'
           }
         }]
     },

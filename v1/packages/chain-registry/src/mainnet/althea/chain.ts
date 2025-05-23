@@ -61,6 +61,10 @@ const info: Chain = {
       {
         address: 'https://rest.lavenderfive.com:443/althea',
         provider: 'Lavender.Five Nodes 🐝'
+      },
+      {
+        address: 'https://althea_mainnet_api.chain.whenmoonwhenlambo.money',
+        provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }
     ],
     rpc: [
@@ -75,6 +79,10 @@ const info: Chain = {
       {
         address: 'https://rpc.lavenderfive.com:443/althea',
         provider: 'Lavender.Five Nodes 🐝'
+      },
+      {
+        address: 'https://althea_mainnet_rpc.chain.whenmoonwhenlambo.money',
+        provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }
     ],
     grpc: [{
@@ -100,6 +108,12 @@ const info: Chain = {
       url: 'https://althea.valopers.com/',
       tx_page: 'https://althea.valopers.com/transactions/${txHash}',
       account_page: 'https://althea.valopers.com/account/${accountAddress}'
+    },
+    {
+      kind: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥',
+      url: 'https://explorer.whenmoonwhenlambo.money/althea',
+      tx_page: 'https://explorer.whenmoonwhenlambo.money/althea/tx/${txHash}',
+      account_page: 'https://explorer.whenmoonwhenlambo.money/althea/account/${accountAddress}'
     }
   ]
 };

@@ -16,6 +16,7 @@ import * as _elystestnet from './elystestnet';
 import * as _empowertestnet from './empowertestnet';
 import * as _impacthubtestnet from './impacthubtestnet';
 import * as _injectivetestnet from './injectivetestnet';
+import * as _int3facetestnet from './int3facetestnet';
 import * as _jackaltestnet2 from './jackaltestnet2';
 import * as _kimanetworktestnet from './kimanetworktestnet';
 import * as _kujiratestnet from './kujiratestnet';
@@ -64,6 +65,7 @@ const ibc: IBCInfo[] = [
   ..._empowertestnet.ibc,
   ..._impacthubtestnet.ibc,
   ..._injectivetestnet.ibc,
+  ..._int3facetestnet.ibc,
   ..._jackaltestnet2.ibc,
   ..._kimanetworktestnet.ibc,
   ..._kujiratestnet.ibc,
