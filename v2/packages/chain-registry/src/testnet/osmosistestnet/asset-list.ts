@@ -1322,6 +1322,377 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
       }
+    },
+    {
+      description: 'Testnet DOGE from Dogecoin bridged via Int3face bridge',
+      denomUnits: [{
+          denom: 'ibc/FCB9537564D517E821D0438AB6CA3BBE03B9E2B2C661B89311181329DFD331C4',
+          exponent: 0,
+          aliases: ['factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge']
+        }, {
+          denom: 'doge',
+          exponent: 8
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/FCB9537564D517E821D0438AB6CA3BBE03B9E2B2C661B89311181329DFD331C4',
+      name: 'Testnet Dogecoin (Int3)',
+      display: 'doge',
+      symbol: 'DOGE.int3',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'dogecointestnet',
+            baseDenom: 'shibe'
+          },
+          provider: 'Int3face'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'int3facetestnet',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-9755',
+            path: 'transfer/channel-9755/factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge'
+          }
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/doge.int3.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/doge.int3.png'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/doge.int3.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/doge.int3.png'
+        }, {
+          imageSync: {
+            chainName: 'int3facetestnet',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg',
+          theme: {
+            primaryColorHex: '#3d3d3d'
+          }
+        }]
+    },
+    {
+      description: 'Testnet BTC from Bitcoin bridged via Int3face bridge',
+      denomUnits: [{
+          denom: 'ibc/68157A7910F47A17C4BA8E06180FA4E5D6E3DF8A8F2B2FD4A74F23597BC1ABBF',
+          exponent: 0,
+          aliases: ['factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc']
+        }, {
+          denom: 'btc',
+          exponent: 8
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/68157A7910F47A17C4BA8E06180FA4E5D6E3DF8A8F2B2FD4A74F23597BC1ABBF',
+      name: 'Testnet Bitcoin (Int3)',
+      display: 'btc',
+      symbol: 'BTC.int3',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'bitcointestnet',
+            baseDenom: 'sat'
+          },
+          provider: 'Int3face'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'int3facetestnet',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-9755',
+            path: 'transfer/channel-9755/factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc'
+          }
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/btc.int3.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/btc.int3.png'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/btc.int3.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/btc.int3.png'
+        }, {
+          imageSync: {
+            chainName: 'int3facetestnet',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.svg',
+          theme: {
+            primaryColorHex: '#3d3d3d'
+          }
+        }]
+    },
+    {
+      description: 'Testnet BCH from Bitcoin-Cash bridged via  Int3face bridge',
+      denomUnits: [{
+          denom: 'ibc/B746CC188C8315EE135101C7F77D361AF6A62A4740EEDBB99A8AC5A80246D719',
+          exponent: 0,
+          aliases: ['factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch']
+        }, {
+          denom: 'bch',
+          exponent: 8
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/B746CC188C8315EE135101C7F77D361AF6A62A4740EEDBB99A8AC5A80246D719',
+      name: 'Testnet Bitcoin Cash (Int3)',
+      display: 'bch',
+      symbol: 'BCH.int3',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'bitcoincashtestnet',
+            baseDenom: 'sat'
+          },
+          provider: 'Int3face'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'int3facetestnet',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-9755',
+            path: 'transfer/channel-9755/factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch'
+          }
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/bch.int3.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/bch.int3.png'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/bch.int3.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/bch.int3.png'
+        }, {
+          imageSync: {
+            chainName: 'int3facetestnet',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.svg',
+          theme: {
+            primaryColorHex: '#3d3d3d'
+          }
+        }]
+    },
+    {
+      description: 'Testnet LTC from Litecoin bridged via Int3face bridge',
+      denomUnits: [{
+          denom: 'ibc/713D13C42B4EC1327AAD87602393D8870089B59005F552289E46141ABCF79F4C',
+          exponent: 0,
+          aliases: ['factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc']
+        }, {
+          denom: 'ltc',
+          exponent: 8
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/713D13C42B4EC1327AAD87602393D8870089B59005F552289E46141ABCF79F4C',
+      name: 'Testnet Litecoin (Int3)',
+      display: 'ltc',
+      symbol: 'LTC.int3',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'litecointestnet',
+            baseDenom: 'litoshi'
+          },
+          provider: 'Int3face'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'int3facetestnet',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-9755',
+            path: 'transfer/channel-9755/factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc'
+          }
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ltc.int3.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ltc.int3.png'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ltc.int3.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ltc.int3.png'
+        }, {
+          imageSync: {
+            chainName: 'int3facetestnet',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.svg',
+          theme: {
+            primaryColorHex: '#3d3d3d'
+          }
+        }]
+    },
+    {
+      description: 'Testnet TON coin bridged via Int3face bridge',
+      denomUnits: [{
+          denom: 'ibc/17993F75F724B0CB68D0C26642007CDD62286010974B843F86507F383E9F19F3',
+          exponent: 0,
+          aliases: ['factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton']
+        }, {
+          denom: 'ton',
+          exponent: 9
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/17993F75F724B0CB68D0C26642007CDD62286010974B843F86507F383E9F19F3',
+      name: 'Testnet Toncoin (Int3)',
+      display: 'ton',
+      symbol: 'TON.int3',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'tontestnet',
+            baseDenom: 'nanoton'
+          },
+          provider: 'Int3face'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'int3facetestnet',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-9755',
+            path: 'transfer/channel-9755/factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton'
+          }
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ton.int3.svg',
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ton.int3.png'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ton.int3.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ton.int3.png'
+        }, {
+          imageSync: {
+            chainName: 'int3facetestnet',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ton.int3.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ton.int3.svg',
+          theme: {
+            primaryColorHex: '#3d3d3d'
+          }
+        }]
+    },
+    {
+      description: 'Testnet Solana (SOL) coin bridged via Int3face bridge',
+      denomUnits: [{
+          denom: 'ibc/931C1E953C5312AB6856BDE136EFBD43FAC52398E484CA2C344F623746BAC4BE',
+          exponent: 0,
+          aliases: ['factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-sol']
+        }, {
+          denom: 'sol',
+          exponent: 9
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/931C1E953C5312AB6856BDE136EFBD43FAC52398E484CA2C344F623746BAC4BE',
+      name: 'Testnet SOL (Int3)',
+      display: 'sol',
+      symbol: 'SOL.int3',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'solanatestnet',
+            baseDenom: 'Lamport'
+          },
+          provider: 'Int3face'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'int3facetestnet',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-sol',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-9755',
+            path: 'transfer/channel-9755/factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-sol'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sol.int3.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sol.int3.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sol.int3.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sol.int3.svg'
+        }, {
+          imageSync: {
+            chainName: 'int3facetestnet',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-sol'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.svg',
+          theme: {
+            primaryColorHex: '#3d3d3d'
+          }
+        }]
+    },
+    {
+      description: 'Testnet XRPL (XRP) coin bridged via Int3face bridge',
+      denomUnits: [{
+          denom: 'ibc/9D44B9A113D449A16FAB9F639FF5B074CAB6D33D049056AB6B4DCE6E3891DD55',
+          exponent: 0,
+          aliases: ['factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/xrpl-xrp']
+        }, {
+          denom: 'xrp',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/9D44B9A113D449A16FAB9F639FF5B074CAB6D33D049056AB6B4DCE6E3891DD55',
+      name: 'Testnet XRP (Int3)',
+      display: 'xrp',
+      symbol: 'XRP.int3',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'xrpltestnet',
+            baseDenom: 'drop'
+          },
+          provider: 'Int3face'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'int3facetestnet',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/xrpl-xrp',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-9755',
+            path: 'transfer/channel-9755/factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/xrpl-xrp'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/xrp.int3.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/xrp.int3.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/xrp.int3.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/xrp.int3.svg'
+        }, {
+          imageSync: {
+            chainName: 'int3facetestnet',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/xrpl-xrp'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/xrp.int3.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/xrp.int3.svg',
+          theme: {
+            primaryColorHex: '#3d3d3d'
+          }
+        }]
     }
   ]
 };

@@ -58,6 +58,10 @@ const info: Chain = {
       {
         address: 'https://rpc.arkeo.roomit.xyz',
         provider: 'Roomit'
+      },
+      {
+        address: 'https://arkeo_mainnet_rpc.chain.whenmoonwhenlambo.money',
+        provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }
     ],
     rest: [
@@ -72,6 +76,10 @@ const info: Chain = {
       {
         address: 'https://api.arkeo.roomit.xyz',
         provider: 'Roomit'
+      },
+      {
+        address: 'https://arkeo_mainnet_api.chain.whenmoonwhenlambo.money',
+        provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }
     ],
     grpc: [{
@@ -97,6 +105,12 @@ const info: Chain = {
       url: 'https://explorer.tendermint.roomit.xyz/arkeo-mainnet',
       txPage: 'https://explorer.tendermint.roomit.xyz/arkeo-mainnet/transactions/${txHash}',
       accountPage: 'https://explorer.tendermint.roomit.xyz/arkeo-mainnet/account/${accountAddress}'
+    },
+    {
+      kind: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥',
+      url: 'https://explorer.whenmoonwhenlambo.money/arkeo',
+      txPage: 'https://explorer.whenmoonwhenlambo.money/arkeo/tx/${txHash}',
+      accountPage: 'https://explorer.whenmoonwhenlambo.money/arkeo/account/${accountAddress}'
     }
   ],
   keywords: [

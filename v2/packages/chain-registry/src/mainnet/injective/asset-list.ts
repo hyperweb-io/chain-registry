@@ -1223,6 +1223,57 @@ const info: AssetList = {
         twitter: 'https://x.com/instantnoodlesinc'
       },
       typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'CW20 hINJ - Hydro Staked INJ',
+      denomUnits: [{
+          denom: 'cw20:inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc',
+          exponent: 0
+        }, {
+          denom: 'hINJ',
+          exponent: 18
+        }],
+      typeAsset: 'cw20',
+      address: 'inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc',
+      base: 'cw20:inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc',
+      name: 'cw20 hINJ',
+      display: 'hINJ',
+      symbol: 'hINJ',
+      traces: [{
+          type: 'legacy-mintage',
+          counterparty: {
+            chainName: 'injective',
+            baseDenom: 'factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc'
+          },
+          provider: 'Hydro'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hinj.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hinj.png'
+        }]
+    },
+    {
+      description: 'Factory Wrapped hINJ - Hydro Staked INJ',
+      denomUnits: [{
+          denom: 'factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc',
+          exponent: 0
+        }, {
+          denom: 'Hydro Wrapped hINJ',
+          exponent: 18
+        }],
+      base: 'factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc',
+      name: 'Hydro Wrapped hINJ',
+      display: 'Hydro Wrapped hINJ',
+      symbol: 'hINJ',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hinj.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hinj.png'
+        }],
+      typeAsset: 'sdk.coin'
     }
   ]
 };

@@ -937,6 +937,51 @@ const info: AssetList = {
             path: '0'
           }
         }]
+    },
+    {
+      description: 'MilkyWay\'s liquid staked BABY',
+      denomUnits: [{
+          denom: 'ibc/CD7ECDBBA538632B45915ED67C4932DDB318818C00C21489D3774E560E87E420',
+          exponent: 0
+        }, {
+          denom: 'milkBABY',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/CD7ECDBBA538632B45915ED67C4932DDB318818C00C21489D3774E560E87E420',
+      name: 'milkBABY',
+      display: 'milkBABY',
+      symbol: 'milkBABY',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chainName: 'babylon',
+            baseDenom: 'ubbn'
+          },
+          provider: 'MilkyWay'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'milkyway',
+            baseDenom: 'factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN',
+            channelId: 'channel-4'
+          },
+          chain: {
+            channelId: 'channel-4',
+            path: 'transfer/channel-4/factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.svg',
+          theme: {
+            primaryColorHex: '#d18dfc'
+          }
+        }]
     }
   ]
 };

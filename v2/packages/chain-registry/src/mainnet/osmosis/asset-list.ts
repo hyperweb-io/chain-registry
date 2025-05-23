@@ -20443,7 +20443,7 @@ const info: AssetList = {
         }]
     },
     {
-      description: 'Dogecoin on Int3face',
+      description: 'Native DOGE from Dogecoin blockchain bridged via Int3face bridge',
       denomUnits: [{
           denom: 'ibc/B3DFDC2958A2BE482532DA3B6B5729B469BE7475598F7487D98B1B3E085245DE',
           exponent: 0,
@@ -20480,12 +20480,10 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/doge.int3.svg',
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/doge.int3.png'
       },
-      images: [
-        {
+      images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/doge.int3.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/doge.int3.png'
-        },
-        {
+        }, {
           imageSync: {
             chainName: 'int3face',
             baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge'
@@ -20495,21 +20493,10 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#3d3d3d'
           }
-        },
-        {
-          imageSync: {
-            chainName: 'int3face',
-            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge'
-          },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3doge.png',
-          theme: {
-            primaryColorHex: '#3d3d3d'
-          }
-        }
-      ]
+        }]
     },
     {
-      description: 'Bitcoin on Int3face',
+      description: 'Native BTC from Bitcoin blockchain bridged via Int3face bridge',
       denomUnits: [{
           denom: 'ibc/2F4258D6E1E01B203D6CA83F2C7E4959615053A21EC2C2FC196F7911CAC832EF',
           exponent: 0,
@@ -20546,12 +20533,10 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/btc.int3.svg',
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/btc.int3.png'
       },
-      images: [
-        {
+      images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/btc.int3.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/btc.int3.png'
-        },
-        {
+        }, {
           imageSync: {
             chainName: 'int3face',
             baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc'
@@ -20561,21 +20546,10 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#3d3d3d'
           }
-        },
-        {
-          imageSync: {
-            chainName: 'int3face',
-            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc'
-          },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3btc.png',
-          theme: {
-            primaryColorHex: '#3d3d3d'
-          }
-        }
-      ]
+        }]
     },
     {
-      description: 'Bitcoin-Cash on Int3face',
+      description: 'Native BCH from Bitcoin-Cash blockchain bridged via Int3face bridge',
       denomUnits: [{
           denom: 'ibc/869E01805EBBDDCAEA588666CD5149728B7DC7D69F30D92F77AD67F77CEB3FDA',
           exponent: 0,
@@ -20612,12 +20586,10 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/bch.int3.svg',
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/bch.int3.png'
       },
-      images: [
-        {
+      images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/bch.int3.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/bch.int3.png'
-        },
-        {
+        }, {
           imageSync: {
             chainName: 'int3face',
             baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch'
@@ -20627,21 +20599,10 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#3d3d3d'
           }
-        },
-        {
-          imageSync: {
-            chainName: 'int3face',
-            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch'
-          },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3bch.png',
-          theme: {
-            primaryColorHex: '#3d3d3d'
-          }
-        }
-      ]
+        }]
     },
     {
-      description: 'Litecoin on Int3face',
+      description: 'Native LTC from Litecion blockchain bridged via Int3face bridge',
       denomUnits: [{
           denom: 'ibc/905326586AE1C86AC8B1CDB20BE957DE5FB23963EDD2C9ADD3E835CC22115A46',
           exponent: 0,
@@ -20678,12 +20639,10 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ltc.int3.svg',
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ltc.int3.png'
       },
-      images: [
-        {
+      images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ltc.int3.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ltc.int3.png'
-        },
-        {
+        }, {
           imageSync: {
             chainName: 'int3face',
             baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc'
@@ -20693,18 +20652,7 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#3d3d3d'
           }
-        },
-        {
-          imageSync: {
-            chainName: 'int3face',
-            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc'
-          },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3ltc.png',
-          theme: {
-            primaryColorHex: '#3d3d3d'
-          }
-        }
-      ]
+        }]
     },
     {
       description: 'Tether\'s USD stablecoin from Arbitrum on Axelar',
@@ -21943,7 +21891,7 @@ const info: AssetList = {
         }]
     },
     {
-      description: 'TON on Int3face',
+      description: 'Native TON coin bridged via Int3face bridge',
       denomUnits: [{
           denom: 'ibc/DDE1238DCBC338C0FD0700A72CBD64C017B7A646C4A46789ADFB5D47F1E52E38',
           exponent: 0,
@@ -21980,12 +21928,10 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ton.int3.svg',
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ton.int3.png'
       },
-      images: [
-        {
+      images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ton.int3.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ton.int3.png'
-        },
-        {
+        }, {
           imageSync: {
             chainName: 'int3face',
             baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton'
@@ -21995,18 +21941,7 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#3d3d3d'
           }
-        },
-        {
-          imageSync: {
-            chainName: 'int3face',
-            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton'
-          },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3ton.png',
-          theme: {
-            primaryColorHex: '#3d3d3d'
-          }
-        }
-      ]
+        }]
     },
     {
       description: 'The MOBX coin rewards the use of eco-friendly micromobility transportation.',
@@ -24782,6 +24717,59 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/MTC.png'
+        }]
+    },
+    {
+      description: 'Solana (SOL) native coin bridged via Int3face bridge',
+      denomUnits: [{
+          denom: 'ibc/A1465DD6AF456FCD0D998869608DFEEDA4F4C11EC0A12AF92A994A3F8CBEE546',
+          exponent: 0,
+          aliases: ['factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-sol']
+        }, {
+          denom: 'sol',
+          exponent: 9
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/A1465DD6AF456FCD0D998869608DFEEDA4F4C11EC0A12AF92A994A3F8CBEE546',
+      name: 'SOL (Int3)',
+      display: 'sol',
+      symbol: 'SOL.int3',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'solana',
+            baseDenom: 'Lamport'
+          },
+          provider: 'Int3face'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'int3face',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-sol',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-82819',
+            path: 'transfer/channel-82819/factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-sol'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sol.int3.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sol.int3.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sol.int3.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sol.int3.svg'
+        }, {
+          imageSync: {
+            chainName: 'int3face',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-sol'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.svg',
+          theme: {
+            primaryColorHex: '#3d3d3d'
+          }
         }]
     }
   ]

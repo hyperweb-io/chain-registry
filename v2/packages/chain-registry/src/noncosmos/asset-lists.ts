@@ -49,6 +49,7 @@ import * as _polkadottestnet from './polkadottestnet';
 import * as _polygontestnet from './polygontestnet';
 import * as _solanatestnet from './solanatestnet';
 import * as _tontestnet from './tontestnet';
+import * as _xrpltestnet from './xrpltestnet';
 import * as _ojotestnet from './ojotestnet';
 
 const assetList: AssetList[] = [
@@ -101,6 +102,7 @@ const assetList: AssetList[] = [
   _polygontestnet.assetList,
   _solanatestnet.assetList,
   _tontestnet.assetList,
+  _xrpltestnet.assetList,
   _ojotestnet.assetList
 ];
 

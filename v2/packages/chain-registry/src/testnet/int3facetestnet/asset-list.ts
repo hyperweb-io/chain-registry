@@ -223,10 +223,46 @@ const info: AssetList = {
           provider: 'Int3face'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.svg'
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.svg',
+          theme: {
+            primaryColorHex: '#3d3d3d'
+          }
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Testnet XRP on Int3face',
+      denomUnits: [{
+          denom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/xrpl-xrp',
+          exponent: 0
+        }, {
+          denom: 'xrp',
+          exponent: 6
+        }],
+      base: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/xrpl-xrp',
+      name: 'Testnet XRP',
+      display: 'xrp',
+      symbol: 'XRP',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'xrpltestnet',
+            baseDenom: 'drop'
+          },
+          provider: 'Int3face'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/xrp.int3.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/xrp.int3.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/xrp.int3.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/xrp.int3.svg',
           theme: {
             primaryColorHex: '#3d3d3d'
           }

@@ -396,6 +396,14 @@ const info: AssetList = {
       name: 'milkBABY',
       display: 'milkBABY',
       symbol: 'milkBABY',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chainName: 'babylon',
+            baseDenom: 'ubbn'
+          },
+          provider: 'MilkyWay'
+        }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.svg'
