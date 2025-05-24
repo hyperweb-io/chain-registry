@@ -1,24 +1,24 @@
 import { IBCInfo } from '@chain-registry/types';
 const info: IBCInfo[] = [
   {
-    $schema: '../ibc_data.schema.json',
+    $schema: '../../ibc_data.schema.json',
     chain_1: {
-      chain_name: 'cosmoshub',
-      client_id: '07-tendermint-1382',
-      connection_id: 'connection-1105'
+      chain_name: 'agoricdevnet',
+      client_id: '07-tendermint-14',
+      connection_id: 'connection-14'
     },
     chain_2: {
-      chain_name: 'kopi',
-      client_id: '07-tendermint-19',
-      connection_id: 'connection-43'
+      chain_name: 'axelartestnet',
+      client_id: '07-tendermint-1128',
+      connection_id: 'connection-872'
     },
     channels: [{
         chain_1: {
-          channel_id: 'channel-1351',
+          channel_id: 'channel-12',
           port_id: 'transfer'
         },
         chain_2: {
-          channel_id: 'channel-15',
+          channel_id: 'channel-602',
           port_id: 'transfer'
         },
         ordering: 'unordered',
@@ -30,16 +30,45 @@ const info: IBCInfo[] = [
       }]
   },
   {
-    $schema: '../ibc_data.schema.json',
+    $schema: '../../ibc_data.schema.json',
     chain_1: {
-      chain_name: 'elys',
-      client_id: '07-tendermint-55',
-      connection_id: 'connection-36'
+      chain_name: 'agoricdevnet',
+      client_id: '07-tendermint-21',
+      connection_id: 'connection-18'
     },
     chain_2: {
-      chain_name: 'kopi',
-      client_id: '07-tendermint-24',
-      connection_id: 'connection-45'
+      chain_name: 'celestiatestnet',
+      client_id: '07-tendermint-611',
+      connection_id: 'connection-662'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-129',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-399',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true
+        }
+      }]
+  },
+  {
+    $schema: '../../ibc_data.schema.json',
+    chain_1: {
+      chain_name: 'agoricdevnet',
+      client_id: '07-tendermint-18',
+      connection_id: 'connection-17'
+    },
+    chain_2: {
+      chain_name: 'cosmosicsprovidertestnet',
+      client_id: '07-tendermint-311',
+      connection_id: 'connection-224'
     },
     channels: [{
         chain_1: {
@@ -47,7 +76,7 @@ const info: IBCInfo[] = [
           port_id: 'transfer'
         },
         chain_2: {
-          channel_id: 'channel-17',
+          channel_id: 'channel-388',
           port_id: 'transfer'
         },
         ordering: 'unordered',
@@ -59,24 +88,24 @@ const info: IBCInfo[] = [
       }]
   },
   {
-    $schema: '../ibc_data.schema.json',
+    $schema: '../../ibc_data.schema.json',
     chain_1: {
-      chain_name: 'injective',
-      client_id: '07-tendermint-278',
-      connection_id: 'connection-281'
+      chain_name: 'agoricdevnet',
+      client_id: '07-tendermint-16',
+      connection_id: 'connection-16'
     },
     chain_2: {
-      chain_name: 'kopi',
-      client_id: '07-tendermint-0',
-      connection_id: 'connection-0'
+      chain_name: 'elystestnet',
+      client_id: '07-tendermint-17',
+      connection_id: 'connection-10'
     },
     channels: [{
         chain_1: {
-          channel_id: 'channel-376',
+          channel_id: 'channel-23',
           port_id: 'transfer'
         },
         chain_2: {
-          channel_id: 'channel-1',
+          channel_id: 'channel-11',
           port_id: 'transfer'
         },
         ordering: 'unordered',
@@ -88,24 +117,24 @@ const info: IBCInfo[] = [
       }]
   },
   {
-    $schema: '../ibc_data.schema.json',
+    $schema: '../../ibc_data.schema.json',
     chain_1: {
-      chain_name: 'kopi',
-      client_id: '07-tendermint-0',
-      connection_id: 'connection-1'
+      chain_name: 'agoricdevnet',
+      client_id: '07-tendermint-128',
+      connection_id: 'connection-82'
     },
     chain_2: {
-      chain_name: 'noble',
-      client_id: '07-tendermint-140',
-      connection_id: 'connection-135'
+      chain_name: 'neutrontestnet',
+      client_id: '07-tendermint-553',
+      connection_id: 'connection-474'
     },
     channels: [{
         chain_1: {
-          channel_id: 'channel-9',
+          channel_id: 'channel-62',
           port_id: 'transfer'
         },
         chain_2: {
-          channel_id: 'channel-122',
+          channel_id: 'channel-1578',
           port_id: 'transfer'
         },
         ordering: 'unordered',
@@ -117,24 +146,24 @@ const info: IBCInfo[] = [
       }]
   },
   {
-    $schema: '../ibc_data.schema.json',
+    $schema: '../../ibc_data.schema.json',
     chain_1: {
-      chain_name: 'kopi',
-      client_id: '07-tendermint-12',
-      connection_id: 'connection-36'
+      chain_name: 'agoricdevnet',
+      client_id: '07-tendermint-13',
+      connection_id: 'connection-13'
     },
     chain_2: {
-      chain_name: 'osmosis',
-      client_id: '07-tendermint-3422',
-      connection_id: 'connection-10584'
+      chain_name: 'nobletestnet',
+      client_id: '07-tendermint-432',
+      connection_id: 'connection-196'
     },
     channels: [{
         chain_1: {
-          channel_id: 'channel-10',
+          channel_id: 'channel-11',
           port_id: 'transfer'
         },
         chain_2: {
-          channel_id: 'channel-97998',
+          channel_id: 'channel-337',
           port_id: 'transfer'
         },
         ordering: 'unordered',
@@ -146,74 +175,16 @@ const info: IBCInfo[] = [
       }]
   },
   {
-    $schema: '../ibc_data.schema.json',
+    $schema: '../../ibc_data.schema.json',
     chain_1: {
-      chain_name: 'kopi',
-      client_id: '07-tendermint-22',
-      connection_id: 'connection-44'
+      chain_name: 'agoricdevnet',
+      client_id: '07-tendermint-6',
+      connection_id: 'connection-6'
     },
     chain_2: {
-      chain_name: 'planq',
-      client_id: '07-tendermint-573',
-      connection_id: 'connection-492'
-    },
-    channels: [{
-        chain_1: {
-          channel_id: 'channel-16',
-          port_id: 'transfer'
-        },
-        chain_2: {
-          channel_id: 'channel-65',
-          port_id: 'transfer'
-        },
-        ordering: 'unordered',
-        version: 'ics20-1',
-        tags: {
-          status: 'live',
-          preferred: true
-        }
-      }]
-  },
-  {
-    $schema: '../ibc_data.schema.json',
-    chain_1: {
-      chain_name: 'kopi',
-      client_id: '07-tendermint-26',
-      connection_id: 'connection-46'
-    },
-    chain_2: {
-      chain_name: 'stride',
-      client_id: '07-tendermint-161',
-      connection_id: 'connection-170'
-    },
-    channels: [{
-        chain_1: {
-          channel_id: 'channel-18',
-          port_id: 'transfer'
-        },
-        chain_2: {
-          channel_id: 'channel-322',
-          port_id: 'transfer'
-        },
-        ordering: 'unordered',
-        version: 'ics20-1',
-        tags: {
-          status: 'live',
-          preferred: true
-        }
-      }]
-  },
-  {
-    $schema: '../ibc_data.schema.json',
-    chain_1: {
-      chain_name: 'kopi',
-      client_id: '07-tendermint-2',
-      connection_id: 'connection-2'
-    },
-    chain_2: {
-      chain_name: 'terra2',
-      client_id: '07-tendermint-426',
-      connection_id: 'connection-440'
+      chain_name: 'osmosistestnet',
+      client_id: '07-tendermint-4596',
+      connection_id: 'connection-3957'
     },
     channels: [{
         chain_1: {
@@ -221,7 +192,36 @@ const info: IBCInfo[] = [
           port_id: 'transfer'
         },
         chain_2: {
-          channel_id: 'channel-586',
+          channel_id: 'channel-10293',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true
+        }
+      }]
+  },
+  {
+    $schema: '../../ibc_data.schema.json',
+    chain_1: {
+      chain_name: 'agoricdevnet',
+      client_id: '07-tendermint-15',
+      connection_id: 'connection-15'
+    },
+    chain_2: {
+      chain_name: 'stridetestnet',
+      client_id: '07-tendermint-68',
+      connection_id: 'connection-44'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-13',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-60',
           port_id: 'transfer'
         },
         ordering: 'unordered',

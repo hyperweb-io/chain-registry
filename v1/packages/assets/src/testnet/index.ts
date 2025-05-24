@@ -1,3 +1,4 @@
+export * as agoricdevnet from './agoricdevnet';
 export * as akashtestnet from './akashtestnet';
 export * as archwaytestnet from './archwaytestnet';
 export * as axelartestnet from './axelartestnet';
@@ -35,6 +36,7 @@ export * as sagatestnet from './sagatestnet';
 export * as seitestnet2 from './seitestnet2';
 export * as sgetestnet from './sgetestnet';
 export * as stargazetestnet from './stargazetestnet';
+export * as stridetestnet from './stridetestnet';
 export * as swisstroniktestnet from './swisstroniktestnet';
 export * as symphonytestnet from './symphonytestnet';
 export * as symphonytestnet3 from './symphonytestnet3';

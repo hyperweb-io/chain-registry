@@ -91,6 +91,7 @@ export * as planqtestnet from './planqtestnet';
 export * as pockettestnet from './pockettestnet';
 export * as pryzmtestnet from './pryzmtestnet';
 export * as quasartestnet from './quasartestnet';
+export * as qubeticstestnet from './qubeticstestnet';
 export * as quicksilvertestnet from './quicksilvertestnet';
 export * as qwoyntestnet from './qwoyntestnet';
 export * as sagatestnet from './sagatestnet';

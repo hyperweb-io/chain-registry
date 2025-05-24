@@ -3,6 +3,170 @@ const assets: AssetList = {
   chain_name: 'cosmosicsprovidertestnet',
   assets: [
     {
+      description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
+      denom_units: [{
+          denom: 'ibc/14F68F1D091D089FA4425BDBFB2166B40218979F7E065B6BE61188E93DD4DD30',
+          exponent: 0,
+          aliases: ['ubld']
+        }, {
+          denom: 'bld',
+          exponent: 6
+        }],
+      base: 'ibc/14F68F1D091D089FA4425BDBFB2166B40218979F7E065B6BE61188E93DD4DD30',
+      name: 'Agoric',
+      display: 'bld',
+      symbol: 'BLD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.svg'
+      },
+      coingecko_id: 'agoric',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.svg',
+          theme: {
+            primary_color_hex: '#c42b44'
+          }
+        }],
+      socials: {
+        website: 'https://agoric.com/',
+        twitter: 'https://twitter.com/agoric'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-25',
+            base_denom: 'ubld',
+            chain_name: 'agoricdevnet'
+          },
+          chain: {
+            channel_id: 'channel-388'
+          }
+        }]
+    },
+    {
+      description: 'IST is the stable token used by the Agoric chain for execution fees and commerce.',
+      denom_units: [{
+          denom: 'ibc/39D30592C127F8ECC23CECA303673CD8EE76225788BA88AE664F67148A5821E5',
+          exponent: 0,
+          aliases: ['uist']
+        }, {
+          denom: 'ist',
+          exponent: 6
+        }],
+      base: 'ibc/39D30592C127F8ECC23CECA303673CD8EE76225788BA88AE664F67148A5821E5',
+      name: 'Inter Stable Token',
+      display: 'ist',
+      symbol: 'IST',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg'
+      },
+      coingecko_id: 'inter-stable-token',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg',
+          theme: {
+            primary_color_hex: '#d485e2'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-25',
+            base_denom: 'uist',
+            chain_name: 'agoricdevnet'
+          },
+          chain: {
+            channel_id: 'channel-388'
+          }
+        }]
+    },
+    {
+      description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
+      denom_units: [{
+          denom: 'ibc/14F68F1D091D089FA4425BDBFB2166B40218979F7E065B6BE61188E93DD4DD30',
+          exponent: 0,
+          aliases: ['ubld']
+        }, {
+          denom: 'bld',
+          exponent: 6
+        }],
+      base: 'ibc/14F68F1D091D089FA4425BDBFB2166B40218979F7E065B6BE61188E93DD4DD30',
+      name: 'Agoric',
+      display: 'bld',
+      symbol: 'BLD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.svg'
+      },
+      coingecko_id: 'agoric',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.svg',
+          theme: {
+            primary_color_hex: '#c42b44'
+          }
+        }],
+      socials: {
+        website: 'https://agoric.com/',
+        twitter: 'https://twitter.com/agoric'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-25',
+            base_denom: 'ubld',
+            chain_name: 'agoricdevnet'
+          },
+          chain: {
+            channel_id: 'channel-388'
+          }
+        }]
+    },
+    {
+      description: 'IST is the stable token used by the Agoric chain for execution fees and commerce.',
+      denom_units: [{
+          denom: 'ibc/39D30592C127F8ECC23CECA303673CD8EE76225788BA88AE664F67148A5821E5',
+          exponent: 0,
+          aliases: ['uist']
+        }, {
+          denom: 'ist',
+          exponent: 6
+        }],
+      base: 'ibc/39D30592C127F8ECC23CECA303673CD8EE76225788BA88AE664F67148A5821E5',
+      name: 'Inter Stable Token',
+      display: 'ist',
+      symbol: 'IST',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg'
+      },
+      coingecko_id: 'inter-stable-token',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg',
+          theme: {
+            primary_color_hex: '#d485e2'
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-25',
+            base_denom: 'uist',
+            chain_name: 'agoricdevnet'
+          },
+          chain: {
+            channel_id: 'channel-388'
+          }
+        }]
+    },
+    {
       description: 'The native token of MANTRA',
       denom_units: [{
           denom: 'ibc/21619233C9A7288683ECFC5056CA31BBA63A8769C38C1F4DC992EA533DCD8EDE',

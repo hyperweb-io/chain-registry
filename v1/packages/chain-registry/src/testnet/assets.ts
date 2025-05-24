@@ -93,6 +93,7 @@ import * as _planqtestnet from './planqtestnet';
 import * as _pockettestnet from './pockettestnet';
 import * as _pryzmtestnet from './pryzmtestnet';
 import * as _quasartestnet from './quasartestnet';
+import * as _qubeticstestnet from './qubeticstestnet';
 import * as _quicksilvertestnet from './quicksilvertestnet';
 import * as _qwoyntestnet from './qwoyntestnet';
 import * as _sagatestnet from './sagatestnet';
@@ -228,6 +229,7 @@ const assets: AssetList[] = [
   _pockettestnet.assets,
   _pryzmtestnet.assets,
   _quasartestnet.assets,
+  _qubeticstestnet.assets,
   _quicksilvertestnet.assets,
   _qwoyntestnet.assets,
   _sagatestnet.assets,
