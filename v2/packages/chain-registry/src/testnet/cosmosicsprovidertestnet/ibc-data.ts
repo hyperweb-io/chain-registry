@@ -1,5 +1,35 @@
 import { IBCData } from '@chain-registry/v2-types';
-const info: IBCData[] = [{
+const info: IBCData[] = [
+  {
+    $schema: '../../ibc_data.schema.json',
+    chain1: {
+      chainName: 'agoricdevnet',
+      clientId: '07-tendermint-18',
+      connectionId: 'connection-17'
+    },
+    chain2: {
+      chainName: 'cosmosicsprovidertestnet',
+      clientId: '07-tendermint-311',
+      connectionId: 'connection-224'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-25',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-388',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true
+        }
+      }]
+  },
+  {
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'cosmosicsprovidertestnet',
@@ -27,7 +57,8 @@ const info: IBCData[] = [{
           preferred: true
         }
       }]
-  }, {
+  },
+  {
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'cosmosicsprovidertestnet',
@@ -56,5 +87,6 @@ const info: IBCData[] = [{
           dex: 'osmosis'
         }
       }]
-  }];
+  }
+];
 export default info;

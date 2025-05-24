@@ -1,5 +1,6 @@
 import { IBCData } from '@chain-registry/v2-types';
 
+import * as _agoricdevnet from './agoricdevnet';
 import * as _akashtestnet from './akashtestnet';
 import * as _archwaytestnet from './archwaytestnet';
 import * as _axelartestnet from './axelartestnet';
@@ -37,6 +38,7 @@ import * as _sagatestnet from './sagatestnet';
 import * as _seitestnet2 from './seitestnet2';
 import * as _sgetestnet from './sgetestnet';
 import * as _stargazetestnet from './stargazetestnet';
+import * as _stridetestnet from './stridetestnet';
 import * as _swisstroniktestnet from './swisstroniktestnet';
 import * as _symphonytestnet from './symphonytestnet';
 import * as _symphonytestnet3 from './symphonytestnet3';
@@ -49,6 +51,7 @@ import * as _xiontestnet2 from './xiontestnet2';
 import * as _xrplevmtestnet from './xrplevmtestnet';
 
 const ibcData: IBCData[] = [
+  ..._agoricdevnet.ibcData,
   ..._akashtestnet.ibcData,
   ..._archwaytestnet.ibcData,
   ..._axelartestnet.ibcData,
@@ -86,6 +89,7 @@ const ibcData: IBCData[] = [
   ..._seitestnet2.ibcData,
   ..._sgetestnet.ibcData,
   ..._stargazetestnet.ibcData,
+  ..._stridetestnet.ibcData,
   ..._swisstroniktestnet.ibcData,
   ..._symphonytestnet.ibcData,
   ..._symphonytestnet3.ibcData,

@@ -3,6 +3,35 @@ const info: IBCData[] = [
   {
     $schema: '../../ibc_data.schema.json',
     chain1: {
+      chainName: 'agoricdevnet',
+      clientId: '07-tendermint-14',
+      connectionId: 'connection-14'
+    },
+    chain2: {
+      chainName: 'axelartestnet',
+      clientId: '07-tendermint-1128',
+      connectionId: 'connection-872'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-12',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-602',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true
+        }
+      }]
+  },
+  {
+    $schema: '../../ibc_data.schema.json',
+    chain1: {
       chainName: 'archwaytestnet',
       clientId: '07-tendermint-70',
       connectionId: 'connection-60'
