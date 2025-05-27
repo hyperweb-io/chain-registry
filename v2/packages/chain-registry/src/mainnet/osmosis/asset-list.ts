@@ -23396,8 +23396,8 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/T7S.png'
         }],
       socials: {
-        website: 'https://www.oddsgarden.io/',
-        twitter: 'https://x.com/Se7enGreenShade'
+        website: 'https://thesevens.app',
+        twitter: 'https://x.com/T7SToken'
       }
     },
     {
