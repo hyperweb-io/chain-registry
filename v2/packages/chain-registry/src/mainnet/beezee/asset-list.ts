@@ -516,6 +516,34 @@ const info: AssetList = {
         twitter: 'https://x.com/gge_crypto'
       },
       typeAsset: 'sdk.coin'
+    },
+    {
+      description: '$CryptoTrtl is fun, join us on Telegram.',
+      denomUnits: [{
+          denom: 'factory/bze1972aqfzdg29ugjln74edx0xvcg4ehvysjptk77/CTL',
+          exponent: 0
+        }, {
+          denom: 'CTL',
+          exponent: 6
+        }],
+      base: 'factory/bze1972aqfzdg29ugjln74edx0xvcg4ehvysjptk77/CTL',
+      name: 'CryptoTrtl',
+      display: 'CTL',
+      symbol: 'CTL',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/ctl.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/ctl.png',
+          theme: {
+            primaryColorHex: '#FEFEFE'
+          }
+        }],
+      socials: {
+        twitter: 'https://x.com/CryproTrtl',
+        telegram: 'https://T.me/CryptoTrtlCoin'
+      },
+      typeAsset: 'sdk.coin'
     }
   ]
 };
