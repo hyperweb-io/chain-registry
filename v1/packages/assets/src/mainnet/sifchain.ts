@@ -520,7 +520,7 @@ const assets: AssetList = {
       base: 'ibc/21CB41565FCA19AB6613EE06B0D56E588E0DC3E53FF94BA499BB9635794A1A35',
       name: 'Sentinel',
       display: 'dvpn',
-      symbol: 'DVPN',
+      symbol: 'P2P',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.svg'
@@ -535,7 +535,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.sentinel.co/',
-        twitter: 'https://x.com/SentinelDVPN'
+        twitter: 'https://x.com/SentinelP2P'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1068,7 +1068,7 @@ const assets: AssetList = {
       base: 'ibc/21CB41565FCA19AB6613EE06B0D56E588E0DC3E53FF94BA499BB9635794A1A35',
       name: 'Sentinel',
       display: 'dvpn',
-      symbol: 'DVPN',
+      symbol: 'P2P',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.svg'
@@ -1083,7 +1083,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.sentinel.co/',
-        twitter: 'https://x.com/SentinelDVPN'
+        twitter: 'https://x.com/SentinelP2P'
       },
       type_asset: 'sdk.coin',
       traces: [{

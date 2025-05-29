@@ -1379,6 +1379,7 @@ const assets: AssetList = {
         'automations'
       ],
       socials: {
+        website: 'https://kopi.money/',
         twitter: 'https://x.com/kopi_money',
         discord: 'https://discord.gg/kopi-money'
       },
@@ -8513,6 +8514,7 @@ const assets: AssetList = {
         'automations'
       ],
       socials: {
+        website: 'https://kopi.money/',
         twitter: 'https://x.com/kopi_money',
         discord: 'https://discord.gg/kopi-money'
       },

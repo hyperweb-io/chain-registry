@@ -3,6 +3,49 @@ const assets: AssetList = {
   chain_name: 'initia',
   assets: [
     {
+      description: 'The native token of MilkyWay',
+      denom_units: [{
+          denom: 'ibc/991E01AB189A00585E4BBBE04D7B7C8654D16BF612C7B795F175679164114642',
+          exponent: 0,
+          aliases: ['umilk']
+        }, {
+          denom: 'milk',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/991E01AB189A00585E4BBBE04D7B7C8654D16BF612C7B795F175679164114642',
+      name: 'Milk',
+      display: 'milk',
+      symbol: 'MILK',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg',
+          theme: {
+            primary_color_hex: '#760dbb'
+          }
+        }],
+      keywords: ['liquid staking', 'restaking'],
+      socials: {
+        website: 'https://milkyway.zone',
+        twitter: 'https://x.com/milky_way_zone'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-5',
+            base_denom: 'umilk',
+            chain_name: 'milkyway'
+          },
+          chain: {
+            channel_id: 'channel-80'
+          }
+        }]
+    },
+    {
       description: 'Neutron is a smart contract blockchain within the Cosmos ecosystem, leveraging the Cosmos Hub\'s security to provide cross-chain DeFi applications.',
       denom_units: [{
           denom: 'ibc/E1B86EFC3474070FD47C02F17C84BD573AA8E17C5A8824F293D5B99D6E5F9C09',
@@ -240,6 +283,49 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-68'
+          }
+        }]
+    },
+    {
+      description: 'The native token of MilkyWay',
+      denom_units: [{
+          denom: 'ibc/991E01AB189A00585E4BBBE04D7B7C8654D16BF612C7B795F175679164114642',
+          exponent: 0,
+          aliases: ['umilk']
+        }, {
+          denom: 'milk',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/991E01AB189A00585E4BBBE04D7B7C8654D16BF612C7B795F175679164114642',
+      name: 'Milk',
+      display: 'milk',
+      symbol: 'MILK',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg',
+          theme: {
+            primary_color_hex: '#760dbb'
+          }
+        }],
+      keywords: ['liquid staking', 'restaking'],
+      socials: {
+        website: 'https://milkyway.zone',
+        twitter: 'https://x.com/milky_way_zone'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-5',
+            base_denom: 'umilk',
+            chain_name: 'milkyway'
+          },
+          chain: {
+            channel_id: 'channel-80'
           }
         }]
     },

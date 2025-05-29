@@ -78,6 +78,7 @@ export * as gravitybridge from './gravitybridge';
 export * as haqq from './haqq';
 export * as heli from './heli';
 export * as highbury from './highbury';
+export * as hippoprotocol from './hippoprotocol';
 export * as humans from './humans';
 export * as idep from './idep';
 export * as impacthub from './impacthub';

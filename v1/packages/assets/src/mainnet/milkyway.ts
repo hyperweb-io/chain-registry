@@ -84,6 +84,46 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Initia',
+      denom_units: [{
+          denom: 'ibc/FF1404DE8D24A4E1E07A7C85ADD9575FCA11D951CAED401E17EE12796816EC76',
+          exponent: 0,
+          aliases: ['uinit']
+        }, {
+          denom: 'INIT',
+          exponent: 6
+        }],
+      base: 'ibc/FF1404DE8D24A4E1E07A7C85ADD9575FCA11D951CAED401E17EE12796816EC76',
+      display: 'INIT',
+      name: 'Initia',
+      symbol: 'INIT',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.svg',
+          theme: {
+            circle: true,
+            primary_color_hex: '#040404'
+          }
+        }],
+      socials: {
+        website: 'https://initia.xyz/',
+        twitter: 'https://twitter.com/initiaFDN'
+      },
+      type_asset: 'sdk.coin',
+      coingecko_id: 'initia',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-80',
+            base_denom: 'uinit',
+            chain_name: 'initia'
+          },
+          chain: {
+            channel_id: 'channel-5'
+          }
+        }]
+    },
+    {
       description: 'The native token of Babylon Genesis.',
       denom_units: [{
           denom: 'ibc/B0BEE773CEF718E8B6D2892A27D57FEFB00BD8B2E698367B5CC96A4F36148726',
@@ -161,6 +201,46 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-1'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Initia',
+      denom_units: [{
+          denom: 'ibc/FF1404DE8D24A4E1E07A7C85ADD9575FCA11D951CAED401E17EE12796816EC76',
+          exponent: 0,
+          aliases: ['uinit']
+        }, {
+          denom: 'INIT',
+          exponent: 6
+        }],
+      base: 'ibc/FF1404DE8D24A4E1E07A7C85ADD9575FCA11D951CAED401E17EE12796816EC76',
+      display: 'INIT',
+      name: 'Initia',
+      symbol: 'INIT',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.svg',
+          theme: {
+            circle: true,
+            primary_color_hex: '#040404'
+          }
+        }],
+      socials: {
+        website: 'https://initia.xyz/',
+        twitter: 'https://twitter.com/initiaFDN'
+      },
+      type_asset: 'sdk.coin',
+      coingecko_id: 'initia',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-80',
+            base_denom: 'uinit',
+            chain_name: 'initia'
+          },
+          chain: {
+            channel_id: 'channel-5'
           }
         }]
     },
