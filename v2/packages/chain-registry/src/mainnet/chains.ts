@@ -80,6 +80,7 @@ import * as _gravitybridge from './gravitybridge';
 import * as _haqq from './haqq';
 import * as _heli from './heli';
 import * as _highbury from './highbury';
+import * as _hippoprotocol from './hippoprotocol';
 import * as _humans from './humans';
 import * as _idep from './idep';
 import * as _impacthub from './impacthub';
@@ -284,6 +285,7 @@ const chains: Chain[] = [
   _haqq.chain,
   _heli.chain,
   _highbury.chain,
+  _hippoprotocol.chain,
   _humans.chain,
   _idep.chain,
   _impacthub.chain,

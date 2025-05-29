@@ -80,6 +80,7 @@ import * as _gravitybridge from './gravitybridge';
 import * as _haqq from './haqq';
 import * as _heli from './heli';
 import * as _highbury from './highbury';
+import * as _hippoprotocol from './hippoprotocol';
 import * as _humans from './humans';
 import * as _idep from './idep';
 import * as _impacthub from './impacthub';
@@ -284,6 +285,7 @@ const assetList: AssetList[] = [
   _haqq.assetList,
   _heli.assetList,
   _highbury.assetList,
+  _hippoprotocol.assetList,
   _humans.assetList,
   _idep.assetList,
   _impacthub.assetList,

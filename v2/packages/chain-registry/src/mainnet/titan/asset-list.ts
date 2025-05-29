@@ -50,14 +50,14 @@ const info: AssetList = {
           denom: 'ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5',
           exponent: 0
         }, {
-          denom: 'usdc',
+          denom: 'usdc.noble',
           exponent: 6
         }],
       typeAsset: 'ics20',
       base: 'ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5',
-      name: 'USDC',
-      display: 'usdc',
-      symbol: 'USDC',
+      name: 'USDC.noble',
+      display: 'usdc.noble',
+      symbol: 'USDC.noble',
       traces: [{
           type: 'additional-mintage',
           counterparty: {
@@ -151,7 +151,8 @@ const info: AssetList = {
           type: 'bridge',
           counterparty: {
             chainName: 'ethereum',
-            baseDenom: 'wei'
+            baseDenom: 'wei',
+            contract: '0x9be9c79f1d8bc09c5b9a6c312e360227ddb57230'
           },
           provider: 'powerflow.asia, titanlab.io'
         }],
@@ -182,7 +183,7 @@ const info: AssetList = {
           counterparty: {
             chainName: 'ethereum',
             baseDenom: '0xdac17f958d2ee523a2206206994597c13d831ec7',
-            contract: '0xdac17f958d2ee523a2206206994597c13d831ec7'
+            contract: '0x9be9c79f1d8bc09c5b9a6c312e360227ddb57230'
           },
           provider: 'powerflow.asia, titanlab.io'
         }],
@@ -193,6 +194,39 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg'
+        }]
+    },
+    {
+      description: 'USDC stablecoin on Titan. Bridge into titan chain from Ethereum to Titan through Titan Power flow bridge https://powerflow.asia/bridge',
+      denomUnits: [{
+          denom: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/usdc',
+          exponent: 0,
+          aliases: ['uusdc']
+        }, {
+          denom: 'usdc',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/usdc',
+      name: 'USDC',
+      display: 'usdc',
+      symbol: 'USDC',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+            contract: '0x9be9c79f1d8bc09c5b9a6c312e360227ddb57230'
+          },
+          provider: 'powerflow.asia, titanlab.io'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
         }]
     }
   ]
