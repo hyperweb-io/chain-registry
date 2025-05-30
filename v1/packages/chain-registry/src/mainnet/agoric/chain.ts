@@ -19,11 +19,6 @@ const info: Chain = {
         low_gas_price: 0.03,
         average_gas_price: 0.05,
         high_gas_price: 0.07
-      }, {
-        denom: 'uist',
-        low_gas_price: 0.0034,
-        average_gas_price: 0.007,
-        high_gas_price: 0.02
       }]
   },
   staking: {
@@ -36,8 +31,8 @@ const info: Chain = {
     genesis: {
       genesis_url: 'https://main.agoric.net/genesis.json'
     },
-    recommended_version: 'agoric-upgrade-19',
-    compatible_versions: ['agoric-upgrade-19'],
+    recommended_version: 'agoric-upgrade-20',
+    compatible_versions: ['agoric-upgrade-20'],
     consensus: {
       type: 'cometbft',
       version: 'v0.34.35',

@@ -211,7 +211,7 @@ const info: AssetList = {
           exponent: 9
         }],
       base: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-sol',
-      name: 'SOL',
+      name: 'Solana',
       display: 'sol',
       symbol: 'SOL',
       traces: [{
@@ -231,6 +231,45 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.svg',
           theme: {
             primary_color_hex: '#3d3d3d'
+          }
+        }],
+      type_asset: 'sdk.coin'
+    },
+    {
+      description: 'Ripple (XRP) on Int3face',
+      denom_units: [{
+          denom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/xrpl-xrp',
+          exponent: 0,
+          aliases: ['drop']
+        }, {
+          denom: 'xrp',
+          exponent: 6
+        }],
+      base: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/xrpl-xrp',
+      name: 'Ripple',
+      display: 'xrp',
+      symbol: 'XRP',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chain_name: 'xrpl',
+            base_denom: 'drop'
+          },
+          provider: 'Int3face'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg'
+      },
+      images: [{
+          image_sync: {
+            chain_name: 'xrpl',
+            base_denom: 'drop'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg',
+          theme: {
+            primary_color_hex: '#040404'
           }
         }],
       type_asset: 'sdk.coin'
