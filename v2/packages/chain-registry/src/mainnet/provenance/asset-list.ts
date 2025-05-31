@@ -26,7 +26,8 @@ const info: AssetList = {
             primaryColorHex: '#4c7cdc'
           }
         }],
-      typeAsset: 'sdk.coin'
+      typeAsset: 'sdk.coin',
+      coingeckoId: 'hash-2'
     }, {
       description: 'USD Coin',
       denomUnits: [{
