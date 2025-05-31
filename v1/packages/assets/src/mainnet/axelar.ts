@@ -3125,6 +3125,7 @@ const assets: AssetList = {
           }
         }],
       type_asset: 'sdk.coin',
+      coingecko_id: 'hash-2',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -11180,6 +11181,7 @@ const assets: AssetList = {
           }
         }],
       type_asset: 'sdk.coin',
+      coingecko_id: 'hash-2',
       traces: [{
           type: 'ibc',
           counterparty: {
