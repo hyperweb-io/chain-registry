@@ -2,7 +2,10 @@ import { AssetList } from '@chain-registry/v2-types';
 const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chainName: 'thorchain',
-  assets: [{
+  assets: [
+    {
+      base: 'rune',
+      typeAsset: 'sdk.coin',
       description: 'The native token of THORChain',
       denomUnits: [{
           denom: 'rune',
@@ -11,20 +14,194 @@ const info: AssetList = {
           denom: 'RUNE',
           exponent: 8
         }],
-      base: 'rune',
-      name: 'THORChain RUNE',
+      name: 'THORChain',
       display: 'RUNE',
       symbol: 'RUNE',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/rune.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/rune.svg'
       },
-      coingeckoId: 'thorchain',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/rune.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/rune.svg'
         }],
-      typeAsset: 'sdk.coin'
-    }]
+      coingeckoId: 'thorchain',
+      keywords: [
+        'crosschain swaps',
+        'native assets',
+        'defi'
+      ],
+      socials: {
+        website: 'https://thorchain.org/',
+        discord: 'https://discord.gg/tW64BraTnX',
+        telegram: 'https://t.me/thorchain_org',
+        twitter: 'https://twitter.com/thorchain'
+      }
+    },
+    {
+      base: 'ruji',
+      typeAsset: 'sdk.coin',
+      description: 'Rujira is the app layer on THORChain with a full suite of DeFi applications, accessible with native assets from all connected chains.',
+      denomUnits: [{
+          denom: 'ruji',
+          exponent: 0
+        }, {
+          denom: 'thor.ruji',
+          exponent: 8
+        }],
+      name: 'Rujira',
+      display: 'thor.ruji',
+      symbol: 'RUJI',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/ruji.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/ruji.png'
+        }],
+      coingeckoId: 'rujira',
+      keywords: [
+        'real yield',
+        'ai',
+        'defi'
+      ],
+      socials: {
+        website: 'https://rujira.network',
+        discord: 'https://discord.gg/XPvsxhWKfb',
+        telegram: 'https://t.me/Rujira_Community',
+        twitter: 'https://x.com/RujiraNetwork'
+      }
+    },
+    {
+      base: 'auto',
+      typeAsset: 'sdk.coin',
+      description: 'AutoRujira maximizes your crypto returns by automating every DeFi opportunity across Rujira and THORChain. From staking to trading, everything runs on autopilot — powered by smart contracts and AI',
+      denomUnits: [{
+          denom: 'auto',
+          exponent: 0
+        }, {
+          denom: 'thor.auto',
+          exponent: 8
+        }],
+      name: 'AutoRujira',
+      display: 'thor.auto',
+      symbol: 'AUTO',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/auto.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/auto.png'
+        }],
+      keywords: [
+        'automation',
+        'ai',
+        'defi'
+      ],
+      socials: {
+        website: 'https://autorujira.app/',
+        discord: 'https://discord.gg/P77vPrnWyr',
+        telegram: 'https://t.me/autorujira',
+        twitter: 'https://x.com/autorujira'
+      }
+    },
+    {
+      base: 'lqdy',
+      typeAsset: 'sdk.coin',
+      description: 'Liquidy is a decentralized autonomous organization running a series of profitable on-chain revenue streams. The primary revenue streams are Market Making and a Swap Router.',
+      denomUnits: [{
+          denom: 'lqdy',
+          exponent: 0
+        }, {
+          denom: 'thor.lqdy',
+          exponent: 8
+        }],
+      name: 'Liquidy',
+      display: 'thor.lqdy',
+      symbol: 'LQDY',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/lqdy.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/lqdy.png'
+        }],
+      keywords: [
+        'dao',
+        'real yield',
+        'market making',
+        'defi'
+      ],
+      socials: {
+        website: 'https://liquidy.finance',
+        discord: 'https://discord.gg/x4dmE9Cfpu',
+        telegram: 'https://t.me/LiquidyFinance',
+        twitter: 'https://x.com/LiquidyFinance'
+      }
+    },
+    {
+      base: 'nami',
+      typeAsset: 'sdk.coin',
+      description: 'Nami provides a suite of DeFi applications including an optimized EARN product and on-chain INDICES for native assets, accessible from any connected chain. Maximize yield. Simplify access. Reduce risk. Grow with Nami',
+      denomUnits: [{
+          denom: 'nami',
+          exponent: 0
+        }, {
+          denom: 'thor.nami',
+          exponent: 8
+        }],
+      name: 'Nami Protocol',
+      display: 'thor.nami',
+      symbol: 'NAMI',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/nami.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/nami.png'
+        }],
+      coingeckoId: 'nami-protocol',
+      keywords: [
+        'savings',
+        'real yield',
+        'defi'
+      ],
+      socials: {
+        website: 'https://namifi.app/',
+        discord: 'https://discord.gg/WGgUADfxXR',
+        telegram: 'https://t.me/NAMIProtocol',
+        twitter: 'https://twitter.com/NamiProtocol'
+      }
+    },
+    {
+      base: 'tcy',
+      typeAsset: 'sdk.coin',
+      description: 'TCY is the token on THORChain to address the default of THORFi. 10% of all system income is paid to TCY stakers.',
+      denomUnits: [{
+          denom: 'tcy',
+          exponent: 0
+        }, {
+          denom: 'thor.tcy',
+          exponent: 8
+        }],
+      name: 'THORChain TCY',
+      display: 'thor.tcy',
+      symbol: 'TCY',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/tcy.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/tcy.png'
+        }],
+      coingeckoId: 'tcy',
+      keywords: [
+        'THORFi',
+        'real yield',
+        'defi'
+      ],
+      socials: {
+        website: 'https://thorchain.org/',
+        discord: 'https://discord.gg/tW64BraTnX',
+        telegram: 'https://t.me/thorchain_org',
+        twitter: 'https://twitter.com/thorchain'
+      }
+    }
+  ]
 };
 export default info;
