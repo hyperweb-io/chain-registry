@@ -360,6 +360,12 @@ const info: Chain = {
       url: 'https://explorer.bonynode.online/atomone',
       tx_page: 'https://explorer.bonynode.online/atomone/transactions/${txHash}',
       account_page: 'https://explorer.bonynode.online/atomone/account/${accountAddress}'
+    },
+    {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/atomone',
+      tx_page: 'https://explorer.chainroot.io/atomone/transactions/${txHash}',
+      account_page: 'https://explorer.chainroot.io/atomone/accounts/${accountAddress}'
     }
   ],
   images: [{

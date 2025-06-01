@@ -36,9 +36,9 @@ const info: Chain = {
       url: 'https://thorchain.net',
       tx_page: 'https://thorchain.net/#/txs/${txHash}'
     }, {
-      kind: 'viewblock',
-      url: 'https://viewblock.io/thorchain',
-      tx_page: 'https://viewblock.io/thorchain/tx/${txHash}'
+      kind: 'Runescan',
+      url: 'https://runescan.io/',
+      tx_page: 'https://runescan.io/txs/${txHash}'
     }]
 };
 export default info;
