@@ -147,12 +147,12 @@ const info: Chain = {
         provider: 'Node39'
       },
       {
-        address: 'https://elys.mtl.vnodesv.net/rpc',
-        provider: 'vNodes[V] Ser[V]ices'
+        address: 'https://rpc.elys.mtl.vnodesv.net',
+        provider: 'vNodes[V] [NA] Ser[V]ices'
       },
       {
-        address: 'https://elys.rpc.fr.vnodesv.net:443',
-        provider: 'vNodes[V] Ser[V]ices'
+        address: 'https://elys.rpc.fr.vnodesv.net',
+        provider: 'vNodes[V] [EUR] Ser[V]ices'
       },
       {
         address: 'https://elys-rpc.kleomedes.network/',
@@ -237,12 +237,12 @@ const info: Chain = {
         provider: 'Node39'
       },
       {
-        address: 'https://elys.mtl.vnodesv.net/rest',
-        provider: 'vNodes[V] Ser[V]ices'
+        address: 'https://rest.elys.mtl.vnodesv.net',
+        provider: 'vNodes[V] [NA] Ser[V]ices'
       },
       {
         address: 'https://elys.rest.fr.vnodesv.net:443',
-        provider: 'vNodes[V] Ser[V]ices'
+        provider: 'vNodes[V] [EUR] Ser[V]ices'
       },
       {
         address: 'https://elys-api.kleomedes.network/',
