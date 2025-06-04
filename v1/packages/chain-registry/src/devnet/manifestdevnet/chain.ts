@@ -15,10 +15,10 @@ const info: Chain = {
   fees: {
     fee_tokens: [{
         denom: 'umfx',
-        fixed_min_gas_price: 0.05,
-        low_gas_price: 0.5,
-        average_gas_price: 1,
-        high_gas_price: 5
+        fixed_min_gas_price: 1,
+        low_gas_price: 1.05,
+        average_gas_price: 1.1,
+        high_gas_price: 3
       }]
   },
   staking: {
