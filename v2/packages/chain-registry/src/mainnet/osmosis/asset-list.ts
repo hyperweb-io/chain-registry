@@ -24771,6 +24771,43 @@ const info: AssetList = {
             primaryColorHex: '#3d3d3d'
           }
         }]
+    },
+    {
+      description: 'OPHIR is a Cosmos Treasury DAO',
+      extendedDescription: 'The ancient city of gold',
+      denomUnits: [{
+          denom: 'ibc/3AF2E322D4B54BB97EEE24760ED25B725842A9B62C759402AB8AADD75915FD14',
+          exponent: 0,
+          aliases: ['factory/migaloo1t862qdu9mj5hr3j727247acypym3ej47axu22rrapm4tqlcpuseqltxwq5/ophir']
+        }, {
+          denom: 'OPHIR',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/3AF2E322D4B54BB97EEE24760ED25B725842A9B62C759402AB8AADD75915FD14',
+      name: 'Ophir DAO',
+      display: 'OPHIR',
+      symbol: 'OPHIR',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'migaloo',
+            baseDenom: 'factory/migaloo1t862qdu9mj5hr3j727247acypym3ej47axu22rrapm4tqlcpuseqltxwq5/ophir',
+            channelId: 'channel-5'
+          },
+          chain: {
+            channelId: 'channel-642',
+            path: 'transfer/channel-642/factory/migaloo1t862qdu9mj5hr3j727247acypym3ej47axu22rrapm4tqlcpuseqltxwq5/ophir'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ophir.png'
+      },
+      socials: {
+        website: 'https://www.ophirdao.com',
+        twitter: 'https://x.com/OphirDAO'
+      },
+      keywords: ['dao']
     }
   ]
 };
