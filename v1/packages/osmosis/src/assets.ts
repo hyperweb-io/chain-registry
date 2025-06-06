@@ -24691,6 +24691,9 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/STLTH.png'
       },
+      socials: {
+        twitter: 'https://x.com/Stealth_stars'
+      },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/STLTH.png'
         }]
@@ -24715,7 +24718,11 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/MTC.png'
-        }]
+        }],
+      socials: {
+        website: 'https://builder.crmh.xyz/auth',
+        twitter: 'https://x.com/crypmatcha'
+      }
     },
     {
       description: 'Solana (SOL) native coin bridged via Int3face bridge',
