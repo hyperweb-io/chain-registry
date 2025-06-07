@@ -123,7 +123,7 @@ const info: Chain = {
         provider: 'Hypha'
       },
       {
-        address: 'https://cosmos-testnet-grpc.itrocket.net',
+        address: 'cosmos-testnet-grpc.itrocket.net:443',
         provider: 'ITRocket'
       }
     ]

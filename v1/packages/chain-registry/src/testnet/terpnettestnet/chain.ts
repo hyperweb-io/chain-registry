@@ -50,21 +50,12 @@ const info: Chain = {
     rpc: [{
         address: 'https://testnet-rpc.terp.network:443/',
         provider: 'Terpnet Foundation'
-      }, {
-        address: 'https://terp-testnet-rpc.itrocket.net:443/',
-        provider: 'itrocket'
       }],
     rest: [{
         address: 'https://testnet-api.terp.network:443/',
         provider: 'Terpnet Foundation'
-      }, {
-        address: 'https://terp-testnet-api.itrocket.net:443/',
-        provider: 'itrocket'
       }],
-    grpc: [{
-        address: 'terp-testnet-grpc.itrocket.net/',
-        provider: 'itrocket'
-      }]
+    grpc: []
   },
   explorers: [{
       kind: 'Ping Pub',

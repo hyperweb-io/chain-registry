@@ -60,7 +60,7 @@ const info: Chain = {
       },
       {
         address: 'https://elys-testnet-rpc.itrocket.net:443',
-        provider: 'itrocket'
+        provider: 'ITRocket'
       },
       {
         address: 'https://elys-testnet-rpc.publicnode.com:443',
@@ -78,7 +78,7 @@ const info: Chain = {
       },
       {
         address: 'https://elys-testnet-api.itrocket.net',
-        provider: 'itrocket'
+        provider: 'ITRocket'
       },
       {
         address: 'https://elys-testnet-rest.publicnode.com',
@@ -97,7 +97,7 @@ const info: Chain = {
       tx_page: 'https://testnet.ping.pub/elys/tx/${txHash}',
       account_page: 'https://testnet.ping.pub/elys/account/${accountAddress}'
     }, {
-      kind: 'itrocket',
+      kind: 'ITRocket',
       url: 'https://testnet.itrocket.net/elys',
       tx_page: 'https://testnet.itrocket.net/elys/staking/tx/${txHash}',
       account_page: 'https://testnet.itrocket.net/elys/account/${accountAddress}'

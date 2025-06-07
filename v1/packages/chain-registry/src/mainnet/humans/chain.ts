@@ -183,7 +183,7 @@ const info: Chain = {
         provider: 'Nodeist'
       },
       {
-        address: 'humans-mainnet-grpc.itrocket.net:17090',
+        address: 'humans-mainnet-grpc.itrocket.net:443',
         provider: 'itrocket'
       },
       {

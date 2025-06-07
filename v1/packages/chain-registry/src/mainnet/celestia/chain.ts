@@ -171,7 +171,7 @@ const info: Chain = {
       },
       {
         address: 'https://celestia-mainnet-rpc.itrocket.net',
-        provider: '🚀 itrocket 🚀'
+        provider: 'itrocket'
       },
       {
         address: 'https://rpc.celestia.mainnet.dteam.tech:443',
@@ -281,7 +281,7 @@ const info: Chain = {
       },
       {
         address: 'https://celestia-mainnet-api.itrocket.net',
-        provider: '🚀 itrocket 🚀'
+        provider: 'itrocket'
       },
       {
         address: 'https://api.celestia.mainnet.dteam.tech:443',
@@ -374,8 +374,8 @@ const info: Chain = {
         provider: '[NODERS]TEAM'
       },
       {
-        address: 'celestia-mainnet-grpc.itrocket.net:40090',
-        provider: '🚀 itrocket 🚀'
+        address: 'celestia-mainnet-grpc.itrocket.net:443',
+        provider: 'itrocket'
       },
       {
         address: 'grpc.celestia.mainnet.dteam.tech:28090',
@@ -452,7 +452,7 @@ const info: Chain = {
       account_page: 'https://ezstaking.app/celestia/account/${accountAddress}'
     },
     {
-      kind: '🚀 itrocket 🚀',
+      kind: 'itrocket',
       url: 'https://mainnet.itrocket.net/celestia',
       tx_page: 'https://mainnet.itrocket.net/celestia/transaction/${txHash}',
       account_page: 'https://mainnet.itrocket.net/celestia/account/${accountAddress}'

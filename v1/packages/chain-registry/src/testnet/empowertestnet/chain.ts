@@ -49,10 +49,6 @@ const info: Chain = {
         provider: 'NODEJUMPER'
       },
       {
-        address: 'https://empower-testnet-rpc.itrocket.net:443',
-        provider: 'ITRocket'
-      },
-      {
         address: 'https://rpc.circulus-1.empower.aviaone.com:443',
         provider: 'AviaOne'
       }
@@ -83,10 +79,6 @@ const info: Chain = {
         provider: 'NODEJUMPER'
       },
       {
-        address: 'https://empower-testnet-api.itrocket.net:443',
-        provider: 'ITRocket'
-      },
-      {
         address: 'https://api.circulus-1.empower.aviaone.com',
         provider: 'AviaOne'
       }
@@ -107,10 +99,6 @@ const info: Chain = {
       {
         address: 'empower-testnet.nodejumper.io:9090',
         provider: 'NODEJUMPER'
-      },
-      {
-        address: 'empower-testnet-grpc.itrocket.net:16090',
-        provider: 'ITRocket'
       },
       {
         address: 'grpc.circulus-1.empower.aviaone.com:443',
@@ -138,11 +126,6 @@ const info: Chain = {
       kind: 'ping.pub',
       url: 'https://explorer.nodestake.top/empower-testnet',
       tx_page: 'https://explorer.nodestake.top/empower-testnet/tx/${txHash}'
-    },
-    {
-      kind: 'ping.pub',
-      url: 'https://testnet.itrocket.net/empower/staking',
-      tx_page: 'https://testnet.itrocket.net/empower/staking/tx/${txHash}'
     },
     {
       kind: 'ping.pub',

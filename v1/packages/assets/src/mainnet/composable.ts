@@ -1342,6 +1342,76 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The Meow token',
+      type_asset: 'erc20',
+      address: 'BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf',
+      denom_units: [{
+          denom: 'ibc/A9E1F97DE95DD4C7E48B76608216FA2591F9B2DB78C75F349B61BD74A0B6BE5D',
+          exponent: 0,
+          aliases: ['BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf']
+        }, {
+          denom: 'meow',
+          exponent: 8
+        }],
+      base: 'ibc/A9E1F97DE95DD4C7E48B76608216FA2591F9B2DB78C75F349B61BD74A0B6BE5D',
+      name: 'MEOW',
+      display: 'meow',
+      symbol: 'MEOW',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/meow.png'
+      },
+      coingecko_id: 'meow',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/meow.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf',
+            chain_name: 'solana'
+          },
+          chain: {
+            channel_id: 'channel-71'
+          }
+        }]
+    },
+    {
+      description: 'The Oracler AI token',
+      type_asset: 'erc20',
+      address: '5pPkhLEJDMFDHUuE1wW5os5YJeyNUDVmih1DKgMFpB38',
+      denom_units: [{
+          denom: 'ibc/0DACB2211BB6D9C8A85A6882C4128C6428C31855748DADDEF923F171B42D8B2F',
+          exponent: 0,
+          aliases: ['5pPkhLEJDMFDHUuE1wW5os5YJeyNUDVmih1DKgMFpB38']
+        }, {
+          denom: 'oracler',
+          exponent: 6
+        }],
+      base: 'ibc/0DACB2211BB6D9C8A85A6882C4128C6428C31855748DADDEF923F171B42D8B2F',
+      name: 'ORACLER',
+      display: 'oracler',
+      symbol: 'ORACLER',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/oracler.png'
+      },
+      coingecko_id: 'oracler-ai',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/oracler.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: '5pPkhLEJDMFDHUuE1wW5os5YJeyNUDVmih1DKgMFpB38',
+            chain_name: 'solana'
+          },
+          chain: {
+            channel_id: 'channel-71'
+          }
+        }]
+    },
+    {
       description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
       denom_units: [{
           denom: 'ibc/6C42AE3786DF3E1C8520107A7328D268D19AD631A922FB06F7B99005304AB26D',
@@ -4268,6 +4338,76 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-1',
             base_denom: 'ANu4Wuq86WzRU8tykszQUJ66eQzFNfkwap2HcQ5UaFaU',
+            chain_name: 'solana'
+          },
+          chain: {
+            channel_id: 'channel-71'
+          }
+        }]
+    },
+    {
+      description: 'The Meow token',
+      type_asset: 'erc20',
+      address: 'BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf',
+      denom_units: [{
+          denom: 'ibc/A9E1F97DE95DD4C7E48B76608216FA2591F9B2DB78C75F349B61BD74A0B6BE5D',
+          exponent: 0,
+          aliases: ['BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf']
+        }, {
+          denom: 'meow',
+          exponent: 8
+        }],
+      base: 'ibc/A9E1F97DE95DD4C7E48B76608216FA2591F9B2DB78C75F349B61BD74A0B6BE5D',
+      name: 'MEOW',
+      display: 'meow',
+      symbol: 'MEOW',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/meow.png'
+      },
+      coingecko_id: 'meow',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/meow.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf',
+            chain_name: 'solana'
+          },
+          chain: {
+            channel_id: 'channel-71'
+          }
+        }]
+    },
+    {
+      description: 'The Oracler AI token',
+      type_asset: 'erc20',
+      address: '5pPkhLEJDMFDHUuE1wW5os5YJeyNUDVmih1DKgMFpB38',
+      denom_units: [{
+          denom: 'ibc/0DACB2211BB6D9C8A85A6882C4128C6428C31855748DADDEF923F171B42D8B2F',
+          exponent: 0,
+          aliases: ['5pPkhLEJDMFDHUuE1wW5os5YJeyNUDVmih1DKgMFpB38']
+        }, {
+          denom: 'oracler',
+          exponent: 6
+        }],
+      base: 'ibc/0DACB2211BB6D9C8A85A6882C4128C6428C31855748DADDEF923F171B42D8B2F',
+      name: 'ORACLER',
+      display: 'oracler',
+      symbol: 'ORACLER',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/oracler.png'
+      },
+      coingecko_id: 'oracler-ai',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/oracler.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: '5pPkhLEJDMFDHUuE1wW5os5YJeyNUDVmih1DKgMFpB38',
             chain_name: 'solana'
           },
           chain: {
