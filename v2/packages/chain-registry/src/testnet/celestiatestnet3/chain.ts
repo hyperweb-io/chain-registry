@@ -53,7 +53,7 @@ const info: Chain = {
       },
       {
         address: 'https://celestia-testnet-rpc.itrocket.net',
-        provider: '🚀ITRocket🚀'
+        provider: 'itrocket'
       },
       {
         address: 'https://rpc-celestia-testnet.cryptech.com.ua',
@@ -83,7 +83,7 @@ const info: Chain = {
       },
       {
         address: 'https://celestia-testnet-api.itrocket.net',
-        provider: '🚀ITRocket🚀'
+        provider: 'itrocket'
       },
       {
         address: 'https://api-celestia-testnet.cryptech.com.ua',
@@ -108,8 +108,8 @@ const info: Chain = {
         provider: 'Avril 14th'
       },
       {
-        address: 'celestia-testnet-grpc.itrocket.net:11090',
-        provider: '🚀ITRocket🚀'
+        address: 'celestia-testnet-grpc.itrocket.net:443',
+        provider: 'itrocket'
       },
       {
         address: 'https://grpc-celestia-testnet.cryptech.com.ua',
@@ -132,7 +132,7 @@ const info: Chain = {
       txPage: 'https://mintscan.io/celestia-testnet/txs/${txHash}'
     },
     {
-      kind: '🚀ITRocket🚀',
+      kind: 'itrocket',
       url: 'https://testnet.itrocket.net/celestia',
       txPage: 'https://testnet.itrocket.net/celestia/tx/${txHash}',
       accountPage: 'https://testnet.itrocket.net/celestia/account/${accountAddress}'

@@ -654,6 +654,52 @@ const info: AssetList = {
         twitter: 'https://x.com/unicornandmemes'
       },
       keywords: ['meme']
+    },
+    {
+      description: 'The Meow token',
+      typeAsset: 'erc20',
+      address: 'BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf',
+      denomUnits: [{
+          denom: 'BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf',
+          exponent: 0
+        }, {
+          denom: 'meow',
+          exponent: 8
+        }],
+      base: 'BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf',
+      name: 'MEOW',
+      display: 'meow',
+      symbol: 'MEOW',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/meow.png'
+      },
+      coingeckoId: 'meow',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/meow.png'
+        }]
+    },
+    {
+      description: 'The Oracler AI token',
+      typeAsset: 'erc20',
+      address: '5pPkhLEJDMFDHUuE1wW5os5YJeyNUDVmih1DKgMFpB38',
+      denomUnits: [{
+          denom: '5pPkhLEJDMFDHUuE1wW5os5YJeyNUDVmih1DKgMFpB38',
+          exponent: 0
+        }, {
+          denom: 'oracler',
+          exponent: 6
+        }],
+      base: '5pPkhLEJDMFDHUuE1wW5os5YJeyNUDVmih1DKgMFpB38',
+      name: 'ORACLER',
+      display: 'oracler',
+      symbol: 'ORACLER',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/oracler.png'
+      },
+      coingeckoId: 'oracler-ai',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/oracler.png'
+        }]
     }
   ]
 };

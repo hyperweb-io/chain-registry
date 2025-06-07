@@ -111,7 +111,7 @@ const info: Chain = {
       },
       {
         address: 'https://airchains-testnet-rpc.itrocket.net/',
-        provider: 'IT Rocket'
+        provider: 'ITRocket'
       },
       {
         address: 'https://rpc1.airchains.t.cosmostaking.com/',
@@ -165,7 +165,7 @@ const info: Chain = {
       },
       {
         address: 'https://airchains-testnet-api.itrocket.net/',
-        provider: 'IT Rocket'
+        provider: 'ITRocket'
       },
       {
         address: 'https://rest1.airchains.t.cosmostaking.com/',
@@ -191,7 +191,7 @@ const info: Chain = {
       },
       {
         address: 'airchains-testnet-grpc.itrocket.net:443',
-        provider: 'IT Rocket'
+        provider: 'ITRocket'
       },
       {
         address: 'http://grpc1.airchains.t.cosmostaking.com/',
@@ -268,7 +268,7 @@ const info: Chain = {
       accountPage: 'https://cosmotracker.com/airchains/account/${accountAddress}'
     },
     {
-      kind: 'IT Rocket',
+      kind: 'ITRocket',
       url: 'https://testnet.itrocket.net/airchains/',
       txPage: 'https://testnet.itrocket.net/airchains//tx/${txHash}',
       accountPage: 'https://testnet.itrocket.net/airchains/account/${accountAddress}'

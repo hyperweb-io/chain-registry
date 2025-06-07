@@ -67,10 +67,6 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'https://nois-testnet-rpc.itrocket.net:443',
-        provider: 'itrocket'
-      },
-      {
         address: 'https://rpc.nois.mcbnode.online:443',
         provider: 'mcbnode'
       },
@@ -83,20 +79,13 @@ const info: Chain = {
         provider: 'systemd'
       }
     ],
-    grpc: [
-      {
+    grpc: [{
         address: 'tnois-grpc.systemd.run:443',
         provider: 'systemd'
-      },
-      {
+      }, {
         address: 'http://nois.grpc.t.stavr.tech:191',
         provider: '🔥STAVR🔥'
-      },
-      {
-        address: 'nois-testnet-grpc.itrocket.net:21090',
-        provider: 'itrocket'
-      }
-    ],
+      }],
     rest: [
       {
         address: 'https://api.nois.mcbnode.online',

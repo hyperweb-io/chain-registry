@@ -86,21 +86,20 @@ const info: AssetList = {
           exponent: 6
         }],
       base: '0x254d06f33bDc5b8ee05b2ea472107E300226659A',
-      name: 'USD Coin',
+      name: 'Axelar Wrapped aUSDC',
       display: 'ausdc',
       symbol: 'aUSDC',
       traces: [{
-          type: 'test-mintage',
+          type: 'wrapped',
           counterparty: {
-            chainName: 'ethereum',
-            baseDenom: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
+            chainName: 'ethereumtestnet',
+            baseDenom: '0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238'
           },
-          provider: 'Ethereum'
+          provider: 'Axelar'
         }],
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
       },
-      coingeckoId: 'usd-coin',
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
         }]
@@ -152,6 +151,44 @@ const info: AssetList = {
             circle: false,
             primaryColorHex: '#50AF95',
             backgroundColorHex: '#00000000'
+          }
+        }]
+    },
+    {
+      description: 'USDC (USD Coin) is a stablecoin fully backed by US dollars, providing a transparent and regulated digital dollar solution.',
+      extendedDescription: 'USD Coin (USDC) was launched in 2018 as a joint effort between Coinbase and Circle. USDC is a fully reserved stablecoin, meaning each token is backed 1:1 by US dollars held in reserve. This structure is designed to provide transparency and trust, reinforced by regular audits from reputable third-party firms. Initially built on the Ethereum blockchain, USDC has expanded to support multiple blockchain networks, including Algorand, Solana, and more. It is widely used in DeFi protocols, as collateral, and for international transactions, offering a stable and compliant digital dollar solution.',
+      typeAsset: 'erc20',
+      address: '0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238',
+      denomUnits: [{
+          denom: '0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238',
+          exponent: 0
+        }, {
+          denom: 'usdc',
+          exponent: 6
+        }],
+      base: '0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238',
+      name: 'USDC',
+      display: 'usdc',
+      symbol: 'USDC',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
+          },
+          provider: 'Ethereum'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+      },
+      coingeckoId: 'usd-coin',
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          theme: {
+            circle: true,
+            primaryColorHex: '#2775CA'
           }
         }]
     }

@@ -178,7 +178,7 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'uptick-mainnet-grpc.itrocket.net:10090',
+        address: 'uptick-mainnet-grpc.itrocket.net:443',
         provider: 'itrocket'
       },
       {

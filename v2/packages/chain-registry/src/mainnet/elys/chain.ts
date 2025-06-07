@@ -259,10 +259,6 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'elys-testnet-grpc.itrocket.net:38090',
-        provider: 'itrocket'
-      },
-      {
         address: 'elys-grpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },

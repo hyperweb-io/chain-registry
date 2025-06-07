@@ -206,7 +206,7 @@ const info: Chain = {
     ],
     grpc: [
       {
-        address: 'source-mainnet-grpc.itrocket.net:32090',
+        address: 'source-mainnet-grpc.itrocket.net:443',
         provider: 'ITRocket'
       },
       {

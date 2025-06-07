@@ -84,7 +84,7 @@ const info: Chain = {
       },
       {
         address: 'https://lava-testnet-rpc.itrocket.net:443',
-        provider: '🚀ITRocket🚀'
+        provider: 'ITRocket'
       },
       {
         address: 'https://lava-testnet-rpc.ibs.team:443',
@@ -102,7 +102,7 @@ const info: Chain = {
       },
       {
         address: 'https://lava-testnet-api.itrocket.net',
-        provider: '🚀ITRocket🚀'
+        provider: 'ITRocket'
       },
       {
         address: 'https://lava-testnet-api.ibs.team:443',
@@ -130,7 +130,7 @@ const info: Chain = {
       accountPage: 'https://explorer.nodestake.org/lava-testnet/account/${accountAddress}'
     },
     {
-      kind: '🚀ITRocket🚀',
+      kind: 'ITRocket',
       url: 'https://testnet.itrocket.net/lava',
       txPage: 'https://testnet.itrocket.net/lava/tx/${txHash}',
       accountPage: 'https://testnet.itrocket.net/lava/account/${accountAddress}'

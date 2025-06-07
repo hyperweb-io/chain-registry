@@ -133,7 +133,7 @@ const info: AssetList = {
       coingeckoId: 'bitcoin'
     },
     {
-      description: 'Ethereum (ETH) is ETH token bridged from Ethereum to titan chain through Titan Power flow bridge https://powerflow.asia/bridge',
+      description: 'Ethereum (ETH) is ETH token bridged from Ethereum to titan chain through Titan Power flow bridge',
       denomUnits: [{
           denom: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/eth',
           exponent: 0,
@@ -164,7 +164,7 @@ const info: AssetList = {
         }]
     },
     {
-      description: 'Tether\'s USD stablecoin on Titan. Bridge into titan chain through Titan Power flow bridge https://powerflow.asia/bridge',
+      description: 'Tether\'s USD stablecoin on Titan. Bridge into titan chain through Titan Power flow bridge',
       denomUnits: [{
           denom: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/usdt',
           exponent: 0,
@@ -197,7 +197,7 @@ const info: AssetList = {
         }]
     },
     {
-      description: 'USDC stablecoin on Titan. Bridge into titan chain from Ethereum to Titan through Titan Power flow bridge https://powerflow.asia/bridge',
+      description: 'USDC stablecoin on Titan. Bridge into titan chain from Ethereum to Titan through Titan Power flow bridge',
       denomUnits: [{
           denom: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/usdc',
           exponent: 0,
@@ -227,6 +227,97 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+        }]
+    },
+    {
+      description: 'SOL on Titan. Bridge into titan chain from Solana to Titan through Titan Power flow bridge',
+      denomUnits: [{
+          denom: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/sol',
+          exponent: 0,
+          aliases: ['lamport']
+        }, {
+          denom: 'sol',
+          exponent: 9
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/sol',
+      name: 'SOL',
+      display: 'sol',
+      symbol: 'SOL',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'solana',
+            baseDenom: 'So11111111111111111111111111111111111111112',
+            contract: '3FCYJzQBTfZg8rbCpbVEvRPtJsGbhGzfQmJMAkcQ7bi6'
+          },
+          provider: 'powerflow.asia, titanlab.io'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png'
+        }]
+    },
+    {
+      description: 'Meow on Titan. Bridge into titan chain from Solana to Titan through Titan Power flow bridge',
+      denomUnits: [{
+          denom: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/meow',
+          exponent: 0
+        }, {
+          denom: 'meow',
+          exponent: 8
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/meow',
+      name: 'MEOW',
+      display: 'meow',
+      symbol: 'MEOW',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'solana',
+            baseDenom: 'BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf',
+            contract: '3FCYJzQBTfZg8rbCpbVEvRPtJsGbhGzfQmJMAkcQ7bi6'
+          },
+          provider: 'powerflow.asia, titanlab.io'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/meow.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/meow.png'
+        }]
+    },
+    {
+      description: 'Oracler on Titan. Bridge into titan chain from Solana to Titan through Titan Power flow bridge',
+      denomUnits: [{
+          denom: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/oracler',
+          exponent: 0
+        }, {
+          denom: 'oracler',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/oracler',
+      name: 'ORACLER',
+      display: 'oracler',
+      symbol: 'ORACLER',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'solana',
+            baseDenom: '5pPkhLEJDMFDHUuE1wW5os5YJeyNUDVmih1DKgMFpB38',
+            contract: '3FCYJzQBTfZg8rbCpbVEvRPtJsGbhGzfQmJMAkcQ7bi6'
+          },
+          provider: 'powerflow.asia, titanlab.io'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/oracler.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/oracler.png'
         }]
     }
   ]
