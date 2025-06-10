@@ -37,6 +37,15 @@ A unified store of chains info, assets, asset lists, and IBC channels for the Co
 - 🌎 **Pre-generated Asset Lists with IBC Denominations for All Chains** - Access ready-to-use [asset lists](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/assets) across all chains.
 - 🔄 **Conversions for Keplr, Cosmostation** - Easily convert data for use with Keplr and Cosmostation wallets.
 
+## Versions
+
+⚠️ This repository now contains two versions of the chain-registry:
+
+- **v1**: The original version using `snake_case` naming conventions.
+- **v2**: The new, updated version using `camelCase` naming conventions based on developer feedback.
+
+*We encourage developers to migrate to v2 for improved consistency and readability.
+
 ## Usage
 
 ### Using the `chain-registry`
@@ -65,7 +74,7 @@ will output:
       name: 'Osmosis',
       display: 'osmo',
       symbol: 'OSMO',
-      logoUris: [Object],
+      logoURIs: [Object],
       coingeckoId: 'osmosis'
     },
     {
@@ -74,7 +83,7 @@ will output:
       name: 'Ion',
       display: 'ion',
       symbol: 'ION',
-      logoUris: [Object],
+      logoURIs: [Object],
       coingeckoId: 'ion'
     }
   ]
@@ -162,35 +171,35 @@ import { assets } from 'chain-registry/noncosmos';
 
 ## Packages
 
-#### [chain-registry](../chain-registry)
+#### [chain-registry](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/chain-registry)
 
 An npm module for the Official `chain-registry` for the Cosmos ⚛️
 
-#### [@chain-registry/client](../client)
+#### [@chain-registry/client](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/client)
 
 A Client for `chain-registry` that allows you to dynamically fetch data.
 
-#### [@chain-registry/types](../types)
+#### [@chain-registry/types](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/types)
 
 Types for `chain-registry`.
 
-#### [@chain-registry/keplr](../../legacy/keplr)
+#### [@chain-registry/keplr](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/keplr)
 
 Keplr integration for the chain-registry returning keplr's `ChainInfo` type from `@chain-registry/types` `Chain` type.
 
-#### [@chain-registry/assets](../../legacy/assets)
+#### [@chain-registry/assets](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/assets)
 
 Asset lists for the Cosmos ⚛️
 
-#### [@chain-registry/osmosis](../../legacy/osmosis)
+#### [@chain-registry/osmosis](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/osmosis)
 
 Chain Registry info for Osmosis, including asset lists.
 
-#### [@chain-registry/juno](../../legacy/juno)
+#### [@chain-registry/juno](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/juno)
 
 Chain Registry info for Juno, including asset lists.
 
-#### [@chain-registry/utils](../utils)
+#### [@chain-registry/utils](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/utils)
 
 Utility functions for `chain-registry`.
 
@@ -203,6 +212,13 @@ Checkout the repository run yarn to initialize the workspace:
 git clone https://github.com/hyperweb-io/chain-registry
 yarn
 ```
+
+First ensure you have the submodules initialized out before developing:
+
+```
+make init-submodules
+```
+
 ### Building
 
 ```sh
@@ -234,6 +250,22 @@ Finally, commit and publish the code!
 ```sh
 git commit -am "new registry updates"
 lerna publish
+```
+
+### Updating Submodule Data
+
+Use the following Makefile commands to update the data in the submodules. These commands will ensure that your submodules are synchronized with their respective remote repositories.
+
+- **update-registry**: Updates the submodule to the latest commits of the `cosmos/chain-registry` repository. This should be used to pull the most current production data into your local environment.
+
+```
+make update-registry
+```
+
+- **update-fixtures**: Updates the submodule to the latest commits of the `hyperweb-io/chain-registry-fixtures` repository. Use this for testing purposes to ensure that your tests are running against stable, controlled data sets.
+
+```
+make update-fixtures
 ```
 
 ## Interchain JavaScript Stack ⚛️

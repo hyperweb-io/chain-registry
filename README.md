@@ -16,7 +16,7 @@
   </a>
   <br />
   <a href="https://github.com/hyperweb-io/chain-registry/blob/main/LICENSE"><img height="20" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
-  <a href="https://www.npmjs.com/package/chain-registry"><img height="20" src="https://img.shields.io/github/package-json/v/hyperweb-io/chain-registry?filename=v1/packages%2Fchain-registry%2Fpackage.json"></a>
+  <a href="https://www.npmjs.com/package/chain-registry"><img height="20" src="https://img.shields.io/github/package-json/v/hyperweb-io/chain-registry?filename=v2%2Fpackages%2Fchain-registry%2Fpackage.json"></a>
 </p>
 
 The npm package for the Official Cosmos [chain registry](https://github.com/cosmos/chain-registry)
@@ -30,11 +30,11 @@ A unified store of chains info, assets, asset lists, and IBC channels for the Co
 
 ## Features 
 
-- 🌐 **Dynamic Loading via [ChainRegistryClient](https://github.com/hyperweb-io/chain-registry/tree/main/v1/packages/client)** - Utilize the client for dynamic data fetching.
+- 🌐 **Dynamic Loading via [ChainRegistryClient](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/client)** - Utilize the client for dynamic data fetching.
 - 📦 **Tree-Shaking Support** - Optimize your bundles and [include only what you need](#tree-shaking-imports-from-chain-registry).
 - 🔌 **Module Compatibility** - Supports both CommonJS and ES Module formats, ensuring compatibility with various JavaScript environments and tools.
-- 🛠 **Utilities for Working with Assets and Chains** - [Comprehensive tools](https://github.com/hyperweb-io/chain-registry/tree/main/v1/packages/client) to manage assets and chains efficiently.
-- 🌎 **Pre-generated Asset Lists with IBC Denominations for All Chains** - Access ready-to-use [asset lists](ttps://github.com/hyperweb-io/chain-registry/tree/main/v1/packages/assets) across all chains.
+- 🛠 **Utilities for Working with Assets and Chains** - [Comprehensive tools](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/client) to manage assets and chains efficiently.
+- 🌎 **Pre-generated Asset Lists with IBC Denominations for All Chains** - Access ready-to-use [asset lists](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/assets) across all chains.
 - 🔄 **Conversions for Keplr, Cosmostation** - Easily convert data for use with Keplr and Cosmostation wallets.
 
 ## Versions
@@ -45,14 +45,6 @@ A unified store of chains info, assets, asset lists, and IBC channels for the Co
 - **v2**: The new, updated version using `camelCase` naming conventions based on developer feedback.
 
 *We encourage developers to migrate to v2 for improved consistency and readability.
-
-## Developing
-
-First ensure you have the submodules initialized out before developing:
-
-```
-make init-submodules
-```
 
 ## Usage
 
@@ -73,26 +65,26 @@ will output:
 ```js
 {
   '$schema': '../assetlist.schema.json',
-  chain_name: 'osmosis',
+  chainName: 'osmosis',
   assets: [
     {
       description: 'The native token of Osmosis',
-      denom_units: [Array],
+      denomUnits: [Array],
       base: 'uosmo',
       name: 'Osmosis',
       display: 'osmo',
       symbol: 'OSMO',
-      logo_URIs: [Object],
-      coingecko_id: 'osmosis'
+      logoURIs: [Object],
+      coingeckoId: 'osmosis'
     },
     {
-      denom_units: [Array],
+      denomUnits: [Array],
       base: 'uion',
       name: 'Ion',
       display: 'ion',
       symbol: 'ION',
-      logo_URIs: [Object],
-      coingecko_id: 'ion'
+      logoURIs: [Object],
+      coingeckoId: 'ion'
     }
   ]
 }
@@ -179,35 +171,35 @@ import { assets } from 'chain-registry/noncosmos';
 
 ## Packages
 
-#### [chain-registry](https://github.com/hyperweb-io/chain-registry/tree/main/v1/packages/chain-registry)
+#### [chain-registry](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/chain-registry)
 
 An npm module for the Official `chain-registry` for the Cosmos ⚛️
 
-#### [@chain-registry/client](https://github.com/hyperweb-io/chain-registry/tree/main/v1/packages/client)
+#### [@chain-registry/client](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/client)
 
 A Client for `chain-registry` that allows you to dynamically fetch data.
 
-#### [@chain-registry/types](https://github.com/hyperweb-io/chain-registry/tree/main/v1/packages/types)
+#### [@chain-registry/types](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/types)
 
 Types for `chain-registry`.
 
-#### [@chain-registry/keplr](https://github.com/hyperweb-io/chain-registry/tree/main/v1/packages/keplr)
+#### [@chain-registry/keplr](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/keplr)
 
 Keplr integration for the chain-registry returning keplr's `ChainInfo` type from `@chain-registry/types` `Chain` type.
 
-#### [@chain-registry/assets](https://github.com/hyperweb-io/chain-registry/tree/main/v1/packages/assets)
+#### [@chain-registry/assets](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/assets)
 
 Asset lists for the Cosmos ⚛️
 
-#### [@chain-registry/osmosis](https://github.com/hyperweb-io/chain-registry/tree/main/v1/packages/osmosis)
+#### [@chain-registry/osmosis](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/osmosis)
 
 Chain Registry info for Osmosis, including asset lists.
 
-#### [@chain-registry/juno](https://github.com/hyperweb-io/chain-registry/tree/main/v1/packages/juno)
+#### [@chain-registry/juno](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/juno)
 
 Chain Registry info for Juno, including asset lists.
 
-#### [@chain-registry/utils](https://github.com/hyperweb-io/chain-registry/tree/main/v1/packages/utils)
+#### [@chain-registry/utils](https://github.com/hyperweb-io/chain-registry/tree/main/v2/packages/utils)
 
 Utility functions for `chain-registry`.
 
@@ -220,6 +212,13 @@ Checkout the repository run yarn to initialize the workspace:
 git clone https://github.com/hyperweb-io/chain-registry
 yarn
 ```
+
+First ensure you have the submodules initialized out before developing:
+
+```
+make init-submodules
+```
+
 ### Building
 
 ```sh
