@@ -1,4 +1,4 @@
-.PHONY: def update-registry update-fixtures submodule-status
+.PHONY: def update-registry update-fixtures submodule-status init-submodules
 
 def: update-registry update-fixtures
 
@@ -20,3 +20,6 @@ submodule-status:
 	echo "Last 2 commits in repos/chain-registry-fixtures:" && \
 	git log -n 2 --oneline && \
 	cd - >/dev/null
+
+init-submodules:
+	git submodule update --init --recursive

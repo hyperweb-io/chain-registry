@@ -46,6 +46,13 @@ A unified store of chains info, assets, asset lists, and IBC channels for the Co
 
 *We encourage developers to migrate to v2 for improved consistency and readability.
 
+## Developing
+
+First ensure you have the submodules initialized out before developing:
+
+```
+make init-submodules
+```
 
 ## Usage
 
