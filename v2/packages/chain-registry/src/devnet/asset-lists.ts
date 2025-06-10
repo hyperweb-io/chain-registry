@@ -1,4 +1,4 @@
-import { AssetList } from '@chain-registry/v2-types';
+import { AssetList } from '@chain-registry/types';
 
 import * as _bitcannadevnet2 from './bitcannadevnet2';
 import * as _celestiatestnet2 from './celestiatestnet2';

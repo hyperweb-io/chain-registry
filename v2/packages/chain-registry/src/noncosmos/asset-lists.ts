@@ -1,4 +1,4 @@
-import { AssetList } from '@chain-registry/v2-types';
+import { AssetList } from '@chain-registry/types';
 
 import * as _picasso from './picasso';
 import * as _composablepolkadot from './composablepolkadot';

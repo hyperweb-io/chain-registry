@@ -1,4 +1,4 @@
-import { Chain } from '@chain-registry/v2-types';
+import { Chain } from '@chain-registry/types';
 
 import * as _agoricdevnet from './agoricdevnet';
 import * as _airchainstestnet from './airchainstestnet';
