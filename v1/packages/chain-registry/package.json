@@ -28,10 +28,6 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "devDependencies": {
-    "@chain-registry/utils": "^1.51.149",
-    "deepmerge": "^4.2.2"
-  },
   "dependencies": {
     "@chain-registry/types": "^0.50.149"
   },

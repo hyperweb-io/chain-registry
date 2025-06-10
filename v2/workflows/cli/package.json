@@ -37,7 +37,6 @@
     "@chain-registry/interfaces": "^0.52.146",
     "@chain-registry/workflows": "^1.53.146",
     "chalk": "^4.1.0",
-    "deepmerge": "^4.3.1",
     "inquirerer": "1.9.0",
     "minimist": "^1.2.8"
   },

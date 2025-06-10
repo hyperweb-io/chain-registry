@@ -1,5 +1,5 @@
-import { assetLists, chains } from '@chain-registry/v2';
-import { Chain } from '@chain-registry/v2-types';
+import { assetLists, chains } from 'chain-registry';
+import { Chain } from '@chain-registry/types';
 
 import { chainRegistryChainToCosmostation } from '../src/';
 

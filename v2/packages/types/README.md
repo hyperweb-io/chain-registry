@@ -1,4 +1,4 @@
-# @chain-registry/v2-types
+# @chain-registry/types
 
 <p align="center" width="100%">
     <img height="90" src="https://user-images.githubusercontent.com/545047/190171475-b416f99e-2831-4786-9ba3-a7ff4d95b0d3.svg" />
@@ -9,18 +9,18 @@
     <img height="20" src="https://github.com/hyperweb-io/chain-registry/actions/workflows/run-tests.yml/badge.svg" />
   </a>
    <a href="https://github.com/hyperweb-io/chain-registry/blob/main/LICENSE"><img height="20" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
-   <a href="https://www.npmjs.com/package/@chain-registry/v2-types"><img height="20" src="https://img.shields.io/npm/dt/@chain-registry/v2-types"></a>
-   <a href="https://www.npmjs.com/package/@chain-registry/v2-types"><img height="20" src="https://img.shields.io/github/package-json/v/hyperweb-io/chain-registry?filename=v2%2Fpackages%2Ftypes%2Fpackage.json"></a>
+   <a href="https://www.npmjs.com/package/@chain-registry/types"><img height="20" src="https://img.shields.io/npm/dt/@chain-registry/types"></a>
+   <a href="https://www.npmjs.com/package/@chain-registry/types"><img height="20" src="https://img.shields.io/github/package-json/v/hyperweb-io/chain-registry?filename=v2%2Fpackages%2Ftypes%2Fpackage.json"></a>
 </p>
 
-The `@chain-registry/v2-types` module provides TypeScript types derived from the [`cosmos/chain-registry`](https://github.com/cosmos/chain-registry), formatted with camelCase properties for better integration in JavaScript and TypeScript projects. This module is designed to offer developers easy-to-use types for building applications that interact with blockchain data.
+The `@chain-registry/types` module provides TypeScript types derived from the [`cosmos/chain-registry`](https://github.com/cosmos/chain-registry), formatted with camelCase properties for better integration in JavaScript and TypeScript projects. This module is designed to offer developers easy-to-use types for building applications that interact with blockchain data.
 
 ## Installation
 
 To add these types to your project, run the following command:
 
 ```sh
-npm install @chain-registry/v2-types
+npm install @chain-registry/types
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ Here’s how you can use these types in your code:
 
 
 ```js
-import { Chain, AssetList } from '@chain-registry/v2-types';
+import { Chain, AssetList } from '@chain-registry/types';
 
 function displayChainDetails(chain: Chain) {
     console.log(`Chain Name: ${chain.chainName}`);
