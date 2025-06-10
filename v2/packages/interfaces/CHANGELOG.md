@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.52.146 (2025-06-10)
+
+**Note:** Version bump only for package @chain-registry/interfaces
+
+
+
+
+
 ## 0.52.145 (2025-06-07)
 
 **Note:** Version bump only for package @chain-registry/interfaces
