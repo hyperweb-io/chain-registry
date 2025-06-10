@@ -1,4 +1,4 @@
-import { Asset, AssetList, Chain,DenomUnit } from '@chain-registry/v2-types';
+import { Asset, AssetList, Chain,DenomUnit } from '@chain-registry/types';
 
 import { customFind } from './utils';
 
