@@ -72,7 +72,7 @@ The `ChainRegistryClient` constructor accepts an `options` object you can specif
 
 - `ibcNamePairs` (optional): An array of string arrays, where each nested array contains two elements representing a pair of chain names. This setting specifies the Inter-Blockchain Communication (IBC) connections between the chains for which data should be considered. It is particularly useful for limiting the scope of IBC-related data processing.
 
-- `baseUrl` (optional): A string representing the base URL for fetching the chain registry data. If not specified, the client defaults to the official Cosmos chain registry on GitHub (`https://raw.githubusercontent.com/cosmos/chain-registry/master`).
+- `baseUrl` (optional): A string representing the base URL for fetching the chain registry data. If not specified, the client defaults to the official Cosmos chain registry on GitHub (`https://raw.githubusercontent.com/chain-registry/chain-registry/refs/heads/main/registries/camel`).
 
 #### Initialization Examples
 
@@ -173,12 +173,12 @@ import { ChainRegistryFetcher, ChainRegistryFetcherOptions } from '@chain-regist
 
 const options: ChainRegistryFetcherOptions = {
   urls: [
-    'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/chain.json',
-    'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/assetlist.json',
-    'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/assetlist.json',
-    'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/assetlist.json',
-    'https://raw.githubusercontent.com/cosmos/chain-registry/master/_IBC/juno-osmosis.json',
-    'https://raw.githubusercontent.com/cosmos/chain-registry/master/_IBC/osmosis-secretnetwork.json'
+    'https://raw.githubusercontent.com/chain-registry/chain-registry/refs/heads/main/registries/camel/osmosis/chain.json',
+    'https://raw.githubusercontent.com/chain-registry/chain-registry/refs/heads/main/registries/camel/osmosis/assetlist.json',
+    'https://raw.githubusercontent.com/chain-registry/chain-registry/refs/heads/main/registries/camel/juno/assetlist.json',
+    'https://raw.githubusercontent.com/chain-registry/chain-registry/refs/heads/main/registries/camel/secretnetwork/assetlist.json',
+    'https://raw.githubusercontent.com/chain-registry/chain-registry/refs/heads/main/registries/camel/_IBC/juno-osmosis.json',
+    'https://raw.githubusercontent.com/chain-registry/chain-registry/refs/heads/main/registries/camel/_IBC/osmosis-secretnetwork.json'
   ]
 };
 const registry = new ChainRegistryFetcher(options);
@@ -187,7 +187,7 @@ await registry.fetchUrls();
 
 #### Fetching Schemata
 
-We currently only support fetching JSON schemas as defined in https://github.com/cosmos/chain-registry. Supported are `assetlist.schema.json`, `chain.schema.json` and `ibc_data.schema.json`.
+We currently only support fetching JSON schemas as defined in [chain-registry/chain-registry](https://github.com/chain-registry/chain-registry) — the v2 client will support both [`camel`](https://github.com/chain-registry/chain-registry/tree/main/registries/camel) or [`minimal`](https://github.com/chain-registry/chain-registry/tree/main/registries/minimal). Supported are `assetlist.schema.json`, `chain.schema.json` and `ibc_data.schema.json`.
 
 #### fetchUrls
 
