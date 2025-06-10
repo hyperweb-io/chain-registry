@@ -126,6 +126,7 @@ export * as uniontestnet from './uniontestnet';
 export * as upticktestnet from './upticktestnet';
 export * as wardenprotocoltestnet from './wardenprotocoltestnet';
 export * as wavehashtestnet from './wavehashtestnet';
+export * as xarchaintestnet from './xarchaintestnet';
 export * as xiontestnet2 from './xiontestnet2';
 export * as xplatestnet from './xplatestnet';
 export * as xrplevmtestnet from './xrplevmtestnet';

@@ -128,6 +128,7 @@ import * as _uniontestnet from './uniontestnet';
 import * as _upticktestnet from './upticktestnet';
 import * as _wardenprotocoltestnet from './wardenprotocoltestnet';
 import * as _wavehashtestnet from './wavehashtestnet';
+import * as _xarchaintestnet from './xarchaintestnet';
 import * as _xiontestnet2 from './xiontestnet2';
 import * as _xplatestnet from './xplatestnet';
 import * as _xrplevmtestnet from './xrplevmtestnet';
@@ -264,6 +265,7 @@ const assets: AssetList[] = [
   _upticktestnet.assets,
   _wardenprotocoltestnet.assets,
   _wavehashtestnet.assets,
+  _xarchaintestnet.assets,
   _xiontestnet2.assets,
   _xplatestnet.assets,
   _xrplevmtestnet.assets,
