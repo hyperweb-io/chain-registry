@@ -72,7 +72,7 @@ The `ChainRegistryClient` constructor accepts an `options` object you can specif
 
 - `ibcNamePairs` (optional): An array of string arrays, where each nested array contains two elements representing a pair of chain names. This setting specifies the Inter-Blockchain Communication (IBC) connections between the chains for which data should be considered. It is particularly useful for limiting the scope of IBC-related data processing.
 
-- `baseUrl` (optional): A string representing the base URL for fetching the chain registry data. If not specified, the client defaults to the [chain registry on GitHub](`https://raw.githubusercontent.com/chain-registry/chain-registry/refs/heads/main/registries/camel`). The client will support both [`camel`](https://github.com/chain-registry/chain-registry/tree/main/registries/camel) or [`minimal`](https://git.hub.com/chain-registry/chain-registry/tree/main/registries/minimal)
+- `baseUrl` (optional): A string representing the base URL for fetching the chain registry data. If not specified, the client defaults to the [chain registry on GitHub](`https://raw.githubusercontent.com/chain-registry/chain-registry/refs/heads/main/registries/camel`). The client will support both [`camel`](https://github.com/chain-registry/chain-registry/tree/main/registries/camel) or [`minimal`](https://github.com/chain-registry/chain-registry/tree/main/registries/minimal)
 
 #### Initialization Examples
 
