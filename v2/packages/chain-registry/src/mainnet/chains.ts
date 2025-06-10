@@ -1,4 +1,4 @@
-import { Chain } from '@chain-registry/v2-types';
+import { Chain } from '@chain-registry/types';
 
 import * as _ethereum from './ethereum';
 import * as _rootstock from './rootstock';

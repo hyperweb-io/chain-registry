@@ -1,5 +1,5 @@
-import { AssetList, Chain, IBCData } from '@chain-registry/v2-types';
-import { getAssetLists } from '@chain-registry/v2-utils';
+import { AssetList, Chain, IBCData } from '@chain-registry/types';
+import { getAssetLists } from '@chain-registry/utils';
 
 import { ChainRegistryFetcher } from './fetcher';
 

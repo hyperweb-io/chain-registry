@@ -1,4 +1,4 @@
-import { AssetList } from '@chain-registry/v2-types';
+import { AssetList } from '@chain-registry/types';
 const info: AssetList = {
   $schema: '../../assetlist.schema.json',
   chainName: 'int3facetestnet',

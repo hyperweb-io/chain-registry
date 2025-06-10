@@ -1,4 +1,4 @@
-import { AssetList } from '@chain-registry/v2-types';
+import { AssetList } from '@chain-registry/types';
 
 import * as _mainnet from './mainnet/index';
 import * as _testnet from './testnet/index';

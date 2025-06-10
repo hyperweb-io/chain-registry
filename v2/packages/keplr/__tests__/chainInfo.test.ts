@@ -1,4 +1,4 @@
-import { Chain } from '@chain-registry/v2-types';
+import { Chain } from '@chain-registry/types';
 
 import { chainRegistryChainToKeplr } from '../src';
 import { assetLists, chains } from '../test-utils';

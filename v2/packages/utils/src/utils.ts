@@ -1,4 +1,4 @@
-import { AssetList } from '@chain-registry/v2-types';
+import { AssetList } from '@chain-registry/types';
 
 export const customFind = <T>(
   array: T[],

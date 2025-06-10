@@ -2,8 +2,8 @@ import {
   AssetList,
   Chain,
   IBCData
-} from '@chain-registry/v2-types';
-import { getAssetLists } from '@chain-registry/v2-utils';
+} from '@chain-registry/types';
+import { getAssetLists } from '@chain-registry/utils';
 import { basename } from 'bfs-path';
 import fetch from 'cross-fetch';
 

@@ -1,4 +1,4 @@
-import { Asset, AssetList, Chain } from '@chain-registry/v2-types';
+import { Asset, AssetList, Chain } from '@chain-registry/types';
 import { Bech32Address } from '@keplr-wallet/cosmos';
 import { ChainInfo, Currency, FeeCurrency } from '@keplr-wallet/types';
 import semver from 'semver';

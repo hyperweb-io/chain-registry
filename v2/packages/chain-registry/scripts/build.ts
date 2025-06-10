@@ -10,7 +10,7 @@ const NON_COSMOS_NETWORK_TYPE = 'noncosmos';
 const registryDirInRepoPath = 'repos/chain-registry';
 const registryDir = path.resolve( path.join(__dirname, '/../../../../', registryDirInRepoPath));
 
-const chainRegTypesModule = '@chain-registry/v2-types';
+const chainRegTypesModule = '@chain-registry/types';
 
 // function camelCaseTransform(key: string): string {
 //   return key.replace(/[-_\s]+(.)?/g, (_, c) => c ? c.toUpperCase() : '');

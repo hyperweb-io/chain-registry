@@ -1,12 +1,12 @@
 {
-  "name": "@chain-registry/v2-keplr",
-  "version": "0.0.238",
+  "name": "@chain-registry/keplr",
+  "version": "2.0.0",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "description": "Chain Registry to Keplr",
   "main": "index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",
-  "homepage": "https://github.com/chain-registry/v2-keplr",
+  "homepage": "https://github.com/hyperweb-io/chain-registry",
   "license": "SEE LICENSE IN LICENSE",
   "publishConfig": {
     "access": "public",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chain-registry/v2-keplr"
+    "url": "https://github.com/hyperweb-io/chain-registry"
   },
   "bugs": {
-    "url": "https://github.com/chain-registry/v2-keplr/issues"
+    "url": "https://github.com/hyperweb-io/chain-registry/issues"
   },
   "dependencies": {
-    "@chain-registry/v2": "^1.71.237",
-    "@chain-registry/v2-types": "^0.53.146",
+    "chain-registry": "^2.0.0",
+    "@chain-registry/types": "^2.0.0",
     "@keplr-wallet/cosmos": "0.12.28",
     "@keplr-wallet/crypto": "0.12.28",
     "@types/semver": "^7.5.8",

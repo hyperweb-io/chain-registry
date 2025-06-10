@@ -1,4 +1,4 @@
-import { Chain } from '@chain-registry/v2-types';
+import { Chain } from '@chain-registry/types';
 const info: Chain = {
   $schema: '../chain.schema.json',
   chainName: 'neutron',

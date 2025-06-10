@@ -1,4 +1,4 @@
-import { IBCData } from '@chain-registry/v2-types';
+import { IBCData } from '@chain-registry/types';
 
 import * as _agoricdevnet from './agoricdevnet';
 import * as _akashtestnet from './akashtestnet';

@@ -1,4 +1,4 @@
-import { AssetList, Chain, IBCData } from '@chain-registry/v2-types';
+import { AssetList, Chain, IBCData } from '@chain-registry/types';
 
 import _assets from '../../../../__fixtures__/v2/assets.json';
 import _chains from '../../../../__fixtures__/v2/chains.json';

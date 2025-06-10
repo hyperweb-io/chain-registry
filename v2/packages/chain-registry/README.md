@@ -56,26 +56,26 @@ will output:
 ```js
 {
   '$schema': '../assetlist.schema.json',
-  chain_name: 'osmosis',
+  chainName: 'osmosis',
   assets: [
     {
       description: 'The native token of Osmosis',
-      denom_units: [Array],
+      denomUnits: [Array],
       base: 'uosmo',
       name: 'Osmosis',
       display: 'osmo',
       symbol: 'OSMO',
-      logo_URIs: [Object],
-      coingecko_id: 'osmosis'
+      logoUris: [Object],
+      coingeckoId: 'osmosis'
     },
     {
-      denom_units: [Array],
+      denomUnits: [Array],
       base: 'uion',
       name: 'Ion',
       display: 'ion',
       symbol: 'ION',
-      logo_URIs: [Object],
-      coingecko_id: 'ion'
+      logoUris: [Object],
+      coingeckoId: 'ion'
     }
   ]
 }
@@ -234,22 +234,6 @@ Finally, commit and publish the code!
 ```sh
 git commit -am "new registry updates"
 lerna publish
-```
-
-### Updating Submodule Data
-
-Use the following Makefile commands to update the data in the submodules. These commands will ensure that your submodules are synchronized with their respective remote repositories.
-
-- **update-registry**: Updates the submodule to the latest commits of the `cosmos/chain-registry` repository. This should be used to pull the most current production data into your local environment.
-
-```
-make update-registry
-```
-
-- **update-fixtures**: Updates the submodule to the latest commits of the `hyperweb-io/chain-registry-fixtures` repository. Use this for testing purposes to ensure that your tests are running against stable, controlled data sets.
-
-```
-make update-fixtures
 ```
 
 ## Interchain JavaScript Stack ⚛️
