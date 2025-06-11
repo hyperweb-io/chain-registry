@@ -618,6 +618,87 @@ const info: AssetList = {
         }]
     },
     {
+      description: 'Wrapped Bitcoin on Pryzm',
+      denomUnits: [{
+          denom: 'ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB',
+          exponent: 0
+        }, {
+          denom: 'wbtc',
+          exponent: 8
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB',
+      name: 'Wrapped Bitcoin',
+      display: 'wbtc',
+      symbol: 'WBTC',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'cosmoshub',
+            baseDenom: 'ibc/D742E8566B0B8CC8F569D950051C09CF57988A88F0E45574BFB3079D41DE6462',
+            channelId: 'channel-859'
+          },
+          chain: {
+            channelId: 'channel-0',
+            path: 'transfer/channel-0/transfer/08-wasm-1369/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'cosmoshub',
+            baseDenom: 'ibc/D742E8566B0B8CC8F569D950051C09CF57988A88F0E45574BFB3079D41DE6462'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg',
+          theme: {
+            primaryColorHex: '#f39444'
+          }
+        }]
+    },
+    {
+      description: 'Midas BTC Yield Token',
+      denomUnits: [{
+          denom: 'ibc/3FC3D99F9E5003057353AD968A6E3AC12AE50741B41441666BAB3890485C9D00',
+          exponent: 0
+        }, {
+          denom: 'mBTC',
+          exponent: 18
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/3FC3D99F9E5003057353AD968A6E3AC12AE50741B41441666BAB3890485C9D00',
+      name: 'mBTC',
+      display: 'mBTC',
+      symbol: 'mBTC',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'cosmoshub',
+            baseDenom: 'ibc/62F1A800DCE1AA0FD47B3592DEBB7A8956A383A14A4F756E4881AEA927B21671',
+            channelId: 'channel-859'
+          },
+          chain: {
+            channelId: 'channel-0',
+            path: 'transfer/channel-0/transfer/08-wasm-1369/0x007115416ab6c266329a03b09a8aa39ac2ef7d9d'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'cosmoshub',
+            baseDenom: 'ibc/62F1A800DCE1AA0FD47B3592DEBB7A8956A383A14A4F756E4881AEA927B21671'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.svg'
+        }]
+    },
+    {
       description: 'Pryzm\'s native liquid staking token for ATOM',
       denomUnits: [{
           denom: 'c:uatom',
@@ -2514,6 +2595,98 @@ const info: AssetList = {
       typeAsset: 'sdk.coin'
     },
     {
+      description: 'Pryzm\'s refracted principal token for mBTC with maturity of 30Sep2025',
+      denomUnits: [{
+          denom: 'p:ambtc:30Sep2025',
+          exponent: 0
+        }, {
+          denom: 'pmBTC30Sep2025',
+          exponent: 18
+        }],
+      base: 'p:ambtc:30Sep2025',
+      name: 'pmBTC (30Sep2025)',
+      display: 'pmBTC30Sep2025',
+      symbol: 'pmBTC-30Sep2025',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Pryzm\'s refracted principal token for mBTC with maturity of 31Dec2025',
+      denomUnits: [{
+          denom: 'p:ambtc:31Dec2025',
+          exponent: 0
+        }, {
+          denom: 'pmBTC31Dec2025',
+          exponent: 18
+        }],
+      base: 'p:ambtc:31Dec2025',
+      name: 'pmBTC (31Dec2025)',
+      display: 'pmBTC31Dec2025',
+      symbol: 'pmBTC-31Dec2025',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Pryzm\'s refracted principal token for mBTC with maturity of 31Mar2026',
+      denomUnits: [{
+          denom: 'p:ambtc:31Mar2026',
+          exponent: 0
+        }, {
+          denom: 'pmBTC31Mar2026',
+          exponent: 18
+        }],
+      base: 'p:ambtc:31Mar2026',
+      name: 'pmBTC (31Mar2026)',
+      display: 'pmBTC31Mar2026',
+      symbol: 'pmBTC-31Mar2026',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Pryzm\'s refracted principal token for mBTC with maturity of 30Jun2026',
+      denomUnits: [{
+          denom: 'p:ambtc:30Jun2026',
+          exponent: 0
+        }, {
+          denom: 'pmBTC30Jun2026',
+          exponent: 18
+        }],
+      base: 'p:ambtc:30Jun2026',
+      name: 'pmBTC (30Jun2026)',
+      display: 'pmBTC30Jun2026',
+      symbol: 'pmBTC-30Jun2026',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
       description: 'Pryzm\'s refracted yield token for ATOM with maturity of 30Sep2024',
       denomUnits: [{
           denom: 'y:uatom:30Sep2024',
@@ -4193,6 +4366,98 @@ const info: AssetList = {
       typeAsset: 'sdk.coin'
     },
     {
+      description: 'Pryzm\'s refracted yield token for mBTC with maturity of 30Sep2025',
+      denomUnits: [{
+          denom: 'y:ambtc:30Sep2025',
+          exponent: 0
+        }, {
+          denom: 'ymBTC30Sep2025',
+          exponent: 18
+        }],
+      base: 'y:ambtc:30Sep2025',
+      name: 'ymBTC (30Sep2025)',
+      display: 'ymBTC30Sep2025',
+      symbol: 'ymBTC-30Sep2025',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Pryzm\'s refracted yield token for mBTC with maturity of 31Dec2025',
+      denomUnits: [{
+          denom: 'y:ambtc:31Dec2025',
+          exponent: 0
+        }, {
+          denom: 'ymBTC31Dec2025',
+          exponent: 18
+        }],
+      base: 'y:ambtc:31Dec2025',
+      name: 'ymBTC (31Dec2025)',
+      display: 'ymBTC31Dec2025',
+      symbol: 'ymBTC-31Dec2025',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Pryzm\'s refracted yield token for mBTC with maturity of 31Mar2026',
+      denomUnits: [{
+          denom: 'y:ambtc:31Mar2026',
+          exponent: 0
+        }, {
+          denom: 'ymBTC31Mar2026',
+          exponent: 18
+        }],
+      base: 'y:ambtc:31Mar2026',
+      name: 'ymBTC (31Mar2026)',
+      display: 'ymBTC31Mar2026',
+      symbol: 'ymBTC-31Mar2026',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Pryzm\'s refracted yield token for mBTC with maturity of 30Jun2026',
+      denomUnits: [{
+          denom: 'y:ambtc:30Jun2026',
+          exponent: 0
+        }, {
+          denom: 'ymBTC30Jun2026',
+          exponent: 18
+        }],
+      base: 'y:ambtc:30Jun2026',
+      name: 'ymBTC (30Jun2026)',
+      display: 'ymBTC30Jun2026',
+      symbol: 'ymBTC-30Jun2026',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
       description: 'Pryzm\'s LP token for USDC / USDC.axl pool',
       denomUnits: [{
           denom: 'lp:6:uusdc.axl-uusdc',
@@ -4895,6 +5160,75 @@ const info: AssetList = {
       name: 'sUSDS Boost LP',
       display: 'lp:37:susdsypt-usdc',
       symbol: 'sUSDS-BOOST-LP',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Pryzm\'s LP token for mBTC Yield pool',
+      denomUnits: [{
+          denom: 'lp:38:ambtc',
+          exponent: 0
+        }, {
+          denom: 'lp:38:mbtc',
+          exponent: 18
+        }],
+      base: 'lp:38:ambtc',
+      name: 'mBTC Yield LP',
+      display: 'lp:38:mbtc',
+      symbol: 'mBTC-YIELD-LP',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Pryzm\'s LP token for mBTC Boost pool',
+      denomUnits: [{
+          denom: 'lp:39:ambtcypt-wsat',
+          exponent: 0
+        }, {
+          denom: 'lp:39:mbtcypt-wbtc',
+          exponent: 18
+        }],
+      base: 'lp:39:ambtcypt-wsat',
+      name: 'mBTC Boost LP',
+      display: 'lp:39:mbtcypt-wbtc',
+      symbol: 'mBTC-BOOST-LP',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Pryzm\'s LP token for WBTC / USDC pool',
+      denomUnits: [{
+          denom: 'lp:40:wsat-uusdc',
+          exponent: 0
+        }, {
+          denom: 'lp:40:wbtc-usdc',
+          exponent: 18
+        }],
+      base: 'lp:40:wsat-uusdc',
+      name: 'WBTC / USDC LP',
+      display: 'lp:40:wbtc-usdc',
+      symbol: 'WBTC-USDC-LP',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'

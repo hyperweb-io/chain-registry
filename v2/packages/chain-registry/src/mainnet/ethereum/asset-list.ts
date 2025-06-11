@@ -2051,6 +2051,26 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.svg'
       },
       coingeckoId: 'susds'
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0x007115416ab6c266329a03b09a8aa39ac2ef7d9d',
+      denomUnits: [{
+          denom: '0x007115416ab6c266329a03b09a8aa39ac2ef7d9d',
+          exponent: 0
+        }, {
+          denom: 'mBTC',
+          exponent: 18
+        }],
+      base: '0x007115416ab6c266329a03b09a8aa39ac2ef7d9d',
+      name: 'Midas BTC Yield Token',
+      display: 'mBTC',
+      symbol: 'mBTC.midas',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.svg'
+      },
+      coingeckoId: 'midas-btc-yield-token'
     }
   ]
 };

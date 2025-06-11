@@ -670,6 +670,91 @@ const info: AssetList = {
         twitter: 'https://x.com/OphirDAO'
       },
       keywords: ['dao']
+    },
+    {
+      description: 'Midas mBTC on the Cosmos Hub',
+      denomUnits: [{
+          denom: 'ibc/62F1A800DCE1AA0FD47B3592DEBB7A8956A383A14A4F756E4881AEA927B21671',
+          exponent: 0
+        }, {
+          denom: 'mBTC',
+          exponent: 18
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/62F1A800DCE1AA0FD47B3592DEBB7A8956A383A14A4F756E4881AEA927B21671',
+      name: 'Midas BTC Yield Token',
+      display: 'mBTC',
+      symbol: 'mBTC.midas',
+      traces: [{
+          type: 'ibc-bridge',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x007115416ab6c266329a03b09a8aa39ac2ef7d9d',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: '08-wasm-1369',
+            path: 'transfer/08-wasm-1369/0x007115416ab6c266329a03b09a8aa39ac2ef7d9d'
+          },
+          provider: 'Eureka'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x007115416ab6c266329a03b09a8aa39ac2ef7d9d'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.svg'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.svg'
+      }
+    },
+    {
+      description: 'Pax Gold on the Cosmos Hub',
+      denomUnits: [{
+          denom: 'ibc/09E95F57939E344EE36109AC41780B8A51F1FE0548A5203C5957674FF64C0F26',
+          exponent: 0
+        }, {
+          denom: 'paxg',
+          exponent: 18
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/09E95F57939E344EE36109AC41780B8A51F1FE0548A5203C5957674FF64C0F26',
+      name: 'Pax Gold',
+      display: 'paxg',
+      symbol: 'PAXG',
+      traces: [{
+          type: 'ibc-bridge',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x45804880De22913dAFE09f4980848ECE6EcbAf78',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: '08-wasm-1369',
+            path: 'transfer/08-wasm-1369/0x45804880de22913dafe09f4980848ece6ecbaf78'
+          },
+          provider: 'Eureka'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x45804880De22913dAFE09f4980848ECE6EcbAf78'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png',
+          theme: {
+            circle: true,
+            primaryColorHex: '#D8A24A',
+            backgroundColorHex: '#D8A24A'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg'
+      }
     }
   ]
 };

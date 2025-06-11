@@ -63,11 +63,11 @@ const info: Chain = {
   description: 'Arcana\'s Chain Abstraction provides a unified balance on apps to spend on any chain, without swapping, bridging, or refuelling gas',
   apis: {
     rpc: [{
-        address: 'https://cosmos01-dev.arcana.network',
+        address: 'https://cosmos01-dev.arcana.network:26650',
         provider: 'arcana'
       }],
     rest: [{
-        address: 'https://cosmos01-dev.arcana.network:26650',
+        address: 'https://cosmos01-dev.arcana.network',
         provider: 'arcana'
       }],
     grpc: [{

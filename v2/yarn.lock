@@ -291,25 +291,6 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@chain-registry/types@^0.46.14":
-  version "0.46.15"
-  resolved "https://registry.yarnpkg.com/@chain-registry/types/-/types-0.46.15.tgz#f4c0219fb7060d97cb224b55f349adb1d436aac9"
-  integrity sha512-gzf+pkAbEZ7fKuTuwmrEAEcx1K/BNrKuCnB9s+WwSo9Ad/3s+GV5LOXcOOxjjHh9Mrs9kvnxKvzKjOwWu8gDJw==
-
-"@chain-registry/types@^0.50.0":
-  version "0.50.0"
-  resolved "https://registry.yarnpkg.com/@chain-registry/types/-/types-0.50.0.tgz#e92612ec955c15f4573e03959498854748190e95"
-  integrity sha512-77TY/i3lPPQRQGBl0PFrb8+k3rbjIb4LOSsmK49mlMSPUNeJ3Wcx3Donnm2XvdpQDH5aeCofWOPonZ2/3XoibQ==
-
-"@chain-registry/utils@^1.47.14":
-  version "1.51.0"
-  resolved "https://registry.yarnpkg.com/@chain-registry/utils/-/utils-1.51.0.tgz#e834fa876f93a0c54cabd977fc7e67a64521b959"
-  integrity sha512-A4ae/nF9/cr11JdTJV6o0wM5q3yUWklYGuMhvB3Eyh5CZoulYFMgorlGNMyqkI8DJddvP3kxlXtnTsAlZwjtgw==
-  dependencies:
-    "@chain-registry/types" "^0.50.0"
-    bignumber.js "9.1.2"
-    sha.js "^2.4.11"
-
 "@cosmostation/extension-client@0.1.15":
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/@cosmostation/extension-client/-/extension-client-0.1.15.tgz#cdc6d8fce42217704c1c0d5814f0ee7ce27e8dab"
@@ -2298,13 +2279,6 @@ caniuse-lite@^1.0.30001663:
   version "1.0.30001668"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001668.tgz#98e214455329f54bf7a4d70b49c9794f0fbedbed"
   integrity sha512-nWLrdxqCdblixUO+27JtGJJE/txpJlyUy5YN1u53wLZkP0emYCo5zgS6QYft7VUYR42LGgi/S5hdLZTrnyIddw==
-
-chain-registry@^1.64.16:
-  version "1.69.0"
-  resolved "https://registry.yarnpkg.com/chain-registry/-/chain-registry-1.69.0.tgz#3d20b8ac886e266d683176b4e7069b38e272a5e1"
-  integrity sha512-jNDHQrtF7qwqvQBF+1FylyKxTkUofD5MD/wVFshlmGciOjLR8Amh4wC0zPzeWrJsOWUihvYFR8qPpjCgT1YvTw==
-  dependencies:
-    "@chain-registry/types" "^0.50.0"
 
 chalk@4.1.0:
   version "4.1.0"

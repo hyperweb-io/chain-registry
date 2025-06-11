@@ -1309,6 +1309,20 @@ const info: IBCData[] = [
           status: 'live',
           preferred: true
         }
+      }, {
+        chain1: {
+          channelId: 'channel-10381',
+          portId: 'icqhost'
+        },
+        chain2: {
+          channelId: 'channel-10',
+          portId: 'feeabs'
+        },
+        ordering: 'unordered',
+        version: 'icq-1',
+        tags: {
+          status: 'live'
+        }
       }]
   },
   {
