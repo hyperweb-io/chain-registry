@@ -5805,7 +5805,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native staking token of Terra.',
+      description: 'The native staking token of Terra Phoenix.',
       denom_units: [{
           denom: 'ibc/28DECFA7FB7E3AB58DC3B3AEA9B11C6C6B6E46356DCC26505205DAD3379984F5',
           exponent: 0,
@@ -5831,8 +5831,8 @@ const assets: AssetList = {
           }
         }],
       socials: {
-        website: 'https://www.terra.money/',
-        twitter: 'https://twitter.com/terra_money'
+        website: 'https://www.phoenix.money/',
+        twitter: 'https://twitter.com/phoenix_dir'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -7177,7 +7177,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native staking token of Terra.',
+      description: 'The native staking token of Terra Phoenix.',
       denom_units: [{
           denom: 'ibc/28DECFA7FB7E3AB58DC3B3AEA9B11C6C6B6E46356DCC26505205DAD3379984F5',
           exponent: 0,
@@ -7203,8 +7203,8 @@ const assets: AssetList = {
           }
         }],
       socials: {
-        website: 'https://www.terra.money/',
-        twitter: 'https://twitter.com/terra_money'
+        website: 'https://www.phoenix.money/',
+        twitter: 'https://twitter.com/phoenix_dir'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -15434,6 +15434,47 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'A Terra native overcollateralized USD stablecoin, powered by Capapult Finance.',
+      denom_units: [{
+          denom: 'ibc/F8A11BBB96DEBCE9D86791E7CBABCFA77ECD829F77899E0CFBAF69646679ECFA',
+          exponent: 0,
+          aliases: ['cw20:terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst']
+        }, {
+          denom: 'solid',
+          exponent: 6
+        }],
+      type_asset: 'cw20',
+      address: 'terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst',
+      base: 'ibc/F8A11BBB96DEBCE9D86791E7CBABCFA77ECD829F77899E0CFBAF69646679ECFA',
+      name: 'Solid USD',
+      display: 'solid',
+      symbol: 'SOLID',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.svg',
+          theme: {
+            primary_color_hex: '#040404'
+          }
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+            channel_id: 'channel-382',
+            base_denom: 'cw20:terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst',
+            chain_name: 'terra2'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-127'
+          }
+        }]
+    },
+    {
       description: 'Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.',
       denom_units: [{
           denom: 'ibc/8E402953590C8E96E6386B8E4D886F2C32C4FCBC9DF62A3192166A1B1758FAFB',
@@ -16756,6 +16797,47 @@ const assets: AssetList = {
             port: 'wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
             channel_id: 'channel-382',
             base_denom: 'cw20:terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490',
+            chain_name: 'terra2'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-127'
+          }
+        }]
+    },
+    {
+      description: 'A Terra native overcollateralized USD stablecoin, powered by Capapult Finance.',
+      denom_units: [{
+          denom: 'ibc/F8A11BBB96DEBCE9D86791E7CBABCFA77ECD829F77899E0CFBAF69646679ECFA',
+          exponent: 0,
+          aliases: ['cw20:terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst']
+        }, {
+          denom: 'solid',
+          exponent: 6
+        }],
+      type_asset: 'cw20',
+      address: 'terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst',
+      base: 'ibc/F8A11BBB96DEBCE9D86791E7CBABCFA77ECD829F77899E0CFBAF69646679ECFA',
+      name: 'Solid USD',
+      display: 'solid',
+      symbol: 'SOLID',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.svg',
+          theme: {
+            primary_color_hex: '#040404'
+          }
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au',
+            channel_id: 'channel-382',
+            base_denom: 'cw20:terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst',
             chain_name: 'terra2'
           },
           chain: {

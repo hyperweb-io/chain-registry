@@ -4,7 +4,7 @@ const info: Chain = {
   chain_name: 'terra2',
   status: 'live',
   network_type: 'mainnet',
-  website: 'https://www.terra.money/',
+  website: 'https://www.phoenix.money/',
   pretty_name: 'Terra',
   chain_type: 'cosmos',
   chain_id: 'phoenix-1',
@@ -27,12 +27,12 @@ const info: Chain = {
       }]
   },
   codebase: {
-    git_repo: 'https://github.com/terra-money/core/',
-    recommended_version: 'v2.12.4',
-    compatible_versions: ['v2.12.4'],
+    git_repo: 'https://github.com/phoenix-directive/core/',
+    recommended_version: 'v2.16.0',
+    compatible_versions: ['v2.16.0'],
     binaries: {
-      "linux/arm64": 'https://github.com/terra-money/core/releases/download/v2.12.4/terra_2.12.4_Linux_arm64.tar.gz',
-      "linux/amd64": 'https://github.com/terra-money/core/releases/download/v2.12.4/terra_2.12.4_Linux_x86_64.tar.gz'
+      "linux/arm64": 'https://github.com/phoenix-directive/core/releases/download/v2.16.0/terra_2.16.0_Linux_arm64.tar.gz',
+      "linux/amd64": 'https://github.com/phoenix-directive/core/releases/download/v2.16.0/terra_2.16.0_Linux_x86_64.tar.gz'
     },
     genesis: {
       name: 'v2.0',
@@ -190,6 +190,18 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'mintscan',
+      url: 'https://www.mintscan.io/terra',
+      tx_page: 'https://www.mintscan.io/terra/transactions/${txHash}',
+      account_page: 'https://www.mintscan.io/terra/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Chainscope',
+      url: 'https://chainsco.pe/terra2',
+      tx_page: 'https://chainsco.pe/terra2/tx/${txHash}',
+      account_page: 'https://chainsco.pe/terra2/address/${accountAddress}'
+    },
+    {
       kind: 'atomscan',
       url: 'https://atomscan.com/terra2',
       tx_page: 'https://atomscan.com/terra2/transactions/${txHash}',
@@ -211,12 +223,6 @@ const info: Chain = {
       kind: 'Stakeflow',
       url: 'https://stakeflow.io/terra',
       account_page: 'https://stakeflow.io/terra/accounts/${accountAddress}'
-    },
-    {
-      kind: 'mintscan',
-      url: 'https://www.mintscan.io/terra',
-      tx_page: 'https://www.mintscan.io/terra/transactions/${txHash}',
-      account_page: 'https://www.mintscan.io/terra/accounts/${accountAddress}'
     },
     {
       kind: 'Chainroot',

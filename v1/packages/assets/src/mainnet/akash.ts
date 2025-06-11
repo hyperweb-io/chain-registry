@@ -962,7 +962,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native staking token of Terra.',
+      description: 'The native staking token of Terra Phoenix.',
       denom_units: [{
           denom: 'ibc/58B230EC118D010C49CDC427368D10AE9C0F4722DD14720AD9915521E13283FA',
           exponent: 0,
@@ -988,8 +988,8 @@ const assets: AssetList = {
           }
         }],
       socials: {
-        website: 'https://www.terra.money/',
-        twitter: 'https://twitter.com/terra_money'
+        website: 'https://www.phoenix.money/',
+        twitter: 'https://twitter.com/phoenix_dir'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1964,7 +1964,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native staking token of Terra.',
+      description: 'The native staking token of Terra Phoenix.',
       denom_units: [{
           denom: 'ibc/58B230EC118D010C49CDC427368D10AE9C0F4722DD14720AD9915521E13283FA',
           exponent: 0,
@@ -1990,8 +1990,8 @@ const assets: AssetList = {
           }
         }],
       socials: {
-        website: 'https://www.terra.money/',
-        twitter: 'https://twitter.com/terra_money'
+        website: 'https://www.phoenix.money/',
+        twitter: 'https://twitter.com/phoenix_dir'
       },
       type_asset: 'sdk.coin',
       traces: [{

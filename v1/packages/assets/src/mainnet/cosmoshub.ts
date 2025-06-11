@@ -7906,6 +7906,146 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Pryzm\'s refracted principal token for mBTC with maturity of 30Sep2025',
+      denom_units: [{
+          denom: 'ibc/CB508F5319817CCE291F8380970E1C69C22622035B4E5E53605B529BEB619046',
+          exponent: 0,
+          aliases: ['p:ambtc:30Sep2025']
+        }, {
+          denom: 'pmBTC30Sep2025',
+          exponent: 18
+        }],
+      base: 'ibc/CB508F5319817CCE291F8380970E1C69C22622035B4E5E53605B529BEB619046',
+      name: 'pmBTC (30Sep2025)',
+      display: 'pmBTC30Sep2025',
+      symbol: 'pmBTC-30Sep2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'p:ambtc:30Sep2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted principal token for mBTC with maturity of 31Dec2025',
+      denom_units: [{
+          denom: 'ibc/AA0ECCEB5AFA314007B0DDD1DE7004B51BDA33A615423F29E90D142D586C796B',
+          exponent: 0,
+          aliases: ['p:ambtc:31Dec2025']
+        }, {
+          denom: 'pmBTC31Dec2025',
+          exponent: 18
+        }],
+      base: 'ibc/AA0ECCEB5AFA314007B0DDD1DE7004B51BDA33A615423F29E90D142D586C796B',
+      name: 'pmBTC (31Dec2025)',
+      display: 'pmBTC31Dec2025',
+      symbol: 'pmBTC-31Dec2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'p:ambtc:31Dec2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted principal token for mBTC with maturity of 31Mar2026',
+      denom_units: [{
+          denom: 'ibc/A6C0D273DA5A1C4B5CBBD43BDC80A0077B78A9EC3190C4D99678728EFC26C942',
+          exponent: 0,
+          aliases: ['p:ambtc:31Mar2026']
+        }, {
+          denom: 'pmBTC31Mar2026',
+          exponent: 18
+        }],
+      base: 'ibc/A6C0D273DA5A1C4B5CBBD43BDC80A0077B78A9EC3190C4D99678728EFC26C942',
+      name: 'pmBTC (31Mar2026)',
+      display: 'pmBTC31Mar2026',
+      symbol: 'pmBTC-31Mar2026',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'p:ambtc:31Mar2026',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted principal token for mBTC with maturity of 30Jun2026',
+      denom_units: [{
+          denom: 'ibc/305E4EB0F1C52E75B04E1B86D4792321DD200B493C80BAF2B7BD189C0A10315B',
+          exponent: 0,
+          aliases: ['p:ambtc:30Jun2026']
+        }, {
+          denom: 'pmBTC30Jun2026',
+          exponent: 18
+        }],
+      base: 'ibc/305E4EB0F1C52E75B04E1B86D4792321DD200B493C80BAF2B7BD189C0A10315B',
+      name: 'pmBTC (30Jun2026)',
+      display: 'pmBTC30Jun2026',
+      symbol: 'pmBTC-30Jun2026',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'p:ambtc:30Jun2026',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
       description: 'Pryzm\'s refracted yield token for ATOM with maturity of 30Sep2024',
       denom_units: [{
           denom: 'ibc/C86D786359DAD71365E2D95D7801F6BE500C8F911A1B891E8901D65007A7E7E9',
@@ -10461,6 +10601,146 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Pryzm\'s refracted yield token for mBTC with maturity of 30Sep2025',
+      denom_units: [{
+          denom: 'ibc/190E7E4E85A2948FC5AD63867F0A39BBF36BBF729643E8E6E3768D05893BDAC0',
+          exponent: 0,
+          aliases: ['y:ambtc:30Sep2025']
+        }, {
+          denom: 'ymBTC30Sep2025',
+          exponent: 18
+        }],
+      base: 'ibc/190E7E4E85A2948FC5AD63867F0A39BBF36BBF729643E8E6E3768D05893BDAC0',
+      name: 'ymBTC (30Sep2025)',
+      display: 'ymBTC30Sep2025',
+      symbol: 'ymBTC-30Sep2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'y:ambtc:30Sep2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted yield token for mBTC with maturity of 31Dec2025',
+      denom_units: [{
+          denom: 'ibc/8363CB64BB478C728F32986083DF8DB41D69487B68EE7DA23A58CFE093B89487',
+          exponent: 0,
+          aliases: ['y:ambtc:31Dec2025']
+        }, {
+          denom: 'ymBTC31Dec2025',
+          exponent: 18
+        }],
+      base: 'ibc/8363CB64BB478C728F32986083DF8DB41D69487B68EE7DA23A58CFE093B89487',
+      name: 'ymBTC (31Dec2025)',
+      display: 'ymBTC31Dec2025',
+      symbol: 'ymBTC-31Dec2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'y:ambtc:31Dec2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted yield token for mBTC with maturity of 31Mar2026',
+      denom_units: [{
+          denom: 'ibc/D681BC0D3F76F841B8A1F11BC87A203F6E08CE15C470D4010A6D0034067BDFC6',
+          exponent: 0,
+          aliases: ['y:ambtc:31Mar2026']
+        }, {
+          denom: 'ymBTC31Mar2026',
+          exponent: 18
+        }],
+      base: 'ibc/D681BC0D3F76F841B8A1F11BC87A203F6E08CE15C470D4010A6D0034067BDFC6',
+      name: 'ymBTC (31Mar2026)',
+      display: 'ymBTC31Mar2026',
+      symbol: 'ymBTC-31Mar2026',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'y:ambtc:31Mar2026',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted yield token for mBTC with maturity of 30Jun2026',
+      denom_units: [{
+          denom: 'ibc/A6E6BF6DA2A643AC905E0384089E26116CF6DDB7555F52C20BA4C11EDDF91725',
+          exponent: 0,
+          aliases: ['y:ambtc:30Jun2026']
+        }, {
+          denom: 'ymBTC30Jun2026',
+          exponent: 18
+        }],
+      base: 'ibc/A6E6BF6DA2A643AC905E0384089E26116CF6DDB7555F52C20BA4C11EDDF91725',
+      name: 'ymBTC (30Jun2026)',
+      display: 'ymBTC30Jun2026',
+      symbol: 'ymBTC-30Jun2026',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'y:ambtc:30Jun2026',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
       description: 'Pryzm\'s LP token for USDC / USDC.axl pool',
       denom_units: [{
           denom: 'ibc/0507617EF9EAEA71B0F0B711E201EAAFC254F2EF0DC04EA6A44752F23C1B2F8E',
@@ -11546,6 +11826,111 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Pryzm\'s LP token for mBTC Yield pool',
+      denom_units: [{
+          denom: 'ibc/32BB95BC546E4E3CE5409A1DB48976EC05143AFB3963048452A5299CF53133E1',
+          exponent: 0,
+          aliases: ['lp:38:ambtc']
+        }, {
+          denom: 'lp:38:mbtc',
+          exponent: 18
+        }],
+      base: 'ibc/32BB95BC546E4E3CE5409A1DB48976EC05143AFB3963048452A5299CF53133E1',
+      name: 'mBTC Yield LP',
+      display: 'lp:38:mbtc',
+      symbol: 'mBTC-YIELD-LP',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'lp:38:ambtc',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s LP token for mBTC Boost pool',
+      denom_units: [{
+          denom: 'ibc/A41CB80A88E9A47867F59E414CAF48D12867D93CBD976B5D7578B247FC3B2AF2',
+          exponent: 0,
+          aliases: ['lp:39:ambtcypt-wsat']
+        }, {
+          denom: 'lp:39:mbtcypt-wbtc',
+          exponent: 18
+        }],
+      base: 'ibc/A41CB80A88E9A47867F59E414CAF48D12867D93CBD976B5D7578B247FC3B2AF2',
+      name: 'mBTC Boost LP',
+      display: 'lp:39:mbtcypt-wbtc',
+      symbol: 'mBTC-BOOST-LP',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'lp:39:ambtcypt-wsat',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s LP token for WBTC / USDC pool',
+      denom_units: [{
+          denom: 'ibc/8DBC947638A0D1680562A9CE29A22A47E1D52A43B8A5DBD8C161AE7211495F7C',
+          exponent: 0,
+          aliases: ['lp:40:wsat-uusdc']
+        }, {
+          denom: 'lp:40:wbtc-usdc',
+          exponent: 18
+        }],
+      base: 'ibc/8DBC947638A0D1680562A9CE29A22A47E1D52A43B8A5DBD8C161AE7211495F7C',
+      name: 'WBTC / USDC LP',
+      display: 'lp:40:wbtc-usdc',
+      symbol: 'WBTC-USDC-LP',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'lp:40:wsat-uusdc',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
       description: 'QCK - native token of Quicksilver',
       denom_units: [{
           denom: 'ibc/BBB8E7A221C42270ACBEAC5DBC0B26C1AE69DB7802D528F3163D1443FE86E357',
@@ -12281,7 +12666,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native staking token of Terra.',
+      description: 'The native staking token of Terra Phoenix.',
       denom_units: [{
           denom: 'ibc/34CEF8B6A6424C45FE3CCC4A02C9DF9BB38BACC323E08DFFEFE9E4B18BB89AC4',
           exponent: 0,
@@ -12307,8 +12692,8 @@ const assets: AssetList = {
           }
         }],
       socials: {
-        website: 'https://www.terra.money/',
-        twitter: 'https://twitter.com/terra_money'
+        website: 'https://www.phoenix.money/',
+        twitter: 'https://twitter.com/phoenix_dir'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -17978,6 +18363,146 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Pryzm\'s refracted principal token for mBTC with maturity of 30Sep2025',
+      denom_units: [{
+          denom: 'ibc/CB508F5319817CCE291F8380970E1C69C22622035B4E5E53605B529BEB619046',
+          exponent: 0,
+          aliases: ['p:ambtc:30Sep2025']
+        }, {
+          denom: 'pmBTC30Sep2025',
+          exponent: 18
+        }],
+      base: 'ibc/CB508F5319817CCE291F8380970E1C69C22622035B4E5E53605B529BEB619046',
+      name: 'pmBTC (30Sep2025)',
+      display: 'pmBTC30Sep2025',
+      symbol: 'pmBTC-30Sep2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'p:ambtc:30Sep2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted principal token for mBTC with maturity of 31Dec2025',
+      denom_units: [{
+          denom: 'ibc/AA0ECCEB5AFA314007B0DDD1DE7004B51BDA33A615423F29E90D142D586C796B',
+          exponent: 0,
+          aliases: ['p:ambtc:31Dec2025']
+        }, {
+          denom: 'pmBTC31Dec2025',
+          exponent: 18
+        }],
+      base: 'ibc/AA0ECCEB5AFA314007B0DDD1DE7004B51BDA33A615423F29E90D142D586C796B',
+      name: 'pmBTC (31Dec2025)',
+      display: 'pmBTC31Dec2025',
+      symbol: 'pmBTC-31Dec2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'p:ambtc:31Dec2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted principal token for mBTC with maturity of 31Mar2026',
+      denom_units: [{
+          denom: 'ibc/A6C0D273DA5A1C4B5CBBD43BDC80A0077B78A9EC3190C4D99678728EFC26C942',
+          exponent: 0,
+          aliases: ['p:ambtc:31Mar2026']
+        }, {
+          denom: 'pmBTC31Mar2026',
+          exponent: 18
+        }],
+      base: 'ibc/A6C0D273DA5A1C4B5CBBD43BDC80A0077B78A9EC3190C4D99678728EFC26C942',
+      name: 'pmBTC (31Mar2026)',
+      display: 'pmBTC31Mar2026',
+      symbol: 'pmBTC-31Mar2026',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'p:ambtc:31Mar2026',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted principal token for mBTC with maturity of 30Jun2026',
+      denom_units: [{
+          denom: 'ibc/305E4EB0F1C52E75B04E1B86D4792321DD200B493C80BAF2B7BD189C0A10315B',
+          exponent: 0,
+          aliases: ['p:ambtc:30Jun2026']
+        }, {
+          denom: 'pmBTC30Jun2026',
+          exponent: 18
+        }],
+      base: 'ibc/305E4EB0F1C52E75B04E1B86D4792321DD200B493C80BAF2B7BD189C0A10315B',
+      name: 'pmBTC (30Jun2026)',
+      display: 'pmBTC30Jun2026',
+      symbol: 'pmBTC-30Jun2026',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pmBTC.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'p:ambtc:30Jun2026',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
       description: 'Pryzm\'s refracted yield token for ATOM with maturity of 30Sep2024',
       denom_units: [{
           denom: 'ibc/C86D786359DAD71365E2D95D7801F6BE500C8F911A1B891E8901D65007A7E7E9',
@@ -20533,6 +21058,146 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Pryzm\'s refracted yield token for mBTC with maturity of 30Sep2025',
+      denom_units: [{
+          denom: 'ibc/190E7E4E85A2948FC5AD63867F0A39BBF36BBF729643E8E6E3768D05893BDAC0',
+          exponent: 0,
+          aliases: ['y:ambtc:30Sep2025']
+        }, {
+          denom: 'ymBTC30Sep2025',
+          exponent: 18
+        }],
+      base: 'ibc/190E7E4E85A2948FC5AD63867F0A39BBF36BBF729643E8E6E3768D05893BDAC0',
+      name: 'ymBTC (30Sep2025)',
+      display: 'ymBTC30Sep2025',
+      symbol: 'ymBTC-30Sep2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'y:ambtc:30Sep2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted yield token for mBTC with maturity of 31Dec2025',
+      denom_units: [{
+          denom: 'ibc/8363CB64BB478C728F32986083DF8DB41D69487B68EE7DA23A58CFE093B89487',
+          exponent: 0,
+          aliases: ['y:ambtc:31Dec2025']
+        }, {
+          denom: 'ymBTC31Dec2025',
+          exponent: 18
+        }],
+      base: 'ibc/8363CB64BB478C728F32986083DF8DB41D69487B68EE7DA23A58CFE093B89487',
+      name: 'ymBTC (31Dec2025)',
+      display: 'ymBTC31Dec2025',
+      symbol: 'ymBTC-31Dec2025',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'y:ambtc:31Dec2025',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted yield token for mBTC with maturity of 31Mar2026',
+      denom_units: [{
+          denom: 'ibc/D681BC0D3F76F841B8A1F11BC87A203F6E08CE15C470D4010A6D0034067BDFC6',
+          exponent: 0,
+          aliases: ['y:ambtc:31Mar2026']
+        }, {
+          denom: 'ymBTC31Mar2026',
+          exponent: 18
+        }],
+      base: 'ibc/D681BC0D3F76F841B8A1F11BC87A203F6E08CE15C470D4010A6D0034067BDFC6',
+      name: 'ymBTC (31Mar2026)',
+      display: 'ymBTC31Mar2026',
+      symbol: 'ymBTC-31Mar2026',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'y:ambtc:31Mar2026',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s refracted yield token for mBTC with maturity of 30Jun2026',
+      denom_units: [{
+          denom: 'ibc/A6E6BF6DA2A643AC905E0384089E26116CF6DDB7555F52C20BA4C11EDDF91725',
+          exponent: 0,
+          aliases: ['y:ambtc:30Jun2026']
+        }, {
+          denom: 'ymBTC30Jun2026',
+          exponent: 18
+        }],
+      base: 'ibc/A6E6BF6DA2A643AC905E0384089E26116CF6DDB7555F52C20BA4C11EDDF91725',
+      name: 'ymBTC (30Jun2026)',
+      display: 'ymBTC30Jun2026',
+      symbol: 'ymBTC-30Jun2026',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ymBTC.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'y:ambtc:30Jun2026',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
       description: 'Pryzm\'s LP token for USDC / USDC.axl pool',
       denom_units: [{
           denom: 'ibc/0507617EF9EAEA71B0F0B711E201EAAFC254F2EF0DC04EA6A44752F23C1B2F8E',
@@ -21618,6 +22283,111 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Pryzm\'s LP token for mBTC Yield pool',
+      denom_units: [{
+          denom: 'ibc/32BB95BC546E4E3CE5409A1DB48976EC05143AFB3963048452A5299CF53133E1',
+          exponent: 0,
+          aliases: ['lp:38:ambtc']
+        }, {
+          denom: 'lp:38:mbtc',
+          exponent: 18
+        }],
+      base: 'ibc/32BB95BC546E4E3CE5409A1DB48976EC05143AFB3963048452A5299CF53133E1',
+      name: 'mBTC Yield LP',
+      display: 'lp:38:mbtc',
+      symbol: 'mBTC-YIELD-LP',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'lp:38:ambtc',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s LP token for mBTC Boost pool',
+      denom_units: [{
+          denom: 'ibc/A41CB80A88E9A47867F59E414CAF48D12867D93CBD976B5D7578B247FC3B2AF2',
+          exponent: 0,
+          aliases: ['lp:39:ambtcypt-wsat']
+        }, {
+          denom: 'lp:39:mbtcypt-wbtc',
+          exponent: 18
+        }],
+      base: 'ibc/A41CB80A88E9A47867F59E414CAF48D12867D93CBD976B5D7578B247FC3B2AF2',
+      name: 'mBTC Boost LP',
+      display: 'lp:39:mbtcypt-wbtc',
+      symbol: 'mBTC-BOOST-LP',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'lp:39:ambtcypt-wsat',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s LP token for WBTC / USDC pool',
+      denom_units: [{
+          denom: 'ibc/8DBC947638A0D1680562A9CE29A22A47E1D52A43B8A5DBD8C161AE7211495F7C',
+          exponent: 0,
+          aliases: ['lp:40:wsat-uusdc']
+        }, {
+          denom: 'lp:40:wbtc-usdc',
+          exponent: 18
+        }],
+      base: 'ibc/8DBC947638A0D1680562A9CE29A22A47E1D52A43B8A5DBD8C161AE7211495F7C',
+      name: 'WBTC / USDC LP',
+      display: 'lp:40:wbtc-usdc',
+      symbol: 'WBTC-USDC-LP',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'lp:40:wsat-uusdc',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-859'
+          }
+        }]
+    },
+    {
       description: 'QCK - native token of Quicksilver',
       denom_units: [{
           denom: 'ibc/BBB8E7A221C42270ACBEAC5DBC0B26C1AE69DB7802D528F3163D1443FE86E357',
@@ -22353,7 +23123,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native staking token of Terra.',
+      description: 'The native staking token of Terra Phoenix.',
       denom_units: [{
           denom: 'ibc/34CEF8B6A6424C45FE3CCC4A02C9DF9BB38BACC323E08DFFEFE9E4B18BB89AC4',
           exponent: 0,
@@ -22379,8 +23149,8 @@ const assets: AssetList = {
           }
         }],
       socials: {
-        website: 'https://www.terra.money/',
-        twitter: 'https://twitter.com/terra_money'
+        website: 'https://www.phoenix.money/',
+        twitter: 'https://twitter.com/phoenix_dir'
       },
       type_asset: 'sdk.coin',
       traces: [{

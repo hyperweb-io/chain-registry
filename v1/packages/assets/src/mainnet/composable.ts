@@ -1012,6 +1012,38 @@ const assets: AssetList = {
         }]
     },
     {
+      type_asset: 'erc20',
+      address: '0x007115416ab6c266329a03b09a8aa39ac2ef7d9d',
+      denom_units: [{
+          denom: 'ibc/E9E878DA0E50B63A628510676AE5D0207DF135A0CE2319F01FD7F117A5ADD0E5',
+          exponent: 0,
+          aliases: ['0x007115416ab6c266329a03b09a8aa39ac2ef7d9d']
+        }, {
+          denom: 'mBTC',
+          exponent: 18
+        }],
+      base: 'ibc/E9E878DA0E50B63A628510676AE5D0207DF135A0CE2319F01FD7F117A5ADD0E5',
+      name: 'Midas BTC Yield Token',
+      display: 'mBTC',
+      symbol: 'mBTC.midas',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.svg'
+      },
+      coingecko_id: 'midas-btc-yield-token',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0x007115416ab6c266329a03b09a8aa39ac2ef7d9d',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
       description: 'Solana is a high-performance blockchain platform known for its fast transaction speeds, low costs, and scalability, ideal for decentralized applications and crypto projects.',
       denom_units: [{
           denom: 'ibc/C7F9D7DFF5469F53AB878ED0FBE53CC6B8B2720CD0ED09FD65F25343B13517CC',
@@ -3122,6 +3154,38 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-2',
             base_denom: '0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0x007115416ab6c266329a03b09a8aa39ac2ef7d9d',
+      denom_units: [{
+          denom: 'ibc/E9E878DA0E50B63A628510676AE5D0207DF135A0CE2319F01FD7F117A5ADD0E5',
+          exponent: 0,
+          aliases: ['0x007115416ab6c266329a03b09a8aa39ac2ef7d9d']
+        }, {
+          denom: 'mBTC',
+          exponent: 18
+        }],
+      base: 'ibc/E9E878DA0E50B63A628510676AE5D0207DF135A0CE2319F01FD7F117A5ADD0E5',
+      name: 'Midas BTC Yield Token',
+      display: 'mBTC',
+      symbol: 'mBTC.midas',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.svg'
+      },
+      coingecko_id: 'midas-btc-yield-token',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0x007115416ab6c266329a03b09a8aa39ac2ef7d9d',
             chain_name: 'ethereum'
           },
           chain: {

@@ -4820,6 +4820,20 @@ const info: IBCInfo[] = [
           status: 'live',
           preferred: true
         }
+      }, {
+        chain_1: {
+          channel_id: 'channel-98063',
+          port_id: 'icqhost'
+        },
+        chain_2: {
+          channel_id: 'channel-14',
+          port_id: 'feeabs'
+        },
+        ordering: 'unordered',
+        version: 'icq-1',
+        tags: {
+          status: 'live'
+        }
       }]
   },
   {
