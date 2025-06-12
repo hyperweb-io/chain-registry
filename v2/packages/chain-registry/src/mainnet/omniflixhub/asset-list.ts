@@ -300,6 +300,7 @@ const info: AssetList = {
     },
     {
       description: 'GATA Yield DAO Governance Token powered by OmniFlixHub',
+      extendedDescription: 'GATA Yield DAO is a decentralized, community-governed organization focused on sustainable yield generation and resource allocation. Governed by YGATA stakers, GATA Yield DAO is committed to long-term value growth and to support aligned projects in Cosmos/IBC, with decisions made through open and verifiable governance. Designed for equitable participation, GATA Yield DAO prioritizes community benefits and financial sustainability.',
       denomUnits: [{
           denom: 'factory/omniflix1fwphj5p6qd8gtkehkzfgac38eur4uqzgz97uwvf6hsc0vjl004gqfj0xnv/ygata',
           exponent: 0
@@ -322,6 +323,11 @@ const info: AssetList = {
             primaryColorHex: '#7b5aff'
           }
         }],
+      coingeckoId: 'yield-gata',
+      socials: {
+        website: 'https://gatahub.zone',
+        twitter: 'https://x.com/GataHubZone'
+      },
       typeAsset: 'sdk.coin'
     },
     {
