@@ -1,0 +1,29 @@
+import { AssetList } from '@chain-registry/types';
+const info: AssetList = {
+  $schema: '../../assetlist.schema.json',
+  chain_name: 'hippoprotocoltestnet',
+  assets: [{
+      description: 'The native token of Hippo Protocol.',
+      denom_units: [{
+          denom: 'ahp',
+          exponent: 0
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ahp',
+      name: 'Hippo',
+      display: 'ahp',
+      symbol: 'HP',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg'
+        }],
+      coingecko_id: 'hippo-protocol',
+      socials: {
+        website: 'https://hippoprotocol.ai/',
+        twitter: 'https://x.com/Hippo_Protocol'
+      }
+    }]
+};
+export default info;

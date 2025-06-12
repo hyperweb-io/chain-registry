@@ -34461,7 +34461,7 @@ const asset_list: AssetList = {
           }
         }],
       socials: {
-        website: 'https://www.nride.com',
+        website: 'https://www.nride.network',
         twitter: 'https://twitter.com/nRide12'
       },
       traces: [{
@@ -37915,7 +37915,7 @@ const asset_list: AssetList = {
           }
         }],
       socials: {
-        website: 'https://www.nride.com',
+        website: 'https://www.nride.network',
         twitter: 'https://twitter.com/nRide12'
       },
       traces: [{

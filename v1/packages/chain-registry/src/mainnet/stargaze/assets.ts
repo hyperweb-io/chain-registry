@@ -617,6 +617,7 @@ const info: AssetList = {
             primary_color_hex: '#7b5aff'
           }
         }],
+      coingecko_id: 'yield-gata',
       socials: {
         website: 'https://gatahub.zone',
         twitter: 'https://x.com/GataHubZone'
