@@ -75,6 +75,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/medibloc',
+      tx_page: 'https://explorer.chainroot.io/medibloc/transactions/${txHash}',
+      account_page: 'https://explorer.chainroot.io/medibloc/accounts/${accountAddress}'
+    },
+    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/medibloc',
       tx_page: 'https://www.mintscan.io/medibloc/transactions/${txHash}',

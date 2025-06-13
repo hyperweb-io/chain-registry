@@ -209,6 +209,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/agoric',
+      tx_page: 'https://explorer.chainroot.io/agoric/transactions/${txHash}',
+      account_page: 'https://explorer.chainroot.io/agoric/accounts/${accountAddress}'
+    },
+    {
       kind: 'explorers.guru',
       url: 'https://agoric.explorers.guru',
       tx_page: 'https://agoric.explorers.guru/transaction/${txHash}',

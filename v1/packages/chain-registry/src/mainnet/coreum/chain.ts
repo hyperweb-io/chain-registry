@@ -196,6 +196,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/coreum',
+      tx_page: 'https://explorer.chainroot.io/coreum/transactions/${txHash}',
+      account_page: 'https://explorer.chainroot.io/coreum/accounts/${accountAddress}'
+    },
+    {
       kind: 'Coreum',
       url: 'https://explorer.coreum.com/coreum',
       tx_page: 'https://explorer.coreum.com/coreum/transactions/${txHash}',

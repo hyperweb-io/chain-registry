@@ -140,6 +140,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/akash',
+      tx_page: 'https://explorer.chainroot.io/akash/transactions/${txHash}',
+      account_page: 'https://explorer.chainroot.io/akash/accounts/${accountAddress}'
+    },
+    {
       kind: 'ezstaking',
       url: 'https://ezstaking.app/akash',
       tx_page: 'https://ezstaking.app/akash/txs/${txHash}',

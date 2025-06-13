@@ -82,6 +82,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/bostrom',
+      tx_page: 'https://explorer.chainroot.io/bostrom/transactions/${txHash}',
+      account_page: 'https://explorer.chainroot.io/bostrom/accounts/${accountAddress}'
+    },
+    {
       kind: 'cyb',
       url: 'https://cyb.ai/',
       tx_page: 'https://cyb.ai/network/bostrom/tx/${txHash}'

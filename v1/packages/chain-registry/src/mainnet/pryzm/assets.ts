@@ -5310,6 +5310,30 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/photondrop.svg'
         }],
       type_asset: 'sdk.coin'
+    },
+    {
+      description: 'The non-transferable receipt of $SOUL airdrop for Scar Campaign participants',
+      denom_units: [{
+          denom: 'factory/pryzm1fp7uhm334tssvzlg4mk0hsp0kezvcla0vzk22q/uscar',
+          exponent: 0,
+          aliases: ['uscar']
+        }, {
+          denom: 'scar',
+          exponent: 6
+        }],
+      base: 'factory/pryzm1fp7uhm334tssvzlg4mk0hsp0kezvcla0vzk22q/uscar',
+      name: 'SCAR',
+      display: 'scar',
+      symbol: 'SCAR',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/SCAR.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/SCAR.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/SCAR.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/SCAR.svg'
+        }],
+      type_asset: 'sdk.coin'
     }
   ]
 };

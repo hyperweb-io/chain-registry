@@ -1444,6 +1444,41 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The monKEYS token',
+      type_asset: 'erc20',
+      address: '7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw',
+      denom_units: [{
+          denom: 'ibc/C67527D459A753F5ED8F0581E673ED42ED08FB387C20863805EF44437B6689DB',
+          exponent: 0,
+          aliases: ['7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw']
+        }, {
+          denom: 'monKEYS',
+          exponent: 6
+        }],
+      base: 'ibc/C67527D459A753F5ED8F0581E673ED42ED08FB387C20863805EF44437B6689DB',
+      name: 'monKEYS',
+      display: 'monKEYS',
+      symbol: 'MONKEYS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/monkeys.png'
+      },
+      coingecko_id: 'monkeys-2',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/monkeys.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: '7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw',
+            chain_name: 'solana'
+          },
+          chain: {
+            channel_id: 'channel-71'
+          }
+        }]
+    },
+    {
       description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
       denom_units: [{
           denom: 'ibc/6C42AE3786DF3E1C8520107A7328D268D19AD631A922FB06F7B99005304AB26D',
@@ -4472,6 +4507,41 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-1',
             base_denom: '5pPkhLEJDMFDHUuE1wW5os5YJeyNUDVmih1DKgMFpB38',
+            chain_name: 'solana'
+          },
+          chain: {
+            channel_id: 'channel-71'
+          }
+        }]
+    },
+    {
+      description: 'The monKEYS token',
+      type_asset: 'erc20',
+      address: '7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw',
+      denom_units: [{
+          denom: 'ibc/C67527D459A753F5ED8F0581E673ED42ED08FB387C20863805EF44437B6689DB',
+          exponent: 0,
+          aliases: ['7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw']
+        }, {
+          denom: 'monKEYS',
+          exponent: 6
+        }],
+      base: 'ibc/C67527D459A753F5ED8F0581E673ED42ED08FB387C20863805EF44437B6689DB',
+      name: 'monKEYS',
+      display: 'monKEYS',
+      symbol: 'MONKEYS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/monkeys.png'
+      },
+      coingecko_id: 'monkeys-2',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/monkeys.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: '7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw',
             chain_name: 'solana'
           },
           chain: {

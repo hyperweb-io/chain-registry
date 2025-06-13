@@ -431,6 +431,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/dymension',
+      tx_page: 'https://explorer.chainroot.io/dymension/transactions/${txHash}',
+      account_page: 'https://explorer.chainroot.io/dymension/accounts/${accountAddress}'
+    },
+    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/dymension',
       tx_page: 'https://www.mintscan.io/dymension/tx/${txHash}',

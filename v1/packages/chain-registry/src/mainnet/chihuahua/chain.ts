@@ -222,6 +222,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/chihuahua',
+      tx_page: 'https://explorer.chainroot.io/chihuahua/transactions/${txHash}',
+      account_page: 'https://explorer.chainroot.io/chihuahua/accounts/${accountAddress}'
+    },
+    {
       kind: 'ping.pub',
       url: 'https://ping.pub/chihuahua',
       tx_page: 'https://ping.pub/chihuahua/tx/${txHash}'

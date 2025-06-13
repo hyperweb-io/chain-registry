@@ -184,6 +184,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/cheqd',
+      tx_page: 'https://explorer.chainroot.io/cheqd/transactions/${txHash}',
+      account_page: 'https://explorer.chainroot.io/cheqd/accounts/${accountAddress}'
+    },
+    {
       kind: 'bigdipper',
       url: 'https://explorer.cheqd.io',
       tx_page: 'https://explorer.cheqd.io/transactions/${txHash}',

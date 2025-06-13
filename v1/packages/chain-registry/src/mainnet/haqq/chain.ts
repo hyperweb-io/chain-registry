@@ -225,6 +225,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/haqq',
+      tx_page: 'https://explorer.chainroot.io/haqq/transactions/${txHash}',
+      account_page: 'https://explorer.chainroot.io/haqq/accounts/${accountAddress}'
+    },
+    {
       kind: 'blockscout',
       url: 'https://explorer.haqq.network',
       tx_page: 'https://explorer.haqq.network/tx/${txHash}'

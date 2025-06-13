@@ -119,6 +119,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/secret',
+      tx_page: 'https://explorer.chainroot.io/secret/transactions/${txHash}',
+      account_page: 'https://explorer.chainroot.io/secret/accounts/${accountAddress}'
+    },
+    {
       kind: 'ezstaking',
       url: 'https://ezstaking.app/secretnetwork',
       tx_page: 'https://ezstaking.app/secretnetwork/txs/${txHash}',

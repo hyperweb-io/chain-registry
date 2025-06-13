@@ -330,6 +330,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/bitcanna',
+      tx_page: 'https://explorer.chainroot.io/bitcanna/transactions/${txHash}',
+      account_page: 'https://explorer.chainroot.io/bitcanna/accounts/${accountAddress}'
+    },
+    {
       kind: 'EZStaking Tools',
       url: 'https://app.ezstaking.io/bitcanna',
       tx_page: 'https://ezstaking.tools/bitcanna/txs/${txHash}',

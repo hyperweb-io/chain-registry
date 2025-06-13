@@ -136,17 +136,26 @@ const info: Chain = {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png',
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg'
   },
-  explorers: [{
+  explorers: [
+    {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/mantra',
+      tx_page: 'https://explorer.chainroot.io/mantra/transactions/${txHash}',
+      account_page: 'https://explorer.chainroot.io/mantra/accounts/${accountAddress}'
+    },
+    {
       kind: 'ITRocket',
       url: 'https://mainnet.itrocket.net/mantra',
       tx_page: 'https://mainnet.itrocket.net/mantra/transaction/${txHash}',
       account_page: 'https://mainnet.itrocket.net/mantra/account/${accountAddress}'
-    }, {
+    },
+    {
       kind: '🔥STAVR🔥',
       url: 'https://explorer.stavr.tech/Mantra-Mainnet',
       tx_page: 'https://explorer.stavr.tech/Mantra-Mainnet/transaction/${txHash}',
       account_page: 'https://explorer.stavr.tech/Mantra-Mainnet/account/${accountAddress}'
-    }],
+    }
+  ],
   keywords: [
     'rwa',
     'wasm',
