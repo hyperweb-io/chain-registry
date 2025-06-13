@@ -130,6 +130,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/likecoin',
+      txPage: 'https://explorer.chainroot.io/likecoin/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/likecoin/accounts/${accountAddress}'
+    },
+    {
       kind: 'staking-explorer.com',
       url: 'https://staking-explorer.com/explorer/likecoin',
       txPage: 'https://staking-explorer.com/transaction.php?chain=likecoin&tx=${txHash}',

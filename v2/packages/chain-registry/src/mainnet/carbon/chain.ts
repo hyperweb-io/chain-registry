@@ -360,6 +360,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/carbon',
+      txPage: 'https://explorer.chainroot.io/carbon/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/carbon/accounts/${accountAddress}'
+    },
+    {
       kind: 'carbonscan',
       url: 'https://scan.carbon.network',
       txPage: 'https://scan.carbon.network/transaction/${txHash}?net=main'

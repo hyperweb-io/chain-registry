@@ -229,6 +229,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/injective',
+      txPage: 'https://explorer.chainroot.io/injective/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/injective/accounts/${accountAddress}'
+    },
+    {
       kind: 'ezstaking',
       url: 'https://ezstaking.app/injective',
       txPage: 'https://ezstaking.app/injective/txs/${txHash}',

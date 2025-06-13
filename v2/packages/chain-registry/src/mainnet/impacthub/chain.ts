@@ -137,6 +137,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/ixo',
+      txPage: 'https://explorer.chainroot.io/ixo/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/ixo/accounts/${accountAddress}'
+    },
+    {
       kind: 'staking-explorer.com',
       url: 'https://staking-explorer.com/explorer/impacthub',
       txPage: 'https://staking-explorer.com/transaction.php?chain=impacthub&tx=${txHash}',

@@ -100,6 +100,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/beezee',
+      txPage: 'https://explorer.chainroot.io/beezee/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/beezee/accounts/${accountAddress}'
+    },
+    {
       kind: 'ping.pub',
       url: 'https://ping.pub/beezee',
       txPage: 'https://ping.pub/beezee/tx/${txHash}',

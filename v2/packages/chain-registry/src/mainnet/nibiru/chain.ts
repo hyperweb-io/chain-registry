@@ -255,6 +255,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/nibiru',
+      txPage: 'https://explorer.chainroot.io/nibiru/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/nibiru/accounts/${accountAddress}'
+    },
+    {
       kind: 'Nodes Guru',
       url: 'https://nibiru.explorers.guru/',
       txPage: 'https://nibiru.explorers.guru/transaction/${txHash}',

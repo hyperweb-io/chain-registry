@@ -329,6 +329,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/kujira',
+      txPage: 'https://explorer.chainroot.io/kujira/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/kujira/accounts/${accountAddress}'
+    },
+    {
       kind: 'kujira',
       url: 'https://finder.kujira.app',
       txPage: 'https://finder.kujira.app/kaiyo-1/tx/${txHash}'

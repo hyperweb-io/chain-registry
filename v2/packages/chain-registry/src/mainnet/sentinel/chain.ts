@@ -257,6 +257,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/sentinel',
+      txPage: 'https://explorer.chainroot.io/sentinel/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/sentinel/accounts/${accountAddress}'
+    },
+    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/sentinel',
       txPage: 'https://www.mintscan.io/sentinel/transactions/${txHash}',

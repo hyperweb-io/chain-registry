@@ -199,6 +199,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/gravitybridge',
+      txPage: 'https://explorer.chainroot.io/gravitybridge/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/gravitybridge/accounts/${accountAddress}'
+    },
+    {
       kind: 'ezstaking',
       url: 'https://ezstaking.app/gravitybridge',
       txPage: 'https://ezstaking.app/gravitybridge/txs/${txHash}',

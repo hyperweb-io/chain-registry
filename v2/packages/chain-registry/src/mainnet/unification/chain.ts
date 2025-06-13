@@ -32,27 +32,27 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/unification-com/mainchain',
-    recommendedVersion: 'v1.10.1',
-    compatibleVersions: ['v1.10.0', 'v1.10.1'],
+    recommendedVersion: 'v1.11.0',
+    compatibleVersions: ['v1.11.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.10.1/und_v1.10.1_linux_x86_64.tar.gz',
-      "darwin/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.10.1/und_v1.10.1_darwin_x86_64.tar.gz',
-      "windows/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.10.1/und_v1.10.1_windows_x86_64.tar.gz'
+      "linux/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.11.0/und_v1.11.0_linux_x86_64.tar.gz',
+      "darwin/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.11.0/und_v1.11.0_darwin_x86_64.tar.gz',
+      "windows/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.11.0/und_v1.11.0_windows_x86_64.tar.gz'
     },
     consensus: {
       type: 'cometbft',
-      version: '0.37.5'
+      version: '0.38.12'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/unification-com/mainnet/master/latest/genesis.json'
     },
     sdk: {
       type: 'cosmos',
-      version: '0.47.13'
+      version: '0.50.13'
     },
     ibc: {
       type: 'go',
-      version: '7.7.0'
+      version: '8.7.0'
     },
     cosmwasm: {
       enabled: false

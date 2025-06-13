@@ -192,6 +192,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/babylon',
+      txPage: 'https://explorer.chainroot.io/babylon/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/babylon/accounts/${accountAddress}'
+    },
+    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/babylon',
       txPage: 'https://www.mintscan.io/babylon/transactions/${txHash}',

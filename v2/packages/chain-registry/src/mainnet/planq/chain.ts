@@ -262,6 +262,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/planq',
+      txPage: 'https://explorer.chainroot.io/planq/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/planq/accounts/${accountAddress}'
+    },
+    {
       kind: 'bigdipper',
       url: 'https://explorer.planq.network',
       txPage: 'https://explorer.planq.network/transactions/${txHash}'

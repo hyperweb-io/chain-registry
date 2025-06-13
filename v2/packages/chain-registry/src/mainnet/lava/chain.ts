@@ -239,6 +239,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/lava',
+      txPage: 'https://explorer.chainroot.io/lava/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/lava/accounts/${accountAddress}'
+    },
+    {
       kind: 'finteh',
       url: 'https://explorer.finteh.org/lava',
       txPage: 'https://explorer.finteh.org/lava/tx/${txHash}',

@@ -187,6 +187,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/oraichain',
+      txPage: 'https://explorer.chainroot.io/oraichain/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/oraichain/accounts/${accountAddress}'
+    },
+    {
       kind: 'oraiscan',
       url: 'https://scan.orai.io',
       txPage: 'https://scan.orai.io/txs/${txHash}'

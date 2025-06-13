@@ -148,6 +148,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/sommelier',
+      txPage: 'https://explorer.chainroot.io/sommelier/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/sommelier/accounts/${accountAddress}'
+    },
+    {
       kind: 'sommscan',
       url: 'https://sommscan.io',
       txPage: 'https://sommscan.io'

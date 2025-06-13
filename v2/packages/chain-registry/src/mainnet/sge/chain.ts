@@ -206,6 +206,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/sge',
+      txPage: 'https://explorer.chainroot.io/sge/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/sge/accounts/${accountAddress}'
+    },
+    {
       kind: 'ping.pub',
       url: 'https://blockexplorer.sgenetwork.io/sge',
       txPage: 'https://blockexplorer.sgenetwork.io/sge/tx/${txHash}'

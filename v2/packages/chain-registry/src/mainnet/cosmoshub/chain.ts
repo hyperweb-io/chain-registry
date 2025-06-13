@@ -461,6 +461,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/cosmos',
+      txPage: 'https://explorer.chainroot.io/cosmos/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/cosmos/accounts/${accountAddress}'
+    },
+    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/cosmos',
       txPage: 'https://www.mintscan.io/cosmos/transactions/${txHash}',

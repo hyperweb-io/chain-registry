@@ -288,6 +288,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/axelar',
+      txPage: 'https://explorer.chainroot.io/axelar/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/axelar/accounts/${accountAddress}'
+    },
+    {
       kind: 'axelarscan',
       url: 'https://axelarscan.io',
       txPage: 'https://axelarscan.io/tx/${txHash}'

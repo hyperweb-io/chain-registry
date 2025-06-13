@@ -181,6 +181,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/bitsong',
+      txPage: 'https://explorer.chainroot.io/bitsong/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/bitsong/accounts/${accountAddress}'
+    },
+    {
       kind: 'ezstaking',
       url: 'https://ezstaking.app/bitsong',
       txPage: 'https://ezstaking.app/bitsong/txs/${txHash}',

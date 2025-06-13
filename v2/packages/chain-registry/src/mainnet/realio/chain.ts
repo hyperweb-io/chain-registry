@@ -227,6 +227,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/realio',
+      txPage: 'https://explorer.chainroot.io/realio/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/realio/accounts/${accountAddress}'
+    },
+    {
       kind: '🔥STAVR🔥 Explorer',
       url: 'https://explorer.stavr.tech/realio-mainnet',
       txPage: 'https://explorer.stavr.tech/realio-mainnet/tx/${txHash}',

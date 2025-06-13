@@ -106,6 +106,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/noble',
+      txPage: 'https://explorer.chainroot.io/noble/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/noble/accounts/${accountAddress}'
+    },
+    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/noble',
       txPage: 'https://www.mintscan.io/noble/txs/${txHash}',

@@ -257,6 +257,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/jackal',
+      txPage: 'https://explorer.chainroot.io/jackal/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/jackal/accounts/${accountAddress}'
+    },
+    {
       kind: 'ping.pub',
       url: 'https://ping.pub/jackal',
       txPage: 'https://ping.pub/jackal/tx/${txHash}'

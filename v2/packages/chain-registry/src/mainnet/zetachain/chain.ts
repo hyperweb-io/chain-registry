@@ -156,6 +156,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/zetachain',
+      txPage: 'https://explorer.chainroot.io/zetachain/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/zetachain/accounts/${accountAddress}'
+    },
+    {
       kind: 'ZetaScan',
       url: 'https://explorer.zetachain.com/',
       txPage: 'https://explorer.zetachain.com/cc/tx/${txHash}'

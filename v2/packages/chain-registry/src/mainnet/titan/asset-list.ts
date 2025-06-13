@@ -319,6 +319,36 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/oracler.png'
         }]
+    },
+    {
+      description: 'monKEYS on Titan. Bridge into titan chain from Solana to Titan through Titan Power flow bridge',
+      denomUnits: [{
+          denom: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/monkeys',
+          exponent: 0
+        }, {
+          denom: 'monKEYS',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/titan1pvrwmjuusn9wh34j7y520g8gumuy9xtl3gvprlljfdpwju3x7ucsgehpjy/monkeys',
+      name: 'monKEYS',
+      display: 'monKEYS',
+      symbol: 'MONKEYS',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'solana',
+            baseDenom: '7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw',
+            contract: '3FCYJzQBTfZg8rbCpbVEvRPtJsGbhGzfQmJMAkcQ7bi6'
+          },
+          provider: 'powerflow.asia, titanlab.io'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/monkeys.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/monkeys.png'
+        }]
     }
   ]
 };

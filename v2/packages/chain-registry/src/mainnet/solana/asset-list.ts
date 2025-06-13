@@ -700,6 +700,29 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/oracler.png'
         }]
+    },
+    {
+      description: 'The monKEYS token',
+      typeAsset: 'erc20',
+      address: '7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw',
+      denomUnits: [{
+          denom: '7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw',
+          exponent: 0
+        }, {
+          denom: 'monKEYS',
+          exponent: 6
+        }],
+      base: '7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw',
+      name: 'monKEYS',
+      display: 'monKEYS',
+      symbol: 'MONKEYS',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/monkeys.png'
+      },
+      coingeckoId: 'monkeys-2',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/monkeys.png'
+        }]
     }
   ]
 };

@@ -102,6 +102,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/sifchain',
+      txPage: 'https://explorer.chainroot.io/sifchain/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/sifchain/accounts/${accountAddress}'
+    },
+    {
       kind: 'ping.pub',
       url: 'https://ping.pub/sifchain',
       txPage: 'https://ping.pub/sifchain/tx/${txHash}'

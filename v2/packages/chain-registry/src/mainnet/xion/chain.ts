@@ -159,6 +159,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/xion',
+      txPage: 'https://explorer.chainroot.io/xion/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/xion/accounts/${accountAddress}'
+    },
+    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/xion',
       txPage: 'https://www.mintscan.io/xion/transactions/${txHash}',

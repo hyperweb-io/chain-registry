@@ -372,6 +372,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/chain4energy',
+      txPage: 'https://explorer.chainroot.io/chain4energy/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/chain4energy/accounts/${accountAddress}'
+    },
+    {
       kind: 'explorer',
       url: 'https://explorer.apeironnodes.com/chain4energy',
       txPage: 'https://explorer.apeironnodes.com/chain4energy/transactions/${txHash}'

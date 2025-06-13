@@ -180,6 +180,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/sei',
+      txPage: 'https://explorer.chainroot.io/sei/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/sei/accounts/${accountAddress}'
+    },
+    {
       kind: 'blockscout',
       url: 'https://seitrace.com',
       txPage: 'https://seitrace.com/tx/${txHash}?chain=pacific-1',

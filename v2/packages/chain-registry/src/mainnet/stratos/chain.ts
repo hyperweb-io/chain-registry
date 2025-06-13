@@ -103,6 +103,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/stratos',
+      txPage: 'https://explorer.chainroot.io/stratos/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/stratos/accounts/${accountAddress}'
+    },
+    {
       kind: 'bigdipper',
       url: 'https://explorer.thestratos.org',
       txPage: 'https://explorer.thestratos.org/transactions/${txHash}',
