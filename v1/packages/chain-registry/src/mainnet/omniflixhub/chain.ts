@@ -14,25 +14,25 @@ const info: Chain = {
   slip44: 118,
   codebase: {
     git_repo: 'https://github.com/OmniFlix/omniflixhub',
-    recommended_version: 'v4.1.1',
-    compatible_versions: ['v4.1.1'],
+    recommended_version: 'v6.0.0',
+    compatible_versions: ['v6.0.0'],
     consensus: {
       type: 'cometbft',
-      version: 'v0.37.4'
+      version: 'v0.38.17'
     },
     genesis: {
       genesis_url: 'https://raw.githubusercontent.com/OmniFlix/mainnet/main/omniflixhub-1/genesis.json'
     },
     sdk: {
       type: 'cosmos',
-      version: 'v0.47.10'
+      version: 'v0.50.13'
     },
     ibc: {
       type: 'go',
-      version: 'v7.4.0'
+      version: 'v8.7.0'
     },
     cosmwasm: {
-      version: 'v0.45.0'
+      version: 'v0.53.2'
     }
   },
   logo_URIs: {
@@ -43,8 +43,8 @@ const info: Chain = {
     fee_tokens: [{
         denom: 'uflix',
         fixed_min_gas_price: 0,
-        low_gas_price: 0.001,
-        average_gas_price: 0.0025,
+        low_gas_price: 0.005,
+        average_gas_price: 0.015,
         high_gas_price: 0.025
       }]
   },
