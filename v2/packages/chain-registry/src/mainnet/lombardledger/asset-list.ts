@@ -42,7 +42,7 @@ const info: AssetList = {
         }]
     },
     {
-      description: 'ustake is a syntetic token to implement a PoA with BFT features over CometBFT',
+      description: 'ustake is a synthetic token to implement a PoA with BFT features over CometBFT',
       denomUnits: [{
           denom: 'ustake',
           exponent: 0

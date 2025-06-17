@@ -118,6 +118,34 @@ const info: IBCData[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain1: {
+      chainName: 'allora',
+      clientId: '07-tendermint-2',
+      connectionId: 'connection-7'
+    },
+    chain2: {
+      chainName: 'cosmoshub',
+      clientId: '07-tendermint-1384',
+      connectionId: 'connection-1107'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-2',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-1353',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
       chainName: 'archway',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
