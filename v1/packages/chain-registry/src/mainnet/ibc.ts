@@ -7,6 +7,7 @@ import * as _acrechain from './acrechain';
 import * as _agoric from './agoric';
 import * as _aioz from './aioz';
 import * as _akash from './akash';
+import * as _allora from './allora';
 import * as _andromeda from './andromeda';
 import * as _archway from './archway';
 import * as _arkeo from './arkeo';
@@ -164,6 +165,7 @@ const ibc: IBCInfo[] = [
   ..._agoric.ibc,
   ..._aioz.ibc,
   ..._akash.ibc,
+  ..._allora.ibc,
   ..._andromeda.ibc,
   ..._archway.ibc,
   ..._arkeo.ibc,

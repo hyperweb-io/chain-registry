@@ -3,6 +3,41 @@ const assets: AssetList = {
   chain_name: 'sei',
   assets: [
     {
+      description: 'Allora Token (ALLO) is the Allora Network\'s native utility token, used as the primary means to govern, secure the blockchain, and incentivize network participants.',
+      denom_units: [{
+          denom: 'ibc/710F080B35CF9D6EA982FFDFED2EC54FBAE8AA10C3889237BB3AF03DDD4682F9',
+          exponent: 0,
+          aliases: ['uallo']
+        }, {
+          denom: 'allo',
+          exponent: 18
+        }],
+      base: 'ibc/710F080B35CF9D6EA982FFDFED2EC54FBAE8AA10C3889237BB3AF03DDD4682F9',
+      name: 'Allora Network',
+      display: 'allo',
+      symbol: 'ALLO',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'uallo',
+            chain_name: 'allora'
+          },
+          chain: {
+            channel_id: 'channel-79'
+          }
+        }]
+    },
+    {
       description: 'Axelar is a decentralized interoperability network connecting multiple blockchain ecosystems, enabling seamless cross-chain communication and value transfer.',
       denom_units: [{
           denom: 'ibc/C0E66D1C81D8AAF0E6896E05190FDFBC222367148F86AC3EA679C28327A763CD',
@@ -1033,6 +1068,41 @@ const assets: AssetList = {
         telegram: 'https://t.me/astonic_io'
       },
       type_asset: 'sdk.coin'
+    },
+    {
+      description: 'Allora Token (ALLO) is the Allora Network\'s native utility token, used as the primary means to govern, secure the blockchain, and incentivize network participants.',
+      denom_units: [{
+          denom: 'ibc/710F080B35CF9D6EA982FFDFED2EC54FBAE8AA10C3889237BB3AF03DDD4682F9',
+          exponent: 0,
+          aliases: ['uallo']
+        }, {
+          denom: 'allo',
+          exponent: 18
+        }],
+      base: 'ibc/710F080B35CF9D6EA982FFDFED2EC54FBAE8AA10C3889237BB3AF03DDD4682F9',
+      name: 'Allora Network',
+      display: 'allo',
+      symbol: 'ALLO',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'uallo',
+            chain_name: 'allora'
+          },
+          chain: {
+            channel_id: 'channel-79'
+          }
+        }]
     },
     {
       description: 'Axelar is a decentralized interoperability network connecting multiple blockchain ecosystems, enabling seamless cross-chain communication and value transfer.',

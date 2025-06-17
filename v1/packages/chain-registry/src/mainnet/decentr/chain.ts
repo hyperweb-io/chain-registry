@@ -153,7 +153,7 @@ const info: Chain = {
       tx_page: 'https://explorer.nodexcapital.com/decentr/tx/${txHash}'
     },
     {
-      kind: 'Explorer ComunityNode',
+      kind: 'Explorer CommunityNode',
       url: 'https://explorer.comunitynode.my.id/decentr',
       tx_page: 'https://explorer.comunitynode.my.id/decentr/tx/${txHash}'
     }
