@@ -879,6 +879,80 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: '$BADGE is the native in-app credits token for BitBadges.',
+      denom_units: [{
+          denom: 'ibc/AEA658A560ADC30785492AB06B707BC260E7DAB3686A5A2A6F33CB3FFB1E1462',
+          exponent: 0,
+          aliases: ['ubadge']
+        }, {
+          denom: 'badge',
+          exponent: 9
+        }],
+      base: 'ibc/AEA658A560ADC30785492AB06B707BC260E7DAB3686A5A2A6F33CB3FFB1E1462',
+      name: 'BitBadges Credits',
+      display: 'badge',
+      symbol: 'BADGE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
+        }],
+      socials: {
+        website: 'https://bitbadges.io/',
+        twitter: 'https://twitter.com/bitbadges_io'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ubadge',
+            chain_name: 'bitbadges'
+          },
+          chain: {
+            channel_id: 'channel-104311'
+          }
+        }]
+    },
+    {
+      description: 'The native staking denom for the BitBadges blockchain.',
+      denom_units: [{
+          denom: 'ibc/4126D2E361790201322A5AD26271158280698892441BE5578FC106EEF3A98EF4',
+          exponent: 0,
+          aliases: ['ustake']
+        }, {
+          denom: 'stake',
+          exponent: 9
+        }],
+      base: 'ibc/4126D2E361790201322A5AD26271158280698892441BE5578FC106EEF3A98EF4',
+      name: 'BitBadges Staking',
+      display: 'stake',
+      symbol: 'STAKE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
+        }],
+      socials: {
+        website: 'https://bitbadges.io/',
+        twitter: 'https://twitter.com/bitbadges_io'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ustake',
+            chain_name: 'bitbadges'
+          },
+          chain: {
+            channel_id: 'channel-104311'
+          }
+        }]
+    },
+    {
       description: 'The BCNA coin is the transactional token within the BitCanna network, serving the legal cannabis industry through its payment network, supply chain and trust network.',
       denom_units: [{
           denom: 'ibc/D805F1DA50D31B96E4282C1D4181EDDFB1A44A598BFF5666F4B43E4B8BEA95A5',
@@ -7346,6 +7420,80 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-340'
+          }
+        }]
+    },
+    {
+      description: '$BADGE is the native in-app credits token for BitBadges.',
+      denom_units: [{
+          denom: 'ibc/AEA658A560ADC30785492AB06B707BC260E7DAB3686A5A2A6F33CB3FFB1E1462',
+          exponent: 0,
+          aliases: ['ubadge']
+        }, {
+          denom: 'badge',
+          exponent: 9
+        }],
+      base: 'ibc/AEA658A560ADC30785492AB06B707BC260E7DAB3686A5A2A6F33CB3FFB1E1462',
+      name: 'BitBadges Credits',
+      display: 'badge',
+      symbol: 'BADGE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
+        }],
+      socials: {
+        website: 'https://bitbadges.io/',
+        twitter: 'https://twitter.com/bitbadges_io'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ubadge',
+            chain_name: 'bitbadges'
+          },
+          chain: {
+            channel_id: 'channel-104311'
+          }
+        }]
+    },
+    {
+      description: 'The native staking denom for the BitBadges blockchain.',
+      denom_units: [{
+          denom: 'ibc/4126D2E361790201322A5AD26271158280698892441BE5578FC106EEF3A98EF4',
+          exponent: 0,
+          aliases: ['ustake']
+        }, {
+          denom: 'stake',
+          exponent: 9
+        }],
+      base: 'ibc/4126D2E361790201322A5AD26271158280698892441BE5578FC106EEF3A98EF4',
+      name: 'BitBadges Staking',
+      display: 'stake',
+      symbol: 'STAKE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
+        }],
+      socials: {
+        website: 'https://bitbadges.io/',
+        twitter: 'https://twitter.com/bitbadges_io'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ustake',
+            chain_name: 'bitbadges'
+          },
+          chain: {
+            channel_id: 'channel-104311'
           }
         }]
     },

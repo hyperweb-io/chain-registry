@@ -19,6 +19,7 @@ import * as _axelar from './axelar';
 import * as _babylon from './babylon';
 import * as _bandchain from './bandchain';
 import * as _beezee from './beezee';
+import * as _bitbadges from './bitbadges';
 import * as _bitcanna from './bitcanna';
 import * as _bitsong from './bitsong';
 import * as _bluzelle from './bluzelle';
@@ -177,6 +178,7 @@ const ibc: IBCInfo[] = [
   ..._babylon.ibc,
   ..._bandchain.ibc,
   ..._beezee.ibc,
+  ..._bitbadges.ibc,
   ..._bitcanna.ibc,
   ..._bitsong.ibc,
   ..._bluzelle.ibc,

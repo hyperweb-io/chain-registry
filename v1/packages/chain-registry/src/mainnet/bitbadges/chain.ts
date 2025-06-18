@@ -28,15 +28,15 @@ const info: Chain = {
   },
   codebase: {
     git_repo: 'https://github.com/bitbadges/bitbadgeschain/',
-    recommended_version: 'v1.0-bb-mainnet',
-    compatible_versions: ['v1.0-bb-mainnet'],
+    recommended_version: 'v6',
+    compatible_versions: ['v6'],
     binaries: {
-      "linux/amd64": 'https://github.com/BitBadges/bitbadgeschain/releases/download/v1.0-bb-mainnet/bitbadgeschain-linux-amd64',
-      "linux/arm64": 'https://github.com/BitBadges/bitbadgeschain/releases/download/v1.0-bb-mainnet/bitbadgeschain-linux-arm64'
+      "linux/amd64": 'https://github.com/BitBadges/bitbadgeschain/releases/download/v6/bitbadgeschain-linux-amd64',
+      "linux/arm64": 'https://github.com/BitBadges/bitbadgeschain/releases/download/v6/bitbadgeschain-linux-arm64'
     },
     sdk: {
       type: 'cosmos',
-      version: 'v0.50.10'
+      version: 'v0.50.11'
     },
     ibc: {
       type: 'go',
@@ -70,7 +70,10 @@ const info: Chain = {
         address: 'https://bitbadges_mainnet_api.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }],
-    grpc: []
+    grpc: [{
+        address: 'http://134.122.12.165:9090',
+        provider: 'bitbadges'
+      }]
   },
   explorers: [
     {

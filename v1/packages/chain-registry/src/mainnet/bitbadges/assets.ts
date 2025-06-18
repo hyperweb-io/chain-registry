@@ -3,7 +3,7 @@ const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chain_name: 'bitbadges',
   assets: [{
-      description: '$BADGE is the native in-app credits token for BitBadges, a platform for creating and sharing digital badges.',
+      description: '$BADGE is the native in-app credits token for BitBadges.',
       denom_units: [{
           denom: 'ubadge',
           exponent: 0
