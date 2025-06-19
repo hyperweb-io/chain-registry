@@ -1738,7 +1738,7 @@ const info: AssetList = {
       display: 'mbtc',
       symbol: 'mBTC',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/mbtc.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png'
       },
       coingeckoId: 'babypie-wrapped-btc'
     },

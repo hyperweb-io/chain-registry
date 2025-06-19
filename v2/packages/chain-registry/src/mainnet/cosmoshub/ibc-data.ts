@@ -1230,6 +1230,31 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'cosmoshub',
+      clientId: '07-tendermint-1351',
+      connectionId: 'connection-1089'
+    },
+    chain2: {
+      chainName: 'namada',
+      clientId: '07-tendermint-3',
+      connectionId: 'connection-2'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-1317',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-2',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1'
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
+      chainName: 'cosmoshub',
       clientId: '07-tendermint-1119',
       connectionId: 'connection-809'
     },
@@ -2065,6 +2090,35 @@ const info: IBCData[] = [
         },
         ordering: 'unordered',
         version: 'ics20-1'
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
+      chainName: 'cosmoshub',
+      clientId: '07-tendermint-1411',
+      connectionId: 'connection-1134'
+    },
+    chain2: {
+      chainName: 'xrplevm',
+      clientId: '07-tendermint-2',
+      connectionId: 'connection-2'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-1377',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-2',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true
+        }
       }]
   }
 ];

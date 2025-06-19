@@ -1,6 +1,7 @@
 import { IBCData } from '@chain-registry/types';
 
 import * as _ethereum from './ethereum';
+import * as _namada from './namada';
 import * as _solana from './solana';
 import * as _aaronetwork from './aaronetwork';
 import * as _acrechain from './acrechain';
@@ -156,10 +157,12 @@ import * as _unification from './unification';
 import * as _uptick from './uptick';
 import * as _xion from './xion';
 import * as _xpla from './xpla';
+import * as _xrplevm from './xrplevm';
 import * as _zenrock from './zenrock';
 
 const ibcData: IBCData[] = [
   ..._ethereum.ibcData,
+  ..._namada.ibcData,
   ..._solana.ibcData,
   ..._aaronetwork.ibcData,
   ..._acrechain.ibcData,
@@ -315,6 +318,7 @@ const ibcData: IBCData[] = [
   ..._uptick.ibcData,
   ..._xion.ibcData,
   ..._xpla.ibcData,
+  ..._xrplevm.ibcData,
   ..._zenrock.ibcData
 ];
 

@@ -3,22 +3,22 @@ const info: IBCData[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain1: {
-      chainName: 'axelar',
-      clientId: '07-tendermint-246',
-      connectionId: 'connection-235'
+      chainName: 'cosmoshub',
+      clientId: '07-tendermint-1411',
+      connectionId: 'connection-1134'
     },
     chain2: {
-      chainName: 'nyx',
-      clientId: '07-tendermint-21',
-      connectionId: 'connection-11'
+      chainName: 'xrplevm',
+      clientId: '07-tendermint-2',
+      connectionId: 'connection-2'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-177',
+          channelId: 'channel-1377',
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-14',
+          channelId: 'channel-2',
           portId: 'transfer'
         },
         ordering: 'unordered',
@@ -32,18 +32,47 @@ const info: IBCData[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain1: {
-      chainName: 'gravitybridge',
-      clientId: '07-tendermint-33',
-      connectionId: 'connection-44'
+      chainName: 'elys',
+      clientId: '07-tendermint-57',
+      connectionId: 'connection-38'
     },
     chain2: {
-      chainName: 'nyx',
+      chainName: 'xrplevm',
       clientId: '07-tendermint-1',
+      connectionId: 'connection-1'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-27',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-1',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
+      chainName: 'injective',
+      clientId: '07-tendermint-314',
+      connectionId: 'connection-314'
+    },
+    chain2: {
+      chainName: 'xrplevm',
+      clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-18',
+          channelId: 'channel-436',
           portId: 'transfer'
         },
         chain2: {
@@ -61,47 +90,22 @@ const info: IBCData[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain1: {
-      chainName: 'namada',
-      clientId: '07-tendermint-10',
-      connectionId: 'connection-7'
+      chainName: 'noble',
+      clientId: '07-tendermint-164',
+      connectionId: 'connection-159'
     },
     chain2: {
-      chainName: 'nyx',
-      clientId: '07-tendermint-20',
-      connectionId: 'connection-10'
+      chainName: 'xrplevm',
+      clientId: '07-tendermint-4',
+      connectionId: 'connection-4'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-6',
+          channelId: 'channel-152',
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-13',
-          portId: 'transfer'
-        },
-        ordering: 'unordered',
-        version: 'ics20-1'
-      }]
-  },
-  {
-    $schema: '../ibc_data.schema.json',
-    chain1: {
-      chainName: 'nyx',
-      clientId: '07-tendermint-17',
-      connectionId: 'connection-8'
-    },
-    chain2: {
-      chainName: 'osmosis',
-      clientId: '07-tendermint-3065',
-      connectionId: 'connection-2555'
-    },
-    channels: [{
-        chain1: {
-          channelId: 'channel-8',
-          portId: 'transfer'
-        },
-        chain2: {
-          channelId: 'channel-15464',
+          channelId: 'channel-4',
           portId: 'transfer'
         },
         ordering: 'unordered',
@@ -115,22 +119,22 @@ const info: IBCData[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain1: {
-      chainName: 'nyx',
-      clientId: '07-tendermint-19',
-      connectionId: 'connection-9'
+      chainName: 'osmosis',
+      clientId: '07-tendermint-3499',
+      connectionId: 'connection-10747'
     },
     chain2: {
-      chainName: 'secretnetwork',
-      clientId: '07-tendermint-213',
-      connectionId: 'connection-203'
+      chainName: 'xrplevm',
+      clientId: '07-tendermint-3',
+      connectionId: 'connection-3'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-12',
+          channelId: 'channel-104325',
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-174',
+          channelId: 'channel-3',
           portId: 'transfer'
         },
         ordering: 'unordered',

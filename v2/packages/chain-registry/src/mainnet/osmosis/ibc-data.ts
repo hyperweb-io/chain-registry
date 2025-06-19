@@ -2864,6 +2864,31 @@ const info: IBCData[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain1: {
+      chainName: 'namada',
+      clientId: '07-tendermint-2',
+      connectionId: 'connection-1'
+    },
+    chain2: {
+      chainName: 'osmosis',
+      clientId: '07-tendermint-3433',
+      connectionId: 'connection-10590'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-1',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-98451',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1'
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
       chainName: 'neutaro',
       clientId: '07-tendermint-3',
       connectionId: 'connection-9'
@@ -4893,6 +4918,35 @@ const info: IBCData[] = [
           status: 'live',
           preferred: true,
           dex: 'osmosis'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
+      chainName: 'osmosis',
+      clientId: '07-tendermint-3499',
+      connectionId: 'connection-10747'
+    },
+    chain2: {
+      chainName: 'xrplevm',
+      clientId: '07-tendermint-3',
+      connectionId: 'connection-3'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-104325',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-3',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true
         }
       }]
   }

@@ -1,6 +1,7 @@
 import { Chain } from '@chain-registry/types';
 
 import * as _ethereum from './ethereum';
+import * as _namada from './namada';
 import * as _rootstock from './rootstock';
 import * as _solana from './solana';
 import * as _ton from './ton';
@@ -201,11 +202,13 @@ import * as _uptick from './uptick';
 import * as _vector from './vector';
 import * as _xion from './xion';
 import * as _xpla from './xpla';
+import * as _xrplevm from './xrplevm';
 import * as _zenrock from './zenrock';
 import * as _zetachain from './zetachain';
 
 const chains: Chain[] = [
   _ethereum.chain,
+  _namada.chain,
   _rootstock.chain,
   _solana.chain,
   _ton.chain,
@@ -406,6 +409,7 @@ const chains: Chain[] = [
   _vector.chain,
   _xion.chain,
   _xpla.chain,
+  _xrplevm.chain,
   _zenrock.chain,
   _zetachain.chain
 ];
