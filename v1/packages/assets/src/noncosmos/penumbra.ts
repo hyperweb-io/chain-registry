@@ -3,6 +3,37 @@ const assets: AssetList = {
   chain_name: 'penumbra',
   assets: [
     {
+      description: 'The native token of Namada.',
+      denom_units: [{
+          denom: 'ibc/E78E1960B5564E01ADB27EC0A77A016E0B912489D3490D9B46A4676D7486AC54',
+          exponent: 0,
+          aliases: ['unam']
+        }, {
+          denom: 'nam',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/E78E1960B5564E01ADB27EC0A77A016E0B912489D3490D9B46A4676D7486AC54',
+      name: 'Namada',
+      display: 'nam',
+      symbol: 'NAM',
+      address: 'tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-4',
+            base_denom: 'unam',
+            chain_name: 'namada'
+          },
+          chain: {
+            channel_id: 'channel-13'
+          }
+        }]
+    },
+    {
       description: 'Neutron is a smart contract blockchain within the Cosmos ecosystem, leveraging the Cosmos Hub\'s security to provide cross-chain DeFi applications.',
       denom_units: [{
           denom: 'ibc/0BF33797C0B4923ED612EDB6A62AAC6904B10AD77004D8C45A044B9927F1E4F3',
@@ -240,6 +271,37 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-4'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Namada.',
+      denom_units: [{
+          denom: 'ibc/E78E1960B5564E01ADB27EC0A77A016E0B912489D3490D9B46A4676D7486AC54',
+          exponent: 0,
+          aliases: ['unam']
+        }, {
+          denom: 'nam',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/E78E1960B5564E01ADB27EC0A77A016E0B912489D3490D9B46A4676D7486AC54',
+      name: 'Namada',
+      display: 'nam',
+      symbol: 'NAM',
+      address: 'tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-4',
+            base_denom: 'unam',
+            chain_name: 'namada'
+          },
+          chain: {
+            channel_id: 'channel-13'
           }
         }]
     },

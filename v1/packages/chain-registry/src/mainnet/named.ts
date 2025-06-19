@@ -1,4 +1,5 @@
 export * as ethereum from './ethereum';
+export * as namada from './namada';
 export * as rootstock from './rootstock';
 export * as solana from './solana';
 export * as ton from './ton';
@@ -199,5 +200,6 @@ export * as uptick from './uptick';
 export * as vector from './vector';
 export * as xion from './xion';
 export * as xpla from './xpla';
+export * as xrplevm from './xrplevm';
 export * as zenrock from './zenrock';
 export * as zetachain from './zetachain';

@@ -59,8 +59,9 @@ const info: Chain = {
   },
   explorers: [{
       kind: 'Default Explorer',
-      url: 'https://manifest.explorers.guru/',
-      tx_page: 'https://manifest.explorers.guru/transactions'
+      url: 'https://explorer.manifest.network/',
+      tx_page: 'https://explorer.manifest.network/transaction/${txHash}',
+      account_page: 'https://explorer.manifest.network/account/${accountAddress}'
     }],
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',

@@ -875,7 +875,7 @@ const assets: AssetList = {
       display: 'mbtc',
       symbol: 'mBTC',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/mbtc.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png'
       },
       coingecko_id: 'babypie-wrapped-btc',
       traces: [{
@@ -3060,7 +3060,7 @@ const assets: AssetList = {
       display: 'mbtc',
       symbol: 'mBTC',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/mbtc.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png'
       },
       coingecko_id: 'babypie-wrapped-btc',
       traces: [{

@@ -1,4 +1,5 @@
 export * as ethereum from './ethereum';
+export * as namada from './namada';
 export * as solana from './solana';
 export * as aaronetwork from './aaronetwork';
 export * as acrechain from './acrechain';
@@ -154,4 +155,5 @@ export * as unification from './unification';
 export * as uptick from './uptick';
 export * as xion from './xion';
 export * as xpla from './xpla';
+export * as xrplevm from './xrplevm';
 export * as zenrock from './zenrock'

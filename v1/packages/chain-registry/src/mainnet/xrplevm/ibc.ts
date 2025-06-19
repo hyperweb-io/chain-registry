@@ -3,22 +3,22 @@ const info: IBCInfo[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain_1: {
-      chain_name: 'axelar',
-      client_id: '07-tendermint-246',
-      connection_id: 'connection-235'
+      chain_name: 'cosmoshub',
+      client_id: '07-tendermint-1411',
+      connection_id: 'connection-1134'
     },
     chain_2: {
-      chain_name: 'nyx',
-      client_id: '07-tendermint-21',
-      connection_id: 'connection-11'
+      chain_name: 'xrplevm',
+      client_id: '07-tendermint-2',
+      connection_id: 'connection-2'
     },
     channels: [{
         chain_1: {
-          channel_id: 'channel-177',
+          channel_id: 'channel-1377',
           port_id: 'transfer'
         },
         chain_2: {
-          channel_id: 'channel-14',
+          channel_id: 'channel-2',
           port_id: 'transfer'
         },
         ordering: 'unordered',
@@ -32,18 +32,47 @@ const info: IBCInfo[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain_1: {
-      chain_name: 'gravitybridge',
-      client_id: '07-tendermint-33',
-      connection_id: 'connection-44'
+      chain_name: 'elys',
+      client_id: '07-tendermint-57',
+      connection_id: 'connection-38'
     },
     chain_2: {
-      chain_name: 'nyx',
+      chain_name: 'xrplevm',
       client_id: '07-tendermint-1',
+      connection_id: 'connection-1'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-27',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-1',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain_1: {
+      chain_name: 'injective',
+      client_id: '07-tendermint-314',
+      connection_id: 'connection-314'
+    },
+    chain_2: {
+      chain_name: 'xrplevm',
+      client_id: '07-tendermint-0',
       connection_id: 'connection-0'
     },
     channels: [{
         chain_1: {
-          channel_id: 'channel-18',
+          channel_id: 'channel-436',
           port_id: 'transfer'
         },
         chain_2: {
@@ -61,47 +90,22 @@ const info: IBCInfo[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain_1: {
-      chain_name: 'namada',
-      client_id: '07-tendermint-10',
-      connection_id: 'connection-7'
+      chain_name: 'noble',
+      client_id: '07-tendermint-164',
+      connection_id: 'connection-159'
     },
     chain_2: {
-      chain_name: 'nyx',
-      client_id: '07-tendermint-20',
-      connection_id: 'connection-10'
+      chain_name: 'xrplevm',
+      client_id: '07-tendermint-4',
+      connection_id: 'connection-4'
     },
     channels: [{
         chain_1: {
-          channel_id: 'channel-6',
+          channel_id: 'channel-152',
           port_id: 'transfer'
         },
         chain_2: {
-          channel_id: 'channel-13',
-          port_id: 'transfer'
-        },
-        ordering: 'unordered',
-        version: 'ics20-1'
-      }]
-  },
-  {
-    $schema: '../ibc_data.schema.json',
-    chain_1: {
-      chain_name: 'nyx',
-      client_id: '07-tendermint-17',
-      connection_id: 'connection-8'
-    },
-    chain_2: {
-      chain_name: 'osmosis',
-      client_id: '07-tendermint-3065',
-      connection_id: 'connection-2555'
-    },
-    channels: [{
-        chain_1: {
-          channel_id: 'channel-8',
-          port_id: 'transfer'
-        },
-        chain_2: {
-          channel_id: 'channel-15464',
+          channel_id: 'channel-4',
           port_id: 'transfer'
         },
         ordering: 'unordered',
@@ -115,22 +119,22 @@ const info: IBCInfo[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain_1: {
-      chain_name: 'nyx',
-      client_id: '07-tendermint-19',
-      connection_id: 'connection-9'
+      chain_name: 'osmosis',
+      client_id: '07-tendermint-3499',
+      connection_id: 'connection-10747'
     },
     chain_2: {
-      chain_name: 'secretnetwork',
-      client_id: '07-tendermint-213',
-      connection_id: 'connection-203'
+      chain_name: 'xrplevm',
+      client_id: '07-tendermint-3',
+      connection_id: 'connection-3'
     },
     channels: [{
         chain_1: {
-          channel_id: 'channel-12',
+          channel_id: 'channel-104325',
           port_id: 'transfer'
         },
         chain_2: {
-          channel_id: 'channel-174',
+          channel_id: 'channel-3',
           port_id: 'transfer'
         },
         ordering: 'unordered',

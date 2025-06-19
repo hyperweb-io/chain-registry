@@ -287,26 +287,17 @@ const info: Chain = {
       }
     ]
   },
-  explorers: [
-    {
+  explorers: [{
       kind: 'evm',
       url: 'https://explorer.testnet.xrplevm.org',
       tx_page: 'https://explorer.testnet.xrplevm.org/tx/${txHash}',
       account_page: 'https://explorer.testnet.xrplevm.org/address/${accountAddress}'
-    },
-    {
+    }, {
       kind: 'cosmos',
       url: 'https://governance.testnet.xrplevm.org',
-      tx_page: 'https://governance.testnet.xrplevm.org/tx/${txHash}',
-      account_page: 'https://governance.testnet.xrplevm.org/account/${accountAddress}'
-    },
-    {
-      kind: 'Valopers',
-      url: 'https://testnet.xrplevm.valopers.com/',
-      tx_page: 'https://testnet.xrplevm.valopers.com/transactions/${txHash}',
-      account_page: 'https://testnet.xrplevm.valopers.com/account/${accountAddress}'
-    }
-  ],
+      tx_page: 'https://governance.testnet.xrplevm.org/xrplevm/transactions/${txHash}',
+      account_page: 'https://governance.testnet.xrplevm.org/xrplevm/accounts/${accountAddress}'
+    }],
   keywords: [
     'xrpl',
     'evm',

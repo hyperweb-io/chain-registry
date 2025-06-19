@@ -3,6 +3,37 @@ const assets: AssetList = {
   chain_name: 'celestia',
   assets: [
     {
+      description: 'The native token of Namada.',
+      denom_units: [{
+          denom: 'ibc/F79541F2E56A0727E89ED504A8C43112B13D61962105D4DFC5E2F930638D374F',
+          exponent: 0,
+          aliases: ['unam']
+        }, {
+          denom: 'nam',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/F79541F2E56A0727E89ED504A8C43112B13D61962105D4DFC5E2F930638D374F',
+      name: 'Namada',
+      display: 'nam',
+      symbol: 'NAM',
+      address: 'tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'unam',
+            chain_name: 'namada'
+          },
+          chain: {
+            channel_id: 'channel-73'
+          }
+        }]
+    },
+    {
       description: 'Axelar is a decentralized interoperability network connecting multiple blockchain ecosystems, enabling seamless cross-chain communication and value transfer.',
       denom_units: [{
           denom: 'ibc/0E1517E2771CA7C03F2ED3F9BAECCAEADF0BFD79B89679E834933BC0F179AD98',
@@ -945,6 +976,37 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-49'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Namada.',
+      denom_units: [{
+          denom: 'ibc/F79541F2E56A0727E89ED504A8C43112B13D61962105D4DFC5E2F930638D374F',
+          exponent: 0,
+          aliases: ['unam']
+        }, {
+          denom: 'nam',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/F79541F2E56A0727E89ED504A8C43112B13D61962105D4DFC5E2F930638D374F',
+      name: 'Namada',
+      display: 'nam',
+      symbol: 'NAM',
+      address: 'tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'unam',
+            chain_name: 'namada'
+          },
+          chain: {
+            channel_id: 'channel-73'
           }
         }]
     },

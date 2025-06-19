@@ -3,6 +3,37 @@ const assets: AssetList = {
   chain_name: 'noble',
   assets: [
     {
+      description: 'The native token of Namada.',
+      denom_units: [{
+          denom: 'ibc/C02E01BB12C9DA857695CD8C63D5FE5F9B4E8BDEF39C22A36A3DEB73A997141C',
+          exponent: 0,
+          aliases: ['unam']
+        }, {
+          denom: 'nam',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/C02E01BB12C9DA857695CD8C63D5FE5F9B4E8BDEF39C22A36A3DEB73A997141C',
+      name: 'Namada',
+      display: 'nam',
+      symbol: 'NAM',
+      address: 'tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-5',
+            base_denom: 'unam',
+            chain_name: 'namada'
+          },
+          chain: {
+            channel_id: 'channel-136'
+          }
+        }]
+    },
+    {
       description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
       denom_units: [{
           denom: 'ibc/3C01172339ABAE4EAF1EB56FE9A69B7C818601FF9252E7DD633C14B165113C6B',
@@ -4729,6 +4760,37 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-14'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Namada.',
+      denom_units: [{
+          denom: 'ibc/C02E01BB12C9DA857695CD8C63D5FE5F9B4E8BDEF39C22A36A3DEB73A997141C',
+          exponent: 0,
+          aliases: ['unam']
+        }, {
+          denom: 'nam',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/C02E01BB12C9DA857695CD8C63D5FE5F9B4E8BDEF39C22A36A3DEB73A997141C',
+      name: 'Namada',
+      display: 'nam',
+      symbol: 'NAM',
+      address: 'tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-5',
+            base_denom: 'unam',
+            chain_name: 'namada'
+          },
+          chain: {
+            channel_id: 'channel-136'
           }
         }]
     },

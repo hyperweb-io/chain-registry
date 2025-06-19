@@ -3,6 +3,37 @@ const assets: AssetList = {
   chain_name: 'stride',
   assets: [
     {
+      description: 'The native token of Namada.',
+      denom_units: [{
+          denom: 'ibc/471489A5C2B7206341FFB2F40DB011116F0E1E7D305DF7E10E587676F10C515E',
+          exponent: 0,
+          aliases: ['unam']
+        }, {
+          denom: 'nam',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/471489A5C2B7206341FFB2F40DB011116F0E1E7D305DF7E10E587676F10C515E',
+      name: 'Namada',
+      display: 'nam',
+      symbol: 'NAM',
+      address: 'tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'unam',
+            chain_name: 'namada'
+          },
+          chain: {
+            channel_id: 'channel-308'
+          }
+        }]
+    },
+    {
       description: 'The native EVM, governance and staking token of the Acrechain',
       denom_units: [{
           denom: 'ibc/D54D8A7843F08148FEEFA1DDCC7C9EAF94A4FC4F7E42EE90BBB18E157A31FDF1',
@@ -10390,6 +10421,37 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-8'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Namada.',
+      denom_units: [{
+          denom: 'ibc/471489A5C2B7206341FFB2F40DB011116F0E1E7D305DF7E10E587676F10C515E',
+          exponent: 0,
+          aliases: ['unam']
+        }, {
+          denom: 'nam',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/471489A5C2B7206341FFB2F40DB011116F0E1E7D305DF7E10E587676F10C515E',
+      name: 'Namada',
+      display: 'nam',
+      symbol: 'NAM',
+      address: 'tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'unam',
+            chain_name: 'namada'
+          },
+          chain: {
+            channel_id: 'channel-308'
           }
         }]
     },

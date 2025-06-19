@@ -1,6 +1,7 @@
 import { AssetList } from '@chain-registry/types';
 
 import * as _ethereum from './ethereum';
+import * as _namada from './namada';
 import * as _rootstock from './rootstock';
 import * as _solana from './solana';
 import * as _ton from './ton';
@@ -201,11 +202,13 @@ import * as _uptick from './uptick';
 import * as _vector from './vector';
 import * as _xion from './xion';
 import * as _xpla from './xpla';
+import * as _xrplevm from './xrplevm';
 import * as _zenrock from './zenrock';
 import * as _zetachain from './zetachain';
 
 const assets: AssetList[] = [
   _ethereum.assets,
+  _namada.assets,
   _rootstock.assets,
   _solana.assets,
   _ton.assets,
@@ -406,6 +409,7 @@ const assets: AssetList[] = [
   _vector.assets,
   _xion.assets,
   _xpla.assets,
+  _xrplevm.assets,
   _zenrock.assets,
   _zetachain.assets
 ];

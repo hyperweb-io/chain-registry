@@ -54,7 +54,8 @@ const info: Chain = {
   explorers: [{
       kind: 'Default Explorer',
       url: 'https://testnet.manifest.explorers.guru/',
-      tx_page: 'https://testnet.manifest.explorers.guru/transactions'
+      tx_page: 'https://testnet.manifest.explorers.guru/transaction/${txHash}',
+      account_page: 'https://testnet.manifest.explorers.guru/account/${accountAddress}'
     }],
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',

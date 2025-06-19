@@ -3,88 +3,33 @@ const assets: AssetList = {
   chain_name: 'nyx',
   assets: [
     {
-      description: 'Axelar is a decentralized interoperability network connecting multiple blockchain ecosystems, enabling seamless cross-chain communication and value transfer.',
+      description: 'The native token of Namada.',
       denom_units: [{
-          denom: 'ibc/2253DE2F950B35D9AB9B403F58F30B970ABDFE1A35AD23E9AB20AE575C68984A',
+          denom: 'ibc/E78E1960B5564E01ADB27EC0A77A016E0B912489D3490D9B46A4676D7486AC54',
           exponent: 0,
-          aliases: ['uaxl']
+          aliases: ['unam']
         }, {
-          denom: 'axl',
+          denom: 'nam',
           exponent: 6
         }],
-      base: 'ibc/2253DE2F950B35D9AB9B403F58F30B970ABDFE1A35AD23E9AB20AE575C68984A',
-      name: 'Axelar',
-      display: 'axl',
-      symbol: 'AXL',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'
-      },
-      coingecko_id: 'axelar',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg',
-          theme: {
-            primary_color_hex: '#040404'
-          }
-        }],
-      socials: {
-        website: 'https://axelar.network/',
-        twitter: 'https://twitter.com/axelarnetwork'
-      },
       type_asset: 'sdk.coin',
+      base: 'ibc/E78E1960B5564E01ADB27EC0A77A016E0B912489D3490D9B46A4676D7486AC54',
+      name: 'Namada',
+      display: 'nam',
+      symbol: 'NAM',
+      address: 'tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-177',
-            base_denom: 'uaxl',
-            chain_name: 'axelar'
+            channel_id: 'channel-6',
+            base_denom: 'unam',
+            chain_name: 'namada'
           },
           chain: {
-            channel_id: 'channel-14'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Gravity Bridge',
-      denom_units: [{
-          denom: 'ibc/FC9D92EC12BC974E8B6179D411351524CD5C2EBC3CE29D5BA856414FEFA47093',
-          exponent: 0,
-          aliases: ['ugraviton']
-        }, {
-          denom: 'graviton',
-          exponent: 6
-        }],
-      base: 'ibc/FC9D92EC12BC974E8B6179D411351524CD5C2EBC3CE29D5BA856414FEFA47093',
-      name: 'Graviton',
-      display: 'graviton',
-      symbol: 'GRAV',
-      coingecko_id: 'graviton',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg',
-          theme: {
-            primary_color_hex: '#042ca4'
-          }
-        }],
-      socials: {
-        website: 'https://www.gravitybridge.net/',
-        twitter: 'https://twitter.com/gravity_bridge'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-18',
-            base_denom: 'ugraviton',
-            chain_name: 'gravitybridge'
-          },
-          chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-13'
           }
         }]
     },
@@ -171,6 +116,123 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-0'
+          }
+        }]
+    },
+    {
+      description: 'Axelar is a decentralized interoperability network connecting multiple blockchain ecosystems, enabling seamless cross-chain communication and value transfer.',
+      denom_units: [{
+          denom: 'ibc/2253DE2F950B35D9AB9B403F58F30B970ABDFE1A35AD23E9AB20AE575C68984A',
+          exponent: 0,
+          aliases: ['uaxl']
+        }, {
+          denom: 'axl',
+          exponent: 6
+        }],
+      base: 'ibc/2253DE2F950B35D9AB9B403F58F30B970ABDFE1A35AD23E9AB20AE575C68984A',
+      name: 'Axelar',
+      display: 'axl',
+      symbol: 'AXL',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'
+      },
+      coingecko_id: 'axelar',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg',
+          theme: {
+            primary_color_hex: '#040404'
+          }
+        }],
+      socials: {
+        website: 'https://axelar.network/',
+        twitter: 'https://twitter.com/axelarnetwork'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-177',
+            base_denom: 'uaxl',
+            chain_name: 'axelar'
+          },
+          chain: {
+            channel_id: 'channel-14'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Gravity Bridge',
+      denom_units: [{
+          denom: 'ibc/FC9D92EC12BC974E8B6179D411351524CD5C2EBC3CE29D5BA856414FEFA47093',
+          exponent: 0,
+          aliases: ['ugraviton']
+        }, {
+          denom: 'graviton',
+          exponent: 6
+        }],
+      base: 'ibc/FC9D92EC12BC974E8B6179D411351524CD5C2EBC3CE29D5BA856414FEFA47093',
+      name: 'Graviton',
+      display: 'graviton',
+      symbol: 'GRAV',
+      coingecko_id: 'graviton',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg',
+          theme: {
+            primary_color_hex: '#042ca4'
+          }
+        }],
+      socials: {
+        website: 'https://www.gravitybridge.net/',
+        twitter: 'https://twitter.com/gravity_bridge'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-18',
+            base_denom: 'ugraviton',
+            chain_name: 'gravitybridge'
+          },
+          chain: {
+            channel_id: 'channel-0'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Namada.',
+      denom_units: [{
+          denom: 'ibc/E78E1960B5564E01ADB27EC0A77A016E0B912489D3490D9B46A4676D7486AC54',
+          exponent: 0,
+          aliases: ['unam']
+        }, {
+          denom: 'nam',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/E78E1960B5564E01ADB27EC0A77A016E0B912489D3490D9B46A4676D7486AC54',
+      name: 'Namada',
+      display: 'nam',
+      symbol: 'NAM',
+      address: 'tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'unam',
+            chain_name: 'namada'
+          },
+          chain: {
+            channel_id: 'channel-13'
           }
         }]
     },
