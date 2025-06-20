@@ -1827,9 +1827,20 @@ const info: AssetList = {
           exponent: 8
         }],
       base: '0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a',
-      name: 'enzoBTC',
+      name: 'lorenzo Wrapped Bitcoin',
       display: 'enzobtc',
       symbol: 'enzoBTC',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'bitcoin',
+            baseDenom: 'sat'
+          },
+          provider: 'Lorenzo Protocol'
+        }],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lorenzo-wrapped-bitcoin.png'
+        }],
       coingeckoId: 'lorenzo-wrapped-bitcoin'
     },
     {

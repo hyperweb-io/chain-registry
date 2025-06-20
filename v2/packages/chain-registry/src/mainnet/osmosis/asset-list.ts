@@ -24866,7 +24866,49 @@ const info: AssetList = {
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/paxg.atom.svg',
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/paxg.atom.png'
+      },
+      socials: {
+        website: 'https://www.paxos.com/pax-gold',
+        twitter: 'https://x.com/Paxos'
       }
+    },
+    {
+      description: 'The native token of Namada.',
+      denomUnits: [{
+          denom: 'ibc/22632ABDBBD528D348728DB854CE4FDE6588DB90B268000E50606BFD2CFDA053',
+          exponent: 0,
+          aliases: ['unam']
+        }, {
+          denom: 'nam',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/22632ABDBBD528D348728DB854CE4FDE6588DB90B268000E50606BFD2CFDA053',
+      name: 'Namada',
+      display: 'nam',
+      symbol: 'NAM',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'namada',
+            baseDenom: 'unam',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-98451',
+            path: 'transfer/channel-98451/unam'
+          }
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'namada',
+            baseDenom: 'unam'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+        }]
     }
   ]
 };
