@@ -923,34 +923,6 @@ const assets: AssetList = {
     },
     {
       type_asset: 'erc20',
-      address: '0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a',
-      denom_units: [{
-          denom: 'ibc/413B0A121848E03C0549C440A0C68BA86C04BE03F0BAD8D7D4B98D8C2B5B546E',
-          exponent: 0,
-          aliases: ['0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a']
-        }, {
-          denom: 'enzobtc',
-          exponent: 8
-        }],
-      base: 'ibc/413B0A121848E03C0549C440A0C68BA86C04BE03F0BAD8D7D4B98D8C2B5B546E',
-      name: 'enzoBTC',
-      display: 'enzobtc',
-      symbol: 'enzoBTC',
-      coingecko_id: 'lorenzo-wrapped-bitcoin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-2',
-            base_denom: '0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a',
-            chain_name: 'ethereum'
-          },
-          chain: {
-            channel_id: 'channel-52'
-          }
-        }]
-    },
-    {
-      type_asset: 'erc20',
       address: '0xC96dE26018A54D51c097160568752c4E3BD6C364',
       denom_units: [{
           denom: 'ibc/E385F0A14A503CAD3E10D6F27EF55F729541D02E2B05F12318DE9939B33E060E',
@@ -3099,34 +3071,6 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-2',
             base_denom: '0xd9d920aa40f578ab794426f5c90f6c731d159def',
-            chain_name: 'ethereum'
-          },
-          chain: {
-            channel_id: 'channel-52'
-          }
-        }]
-    },
-    {
-      type_asset: 'erc20',
-      address: '0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a',
-      denom_units: [{
-          denom: 'ibc/413B0A121848E03C0549C440A0C68BA86C04BE03F0BAD8D7D4B98D8C2B5B546E',
-          exponent: 0,
-          aliases: ['0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a']
-        }, {
-          denom: 'enzobtc',
-          exponent: 8
-        }],
-      base: 'ibc/413B0A121848E03C0549C440A0C68BA86C04BE03F0BAD8D7D4B98D8C2B5B546E',
-      name: 'enzoBTC',
-      display: 'enzobtc',
-      symbol: 'enzoBTC',
-      coingecko_id: 'lorenzo-wrapped-bitcoin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-2',
-            base_denom: '0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a',
             chain_name: 'ethereum'
           },
           chain: {

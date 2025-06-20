@@ -125,6 +125,49 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Akash Network is a decentralized cloud computing marketplace that connects users with unused computing resources, offering a cost-effective alternative to traditional cloud providers.',
+      denom_units: [{
+          denom: 'ibc/84CF82F31F46BFBE392F50D7062BC95142F182A904BCAD3E3180C15B525444D8',
+          exponent: 0,
+          aliases: ['uakt']
+        }, {
+          denom: 'akt',
+          exponent: 6
+        }],
+      base: 'ibc/84CF82F31F46BFBE392F50D7062BC95142F182A904BCAD3E3180C15B525444D8',
+      name: 'Akash Network',
+      display: 'akt',
+      symbol: 'AKT',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
+      },
+      coingecko_id: 'akash-network',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg',
+          theme: {
+            primary_color_hex: '#bc342c'
+          }
+        }],
+      socials: {
+        website: 'https://akash.network/',
+        twitter: 'https://twitter.com/akashnet_'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-130',
+            base_denom: 'uakt',
+            chain_name: 'akash'
+          },
+          chain: {
+            channel_id: 'channel-447'
+          }
+        }]
+    },
+    {
       description: 'The native token of Aura Network',
       denom_units: [{
           denom: 'ibc/7C6220A768862B54B717F6AF9E29D398B16747B79D509E777D7F2259578E3D47',
@@ -1626,6 +1669,49 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-121'
+          }
+        }]
+    },
+    {
+      description: 'Akash Network is a decentralized cloud computing marketplace that connects users with unused computing resources, offering a cost-effective alternative to traditional cloud providers.',
+      denom_units: [{
+          denom: 'ibc/84CF82F31F46BFBE392F50D7062BC95142F182A904BCAD3E3180C15B525444D8',
+          exponent: 0,
+          aliases: ['uakt']
+        }, {
+          denom: 'akt',
+          exponent: 6
+        }],
+      base: 'ibc/84CF82F31F46BFBE392F50D7062BC95142F182A904BCAD3E3180C15B525444D8',
+      name: 'Akash Network',
+      display: 'akt',
+      symbol: 'AKT',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
+      },
+      coingecko_id: 'akash-network',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg',
+          theme: {
+            primary_color_hex: '#bc342c'
+          }
+        }],
+      socials: {
+        website: 'https://akash.network/',
+        twitter: 'https://twitter.com/akashnet_'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-130',
+            base_denom: 'uakt',
+            chain_name: 'akash'
+          },
+          chain: {
+            channel_id: 'channel-447'
           }
         }]
     },

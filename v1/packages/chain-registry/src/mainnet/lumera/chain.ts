@@ -7,7 +7,7 @@ const info: Chain = {
   pretty_name: 'Lumera',
   website: 'https://lumera.protocol',
   network_type: 'mainnet',
-  status: 'upcoming',
+  status: 'live',
   bech32_prefix: 'lumera',
   bech32_config: {
     bech32PrefixAccAddr: 'lumera',
@@ -37,11 +37,14 @@ const info: Chain = {
   },
   codebase: {
     git_repo: 'https://github.com/LumeraProtocol/lumera',
-    tag: 'v1.0.0',
-    recommended_version: 'v1.0.0',
+    tag: 'v1.5.0',
+    recommended_version: 'v1.5.0',
     language: {
       type: 'go',
       version: 'v1.24'
+    },
+    binaries: {
+      "linux/amd64": 'https://github.com/LumeraProtocol/lumera/releases/download/v1.5.0/lumera_v1.5.0_linux_amd64.tar.gz?checksum=sha256:3d33c600ad35b94c72acf4ce81247f6171b79169f5b84a6e415df1ec30d690dc'
     },
     sdk: {
       type: 'cosmos',
@@ -60,8 +63,22 @@ const info: Chain = {
       version: 'v8.5.1'
     },
     genesis: {
-      genesis_url: 'https://github.com/LumeraProtocol/lumera-networks/tree/master/mainnet'
+      genesis_url: 'https://raw.githubusercontent.com/LumeraProtocol/lumera-networks/refs/heads/master/mainnet/genesis.json'
     }
+  },
+  apis: {
+    rpc: [{
+        address: 'https://rpc.lumera.io:443',
+        provider: 'LumeraProtocol'
+      }],
+    rest: [{
+        address: 'https://lcd.lumera.io:443',
+        provider: 'LumeraProtocol'
+      }],
+    grpc: [{
+        address: 'https://grpc.lumera.io:443',
+        provider: 'LumeraProtocol'
+      }]
   },
   explorers: [{
       kind: 'ping.pub',
