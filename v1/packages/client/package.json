@@ -1,6 +1,6 @@
 {
   "name": "@chain-registry/client",
-  "version": "1.53.158",
+  "version": "1.53.159",
   "description": "Chain Registry Client",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "homepage": "https://github.com/hyperweb-io/chain-registry",
@@ -35,8 +35,8 @@
     "supertest": "6.3.3"
   },
   "dependencies": {
-    "@chain-registry/types": "^0.50.158",
-    "@chain-registry/utils": "^1.51.158",
+    "@chain-registry/types": "^0.50.159",
+    "@chain-registry/utils": "^1.51.159",
     "bfs-path": "^1.0.2",
     "cross-fetch": "^3.1.5"
   },
