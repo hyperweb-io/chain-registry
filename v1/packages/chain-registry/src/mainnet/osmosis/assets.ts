@@ -20226,7 +20226,7 @@ const info: AssetList = {
         }]
     },
     {
-      description: 'STOS coin is the native token for the Stratos Blockchain. Stratos is a pioneering decentralized infrastructure service provider, revolutionizing AI and DePIN with advanced decentralized solutions in storage, computing, databases, and blockchain services. We empower Web 3.0 developpers and dApps through our scalable, reliable, and high-performance networks.',
+      description: 'STOS coin is the native token for the Stratos Blockchain. Stratos is a pioneering decentralized infrastructure service provider, revolutionizing AI and DePIN with advanced decentralized solutions in storage, computing, databases, and blockchain services. We empower Web 3.0 developers and dApps through our scalable, reliable, and high-performance networks.',
       denom_units: [
         {
           denom: 'ibc/ABD49F44559CB3E557CC458459CB6A67CEBD66E23C7674A0B2B445230BDA1F6C',
@@ -20602,7 +20602,7 @@ const info: AssetList = {
         }]
     },
     {
-      description: 'Native LTC from Litecion blockchain bridged via Int3face bridge',
+      description: 'Native LTC from Litecoin blockchain bridged via Int3face bridge',
       denom_units: [{
           denom: 'ibc/905326586AE1C86AC8B1CDB20BE957DE5FB23963EDD2C9ADD3E835CC22115A46',
           exponent: 0,
@@ -24068,7 +24068,7 @@ const info: AssetList = {
     },
     {
       description: 'ashLAB - Burned LAB',
-      extended_description: 'ashLAB - receipt token recieved when burning LAB via ASH DAOs Furnace',
+      extended_description: 'ashLAB - receipt token received when burning LAB via ASH DAOs Furnace',
       denom_units: [{
           denom: 'factory/osmo1svj5kd8kzj7xxtrd6ftjk0856ffpyj4egz7f9pd9dge5wr4kwansmefq07/lab.ash',
           exponent: 0
@@ -24165,7 +24165,7 @@ const info: AssetList = {
     },
     {
       description: 'ashION - Burned ION',
-      extended_description: 'ashION - receipt token recieved when burning ION via ASH DAOs Furnace',
+      extended_description: 'ashION - receipt token received when burning ION via ASH DAOs Furnace',
       denom_units: [{
           denom: 'factory/osmo1svj5kd8kzj7xxtrd6ftjk0856ffpyj4egz7f9pd9dge5wr4kwansmefq07/ion.ash',
           exponent: 0
@@ -24875,7 +24875,7 @@ const info: AssetList = {
     {
       description: 'The native token of Namada.',
       denom_units: [{
-          denom: 'ibc/22632ABDBBD528D348728DB854CE4FDE6588DB90B268000E50606BFD2CFDA053',
+          denom: 'ibc/C7110DEC66869DAE9BE9C3C60F4B5313B16A2204AE020C3B0527DD6B322386A3',
           exponent: 0,
           aliases: ['unam']
         }, {
@@ -24883,7 +24883,7 @@ const info: AssetList = {
           exponent: 6
         }],
       type_asset: 'ics20',
-      base: 'ibc/22632ABDBBD528D348728DB854CE4FDE6588DB90B268000E50606BFD2CFDA053',
+      base: 'ibc/C7110DEC66869DAE9BE9C3C60F4B5313B16A2204AE020C3B0527DD6B322386A3',
       name: 'Namada',
       display: 'nam',
       symbol: 'NAM',
@@ -24896,7 +24896,7 @@ const info: AssetList = {
           },
           chain: {
             channel_id: 'channel-98451',
-            path: 'transfer/channel-98451/unam'
+            path: 'transfer/channel-98451/tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7'
           }
         }],
       logo_URIs: {

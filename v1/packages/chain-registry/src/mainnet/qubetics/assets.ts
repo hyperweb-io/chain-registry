@@ -1,0 +1,34 @@
+import { AssetList } from '@chain-registry/types';
+const info: AssetList = {
+  $schema: '../assetlist.schema.json',
+  chain_name: 'qubetics',
+  assets: [{
+      description: 'The EVM, governance and staking token of the qubetics Chain',
+      denom_units: [{
+          denom: 'tics',
+          exponent: 0
+        }, {
+          denom: 'TICS',
+          exponent: 18
+        }],
+      base: 'tics',
+      name: 'Qubetics Mainnet',
+      display: 'TICS',
+      symbol: 'TICS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qubetics/images/qubetics.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qubetics/images/qubetics.png',
+          theme: {
+            primary_color_hex: '#046ffc'
+          }
+        }],
+      socials: {
+        website: 'https://www.qubetics.com/',
+        twitter: 'https://x.com/qubetics'
+      },
+      type_asset: 'sdk.coin'
+    }]
+};
+export default info;

@@ -21,6 +21,11 @@ const assets: AssetList = {
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
       },
+      socials: {
+        website: 'https://namada.net/',
+        twitter: 'https://x.com/namada'
+      },
+      coingecko_id: 'namada',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -10443,6 +10448,11 @@ const assets: AssetList = {
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
       },
+      socials: {
+        website: 'https://namada.net/',
+        twitter: 'https://x.com/namada'
+      },
+      coingecko_id: 'namada',
       traces: [{
           type: 'ibc',
           counterparty: {

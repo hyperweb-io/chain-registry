@@ -155,6 +155,7 @@ import * as _pundix from './pundix';
 import * as _pylons from './pylons';
 import * as _qfs from './qfs';
 import * as _quasar from './quasar';
+import * as _qubetics from './qubetics';
 import * as _quicksilver from './quicksilver';
 import * as _qwoyn from './qwoyn';
 import * as _realio from './realio';
@@ -362,6 +363,7 @@ const chains: Chain[] = [
   _pylons.chain,
   _qfs.chain,
   _quasar.chain,
+  _qubetics.chain,
   _quicksilver.chain,
   _qwoyn.chain,
   _realio.chain,
