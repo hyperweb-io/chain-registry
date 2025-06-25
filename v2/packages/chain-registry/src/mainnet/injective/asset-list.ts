@@ -861,8 +861,8 @@ const info: AssetList = {
           }
         }],
       socials: {
-        website: 'https://github.com/raphaellafar/Cosmo',
-        twitter: 'https://x.com/CosmoClub84'
+        website: 'https://cosmoport.org',
+        twitter: 'https://x.com/cosmoport_org'
       },
       typeAsset: 'sdk.coin'
     },

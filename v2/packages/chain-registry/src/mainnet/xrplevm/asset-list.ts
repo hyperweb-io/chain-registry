@@ -14,7 +14,7 @@ const info: AssetList = {
         }],
       typeAsset: 'sdk.coin',
       base: 'axrp',
-      name: 'XRP',
+      name: 'Ripple',
       display: 'XRP',
       symbol: 'XRP',
       images: [{
