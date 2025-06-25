@@ -18646,8 +18646,8 @@ const assets: AssetList = {
           }
         }],
       socials: {
-        website: 'https://github.com/raphaellafar/Cosmo',
-        twitter: 'https://x.com/CosmoClub84'
+        website: 'https://cosmoport.org',
+        twitter: 'https://x.com/cosmoport_org'
       }
     },
     {
@@ -24906,6 +24906,45 @@ const assets: AssetList = {
             base_denom: 'unam'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+        }]
+    },
+    {
+      description: 'The native token of the XRPL EVM Sidechain',
+      denom_units: [{
+          denom: 'ibc/46EB46DB30D3BBC6F404A9232C09785F36D40DA05C662A8E295712ECBAFF1609',
+          exponent: 0,
+          aliases: ['axrp']
+        }, {
+          denom: 'xrp',
+          exponent: 18,
+          aliases: []
+        }],
+      type_asset: 'ics20',
+      base: 'ibc/46EB46DB30D3BBC6F404A9232C09785F36D40DA05C662A8E295712ECBAFF1609',
+      name: 'Ripple (XRPL EVM)',
+      display: 'axrp',
+      symbol: 'XRP.xrplevm',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chain_name: 'xrplevm',
+            base_denom: 'axrp',
+            channel_id: 'channel-3'
+          },
+          chain: {
+            channel_id: 'channel-104325',
+            path: 'transfer/channel-104325/axrp'
+          }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png'
+      },
+      images: [{
+          image_sync: {
+            chain_name: 'xrplevm',
+            base_denom: 'axrp'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png'
         }]
     }
   ]
