@@ -1,12 +1,12 @@
 import { Chain } from '@chain-registry/types';
 const info: Chain = {
-  $schema: '../../chain.schema.json',
-  chainName: 'symphonytestnet',
+  $schema: '../chain.schema.json',
+  chainName: 'symphony',
   status: 'live',
-  networkType: 'testnet',
-  prettyName: 'Symphony Testnet',
+  networkType: 'mainnet',
+  prettyName: 'Symphony',
   chainType: 'cosmos',
-  chainId: 'symphony-testnet-4',
+  chainId: 'symphony-1',
   bech32Prefix: 'symphony',
   daemonName: 'symphonyd',
   nodeHome: '$HOME/.symphonyd',
@@ -16,9 +16,9 @@ const info: Chain = {
     feeTokens: [{
         denom: 'note',
         fixedMinGasPrice: 0,
-        lowGasPrice: 0.0025,
-        averageGasPrice: 0.025,
-        highGasPrice: 0.04
+        lowGasPrice: 0.00025,
+        averageGasPrice: 0.0025,
+        highGasPrice: 0.004
       }]
   },
   staking: {
@@ -28,14 +28,14 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/Orchestra-Labs/symphony',
-    recommendedVersion: 'v0.4.1',
-    compatibleVersions: ['v0.4.1'],
+    recommendedVersion: 'v1.0.0',
+    compatibleVersions: ['v1.0.0'],
     consensus: {
       type: 'cometbft',
       version: '0.38.11'
     },
     genesis: {
-      genesisUrl: 'https://raw.githubusercontent.com/Orchestra-Labs/symphony/refs/heads/main/networks/symphony-testnet-4/genesis.json'
+      genesisUrl: 'https://raw.githubusercontent.com/Orchestra-Labs/symphony/refs/heads/main/networks/symphony-1/genesis.json'
     },
     sdk: {
       type: 'cosmos',
@@ -48,24 +48,24 @@ const info: Chain = {
   },
   apis: {
     rpc: [{
-        address: 'https://symphony.test.rpc.nodeshub.online/',
+        address: 'https://symphony.rpc.nodeshub.online/',
         provider: 'Nodes Hub'
       }, {
-        address: 'https://symphony-testnet-rpc.cogwheel.zone/',
+        address: 'https://symphony-rpc.cogwheel.zone/',
         provider: 'Cogwheel ⚙️'
       }],
     rest: [{
-        address: 'https://symphony.test.api.nodeshub.online/',
+        address: 'https://symphony.api.nodeshub.online/',
         provider: 'Nodes Hub'
       }, {
-        address: 'https://symphony-testnet-api.cogwheel.zone/',
+        address: 'https://symphony-api.cogwheel.zone/',
         provider: 'Cogwheel ⚙️'
       }],
     grpc: [{
-        address: 'https://symphony.test.grpc.nodeshub.online/',
+        address: 'https://symphony.grpc.nodeshub.online/',
         provider: 'Nodes Hub'
       }, {
-        address: 'https://symphony-testnet-grpc.cogwheel.zone:443',
+        address: 'https://symphony-grpc.cogwheel.zone:443',
         provider: 'Cogwheel ⚙️'
       }]
   },

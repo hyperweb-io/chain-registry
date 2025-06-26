@@ -97,6 +97,7 @@ import * as _quasartestnet from './quasartestnet';
 import * as _qubeticstestnet from './qubeticstestnet';
 import * as _quicksilvertestnet from './quicksilvertestnet';
 import * as _qwoyntestnet from './qwoyntestnet';
+import * as _safrochaintestnet from './safrochaintestnet';
 import * as _sagatestnet from './sagatestnet';
 import * as _secretnetworktestnet from './secretnetworktestnet';
 import * as _sedatestnet from './sedatestnet';
@@ -115,7 +116,6 @@ import * as _stridetestnet from './stridetestnet';
 import * as _sunrisetestnet from './sunrisetestnet';
 import * as _swisstroniktestnet from './swisstroniktestnet';
 import * as _symphonytestnet from './symphonytestnet';
-import * as _symphonytestnet3 from './symphonytestnet3';
 import * as _synternettestnet from './synternettestnet';
 import * as _terpnettestnet from './terpnettestnet';
 import * as _terpnettestnet2 from './terpnettestnet2';
@@ -235,6 +235,7 @@ const chains: Chain[] = [
   _qubeticstestnet.chain,
   _quicksilvertestnet.chain,
   _qwoyntestnet.chain,
+  _safrochaintestnet.chain,
   _sagatestnet.chain,
   _secretnetworktestnet.chain,
   _sedatestnet.chain,
@@ -253,7 +254,6 @@ const chains: Chain[] = [
   _sunrisetestnet.chain,
   _swisstroniktestnet.chain,
   _symphonytestnet.chain,
-  _symphonytestnet3.chain,
   _synternettestnet.chain,
   _terpnettestnet.chain,
   _terpnettestnet2.chain,

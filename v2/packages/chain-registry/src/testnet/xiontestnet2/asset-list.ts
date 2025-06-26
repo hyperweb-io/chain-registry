@@ -31,7 +31,8 @@ const info: AssetList = {
         twitter: 'https://x.com/burnt_xion',
         website: 'https://xion.burnt.com'
       },
-      typeAsset: 'sdk.coin'
+      typeAsset: 'sdk.coin',
+      coingeckoId: 'xion-2'
     },
     {
       denomUnits: [{
