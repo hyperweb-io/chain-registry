@@ -20,10 +20,10 @@ const info: AssetList = {
       display: 'mld',
       symbol: 'MLD',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/mld.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/mld.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/mld.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/mld.png'
         }]
     },
     {
@@ -31,11 +31,10 @@ const info: AssetList = {
       denom_units: [{
           denom: 'uusd',
           exponent: 0,
-          aliases: []
+          aliases: ['microusd']
         }, {
           denom: 'husd',
-          exponent: 6,
-          aliases: ['harmony USD']
+          exponent: 6
         }],
       type_asset: 'sdk.coin',
       base: 'uusd',
@@ -43,10 +42,10 @@ const info: AssetList = {
       display: 'husd',
       symbol: 'HUSD',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/husd.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/husd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/husd.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/husd.png'
         }]
     },
     {
@@ -54,11 +53,10 @@ const info: AssetList = {
       denom_units: [{
           denom: 'ukhd',
           exponent: 0,
-          aliases: []
+          aliases: ['microhkd']
         }, {
           denom: 'hkhd',
-          exponent: 6,
-          aliases: ['harmony HKD']
+          exponent: 6
         }],
       type_asset: 'sdk.coin',
       base: 'ukhd',
@@ -66,10 +64,10 @@ const info: AssetList = {
       display: 'hkhd',
       symbol: 'HKHD',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hhkd.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hhkd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hhkd.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hhkd.png'
         }]
     },
     {
@@ -77,11 +75,10 @@ const info: AssetList = {
       denom_units: [{
           denom: 'uvnd',
           exponent: 0,
-          aliases: []
+          aliases: ['microvnd']
         }, {
           denom: 'hvnd',
-          exponent: 6,
-          aliases: ['harmony VND']
+          exponent: 6
         }],
       type_asset: 'sdk.coin',
       base: 'uvnd',
@@ -89,10 +86,10 @@ const info: AssetList = {
       display: 'hvnd',
       symbol: 'HVND',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hvnd.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hvnd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hvnd.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hvnd.png'
         }]
     }
   ]

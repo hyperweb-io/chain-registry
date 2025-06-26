@@ -673,6 +673,7 @@ const assets: AssetList = {
         website: 'https://xion.burnt.com'
       },
       type_asset: 'sdk.coin',
+      coingecko_id: 'xion-2',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -795,6 +796,7 @@ const assets: AssetList = {
         website: 'https://xion.burnt.com'
       },
       type_asset: 'sdk.coin',
+      coingecko_id: 'xion-2',
       traces: [{
           type: 'ibc',
           counterparty: {

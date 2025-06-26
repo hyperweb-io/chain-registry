@@ -342,10 +342,10 @@ const assets: AssetList = {
       display: 'mld',
       symbol: 'MLD',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/mld.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/mld.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/mld.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/mld.png'
         }],
       traces: [{
           type: 'ibc',
@@ -367,8 +367,7 @@ const assets: AssetList = {
           aliases: ['uusd']
         }, {
           denom: 'husd',
-          exponent: 6,
-          aliases: ['harmony USD']
+          exponent: 6
         }],
       type_asset: 'sdk.coin',
       base: 'ibc/5C2A73544972719FFBAA203655F4B0311F305052698731F4DC30B4DCE781A870',
@@ -376,10 +375,10 @@ const assets: AssetList = {
       display: 'husd',
       symbol: 'HUSD',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/husd.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/husd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/husd.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/husd.png'
         }],
       traces: [{
           type: 'ibc',
@@ -401,8 +400,7 @@ const assets: AssetList = {
           aliases: ['ukhd']
         }, {
           denom: 'hkhd',
-          exponent: 6,
-          aliases: ['harmony HKD']
+          exponent: 6
         }],
       type_asset: 'sdk.coin',
       base: 'ibc/420B21B560D528B229E38CAD83186895B7D3D075772531054076A101E4130CEF',
@@ -410,10 +408,10 @@ const assets: AssetList = {
       display: 'hkhd',
       symbol: 'HKHD',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hhkd.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hhkd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hhkd.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hhkd.png'
         }],
       traces: [{
           type: 'ibc',
@@ -435,8 +433,7 @@ const assets: AssetList = {
           aliases: ['uvnd']
         }, {
           denom: 'hvnd',
-          exponent: 6,
-          aliases: ['harmony VND']
+          exponent: 6
         }],
       type_asset: 'sdk.coin',
       base: 'ibc/15B4B2F848119431C6312B10BB146FFC6B718B7F7899B20001B0ACDDE0724AF5',
@@ -444,10 +441,10 @@ const assets: AssetList = {
       display: 'hvnd',
       symbol: 'HVND',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hvnd.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hvnd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hvnd.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hvnd.png'
         }],
       traces: [{
           type: 'ibc',
@@ -458,142 +455,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-242'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Symphony',
-      denom_units: [{
-          denom: 'ibc/29F9192793460930B74C23C049BAB4EA0F0F7CFFAAB68AE049716078D31A1022',
-          exponent: 0,
-          aliases: ['note']
-        }, {
-          denom: 'mld',
-          exponent: 6,
-          aliases: ['melody']
-        }],
-      type_asset: 'sdk.coin',
-      base: 'ibc/29F9192793460930B74C23C049BAB4EA0F0F7CFFAAB68AE049716078D31A1022',
-      name: 'Melody',
-      display: 'mld',
-      symbol: 'MLD',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/mld.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/mld.png'
-        }],
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-7',
-            base_denom: 'note',
-            chain_name: 'symphonytestnet3'
-          },
-          chain: {
-            channel_id: 'channel-4300'
-          }
-        }]
-    },
-    {
-      description: 'Harmonized USD',
-      denom_units: [{
-          denom: 'ibc/559426F7696D660E661BB93E684EC1EF11D668EB360DD6864DE1172F444E4520',
-          exponent: 0,
-          aliases: ['uusd']
-        }, {
-          denom: 'husd',
-          exponent: 6,
-          aliases: ['harmony USD']
-        }],
-      type_asset: 'sdk.coin',
-      base: 'ibc/559426F7696D660E661BB93E684EC1EF11D668EB360DD6864DE1172F444E4520',
-      name: 'Harmony USD',
-      display: 'husd',
-      symbol: 'HUSD',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/husd.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/husd.png'
-        }],
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-7',
-            base_denom: 'uusd',
-            chain_name: 'symphonytestnet3'
-          },
-          chain: {
-            channel_id: 'channel-4300'
-          }
-        }]
-    },
-    {
-      description: 'Harmonized HKD',
-      denom_units: [{
-          denom: 'ibc/F9E48EEE47E2B810BE9F82DF23FCF119D11F1BBA3752FD98252C14D53DC0DF47',
-          exponent: 0,
-          aliases: ['ukhd']
-        }, {
-          denom: 'hkhd',
-          exponent: 6,
-          aliases: ['harmony HKD']
-        }],
-      type_asset: 'sdk.coin',
-      base: 'ibc/F9E48EEE47E2B810BE9F82DF23FCF119D11F1BBA3752FD98252C14D53DC0DF47',
-      name: 'Harmony HKD',
-      display: 'hkhd',
-      symbol: 'HKHD',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hhkd.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hhkd.png'
-        }],
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-7',
-            base_denom: 'ukhd',
-            chain_name: 'symphonytestnet3'
-          },
-          chain: {
-            channel_id: 'channel-4300'
-          }
-        }]
-    },
-    {
-      description: 'Harmonized VND',
-      denom_units: [{
-          denom: 'ibc/0EB6DAE754E8D4A35BF3F7D3915A618D5A357EDD1CE10E034CCF3391DD94787B',
-          exponent: 0,
-          aliases: ['uvnd']
-        }, {
-          denom: 'hvnd',
-          exponent: 6,
-          aliases: ['harmony VND']
-        }],
-      type_asset: 'sdk.coin',
-      base: 'ibc/0EB6DAE754E8D4A35BF3F7D3915A618D5A357EDD1CE10E034CCF3391DD94787B',
-      name: 'Harmony VND',
-      display: 'hvnd',
-      symbol: 'HVND',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hvnd.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hvnd.png'
-        }],
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-7',
-            base_denom: 'uvnd',
-            chain_name: 'symphonytestnet3'
-          },
-          chain: {
-            channel_id: 'channel-4300'
           }
         }]
     },
@@ -910,10 +771,10 @@ const assets: AssetList = {
       display: 'mld',
       symbol: 'MLD',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/mld.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/mld.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/mld.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/mld.png'
         }],
       traces: [{
           type: 'ibc',
@@ -935,8 +796,7 @@ const assets: AssetList = {
           aliases: ['uusd']
         }, {
           denom: 'husd',
-          exponent: 6,
-          aliases: ['harmony USD']
+          exponent: 6
         }],
       type_asset: 'sdk.coin',
       base: 'ibc/5C2A73544972719FFBAA203655F4B0311F305052698731F4DC30B4DCE781A870',
@@ -944,10 +804,10 @@ const assets: AssetList = {
       display: 'husd',
       symbol: 'HUSD',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/husd.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/husd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/husd.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/husd.png'
         }],
       traces: [{
           type: 'ibc',
@@ -969,8 +829,7 @@ const assets: AssetList = {
           aliases: ['ukhd']
         }, {
           denom: 'hkhd',
-          exponent: 6,
-          aliases: ['harmony HKD']
+          exponent: 6
         }],
       type_asset: 'sdk.coin',
       base: 'ibc/420B21B560D528B229E38CAD83186895B7D3D075772531054076A101E4130CEF',
@@ -978,10 +837,10 @@ const assets: AssetList = {
       display: 'hkhd',
       symbol: 'HKHD',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hhkd.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hhkd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hhkd.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hhkd.png'
         }],
       traces: [{
           type: 'ibc',
@@ -1003,8 +862,7 @@ const assets: AssetList = {
           aliases: ['uvnd']
         }, {
           denom: 'hvnd',
-          exponent: 6,
-          aliases: ['harmony VND']
+          exponent: 6
         }],
       type_asset: 'sdk.coin',
       base: 'ibc/15B4B2F848119431C6312B10BB146FFC6B718B7F7899B20001B0ACDDE0724AF5',
@@ -1012,10 +870,10 @@ const assets: AssetList = {
       display: 'hvnd',
       symbol: 'HVND',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hvnd.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hvnd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hvnd.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hvnd.png'
         }],
       traces: [{
           type: 'ibc',
@@ -1026,142 +884,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-242'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Symphony',
-      denom_units: [{
-          denom: 'ibc/29F9192793460930B74C23C049BAB4EA0F0F7CFFAAB68AE049716078D31A1022',
-          exponent: 0,
-          aliases: ['note']
-        }, {
-          denom: 'mld',
-          exponent: 6,
-          aliases: ['melody']
-        }],
-      type_asset: 'sdk.coin',
-      base: 'ibc/29F9192793460930B74C23C049BAB4EA0F0F7CFFAAB68AE049716078D31A1022',
-      name: 'Melody',
-      display: 'mld',
-      symbol: 'MLD',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/mld.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/mld.png'
-        }],
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-7',
-            base_denom: 'note',
-            chain_name: 'symphonytestnet3'
-          },
-          chain: {
-            channel_id: 'channel-4300'
-          }
-        }]
-    },
-    {
-      description: 'Harmonized USD',
-      denom_units: [{
-          denom: 'ibc/559426F7696D660E661BB93E684EC1EF11D668EB360DD6864DE1172F444E4520',
-          exponent: 0,
-          aliases: ['uusd']
-        }, {
-          denom: 'husd',
-          exponent: 6,
-          aliases: ['harmony USD']
-        }],
-      type_asset: 'sdk.coin',
-      base: 'ibc/559426F7696D660E661BB93E684EC1EF11D668EB360DD6864DE1172F444E4520',
-      name: 'Harmony USD',
-      display: 'husd',
-      symbol: 'HUSD',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/husd.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/husd.png'
-        }],
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-7',
-            base_denom: 'uusd',
-            chain_name: 'symphonytestnet3'
-          },
-          chain: {
-            channel_id: 'channel-4300'
-          }
-        }]
-    },
-    {
-      description: 'Harmonized HKD',
-      denom_units: [{
-          denom: 'ibc/F9E48EEE47E2B810BE9F82DF23FCF119D11F1BBA3752FD98252C14D53DC0DF47',
-          exponent: 0,
-          aliases: ['ukhd']
-        }, {
-          denom: 'hkhd',
-          exponent: 6,
-          aliases: ['harmony HKD']
-        }],
-      type_asset: 'sdk.coin',
-      base: 'ibc/F9E48EEE47E2B810BE9F82DF23FCF119D11F1BBA3752FD98252C14D53DC0DF47',
-      name: 'Harmony HKD',
-      display: 'hkhd',
-      symbol: 'HKHD',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hhkd.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hhkd.png'
-        }],
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-7',
-            base_denom: 'ukhd',
-            chain_name: 'symphonytestnet3'
-          },
-          chain: {
-            channel_id: 'channel-4300'
-          }
-        }]
-    },
-    {
-      description: 'Harmonized VND',
-      denom_units: [{
-          denom: 'ibc/0EB6DAE754E8D4A35BF3F7D3915A618D5A357EDD1CE10E034CCF3391DD94787B',
-          exponent: 0,
-          aliases: ['uvnd']
-        }, {
-          denom: 'hvnd',
-          exponent: 6,
-          aliases: ['harmony VND']
-        }],
-      type_asset: 'sdk.coin',
-      base: 'ibc/0EB6DAE754E8D4A35BF3F7D3915A618D5A357EDD1CE10E034CCF3391DD94787B',
-      name: 'Harmony VND',
-      display: 'hvnd',
-      symbol: 'HVND',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hvnd.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/hvnd.png'
-        }],
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-7',
-            base_denom: 'uvnd',
-            chain_name: 'symphonytestnet3'
-          },
-          chain: {
-            channel_id: 'channel-4300'
           }
         }]
     },
