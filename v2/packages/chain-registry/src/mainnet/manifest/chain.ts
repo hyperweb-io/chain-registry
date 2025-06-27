@@ -28,10 +28,10 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/liftedinit/manifest-ledger',
-    recommendedVersion: 'v1.0.3',
-    compatibleVersions: ['v1.0.3'],
+    recommendedVersion: 'v1.0.5',
+    compatibleVersions: ['v1.0.3', 'v1.0.5'],
     binaries: {
-      "linux/amd64": 'https://github.com/liftedinit/manifest-ledger/releases/download/v1.0.3/manifest-ledger-v1.0.3-linux-amd64.tar.gz'
+      "linux/amd64": 'https://github.com/liftedinit/manifest-ledger/releases/download/v1.0.5/manifest-ledger-v1.0.5-linux-amd64.tar.gz'
     },
     genesis: {
       genesisUrl: 'https://nodes.liftedinit.app/manifest/rpc/genesis?'

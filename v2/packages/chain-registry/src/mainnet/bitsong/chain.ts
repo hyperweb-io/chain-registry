@@ -14,25 +14,25 @@ const info: Chain = {
   nodeHome: '$HOME/.bitsongd',
   codebase: {
     gitRepo: 'https://github.com/bitsongofficial/go-bitsong',
-    recommendedVersion: 'v0.20.4',
-    compatibleVersions: ['v0.20.4'],
+    recommendedVersion: 'v0.23.0',
+    compatibleVersions: ['v0.23.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/bitsongofficial/go-bitsong/releases/download/v0.20.4/bitsongd-linux-amd64',
-      "linux/arm64": 'https://github.com/bitsongofficial/go-bitsong/releases/download/v0.20.4/bitsongd-linux-arm64'
+      "linux/amd64": 'https://github.com/bitsongofficial/go-bitsong/releases/download/v0.23.0/bitsongd-linux-amd64',
+      "linux/arm64": 'https://github.com/bitsongofficial/go-bitsong/releases/download/v0.23.0/bitsongd-linux-arm64'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/bitsongofficial/networks/master/bitsong-2b/genesis.json'
     },
     sdk: {
       type: 'cosmos',
-      version: '0.47.15'
+      version: '0.53.0'
     },
     ibc: {
       type: 'go',
-      version: 'v7.4.0'
+      version: 'v8.7.0'
     },
     cosmwasm: {
-      version: '0.45.0',
+      version: '0.53.3',
       enabled: true
     }
   },
