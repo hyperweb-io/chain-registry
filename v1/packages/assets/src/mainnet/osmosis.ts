@@ -5202,6 +5202,7 @@ const assets: AssetList = {
         website: 'https://manifestai.org/',
         twitter: 'https://x.com/ManifestAIs/'
       },
+      coingecko_id: 'manifest-2',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -11747,6 +11748,7 @@ const assets: AssetList = {
         website: 'https://manifestai.org/',
         twitter: 'https://x.com/ManifestAIs/'
       },
+      coingecko_id: 'manifest-2',
       traces: [{
           type: 'ibc',
           counterparty: {

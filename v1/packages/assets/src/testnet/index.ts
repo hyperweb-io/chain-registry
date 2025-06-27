@@ -13,6 +13,7 @@ export * as doravotatestnet from './doravotatestnet';
 export * as dydxtestnet from './dydxtestnet';
 export * as elystestnet from './elystestnet';
 export * as empowertestnet from './empowertestnet';
+export * as hippoprotocoltestnet from './hippoprotocoltestnet';
 export * as impacthubtestnet from './impacthubtestnet';
 export * as injectivetestnet from './injectivetestnet';
 export * as int3facetestnet from './int3facetestnet';

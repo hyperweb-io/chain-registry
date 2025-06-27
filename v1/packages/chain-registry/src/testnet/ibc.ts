@@ -15,6 +15,7 @@ import * as _doravotatestnet from './doravotatestnet';
 import * as _dydxtestnet from './dydxtestnet';
 import * as _elystestnet from './elystestnet';
 import * as _empowertestnet from './empowertestnet';
+import * as _hippoprotocoltestnet from './hippoprotocoltestnet';
 import * as _impacthubtestnet from './impacthubtestnet';
 import * as _injectivetestnet from './injectivetestnet';
 import * as _int3facetestnet from './int3facetestnet';
@@ -65,6 +66,7 @@ const ibc: IBCInfo[] = [
   ..._dydxtestnet.ibc,
   ..._elystestnet.ibc,
   ..._empowertestnet.ibc,
+  ..._hippoprotocoltestnet.ibc,
   ..._impacthubtestnet.ibc,
   ..._injectivetestnet.ibc,
   ..._int3facetestnet.ibc,

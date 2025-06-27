@@ -32,6 +32,7 @@ import * as _bluechip from './bluechip';
 import * as _bluzelle from './bluzelle';
 import * as _bostrom from './bostrom';
 import * as _bouachain from './bouachain';
+import * as _buycex from './buycex';
 import * as _canto from './canto';
 import * as _carbon from './carbon';
 import * as _celestia from './celestia';
@@ -241,6 +242,7 @@ const chains: Chain[] = [
   _bluzelle.chain,
   _bostrom.chain,
   _bouachain.chain,
+  _buycex.chain,
   _canto.chain,
   _carbon.chain,
   _celestia.chain,
