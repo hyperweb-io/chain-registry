@@ -31,7 +31,7 @@ const info: Chain = {
     recommendedVersion: 'v2.0.0',
     compatibleVersions: ['v2.0.0'],
     genesis: {
-      genesisUrl: 'https://rpcmainnet.cifer.ai/genesis'
+      genesisUrl: 'https://rpc.cifer.ai/genesis'
     }
   },
   logoURIs: {
@@ -40,10 +40,16 @@ const info: Chain = {
   },
   apis: {
     rpc: [{
-        address: 'http://34.128.114.243:26657',
+        address: 'https://rpc.cifer.ai',
+        provider: 'Cifer'
+      }, {
+        address: 'http://119.59.126.109:26657',
         provider: 'Cifer'
       }],
     rest: [{
+        address: 'https://lcd.cifer.ai',
+        provider: 'Cifer'
+      }, {
         address: 'https://api.cifer.ai',
         provider: 'Cifer'
       }],
@@ -61,7 +67,7 @@ const info: Chain = {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.svg',
       theme: {
-        primaryColorHex: '#af49b7'
+        primaryColorHex: '#5F53C8'
       }
     }]
 };

@@ -3,7 +3,7 @@ const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chainName: 'bitbadges',
   assets: [{
-      description: '$BADGE is the native in-app credits token for BitBadges.',
+      description: '$BADGE is the native in-app token for BitBadges.',
       denomUnits: [{
           denom: 'ubadge',
           exponent: 0
@@ -12,14 +12,14 @@ const info: AssetList = {
           exponent: 9
         }],
       base: 'ubadge',
-      name: 'BitBadges Credits',
+      name: 'BitBadges',
       display: 'badge',
       symbol: 'BADGE',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png'
         }],
       socials: {
         website: 'https://bitbadges.io/',

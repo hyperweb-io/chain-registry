@@ -81,10 +81,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://zetachain-mainnet-rpc.cosmonautstakes.com',
-        provider: 'Cosmonaut Stakes'
-      },
-      {
         address: 'https://zetachain-mainnet-tendermint.reliableninjas.com',
         provider: 'Reliable Ninjas'
       }
@@ -119,10 +115,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://zetachain-mainnet-rest.cosmonautstakes.com',
-        provider: 'Cosmonaut Stakes'
-      },
-      {
         address: 'https://zetachain-mainnet-cosmos.reliableninjas.com',
         provider: 'Reliable Ninjas'
       }
@@ -143,10 +135,6 @@ const info: Chain = {
       {
         address: 'https://zetachain.grpc.nodeshub.online',
         provider: 'Nodes Hub'
-      },
-      {
-        address: 'zeta.grpc.m.stavr.tech',
-        provider: '🔥STAVR🔥'
       },
       {
         address: 'zetachain-mainnet-grpc.cosmonautstakes.com:15190',

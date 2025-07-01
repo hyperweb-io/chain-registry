@@ -24917,14 +24917,13 @@ const info: AssetList = {
           exponent: 0,
           aliases: ['axrp']
         }, {
-          denom: 'xrp',
-          exponent: 18,
-          aliases: []
+          denom: 'XRP',
+          exponent: 18
         }],
       typeAsset: 'ics20',
       base: 'ibc/46EB46DB30D3BBC6F404A9232C09785F36D40DA05C662A8E295712ECBAFF1609',
       name: 'Ripple (XRPL EVM)',
-      display: 'axrp',
+      display: 'XRP',
       symbol: 'XRP.xrplevm',
       traces: [{
           type: 'ibc',

@@ -276,12 +276,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'mintscan',
-      url: 'https://www.mintscan.io/umee/',
-      txPage: 'https://www.mintscan.io/umee/transactions/${txHash}',
-      accountPage: 'https://www.mintscan.io/umee/accounts/${accountAddress}'
-    },
-    {
       kind: 'ping.pub',
       url: 'https://ping.pub/umee',
       txPage: 'https://ping.pub/umee/tx/${txHash}'

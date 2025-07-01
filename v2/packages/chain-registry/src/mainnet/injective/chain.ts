@@ -12,6 +12,7 @@ const info: Chain = {
   extraCodecs: ['injective'],
   slip44: 60,
   daemonName: 'injectived',
+  keyAlgos: ['ethsecp256k1'],
   nodeHome: '$HOME/.injectived',
   fees: {
     feeTokens: [{
