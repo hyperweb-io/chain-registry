@@ -915,7 +915,7 @@ const asset_list: AssetList = {
         }]
     },
     {
-      description: '$BADGE is the native in-app credits token for BitBadges.',
+      description: '$BADGE is the native in-app token for BitBadges.',
       denom_units: [{
           denom: 'ibc/AEA658A560ADC30785492AB06B707BC260E7DAB3686A5A2A6F33CB3FFB1E1462',
           exponent: 0,
@@ -925,14 +925,14 @@ const asset_list: AssetList = {
           exponent: 9
         }],
       base: 'ibc/AEA658A560ADC30785492AB06B707BC260E7DAB3686A5A2A6F33CB3FFB1E1462',
-      name: 'BitBadges Credits',
+      name: 'BitBadges',
       display: 'badge',
       symbol: 'BADGE',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png'
         }],
       socials: {
         website: 'https://bitbadges.io/',
@@ -1722,12 +1722,13 @@ const asset_list: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.svg',
           theme: {
-            primary_color_hex: '#af49b7'
+            primary_color_hex: '#5F53C8'
           }
         }],
       socials: {
-        website: 'http://cifer.ai/',
-        twitter: 'https://twitter.com/cifer_ai'
+        website: 'http://cifer.ai',
+        twitter: 'https://x.com/cifer_ai',
+        github: 'https://github.com/CiferAI'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -7461,7 +7462,7 @@ const asset_list: AssetList = {
         }]
     },
     {
-      description: '$BADGE is the native in-app credits token for BitBadges.',
+      description: '$BADGE is the native in-app token for BitBadges.',
       denom_units: [{
           denom: 'ibc/AEA658A560ADC30785492AB06B707BC260E7DAB3686A5A2A6F33CB3FFB1E1462',
           exponent: 0,
@@ -7471,14 +7472,14 @@ const asset_list: AssetList = {
           exponent: 9
         }],
       base: 'ibc/AEA658A560ADC30785492AB06B707BC260E7DAB3686A5A2A6F33CB3FFB1E1462',
-      name: 'BitBadges Credits',
+      name: 'BitBadges',
       display: 'badge',
       symbol: 'BADGE',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png'
         }],
       socials: {
         website: 'https://bitbadges.io/',
@@ -8268,12 +8269,13 @@ const asset_list: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.svg',
           theme: {
-            primary_color_hex: '#af49b7'
+            primary_color_hex: '#5F53C8'
           }
         }],
       socials: {
-        website: 'http://cifer.ai/',
-        twitter: 'https://twitter.com/cifer_ai'
+        website: 'http://cifer.ai',
+        twitter: 'https://x.com/cifer_ai',
+        github: 'https://github.com/CiferAI'
       },
       type_asset: 'sdk.coin',
       traces: [{

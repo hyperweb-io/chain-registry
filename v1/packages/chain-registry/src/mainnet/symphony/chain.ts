@@ -47,28 +47,55 @@ const info: Chain = {
     }
   },
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://symphony.rpc.nodeshub.online/',
         provider: 'Nodes Hub'
-      }, {
+      },
+      {
         address: 'https://symphony-rpc.cogwheel.zone/',
         provider: 'Cogwheel ⚙️'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://rpc-main-symphony.vinjan.xyz',
+        provider: 'Vinjan.Inc'
+      }
+    ],
+    rest: [
+      {
         address: 'https://symphony.api.nodeshub.online/',
         provider: 'Nodes Hub'
-      }, {
+      },
+      {
         address: 'https://symphony-api.cogwheel.zone/',
         provider: 'Cogwheel ⚙️'
-      }],
-    grpc: [{
+      },
+      {
+        address: 'https://api-main-symphony.vinjan.xyz',
+        provider: 'Vinjan.Inc'
+      }
+    ],
+    grpc: [
+      {
         address: 'https://symphony.grpc.nodeshub.online/',
         provider: 'Nodes Hub'
-      }, {
+      },
+      {
         address: 'https://symphony-grpc.cogwheel.zone:443',
         provider: 'Cogwheel ⚙️'
-      }]
+      },
+      {
+        address: 'grpc-main-symphony.vinjan.xyz:21090',
+        provider: 'Vinjan.Inc'
+      }
+    ]
   },
+  explorers: [{
+      kind: 'VinjanXplorer',
+      url: 'https://xplorer.vinjan.xyz/symphony',
+      tx_page: 'https://xplorer.vinjan.xyz/symphony/tx/${txHash}',
+      account_page: 'https://xplorer.vinjan.xyz/symphony/account/${accountAddress}'
+    }],
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/symphony_logo.png'
   },

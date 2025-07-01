@@ -23,12 +23,13 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.svg',
           theme: {
-            primary_color_hex: '#af49b7'
+            primary_color_hex: '#5F53C8'
           }
         }],
       socials: {
-        website: 'http://cifer.ai/',
-        twitter: 'https://twitter.com/cifer_ai'
+        website: 'http://cifer.ai',
+        twitter: 'https://x.com/cifer_ai',
+        github: 'https://github.com/CiferAI'
       },
       type_asset: 'sdk.coin'
     }]

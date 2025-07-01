@@ -5,14 +5,14 @@ const assets: AssetList = {
     {
       description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
       denom_units: [{
-          denom: 'ibc/7EC27DE8BE837B6EDCADCE2B87705C8A5D034A446DD65E80AEDED7A952A40344',
+          denom: 'ibc/452A877FB580D5FA3B55F3DDCE9A9B07E9E8C6B85CA1211175EC4A9D90D9FBE8',
           exponent: 0,
           aliases: ['ubld']
         }, {
           denom: 'bld',
           exponent: 6
         }],
-      base: 'ibc/7EC27DE8BE837B6EDCADCE2B87705C8A5D034A446DD65E80AEDED7A952A40344',
+      base: 'ibc/452A877FB580D5FA3B55F3DDCE9A9B07E9E8C6B85CA1211175EC4A9D90D9FBE8',
       name: 'Agoric',
       display: 'bld',
       symbol: 'BLD',
@@ -36,26 +36,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-12',
+            channel_id: 'channel-315',
             base_denom: 'ubld',
             chain_name: 'agoricdevnet'
           },
           chain: {
-            channel_id: 'channel-602'
+            channel_id: 'channel-623'
           }
         }]
     },
     {
       description: 'IST is the stable token used by the Agoric chain for execution fees and commerce.',
       denom_units: [{
-          denom: 'ibc/AC3AF57CE2EF4A5B3BE80896E30692BB1B678D7224BC42BAFDB7C4FF6FF4F8E8',
+          denom: 'ibc/52E1640C94C33A9D028DB79855C83F4C739F594ADA15CD6E3B6F3D6A1354FC6A',
           exponent: 0,
           aliases: ['uist']
         }, {
           denom: 'ist',
           exponent: 6
         }],
-      base: 'ibc/AC3AF57CE2EF4A5B3BE80896E30692BB1B678D7224BC42BAFDB7C4FF6FF4F8E8',
+      base: 'ibc/52E1640C94C33A9D028DB79855C83F4C739F594ADA15CD6E3B6F3D6A1354FC6A',
       name: 'Inter Stable Token',
       display: 'ist',
       symbol: 'IST',
@@ -75,26 +75,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-12',
+            channel_id: 'channel-315',
             base_denom: 'uist',
             chain_name: 'agoricdevnet'
           },
           chain: {
-            channel_id: 'channel-602'
+            channel_id: 'channel-623'
           }
         }]
     },
     {
       description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
       denom_units: [{
-          denom: 'ibc/7EC27DE8BE837B6EDCADCE2B87705C8A5D034A446DD65E80AEDED7A952A40344',
+          denom: 'ibc/452A877FB580D5FA3B55F3DDCE9A9B07E9E8C6B85CA1211175EC4A9D90D9FBE8',
           exponent: 0,
           aliases: ['ubld']
         }, {
           denom: 'bld',
           exponent: 6
         }],
-      base: 'ibc/7EC27DE8BE837B6EDCADCE2B87705C8A5D034A446DD65E80AEDED7A952A40344',
+      base: 'ibc/452A877FB580D5FA3B55F3DDCE9A9B07E9E8C6B85CA1211175EC4A9D90D9FBE8',
       name: 'Agoric',
       display: 'bld',
       symbol: 'BLD',
@@ -118,26 +118,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-12',
+            channel_id: 'channel-315',
             base_denom: 'ubld',
             chain_name: 'agoricdevnet'
           },
           chain: {
-            channel_id: 'channel-602'
+            channel_id: 'channel-623'
           }
         }]
     },
     {
       description: 'IST is the stable token used by the Agoric chain for execution fees and commerce.',
       denom_units: [{
-          denom: 'ibc/AC3AF57CE2EF4A5B3BE80896E30692BB1B678D7224BC42BAFDB7C4FF6FF4F8E8',
+          denom: 'ibc/52E1640C94C33A9D028DB79855C83F4C739F594ADA15CD6E3B6F3D6A1354FC6A',
           exponent: 0,
           aliases: ['uist']
         }, {
           denom: 'ist',
           exponent: 6
         }],
-      base: 'ibc/AC3AF57CE2EF4A5B3BE80896E30692BB1B678D7224BC42BAFDB7C4FF6FF4F8E8',
+      base: 'ibc/52E1640C94C33A9D028DB79855C83F4C739F594ADA15CD6E3B6F3D6A1354FC6A',
       name: 'Inter Stable Token',
       display: 'ist',
       symbol: 'IST',
@@ -157,12 +157,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-12',
+            channel_id: 'channel-315',
             base_denom: 'uist',
             chain_name: 'agoricdevnet'
           },
           chain: {
-            channel_id: 'channel-602'
+            channel_id: 'channel-623'
           }
         }]
     },
