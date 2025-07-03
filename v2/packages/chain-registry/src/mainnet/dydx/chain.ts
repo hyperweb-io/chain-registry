@@ -35,18 +35,11 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/dydxprotocol/v4-chain/',
-    recommendedVersion: 'protocol/v8.0.5',
-    compatibleVersions: [
-      'protocol/v8.0.5',
-      'protocol/v8.0.3',
-      'protocol/v8.0.2',
-      'protocol/v8.0.1',
-      'protocol/v8.0.0-rc1',
-      'protocol/v8.0.0-rc0'
-    ],
+    recommendedVersion: 'protocol/v8.1.0',
+    compatibleVersions: ['protocol/v8.1.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/dydxprotocol/v4-chain/releases/download/protocol%2Fv8.0.5/dydxprotocold-v8.0.5-linux-amd64.tar.gz',
-      "linux/arm64": 'https://github.com/dydxprotocol/v4-chain/releases/download/protocol%2Fv8.0.5/dydxprotocold-v8.0.5-linux-arm64.tar.gz'
+      "linux/amd64": 'https://github.com/dydxprotocol/v4-chain/releases/download/protocol%2Fv8.1.0/dydxprotocold-v8.1.0-linux-amd64.tar.gz',
+      "linux/arm64": 'https://github.com/dydxprotocol/v4-chain/releases/download/protocol%2Fv8.1.0/dydxprotocold-v8.1.0-linux-arm64.tar.gz'
     },
     consensus: {
       type: 'cometbft',

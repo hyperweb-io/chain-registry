@@ -214,6 +214,7 @@ const info: AssetList = {
     },
     {
       description: 'USDN token',
+      extendedDescription: 'USDN is a yielding stablecoin collateral-backed by short-duration U.S. Treasury Bills.',
       denomUnits: [{
           denom: 'uusdn',
           exponent: 0,
@@ -227,6 +228,7 @@ const info: AssetList = {
       name: 'Noble Dollar',
       display: 'usdn',
       symbol: 'USDN',
+      coingeckoId: 'noble-dollar-usdn',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg'

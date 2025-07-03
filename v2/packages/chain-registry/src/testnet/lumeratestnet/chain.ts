@@ -3,7 +3,7 @@ const info: Chain = {
   $schema: '../../chain.schema.json',
   chainName: 'lumeratestnet',
   chainType: 'cosmos',
-  chainId: 'lumera-testnet-1',
+  chainId: 'lumera-testnet-2',
   prettyName: 'Lumera',
   website: 'https://lumera.protocol',
   networkType: 'testnet',
