@@ -201,6 +201,7 @@ export * as unification from './unification';
 export * as ununifi from './ununifi';
 export * as uptick from './uptick';
 export * as vector from './vector';
+export * as xarchain from './xarchain';
 export * as xion from './xion';
 export * as xpla from './xpla';
 export * as xrplevm from './xrplevm';

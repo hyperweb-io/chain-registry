@@ -2405,6 +2405,7 @@ const assets: AssetList = {
       name: 'Noble Dollar',
       display: 'usdn',
       symbol: 'USDN',
+      coingecko_id: 'noble-dollar-usdn',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg'
@@ -3128,6 +3129,7 @@ const assets: AssetList = {
       name: 'Noble Dollar',
       display: 'usdn',
       symbol: 'USDN',
+      coingecko_id: 'noble-dollar-usdn',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg'

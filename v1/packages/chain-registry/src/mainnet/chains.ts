@@ -203,6 +203,7 @@ import * as _unification from './unification';
 import * as _ununifi from './ununifi';
 import * as _uptick from './uptick';
 import * as _vector from './vector';
+import * as _xarchain from './xarchain';
 import * as _xion from './xion';
 import * as _xpla from './xpla';
 import * as _xrplevm from './xrplevm';
@@ -413,6 +414,7 @@ const chains: Chain[] = [
   _ununifi.chain,
   _uptick.chain,
   _vector.chain,
+  _xarchain.chain,
   _xion.chain,
   _xpla.chain,
   _xrplevm.chain,
