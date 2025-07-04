@@ -78,7 +78,7 @@ const info: Chain = {
         provider: 'Grove'
       }],
     rest: [{
-        address: 'https://shannon-grove-rest.mainnet.poktroll.com',
+        address: 'https://shannon-grove-api.mainnet.poktroll.com',
         provider: 'Grove'
       }]
   },
