@@ -408,6 +408,51 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga_white.svg'
       },
       coingeckoId: 'saga-2'
+    },
+    {
+      description: 'XRPL EVM Token',
+      denomUnits: [{
+          denom: 'ibc/8464A63954C0350A26C8588E20719F3A0AC8705E4CA0F7450B60C3F16B2D3421',
+          exponent: 0,
+          aliases: ['axrp']
+        }, {
+          denom: 'xrp',
+          exponent: 18
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/8464A63954C0350A26C8588E20719F3A0AC8705E4CA0F7450B60C3F16B2D3421',
+      name: 'Ripple',
+      display: 'xrp',
+      symbol: 'XRP',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'xrplevm',
+            baseDenom: 'axrp',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-27',
+            path: 'transfer/channel-27/axrp'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'xrplevm',
+            baseDenom: 'axrp'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg',
+          theme: {
+            primaryColorHex: '#040404',
+            darkMode: true
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg'
+      },
+      coingeckoId: 'ripple'
     }
   ]
 };

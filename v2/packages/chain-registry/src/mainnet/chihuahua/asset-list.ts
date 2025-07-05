@@ -88,6 +88,30 @@ const info: AssetList = {
       typeAsset: 'sdk.coin'
     },
     {
+      description: 'BeerDog',
+      denomUnits: [{
+          denom: 'factory/chihuahua1sj9verkuk8aa9jrngnpwup6zjht4vwngjlpemnt9w38ccp0qnlcswvsuzc/beer',
+          exponent: 0
+        }, {
+          denom: 'BEER',
+          exponent: 6
+        }],
+      base: 'factory/chihuahua1sj9verkuk8aa9jrngnpwup6zjht4vwngjlpemnt9w38ccp0qnlcswvsuzc/beer',
+      name: 'BEER',
+      display: 'BEER',
+      symbol: 'BEER',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/beer.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/beer.png',
+          theme: {
+            primaryColorHex: '#d9905f'
+          }
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
       description: 'Woof',
       denomUnits: [{
           denom: 'factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof',

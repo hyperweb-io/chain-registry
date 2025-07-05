@@ -6,7 +6,7 @@ const info: Chain = {
   networkType: 'testnet',
   prettyName: 'Sunrise Testnet',
   chainType: 'cosmos',
-  chainId: 'sunrise-test-0.1',
+  chainId: 'sunrise-test-da-5',
   bech32Prefix: 'sunrise',
   daemonName: 'sunrised',
   nodeHome: '$HOME/.sunrise',
@@ -14,7 +14,7 @@ const info: Chain = {
   slip44: 118,
   fees: {
     feeTokens: [{
-        denom: 'urise',
+        denom: 'uusdrise',
         fixedMinGasPrice: 0,
         lowGasPrice: 0.0025,
         averageGasPrice: 0.025,
@@ -28,24 +28,22 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/sunriselayer/sunrise',
-    recommendedVersion: 'v0.1.2',
-    compatibleVersions: ['v0.1.2'],
+    recommendedVersion: 'v0.6.0',
+    compatibleVersions: ['v0.6.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/sunriselayer/sunrise/releases/download/v0.1.2/sunrised'
+      "linux/amd64": 'https://github.com/sunriselayer/sunrise/releases/download/v0.6.0/sunrised'
     },
     consensus: {
       type: 'cometbft',
-      version: 'v0.0.5',
-      repo: 'https://github.com/sunriselayer/sunrise-core',
-      tag: 'v0.0.5-cmt-v0.38.2'
+      version: 'v0.38.17'
     },
     sdk: {
       type: 'cosmos',
-      version: '0.50.2'
+      version: 'v0.53.2'
     },
     ibc: {
       type: 'go',
-      version: '8.0.0'
+      version: 'v10.2.0'
     }
   },
   logoURIs: {
@@ -54,24 +52,15 @@ const info: Chain = {
   },
   apis: {
     rpc: [{
-        address: 'https://a-node.sunrise-test-1.cauchye.net/',
-        provider: 'CauchyE'
-      }, {
-        address: 'https://b-node.sunrise-test-1.cauchye.net/',
+        address: 'https://sunrise-test-da-5.cauchye.net',
         provider: 'CauchyE'
       }],
     rest: [{
-        address: 'https://a-node.sunrise-test-1.cauchye.net:1318',
-        provider: 'CauchyE'
-      }, {
-        address: 'https://b-node.sunrise-test-1.cauchye.net:1318',
+        address: 'https://sunrise-test-da-5.cauchye.net:1318',
         provider: 'CauchyE'
       }],
     grpc: [{
-        address: 'https://a.sunrise-test-1.cauchye.net:9092',
-        provider: 'CauchyE'
-      }, {
-        address: 'https://b.sunrise-test-1.cauchye.net:9092',
+        address: 'https://sunrise-test-da-5.cauchye.net:9092',
         provider: 'CauchyE'
       }]
   },

@@ -7,15 +7,15 @@ const info: Chain = {
   networkType: 'testnet',
   website: 'https://safrochain.com',
   prettyName: 'Safrochain Testnet',
-  chainId: 'safrochain-testnet',
+  chainId: 'safro-testnet-1',
   bech32Prefix: 'addr_safro',
   daemonName: 'safrochaind',
-  nodeHome: '.safrochaind',
+  nodeHome: '.safrochain',
   keyAlgos: ['secp256k1', 'ed25519'],
   slip44: 118,
   fees: {
     feeTokens: [{
-        denom: 'saf',
+        denom: 'usaf',
         fixedMinGasPrice: 0.001,
         lowGasPrice: 0.0025,
         averageGasPrice: 0.025,
@@ -24,18 +24,13 @@ const info: Chain = {
   },
   staking: {
     stakingTokens: [{
-        denom: 'saf'
+        denom: 'usaf'
       }]
   },
   codebase: {
     gitRepo: 'https://github.com/Safrochain-Org/safrochain-node',
-    recommendedVersion: 'v1.0.0',
-    compatibleVersions: ['v1.0.0'],
-    binaries: {
-      "linux/amd64": 'https://github.com/Safrochain-Org/safrochain-node/releases/download/v1.0.0/v1.0.0_linux_amd64.tar.gz',
-      "darwin/amd64": 'https://github.com/Safrochain-Org/safrochain-node/releases/download/v1.0.0/v1.0.0_darwin_amd64.tar.gz',
-      "darwin/arm64": 'https://github.com/Safrochain-Org/safrochain-node/releases/download/v1.0.0/v1.0.0_darwin_arm64.tar.gz'
-    }
+    recommendedVersion: 'v0.1.0',
+    compatibleVersions: ['v0.1.0']
   },
   apis: {
     rpc: [{

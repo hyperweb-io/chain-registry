@@ -4,6 +4,7 @@ const info: AssetList = {
   chainName: 'bitbadges',
   assets: [{
       description: '$BADGE is the native in-app token for BitBadges.',
+      extendedDescription: '$BADGE is the native in-app currency for the BitBadges app, blockchain, and ecosystem. It is intended to be used for both chain-native functionalities and also as an in-app currency for badge payments.',
       denomUnits: [{
           denom: 'ubadge',
           exponent: 0
@@ -16,10 +17,12 @@ const info: AssetList = {
       display: 'badge',
       symbol: 'BADGE',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.svg'
         }],
       socials: {
         website: 'https://bitbadges.io/',

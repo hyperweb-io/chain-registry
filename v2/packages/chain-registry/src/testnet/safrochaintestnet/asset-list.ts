@@ -3,27 +3,18 @@ const info: AssetList = {
   $schema: '../../assetlist.schema.json',
   chainName: 'safrochaintestnet',
   assets: [{
-      description: 'The native token of Safrochain testnet used for staking, governance, and fees.',
-      denomUnits: [
-        {
-          denom: 'saf',
+      description: 'The native token of Safrochain testnet used for staking, governance, and gas fees.',
+      denomUnits: [{
+          denom: 'usaf',
           exponent: 0,
           aliases: ['microsaf']
-        },
-        {
-          denom: 'kuta',
-          exponent: 3,
-          aliases: ['millisaf']
-        },
-        {
-          denom: 'hela',
-          exponent: 6,
-          aliases: []
-        }
-      ],
-      base: 'saf',
+        }, {
+          denom: 'saf',
+          exponent: 6
+        }],
+      base: 'usaf',
       name: 'Safrochain',
-      display: 'hela',
+      display: 'saf',
       symbol: 'SAF',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/safrochaintestnet/images/saf.png',
