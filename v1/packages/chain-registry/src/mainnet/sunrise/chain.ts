@@ -15,7 +15,7 @@ const info: Chain = {
   slip44: 118,
   fees: {
     fee_tokens: [{
-        denom: 'urise',
+        denom: 'uusdrise',
         fixed_min_gas_price: 0.002,
         low_gas_price: 0.01,
         average_gas_price: 0.02,

@@ -2,7 +2,8 @@ import { AssetList } from '@chain-registry/types';
 const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chain_name: 'sunrise',
-  assets: [{
+  assets: [
+    {
       description: 'The native token of the Sunrise network for staking. This token is non transferrable. This token can be retrieved by providing liquidity.',
       denom_units: [{
           denom: 'uvrise',
@@ -32,8 +33,9 @@ const info: AssetList = {
         twitter: 'https://twitter.com/SunriseLayer'
       },
       type_asset: 'sdk.coin'
-    }, {
-      description: 'The native token of the Sunrise network for fees.',
+    },
+    {
+      description: 'The native token of the Sunrise network.',
       denom_units: [{
           denom: 'urise',
           exponent: 0,
@@ -62,6 +64,38 @@ const info: AssetList = {
         twitter: 'https://twitter.com/SunriseLayer'
       },
       type_asset: 'sdk.coin'
-    }]
+    },
+    {
+      description: 'The USD stable coin of the Sunrise network for fees.',
+      denom_units: [{
+          denom: 'uusdrise',
+          exponent: 0,
+          aliases: ['microUSDrise', 'microusdrise']
+        }, {
+          denom: 'usdrise',
+          exponent: 6
+        }],
+      base: 'uusdrise',
+      name: 'Sunrise USDrise',
+      display: 'usdrise',
+      symbol: 'USDRISE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.png',
+          theme: {
+            primary_color_hex: '#ecbc64'
+          }
+        }],
+      socials: {
+        website: 'https://sunriselayer.io/',
+        twitter: 'https://twitter.com/SunriseLayer'
+      },
+      type_asset: 'sdk.coin'
+    }
+  ]
 };
 export default info;
