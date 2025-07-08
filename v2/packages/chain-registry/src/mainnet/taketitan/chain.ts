@@ -7,15 +7,15 @@ const info: Chain = {
   website: 'https://taketitan.com/',
   prettyName: 'TakeTitan',
   chainType: 'cosmos',
-  chainId: 'taketitan-12',
-  bech32Prefix: 'taketitan',
-  daemonName: 'ttnc',
-  nodeHome: '$HOME/.ssc',
+  chainId: 'taketitan-1',
+  bech32Prefix: 'titan',
+  daemonName: 'titand',
+  nodeHome: '$HOME/.titand',
   keyAlgos: ['secp256k1'],
-  slip44: 1179993421,
+  slip44: 118,
   staking: {
     stakingTokens: [{
-        denom: 'ttnc'
+        denom: 'utitan'
       }],
     lockDuration: {
       time: '1814400s'
@@ -23,23 +23,23 @@ const info: Chain = {
   },
   fees: {
     feeTokens: [{
-        denom: 'ttnc',
-        lowGasPrice: 0.000001,
-        averageGasPrice: 0.000005,
-        highGasPrice: 0.0001
+        denom: 'utitan',
+        lowGasPrice: 0.025,
+        averageGasPrice: 0.03,
+        highGasPrice: 0.035
       }]
   },
   apis: {
     rpc: [{
-        address: 'https://rcpttnc.taketitan.com',
+        address: 'https://rpc.taketitan.com',
         provider: 'taketitan'
       }],
     rest: [{
-        address: 'https://lcdttnc.taketitan.com',
+        address: 'https://lcd.taketitan.com',
         provider: 'taketitan'
       }],
     grpc: [{
-        address: 'https://grcpttnc.taketitan.com:8090',
+        address: 'https://grpc.taketitan.com',
         provider: 'taketitan'
       }]
   },
@@ -49,9 +49,9 @@ const info: Chain = {
   },
   explorers: [{
       kind: 'ping.pub',
-      url: 'https://scan.taketitan.com/taketitan',
-      txPage: 'https://scan.taketitan.com/taketitan/tx/${txHash}',
-      accountPage: 'https://scan.taketitan.com/taketitan/accounts/${accountAddress}'
+      url: 'https://blockexplorer.taketitan.com',
+      txPage: 'https://blockexplorer.taketitan.com/tx/${txHash}',
+      accountPage: 'https://blockexplorer.taketitan.com/accounts/${accountAddress}'
     }],
   keywords: [],
   images: [{

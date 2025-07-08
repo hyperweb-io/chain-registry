@@ -97,6 +97,10 @@ const info: Chain = {
         provider: 'Kleomedes'
       },
       {
+        address: 'https://cheqd.srvs.vnodesv.net/rpc',
+        provider: 'vNodes[V] Ser[V]ices'
+      },
+      {
         address: 'https://cheqd-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       }
@@ -143,6 +147,10 @@ const info: Chain = {
         provider: 'Kleomedes'
       },
       {
+        address: 'https://cheqd.srvs.vnodesv.net/rest',
+        provider: 'vNodes[V] Ser[V]ices'
+      },
+      {
         address: 'https://cheqd-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       }
@@ -175,6 +183,10 @@ const info: Chain = {
       {
         address: 'grpc-cheqd.blockval.io:9290',
         provider: 'Blockval'
+      },
+      {
+        address: 'https://cheqd.srvs.vnodesv.net/grpc',
+        provider: 'vNodes[V] Ser[V]ices'
       },
       {
         address: 'cheqd-grpc.publicnode.com:443',
