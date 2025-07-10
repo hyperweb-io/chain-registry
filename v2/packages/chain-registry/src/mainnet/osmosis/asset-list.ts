@@ -24639,6 +24639,50 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png'
         }]
+    },
+    {
+      description: 'TakeTitan Titans',
+      denomUnits: [{
+          denom: 'ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB',
+          exponent: 0,
+          aliases: ['utitan']
+        }, {
+          denom: 'titan',
+          exponent: 6,
+          aliases: []
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB',
+      name: 'TakeTitan Titans',
+      display: 'titan',
+      symbol: 'TITAN',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'taketitan',
+            baseDenom: 'utitan',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-104765',
+            path: 'transfer/channel-104765/utitan'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'taketitan',
+            baseDenom: 'utitan'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.svg',
+          theme: {
+            primaryColorHex: '#41918c'
+          }
+        }]
     }
   ]
 };

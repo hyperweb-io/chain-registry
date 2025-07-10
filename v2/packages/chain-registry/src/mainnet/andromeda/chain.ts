@@ -100,10 +100,6 @@ const info: Chain = {
         provider: '[NODERS]TEAM'
       },
       {
-        address: 'rpc-andromeda.blockval.io',
-        provider: 'Blockval'
-      },
-      {
         address: 'https://andromeda.rpc.liveraven.net',
         provider: 'LiveRaveN'
       }
@@ -154,10 +150,6 @@ const info: Chain = {
         provider: '[NODERS]TEAM'
       },
       {
-        address: 'api-andromeda.blockval.io',
-        provider: 'Blockval'
-      },
-      {
         address: 'https://andromeda.api.liveraven.net',
         provider: 'LiveRaveN'
       }
@@ -202,10 +194,6 @@ const info: Chain = {
       {
         address: 'andromeda-grpc.noders.services:34090',
         provider: '[NODERS]TEAM'
-      },
-      {
-        address: 'grpc-andromeda.blockval.io:443',
-        provider: 'Blockval'
       },
       {
         address: 'andromeda.grpc.liveraven.net:443',

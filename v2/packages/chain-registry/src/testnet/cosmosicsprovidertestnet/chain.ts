@@ -17,7 +17,7 @@ const info: Chain = {
         denom: 'uatom',
         fixedMinGasPrice: 0.005,
         lowGasPrice: 0.01,
-        averageGasPrice: 0.025,
+        averageGasPrice: 0.02,
         highGasPrice: 0.03
       }]
   },
@@ -28,28 +28,28 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/cosmos/gaia',
-    recommendedVersion: 'v23.0.0',
-    compatibleVersions: ['v23.0.0'],
+    recommendedVersion: 'v25.0.0',
+    compatibleVersions: ['v25.0.0'],
     consensus: {
       type: 'cometbft',
       version: 'v0.38.17'
     },
     binaries: {
-      "linux/amd64": 'https://github.com/cosmos/gaia/releases/download/v23.0.0/gaiad-v23.0.0-linux-amd64',
-      "darwin/amd64": 'https://github.com/cosmos/gaia/releases/download/v23.0.0/gaiad-v23.0.0-darwin-amd64',
-      "darwin/arm64": 'https://github.com/cosmos/gaia/releases/download/v23.0.0/gaiad-v23.0.0-darwin-arm64'
+      "linux/amd64": 'https://github.com/cosmos/gaia/releases/download/v25.0.0/gaiad-v25.0.0-linux-amd64',
+      "darwin/amd64": 'https://github.com/cosmos/gaia/releases/download/v25.0.0/gaiad-v25.0.0-darwin-amd64',
+      "darwin/arm64": 'https://github.com/cosmos/gaia/releases/download/v25.0.0/gaiad-v25.0.0-darwin-arm64'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/cosmos/testnets/master/interchain-security/provider/provider-genesis.json'
     },
     sdk: {
       type: 'cosmos',
-      version: 'v0.50.11',
-      tag: 'v0.50.11-lsm'
+      version: 'v0.53.0',
+      tag: 'v0.53.0'
     },
     ibc: {
       type: 'go',
-      version: 'v10.1.0'
+      version: 'v10.3.0'
     }
   },
   apis: {

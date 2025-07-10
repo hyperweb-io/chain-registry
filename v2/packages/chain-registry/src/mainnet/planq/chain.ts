@@ -107,10 +107,6 @@ const info: Chain = {
       {
         address: 'https://planq_mainnet_rpc.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
-      },
-      {
-        address: 'https://rpc-planq.blockval.io',
-        provider: 'Blockval'
       }
     ],
     rest: [
@@ -157,10 +153,6 @@ const info: Chain = {
       {
         address: 'https://planq_mainnet_api.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
-      },
-      {
-        address: 'https://api-planq.blockval.io',
-        provider: 'Blockval'
       }
     ],
     grpc: [
@@ -215,10 +207,6 @@ const info: Chain = {
       {
         address: 'mainnet-planq.konsortech.xyz:10090',
         provider: 'KonsorTech'
-      },
-      {
-        address: 'https://grpc-planq.blockval.io',
-        provider: 'Blockval'
       }
     ],
     evmHttpJsonrpc: [

@@ -50,8 +50,8 @@ const info: Chain = {
   explorers: [{
       kind: 'ping.pub',
       url: 'https://blockexplorer.taketitan.com',
-      txPage: 'https://blockexplorer.taketitan.com/tx/${txHash}',
-      accountPage: 'https://blockexplorer.taketitan.com/accounts/${accountAddress}'
+      txPage: 'https://blockexplorer.taketitan.com/taketitan/tx/${txHash}',
+      accountPage: 'https://blockexplorer.taketitan.com/taketitan/accounts/${accountAddress}'
     }],
   keywords: [],
   images: [{
