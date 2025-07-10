@@ -87,10 +87,6 @@ const info: Chain = {
         provider: 'High Stakes 🇨🇭'
       },
       {
-        address: 'https://rpc.provenance.blockval.io/',
-        provider: 'Blockval'
-      },
-      {
         address: 'https://provenance-rpc.panthea.eu',
         provider: 'Panthea EU'
       },
@@ -137,10 +133,6 @@ const info: Chain = {
         provider: 'High Stakes 🇨🇭'
       },
       {
-        address: 'https://api.provenance.blockval.io',
-        provider: 'Blockval'
-      },
-      {
         address: 'https://provenance-api.panthea.eu',
         provider: 'Panthea EU'
       },
@@ -169,10 +161,6 @@ const info: Chain = {
       {
         address: 'grpc-provenance-ia.cosmosia.notional.ventures:443',
         provider: 'Notional'
-      },
-      {
-        address: 'grpc.provenance.blockval.io:9290',
-        provider: 'Blockval'
       },
       {
         address: 'provenance-grpc.panthea.eu:16780',

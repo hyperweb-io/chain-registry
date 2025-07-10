@@ -145,6 +145,7 @@ export * as starname from './starname';
 export * as stratos from './stratos';
 export * as stride from './stride';
 export * as synternet from './synternet';
+export * as taketitan from './taketitan';
 export * as teritori from './teritori';
 export * as terra from './terra';
 export * as terra2 from './terra2';

@@ -21688,6 +21688,47 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Taketitan the future of the asset management industry.',
+      denom_units: [{
+          denom: 'ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB',
+          exponent: 0,
+          aliases: ['utitan']
+        }, {
+          denom: 'titan',
+          exponent: 6
+        }],
+      base: 'ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB',
+      name: 'Titan',
+      display: 'titan',
+      symbol: 'TITAN',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.svg',
+          theme: {
+            primary_color_hex: '#41918c'
+          }
+        }],
+      socials: {
+        website: 'https://taketitan.com/'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'utitan',
+            chain_name: 'taketitan'
+          },
+          chain: {
+            channel_id: 'channel-104765'
+          }
+        }]
+    },
+    {
       description: 'The native token of Teritori',
       denom_units: [{
           denom: 'ibc/EB7FB9C8B425F289B63703413327C2051030E848CE4EAAEA2E51199D6D39D3EC',
@@ -31524,6 +31565,47 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-85186'
+          }
+        }]
+    },
+    {
+      description: 'Taketitan the future of the asset management industry.',
+      denom_units: [{
+          denom: 'ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB',
+          exponent: 0,
+          aliases: ['utitan']
+        }, {
+          denom: 'titan',
+          exponent: 6
+        }],
+      base: 'ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB',
+      name: 'Titan',
+      display: 'titan',
+      symbol: 'TITAN',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.svg',
+          theme: {
+            primary_color_hex: '#41918c'
+          }
+        }],
+      socials: {
+        website: 'https://taketitan.com/'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'utitan',
+            chain_name: 'taketitan'
+          },
+          chain: {
+            channel_id: 'channel-104765'
           }
         }]
     },
