@@ -34,8 +34,8 @@ const info: Chain = {
     }
   },
   logo_URIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dyson/images/dyson.png',
-    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dyson/images/dyson.svg'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dyson/images/dys.png',
+    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dyson/images/dys.svg'
   },
   apis: {
     rpc: [{
@@ -67,8 +67,8 @@ const info: Chain = {
       account_page: 'https://explorer.dys.dysonprotocol.com/dyson/account/${accountAddress}'
     }],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dyson/images/dyson.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dyson/images/dyson.svg'
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dyson/images/dys.png',
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dyson/images/dys.svg'
     }]
 };
 export default info;
