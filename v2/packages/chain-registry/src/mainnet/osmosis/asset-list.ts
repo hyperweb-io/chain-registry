@@ -24683,6 +24683,28 @@ const info: AssetList = {
             primaryColorHex: '#41918c'
           }
         }]
+    },
+    {
+      description: 'eBABY – Escher’s chain-abstracted liquid-staking token for BABY',
+      denomUnits: [{
+          denom: 'factory/osmo12r3yc76u9lxe33yemstatnw8602culdjzrtr8lmnpycmd3z7d4jsxx60kc/FwNhFaW3zLxoLUgXCdWjqBzcvGNPaB7B2XZqm2xgrB93',
+          exponent: 0
+        }, {
+          denom: 'ebaby',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/osmo12r3yc76u9lxe33yemstatnw8602culdjzrtr8lmnpycmd3z7d4jsxx60kc/FwNhFaW3zLxoLUgXCdWjqBzcvGNPaB7B2XZqm2xgrB93',
+      name: 'eBABY',
+      display: 'ebaby',
+      symbol: 'EBABY',
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/eBABY.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/eBABY.svg'
+        }],
+      keywords: ['liquid-staking', 'escher']
     }
   ]
 };
