@@ -82,17 +82,26 @@ const info: Chain = {
         provider: 'Grove'
       }]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: '🔍 Pocket Explorer by Soothe 🔎',
       url: 'https://shannon.trustsoothe.io',
       tx_page: 'https://shannon.trustsoothe.io/tx/${txHash}',
       account_page: 'https://shannon.trustsoothe.io/accounts/${accountAddress}'
-    }, {
+    },
+    {
       kind: '🗺 Pocket Explorer by Stakenodes.org 🗺',
       url: 'https://shannon.pokt.network',
       tx_page: 'https://shannon.pokt.network/tx/${txHash}',
       account_page: 'https://shannon.pokt.network/poktroll/account/${accountAddress}'
-    }],
+    },
+    {
+      kind: '🗺 Ping Pub fork Explorer by Blockval',
+      url: 'https://explorer.blockval.io/pocket',
+      tx_page: 'https://explorer.blockval.io/pocket/tx/${txHash}',
+      account_page: 'https://explorer.blockval.io/pocket/account/${accountAddress}'
+    }
+  ],
   keywords: [
     'rpc',
     'api',
