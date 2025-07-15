@@ -143,34 +143,6 @@ const info: IBCData[] = [
         }
       }
     ]
-  },
-  {
-    $schema: '../../ibc_data.schema.json',
-    chain1: {
-      chainName: 'archwaytestnet',
-      clientId: '07-tendermint-139',
-      connectionId: 'connection-144'
-    },
-    chain2: {
-      chainName: 'symphonytestnet3',
-      clientId: '07-tendermint-25',
-      connectionId: 'connection-12'
-    },
-    channels: [{
-        chain1: {
-          channelId: 'channel-495',
-          portId: 'transfer'
-        },
-        chain2: {
-          channelId: 'channel-10',
-          portId: 'transfer'
-        },
-        ordering: 'unordered',
-        version: 'ics20-1',
-        tags: {
-          status: 'live'
-        }
-      }]
   }
 ];
 export default info;

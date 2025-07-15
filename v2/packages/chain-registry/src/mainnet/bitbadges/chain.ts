@@ -23,7 +23,7 @@ const info: Chain = {
   },
   staking: {
     stakingTokens: [{
-        denom: 'ustake'
+        denom: 'ubadge'
       }]
   },
   codebase: {

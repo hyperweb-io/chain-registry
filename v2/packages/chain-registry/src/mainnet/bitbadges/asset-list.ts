@@ -29,30 +29,6 @@ const info: AssetList = {
         twitter: 'https://twitter.com/bitbadges_io'
       },
       typeAsset: 'sdk.coin'
-    }, {
-      description: 'The native staking denom for the BitBadges blockchain.',
-      denomUnits: [{
-          denom: 'ustake',
-          exponent: 0
-        }, {
-          denom: 'stake',
-          exponent: 9
-        }],
-      base: 'ustake',
-      name: 'BitBadges Staking',
-      display: 'stake',
-      symbol: 'STAKE',
-      logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
-        }],
-      socials: {
-        website: 'https://bitbadges.io/',
-        twitter: 'https://twitter.com/bitbadges_io'
-      },
-      typeAsset: 'sdk.coin'
     }]
 };
 export default info;

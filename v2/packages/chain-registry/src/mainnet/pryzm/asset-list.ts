@@ -27,7 +27,12 @@ const info: AssetList = {
             primaryColorHex: '#c6ddf5'
           }
         }],
-      typeAsset: 'sdk.coin'
+      typeAsset: 'sdk.coin',
+      coingeckoId: 'pryzm',
+      socials: {
+        website: 'https://pryzm.zone/',
+        twitter: 'https://twitter.com/Pryzm_Zone'
+      }
     },
     {
       description: 'The meme token of PRYZM',
