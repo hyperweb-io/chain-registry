@@ -3121,6 +3121,11 @@ const assets: AssetList = {
           }
         }],
       type_asset: 'sdk.coin',
+      coingecko_id: 'pryzm',
+      socials: {
+        website: 'https://pryzm.zone/',
+        twitter: 'https://twitter.com/Pryzm_Zone'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -10453,6 +10458,11 @@ const assets: AssetList = {
           }
         }],
       type_asset: 'sdk.coin',
+      coingecko_id: 'pryzm',
+      socials: {
+        website: 'https://pryzm.zone/',
+        twitter: 'https://twitter.com/Pryzm_Zone'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {

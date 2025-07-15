@@ -364,43 +364,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native staking denom for the BitBadges blockchain.',
-      denom_units: [{
-          denom: 'ibc/5193A71C28D7FCE0041F4EF03B60736F6FFA2B94A7DEFF1DD130739CEEAFA386',
-          exponent: 0,
-          aliases: ['ustake']
-        }, {
-          denom: 'stake',
-          exponent: 9
-        }],
-      base: 'ibc/5193A71C28D7FCE0041F4EF03B60736F6FFA2B94A7DEFF1DD130739CEEAFA386',
-      name: 'BitBadges Staking',
-      display: 'stake',
-      symbol: 'STAKE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
-        }],
-      socials: {
-        website: 'https://bitbadges.io/',
-        twitter: 'https://twitter.com/bitbadges_io'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-2',
-            base_denom: 'ustake',
-            chain_name: 'bitbadges'
-          },
-          chain: {
-            channel_id: 'channel-158'
-          }
-        }]
-    },
-    {
       description: 'The native token of Coreum',
       denom_units: [{
           denom: 'ibc/1B229CD41D9F3787A48B822DE2E963E8F7BEADEF28AE45941940E2406A6D596F',
@@ -2956,43 +2919,6 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-2',
             base_denom: 'ubadge',
-            chain_name: 'bitbadges'
-          },
-          chain: {
-            channel_id: 'channel-158'
-          }
-        }]
-    },
-    {
-      description: 'The native staking denom for the BitBadges blockchain.',
-      denom_units: [{
-          denom: 'ibc/5193A71C28D7FCE0041F4EF03B60736F6FFA2B94A7DEFF1DD130739CEEAFA386',
-          exponent: 0,
-          aliases: ['ustake']
-        }, {
-          denom: 'stake',
-          exponent: 9
-        }],
-      base: 'ibc/5193A71C28D7FCE0041F4EF03B60736F6FFA2B94A7DEFF1DD130739CEEAFA386',
-      name: 'BitBadges Staking',
-      display: 'stake',
-      symbol: 'STAKE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
-        }],
-      socials: {
-        website: 'https://bitbadges.io/',
-        twitter: 'https://twitter.com/bitbadges_io'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-2',
-            base_denom: 'ustake',
             chain_name: 'bitbadges'
           },
           chain: {
@@ -5818,6 +5744,11 @@ const assets: AssetList = {
           }
         }],
       type_asset: 'sdk.coin',
+      coingecko_id: 'pryzm',
+      socials: {
+        website: 'https://pryzm.zone/',
+        twitter: 'https://twitter.com/Pryzm_Zone'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -14625,6 +14556,11 @@ const assets: AssetList = {
           }
         }],
       type_asset: 'sdk.coin',
+      coingecko_id: 'pryzm',
+      socials: {
+        website: 'https://pryzm.zone/',
+        twitter: 'https://twitter.com/Pryzm_Zone'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {

@@ -954,43 +954,6 @@ const asset_list: AssetList = {
         }]
     },
     {
-      description: 'The native staking denom for the BitBadges blockchain.',
-      denom_units: [{
-          denom: 'ibc/4126D2E361790201322A5AD26271158280698892441BE5578FC106EEF3A98EF4',
-          exponent: 0,
-          aliases: ['ustake']
-        }, {
-          denom: 'stake',
-          exponent: 9
-        }],
-      base: 'ibc/4126D2E361790201322A5AD26271158280698892441BE5578FC106EEF3A98EF4',
-      name: 'BitBadges Staking',
-      display: 'stake',
-      symbol: 'STAKE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
-        }],
-      socials: {
-        website: 'https://bitbadges.io/',
-        twitter: 'https://twitter.com/bitbadges_io'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-0',
-            base_denom: 'ustake',
-            chain_name: 'bitbadges'
-          },
-          chain: {
-            channel_id: 'channel-104311'
-          }
-        }]
-    },
-    {
       description: 'The BCNA coin is the transactional token within the BitCanna network, serving the legal cannabis industry through its payment network, supply chain and trust network.',
       denom_units: [{
           denom: 'ibc/D805F1DA50D31B96E4282C1D4181EDDFB1A44A598BFF5666F4B43E4B8BEA95A5',
@@ -7504,43 +7467,6 @@ const asset_list: AssetList = {
         }]
     },
     {
-      description: 'The native staking denom for the BitBadges blockchain.',
-      denom_units: [{
-          denom: 'ibc/4126D2E361790201322A5AD26271158280698892441BE5578FC106EEF3A98EF4',
-          exponent: 0,
-          aliases: ['ustake']
-        }, {
-          denom: 'stake',
-          exponent: 9
-        }],
-      base: 'ibc/4126D2E361790201322A5AD26271158280698892441BE5578FC106EEF3A98EF4',
-      name: 'BitBadges Staking',
-      display: 'stake',
-      symbol: 'STAKE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
-        }],
-      socials: {
-        website: 'https://bitbadges.io/',
-        twitter: 'https://twitter.com/bitbadges_io'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-0',
-            base_denom: 'ustake',
-            chain_name: 'bitbadges'
-          },
-          chain: {
-            channel_id: 'channel-104311'
-          }
-        }]
-    },
-    {
       description: 'The BCNA coin is the transactional token within the BitCanna network, serving the legal cannabis industry through its payment network, supply chain and trust network.',
       denom_units: [{
           denom: 'ibc/D805F1DA50D31B96E4282C1D4181EDDFB1A44A598BFF5666F4B43E4B8BEA95A5',
@@ -13666,6 +13592,11 @@ const asset_list: AssetList = {
           }
         }],
       type_asset: 'sdk.coin',
+      coingecko_id: 'pryzm',
+      socials: {
+        website: 'https://pryzm.zone/',
+        twitter: 'https://twitter.com/Pryzm_Zone'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -21642,6 +21573,139 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-326'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Symphony',
+      denom_units: [{
+          denom: 'ibc/41AD5D4AFA42104295D08E564ADC7B40FD9DAB4BCD3002ECFA8BDD1309B65F24',
+          exponent: 0,
+          aliases: ['note']
+        }, {
+          denom: 'mld',
+          exponent: 6,
+          aliases: ['melody']
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/41AD5D4AFA42104295D08E564ADC7B40FD9DAB4BCD3002ECFA8BDD1309B65F24',
+      name: 'Melody',
+      display: 'mld',
+      symbol: 'MLD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/mld.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/mld.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'note',
+            chain_name: 'symphony'
+          },
+          chain: {
+            channel_id: 'channel-104867'
+          }
+        }]
+    },
+    {
+      description: 'Harmonized USD',
+      denom_units: [{
+          denom: 'ibc/799FF3558FC4B21B06D44DDEDCAAD14B968CCAE15D6F2E48D3859A26BCF8223D',
+          exponent: 0,
+          aliases: ['uusd']
+        }, {
+          denom: 'husd',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/799FF3558FC4B21B06D44DDEDCAAD14B968CCAE15D6F2E48D3859A26BCF8223D',
+      name: 'Harmony USD',
+      display: 'husd',
+      symbol: 'HUSD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/husd.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/husd.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uusd',
+            chain_name: 'symphony'
+          },
+          chain: {
+            channel_id: 'channel-104867'
+          }
+        }]
+    },
+    {
+      description: 'Harmonized HKD',
+      denom_units: [{
+          denom: 'ibc/E3D27CCCF02807C4891D0D86A883C3A2388F1D24338A4CC9F5D617F6ABB9E57C',
+          exponent: 0,
+          aliases: ['ukhd']
+        }, {
+          denom: 'hkhd',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/E3D27CCCF02807C4891D0D86A883C3A2388F1D24338A4CC9F5D617F6ABB9E57C',
+      name: 'Harmony HKD',
+      display: 'hkhd',
+      symbol: 'HKHD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hhkd.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hhkd.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ukhd',
+            chain_name: 'symphony'
+          },
+          chain: {
+            channel_id: 'channel-104867'
+          }
+        }]
+    },
+    {
+      description: 'Harmonized VND',
+      denom_units: [{
+          denom: 'ibc/9805A3715F1C315D3753397FFCEFF284F55771AA3975429997D314F4BA73D18B',
+          exponent: 0,
+          aliases: ['uvnd']
+        }, {
+          denom: 'hvnd',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/9805A3715F1C315D3753397FFCEFF284F55771AA3975429997D314F4BA73D18B',
+      name: 'Harmony VND',
+      display: 'hvnd',
+      symbol: 'HVND',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hvnd.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hvnd.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uvnd',
+            chain_name: 'symphony'
+          },
+          chain: {
+            channel_id: 'channel-104867'
           }
         }]
     },
@@ -23547,6 +23611,11 @@ const asset_list: AssetList = {
           }
         }],
       type_asset: 'sdk.coin',
+      coingecko_id: 'pryzm',
+      socials: {
+        website: 'https://pryzm.zone/',
+        twitter: 'https://twitter.com/Pryzm_Zone'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -31523,6 +31592,139 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-326'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Symphony',
+      denom_units: [{
+          denom: 'ibc/41AD5D4AFA42104295D08E564ADC7B40FD9DAB4BCD3002ECFA8BDD1309B65F24',
+          exponent: 0,
+          aliases: ['note']
+        }, {
+          denom: 'mld',
+          exponent: 6,
+          aliases: ['melody']
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/41AD5D4AFA42104295D08E564ADC7B40FD9DAB4BCD3002ECFA8BDD1309B65F24',
+      name: 'Melody',
+      display: 'mld',
+      symbol: 'MLD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/mld.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/mld.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'note',
+            chain_name: 'symphony'
+          },
+          chain: {
+            channel_id: 'channel-104867'
+          }
+        }]
+    },
+    {
+      description: 'Harmonized USD',
+      denom_units: [{
+          denom: 'ibc/799FF3558FC4B21B06D44DDEDCAAD14B968CCAE15D6F2E48D3859A26BCF8223D',
+          exponent: 0,
+          aliases: ['uusd']
+        }, {
+          denom: 'husd',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/799FF3558FC4B21B06D44DDEDCAAD14B968CCAE15D6F2E48D3859A26BCF8223D',
+      name: 'Harmony USD',
+      display: 'husd',
+      symbol: 'HUSD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/husd.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/husd.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uusd',
+            chain_name: 'symphony'
+          },
+          chain: {
+            channel_id: 'channel-104867'
+          }
+        }]
+    },
+    {
+      description: 'Harmonized HKD',
+      denom_units: [{
+          denom: 'ibc/E3D27CCCF02807C4891D0D86A883C3A2388F1D24338A4CC9F5D617F6ABB9E57C',
+          exponent: 0,
+          aliases: ['ukhd']
+        }, {
+          denom: 'hkhd',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/E3D27CCCF02807C4891D0D86A883C3A2388F1D24338A4CC9F5D617F6ABB9E57C',
+      name: 'Harmony HKD',
+      display: 'hkhd',
+      symbol: 'HKHD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hhkd.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hhkd.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ukhd',
+            chain_name: 'symphony'
+          },
+          chain: {
+            channel_id: 'channel-104867'
+          }
+        }]
+    },
+    {
+      description: 'Harmonized VND',
+      denom_units: [{
+          denom: 'ibc/9805A3715F1C315D3753397FFCEFF284F55771AA3975429997D314F4BA73D18B',
+          exponent: 0,
+          aliases: ['uvnd']
+        }, {
+          denom: 'hvnd',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/9805A3715F1C315D3753397FFCEFF284F55771AA3975429997D314F4BA73D18B',
+      name: 'Harmony VND',
+      display: 'hvnd',
+      symbol: 'HVND',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hvnd.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/hvnd.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uvnd',
+            chain_name: 'symphony'
+          },
+          chain: {
+            channel_id: 'channel-104867'
           }
         }]
     },
