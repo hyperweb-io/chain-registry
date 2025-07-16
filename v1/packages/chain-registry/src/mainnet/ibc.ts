@@ -63,6 +63,7 @@ import * as _genesisl1 from './genesisl1';
 import * as _gitopia from './gitopia';
 import * as _gravitybridge from './gravitybridge';
 import * as _haqq from './haqq';
+import * as _hippoprotocol from './hippoprotocol';
 import * as _humans from './humans';
 import * as _impacthub from './impacthub';
 import * as _imversed from './imversed';
@@ -226,6 +227,7 @@ const ibc: IBCInfo[] = [
   ..._gitopia.ibc,
   ..._gravitybridge.ibc,
   ..._haqq.ibc,
+  ..._hippoprotocol.ibc,
   ..._humans.ibc,
   ..._impacthub.ibc,
   ..._imversed.ibc,

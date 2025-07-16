@@ -61,6 +61,7 @@ export * as genesisl1 from './genesisl1';
 export * as gitopia from './gitopia';
 export * as gravitybridge from './gravitybridge';
 export * as haqq from './haqq';
+export * as hippoprotocol from './hippoprotocol';
 export * as humans from './humans';
 export * as impacthub from './impacthub';
 export * as imversed from './imversed';

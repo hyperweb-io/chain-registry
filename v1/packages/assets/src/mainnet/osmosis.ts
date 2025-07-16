@@ -3702,6 +3702,41 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Hippo Protocol.',
+      denom_units: [{
+          denom: 'ibc/955E5E0BED298F85956121C3BD627CEB12B858A9EB7C1ED24B1515A658318CE4',
+          exponent: 0,
+          aliases: ['ahp']
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/955E5E0BED298F85956121C3BD627CEB12B858A9EB7C1ED24B1515A658318CE4',
+      name: 'Hippo',
+      display: 'ahp',
+      symbol: 'HP',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg'
+        }],
+      coingecko_id: 'hippo-protocol',
+      socials: {
+        website: 'https://hippoprotocol.ai/',
+        twitter: 'https://x.com/Hippo_Protocol'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ahp',
+            chain_name: 'hippoprotocol'
+          },
+          chain: {
+            channel_id: 'channel-104931'
+          }
+        }]
+    },
+    {
       description: 'The native staking and governance token of Humans.ai.',
       denom_units: [{
           denom: 'ibc/35CECC330D11DD00FACB555D07687631E0BC7D226260CC5F015F6D7980819533',
@@ -10211,6 +10246,41 @@ const assets: AssetList = {
           theme: {
             primary_color_hex: '#ffbc05',
             circle: true
+          }
+        }]
+    },
+    {
+      description: 'The native token of Hippo Protocol.',
+      denom_units: [{
+          denom: 'ibc/955E5E0BED298F85956121C3BD627CEB12B858A9EB7C1ED24B1515A658318CE4',
+          exponent: 0,
+          aliases: ['ahp']
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/955E5E0BED298F85956121C3BD627CEB12B858A9EB7C1ED24B1515A658318CE4',
+      name: 'Hippo',
+      display: 'ahp',
+      symbol: 'HP',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg'
+        }],
+      coingecko_id: 'hippo-protocol',
+      socials: {
+        website: 'https://hippoprotocol.ai/',
+        twitter: 'https://x.com/Hippo_Protocol'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ahp',
+            chain_name: 'hippoprotocol'
+          },
+          chain: {
+            channel_id: 'channel-104931'
           }
         }]
     },

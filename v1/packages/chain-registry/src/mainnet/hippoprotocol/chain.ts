@@ -71,7 +71,10 @@ const info: Chain = {
         address: 'https://api.hippo-protocol.com/',
         provider: 'Hippo Protocol'
       }],
-    grpc: []
+    grpc: [{
+        address: 'ibc-grpc.hippo-protocol.com:443',
+        provider: 'Hippo Protocol'
+      }]
   },
   explorers: [{
       kind: 'Hippo River',
