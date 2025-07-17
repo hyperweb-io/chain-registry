@@ -16,7 +16,7 @@ const info: AssetList = {
         }],
       type_asset: 'substrate',
       base: 'Wei',
-      name: 'Glimmer',
+      name: 'Moonbeam',
       display: 'GLMR',
       symbol: 'GLMR',
       logo_URIs: {
