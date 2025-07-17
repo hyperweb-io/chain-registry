@@ -31,13 +31,13 @@ const info: Chain = {
     genesis: {
       genesisUrl: 'https://main.agoric.net/genesis.json'
     },
-    recommendedVersion: 'agoric-upgrade-20',
-    compatibleVersions: ['agoric-upgrade-20'],
+    recommendedVersion: 'agoric-upgrade-21',
+    compatibleVersions: ['agoric-upgrade-21'],
     consensus: {
       type: 'cometbft',
-      version: 'v0.34.35',
+      version: 'v0.37.15',
       repo: 'https://github.com/agoric-labs/cometbft',
-      tag: 'v0.34.35-alpha.agoric.3'
+      tag: 'v0.37.15-alpha.agoric.1'
     },
     cosmwasm: {
       enabled: false
@@ -49,14 +49,14 @@ const info: Chain = {
     sdk: {
       type: 'cosmos',
       repo: 'https://github.com/agoric-labs/cosmos-sdk',
-      version: 'v0.46.16',
-      tag: 'v0.46.16-alpha.agoric.2.5'
+      version: 'v0.47.17',
+      tag: 'v0.47.17-alpha.agoric.1'
     },
     ibc: {
       type: 'go',
-      version: 'v6.3.1',
+      version: 'v7.10.0',
       repo: 'https://github.com/agoric-labs/ibc-go',
-      tag: 'v6.3.1-alpha.agoric.4',
+      tag: 'v7.10.0-alpha.agoric.2',
       icsEnabled: ['ics20-1']
     }
   },

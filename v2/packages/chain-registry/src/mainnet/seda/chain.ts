@@ -29,18 +29,18 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/sedaprotocol/seda-chain',
-    recommendedVersion: 'v0.1.9',
-    compatibleVersions: ['v0.1.8-hotfix.3', 'v0.1.9'],
+    recommendedVersion: 'v1.0.0',
+    compatibleVersions: ['v1.0.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/sedaprotocol/seda-chain/releases/download/v0.1.9/sedad-amd64',
-      "linux/arm64": 'https://github.com/sedaprotocol/seda-chain/releases/download/v0.1.9/sedad-arm64'
+      "linux/amd64": 'https://github.com/sedaprotocol/seda-chain/releases/download/v1.0.0/sedad-amd64',
+      "linux/arm64": 'https://github.com/sedaprotocol/seda-chain/releases/download/v1.0.0/sedad-arm64'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/sedaprotocol/seda-networks/main/mainnet/genesis.json'
     },
     language: {
       type: 'go',
-      version: '1.22.11'
+      version: '1.23.5'
     },
     consensus: {
       type: 'cometbft',
@@ -48,16 +48,16 @@ const info: Chain = {
     },
     sdk: {
       type: 'cosmos',
-      version: 'v0.50.12'
+      version: 'v0.50.14'
     },
     cosmwasm: {
-      version: '0.50.0',
+      version: 'v0.53.3',
       repo: 'https://github.com/CosmWasm/wasmd',
       enabled: true
     },
     ibc: {
       type: 'go',
-      version: 'v8.6.1'
+      version: 'v8.7.0'
     }
   },
   logoURIs: {
