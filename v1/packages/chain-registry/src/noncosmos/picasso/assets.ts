@@ -14,7 +14,7 @@ const info: AssetList = {
         }],
       type_asset: 'substrate',
       base: 'ppica',
-      name: 'Pica',
+      name: 'Picasso',
       display: 'pica',
       symbol: 'PICA',
       coingecko_id: 'picasso',
