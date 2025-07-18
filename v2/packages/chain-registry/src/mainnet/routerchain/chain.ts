@@ -29,15 +29,15 @@ const info: Chain = {
       }]
   },
   codebase: {
-    recommendedVersion: 'v2.2.4',
-    compatibleVersions: ['v2.2.4'],
+    recommendedVersion: 'v2.2.8',
+    compatibleVersions: ['v2.2.8'],
     consensus: {
       type: 'cometbft',
       version: '0.37.5'
     },
     binaries: {
-      "linux/amd64": 'https://raw.githubusercontent.com/router-protocol/router-chain-binary-release/v2.2.4/linux/routerd.tar.gz',
-      "darwin/amd64": 'https://raw.githubusercontent.com/router-protocol/router-chain-binary-release/v2.2.4/debian/routerd.tar.gz'
+      "linux/amd64": 'https://raw.githubusercontent.com/router-protocol/router-chain-binary-release/v2.2.8/linux/routerd.tar.gz',
+      "darwin/amd64": 'https://raw.githubusercontent.com/router-protocol/router-chain-binary-release/v2.2.8/debian/routerd.tar.gz'
     },
     genesis: {
       genesisUrl: 'https://sentry.tm.rpc.routerprotocol.com/genesis'

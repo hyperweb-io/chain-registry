@@ -42,6 +42,13 @@ const info: Chain = {
         lowGasPrice: 0.01,
         averageGasPrice: 0.025,
         highGasPrice: 0.03
+      },
+      {
+        denom: 'ibc/8464A63954C0350A26C8588E20719F3A0AC8705E4CA0F7450B60C3F16B2D3421',
+        fixedMinGasPrice: 11395000000,
+        lowGasPrice: 11395000000,
+        averageGasPrice: 21395000000,
+        highGasPrice: 31395000000
       }
     ]
   },
