@@ -250,10 +250,6 @@ const info: Chain = {
         provider: 'All That Node'
       },
       {
-        address: 'https://archway-api.tienthuattoan.ventures',
-        provider: 'TienThuatToan'
-      },
-      {
         address: 'https://archway-api.stakeandrelax.net',
         provider: 'Stake&Relax 🦥'
       },
@@ -338,10 +334,6 @@ const info: Chain = {
       {
         address: 'grpc-archway-mainnet.testnet-pride.com:9096',
         provider: 'TestnetPride'
-      },
-      {
-        address: 'archway-grpc.tienthuattoan.ventures:9290',
-        provider: 'TienThuatToan'
       },
       {
         address: 'archway-grpc.stakeandrelax.net:11590',

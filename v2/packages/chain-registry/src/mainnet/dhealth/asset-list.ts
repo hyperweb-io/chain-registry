@@ -31,6 +31,13 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#140c7c'
           }
+        }, {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp-circle.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp-circle.png',
+          theme: {
+            darkMode: true,
+            circle: true
+          }
         }],
       typeAsset: 'sdk.coin'
     }]

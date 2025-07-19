@@ -19,14 +19,24 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg'
       },
       coingeckoId: 'crypto-com-chain',
-      images: [{
+      images: [
+        {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg'
-        }, {
+        },
+        {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png',
           theme: {
             primaryColorHex: '#0c2c71'
           }
-        }],
+        },
+        {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro_white.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro_white.png',
+          theme: {
+            darkMode: true
+          }
+        }
+      ],
       socials: {
         website: 'https://cronos.org/',
         twitter: 'https://twitter.com/cronos_chain'

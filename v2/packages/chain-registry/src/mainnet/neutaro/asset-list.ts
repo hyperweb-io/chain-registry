@@ -17,11 +17,12 @@ const info: AssetList = {
       display: 'neutaro',
       symbol: 'NTMPI',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/ntmpi.png'
       },
       coingeckoId: 'neutaro',
       images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/ntmpi.png'
+        }, {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.svg',
           theme: {

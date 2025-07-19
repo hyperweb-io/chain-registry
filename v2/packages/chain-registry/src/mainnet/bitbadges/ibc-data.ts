@@ -31,13 +31,13 @@ const info: IBCData[] = [{
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'bitbadges',
-      clientId: '07-tendermint-1',
-      connectionId: 'connection-0'
+      clientId: '07-tendermint-2',
+      connectionId: 'connection-1'
     },
     chain2: {
       chainName: 'osmosis',
-      clientId: '07-tendermint-3497',
-      connectionId: 'connection-10745'
+      clientId: '07-tendermint-3498',
+      connectionId: 'connection-10746'
     },
     channels: [{
         chain1: {

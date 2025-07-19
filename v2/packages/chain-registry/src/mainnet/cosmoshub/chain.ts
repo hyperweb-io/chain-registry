@@ -174,10 +174,6 @@ const info: Chain = {
         provider: 'MMS'
       },
       {
-        address: 'https://cosmos-rpc.tienthuattoan.com',
-        provider: 'TTT 🇻🇳'
-      },
-      {
         address: 'https://community.nuxian-node.ch:6797/gaia/trpc',
         provider: 'PRO Delegators'
       },
@@ -316,10 +312,6 @@ const info: Chain = {
         provider: 'MMS'
       },
       {
-        address: 'https://cosmos-api.tienthuattoan.ventures',
-        provider: 'TienThuatToan'
-      },
-      {
         address: 'https://community.nuxian-node.ch:6797/gaia/crpc',
         provider: 'PRO Delegators'
       },
@@ -428,10 +420,6 @@ const info: Chain = {
       {
         address: 'grpc-cosmoshub.mms.team:443',
         provider: 'MMS'
-      },
-      {
-        address: 'cosmos-grpc.tienthuattoan.ventures:9090',
-        provider: 'TienThuatToan'
       },
       {
         address: 'cosmoshub-mainnet.grpc.l0vd.com:80',

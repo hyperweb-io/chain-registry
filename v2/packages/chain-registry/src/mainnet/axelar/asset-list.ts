@@ -200,13 +200,25 @@ const info: AssetList = {
           provider: 'Axelar'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png',
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: 'wei'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg',
           theme: {
-            primaryColorHex: '#3a3444'
+            primaryColorHex: '#303030'
           }
+        }, {
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg'
         }],
       coingeckoId: 'axlweth',
       typeAsset: 'sdk.coin'
@@ -234,10 +246,10 @@ const info: AssetList = {
           provider: 'Axelar'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png',
           theme: {
             primaryColorHex: '#41394d'
           }
@@ -1299,6 +1311,16 @@ const info: AssetList = {
       images: [{
           imageSync: {
             chainName: 'arbitrum',
+            baseDenom: 'wei'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
+          theme: {
+            primaryColorHex: '#303030'
+          }
+        }, {
+          imageSync: {
+            chainName: 'arbitrum',
             baseDenom: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg'
@@ -1328,6 +1350,16 @@ const info: AssetList = {
       images: [{
           imageSync: {
             chainName: 'base',
+            baseDenom: 'wei'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg',
+          theme: {
+            primaryColorHex: '#303030'
+          }
+        }, {
+          imageSync: {
+            chainName: 'base',
             baseDenom: '0x4200000000000000000000000000000000000006'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg'
@@ -1355,6 +1387,16 @@ const info: AssetList = {
           provider: 'Axelar'
         }],
       images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: 'wei'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg',
+          theme: {
+            primaryColorHex: '#303030'
+          }
+        }, {
           imageSync: {
             chainName: 'polygon',
             baseDenom: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619'

@@ -24401,6 +24401,11 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/STLTH.png'
+        }, {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/stlth-circle.png',
+          theme: {
+            circle: true
+          }
         }]
     },
     {
