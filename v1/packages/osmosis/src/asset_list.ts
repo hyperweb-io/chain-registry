@@ -2193,14 +2193,24 @@ const asset_list: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg'
       },
       coingecko_id: 'crypto-com-chain',
-      images: [{
+      images: [
+        {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg'
-        }, {
+        },
+        {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png',
           theme: {
             primary_color_hex: '#0c2c71'
           }
-        }],
+        },
+        {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro_white.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro_white.png',
+          theme: {
+            dark_mode: true
+          }
+        }
+      ],
       socials: {
         website: 'https://cronos.org/',
         twitter: 'https://twitter.com/cronos_chain'
@@ -2324,6 +2334,13 @@ const asset_list: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg',
           theme: {
             primary_color_hex: '#140c7c'
+          }
+        }, {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp-circle.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp-circle.png',
+          theme: {
+            dark_mode: true,
+            circle: true
           }
         }],
       type_asset: 'sdk.coin',
@@ -3166,6 +3183,12 @@ const asset_list: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg',
           theme: {
             primary_color_hex: '#1c2444'
+          }
+        }, {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet_white.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet_white.png',
+          theme: {
+            dark_mode: true
           }
         }],
       type_asset: 'sdk.coin',
@@ -5491,11 +5514,12 @@ const asset_list: AssetList = {
       display: 'neutaro',
       symbol: 'NTMPI',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/ntmpi.png'
       },
       coingecko_id: 'neutaro',
       images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/ntmpi.png'
+        }, {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.svg',
           theme: {
@@ -8741,14 +8765,24 @@ const asset_list: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg'
       },
       coingecko_id: 'crypto-com-chain',
-      images: [{
+      images: [
+        {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg'
-        }, {
+        },
+        {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png',
           theme: {
             primary_color_hex: '#0c2c71'
           }
-        }],
+        },
+        {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro_white.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro_white.png',
+          theme: {
+            dark_mode: true
+          }
+        }
+      ],
       socials: {
         website: 'https://cronos.org/',
         twitter: 'https://twitter.com/cronos_chain'
@@ -8872,6 +8906,13 @@ const asset_list: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg',
           theme: {
             primary_color_hex: '#140c7c'
+          }
+        }, {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp-circle.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp-circle.png',
+          theme: {
+            dark_mode: true,
+            circle: true
           }
         }],
       type_asset: 'sdk.coin',
@@ -9714,6 +9755,12 @@ const asset_list: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg',
           theme: {
             primary_color_hex: '#1c2444'
+          }
+        }, {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet_white.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet_white.png',
+          theme: {
+            dark_mode: true
           }
         }],
       type_asset: 'sdk.coin',
@@ -12075,11 +12122,12 @@ const asset_list: AssetList = {
       display: 'neutaro',
       symbol: 'NTMPI',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/ntmpi.png'
       },
       coingecko_id: 'neutaro',
       images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/ntmpi.png'
+        }, {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.svg',
           theme: {

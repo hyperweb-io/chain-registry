@@ -2530,14 +2530,24 @@ const assets: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg'
       },
       coingecko_id: 'crypto-com-chain',
-      images: [{
+      images: [
+        {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg'
-        }, {
+        },
+        {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png',
           theme: {
             primary_color_hex: '#0c2c71'
           }
-        }],
+        },
+        {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro_white.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro_white.png',
+          theme: {
+            dark_mode: true
+          }
+        }
+      ],
       socials: {
         website: 'https://cronos.org/',
         twitter: 'https://twitter.com/cronos_chain'
@@ -13029,14 +13039,24 @@ const assets: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg'
       },
       coingecko_id: 'crypto-com-chain',
-      images: [{
+      images: [
+        {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg'
-        }, {
+        },
+        {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png',
           theme: {
             primary_color_hex: '#0c2c71'
           }
-        }],
+        },
+        {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro_white.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro_white.png',
+          theme: {
+            dark_mode: true
+          }
+        }
+      ],
       socials: {
         website: 'https://cronos.org/',
         twitter: 'https://twitter.com/cronos_chain'

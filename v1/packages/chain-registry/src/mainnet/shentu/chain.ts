@@ -121,10 +121,6 @@ const info: Chain = {
         provider: 'Stakeflow'
       },
       {
-        address: 'https://shentu-api.tienthuattoan.ventures',
-        provider: 'TienThuatToan'
-      },
-      {
         address: 'https://shentu-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
@@ -173,10 +169,6 @@ const info: Chain = {
       {
         address: 'grpc-shentu-01.stakeflow.io:2402',
         provider: 'Stakeflow'
-      },
-      {
-        address: 'shentu-grpc.tienthuattoan.ventures:9490',
-        provider: 'TienThuatToan'
       },
       {
         address: 'shentu-grpc.publicnode.com:443',

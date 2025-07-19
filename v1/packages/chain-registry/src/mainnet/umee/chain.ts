@@ -155,10 +155,6 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'https://umee-api.tienthuattoan.ventures',
-        provider: 'TienThuatToan'
-      },
-      {
         address: 'https://api-umee-01.stakeflow.io',
         provider: 'Stakeflow'
       },
@@ -227,10 +223,6 @@ const info: Chain = {
       {
         address: 'umee.grpc.m.stavr.tech:9090',
         provider: '🔥STAVR🔥'
-      },
-      {
-        address: 'umee-grpc.tienthuattoan.ventures:9090',
-        provider: 'TienThuatToan'
       },
       {
         address: 'grpc-umee-01.stakeflow.io:9990',

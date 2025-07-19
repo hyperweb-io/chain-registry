@@ -152,10 +152,6 @@ const info: Chain = {
         provider: 'KonsorTech'
       },
       {
-        address: 'https://aura-api.tienthuattoan.ventures',
-        provider: 'TienThuatToan'
-      },
-      {
         address: 'https://rest.lavenderfive.com:443/aura',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -216,10 +212,6 @@ const info: Chain = {
       {
         address: 'aura.grpc.kjnodes.com:11790',
         provider: 'kjnodes'
-      },
-      {
-        address: 'aura-grpc.tienthuattoan.ventures:9090',
-        provider: 'TienThuatToan'
       },
       {
         address: 'aura.lavenderfive.com:443',

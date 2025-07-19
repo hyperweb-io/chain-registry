@@ -26,6 +26,12 @@ const info: AssetList = {
           theme: {
             primary_color_hex: '#1c2444'
           }
+        }, {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet_white.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet_white.png',
+          theme: {
+            dark_mode: true
+          }
         }],
       type_asset: 'sdk.coin'
     }, {
