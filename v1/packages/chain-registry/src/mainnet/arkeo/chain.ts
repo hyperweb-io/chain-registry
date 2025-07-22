@@ -62,6 +62,10 @@ const info: Chain = {
       {
         address: 'https://arkeo_mainnet_rpc.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://rpc.arkeo.nodestake.org',
+        provider: 'NodeStake'
       }
     ],
     rest: [
@@ -80,11 +84,18 @@ const info: Chain = {
       {
         address: 'https://arkeo_mainnet_api.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://api.arkeo.nodestake.org',
+        provider: 'NodeStake'
       }
     ],
     grpc: [{
         address: 'grpc.arkeo.roomit.xyz:8443',
         provider: 'Roomit'
+      }, {
+        address: 'https://grpc.arkeo.nodestake.org:443',
+        provider: 'NodeStake'
       }]
   },
   explorers: [
@@ -111,6 +122,12 @@ const info: Chain = {
       url: 'https://explorer.whenmoonwhenlambo.money/arkeo',
       tx_page: 'https://explorer.whenmoonwhenlambo.money/arkeo/tx/${txHash}',
       account_page: 'https://explorer.whenmoonwhenlambo.money/arkeo/account/${accountAddress}'
+    },
+    {
+      kind: 'NodeStake',
+      url: 'https://explorer.nodestake.org/arkeo',
+      tx_page: 'https://explorer.nodestake.org/arkeo/tx/${txHash}',
+      account_page: 'https://explorer.nodestake.org/arkeo/account/${accountAddress}'
     }
   ],
   keywords: [

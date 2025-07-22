@@ -386,7 +386,7 @@ const info: IBCInfo[] = [
       connection_id: 'connection-752'
     },
     chain_2: {
-      chain_name: 'xiontestnet',
+      chain_name: 'xiontestnet1',
       client_id: '07-tendermint-127',
       connection_id: 'connection-64'
     },

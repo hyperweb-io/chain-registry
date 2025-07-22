@@ -81,10 +81,6 @@ const info: Chain = {
         provider: 'Pro-Nodes75'
       },
       {
-        address: 'https://umee-rpc.tienthuattoan.com',
-        provider: 'TTT 🇻🇳'
-      },
-      {
         address: 'https://rpc-umee-01.stakeflow.io',
         provider: 'Stakeflow'
       },

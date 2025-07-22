@@ -66,10 +66,6 @@ const info: Chain = {
         provider: 'soarchain'
       },
       {
-        address: 'https://soarchain-testnet-rpc.tienthuattoan.com',
-        provider: 'tienthuattoan'
-      },
-      {
         address: 'https://soarchain-testnet.rpc.kjnodes.com',
         provider: 'kjnodes'
       },
@@ -86,10 +82,6 @@ const info: Chain = {
       {
         address: 'https://api.testnet.soarchain.com/',
         provider: 'soarchain'
-      },
-      {
-        address: 'https://soarchain-testnet-api.tienthuattoan.com',
-        provider: 'tienthuattoan'
       },
       {
         address: 'https://soarchain-testnet-rest.stakerhouse.com',

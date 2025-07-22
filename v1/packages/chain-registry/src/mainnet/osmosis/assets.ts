@@ -24648,7 +24648,7 @@ const info: AssetList = {
     {
       description: 'TakeTitan Titans',
       denom_units: [{
-          denom: 'ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB',
+          denom: 'ibc/87B7A56E83C08DBFD567F0DE6463EC54181B8B819B3CAD7A584C47D59A2A05CF',
           exponent: 0,
           aliases: ['utitan']
         }, {
@@ -24657,7 +24657,7 @@ const info: AssetList = {
           aliases: []
         }],
       type_asset: 'ics20',
-      base: 'ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB',
+      base: 'ibc/87B7A56E83C08DBFD567F0DE6463EC54181B8B819B3CAD7A584C47D59A2A05CF',
       name: 'TakeTitan Titans',
       display: 'titan',
       symbol: 'TITAN',
@@ -24669,8 +24669,8 @@ const info: AssetList = {
             channel_id: 'channel-0'
           },
           chain: {
-            channel_id: 'channel-104765',
-            path: 'transfer/channel-104765/utitan'
+            channel_id: 'channel-105111',
+            path: 'transfer/channel-105111/utitan'
           }
         }],
       logo_URIs: {

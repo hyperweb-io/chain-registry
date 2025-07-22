@@ -1581,6 +1581,46 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Int3face blockchain native token',
+      denom_units: [{
+          denom: 'ibc/3489ABC7DD3C303704D6B88D01FC2AF37391A46816549919643E8CBB6C1D2E98',
+          exponent: 0,
+          aliases: ['uint3']
+        }, {
+          denom: 'int3',
+          exponent: 6
+        }],
+      base: 'ibc/3489ABC7DD3C303704D6B88D01FC2AF37391A46816549919643E8CBB6C1D2E98',
+      name: 'Int3face Token',
+      display: 'int3',
+      symbol: 'INT3',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png',
+          theme: {
+            primary_color_hex: '#3d3d3d'
+          }
+        }],
+      socials: {
+        website: 'https://int3face.zone/',
+        twitter: 'https://x.com/_Bitfrost_'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'uint3',
+            chain_name: 'int3face'
+          },
+          chain: {
+            channel_id: 'channel-165'
+          }
+        }]
+    },
+    {
       description: 'The native staking and governance token of Joltify',
       denom_units: [{
           denom: 'ibc/65EA348F02942489EDA268CF050DBD03F1842C97C60DB2F598F54CAAFC90FF0F',
@@ -4140,6 +4180,46 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-31'
+          }
+        }]
+    },
+    {
+      description: 'Int3face blockchain native token',
+      denom_units: [{
+          denom: 'ibc/3489ABC7DD3C303704D6B88D01FC2AF37391A46816549919643E8CBB6C1D2E98',
+          exponent: 0,
+          aliases: ['uint3']
+        }, {
+          denom: 'int3',
+          exponent: 6
+        }],
+      base: 'ibc/3489ABC7DD3C303704D6B88D01FC2AF37391A46816549919643E8CBB6C1D2E98',
+      name: 'Int3face Token',
+      display: 'int3',
+      symbol: 'INT3',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png',
+          theme: {
+            primary_color_hex: '#3d3d3d'
+          }
+        }],
+      socials: {
+        website: 'https://int3face.zone/',
+        twitter: 'https://x.com/_Bitfrost_'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'uint3',
+            chain_name: 'int3face'
+          },
+          chain: {
+            channel_id: 'channel-165'
           }
         }]
     },

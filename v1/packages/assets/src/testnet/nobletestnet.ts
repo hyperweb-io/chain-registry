@@ -160,6 +160,46 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Int3face Testnet blockchain native token',
+      denom_units: [{
+          denom: 'ibc/2080D688BAED7DD8C59B4D336BB5E7BEEA24495D4AB05AF604AD24AEBF9C4153',
+          exponent: 0,
+          aliases: ['uint3']
+        }, {
+          denom: 'int3',
+          exponent: 6
+        }],
+      base: 'ibc/2080D688BAED7DD8C59B4D336BB5E7BEEA24495D4AB05AF604AD24AEBF9C4153',
+      name: 'Int3face Testnet Token',
+      display: 'int3',
+      symbol: 'INT3',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png',
+          theme: {
+            primary_color_hex: '#3d3d3d'
+          }
+        }],
+      socials: {
+        website: 'https://testnet.app.int3face.zone/',
+        twitter: 'https://x.com/_Bitfrost_'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-4',
+            base_denom: 'uint3',
+            chain_name: 'int3facetestnet'
+          },
+          chain: {
+            channel_id: 'channel-537'
+          }
+        }]
+    },
+    {
       description: 'The native token of MANTRA',
       denom_units: [{
           denom: 'ibc/89569E53F73A4F452CD57FB19512BFCAE8221759D5B82E9B0E7C5FBF55F30883',
@@ -417,6 +457,46 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-19'
+          }
+        }]
+    },
+    {
+      description: 'Int3face Testnet blockchain native token',
+      denom_units: [{
+          denom: 'ibc/2080D688BAED7DD8C59B4D336BB5E7BEEA24495D4AB05AF604AD24AEBF9C4153',
+          exponent: 0,
+          aliases: ['uint3']
+        }, {
+          denom: 'int3',
+          exponent: 6
+        }],
+      base: 'ibc/2080D688BAED7DD8C59B4D336BB5E7BEEA24495D4AB05AF604AD24AEBF9C4153',
+      name: 'Int3face Testnet Token',
+      display: 'int3',
+      symbol: 'INT3',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png',
+          theme: {
+            primary_color_hex: '#3d3d3d'
+          }
+        }],
+      socials: {
+        website: 'https://testnet.app.int3face.zone/',
+        twitter: 'https://x.com/_Bitfrost_'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-4',
+            base_denom: 'uint3',
+            chain_name: 'int3facetestnet'
+          },
+          chain: {
+            channel_id: 'channel-537'
           }
         }]
     },

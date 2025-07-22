@@ -89,6 +89,35 @@ const info: IBCInfo[] = [
   {
     $schema: '../../ibc_data.schema.json',
     chain_1: {
+      chain_name: 'int3facetestnet',
+      client_id: '07-tendermint-12',
+      connection_id: 'connection-8'
+    },
+    chain_2: {
+      chain_name: 'nobletestnet',
+      client_id: '07-tendermint-529',
+      connection_id: 'connection-491'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-4',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-537',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true
+        }
+      }]
+  },
+  {
+    $schema: '../../ibc_data.schema.json',
+    chain_1: {
       chain_name: 'mantrachaintestnet',
       client_id: '07-tendermint-6',
       connection_id: 'connection-6'
@@ -319,7 +348,7 @@ const info: IBCInfo[] = [
       connection_id: 'connection-176'
     },
     chain_2: {
-      chain_name: 'xiontestnet',
+      chain_name: 'xiontestnet1',
       client_id: '07-tendermint-120',
       connection_id: 'connection-56'
     },

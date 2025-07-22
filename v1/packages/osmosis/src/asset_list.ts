@@ -21872,14 +21872,14 @@ const asset_list: AssetList = {
     {
       description: 'Taketitan the future of the asset management industry.',
       denom_units: [{
-          denom: 'ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB',
+          denom: 'ibc/87B7A56E83C08DBFD567F0DE6463EC54181B8B819B3CAD7A584C47D59A2A05CF',
           exponent: 0,
           aliases: ['utitan']
         }, {
           denom: 'titan',
           exponent: 6
         }],
-      base: 'ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB',
+      base: 'ibc/87B7A56E83C08DBFD567F0DE6463EC54181B8B819B3CAD7A584C47D59A2A05CF',
       name: 'Titan',
       display: 'titan',
       symbol: 'TITAN',
@@ -21906,7 +21906,7 @@ const asset_list: AssetList = {
             chain_name: 'taketitan'
           },
           chain: {
-            channel_id: 'channel-104765'
+            channel_id: 'channel-105111'
           }
         }]
     },
@@ -31891,14 +31891,14 @@ const asset_list: AssetList = {
     {
       description: 'Taketitan the future of the asset management industry.',
       denom_units: [{
-          denom: 'ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB',
+          denom: 'ibc/87B7A56E83C08DBFD567F0DE6463EC54181B8B819B3CAD7A584C47D59A2A05CF',
           exponent: 0,
           aliases: ['utitan']
         }, {
           denom: 'titan',
           exponent: 6
         }],
-      base: 'ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB',
+      base: 'ibc/87B7A56E83C08DBFD567F0DE6463EC54181B8B819B3CAD7A584C47D59A2A05CF',
       name: 'Titan',
       display: 'titan',
       symbol: 'TITAN',
@@ -31925,7 +31925,7 @@ const asset_list: AssetList = {
             chain_name: 'taketitan'
           },
           chain: {
-            channel_id: 'channel-104765'
+            channel_id: 'channel-105111'
           }
         }]
     },
