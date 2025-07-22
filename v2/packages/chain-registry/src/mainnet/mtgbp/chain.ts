@@ -9,13 +9,13 @@ const info: Chain = {
   chainType: 'cosmos',
   chainId: 'mtgbp-1',
   bech32Prefix: 'mtgbp',
-  daemonName: 'mtgbp',
-  nodeHome: '$HOME/.ssc',
+  daemonName: 'mtgbpd',
+  nodeHome: '$HOME/.mtgbpd',
   keyAlgos: ['secp256k1'],
-  slip44: 1179993441,
+  slip44: 118,
   staking: {
     stakingTokens: [{
-        denom: 'mtgbp'
+        denom: 'umtgbp'
       }],
     lockDuration: {
       time: '1814400s'
@@ -23,15 +23,15 @@ const info: Chain = {
   },
   fees: {
     feeTokens: [{
-        denom: 'mtgbp',
-        lowGasPrice: 0.000001,
-        averageGasPrice: 0.000005,
-        highGasPrice: 0.0001
+        denom: 'umtgbp',
+        lowGasPrice: 0.025,
+        averageGasPrice: 0.03,
+        highGasPrice: 0.035
       }]
   },
   apis: {
     rpc: [{
-        address: 'https://rcp.mtgbp.com',
+        address: 'https://rpc.mtgbp.com',
         provider: 'mtgbp'
       }],
     rest: [{
@@ -39,7 +39,7 @@ const info: Chain = {
         provider: 'mtgbp'
       }],
     grpc: [{
-        address: 'https://grcp.mtgbp.com:4090',
+        address: 'https://grpc.mtgbp.com',
         provider: 'mtgbp'
       }]
   },
@@ -49,7 +49,7 @@ const info: Chain = {
   },
   explorers: [{
       kind: 'ping.pub',
-      url: 'https://blockexplorer.mtgbp.com/mtgbp',
+      url: 'https://blockexplorer.mtgbp.com',
       txPage: 'https://blockexplorer.mtgbp.com/mtgbp/tx/${txHash}',
       accountPage: 'https://blockexplorer.mtgbp.com/mtgbp/accounts/${accountAddress}'
     }],

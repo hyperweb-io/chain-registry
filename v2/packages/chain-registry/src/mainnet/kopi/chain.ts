@@ -13,12 +13,26 @@ const info: Chain = {
   bech32Prefix: 'kopi',
   slip44: 118,
   fees: {
-    feeTokens: [{
+    feeTokens: [
+      {
         denom: 'ukopi',
         lowGasPrice: 0.01,
         averageGasPrice: 0.025,
         highGasPrice: 0.03
-      }]
+      },
+      {
+        denom: 'ukusd',
+        lowGasPrice: 0.01,
+        averageGasPrice: 0.025,
+        highGasPrice: 0.03
+      },
+      {
+        denom: 'ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F',
+        lowGasPrice: 0.01,
+        averageGasPrice: 0.025,
+        highGasPrice: 0.03
+      }
+    ]
   },
   staking: {
     stakingTokens: [{

@@ -38,33 +38,71 @@ const info: Chain = {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axone/images/chain.png'
   },
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://rpc.axone.cumulo.com.es',
         provider: 'cumulo'
-      }, {
+      },
+      {
+        address: 'https://axone.rpc.bccnodes.com',
+        provider: 'BccNodes'
+      },
+      {
         address: 'https://axone-rpc.highstakes.ch',
         provider: 'High Stakes 🇨🇭'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://rpc.axone.nodestake.org',
+        provider: 'NodeStake'
+      }
+    ],
+    rest: [
+      {
         address: 'https://api.axone.cumulo.com.es',
         provider: 'cumulo'
-      }, {
+      },
+      {
+        address: 'https://axone.lcd.bccnodes.com',
+        provider: 'BccNodes'
+      },
+      {
         address: 'https://axone-api.highstakes.ch',
         provider: 'High Stakes 🇨🇭'
-      }],
-    grpc: [{
+      },
+      {
+        address: 'https://api.axone.nodestake.org',
+        provider: 'NodeStake'
+      }
+    ],
+    grpc: [
+      {
         address: 'grpc.axone.cumulo.com.es:443',
         provider: 'cumulo'
-      }, {
+      },
+      {
+        address: 'axone.grpc.bccnodes.com:443',
+        provider: 'BccNodes'
+      },
+      {
         address: 'https://axone-grpc.highstakes.ch',
         provider: 'High Stakes 🇨🇭'
-      }]
+      },
+      {
+        address: 'grpc.axone.nodestake.org:443',
+        provider: 'NodeStake'
+      }
+    ]
   },
   explorers: [{
       kind: 'valopers',
       url: 'https://axone.valopers.com/',
       txPage: 'https://axone.valopers.com/transactions/${txHash}',
       accountPage: 'https://axone.valopers.com/account/${accountAddress}'
+    }, {
+      kind: 'NodeStake',
+      url: 'https://explorer.nodestake.org/axone',
+      txPage: 'https://explorer.nodestake.org/axone/tx/${txHash}',
+      accountPage: 'https://explorer.nodestake.org/axone/account/${accountAddress}'
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axone/images/chain.png'

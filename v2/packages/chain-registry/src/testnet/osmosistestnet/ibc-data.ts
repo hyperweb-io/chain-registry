@@ -1261,7 +1261,7 @@ const info: IBCData[] = [
       connectionId: 'connection-2826'
     },
     chain2: {
-      chainName: 'xiontestnet',
+      chainName: 'xiontestnet1',
       clientId: '07-tendermint-121',
       connectionId: 'connection-57'
     },

@@ -154,10 +154,6 @@ const info: Chain = {
         provider: 'Node39'
       },
       {
-        address: 'https://rpc.elys.mtl.vnodesv.net',
-        provider: 'vNodes[V] [NA] Ser[V]ices'
-      },
-      {
         address: 'https://elys.rpc.fr.vnodesv.net',
         provider: 'vNodes[V] [EUR] Ser[V]ices'
       },
@@ -242,10 +238,6 @@ const info: Chain = {
       {
         address: 'https://elys-api.node39.top:443',
         provider: 'Node39'
-      },
-      {
-        address: 'https://rest.elys.mtl.vnodesv.net',
-        provider: 'vNodes[V] [NA] Ser[V]ices'
       },
       {
         address: 'https://elys.rest.fr.vnodesv.net:443',
