@@ -5130,6 +5130,52 @@ const info: AssetList = {
       typeAsset: 'sdk.coin'
     },
     {
+      description: 'Pryzm\'s LP token for PRYZM Base pool',
+      denomUnits: [{
+          denom: 'lp:34:upryzmypt-upryzm',
+          exponent: 0
+        }, {
+          denom: 'lp:34:pryzmypt-pryzm',
+          exponent: 6
+        }],
+      base: 'lp:34:upryzmypt-upryzm',
+      name: 'PRYZM Base LP',
+      display: 'lp:34:pryzmypt-pryzm',
+      symbol: 'PRYZM-BASE-LP',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Pryzm\'s LP token for PRYZM / USDC pool',
+      denomUnits: [{
+          denom: 'lp:35:upryzm-uusdc',
+          exponent: 0
+        }, {
+          denom: 'lp:35:pryzm-usdc',
+          exponent: 6
+        }],
+      base: 'lp:35:upryzm-uusdc',
+      name: 'PRYZM / USDC LP',
+      display: 'lp:35:pryzm-usdc',
+      symbol: 'PRYZM-USDC-LP',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
       description: 'Pryzm\'s LP token for sUSDS Yield pool',
       denomUnits: [{
           denom: 'lp:36:asusds',
