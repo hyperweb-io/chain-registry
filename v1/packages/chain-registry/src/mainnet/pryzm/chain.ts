@@ -17,6 +17,13 @@ const info: Chain = {
   fees: {
     fee_tokens: [
       {
+        denom: 'upryzm',
+        fixed_min_gas_price: 0.02,
+        low_gas_price: 0.02,
+        average_gas_price: 0.03,
+        high_gas_price: 0.04
+      },
+      {
         denom: 'ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2',
         fixed_min_gas_price: 0.0025,
         low_gas_price: 0.0025,

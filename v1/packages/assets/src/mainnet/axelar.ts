@@ -9657,6 +9657,76 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Pryzm\'s LP token for PRYZM Base pool',
+      denom_units: [{
+          denom: 'ibc/E8FA3A347075C103A65FEE8F17EB4A1BD381BE58F965DCEEE5D38E93EF9CCA37',
+          exponent: 0,
+          aliases: ['lp:34:upryzmypt-upryzm']
+        }, {
+          denom: 'lp:34:pryzmypt-pryzm',
+          exponent: 6
+        }],
+      base: 'ibc/E8FA3A347075C103A65FEE8F17EB4A1BD381BE58F965DCEEE5D38E93EF9CCA37',
+      name: 'PRYZM Base LP',
+      display: 'lp:34:pryzmypt-pryzm',
+      symbol: 'PRYZM-BASE-LP',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-13',
+            base_denom: 'lp:34:upryzmypt-upryzm',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-155'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s LP token for PRYZM / USDC pool',
+      denom_units: [{
+          denom: 'ibc/0D16962AEFCBDE7B0CE08376398787386337B4F5396B53877C924809714823BB',
+          exponent: 0,
+          aliases: ['lp:35:upryzm-uusdc']
+        }, {
+          denom: 'lp:35:pryzm-usdc',
+          exponent: 6
+        }],
+      base: 'ibc/0D16962AEFCBDE7B0CE08376398787386337B4F5396B53877C924809714823BB',
+      name: 'PRYZM / USDC LP',
+      display: 'lp:35:pryzm-usdc',
+      symbol: 'PRYZM-USDC-LP',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-13',
+            base_denom: 'lp:35:upryzm-uusdc',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-155'
+          }
+        }]
+    },
+    {
       description: 'Pryzm\'s LP token for sUSDS Yield pool',
       denom_units: [{
           denom: 'ibc/460BCA509C9BDDC3C451F8629DCDD34B88086F9AF9CB024C2AFC2483EEB2A16A',
@@ -19355,6 +19425,76 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-13',
             base_denom: 'lp:33:upryzm',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-155'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s LP token for PRYZM Base pool',
+      denom_units: [{
+          denom: 'ibc/E8FA3A347075C103A65FEE8F17EB4A1BD381BE58F965DCEEE5D38E93EF9CCA37',
+          exponent: 0,
+          aliases: ['lp:34:upryzmypt-upryzm']
+        }, {
+          denom: 'lp:34:pryzmypt-pryzm',
+          exponent: 6
+        }],
+      base: 'ibc/E8FA3A347075C103A65FEE8F17EB4A1BD381BE58F965DCEEE5D38E93EF9CCA37',
+      name: 'PRYZM Base LP',
+      display: 'lp:34:pryzmypt-pryzm',
+      symbol: 'PRYZM-BASE-LP',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-13',
+            base_denom: 'lp:34:upryzmypt-upryzm',
+            chain_name: 'pryzm'
+          },
+          chain: {
+            channel_id: 'channel-155'
+          }
+        }]
+    },
+    {
+      description: 'Pryzm\'s LP token for PRYZM / USDC pool',
+      denom_units: [{
+          denom: 'ibc/0D16962AEFCBDE7B0CE08376398787386337B4F5396B53877C924809714823BB',
+          exponent: 0,
+          aliases: ['lp:35:upryzm-uusdc']
+        }, {
+          denom: 'lp:35:pryzm-usdc',
+          exponent: 6
+        }],
+      base: 'ibc/0D16962AEFCBDE7B0CE08376398787386337B4F5396B53877C924809714823BB',
+      name: 'PRYZM / USDC LP',
+      display: 'lp:35:pryzm-usdc',
+      symbol: 'PRYZM-USDC-LP',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-13',
+            base_denom: 'lp:35:upryzm-uusdc',
             chain_name: 'pryzm'
           },
           chain: {
