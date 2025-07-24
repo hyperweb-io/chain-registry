@@ -24708,6 +24708,28 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/eBABY.svg'
         }],
       keywords: ['liquid-staking', 'escher']
+    },
+    {
+      description: 'Formation Of $hit Tokens',
+      denom_units: [{
+          denom: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/fost',
+          exponent: 0
+        }, {
+          denom: 'FOST',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      address: 'osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8',
+      base: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/fost',
+      name: 'Fost',
+      display: 'FOST',
+      symbol: 'FOST',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/FOST.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/FOST.png'
+        }]
     }
   ]
 };
