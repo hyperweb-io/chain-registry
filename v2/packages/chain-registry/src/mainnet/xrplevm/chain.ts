@@ -65,18 +65,30 @@ const info: Chain = {
     rpc: [{
         address: 'https://cosmos-rpc.xrplevm.org',
         provider: 'Peersyst'
+      }, {
+        address: 'https://rpc.xrpl.cumulo.org.es',
+        provider: 'Cumulo'
       }],
     rest: [{
         address: 'https://cosmos-api.xrplevm.org',
         provider: 'Peersyst'
+      }, {
+        address: 'https://api.xrpl.cumulo.org.es',
+        provider: 'Cumulo'
       }],
     grpc: [{
         address: 'https://cosmos-grpc.xrplevm.org',
         provider: 'Peersyst'
+      }, {
+        address: 'https://grpc.xrpl.cumulo.org.es',
+        provider: 'Cumulo'
       }],
     evmHttpJsonrpc: [{
         address: 'https://rpc.xrplevm.org',
         provider: 'Peersyst'
+      }, {
+        address: 'https://json-rpc.xrpl.cumulo.org.es',
+        provider: 'Cumulo'
       }]
   },
   explorers: [{

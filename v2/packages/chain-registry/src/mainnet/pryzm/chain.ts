@@ -17,6 +17,13 @@ const info: Chain = {
   fees: {
     feeTokens: [
       {
+        denom: 'factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uauuu',
+        fixedMinGasPrice: 0.1,
+        lowGasPrice: 0.1,
+        averageGasPrice: 0.15,
+        highGasPrice: 0.2
+      },
+      {
         denom: 'upryzm',
         fixedMinGasPrice: 0.02,
         lowGasPrice: 0.02,
@@ -64,13 +71,6 @@ const info: Chain = {
         lowGasPrice: 0.02,
         averageGasPrice: 0.03,
         highGasPrice: 0.04
-      },
-      {
-        denom: 'factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uauuu',
-        fixedMinGasPrice: 0.01,
-        lowGasPrice: 0.01,
-        averageGasPrice: 0.015,
-        highGasPrice: 0.02
       },
       {
         denom: 'ibc/F8CA5236869F819BC006EEF088E67889A26E4140339757878F0F4E229CDDA858',

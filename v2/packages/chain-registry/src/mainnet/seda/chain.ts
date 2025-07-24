@@ -134,6 +134,10 @@ const info: Chain = {
       {
         address: 'https://seda-mainnet-rpc.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://seda.rpc.cumulo.org.es',
+        provider: 'Cumulo'
       }
     ],
     rest: [
@@ -204,6 +208,10 @@ const info: Chain = {
       {
         address: 'https://seda-mainnet-api.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://seda.api.cumulo.org.es',
+        provider: 'Cumulo'
       }
     ],
     grpc: [
@@ -246,6 +254,10 @@ const info: Chain = {
       {
         address: 'seda-mainnet-grpc.shazoes.xyz:6090',
         provider: 'Shazoes'
+      },
+      {
+        address: 'seda.grpc.cumulo.org.es:443',
+        provider: 'Cumulo'
       }
     ]
   },

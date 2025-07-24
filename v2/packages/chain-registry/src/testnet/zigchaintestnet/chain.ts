@@ -31,10 +31,16 @@ const info: Chain = {
     rest: [{
         address: 'https://testnet-api.zigchain.com',
         provider: 'ZIGCHAIN'
+      }, {
+        address: ' https://public-zigchain-testnet-lcd.numia.xyz/',
+        provider: 'Numia'
       }],
     rpc: [{
         address: 'https://testnet-rpc.zigchain.com',
         provider: 'ZIGCHAIN'
+      }, {
+        address: ' https://public-zigchain-testnet-rpc.numia.xyz/',
+        provider: 'Numia'
       }]
   },
   keywords: [
