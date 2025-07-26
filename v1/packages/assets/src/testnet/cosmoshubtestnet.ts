@@ -179,6 +179,7 @@ const assets: AssetList = {
         }]
     },
     {
+      deprecated: true,
       description: 'PSTAKE Liquid-Staked ATOM',
       denom_units: [{
           denom: 'ibc/BBFA165987773A8581F02DC0DBE362D3E373CCEFD6E7D151BD77FBBAB5D4886B',
@@ -215,6 +216,7 @@ const assets: AssetList = {
         }]
     },
     {
+      deprecated: true,
       description: 'PSTAKE Liquid-Staked OSMO',
       denom_units: [{
           denom: 'ibc/A28CE926C10943BFF39CED2343503912D9FA238D256C35686518B0D824708259',
@@ -251,6 +253,7 @@ const assets: AssetList = {
         }]
     },
     {
+      deprecated: true,
       description: 'PSTAKE Liquid-Staked DV4TNT',
       denom_units: [{
           denom: 'ibc/13FEE46268FF7160702526D04414BE1EE225E9EACF228674094A01244921C217',
@@ -647,6 +650,7 @@ const assets: AssetList = {
         }]
     },
     {
+      deprecated: true,
       description: 'PSTAKE Liquid-Staked ATOM',
       denom_units: [{
           denom: 'ibc/BBFA165987773A8581F02DC0DBE362D3E373CCEFD6E7D151BD77FBBAB5D4886B',
@@ -683,6 +687,7 @@ const assets: AssetList = {
         }]
     },
     {
+      deprecated: true,
       description: 'PSTAKE Liquid-Staked OSMO',
       denom_units: [{
           denom: 'ibc/A28CE926C10943BFF39CED2343503912D9FA238D256C35686518B0D824708259',
@@ -719,6 +724,7 @@ const assets: AssetList = {
         }]
     },
     {
+      deprecated: true,
       description: 'PSTAKE Liquid-Staked DV4TNT',
       denom_units: [{
           denom: 'ibc/13FEE46268FF7160702526D04414BE1EE225E9EACF228674094A01244921C217',
