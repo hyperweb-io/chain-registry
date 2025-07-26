@@ -32,10 +32,10 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/persistenceOne/persistenceCore',
-    recommendedVersion: 'v9.1.1',
-    compatibleVersions: ['v9.1.1'],
+    recommendedVersion: 'v12.0.0-rc0',
+    compatibleVersions: ['v12.0.0-rc0'],
     binaries: {
-      "linux/amd64": 'https://github.com/persistenceOne/persistenceCore/releases/download/v9.1.1/persistenceCore-v9.1.1-linux-amd64.tar.gz'
+      "linux/amd64": 'https://github.com/persistenceOne/persistenceCore/releases/download/v12.0.0-rc0/persistenceCore-v12.0.0-rc0-linux-amd64.tar.gz'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/persistenceOne/networks/auditOne/test-core-2/test-core-2/genesis.json'

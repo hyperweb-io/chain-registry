@@ -36,6 +36,7 @@ const info: AssetList = {
       typeAsset: 'sdk.coin'
     },
     {
+      deprecated: true,
       description: 'PSTAKE Liquid-Staked ATOM',
       denomUnits: [{
           denom: 'stk/uatom',
@@ -61,6 +62,7 @@ const info: AssetList = {
       typeAsset: 'sdk.coin'
     },
     {
+      deprecated: true,
       description: 'PSTAKE Liquid-Staked OSMO',
       denomUnits: [{
           denom: 'stk/uosmo',
@@ -86,6 +88,7 @@ const info: AssetList = {
       typeAsset: 'sdk.coin'
     },
     {
+      deprecated: true,
       description: 'PSTAKE Liquid-Staked DV4TNT',
       denomUnits: [{
           denom: 'stk/adv4tnt',

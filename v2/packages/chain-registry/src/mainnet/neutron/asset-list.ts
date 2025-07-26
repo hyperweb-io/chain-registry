@@ -1717,6 +1717,30 @@ const info: AssetList = {
             primaryColorHex: '#3d3d3d'
           }
         }]
+    },
+    {
+      description: 'TabCoin',
+      denomUnits: [{
+          denom: 'factory/neutron1r5qx58l3xx2y8gzjtkqjndjgx69mktmapl45vns0pa73z0zpn7fqgltnll/TAB',
+          exponent: 0
+        }, {
+          denom: 'TAB',
+          exponent: 6
+        }],
+      base: 'factory/neutron1r5qx58l3xx2y8gzjtkqjndjgx69mktmapl45vns0pa73z0zpn7fqgltnll/TAB',
+      name: 'TabCoin',
+      display: 'TAB',
+      symbol: 'TAB',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/TAB.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/TAB.png'
+        }],
+      socials: {
+        website: 'https://TabCo.in'
+      },
+      typeAsset: 'sdk.coin'
     }
   ]
 };
