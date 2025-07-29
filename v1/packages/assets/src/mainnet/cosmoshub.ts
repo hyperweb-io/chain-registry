@@ -1006,7 +1006,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'Cifer Blockchain Network Built for Decentralized Machine Learning.',
+      description: 'The Next Generation of AI Infrastructure Built for Privacy, Performance, & Governance — By Design, At Scale',
       denom_units: [{
           denom: 'ibc/C7DE16F5065C5568C2A16C241069D76DA93F056172A40391EB682444AF40F048',
           exponent: 0,
@@ -1027,7 +1027,7 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.svg',
           theme: {
-            primary_color_hex: '#5F53C8'
+            primary_color_hex: '#6358D7'
           }
         }],
       socials: {
@@ -2205,7 +2205,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'Cifer Blockchain Network Built for Decentralized Machine Learning.',
+      description: 'The Next Generation of AI Infrastructure Built for Privacy, Performance, & Governance — By Design, At Scale',
       denom_units: [{
           denom: 'ibc/C7DE16F5065C5568C2A16C241069D76DA93F056172A40391EB682444AF40F048',
           exponent: 0,
@@ -2226,7 +2226,7 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.svg',
           theme: {
-            primary_color_hex: '#5F53C8'
+            primary_color_hex: '#6358D7'
           }
         }],
       socials: {
