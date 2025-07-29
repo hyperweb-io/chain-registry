@@ -54,20 +54,19 @@ const info: Chain = {
         provider: 'Cifer'
       }],
     grpc: [{
-        address: 'http://34.128.114.243:9090',
+        address: 'http://119.59.126.109:9090',
         provider: 'Cifer'
       }]
   },
   explorers: [{
-      kind: 'bigdipper',
-      url: 'https://explorer.cifer.ai/',
-      txPage: 'https://explorer.cifer.ai/transactions/${txHash}'
+      url: 'https://www.cifscan.com/',
+      txPage: 'https://www.cifscan.com/tx/${txHash}'
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.svg',
       theme: {
-        primaryColorHex: '#5F53C8'
+        primaryColorHex: '#6358D7'
       }
     }]
 };
