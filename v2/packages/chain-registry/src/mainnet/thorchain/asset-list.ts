@@ -39,11 +39,11 @@ const info: AssetList = {
       }
     },
     {
-      base: 'ruji',
+      base: 'x/ruji',
       typeAsset: 'sdk.coin',
       description: 'Rujira is the app layer on THORChain with a full suite of DeFi applications, accessible with native assets from all connected chains.',
       denomUnits: [{
-          denom: 'ruji',
+          denom: 'x/ruji',
           exponent: 0
         }, {
           denom: 'thor.ruji',
@@ -72,18 +72,18 @@ const info: AssetList = {
       }
     },
     {
-      base: 'auto',
+      base: 'thor.auto',
       typeAsset: 'sdk.coin',
       description: 'AutoRujira maximizes your crypto returns by automating every DeFi opportunity across Rujira and THORChain. From staking to trading, everything runs on autopilot — powered by smart contracts and AI',
       denomUnits: [{
-          denom: 'auto',
+          denom: 'thor.auto',
           exponent: 0
         }, {
-          denom: 'thor.auto',
+          denom: 'AUTO',
           exponent: 8
         }],
       name: 'AutoRujira',
-      display: 'thor.auto',
+      display: 'AUTO',
       symbol: 'AUTO',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/auto.png'
@@ -104,18 +104,18 @@ const info: AssetList = {
       }
     },
     {
-      base: 'lqdy',
+      base: 'thor.lqdy',
       typeAsset: 'sdk.coin',
       description: 'Liquidy is a decentralized autonomous organization running a series of profitable on-chain revenue streams. The primary revenue streams are Market Making and a Swap Router.',
       denomUnits: [{
-          denom: 'lqdy',
+          denom: 'thor.lqdy',
           exponent: 0
         }, {
-          denom: 'thor.lqdy',
+          denom: 'LQDY',
           exponent: 8
         }],
       name: 'Liquidy',
-      display: 'thor.lqdy',
+      display: 'LQDY',
       symbol: 'LQDY',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/lqdy.png'
@@ -137,18 +137,18 @@ const info: AssetList = {
       }
     },
     {
-      base: 'nami',
+      base: 'thor.nami',
       typeAsset: 'sdk.coin',
-      description: 'Nami provides a suite of DeFi applications including an optimized EARN product and on-chain INDICES for native assets, accessible from any connected chain. Maximize yield. Simplify access. Reduce risk. Grow with Nami',
+      description: 'Nami provides a suite of DeFi applications including an optimized EARN product and on-chain INDEXES for native assets, accessible from any connected chain. Maximize yield. Simplify access. Reduce risk. Grow with Nami',
       denomUnits: [{
-          denom: 'nami',
+          denom: 'thor.nami',
           exponent: 0
         }, {
-          denom: 'thor.nami',
+          denom: 'NAMI',
           exponent: 8
         }],
       name: 'Nami Protocol',
-      display: 'thor.nami',
+      display: 'NAMI',
       symbol: 'NAMI',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/nami.png'
@@ -232,6 +232,41 @@ const info: AssetList = {
         discord: 'https://discord.gg/WGgUADfxXR',
         telegram: 'https://t.me/NAMIProtocol',
         twitter: 'https://x.com/Nami_Index_'
+      }
+    },
+    {
+      base: 'x/staking-thor.nami',
+      typeAsset: 'sdk.coin',
+      description: 'The staked version of NAMI. Nami provides a suite of DeFi applications including an optimized EARN product and on-chain INDEXES for native assets, accessible from any connected chain. Maximize yield. Simplify access. Reduce risk. Grow with Nami',
+      denomUnits: [{
+          denom: 'x/staking-thor.nami',
+          exponent: 0
+        }, {
+          denom: 'sNAMI',
+          exponent: 8
+        }],
+      name: 'Staked Nami',
+      display: 'sNAMI',
+      symbol: 'sNAMI',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chainName: 'thorchain',
+            baseDenom: 'thor.nami'
+          },
+          provider: 'Nami Protocol'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/snami.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/snami.png'
+        }],
+      socials: {
+        website: 'https://namifi.app/',
+        discord: 'https://discord.gg/WGgUADfxXR',
+        telegram: 'https://t.me/NAMIProtocol',
+        twitter: 'https://twitter.com/NamiProtocol'
       }
     }
   ]
