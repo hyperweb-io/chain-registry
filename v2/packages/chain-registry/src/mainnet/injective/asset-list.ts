@@ -1274,6 +1274,48 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hinj.png'
         }],
       typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Wrapped Bitcoin via Eureka',
+      denomUnits: [{
+          denom: 'ibc/0E293A7622DC9A6439DB60E6D234B5AF446962E27CA3AB44D0590603DFF6968E',
+          exponent: 0
+        }, {
+          denom: 'wbtc',
+          exponent: 8
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/0E293A7622DC9A6439DB60E6D234B5AF446962E27CA3AB44D0590603DFF6968E',
+      name: 'Wrapped Bitcoin (Eureka)',
+      display: 'wbtc',
+      symbol: 'WBTC.atom',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'cosmoshub',
+            baseDenom: 'ibc/D742E8566B0B8CC8F569D950051C09CF57988A88F0E45574BFB3079D41DE6462',
+            channelId: 'channel-220'
+          },
+          chain: {
+            channelId: 'channel-1',
+            path: 'transfer/channel-1/transfer/08-wasm-1369/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'cosmoshub',
+            baseDenom: 'ibc/D742E8566B0B8CC8F569D950051C09CF57988A88F0E45574BFB3079D41DE6462'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg',
+          theme: {
+            primaryColorHex: '#f39444'
+          }
+        }]
     }
   ]
 };
