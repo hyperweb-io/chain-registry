@@ -1316,6 +1316,33 @@ const info: AssetList = {
             primaryColorHex: '#f39444'
           }
         }]
+    },
+    {
+      description: 'Agora USD Coin',
+      denomUnits: [{
+          denom: 'factory/inj1n636d9gzrqggdk66n2f97th0x8yuhfrtx520e7/ausd',
+          exponent: 0
+        }, {
+          denom: 'AUSD',
+          exponent: 6
+        }],
+      base: 'factory/inj1n636d9gzrqggdk66n2f97th0x8yuhfrtx520e7/ausd',
+      name: 'Agora USD',
+      display: 'AUSD',
+      symbol: 'AUSD',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ausd.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ausd.png',
+          theme: {
+            primaryColorHex: '#9A934F'
+          }
+        }],
+      socials: {
+        website: 'https://agora.finance'
+      },
+      typeAsset: 'sdk.coin'
     }
   ]
 };

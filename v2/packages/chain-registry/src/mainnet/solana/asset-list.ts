@@ -723,6 +723,52 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/monkeys.png'
         }]
+    },
+    {
+      description: 'Official Trump token on Solana blockchain.',
+      typeAsset: 'erc20',
+      address: '6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN',
+      denomUnits: [{
+          denom: '6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN',
+          exponent: 0
+        }, {
+          denom: 'trump',
+          exponent: 6
+        }],
+      base: '6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN',
+      name: 'Official Trump',
+      display: 'trump',
+      symbol: 'TRUMP',
+      coingeckoId: 'official-trump',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/trump.png'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/trump.png'
+      }
+    },
+    {
+      description: 'Pudgy Penguins token on Solana blockchain.',
+      typeAsset: 'erc20',
+      address: '2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv',
+      denomUnits: [{
+          denom: '2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv',
+          exponent: 0
+        }, {
+          denom: 'pengu',
+          exponent: 6
+        }],
+      base: '2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv',
+      name: 'Pudgy Penguins',
+      display: 'pengu',
+      symbol: 'PENGU',
+      coingeckoId: 'pudgy-penguins',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pengu.png'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pengu.png'
+      }
     }
   ]
 };

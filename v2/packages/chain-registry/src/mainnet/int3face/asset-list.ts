@@ -273,6 +273,70 @@ const info: AssetList = {
           }
         }],
       typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Official Trump coin (TRUMP) on Int3face',
+      denomUnits: [{
+          denom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-trump',
+          exponent: 0
+        }, {
+          denom: 'trump',
+          exponent: 6
+        }],
+      base: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-trump',
+      name: 'Official Trump',
+      display: 'trump',
+      symbol: 'TRUMP',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'solana',
+            baseDenom: '6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN'
+          },
+          provider: 'Int3face'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/trump.int3.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/trump.int3.png',
+          theme: {
+            primaryColorHex: '#3d3d3d'
+          }
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Pudgy Penguins coin (PENGU) on Int3face',
+      denomUnits: [{
+          denom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-pengu',
+          exponent: 0
+        }, {
+          denom: 'pengu',
+          exponent: 6
+        }],
+      base: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-pengu',
+      name: 'Pudgy Penguins',
+      display: 'pengu',
+      symbol: 'PENGU',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'solana',
+            baseDenom: '2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv'
+          },
+          provider: 'Int3face'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/pengu.int3.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/pengu.int3.png',
+          theme: {
+            primaryColorHex: '#3d3d3d'
+          }
+        }],
+      typeAsset: 'sdk.coin'
     }
   ]
 };
