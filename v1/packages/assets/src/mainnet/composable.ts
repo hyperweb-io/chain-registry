@@ -1451,6 +1451,76 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Official Trump token on Solana blockchain.',
+      type_asset: 'erc20',
+      address: '6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN',
+      denom_units: [{
+          denom: 'ibc/C436558443A75CFF4224B8318F5C0B9174B8872C2801B2210BEAB4FBA490699E',
+          exponent: 0,
+          aliases: ['6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN']
+        }, {
+          denom: 'trump',
+          exponent: 6
+        }],
+      base: 'ibc/C436558443A75CFF4224B8318F5C0B9174B8872C2801B2210BEAB4FBA490699E',
+      name: 'Official Trump',
+      display: 'trump',
+      symbol: 'TRUMP',
+      coingecko_id: 'official-trump',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/trump.png'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/trump.png'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: '6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN',
+            chain_name: 'solana'
+          },
+          chain: {
+            channel_id: 'channel-71'
+          }
+        }]
+    },
+    {
+      description: 'Pudgy Penguins token on Solana blockchain.',
+      type_asset: 'erc20',
+      address: '2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv',
+      denom_units: [{
+          denom: 'ibc/2BF18CDBEF524A7056DE6A985A7AF0D2A77F2EC2C4B02037EC1A2C75854AE9D0',
+          exponent: 0,
+          aliases: ['2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv']
+        }, {
+          denom: 'pengu',
+          exponent: 6
+        }],
+      base: 'ibc/2BF18CDBEF524A7056DE6A985A7AF0D2A77F2EC2C4B02037EC1A2C75854AE9D0',
+      name: 'Pudgy Penguins',
+      display: 'pengu',
+      symbol: 'PENGU',
+      coingecko_id: 'pudgy-penguins',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pengu.png'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pengu.png'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: '2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv',
+            chain_name: 'solana'
+          },
+          chain: {
+            channel_id: 'channel-71'
+          }
+        }]
+    },
+    {
       description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
       denom_units: [{
           denom: 'ibc/6C42AE3786DF3E1C8520107A7328D268D19AD631A922FB06F7B99005304AB26D',
@@ -4486,6 +4556,76 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-1',
             base_denom: '7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw',
+            chain_name: 'solana'
+          },
+          chain: {
+            channel_id: 'channel-71'
+          }
+        }]
+    },
+    {
+      description: 'Official Trump token on Solana blockchain.',
+      type_asset: 'erc20',
+      address: '6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN',
+      denom_units: [{
+          denom: 'ibc/C436558443A75CFF4224B8318F5C0B9174B8872C2801B2210BEAB4FBA490699E',
+          exponent: 0,
+          aliases: ['6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN']
+        }, {
+          denom: 'trump',
+          exponent: 6
+        }],
+      base: 'ibc/C436558443A75CFF4224B8318F5C0B9174B8872C2801B2210BEAB4FBA490699E',
+      name: 'Official Trump',
+      display: 'trump',
+      symbol: 'TRUMP',
+      coingecko_id: 'official-trump',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/trump.png'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/trump.png'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: '6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN',
+            chain_name: 'solana'
+          },
+          chain: {
+            channel_id: 'channel-71'
+          }
+        }]
+    },
+    {
+      description: 'Pudgy Penguins token on Solana blockchain.',
+      type_asset: 'erc20',
+      address: '2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv',
+      denom_units: [{
+          denom: 'ibc/2BF18CDBEF524A7056DE6A985A7AF0D2A77F2EC2C4B02037EC1A2C75854AE9D0',
+          exponent: 0,
+          aliases: ['2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv']
+        }, {
+          denom: 'pengu',
+          exponent: 6
+        }],
+      base: 'ibc/2BF18CDBEF524A7056DE6A985A7AF0D2A77F2EC2C4B02037EC1A2C75854AE9D0',
+      name: 'Pudgy Penguins',
+      display: 'pengu',
+      symbol: 'PENGU',
+      coingecko_id: 'pudgy-penguins',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pengu.png'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pengu.png'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: '2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv',
             chain_name: 'solana'
           },
           chain: {
