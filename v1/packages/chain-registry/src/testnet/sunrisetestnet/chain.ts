@@ -6,7 +6,7 @@ const info: Chain = {
   network_type: 'testnet',
   pretty_name: 'Sunrise Testnet',
   chain_type: 'cosmos',
-  chain_id: 'sunrise-test-da-5',
+  chain_id: 'dawn-1',
   bech32_prefix: 'sunrise',
   daemon_name: 'sunrised',
   node_home: '$HOME/.sunrise',
@@ -28,10 +28,10 @@ const info: Chain = {
   },
   codebase: {
     git_repo: 'https://github.com/sunriselayer/sunrise',
-    recommended_version: 'v0.6.0',
-    compatible_versions: ['v0.6.0'],
+    recommended_version: 'v1.0.0',
+    compatible_versions: ['v1.0.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/sunriselayer/sunrise/releases/download/v0.6.0/sunrised'
+      "linux/amd64": 'https://github.com/sunriselayer/sunrise/releases/download/v1.0.0/sunrised-linux-amd64'
     },
     consensus: {
       type: 'cometbft',
@@ -43,7 +43,7 @@ const info: Chain = {
     },
     ibc: {
       type: 'go',
-      version: 'v10.2.0'
+      version: 'v10.3.0'
     }
   },
   logo_URIs: {
@@ -52,19 +52,24 @@ const info: Chain = {
   },
   apis: {
     rpc: [{
-        address: 'https://sunrise-test-da-5.cauchye.net',
+        address: 'https://sunrise-dawn-1.cauchye.com',
         provider: 'CauchyE'
       }],
     rest: [{
-        address: 'https://sunrise-test-da-5.cauchye.net:1318',
+        address: 'https://sunrise-dawn-1.cauchye.com:1318',
         provider: 'CauchyE'
       }],
     grpc: [{
-        address: 'https://sunrise-test-da-5.cauchye.net:9092',
+        address: 'https://sunrise-dawn-1.cauchye.com:9092',
         provider: 'CauchyE'
       }]
   },
-  explorers: [],
+  explorers: [{
+      kind: 'Risescan',
+      url: 'https://dawn-1.risescan.sunriselayer.io',
+      tx_page: 'https://dawn-1.risescan.sunriselayer.io/txs/${txHash}',
+      account_page: 'https://dawn-1.risescan.sunriselayer.io/accounts/${accountAddress}'
+    }],
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg',
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.png'

@@ -5500,6 +5500,47 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'MTGBP the stablecoin of the future.',
+      denom_units: [{
+          denom: 'ibc/698687E700D8B255FAB6B8145CE25B12591C99296965DB5C2C5DD5FE0AB685BF',
+          exponent: 0,
+          aliases: ['umtgbp']
+        }, {
+          denom: 'mtgbp',
+          exponent: 6
+        }],
+      base: 'ibc/698687E700D8B255FAB6B8145CE25B12591C99296965DB5C2C5DD5FE0AB685BF',
+      name: 'mtgbp',
+      display: 'mtgbp',
+      symbol: 'MTGBP',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.svg',
+          theme: {
+            primary_color_hex: '#e8692b'
+          }
+        }],
+      socials: {
+        website: 'https://mtgbp.com/'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'umtgbp',
+            chain_name: 'mtgbp'
+          },
+          chain: {
+            channel_id: 'channel-105394'
+          }
+        }]
+    },
+    {
       description: 'The native token of Neutaro',
       denom_units: [{
           denom: 'ibc/DAED51CBD967A3BE0C467687970AFD97B202AFE4A1718B36936F49178AFE0133',
@@ -12068,6 +12109,47 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-89298'
+          }
+        }]
+    },
+    {
+      description: 'MTGBP the stablecoin of the future.',
+      denom_units: [{
+          denom: 'ibc/698687E700D8B255FAB6B8145CE25B12591C99296965DB5C2C5DD5FE0AB685BF',
+          exponent: 0,
+          aliases: ['umtgbp']
+        }, {
+          denom: 'mtgbp',
+          exponent: 6
+        }],
+      base: 'ibc/698687E700D8B255FAB6B8145CE25B12591C99296965DB5C2C5DD5FE0AB685BF',
+      name: 'mtgbp',
+      display: 'mtgbp',
+      symbol: 'MTGBP',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.svg',
+          theme: {
+            primary_color_hex: '#e8692b'
+          }
+        }],
+      socials: {
+        website: 'https://mtgbp.com/'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'umtgbp',
+            chain_name: 'mtgbp'
+          },
+          chain: {
+            channel_id: 'channel-105394'
           }
         }]
     },
@@ -20414,6 +20496,47 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-17683'
+          }
+        }]
+    },
+    {
+      description: 'QFS stands for Quantum Financial Systems, the aim is to bridge traditional finance with the crypto ecosystem',
+      denom_units: [{
+          denom: 'ibc/83A99F99AF326090B74CD5D17EE61776C7791B537EE6808F4951A184EDCCA0D9',
+          exponent: 0,
+          aliases: ['uqfs']
+        }, {
+          denom: 'qfs',
+          exponent: 6
+        }],
+      base: 'ibc/83A99F99AF326090B74CD5D17EE61776C7791B537EE6808F4951A184EDCCA0D9',
+      name: 'qfs',
+      display: 'qfs',
+      symbol: 'QFS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.svg',
+          theme: {
+            primary_color_hex: '#2979dc'
+          }
+        }],
+      socials: {
+        website: 'https://qfsone.com/'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uqfs',
+            chain_name: 'qfs'
+          },
+          chain: {
+            channel_id: 'channel-105393'
           }
         }]
     },
@@ -30503,6 +30626,47 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-17683'
+          }
+        }]
+    },
+    {
+      description: 'QFS stands for Quantum Financial Systems, the aim is to bridge traditional finance with the crypto ecosystem',
+      denom_units: [{
+          denom: 'ibc/83A99F99AF326090B74CD5D17EE61776C7791B537EE6808F4951A184EDCCA0D9',
+          exponent: 0,
+          aliases: ['uqfs']
+        }, {
+          denom: 'qfs',
+          exponent: 6
+        }],
+      base: 'ibc/83A99F99AF326090B74CD5D17EE61776C7791B537EE6808F4951A184EDCCA0D9',
+      name: 'qfs',
+      display: 'qfs',
+      symbol: 'QFS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.svg',
+          theme: {
+            primary_color_hex: '#2979dc'
+          }
+        }],
+      socials: {
+        website: 'https://qfsone.com/'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uqfs',
+            chain_name: 'qfs'
+          },
+          chain: {
+            channel_id: 'channel-105393'
           }
         }]
     },

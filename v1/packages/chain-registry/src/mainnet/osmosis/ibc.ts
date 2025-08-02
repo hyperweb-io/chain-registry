@@ -2893,6 +2893,36 @@ const info: IBCInfo[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain_1: {
+      chain_name: 'mtgbp',
+      client_id: '07-tendermint-0',
+      connection_id: 'connection-0'
+    },
+    chain_2: {
+      chain_name: 'osmosis',
+      client_id: '07-tendermint-3531',
+      connection_id: 'connection-10772'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-0',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-105394',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true,
+          dex: 'osmosis'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain_1: {
       chain_name: 'namada',
       client_id: '07-tendermint-2',
       connection_id: 'connection-1'
@@ -3688,6 +3718,36 @@ const info: IBCInfo[] = [
         version: 'ics20-1',
         tags: {
           status: 'live'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain_1: {
+      chain_name: 'osmosis',
+      client_id: '07-tendermint-3530',
+      connection_id: 'connection-10771'
+    },
+    chain_2: {
+      chain_name: 'qfs',
+      client_id: '07-tendermint-0',
+      connection_id: 'connection-0'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-105393',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-0',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true,
+          dex: 'osmosis'
         }
       }]
   },

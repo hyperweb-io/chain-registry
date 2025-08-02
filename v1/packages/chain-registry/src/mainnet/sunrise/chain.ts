@@ -2,7 +2,7 @@ import { Chain } from '@chain-registry/types';
 const info: Chain = {
   $schema: '../chain.schema.json',
   chain_name: 'sunrise',
-  status: 'upcoming',
+  status: 'live',
   network_type: 'mainnet',
   website: 'https://sunriselayer.io/',
   pretty_name: 'Sunrise',
@@ -27,29 +27,27 @@ const info: Chain = {
         denom: 'uvrise'
       }],
     lock_duration: {
-      time: '1209600s'
+      time: '1814400s'
     }
   },
   codebase: {
     git_repo: 'https://github.com/sunriselayer/sunrise',
-    recommended_version: 'v0.1.1',
-    compatible_versions: ['v0.1.1'],
+    recommended_version: 'v1.0.0',
+    compatible_versions: ['v1.0.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/sunriselayer/sunrise/releases/download/v0.1.1/sunrised'
+      "linux/amd64": 'https://github.com/sunriselayer/sunrise/releases/download/v1.0.0/sunrised-linux-amd64'
     },
     consensus: {
       type: 'cometbft',
-      version: 'v0.0.5',
-      repo: 'https://github.com/sunriselayer/sunrise-core',
-      tag: 'v0.0.5-cmt-v0.38.2'
+      version: 'v0.38.17'
     },
     sdk: {
       type: 'cosmos',
-      version: '0.50.2'
+      version: 'v0.53.2'
     },
     ibc: {
       type: 'go',
-      version: '8.0.0'
+      version: 'v10.3.0'
     }
   },
   logo_URIs: {
@@ -57,11 +55,25 @@ const info: Chain = {
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg'
   },
   apis: {
-    rpc: [],
-    rest: [],
-    grpc: []
+    rpc: [{
+        address: 'https://a.consensus.sunrise-1.sunriselayer.io',
+        provider: 'Sunrise Team'
+      }],
+    rest: [{
+        address: 'https://a.consensus.sunrise-1.sunriselayer.io:1318',
+        provider: 'Sunrise Team'
+      }],
+    grpc: [{
+        address: 'https://a.consensus.sunrise-1.sunriselayer.io:9092',
+        provider: 'Sunrise Team'
+      }]
   },
-  explorers: [],
+  explorers: [{
+      kind: 'Risescan',
+      url: 'https://risescan.sunriselayer.io',
+      tx_page: 'https://risescan.sunriselayer.io/txs/${txHash}',
+      account_page: 'https://risescan.sunriselayer.io/accounts/${accountAddress}'
+    }],
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg',
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.png',

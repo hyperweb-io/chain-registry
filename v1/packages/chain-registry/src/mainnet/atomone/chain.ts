@@ -147,6 +147,10 @@ const info: Chain = {
       {
         address: 'https://atomone-mainnet-rpc.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://rpc-atomone.22node.xyz',
+        provider: '22node'
       }
     ],
     rest: [
@@ -233,6 +237,10 @@ const info: Chain = {
       {
         address: 'https://atomone-mainnet-api.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://rest-atomone.22node.xyz',
+        provider: '22node'
       }
     ],
     grpc: [
@@ -290,6 +298,10 @@ const info: Chain = {
       },
       {
         address: 'atomone-mainnet-grpc.shazoes.xyz:12090',
+        provider: 'Shazoes'
+      },
+      {
+        address: 'grpc-atomone.22node.xyz',
         provider: 'Shazoes'
       }
     ]

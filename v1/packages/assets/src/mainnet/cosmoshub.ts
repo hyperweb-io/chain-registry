@@ -575,6 +575,45 @@ const assets: AssetList = {
         }]
     },
     {
+      description: '$BADGE is the native in-app token for BitBadges.',
+      denom_units: [{
+          denom: 'ibc/E66E06D91E12D76D96DEA839941FD30F785D84CDD9B564A16BA1AC32C089A0FA',
+          exponent: 0,
+          aliases: ['ubadge']
+        }, {
+          denom: 'badge',
+          exponent: 9
+        }],
+      base: 'ibc/E66E06D91E12D76D96DEA839941FD30F785D84CDD9B564A16BA1AC32C089A0FA',
+      name: 'BitBadges',
+      display: 'badge',
+      symbol: 'BADGE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.svg'
+        }],
+      socials: {
+        website: 'https://bitbadges.io/',
+        twitter: 'https://twitter.com/bitbadges_io'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'ubadge',
+            chain_name: 'bitbadges'
+          },
+          chain: {
+            channel_id: 'channel-1420'
+          }
+        }]
+    },
+    {
       description: 'The BCNA coin is the transactional token within the BitCanna network, serving the legal cannabis industry through its payment network, supply chain and trust network.',
       denom_units: [{
           denom: 'ibc/ADBEC1A7AC2FEF73E06B066A1C94DAB6C27924EF7EA3F5A43378150009620284',
@@ -1770,6 +1809,45 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-1341'
+          }
+        }]
+    },
+    {
+      description: '$BADGE is the native in-app token for BitBadges.',
+      denom_units: [{
+          denom: 'ibc/E66E06D91E12D76D96DEA839941FD30F785D84CDD9B564A16BA1AC32C089A0FA',
+          exponent: 0,
+          aliases: ['ubadge']
+        }, {
+          denom: 'badge',
+          exponent: 9
+        }],
+      base: 'ibc/E66E06D91E12D76D96DEA839941FD30F785D84CDD9B564A16BA1AC32C089A0FA',
+      name: 'BitBadges',
+      display: 'badge',
+      symbol: 'BADGE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.svg'
+        }],
+      socials: {
+        website: 'https://bitbadges.io/',
+        twitter: 'https://twitter.com/bitbadges_io'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'ubadge',
+            chain_name: 'bitbadges'
+          },
+          chain: {
+            channel_id: 'channel-1420'
           }
         }]
     },
