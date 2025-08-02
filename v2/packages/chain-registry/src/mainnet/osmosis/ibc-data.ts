@@ -2893,6 +2893,36 @@ const info: IBCData[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain1: {
+      chainName: 'mtgbp',
+      clientId: '07-tendermint-0',
+      connectionId: 'connection-0'
+    },
+    chain2: {
+      chainName: 'osmosis',
+      clientId: '07-tendermint-3531',
+      connectionId: 'connection-10772'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-0',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-105394',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true,
+          dex: 'osmosis'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
       chainName: 'namada',
       clientId: '07-tendermint-2',
       connectionId: 'connection-1'
@@ -3688,6 +3718,36 @@ const info: IBCData[] = [
         version: 'ics20-1',
         tags: {
           status: 'live'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
+      chainName: 'osmosis',
+      clientId: '07-tendermint-3530',
+      connectionId: 'connection-10771'
+    },
+    chain2: {
+      chainName: 'qfs',
+      clientId: '07-tendermint-0',
+      connectionId: 'connection-0'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-105393',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-0',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true,
+          dex: 'osmosis'
         }
       }]
   },

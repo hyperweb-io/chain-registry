@@ -6,7 +6,7 @@ const info: Chain = {
   networkType: 'testnet',
   prettyName: 'Sunrise Testnet',
   chainType: 'cosmos',
-  chainId: 'sunrise-test-da-5',
+  chainId: 'dawn-1',
   bech32Prefix: 'sunrise',
   daemonName: 'sunrised',
   nodeHome: '$HOME/.sunrise',
@@ -28,10 +28,10 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/sunriselayer/sunrise',
-    recommendedVersion: 'v0.6.0',
-    compatibleVersions: ['v0.6.0'],
+    recommendedVersion: 'v1.0.0',
+    compatibleVersions: ['v1.0.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/sunriselayer/sunrise/releases/download/v0.6.0/sunrised'
+      "linux/amd64": 'https://github.com/sunriselayer/sunrise/releases/download/v1.0.0/sunrised-linux-amd64'
     },
     consensus: {
       type: 'cometbft',
@@ -43,7 +43,7 @@ const info: Chain = {
     },
     ibc: {
       type: 'go',
-      version: 'v10.2.0'
+      version: 'v10.3.0'
     }
   },
   logoURIs: {
@@ -52,19 +52,24 @@ const info: Chain = {
   },
   apis: {
     rpc: [{
-        address: 'https://sunrise-test-da-5.cauchye.net',
+        address: 'https://sunrise-dawn-1.cauchye.com',
         provider: 'CauchyE'
       }],
     rest: [{
-        address: 'https://sunrise-test-da-5.cauchye.net:1318',
+        address: 'https://sunrise-dawn-1.cauchye.com:1318',
         provider: 'CauchyE'
       }],
     grpc: [{
-        address: 'https://sunrise-test-da-5.cauchye.net:9092',
+        address: 'https://sunrise-dawn-1.cauchye.com:9092',
         provider: 'CauchyE'
       }]
   },
-  explorers: [],
+  explorers: [{
+      kind: 'Risescan',
+      url: 'https://dawn-1.risescan.sunriselayer.io',
+      txPage: 'https://dawn-1.risescan.sunriselayer.io/txs/${txHash}',
+      accountPage: 'https://dawn-1.risescan.sunriselayer.io/accounts/${accountAddress}'
+    }],
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg',
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.png'

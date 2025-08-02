@@ -94,6 +94,7 @@ import * as _medasdigital from './medasdigital';
 import * as _meme from './meme';
 import * as _migaloo from './migaloo';
 import * as _milkyway from './milkyway';
+import * as _mtgbp from './mtgbp';
 import * as _neutaro from './neutaro';
 import * as _neutron from './neutron';
 import * as _nibiru from './nibiru';
@@ -119,6 +120,7 @@ import * as _provenance from './provenance';
 import * as _pryzm from './pryzm';
 import * as _pundix from './pundix';
 import * as _pylons from './pylons';
+import * as _qfs from './qfs';
 import * as _quasar from './quasar';
 import * as _quicksilver from './quicksilver';
 import * as _qwoyn from './qwoyn';
@@ -258,6 +260,7 @@ const ibcData: IBCData[] = [
   ..._meme.ibcData,
   ..._migaloo.ibcData,
   ..._milkyway.ibcData,
+  ..._mtgbp.ibcData,
   ..._neutaro.ibcData,
   ..._neutron.ibcData,
   ..._nibiru.ibcData,
@@ -283,6 +286,7 @@ const ibcData: IBCData[] = [
   ..._pryzm.ibcData,
   ..._pundix.ibcData,
   ..._pylons.ibcData,
+  ..._qfs.ibcData,
   ..._quasar.ibcData,
   ..._quicksilver.ibcData,
   ..._qwoyn.ibcData,

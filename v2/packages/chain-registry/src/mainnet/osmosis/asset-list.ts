@@ -24828,6 +24828,92 @@ const info: AssetList = {
             primaryColorHex: '#3d3d3d'
           }
         }]
+    },
+    {
+      denomUnits: [{
+          denom: 'ibc/83A99F99AF326090B74CD5D17EE61776C7791B537EE6808F4951A184EDCCA0D9',
+          exponent: 0,
+          aliases: ['uqfs']
+        }, {
+          denom: 'qfs',
+          exponent: 6,
+          aliases: []
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/83A99F99AF326090B74CD5D17EE61776C7791B537EE6808F4951A184EDCCA0D9',
+      name: 'QFS',
+      display: 'qfs',
+      symbol: 'QFS',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'qfs',
+            baseDenom: 'uqfs',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-105393',
+            path: 'transfer/channel-105393/uqfs'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'qfs',
+            baseDenom: 'uqfs'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.svg',
+          theme: {
+            primaryColorHex: '#41918c'
+          }
+        }]
+    },
+    {
+      denomUnits: [{
+          denom: 'ibc/698687E700D8B255FAB6B8145CE25B12591C99296965DB5C2C5DD5FE0AB685BF',
+          exponent: 0,
+          aliases: ['umtgbp']
+        }, {
+          denom: 'mtgbp',
+          exponent: 6,
+          aliases: []
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/698687E700D8B255FAB6B8145CE25B12591C99296965DB5C2C5DD5FE0AB685BF',
+      name: 'MTGBP',
+      display: 'mtgbp',
+      symbol: 'MTGBP',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'mtgbp',
+            baseDenom: 'umtgbp',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-105394',
+            path: 'transfer/channel-105394/umtgbp'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'mtgbp',
+            baseDenom: 'umtgbp'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.svg',
+          theme: {
+            primaryColorHex: '#41918c'
+          }
+        }]
     }
   ]
 };
