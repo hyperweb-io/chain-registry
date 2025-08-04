@@ -1478,7 +1478,7 @@ const info: AssetList = {
       coingeckoId: 'monerium-eur-money'
     },
     {
-      description: 'A Terra native overcollateralized USD stablecoin, powered by Capapult Finance.',
+      description: 'SOLID is a Terra native overcollateralized USD stablecoin, powered by SOLID',
       denomUnits: [{
           denom: 'cw20:terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst',
           exponent: 0
@@ -1489,7 +1489,7 @@ const info: AssetList = {
       typeAsset: 'cw20',
       address: 'terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst',
       base: 'cw20:terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst',
-      name: 'Solid USD',
+      name: 'Solid',
       display: 'solid',
       symbol: 'SOLID',
       logoURIs: {
@@ -1501,6 +1501,33 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.svg',
           theme: {
             primaryColorHex: '#040404'
+          }
+        }]
+    },
+    {
+      description: 'CAPA is a governance token of SOLID, powered by SOLID',
+      denomUnits: [{
+          denom: 'cw20:terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar',
+          exponent: 0
+        }, {
+          denom: 'capa',
+          exponent: 6
+        }],
+      typeAsset: 'cw20',
+      address: 'terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar',
+      base: 'cw20:terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar',
+      name: 'Capapult',
+      display: 'capa',
+      symbol: 'CAPA',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.svg',
+          theme: {
+            primaryColorHex: '#FF47C2'
           }
         }]
     }
