@@ -49506,7 +49506,7 @@ const asset_list: AssetList = {
         }]
     },
     {
-      description: 'A Terra native overcollateralized USD stablecoin, powered by Capapult Finance.',
+      description: 'SOLID is a Terra native overcollateralized USD stablecoin, powered by SOLID',
       denom_units: [{
           denom: 'ibc/87FAB4A0CE17C2B57830EDCF01C43C806B91AD7D0DCF2282D077C783FEA33C18',
           exponent: 0,
@@ -49518,7 +49518,7 @@ const asset_list: AssetList = {
       type_asset: 'cw20',
       address: 'terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst',
       base: 'ibc/87FAB4A0CE17C2B57830EDCF01C43C806B91AD7D0DCF2282D077C783FEA33C18',
-      name: 'Solid USD',
+      name: 'Solid',
       display: 'solid',
       symbol: 'SOLID',
       logo_URIs: {
@@ -49538,6 +49538,47 @@ const asset_list: AssetList = {
             port: 'wasm.terra1d90p5lacfxnqgjxjupu234lxnxyeu8fdeef4d0e0nqy3p30r7gss4myn9x',
             channel_id: 'channel-85',
             base_denom: 'cw20:terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst',
+            chain_name: 'terra2'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-559'
+          }
+        }]
+    },
+    {
+      description: 'CAPA is a governance token of SOLID, powered by SOLID',
+      denom_units: [{
+          denom: 'ibc/395A4E2FC7CD9CB28FEBF5B746269275D01D64DFF9E1919D1498C99EBF74073B',
+          exponent: 0,
+          aliases: ['cw20:terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar']
+        }, {
+          denom: 'capa',
+          exponent: 6
+        }],
+      type_asset: 'cw20',
+      address: 'terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar',
+      base: 'ibc/395A4E2FC7CD9CB28FEBF5B746269275D01D64DFF9E1919D1498C99EBF74073B',
+      name: 'Capapult',
+      display: 'capa',
+      symbol: 'CAPA',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.svg',
+          theme: {
+            primary_color_hex: '#FF47C2'
+          }
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.terra1d90p5lacfxnqgjxjupu234lxnxyeu8fdeef4d0e0nqy3p30r7gss4myn9x',
+            channel_id: 'channel-85',
+            base_denom: 'cw20:terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar',
             chain_name: 'terra2'
           },
           chain: {
@@ -58506,7 +58547,7 @@ const asset_list: AssetList = {
         }]
     },
     {
-      description: 'A Terra native overcollateralized USD stablecoin, powered by Capapult Finance.',
+      description: 'SOLID is a Terra native overcollateralized USD stablecoin, powered by SOLID',
       denom_units: [{
           denom: 'ibc/87FAB4A0CE17C2B57830EDCF01C43C806B91AD7D0DCF2282D077C783FEA33C18',
           exponent: 0,
@@ -58518,7 +58559,7 @@ const asset_list: AssetList = {
       type_asset: 'cw20',
       address: 'terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst',
       base: 'ibc/87FAB4A0CE17C2B57830EDCF01C43C806B91AD7D0DCF2282D077C783FEA33C18',
-      name: 'Solid USD',
+      name: 'Solid',
       display: 'solid',
       symbol: 'SOLID',
       logo_URIs: {
@@ -58538,6 +58579,47 @@ const asset_list: AssetList = {
             port: 'wasm.terra1d90p5lacfxnqgjxjupu234lxnxyeu8fdeef4d0e0nqy3p30r7gss4myn9x',
             channel_id: 'channel-85',
             base_denom: 'cw20:terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst',
+            chain_name: 'terra2'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-559'
+          }
+        }]
+    },
+    {
+      description: 'CAPA is a governance token of SOLID, powered by SOLID',
+      denom_units: [{
+          denom: 'ibc/395A4E2FC7CD9CB28FEBF5B746269275D01D64DFF9E1919D1498C99EBF74073B',
+          exponent: 0,
+          aliases: ['cw20:terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar']
+        }, {
+          denom: 'capa',
+          exponent: 6
+        }],
+      type_asset: 'cw20',
+      address: 'terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar',
+      base: 'ibc/395A4E2FC7CD9CB28FEBF5B746269275D01D64DFF9E1919D1498C99EBF74073B',
+      name: 'Capapult',
+      display: 'capa',
+      symbol: 'CAPA',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.svg',
+          theme: {
+            primary_color_hex: '#FF47C2'
+          }
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.terra1d90p5lacfxnqgjxjupu234lxnxyeu8fdeef4d0e0nqy3p30r7gss4myn9x',
+            channel_id: 'channel-85',
+            base_denom: 'cw20:terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar',
             chain_name: 'terra2'
           },
           chain: {
