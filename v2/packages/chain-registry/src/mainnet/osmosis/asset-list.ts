@@ -24914,6 +24914,37 @@ const info: AssetList = {
             primaryColorHex: '#41918c'
           }
         }]
+    },
+    {
+      description: 'An alloy of USD asset variants on Osmosis.',
+      extendedDescription: 'Multiple USD variants on Osmosis comprise the liquidity backing of a tokenized transmuter pool to create an alloy of USD.',
+      denomUnits: [{
+          denom: 'factory/osmo1t82ql2w69m9g3un7c6sk5wss578ewst2uscr7zdkn6k8rmzc3e8qz9n4q2/alloyed/allUSD',
+          exponent: 0
+        }, {
+          denom: 'allUSD',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      address: 'osmo1t82ql2w69m9g3un7c6sk5wss578ewst2uscr7zdkn6k8rmzc3e8qz9n4q2',
+      base: 'factory/osmo1t82ql2w69m9g3un7c6sk5wss578ewst2uscr7zdkn6k8rmzc3e8qz9n4q2/alloyed/allUSD',
+      name: 'Osmosis Alloyed USD',
+      display: 'allUSD',
+      symbol: 'allUSD',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chainName: 'forex',
+            baseDenom: 'USD'
+          },
+          provider: 'Osmosis'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allUSD.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allUSD.svg'
+        }]
     }
   ]
 };

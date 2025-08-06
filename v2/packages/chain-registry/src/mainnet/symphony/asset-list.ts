@@ -4,7 +4,12 @@ const info: AssetList = {
   chainName: 'symphony',
   assets: [
     {
-      description: 'The native token of Symphony',
+      description: 'The native coin of Symphony',
+      extendedDescription: 'The native coin of Symphony, and the primary fee coin of the ecosystem. The primary coin for Symphony\'s 2:1 crypto reserves, and used for voting on governance proposals and recapitalizing the system if necessary.',
+      socials: {
+        website: 'https://orchestralabs.org',
+        twitter: 'https://x.com/orchestra_labs'
+      },
       denomUnits: [{
           denom: 'note',
           exponent: 0,

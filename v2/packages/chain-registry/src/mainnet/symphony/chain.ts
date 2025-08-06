@@ -2,6 +2,7 @@ import { Chain } from '@chain-registry/types';
 const info: Chain = {
   $schema: '../chain.schema.json',
   chainName: 'symphony',
+  description: 'The stablecoin chain.  Stablecoins for any and every currency.',
   status: 'live',
   networkType: 'mainnet',
   prettyName: 'Symphony',
