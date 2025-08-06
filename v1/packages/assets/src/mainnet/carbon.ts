@@ -2430,7 +2430,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'SOLID is a Terra native overcollateralized USD stablecoin, powered by SOLID',
+      description: 'SOLID is the Terra native overcollateralized USD stablecoin, powered by SOLID',
       denom_units: [{
           denom: 'ibc/C6CEA8F1CE8662D275F6DCFC5D999998379D143865DC4ABCD1808A37C2AAFF34',
           exponent: 0,
@@ -2471,7 +2471,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'CAPA is a governance token of SOLID, powered by SOLID',
+      description: 'CAPA is the governance token of SOLID ecosystem, powered by SOLID',
       denom_units: [{
           denom: 'ibc/1DA7D9853A9D5D9FDF3CF58BEC27D654807BF5F8764EFB7B548D8A86A7FB9DEE',
           exponent: 0,
@@ -2483,7 +2483,7 @@ const assets: AssetList = {
       type_asset: 'cw20',
       address: 'terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar',
       base: 'ibc/1DA7D9853A9D5D9FDF3CF58BEC27D654807BF5F8764EFB7B548D8A86A7FB9DEE',
-      name: 'Capapult',
+      name: 'Capa',
       display: 'capa',
       symbol: 'CAPA',
       logo_URIs: {
@@ -3843,7 +3843,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'SOLID is a Terra native overcollateralized USD stablecoin, powered by SOLID',
+      description: 'SOLID is the Terra native overcollateralized USD stablecoin, powered by SOLID',
       denom_units: [{
           denom: 'ibc/C6CEA8F1CE8662D275F6DCFC5D999998379D143865DC4ABCD1808A37C2AAFF34',
           exponent: 0,
@@ -3884,7 +3884,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'CAPA is a governance token of SOLID, powered by SOLID',
+      description: 'CAPA is the governance token of SOLID ecosystem, powered by SOLID',
       denom_units: [{
           denom: 'ibc/1DA7D9853A9D5D9FDF3CF58BEC27D654807BF5F8764EFB7B548D8A86A7FB9DEE',
           exponent: 0,
@@ -3896,7 +3896,7 @@ const assets: AssetList = {
       type_asset: 'cw20',
       address: 'terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar',
       base: 'ibc/1DA7D9853A9D5D9FDF3CF58BEC27D654807BF5F8764EFB7B548D8A86A7FB9DEE',
-      name: 'Capapult',
+      name: 'Capa',
       display: 'capa',
       symbol: 'CAPA',
       logo_URIs: {

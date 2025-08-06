@@ -21888,7 +21888,11 @@ const asset_list: AssetList = {
         }]
     },
     {
-      description: 'The native token of Symphony',
+      description: 'The native coin of Symphony',
+      socials: {
+        website: 'https://orchestralabs.org',
+        twitter: 'https://x.com/orchestra_labs'
+      },
       denom_units: [{
           denom: 'ibc/41AD5D4AFA42104295D08E564ADC7B40FD9DAB4BCD3002ECFA8BDD1309B65F24',
           exponent: 0,
@@ -32018,7 +32022,11 @@ const asset_list: AssetList = {
         }]
     },
     {
-      description: 'The native token of Symphony',
+      description: 'The native coin of Symphony',
+      socials: {
+        website: 'https://orchestralabs.org',
+        twitter: 'https://x.com/orchestra_labs'
+      },
       denom_units: [{
           denom: 'ibc/41AD5D4AFA42104295D08E564ADC7B40FD9DAB4BCD3002ECFA8BDD1309B65F24',
           exponent: 0,
@@ -49506,7 +49514,7 @@ const asset_list: AssetList = {
         }]
     },
     {
-      description: 'SOLID is a Terra native overcollateralized USD stablecoin, powered by SOLID',
+      description: 'SOLID is the Terra native overcollateralized USD stablecoin, powered by SOLID',
       denom_units: [{
           denom: 'ibc/87FAB4A0CE17C2B57830EDCF01C43C806B91AD7D0DCF2282D077C783FEA33C18',
           exponent: 0,
@@ -49547,7 +49555,7 @@ const asset_list: AssetList = {
         }]
     },
     {
-      description: 'CAPA is a governance token of SOLID, powered by SOLID',
+      description: 'CAPA is the governance token of SOLID ecosystem, powered by SOLID',
       denom_units: [{
           denom: 'ibc/395A4E2FC7CD9CB28FEBF5B746269275D01D64DFF9E1919D1498C99EBF74073B',
           exponent: 0,
@@ -49559,7 +49567,7 @@ const asset_list: AssetList = {
       type_asset: 'cw20',
       address: 'terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar',
       base: 'ibc/395A4E2FC7CD9CB28FEBF5B746269275D01D64DFF9E1919D1498C99EBF74073B',
-      name: 'Capapult',
+      name: 'Capa',
       display: 'capa',
       symbol: 'CAPA',
       logo_URIs: {
@@ -58547,7 +58555,7 @@ const asset_list: AssetList = {
         }]
     },
     {
-      description: 'SOLID is a Terra native overcollateralized USD stablecoin, powered by SOLID',
+      description: 'SOLID is the Terra native overcollateralized USD stablecoin, powered by SOLID',
       denom_units: [{
           denom: 'ibc/87FAB4A0CE17C2B57830EDCF01C43C806B91AD7D0DCF2282D077C783FEA33C18',
           exponent: 0,
@@ -58588,7 +58596,7 @@ const asset_list: AssetList = {
         }]
     },
     {
-      description: 'CAPA is a governance token of SOLID, powered by SOLID',
+      description: 'CAPA is the governance token of SOLID ecosystem, powered by SOLID',
       denom_units: [{
           denom: 'ibc/395A4E2FC7CD9CB28FEBF5B746269275D01D64DFF9E1919D1498C99EBF74073B',
           exponent: 0,
@@ -58600,7 +58608,7 @@ const asset_list: AssetList = {
       type_asset: 'cw20',
       address: 'terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar',
       base: 'ibc/395A4E2FC7CD9CB28FEBF5B746269275D01D64DFF9E1919D1498C99EBF74073B',
-      name: 'Capapult',
+      name: 'Capa',
       display: 'capa',
       symbol: 'CAPA',
       logo_URIs: {
