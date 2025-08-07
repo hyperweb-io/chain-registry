@@ -1,6 +1,6 @@
 {
   "name": "@chain-registry/types",
-  "version": "2.0.38",
+  "version": "2.0.39",
   "description": "Chain Registry types",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "homepage": "https://github.com/hyperweb-io/chain-registry",
