@@ -14,9 +14,9 @@ const info: Chain = {
   fees: {
     fee_tokens: [{
         denom: 'atestfet',
-        low_gas_price: 0.025,
-        average_gas_price: 0.025,
-        high_gas_price: 0.035
+        low_gas_price: 1000000000,
+        average_gas_price: 1000000000,
+        high_gas_price: 1000000000
       }]
   },
   staking: {
