@@ -60,6 +60,10 @@ const info: Chain = {
       {
         address: 'https://rpc-main-symphony.vinjan.xyz',
         provider: 'Vinjan.Inc'
+      },
+      {
+        address: 'https://rpc-symphony.sr20de.xyz',
+        provider: 'Sr20de'
       }
     ],
     rest: [
@@ -74,6 +78,10 @@ const info: Chain = {
       {
         address: 'https://api-main-symphony.vinjan.xyz',
         provider: 'Vinjan.Inc'
+      },
+      {
+        address: 'https://api-symphony.sr20de.xyz',
+        provider: 'Sr20de'
       }
     ],
     grpc: [
@@ -88,6 +96,10 @@ const info: Chain = {
       {
         address: 'grpc-main-symphony.vinjan.xyz:21090',
         provider: 'Vinjan.Inc'
+      },
+      {
+        address: 'https://grpc-symphony.sr20de.xyz',
+        provider: 'Sr20de'
       }
     ]
   },
@@ -96,6 +108,11 @@ const info: Chain = {
       url: 'https://xplorer.vinjan.xyz/symphony',
       txPage: 'https://xplorer.vinjan.xyz/symphony/tx/${txHash}',
       accountPage: 'https://xplorer.vinjan.xyz/symphony/account/${accountAddress}'
+    }, {
+      kind: 'Sr20de Explorer',
+      url: 'https://explorer.sr20de.xyz/symphony',
+      txPage: 'https://explorer.sr20de.xyz/symphony/tx/${txHash}',
+      accountPage: 'https://explorer.sr20de.xyz/symphony/account/${accountAddress}'
     }],
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/symphony_logo.png'

@@ -24945,6 +24945,76 @@ const info: AssetList = {
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allUSD.svg'
         }]
+    },
+    {
+      description: 'An alloy of TRUMP asset variants on Osmosis.',
+      extendedDescription: 'Multiple Official Trump variants on Osmosis comprise the liquidity backing of a tokenized transmuter pool to create an alloy of TRUMP.',
+      denomUnits: [{
+          denom: 'factory/osmo1524q4dt7ckx25daydfd0ya0hyu6t26ch5509nvmxm4gcvuhk0fvs8qzl5q/alloyed/allTRUMP',
+          exponent: 0
+        }, {
+          denom: 'allTRUMP',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      address: 'osmo1524q4dt7ckx25daydfd0ya0hyu6t26ch5509nvmxm4gcvuhk0fvs8qzl5q',
+      base: 'factory/osmo1524q4dt7ckx25daydfd0ya0hyu6t26ch5509nvmxm4gcvuhk0fvs8qzl5q/alloyed/allTRUMP',
+      name: 'Osmosis Alloyed TRUMP',
+      display: 'allTRUMP',
+      symbol: 'allTRUMP',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chainName: 'solana',
+            baseDenom: '6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN'
+          },
+          provider: 'Osmosis'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/trump.png'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'solana',
+            baseDenom: '6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/trump.png'
+        }]
+    },
+    {
+      description: 'An alloy of PENGU asset variants on Osmosis.',
+      extendedDescription: 'Multiple Pudgy Penguins variants on Osmosis comprise the liquidity backing of a tokenized transmuter pool to create an alloy of PENGU.',
+      denomUnits: [{
+          denom: 'factory/osmo10nu66efsxxkdgh70xs8xur9mygrg79m5ht7zcmzsrdzxkhz7hpssz9hg9k/alloyed/allPENGU',
+          exponent: 0
+        }, {
+          denom: 'allPENGU',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      address: 'osmo10nu66efsxxkdgh70xs8xur9mygrg79m5ht7zcmzsrdzxkhz7hpssz9hg9k',
+      base: 'factory/osmo10nu66efsxxkdgh70xs8xur9mygrg79m5ht7zcmzsrdzxkhz7hpssz9hg9k/alloyed/allPENGU',
+      name: 'Osmosis Alloyed PENGU',
+      display: 'allPENGU',
+      symbol: 'allPENGU',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chainName: 'solana',
+            baseDenom: '2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv'
+          },
+          provider: 'Osmosis'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pengu.png'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'solana',
+            baseDenom: '2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pengu.png'
+        }]
     }
   ]
 };

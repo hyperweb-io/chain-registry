@@ -17,10 +17,10 @@ const info: Chain = {
     feeTokens: [
       {
         denom: 'uosmo',
-        fixedMinGasPrice: 0.0025,
-        lowGasPrice: 0.0025,
-        averageGasPrice: 0.025,
-        highGasPrice: 0.04
+        fixedMinGasPrice: 0.01,
+        lowGasPrice: 0.01,
+        averageGasPrice: 0.1,
+        highGasPrice: 0.16
       },
       {
         denom: 'factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-native-ICP'
