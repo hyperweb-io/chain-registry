@@ -7,5 +7,6 @@ export * as neuradevnet from './neuradevnet';
 export * as nibirudevnet from './nibirudevnet';
 export * as nibirudevnet2 from './nibirudevnet2';
 export * as nibirudevnet3 from './nibirudevnet3';
+export * as outbedevnet from './outbedevnet';
 export * as prysmdevnet from './prysmdevnet';
 export * as seidevnet3 from './seidevnet3';

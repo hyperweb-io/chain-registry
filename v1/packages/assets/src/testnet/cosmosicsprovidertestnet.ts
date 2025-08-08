@@ -236,6 +236,41 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of outbe-node',
+      denom_units: [{
+          denom: 'ibc/43AD599F4EACD7E21F84B194C329029DA9C4CED6015880386DBA074865CA3D11',
+          exponent: 0,
+          aliases: ['unit']
+        }, {
+          denom: 'coen',
+          exponent: 18
+        }],
+      base: 'ibc/43AD599F4EACD7E21F84B194C329029DA9C4CED6015880386DBA074865CA3D11',
+      name: 'coen',
+      display: 'coen',
+      symbol: 'COEN',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/outbedevnet/images/outbe.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/outbedevnet/images/outbe.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/outbedevnet/images/outbe.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/outbedevnet/images/outbe.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-5',
+            base_denom: 'unit',
+            chain_name: 'outbedevnet'
+          },
+          chain: {
+            channel_id: 'channel-500'
+          }
+        }]
+    },
+    {
       description: 'The native token of XRPL EVM Testnet',
       denom_units: [{
           denom: 'ibc/68D1062C8B0F11B913FD9285553A7529C3C26D0C49FB64D135E255D9742F6A01',
@@ -403,6 +438,41 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-374'
+          }
+        }]
+    },
+    {
+      description: 'The native token of outbe-node',
+      denom_units: [{
+          denom: 'ibc/43AD599F4EACD7E21F84B194C329029DA9C4CED6015880386DBA074865CA3D11',
+          exponent: 0,
+          aliases: ['unit']
+        }, {
+          denom: 'coen',
+          exponent: 18
+        }],
+      base: 'ibc/43AD599F4EACD7E21F84B194C329029DA9C4CED6015880386DBA074865CA3D11',
+      name: 'coen',
+      display: 'coen',
+      symbol: 'COEN',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/outbedevnet/images/outbe.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/outbedevnet/images/outbe.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/outbedevnet/images/outbe.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/outbedevnet/images/outbe.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-5',
+            base_denom: 'unit',
+            chain_name: 'outbedevnet'
+          },
+          chain: {
+            channel_id: 'channel-500'
           }
         }]
     }
