@@ -104,6 +104,10 @@ const info: Chain = {
       {
         address: 'https://rpc1.airchains.t.cosmostaking.com/',
         provider: 'Cosmostaking'
+      },
+      {
+        address: 'https://airchains-testnet-rpc.cosmonautstakes.com/',
+        provider: 'Cosmonaut Stakes'
       }
     ],
     rest: [

@@ -17348,8 +17348,7 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg',
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png'
       },
-      images: [
-        {
+      images: [{
           imageSync: {
             chainName: 'ethereum',
             baseDenom: '0xdac17f958d2ee523a2206206994597c13d831ec7'
@@ -17361,8 +17360,7 @@ const info: AssetList = {
             primaryColorHex: '#009393',
             backgroundColorHex: '#009393'
           }
-        },
-        {
+        }, {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt_logomark.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt_logomark.svg',
           theme: {
@@ -17370,11 +17368,7 @@ const info: AssetList = {
             primaryColorHex: '#50AF95',
             backgroundColorHex: '#00000000'
           }
-        },
-        {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allUSDT.svg'
-        }
-      ],
+        }],
       keywords: ['osmosis_unlisted']
     },
     {
@@ -17497,8 +17491,6 @@ const info: AssetList = {
             backgroundColorHex: '#f4941c',
             circle: true
           }
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allBTC.svg'
         }]
     },
     {
@@ -18135,9 +18127,6 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#303030'
           }
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allETH.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allETH.png'
         }]
     },
     {
@@ -18168,8 +18157,7 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg',
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png'
       },
-      images: [
-        {
+      images: [{
           imageSync: {
             chainName: 'solana',
             baseDenom: 'Lamport'
@@ -18180,31 +18168,13 @@ const info: AssetList = {
             circle: true,
             backgroundColorHex: '#000000'
           }
-        },
-        {
+        }, {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg',
           theme: {
             circle: false,
             backgroundColorHex: '#00000000'
           }
-        },
-        {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allSOL_circle.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allSOL_circle.png',
-          theme: {
-            circle: false,
-            backgroundColorHex: '#00000000'
-          }
-        },
-        {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allSOL.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allSOL.png',
-          theme: {
-            circle: false,
-            backgroundColorHex: '#00000000'
-          }
-        }
-      ]
+        }]
     },
     {
       description: 'Lava Network is a modular data network designed to provide fast, reliable, and scalable access to blockchain data for developers and users.',
@@ -18536,14 +18506,6 @@ const info: AssetList = {
             primaryColorHex: '#FF060A',
             backgroundColorHex: '#FF060A'
           }
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allTRX.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allTRX.png',
-          theme: {
-            circle: true,
-            primaryColorHex: '#FF060A',
-            backgroundColorHex: '#FF060A'
-          }
         }]
     },
     {
@@ -18623,12 +18585,6 @@ const info: AssetList = {
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/optimism/images/op.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/optimism/images/op.png',
-          theme: {
-            primaryColorHex: '#fc0424'
-          }
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allOP.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allOP.png',
           theme: {
             primaryColorHex: '#fc0424'
           }
@@ -18719,13 +18675,6 @@ const info: AssetList = {
             primaryColorHex: '#FFA409',
             backgroundColorHex: '#00000000'
           }
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allSHIB.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allSHIB.png',
-          theme: {
-            circle: true,
-            primaryColorHex: '#FFA409'
-          }
         }]
     },
     {
@@ -18764,12 +18713,6 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.svg',
           theme: {
             primaryColorHex: '#253545'
-          }
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allARB.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allARB.png',
-          theme: {
-            primaryColorHex: '#9DCCED'
           }
         }]
     },
@@ -18810,13 +18753,6 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#2c5cdc'
           }
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allLINK.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allLINK.png',
-          theme: {
-            circle: true,
-            primaryColorHex: '#2A5ADA'
-          }
         }]
     },
     {
@@ -18856,12 +18792,6 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#cc3233'
           }
-        }, {
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allPEPE.png',
-          theme: {
-            circle: true,
-            primaryColorHex: '#549C44'
-          }
         }]
     },
     {
@@ -18900,13 +18830,6 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg',
           theme: {
             primaryColorHex: '#e4047c'
-          }
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDOT.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDOT.png',
-          theme: {
-            circle: true,
-            primaryColorHex: '#E6007A'
           }
         }]
     },
@@ -19401,12 +19324,6 @@ const info: AssetList = {
             circle: true,
             primaryColorHex: '#0088CC',
             backgroundColorHex: '#0088CC'
-          }
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allTON.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allTON.png',
-          theme: {
-            primaryColorHex: '#0088CC'
           }
         }]
     },
@@ -21611,9 +21528,6 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#0493fc'
           }
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allFIL.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allFIL.png'
         }]
     },
     {
@@ -22643,29 +22557,18 @@ const info: AssetList = {
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/aptos/images/aptos.svg'
       },
-      images: [
-        {
+      images: [{
           imageSync: {
             chainName: 'aptos',
             baseDenom: '0x1::aptos_coin::AptosCoin'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/aptos/images/aptos.svg'
-        },
-        {
+        }, {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/aptos/images/apt-dm.svg',
           theme: {
             darkMode: true
           }
-        },
-        {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allAPT.svg',
-          theme: {
-            circle: true,
-            darkMode: true,
-            primaryColorHex: '#ffffff'
-          }
-        }
-      ]
+        }]
     },
     {
       description: 'An alloy of BNB asset variants on Osmosis.',
@@ -22703,13 +22606,6 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/bnb.svg',
           theme: {
             primaryColorHex: '#f3bb0c'
-          }
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allBNB.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allBNB.png',
-          theme: {
-            circle: true,
-            primaryColorHex: '#f0b90b'
           }
         }]
     },
@@ -23161,12 +23057,6 @@ const info: AssetList = {
           theme: {
             primaryColorHex: '#f4e4d4'
           }
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDYM.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDYM.png',
-          theme: {
-            primaryColorHex: '#f4e4d4'
-          }
         }]
     },
     {
@@ -23204,12 +23094,6 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg',
-          theme: {
-            primaryColorHex: '#8444e4'
-          }
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allPOL.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allPOL.png',
           theme: {
             primaryColorHex: '#8444e4'
           }
@@ -23385,12 +23269,6 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/movement/images/move.png',
           theme: {
             circle: true,
-            primaryColorHex: '#F1BB15'
-          }
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allMOVE.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allMOVE.png',
-          theme: {
             primaryColorHex: '#F1BB15'
           }
         }],
@@ -24940,10 +24818,10 @@ const info: AssetList = {
           provider: 'Osmosis'
         }],
       logoURIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allUSD.svg'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usd.svg'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allUSD.svg'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usd.svg'
         }]
     },
     {
