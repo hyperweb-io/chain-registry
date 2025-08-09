@@ -28,10 +28,7 @@ const info: AssetList = {
       coingeckoId: 'onomy-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.svg',
-          theme: {
-            primaryColorHex: '#1c1c28'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

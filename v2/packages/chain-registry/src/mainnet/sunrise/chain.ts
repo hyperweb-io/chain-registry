@@ -90,10 +90,7 @@ const info: Chain = {
     }],
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg',
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.png',
-      theme: {
-        primaryColorHex: '#ecbc64'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.png'
     }]
 };
 export default info;

@@ -215,10 +215,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.svg',
-      theme: {
-        primaryColorHex: '#040404'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.svg'
     }]
 };
 export default info;

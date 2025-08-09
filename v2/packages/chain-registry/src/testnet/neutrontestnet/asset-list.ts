@@ -75,8 +75,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena_dao.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena_dao.svg',
           theme: {
-            circle: true,
-            primaryColorHex: '#FF8000'
+            circle: true
           }
         }],
       description: 'The governance token of the Arena DAO on Neutron testnet',

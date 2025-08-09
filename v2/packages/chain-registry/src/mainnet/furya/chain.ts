@@ -61,10 +61,7 @@ const info: Chain = {
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/chain.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/chain.svg',
-      theme: {
-        primaryColorHex: '#040404'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/chain.svg'
     }]
 };
 export default info;

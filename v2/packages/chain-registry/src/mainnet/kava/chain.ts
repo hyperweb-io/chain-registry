@@ -211,10 +211,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg',
-      theme: {
-        primaryColorHex: '#e64942'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg'
     }]
 };
 export default info;

@@ -375,10 +375,7 @@ const info: Chain = {
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kujira-chain-logo.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg',
-      theme: {
-        primaryColorHex: '#e33b34'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg'
     }]
 };
 export default info;

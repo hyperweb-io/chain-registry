@@ -56,10 +56,7 @@ const info: Chain = {
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/chain.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/chain.svg',
-      theme: {
-        primaryColorHex: '#fc641c'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/chain.svg'
     }],
   apis: {
     rpc: [

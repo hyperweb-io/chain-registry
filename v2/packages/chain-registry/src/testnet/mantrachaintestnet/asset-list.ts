@@ -39,8 +39,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg',
           theme: {
-            circle: true,
-            primaryColorHex: '#fba0c1'
+            circle: true
           }
         }],
       typeAsset: 'sdk.coin',

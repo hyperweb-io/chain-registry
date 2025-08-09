@@ -27,10 +27,7 @@ const info: AssetList = {
       ],
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ununifi/images/ununifi.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ununifi/images/ununifi.svg',
-          theme: {
-            primaryColorHex: '#546c8c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ununifi/images/ununifi.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

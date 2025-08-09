@@ -103,10 +103,7 @@ const info: AssetList = {
         }],
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg',
-          theme: {
-            primaryColorHex: '#335350'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg'
         }],
       socials: {
         website: 'https://www.kyve.network/',
@@ -147,10 +144,7 @@ const info: AssetList = {
             baseDenom: 'uusdc'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg',
-          theme: {
-            primaryColorHex: '#2474cc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg'
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png',
@@ -191,10 +185,7 @@ const info: AssetList = {
             baseDenom: 'uaxl'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg',
-          theme: {
-            primaryColorHex: '#040404'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
@@ -233,10 +224,7 @@ const info: AssetList = {
             chainName: 'axelar',
             baseDenom: 'weth-wei'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png',
-          theme: {
-            primaryColorHex: '#3a3444'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png'
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png'
@@ -322,10 +310,7 @@ const info: AssetList = {
             baseDenom: '0x912CE59144191C1204E64559FE8253a0e49E6548'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.svg',
-          theme: {
-            primaryColorHex: '#253545'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.svg'
         }],
       typeAsset: 'ics20'
     },
@@ -364,8 +349,7 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
           theme: {
-            circle: true,
-            primaryColorHex: '#2775CA'
+            circle: true
           }
         }],
       logoURIs: {

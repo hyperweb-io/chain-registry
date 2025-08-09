@@ -390,10 +390,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.svg',
-      theme: {
-        primaryColorHex: '#a5edf2'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.svg'
     }]
 };
 export default info;

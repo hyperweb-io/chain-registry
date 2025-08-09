@@ -26,10 +26,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/islm.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/islm.svg',
-          theme: {
-            primaryColorHex: '#04cd80'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/islm.svg'
         }],
       typeAsset: 'sdk.coin'
     }, {
@@ -68,7 +65,6 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.svg',
           theme: {
-            primaryColorHex: '#ffbc05',
             circle: true
           }
         }]

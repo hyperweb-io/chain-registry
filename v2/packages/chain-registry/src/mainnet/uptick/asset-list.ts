@@ -21,10 +21,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/uptick/images/uptick.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/uptick/images/uptick.svg',
-          theme: {
-            primaryColorHex: '#1f182f'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/uptick/images/uptick.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

@@ -30,10 +30,7 @@ const info: AssetList = {
       coingeckoId: 'stratos',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stratos/images/stratos.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stratos/images/stratos.svg',
-          theme: {
-            primaryColorHex: '#04847c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stratos/images/stratos.svg'
         }],
       socials: {
         website: 'https://www.thestratos.org/',

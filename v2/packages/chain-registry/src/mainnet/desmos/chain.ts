@@ -187,10 +187,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.svg',
-      theme: {
-        primaryColorHex: '#fb804e'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.svg'
     }]
 };
 export default info;

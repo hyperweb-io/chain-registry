@@ -60,10 +60,7 @@ const info: Chain = {
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.svg',
-      theme: {
-        primaryColorHex: '#2279c0'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.svg'
     }],
   apis: {
     rpc: [{

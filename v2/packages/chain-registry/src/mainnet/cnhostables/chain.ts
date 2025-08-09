@@ -79,10 +79,7 @@ const info: Chain = {
   keywords: ['CNHO'],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cnhostables/images/chain.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cnhostables/images/chain.svg',
-      theme: {
-        primaryColorHex: '#708ffc'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cnhostables/images/chain.svg'
     }]
 };
 export default info;

@@ -40,10 +40,7 @@ const info: AssetList = {
             baseDenom: 'aarch'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.svg',
-          theme: {
-            primaryColorHex: '#fc4c04'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.svg'
         }],
       socials: {
         website: 'https://archway.io/',
@@ -84,10 +81,7 @@ const info: AssetList = {
             baseDenom: 'cw20:archway1msc3fa4e2mh73y760qmjd3wfkzr98nl26f36xgt2xnhuw6ay3scs42zeue'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/wArch.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/wArch.svg',
-          theme: {
-            primaryColorHex: '#000000'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/wArch.svg'
         }]
     }]
 };

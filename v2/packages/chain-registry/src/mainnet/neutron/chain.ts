@@ -278,8 +278,6 @@ const info: Chain = {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron-raw.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron-raw.svg',
       theme: {
-        primaryColorHex: '#000000',
-        backgroundColorHex: '#00000000',
         circle: false
       }
     },
@@ -287,8 +285,6 @@ const info: Chain = {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg',
       theme: {
-        primaryColorHex: '#040404',
-        backgroundColorHex: '#000000',
         circle: true
       }
     },

@@ -330,10 +330,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.svg',
-      theme: {
-        primaryColorHex: '#d4f3fb'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.svg'
     }]
 };
 export default info;

@@ -197,10 +197,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.svg',
-      theme: {
-        primaryColorHex: '#f36353'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.svg'
     }]
 };
 export default info;

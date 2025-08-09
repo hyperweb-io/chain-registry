@@ -69,10 +69,7 @@ const info: Chain = {
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg',
-      theme: {
-        primaryColorHex: '#5c64b4'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
     }]
 };
 export default info;

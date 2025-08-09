@@ -289,10 +289,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg',
-      theme: {
-        primaryColorHex: '#04a2fc'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
     }]
 };
 export default info;

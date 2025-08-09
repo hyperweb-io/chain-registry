@@ -73,10 +73,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/loyal/images/lyl.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/loyal/images/lyl.svg',
-      theme: {
-        primaryColorHex: '#5445fb'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/loyal/images/lyl.svg'
     }]
 };
 export default info;

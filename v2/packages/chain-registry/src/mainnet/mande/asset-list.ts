@@ -20,10 +20,7 @@ const info: AssetList = {
       coingeckoId: 'mande-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.svg',
-          theme: {
-            primaryColorHex: '#274cbf'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.svg'
         }],
       socials: {
         website: 'https://mande.network/',

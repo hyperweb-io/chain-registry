@@ -16,10 +16,7 @@ const info: AssetList = {
       display: 'bcp',
       symbol: 'BCP',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bluechip/images/bluechip.png',
-          theme: {
-            primaryColorHex: '#0c94d3'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bluechip/images/bluechip.png'
         }],
       typeAsset: 'sdk.coin'
     }]

@@ -204,10 +204,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg',
-      theme: {
-        primaryColorHex: '#bc342c'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
     }]
 };
 export default info;

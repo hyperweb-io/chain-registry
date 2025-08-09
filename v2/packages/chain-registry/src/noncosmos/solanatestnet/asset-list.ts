@@ -34,14 +34,12 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png',
           theme: {
-            circle: true,
-            backgroundColorHex: '#000000'
+            circle: true
           }
         }, {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg',
           theme: {
-            circle: false,
-            backgroundColorHex: '#00000000'
+            circle: false
           }
         }]
     },
@@ -80,8 +78,7 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png',
           theme: {
-            circle: true,
-            backgroundColorHex: '#000000'
+            circle: true
           }
         }]
     },

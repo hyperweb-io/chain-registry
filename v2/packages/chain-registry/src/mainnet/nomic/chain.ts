@@ -100,10 +100,7 @@ const info: Chain = {
         baseDenom: 'unom'
       },
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.svg',
-      theme: {
-        primaryColorHex: '#6404fc'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.svg'
     }],
   bech32Config: {
     bech32PrefixAccAddr: 'nomic',

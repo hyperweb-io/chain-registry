@@ -24,8 +24,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg',
           theme: {
-            darkMode: true,
-            primaryColorHex: '#f3f3f3'
+            darkMode: true
           }
         }],
       socials: {

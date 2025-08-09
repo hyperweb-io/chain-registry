@@ -30,10 +30,7 @@ const info: Chain = {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/althea/images/althea.png'
   },
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/althea/images/althea.png',
-      theme: {
-        primaryColorHex: '#0474dc'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/althea/images/althea.png'
     }, {
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/althea/images/althea.svg'
     }],

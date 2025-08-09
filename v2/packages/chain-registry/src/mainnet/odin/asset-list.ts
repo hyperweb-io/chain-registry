@@ -50,10 +50,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.svg',
-          theme: {
-            primaryColorHex: '#c3ebf3'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -75,10 +72,7 @@ const info: AssetList = {
       },
       coingeckoId: 'doki',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png',
-          theme: {
-            primaryColorHex: '#2e2d2a'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png'
         }],
       socials: {
         website: 'https://dokicoin.io/',
@@ -103,10 +97,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/MYRK_Logo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/MYRK_Logo.png',
-          theme: {
-            primaryColorHex: '#0a0707'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/MYRK_Logo.png'
         }],
       socials: {
         twitter: 'https://twitter.com/myrkweilds'
@@ -132,10 +123,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.svg',
-          theme: {
-            primaryColorHex: '#040404'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.svg'
         }],
       socials: {
         website: 'https://www.odin9worlds.io/',

@@ -19,10 +19,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/loop/images/loop.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/loop/images/loop.svg',
-          theme: {
-            primaryColorHex: '#4991ee'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/loop/images/loop.svg'
         }],
       socials: {
         website: 'https://www.loop.fans/',
@@ -47,10 +44,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/loop/images/poa.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/loop/images/poa.svg',
-          theme: {
-            primaryColorHex: '#bdaf88'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/loop/images/poa.svg'
         }],
       keywords: ['poa']
     }]

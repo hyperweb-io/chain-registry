@@ -22,10 +22,7 @@ const info: AssetList = {
       coingeckoId: 'fetch-ai',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg',
-          theme: {
-            primaryColorHex: '#1c2444'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg'
         }, {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet_white.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet_white.png',
@@ -59,10 +56,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/mobx.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/mobx.svg',
-          theme: {
-            primaryColorHex: '#04ae9b'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/mobx.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

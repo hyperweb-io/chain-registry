@@ -29,9 +29,7 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/rootstock/images/rbtc.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/rootstock/images/rbtc.png',
           theme: {
-            circle: false,
-            primaryColorHex: '#FF9931',
-            backgroundColorHex: '#00000000'
+            circle: false
           }
         }],
       coingeckoId: 'rootstock',
@@ -70,9 +68,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/rootstock/images/rbtc.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/rootstock/images/rbtc.svg',
           theme: {
-            circle: false,
-            primaryColorHex: '#FF9931',
-            backgroundColorHex: '#00000000'
+            circle: false
           }
         }]
     }]

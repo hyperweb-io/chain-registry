@@ -53,10 +53,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -87,10 +84,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.svg'
         }],
       typeAsset: 'sdk.coin'
     }

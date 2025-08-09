@@ -26,10 +26,7 @@ const info: AssetList = {
       coingeckoId: 'moonbeam',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg',
-          theme: {
-            primaryColorHex: '#e4147c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg'
         }]
     },
     {
@@ -67,10 +64,7 @@ const info: AssetList = {
             baseDenom: 'Wei'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.png',
-          theme: {
-            primaryColorHex: '#e4147c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.png'
         }]
     },
     {
@@ -107,10 +101,7 @@ const info: AssetList = {
             baseDenom: 'Planck'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg',
-          theme: {
-            primaryColorHex: '#e4047c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg'
         }]
     },
     {
@@ -246,9 +237,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg',
           theme: {
-            circle: true,
-            primaryColorHex: '#009393',
-            backgroundColorHex: '#009393'
+            circle: true
           }
         }]
     }

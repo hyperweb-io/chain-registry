@@ -21,10 +21,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/dhealthtestnet/images/dhp.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/dhealthtestnet/images/dhp.svg',
-          theme: {
-            primaryColorHex: '#140c7c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/dhealthtestnet/images/dhp.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

@@ -24,10 +24,7 @@ const info: AssetList = {
       coingeckoId: 'stride',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg',
-          theme: {
-            primaryColorHex: '#e4047c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg'
         }],
       socials: {
         website: 'https://stride.zone/',
@@ -62,10 +59,7 @@ const info: AssetList = {
       coingeckoId: 'stride-staked-atom',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -96,10 +90,7 @@ const info: AssetList = {
       coingeckoId: 'stride-staked-stars',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -130,10 +121,7 @@ const info: AssetList = {
       coingeckoId: 'stride-staked-osmo',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -164,10 +152,7 @@ const info: AssetList = {
       coingeckoId: 'stride-staked-juno',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -197,10 +182,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -230,10 +212,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -263,10 +242,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -297,10 +273,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -331,10 +304,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -365,10 +335,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdym.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdym.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdym.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -399,10 +366,7 @@ const info: AssetList = {
       coingeckoId: 'stride-staked-umee',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stumee.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stumee.svg',
-          theme: {
-            primaryColorHex: '#fbd9e9'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stumee.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -432,10 +396,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stcmdx.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stcmdx.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stcmdx.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -466,10 +427,7 @@ const info: AssetList = {
       coingeckoId: 'stride-staked-sommelier',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -500,10 +458,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsaga.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsaga.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsaga.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -544,10 +499,7 @@ const info: AssetList = {
             baseDenom: 'utia'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg',
-          theme: {
-            primaryColorHex: '#7c2cfb'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg'
         }],
       coingeckoId: 'celestia'
     },
@@ -578,10 +530,7 @@ const info: AssetList = {
       coingeckoId: 'stride-staked-islm',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stislm.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stislm.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stislm.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -611,10 +560,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stband.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stband.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stband.svg'
         }],
       typeAsset: 'sdk.coin'
     }

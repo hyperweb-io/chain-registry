@@ -30,9 +30,7 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/ton.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/ton.png',
           theme: {
-            circle: true,
-            primaryColorHex: '#0088CC',
-            backgroundColorHex: '#0088CC'
+            circle: true
           }
         }],
       socials: {

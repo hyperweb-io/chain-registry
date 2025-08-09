@@ -279,10 +279,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/chain.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/chain.svg',
-      theme: {
-        primaryColorHex: '#44c5f1'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/chain.svg'
     }]
 };
 export default info;

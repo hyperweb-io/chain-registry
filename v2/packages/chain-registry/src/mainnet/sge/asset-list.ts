@@ -25,8 +25,6 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.svg',
           theme: {
-            primaryColorHex: '#C0A15B',
-            backgroundColorHex: '#00000000',
             circle: false
           }
         }],

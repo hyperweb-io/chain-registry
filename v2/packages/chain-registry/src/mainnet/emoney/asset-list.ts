@@ -23,10 +23,7 @@ const info: AssetList = {
       coingeckoId: 'e-money',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.svg',
-          theme: {
-            primaryColorHex: '#caf2ea'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -50,10 +47,7 @@ const info: AssetList = {
       coingeckoId: 'e-money-eur',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.svg',
-          theme: {
-            primaryColorHex: '#f4c808'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -76,10 +70,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.svg',
-          theme: {
-            primaryColorHex: '#db2b1c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -102,10 +93,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.svg',
-          theme: {
-            primaryColorHex: '#cb142d'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -128,10 +116,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.svg',
-          theme: {
-            primaryColorHex: '#ac0c34'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -154,10 +139,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.svg',
-          theme: {
-            primaryColorHex: '#045493'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.svg'
         }],
       typeAsset: 'sdk.coin'
     }

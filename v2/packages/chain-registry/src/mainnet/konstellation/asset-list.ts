@@ -22,10 +22,7 @@ const info: AssetList = {
       coingeckoId: 'darcmatter-coin',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.svg',
-          theme: {
-            primaryColorHex: '#042a61'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

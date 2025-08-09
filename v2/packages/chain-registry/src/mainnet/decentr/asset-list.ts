@@ -22,10 +22,7 @@ const info: AssetList = {
       coingeckoId: 'decentr',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg',
-          theme: {
-            primaryColorHex: '#4678e9'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

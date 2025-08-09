@@ -18,8 +18,7 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/berachain/images/bera.png',
           theme: {
-            circle: true,
-            primaryColorHex: '#7c340c'
+            circle: true
           }
         }],
       coingeckoId: 'berachain-bera',

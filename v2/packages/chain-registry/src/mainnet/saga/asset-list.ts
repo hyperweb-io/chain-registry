@@ -25,14 +25,12 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.svg',
           theme: {
-            primaryColorHex: '#000000',
             darkMode: false
           }
         }, {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga_white.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga_white.svg',
           theme: {
-            primaryColorHex: '#FFFFFF',
             darkMode: true
           }
         }],

@@ -233,10 +233,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg',
-      theme: {
-        primaryColorHex: '#f4de6f'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg'
     }]
 };
 export default info;

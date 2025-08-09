@@ -24,8 +24,7 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/movement/images/move.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/movement/images/move.png',
           theme: {
-            circle: true,
-            primaryColorHex: '#F1BB15'
+            circle: true
           }
         }],
       socials: {

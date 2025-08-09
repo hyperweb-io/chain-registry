@@ -27,10 +27,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg',
-          theme: {
-            primaryColorHex: '#140c7c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg'
         }, {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp-circle.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp-circle.png',

@@ -55,10 +55,7 @@ const info: Chain = {
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chimba/images/chimba-blue.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chimba/images/chimba-blue.svg',
-      theme: {
-        primaryColorHex: '#5454a4'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chimba/images/chimba-blue.svg'
     }]
 };
 export default info;

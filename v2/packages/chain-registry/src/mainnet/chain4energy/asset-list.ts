@@ -21,10 +21,7 @@ const info: AssetList = {
       },
       coingeckoId: 'chain4energy',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png',
-          theme: {
-            primaryColorHex: '#24344c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png'
         }],
       socials: {
         website: 'https://c4e.io/',

@@ -23,10 +23,7 @@ const info: AssetList = {
       coingeckoId: 'agoric',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.svg',
-          theme: {
-            primaryColorHex: '#c42b44'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.svg'
         }],
       socials: {
         website: 'https://agoric.com/',
@@ -53,10 +50,7 @@ const info: AssetList = {
       coingeckoId: 'inter-stable-token',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg',
-          theme: {
-            primaryColorHex: '#d485e2'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

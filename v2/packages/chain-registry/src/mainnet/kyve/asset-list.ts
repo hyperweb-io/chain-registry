@@ -22,10 +22,7 @@ const info: AssetList = {
       coingeckoId: 'kyve-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg',
-          theme: {
-            primaryColorHex: '#335350'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg'
         }],
       socials: {
         website: 'https://www.kyve.network/',

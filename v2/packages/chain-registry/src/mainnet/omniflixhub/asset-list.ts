@@ -24,10 +24,7 @@ const info: AssetList = {
       coingeckoId: 'omniflix-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg',
-          theme: {
-            primaryColorHex: '#c33635'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
         }],
       socials: {
         website: 'https://omniflix.network/',
@@ -67,10 +64,7 @@ const info: AssetList = {
             baseDenom: 'uatom'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg',
-          theme: {
-            primaryColorHex: '#272d45'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
@@ -110,10 +104,7 @@ const info: AssetList = {
             baseDenom: 'uosmo'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg',
-          theme: {
-            primaryColorHex: '#760dbb'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
@@ -153,10 +144,7 @@ const info: AssetList = {
             baseDenom: 'uist'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg',
-          theme: {
-            primaryColorHex: '#d485e2'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg'
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png',
@@ -196,10 +184,7 @@ const info: AssetList = {
             baseDenom: 'uusdc'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg',
-          theme: {
-            primaryColorHex: '#2474cc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg'
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png',
@@ -244,10 +229,7 @@ const info: AssetList = {
             baseDenom: 'uakt'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg',
-          theme: {
-            primaryColorHex: '#bc342c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
         }],
       coingeckoId: 'akash-network'
     },
@@ -283,16 +265,11 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png',
           theme: {
-            primaryColorHex: '#F7E3C0',
-            backgroundColorHex: '#F7E3C0',
             circle: true
           }
         }, {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.svg',
-          theme: {
-            primaryColorHex: '#eedebe'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.svg'
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png'
@@ -318,10 +295,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.svg',
-          theme: {
-            primaryColorHex: '#7b5aff'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.svg'
         }],
       coingeckoId: 'yield-gata',
       socials: {
@@ -368,10 +342,7 @@ const info: AssetList = {
             baseDenom: 'uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg',
-          theme: {
-            primaryColorHex: '#a50dda'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ccd.svg'
         }],
       socials: {
         website: 'https://coreumcommunitydao.com/',

@@ -24,10 +24,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg',
-          theme: {
-            primaryColorHex: '#760dbb'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg'
         }],
       keywords: ['liquid staking', 'restaking'],
       socials: {
@@ -72,10 +69,7 @@ const info: AssetList = {
             baseDenom: 'utia'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg',
-          theme: {
-            primaryColorHex: '#7c2cfb'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg'
         }],
       coingeckoId: 'celestia'
     },
@@ -127,10 +121,7 @@ const info: AssetList = {
             baseDenom: 'utia'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg',
-          theme: {
-            primaryColorHex: '#7c2cfb'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg'
         }],
       coingeckoId: 'celestia'
     },
@@ -174,10 +165,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milktia.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milktia.svg',
-          theme: {
-            primaryColorHex: '#d18dfc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milktia.svg'
         }],
       coingeckoId: 'milkyway-staked-tia'
     },
@@ -240,10 +228,7 @@ const info: AssetList = {
             baseDenom: 'stutia'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg',
-          theme: {
-            primaryColorHex: '#e40474'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg'
         }]
     },
     {
@@ -375,8 +360,7 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
           theme: {
-            circle: true,
-            primaryColorHex: '#2775CA'
+            circle: true
           }
         }],
       coingeckoId: 'usd-coin'
@@ -410,10 +394,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.svg',
-          theme: {
-            primaryColorHex: '#d18dfc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkbaby.svg'
         }]
     }
   ]

@@ -56,10 +56,7 @@ const info: Chain = {
   keywords: [],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.svg',
-      theme: {
-        primaryColorHex: '#e8692b'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.svg'
     }]
 };
 export default info;

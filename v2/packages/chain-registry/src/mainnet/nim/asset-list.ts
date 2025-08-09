@@ -20,10 +20,7 @@ const info: AssetList = {
       coingeckoId: 'nim-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.svg',
-          theme: {
-            primaryColorHex: '#519cea'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.svg'
         }],
       socials: {
         website: 'https://ai.nim.network/',

@@ -21,10 +21,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/imversed/images/imversed.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/imversed/images/imversed.svg',
-          theme: {
-            primaryColorHex: '#4c54e4'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/imversed/images/imversed.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

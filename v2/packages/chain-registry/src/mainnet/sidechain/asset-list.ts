@@ -22,10 +22,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.svg',
-          theme: {
-            primaryColorHex: '#f7771a'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.svg'
         }],
       socials: {
         website: 'https://side.one',
@@ -57,10 +54,7 @@ const info: AssetList = {
         }],
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/sBTC.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/sBTC.png',
-          theme: {
-            primaryColorHex: '#f7771a'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/sBTC.png'
         }],
       socials: {
         website: 'https://side.one',
@@ -102,8 +96,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           theme: {
-            circle: true,
-            primaryColorHex: '#2775CA'
+            circle: true
           }
         }],
       logoURIs: {

@@ -141,8 +141,7 @@ const info: Chain = {
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.svg',
       theme: {
         darkMode: false,
-        circle: true,
-        primaryColorHex: '#151525'
+        circle: true
       }
     },
     {
@@ -150,15 +149,11 @@ const info: Chain = {
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_dark.svg',
       theme: {
         darkMode: true,
-        circle: true,
-        primaryColorHex: '#141424'
+        circle: true
       }
     },
     {
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.png',
-      theme: {
-        primaryColorHex: '#151525'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.png'
     }
   ]
 };

@@ -19,10 +19,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nyx.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nyx.png',
-          theme: {
-            primaryColorHex: '#f45135'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nyx.png'
         }],
       typeAsset: 'sdk.coin'
     }, {
@@ -48,16 +45,14 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.svg',
           theme: {
             darkMode: false,
-            circle: true,
-            primaryColorHex: '#151525'
+            circle: true
           }
         }, {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_dark.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_dark.svg',
           theme: {
             darkMode: true,
-            circle: true,
-            primaryColorHex: '#141424'
+            circle: true
           }
         }],
       typeAsset: 'sdk.coin'

@@ -41,8 +41,7 @@ const info: Chain = {
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkeo/images/arkeo.svg',
       theme: {
-        circle: true,
-        primaryColorHex: '#3BE0FF'
+        circle: true
       }
     }],
   apis: {

@@ -56,10 +56,7 @@ const info: Chain = {
     }
   },
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
-      theme: {
-        primaryColorHex: '#25d695'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png'
     }],
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png'

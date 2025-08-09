@@ -80,10 +80,7 @@ const info: Chain = {
       accountPage: 'https://ticsscan.com/address/${accountAddress}'
     }],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qubetics/images/qubetics.png',
-      theme: {
-        primaryColorHex: '#046ffc'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qubetics/images/qubetics.png'
     }]
 };
 export default info;

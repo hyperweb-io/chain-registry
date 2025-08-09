@@ -64,10 +64,7 @@ const info: Chain = {
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.svg',
-      theme: {
-        primaryColorHex: '#6358D7'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.svg'
     }]
 };
 export default info;

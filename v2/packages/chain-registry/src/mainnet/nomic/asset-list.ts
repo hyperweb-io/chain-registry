@@ -21,10 +21,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.svg',
-          theme: {
-            primaryColorHex: '#6404fc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.svg'
         }],
       typeAsset: 'sdk.coin'
     }, {
@@ -54,10 +51,7 @@ const info: AssetList = {
         }],
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.svg',
-          theme: {
-            primaryColorHex: '#8436e6'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

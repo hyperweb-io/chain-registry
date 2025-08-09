@@ -23,10 +23,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg',
-          theme: {
-            primaryColorHex: '#042ca4'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg'
         }],
       socials: {
         website: 'https://www.gravitybridge.net/',
@@ -72,10 +69,7 @@ const info: AssetList = {
             baseDenom: '0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg',
-          theme: {
-            primaryColorHex: '#050505'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -159,8 +153,7 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
           theme: {
-            circle: true,
-            primaryColorHex: '#2775CA'
+            circle: true
           }
         }],
       typeAsset: 'sdk.coin'
@@ -205,9 +198,7 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
           theme: {
-            circle: true,
-            primaryColorHex: '#009393',
-            backgroundColorHex: '#009393'
+            circle: true
           }
         }],
       typeAsset: 'sdk.coin'
@@ -250,10 +241,7 @@ const info: AssetList = {
             baseDenom: '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg',
-          theme: {
-            primaryColorHex: '#f39444'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -328,10 +316,7 @@ const info: AssetList = {
             baseDenom: '0x83F20F44975D03b1b09e64809B757c47f942BEeA'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.svg',
-          theme: {
-            primaryColorHex: '#7ec231'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -364,10 +349,7 @@ const info: AssetList = {
             chainName: 'ethereum',
             baseDenom: '0x2F109021aFe75B949429fe30523Ee7C0D5B27207'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/occamfi.png',
-          theme: {
-            primaryColorHex: '#313648'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/occamfi.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -402,10 +384,7 @@ const info: AssetList = {
             baseDenom: '0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg',
-          theme: {
-            primaryColorHex: '#ebb324'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -440,10 +419,7 @@ const info: AssetList = {
             baseDenom: '0x45804880De22913dAFE09f4980848ECE6EcbAf78'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg',
-          theme: {
-            primaryColorHex: '#ebe60e'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg'
         }],
       typeAsset: 'sdk.coin'
     }

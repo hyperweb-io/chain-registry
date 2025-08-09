@@ -24,10 +24,7 @@ const info: AssetList = {
       coingeckoId: 'planq',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.svg',
-          theme: {
-            primaryColorHex: '#d4f3fb'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.svg'
         }],
       socials: {
         website: 'https://planq.network',
@@ -65,10 +62,7 @@ const info: AssetList = {
             chainName: 'binancesmartchain',
             baseDenom: '0x454b90716a9435e7161a9aea5cf00e0acbe565ae'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/srcx.png',
-          theme: {
-            primaryColorHex: '#7f22bc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/srcx.png'
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/srcx.png'
@@ -113,10 +107,7 @@ const info: AssetList = {
             baseDenom: 'cw20:juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nride.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nride.svg',
-          theme: {
-            primaryColorHex: '#050505'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nride.svg'
         }]
     },
     {

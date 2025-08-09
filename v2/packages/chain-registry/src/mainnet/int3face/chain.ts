@@ -118,14 +118,10 @@ const info: Chain = {
         chainName: 'int3face',
         baseDenom: 'uint3'
       },
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png',
-      theme: {
-        primaryColorHex: '#3d3d3d'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png'
     }, {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3face-chain-logo.png',
       theme: {
-        primaryColorHex: '#040404',
         circle: false
       }
     }]

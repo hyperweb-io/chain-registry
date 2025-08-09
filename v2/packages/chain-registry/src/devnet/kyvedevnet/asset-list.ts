@@ -33,9 +33,6 @@ const info: AssetList = {
           imageSync: {
             chainName: 'kyve',
             baseDenom: 'ukyve'
-          },
-          theme: {
-            primaryColorHex: '#335350'
           }
         }],
       typeAsset: 'sdk.coin',

@@ -43,10 +43,7 @@ const info: Chain = {
     }
   },
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/outbedevnet/images/outbe.png',
-      theme: {
-        primaryColorHex: '#FF2D00'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/outbedevnet/images/outbe.png'
     }],
   apis: {
     rpc: [{

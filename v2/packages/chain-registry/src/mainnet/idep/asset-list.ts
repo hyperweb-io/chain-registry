@@ -23,10 +23,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/idep/images/idep.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/idep/images/idep.svg',
-          theme: {
-            primaryColorHex: '#c5b4cf'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/idep/images/idep.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

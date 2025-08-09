@@ -32,8 +32,6 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png',
           theme: {
-            primaryColorHex: '#f4941c',
-            backgroundColorHex: '#f4941c',
             circle: true
           }
         }],

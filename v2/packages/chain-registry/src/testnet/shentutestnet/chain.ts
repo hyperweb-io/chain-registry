@@ -73,10 +73,7 @@ const info: Chain = {
         baseDenom: 'uctk'
       },
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.svg',
-      theme: {
-        primaryColorHex: '#e4ac4c'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.svg'
     }]
 };
 export default info;

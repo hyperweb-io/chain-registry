@@ -27,8 +27,7 @@ const info: Chain = {
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg',
       theme: {
-        circle: false,
-        backgroundColorHex: '#00000000'
+        circle: false
       }
     }]
 };

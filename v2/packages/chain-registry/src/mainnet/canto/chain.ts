@@ -152,10 +152,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.svg',
-      theme: {
-        primaryColorHex: '#1c1f1f'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.svg'
     }]
 };
 export default info;

@@ -243,10 +243,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.svg',
-      theme: {
-        primaryColorHex: '#4c7cdc'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.svg'
     }]
 };
 export default info;

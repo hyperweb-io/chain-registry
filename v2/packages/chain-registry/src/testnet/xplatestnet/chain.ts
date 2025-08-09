@@ -81,10 +81,7 @@ const info: Chain = {
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.svg',
-      theme: {
-        primaryColorHex: '#04b4fc'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.svg'
     }]
 };
 export default info;

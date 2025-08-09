@@ -22,10 +22,7 @@ const info: AssetList = {
       coingeckoId: 'ki',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg',
-          theme: {
-            primaryColorHex: '#1c04fc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg'
         }],
       typeAsset: 'sdk.coin'
     }, {
@@ -47,10 +44,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/lvn.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/lvn.png',
-          theme: {
-            primaryColorHex: '#683480'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/lvn.png'
         }]
     }]
 };

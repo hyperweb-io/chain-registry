@@ -23,10 +23,7 @@ const info: AssetList = {
       coingeckoId: 'scorum',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.svg',
-          theme: {
-            primaryColorHex: '#0bc47e'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.svg'
         }],
       socials: {
         website: 'https://scorum.network',
@@ -49,10 +46,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/gas.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/gas.svg',
-          theme: {
-            primaryColorHex: '#555555'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/gas.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

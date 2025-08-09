@@ -44,10 +44,7 @@ const info: Chain = {
       accountPage: 'https://www.oklink.com/en/okc/address/${accountAddress}'
     }],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/okexchain/images/okc.png',
-      theme: {
-        primaryColorHex: '#bbbbbb'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/okexchain/images/okc.png'
     }]
 };
 export default info;

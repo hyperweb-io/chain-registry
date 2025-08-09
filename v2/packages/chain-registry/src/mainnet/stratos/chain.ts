@@ -141,10 +141,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stratos/images/stratos.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stratos/images/stratos.svg',
-      theme: {
-        primaryColorHex: '#04847c'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stratos/images/stratos.svg'
     }]
 };
 export default info;

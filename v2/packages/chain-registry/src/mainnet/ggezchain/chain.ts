@@ -92,10 +92,7 @@ const info: Chain = {
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/chain.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/chain.svg',
-      theme: {
-        primaryColorHex: '#8400cd'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/chain.svg'
     }]
 };
 export default info;

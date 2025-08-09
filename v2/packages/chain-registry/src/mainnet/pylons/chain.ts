@@ -60,10 +60,7 @@ const info: Chain = {
       txPage: 'https://pylons.explorers.guru/transaction/${txHash}'
     }],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pylons/images/pylons.png',
-      theme: {
-        primaryColorHex: '#ec4424'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pylons/images/pylons.png'
     }]
 };
 export default info;

@@ -422,10 +422,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg',
-      theme: {
-        primaryColorHex: '#fc4c04'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg'
     }]
 };
 export default info;

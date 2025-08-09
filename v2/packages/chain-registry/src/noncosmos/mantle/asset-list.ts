@@ -31,9 +31,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/mantle/images/fbtc.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/mantle/images/fbtc.svg',
           theme: {
-            circle: false,
-            primaryColorHex: '#8F00FF',
-            backgroundColorHex: '#00000000'
+            circle: false
           }
         }],
       socials: {

@@ -20,10 +20,7 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkeo/images/arkeo.svg'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkeo/images/arkeo.svg',
-          theme: {
-            primaryColorHex: '#3BE0FF'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkeo/images/arkeo.svg'
         }],
       socials: {
         website: 'https://arkeo.network/',

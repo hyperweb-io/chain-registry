@@ -31,10 +31,7 @@ const info: Chain = {
         baseDenom: 'wei'
       },
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg',
-      theme: {
-        primaryColorHex: '#303030'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg'
     }]
 };
 export default info;

@@ -121,10 +121,7 @@ const info: Chain = {
     }
   ],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terpnetwork/images/logo.png',
-      theme: {
-        primaryColorHex: '#a2cd9a'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terpnetwork/images/logo.png'
     }]
 };
 export default info;

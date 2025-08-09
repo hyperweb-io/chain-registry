@@ -252,10 +252,7 @@ const info: Chain = {
   ],
   keywords: ['mainnet'],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/quasar/images/quasar.png',
-      theme: {
-        primaryColorHex: '#a493e4'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/quasar/images/quasar.png'
     }]
 };
 export default info;

@@ -31,10 +31,7 @@ const info: AssetList = {
       coingeckoId: 'archway',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.svg',
-          theme: {
-            primaryColorHex: '#fc4c04'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.svg'
         }],
       socials: {
         website: 'https://archway.io/',
@@ -113,10 +110,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/amparch.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/amparch.png',
-          theme: {
-            primaryColorHex: '#5c84cc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/amparch.png'
         }]
     },
     {
@@ -156,10 +150,7 @@ const info: AssetList = {
             baseDenom: 'uvdl'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/vdl.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/vdl.svg',
-          theme: {
-            primaryColorHex: '#3454bc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/vdl.svg'
         }],
       coingeckoId: 'vidulum'
     },
@@ -192,10 +183,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.svg',
-          theme: {
-            primaryColorHex: '#141434'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.svg'
         }],
       coingeckoId: 'astrovault'
     },
@@ -228,10 +216,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/wArch.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/wArch.svg',
-          theme: {
-            primaryColorHex: '#000000'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/wArch.svg'
         }]
     },
     {
@@ -273,8 +258,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           theme: {
-            circle: true,
-            primaryColorHex: '#2775CA'
+            circle: true
           }
         }],
       coingeckoId: 'usd-coin'
@@ -308,10 +292,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/wUsdc-noble.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/wUsdc-noble.svg',
-          theme: {
-            primaryColorHex: '#000000'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/wUsdc-noble.svg'
         }]
     },
     {
@@ -351,10 +332,7 @@ const info: AssetList = {
             baseDenom: 'uwhale'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg',
-          theme: {
-            primaryColorHex: '#1c1c1c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg'
         }]
     },
     {

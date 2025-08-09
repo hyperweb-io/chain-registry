@@ -3,7 +3,7 @@ const info: Chain = {
   $schema: '../../chain.schema.json',
   chainName: 'dymensiontestnet1',
   chainType: 'cosmos',
-  chainId: 'dymension_1405-1',
+  chainId: 'dymension_3405-1',
   prettyName: 'Dymension Playground Testnet',
   status: 'live',
   networkType: 'testnet',
@@ -34,28 +34,25 @@ const info: Chain = {
   description: 'Dymension is a network of easily deployable and lightning fast modular blockchains called RollApps.',
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg',
-      theme: {
-        primaryColorHex: '#f4e4d4'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg'
     }],
   codebase: {
     gitRepo: 'https://github.com/dymensionxyz/dymension'
   },
   apis: {
     rpc: [{
-        address: 'https://rpc-dym-migration-test-2.mzonder.com',
+        address: 'https://rpc-dymension-playground35.mzonder.com',
         provider: 'mzonder'
       }],
     rest: [{
-        address: 'https://api-dym-migration-test-2.mzonder.com',
+        address: 'https://api-dymension-playground35.mzonder.com',
         provider: 'mzonder'
       }]
   },
   explorers: [{
       kind: 'dymscan',
       url: 'https://pg.dym.fyi/',
-      txPage: 'https://pg.dym.fyi//tx/${txHash}'
+      txPage: 'https://pg.dym.fyi/tx/${txHash}'
     }]
 };
 export default info;

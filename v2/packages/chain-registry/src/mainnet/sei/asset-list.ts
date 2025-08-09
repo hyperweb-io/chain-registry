@@ -24,10 +24,7 @@ const info: AssetList = {
       coingeckoId: 'sei-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg',
-          theme: {
-            primaryColorHex: '#9c1c1c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg'
         }],
       socials: {
         website: 'https://www.sei.io/',
@@ -53,10 +50,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oin.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oin.png',
-          theme: {
-            primaryColorHex: '#6cdbac'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oin.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -98,10 +92,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/popeye.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/popeye.png',
-          theme: {
-            primaryColorHex: '#04040a'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/popeye.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -122,10 +113,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SenseiDog.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SenseiDog.png',
-          theme: {
-            primaryColorHex: '#d4d0c7'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SenseiDog.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -148,10 +136,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oozaru.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oozaru.png',
-          theme: {
-            primaryColorHex: '#2b1619'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oozaru.png'
         }]
     },
     {
@@ -173,10 +158,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SEIYAN.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SEIYAN.png',
-          theme: {
-            primaryColorHex: '#db1f22'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SEIYAN.png'
         }]
     },
     {
@@ -212,10 +194,7 @@ const info: AssetList = {
             baseDenom: 'factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg',
-          theme: {
-            primaryColorHex: '#4056e9'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg'
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png',

@@ -72,10 +72,7 @@ const info: Chain = {
         chainName: 'manifest'
       },
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg',
-      theme: {
-        primaryColorHex: '#A087FF'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
     }]
 };
 export default info;

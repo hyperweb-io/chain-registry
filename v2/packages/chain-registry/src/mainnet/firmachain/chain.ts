@@ -175,10 +175,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/firmachain/images/fct.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/firmachain/images/fct.svg',
-      theme: {
-        primaryColorHex: '#1c1c1c'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/firmachain/images/fct.svg'
     }]
 };
 export default info;

@@ -56,16 +56,10 @@ const info: Chain = {
     }
   },
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
-      theme: {
-        primaryColorHex: '#25d695'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png'
     }, {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg',
-      theme: {
-        primaryColorHex: '#24d494'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg'
     }],
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png'

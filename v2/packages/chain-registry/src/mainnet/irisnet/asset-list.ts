@@ -22,10 +22,7 @@ const info: AssetList = {
       coingeckoId: 'iris-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.svg',
-          theme: {
-            primaryColorHex: '#5664ad'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

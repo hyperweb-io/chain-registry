@@ -33,14 +33,12 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png',
           theme: {
-            circle: true,
-            backgroundColorHex: '#000000'
+            circle: true
           }
         }, {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg',
           theme: {
-            circle: false,
-            backgroundColorHex: '#00000000'
+            circle: false
           }
         }]
     }]

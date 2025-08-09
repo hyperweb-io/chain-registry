@@ -31,10 +31,7 @@ const info: AssetList = {
       coingeckoId: 'fanfury',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/fury.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/fury.svg',
-          theme: {
-            primaryColorHex: '#040404'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/fury.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -57,10 +54,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/jinx.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/jinx.svg',
-          theme: {
-            primaryColorHex: '#040404'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/jinx.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -83,10 +77,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/jinxy.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/jinxy.svg',
-          theme: {
-            primaryColorHex: '#090909'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/jinxy.svg'
         }],
       typeAsset: 'sdk.coin'
     }

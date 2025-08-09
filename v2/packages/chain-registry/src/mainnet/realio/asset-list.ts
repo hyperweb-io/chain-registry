@@ -25,8 +25,6 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/realio/images/rio.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/realio/images/rio.svg',
           theme: {
-            primaryColorHex: '#000000',
-            backgroundColorHex: '#000000',
             circle: true
           }
         }],
@@ -52,10 +50,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/realio/images/rst.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/realio/images/rst.png',
-          theme: {
-            primaryColorHex: '#e0e0e0'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/realio/images/rst.png'
         }],
       typeAsset: 'sdk.coin'
     }]

@@ -224,10 +224,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg',
-      theme: {
-        primaryColorHex: '#9c1c1c'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg'
     }]
 };
 export default info;

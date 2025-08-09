@@ -196,10 +196,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.svg',
-      theme: {
-        primaryColorHex: '#e75486'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.svg'
     }]
 };
 export default info;

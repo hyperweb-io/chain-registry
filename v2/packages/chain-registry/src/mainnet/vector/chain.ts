@@ -79,10 +79,7 @@ const info: Chain = {
       accountPage: 'https://explorer.playonvector.com/vector/account/${accountAddress}'
     }],
   images: [{
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/vector/images/vector-light-logo.svg',
-      theme: {
-        primaryColorHex: '#885737'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/vector/images/vector-light-logo.svg'
     }]
 };
 export default info;

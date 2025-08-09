@@ -22,10 +22,7 @@ const info: AssetList = {
       coingeckoId: 'umee',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg',
-          theme: {
-            primaryColorHex: '#22f2e9'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

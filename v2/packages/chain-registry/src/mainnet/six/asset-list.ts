@@ -19,10 +19,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/six/images/six.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/six/images/six.png',
-          theme: {
-            primaryColorHex: '#3b75f3'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/six/images/six.png'
         }],
       typeAsset: 'sdk.coin'
     }]

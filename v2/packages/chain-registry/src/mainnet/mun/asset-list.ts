@@ -21,10 +21,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mun/images/mun.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mun/images/mun.svg',
-          theme: {
-            primaryColorHex: '#f6ba32'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mun/images/mun.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

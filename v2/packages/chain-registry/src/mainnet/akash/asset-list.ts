@@ -23,10 +23,7 @@ const info: AssetList = {
       coingeckoId: 'akash-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg',
-          theme: {
-            primaryColorHex: '#bc342c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
         }],
       socials: {
         website: 'https://akash.network/',

@@ -24,10 +24,7 @@ const info: AssetList = {
       coingeckoId: 'white-whale',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg',
-          theme: {
-            primaryColorHex: '#1c1c1c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -77,10 +74,7 @@ const info: AssetList = {
           provider: 'BackBoneLabs'
         }],
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.png',
-          theme: {
-            primaryColorHex: '#d8d8d8'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -142,10 +136,7 @@ const info: AssetList = {
             chainName: 'terra2',
             baseDenom: 'cw20:terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bLUNA.png',
-          theme: {
-            primaryColorHex: '#070707'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bLUNA.png'
         }]
     },
     {
@@ -167,10 +158,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rac.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rac.svg',
-          theme: {
-            primaryColorHex: '#2b2434'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rac.svg'
         }],
       typeAsset: 'sdk.coin',
       coingeckoId: 'racoon'
@@ -230,9 +218,7 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
           theme: {
-            circle: true,
-            primaryColorHex: '#009393',
-            backgroundColorHex: '#009393'
+            circle: true
           }
         }],
       logoURIs: {
@@ -280,10 +266,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/guppy.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/guppy.png',
-          theme: {
-            primaryColorHex: '#d9966e'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/guppy.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -304,10 +287,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ophir.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ophir.png',
-          theme: {
-            primaryColorHex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ophir.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -328,10 +308,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/shark.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/shark.png',
-          theme: {
-            primaryColorHex: '#062d54'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/shark.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -360,10 +337,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/lsdshark.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/lsdshark.png',
-          theme: {
-            primaryColorHex: '#0d739c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/lsdshark.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -404,10 +378,7 @@ const info: AssetList = {
             baseDenom: 'uluna'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg',
-          theme: {
-            primaryColorHex: '#f4de6f'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg'
         }],
       socials: {
         website: 'https://www.terra.money/',
@@ -470,10 +441,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/gash.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/gash.png',
-          theme: {
-            primaryColorHex: '#1d0918'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/gash.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -496,10 +464,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rstk.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rstk.svg',
-          theme: {
-            primaryColorHex: '#3ccc64'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rstk.svg'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -539,10 +504,7 @@ const info: AssetList = {
             chainName: 'terra',
             baseDenom: 'cw20:terra1wez9puj43v4s25vrex7cv3ut3w75w4h6j5e537sujyuxj0r5ne2qp9uwl9'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/FROG.png',
-          theme: {
-            primaryColorHex: '#182615'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/FROG.png'
         }]
     },
     {
@@ -562,10 +524,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/grac.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/grac.png',
-          theme: {
-            primaryColorHex: '#f5bf09'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/grac.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -600,10 +559,7 @@ const info: AssetList = {
             chainName: 'juno',
             baseDenom: 'factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wind.png',
-          theme: {
-            primaryColorHex: '#122b4d'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wind.png'
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wind.png'
@@ -643,7 +599,6 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/shitmos.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/shitmos.svg',
           theme: {
-            primaryColorHex: '#639BFF',
             circle: true
           }
         }],
@@ -666,10 +621,7 @@ const info: AssetList = {
       display: 'ampGASH',
       symbol: 'ampGASH',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ampgash.png',
-          theme: {
-            primaryColorHex: '#374455'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ampgash.png'
         }],
       traces: [{
           type: 'liquid-stake',
@@ -716,10 +668,7 @@ const info: AssetList = {
             chainName: 'injective',
             baseDenom: 'factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/SYN'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/syn.png',
-          theme: {
-            primaryColorHex: '#04a2fc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/syn.png'
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/syn.png'

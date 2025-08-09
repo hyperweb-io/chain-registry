@@ -24,10 +24,7 @@ const info: AssetList = {
       coingeckoId: 'pundi-aifx',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.svg',
-          theme: {
-            primaryColorHex: '#1c1c1c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.svg'
         }],
       socials: {
         website: 'https://fx.pundi.ai',
@@ -56,10 +53,7 @@ const info: AssetList = {
       coingeckoId: 'fx-coin',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.svg',
-          theme: {
-            primaryColorHex: '#1c1c1c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.svg'
         }],
       socials: {
         website: 'https://fx.pundi.ai',
@@ -96,10 +90,7 @@ const info: AssetList = {
             baseDenom: '0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.svg',
-          theme: {
-            primaryColorHex: '#f1d20c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.svg'
         }],
       socials: {
         website: 'https://pundix.com',

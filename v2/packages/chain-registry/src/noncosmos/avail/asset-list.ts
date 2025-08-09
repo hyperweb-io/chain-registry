@@ -22,8 +22,7 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avail/images/avail.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avail/images/avail.png',
           theme: {
-            circle: false,
-            primaryColorHex: '#2B80D7'
+            circle: false
           }
         }]
     }]

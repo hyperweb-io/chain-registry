@@ -348,10 +348,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg',
-      theme: {
-        primaryColorHex: '#39a5fc'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg'
     }],
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.png',

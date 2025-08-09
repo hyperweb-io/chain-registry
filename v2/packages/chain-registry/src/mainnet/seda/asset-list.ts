@@ -23,10 +23,7 @@ const info: AssetList = {
       coingeckoId: 'seda-2',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg',
-          theme: {
-            primaryColorHex: '#8178d1'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg'
         }],
       socials: {
         website: 'https://www.seda.xyz/',

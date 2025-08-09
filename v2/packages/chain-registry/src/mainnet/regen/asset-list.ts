@@ -22,10 +22,7 @@ const info: AssetList = {
       coingeckoId: 'regen',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.svg',
-          theme: {
-            primaryColorHex: '#56b790'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.svg'
         }],
       socials: {
         website: 'https://www.regen.network/',
@@ -52,10 +49,7 @@ const info: AssetList = {
       coingeckoId: 'toucan-protocol-nature-carbon-tonne',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.svg',
-          theme: {
-            primaryColorHex: '#171c25'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

@@ -29,9 +29,6 @@ const info: AssetList = {
           imageSync: {
             chainName: 'jackal',
             baseDenom: 'ujkl'
-          },
-          theme: {
-            primaryColorHex: '#dbdbcb'
           }
         }],
       typeAsset: 'sdk.coin',

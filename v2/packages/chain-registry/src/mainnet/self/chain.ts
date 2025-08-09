@@ -168,10 +168,7 @@ const info: Chain = {
     }
   ],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/self/images/self.png',
-      theme: {
-        primaryColorHex: '#9454f1'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/self/images/self.png'
     }]
 };
 export default info;

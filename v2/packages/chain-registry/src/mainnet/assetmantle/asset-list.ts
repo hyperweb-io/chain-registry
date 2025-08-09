@@ -22,10 +22,7 @@ const info: AssetList = {
       coingeckoId: 'assetmantle',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.svg',
-          theme: {
-            primaryColorHex: '#fbab30'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.svg'
         }],
       socials: {
         website: 'https://www.assetmantle.one/',

@@ -22,10 +22,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zetachain/images/zetachain.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zetachain/images/zetachain.svg',
-          theme: {
-            primaryColorHex: '#045443'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zetachain/images/zetachain.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

@@ -21,15 +21,11 @@ const info: AssetList = {
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/empowerchain/images/mpwr.svg',
           theme: {
-            primaryColorHex: '#00e33a',
-            backgroundColorHex: '#00e33a',
             circle: true
           }
         }, {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/empowerchain/images/mpwr.png',
           theme: {
-            primaryColorHex: '#00e33a',
-            backgroundColorHex: '#00e33a',
             circle: false
           }
         }],

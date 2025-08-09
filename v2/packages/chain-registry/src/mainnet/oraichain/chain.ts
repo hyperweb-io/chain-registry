@@ -249,8 +249,7 @@ const info: Chain = {
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai.svg',
       theme: {
         circle: false,
-        darkMode: false,
-        primaryColorHex: '#000000'
+        darkMode: false
       }
     }]
 };
