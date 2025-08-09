@@ -20,8 +20,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.svg',
           theme: {
-            circle: true,
-            primary_color_hex: '#040404'
+            circle: true
           }
         }],
       socials: {

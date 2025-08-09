@@ -22,10 +22,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava.png',
-          theme: {
-            primary_color_hex: '#6f043e'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava.png'
         }],
       keywords: [
         'modular',

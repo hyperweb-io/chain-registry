@@ -307,8 +307,7 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.svg',
           theme: {
-            circle: true,
-            primary_color_hex: '#cf654f'
+            circle: true
           }
         }],
       socials: {
@@ -991,8 +990,7 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.svg',
           theme: {
-            circle: true,
-            primary_color_hex: '#cf654f'
+            circle: true
           }
         }],
       socials: {

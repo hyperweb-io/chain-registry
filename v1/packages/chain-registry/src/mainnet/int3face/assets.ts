@@ -20,10 +20,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png',
-          theme: {
-            primary_color_hex: '#3d3d3d'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png'
         }],
       socials: {
         website: 'https://int3face.zone/',
@@ -58,10 +55,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.svg',
-          theme: {
-            primary_color_hex: '#3d3d3d'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.svg'
         }],
       type_asset: 'sdk.coin'
     },
@@ -92,10 +86,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.svg',
-          theme: {
-            primary_color_hex: '#3d3d3d'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.svg'
         }],
       type_asset: 'sdk.coin'
     },
@@ -126,10 +117,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg',
-          theme: {
-            primary_color_hex: '#3d3d3d'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg'
         }],
       type_asset: 'sdk.coin'
     },
@@ -160,10 +148,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.svg',
-          theme: {
-            primary_color_hex: '#3d3d3d'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.svg'
         }],
       type_asset: 'sdk.coin'
     },
@@ -194,10 +179,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ton.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ton.int3.svg',
-          theme: {
-            primary_color_hex: '#3d3d3d'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ton.int3.svg'
         }],
       type_asset: 'sdk.coin'
     },
@@ -228,10 +210,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.svg',
-          theme: {
-            primary_color_hex: '#3d3d3d'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.svg'
         }],
       type_asset: 'sdk.coin'
     },
@@ -267,10 +246,7 @@ const info: AssetList = {
             base_denom: 'drop'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg'
         }],
       type_asset: 'sdk.coin'
     },
@@ -299,10 +275,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/trump.int3.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/trump.int3.png',
-          theme: {
-            primary_color_hex: '#3d3d3d'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/trump.int3.png'
         }],
       type_asset: 'sdk.coin'
     },
@@ -331,10 +304,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/pengu.int3.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/pengu.int3.png',
-          theme: {
-            primary_color_hex: '#3d3d3d'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/pengu.int3.png'
         }],
       type_asset: 'sdk.coin'
     }

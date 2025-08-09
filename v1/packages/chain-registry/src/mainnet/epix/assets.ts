@@ -21,10 +21,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg',
-          theme: {
-            primary_color_hex: '#69e9f5'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
         }],
       socials: {
         website: 'https://epix.zone/',

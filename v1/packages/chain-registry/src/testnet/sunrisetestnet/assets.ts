@@ -79,10 +79,7 @@ const info: AssetList = {
       },
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.png',
-          theme: {
-            primary_color_hex: '#ecbc64'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.png'
         }],
       socials: {
         website: 'https://sunriselayer.io/',

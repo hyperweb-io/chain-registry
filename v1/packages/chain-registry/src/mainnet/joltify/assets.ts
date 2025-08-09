@@ -19,10 +19,7 @@ const info: AssetList = {
       symbol: 'JOLT',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/joltify/images/jolt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/joltify/images/jolt.svg',
-          theme: {
-            primary_color_hex: '#2dfb71'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/joltify/images/jolt.svg'
         }],
       coingecko_id: 'joltify',
       keywords: ['staking'],
@@ -65,10 +62,7 @@ const info: AssetList = {
             base_denom: 'uatom'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg',
-          theme: {
-            primary_color_hex: '#272d45'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
         }],
       coingecko_id: 'cosmos'
     },
@@ -107,8 +101,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           theme: {
-            circle: true,
-            primary_color_hex: '#2775CA'
+            circle: true
           }
         }],
       coingecko_id: 'usd-coin'

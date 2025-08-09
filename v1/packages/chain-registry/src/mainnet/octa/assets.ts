@@ -23,10 +23,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/octa/images/octa.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/octa/images/octa.svg',
-          theme: {
-            primary_color_hex: '#04a7f8'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/octa/images/octa.svg'
         }],
       type_asset: 'sdk.coin'
     }]

@@ -22,10 +22,7 @@ const info: AssetList = {
       coingecko_id: 'starname',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg',
-          theme: {
-            primary_color_hex: '#5c64b4'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
         }],
       socials: {
         website: 'https://app.starname.me/',

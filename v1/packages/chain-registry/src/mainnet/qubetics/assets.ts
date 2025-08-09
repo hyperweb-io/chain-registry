@@ -20,10 +20,7 @@ const info: AssetList = {
       },
       coingecko_id: 'qubetics',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qubetics/images/qubetics.png',
-          theme: {
-            primary_color_hex: '#046ffc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qubetics/images/qubetics.png'
         }],
       socials: {
         website: 'https://www.qubetics.com/',

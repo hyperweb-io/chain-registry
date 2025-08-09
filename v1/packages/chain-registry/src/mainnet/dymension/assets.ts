@@ -24,10 +24,7 @@ const info: AssetList = {
       coingecko_id: 'dymension',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg',
-          theme: {
-            primary_color_hex: '#f4e4d4'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg'
         }],
       socials: {
         website: 'https://portal.dymension.xyz',
@@ -68,10 +65,7 @@ const info: AssetList = {
             base_denom: 'anim'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.svg',
-          theme: {
-            primary_color_hex: '#519cea'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.svg'
         }],
       socials: {
         website: 'https://nim.network/',
@@ -118,10 +112,7 @@ const info: AssetList = {
             base_denom: 'amand'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.svg',
-          theme: {
-            primary_color_hex: '#274cbf'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.svg'
         }],
       socials: {
         website: 'https://mande.network/',

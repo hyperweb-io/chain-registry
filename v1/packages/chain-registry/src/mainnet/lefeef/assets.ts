@@ -28,10 +28,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lefeef/images/lefeef.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lefeef/images/lefeef.svg',
-          theme: {
-            primary_color_hex: '#6439ff'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lefeef/images/lefeef.svg'
         }],
       socials: {
         website: 'https://lefeef.net',

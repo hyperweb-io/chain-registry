@@ -22,10 +22,7 @@ const info: AssetList = {
       coingecko_id: 'lambda',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg',
-          theme: {
-            primary_color_hex: '#e41c54'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg'
         }],
       type_asset: 'sdk.coin'
     }]

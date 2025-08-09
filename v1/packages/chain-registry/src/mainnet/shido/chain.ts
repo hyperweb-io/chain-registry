@@ -222,10 +222,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg',
-      theme: {
-        primary_color_hex: '#046ffc'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg'
     }]
 };
 export default info;

@@ -26,10 +26,7 @@ const info: AssetList = {
       keywords: ['bluzelle', 'game'],
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/bluzelle.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/bluzelle.svg',
-          theme: {
-            primary_color_hex: '#708ffc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/bluzelle.svg'
         }],
       socials: {
         website: 'http://bluzelle.com/',
@@ -55,10 +52,7 @@ const info: AssetList = {
       },
       keywords: ['elt'],
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/elt.png',
-          theme: {
-            primary_color_hex: '#0c3ab5'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/elt.png'
         }],
       type_asset: 'sdk.coin'
     },
@@ -80,10 +74,7 @@ const info: AssetList = {
       },
       keywords: ['g4'],
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/g4.png',
-          theme: {
-            primary_color_hex: '#ee8828'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/g4.png'
         }],
       type_asset: 'sdk.coin'
     }

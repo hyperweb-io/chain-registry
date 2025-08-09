@@ -73,10 +73,7 @@ const info: Chain = {
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.svg',
-      theme: {
-        primary_color_hex: '#876317'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.svg'
     }]
 };
 export default info;

@@ -33,10 +33,7 @@ const info: AssetList = {
       symbol: 'TKX',
       coingecko_id: 'tokenize-xchange',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/tkx.png',
-          theme: {
-            primary_color_hex: '#fc641c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/tkx.png'
         }],
       keywords: ['staking'],
       logo_URIs: {
@@ -89,8 +86,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           theme: {
-            circle: true,
-            primary_color_hex: '#2775CA'
+            circle: true
           }
         }],
       coingecko_id: 'usd-coin'
@@ -125,10 +121,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.svg',
-          theme: {
-            primary_color_hex: '#f39444'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.svg'
         }],
       coingecko_id: 'bitcoin'
     },

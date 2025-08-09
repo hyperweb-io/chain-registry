@@ -32,9 +32,7 @@ const info: Chain = {
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/tron/images/trx.svg',
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/tron/images/trx.png',
       theme: {
-        circle: true,
-        primary_color_hex: '#FF060A',
-        background_color_hex: '#FF060A'
+        circle: true
       }
     }]
 };

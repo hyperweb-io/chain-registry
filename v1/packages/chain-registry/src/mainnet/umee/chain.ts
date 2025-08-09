@@ -334,10 +334,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg',
-      theme: {
-        primary_color_hex: '#22f2e9'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
     }]
 };
 export default info;

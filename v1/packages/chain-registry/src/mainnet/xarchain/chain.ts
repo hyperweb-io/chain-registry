@@ -81,10 +81,7 @@ const info: Chain = {
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xarchain/images/arcana_logo.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xarchain/images/arcana_logo.svg',
-      theme: {
-        primary_color_hex: '#FF4E9F'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xarchain/images/arcana_logo.svg'
     }]
 };
 export default info;

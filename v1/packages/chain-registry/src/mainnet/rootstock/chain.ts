@@ -33,9 +33,7 @@ const info: Chain = {
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/rootstock/images/rbtc.svg',
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/rootstock/images/rbtc.png',
       theme: {
-        circle: false,
-        primary_color_hex: '#FF9931',
-        background_color_hex: '#00000000'
+        circle: false
       }
     }]
 };

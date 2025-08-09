@@ -131,10 +131,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.svg',
-      theme: {
-        primary_color_hex: '#a8bbfb'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.svg'
     }]
 };
 export default info;

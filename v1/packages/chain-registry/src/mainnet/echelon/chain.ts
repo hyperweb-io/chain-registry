@@ -91,10 +91,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/logo.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/echelon.svg',
-      theme: {
-        primary_color_hex: '#b1f49a'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/echelon.svg'
     }]
 };
 export default info;

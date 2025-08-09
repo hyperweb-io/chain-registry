@@ -16,10 +16,7 @@ const info: AssetList = {
       display: 'unicorn',
       symbol: 'UWU',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unicorn/images/uwu.png',
-          theme: {
-            primary_color_hex: '#D44CE6'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unicorn/images/uwu.png'
         }],
       socials: {
         website: 'https://unicorn.meme/',

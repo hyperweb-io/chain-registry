@@ -66,10 +66,7 @@ const info: Chain = {
         chain_name: 'manifestdevnet'
       },
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg',
-      theme: {
-        primary_color_hex: '#A087FF'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
     }]
 };
 export default info;

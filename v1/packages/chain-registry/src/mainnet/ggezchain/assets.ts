@@ -28,10 +28,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggez1.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggez1.svg',
-          theme: {
-            primary_color_hex: '#039abf'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggez1.svg'
         }],
       socials: {
         website: 'https://ggez.one',
@@ -61,10 +58,7 @@ const info: AssetList = {
       symbol: 'GGZ',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggz.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggz.svg',
-          theme: {
-            primary_color_hex: '#8400cd'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggz.svg'
         }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggz.png',

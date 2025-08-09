@@ -25,10 +25,7 @@ const info: AssetList = {
             base_denom: 'aepix'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg',
-          theme: {
-            primary_color_hex: '#69e9f5'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
         }],
       type_asset: 'sdk.coin'
     }]

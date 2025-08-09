@@ -187,10 +187,7 @@ const info: Chain = {
         base_denom: 'route'
       },
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg',
-      theme: {
-        primary_color_hex: '#cb0766'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg'
     }]
 };
 export default info;

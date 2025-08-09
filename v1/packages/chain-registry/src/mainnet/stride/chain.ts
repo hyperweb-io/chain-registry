@@ -436,10 +436,7 @@ const info: Chain = {
         base_denom: 'ustrd'
       },
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg',
-      theme: {
-        primary_color_hex: '#e4047c'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg'
     }]
 };
 export default info;

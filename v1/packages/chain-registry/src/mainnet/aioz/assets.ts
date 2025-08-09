@@ -29,10 +29,7 @@ const info: AssetList = {
       coingecko_id: 'aioz-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.svg',
-          theme: {
-            primary_color_hex: '#24241c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/aioz/images/aioz.svg'
         }],
       socials: {
         website: 'https://aioz.network/',

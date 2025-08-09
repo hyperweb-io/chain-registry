@@ -22,10 +22,7 @@ const info: AssetList = {
       coingecko_id: 'medibloc',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/panacea/images/med.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/panacea/images/med.svg',
-          theme: {
-            primary_color_hex: '#2474ec'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/panacea/images/med.svg'
         }],
       type_asset: 'sdk.coin'
     }]

@@ -33,10 +33,7 @@ const info: Chain = {
   description: 'Credibility Hub for Web3',
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.svg',
-      theme: {
-        primary_color_hex: '#274cbf'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.svg'
     }],
   codebase: {
     git_repo: 'https://github.com/mande-labs',

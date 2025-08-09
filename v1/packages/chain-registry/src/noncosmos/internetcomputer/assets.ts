@@ -21,9 +21,7 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/internetcomputer/images/icp.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/internetcomputer/images/icp.png',
           theme: {
-            circle: true,
-            primary_color_hex: '#29ABE2',
-            background_color_hex: '#E3E3E3'
+            circle: true
           }
         }],
       coingecko_id: 'internet-computer',
@@ -59,9 +57,7 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/internetcomputer/images/ckbtc.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/internetcomputer/images/ckbtc.png',
           theme: {
-            circle: true,
-            primary_color_hex: '#3B00B9',
-            background_color_hex: '#3B00B9'
+            circle: true
           }
         }],
       coingecko_id: 'chain-key-bitcoin',

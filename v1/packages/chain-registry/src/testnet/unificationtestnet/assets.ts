@@ -29,10 +29,7 @@ const info: AssetList = {
             base_denom: 'nund'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png',
-          theme: {
-            primary_color_hex: '#2279c0'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png'
         }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png',

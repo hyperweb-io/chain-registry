@@ -45,10 +45,7 @@ const info: Chain = {
     }
   },
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.png',
-      theme: {
-        primary_color_hex: '#000000'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.png'
     }],
   apis: {
     rpc: [{

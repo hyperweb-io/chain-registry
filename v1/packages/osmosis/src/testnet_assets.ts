@@ -367,8 +367,7 @@ const testnet_assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
           theme: {
-            circle: true,
-            primary_color_hex: '#2775CA'
+            circle: true
           }
         }],
       coingecko_id: 'usd-coin'
@@ -457,9 +456,6 @@ const testnet_assets: AssetList = {
           image_sync: {
             chain_name: 'kyve',
             base_denom: 'ukyve'
-          },
-          theme: {
-            primary_color_hex: '#335350'
           }
         }],
       coingecko_id: 'kyve-network'
@@ -630,10 +626,7 @@ const testnet_assets: AssetList = {
             base_denom: 'uixo'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg',
-          theme: {
-            primary_color_hex: '#2c4484'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg'
         }],
       coingecko_id: 'ixo'
     },
@@ -1370,10 +1363,7 @@ const testnet_assets: AssetList = {
             base_denom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg',
-          theme: {
-            primary_color_hex: '#3d3d3d'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg'
         }]
     },
     {
@@ -1423,10 +1413,7 @@ const testnet_assets: AssetList = {
             base_denom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.svg',
-          theme: {
-            primary_color_hex: '#3d3d3d'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/btc.int3.svg'
         }]
     },
     {
@@ -1476,10 +1463,7 @@ const testnet_assets: AssetList = {
             base_denom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.svg',
-          theme: {
-            primary_color_hex: '#3d3d3d'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/bch.int3.svg'
         }]
     },
     {
@@ -1529,10 +1513,7 @@ const testnet_assets: AssetList = {
             base_denom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.svg',
-          theme: {
-            primary_color_hex: '#3d3d3d'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ltc.int3.svg'
         }]
     },
     {
@@ -1582,10 +1563,7 @@ const testnet_assets: AssetList = {
             base_denom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ton.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ton.int3.svg',
-          theme: {
-            primary_color_hex: '#3d3d3d'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/ton.int3.svg'
         }]
     },
     {
@@ -1635,10 +1613,7 @@ const testnet_assets: AssetList = {
             base_denom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-sol'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.svg',
-          theme: {
-            primary_color_hex: '#3d3d3d'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/sol.int3.svg'
         }]
     },
     {
@@ -1688,10 +1663,7 @@ const testnet_assets: AssetList = {
             base_denom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/xrpl-xrp'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/xrp.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/xrp.int3.svg',
-          theme: {
-            primary_color_hex: '#3d3d3d'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/xrp.int3.svg'
         }]
     }
   ]

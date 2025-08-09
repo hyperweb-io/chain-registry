@@ -22,10 +22,7 @@ const info: AssetList = {
       coingecko_id: 'band-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.svg',
-          theme: {
-            primary_color_hex: '#4424e4'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.svg'
         }],
       socials: {
         website: 'https://www.bandprotocol.com/',

@@ -22,10 +22,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.svg',
-          theme: {
-            primary_color_hex: '#7c7c7c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.svg'
         }],
       type_asset: 'sdk.coin'
     },
@@ -48,10 +45,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.svg',
-          theme: {
-            primary_color_hex: '#876317'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.svg'
         }],
       type_asset: 'sdk.coin'
     },
@@ -75,10 +69,7 @@ const info: AssetList = {
       coingecko_id: 'cias',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.svg',
-          theme: {
-            primary_color_hex: '#4f3280'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.svg'
         }],
       type_asset: 'sdk.coin'
     }

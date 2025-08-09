@@ -22,10 +22,7 @@ const info: AssetList = {
       keywords: ['CNHO'],
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cnhostables/images/chain.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cnhostables/images/chain.svg',
-          theme: {
-            primary_color_hex: '#708ffc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cnhostables/images/chain.svg'
         }],
       socials: {
         website: 'https://cnho.io/',

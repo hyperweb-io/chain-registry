@@ -135,10 +135,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tenet/images/tenet.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tenet/images/tenet.svg',
-      theme: {
-        primary_color_hex: '#040404'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tenet/images/tenet.svg'
     }]
 };
 export default info;

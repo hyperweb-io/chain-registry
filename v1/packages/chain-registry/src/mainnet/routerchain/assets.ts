@@ -23,10 +23,7 @@ const info: AssetList = {
       },
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png',
-          theme: {
-            primary_color_hex: '#cb0766'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png'
         }],
       socials: {
         website: 'https://www.routerprotocol.com/',

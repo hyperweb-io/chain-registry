@@ -206,10 +206,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.svg',
-      theme: {
-        primary_color_hex: '#f7771a'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.svg'
     }]
 };
 export default info;

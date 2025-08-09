@@ -249,15 +249,11 @@ const info: Chain = {
       },
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/empowerchain/images/mpwr.svg',
       theme: {
-        primary_color_hex: '#00e33a',
-        background_color_hex: '#00e33a',
         circle: true
       }
     }, {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/empowerchain/images/mpwr.png',
       theme: {
-        primary_color_hex: '#00e33a',
-        background_color_hex: '#00e33a',
         circle: false
       }
     }]

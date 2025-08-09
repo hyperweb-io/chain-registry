@@ -30,10 +30,7 @@ const assets: AssetList = {
       coingecko_id: 'archway',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.svg',
-          theme: {
-            primary_color_hex: '#fc4c04'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.svg'
         }],
       socials: {
         website: 'https://archway.io/',
@@ -107,10 +104,7 @@ const assets: AssetList = {
       coingecko_id: 'axelar',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'
         }],
       socials: {
         website: 'https://axelar.network/',
@@ -150,10 +144,7 @@ const assets: AssetList = {
       coingecko_id: 'chihuahua-token',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg',
-          theme: {
-            primary_color_hex: '#343434'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -189,10 +180,7 @@ const assets: AssetList = {
       coingecko_id: 'comdex',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg',
-          theme: {
-            primary_color_hex: '#fc4454'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -227,10 +215,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/harbor.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/harbor.svg',
-          theme: {
-            primary_color_hex: '#645ca4'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/harbor.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -266,10 +251,7 @@ const assets: AssetList = {
       coingecko_id: 'composite',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.svg',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -305,10 +287,7 @@ const assets: AssetList = {
       coingecko_id: 'injective-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg',
-          theme: {
-            primary_color_hex: '#04a2fc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
         }],
       socials: {
         website: 'https://injective.com/',
@@ -345,10 +324,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninpo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninpo.png',
-          theme: {
-            primary_color_hex: '#31292a'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninpo.png'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -381,10 +357,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/judo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/judo.png',
-          theme: {
-            primary_color_hex: '#18120f'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/judo.png'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -414,10 +387,7 @@ const assets: AssetList = {
       display: 'nINJ',
       symbol: 'nINJ',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninj.png',
-          theme: {
-            primary_color_hex: '#293a6f'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninj.png'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -447,10 +417,7 @@ const assets: AssetList = {
       display: 'nATOM',
       symbol: 'nATOM',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/natom.png',
-          theme: {
-            primary_color_hex: '#272f4b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/natom.png'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -480,10 +447,7 @@ const assets: AssetList = {
       display: 'nWETH',
       symbol: 'nWETH',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nweth.png',
-          theme: {
-            primary_color_hex: '#2a303f'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nweth.png'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -513,10 +477,7 @@ const assets: AssetList = {
       display: 'nUSDT',
       symbol: 'nUSDT',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nusdt.png',
-          theme: {
-            primary_color_hex: '#54ac94'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nusdt.png'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -546,10 +507,7 @@ const assets: AssetList = {
       display: 'nTIA',
       symbol: 'nTIA',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ntia.png',
-          theme: {
-            primary_color_hex: '#7931f9'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ntia.png'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -585,10 +543,7 @@ const assets: AssetList = {
       coingecko_id: 'juno-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg',
-          theme: {
-            primary_color_hex: '#fa7b7b'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg'
         }],
       socials: {
         website: 'https://junonetwork.io/',
@@ -628,10 +583,7 @@ const assets: AssetList = {
       coingecko_id: 'kava',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg',
-          theme: {
-            primary_color_hex: '#e64942'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg'
         }],
       socials: {
         website: 'https://www.kava.io/',
@@ -671,10 +623,7 @@ const assets: AssetList = {
       coingecko_id: 'kava-lend',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg',
-          theme: {
-            primary_color_hex: '#7b34ac'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -710,10 +659,7 @@ const assets: AssetList = {
       coingecko_id: 'kava-swap',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg',
-          theme: {
-            primary_color_hex: '#544cfc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -749,10 +695,7 @@ const assets: AssetList = {
       coingecko_id: 'usdx',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg',
-          theme: {
-            primary_color_hex: '#04d4a3'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -800,9 +743,7 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
           theme: {
-            circle: true,
-            primary_color_hex: '#009393',
-            background_color_hex: '#009393'
+            circle: true
           }
         }],
       logo_URIs: {
@@ -832,10 +773,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg',
-          theme: {
-            primary_color_hex: '#e33b34'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg'
         }],
       socials: {
         website: 'https://kujira.network/',
@@ -882,10 +820,7 @@ const assets: AssetList = {
       coingecko_id: 'archway',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.svg',
-          theme: {
-            primary_color_hex: '#fc4c04'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.svg'
         }],
       socials: {
         website: 'https://archway.io/',
@@ -959,10 +894,7 @@ const assets: AssetList = {
       coingecko_id: 'axelar',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'
         }],
       socials: {
         website: 'https://axelar.network/',
@@ -1002,10 +934,7 @@ const assets: AssetList = {
       coingecko_id: 'chihuahua-token',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg',
-          theme: {
-            primary_color_hex: '#343434'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -1041,10 +970,7 @@ const assets: AssetList = {
       coingecko_id: 'comdex',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg',
-          theme: {
-            primary_color_hex: '#fc4454'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -1079,10 +1005,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/harbor.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/harbor.svg',
-          theme: {
-            primary_color_hex: '#645ca4'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/harbor.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -1118,10 +1041,7 @@ const assets: AssetList = {
       coingecko_id: 'composite',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.svg',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -1157,10 +1077,7 @@ const assets: AssetList = {
       coingecko_id: 'injective-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg',
-          theme: {
-            primary_color_hex: '#04a2fc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
         }],
       socials: {
         website: 'https://injective.com/',
@@ -1197,10 +1114,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninpo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninpo.png',
-          theme: {
-            primary_color_hex: '#31292a'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninpo.png'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -1233,10 +1147,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/judo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/judo.png',
-          theme: {
-            primary_color_hex: '#18120f'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/judo.png'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -1266,10 +1177,7 @@ const assets: AssetList = {
       display: 'nINJ',
       symbol: 'nINJ',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninj.png',
-          theme: {
-            primary_color_hex: '#293a6f'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninj.png'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -1299,10 +1207,7 @@ const assets: AssetList = {
       display: 'nATOM',
       symbol: 'nATOM',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/natom.png',
-          theme: {
-            primary_color_hex: '#272f4b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/natom.png'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -1332,10 +1237,7 @@ const assets: AssetList = {
       display: 'nWETH',
       symbol: 'nWETH',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nweth.png',
-          theme: {
-            primary_color_hex: '#2a303f'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nweth.png'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -1365,10 +1267,7 @@ const assets: AssetList = {
       display: 'nUSDT',
       symbol: 'nUSDT',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nusdt.png',
-          theme: {
-            primary_color_hex: '#54ac94'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nusdt.png'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -1398,10 +1297,7 @@ const assets: AssetList = {
       display: 'nTIA',
       symbol: 'nTIA',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ntia.png',
-          theme: {
-            primary_color_hex: '#7931f9'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ntia.png'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -1437,10 +1333,7 @@ const assets: AssetList = {
       coingecko_id: 'juno-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg',
-          theme: {
-            primary_color_hex: '#fa7b7b'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg'
         }],
       socials: {
         website: 'https://junonetwork.io/',
@@ -1480,10 +1373,7 @@ const assets: AssetList = {
       coingecko_id: 'kava',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg',
-          theme: {
-            primary_color_hex: '#e64942'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg'
         }],
       socials: {
         website: 'https://www.kava.io/',
@@ -1523,10 +1413,7 @@ const assets: AssetList = {
       coingecko_id: 'kava-lend',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg',
-          theme: {
-            primary_color_hex: '#7b34ac'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -1562,10 +1449,7 @@ const assets: AssetList = {
       coingecko_id: 'kava-swap',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg',
-          theme: {
-            primary_color_hex: '#544cfc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -1601,10 +1485,7 @@ const assets: AssetList = {
       coingecko_id: 'usdx',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg',
-          theme: {
-            primary_color_hex: '#04d4a3'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -1652,9 +1533,7 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
           theme: {
-            circle: true,
-            primary_color_hex: '#009393',
-            background_color_hex: '#009393'
+            circle: true
           }
         }],
       logo_URIs: {
@@ -1684,10 +1563,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg',
-          theme: {
-            primary_color_hex: '#e33b34'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg'
         }],
       socials: {
         website: 'https://kujira.network/',
@@ -1727,10 +1603,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.svg',
-          theme: {
-            primary_color_hex: '#a8bbfb'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.svg'
         }],
       traces: [{
           type: 'ibc',
@@ -1765,10 +1638,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg',
-          theme: {
-            primary_color_hex: '#04041c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg'
         }],
       traces: [{
           type: 'ibc',
@@ -1802,10 +1672,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.svg',
-          theme: {
-            primary_color_hex: '#142c5c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.svg'
         }],
       coingecko_id: 'ondo-us-dollar-yield',
       socials: {
@@ -1847,10 +1714,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg',
-          theme: {
-            primary_color_hex: '#2E8564'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg'
         }],
       traces: [{
           type: 'ibc',
@@ -1885,10 +1749,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg',
-          theme: {
-            primary_color_hex: '#760dbb'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
         }],
       coingecko_id: 'osmosis',
       keywords: ['dex', 'staking'],
@@ -1929,10 +1790,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg',
-          theme: {
-            primary_color_hex: '#4453c7'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg'
         }],
       coingecko_id: 'ion',
       keywords: ['memecoin', 'defi'],
@@ -2013,10 +1871,7 @@ const assets: AssetList = {
       coingecko_id: 'sei-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg',
-          theme: {
-            primary_color_hex: '#9c1c1c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg'
         }],
       socials: {
         website: 'https://www.sei.io/',
@@ -2055,10 +1910,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oozaru.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oozaru.png',
-          theme: {
-            primary_color_hex: '#2b1619'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oozaru.png'
         }],
       traces: [{
           type: 'ibc',
@@ -2093,10 +1945,7 @@ const assets: AssetList = {
       coingecko_id: 'stargaze',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg',
-          theme: {
-            primary_color_hex: '#db2777'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg'
         }],
       socials: {
         website: 'https://www.stargaze.zone/',
@@ -2136,10 +1985,7 @@ const assets: AssetList = {
       coingecko_id: 'terra-luna-2',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg',
-          theme: {
-            primary_color_hex: '#f4de6f'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg'
         }],
       socials: {
         website: 'https://www.phoenix.money/',
@@ -2179,10 +2025,7 @@ const assets: AssetList = {
       coingecko_id: 'umee',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg',
-          theme: {
-            primary_color_hex: '#22f2e9'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -2218,10 +2061,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.svg',
-          theme: {
-            primary_color_hex: '#a8bbfb'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.svg'
         }],
       traces: [{
           type: 'ibc',
@@ -2256,10 +2096,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg',
-          theme: {
-            primary_color_hex: '#04041c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg'
         }],
       traces: [{
           type: 'ibc',
@@ -2293,10 +2130,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.svg',
-          theme: {
-            primary_color_hex: '#142c5c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.svg'
         }],
       coingecko_id: 'ondo-us-dollar-yield',
       socials: {
@@ -2338,10 +2172,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg',
-          theme: {
-            primary_color_hex: '#2E8564'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg'
         }],
       traces: [{
           type: 'ibc',
@@ -2376,10 +2207,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg',
-          theme: {
-            primary_color_hex: '#760dbb'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
         }],
       coingecko_id: 'osmosis',
       keywords: ['dex', 'staking'],
@@ -2420,10 +2248,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg',
-          theme: {
-            primary_color_hex: '#4453c7'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg'
         }],
       coingecko_id: 'ion',
       keywords: ['memecoin', 'defi'],
@@ -2504,10 +2329,7 @@ const assets: AssetList = {
       coingecko_id: 'sei-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg',
-          theme: {
-            primary_color_hex: '#9c1c1c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg'
         }],
       socials: {
         website: 'https://www.sei.io/',
@@ -2546,10 +2368,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oozaru.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oozaru.png',
-          theme: {
-            primary_color_hex: '#2b1619'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oozaru.png'
         }],
       traces: [{
           type: 'ibc',
@@ -2584,10 +2403,7 @@ const assets: AssetList = {
       coingecko_id: 'stargaze',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg',
-          theme: {
-            primary_color_hex: '#db2777'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg'
         }],
       socials: {
         website: 'https://www.stargaze.zone/',
@@ -2627,10 +2443,7 @@ const assets: AssetList = {
       coingecko_id: 'terra-luna-2',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg',
-          theme: {
-            primary_color_hex: '#f4de6f'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg'
         }],
       socials: {
         website: 'https://www.phoenix.money/',
@@ -2670,10 +2483,7 @@ const assets: AssetList = {
       coingecko_id: 'umee',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg',
-          theme: {
-            primary_color_hex: '#22f2e9'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
         }],
       type_asset: 'sdk.coin',
       traces: [{
@@ -2711,10 +2521,7 @@ const assets: AssetList = {
       coingecko_id: 'sienna',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.svg',
-          theme: {
-            primary_color_hex: '#2c2c2c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -2789,10 +2596,7 @@ const assets: AssetList = {
       coingecko_id: 'shade-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg',
-          theme: {
-            primary_color_hex: '#342c52'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -2831,10 +2635,7 @@ const assets: AssetList = {
       coingecko_id: 'silk-bcec1136-561c-4706-a42c-8b67d0d7f7d2',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg',
-          theme: {
-            primary_color_hex: '#3142fc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -2872,10 +2673,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.svg',
-          theme: {
-            primary_color_hex: '#3142fc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -2913,10 +2711,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg',
-          theme: {
-            primary_color_hex: '#3142fc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -2955,10 +2750,7 @@ const assets: AssetList = {
       coingecko_id: 'stkd-scrt',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.svg',
-          theme: {
-            primary_color_hex: '#b8a2dc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -2996,10 +2788,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/butt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/butt.svg',
-          theme: {
-            primary_color_hex: '#7b04eb'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/butt.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3037,10 +2826,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.svg',
-          theme: {
-            primary_color_hex: '#694c90'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.svg'
         }],
       socials: {
         website: 'http://alter.network/',
@@ -3082,10 +2868,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.svg',
-          theme: {
-            primary_color_hex: '#f2b854'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.svg'
         }],
       socials: {
         website: 'http://amber.money/',
@@ -3127,10 +2910,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shill.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shill.svg',
-          theme: {
-            primary_color_hex: '#c49df3'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shill.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3180,10 +2960,7 @@ const assets: AssetList = {
       },
       coingecko_id: 'white-whale',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png',
-          theme: {
-            primary_color_hex: '#43b24b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
         }]
     },
     {
@@ -3205,10 +2982,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bluna.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bluna.png',
-          theme: {
-            primary_color_hex: '#fbdb5b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bluna.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3243,10 +3017,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/beth.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/beth.png',
-          theme: {
-            primary_color_hex: '#54b649'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/beth.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3281,10 +3052,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aust.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aust.png',
-          theme: {
-            primary_color_hex: '#dd7e7f'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aust.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3319,10 +3087,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/anc.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/anc.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/anc.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3357,10 +3122,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mir.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mir.png',
-          theme: {
-            primary_color_hex: '#142444'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mir.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3395,10 +3157,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maapl.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maapl.png',
-          theme: {
-            primary_color_hex: '#acacac'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maapl.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3433,10 +3192,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mabnb.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mabnb.png',
-          theme: {
-            primary_color_hex: '#e4545c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mabnb.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3471,10 +3227,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamc.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamc.png',
-          theme: {
-            primary_color_hex: '#cc2444'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamc.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3509,10 +3262,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamd.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamd.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3547,10 +3297,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamzn.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamzn.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamzn.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3585,10 +3332,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/markk.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/markk.png',
-          theme: {
-            primary_color_hex: '#0d0d25'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/markk.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3623,10 +3367,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mbaba.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mbaba.png',
-          theme: {
-            primary_color_hex: '#f38506'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mbaba.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3661,10 +3402,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mbtc.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mbtc.png',
-          theme: {
-            primary_color_hex: '#f4941c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mbtc.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3699,10 +3437,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mcoin.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mcoin.png',
-          theme: {
-            primary_color_hex: '#1454f4'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mcoin.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3737,10 +3472,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mdis.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mdis.png',
-          theme: {
-            primary_color_hex: '#050505'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mdis.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3775,10 +3507,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mdot.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mdot.png',
-          theme: {
-            primary_color_hex: '#1c1c1c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mdot.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3813,10 +3542,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/meth.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/meth.png',
-          theme: {
-            primary_color_hex: '#5c648e'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/meth.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3851,10 +3577,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mfb.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mfb.png',
-          theme: {
-            primary_color_hex: '#1c74f4'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mfb.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3889,10 +3612,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mglxy.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mglxy.png',
-          theme: {
-            primary_color_hex: '#1d4cac'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mglxy.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3927,10 +3647,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgme.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgme.png',
-          theme: {
-            primary_color_hex: '#070707'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgme.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -3965,10 +3682,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgoogl.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgoogl.png',
-          theme: {
-            primary_color_hex: '#34ac54'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgoogl.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4003,10 +3717,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgs.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgs.png',
-          theme: {
-            primary_color_hex: '#749cc4'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgs.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4041,10 +3752,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mhood.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mhood.png',
-          theme: {
-            primary_color_hex: '#54c48c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mhood.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4079,10 +3787,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miau.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miau.png',
-          theme: {
-            primary_color_hex: '#141c2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miau.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4117,10 +3822,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miau.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miau.png',
-          theme: {
-            primary_color_hex: '#141c2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miau.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4155,10 +3857,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mjnj.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mjnj.png',
-          theme: {
-            primary_color_hex: '#c41d2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mjnj.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4193,10 +3892,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mko.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mko.png',
-          theme: {
-            primary_color_hex: '#fcc9cc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mko.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4231,10 +3927,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mmsft.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mmsft.png',
-          theme: {
-            primary_color_hex: '#04a4ec'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mmsft.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4269,10 +3962,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnflx.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnflx.png',
-          theme: {
-            primary_color_hex: '#af040c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnflx.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4307,10 +3997,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnio.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnio.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnio.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4345,10 +4032,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnke.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnke.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnke.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4383,10 +4067,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnvda.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnvda.png',
-          theme: {
-            primary_color_hex: '#74bc04'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnvda.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4421,10 +4102,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mpypl.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mpypl.png',
-          theme: {
-            primary_color_hex: '#24377a'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mpypl.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4459,10 +4137,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mqqq.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mqqq.png',
-          theme: {
-            primary_color_hex: '#041c7c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mqqq.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4497,10 +4172,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msbux.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msbux.png',
-          theme: {
-            primary_color_hex: '#047444'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msbux.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4535,10 +4207,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mslv.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mslv.png',
-          theme: {
-            primary_color_hex: '#141c2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mslv.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4573,10 +4242,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mspy.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mspy.png',
-          theme: {
-            primary_color_hex: '#141c2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mspy.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4611,10 +4277,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msq.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msq.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msq.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4649,10 +4312,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mtsla.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mtsla.png',
-          theme: {
-            primary_color_hex: '#e41c34'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mtsla.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4687,10 +4347,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mtwtr.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mtwtr.png',
-          theme: {
-            primary_color_hex: '#2cace4'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mtwtr.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4725,10 +4382,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/muso.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/muso.png',
-          theme: {
-            primary_color_hex: '#141c2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/muso.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4763,10 +4417,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mvixy.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mvixy.png',
-          theme: {
-            primary_color_hex: '#141c2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mvixy.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4801,10 +4452,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mvixy.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mvixy.png',
-          theme: {
-            primary_color_hex: '#141c2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mvixy.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4839,10 +4487,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lota.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lota.png',
-          theme: {
-            primary_color_hex: '#c63adc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lota.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4877,10 +4522,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dph.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dph.png',
-          theme: {
-            primary_color_hex: '#2c4c9c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dph.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4915,10 +4557,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mine.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mine.png',
-          theme: {
-            primary_color_hex: '#042c44'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mine.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4953,10 +4592,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bpsidp-24m.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bpsidp-24m.png',
-          theme: {
-            primary_color_hex: '#3d6d8e'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bpsidp-24m.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -4991,10 +4627,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/spec.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/spec.png',
-          theme: {
-            primary_color_hex: '#fa2d6c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/spec.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5029,10 +4662,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/loop.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/loop.png',
-          theme: {
-            primary_color_hex: '#04dff9'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/loop.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5067,10 +4697,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/loopr.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/loopr.png',
-          theme: {
-            primary_color_hex: '#550555'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/loopr.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5105,10 +4732,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stt.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stt.png',
-          theme: {
-            primary_color_hex: '#f5e604'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stt.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5143,10 +4767,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twd.png',
-          theme: {
-            primary_color_hex: '#25abe3'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twd.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5181,10 +4802,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xtra.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xtra.png',
-          theme: {
-            primary_color_hex: '#0c9cd4'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xtra.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5219,10 +4837,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miaw.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miaw.png',
-          theme: {
-            primary_color_hex: '#060606'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miaw.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5257,10 +4872,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/psi.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/psi.png',
-          theme: {
-            primary_color_hex: '#1c1c2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/psi.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5505,10 +5117,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vkr.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vkr.png',
-          theme: {
-            primary_color_hex: '#1c1c1c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vkr.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5543,10 +5152,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orion.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orion.png',
-          theme: {
-            primary_color_hex: '#04bc74'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orion.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5581,10 +5187,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tland.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tland.png',
-          theme: {
-            primary_color_hex: '#c3a990'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tland.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5619,10 +5222,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vust.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vust.png',
-          theme: {
-            primary_color_hex: '#3ccb64'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vust.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5657,10 +5257,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eth.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eth.png',
-          theme: {
-            primary_color_hex: '#2d2831'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eth.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5695,10 +5292,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wbtc.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wbtc.png',
-          theme: {
-            primary_color_hex: '#f3931e'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wbtc.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5733,10 +5327,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sol.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sol.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sol.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5771,10 +5362,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maticet.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maticet.png',
-          theme: {
-            primary_color_hex: '#8447e1'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maticet.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5809,10 +5397,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bnb.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bnb.png',
-          theme: {
-            primary_color_hex: '#f4bc2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bnb.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5847,10 +5432,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cake.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cake.png',
-          theme: {
-            primary_color_hex: '#d0894d'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cake.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5885,10 +5467,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png',
-          theme: {
-            primary_color_hex: '#345cd4'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5923,10 +5502,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sushi.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sushi.png',
-          theme: {
-            primary_color_hex: '#cd68ac'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sushi.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5961,10 +5537,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/uni.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/uni.png',
-          theme: {
-            primary_color_hex: '#b01e66'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/uni.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -5999,10 +5572,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtet.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtet.png',
-          theme: {
-            primary_color_hex: '#56a995'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtet.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6037,10 +5607,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcet.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcet.png',
-          theme: {
-            primary_color_hex: '#2a75c9'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcet.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6075,10 +5642,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/kuji.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/kuji.png',
-          theme: {
-            primary_color_hex: '#24242c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/kuji.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6113,10 +5677,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/skuji.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/skuji.png',
-          theme: {
-            primary_color_hex: '#252933'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/skuji.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6151,10 +5712,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wsteth.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wsteth.png',
-          theme: {
-            primary_color_hex: '#9cdcfc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wsteth.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6189,10 +5747,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wstsol.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wstsol.png',
-          theme: {
-            primary_color_hex: '#1dbffc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wstsol.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6262,10 +5817,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ldo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ldo.png',
-          theme: {
-            primary_color_hex: '#f49c8c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ldo.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6335,10 +5887,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stluna.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stluna.png',
-          theme: {
-            primary_color_hex: '#1fc0fb'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stluna.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6402,10 +5951,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/btl.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/btl.png',
-          theme: {
-            primary_color_hex: '#5cbc8c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/btl.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6440,10 +5986,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lunax.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lunax.png',
-          theme: {
-            primary_color_hex: '#cdcdce'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lunax.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6478,10 +6021,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luni.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luni.png',
-          theme: {
-            primary_color_hex: '#232742'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luni.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6516,10 +6056,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ply.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ply.png',
-          theme: {
-            primary_color_hex: '#070706'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ply.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6554,10 +6091,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfloki.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfloki.png',
-          theme: {
-            primary_color_hex: '#f6c911'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfloki.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6592,10 +6126,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tftic.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tftic.png',
-          theme: {
-            primary_color_hex: '#1c1c1b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tftic.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6630,10 +6161,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfticii.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfticii.png',
-          theme: {
-            primary_color_hex: '#1c1c1b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfticii.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6668,10 +6196,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfticiii.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfticiii.png',
-          theme: {
-            primary_color_hex: '#1c1c1b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfticiii.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6706,10 +6231,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/moon.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/moon.png',
-          theme: {
-            primary_color_hex: '#ebb30c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/moon.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6819,10 +6341,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/halo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/halo.png',
-          theme: {
-            primary_color_hex: '#54a4dc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/halo.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6857,10 +6376,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pug.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pug.png',
-          theme: {
-            primary_color_hex: '#252424'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pug.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6895,10 +6411,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orne.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orne.png',
-          theme: {
-            primary_color_hex: '#fbfbfb'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orne.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6933,10 +6446,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tns.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tns.png',
-          theme: {
-            primary_color_hex: '#2442cf'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tns.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6971,10 +6481,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xrune.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xrune.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xrune.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7009,10 +6516,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/alot.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/alot.png',
-          theme: {
-            primary_color_hex: '#c7bea1'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/alot.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7082,10 +6586,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/glow.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/glow.png',
-          theme: {
-            primary_color_hex: '#262238'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/glow.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7120,10 +6621,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/apollo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/apollo.png',
-          theme: {
-            primary_color_hex: '#10192a'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/apollo.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7222,10 +6720,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/prism.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/prism.png',
-          theme: {
-            primary_color_hex: '#f6f6f6'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/prism.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7289,10 +6784,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whsail.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whsail.png',
-          theme: {
-            primary_color_hex: '#0472b3'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whsail.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7327,10 +6819,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whgsail.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whgsail.png',
-          theme: {
-            primary_color_hex: '#046baa'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whgsail.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7365,10 +6854,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xprism.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xprism.png',
-          theme: {
-            primary_color_hex: '#242434'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xprism.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7432,10 +6918,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ctx.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ctx.png',
-          theme: {
-            primary_color_hex: '#04b4fc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ctx.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7470,10 +6953,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cluna.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cluna.png',
-          theme: {
-            primary_color_hex: '#211f2e'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cluna.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7508,10 +6988,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pluna.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pluna.png',
-          theme: {
-            primary_color_hex: '#202030'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pluna.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7546,10 +7023,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/yluna.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/yluna.png',
-          theme: {
-            primary_color_hex: '#202130'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/yluna.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7584,10 +7058,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/atlo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/atlo.png',
-          theme: {
-            primary_color_hex: '#1b3667'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/atlo.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7622,10 +7093,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/local.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/local.png',
-          theme: {
-            primary_color_hex: '#242424'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/local.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7660,10 +7128,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luv.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luv.png',
-          theme: {
-            primary_color_hex: '#f7a02f'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luv.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7698,10 +7163,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/robo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/robo.png',
-          theme: {
-            primary_color_hex: '#2473d2'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/robo.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7736,10 +7198,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luart.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luart.png',
-          theme: {
-            primary_color_hex: '#1b1429'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luart.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7978,10 +7437,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sd.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sd.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8016,10 +7472,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xsd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xsd.png',
-          theme: {
-            primary_color_hex: '#f3f3f3'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xsd.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8054,10 +7507,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/paxg.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/paxg.png',
-          theme: {
-            primary_color_hex: '#848484'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/paxg.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8092,10 +7542,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whdao.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whdao.png',
-          theme: {
-            primary_color_hex: '#2c2c44'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whdao.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8130,10 +7577,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png',
-          theme: {
-            primary_color_hex: '#345cd4'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8168,10 +7612,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sayve.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sayve.png',
-          theme: {
-            primary_color_hex: '#f3ebdb'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sayve.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8392,10 +7833,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sst.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sst.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sst.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8430,10 +7868,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/atlas.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/atlas.png',
-          theme: {
-            primary_color_hex: '#c77a91'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/atlas.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8468,10 +7903,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/audio.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/audio.png',
-          theme: {
-            primary_color_hex: '#7d1dc0'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/audio.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8506,10 +7938,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/avax.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/avax.png',
-          theme: {
-            primary_color_hex: '#e74245'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/avax.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8544,10 +7973,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bat.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bat.png',
-          theme: {
-            primary_color_hex: '#f75108'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bat.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8582,10 +8008,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/busdbs.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/busdbs.png',
-          theme: {
-            primary_color_hex: '#f4bc0f'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/busdbs.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8620,10 +8043,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dai.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dai.png',
-          theme: {
-            primary_color_hex: '#fbb932'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dai.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8658,10 +8078,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maticpo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maticpo.png',
-          theme: {
-            primary_color_hex: '#8445e3'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maticpo.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8696,10 +8113,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mimet.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mimet.png',
-          theme: {
-            primary_color_hex: '#6f6df0'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mimet.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8734,10 +8148,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ray.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ray.png',
-          theme: {
-            primary_color_hex: '#4d75f2'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ray.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8772,10 +8183,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sbr.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sbr.png',
-          theme: {
-            primary_color_hex: '#161527'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sbr.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8810,10 +8218,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/shib.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/shib.png',
-          theme: {
-            primary_color_hex: '#f99e0e'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/shib.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8848,10 +8253,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/srmso.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/srmso.png',
-          theme: {
-            primary_color_hex: '#40c2d6'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/srmso.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8886,10 +8288,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcav.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcav.png',
-          theme: {
-            primary_color_hex: '#2775cb'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcav.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8924,10 +8323,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcbs.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcbs.png',
-          theme: {
-            primary_color_hex: '#2675cb'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcbs.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -8962,10 +8358,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcpo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcpo.png',
-          theme: {
-            primary_color_hex: '#2a73cc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcpo.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9000,10 +8393,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcso.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcso.png',
-          theme: {
-            primary_color_hex: '#2a76cc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcso.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9038,10 +8428,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtav.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtav.png',
-          theme: {
-            primary_color_hex: '#55ac94'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtav.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9076,10 +8463,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtbs.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtbs.png',
-          theme: {
-            primary_color_hex: '#55ac94'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtbs.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9114,10 +8498,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtso.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtso.png',
-          theme: {
-            primary_color_hex: '#54ac96'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtso.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9152,10 +8533,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gohm.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gohm.png',
-          theme: {
-            primary_color_hex: '#b3bec1'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gohm.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9190,10 +8568,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msol.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msol.png',
-          theme: {
-            primary_color_hex: '#c8e8e1'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msol.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9228,10 +8603,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/steth.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/steth.png',
-          theme: {
-            primary_color_hex: '#04a4fb'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/steth.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9266,10 +8638,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lct.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lct.png',
-          theme: {
-            primary_color_hex: '#2664a3'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lct.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9409,10 +8778,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lctfancard.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lctfancard.png',
-          theme: {
-            primary_color_hex: '#2968a5'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lctfancard.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9552,10 +8918,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cst.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cst.png',
-          theme: {
-            primary_color_hex: '#5d2616'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cst.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9590,10 +8953,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cstfancard.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cstfancard.png',
-          theme: {
-            primary_color_hex: '#5d2616'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cstfancard.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9628,10 +8988,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nwld.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nwld.png',
-          theme: {
-            primary_color_hex: '#046394'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nwld.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9666,10 +9023,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/fury.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/fury.png',
-          theme: {
-            primary_color_hex: '#14045c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/fury.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9739,10 +9093,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vitc.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vitc.png',
-          theme: {
-            primary_color_hex: '#e3551b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vitc.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9777,10 +9128,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sb.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sb.png',
-          theme: {
-            primary_color_hex: '#7c241c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sb.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9850,10 +9198,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orionastro.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orionastro.png',
-          theme: {
-            primary_color_hex: '#1d90d6'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orionastro.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9888,10 +9233,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/retro.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/retro.png',
-          theme: {
-            primary_color_hex: '#eb4024'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/retro.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9926,10 +9268,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tnd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tnd.png',
-          theme: {
-            primary_color_hex: '#1c53fb'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tnd.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9999,10 +9338,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nwt.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nwt.png',
-          theme: {
-            primary_color_hex: '#aeb8f5'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nwt.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10037,10 +9373,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/neb.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/neb.png',
-          theme: {
-            primary_color_hex: '#8b90ad'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/neb.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10075,10 +9408,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/trit.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/trit.png',
-          theme: {
-            primary_color_hex: '#24ab9b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/trit.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10147,10 +9477,7 @@ const assets: AssetList = {
       name: 'Tadpole Frogztrik Token',
       symbol: 'TADF',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tadf.png',
-          theme: {
-            primary_color_hex: '#e9f9f2'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tadf.png'
         }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tadf.png'
@@ -10186,10 +9513,7 @@ const assets: AssetList = {
       name: 'Frogztrik NFT Token',
       symbol: 'FROG',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/FROG.png',
-          theme: {
-            primary_color_hex: '#182615'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/FROG.png'
         }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/FROG.png'
@@ -10356,10 +9680,7 @@ const assets: AssetList = {
             base_denom: 'factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg',
-          theme: {
-            primary_color_hex: '#4056e9'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg'
         }],
       socials: {
         website: 'https://astroport.fi/',
@@ -10384,10 +9705,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Dinheiros.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Dinheiros.png',
-          theme: {
-            primary_color_hex: '#244c9c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Dinheiros.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10423,10 +9741,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Reis.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Reis.png',
-          theme: {
-            primary_color_hex: '#1d5c65'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Reis.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10462,10 +9777,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Escudos.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Escudos.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Escudos.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10501,10 +9813,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Alem.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Alem.png',
-          theme: {
-            primary_color_hex: '#d1b295'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Alem.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10540,10 +9849,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/almagem.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/almagem.png',
-          theme: {
-            primary_color_hex: '#d1b295'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/almagem.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10579,10 +9885,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/arika.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/arika.png',
-          theme: {
-            primary_color_hex: '#d1b295'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/arika.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10618,10 +9921,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/danu.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/danu.png',
-          theme: {
-            primary_color_hex: '#d1b295'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/danu.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10657,10 +9957,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/trs.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/trs.png',
-          theme: {
-            primary_color_hex: '#d1b295'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/trs.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10696,10 +9993,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/plasma.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/plasma.png',
-          theme: {
-            primary_color_hex: '#d1b295'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/plasma.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10735,10 +10029,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/dmt.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/dmt.png',
-          theme: {
-            primary_color_hex: '#d1b295'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/dmt.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10811,10 +10102,7 @@ const assets: AssetList = {
       },
       coingecko_id: 'lion-dao',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/roar.png',
-          theme: {
-            primary_color_hex: '#f3f313'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/roar.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10850,10 +10138,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/gem.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/gem.png',
-          theme: {
-            primary_color_hex: '#21b6b3'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/gem.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10889,10 +10174,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/cub.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/cub.png',
-          theme: {
-            primary_color_hex: '#f3d343'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/cub.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10928,10 +10210,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/blue.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/blue.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/blue.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10967,10 +10246,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/xxx3.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/xxx3.png',
-          theme: {
-            primary_color_hex: '#efe8e9'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/xxx3.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11006,10 +10282,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/gugu.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/gugu.png',
-          theme: {
-            primary_color_hex: '#e3e2e5'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/gugu.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11058,10 +10331,7 @@ const assets: AssetList = {
           }
         }],
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bLUNA.png',
-          theme: {
-            primary_color_hex: '#070707'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bLUNA.png'
         }]
     },
     {
@@ -11086,10 +10356,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/sayve.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/sayve.svg',
-          theme: {
-            primary_color_hex: '#f3ebdb'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/sayve.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11125,10 +10392,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/nicodao.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/nicodao.png',
-          theme: {
-            primary_color_hex: '#f1cc79'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/nicodao.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11164,10 +10428,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/SEAS.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/SEAS.png',
-          theme: {
-            primary_color_hex: '#c0943f'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/SEAS.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11203,10 +10464,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/BITZ.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/BITZ.png',
-          theme: {
-            primary_color_hex: '#dd6a30'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/BITZ.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11242,10 +10500,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/seul.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/seul.png',
-          theme: {
-            primary_color_hex: '#0da8c9'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/seul.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11281,10 +10536,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/xseul.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/xseul.png',
-          theme: {
-            primary_color_hex: '#0ba7ce'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/xseul.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11320,10 +10572,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/I.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/I.png',
-          theme: {
-            primary_color_hex: '#f8d034'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/I.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11359,10 +10608,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/armani.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/armani.png',
-          theme: {
-            primary_color_hex: '#d19a84'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/armani.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11398,10 +10644,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/drogo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/drogo.png',
-          theme: {
-            primary_color_hex: '#ae987b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/drogo.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11437,10 +10680,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ADO.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ADO.png',
-          theme: {
-            primary_color_hex: '#040607'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ADO.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11476,10 +10716,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/DNA.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/DNA.png',
-          theme: {
-            primary_color_hex: '#232333'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/DNA.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11515,10 +10752,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bitmos.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bitmos.png',
-          theme: {
-            primary_color_hex: '#0c0704'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bitmos.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11553,10 +10787,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/LADS.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/LADS.png',
-          theme: {
-            primary_color_hex: '#040507'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/LADS.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11592,10 +10823,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/clon1.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/clon1.png',
-          theme: {
-            primary_color_hex: '#c7cbcf'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/clon1.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11669,10 +10897,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.svg',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11710,10 +10935,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.svg',
-          theme: {
-            primary_color_hex: '#FF47C2'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11752,10 +10974,7 @@ const assets: AssetList = {
       coingecko_id: 'sienna',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.svg',
-          theme: {
-            primary_color_hex: '#2c2c2c'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11830,10 +11049,7 @@ const assets: AssetList = {
       coingecko_id: 'shade-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg',
-          theme: {
-            primary_color_hex: '#342c52'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11872,10 +11088,7 @@ const assets: AssetList = {
       coingecko_id: 'silk-bcec1136-561c-4706-a42c-8b67d0d7f7d2',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg',
-          theme: {
-            primary_color_hex: '#3142fc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11913,10 +11126,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.svg',
-          theme: {
-            primary_color_hex: '#3142fc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/dsilk.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11954,10 +11164,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg',
-          theme: {
-            primary_color_hex: '#3142fc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -11996,10 +11203,7 @@ const assets: AssetList = {
       coingecko_id: 'stkd-scrt',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.svg',
-          theme: {
-            primary_color_hex: '#b8a2dc'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12037,10 +11241,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/butt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/butt.svg',
-          theme: {
-            primary_color_hex: '#7b04eb'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/butt.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12078,10 +11279,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.svg',
-          theme: {
-            primary_color_hex: '#694c90'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.svg'
         }],
       socials: {
         website: 'http://alter.network/',
@@ -12123,10 +11321,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.svg',
-          theme: {
-            primary_color_hex: '#f2b854'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.svg'
         }],
       socials: {
         website: 'http://amber.money/',
@@ -12168,10 +11363,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shill.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shill.svg',
-          theme: {
-            primary_color_hex: '#c49df3'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shill.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12221,10 +11413,7 @@ const assets: AssetList = {
       },
       coingecko_id: 'white-whale',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png',
-          theme: {
-            primary_color_hex: '#43b24b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
         }]
     },
     {
@@ -12246,10 +11435,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bluna.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bluna.png',
-          theme: {
-            primary_color_hex: '#fbdb5b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bluna.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12284,10 +11470,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/beth.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/beth.png',
-          theme: {
-            primary_color_hex: '#54b649'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/beth.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12322,10 +11505,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aust.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aust.png',
-          theme: {
-            primary_color_hex: '#dd7e7f'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/aust.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12360,10 +11540,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/anc.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/anc.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/anc.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12398,10 +11575,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mir.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mir.png',
-          theme: {
-            primary_color_hex: '#142444'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mir.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12436,10 +11610,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maapl.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maapl.png',
-          theme: {
-            primary_color_hex: '#acacac'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maapl.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12474,10 +11645,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mabnb.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mabnb.png',
-          theme: {
-            primary_color_hex: '#e4545c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mabnb.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12512,10 +11680,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamc.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamc.png',
-          theme: {
-            primary_color_hex: '#cc2444'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamc.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12550,10 +11715,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamd.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamd.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12588,10 +11750,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamzn.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamzn.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mamzn.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12626,10 +11785,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/markk.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/markk.png',
-          theme: {
-            primary_color_hex: '#0d0d25'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/markk.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12664,10 +11820,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mbaba.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mbaba.png',
-          theme: {
-            primary_color_hex: '#f38506'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mbaba.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12702,10 +11855,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mbtc.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mbtc.png',
-          theme: {
-            primary_color_hex: '#f4941c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mbtc.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12740,10 +11890,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mcoin.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mcoin.png',
-          theme: {
-            primary_color_hex: '#1454f4'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mcoin.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12778,10 +11925,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mdis.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mdis.png',
-          theme: {
-            primary_color_hex: '#050505'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mdis.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12816,10 +11960,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mdot.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mdot.png',
-          theme: {
-            primary_color_hex: '#1c1c1c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mdot.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12854,10 +11995,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/meth.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/meth.png',
-          theme: {
-            primary_color_hex: '#5c648e'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/meth.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12892,10 +12030,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mfb.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mfb.png',
-          theme: {
-            primary_color_hex: '#1c74f4'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mfb.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12930,10 +12065,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mglxy.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mglxy.png',
-          theme: {
-            primary_color_hex: '#1d4cac'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mglxy.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -12968,10 +12100,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgme.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgme.png',
-          theme: {
-            primary_color_hex: '#070707'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgme.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13006,10 +12135,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgoogl.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgoogl.png',
-          theme: {
-            primary_color_hex: '#34ac54'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgoogl.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13044,10 +12170,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgs.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgs.png',
-          theme: {
-            primary_color_hex: '#749cc4'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mgs.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13082,10 +12205,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mhood.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mhood.png',
-          theme: {
-            primary_color_hex: '#54c48c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mhood.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13120,10 +12240,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miau.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miau.png',
-          theme: {
-            primary_color_hex: '#141c2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miau.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13158,10 +12275,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miau.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miau.png',
-          theme: {
-            primary_color_hex: '#141c2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miau.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13196,10 +12310,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mjnj.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mjnj.png',
-          theme: {
-            primary_color_hex: '#c41d2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mjnj.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13234,10 +12345,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mko.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mko.png',
-          theme: {
-            primary_color_hex: '#fcc9cc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mko.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13272,10 +12380,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mmsft.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mmsft.png',
-          theme: {
-            primary_color_hex: '#04a4ec'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mmsft.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13310,10 +12415,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnflx.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnflx.png',
-          theme: {
-            primary_color_hex: '#af040c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnflx.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13348,10 +12450,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnio.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnio.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnio.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13386,10 +12485,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnke.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnke.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnke.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13424,10 +12520,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnvda.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnvda.png',
-          theme: {
-            primary_color_hex: '#74bc04'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mnvda.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13462,10 +12555,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mpypl.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mpypl.png',
-          theme: {
-            primary_color_hex: '#24377a'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mpypl.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13500,10 +12590,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mqqq.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mqqq.png',
-          theme: {
-            primary_color_hex: '#041c7c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mqqq.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13538,10 +12625,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msbux.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msbux.png',
-          theme: {
-            primary_color_hex: '#047444'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msbux.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13576,10 +12660,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mslv.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mslv.png',
-          theme: {
-            primary_color_hex: '#141c2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mslv.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13614,10 +12695,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mspy.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mspy.png',
-          theme: {
-            primary_color_hex: '#141c2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mspy.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13652,10 +12730,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msq.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msq.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msq.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13690,10 +12765,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mtsla.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mtsla.png',
-          theme: {
-            primary_color_hex: '#e41c34'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mtsla.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13728,10 +12800,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mtwtr.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mtwtr.png',
-          theme: {
-            primary_color_hex: '#2cace4'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mtwtr.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13766,10 +12835,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/muso.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/muso.png',
-          theme: {
-            primary_color_hex: '#141c2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/muso.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13804,10 +12870,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mvixy.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mvixy.png',
-          theme: {
-            primary_color_hex: '#141c2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mvixy.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13842,10 +12905,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mvixy.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mvixy.png',
-          theme: {
-            primary_color_hex: '#141c2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mvixy.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13880,10 +12940,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lota.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lota.png',
-          theme: {
-            primary_color_hex: '#c63adc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lota.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13918,10 +12975,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dph.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dph.png',
-          theme: {
-            primary_color_hex: '#2c4c9c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dph.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13956,10 +13010,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mine.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mine.png',
-          theme: {
-            primary_color_hex: '#042c44'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mine.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13994,10 +13045,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bpsidp-24m.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bpsidp-24m.png',
-          theme: {
-            primary_color_hex: '#3d6d8e'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bpsidp-24m.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14032,10 +13080,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/spec.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/spec.png',
-          theme: {
-            primary_color_hex: '#fa2d6c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/spec.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14070,10 +13115,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/loop.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/loop.png',
-          theme: {
-            primary_color_hex: '#04dff9'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/loop.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14108,10 +13150,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/loopr.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/loopr.png',
-          theme: {
-            primary_color_hex: '#550555'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/loopr.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14146,10 +13185,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stt.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stt.png',
-          theme: {
-            primary_color_hex: '#f5e604'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stt.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14184,10 +13220,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twd.png',
-          theme: {
-            primary_color_hex: '#25abe3'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/twd.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14222,10 +13255,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xtra.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xtra.png',
-          theme: {
-            primary_color_hex: '#0c9cd4'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xtra.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14260,10 +13290,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miaw.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miaw.png',
-          theme: {
-            primary_color_hex: '#060606'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/miaw.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14298,10 +13325,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/psi.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/psi.png',
-          theme: {
-            primary_color_hex: '#1c1c2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/psi.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14546,10 +13570,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vkr.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vkr.png',
-          theme: {
-            primary_color_hex: '#1c1c1c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vkr.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14584,10 +13605,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orion.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orion.png',
-          theme: {
-            primary_color_hex: '#04bc74'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orion.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14622,10 +13640,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tland.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tland.png',
-          theme: {
-            primary_color_hex: '#c3a990'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tland.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14660,10 +13675,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vust.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vust.png',
-          theme: {
-            primary_color_hex: '#3ccb64'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vust.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14698,10 +13710,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eth.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eth.png',
-          theme: {
-            primary_color_hex: '#2d2831'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/eth.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14736,10 +13745,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wbtc.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wbtc.png',
-          theme: {
-            primary_color_hex: '#f3931e'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wbtc.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14774,10 +13780,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sol.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sol.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sol.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14812,10 +13815,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maticet.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maticet.png',
-          theme: {
-            primary_color_hex: '#8447e1'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maticet.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14850,10 +13850,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bnb.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bnb.png',
-          theme: {
-            primary_color_hex: '#f4bc2c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bnb.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14888,10 +13885,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cake.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cake.png',
-          theme: {
-            primary_color_hex: '#d0894d'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cake.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14926,10 +13920,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png',
-          theme: {
-            primary_color_hex: '#345cd4'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -14964,10 +13955,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sushi.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sushi.png',
-          theme: {
-            primary_color_hex: '#cd68ac'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sushi.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15002,10 +13990,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/uni.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/uni.png',
-          theme: {
-            primary_color_hex: '#b01e66'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/uni.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15040,10 +14025,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtet.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtet.png',
-          theme: {
-            primary_color_hex: '#56a995'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtet.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15078,10 +14060,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcet.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcet.png',
-          theme: {
-            primary_color_hex: '#2a75c9'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcet.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15116,10 +14095,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/kuji.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/kuji.png',
-          theme: {
-            primary_color_hex: '#24242c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/kuji.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15154,10 +14130,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/skuji.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/skuji.png',
-          theme: {
-            primary_color_hex: '#252933'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/skuji.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15192,10 +14165,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wsteth.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wsteth.png',
-          theme: {
-            primary_color_hex: '#9cdcfc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wsteth.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15230,10 +14200,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wstsol.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wstsol.png',
-          theme: {
-            primary_color_hex: '#1dbffc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/wstsol.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15303,10 +14270,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ldo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ldo.png',
-          theme: {
-            primary_color_hex: '#f49c8c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ldo.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15376,10 +14340,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stluna.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stluna.png',
-          theme: {
-            primary_color_hex: '#1fc0fb'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stluna.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15443,10 +14404,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/btl.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/btl.png',
-          theme: {
-            primary_color_hex: '#5cbc8c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/btl.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15481,10 +14439,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lunax.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lunax.png',
-          theme: {
-            primary_color_hex: '#cdcdce'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lunax.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15519,10 +14474,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luni.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luni.png',
-          theme: {
-            primary_color_hex: '#232742'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luni.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15557,10 +14509,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ply.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ply.png',
-          theme: {
-            primary_color_hex: '#070706'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ply.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15595,10 +14544,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfloki.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfloki.png',
-          theme: {
-            primary_color_hex: '#f6c911'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfloki.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15633,10 +14579,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tftic.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tftic.png',
-          theme: {
-            primary_color_hex: '#1c1c1b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tftic.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15671,10 +14614,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfticii.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfticii.png',
-          theme: {
-            primary_color_hex: '#1c1c1b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfticii.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15709,10 +14649,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfticiii.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfticiii.png',
-          theme: {
-            primary_color_hex: '#1c1c1b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tfticiii.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15747,10 +14684,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/moon.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/moon.png',
-          theme: {
-            primary_color_hex: '#ebb30c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/moon.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15860,10 +14794,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/halo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/halo.png',
-          theme: {
-            primary_color_hex: '#54a4dc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/halo.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15898,10 +14829,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pug.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pug.png',
-          theme: {
-            primary_color_hex: '#252424'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pug.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15936,10 +14864,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orne.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orne.png',
-          theme: {
-            primary_color_hex: '#fbfbfb'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orne.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -15974,10 +14899,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tns.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tns.png',
-          theme: {
-            primary_color_hex: '#2442cf'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tns.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16012,10 +14934,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xrune.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xrune.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xrune.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16050,10 +14969,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/alot.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/alot.png',
-          theme: {
-            primary_color_hex: '#c7bea1'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/alot.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16123,10 +15039,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/glow.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/glow.png',
-          theme: {
-            primary_color_hex: '#262238'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/glow.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16161,10 +15074,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/apollo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/apollo.png',
-          theme: {
-            primary_color_hex: '#10192a'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/apollo.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16263,10 +15173,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/prism.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/prism.png',
-          theme: {
-            primary_color_hex: '#f6f6f6'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/prism.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16330,10 +15237,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whsail.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whsail.png',
-          theme: {
-            primary_color_hex: '#0472b3'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whsail.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16368,10 +15272,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whgsail.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whgsail.png',
-          theme: {
-            primary_color_hex: '#046baa'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whgsail.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16406,10 +15307,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xprism.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xprism.png',
-          theme: {
-            primary_color_hex: '#242434'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xprism.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16473,10 +15371,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ctx.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ctx.png',
-          theme: {
-            primary_color_hex: '#04b4fc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ctx.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16511,10 +15406,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cluna.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cluna.png',
-          theme: {
-            primary_color_hex: '#211f2e'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cluna.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16549,10 +15441,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pluna.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pluna.png',
-          theme: {
-            primary_color_hex: '#202030'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/pluna.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16587,10 +15476,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/yluna.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/yluna.png',
-          theme: {
-            primary_color_hex: '#202130'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/yluna.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16625,10 +15511,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/atlo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/atlo.png',
-          theme: {
-            primary_color_hex: '#1b3667'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/atlo.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16663,10 +15546,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/local.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/local.png',
-          theme: {
-            primary_color_hex: '#242424'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/local.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16701,10 +15581,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luv.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luv.png',
-          theme: {
-            primary_color_hex: '#f7a02f'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luv.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16739,10 +15616,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/robo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/robo.png',
-          theme: {
-            primary_color_hex: '#2473d2'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/robo.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -16777,10 +15651,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luart.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luart.png',
-          theme: {
-            primary_color_hex: '#1b1429'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luart.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17019,10 +15890,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sd.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sd.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17057,10 +15925,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xsd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xsd.png',
-          theme: {
-            primary_color_hex: '#f3f3f3'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xsd.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17095,10 +15960,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/paxg.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/paxg.png',
-          theme: {
-            primary_color_hex: '#848484'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/paxg.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17133,10 +15995,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whdao.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whdao.png',
-          theme: {
-            primary_color_hex: '#2c2c44'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whdao.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17171,10 +16030,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png',
-          theme: {
-            primary_color_hex: '#345cd4'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17209,10 +16065,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sayve.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sayve.png',
-          theme: {
-            primary_color_hex: '#f3ebdb'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sayve.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17433,10 +16286,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sst.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sst.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sst.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17471,10 +16321,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/atlas.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/atlas.png',
-          theme: {
-            primary_color_hex: '#c77a91'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/atlas.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17509,10 +16356,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/audio.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/audio.png',
-          theme: {
-            primary_color_hex: '#7d1dc0'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/audio.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17547,10 +16391,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/avax.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/avax.png',
-          theme: {
-            primary_color_hex: '#e74245'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/avax.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17585,10 +16426,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bat.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bat.png',
-          theme: {
-            primary_color_hex: '#f75108'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/bat.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17623,10 +16461,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/busdbs.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/busdbs.png',
-          theme: {
-            primary_color_hex: '#f4bc0f'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/busdbs.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17661,10 +16496,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dai.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dai.png',
-          theme: {
-            primary_color_hex: '#fbb932'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/dai.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17699,10 +16531,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maticpo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maticpo.png',
-          theme: {
-            primary_color_hex: '#8445e3'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/maticpo.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17737,10 +16566,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mimet.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mimet.png',
-          theme: {
-            primary_color_hex: '#6f6df0'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mimet.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17775,10 +16601,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ray.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ray.png',
-          theme: {
-            primary_color_hex: '#4d75f2'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ray.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17813,10 +16636,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sbr.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sbr.png',
-          theme: {
-            primary_color_hex: '#161527'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sbr.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17851,10 +16671,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/shib.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/shib.png',
-          theme: {
-            primary_color_hex: '#f99e0e'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/shib.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17889,10 +16706,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/srmso.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/srmso.png',
-          theme: {
-            primary_color_hex: '#40c2d6'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/srmso.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17927,10 +16741,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcav.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcav.png',
-          theme: {
-            primary_color_hex: '#2775cb'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcav.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -17965,10 +16776,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcbs.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcbs.png',
-          theme: {
-            primary_color_hex: '#2675cb'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcbs.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18003,10 +16811,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcpo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcpo.png',
-          theme: {
-            primary_color_hex: '#2a73cc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcpo.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18041,10 +16846,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcso.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcso.png',
-          theme: {
-            primary_color_hex: '#2a76cc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdcso.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18079,10 +16881,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtav.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtav.png',
-          theme: {
-            primary_color_hex: '#55ac94'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtav.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18117,10 +16916,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtbs.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtbs.png',
-          theme: {
-            primary_color_hex: '#55ac94'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtbs.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18155,10 +16951,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtso.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtso.png',
-          theme: {
-            primary_color_hex: '#54ac96'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/usdtso.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18193,10 +16986,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gohm.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gohm.png',
-          theme: {
-            primary_color_hex: '#b3bec1'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/gohm.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18231,10 +17021,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msol.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msol.png',
-          theme: {
-            primary_color_hex: '#c8e8e1'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/msol.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18269,10 +17056,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/steth.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/steth.png',
-          theme: {
-            primary_color_hex: '#04a4fb'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/steth.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18307,10 +17091,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lct.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lct.png',
-          theme: {
-            primary_color_hex: '#2664a3'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lct.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18450,10 +17231,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lctfancard.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lctfancard.png',
-          theme: {
-            primary_color_hex: '#2968a5'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lctfancard.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18593,10 +17371,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cst.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cst.png',
-          theme: {
-            primary_color_hex: '#5d2616'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cst.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18631,10 +17406,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cstfancard.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cstfancard.png',
-          theme: {
-            primary_color_hex: '#5d2616'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/cstfancard.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18669,10 +17441,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nwld.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nwld.png',
-          theme: {
-            primary_color_hex: '#046394'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nwld.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18707,10 +17476,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/fury.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/fury.png',
-          theme: {
-            primary_color_hex: '#14045c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/fury.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18780,10 +17546,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vitc.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vitc.png',
-          theme: {
-            primary_color_hex: '#e3551b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/vitc.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18818,10 +17581,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sb.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sb.png',
-          theme: {
-            primary_color_hex: '#7c241c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sb.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18891,10 +17651,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orionastro.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orionastro.png',
-          theme: {
-            primary_color_hex: '#1d90d6'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/orionastro.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18929,10 +17686,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/retro.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/retro.png',
-          theme: {
-            primary_color_hex: '#eb4024'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/retro.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18967,10 +17721,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tnd.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tnd.png',
-          theme: {
-            primary_color_hex: '#1c53fb'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tnd.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19040,10 +17791,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nwt.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nwt.png',
-          theme: {
-            primary_color_hex: '#aeb8f5'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/nwt.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19078,10 +17826,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/neb.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/neb.png',
-          theme: {
-            primary_color_hex: '#8b90ad'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/neb.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19116,10 +17861,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/trit.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/trit.png',
-          theme: {
-            primary_color_hex: '#24ab9b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/trit.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19188,10 +17930,7 @@ const assets: AssetList = {
       name: 'Tadpole Frogztrik Token',
       symbol: 'TADF',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tadf.png',
-          theme: {
-            primary_color_hex: '#e9f9f2'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tadf.png'
         }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/tadf.png'
@@ -19227,10 +17966,7 @@ const assets: AssetList = {
       name: 'Frogztrik NFT Token',
       symbol: 'FROG',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/FROG.png',
-          theme: {
-            primary_color_hex: '#182615'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/FROG.png'
         }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/FROG.png'
@@ -19397,10 +18133,7 @@ const assets: AssetList = {
             base_denom: 'factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg',
-          theme: {
-            primary_color_hex: '#4056e9'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg'
         }],
       socials: {
         website: 'https://astroport.fi/',
@@ -19425,10 +18158,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Dinheiros.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Dinheiros.png',
-          theme: {
-            primary_color_hex: '#244c9c'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Dinheiros.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19464,10 +18194,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Reis.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Reis.png',
-          theme: {
-            primary_color_hex: '#1d5c65'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Reis.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19503,10 +18230,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Escudos.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Escudos.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Escudos.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19542,10 +18266,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Alem.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Alem.png',
-          theme: {
-            primary_color_hex: '#d1b295'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Alem.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19581,10 +18302,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/almagem.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/almagem.png',
-          theme: {
-            primary_color_hex: '#d1b295'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/almagem.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19620,10 +18338,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/arika.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/arika.png',
-          theme: {
-            primary_color_hex: '#d1b295'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/arika.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19659,10 +18374,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/danu.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/danu.png',
-          theme: {
-            primary_color_hex: '#d1b295'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/danu.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19698,10 +18410,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/trs.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/trs.png',
-          theme: {
-            primary_color_hex: '#d1b295'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/trs.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19737,10 +18446,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/plasma.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/plasma.png',
-          theme: {
-            primary_color_hex: '#d1b295'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/plasma.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19776,10 +18482,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/dmt.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/dmt.png',
-          theme: {
-            primary_color_hex: '#d1b295'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/dmt.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19852,10 +18555,7 @@ const assets: AssetList = {
       },
       coingecko_id: 'lion-dao',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/roar.png',
-          theme: {
-            primary_color_hex: '#f3f313'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/roar.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19891,10 +18591,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/gem.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/gem.png',
-          theme: {
-            primary_color_hex: '#21b6b3'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/gem.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19930,10 +18627,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/cub.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/cub.png',
-          theme: {
-            primary_color_hex: '#f3d343'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/cub.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -19969,10 +18663,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/blue.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/blue.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/blue.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20008,10 +18699,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/xxx3.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/xxx3.png',
-          theme: {
-            primary_color_hex: '#efe8e9'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/xxx3.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20047,10 +18735,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/gugu.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/gugu.png',
-          theme: {
-            primary_color_hex: '#e3e2e5'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/gugu.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20099,10 +18784,7 @@ const assets: AssetList = {
           }
         }],
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bLUNA.png',
-          theme: {
-            primary_color_hex: '#070707'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bLUNA.png'
         }]
     },
     {
@@ -20127,10 +18809,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/sayve.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/sayve.svg',
-          theme: {
-            primary_color_hex: '#f3ebdb'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/sayve.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20166,10 +18845,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/nicodao.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/nicodao.png',
-          theme: {
-            primary_color_hex: '#f1cc79'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/nicodao.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20205,10 +18881,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/SEAS.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/SEAS.png',
-          theme: {
-            primary_color_hex: '#c0943f'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/SEAS.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20244,10 +18917,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/BITZ.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/BITZ.png',
-          theme: {
-            primary_color_hex: '#dd6a30'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/BITZ.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20283,10 +18953,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/seul.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/seul.png',
-          theme: {
-            primary_color_hex: '#0da8c9'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/seul.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20322,10 +18989,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/xseul.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/xseul.png',
-          theme: {
-            primary_color_hex: '#0ba7ce'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/xseul.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20361,10 +19025,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/I.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/I.png',
-          theme: {
-            primary_color_hex: '#f8d034'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/I.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20400,10 +19061,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/armani.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/armani.png',
-          theme: {
-            primary_color_hex: '#d19a84'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/armani.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20439,10 +19097,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/drogo.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/drogo.png',
-          theme: {
-            primary_color_hex: '#ae987b'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/drogo.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20478,10 +19133,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ADO.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ADO.png',
-          theme: {
-            primary_color_hex: '#040607'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ADO.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20517,10 +19169,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/DNA.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/DNA.png',
-          theme: {
-            primary_color_hex: '#232333'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/DNA.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20556,10 +19205,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bitmos.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bitmos.png',
-          theme: {
-            primary_color_hex: '#0c0704'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bitmos.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20594,10 +19240,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/LADS.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/LADS.png',
-          theme: {
-            primary_color_hex: '#040507'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/LADS.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20633,10 +19276,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/clon1.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/clon1.png',
-          theme: {
-            primary_color_hex: '#c7cbcf'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/clon1.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20710,10 +19350,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.svg',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.svg'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -20751,10 +19388,7 @@ const assets: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.svg',
-          theme: {
-            primary_color_hex: '#FF47C2'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.svg'
         }],
       traces: [{
           type: 'ibc-cw20',

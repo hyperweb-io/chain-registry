@@ -351,15 +351,11 @@ const info: Chain = {
         base_denom: 'uaxl'
       },
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg',
-      theme: {
-        primary_color_hex: '#040404'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'
     }, {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axelar-chain-logo.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axelar-chain-logo.svg',
       theme: {
-        primary_color_hex: '#040404',
         circle: false
       }
     }]

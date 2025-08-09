@@ -32,8 +32,6 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/dogecoin/images/doge.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/dogecoin/images/doge.png',
           theme: {
-            primary_color_hex: '#f4941c',
-            background_color_hex: '#f4941c',
             circle: true
           }
         }],

@@ -64,10 +64,7 @@ const info: Chain = {
     }
   },
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava.png',
-      theme: {
-        primary_color_hex: '#6f043e'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava.png'
     }],
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava.png'

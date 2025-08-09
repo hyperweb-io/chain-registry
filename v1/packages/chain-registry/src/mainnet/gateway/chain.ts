@@ -55,16 +55,12 @@ const info: Chain = {
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gateway/images/wormhole_icon.svg',
       theme: {
-        background_color_hex: '#231b3b',
-        primary_color_hex: '#231b3b',
         circle: false
       }
     }, {
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gateway/images/wormhole_circle.svg',
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gateway/images/wormhole_circle.png',
       theme: {
-        background_color_hex: '#231b3b',
-        primary_color_hex: '#231b3b',
         circle: true
       }
     }],

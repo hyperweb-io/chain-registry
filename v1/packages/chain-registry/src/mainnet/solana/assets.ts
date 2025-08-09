@@ -27,14 +27,12 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png',
           theme: {
-            circle: true,
-            background_color_hex: '#000000'
+            circle: true
           }
         }, {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg',
           theme: {
-            circle: false,
-            background_color_hex: '#00000000'
+            circle: false
           }
         }]
     },
@@ -73,8 +71,7 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png',
           theme: {
-            circle: true,
-            background_color_hex: '#000000'
+            circle: true
           }
         }]
     },
@@ -98,10 +95,7 @@ const info: AssetList = {
       },
       coingecko_id: 'bonk',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bonk.png',
-          theme: {
-            primary_color_hex: '#ee950a'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bonk.png'
         }]
     },
     {
@@ -163,8 +157,7 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
           theme: {
-            circle: true,
-            primary_color_hex: '#2775CA'
+            circle: true
           }
         }]
     },
@@ -188,10 +181,7 @@ const info: AssetList = {
       },
       coingecko_id: 'basket',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bskt.png',
-          theme: {
-            primary_color_hex: '#485573'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bskt.png'
         }],
       socials: {
         website: 'https://www.bskt.fi/',
@@ -219,10 +209,7 @@ const info: AssetList = {
       },
       coingecko_id: 'wormhole',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/w.png',
-          theme: {
-            primary_color_hex: '#040404'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/w.png'
         }],
       socials: {
         website: 'https://wormhole.com/',
@@ -255,10 +242,7 @@ const info: AssetList = {
         }],
       coingecko_id: 'msol',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/msol.png',
-          theme: {
-            primary_color_hex: '#cbebe3'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/msol.png'
         }],
       socials: {
         website: 'https://marinade.finance/',
@@ -291,10 +275,7 @@ const info: AssetList = {
         }],
       coingecko_id: 'jito-staked-sol',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/jitosol.png',
-          theme: {
-            primary_color_hex: '#5bb384'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/jitosol.png'
         }],
       socials: {
         website: 'https://jito.network/',
@@ -327,10 +308,7 @@ const info: AssetList = {
         }],
       coingecko_id: 'blazestake-staked-sol',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bsol.png',
-          theme: {
-            primary_color_hex: '#21c3cc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bsol.png'
         }],
       socials: {
         website: 'https://stake.solblaze.org/',
@@ -362,10 +340,7 @@ const info: AssetList = {
         }],
       coingecko_id: 'liquid-staking-token',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/lst.png',
-          theme: {
-            primary_color_hex: '#dbdbdb'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/lst.png'
         }],
       socials: {
         website: 'https://www.marginfi.com/',
@@ -398,10 +373,7 @@ const info: AssetList = {
         }],
       coingecko_id: 'edgevana-staked-sol',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/edgesol.png',
-          theme: {
-            primary_color_hex: '#146cfc'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/edgesol.png'
         }],
       socials: {
         website: 'https://edgevana.com/',
@@ -434,10 +406,7 @@ const info: AssetList = {
         }],
       coingecko_id: 'helius-staked-sol',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/hsol.png',
-          theme: {
-            primary_color_hex: '#e5502a'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/hsol.png'
         }],
       socials: {
         website: 'https://helius.dev/',
@@ -470,10 +439,7 @@ const info: AssetList = {
         }],
       coingecko_id: 'jupiter-staked-sol',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/jupsol.png',
-          theme: {
-            primary_color_hex: '#85d79e'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/jupsol.png'
         }],
       socials: {
         website: 'https://jup.ag/',
@@ -497,10 +463,7 @@ const info: AssetList = {
       symbol: 'WIF',
       coingecko_id: 'dogwifcoin',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/wif.png',
-          theme: {
-            primary_color_hex: '#a29482'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/wif.png'
         }],
       socials: {
         website: 'https://dogwifcoin.org/',
@@ -539,9 +502,7 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
           theme: {
-            circle: true,
-            primary_color_hex: '#009393',
-            background_color_hex: '#009393'
+            circle: true
           }
         }],
       coingecko_id: 'tether',
@@ -569,8 +530,6 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/whine.png',
           theme: {
-            primary_color_hex: '#FFFFFF',
-            background_color_hex: '#FFFFFF',
             circle: false
           }
         }],
@@ -599,11 +558,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pbj.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pbj.png',
-          theme: {
-            primary_color_hex: '#488000',
-            background_color_hex: '#ee0000'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pbj.png'
         }],
       socials: {
         website: 'https://sandwichswap.io/',
@@ -644,10 +599,7 @@ const info: AssetList = {
             chain_name: 'unicorn',
             base_denom: 'uwunicorn'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unicorn/images/uwu.png',
-          theme: {
-            primary_color_hex: '#D44CE6'
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unicorn/images/uwu.png'
         }],
       socials: {
         website: 'https://unicorn.meme/',

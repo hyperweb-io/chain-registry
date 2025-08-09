@@ -278,10 +278,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve.svg',
-      theme: {
-        primary_color_hex: '#325350'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve.svg'
     }]
 };
 export default info;

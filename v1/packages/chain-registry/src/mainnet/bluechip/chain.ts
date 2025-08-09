@@ -44,10 +44,7 @@ const info: Chain = {
     }
   },
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bluechip/images/bluechip.png',
-      theme: {
-        primary_color_hex: '#0c94d3'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bluechip/images/bluechip.png'
     }]
 };
 export default info;

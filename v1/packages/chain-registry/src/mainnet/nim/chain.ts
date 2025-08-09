@@ -33,10 +33,7 @@ const info: Chain = {
   description: 'Nim Network is a highly-adoptable AI Gaming chain that will provide the ultimate ecosystem for exploration and development of games at the intersection of Web3 and AI.',
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.svg',
-      theme: {
-        primary_color_hex: '#519cea'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.svg'
     }],
   codebase: {
     git_repo: 'https://github.com/Nim-Network-Foundation/mainnet',

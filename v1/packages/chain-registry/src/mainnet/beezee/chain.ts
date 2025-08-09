@@ -138,10 +138,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.svg',
-      theme: {
-        primary_color_hex: '#079fd7'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.svg'
     }]
 };
 export default info;

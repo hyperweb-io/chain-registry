@@ -273,10 +273,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg',
-      theme: {
-        primary_color_hex: '#fa7b7b'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg'
     }]
 };
 export default info;

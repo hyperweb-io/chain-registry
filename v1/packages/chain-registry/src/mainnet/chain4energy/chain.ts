@@ -456,10 +456,7 @@ const info: Chain = {
     }
   ],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png',
-      theme: {
-        primary_color_hex: '#24344c'
-      }
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png'
     }]
 };
 export default info;

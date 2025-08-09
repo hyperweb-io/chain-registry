@@ -19,10 +19,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xarchain/images/arcana_logo.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xarchain/images/arcana_logo.svg',
-          theme: {
-            primary_color_hex: '#000000'
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xarchain/images/arcana_logo.svg'
         }],
       socials: {
         website: 'https://arcana.network',

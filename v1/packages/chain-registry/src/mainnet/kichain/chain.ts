@@ -197,10 +197,7 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg',
-      theme: {
-        primary_color_hex: '#1c04fc'
-      }
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg'
     }]
 };
 export default info;
