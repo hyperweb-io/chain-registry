@@ -19,7 +19,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg'
       },
-      coingecko_id: 'lambda',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg'

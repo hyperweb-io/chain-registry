@@ -147,6 +147,7 @@ export * as stargaze from './stargaze';
 export * as starname from './starname';
 export * as stratos from './stratos';
 export * as stride from './stride';
+export * as sunrise from './sunrise';
 export * as symphony from './symphony';
 export * as synternet from './synternet';
 export * as taketitan from './taketitan';

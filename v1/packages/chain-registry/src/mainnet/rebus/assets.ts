@@ -19,7 +19,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.svg'
       },
-      coingecko_id: 'rebus',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.svg'

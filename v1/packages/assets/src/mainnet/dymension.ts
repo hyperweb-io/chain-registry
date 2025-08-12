@@ -872,7 +872,6 @@ const assets: AssetList = {
       name: 'Mande Network',
       display: 'mand',
       symbol: 'MAND',
-      coingecko_id: 'mande-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.svg'
@@ -1785,7 +1784,6 @@ const assets: AssetList = {
       name: 'Mande Network',
       display: 'mand',
       symbol: 'MAND',
-      coingecko_id: 'mande-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.svg'

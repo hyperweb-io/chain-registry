@@ -1782,7 +1782,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg'
       },
-      coingecko_id: 'odin-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg'
@@ -10040,7 +10039,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg'
       },
-      coingecko_id: 'odin-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg'

@@ -1728,7 +1728,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.svg'
       },
-      coingecko_id: 'consciousdao',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.svg'
@@ -4704,7 +4703,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg'
       },
-      coingecko_id: 'lambda',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg'
@@ -5904,7 +5902,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg'
       },
-      coingecko_id: 'odin-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg'
@@ -6174,7 +6171,6 @@ const asset_list: AssetList = {
         'bridge',
         'staking'
       ],
-      coingecko_id: 'onomy-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.svg'
@@ -7943,7 +7939,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.svg'
       },
-      coingecko_id: 'consciousdao',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.svg'
@@ -10919,7 +10914,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg'
       },
-      coingecko_id: 'lambda',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg'
@@ -12155,7 +12149,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg'
       },
-      coingecko_id: 'odin-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg'
@@ -12425,7 +12418,6 @@ const asset_list: AssetList = {
         'bridge',
         'staking'
       ],
-      coingecko_id: 'onomy-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.svg'
@@ -19926,7 +19918,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.svg'
       },
-      coingecko_id: 'rebus',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.svg'
@@ -20167,7 +20158,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.svg'
       },
-      coingecko_id: 'scorum',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.svg'
@@ -20471,7 +20461,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.svg'
       },
-      coingecko_id: 'six-sigma',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.svg',
@@ -20863,7 +20852,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
       },
-      coingecko_id: 'starname',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
@@ -29854,7 +29842,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.svg'
       },
-      coingecko_id: 'rebus',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.svg'
@@ -30095,7 +30082,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.svg'
       },
-      coingecko_id: 'scorum',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.svg'
@@ -30399,7 +30385,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.svg'
       },
-      coingecko_id: 'six-sigma',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.svg',
@@ -30791,7 +30776,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
       },
-      coingecko_id: 'starname',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'

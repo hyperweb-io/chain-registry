@@ -149,6 +149,7 @@ import * as _stargaze from './stargaze';
 import * as _starname from './starname';
 import * as _stratos from './stratos';
 import * as _stride from './stride';
+import * as _sunrise from './sunrise';
 import * as _symphony from './symphony';
 import * as _synternet from './synternet';
 import * as _taketitan from './taketitan';
@@ -315,6 +316,7 @@ const ibc: IBCInfo[] = [
   ..._starname.ibc,
   ..._stratos.ibc,
   ..._stride.ibc,
+  ..._sunrise.ibc,
   ..._symphony.ibc,
   ..._synternet.ibc,
   ..._taketitan.ibc,

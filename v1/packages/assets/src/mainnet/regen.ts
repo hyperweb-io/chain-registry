@@ -1128,7 +1128,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
       },
-      coingecko_id: 'starname',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
@@ -1280,7 +1279,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
       },
-      coingecko_id: 'starname',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
