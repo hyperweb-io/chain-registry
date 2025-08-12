@@ -424,7 +424,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.svg'
       },
-      coingeckoId: 'stride-staked-sommelier',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.svg'

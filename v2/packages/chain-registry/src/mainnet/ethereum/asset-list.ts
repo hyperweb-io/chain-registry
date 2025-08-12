@@ -958,7 +958,6 @@ const info: AssetList = {
       name: 'Open Exchange Token',
       display: 'ox',
       symbol: 'OX',
-      coingeckoId: 'open-exchange-token',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.svg'
       },

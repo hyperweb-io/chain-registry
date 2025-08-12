@@ -25,7 +25,6 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/0l/images/libra.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/0l/images/libra.svg'
         }],
-      coingeckoId: 'libra-3',
       socials: {
         website: 'https://0l.network/',
         twitter: 'https://twitter.com/0LNetwork'

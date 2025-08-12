@@ -25,7 +25,6 @@ const info: AssetList = {
         'bridge',
         'staking'
       ],
-      coingeckoId: 'onomy-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.svg'

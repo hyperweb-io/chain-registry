@@ -122,8 +122,7 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.svg'
-      },
-      coingeckoId: 'mande-network'
+      }
     }
   ]
 };

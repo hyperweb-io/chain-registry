@@ -20,7 +20,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.svg'
       },
-      coingeckoId: 'consciousdao',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.svg'
