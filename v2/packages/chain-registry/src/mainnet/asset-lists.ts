@@ -147,6 +147,7 @@ import * as _osmosis from './osmosis';
 import * as _paloma from './paloma';
 import * as _panacea from './panacea';
 import * as _passage from './passage';
+import * as _paxi from './paxi';
 import * as _persistence from './persistence';
 import * as _planq from './planq';
 import * as _pocket from './pocket';
@@ -359,6 +360,7 @@ const assetList: AssetList[] = [
   _paloma.assetList,
   _panacea.assetList,
   _passage.assetList,
+  _paxi.assetList,
   _persistence.assetList,
   _planq.assetList,
   _pocket.assetList,

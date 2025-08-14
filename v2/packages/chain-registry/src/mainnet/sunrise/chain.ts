@@ -55,20 +55,34 @@ const info: Chain = {
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg'
   },
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://a.consensus.sunrise-1.sunriselayer.io',
         provider: 'Sunrise Team'
-      }, {
+      },
+      {
+        address: 'https://sunrise-mainnet-rpc.mekonglabs.tech',
+        provider: 'MekongLabs'
+      },
+      {
         address: 'https://rpc-sunrise.nodeist.net',
         provider: 'Nodeist'
-      }],
-    rest: [{
+      }
+    ],
+    rest: [
+      {
         address: 'https://a.consensus.sunrise-1.sunriselayer.io:1318',
         provider: 'Sunrise Team'
-      }, {
+      },
+      {
+        address: 'https://sunrise-mainnet-api.mekonglabs.tech',
+        provider: 'MekongLabs'
+      },
+      {
         address: 'https://api-sunrise.nodeist.net',
         provider: 'Nodeist'
-      }],
+      }
+    ],
     grpc: [{
         address: 'https://a.consensus.sunrise-1.sunriselayer.io:9092',
         provider: 'Sunrise Team'
@@ -77,17 +91,26 @@ const info: Chain = {
         provider: 'Nodeist'
       }]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'Risescan',
       url: 'https://risescan.sunriselayer.io',
       txPage: 'https://risescan.sunriselayer.io/txs/${txHash}',
       accountPage: 'https://risescan.sunriselayer.io/accounts/${accountAddress}'
-    }, {
+    },
+    {
+      kind: 'MekongLabs Explorer',
+      url: 'https://explorer.mekonglabs.tech/sunrise/staking',
+      txPage: 'https://explorer.mekonglabs.tech/sunrise/tx/${txHash}',
+      accountPage: 'https://explorer.mekonglabs.tech/sunrise/account/${accountAddress}'
+    },
+    {
       kind: 'Explorer.ist',
       url: 'https://explorer.ist/sunrise',
       txPage: 'https://explorer.ist/sunrise/tx/${txHash}',
       accountPage: 'https://explorer.ist/sunrise/account/${accountAddress}'
-    }],
+    }
+  ],
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg',
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.png'

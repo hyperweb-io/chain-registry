@@ -221,6 +221,30 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
         }]
+    },
+    {
+      description: 'This tThe ultimate snack-based meme coin for loyal degens. Earn them, trade them, and feed your inner Shibe — no utility, just tasty vibes.',
+      extendedDescription: 'This tThe ultimate snack-based meme coin for loyal degens. Earn them, trade them, and feed your inner Shibe — no utility, just tasty vibes.',
+      denomUnits: [{
+          denom: 'factory/mantra1uvn4qgh96lc83dzu8mpf3u93lk605ls0vg0nf2/TREATS',
+          exponent: 0,
+          aliases: []
+        }, {
+          denom: 'TREATS',
+          exponent: 18,
+          aliases: ['treats']
+        }],
+      base: 'factory/mantra1uvn4qgh96lc83dzu8mpf3u93lk605ls0vg0nf2/TREATS',
+      name: 'Shibe Inu Treats',
+      display: 'TREATS',
+      symbol: 'TREATS',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/mantrachaintestnet2/images/treats.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/mantrachaintestnet2/images/treats.png'
+        }],
+      typeAsset: 'sdk.coin'
     }
   ]
 };

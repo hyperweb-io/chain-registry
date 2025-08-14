@@ -1402,6 +1402,37 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.svg'
         }]
+    },
+    {
+      description: 'ampCAPA is the liquid staking governance token of SOLID ecosystem, powered by ERIS Protocol',
+      denomUnits: [{
+          denom: 'factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA',
+          exponent: 0
+        }, {
+          denom: 'ampCAPA',
+          exponent: 6
+        }],
+      base: 'factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA',
+      name: 'ERIS Amplified CAPA',
+      display: 'ampCAPA',
+      symbol: 'ampCAPA',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ampCapa.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ampCapa.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ampCapa.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ampCapa.svg'
+        }],
+      typeAsset: 'sdk.coin',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chainName: 'terra2',
+            baseDenom: 'uluna'
+          },
+          provider: 'ERIS Protocol'
+        }]
     }
   ]
 };

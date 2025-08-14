@@ -32,26 +32,26 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/bandprotocol/chain',
-    recommendedVersion: 'v2.5.4',
-    compatibleVersions: [
-      'v2.5.2',
-      'v2.5.3',
-      'v2.5.4'
-    ],
+    recommendedVersion: 'v3.1.0',
+    compatibleVersions: ['v3.1.0'],
     consensus: {
       type: 'cometbft',
-      version: 'v0.34.29'
+      version: 'v0.38.17'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/bandprotocol/launch/master/laozi-mainnet/genesis.json'
     },
     sdk: {
       type: 'cosmos',
-      version: '0.45.16'
+      version: 'v0.50.14'
     },
     ibc: {
       type: 'go',
-      version: 'v4.3.1'
+      version: 'v8.7.0'
+    },
+    language: {
+      type: 'go',
+      version: 'v1.24.2'
     }
   },
   logoURIs: {
