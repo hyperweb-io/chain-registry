@@ -89,10 +89,6 @@ const info: Chain = {
         provider: 'silent'
       },
       {
-        address: 'https://rpc.evmos.tcnetwork.io',
-        provider: 'TC Network'
-      },
-      {
         address: 'https://evmos.rpc.stakin-nodes.com',
         provider: 'Stakin'
       },
@@ -173,10 +169,6 @@ const info: Chain = {
       {
         address: 'https://api.evmos.silentvalidator.com/',
         provider: 'silent'
-      },
-      {
-        address: 'https://rest.evmos.tcnetwork.io',
-        provider: 'TC Network'
       },
       {
         address: 'https://evmos.rest.stakin-nodes.com',
@@ -325,10 +317,6 @@ const info: Chain = {
       {
         address: 'https://evm-rpc.evmos.silentvalidator.com/',
         provider: 'silent'
-      },
-      {
-        address: 'https://json-rpc.evmos.tcnetwork.io',
-        provider: 'TC Network'
       },
       {
         address: 'https://evmosevm.rpc.stakin-nodes.com',

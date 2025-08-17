@@ -67,6 +67,10 @@ const info: Chain = {
       {
         address: 'https://rpc-sunrise.nodeist.net',
         provider: 'Nodeist'
+      },
+      {
+        address: 'https://rpc.sunrise.tcnetwork.io',
+        provider: 'TC Network'
       }
     ],
     rest: [
@@ -81,6 +85,10 @@ const info: Chain = {
       {
         address: 'https://api-sunrise.nodeist.net',
         provider: 'Nodeist'
+      },
+      {
+        address: 'https://rest.sunrise.tcnetwork.io',
+        provider: 'TC Network'
       }
     ],
     grpc: [{
@@ -92,6 +100,11 @@ const info: Chain = {
       }]
   },
   explorers: [
+    {
+      kind: 'TC Network',
+      url: 'https://explorer.tcnetwork.io/sunrise',
+      txPage: 'https://explorer.tcnetwork.io/sunrise/transaction/${txHash}'
+    },
     {
       kind: 'Risescan',
       url: 'https://risescan.sunriselayer.io',

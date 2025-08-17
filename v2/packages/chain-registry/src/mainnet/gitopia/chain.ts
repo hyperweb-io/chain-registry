@@ -138,10 +138,6 @@ const info: Chain = {
         provider: 'Enigma'
       },
       {
-        address: 'https://rpc.gitopia.tcnetwork.io/',
-        provider: 'TC Network'
-      },
-      {
         address: 'https://gitopia.nodejumper.io:443',
         provider: 'NODEJUMPER'
       },
@@ -250,10 +246,6 @@ const info: Chain = {
       {
         address: 'https://gitopia-lcd.enigma-validator.com/',
         provider: 'Enigma'
-      },
-      {
-        address: 'https://rest.gitopia.tcnetwork.io/',
-        provider: 'TC Network'
       },
       {
         address: 'https://gitopia.nodejumper.io:1317',
@@ -447,12 +439,6 @@ const info: Chain = {
       url: 'https://explorer.nodexcapital.com/gitopia',
       txPage: 'https://explorer.nodexcapital.com/gitopia/tx/${txHash}',
       accountPage: 'https://explorer.nodexcapital.com/gitopia/account/${accountAddress}'
-    },
-    {
-      kind: 'TC Network',
-      url: 'https://explorer.tcnetwork.io/gitopia',
-      txPage: 'https://explorer.tcnetwork.io/gitopia/transaction/${txHash}',
-      accountPage: 'https://explorer.tcnetwork.io/gitopia/account/${accountAddress}'
     },
     {
       kind: 'NodeStake',

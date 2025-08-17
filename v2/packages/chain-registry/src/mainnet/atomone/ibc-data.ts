@@ -1,5 +1,6 @@
 import { IBCData } from '@chain-registry/types';
-const info: IBCData[] = [{
+const info: IBCData[] = [
+  {
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'atomone',
@@ -27,7 +28,8 @@ const info: IBCData[] = [{
           preferred: true
         }
       }]
-  }, {
+  },
+  {
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'atomone',
@@ -55,5 +57,35 @@ const info: IBCData[] = [{
           preferred: true
         }
       }]
-  }];
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
+      chainName: 'atomone',
+      clientId: '07-tendermint-6',
+      connectionId: 'connection-7'
+    },
+    chain2: {
+      chainName: 'stargaze',
+      clientId: '07-tendermint-380',
+      connectionId: 'connection-337'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-3',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-448',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true
+        }
+      }]
+  }
+];
 export default info;
