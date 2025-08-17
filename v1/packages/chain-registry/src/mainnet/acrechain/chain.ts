@@ -50,10 +50,6 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'https://rpc.acre.tcnetwork.io',
-        provider: 'TC Network'
-      },
-      {
         address: 'https://mainnet-acre-rpc.konsortech.xyz',
         provider: 'KonsorTech'
       },
@@ -70,10 +66,6 @@ const info: Chain = {
       {
         address: 'https://acrechain-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'https://rest.acre.tcnetwork.io',
-        provider: 'TC Network'
       },
       {
         address: 'https://mainnet-acre-api.konsortech.xyz',
@@ -118,10 +110,6 @@ const info: Chain = {
       {
         address: 'https://evm.acrescan.com/',
         provider: 'Anonstake'
-      },
-      {
-        address: 'https://json-rpc.acre.tcnetwork.io',
-        provider: 'TC Network'
       },
       {
         address: 'https://mainnet-acre-evm.konsortech.xyz',

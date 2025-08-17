@@ -72,10 +72,6 @@ const info: Chain = {
         provider: 'Staketab'
       },
       {
-        address: 'https://rpc.desmos.tcnetwork.io',
-        provider: 'TC Network'
-      },
-      {
         address: 'https://rpc.desmos.bronbro.io:443',
         provider: 'Bro_n_Bro'
       },
@@ -96,10 +92,6 @@ const info: Chain = {
       {
         address: 'https://desmos-rest.staketab.org',
         provider: 'Staketab'
-      },
-      {
-        address: 'https://rest.desmos.tcnetwork.io',
-        provider: 'TC Network'
       },
       {
         address: 'https://lcd.desmos.bronbro.io:443',
@@ -173,11 +165,6 @@ const info: Chain = {
       kind: 'atomscan',
       url: 'https://atomscan.com/desmos',
       tx_page: 'https://atomscan.com/desmos/transactions/${txHash}'
-    },
-    {
-      kind: 'TC Network',
-      url: 'https://explorer.tcnetwork.io/desmos',
-      tx_page: 'https://explorer.tcnetwork.io/desmos/transaction/${txHash}'
     },
     {
       kind: 'Decloud Nodes Lab',

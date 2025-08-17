@@ -47,10 +47,6 @@ const info: Chain = {
         provider: 'KonsorTech'
       },
       {
-        address: 'https://rpc.mun.tcnetwork.io',
-        provider: 'TC Network'
-      },
-      {
         address: 'https://mun_mainnet_rpc.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }
@@ -63,10 +59,6 @@ const info: Chain = {
       {
         address: 'https://mainnet-mun-api.konsortech.xyz',
         provider: 'KonsorTech'
-      },
-      {
-        address: 'https://rest.mun.tcnetwork.io',
-        provider: 'TC Network'
       },
       {
         address: 'https://mun_mainnet_api.chain.whenmoonwhenlambo.money',
@@ -92,11 +84,6 @@ const info: Chain = {
       kind: 'ping.pub',
       url: 'https://ping.pub/mun',
       tx_page: 'https://ping.pub/mun/${txHash}'
-    },
-    {
-      kind: 'TC Network',
-      url: 'https://explorer.tcnetwork.io/mun',
-      tx_page: 'https://explorer.tcnetwork.io/mun/transaction/${txHash}'
     },
     {
       kind: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥',

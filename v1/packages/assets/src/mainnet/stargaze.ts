@@ -156,6 +156,85 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native staking and governance token of AtomOne',
+      denom_units: [{
+          denom: 'ibc/1CB8A5D27AD8BEBAFF6C810E637157E07703662AA084E68330E388F77E27244D',
+          exponent: 0,
+          aliases: ['uatone']
+        }, {
+          denom: 'atone',
+          exponent: 6
+        }],
+      base: 'ibc/1CB8A5D27AD8BEBAFF6C810E637157E07703662AA084E68330E388F77E27244D',
+      name: 'Atone',
+      display: 'atone',
+      symbol: 'ATONE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://atom.one',
+        twitter: 'https://x.com/_atomone'
+      },
+      coingecko_id: 'atomone',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'uatone',
+            chain_name: 'atomone'
+          },
+          chain: {
+            channel_id: 'channel-448'
+          }
+        }]
+    },
+    {
+      description: 'The fee token of AtomOne',
+      denom_units: [{
+          denom: 'ibc/1F59A463886D3C4B32244C3984C6B208F3F1C60889136FFCE8FBD1808DE7B92D',
+          exponent: 0,
+          aliases: ['uphoton']
+        }, {
+          denom: 'photon',
+          exponent: 6
+        }],
+      base: 'ibc/1F59A463886D3C4B32244C3984C6B208F3F1C60889136FFCE8FBD1808DE7B92D',
+      name: 'Photon',
+      display: 'photon',
+      symbol: 'PHOTON',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://atom.one',
+        twitter: 'https://x.com/_atomone'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'uphoton',
+            chain_name: 'atomone'
+          },
+          chain: {
+            channel_id: 'channel-448'
+          }
+        }]
+    },
+    {
       description: 'The native token of Aura Network',
       denom_units: [{
           denom: 'ibc/7C6220A768862B54B717F6AF9E29D398B16747B79D509E777D7F2259578E3D47',
@@ -1598,6 +1677,85 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-447'
+          }
+        }]
+    },
+    {
+      description: 'The native staking and governance token of AtomOne',
+      denom_units: [{
+          denom: 'ibc/1CB8A5D27AD8BEBAFF6C810E637157E07703662AA084E68330E388F77E27244D',
+          exponent: 0,
+          aliases: ['uatone']
+        }, {
+          denom: 'atone',
+          exponent: 6
+        }],
+      base: 'ibc/1CB8A5D27AD8BEBAFF6C810E637157E07703662AA084E68330E388F77E27244D',
+      name: 'Atone',
+      display: 'atone',
+      symbol: 'ATONE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://atom.one',
+        twitter: 'https://x.com/_atomone'
+      },
+      coingecko_id: 'atomone',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'uatone',
+            chain_name: 'atomone'
+          },
+          chain: {
+            channel_id: 'channel-448'
+          }
+        }]
+    },
+    {
+      description: 'The fee token of AtomOne',
+      denom_units: [{
+          denom: 'ibc/1F59A463886D3C4B32244C3984C6B208F3F1C60889136FFCE8FBD1808DE7B92D',
+          exponent: 0,
+          aliases: ['uphoton']
+        }, {
+          denom: 'photon',
+          exponent: 6
+        }],
+      base: 'ibc/1F59A463886D3C4B32244C3984C6B208F3F1C60889136FFCE8FBD1808DE7B92D',
+      name: 'Photon',
+      display: 'photon',
+      symbol: 'PHOTON',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://atom.one',
+        twitter: 'https://x.com/_atomone'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'uphoton',
+            chain_name: 'atomone'
+          },
+          chain: {
+            channel_id: 'channel-448'
           }
         }]
     },

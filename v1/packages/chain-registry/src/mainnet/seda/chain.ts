@@ -138,6 +138,10 @@ const info: Chain = {
       {
         address: 'https://seda.rpc.cumulo.org.es',
         provider: 'Cumulo'
+      },
+      {
+        address: 'https://rpc.seda.tcnetwork.io',
+        provider: 'TC Network'
       }
     ],
     rest: [
@@ -212,6 +216,10 @@ const info: Chain = {
       {
         address: 'https://seda.api.cumulo.org.es',
         provider: 'Cumulo'
+      },
+      {
+        address: 'https://rest.seda.tcnetwork.io',
+        provider: 'TC Network'
       }
     ],
     grpc: [
@@ -262,6 +270,11 @@ const info: Chain = {
     ]
   },
   explorers: [
+    {
+      kind: 'TC Network',
+      url: 'https://explorer.tcnetwork.io/seda',
+      tx_page: 'https://explorer.tcnetwork.io/seda/transaction/${txHash}'
+    },
     {
       kind: 'Chainroot',
       url: 'https://explorer.chainroot.io/seda',
