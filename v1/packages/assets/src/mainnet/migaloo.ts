@@ -9425,7 +9425,12 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'Juris Protocol is the Lending Platform for the Terra Ecosystem.',
+      description: 'Juris Protocol is the premier lending platform for the Terra Ecosystem, delivering decentralized lending and borrowing markets to enhance financial accessibility and utility.',
+      socials: {
+        website: 'https://jurisprotocol.com/',
+        twitter: 'https://x.com/jurisprotocol'
+      },
+      coingecko_id: 'juris-protocol',
       type_asset: 'cw20',
       address: 'terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2',
       denom_units: [{
@@ -17878,7 +17883,12 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'Juris Protocol is the Lending Platform for the Terra Ecosystem.',
+      description: 'Juris Protocol is the premier lending platform for the Terra Ecosystem, delivering decentralized lending and borrowing markets to enhance financial accessibility and utility.',
+      socials: {
+        website: 'https://jurisprotocol.com/',
+        twitter: 'https://x.com/jurisprotocol'
+      },
+      coingecko_id: 'juris-protocol',
       type_asset: 'cw20',
       address: 'terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2',
       denom_units: [{
