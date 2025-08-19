@@ -13825,7 +13825,6 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.svg'
         }],
-      coingeckoId: 'nim-network',
       keywords: [
         'gaming',
         'AI',
@@ -14998,7 +14997,8 @@ const info: AssetList = {
         }]
     },
     {
-      description: 'Rakoff Token is the Meme Token for Terra Classic',
+      description: 'Juris Protocol is the premier lending platform for the Terra Ecosystem, delivering decentralized lending and borrowing markets to enhance financial accessibility and utility.',
+      extendedDescription: 'Juris Protocol is a sophisticated DeFi platform built on Terra Classic, leveraging CosmWasm smart contracts to provide secure, transparent lending and borrowing solutions. Designed to empower users, it supports assets like USTC and LUNC, driving yield opportunities and ecosystem growth. Terra Classic, originally engineered for algorithmic stablecoins, uses LUNC to stabilize its financial infrastructure. Juris Protocol advances this vision with audited contracts, KYC-verified governance, and an IBC bridge for seamless Cosmos integration, ensuring a robust, user-focused DeFi experience.',
       denomUnits: [{
           denom: 'ibc/46579C587A0B8CF8B0A1FF6B0EFA2082F11876578E47FC81A9CAAD31F424AF98',
           exponent: 0,
@@ -15012,6 +15012,11 @@ const info: AssetList = {
       name: 'Juris Protocol',
       display: 'rakoff',
       symbol: 'JURIS',
+      coingeckoId: 'juris-protocol',
+      socials: {
+        website: 'https://jurisprotocol.com/',
+        twitter: 'https://x.com/jurisprotocol'
+      },
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
