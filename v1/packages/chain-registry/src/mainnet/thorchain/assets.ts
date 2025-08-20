@@ -4,8 +4,6 @@ const info: AssetList = {
   chain_name: 'thorchain',
   assets: [
     {
-      base: 'rune',
-      type_asset: 'sdk.coin',
       description: 'The native token of THORChain',
       denom_units: [{
           denom: 'rune',
@@ -14,6 +12,8 @@ const info: AssetList = {
           denom: 'RUNE',
           exponent: 8
         }],
+      type_asset: 'sdk.coin',
+      base: 'rune',
       name: 'THORChain',
       display: 'RUNE',
       symbol: 'RUNE',
@@ -39,8 +39,6 @@ const info: AssetList = {
       }
     },
     {
-      base: 'x/ruji',
-      type_asset: 'sdk.coin',
       description: 'Rujira is the app layer on THORChain with a full suite of DeFi applications, accessible with native assets from all connected chains.',
       denom_units: [{
           denom: 'x/ruji',
@@ -49,6 +47,8 @@ const info: AssetList = {
           denom: 'thor.ruji',
           exponent: 8
         }],
+      type_asset: 'sdk.coin',
+      base: 'x/ruji',
       name: 'Rujira',
       display: 'thor.ruji',
       symbol: 'RUJI',
@@ -72,8 +72,6 @@ const info: AssetList = {
       }
     },
     {
-      base: 'thor.auto',
-      type_asset: 'sdk.coin',
       description: 'AutoRujira maximizes your crypto returns by automating every DeFi opportunity across Rujira and THORChain. From staking to trading, everything runs on autopilot — powered by smart contracts and AI',
       denom_units: [{
           denom: 'thor.auto',
@@ -82,6 +80,8 @@ const info: AssetList = {
           denom: 'AUTO',
           exponent: 8
         }],
+      type_asset: 'sdk.coin',
+      base: 'thor.auto',
       name: 'AutoRujira',
       display: 'AUTO',
       symbol: 'AUTO',
@@ -104,8 +104,6 @@ const info: AssetList = {
       }
     },
     {
-      base: 'thor.lqdy',
-      type_asset: 'sdk.coin',
       description: 'Liquidy is a decentralized autonomous organization running a series of profitable on-chain revenue streams. The primary revenue streams are Market Making and a Swap Router.',
       denom_units: [{
           denom: 'thor.lqdy',
@@ -114,6 +112,8 @@ const info: AssetList = {
           denom: 'LQDY',
           exponent: 8
         }],
+      type_asset: 'sdk.coin',
+      base: 'thor.lqdy',
       name: 'Liquidy',
       display: 'LQDY',
       symbol: 'LQDY',
@@ -137,8 +137,6 @@ const info: AssetList = {
       }
     },
     {
-      base: 'thor.nami',
-      type_asset: 'sdk.coin',
       description: 'Nami provides a suite of DeFi applications including an optimized EARN product and on-chain INDEXES for native assets, accessible from any connected chain. Maximize yield. Simplify access. Reduce risk. Grow with Nami',
       denom_units: [{
           denom: 'thor.nami',
@@ -147,6 +145,8 @@ const info: AssetList = {
           denom: 'NAMI',
           exponent: 8
         }],
+      type_asset: 'sdk.coin',
+      base: 'thor.nami',
       name: 'Nami Protocol',
       display: 'NAMI',
       symbol: 'NAMI',
@@ -170,9 +170,7 @@ const info: AssetList = {
       }
     },
     {
-      base: 'tcy',
-      type_asset: 'sdk.coin',
-      description: 'TCY is the token on THORChain to address the default of THORFi. 10% of all system income is paid to TCY stakers.',
+      description: 'TCY is the THORChain Yield token to address the default of THORFi. 10% of all system income is paid to TCY stakers.',
       denom_units: [{
           denom: 'tcy',
           exponent: 0
@@ -180,6 +178,8 @@ const info: AssetList = {
           denom: 'thor.tcy',
           exponent: 8
         }],
+      type_asset: 'sdk.coin',
+      base: 'tcy',
       name: 'THORChain TCY',
       display: 'thor.tcy',
       symbol: 'TCY',
@@ -203,8 +203,46 @@ const info: AssetList = {
       }
     },
     {
-      base: 'x/nami-index-fixed-thor1yqf5spdv8c4088zmvqsg32eq63fzepsjvntahdk0ek0yjnkt3qdqftp3lc-rcpt',
+      description: 'sTCY is the auto-compounding version of the TCY token - THORChain Yield - to address the default of THORFi. 10% of all system income is paid to TCY stakers.',
+      denom_units: [{
+          denom: 'stcy',
+          exponent: 0
+        }, {
+          denom: 'x/staking-tcy',
+          exponent: 0
+        }],
       type_asset: 'sdk.coin',
+      base: 'x/staking-tcy',
+      name: 'THORChain sTCY',
+      display: 'stcy',
+      symbol: 'sTCY',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chain_name: 'thorchain',
+            base_denom: 'tcy'
+          },
+          provider: 'AutoRujira'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/stcy.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/stcy.png'
+        }],
+      keywords: [
+        'yield',
+        'thorchain',
+        'auto-compound'
+      ],
+      socials: {
+        website: 'https://rujira.network/strategies/staking/TCY',
+        discord: 'https://discord.gg/tW64BraTnX',
+        telegram: 'https://t.me/thorchain_org',
+        twitter: 'https://twitter.com/thorchain'
+      }
+    },
+    {
       description: 'The Rujira Index (RJI) is a fixed unit asset index that tracks the performance of tokens on the Rujira App Layer. RJI does not auto-rebalance, therefore by design continously overweighting the top performers and underweighting the under-performers.',
       denom_units: [{
           denom: 'rji',
@@ -213,6 +251,8 @@ const info: AssetList = {
           denom: 'x/nami-index-fixed-thor1yqf5spdv8c4088zmvqsg32eq63fzepsjvntahdk0ek0yjnkt3qdqftp3lc-rcpt',
           exponent: 0
         }],
+      type_asset: 'sdk.coin',
+      base: 'x/nami-index-fixed-thor1yqf5spdv8c4088zmvqsg32eq63fzepsjvntahdk0ek0yjnkt3qdqftp3lc-rcpt',
       name: 'The Rujira Index',
       display: 'rji',
       symbol: 'RJI',
@@ -235,8 +275,6 @@ const info: AssetList = {
       }
     },
     {
-      base: 'x/staking-thor.nami',
-      type_asset: 'sdk.coin',
       description: 'The staked version of NAMI. Nami provides a suite of DeFi applications including an optimized EARN product and on-chain INDEXES for native assets, accessible from any connected chain. Maximize yield. Simplify access. Reduce risk. Grow with Nami',
       denom_units: [{
           denom: 'x/staking-thor.nami',
@@ -245,6 +283,8 @@ const info: AssetList = {
           denom: 'sNAMI',
           exponent: 8
         }],
+      type_asset: 'sdk.coin',
+      base: 'x/staking-thor.nami',
       name: 'Staked Nami',
       display: 'sNAMI',
       symbol: 'sNAMI',
