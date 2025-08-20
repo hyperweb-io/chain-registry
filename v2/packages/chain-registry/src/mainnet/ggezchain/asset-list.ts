@@ -22,6 +22,7 @@ const info: AssetList = {
       name: 'GGEZ1',
       display: 'ggez1',
       symbol: 'GGEZ1',
+      coingeckoId: 'ggez1',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggez1.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggez1.svg'
