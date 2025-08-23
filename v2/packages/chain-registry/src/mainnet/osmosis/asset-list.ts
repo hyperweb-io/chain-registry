@@ -22437,6 +22437,31 @@ const info: AssetList = {
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usd.svg'
         }]
+    },
+    {
+      description: 'Community-secured Meme token on Osmosis',
+      denomUnits: [{
+          denom: 'factory/osmo1are7fpe5l6jzm9sjn7u4qkq6q77wwrrsxzlyw8lcegmmaxdukvuq4h46dx/LABS',
+          exponent: 0
+        }, {
+          denom: 'labs',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/osmo1are7fpe5l6jzm9sjn7u4qkq6q77wwrrsxzlyw8lcegmmaxdukvuq4h46dx/LABS',
+      name: 'Labrador',
+      display: 'labs',
+      symbol: 'LABS',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/LABS.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/LABS.png'
+        }],
+      keywords: ['meme'],
+      socials: {
+        website: 'https://daodao.zone/dao/osmo10hgl747acm8h648xv9qrxkv3vyvv266yffs4aka7qjcr0659lnqs4ypu7v'
+      }
     }
   ]
 };
