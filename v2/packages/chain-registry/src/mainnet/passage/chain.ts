@@ -82,10 +82,6 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'https://passage-rpc.ibs.team/',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://rpc-passage.d-stake.xyz',
         provider: 'D-stake'
       },
@@ -146,10 +142,6 @@ const info: Chain = {
       {
         address: 'https://passage-api.polkachu.com',
         provider: 'Polkachu'
-      },
-      {
-        address: 'https://passage-api.ibs.team/',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://api-passage.d-stake.xyz',

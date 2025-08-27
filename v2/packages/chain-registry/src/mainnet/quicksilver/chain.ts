@@ -80,10 +80,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://quicksilver-rpc.ibs.team:443',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://quicksilver.rpc.kjnodes.com',
         provider: 'kjnodes'
       },
