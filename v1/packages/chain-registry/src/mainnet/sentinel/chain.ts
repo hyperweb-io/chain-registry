@@ -114,10 +114,6 @@ const info: Chain = {
         provider: 'chainvibes'
       },
       {
-        address: 'https://sentinel-rpc.ibs.team:443',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://sentinel.rpc.quasarstaking.ai:443',
         provider: 'Quasar'
       }
@@ -186,10 +182,6 @@ const info: Chain = {
       {
         address: 'https://api-sentinel.chainvibes.com:443',
         provider: 'chainvibes'
-      },
-      {
-        address: 'https://sentinel-api.ibs.team:443',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://sentinel.api.quasarstaking.ai:443',

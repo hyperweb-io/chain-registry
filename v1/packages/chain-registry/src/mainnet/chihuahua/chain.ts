@@ -107,10 +107,6 @@ const info: Chain = {
         provider: 'Validatus'
       },
       {
-        address: 'https://chihuahua-rpc.ibs.team',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://chihuahua.rpc.nodeshub.online:443',
         provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅'
       },
@@ -163,10 +159,6 @@ const info: Chain = {
       {
         address: 'https://api.chihuahua.validatus.com',
         provider: 'Validatus'
-      },
-      {
-        address: 'https://chihuahua-api.ibs.team',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://chihuahua.api.nodeshub.online:443',

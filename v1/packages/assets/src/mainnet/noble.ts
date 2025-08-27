@@ -12305,6 +12305,55 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Saga is a blockchain platform focused on providing customizable blockchain solutions with a strong emphasis on security and scalability.',
+      denom_units: [{
+          denom: 'ibc/E7395B1DECD14A8B7F9AA60083119E395DA8E37A1DCAA8B9ED07ED8D4F7E48E3',
+          exponent: 0,
+          aliases: ['usaga']
+        }, {
+          denom: 'saga',
+          exponent: 6
+        }],
+      base: 'ibc/E7395B1DECD14A8B7F9AA60083119E395DA8E37A1DCAA8B9ED07ED8D4F7E48E3',
+      name: 'Saga',
+      display: 'saga',
+      symbol: 'SAGA',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.svg'
+      },
+      coingecko_id: 'saga-2',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.svg',
+          theme: {
+            dark_mode: false
+          }
+        }, {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga_white.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga_white.svg',
+          theme: {
+            dark_mode: true
+          }
+        }],
+      socials: {
+        website: 'https://www.saga.xyz/',
+        twitter: 'https://twitter.com/Sagaxyz__'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-38',
+            base_denom: 'usaga',
+            chain_name: 'saga'
+          },
+          chain: {
+            channel_id: 'channel-170'
+          }
+        }]
+    },
+    {
       description: 'Secret Network is a privacy-focused blockchain that enables private and secure smart contracts, protecting sensitive data.',
       denom_units: [{
           denom: 'ibc/1B28CD5F3CDC17E585A7F2F05931FA694B3EFF0233D98CEF3505A35410D53CED',
@@ -21172,6 +21221,55 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-119'
+          }
+        }]
+    },
+    {
+      description: 'Saga is a blockchain platform focused on providing customizable blockchain solutions with a strong emphasis on security and scalability.',
+      denom_units: [{
+          denom: 'ibc/E7395B1DECD14A8B7F9AA60083119E395DA8E37A1DCAA8B9ED07ED8D4F7E48E3',
+          exponent: 0,
+          aliases: ['usaga']
+        }, {
+          denom: 'saga',
+          exponent: 6
+        }],
+      base: 'ibc/E7395B1DECD14A8B7F9AA60083119E395DA8E37A1DCAA8B9ED07ED8D4F7E48E3',
+      name: 'Saga',
+      display: 'saga',
+      symbol: 'SAGA',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.svg'
+      },
+      coingecko_id: 'saga-2',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.svg',
+          theme: {
+            dark_mode: false
+          }
+        }, {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga_white.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga_white.svg',
+          theme: {
+            dark_mode: true
+          }
+        }],
+      socials: {
+        website: 'https://www.saga.xyz/',
+        twitter: 'https://twitter.com/Sagaxyz__'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-38',
+            base_denom: 'usaga',
+            chain_name: 'saga'
+          },
+          chain: {
+            channel_id: 'channel-170'
           }
         }]
     },

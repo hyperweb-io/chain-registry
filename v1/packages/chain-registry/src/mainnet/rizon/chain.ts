@@ -49,10 +49,6 @@ const info: Chain = {
         provider: 'ChainTools'
       },
       {
-        address: 'https://rizon-rpc.ibs.team/',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://rizon-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       }
@@ -65,10 +61,6 @@ const info: Chain = {
       {
         address: 'https://api.rizon.chaintools.tech/',
         provider: 'ChainTools'
-      },
-      {
-        address: 'https://rizon-api.ibs.team/',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://rizon-rest.publicnode.com',

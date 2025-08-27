@@ -70,10 +70,6 @@ const info: Chain = {
         provider: '[NODERS]TEAM'
       },
       {
-        address: 'https://ki-rpc.ibs.team/',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://rpc.kichain-2.kichain.aviaone.com',
         provider: 'AVIAONE 🟢'
       }
@@ -110,10 +106,6 @@ const info: Chain = {
       {
         address: 'https://rest.lavenderfive.com:443/kichain',
         provider: 'Lavender.Five Nodes 🐝'
-      },
-      {
-        address: 'https://ki-api.ibs.team/',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://api.kichain-2.kichain.aviaone.com',

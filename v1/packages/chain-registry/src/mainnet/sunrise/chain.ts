@@ -71,6 +71,10 @@ const info: Chain = {
       {
         address: 'https://rpc.sunrise.tcnetwork.io',
         provider: 'TC Network'
+      },
+      {
+        address: 'https://rpc.sunrise.nodestake.org',
+        provider: 'NodeStake'
       }
     ],
     rest: [
@@ -89,15 +93,26 @@ const info: Chain = {
       {
         address: 'https://rest.sunrise.tcnetwork.io',
         provider: 'TC Network'
+      },
+      {
+        address: 'https://api.sunrise.nodestake.org',
+        provider: 'NodeStake'
       }
     ],
-    grpc: [{
+    grpc: [
+      {
         address: 'https://a.consensus.sunrise-1.sunriselayer.io:9092',
         provider: 'Sunrise Team'
-      }, {
+      },
+      {
         address: 'https://grpc-sunrise.nodeist.net',
         provider: 'Nodeist'
-      }]
+      },
+      {
+        address: 'https://grpc.sunrise.nodestake.org:443',
+        provider: 'NodeStake'
+      }
+    ]
   },
   explorers: [
     {
@@ -122,6 +137,12 @@ const info: Chain = {
       url: 'https://explorer.ist/sunrise',
       tx_page: 'https://explorer.ist/sunrise/tx/${txHash}',
       account_page: 'https://explorer.ist/sunrise/account/${accountAddress}'
+    },
+    {
+      kind: 'NodeStake explorer',
+      url: 'https://explorer.nodestake.org/sunrise',
+      tx_page: 'https://explorer.nodestake.org/sunrise/tx/${txHash}',
+      account_page: 'https://explorer.nodestake.org/sunrise/account/${accountAddress}'
     }
   ],
   images: [{

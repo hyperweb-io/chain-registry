@@ -69,10 +69,6 @@ const info: Chain = {
         provider: 'silent'
       },
       {
-        address: 'https://teritori-rpc.ibs.team',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://teritori.rpc.kjnodes.com',
         provider: 'kjnodes'
       },
@@ -129,10 +125,6 @@ const info: Chain = {
       {
         address: 'https://api.teritori.silentvalidator.com/',
         provider: 'silent'
-      },
-      {
-        address: 'https://teritori-api.ibs.team',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://teritori.api.kjnodes.com',

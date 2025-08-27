@@ -141,10 +141,6 @@ const info: Chain = {
       {
         address: 'https://nolus-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https://nolus-rpc.ibs.team',
-        provider: 'Inter Blockchain Services'
       }
     ],
     rest: [
@@ -187,10 +183,6 @@ const info: Chain = {
       {
         address: 'https://nolus-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https://nolus-api.ibs.team',
-        provider: 'Inter Blockchain Services'
       }
     ],
     grpc: [
