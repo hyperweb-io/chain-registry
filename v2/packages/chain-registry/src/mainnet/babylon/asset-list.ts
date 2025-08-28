@@ -939,6 +939,37 @@ const info: AssetList = {
         }]
     },
     {
+      denomUnits: [{
+          denom: 'cw20:bbn1p56nwhnh0klnjf9k5ug6nyu84hkee0l2lq8f9kml7zwq9xsrkfcs7ej73n',
+          exponent: 0
+        }, {
+          denom: 'CoBTC',
+          exponent: 8
+        }],
+      base: 'cw20:bbn1p56nwhnh0klnjf9k5ug6nyu84hkee0l2lq8f9kml7zwq9xsrkfcs7ej73n',
+      address: 'bbn1p56nwhnh0klnjf9k5ug6nyu84hkee0l2lq8f9kml7zwq9xsrkfcs7ej73n',
+      name: 'Coffer Bitcoin',
+      display: 'CoBTC',
+      symbol: 'CoBTC',
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/CoBTC.svg'
+      },
+      typeAsset: 'cw20',
+      traces: [{
+          type: 'ibc-bridge',
+          provider: 'Union',
+          counterparty: {
+            chainName: 'binancesmartchain',
+            baseDenom: '0x918b3aa73e2D42D96CF64CBdB16838985992dAbc',
+            channelId: '1'
+          },
+          chain: {
+            channelId: '5',
+            path: '0'
+          }
+        }]
+    },
+    {
       description: 'MilkyWay\'s liquid staked BABY',
       denomUnits: [{
           denom: 'ibc/CD7ECDBBA538632B45915ED67C4932DDB318818C00C21489D3774E560E87E420',

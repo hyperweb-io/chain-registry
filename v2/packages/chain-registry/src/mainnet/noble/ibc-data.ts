@@ -1217,21 +1217,21 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'noble',
-      clientId: '07-tendermint-182',
-      connectionId: 'connection-176'
+      clientId: '07-tendermint-181',
+      connectionId: 'connection-175'
     },
     chain2: {
       chainName: 'saga',
-      clientId: '07-tendermint-31',
-      connectionId: 'connection-26'
+      clientId: '07-tendermint-28',
+      connectionId: 'connection-23'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-170',
+          channelId: 'channel-169',
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-38',
+          channelId: 'channel-37',
           portId: 'transfer'
         },
         ordering: 'unordered',

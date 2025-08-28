@@ -216,6 +216,30 @@ const info: AssetList = {
       typeAsset: 'sdk.coin'
     },
     {
+      description: 'RWA Commercial fishing operation',
+      denomUnits: [{
+          denom: 'factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI',
+          exponent: 0
+        }, {
+          denom: 'OYCI',
+          exponent: 6
+        }],
+      base: 'factory/inj1jdt04erw6jdmh6c939u87kldf3mvvmkedsjp3w/OYCI',
+      name: 'Oyster Cage Initiative',
+      display: 'OYCI',
+      symbol: 'OYCI',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/oyci.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/oyci.png',
+          theme: {
+            circle: true
+          }
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
       description: 'The $WGMI Token - We Gonna Make It. Are you ready?',
       denomUnits: [{
           denom: 'factory/inj1rmjzj9fn47kdmfk4f3z39qr6czexxe0yjyc546/WGMI',
