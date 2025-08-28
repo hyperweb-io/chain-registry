@@ -75,6 +75,14 @@ const info: Chain = {
       {
         address: 'https://rpc.sunrise.nodestake.org',
         provider: 'NodeStake'
+      },
+      {
+        address: 'https://sunrise-rpc.krews.xyz',
+        provider: 'Krews'
+      },
+      {
+        address: 'https://sunrise-rpc-2.krews.xyz',
+        provider: 'Krews'
       }
     ],
     rest: [
@@ -97,6 +105,14 @@ const info: Chain = {
       {
         address: 'https://api.sunrise.nodestake.org',
         provider: 'NodeStake'
+      },
+      {
+        address: 'https://sunrise-api.krews.xyz',
+        provider: 'Krews'
+      },
+      {
+        address: 'https://sunrise-api-2.krews.xyz',
+        provider: 'Krews'
       }
     ],
     grpc: [
@@ -143,6 +159,12 @@ const info: Chain = {
       url: 'https://explorer.nodestake.org/sunrise',
       tx_page: 'https://explorer.nodestake.org/sunrise/tx/${txHash}',
       account_page: 'https://explorer.nodestake.org/sunrise/account/${accountAddress}'
+    },
+    {
+      kind: 'Krews',
+      url: 'https://risescan.krews.xyz',
+      tx_page: 'https://risescan.krews.xyz/sunrise/tx/${txHash}',
+      account_page: 'https://risescan.krews.xyz/sunrise/account/${accountAddress}'
     }
   ],
   images: [{

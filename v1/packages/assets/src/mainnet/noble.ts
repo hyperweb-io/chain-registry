@@ -12307,14 +12307,14 @@ const assets: AssetList = {
     {
       description: 'Saga is a blockchain platform focused on providing customizable blockchain solutions with a strong emphasis on security and scalability.',
       denom_units: [{
-          denom: 'ibc/E7395B1DECD14A8B7F9AA60083119E395DA8E37A1DCAA8B9ED07ED8D4F7E48E3',
+          denom: 'ibc/B7DFB783DD437306048703B818F81EB8C8ED06856DB9FD126EA7F2248907C1FF',
           exponent: 0,
           aliases: ['usaga']
         }, {
           denom: 'saga',
           exponent: 6
         }],
-      base: 'ibc/E7395B1DECD14A8B7F9AA60083119E395DA8E37A1DCAA8B9ED07ED8D4F7E48E3',
+      base: 'ibc/B7DFB783DD437306048703B818F81EB8C8ED06856DB9FD126EA7F2248907C1FF',
       name: 'Saga',
       display: 'saga',
       symbol: 'SAGA',
@@ -12344,12 +12344,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-38',
+            channel_id: 'channel-37',
             base_denom: 'usaga',
             chain_name: 'saga'
           },
           chain: {
-            channel_id: 'channel-170'
+            channel_id: 'channel-169'
           }
         }]
     },
@@ -21227,14 +21227,14 @@ const assets: AssetList = {
     {
       description: 'Saga is a blockchain platform focused on providing customizable blockchain solutions with a strong emphasis on security and scalability.',
       denom_units: [{
-          denom: 'ibc/E7395B1DECD14A8B7F9AA60083119E395DA8E37A1DCAA8B9ED07ED8D4F7E48E3',
+          denom: 'ibc/B7DFB783DD437306048703B818F81EB8C8ED06856DB9FD126EA7F2248907C1FF',
           exponent: 0,
           aliases: ['usaga']
         }, {
           denom: 'saga',
           exponent: 6
         }],
-      base: 'ibc/E7395B1DECD14A8B7F9AA60083119E395DA8E37A1DCAA8B9ED07ED8D4F7E48E3',
+      base: 'ibc/B7DFB783DD437306048703B818F81EB8C8ED06856DB9FD126EA7F2248907C1FF',
       name: 'Saga',
       display: 'saga',
       symbol: 'SAGA',
@@ -21264,12 +21264,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-38',
+            channel_id: 'channel-37',
             base_denom: 'usaga',
             chain_name: 'saga'
           },
           chain: {
-            channel_id: 'channel-170'
+            channel_id: 'channel-169'
           }
         }]
     },

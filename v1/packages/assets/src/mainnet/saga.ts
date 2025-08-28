@@ -314,7 +314,7 @@ const assets: AssetList = {
     {
       description: 'The permissioned staking asset for Noble Chain',
       denom_units: [{
-          denom: 'ibc/673673DBDCEF31EB60A4CA24A7BBD56D769FA46EB092D459C3823064C933BF3B',
+          denom: 'ibc/BD75FBCE956142A848B297DCAA1632646EFBDDFD6096EA7401AA8D149C3941C3',
           exponent: 0,
           aliases: ['ustake']
         }, {
@@ -322,7 +322,7 @@ const assets: AssetList = {
           exponent: 6
         }],
       type_asset: 'sdk.coin',
-      base: 'ibc/673673DBDCEF31EB60A4CA24A7BBD56D769FA46EB092D459C3823064C933BF3B',
+      base: 'ibc/BD75FBCE956142A848B297DCAA1632646EFBDDFD6096EA7401AA8D149C3941C3',
       name: 'Stake',
       display: 'stake',
       symbol: 'STAKE',
@@ -337,19 +337,19 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-170',
+            channel_id: 'channel-169',
             base_denom: 'ustake',
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-38'
+            channel_id: 'channel-37'
           }
         }]
     },
     {
       description: 'Frienzies are an IBC token redeemable exclusively for a physical asset issued by the Noble entity.',
       denom_units: [{
-          denom: 'ibc/C8597ECBB1156C89A9CCEA8B3704F9E196926030371BE919BB9167FE3E6BAE29',
+          denom: 'ibc/A42F6579D83228F106B1BC5E7B7D1DC28E13E54075922A658D4642C7E7ADD79F',
           exponent: 0,
           aliases: ['ufrienzies']
         }, {
@@ -357,7 +357,7 @@ const assets: AssetList = {
           exponent: 6
         }],
       type_asset: 'sdk.coin',
-      base: 'ibc/C8597ECBB1156C89A9CCEA8B3704F9E196926030371BE919BB9167FE3E6BAE29',
+      base: 'ibc/A42F6579D83228F106B1BC5E7B7D1DC28E13E54075922A658D4642C7E7ADD79F',
       display: 'frienzies',
       name: 'Frienzies',
       symbol: 'FRNZ',
@@ -372,26 +372,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-170',
+            channel_id: 'channel-169',
             base_denom: 'ufrienzies',
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-38'
+            channel_id: 'channel-37'
           }
         }]
     },
     {
       description: 'Ondo US Dollar Yield',
       denom_units: [{
-          denom: 'ibc/4C2667760EC203D8A5C48D11E4EE171B02E7B1ECB7D7936C56B9F29F06D131CF',
+          denom: 'ibc/A1FA7736F4B2B7A43AF9B653FC933A521F882E5C13B94B4D2AD5E1F94D3D702E',
           exponent: 0,
           aliases: ['ausdy']
         }, {
           denom: 'usdy',
           exponent: 18
         }],
-      base: 'ibc/4C2667760EC203D8A5C48D11E4EE171B02E7B1ECB7D7936C56B9F29F06D131CF',
+      base: 'ibc/A1FA7736F4B2B7A43AF9B653FC933A521F882E5C13B94B4D2AD5E1F94D3D702E',
       display: 'usdy',
       name: 'Ondo US Dollar Yield',
       symbol: 'USDY',
@@ -412,19 +412,19 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-170',
+            channel_id: 'channel-169',
             base_denom: 'ausdy',
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-38'
+            channel_id: 'channel-37'
           }
         }]
     },
     {
       description: 'USDN token',
       denom_units: [{
-          denom: 'ibc/21F260854DB73B07BFD4FAB4F57E9646B3590417FE6464BA36336AB21E8A89DB',
+          denom: 'ibc/4E8ABDA1A069EDCEBFCEE713F04DB3549BEC5DA5EA8AC70136C15155F7133F91',
           exponent: 0,
           aliases: ['uusdn']
         }, {
@@ -432,7 +432,7 @@ const assets: AssetList = {
           exponent: 6
         }],
       type_asset: 'sdk.coin',
-      base: 'ibc/21F260854DB73B07BFD4FAB4F57E9646B3590417FE6464BA36336AB21E8A89DB',
+      base: 'ibc/4E8ABDA1A069EDCEBFCEE713F04DB3549BEC5DA5EA8AC70136C15155F7133F91',
       name: 'Noble Dollar',
       display: 'usdn',
       symbol: 'USDN',
@@ -448,12 +448,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-170',
+            channel_id: 'channel-169',
             base_denom: 'uusdn',
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-38'
+            channel_id: 'channel-37'
           }
         }]
     },
@@ -890,7 +890,7 @@ const assets: AssetList = {
     {
       description: 'The permissioned staking asset for Noble Chain',
       denom_units: [{
-          denom: 'ibc/673673DBDCEF31EB60A4CA24A7BBD56D769FA46EB092D459C3823064C933BF3B',
+          denom: 'ibc/BD75FBCE956142A848B297DCAA1632646EFBDDFD6096EA7401AA8D149C3941C3',
           exponent: 0,
           aliases: ['ustake']
         }, {
@@ -898,7 +898,7 @@ const assets: AssetList = {
           exponent: 6
         }],
       type_asset: 'sdk.coin',
-      base: 'ibc/673673DBDCEF31EB60A4CA24A7BBD56D769FA46EB092D459C3823064C933BF3B',
+      base: 'ibc/BD75FBCE956142A848B297DCAA1632646EFBDDFD6096EA7401AA8D149C3941C3',
       name: 'Stake',
       display: 'stake',
       symbol: 'STAKE',
@@ -913,19 +913,19 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-170',
+            channel_id: 'channel-169',
             base_denom: 'ustake',
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-38'
+            channel_id: 'channel-37'
           }
         }]
     },
     {
       description: 'Frienzies are an IBC token redeemable exclusively for a physical asset issued by the Noble entity.',
       denom_units: [{
-          denom: 'ibc/C8597ECBB1156C89A9CCEA8B3704F9E196926030371BE919BB9167FE3E6BAE29',
+          denom: 'ibc/A42F6579D83228F106B1BC5E7B7D1DC28E13E54075922A658D4642C7E7ADD79F',
           exponent: 0,
           aliases: ['ufrienzies']
         }, {
@@ -933,7 +933,7 @@ const assets: AssetList = {
           exponent: 6
         }],
       type_asset: 'sdk.coin',
-      base: 'ibc/C8597ECBB1156C89A9CCEA8B3704F9E196926030371BE919BB9167FE3E6BAE29',
+      base: 'ibc/A42F6579D83228F106B1BC5E7B7D1DC28E13E54075922A658D4642C7E7ADD79F',
       display: 'frienzies',
       name: 'Frienzies',
       symbol: 'FRNZ',
@@ -948,26 +948,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-170',
+            channel_id: 'channel-169',
             base_denom: 'ufrienzies',
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-38'
+            channel_id: 'channel-37'
           }
         }]
     },
     {
       description: 'Ondo US Dollar Yield',
       denom_units: [{
-          denom: 'ibc/4C2667760EC203D8A5C48D11E4EE171B02E7B1ECB7D7936C56B9F29F06D131CF',
+          denom: 'ibc/A1FA7736F4B2B7A43AF9B653FC933A521F882E5C13B94B4D2AD5E1F94D3D702E',
           exponent: 0,
           aliases: ['ausdy']
         }, {
           denom: 'usdy',
           exponent: 18
         }],
-      base: 'ibc/4C2667760EC203D8A5C48D11E4EE171B02E7B1ECB7D7936C56B9F29F06D131CF',
+      base: 'ibc/A1FA7736F4B2B7A43AF9B653FC933A521F882E5C13B94B4D2AD5E1F94D3D702E',
       display: 'usdy',
       name: 'Ondo US Dollar Yield',
       symbol: 'USDY',
@@ -988,19 +988,19 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-170',
+            channel_id: 'channel-169',
             base_denom: 'ausdy',
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-38'
+            channel_id: 'channel-37'
           }
         }]
     },
     {
       description: 'USDN token',
       denom_units: [{
-          denom: 'ibc/21F260854DB73B07BFD4FAB4F57E9646B3590417FE6464BA36336AB21E8A89DB',
+          denom: 'ibc/4E8ABDA1A069EDCEBFCEE713F04DB3549BEC5DA5EA8AC70136C15155F7133F91',
           exponent: 0,
           aliases: ['uusdn']
         }, {
@@ -1008,7 +1008,7 @@ const assets: AssetList = {
           exponent: 6
         }],
       type_asset: 'sdk.coin',
-      base: 'ibc/21F260854DB73B07BFD4FAB4F57E9646B3590417FE6464BA36336AB21E8A89DB',
+      base: 'ibc/4E8ABDA1A069EDCEBFCEE713F04DB3549BEC5DA5EA8AC70136C15155F7133F91',
       name: 'Noble Dollar',
       display: 'usdn',
       symbol: 'USDN',
@@ -1024,12 +1024,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-170',
+            channel_id: 'channel-169',
             base_denom: 'uusdn',
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-38'
+            channel_id: 'channel-37'
           }
         }]
     },

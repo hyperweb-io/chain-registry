@@ -70,6 +70,7 @@ import * as _imversed from './imversed';
 import * as _initia from './initia';
 import * as _injective from './injective';
 import * as _int3face from './int3face';
+import * as _intento from './intento';
 import * as _irisnet from './irisnet';
 import * as _jackal from './jackal';
 import * as _joltify from './joltify';
@@ -237,6 +238,7 @@ const ibc: IBCInfo[] = [
   ..._initia.ibc,
   ..._injective.ibc,
   ..._int3face.ibc,
+  ..._intento.ibc,
   ..._irisnet.ibc,
   ..._jackal.ibc,
   ..._joltify.ibc,

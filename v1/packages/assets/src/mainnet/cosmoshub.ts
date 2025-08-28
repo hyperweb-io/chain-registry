@@ -3540,6 +3540,41 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of INTENTO',
+      denom_units: [{
+          denom: 'ibc/DC1EF3EA03CD7F2226981D610335C3E62E3DD868A1B83EB017CE294E29C8D473',
+          exponent: 0,
+          aliases: ['uinto']
+        }, {
+          denom: 'into',
+          exponent: 6
+        }],
+      base: 'ibc/DC1EF3EA03CD7F2226981D610335C3E62E3DD868A1B83EB017CE294E29C8D473',
+      name: 'Intento',
+      display: 'into',
+      symbol: 'INTO',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'uinto',
+            chain_name: 'intento'
+          },
+          chain: {
+            channel_id: 'channel-1492'
+          }
+        }]
+    },
+    {
       description: 'The IRIS token is the native governance token for the IrisNet chain.',
       denom_units: [{
           denom: 'ibc/12DA42304EE1CE96071F712AA4D58186AD11C3165C0DCDA71E017A54F3935E66',
@@ -13998,6 +14033,41 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-220'
+          }
+        }]
+    },
+    {
+      description: 'The native token of INTENTO',
+      denom_units: [{
+          denom: 'ibc/DC1EF3EA03CD7F2226981D610335C3E62E3DD868A1B83EB017CE294E29C8D473',
+          exponent: 0,
+          aliases: ['uinto']
+        }, {
+          denom: 'into',
+          exponent: 6
+        }],
+      base: 'ibc/DC1EF3EA03CD7F2226981D610335C3E62E3DD868A1B83EB017CE294E29C8D473',
+      name: 'Intento',
+      display: 'into',
+      symbol: 'INTO',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'uinto',
+            chain_name: 'intento'
+          },
+          chain: {
+            channel_id: 'channel-1492'
           }
         }]
     },

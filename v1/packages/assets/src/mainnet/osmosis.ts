@@ -3972,6 +3972,41 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of INTENTO',
+      denom_units: [{
+          denom: 'ibc/BE072C03DA544CF282499418E7BC64D38614879B3EE95F9AD91E6C37267D4836',
+          exponent: 0,
+          aliases: ['uinto']
+        }, {
+          denom: 'into',
+          exponent: 6
+        }],
+      base: 'ibc/BE072C03DA544CF282499418E7BC64D38614879B3EE95F9AD91E6C37267D4836',
+      name: 'Intento',
+      display: 'into',
+      symbol: 'INTO',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'uinto',
+            chain_name: 'intento'
+          },
+          chain: {
+            channel_id: 'channel-106076'
+          }
+        }]
+    },
+    {
       description: 'The IRIS token is the native governance token for the IrisNet chain.',
       denom_units: [{
           denom: 'ibc/7C4D60AA95E5A7558B0A364860979CA34B7FF8AAF255B87AF9E879374470CEC0',
@@ -10179,6 +10214,41 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-82819'
+          }
+        }]
+    },
+    {
+      description: 'The native token of INTENTO',
+      denom_units: [{
+          denom: 'ibc/BE072C03DA544CF282499418E7BC64D38614879B3EE95F9AD91E6C37267D4836',
+          exponent: 0,
+          aliases: ['uinto']
+        }, {
+          denom: 'into',
+          exponent: 6
+        }],
+      base: 'ibc/BE072C03DA544CF282499418E7BC64D38614879B3EE95F9AD91E6C37267D4836',
+      name: 'Intento',
+      display: 'into',
+      symbol: 'INTO',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'uinto',
+            chain_name: 'intento'
+          },
+          chain: {
+            channel_id: 'channel-106076'
           }
         }]
     },
@@ -32980,6 +33050,38 @@ const assets: AssetList = {
         }]
     },
     {
+      denom_units: [{
+          denom: 'ibc/532A096D3CCBBA43BF0DF91CC0D240A2A7AD0E2EC6E191BF0E0F26440FCB7943',
+          exponent: 0,
+          aliases: ['cw20:bbn1p56nwhnh0klnjf9k5ug6nyu84hkee0l2lq8f9kml7zwq9xsrkfcs7ej73n']
+        }, {
+          denom: 'CoBTC',
+          exponent: 8
+        }],
+      base: 'ibc/532A096D3CCBBA43BF0DF91CC0D240A2A7AD0E2EC6E191BF0E0F26440FCB7943',
+      address: 'bbn1p56nwhnh0klnjf9k5ug6nyu84hkee0l2lq8f9kml7zwq9xsrkfcs7ej73n',
+      name: 'Coffer Bitcoin',
+      display: 'CoBTC',
+      symbol: 'CoBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/CoBTC.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1p56nwhnh0klnjf9k5ug6nyu84hkee0l2lq8f9kml7zwq9xsrkfcs7ej73n',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
       description: 'Puppy',
       denom_units: [{
           denom: 'ibc/46AC07DBFF1352EC94AF5BD4D23740D92D9803A6B41F6E213E77F3A1143FB963',
@@ -36212,6 +36314,38 @@ const assets: AssetList = {
             port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
             channel_id: 'channel-7',
             base_denom: 'cw20:bbn17awjw4g3a7wn5eruejf6hmshc8y06wpz6qu7ue32xygcueu55zqs33aq93',
+            chain_name: 'babylon'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-101979'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/532A096D3CCBBA43BF0DF91CC0D240A2A7AD0E2EC6E191BF0E0F26440FCB7943',
+          exponent: 0,
+          aliases: ['cw20:bbn1p56nwhnh0klnjf9k5ug6nyu84hkee0l2lq8f9kml7zwq9xsrkfcs7ej73n']
+        }, {
+          denom: 'CoBTC',
+          exponent: 8
+        }],
+      base: 'ibc/532A096D3CCBBA43BF0DF91CC0D240A2A7AD0E2EC6E191BF0E0F26440FCB7943',
+      address: 'bbn1p56nwhnh0klnjf9k5ug6nyu84hkee0l2lq8f9kml7zwq9xsrkfcs7ej73n',
+      name: 'Coffer Bitcoin',
+      display: 'CoBTC',
+      symbol: 'CoBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/CoBTC.svg'
+      },
+      type_asset: 'cw20',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.bbn16tfcsjcg4trlnj2t4cpdq20q4d7nzusew3ev50scz30mmfzdx8ssgx7eq6',
+            channel_id: 'channel-7',
+            base_denom: 'cw20:bbn1p56nwhnh0klnjf9k5ug6nyu84hkee0l2lq8f9kml7zwq9xsrkfcs7ej73n',
             chain_name: 'babylon'
           },
           chain: {
