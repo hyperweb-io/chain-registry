@@ -101,6 +101,7 @@ import * as _kichain from './kichain';
 import * as _kimanetwork from './kimanetwork';
 import * as _konstellation from './konstellation';
 import * as _kopi from './kopi';
+import * as _kudora from './kudora';
 import * as _kujira from './kujira';
 import * as _kyve from './kyve';
 import * as _lambda from './lambda';
@@ -315,6 +316,7 @@ const chains: Chain[] = [
   _kimanetwork.chain,
   _konstellation.chain,
   _kopi.chain,
+  _kudora.chain,
   _kujira.chain,
   _kyve.chain,
   _lambda.chain,

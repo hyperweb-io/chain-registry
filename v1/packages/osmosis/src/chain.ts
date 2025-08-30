@@ -706,6 +706,10 @@ const chain: Chain = {
       {
         address: 'https://osmosis-mainnet-tendermint.reliableninjas.com',
         provider: 'Reliable Ninjas'
+      },
+      {
+        address: 'https://osmosis-rpc.highstakes.ch',
+        provider: 'High Stakes 🇨🇭'
       }
     ],
     rest: [
@@ -820,6 +824,10 @@ const chain: Chain = {
       {
         address: 'https://osmosis-mainnet-cosmos.reliableninjas.com',
         provider: 'Reliable Ninjas'
+      },
+      {
+        address: 'https://osmosis-api.highstakes.ch',
+        provider: 'High Stakes 🇨🇭'
       }
     ],
     grpc: [

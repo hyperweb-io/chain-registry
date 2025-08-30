@@ -1,0 +1,22 @@
+import { AssetList } from '@chain-registry/types';
+const info: AssetList = {
+  $schema: '../assetlist.schema.json',
+  chain_name: 'kudora',
+  assets: [{
+      description: 'Kudora Native Token',
+      denom_units: [{
+          denom: 'kud',
+          exponent: 0
+        }, {
+          denom: 'Kudo',
+          exponent: 18
+        }],
+      base: 'kud',
+      name: 'Kudo',
+      display: 'Kudo',
+      symbol: 'KUD',
+      keywords: ['kudora'],
+      type_asset: 'sdk.coin'
+    }]
+};
+export default info;

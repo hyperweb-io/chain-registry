@@ -29,30 +29,30 @@ const info: Chain = {
   },
   codebase: {
     git_repo: 'https://github.com/UptickNetwork/uptick',
-    recommended_version: 'v0.2.19',
-    compatible_versions: ['v0.2.19'],
+    recommended_version: 'v0.3.0',
+    compatible_versions: ['v0.3.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/UptickNetwork/uptick/archive/refs/tags/v0.2.19.tar.gz'
+      "linux/amd64": 'https://raw.githubusercontent.com/UptickNetwork/uptick-mainnet/main/uptick_117-1/lib/uptickd-linux-amd64-v0.3.0.tar.gz?checksum=ceedede0f5016906fadc688cc69fb5c378832c661decba199bcb2a66507d0f76',
+      "linux/arm64": 'https://raw.githubusercontent.com/UptickNetwork/uptick-mainnet/main/uptick_117-1/lib/uptickd-linux-arm64-v0.3.0.tar.gz?checksum=b11fae7b3633a4a050d8e8b3d4f12e54efdb29755d206e70b48e158f582cf0aa'
     },
     consensus: {
       type: 'cometbft',
-      version: 'v0.37.3',
-      tag: 'v0.37.3-0.20230920093934-46df7b597e3c'
+      version: 'v0.38.17'
     },
     genesis: {
-      genesis_url: 'https://raw.githubusercontent.com/uptick-network/mainnet/main/genesis.json'
+      genesis_url: 'https://raw.githubusercontent.com/UptickNetwork/uptick-mainnet/refs/heads/main/uptick_117-1/genesis.json'
     },
     sdk: {
       type: 'cosmos',
-      version: '0.47.5'
+      version: 'v0.50.11'
+    },
+    cosmwasm: {
+      version: 'v0.53.3',
+      enabled: true
     },
     ibc: {
       type: 'go',
-      version: '7.3.0'
-    },
-    cosmwasm: {
-      version: 'v0.45.0',
-      enabled: true
+      version: 'v8.7.0'
     }
   },
   logo_URIs: {
@@ -62,16 +62,8 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://uptick.rpc.bccnodes.com:443',
-        provider: 'BccNodes'
-      },
-      {
         address: 'https://rpc.uptick.nodestake.org',
         provider: 'NodeStake'
-      },
-      {
-        address: 'https://uptick.rpc.kjnodes.com',
-        provider: 'kjnodes'
       },
       {
         address: 'http://uptick.rpc.m.stavr.tech:3157',
@@ -90,16 +82,8 @@ const info: Chain = {
         provider: 'LiveRaveN'
       },
       {
-        address: 'https://uptick-rpc.staketab.org:443',
-        provider: 'Staketab'
-      },
-      {
         address: 'https://uptick-rpc.stakerhouse.com',
         provider: 'StakerHouse'
-      },
-      {
-        address: 'https://rpc-uptick.cakralabs.site',
-        provider: 'Cakra Labs'
       },
       {
         address: 'https://rpc-uptick.sr20de.xyz',
@@ -114,10 +98,6 @@ const info: Chain = {
       {
         address: 'https://api.uptick.nodestake.org',
         provider: 'NodeStake'
-      },
-      {
-        address: 'https://uptick.api.kjnodes.com',
-        provider: 'kjnodes'
       },
       {
         address: 'https://uptick.api.m.stavr.tech',
@@ -136,16 +116,8 @@ const info: Chain = {
         provider: 'LiveRaveN'
       },
       {
-        address: 'https://uptick-rest.staketab.org',
-        provider: 'Staketab'
-      },
-      {
         address: 'https://uptick-rest.stakerhouse.com',
         provider: 'StakerHouse'
-      },
-      {
-        address: 'https://rest-uptick.cakralabs.site',
-        provider: 'Cakra Labs'
       },
       {
         address: 'https://api-uptick.sr20de.xyz',
@@ -162,16 +134,8 @@ const info: Chain = {
         provider: 'NodeStake'
       },
       {
-        address: 'uptick.rpc.bccnodes.com:9690',
-        provider: 'BccNodes'
-      },
-      {
         address: 'uptick.grpc.nodersteam.com:9211',
         provider: '[NODERS]TEAM'
-      },
-      {
-        address: 'uptick.grpc.kjnodes.com:11590',
-        provider: 'kjnodes'
       },
       {
         address: 'uptick.grpc.m.stavr.tech:1901',
@@ -186,16 +150,8 @@ const info: Chain = {
         provider: 'LiveRaveN'
       },
       {
-        address: 'services.staketab.com:9190',
-        provider: 'Staketab'
-      },
-      {
         address: 'uptick-grpc.stakerhouse.com:443',
         provider: 'StakerHouse'
-      },
-      {
-        address: 'grpc-uptick.mms.team:443',
-        provider: 'MMS'
       },
       {
         address: 'https://grpc-uptick.sr20de.xyz',
@@ -236,11 +192,6 @@ const info: Chain = {
       kind: 'NodeStake Explorer',
       url: 'https://explorer.nodestake.org/uptick',
       tx_page: 'https://explorer.nodestake.org/uptick/tx/${txHash}'
-    },
-    {
-      kind: 'BccNodes Explorer',
-      url: 'https://explorer.bccnodes.com/uptick-M',
-      tx_page: 'https://explorer.bccnodes.com/uptick-M/tx/${txHash}'
     },
     {
       kind: '🔥STAVR🔥 Explorer',

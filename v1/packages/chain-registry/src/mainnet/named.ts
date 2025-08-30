@@ -99,6 +99,7 @@ export * as kichain from './kichain';
 export * as kimanetwork from './kimanetwork';
 export * as konstellation from './konstellation';
 export * as kopi from './kopi';
+export * as kudora from './kudora';
 export * as kujira from './kujira';
 export * as kyve from './kyve';
 export * as lambda from './lambda';

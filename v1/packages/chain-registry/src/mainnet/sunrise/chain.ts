@@ -83,6 +83,10 @@ const info: Chain = {
       {
         address: 'https://sunrise-rpc-2.krews.xyz',
         provider: 'Krews'
+      },
+      {
+        address: 'http://sunrise.rpc.decentrio.ventures',
+        provider: 'Decentrio'
       }
     ],
     rest: [
@@ -113,6 +117,10 @@ const info: Chain = {
       {
         address: 'https://sunrise-api-2.krews.xyz',
         provider: 'Krews'
+      },
+      {
+        address: 'https://sunrise.api.decentrio.ventures',
+        provider: 'Decentrio'
       }
     ],
     grpc: [
@@ -127,6 +135,10 @@ const info: Chain = {
       {
         address: 'https://grpc.sunrise.nodestake.org:443',
         provider: 'NodeStake'
+      },
+      {
+        address: 'https://sunrise.grpc.decentrio.ventures:443',
+        provider: 'Decentrio'
       }
     ]
   },

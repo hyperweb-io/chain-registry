@@ -101,6 +101,7 @@ import * as _kichain from './kichain';
 import * as _kimanetwork from './kimanetwork';
 import * as _konstellation from './konstellation';
 import * as _kopi from './kopi';
+import * as _kudora from './kudora';
 import * as _kujira from './kujira';
 import * as _kyve from './kyve';
 import * as _lambda from './lambda';
@@ -315,6 +316,7 @@ const assets: AssetList[] = [
   _kimanetwork.assets,
   _konstellation.assets,
   _kopi.assets,
+  _kudora.assets,
   _kujira.assets,
   _kyve.assets,
   _lambda.assets,
