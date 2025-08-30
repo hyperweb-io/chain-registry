@@ -56,28 +56,83 @@ const info: Chain = {
   },
   description: 'Developers use qubetics as the Ethereum Chain to deploy applications of the future. Get all the functionalities of Ethereum with the power of IBC and Interchain composability.',
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://tendermint.qubetics.com',
         provider: 'Qubetics'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://node.veritics.ch',
+        provider: 'Veritics'
+      },
+      {
+        address: 'https://rpc.qubenode.space',
+        provider: 'Qubenode'
+      },
+      {
+        address: 'https://qubeticstralbo.eu/',
+        provider: 'TicsForge-Node'
+      },
+      {
+        address: 'https://tics.stakings.id/',
+        provider: 'BlockDock'
+      },
+      {
+        address: 'https://node.dragon-node.com',
+        provider: 'Dragon-Node'
+      },
+      {
+        address: 'https://jblfg.org',
+        provider: 'Belfour Node'
+      }
+    ],
+    rest: [
+      {
         address: 'https://swagger.qubetics.com',
         provider: 'Qubetics'
-      }],
+      },
+      {
+        address: 'https://swagger.node.veritics.ch',
+        provider: 'Veritics'
+      },
+      {
+        address: 'https://rest.qubenode.space',
+        provider: 'Qubenode'
+      },
+      {
+        address: 'https://rest.qubeticstralbo.eu',
+        provider: 'TicsForge-Node'
+      }
+    ],
     grpc: [{
         address: 'https://grpc.qubetics.com',
         provider: 'Qubetics'
       }],
-    evmHttpJsonrpc: [{
+    evmHttpJsonrpc: [
+      {
         address: 'https://rpc.qubetics.com',
         provider: 'Qubetics'
-      }]
+      },
+      {
+        address: 'https://evm.qubenode.space',
+        provider: 'Qubenode'
+      },
+      {
+        address: 'https://evm.qubeticstralbo.eu',
+        provider: 'TicsForge-Node'
+      }
+    ]
   },
   explorers: [{
       kind: 'qubetics',
       url: 'https://ticsscan.com',
       txPage: 'https://ticsscan.com/tx/${txHash}',
       accountPage: 'https://ticsscan.com/address/${accountAddress}'
+    }, {
+      kind: '🚀 Qubetics 🌕 Native 🔥',
+      url: 'https://native.ticsscan.com/qubetics',
+      txPage: 'https://native.ticsscan.com/qubetics/tx/${txHash}',
+      accountPage: 'https://native.ticsscan.com/qubetics/account/${accountAddress}'
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qubetics/images/qubetics.png'

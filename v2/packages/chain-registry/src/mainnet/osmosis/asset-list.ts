@@ -22444,13 +22444,13 @@ const info: AssetList = {
           denom: 'factory/osmo1are7fpe5l6jzm9sjn7u4qkq6q77wwrrsxzlyw8lcegmmaxdukvuq4h46dx/LABS',
           exponent: 0
         }, {
-          denom: 'labs',
+          denom: 'LABS',
           exponent: 6
         }],
       typeAsset: 'sdk.coin',
       base: 'factory/osmo1are7fpe5l6jzm9sjn7u4qkq6q77wwrrsxzlyw8lcegmmaxdukvuq4h46dx/LABS',
       name: 'Labrador',
-      display: 'labs',
+      display: 'LABS',
       symbol: 'LABS',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/LABS.png'
