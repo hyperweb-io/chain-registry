@@ -65,6 +65,10 @@ const info: Chain = {
         provider: 'MekongLabs'
       },
       {
+        address: 'https://sunrise-rpc.noders.services',
+        provider: '[NODERS]'
+      },
+      {
         address: 'https://rpc-sunrise.nodeist.net',
         provider: 'Nodeist'
       },
@@ -87,12 +91,28 @@ const info: Chain = {
       {
         address: 'http://sunrise.rpc.decentrio.ventures',
         provider: 'Decentrio'
+      },
+      {
+        address: 'https://sunrise-rpc.synergynodes.com',
+        provider: 'Synergy Nodes'
+      },
+      {
+        address: 'https://sunrise.rpc.m.anode.team',
+        provider: 'Anode.team'
+      },
+      {
+        address: 'https://sunrise-rpc.stakeandrelax.net',
+        provider: 'Stake&Relax 🦥'
       }
     ],
     rest: [
       {
         address: 'https://a.consensus.sunrise-1.sunriselayer.io:1318',
         provider: 'Sunrise Team'
+      },
+      {
+        address: 'https://sunrise-api.noders.services',
+        provider: '[NODERS]'
       },
       {
         address: 'https://sunrise-mainnet-api.mekonglabs.tech',
@@ -121,6 +141,18 @@ const info: Chain = {
       {
         address: 'https://sunrise.api.decentrio.ventures',
         provider: 'Decentrio'
+      },
+      {
+        address: 'https://sunrise-api.synergynodes.com',
+        provider: 'Synergy Nodes'
+      },
+      {
+        address: 'https://sunrise.api.m.anode.team',
+        provider: 'Anode.team'
+      },
+      {
+        address: 'https://sunrise-api.stakeandrelax.net',
+        provider: 'Stake&Relax 🦥'
       }
     ],
     grpc: [
@@ -133,12 +165,28 @@ const info: Chain = {
         provider: 'Nodeist'
       },
       {
+        address: 'https://sunrise-grpc.noders.services:443',
+        provider: '[NODERS]'
+      },
+      {
         address: 'https://grpc.sunrise.nodestake.org:443',
         provider: 'NodeStake'
       },
       {
         address: 'https://sunrise.grpc.decentrio.ventures:443',
         provider: 'Decentrio'
+      },
+      {
+        address: 'https://sunrise-grpc.synergynodes.com:443',
+        provider: 'Synergy Nodes'
+      },
+      {
+        address: 'http://sunrise.grpc.m.anode.team',
+        provider: 'Anode.team'
+      },
+      {
+        address: 'http://sunrise-grpc.stakeandrelax.net:28390',
+        provider: 'Stake&Relax 🦥'
       }
     ]
   },
@@ -177,6 +225,24 @@ const info: Chain = {
       url: 'https://risescan.krews.xyz',
       tx_page: 'https://risescan.krews.xyz/sunrise/tx/${txHash}',
       account_page: 'https://risescan.krews.xyz/sunrise/account/${accountAddress}'
+    },
+    {
+      kind: 'Synergy Nodes Explorer',
+      url: 'https://cosmosrun.info/sunrise',
+      tx_page: 'https://cosmosrun.info/sunrise/tx/${txHash}',
+      account_page: 'https://cosmosrun.info/sunrise/account/${accountAddress}'
+    },
+    {
+      kind: 'Anode.team',
+      url: 'https://main.anode.team/sunrise',
+      tx_page: 'https://main.anode.team/sunrise/tx/${txHash}',
+      account_page: 'https://main.anode.team/sunrise/account/${accountAddress}'
+    },
+    {
+      kind: 'Stake&Relax 🦥 explorer',
+      url: 'https://explorer.stakeandrelax.net/sunrise',
+      tx_page: 'https://explorer.stakeandrelax.net/sunrise/tx/${txHash}',
+      account_page: 'https://explorer.stakeandrelax.net/sunrise/account/${accountAddress}'
     }
   ],
   images: [{

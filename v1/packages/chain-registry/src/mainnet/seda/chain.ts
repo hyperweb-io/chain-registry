@@ -142,6 +142,10 @@ const info: Chain = {
       {
         address: 'https://rpc.seda.tcnetwork.io',
         provider: 'TC Network'
+      },
+      {
+        address: 'https://seda-rpc.stakeandrelax.net',
+        provider: 'Stake&Relax 🦥'
       }
     ],
     rest: [
@@ -220,6 +224,10 @@ const info: Chain = {
       {
         address: 'https://rest.seda.tcnetwork.io',
         provider: 'TC Network'
+      },
+      {
+        address: 'https://seda-api.stakeandrelax.net',
+        provider: 'Stake&Relax 🦥'
       }
     ],
     grpc: [
@@ -266,6 +274,10 @@ const info: Chain = {
       {
         address: 'seda.grpc.cumulo.org.es:443',
         provider: 'Cumulo'
+      },
+      {
+        address: 'http://seda-grpc.stakeandrelax.net:25890',
+        provider: 'Stake&Relax 🦥'
       }
     ]
   },
@@ -322,6 +334,12 @@ const info: Chain = {
       url: 'https://explorer.node39.top/Seda',
       tx_page: 'https://explorer.node39.top/Seda/tx/${txHash}',
       account_page: 'https://explorer.node39.top/Seda/account/${accountAddress}'
+    },
+    {
+      kind: 'Stake&Relax 🦥 explorer',
+      url: 'https://explorer.stakeandrelax.net/seda',
+      tx_page: 'https://explorer.stakeandrelax.net/seda/tx/${txHash}',
+      account_page: 'https://explorer.stakeandrelax.net/seda/account/${accountAddress}'
     }
   ],
   images: [{
