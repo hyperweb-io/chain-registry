@@ -89,6 +89,10 @@ const info: Chain = {
         provider: 'Krews'
       },
       {
+        address: 'https://sunrise-mainnet-rpc.denodes.xyz/',
+        provider: 'deNodes'
+      },
+      {
         address: 'http://sunrise.rpc.decentrio.ventures',
         provider: 'Decentrio'
       },
@@ -139,6 +143,10 @@ const info: Chain = {
         provider: 'Krews'
       },
       {
+        address: 'https://sunrise-mainnet-api.denodes.xyz/',
+        provider: 'deNodes'
+      },
+      {
         address: 'https://sunrise.api.decentrio.ventures',
         provider: 'Decentrio'
       },
@@ -171,6 +179,10 @@ const info: Chain = {
       {
         address: 'https://grpc.sunrise.nodestake.org:443',
         provider: 'NodeStake'
+      },
+      {
+        address: 'https://sunrise-mainnet-grpc.denodes.xyz:443',
+        provider: 'deNodes'
       },
       {
         address: 'https://sunrise.grpc.decentrio.ventures:443',
@@ -225,6 +237,12 @@ const info: Chain = {
       url: 'https://risescan.krews.xyz',
       tx_page: 'https://risescan.krews.xyz/sunrise/tx/${txHash}',
       account_page: 'https://risescan.krews.xyz/sunrise/account/${accountAddress}'
+    },
+    {
+      kind: 'deNodes',
+      url: 'https://risescan.denodes.app/',
+      tx_page: 'https://risescan.denodes.app/sunrise/tx/${txHash}',
+      account_page: 'https://risescan.denodes.app/sunrise/account/${accountAddress}'
     },
     {
       kind: 'Synergy Nodes Explorer',

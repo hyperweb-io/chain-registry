@@ -274,6 +274,46 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'BitSong Native Token',
+      denom_units: [{
+          denom: 'ibc/53E1B5B1C060CF4B556E91020EACD272CD9160E996E598FC93D2436814050471',
+          exponent: 0,
+          aliases: ['ubtsg']
+        }, {
+          denom: 'btsg',
+          exponent: 6
+        }],
+      base: 'ibc/53E1B5B1C060CF4B556E91020EACD272CD9160E996E598FC93D2436814050471',
+      name: 'BitSong',
+      display: 'btsg',
+      symbol: 'BTSG',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.svg'
+      },
+      type_asset: 'sdk.coin',
+      coingecko_id: 'bitsong',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.svg'
+        }],
+      socials: {
+        website: 'https://bitsong.io/',
+        twitter: 'https://twitter.com/BitSongOfficial'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-39',
+            base_denom: 'ubtsg',
+            chain_name: 'bitsong'
+          },
+          chain: {
+            channel_id: 'channel-7232'
+          }
+        }]
+    },
+    {
       description: 'Celestia is a modular blockchain network focused on data availability, allowing developers to deploy their own customizable blockchains with ease.',
       denom_units: [{
           denom: 'ibc/773B4D0A3CD667B2275D5A4A7A2F0909C0BA0F4059C0B9181E680DDF4965DCC7',
@@ -1497,6 +1537,46 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-6980'
+          }
+        }]
+    },
+    {
+      description: 'BitSong Native Token',
+      denom_units: [{
+          denom: 'ibc/53E1B5B1C060CF4B556E91020EACD272CD9160E996E598FC93D2436814050471',
+          exponent: 0,
+          aliases: ['ubtsg']
+        }, {
+          denom: 'btsg',
+          exponent: 6
+        }],
+      base: 'ibc/53E1B5B1C060CF4B556E91020EACD272CD9160E996E598FC93D2436814050471',
+      name: 'BitSong',
+      display: 'btsg',
+      symbol: 'BTSG',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.svg'
+      },
+      type_asset: 'sdk.coin',
+      coingecko_id: 'bitsong',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.svg'
+        }],
+      socials: {
+        website: 'https://bitsong.io/',
+        twitter: 'https://twitter.com/BitSongOfficial'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-39',
+            base_denom: 'ubtsg',
+            chain_name: 'bitsong'
+          },
+          chain: {
+            channel_id: 'channel-7232'
           }
         }]
     },
