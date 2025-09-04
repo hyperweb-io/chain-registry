@@ -1688,8 +1688,7 @@ const info: AssetList = {
         website: 'https://TabCo.in'
       },
       typeAsset: 'sdk.coin'
-    },
-
+    }
   ]
 };
 export default info;
