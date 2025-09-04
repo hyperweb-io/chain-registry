@@ -22462,6 +22462,73 @@ const info: AssetList = {
       socials: {
         website: 'https://daodao.zone/dao/osmo10hgl747acm8h648xv9qrxkv3vyvv266yffs4aka7qjcr0659lnqs4ypu7v'
       }
+    },
+    {
+      description: 'Quark ($QUARK) is an Osmosis token launched on the Cosmos Hub.',
+      denomUnits: [{
+          denom: 'factory/osmo1x7s7a2erqspkm6e79n7yh7fw3yh7xx4lt54mxg/uquark',
+          exponent: 0
+        }, {
+          denom: 'QUARK',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/osmo1x7s7a2erqspkm6e79n7yh7fw3yh7xx4lt54mxg/uquark',
+      name: 'Quark',
+      display: 'QUARK',
+      symbol: 'QUARK',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.svg'
+        }],
+      keywords: ['meme'],
+      socials: {
+        twitter: 'https://x.com/quark_on_cosmos'
+      }
+    },
+    {
+      description: 'The native token of Intento.',
+      denomUnits: [{
+          denom: 'ibc/BE072C03DA544CF282499418E7BC64D38614879B3EE95F9AD91E6C37267D4836',
+          exponent: 0,
+          aliases: ['uinto']
+        }, {
+          denom: 'into',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/BE072C03DA544CF282499418E7BC64D38614879B3EE95F9AD91E6C37267D4836',
+      name: 'Intento',
+      display: 'into',
+      symbol: 'INTO',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'intento',
+            baseDenom: 'uinto',
+            channelId: 'channel-3'
+          },
+          chain: {
+            channelId: 'channel-106076',
+            path: 'transfer/channel-106076/uinto'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'intento',
+            baseDenom: 'uinto'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg'
+        }]
     }
   ]
 };

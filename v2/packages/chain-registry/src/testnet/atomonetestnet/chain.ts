@@ -20,12 +20,6 @@ const info: Chain = {
         lowGasPrice: 0.225,
         averageGasPrice: 0.3,
         highGasPrice: 0.5
-      }, {
-        denom: 'uatone',
-        fixedMinGasPrice: 0.025,
-        lowGasPrice: 0.01,
-        averageGasPrice: 0.025,
-        highGasPrice: 0.05
       }]
   },
   staking: {
@@ -35,15 +29,15 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/atomone-hub/atomone',
-    recommendedVersion: 'v2.0.0-rc2',
-    compatibleVersions: ['v2.0.0-rc2'],
+    recommendedVersion: 'v3.0.1',
+    compatibleVersions: ['v3.0.1'],
     binaries: {
-      "linux/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v2.0.0-rc2/atomoned-v2.0.0-rc2-linux-amd64',
-      "linux/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v2.0.0-rc2/atomoned-v2.0.0-rc2-linux-arm64',
-      "darwin/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v2.0.0-rc2/atomoned-v2.0.0-rc2-darwin-amd64',
-      "darwin/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v2.0.0-rc2/atomoned-v2.0.0-rc2-darwin-arm64',
-      "windows/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v2.0.0-rc2/atomoned-v2.0.0-rc2-windows-amd64.exe',
-      "windows/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v2.0.0-rc2/atomoned-v2.0.0-rc2-windows-arm64.exe'
+      "linux/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v3.0.1/atomoned-v3.0.1-linux-amd64',
+      "linux/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v3.0.1/atomoned-v3.0.1-linux-arm64',
+      "darwin/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v3.0.1/atomoned-v3.0.1-darwin-amd64',
+      "darwin/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v3.0.1/atomoned-v3.0.1-darwin-arm64',
+      "windows/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v3.0.1/atomoned-v3.0.1-windows-amd64.exe',
+      "windows/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v3.0.1/atomoned-v3.0.1-windows-arm64.exe'
     },
     genesis: {
       genesisUrl: 'https://atomone.fra1.digitaloceanspaces.com/atomone-testnet-1/genesis.json'
