@@ -26,6 +26,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg'
         }],
+      coingeckoId: 'milkyway-2',
       keywords: ['liquid staking', 'restaking'],
       socials: {
         website: 'https://milkyway.zone',
