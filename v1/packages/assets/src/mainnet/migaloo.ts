@@ -10066,6 +10066,7 @@ const assets: AssetList = {
       name: 'ERIS Amplified LUNA',
       display: 'ampluna',
       symbol: 'ampLUNA',
+      coingecko_id: 'eris-amplified-luna',
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ampluna.svg'
       },
@@ -10896,6 +10897,7 @@ const assets: AssetList = {
       name: 'Solid',
       display: 'solid',
       symbol: 'SOLID',
+      coingecko_id: 'solid-2',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.svg'
@@ -10934,6 +10936,7 @@ const assets: AssetList = {
       name: 'Capa',
       display: 'capa',
       symbol: 'CAPA',
+      coingecko_id: 'capapult',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.svg'
@@ -18524,6 +18527,7 @@ const assets: AssetList = {
       name: 'ERIS Amplified LUNA',
       display: 'ampluna',
       symbol: 'ampLUNA',
+      coingecko_id: 'eris-amplified-luna',
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ampluna.svg'
       },
@@ -19354,6 +19358,7 @@ const assets: AssetList = {
       name: 'Solid',
       display: 'solid',
       symbol: 'SOLID',
+      coingecko_id: 'solid-2',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.svg'
@@ -19392,6 +19397,7 @@ const assets: AssetList = {
       name: 'Capa',
       display: 'capa',
       symbol: 'CAPA',
+      coingecko_id: 'capapult',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.svg'

@@ -21036,6 +21036,123 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'The native token of the Sunrise network for staking. This token is non transferrable. This token can be retrieved by providing liquidity.',
+      denom_units: [{
+          denom: 'ibc/92BE0ABD01850CD92E1A9FF93AB15EB96D3C691884850ECA171697F1E3C70CF4',
+          exponent: 0,
+          aliases: ['uvrise']
+        }, {
+          denom: 'vrise',
+          exponent: 6
+        }],
+      base: 'ibc/92BE0ABD01850CD92E1A9FF93AB15EB96D3C691884850ECA171697F1E3C70CF4',
+      name: 'Sunrise vRISE',
+      display: 'vrise',
+      symbol: 'vRISE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/vrise.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/vrise.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/vrise.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/vrise.png'
+        }],
+      socials: {
+        website: 'https://sunriselayer.io/',
+        twitter: 'https://twitter.com/SunriseLayer'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'uvrise',
+            chain_name: 'sunrise'
+          },
+          chain: {
+            channel_id: 'channel-106275'
+          }
+        }]
+    },
+    {
+      description: 'The native token of the Sunrise network.',
+      denom_units: [{
+          denom: 'ibc/5DD535CC5244A556F78ACAFD1067D93C0FB335E69600343840D66E76CE46B30B',
+          exponent: 0,
+          aliases: ['urise']
+        }, {
+          denom: 'rise',
+          exponent: 6
+        }],
+      base: 'ibc/5DD535CC5244A556F78ACAFD1067D93C0FB335E69600343840D66E76CE46B30B',
+      name: 'Sunrise RISE',
+      display: 'rise',
+      symbol: 'RISE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.png'
+        }],
+      socials: {
+        website: 'https://sunriselayer.io/',
+        twitter: 'https://twitter.com/SunriseLayer'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'urise',
+            chain_name: 'sunrise'
+          },
+          chain: {
+            channel_id: 'channel-106275'
+          }
+        }]
+    },
+    {
+      description: 'The USD stable coin of the Sunrise network for fees.',
+      denom_units: [{
+          denom: 'ibc/2B46DD47EBAA57FB76436A1E5758BDE6356A8CE04D9FE879F95F838FAAD231B6',
+          exponent: 0,
+          aliases: ['uusdrise']
+        }, {
+          denom: 'usdrise',
+          exponent: 6
+        }],
+      base: 'ibc/2B46DD47EBAA57FB76436A1E5758BDE6356A8CE04D9FE879F95F838FAAD231B6',
+      name: 'Sunrise USDrise',
+      display: 'usdrise',
+      symbol: 'USDRISE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.png'
+        }],
+      socials: {
+        website: 'https://sunriselayer.io/',
+        twitter: 'https://twitter.com/SunriseLayer'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'uusdrise',
+            chain_name: 'sunrise'
+          },
+          chain: {
+            channel_id: 'channel-106275'
+          }
+        }]
+    },
+    {
       description: 'The native coin of Symphony',
       socials: {
         website: 'https://orchestralabs.org',
@@ -30956,6 +31073,123 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-326'
+          }
+        }]
+    },
+    {
+      description: 'The native token of the Sunrise network for staking. This token is non transferrable. This token can be retrieved by providing liquidity.',
+      denom_units: [{
+          denom: 'ibc/92BE0ABD01850CD92E1A9FF93AB15EB96D3C691884850ECA171697F1E3C70CF4',
+          exponent: 0,
+          aliases: ['uvrise']
+        }, {
+          denom: 'vrise',
+          exponent: 6
+        }],
+      base: 'ibc/92BE0ABD01850CD92E1A9FF93AB15EB96D3C691884850ECA171697F1E3C70CF4',
+      name: 'Sunrise vRISE',
+      display: 'vrise',
+      symbol: 'vRISE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/vrise.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/vrise.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/vrise.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/vrise.png'
+        }],
+      socials: {
+        website: 'https://sunriselayer.io/',
+        twitter: 'https://twitter.com/SunriseLayer'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'uvrise',
+            chain_name: 'sunrise'
+          },
+          chain: {
+            channel_id: 'channel-106275'
+          }
+        }]
+    },
+    {
+      description: 'The native token of the Sunrise network.',
+      denom_units: [{
+          denom: 'ibc/5DD535CC5244A556F78ACAFD1067D93C0FB335E69600343840D66E76CE46B30B',
+          exponent: 0,
+          aliases: ['urise']
+        }, {
+          denom: 'rise',
+          exponent: 6
+        }],
+      base: 'ibc/5DD535CC5244A556F78ACAFD1067D93C0FB335E69600343840D66E76CE46B30B',
+      name: 'Sunrise RISE',
+      display: 'rise',
+      symbol: 'RISE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.png'
+        }],
+      socials: {
+        website: 'https://sunriselayer.io/',
+        twitter: 'https://twitter.com/SunriseLayer'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'urise',
+            chain_name: 'sunrise'
+          },
+          chain: {
+            channel_id: 'channel-106275'
+          }
+        }]
+    },
+    {
+      description: 'The USD stable coin of the Sunrise network for fees.',
+      denom_units: [{
+          denom: 'ibc/2B46DD47EBAA57FB76436A1E5758BDE6356A8CE04D9FE879F95F838FAAD231B6',
+          exponent: 0,
+          aliases: ['uusdrise']
+        }, {
+          denom: 'usdrise',
+          exponent: 6
+        }],
+      base: 'ibc/2B46DD47EBAA57FB76436A1E5758BDE6356A8CE04D9FE879F95F838FAAD231B6',
+      name: 'Sunrise USDrise',
+      display: 'usdrise',
+      symbol: 'USDRISE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.png'
+        }],
+      socials: {
+        website: 'https://sunriselayer.io/',
+        twitter: 'https://twitter.com/SunriseLayer'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'uusdrise',
+            chain_name: 'sunrise'
+          },
+          chain: {
+            channel_id: 'channel-106275'
           }
         }]
     },
@@ -46604,6 +46838,7 @@ const asset_list: AssetList = {
       name: 'ERIS Amplified LUNA',
       display: 'ampluna',
       symbol: 'ampLUNA',
+      coingecko_id: 'eris-amplified-luna',
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ampluna.svg'
       },
@@ -47434,6 +47669,7 @@ const asset_list: AssetList = {
       name: 'Solid',
       display: 'solid',
       symbol: 'SOLID',
+      coingecko_id: 'solid-2',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.svg'
@@ -47472,6 +47708,7 @@ const asset_list: AssetList = {
       name: 'Capa',
       display: 'capa',
       symbol: 'CAPA',
+      coingecko_id: 'capapult',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.svg'
@@ -55062,6 +55299,7 @@ const asset_list: AssetList = {
       name: 'ERIS Amplified LUNA',
       display: 'ampluna',
       symbol: 'ampLUNA',
+      coingecko_id: 'eris-amplified-luna',
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ampluna.svg'
       },
@@ -55892,6 +56130,7 @@ const asset_list: AssetList = {
       name: 'Solid',
       display: 'solid',
       symbol: 'SOLID',
+      coingecko_id: 'solid-2',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.svg'
@@ -55930,6 +56169,7 @@ const asset_list: AssetList = {
       name: 'Capa',
       display: 'capa',
       symbol: 'CAPA',
+      coingecko_id: 'capapult',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.svg'
