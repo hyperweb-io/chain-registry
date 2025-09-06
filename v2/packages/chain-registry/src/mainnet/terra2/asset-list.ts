@@ -347,6 +347,7 @@ const info: AssetList = {
       name: 'ERIS Amplified LUNA',
       display: 'ampluna',
       symbol: 'ampLUNA',
+      coingeckoId: 'eris-amplified-luna',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ampluna.svg'
       },
@@ -1370,6 +1371,7 @@ const info: AssetList = {
       name: 'Solid',
       display: 'solid',
       symbol: 'SOLID',
+      coingeckoId: 'solid-2',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/solid.svg'
@@ -1394,6 +1396,7 @@ const info: AssetList = {
       name: 'Capa',
       display: 'capa',
       symbol: 'CAPA',
+      coingeckoId: 'capapult',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Capapult.svg'

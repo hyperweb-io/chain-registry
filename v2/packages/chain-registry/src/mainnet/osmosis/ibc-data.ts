@@ -4662,6 +4662,35 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosis',
+      clientId: '07-tendermint-3582',
+      connectionId: 'connection-10927'
+    },
+    chain2: {
+      chainName: 'sunrise',
+      clientId: '07-tendermint-42',
+      connectionId: 'connection-10'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-106275',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-3',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
+      chainName: 'osmosis',
       clientId: '07-tendermint-3517',
       connectionId: 'connection-10760'
     },
