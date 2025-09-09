@@ -12677,7 +12677,7 @@ const assets: AssetList = {
       base: 'ibc/66382B8DABAC0CBDC669E8D3551F26D123BB28CE0C73D3705A571F58E23DCE81',
       name: 'Sunrise USDrise',
       display: 'usdrise',
-      symbol: 'USDRISE',
+      symbol: 'USDrise',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.svg'
@@ -21597,7 +21597,7 @@ const assets: AssetList = {
       base: 'ibc/66382B8DABAC0CBDC669E8D3551F26D123BB28CE0C73D3705A571F58E23DCE81',
       name: 'Sunrise USDrise',
       display: 'usdrise',
-      symbol: 'USDRISE',
+      symbol: 'USDrise',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.svg'

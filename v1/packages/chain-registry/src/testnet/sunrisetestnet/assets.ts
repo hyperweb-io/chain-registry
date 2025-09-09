@@ -72,7 +72,7 @@ const info: AssetList = {
       base: 'uusdrise',
       name: 'Sunrise USDrise',
       display: 'usdrise',
-      symbol: 'USDRISE',
+      symbol: 'USDrise',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/usdrise.svg'
