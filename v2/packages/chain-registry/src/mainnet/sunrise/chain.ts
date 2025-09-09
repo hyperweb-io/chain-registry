@@ -107,6 +107,14 @@ const info: Chain = {
       {
         address: 'https://sunrise-rpc.stakeandrelax.net',
         provider: 'Stake&Relax 🦥'
+      },
+      {
+        address: 'https://sunrise.blocksync.me/rpc',
+        provider: 'BlockSync'
+      },
+      {
+        address: 'https://rpc-sunrise.winnode.xyz',
+        provider: 'Winnode'
       }
     ],
     rest: [
@@ -161,6 +169,14 @@ const info: Chain = {
       {
         address: 'https://sunrise-api.stakeandrelax.net',
         provider: 'Stake&Relax 🦥'
+      },
+      {
+        address: 'https://sunrise.blocksync.me/api',
+        provider: 'BlockSync'
+      },
+      {
+        address: 'https://api-sunrise.winnode.xyz',
+        provider: 'Winnode'
       }
     ],
     grpc: [
@@ -199,6 +215,14 @@ const info: Chain = {
       {
         address: 'http://sunrise-grpc.stakeandrelax.net:28390',
         provider: 'Stake&Relax 🦥'
+      },
+      {
+        address: 'http://sunrise.blocksync.me:22090',
+        provider: 'BlockSync'
+      },
+      {
+        address: 'https://grpc-sunrise.winnode.xyz:443',
+        provider: 'Winnode'
       }
     ]
   },
@@ -261,6 +285,18 @@ const info: Chain = {
       url: 'https://explorer.stakeandrelax.net/sunrise',
       txPage: 'https://explorer.stakeandrelax.net/sunrise/tx/${txHash}',
       accountPage: 'https://explorer.stakeandrelax.net/sunrise/account/${accountAddress}'
+    },
+    {
+      kind: 'BlockSync Explorer',
+      url: 'https://dashboard.blocksync.me/sunrise',
+      txPage: 'https://dashboard.blocksync.me/sunrise/tx/${txHash}',
+      accountPage: 'https://dashboard.blocksync.me/sunrise/account/${accountAddress}'
+    },
+    {
+      kind: 'Winnode explorer',
+      url: 'https://explorer.winnode.xyz/Sunrise-Mainnet',
+      txPage: 'https://explorer.winnode.xyz/Sunrise-Mainnet/tx/${txHash}',
+      accountPage: 'https://explorer.winnode.xyz/Sunrise-Mainnet/account/${accountAddress}'
     }
   ],
   images: [{
