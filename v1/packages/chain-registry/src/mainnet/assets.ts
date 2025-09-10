@@ -78,6 +78,7 @@ import * as _gateway from './gateway';
 import * as _genesisl1 from './genesisl1';
 import * as _ggezchain from './ggezchain';
 import * as _gitopia from './gitopia';
+import * as _gonka from './gonka';
 import * as _govgen from './govgen';
 import * as _gravitybridge from './gravitybridge';
 import * as _haqq from './haqq';
@@ -293,6 +294,7 @@ const assets: AssetList[] = [
   _genesisl1.assets,
   _ggezchain.assets,
   _gitopia.assets,
+  _gonka.assets,
   _govgen.assets,
   _gravitybridge.assets,
   _haqq.assets,

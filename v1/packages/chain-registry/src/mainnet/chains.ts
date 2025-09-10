@@ -78,6 +78,7 @@ import * as _gateway from './gateway';
 import * as _genesisl1 from './genesisl1';
 import * as _ggezchain from './ggezchain';
 import * as _gitopia from './gitopia';
+import * as _gonka from './gonka';
 import * as _govgen from './govgen';
 import * as _gravitybridge from './gravitybridge';
 import * as _haqq from './haqq';
@@ -293,6 +294,7 @@ const chains: Chain[] = [
   _genesisl1.chain,
   _ggezchain.chain,
   _gitopia.chain,
+  _gonka.chain,
   _govgen.chain,
   _gravitybridge.chain,
   _haqq.chain,

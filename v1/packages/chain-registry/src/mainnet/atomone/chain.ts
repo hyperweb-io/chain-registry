@@ -151,6 +151,10 @@ const info: Chain = {
       {
         address: 'https://rpc-atomone.22node.xyz',
         provider: '22node'
+      },
+      {
+        address: 'https://m-atomone-rpc.ruangnode.com:443',
+        provider: 'ruangnode'
       }
     ],
     rest: [
@@ -241,6 +245,10 @@ const info: Chain = {
       {
         address: 'https://rest-atomone.22node.xyz',
         provider: '22node'
+      },
+      {
+        address: 'https://m-atomone-api.ruangnode.com:443',
+        provider: 'ruangnode'
       }
     ],
     grpc: [
@@ -303,6 +311,10 @@ const info: Chain = {
       {
         address: 'grpc-atomone.22node.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'm-atomone-grpc.ruangnode.com:12090',
+        provider: 'ruangnode'
       }
     ]
   },
@@ -378,6 +390,12 @@ const info: Chain = {
       url: 'https://explorer.chainroot.io/atomone',
       tx_page: 'https://explorer.chainroot.io/atomone/transactions/${txHash}',
       account_page: 'https://explorer.chainroot.io/atomone/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Ruangnode Explorer',
+      url: 'https://explorer.ruangnode.com/atomone',
+      tx_page: 'https://explorer.ruangnode.com/atomone/tx/${txHash}',
+      account_page: 'https://explorer.ruangnode.com/atomone/account/${accountAddress}'
     }
   ],
   images: [{

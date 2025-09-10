@@ -161,11 +161,11 @@ const info: Chain = {
   },
   codebase: {
     git_repo: 'https://github.com/classic-terra/core',
-    recommended_version: 'v2.1.1',
-    compatible_versions: ['v2.1.1'],
+    recommended_version: 'v3.5.0',
+    compatible_versions: ['v3.5.0'],
     genesis: {
       name: '1.0.5',
-      genesis_url: 'https://tfl-columbus-5.s3.amazonaws.com/genesis.json'
+      genesis_url: 'https://snapshots.hexxagon.io/cosmos/terra-classic/columbus-5/genesis.json'
     }
   },
   logo_URIs: {
@@ -179,20 +179,16 @@ const info: Chain = {
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
       {
-        address: 'https://rpc-terra-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
-        address: 'https://terraclassic-mainnet-rpc.autostake.com:443',
-        provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'https://terraclassic-rpc-server-01.stakely.io',
-        provider: 'Stakely'
+        address: 'https://rpc.terra-classic.hexxagon.io/',
+        provider: 'Hexxagon'
       },
       {
         address: 'https://api-lunc-rpc.binodes.com',
         provider: 'BInodes'
+      },
+      {
+        address: 'https://terraclassic-rpc-server-01.stakely.io',
+        provider: 'Stakely'
       }
     ],
     rest: [
@@ -201,16 +197,12 @@ const info: Chain = {
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
       {
-        address: 'https://api-terra-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
+        address: 'https://lcd.terra-classic.hexxagon.io/',
+        provider: 'Hexxagon'
       },
       {
         address: 'https://terraclassic-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'https://terraclassic-lcd-server-01.stakely.io',
-        provider: 'Stakely'
       },
       {
         address: 'https://api-lunc-lcd.binodes.com',
@@ -219,20 +211,12 @@ const info: Chain = {
     ],
     grpc: [
       {
-        address: 'grpc.terrarebels.net',
-        provider: 'Terra Rebels'
+        address: 'grpc.terra-classic.hexxagon.io/',
+        provider: 'Hexxagon'
       },
       {
         address: 'terra-classic-grpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'grpc-terra-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
-      },
-      {
-        address: 'terraclassic-mainnet-grpc.autostake.com:443',
-        provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
         address: 'api-lunc-grpc.binodes.com:443',
@@ -242,10 +226,16 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'ezstaking',
-      url: 'https://ezstaking.app/terra',
-      tx_page: 'https://ezstaking.app/terra/txs/${txHash}',
-      account_page: 'https://ezstaking.app/terra/account/${accountAddress}'
+      kind: 'hexxagon-finder',
+      url: 'https://finder.terra-classic.hexxagon.io/',
+      tx_page: 'https://finder.terra-classic.hexxagon.io/mainnet/tx/${txHash}',
+      account_page: 'https://finder.terra-classic.hexxagon.io/mainnet/address/${accountAddress}'
+    },
+    {
+      kind: 'hexxagon2-finder',
+      url: 'https://finder.terraclassic.community/',
+      tx_page: 'https://finder.terraclassic.community/mainnet/tx/${txHash}',
+      account_page: 'https://finder.terraclassic.community/mainnet/address/${accountAddress}'
     },
     {
       kind: 'ping.pub',
@@ -265,16 +255,10 @@ const info: Chain = {
       account_page: 'https://staking-explorer.com/account.php?chain=terra&addr=${accountAddress}'
     },
     {
-      kind: 'finder',
-      url: 'https://finder.terra.money/classic',
-      tx_page: 'https://finder.terra.money/classic/tx/${txHash}',
-      account_page: 'https://finder.terra.money/classic/address/${accountAddress}'
-    },
-    {
-      kind: 'finder',
-      url: 'https://finder.terrarebels.net/classic',
-      tx_page: 'https://finder.terrarebels.net/classic/tx/${txHash}',
-      account_page: 'https://finder.terrarebels.net/classic/address/${accountAddress}'
+      kind: 'terraport-finder',
+      url: 'https://finder.terraport.finance/',
+      tx_page: 'https://finder.terraport.finance/mainnet/tx/${txHash}',
+      account_page: 'https://finder.terraport.finance/mainnet/address/${accountAddress}'
     }
   ],
   images: [{

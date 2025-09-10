@@ -491,6 +491,45 @@ const assets: AssetList = {
         }]
     },
     {
+      denom_units: [{
+          denom: 'ibc/CCB7E815618185A792DA0A42E649270CB462A43E660885FB747CE57486A9F5F6',
+          exponent: 0,
+          aliases: ['ulume']
+        }, {
+          denom: 'LUME',
+          exponent: 6,
+          aliases: ['lume']
+        }],
+      base: 'ibc/CCB7E815618185A792DA0A42E649270CB462A43E660885FB747CE57486A9F5F6',
+      display: 'LUME',
+      name: 'lume',
+      symbol: 'LUME',
+      type_asset: 'sdk.coin',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png'
+        }],
+      socials: {
+        github: 'https://github.com/LumeraProtocol/lumera',
+        discord: 'https://discord.gg/lumeraprotocol',
+        telegram: 'https://t.me/lumeraprotocol',
+        website: 'https://lumera.io'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ulume',
+            chain_name: 'lumeratestnet'
+          },
+          chain: {
+            channel_id: 'channel-10884'
+          }
+        }]
+    },
+    {
       description: 'Manifest testnet native token',
       denom_units: [{
           denom: 'ibc/71C8E0B309E2F2A4C66F85E7C34C4415A3D26E489DBDF3FFF4EDCBE15B229B14',
@@ -1309,6 +1348,45 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-4357'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/CCB7E815618185A792DA0A42E649270CB462A43E660885FB747CE57486A9F5F6',
+          exponent: 0,
+          aliases: ['ulume']
+        }, {
+          denom: 'LUME',
+          exponent: 6,
+          aliases: ['lume']
+        }],
+      base: 'ibc/CCB7E815618185A792DA0A42E649270CB462A43E660885FB747CE57486A9F5F6',
+      display: 'LUME',
+      name: 'lume',
+      symbol: 'LUME',
+      type_asset: 'sdk.coin',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png'
+        }],
+      socials: {
+        github: 'https://github.com/LumeraProtocol/lumera',
+        discord: 'https://discord.gg/lumeraprotocol',
+        telegram: 'https://t.me/lumeraprotocol',
+        website: 'https://lumera.io'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ulume',
+            chain_name: 'lumeratestnet'
+          },
+          chain: {
+            channel_id: 'channel-10884'
           }
         }]
     },

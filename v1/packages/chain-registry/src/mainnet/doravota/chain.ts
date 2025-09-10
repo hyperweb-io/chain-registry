@@ -51,6 +51,10 @@ const info: Chain = {
       {
         address: 'https://doravota-mainnet-rpc.itrocket.net:443',
         provider: 'ITRocket'
+      },
+      {
+        address: 'https://m-dora-rpc.ruangnode.com:443',
+        provider: 'ruangnode'
       }
     ],
     rest: [
@@ -69,6 +73,10 @@ const info: Chain = {
       {
         address: 'https://doravota-mainnet-api.itrocket.net',
         provider: 'ITRocket'
+      },
+      {
+        address: 'https://m-dora-api.ruangnode.com',
+        provider: 'ruangnode'
       }
     ],
     grpc: [
@@ -83,6 +91,10 @@ const info: Chain = {
       {
         address: 'doravota-mainnet-grpc.itrocket.net:443',
         provider: 'ITRocket'
+      },
+      {
+        address: 'm-dora-grpc.ruangnode.com:30090',
+        provider: 'ruangnode'
       }
     ]
   },
@@ -124,6 +136,11 @@ const info: Chain = {
       url: 'https://dora.valopers.com/',
       tx_page: 'https://dora.valopers.com/transactions/${txHash}',
       account_page: 'https://dora.valopers.com/account/${accountAddress}'
+    },
+    {
+      kind: 'Ruangnode Explorers',
+      url: 'https://explorer.ruangnode.com/dora/staking',
+      tx_page: 'https://explorer.ruangnode.com/dora/tx/${txHash}'
     }
   ]
 };

@@ -46418,6 +46418,46 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'An eco-friendly token for sustainable projects and green initiatives on Terra Luna Classic',
+      socials: {
+        website: 'https://www.greenfriendlylabs.com/',
+        twitter: 'https://x.com/GreenFrndLabs'
+      },
+      type_asset: 'cw20',
+      address: 'terra17hnu4prwa3varxrws0sy9hffkmqv8tfmfpldg4e9fq58flrmuz2qlhymr5',
+      denom_units: [{
+          denom: 'ibc/B6D6A3C473F8937F323F4CE2F22CECBBBA401B8BA2BA6321E76A7B3623912395',
+          exponent: 0,
+          aliases: ['cw20:terra17hnu4prwa3varxrws0sy9hffkmqv8tfmfpldg4e9fq58flrmuz2qlhymr5']
+        }, {
+          denom: 'gft',
+          exponent: 6
+        }],
+      base: 'ibc/B6D6A3C473F8937F323F4CE2F22CECBBBA401B8BA2BA6321E76A7B3623912395',
+      name: 'Greenfriendly Token',
+      display: 'gft',
+      symbol: 'GFT',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/greenfriendlylabs.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/greenfriendlylabs.png'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
+            channel_id: 'channel-108',
+            base_denom: 'cw20:terra17hnu4prwa3varxrws0sy9hffkmqv8tfmfpldg4e9fq58flrmuz2qlhymr5',
+            chain_name: 'terra'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-78488'
+          }
+        }]
+    },
+    {
       description: 'Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.',
       denom_units: [{
           denom: 'ibc/8410580A4F5421DFDBD888212624591E92A9E3B5C87D3C58913CE16ABD98B9B4',
@@ -54870,6 +54910,46 @@ const asset_list: AssetList = {
             port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
             channel_id: 'channel-108',
             base_denom: 'cw20:terra10fusc7487y4ju2v5uavkauf3jdpxx9h8sc7wsqdqg4rne8t4qyrq8385q6',
+            chain_name: 'terra'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-78488'
+          }
+        }]
+    },
+    {
+      description: 'An eco-friendly token for sustainable projects and green initiatives on Terra Luna Classic',
+      socials: {
+        website: 'https://www.greenfriendlylabs.com/',
+        twitter: 'https://x.com/GreenFrndLabs'
+      },
+      type_asset: 'cw20',
+      address: 'terra17hnu4prwa3varxrws0sy9hffkmqv8tfmfpldg4e9fq58flrmuz2qlhymr5',
+      denom_units: [{
+          denom: 'ibc/B6D6A3C473F8937F323F4CE2F22CECBBBA401B8BA2BA6321E76A7B3623912395',
+          exponent: 0,
+          aliases: ['cw20:terra17hnu4prwa3varxrws0sy9hffkmqv8tfmfpldg4e9fq58flrmuz2qlhymr5']
+        }, {
+          denom: 'gft',
+          exponent: 6
+        }],
+      base: 'ibc/B6D6A3C473F8937F323F4CE2F22CECBBBA401B8BA2BA6321E76A7B3623912395',
+      name: 'Greenfriendly Token',
+      display: 'gft',
+      symbol: 'GFT',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/greenfriendlylabs.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/greenfriendlylabs.png'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
+            channel_id: 'channel-108',
+            base_denom: 'cw20:terra17hnu4prwa3varxrws0sy9hffkmqv8tfmfpldg4e9fq58flrmuz2qlhymr5',
             chain_name: 'terra'
           },
           chain: {
