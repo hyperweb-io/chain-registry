@@ -159,6 +159,10 @@ const info: Chain = {
       {
         address: 'https://chain4energy_mainnet_rpc.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://rpc.polcrypto.pl:443',
+        provider: 'POLCRYPTO.PL'
       }
     ],
     rest: [
@@ -265,6 +269,10 @@ const info: Chain = {
       {
         address: 'https://chain4energy_mainnet_api.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://rest.polcrypto.pl:443',
+        provider: 'POLCRYPTO.PL'
       }
     ],
     grpc: [
@@ -367,6 +375,10 @@ const info: Chain = {
       {
         address: 'http://207.180.208.47:46657',
         provider: 'NakoTurk'
+      },
+      {
+        address: 'grpc.polcrypto.pl:443',
+        provider: 'POLCRYPTO.PL'
       }
     ]
   },
@@ -453,6 +465,12 @@ const info: Chain = {
       url: 'https://explorer.whenmoonwhenlambo.money/chain4energy',
       txPage: 'https://explorer.whenmoonwhenlambo.money/chain4energy/tx/${txHash}',
       accountPage: 'https://explorer.whenmoonwhenlambo.money/chain4energy/account/${accountAddress}'
+    },
+    {
+      kind: 'POLCRYPTO.PL',
+      url: 'https://explorer.polcrypto.pl',
+      txPage: 'https://explorer.polcrypto.pl/tx/${txHash}',
+      accountPage: 'https://explorer.polcrypto.pl/account/${accountAddress}'
     }
   ],
   images: [{
