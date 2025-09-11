@@ -66,7 +66,6 @@ export * as lombardledgertestnet from './lombardledgertestnet';
 export * as lumenxtestnet from './lumenxtestnet';
 export * as lumeratestnet from './lumeratestnet';
 export * as manifesttestnet from './manifesttestnet';
-export * as mantrachaintestnet from './mantrachaintestnet';
 export * as mantrachaintestnet2 from './mantrachaintestnet2';
 export * as marstestnet from './marstestnet';
 export * as metanovaversetestnet from './metanovaversetestnet';

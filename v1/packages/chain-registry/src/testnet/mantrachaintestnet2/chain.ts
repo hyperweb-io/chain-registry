@@ -17,7 +17,7 @@ const info: Chain = {
         denom: 'uom',
         fixed_min_gas_price: 0.01,
         low_gas_price: 0.01,
-        average_gas_price: 0.01,
+        average_gas_price: 0.025,
         high_gas_price: 0.03
       }]
   },
@@ -73,23 +73,39 @@ const info: Chain = {
       }, {
         address: 'mantra-testnet-grpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
+      }],
+    "evm-http-jsonrpc": [{
+        address: 'https://evm.dukong.mantrachain.io',
+        provider: 'MANTRACHAIN'
+      }, {
+        address: 'https://rpc.evm.mantra.testnet.cosmostation.io',
+        provider: 'Cosmostation'
       }]
   },
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png',
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg'
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/mantra-testnet',
       tx_page: 'https://mintscan.io/mantra-testnet/txs/${txHash}',
       account_page: 'https://mintscan.io/mantra-testnet/account/${accountAddress}'
-    }, {
+    },
+    {
       kind: 'ping.pub',
       url: 'https://explorer.mantrachain.io',
       tx_page: 'https://explorer.mantrachain.io/MANTRA-Dukong/tx/${txHash}',
       account_page: 'https://explorer.mantrachain.io/MANTRA-Dukong/account/${accountAddress}'
-    }],
+    },
+    {
+      kind: 'mantrascan',
+      url: 'https://mantrascan.io/dukong',
+      tx_page: 'https://mantrascan.io/dukong/tx/${txHash}',
+      account_page: 'https://mantrascan.io/dukong/address/${accountAddress}'
+    }
+  ],
   keywords: [
     'rwa',
     'wasm',

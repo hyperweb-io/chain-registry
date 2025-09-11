@@ -29,8 +29,8 @@ const info: Chain = {
   },
   codebase: {
     git_repo: 'https://github.com/xpladev/xpla',
-    recommended_version: 'v1.8.0-rc2',
-    compatible_versions: ['v1.8.0-rc2'],
+    recommended_version: 'v1.8.0-cube',
+    compatible_versions: ['v1.8.0-cube'],
     consensus: {
       type: 'cometbft',
       version: 'v0.38.17'

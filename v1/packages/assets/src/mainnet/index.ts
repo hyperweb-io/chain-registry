@@ -85,6 +85,7 @@ export * as lava from './lava';
 export * as likecoin from './likecoin';
 export * as lombardledger from './lombardledger';
 export * as lorenzo from './lorenzo';
+export * as lumera from './lumera';
 export * as lumnetwork from './lumnetwork';
 export * as mande from './mande';
 export * as manifest from './manifest';

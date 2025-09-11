@@ -9455,6 +9455,42 @@ const assets: AssetList = {
       coingecko_id: 'astrovault-xatom'
     },
     {
+      description: 'EHO is the native token powering Cognitive Echo — a VR + AI ecosystem where thoughts become visual, insights resonate, and cognitive echo transforms ideas into reality. The infinity symbol (∞) represents infinite resonance and community-driven growth.',
+      denom_units: [{
+          denom: 'ibc/7588008F6C7689CB403617A5B7E265F49887EE4C2CB72B15C2AA053CB984FEE4',
+          exponent: 0,
+          aliases: ['cw20:neutron15e56mauwr8n2cma56f78cvtnd9c2pr0y7f4mffdwda7z49sksyvqh2hke2']
+        }, {
+          denom: 'eho',
+          exponent: 6
+        }],
+      type_asset: 'cw20',
+      address: 'neutron15e56mauwr8n2cma56f78cvtnd9c2pr0y7f4mffdwda7z49sksyvqh2hke2',
+      base: 'ibc/7588008F6C7689CB403617A5B7E265F49887EE4C2CB72B15C2AA053CB984FEE4',
+      name: 'Cognitive Echo',
+      display: 'eho',
+      symbol: 'EHO',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/eho.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/eho.svg'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'transfer',
+            channel_id: 'channel-1950',
+            base_denom: 'cw20:neutron15e56mauwr8n2cma56f78cvtnd9c2pr0y7f4mffdwda7z49sksyvqh2hke2',
+            chain_name: 'neutron'
+          },
+          chain: {
+            port: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4',
+            channel_id: 'channel-151'
+          }
+        }]
+    },
+    {
       description: 'The Wrapped INJ token for the Oraichain.',
       type_asset: 'cw20',
       address: 'orai19rtmkk6sn4tppvjmp5d5zj6gfsdykrl5rw2euu5gwur3luheuuusesqn49',
@@ -12661,6 +12697,42 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/xatom.svg'
         }],
       coingecko_id: 'astrovault-xatom'
+    },
+    {
+      description: 'EHO is the native token powering Cognitive Echo — a VR + AI ecosystem where thoughts become visual, insights resonate, and cognitive echo transforms ideas into reality. The infinity symbol (∞) represents infinite resonance and community-driven growth.',
+      denom_units: [{
+          denom: 'ibc/7588008F6C7689CB403617A5B7E265F49887EE4C2CB72B15C2AA053CB984FEE4',
+          exponent: 0,
+          aliases: ['cw20:neutron15e56mauwr8n2cma56f78cvtnd9c2pr0y7f4mffdwda7z49sksyvqh2hke2']
+        }, {
+          denom: 'eho',
+          exponent: 6
+        }],
+      type_asset: 'cw20',
+      address: 'neutron15e56mauwr8n2cma56f78cvtnd9c2pr0y7f4mffdwda7z49sksyvqh2hke2',
+      base: 'ibc/7588008F6C7689CB403617A5B7E265F49887EE4C2CB72B15C2AA053CB984FEE4',
+      name: 'Cognitive Echo',
+      display: 'eho',
+      symbol: 'EHO',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/eho.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/eho.svg'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'transfer',
+            channel_id: 'channel-1950',
+            base_denom: 'cw20:neutron15e56mauwr8n2cma56f78cvtnd9c2pr0y7f4mffdwda7z49sksyvqh2hke2',
+            chain_name: 'neutron'
+          },
+          chain: {
+            port: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4',
+            channel_id: 'channel-151'
+          }
+        }]
     },
     {
       description: 'The Wrapped INJ token for the Oraichain.',
