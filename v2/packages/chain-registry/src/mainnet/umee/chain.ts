@@ -264,9 +264,10 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'ping.pub',
-      url: 'https://ping.pub/umee',
-      txPage: 'https://ping.pub/umee/tx/${txHash}'
+      kind: 'Chainroot',
+      url: 'https://explorer.chainroot.io/ux',
+      txPage: 'https://explorer.chainroot.io/ux/transactions/${txHash}',
+      accountPage: 'https://explorer.chainroot.io/ux/accounts/${accountAddress}'
     },
     {
       kind: '🔥STAVR🔥 Explorer',
@@ -318,12 +319,6 @@ const info: Chain = {
       url: 'https://explorer.whenmoonwhenlambo.money/umee',
       txPage: 'https://explorer.whenmoonwhenlambo.money/umee/tx/${txHash}',
       accountPage: 'https://explorer.whenmoonwhenlambo.money/umee/account/${accountAddress}'
-    },
-    {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/ux',
-      txPage: 'https://explorer.chainroot.io/ux/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/ux/accounts/${accountAddress}'
     },
     {
       kind: 'Valopers',

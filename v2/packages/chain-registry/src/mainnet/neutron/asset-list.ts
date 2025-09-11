@@ -1641,6 +1641,28 @@ const info: AssetList = {
         website: 'https://TabCo.in'
       },
       typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'EHO is the native token powering Cognitive Echo — a VR + AI ecosystem where thoughts become visual, insights resonate, and cognitive echo transforms ideas into reality. The infinity symbol (∞) represents infinite resonance and community-driven growth.',
+      denomUnits: [{
+          denom: 'cw20:neutron15e56mauwr8n2cma56f78cvtnd9c2pr0y7f4mffdwda7z49sksyvqh2hke2',
+          exponent: 0
+        }, {
+          denom: 'eho',
+          exponent: 6
+        }],
+      typeAsset: 'cw20',
+      address: 'neutron15e56mauwr8n2cma56f78cvtnd9c2pr0y7f4mffdwda7z49sksyvqh2hke2',
+      base: 'cw20:neutron15e56mauwr8n2cma56f78cvtnd9c2pr0y7f4mffdwda7z49sksyvqh2hke2',
+      name: 'Cognitive Echo',
+      display: 'eho',
+      symbol: 'EHO',
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/eho.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/eho.svg'
+        }]
     }
   ]
 };

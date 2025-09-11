@@ -29,6 +29,49 @@ const info: AssetList = {
         telegram: 'https://t.me/lumeraprotocol',
         website: 'https://lumera.io'
       }
+    }, {
+      denomUnits: [{
+          denom: 'ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518',
+          exponent: 0,
+          aliases: ['uosmo']
+        }, {
+          denom: 'osmo',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518',
+      name: 'Osmosis OSMO Token',
+      display: 'osmo',
+      symbol: 'OSMO',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'osmosis',
+            baseDenom: 'uosmo',
+            channelId: 'channel-106313'
+          },
+          chain: {
+            channelId: 'channel-0',
+            path: 'transfer/channel-0/uosmo'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'osmosis',
+            baseDenom: 'uosmo'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
+      },
+      keywords: [
+        'dex',
+        'ibc',
+        'osmosis'
+      ]
     }]
 };
 export default info;

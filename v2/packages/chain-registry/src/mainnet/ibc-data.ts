@@ -87,6 +87,7 @@ import * as _lava from './lava';
 import * as _likecoin from './likecoin';
 import * as _lombardledger from './lombardledger';
 import * as _lorenzo from './lorenzo';
+import * as _lumera from './lumera';
 import * as _lumnetwork from './lumnetwork';
 import * as _mande from './mande';
 import * as _manifest from './manifest';
@@ -255,6 +256,7 @@ const ibcData: IBCData[] = [
   ..._likecoin.ibcData,
   ..._lombardledger.ibcData,
   ..._lorenzo.ibcData,
+  ..._lumera.ibcData,
   ..._lumnetwork.ibcData,
   ..._mande.ibcData,
   ..._manifest.ibcData,
