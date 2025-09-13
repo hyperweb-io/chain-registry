@@ -21,7 +21,10 @@ const info: AssetList = {
       socials: {
         website: 'https://autheo.com'
       },
-      type_asset: 'sdk.coin'
+      type_asset: 'sdk.coin',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/autheotestnet/images/autheo_logo.png'
+        }]
     }]
 };
 export default info;

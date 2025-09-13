@@ -29,6 +29,10 @@ const info: AssetList = {
       },
       coingecko_id: 'secret',
       images: [{
+          image_sync: {
+            chain_name: 'secretnetwork',
+            base_denom: 'uscrt'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg'
         }],

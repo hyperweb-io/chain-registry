@@ -155,6 +155,10 @@ const info: Chain = {
       {
         address: 'https://m-atomone-rpc.ruangnode.com:443',
         provider: 'ruangnode'
+      },
+      {
+        address: 'https://atomone-rpc.kynraze.com:443',
+        provider: 'kynraze'
       }
     ],
     rest: [
@@ -249,6 +253,10 @@ const info: Chain = {
       {
         address: 'https://m-atomone-api.ruangnode.com:443',
         provider: 'ruangnode'
+      },
+      {
+        address: 'https://atomone-api.kynraze.com:443',
+        provider: 'kynraze'
       }
     ],
     grpc: [
@@ -315,6 +323,10 @@ const info: Chain = {
       {
         address: 'm-atomone-grpc.ruangnode.com:12090',
         provider: 'ruangnode'
+      },
+      {
+        address: 'atomone-grpc.kynraze.com:77',
+        provider: 'kynraze'
       }
     ]
   },
@@ -396,6 +408,12 @@ const info: Chain = {
       url: 'https://explorer.ruangnode.com/atomone',
       tx_page: 'https://explorer.ruangnode.com/atomone/tx/${txHash}',
       account_page: 'https://explorer.ruangnode.com/atomone/account/${accountAddress}'
+    },
+    {
+      kind: 'Kynraze Explorer',
+      url: 'https://explorer.kynraze.com/atomone',
+      tx_page: 'https://explorer.kynraze.com/atomone/tx/${txHash}',
+      account_page: 'https://explorer.kynraze.com/atomone/account/${accountAddress}'
     }
   ],
   images: [{

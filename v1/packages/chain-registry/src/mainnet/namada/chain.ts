@@ -137,6 +137,9 @@ const info: Chain = {
   ],
   logo_URIs: {
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
-  }
+  },
+  images: [{
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+    }]
 };
 export default info;

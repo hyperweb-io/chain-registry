@@ -30,6 +30,10 @@ const info: AssetList = {
       },
       coingecko_id: 'injective-protocol',
       images: [{
+          image_sync: {
+            chain_name: 'injective',
+            base_denom: 'inj'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
         }],
@@ -62,8 +66,15 @@ const info: AssetList = {
           provider: 'Circle'
         }],
       images: [{
+          image_sync: {
+            chain_name: 'ethereumtestnet',
+            base_denom: '0x254d06f33bDc5b8ee05b2ea472107E300226659A'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
+          theme: {
+            circle: true
+          }
         }],
       type_asset: 'sdk.coin'
     },
@@ -81,7 +92,8 @@ const info: AssetList = {
       display: 'OSMO',
       symbol: 'OSMO',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
       },
       coingecko_id: 'osmosis',
       traces: [{
@@ -97,7 +109,12 @@ const info: AssetList = {
           }
         }],
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png'
+          image_sync: {
+            chain_name: 'osmosistestnet',
+            base_denom: 'uosmo'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
         }],
       type_asset: 'ics20'
     },
@@ -127,8 +144,15 @@ const info: AssetList = {
           provider: 'Peggy'
         }],
       images: [{
+          image_sync: {
+            chain_name: 'ethereumtestnet',
+            base_denom: '0xaA8E23Fb1079EA71e0a56F48a2aA51851D8433D0'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg',
+          theme: {
+            circle: true
+          }
         }],
       type_asset: 'sdk.coin'
     }

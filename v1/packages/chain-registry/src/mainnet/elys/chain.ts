@@ -380,6 +380,9 @@ const info: Chain = {
       tx_page: 'https://elysscan.io/tx/${txHash}',
       account_page: 'https://elysscan.io/address/${accountAddress}'
     }
-  ]
+  ],
+  images: [{
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png'
+    }]
 };
 export default info;

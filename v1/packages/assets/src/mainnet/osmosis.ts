@@ -26,6 +26,9 @@ const assets: AssetList = {
         twitter: 'https://x.com/namada'
       },
       coingecko_id: 'namada',
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+        }],
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -5499,49 +5502,6 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-0',
             base_denom: 'unibi',
-            chain_name: 'nibiru'
-          },
-          chain: {
-            channel_id: 'channel-21113'
-          }
-        }]
-    },
-    {
-      name: 'Astrovault token',
-      description: 'AXV',
-      socials: {
-        website: 'https://astrovault.io/',
-        twitter: 'https://x.com/axvdex'
-      },
-      denom_units: [{
-          denom: 'ibc/478488928056E6D881185E48D7CC499E17F038219467A4A2952AE58C901E5747',
-          exponent: 0,
-          aliases: ['tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv']
-        }, {
-          denom: 'AXV',
-          exponent: 6
-        }],
-      base: 'ibc/478488928056E6D881185E48D7CC499E17F038219467A4A2952AE58C901E5747',
-      display: 'AXV',
-      symbol: 'AXV',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg',
-          image_sync: {
-            chain_name: 'neutron',
-            base_denom: 'cw20:neutron10dxyft3nv4vpxh5vrpn0xw8geej8dw3g39g7nqp8mrm307ypssksau29af'
-          }
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-0',
-            base_denom: 'tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv',
             chain_name: 'nibiru'
           },
           chain: {
@@ -11585,6 +11545,9 @@ const assets: AssetList = {
         twitter: 'https://x.com/namada'
       },
       coingecko_id: 'namada',
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+        }],
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -11820,49 +11783,6 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-0',
             base_denom: 'unibi',
-            chain_name: 'nibiru'
-          },
-          chain: {
-            channel_id: 'channel-21113'
-          }
-        }]
-    },
-    {
-      name: 'Astrovault token',
-      description: 'AXV',
-      socials: {
-        website: 'https://astrovault.io/',
-        twitter: 'https://x.com/axvdex'
-      },
-      denom_units: [{
-          denom: 'ibc/478488928056E6D881185E48D7CC499E17F038219467A4A2952AE58C901E5747',
-          exponent: 0,
-          aliases: ['tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv']
-        }, {
-          denom: 'AXV',
-          exponent: 6
-        }],
-      base: 'ibc/478488928056E6D881185E48D7CC499E17F038219467A4A2952AE58C901E5747',
-      display: 'AXV',
-      symbol: 'AXV',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg',
-          image_sync: {
-            chain_name: 'neutron',
-            base_denom: 'cw20:neutron10dxyft3nv4vpxh5vrpn0xw8geej8dw3g39g7nqp8mrm307ypssksau29af'
-          }
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-0',
-            base_denom: 'tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv',
             chain_name: 'nibiru'
           },
           chain: {
@@ -32911,6 +32831,9 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg'
         }]
     },
     {
@@ -32928,6 +32851,7 @@ const assets: AssetList = {
       display: 'LBTC',
       symbol: 'LBTC',
       logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
       },
       type_asset: 'cw20',
@@ -32942,6 +32866,17 @@ const assets: AssetList = {
           chain: {
             port: 'transfer',
             channel_id: 'channel-101979'
+          }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x8236a87084f8B84306f72007F36F2618A5634494'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg',
+          theme: {
+            circle: true
           }
         }]
     },
@@ -32960,6 +32895,7 @@ const assets: AssetList = {
       display: 'SolvBTC',
       symbol: 'SolvBTC',
       logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
       },
       type_asset: 'cw20',
@@ -32975,6 +32911,14 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x7a56e1c57c7475ccf742a1832b028f0456652f97'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
         }]
     },
     {
@@ -33007,6 +32951,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
         }]
     },
     {
@@ -33039,6 +32990,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x657e8c867d8b37dcc18fa4caead9c45eb088c642'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png'
         }]
     },
     {
@@ -33071,6 +33029,9 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mBTC.png'
         }]
     },
     {
@@ -33103,6 +33064,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
         }]
     },
     {
@@ -33135,6 +33103,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg'
         }]
     },
     {
@@ -33167,6 +33142,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0xF7De2B7afdb07AA5dD143180Ed758165821E076e'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg'
         }]
     },
     {
@@ -33199,6 +33181,9 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png'
         }]
     },
     {
@@ -33216,6 +33201,7 @@ const assets: AssetList = {
       display: 'satLBTC.e',
       symbol: 'satLBTC.e',
       logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
       },
       type_asset: 'cw20',
@@ -33230,6 +33216,17 @@ const assets: AssetList = {
           chain: {
             port: 'transfer',
             channel_id: 'channel-101979'
+          }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x067e11Ac5471C853aea205B3C1933a5f6367152F'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg',
+          theme: {
+            circle: true
           }
         }]
     },
@@ -33263,6 +33260,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0xe2C6755C10d0B61D8B11Dd2851AE8266Cea912DC'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png'
         }]
     },
     {
@@ -33280,6 +33284,7 @@ const assets: AssetList = {
       display: 'satWBTC.e',
       symbol: 'satWBTC.e',
       logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg'
       },
       type_asset: 'cw20',
@@ -33295,6 +33300,14 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x69223B5B36a785Ec08e5f685fd7961399982C566'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg'
         }]
     },
     {
@@ -33327,6 +33340,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x0c4dd69705D16d91bC9C0534Cc926966f23430c7'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
         }]
     },
     {
@@ -33359,6 +33379,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0xFF2858Cc8227aA45a51c8961598Edc2d44B5ee5b'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
         }]
     },
     {
@@ -33391,6 +33418,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'binancesmartchain',
+            base_denom: '0x918b3aa73e2D42D96CF64CBdB16838985992dAbc'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/CoBTC.svg'
         }]
     },
     {
@@ -36184,6 +36218,9 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg'
         }]
     },
     {
@@ -36201,6 +36238,7 @@ const assets: AssetList = {
       display: 'LBTC',
       symbol: 'LBTC',
       logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
       },
       type_asset: 'cw20',
@@ -36215,6 +36253,17 @@ const assets: AssetList = {
           chain: {
             port: 'transfer',
             channel_id: 'channel-101979'
+          }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x8236a87084f8B84306f72007F36F2618A5634494'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg',
+          theme: {
+            circle: true
           }
         }]
     },
@@ -36233,6 +36282,7 @@ const assets: AssetList = {
       display: 'SolvBTC',
       symbol: 'SolvBTC',
       logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
       },
       type_asset: 'cw20',
@@ -36248,6 +36298,14 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x7a56e1c57c7475ccf742a1832b028f0456652f97'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
         }]
     },
     {
@@ -36280,6 +36338,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
         }]
     },
     {
@@ -36312,6 +36377,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x657e8c867d8b37dcc18fa4caead9c45eb088c642'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png'
         }]
     },
     {
@@ -36344,6 +36416,9 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mBTC.png'
         }]
     },
     {
@@ -36376,6 +36451,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
         }]
     },
     {
@@ -36408,6 +36490,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg'
         }]
     },
     {
@@ -36440,6 +36529,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0xF7De2B7afdb07AA5dD143180Ed758165821E076e'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg'
         }]
     },
     {
@@ -36472,6 +36568,9 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png'
         }]
     },
     {
@@ -36489,6 +36588,7 @@ const assets: AssetList = {
       display: 'satLBTC.e',
       symbol: 'satLBTC.e',
       logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
       },
       type_asset: 'cw20',
@@ -36503,6 +36603,17 @@ const assets: AssetList = {
           chain: {
             port: 'transfer',
             channel_id: 'channel-101979'
+          }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x067e11Ac5471C853aea205B3C1933a5f6367152F'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg',
+          theme: {
+            circle: true
           }
         }]
     },
@@ -36536,6 +36647,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0xe2C6755C10d0B61D8B11Dd2851AE8266Cea912DC'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png'
         }]
     },
     {
@@ -36553,6 +36671,7 @@ const assets: AssetList = {
       display: 'satWBTC.e',
       symbol: 'satWBTC.e',
       logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg'
       },
       type_asset: 'cw20',
@@ -36568,6 +36687,14 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x69223B5B36a785Ec08e5f685fd7961399982C566'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg'
         }]
     },
     {
@@ -36600,6 +36727,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x0c4dd69705D16d91bC9C0534Cc926966f23430c7'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
         }]
     },
     {
@@ -36632,6 +36766,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0xFF2858Cc8227aA45a51c8961598Edc2d44B5ee5b'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
         }]
     },
     {
@@ -36664,6 +36805,13 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-101979'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'binancesmartchain',
+            base_denom: '0x918b3aa73e2D42D96CF64CBdB16838985992dAbc'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/CoBTC.svg'
         }]
     },
     {

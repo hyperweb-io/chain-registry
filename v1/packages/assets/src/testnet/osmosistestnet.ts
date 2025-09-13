@@ -2072,45 +2072,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native staking and governance token of the testnet version of Synternet chain.',
-      denom_units: [{
-          denom: 'ibc/5A40E4FFC9DD1E4BF7BF7C77AC2B0F72C179DB4C64D4B351969FC8EBB9D12B97',
-          exponent: 0,
-          aliases: ['uamber']
-        }, {
-          denom: 'AMBER',
-          exponent: 6
-        }],
-      base: 'ibc/5A40E4FFC9DD1E4BF7BF7C77AC2B0F72C179DB4C64D4B351969FC8EBB9D12B97',
-      name: 'Synternet',
-      display: 'AMBER',
-      symbol: 'AMBER',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/synternet/images/synt.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/synternet/images/synt.svg'
-      },
-      images: [{
-          image_sync: {
-            chain_name: 'synternet',
-            base_denom: 'usynt'
-          },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/synternet/images/synt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/synternet/images/synt.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-0',
-            base_denom: 'uamber',
-            chain_name: 'synternettestnet'
-          },
-          chain: {
-            channel_id: 'channel-9152'
-          }
-        }]
-    },
-    {
       description: 'TTNT is the native token of the Titan Network testnet, serving as a medium of value, staking token, and transparency mechanism for the ecosystem.',
       denom_units: [{
           denom: 'ibc/C46DB64CBA325B311FA2595F70B2C99DAA4CE86483F28213AC81838E754E5DF0',
@@ -2670,45 +2631,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-9540'
-          }
-        }]
-    },
-    {
-      description: 'The native staking and governance token of the testnet version of Synternet chain.',
-      denom_units: [{
-          denom: 'ibc/5A40E4FFC9DD1E4BF7BF7C77AC2B0F72C179DB4C64D4B351969FC8EBB9D12B97',
-          exponent: 0,
-          aliases: ['uamber']
-        }, {
-          denom: 'AMBER',
-          exponent: 6
-        }],
-      base: 'ibc/5A40E4FFC9DD1E4BF7BF7C77AC2B0F72C179DB4C64D4B351969FC8EBB9D12B97',
-      name: 'Synternet',
-      display: 'AMBER',
-      symbol: 'AMBER',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/synternet/images/synt.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/synternet/images/synt.svg'
-      },
-      images: [{
-          image_sync: {
-            chain_name: 'synternet',
-            base_denom: 'usynt'
-          },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/synternet/images/synt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/synternet/images/synt.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-0',
-            base_denom: 'uamber',
-            chain_name: 'synternettestnet'
-          },
-          chain: {
-            channel_id: 'channel-9152'
           }
         }]
     },

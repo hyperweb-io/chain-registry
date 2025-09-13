@@ -80,6 +80,10 @@ const info: Chain = {
         address: 'devnet.grpc.agoric.net:443'
       }]
   },
-  explorers: []
+  explorers: [],
+  images: [{
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/Agoric-logo-color.png',
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/Agoric-logo-color.svg'
+    }]
 };
 export default info;

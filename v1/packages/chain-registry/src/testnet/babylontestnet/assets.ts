@@ -53,6 +53,10 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
       },
       images: [{
+          image_sync: {
+            chain_name: 'neutrontestnet',
+            base_denom: 'factory/neutron1aphhmsv5lglvvycldlveckjq8zcgwvg34cn0cs/test-token-6'
+          },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
         }],
       type_asset: 'ics20'
@@ -86,6 +90,10 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
       },
       images: [{
+          image_sync: {
+            chain_name: 'neutrontestnet',
+            base_denom: 'factory/neutron1aphhmsv5lglvvycldlveckjq8zcgwvg34cn0cs/test-token-1'
+          },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
         }],
       type_asset: 'ics20'
@@ -119,6 +127,10 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
       },
       images: [{
+          image_sync: {
+            chain_name: 'neutrontestnet',
+            base_denom: 'factory/neutron1aphhmsv5lglvvycldlveckjq8zcgwvg34cn0cs/test-token-5'
+          },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
         }],
       type_asset: 'ics20'
@@ -152,6 +164,10 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
       },
       images: [{
+          image_sync: {
+            chain_name: 'neutrontestnet',
+            base_denom: 'factory/neutron1aphhmsv5lglvvycldlveckjq8zcgwvg34cn0cs/test-token-4'
+          },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
         }],
       type_asset: 'ics20'
@@ -185,6 +201,10 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
       },
       images: [{
+          image_sync: {
+            chain_name: 'neutrontestnet',
+            base_denom: 'factory/neutron1aphhmsv5lglvvycldlveckjq8zcgwvg34cn0cs/test-token-3'
+          },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
         }],
       type_asset: 'ics20'
@@ -218,6 +238,10 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
       },
       images: [{
+          image_sync: {
+            chain_name: 'neutrontestnet',
+            base_denom: 'factory/neutron1aphhmsv5lglvvycldlveckjq8zcgwvg34cn0cs/test-token-2'
+          },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
         }],
       type_asset: 'ics20'

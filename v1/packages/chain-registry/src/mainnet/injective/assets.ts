@@ -994,6 +994,17 @@ const info: AssetList = {
             channel_id: 'channel-183',
             path: 'transfer/channel-183/factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA'
           }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'gateway',
+            base_denom: 'factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg',
+          theme: {
+            circle: true
+          }
         }]
     },
     {
@@ -1172,6 +1183,10 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hinj.png'
       },
       images: [{
+          image_sync: {
+            chain_name: 'injective',
+            base_denom: 'factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hinj.png'
         }]
     },

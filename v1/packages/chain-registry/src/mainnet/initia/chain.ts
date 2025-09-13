@@ -100,8 +100,8 @@ const info: Chain = {
       }
     }],
   logo_URIs: {
-    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.svg',
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png',
+    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.svg'
   }
 };
 export default info;

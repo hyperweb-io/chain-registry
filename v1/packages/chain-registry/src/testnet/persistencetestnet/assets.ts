@@ -29,8 +29,15 @@ const info: AssetList = {
       },
       coingecko_id: 'persistence',
       images: [{
+          image_sync: {
+            chain_name: 'persistence',
+            base_denom: 'uxprt'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg',
+          theme: {
+            circle: true
+          }
         }],
       type_asset: 'sdk.coin'
     }, {

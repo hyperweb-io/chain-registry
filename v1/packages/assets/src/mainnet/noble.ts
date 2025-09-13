@@ -26,6 +26,9 @@ const assets: AssetList = {
         twitter: 'https://x.com/namada'
       },
       coingecko_id: 'namada',
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+        }],
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -2379,49 +2382,6 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-2',
             base_denom: 'unibi',
-            chain_name: 'nibiru'
-          },
-          chain: {
-            channel_id: 'channel-67'
-          }
-        }]
-    },
-    {
-      name: 'Astrovault token',
-      description: 'AXV',
-      socials: {
-        website: 'https://astrovault.io/',
-        twitter: 'https://x.com/axvdex'
-      },
-      denom_units: [{
-          denom: 'ibc/35E5ABDA30264D9AC1BF3DA5151CB49D8ACF10190A38C3C61856432B082E626C',
-          exponent: 0,
-          aliases: ['tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv']
-        }, {
-          denom: 'AXV',
-          exponent: 6
-        }],
-      base: 'ibc/35E5ABDA30264D9AC1BF3DA5151CB49D8ACF10190A38C3C61856432B082E626C',
-      display: 'AXV',
-      symbol: 'AXV',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg',
-          image_sync: {
-            chain_name: 'neutron',
-            base_denom: 'cw20:neutron10dxyft3nv4vpxh5vrpn0xw8geej8dw3g39g7nqp8mrm307ypssksau29af'
-          }
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-2',
-            base_denom: 'tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv',
             chain_name: 'nibiru'
           },
           chain: {
@@ -4684,6 +4644,9 @@ const assets: AssetList = {
         twitter: 'https://x.com/namada'
       },
       coingecko_id: 'namada',
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+        }],
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -4878,49 +4841,6 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-2',
             base_denom: 'unibi',
-            chain_name: 'nibiru'
-          },
-          chain: {
-            channel_id: 'channel-67'
-          }
-        }]
-    },
-    {
-      name: 'Astrovault token',
-      description: 'AXV',
-      socials: {
-        website: 'https://astrovault.io/',
-        twitter: 'https://x.com/axvdex'
-      },
-      denom_units: [{
-          denom: 'ibc/35E5ABDA30264D9AC1BF3DA5151CB49D8ACF10190A38C3C61856432B082E626C',
-          exponent: 0,
-          aliases: ['tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv']
-        }, {
-          denom: 'AXV',
-          exponent: 6
-        }],
-      base: 'ibc/35E5ABDA30264D9AC1BF3DA5151CB49D8ACF10190A38C3C61856432B082E626C',
-      display: 'AXV',
-      symbol: 'AXV',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/axv.svg',
-          image_sync: {
-            chain_name: 'neutron',
-            base_denom: 'cw20:neutron10dxyft3nv4vpxh5vrpn0xw8geej8dw3g39g7nqp8mrm307ypssksau29af'
-          }
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-2',
-            base_denom: 'tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv',
             chain_name: 'nibiru'
           },
           chain: {
@@ -23125,6 +23045,19 @@ const assets: AssetList = {
       name: 'Wtrx',
       display: 'wtrx',
       symbol: 'wTRX',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.orai195269awwnt5m6c843q6w7hp8rt0k7syfu9de4h0wz384slshuzps8y7ccm',
+            channel_id: 'channel-147',
+            base_denom: 'cw20:orai1c7tpjenafvgjtgm9aqwm7afnke6c56hpdms8jc6md40xs3ugd0es5encn0',
+            chain_name: 'oraichain'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-34'
+          }
+        }],
       images: [{
           image_sync: {
             chain_name: 'tron',
@@ -23139,20 +23072,7 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/tron/images/trx.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/tron/images/trx.svg'
-      },
-      traces: [{
-          type: 'ibc-cw20',
-          counterparty: {
-            port: 'wasm.orai195269awwnt5m6c843q6w7hp8rt0k7syfu9de4h0wz384slshuzps8y7ccm',
-            channel_id: 'channel-147',
-            base_denom: 'cw20:orai1c7tpjenafvgjtgm9aqwm7afnke6c56hpdms8jc6md40xs3ugd0es5encn0',
-            chain_name: 'oraichain'
-          },
-          chain: {
-            port: 'transfer',
-            channel_id: 'channel-34'
-          }
-        }]
+      }
     },
     {
       description: 'The scATOM token is the cw20 token for the Oraichain.',
@@ -23246,18 +23166,6 @@ const assets: AssetList = {
       name: 'Weth',
       display: 'weth',
       symbol: 'wETH',
-      images: [{
-          image_sync: {
-            chain_name: 'ethereum',
-            base_denom: 'wei'
-          },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png'
-        }],
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg'
-      },
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -23270,7 +23178,19 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-34'
           }
-        }]
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: 'wei'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg'
+      }
     },
     {
       description: 'The BTC token is the cw20 token for the Oraichain.',
@@ -23288,6 +23208,19 @@ const assets: AssetList = {
       name: 'Btc',
       display: 'btc',
       symbol: 'BTC',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.orai195269awwnt5m6c843q6w7hp8rt0k7syfu9de4h0wz384slshuzps8y7ccm',
+            channel_id: 'channel-147',
+            base_denom: 'cw20:orai10g6frpysmdgw5tdqke47als6f97aqmr8s3cljsvjce4n5enjftcqtamzsd',
+            chain_name: 'oraichain'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-34'
+          }
+        }],
       images: [{
           image_sync: {
             chain_name: 'bitcoin',
@@ -23302,20 +23235,7 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.svg'
-      },
-      traces: [{
-          type: 'ibc-cw20',
-          counterparty: {
-            port: 'wasm.orai195269awwnt5m6c843q6w7hp8rt0k7syfu9de4h0wz384slshuzps8y7ccm',
-            channel_id: 'channel-147',
-            base_denom: 'cw20:orai10g6frpysmdgw5tdqke47als6f97aqmr8s3cljsvjce4n5enjftcqtamzsd',
-            chain_name: 'oraichain'
-          },
-          chain: {
-            port: 'transfer',
-            channel_id: 'channel-34'
-          }
-        }]
+      }
     },
     {
       description: 'The OCH token is the cw20 token for the Oraichain.',
@@ -23641,6 +23561,19 @@ const assets: AssetList = {
       name: 'Wtrx',
       display: 'wtrx',
       symbol: 'wTRX',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.orai195269awwnt5m6c843q6w7hp8rt0k7syfu9de4h0wz384slshuzps8y7ccm',
+            channel_id: 'channel-147',
+            base_denom: 'cw20:orai1c7tpjenafvgjtgm9aqwm7afnke6c56hpdms8jc6md40xs3ugd0es5encn0',
+            chain_name: 'oraichain'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-34'
+          }
+        }],
       images: [{
           image_sync: {
             chain_name: 'tron',
@@ -23655,20 +23588,7 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/tron/images/trx.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/tron/images/trx.svg'
-      },
-      traces: [{
-          type: 'ibc-cw20',
-          counterparty: {
-            port: 'wasm.orai195269awwnt5m6c843q6w7hp8rt0k7syfu9de4h0wz384slshuzps8y7ccm',
-            channel_id: 'channel-147',
-            base_denom: 'cw20:orai1c7tpjenafvgjtgm9aqwm7afnke6c56hpdms8jc6md40xs3ugd0es5encn0',
-            chain_name: 'oraichain'
-          },
-          chain: {
-            port: 'transfer',
-            channel_id: 'channel-34'
-          }
-        }]
+      }
     },
     {
       description: 'The scATOM token is the cw20 token for the Oraichain.',
@@ -23762,18 +23682,6 @@ const assets: AssetList = {
       name: 'Weth',
       display: 'weth',
       symbol: 'wETH',
-      images: [{
-          image_sync: {
-            chain_name: 'ethereum',
-            base_denom: 'wei'
-          },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png'
-        }],
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg'
-      },
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -23786,7 +23694,19 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-34'
           }
-        }]
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: 'wei'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg'
+      }
     },
     {
       description: 'The BTC token is the cw20 token for the Oraichain.',
@@ -23804,6 +23724,19 @@ const assets: AssetList = {
       name: 'Btc',
       display: 'btc',
       symbol: 'BTC',
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.orai195269awwnt5m6c843q6w7hp8rt0k7syfu9de4h0wz384slshuzps8y7ccm',
+            channel_id: 'channel-147',
+            base_denom: 'cw20:orai10g6frpysmdgw5tdqke47als6f97aqmr8s3cljsvjce4n5enjftcqtamzsd',
+            chain_name: 'oraichain'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-34'
+          }
+        }],
       images: [{
           image_sync: {
             chain_name: 'bitcoin',
@@ -23818,20 +23751,7 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.svg'
-      },
-      traces: [{
-          type: 'ibc-cw20',
-          counterparty: {
-            port: 'wasm.orai195269awwnt5m6c843q6w7hp8rt0k7syfu9de4h0wz384slshuzps8y7ccm',
-            channel_id: 'channel-147',
-            base_denom: 'cw20:orai10g6frpysmdgw5tdqke47als6f97aqmr8s3cljsvjce4n5enjftcqtamzsd',
-            chain_name: 'oraichain'
-          },
-          chain: {
-            port: 'transfer',
-            channel_id: 'channel-34'
-          }
-        }]
+      }
     },
     {
       description: 'The OCH token is the cw20 token for the Oraichain.',

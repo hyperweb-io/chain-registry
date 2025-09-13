@@ -214,6 +214,7 @@ import * as _xpla from './xpla';
 import * as _xrplevm from './xrplevm';
 import * as _zenrock from './zenrock';
 import * as _zetachain from './zetachain';
+import * as _zigchain from './zigchain';
 
 const assets: AssetList[] = [
   _ethereum.assets,
@@ -429,7 +430,8 @@ const assets: AssetList[] = [
   _xpla.assets,
   _xrplevm.assets,
   _zenrock.assets,
-  _zetachain.assets
+  _zetachain.assets,
+  _zigchain.assets
 ];
 
 export default assets;

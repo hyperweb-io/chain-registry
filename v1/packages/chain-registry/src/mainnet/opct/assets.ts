@@ -18,7 +18,10 @@ const info: AssetList = {
       symbol: 'OPCT',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/opct/images/opct.png'
-      }
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/opct/images/opct.png'
+        }]
     }]
 };
 export default info;

@@ -29,6 +29,10 @@ const info: AssetList = {
       },
       coingecko_id: 'fetch-ai',
       images: [{
+          image_sync: {
+            chain_name: 'fetchhub',
+            base_denom: 'afet'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg'
         }],

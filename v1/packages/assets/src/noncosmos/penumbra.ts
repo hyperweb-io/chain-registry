@@ -26,6 +26,9 @@ const assets: AssetList = {
         twitter: 'https://x.com/namada'
       },
       coingecko_id: 'namada',
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+        }],
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -286,6 +289,9 @@ const assets: AssetList = {
         twitter: 'https://x.com/namada'
       },
       coingecko_id: 'namada',
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
+        }],
       traces: [{
           type: 'ibc',
           counterparty: {

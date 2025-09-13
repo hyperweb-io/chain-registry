@@ -21,7 +21,10 @@ const info: AssetList = {
       socials: {
         website: 'https://iopn.tech'
       },
-      type_asset: 'sdk.coin'
+      type_asset: 'sdk.coin',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/iopntestnet/images/iopn_Dark.png'
+        }]
     }]
 };
 export default info;

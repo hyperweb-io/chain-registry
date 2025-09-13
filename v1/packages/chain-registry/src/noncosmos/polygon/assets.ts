@@ -25,10 +25,6 @@ const info: AssetList = {
       },
       coingecko_id: 'polygon-ecosystem-token',
       images: [{
-          image_sync: {
-            chain_name: 'polygon',
-            base_denom: 'wei'
-          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg'
         }]
@@ -63,6 +59,10 @@ const info: AssetList = {
       },
       coingecko_id: 'matic-network',
       images: [{
+          image_sync: {
+            chain_name: 'polygon',
+            base_denom: '0x0000000000000000000000000000000000001010'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg'
         }]

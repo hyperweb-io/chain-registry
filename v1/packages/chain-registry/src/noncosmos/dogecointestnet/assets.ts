@@ -30,10 +30,7 @@ const info: AssetList = {
             base_denom: 'shibe'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/dogecoin/images/doge.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/dogecoin/images/doge.png',
-          theme: {
-            circle: true
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/dogecoin/images/doge.png'
         }],
       coingecko_id: 'dogecoin'
     }]

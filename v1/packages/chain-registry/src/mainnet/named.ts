@@ -212,3 +212,4 @@ export * as xpla from './xpla';
 export * as xrplevm from './xrplevm';
 export * as zenrock from './zenrock';
 export * as zetachain from './zetachain';
+export * as zigchain from './zigchain';

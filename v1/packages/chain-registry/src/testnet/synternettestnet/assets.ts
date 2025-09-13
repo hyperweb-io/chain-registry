@@ -19,6 +19,14 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/synternet/images/synt.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/synternet/images/synt.svg'
       },
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chain_name: 'synternet',
+            base_denom: 'usynt'
+          },
+          provider: 'Synternet'
+        }],
       images: [{
           image_sync: {
             chain_name: 'synternet',

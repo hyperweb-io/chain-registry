@@ -70,10 +70,16 @@ const info: Chain = {
     rpc: [{
         address: 'https://rpc.lumera.io:443',
         provider: 'LumeraProtocol'
+      }, {
+        address: 'https://lumera-rpc.ibs.team',
+        provider: 'Inter Blockchain Services'
       }],
     rest: [{
         address: 'https://lcd.lumera.io:443',
         provider: 'LumeraProtocol'
+      }, {
+        address: 'https://lumera-api.ibs.team',
+        provider: 'Inter Blockchain Services'
       }],
     grpc: [{
         address: 'https://grpc.lumera.io:443',

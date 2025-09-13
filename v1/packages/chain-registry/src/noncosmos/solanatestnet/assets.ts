@@ -31,8 +31,12 @@ const info: AssetList = {
       },
       coingecko_id: 'solana',
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg',
+          image_sync: {
+            chain_name: 'solana',
+            base_denom: 'Lamport'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg',
           theme: {
             circle: true
           }
@@ -110,6 +114,10 @@ const info: AssetList = {
       },
       coingecko_id: 'meow',
       images: [{
+          image_sync: {
+            chain_name: 'solana',
+            base_denom: 'BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/meow.png'
         }]
     },

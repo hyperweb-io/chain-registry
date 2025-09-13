@@ -794,9 +794,6 @@ const info: AssetList = {
           image_sync: {
             chain_name: 'mantrachain',
             base_denom: 'factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE'
-          },
-          theme: {
-            circle: true
           }
         }]
     },
@@ -873,9 +870,6 @@ const info: AssetList = {
           image_sync: {
             chain_name: 'osmosis',
             base_denom: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stlth'
-          },
-          theme: {
-            circle: true
           }
         }]
     }

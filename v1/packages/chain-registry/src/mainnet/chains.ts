@@ -214,6 +214,7 @@ import * as _xpla from './xpla';
 import * as _xrplevm from './xrplevm';
 import * as _zenrock from './zenrock';
 import * as _zetachain from './zetachain';
+import * as _zigchain from './zigchain';
 
 const chains: Chain[] = [
   _ethereum.chain,
@@ -429,7 +430,8 @@ const chains: Chain[] = [
   _xpla.chain,
   _xrplevm.chain,
   _zenrock.chain,
-  _zetachain.chain
+  _zetachain.chain,
+  _zigchain.chain
 ];
 
 export default chains;

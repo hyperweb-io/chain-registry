@@ -3,6 +3,96 @@ const assets: AssetList = {
   chain_name: 'lumera',
   assets: [
     {
+      description: 'DYDX is a decentralized trading platform focused on derivatives and perpetual contracts, offering a secure and efficient trading experience without intermediaries.',
+      denom_units: [{
+          denom: 'ibc/2667584ED818FD920DBC437015FFA84DA4FCC1D9484934EFBBE5D48869B83743',
+          exponent: 0,
+          aliases: ['adydx']
+        }, {
+          denom: 'dydx',
+          exponent: 18
+        }],
+      base: 'ibc/2667584ED818FD920DBC437015FFA84DA4FCC1D9484934EFBBE5D48869B83743',
+      name: 'dYdX',
+      display: 'dydx',
+      symbol: 'DYDX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg'
+      },
+      coingecko_id: 'dydx-chain',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg'
+        }, {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://dydx.trade/',
+        twitter: 'https://twitter.com/dYdX'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-90',
+            base_denom: 'adydx',
+            chain_name: 'dydx'
+          },
+          chain: {
+            channel_id: 'channel-1'
+          }
+        }]
+    },
+    {
+      description: 'DYDX is a decentralized trading platform focused on derivatives and perpetual contracts, offering a secure and efficient trading experience without intermediaries.',
+      denom_units: [{
+          denom: 'ibc/2667584ED818FD920DBC437015FFA84DA4FCC1D9484934EFBBE5D48869B83743',
+          exponent: 0,
+          aliases: ['adydx']
+        }, {
+          denom: 'dydx',
+          exponent: 18
+        }],
+      base: 'ibc/2667584ED818FD920DBC437015FFA84DA4FCC1D9484934EFBBE5D48869B83743',
+      name: 'dYdX',
+      display: 'dydx',
+      symbol: 'DYDX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg'
+      },
+      coingecko_id: 'dydx-chain',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg'
+        }, {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://dydx.trade/',
+        twitter: 'https://twitter.com/dYdX'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-90',
+            base_denom: 'adydx',
+            chain_name: 'dydx'
+          },
+          chain: {
+            channel_id: 'channel-1'
+          }
+        }]
+    },
+    {
       description: 'The native token of Osmosis',
       denom_units: [{
           denom: 'ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518',

@@ -29,6 +29,10 @@ const info: AssetList = {
       },
       coingecko_id: 'xpla',
       images: [{
+          image_sync: {
+            chain_name: 'xpla',
+            base_denom: 'axpla'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.svg'
         }],
