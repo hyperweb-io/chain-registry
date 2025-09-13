@@ -45,6 +45,9 @@ const info: Chain = {
     }],
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/buycex/images/bcx.png'
-  }
+  },
+  images: [{
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/buycex/images/bcx.png'
+    }]
 };
 export default info;

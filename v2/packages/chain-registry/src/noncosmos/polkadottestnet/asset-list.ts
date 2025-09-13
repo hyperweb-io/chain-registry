@@ -57,10 +57,16 @@ const info: AssetList = {
           provider: 'Polkadot'
         }],
       logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg'
       },
       coingeckoId: 'polkadot',
       images: [{
+          imageSync: {
+            chainName: 'polkadot',
+            baseDenom: 'Planck'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg'
         }]
     }]

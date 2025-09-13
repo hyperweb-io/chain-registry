@@ -30,16 +30,19 @@ const info: AssetList = {
       },
       coingeckoId: 'ripple',
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg',
+          imageSync: {
+            chainName: 'xrpl',
+            baseDenom: 'drop'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png',
-          theme: {
-            circle: true
-          }
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg'
         }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg',
-          theme: {
-            circle: false
-          }
+          imageSync: {
+            chainName: 'xrpl',
+            baseDenom: 'drop'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg'
         }]
     }]
 };

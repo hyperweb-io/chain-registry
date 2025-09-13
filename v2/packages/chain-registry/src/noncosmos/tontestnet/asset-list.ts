@@ -27,8 +27,12 @@ const info: AssetList = {
         }],
       coingeckoId: 'the-open-network',
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/ton.svg',
+          imageSync: {
+            chainName: 'ton',
+            baseDenom: 'nanoton'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/ton.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/ton.svg',
           theme: {
             circle: true
           }

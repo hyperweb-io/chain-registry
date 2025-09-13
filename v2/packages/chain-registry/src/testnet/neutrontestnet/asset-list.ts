@@ -67,6 +67,14 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena_dao.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena_dao.svg'
       },
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'neutron',
+            baseDenom: 'factory/neutron129ukd5cwahcjkccujz87rjemjukff7jf6sau72qrhva677xgz9gs4m4jeq/uarena'
+          },
+          provider: 'Arena Token'
+        }],
       images: [{
           imageSync: {
             chainName: 'neutron',

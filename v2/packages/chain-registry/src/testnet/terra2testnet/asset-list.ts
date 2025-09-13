@@ -29,6 +29,10 @@ const info: AssetList = {
       },
       coingeckoId: 'terra-luna-2',
       images: [{
+          imageSync: {
+            chainName: 'terra2',
+            baseDenom: 'uluna'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg'
         }],

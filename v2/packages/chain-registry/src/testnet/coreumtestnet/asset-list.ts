@@ -37,6 +37,10 @@ const info: AssetList = {
         'XRPL'
       ],
       images: [{
+          imageSync: {
+            chainName: 'coreum',
+            baseDenom: 'ucore'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg'
         }],

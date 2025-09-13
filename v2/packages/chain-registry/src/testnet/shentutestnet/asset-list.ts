@@ -19,6 +19,14 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.svg'
       },
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'shentu',
+            baseDenom: 'uctk'
+          },
+          provider: 'Shentu'
+        }],
       images: [{
           imageSync: {
             chainName: 'shentu',

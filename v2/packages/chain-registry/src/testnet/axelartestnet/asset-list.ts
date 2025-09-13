@@ -30,6 +30,10 @@ const info: AssetList = {
       },
       coingeckoId: 'axelar',
       images: [{
+          imageSync: {
+            chainName: 'axelar',
+            baseDenom: 'uaxl'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg'
         }],
@@ -61,9 +65,14 @@ const info: AssetList = {
             chainName: 'ethereumtestnet',
             baseDenom: '0x254d06f33bDc5b8ee05b2ea472107E300226659A'
           },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          theme: {
+            circle: true
+          }
         }],
       logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
       },
       typeAsset: 'sdk.coin'
@@ -127,9 +136,11 @@ const info: AssetList = {
             chainName: 'moonbeamtestnet',
             baseDenom: '0x1436aE0dF0A8663F18c0Ec51d7e2E46591730715'
           },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.png'
         }],
       logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg'
       },
       typeAsset: 'sdk.coin'

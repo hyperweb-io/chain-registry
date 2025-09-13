@@ -1539,7 +1539,10 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png'
       },
-      coingeckoId: 'ether-fi-staked-btc'
+      coingeckoId: 'ether-fi-staked-btc',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png'
+        }]
     },
     {
       typeAsset: 'erc20',
@@ -1566,7 +1569,10 @@ const info: AssetList = {
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
       },
-      coingeckoId: 'lorenzo-stbtc'
+      coingeckoId: 'lorenzo-stbtc',
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
+        }]
     },
     {
       typeAsset: 'erc20',
@@ -1585,7 +1591,10 @@ const info: AssetList = {
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg'
       },
-      coingeckoId: 'kintsugi-btc'
+      coingeckoId: 'kintsugi-btc',
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg'
+        }]
     },
     {
       typeAsset: 'erc20',
@@ -1642,7 +1651,10 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png'
       },
-      coingeckoId: 'babypie-wrapped-btc'
+      coingeckoId: 'babypie-wrapped-btc',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png'
+        }]
     },
     {
       typeAsset: 'erc20',
@@ -1669,7 +1681,10 @@ const info: AssetList = {
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
       },
-      coingeckoId: 'pumpbtc'
+      coingeckoId: 'pumpbtc',
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
+        }]
     },
     {
       typeAsset: 'erc20',
@@ -1694,10 +1709,14 @@ const info: AssetList = {
           provider: 'Solv Protocol'
         }],
       logoURIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg',
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
       },
-      coingeckoId: 'solv-btc'
+      coingeckoId: 'solv-btc',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
+        }]
     },
     {
       typeAsset: 'erc20',
@@ -1716,7 +1735,10 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png'
       },
-      coingeckoId: 'solv-protocol-solvbtc-bbn'
+      coingeckoId: 'solv-protocol-solvbtc-bbn',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png'
+        }]
     },
     {
       typeAsset: 'erc20',
@@ -1769,7 +1791,10 @@ const info: AssetList = {
         }],
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg'
-      }
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.svg'
+        }]
     },
     {
       typeAsset: 'erc20',
@@ -1795,7 +1820,10 @@ const info: AssetList = {
         }],
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
-      }
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
+        }]
     },
     {
       typeAsset: 'erc20',
@@ -1820,8 +1848,20 @@ const info: AssetList = {
           provider: 'SatLayer'
         }],
       logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
-      }
+      },
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x8236a87084f8B84306f72007F36F2618A5634494'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg',
+          theme: {
+            circle: true
+          }
+        }]
     },
     {
       typeAsset: 'erc20',
@@ -1839,7 +1879,10 @@ const info: AssetList = {
       symbol: 'FBTC',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png'
-      }
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png'
+        }]
     },
     {
       typeAsset: 'erc20',
@@ -1865,7 +1908,14 @@ const info: AssetList = {
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png'
-      }
+      },
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0xC96dE26018A54D51c097160568752c4E3BD6C364'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/FBTC.png'
+        }]
     },
     {
       typeAsset: 'erc20',
@@ -1890,8 +1940,17 @@ const info: AssetList = {
           provider: 'SatLayer'
         }],
       logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg'
-      }
+      },
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg'
+        }]
     },
     {
       typeAsset: 'erc20',
@@ -1917,7 +1976,14 @@ const info: AssetList = {
         }],
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
-      }
+      },
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
+        }]
     },
     {
       typeAsset: 'erc20',
@@ -1943,7 +2009,14 @@ const info: AssetList = {
         }],
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
-      }
+      },
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
+        }]
     },
     {
       typeAsset: 'erc20',
@@ -1963,7 +2036,11 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.svg'
       },
-      coingeckoId: 'susds'
+      coingeckoId: 'susds',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/susds.svg'
+        }]
     },
     {
       typeAsset: 'erc20',
@@ -1983,7 +2060,11 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.svg'
       },
-      coingeckoId: 'midas-btc-yield-token'
+      coingeckoId: 'midas-btc-yield-token',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.svg'
+        }]
     }
   ]
 };

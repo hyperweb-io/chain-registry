@@ -18,6 +18,10 @@ const info: AssetList = {
       display: 'XRP',
       symbol: 'XRP',
       images: [{
+          imageSync: {
+            chainName: 'xrpl',
+            baseDenom: 'drop'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg'
         }],

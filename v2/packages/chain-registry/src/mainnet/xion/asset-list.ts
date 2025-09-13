@@ -50,9 +50,15 @@ const info: AssetList = {
       display: 'osmo',
       symbol: 'OSMO',
       logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
       },
       images: [{
+          imageSync: {
+            chainName: 'osmosis',
+            baseDenom: 'uosmo'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
         }],
       keywords: ['dex', 'mm'],
@@ -102,6 +108,10 @@ const info: AssetList = {
           }
         }],
       images: [{
+          imageSync: {
+            chainName: 'kyve',
+            baseDenom: 'ukyve'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg'
         }],
@@ -224,10 +234,12 @@ const info: AssetList = {
             chainName: 'axelar',
             baseDenom: 'weth-wei'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg'
       },
       coingeckoId: 'axlweth'
     },
@@ -272,6 +284,10 @@ const info: AssetList = {
       },
       coingeckoId: 'elys-network',
       images: [{
+          imageSync: {
+            chainName: 'elys',
+            baseDenom: 'uelys'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png'
         }]
     },

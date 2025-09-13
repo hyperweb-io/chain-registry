@@ -19,6 +19,14 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
       },
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'epix',
+            baseDenom: 'aepix'
+          },
+          provider: 'Epix'
+        }],
       images: [{
           imageSync: {
             chainName: 'epix',

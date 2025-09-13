@@ -1277,7 +1277,10 @@ const info: AssetList = {
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/RISE.png'
-      }
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/RISE.png'
+        }]
     },
     {
       typeAsset: 'sdk.coin',

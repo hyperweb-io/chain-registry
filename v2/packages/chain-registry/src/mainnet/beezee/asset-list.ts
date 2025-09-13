@@ -235,6 +235,10 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/spice.png'
       },
       images: [{
+          imageSync: {
+            chainName: 'osmosis',
+            baseDenom: 'factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/uspice'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/spice.png'
         }],
       keywords: ['meme'],
@@ -355,6 +359,10 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sherpa.png'
       },
       images: [{
+          imageSync: {
+            chainName: 'osmosis',
+            baseDenom: 'factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/usherpa'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sherpa.png'
         }],
       keywords: ['meme'],

@@ -366,6 +366,14 @@ const info: AssetList = {
       name: 'Wtrx',
       display: 'wtrx',
       symbol: 'wTRX',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chainName: 'tron',
+            baseDenom: 'sun'
+          },
+          provider: 'Oraichain'
+        }],
       images: [{
           imageSync: {
             chainName: 'tron',
@@ -445,6 +453,14 @@ const info: AssetList = {
       name: 'Weth',
       display: 'weth',
       symbol: 'wETH',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: 'wei'
+          },
+          provider: 'Oraichain'
+        }],
       images: [{
           imageSync: {
             chainName: 'ethereum',
@@ -473,6 +489,14 @@ const info: AssetList = {
       name: 'Btc',
       display: 'btc',
       symbol: 'BTC',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chainName: 'bitcoin',
+            baseDenom: 'sat'
+          },
+          provider: 'Oraichain'
+        }],
       images: [{
           imageSync: {
             chainName: 'bitcoin',

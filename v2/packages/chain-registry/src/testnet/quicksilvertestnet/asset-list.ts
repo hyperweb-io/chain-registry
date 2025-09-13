@@ -30,6 +30,10 @@ const info: AssetList = {
       },
       coingeckoId: 'quicksilver',
       images: [{
+          imageSync: {
+            chainName: 'quicksilver',
+            baseDenom: 'uqck'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png'
         }],
       typeAsset: 'sdk.coin'

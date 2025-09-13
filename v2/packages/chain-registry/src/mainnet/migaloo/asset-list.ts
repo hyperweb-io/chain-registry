@@ -796,6 +796,12 @@ const info: AssetList = {
             channelId: 'channel-0',
             path: 'transfer/channel-0/factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/1/stable/amplp'
           }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'terra2',
+            baseDenom: 'factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/1/stable/amplp'
+          }
         }]
     },
     {
@@ -823,6 +829,12 @@ const info: AssetList = {
             channelId: 'channel-0',
             path: 'transfer/channel-0/factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/21/single/amplp'
           }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'terra2',
+            baseDenom: 'factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/21/single/amplp'
+          }
         }]
     },
     {
@@ -849,6 +861,12 @@ const info: AssetList = {
           chain: {
             channelId: 'channel-0',
             path: 'transfer/channel-0/factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/30/single/amplp'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'terra2',
+            baseDenom: 'factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/30/single/amplp'
           }
         }]
     }

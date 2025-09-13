@@ -220,8 +220,15 @@ const info: AssetList = {
           }
         }],
       images: [{
+          imageSync: {
+            chainName: 'lombardledger',
+            baseDenom: 'uclbtc'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg',
+          theme: {
+            circle: true
+          }
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png',
@@ -255,6 +262,14 @@ const info: AssetList = {
             path: 'transfer/08-wasm-1369/0x7a56e1c57c7475ccf742a1832b028f0456652f97'
           },
           provider: 'Eureka'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x7a56e1c57c7475ccf742a1832b028f0456652f97'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
         }]
     },
     {
@@ -283,6 +298,13 @@ const info: AssetList = {
             path: 'transfer/08-wasm-1369/0xd9d920aa40f578ab794426f5c90f6c731d159def'
           },
           provider: 'Eureka'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0xd9d920aa40f578ab794426f5c90f6c731d159def'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xSolvBTC.png'
         }]
     },
     {
@@ -311,6 +333,13 @@ const info: AssetList = {
             path: 'transfer/08-wasm-1369/0xf469fbd2abcd6b9de8e169d128226c0fc90a012e'
           },
           provider: 'Eureka'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0xf469fbd2abcd6b9de8e169d128226c0fc90a012e'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
         }]
     },
     {
@@ -339,6 +368,16 @@ const info: AssetList = {
             path: 'transfer/08-wasm-1369/0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568'
           },
           provider: 'Eureka'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC_200px.png',
+          theme: {
+            circle: false
+          }
         }]
     },
     {
@@ -367,6 +406,13 @@ const info: AssetList = {
             path: 'transfer/08-wasm-1369/0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3'
           },
           provider: 'Eureka'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/stbtc.svg'
         }]
     },
     {
@@ -395,6 +441,13 @@ const info: AssetList = {
             path: 'transfer/08-wasm-1369/0xbdf245957992bfbc62b07e344128a1eec7b7ee3f'
           },
           provider: 'Eureka'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0xbdf245957992bfbc62b07e344128a1eec7b7ee3f'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png'
         }]
     },
     {
@@ -423,6 +476,13 @@ const info: AssetList = {
             path: 'transfer/08-wasm-1369/0x9356f6d95b8e109f4b7ce3e49d672967d3b48383'
           },
           provider: 'Eureka'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x9356f6d95b8e109f4b7ce3e49d672967d3b48383'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg'
         }]
     },
     {
@@ -451,6 +511,13 @@ const info: AssetList = {
             path: 'transfer/08-wasm-1369/0x657e8c867d8b37dcc18fa4caead9c45eb088c642'
           },
           provider: 'Eureka'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x657e8c867d8b37dcc18fa4caead9c45eb088c642'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eBTC.png'
         }]
     },
     {
@@ -479,6 +546,13 @@ const info: AssetList = {
             path: 'transfer/08-wasm-1369/0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a'
           },
           provider: 'Eureka'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lorenzo-wrapped-bitcoin.png'
         }]
     },
     {
@@ -558,10 +632,13 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg'
+        }, {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg'
       }
     },
     {
@@ -650,7 +727,14 @@ const info: AssetList = {
         website: 'https://www.ophirdao.com',
         twitter: 'https://x.com/OphirDAO'
       },
-      keywords: ['dao']
+      keywords: ['dao'],
+      images: [{
+          imageSync: {
+            chainName: 'osmosis',
+            baseDenom: 'ibc/3AF2E322D4B54BB97EEE24760ED25B725842A9B62C759402AB8AADD75915FD14'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ophir.png'
+        }]
     },
     {
       description: 'Midas mBTC on the Cosmos Hub',
@@ -725,10 +809,7 @@ const info: AssetList = {
             baseDenom: '0x45804880De22913dAFE09f4980848ECE6EcbAf78'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png',
-          theme: {
-            circle: true
-          }
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png'
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png',
@@ -768,7 +849,15 @@ const info: AssetList = {
       keywords: ['memecoin'],
       socials: {
         twitter: 'https://x.com/quark_on_cosmos'
-      }
+      },
+      images: [{
+          imageSync: {
+            chainName: 'osmosis',
+            baseDenom: 'factory/osmo1x7s7a2erqspkm6e79n7yh7fw3yh7xx4lt54mxg/uquark'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.svg'
+        }]
     },
     {
       description: 'The native token of Intento.',

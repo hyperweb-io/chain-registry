@@ -30,8 +30,15 @@ const info: AssetList = {
       },
       coingeckoId: 'persistence',
       images: [{
+          imageSync: {
+            chainName: 'persistence',
+            baseDenom: 'uxprt'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg',
+          theme: {
+            circle: true
+          }
         }],
       typeAsset: 'sdk.coin'
     },

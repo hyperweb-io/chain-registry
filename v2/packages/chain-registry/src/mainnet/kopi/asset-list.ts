@@ -159,10 +159,19 @@ const info: AssetList = {
       display: 'USDC',
       symbol: 'USDC',
       logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+          imageSync: {
+            chainName: 'noble',
+            baseDenom: 'uusdc'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
+          theme: {
+            circle: true
+          }
         }],
       keywords: ['dex', 'mm'],
       typeAsset: 'ics20',
@@ -194,10 +203,19 @@ const info: AssetList = {
       display: 'USDT.inj',
       symbol: 'USDT.inj',
       logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg'
+          imageSync: {
+            chainName: 'injective',
+            baseDenom: 'peggy0xdAC17F958D2ee523a2206206994597C13D831ec7'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg',
+          theme: {
+            circle: true
+          }
         }],
       keywords: ['dex', 'mm'],
       typeAsset: 'ics20',
@@ -228,9 +246,15 @@ const info: AssetList = {
       display: 'INJ',
       symbol: 'INJ',
       logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
       },
       images: [{
+          imageSync: {
+            chainName: 'injective',
+            baseDenom: 'inj'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
         }],
       keywords: ['dex', 'mm'],
@@ -263,9 +287,15 @@ const info: AssetList = {
       display: 'Luna',
       symbol: 'LUNA',
       logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg'
       },
       images: [{
+          imageSync: {
+            chainName: 'terra2',
+            baseDenom: 'uluna'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg'
         }],
       keywords: ['dex', 'mm'],
@@ -298,9 +328,15 @@ const info: AssetList = {
       display: 'osmo',
       symbol: 'OSMO',
       logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
       },
       images: [{
+          imageSync: {
+            chainName: 'osmosis',
+            baseDenom: 'uosmo'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
         }],
       keywords: ['dex', 'mm'],
@@ -333,9 +369,15 @@ const info: AssetList = {
       display: 'Atom',
       symbol: 'ATOM',
       logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
       },
       images: [{
+          imageSync: {
+            chainName: 'cosmoshub',
+            baseDenom: 'uatom'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
         }],
       keywords: ['dex', 'mm'],

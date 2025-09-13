@@ -154,6 +154,11 @@ const info: AssetList = {
           imageSync: {
             chainName: 'picasso',
             baseDenom: '130'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg',
+          theme: {
+            circle: true
           }
         }]
     },

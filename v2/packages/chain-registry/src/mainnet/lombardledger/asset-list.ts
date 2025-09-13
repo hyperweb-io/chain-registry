@@ -39,6 +39,17 @@ const info: AssetList = {
             baseDenom: '0x8236a87084f8B84306f72007F36F2618A5634494'
           },
           provider: 'Lombard'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x8236a87084f8B84306f72007F36F2618A5634494'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg',
+          theme: {
+            circle: true
+          }
         }]
     },
     {
