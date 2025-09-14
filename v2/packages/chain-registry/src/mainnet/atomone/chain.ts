@@ -159,6 +159,10 @@ const info: Chain = {
       {
         address: 'https://atomone-rpc.kynraze.com:443',
         provider: 'kynraze'
+      },
+      {
+        address: 'https://atomone-rpc.stakerhouse.com',
+        provider: 'StakerHouse'
       }
     ],
     rest: [
@@ -257,6 +261,10 @@ const info: Chain = {
       {
         address: 'https://atomone-api.kynraze.com:443',
         provider: 'kynraze'
+      },
+      {
+        address: 'https://atomone-rest.stakerhouse.com',
+        provider: 'StakerHouse'
       }
     ],
     grpc: [
@@ -414,6 +422,12 @@ const info: Chain = {
       url: 'https://explorer.kynraze.com/atomone',
       txPage: 'https://explorer.kynraze.com/atomone/tx/${txHash}',
       accountPage: 'https://explorer.kynraze.com/atomone/account/${accountAddress}'
+    },
+    {
+      kind: 'Cosmotracker',
+      url: 'https://cosmotracker.com/atomone',
+      txPage: 'https://cosmotracker.com/atomone/tx/${txHash}',
+      accountPage: 'https://cosmotracker.com/atomone/account/${accountAddress}'
     }
   ],
   images: [{
