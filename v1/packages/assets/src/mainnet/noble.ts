@@ -352,6 +352,45 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Bitway.',
+      denom_units: [{
+          denom: 'ibc/196CFA568DDE4A9CE3D617057D82A0280AF5D4AA3E219784B5694910EF476ABB',
+          exponent: 0,
+          aliases: ['ubtw']
+        }, {
+          denom: 'btw',
+          exponent: 6
+        }],
+      base: 'ibc/196CFA568DDE4A9CE3D617057D82A0280AF5D4AA3E219784B5694910EF476ABB',
+      name: 'Bitway native token',
+      display: 'btw',
+      symbol: 'BTW',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitway/images/btw.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitway/images/btw.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitway/images/btw.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitway/images/btw.svg'
+        }],
+      socials: {
+        website: 'https://bitway.com',
+        twitter: 'https://x.com/BitwayOfficial'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-13',
+            base_denom: 'ubtw',
+            chain_name: 'bitway'
+          },
+          chain: {
+            channel_id: 'channel-172'
+          }
+        }]
+    },
+    {
       description: 'The native token of Coreum',
       denom_units: [{
           denom: 'ibc/1B229CD41D9F3787A48B822DE2E963E8F7BEADEF28AE45941940E2406A6D596F',
@@ -2768,6 +2807,45 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-158'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Bitway.',
+      denom_units: [{
+          denom: 'ibc/196CFA568DDE4A9CE3D617057D82A0280AF5D4AA3E219784B5694910EF476ABB',
+          exponent: 0,
+          aliases: ['ubtw']
+        }, {
+          denom: 'btw',
+          exponent: 6
+        }],
+      base: 'ibc/196CFA568DDE4A9CE3D617057D82A0280AF5D4AA3E219784B5694910EF476ABB',
+      name: 'Bitway native token',
+      display: 'btw',
+      symbol: 'BTW',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitway/images/btw.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitway/images/btw.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitway/images/btw.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitway/images/btw.svg'
+        }],
+      socials: {
+        website: 'https://bitway.com',
+        twitter: 'https://x.com/BitwayOfficial'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-13',
+            base_denom: 'ubtw',
+            chain_name: 'bitway'
+          },
+          chain: {
+            channel_id: 'channel-172'
           }
         }]
     },

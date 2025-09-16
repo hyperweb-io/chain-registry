@@ -1379,6 +1379,45 @@ const assets: AssetList = {
         }]
     },
     {
+      denom_units: [{
+          denom: 'ibc/CDE9884632233AE9AD560B358B5CD48A0DC08DEC204C621A6534FC5257EF0807',
+          exponent: 0,
+          aliases: ['ulume']
+        }, {
+          denom: 'LUME',
+          exponent: 6,
+          aliases: ['lume']
+        }],
+      base: 'ibc/CDE9884632233AE9AD560B358B5CD48A0DC08DEC204C621A6534FC5257EF0807',
+      display: 'LUME',
+      name: 'lume',
+      symbol: 'LUME',
+      type_asset: 'sdk.coin',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png'
+        }],
+      socials: {
+        github: 'https://github.com/LumeraProtocol/lumera',
+        discord: 'https://discord.gg/lumeraprotocol',
+        telegram: 'https://t.me/lumeraprotocol',
+        website: 'https://lumera.io'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'ulume',
+            chain_name: 'lumera'
+          },
+          chain: {
+            channel_id: 'channel-443'
+          }
+        }]
+    },
+    {
       description: 'The native token of MANTRA',
       denom_units: [{
           denom: 'ibc/775AB5A9D31074F245BB7864B7031AC7BDC9C6C0FD64A72528A8D07203CD71F3',
@@ -9632,6 +9671,45 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-98'
+          }
+        }]
+    },
+    {
+      denom_units: [{
+          denom: 'ibc/CDE9884632233AE9AD560B358B5CD48A0DC08DEC204C621A6534FC5257EF0807',
+          exponent: 0,
+          aliases: ['ulume']
+        }, {
+          denom: 'LUME',
+          exponent: 6,
+          aliases: ['lume']
+        }],
+      base: 'ibc/CDE9884632233AE9AD560B358B5CD48A0DC08DEC204C621A6534FC5257EF0807',
+      display: 'LUME',
+      name: 'lume',
+      symbol: 'LUME',
+      type_asset: 'sdk.coin',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png'
+        }],
+      socials: {
+        github: 'https://github.com/LumeraProtocol/lumera',
+        discord: 'https://discord.gg/lumeraprotocol',
+        telegram: 'https://t.me/lumeraprotocol',
+        website: 'https://lumera.io'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'ulume',
+            chain_name: 'lumera'
+          },
+          chain: {
+            channel_id: 'channel-443'
           }
         }]
     },

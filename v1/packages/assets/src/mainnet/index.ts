@@ -21,6 +21,7 @@ export * as beezee from './beezee';
 export * as bitbadges from './bitbadges';
 export * as bitcanna from './bitcanna';
 export * as bitsong from './bitsong';
+export * as bitway from './bitway';
 export * as bluzelle from './bluzelle';
 export * as bostrom from './bostrom';
 export * as canto from './canto';

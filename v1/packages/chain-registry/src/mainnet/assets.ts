@@ -28,6 +28,7 @@ import * as _beezee from './beezee';
 import * as _bitbadges from './bitbadges';
 import * as _bitcanna from './bitcanna';
 import * as _bitsong from './bitsong';
+import * as _bitway from './bitway';
 import * as _blockx from './blockx';
 import * as _bluechip from './bluechip';
 import * as _bluzelle from './bluzelle';
@@ -245,6 +246,7 @@ const assets: AssetList[] = [
   _bitbadges.assets,
   _bitcanna.assets,
   _bitsong.assets,
+  _bitway.assets,
   _blockx.assets,
   _bluechip.assets,
   _bluzelle.assets,
