@@ -55,6 +55,10 @@ const info: Chain = {
       {
         address: 'https://m-dora-rpc.ruangnode.com:443',
         provider: 'ruangnode'
+      },
+      {
+        address: 'https://rpc.dora.roomit.xyz:443',
+        provider: 'Roomit'
       }
     ],
     rest: [
@@ -77,6 +81,10 @@ const info: Chain = {
       {
         address: 'https://m-dora-api.ruangnode.com',
         provider: 'ruangnode'
+      },
+      {
+        address: 'https://api.dora.roomit.xyz:443',
+        provider: 'Roomit'
       }
     ],
     grpc: [
@@ -95,6 +103,10 @@ const info: Chain = {
       {
         address: 'm-dora-grpc.ruangnode.com:30090',
         provider: 'ruangnode'
+      },
+      {
+        address: 'grpc.dora.roomit.xyz:8443',
+        provider: 'Roomit'
       }
     ]
   },
@@ -141,6 +153,12 @@ const info: Chain = {
       kind: 'Ruangnode Explorers',
       url: 'https://explorer.ruangnode.com/dora/staking',
       txPage: 'https://explorer.ruangnode.com/dora/tx/${txHash}'
+    },
+    {
+      kind: 'Roomit',
+      url: 'https://explorer.tendermint.roomit.xyz/dora-mainnet',
+      txPage: 'https://explorer.tendermint.roomit.xyz/dora-mainnet/transactions/${txHash}',
+      accountPage: 'https://explorer.tendermint.roomit.xyz/dora-mainnet/account/${accountAddress}'
     }
   ]
 };

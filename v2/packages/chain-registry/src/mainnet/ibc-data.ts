@@ -23,6 +23,7 @@ import * as _beezee from './beezee';
 import * as _bitbadges from './bitbadges';
 import * as _bitcanna from './bitcanna';
 import * as _bitsong from './bitsong';
+import * as _bitway from './bitway';
 import * as _bluzelle from './bluzelle';
 import * as _bostrom from './bostrom';
 import * as _canto from './canto';
@@ -192,6 +193,7 @@ const ibcData: IBCData[] = [
   ..._bitbadges.ibcData,
   ..._bitcanna.ibcData,
   ..._bitsong.ibcData,
+  ..._bitway.ibcData,
   ..._bluzelle.ibcData,
   ..._bostrom.ibcData,
   ..._canto.ibcData,
