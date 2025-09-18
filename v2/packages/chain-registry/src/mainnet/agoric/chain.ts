@@ -58,7 +58,8 @@ const info: Chain = {
       repo: 'https://github.com/agoric-labs/ibc-go',
       tag: 'v7.10.0-alpha.agoric.2',
       icsEnabled: ['ics20-1']
-    }
+    },
+    tag: 'agoric-upgrade-21'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/Agoric-logo-color.png',

@@ -44,7 +44,8 @@ const info: Chain = {
     recommendedVersion: 'v0.6.5.1',
     genesis: {
       genesisUrl: 'https://data.kopi.money/genesis.json'
-    }
+    },
+    compatibleVersions: ['v0.6.5.1']
   },
   logoURIs: {
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kopi/images/kopi.svg'

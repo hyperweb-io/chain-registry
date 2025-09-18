@@ -49,7 +49,8 @@ const info: Chain = {
     sdk: {
       type: 'cosmos',
       version: 'v0.47.17'
-    }
+    },
+    tag: 'v3.0.1'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png',

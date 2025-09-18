@@ -50,6 +50,9 @@ const info: Chain = {
     },
     cosmwasm: {
       enabled: false
+    },
+    binaries: {
+      "linux/amd64": 'https://github.com/elys-network/elys/releases/download/v1.0.0/elysd-v1.0.0-linux-amd64.tar.gz'
     }
   },
   apis: {

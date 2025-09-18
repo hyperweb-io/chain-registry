@@ -54,7 +54,8 @@ const info: Chain = {
       version: 'v0.45.0',
       path: '$HOME/.routerd/wasm',
       enabled: true
-    }
+    },
+    tag: 'v2.2.8'
   },
   apis: {
     rpc: [

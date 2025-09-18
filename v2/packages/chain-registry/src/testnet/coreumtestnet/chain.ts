@@ -53,7 +53,8 @@ const info: Chain = {
     cosmwasm: {
       version: '0.44',
       enabled: true
-    }
+    },
+    tag: 'v3.0.3'
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png'

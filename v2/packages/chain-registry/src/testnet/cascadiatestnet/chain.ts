@@ -33,7 +33,7 @@ const info: Chain = {
   codebase: {
     gitRepo: 'https://github.com/CascadiaFoundation/cascadia',
     recommendedVersion: 'v0.1.2',
-    compatibleVersions: ['v0.1.1'],
+    compatibleVersions: ['v0.1.1', 'v0.1.2'],
     consensus: {
       type: 'tendermint',
       version: 'v0.34.26'

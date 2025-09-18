@@ -55,7 +55,8 @@ const info: Chain = {
     ibc: {
       type: 'go',
       version: '7.4.0'
-    }
+    },
+    tag: 'v1.8.0'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.png',

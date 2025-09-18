@@ -50,7 +50,8 @@ const info: Chain = {
       version: 'v0.30.0',
       tag: 'v0.30.0-wormchain-2',
       enabled: true
-    }
+    },
+    compatibleVersions: ['v2.23.0']
   },
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gateway/images/wormhole_icon.svg',

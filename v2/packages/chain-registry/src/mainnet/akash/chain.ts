@@ -29,7 +29,7 @@ const info: Chain = {
   codebase: {
     gitRepo: 'https://github.com/akash-network/node/',
     recommendedVersion: 'v0.38.1',
-    compatibleVersions: ['v0.38.0'],
+    compatibleVersions: ['v0.38.0', 'v0.38.1'],
     binaries: {
       "linux/amd64": 'https://github.com/akash-network/node/releases/download/v0.38.1/akash_linux_amd64.zip',
       "linux/arm64": 'https://github.com/akash-network/node/releases/download/v0.38.1/akash_linux_arm64.zip'

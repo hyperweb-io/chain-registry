@@ -36,7 +36,8 @@ const info: Chain = {
     sdk: {
       type: 'cosmos',
       version: '0.50.3'
-    }
+    },
+    compatibleVersions: ['v0.1.0']
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/airchainstestnet/images/airchains-logo.png',

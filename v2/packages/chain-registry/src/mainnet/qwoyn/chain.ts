@@ -50,7 +50,8 @@ const info: Chain = {
     },
     cosmwasm: {
       version: '0.40.0'
-    }
+    },
+    tag: 'v5.4.1'
   },
   apis: {
     rpc: [

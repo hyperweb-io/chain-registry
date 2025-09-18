@@ -33,10 +33,16 @@ const info: Chain = {
   codebase: {
     gitRepo: 'https://github.com/Bouachain/bouachain.git',
     recommendedVersion: 'v1.0.0',
-    compatibleVersions: ['v0.9.0'],
+    compatibleVersions: ['v0.9.0', 'v1.0.0'],
     genesis: {
       name: 'v1',
       genesisUrl: 'https://github.com/Bouachain/bouachain/raw/master/genesis.json'
+    },
+    sdk: {
+      type: 'cosmos',
+      repo: 'https://github.com/rollchains/cosmos-sdk',
+      version: 'v0.50.8',
+      tag: 'v0.50.8'
     }
   },
   logoURIs: {

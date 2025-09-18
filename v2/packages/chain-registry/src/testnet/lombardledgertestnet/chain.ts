@@ -31,6 +31,12 @@ const info: Chain = {
     recommendedVersion: 'v1.2.0',
     genesis: {
       genesisUrl: 'https://github.com/lombard-finance/ledger-testnets/blob/d9a6a4e1ca48bd6f9cbe5330d3e10eb157c38252/gastald/config/genesis.json'
+    },
+    compatibleVersions: ['v1.2.0'],
+    binaries: {
+      "linux/amd64": 'https://github.com/lombard-finance/ledger/releases/download/v1.2.0/ledgerd-v1.1.0-linux-amd64',
+      "darwin/amd64": 'https://github.com/lombard-finance/ledger/releases/download/v1.2.0/ledgerd-v1.1.0-darwin-amd64',
+      "darwin/arm64": 'https://github.com/lombard-finance/ledger/releases/download/v1.2.0/ledgerd-v1.1.0-darwin-arm64'
     }
   },
   apis: {

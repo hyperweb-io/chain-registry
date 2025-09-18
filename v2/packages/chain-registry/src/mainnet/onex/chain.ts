@@ -42,7 +42,8 @@ const info: Chain = {
     sdk: {
       type: 'cosmos',
       version: '0.45.16'
-    }
+    },
+    tag: 'v1.1.0'
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.png'

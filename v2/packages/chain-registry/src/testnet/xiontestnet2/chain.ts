@@ -67,7 +67,8 @@ const info: Chain = {
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/burnt-labs/xion-testnet-2/main/config/genesis.json'
-    }
+    },
+    compatibleVersions: ['v20.0.0']
   },
   apis: {
     rpc: [

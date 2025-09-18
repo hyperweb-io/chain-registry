@@ -49,7 +49,8 @@ const info: Chain = {
     cosmwasm: {
       version: '0.30',
       enabled: true
-    }
+    },
+    tag: 'v1.0.1'
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png'

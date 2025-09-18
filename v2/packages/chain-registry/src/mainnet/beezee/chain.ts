@@ -40,6 +40,19 @@ const info: Chain = {
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/bze-alphateam/bze/main/genesis.json'
+    },
+    tag: 'v7.2.0',
+    sdk: {
+      type: 'cosmos',
+      version: 'v0.45.16'
+    },
+    consensus: {
+      type: 'cometbft',
+      version: 'v0.34.27'
+    },
+    ibc: {
+      type: 'go',
+      version: 'v4.5.1'
     }
   },
   logoURIs: {

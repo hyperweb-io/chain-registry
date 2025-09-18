@@ -60,7 +60,8 @@ const info: Chain = {
       version: 'v0.46.0',
       path: '$HOME/.persistenceCore/wasm',
       enabled: true
-    }
+    },
+    tag: 'v12.0.0'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png',

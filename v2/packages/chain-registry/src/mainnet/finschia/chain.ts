@@ -63,7 +63,8 @@ const info: Chain = {
       path: '$HOME/.finschia/wasm/wasm',
       enabled: true,
       repo: 'https://github.com/Finschia/wasmd'
-    }
+    },
+    tag: 'v2.0.1'
   },
   description: 'Finschia (formerly LINE Blockchain Mainnet) aims to build a sustainable token model and create token demand to become a blockchain with 1 billion users.',
   apis: {

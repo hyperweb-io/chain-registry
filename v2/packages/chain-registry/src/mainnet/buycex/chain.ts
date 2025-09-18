@@ -22,6 +22,9 @@ const info: Chain = {
     sdk: {
       type: 'cosmos',
       version: 'v0.45.16'
+    },
+    binaries: {
+      "linux/amd64": 'https://buycex.net/bcxd-v1.0.0-linux-amd64.tar.gz'
     }
   },
   apis: {

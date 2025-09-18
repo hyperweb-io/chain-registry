@@ -55,7 +55,8 @@ const info: Chain = {
     },
     cosmwasm: {
       enabled: false
-    }
+    },
+    tag: 'v0.1.0-rc1'
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/joltify/images/jolt.png',

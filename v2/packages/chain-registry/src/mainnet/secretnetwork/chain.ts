@@ -37,7 +37,8 @@ const info: Chain = {
     },
     genesis: {
       genesisUrl: 'https://github.com/scrtlabs/SecretNetwork/releases/download/v1.2.0/genesis.json'
-    }
+    },
+    tag: 'v1.12.1'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png',

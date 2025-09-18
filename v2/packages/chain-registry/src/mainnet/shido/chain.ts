@@ -53,7 +53,8 @@ const info: Chain = {
     cosmwasm: {
       version: 'v0.45.0',
       enabled: true
-    }
+    },
+    tag: 'v2.0.0'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png',

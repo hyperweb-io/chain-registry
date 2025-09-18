@@ -64,7 +64,8 @@ const info: Chain = {
     },
     genesis: {
       genesisUrl: 'https://github.com/LumeraProtocol/lumera-networks/tree/master/testnet'
-    }
+    },
+    compatibleVersions: ['v1.7.0']
   },
   apis: {
     rpc: [{

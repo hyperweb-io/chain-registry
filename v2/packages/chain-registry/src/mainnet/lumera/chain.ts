@@ -64,23 +64,38 @@ const info: Chain = {
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/LumeraProtocol/lumera-networks/refs/heads/master/mainnet/genesis.json'
-    }
+    },
+    compatibleVersions: ['v1.6.1']
   },
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://rpc.lumera.io:443',
         provider: 'LumeraProtocol'
-      }, {
+      },
+      {
         address: 'https://lumera-rpc.ibs.team',
         provider: 'Inter Blockchain Services'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://lumera-rpc.stakerhouse.com',
+        provider: 'StakerHouse'
+      }
+    ],
+    rest: [
+      {
         address: 'https://lcd.lumera.io:443',
         provider: 'LumeraProtocol'
-      }, {
+      },
+      {
         address: 'https://lumera-api.ibs.team',
         provider: 'Inter Blockchain Services'
-      }],
+      },
+      {
+        address: 'https://lumera-rest.stakerhouse.com',
+        provider: 'StakerHouse'
+      }
+    ],
     grpc: [{
         address: 'https://grpc.lumera.io:443',
         provider: 'LumeraProtocol'
@@ -91,6 +106,11 @@ const info: Chain = {
       url: 'https://portal.lumera.io/lumera-mainnet-1/',
       txPage: 'https://portal.lumera.io/lumera-mainnet-1/tx/${txHash}',
       accountPage: 'https://portal.lumera.io/lumera-mainnet-1/account/${accountAddress}'
+    }, {
+      kind: 'Cosmotracker',
+      url: 'https://cosmotracker.com/lumera/',
+      txPage: 'https://cosmotracker.com/lumera/tx/${txHash}',
+      accountPage: 'https://cosmotracker.com/lumera/account/${accountAddress}'
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png'

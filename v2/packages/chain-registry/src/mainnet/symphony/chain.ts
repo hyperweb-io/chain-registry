@@ -45,6 +45,10 @@ const info: Chain = {
     cosmwasm: {
       version: '0.53.0',
       enabled: true
+    },
+    tag: 'v1.0.0',
+    binaries: {
+      "linux/amd64": 'https://github.com/Orchestra-Labs/symphony/releases/download/v1.0.0/symphonyd'
     }
   },
   apis: {

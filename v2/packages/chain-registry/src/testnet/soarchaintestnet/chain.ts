@@ -48,7 +48,8 @@ const info: Chain = {
     cosmwasm: {
       version: '0.27',
       enabled: true
-    }
+    },
+    tag: 'v0.2.10'
   },
   keywords: ['DePin'],
   images: [{

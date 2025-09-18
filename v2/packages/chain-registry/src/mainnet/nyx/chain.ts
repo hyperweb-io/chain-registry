@@ -47,7 +47,8 @@ const info: Chain = {
     },
     cosmwasm: {
       enabled: true
-    }
+    },
+    tag: 'v0.43.0'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.png',

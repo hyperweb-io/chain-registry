@@ -160,6 +160,10 @@ const info: Chain = {
       {
         address: 'https://gitopia-rpc.noders.services',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'https://rpc-gitopia.blockval.io/',
+        provider: 'Blockval'
       }
     ],
     rest: [
@@ -270,6 +274,10 @@ const info: Chain = {
       {
         address: 'https://gitopia-api.noders.services',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'https://api-gitopia.blockval.io',
+        provider: 'Blockval'
       }
     ],
     grpc: [
@@ -388,6 +396,10 @@ const info: Chain = {
       {
         address: 'gitopia-grpc.noders.services:19090',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'grpc-gitopia.blockval.io:443',
+        provider: 'Blockval'
       }
     ]
   },

@@ -36,7 +36,34 @@ const info: Chain = {
       name: 'v1',
       genesisUrl: 'https://archive.sardis.kima.network/genesis.json'
     },
-    recommendedVersion: 'v0.4.8'
+    recommendedVersion: 'v0.4.8',
+    compatibleVersions: ['v0.4.8'],
+    tag: 'v0.4.8',
+    language: {
+      type: 'go',
+      version: '1.21.13'
+    },
+    binaries: {
+      "linux/amd64": 'https://github.com/kima-finance/kima-blockchain/releases/download/v0.4.8/kimad-v0.4.8-amd64',
+      "linux/arm64": 'https://github.com/kima-finance/kima-blockchain/releases/download/v0.4.8/kimad-v0.4.8-arm64'
+    },
+    sdk: {
+      type: 'cosmos',
+      repo: 'https://github.com/cosmos/cosmos-sdk',
+      version: 'v0.47.4',
+      tag: 'v0.47.4'
+    },
+    consensus: {
+      type: 'cometbft',
+      version: '0.37.2',
+      repo: 'https://github.com/cometbft/cometbft',
+      tag: 'v0.37.2'
+    },
+    ibc: {
+      type: 'go',
+      version: '7.3.0',
+      icsEnabled: ['ics20-1']
+    }
   },
   apis: {
     rpc: [{

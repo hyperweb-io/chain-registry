@@ -58,7 +58,8 @@ const info: Chain = {
     ibc: {
       type: 'go',
       version: 'v8.7.0'
-    }
+    },
+    tag: 'v1.0.0'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png',

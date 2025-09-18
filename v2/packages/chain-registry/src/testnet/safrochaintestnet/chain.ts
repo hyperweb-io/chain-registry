@@ -30,7 +30,8 @@ const info: Chain = {
   codebase: {
     gitRepo: 'https://github.com/Safrochain-Org/safrochain-node',
     recommendedVersion: 'v0.1.0',
-    compatibleVersions: ['v0.1.0']
+    compatibleVersions: ['v0.1.0'],
+    tag: 'v0.1.0'
   },
   apis: {
     rpc: [{

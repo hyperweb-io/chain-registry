@@ -50,7 +50,8 @@ const info: Chain = {
     cosmwasm: {
       version: 'v0.53.0',
       enabled: true
-    }
+    },
+    tag: 'v5.3.8'
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zenrock/images/zenrock.png'

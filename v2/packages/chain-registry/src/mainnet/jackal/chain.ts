@@ -45,7 +45,8 @@ const info: Chain = {
     },
     cosmwasm: {
       enabled: true
-    }
+    },
+    tag: 'v4.0.3'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/jackal/images/jkl.png',

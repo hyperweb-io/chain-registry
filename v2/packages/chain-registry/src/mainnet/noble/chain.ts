@@ -53,7 +53,8 @@ const info: Chain = {
     },
     cosmwasm: {
       enabled: false
-    }
+    },
+    tag: 'v6.0.0'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.png',

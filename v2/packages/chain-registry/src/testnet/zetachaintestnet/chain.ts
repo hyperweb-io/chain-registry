@@ -43,7 +43,8 @@ const info: Chain = {
     ibc: {
       type: 'go',
       version: 'v6.1.0'
-    }
+    },
+    compatibleVersions: ['v8.3.3']
   },
   apis: {
     rpc: [

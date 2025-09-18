@@ -50,6 +50,11 @@ const info: Chain = {
     ibc: {
       type: 'go',
       version: 'v8.7.0'
+    },
+    tag: 'v8.0.0',
+    language: {
+      type: 'go',
+      version: '1.22.11'
     }
   },
   images: [{

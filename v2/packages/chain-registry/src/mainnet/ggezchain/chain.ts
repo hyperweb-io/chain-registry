@@ -60,7 +60,8 @@ const info: Chain = {
       version: 'v0.51.0',
       repo: 'https://github.com/CosmWasm/wasmd',
       tag: 'v0.51.0'
-    }
+    },
+    tag: 'v1.0.0'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/chain.png',

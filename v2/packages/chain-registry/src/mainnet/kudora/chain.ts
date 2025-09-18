@@ -53,7 +53,8 @@ const info: Chain = {
     language: {
       type: 'go',
       version: '1.23.7'
-    }
+    },
+    tag: 'v1.0.0'
   },
   apis: {
     evmHttpJsonrpc: [{

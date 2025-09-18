@@ -51,7 +51,8 @@ const info: Chain = {
     cosmwasm: {
       version: 'v0.41.0',
       enabled: true
-    }
+    },
+    tag: 'v0.1.1-patch'
   },
   apis: {
     rpc: [

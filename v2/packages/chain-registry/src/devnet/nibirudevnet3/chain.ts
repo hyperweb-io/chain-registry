@@ -59,7 +59,8 @@ const info: Chain = {
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/NibiruChain/Networks/main/Testnet/nibiru-devnet-2/genesis.json'
-    }
+    },
+    tag: 'v1.0.1'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.png',

@@ -49,7 +49,8 @@ const info: Chain = {
     sdk: {
       type: 'cosmos',
       version: 'v0.45.16'
-    }
+    },
+    tag: 'v1.0.1'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.png',

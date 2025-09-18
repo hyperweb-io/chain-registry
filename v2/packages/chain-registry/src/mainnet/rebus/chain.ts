@@ -33,7 +33,8 @@ const info: Chain = {
     compatibleVersions: ['v0.4.0'],
     genesis: {
       genesisUrl: 'https://github.com/rebuschain/rebus.mainnet/raw/master/reb_1111-1/genesis.zip'
-    }
+    },
+    tag: 'v0.4.0'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png',

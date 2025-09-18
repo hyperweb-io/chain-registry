@@ -48,6 +48,9 @@ const info: Chain = {
     ibc: {
       type: 'go',
       version: 'v3.4.0'
+    },
+    binaries: {
+      "linux/amd64": 'https://github.com/bluzelle/bluzelle-public/releases/download/v10.0/curiumd'
     }
   },
   logoURIs: {

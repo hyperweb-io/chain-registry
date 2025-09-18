@@ -30,7 +30,7 @@ const info: Chain = {
   codebase: {
     gitRepo: 'https://github.com/medibloc/panacea-core',
     recommendedVersion: 'v2.0.6',
-    compatibleVersions: ['v2.0.5'],
+    compatibleVersions: ['v2.0.5', 'v2.0.6'],
     genesis: {
       genesisUrl: 'https://github.com/medibloc/panacea-mainnet/raw/master/panacea-3/genesis.json'
     }

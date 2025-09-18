@@ -45,7 +45,8 @@ const info: Chain = {
     ibc: {
       type: 'go',
       version: 'v7.1.0'
-    }
+    },
+    tag: 'v0.14.0'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/synternet/images/synt.png',

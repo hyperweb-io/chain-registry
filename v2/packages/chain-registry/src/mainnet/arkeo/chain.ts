@@ -36,7 +36,13 @@ const info: Chain = {
       name: 'v1',
       genesisUrl: 'https://github.com/arkeonetwork/arkeo/blob/master/networks/mainnet/arkeo-main-v1/genesis.mainnet.json.gz'
     },
-    recommendedVersion: 'v1.0.9'
+    recommendedVersion: 'v1.0.9',
+    compatibleVersions: ['v1.0.9'],
+    binaries: {
+      "linux/amd64": 'https://github.com/arkeonetwork/arkeo/releases/download/v1.0.9/arkeod_1.0.9_linux_amd64.zip',
+      "darwin/arm64": 'https://github.com/arkeonetwork/arkeo/releases/download/v1.0.9/arkeod_1.0.9_darwin_arm64.zip',
+      "darwin/amd64": 'https://github.com/arkeonetwork/arkeo/releases/download/v1.0.9/arkeod_1.0.9_darwin_amd64.zip'
+    }
   },
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkeo/images/arkeo.svg',

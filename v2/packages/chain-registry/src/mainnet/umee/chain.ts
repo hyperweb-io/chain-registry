@@ -52,7 +52,8 @@ const info: Chain = {
     cosmwasm: {
       version: '0.43',
       enabled: true
-    }
+    },
+    tag: 'v6.3.0'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',

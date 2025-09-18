@@ -54,7 +54,8 @@ const info: Chain = {
     ibc: {
       type: 'go',
       version: 'v8.5.1'
-    }
+    },
+    tag: 'v1.3.0'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/realio/images/rio.png'
