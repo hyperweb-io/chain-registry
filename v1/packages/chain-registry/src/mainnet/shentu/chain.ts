@@ -42,7 +42,8 @@ const info: Chain = {
       type: 'go',
       version: 'v7.4.0',
       ics_enabled: ['ics20-1']
-    }
+    },
+    tag: 'v2.11.0'
   },
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.png',

@@ -148,7 +148,8 @@ const info: Chain = {
     ibc: {
       type: 'go',
       version: '7.4.0'
-    }
+    },
+    tag: 'v24.0.0'
   },
   description: 'Stride is a blockchain that provides liquidity for staked tokens. Using Stride, you can earn both taking and DeFi yields across the Cosmos IBC ecosystem.',
   apis: {

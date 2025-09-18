@@ -123,7 +123,8 @@ const info: Chain = {
       repo: 'https://github.com/CosmWasm/wasmd',
       tag: 'v0.53.0',
       enabled: true
-    }
+    },
+    tag: 'v2.0.0'
   },
   images: [{
       image_sync: {

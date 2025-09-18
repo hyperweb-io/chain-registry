@@ -52,7 +52,8 @@ const info: Chain = {
     language: {
       type: 'go',
       version: 'v1.24.2'
-    }
+    },
+    tag: 'v3.1.0'
   },
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.png',

@@ -31,6 +31,18 @@ const info: Chain = {
     compatible_versions: ['v2.0.0'],
     genesis: {
       genesis_url: 'https://github.com/furysport/furya-chain/blob/main/network/mainnet/genesis.json'
+    },
+    sdk: {
+      type: 'cosmos',
+      version: 'v0.47.8'
+    },
+    consensus: {
+      type: 'cometbft',
+      version: 'v0.37.4'
+    },
+    cosmwasm: {
+      version: 'v0.41.0',
+      enabled: true
     }
   },
   logo_URIs: {

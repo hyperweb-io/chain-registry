@@ -50,7 +50,8 @@ const info: Chain = {
     ibc: {
       type: 'go',
       version: 'v10.3.0'
-    }
+    },
+    tag: 'v25.1.0'
   },
   apis: {
     rpc: [

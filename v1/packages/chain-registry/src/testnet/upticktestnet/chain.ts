@@ -36,6 +36,9 @@ const info: Chain = {
     sdk: {
       type: 'cosmos',
       version: '0.46.5'
+    },
+    binaries: {
+      "linux/amd64": 'https://github.com/UptickNetwork/uptick/releases/download/v0.2.6/uptick-linux-amd64-v0.2.6.tar.gz'
     }
   },
   apis: {

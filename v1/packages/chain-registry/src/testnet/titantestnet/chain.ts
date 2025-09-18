@@ -52,7 +52,8 @@ const info: Chain = {
     cosmwasm: {
       version: '0.45.0',
       enabled: true
-    }
+    },
+    tag: 'v3.0.0-rc.0'
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/chain.png',

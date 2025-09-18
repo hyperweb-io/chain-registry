@@ -63,7 +63,8 @@ const info: Chain = {
       path: '$HOME/.finschia/wasm/wasm',
       enabled: true,
       repo: 'https://github.com/Finschia/wasmd'
-    }
+    },
+    tag: 'v2.0.1'
   },
   apis: {
     rpc: [{

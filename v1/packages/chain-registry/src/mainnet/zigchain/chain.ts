@@ -34,7 +34,7 @@ const info: Chain = {
   codebase: {
     git_repo: 'https://github.com/ZIGChain/zigchain',
     recommended_version: '1.2.0',
-    compatible_versions: [],
+    compatible_versions: ['1.2.0'],
     consensus: {
       type: 'cometbft',
       version: '0.38.17'
@@ -58,7 +58,8 @@ const info: Chain = {
       "linux/amd64": 'https://github.com/ZIGChain/networks/raw/refs/heads/main/zig-test-2/binaries/zigchaind-v1.2.0-linux-amd64.tar.gz',
       "darwin/amd64": 'https://github.com/ZIGChain/networks/raw/refs/heads/main/zig-test-2/binaries/zigchaind-v1.2.0-darwin-amd64.tar.gz',
       "darwin/arm64": 'https://github.com/ZIGChain/networks/raw/refs/heads/main/zig-test-2/binaries/zigchaind-v1.2.0-darwin-amd64.tar.gz'
-    }
+    },
+    tag: '1.2.0'
   },
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',

@@ -49,7 +49,8 @@ const info: Chain = {
       type: 'go',
       version: '5.2.1',
       ics_enabled: ['ics20-1']
-    }
+    },
+    tag: 'v0.5.0'
   },
   apis: {
     rpc: [

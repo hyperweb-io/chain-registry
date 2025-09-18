@@ -115,6 +115,10 @@ const info: Chain = {
       {
         address: 'https://rpc-sunrise.winnode.xyz',
         provider: 'Winnode'
+      },
+      {
+        address: 'https://rpc-sunrise.blockval.io/',
+        provider: 'Blockval'
       }
     ],
     rest: [
@@ -177,6 +181,10 @@ const info: Chain = {
       {
         address: 'https://api-sunrise.winnode.xyz',
         provider: 'Winnode'
+      },
+      {
+        address: 'https://api-sunrise.blockval.io',
+        provider: 'Blockval'
       }
     ],
     grpc: [
@@ -223,6 +231,10 @@ const info: Chain = {
       {
         address: 'https://grpc-sunrise.winnode.xyz:443',
         provider: 'Winnode'
+      },
+      {
+        address: 'grpc-sunrise.blockval.io:443',
+        provider: 'Blockval'
       }
     ]
   },

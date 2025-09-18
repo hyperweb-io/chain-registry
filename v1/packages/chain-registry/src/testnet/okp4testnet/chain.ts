@@ -37,7 +37,8 @@ const info: Chain = {
     },
     genesis: {
       genesis_url: 'https://raw.githubusercontent.com/okp4/networks/main/chains/nemeton-1/genesis.json'
-    }
+    },
+    tag: 'v4.1.0'
   },
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/okp4testnet/images/okp4.png'

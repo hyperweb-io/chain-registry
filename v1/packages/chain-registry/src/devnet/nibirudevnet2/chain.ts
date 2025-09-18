@@ -58,7 +58,8 @@ const info: Chain = {
     cosmwasm: {
       version: 'v0.44.0',
       enabled: true
-    }
+    },
+    tag: 'v1.0.1'
   },
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.png',

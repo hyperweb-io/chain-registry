@@ -54,6 +54,11 @@ const info: Chain = {
       version: 'v0.53.0',
       repo: 'https://github.com/CosmWasm/wasmd',
       tag: 'v0.53.0'
+    },
+    tag: 'v0.0.4-rc.2',
+    language: {
+      type: 'go',
+      version: 'v1.23'
     }
   },
   logo_URIs: {

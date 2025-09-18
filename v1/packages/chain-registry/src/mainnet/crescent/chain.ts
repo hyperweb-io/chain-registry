@@ -36,7 +36,8 @@ const info: Chain = {
     },
     genesis: {
       genesis_url: 'https://github.com/crescent-network/launch/raw/main/mainnet/crescent-1/genesis.json.tar.gz'
-    }
+    },
+    tag: 'v4.2.0'
   },
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/images/cre.png',

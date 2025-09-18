@@ -56,7 +56,8 @@ const info: Chain = {
     },
     cosmwasm: {
       enabled: false
-    }
+    },
+    tag: 'v1.11.0'
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png',

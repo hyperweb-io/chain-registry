@@ -49,7 +49,8 @@ const info: Chain = {
     ibc: {
       type: 'go',
       version: 'v7.6.0'
-    }
+    },
+    tag: 'v1.0.0'
   },
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qubetics/images/qubetics.png'

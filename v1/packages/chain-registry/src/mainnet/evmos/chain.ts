@@ -55,7 +55,8 @@ const info: Chain = {
     ibc: {
       type: 'go',
       version: '7.6.0'
-    }
+    },
+    tag: 'v19.1.0'
   },
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png',

@@ -54,7 +54,8 @@ const info: Chain = {
     cosmwasm: {
       version: '0.30',
       enabled: true
-    }
+    },
+    tag: 'v1.17.0'
   },
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.png',

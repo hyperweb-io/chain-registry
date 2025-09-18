@@ -61,7 +61,8 @@ const info: Chain = {
     },
     cosmwasm: {
       enabled: false
-    }
+    },
+    tag: 'v3.1.0'
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava.png'
