@@ -78,6 +78,10 @@ const info: Chain = {
       {
         address: 'https://rpc.atomone-testnet-1.atomone.aviaone.com:443',
         provider: 'AVIAONE.com 🟢'
+      },
+      {
+        address: 'https://atomone-testnet-rpc.cogwheel.zone',
+        provider: 'Cogwheel ⚙️'
       }
     ],
     rest: [
@@ -92,15 +96,26 @@ const info: Chain = {
       {
         address: 'https://api-test.atomone.vinjan.xyz',
         provider: 'Vinjan'
+      },
+      {
+        address: 'https://atomone-testnet-api.cogwheel.zone',
+        provider: 'Cogwheel ⚙️'
       }
     ],
-    grpc: [{
+    grpc: [
+      {
         address: 'grpc.atomone-1.atomone.aviaone.com:9102',
         provider: 'AVIAONE.com 🟢'
-      }, {
+      },
+      {
         address: 'https://grpc-testnet-atomone.nodeist.net:443',
         provider: 'Nodeist'
-      }]
+      },
+      {
+        address: 'atomone-testnet-grpc.cogwheel.zone:443',
+        provider: 'Cogwheel ⚙️'
+      }
+    ]
   },
   explorers: [
     {

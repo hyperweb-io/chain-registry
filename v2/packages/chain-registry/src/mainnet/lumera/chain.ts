@@ -80,6 +80,10 @@ const info: Chain = {
       {
         address: 'https://lumera-rpc.stakerhouse.com',
         provider: 'StakerHouse'
+      },
+      {
+        address: 'https://lumera.archive.data.nexus',
+        provider: 'Data Nexus'
       }
     ],
     rest: [
@@ -94,11 +98,18 @@ const info: Chain = {
       {
         address: 'https://lumera-rest.stakerhouse.com',
         provider: 'StakerHouse'
+      },
+      {
+        address: 'https://rest.lumera.archive.data.nexus',
+        provider: 'Data Nexus'
       }
     ],
     grpc: [{
         address: 'https://grpc.lumera.io:443',
         provider: 'LumeraProtocol'
+      }, {
+        address: 'https://grpc.lumera.archive.data.nexus:443',
+        provider: 'Data Nexus'
       }]
   },
   explorers: [{

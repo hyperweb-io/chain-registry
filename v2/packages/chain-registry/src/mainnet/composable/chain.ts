@@ -69,10 +69,6 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'https://picasso-rpc.cogwheel.zone:443',
-        provider: 'Cogwheel ⚙️'
-      },
-      {
         address: 'https://rpc.lavenderfive.com:443/picasso',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -121,10 +117,6 @@ const info: Chain = {
       {
         address: 'https://composable-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'https://picasso-api.cogwheel.zone:443',
-        provider: 'Cogwheel ⚙️'
       },
       {
         address: 'https://rest.lavenderfive.com:443/picasso',
@@ -179,10 +171,6 @@ const info: Chain = {
       {
         address: 'grpc-centauri.cosmos-spaces.cloud:1120',
         provider: 'Cosmos Spaces'
-      },
-      {
-        address: 'https://picasso-grpc.cogwheel.zone:443',
-        provider: 'Cogwheel ⚙️'
       },
       {
         address: 'picasso.lavenderfive.com:443',
