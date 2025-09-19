@@ -9686,6 +9686,46 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'LuncToken ($LTK) is the community token of Lunctoken.org, designed to reward engagement, provide access to Web3 educational content, and strengthen the Terra Classic ecosystem.',
+      socials: {
+        website: 'https://www.lunctoken.org',
+        twitter: 'https://x.com/Lunctoken_org'
+      },
+      type_asset: 'cw20',
+      address: 'terra1mm8tdp40r2slzwqxk8jsz66ayc4zp69muxeateq37x2xquttzsaqy7275a',
+      denom_units: [{
+          denom: 'ibc/36135B35E259F53F41A3511598A40DBD485219D252D42FC6C570A4CC0C0B0411',
+          exponent: 0,
+          aliases: ['cw20:terra1mm8tdp40r2slzwqxk8jsz66ayc4zp69muxeateq37x2xquttzsaqy7275a']
+        }, {
+          denom: 'ltk',
+          exponent: 6
+        }],
+      base: 'ibc/36135B35E259F53F41A3511598A40DBD485219D252D42FC6C570A4CC0C0B0411',
+      name: 'Lunctoken',
+      display: 'ltk',
+      symbol: 'LTK',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lunctoken.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lunctoken.png'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
+            channel_id: 'channel-87',
+            base_denom: 'cw20:terra1mm8tdp40r2slzwqxk8jsz66ayc4zp69muxeateq37x2xquttzsaqy7275a',
+            chain_name: 'terra'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-114'
+          }
+        }]
+    },
+    {
       description: 'Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.',
       denom_units: [{
           denom: 'ibc/8935E9B60645CD61DC925E7C71956DC909D4548262103D1AB75E2A5306AC84C1',
@@ -18178,6 +18218,46 @@ const assets: AssetList = {
             port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
             channel_id: 'channel-87',
             base_denom: 'cw20:terra17hnu4prwa3varxrws0sy9hffkmqv8tfmfpldg4e9fq58flrmuz2qlhymr5',
+            chain_name: 'terra'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-114'
+          }
+        }]
+    },
+    {
+      description: 'LuncToken ($LTK) is the community token of Lunctoken.org, designed to reward engagement, provide access to Web3 educational content, and strengthen the Terra Classic ecosystem.',
+      socials: {
+        website: 'https://www.lunctoken.org',
+        twitter: 'https://x.com/Lunctoken_org'
+      },
+      type_asset: 'cw20',
+      address: 'terra1mm8tdp40r2slzwqxk8jsz66ayc4zp69muxeateq37x2xquttzsaqy7275a',
+      denom_units: [{
+          denom: 'ibc/36135B35E259F53F41A3511598A40DBD485219D252D42FC6C570A4CC0C0B0411',
+          exponent: 0,
+          aliases: ['cw20:terra1mm8tdp40r2slzwqxk8jsz66ayc4zp69muxeateq37x2xquttzsaqy7275a']
+        }, {
+          denom: 'ltk',
+          exponent: 6
+        }],
+      base: 'ibc/36135B35E259F53F41A3511598A40DBD485219D252D42FC6C570A4CC0C0B0411',
+      name: 'Lunctoken',
+      display: 'ltk',
+      symbol: 'LTK',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lunctoken.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lunctoken.png'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
+            channel_id: 'channel-87',
+            base_denom: 'cw20:terra1mm8tdp40r2slzwqxk8jsz66ayc4zp69muxeateq37x2xquttzsaqy7275a',
             chain_name: 'terra'
           },
           chain: {
