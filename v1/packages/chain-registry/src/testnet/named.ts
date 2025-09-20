@@ -117,6 +117,7 @@ export * as synternettestnet from './synternettestnet';
 export * as terpnettestnet from './terpnettestnet';
 export * as terpnettestnet2 from './terpnettestnet2';
 export * as terra2testnet from './terra2testnet';
+export * as terratestnet from './terratestnet';
 export * as titannettestnet from './titannettestnet';
 export * as titantestnet from './titantestnet';
 export * as tucanatestnet from './tucanatestnet';
