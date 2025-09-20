@@ -119,6 +119,7 @@ import * as _synternettestnet from './synternettestnet';
 import * as _terpnettestnet from './terpnettestnet';
 import * as _terpnettestnet2 from './terpnettestnet2';
 import * as _terra2testnet from './terra2testnet';
+import * as _terratestnet from './terratestnet';
 import * as _titannettestnet from './titannettestnet';
 import * as _titantestnet from './titantestnet';
 import * as _tucanatestnet from './tucanatestnet';
@@ -256,6 +257,7 @@ const chains: Chain[] = [
   _terpnettestnet.chain,
   _terpnettestnet2.chain,
   _terra2testnet.chain,
+  _terratestnet.chain,
   _titannettestnet.chain,
   _titantestnet.chain,
   _tucanatestnet.chain,
