@@ -17,12 +17,6 @@ const info: AssetList = {
       name: 'SGE Testnet',
       display: 'sge',
       symbol: 'SGE',
-      logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sgetestnet/images/sge.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sgetestnet/images/sge.png'
-        }],
       typeAsset: 'sdk.coin'
     }]
 };

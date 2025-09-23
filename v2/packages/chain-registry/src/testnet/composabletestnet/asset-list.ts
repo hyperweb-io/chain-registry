@@ -15,14 +15,6 @@ const info: AssetList = {
       name: 'Pica',
       display: 'pica',
       symbol: 'PICA',
-      logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.svg'
-        }],
       typeAsset: 'sdk.coin'
     }]
 };

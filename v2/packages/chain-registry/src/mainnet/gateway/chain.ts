@@ -58,12 +58,6 @@ const info: Chain = {
       theme: {
         circle: false
       }
-    }, {
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gateway/images/wormhole_circle.svg',
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gateway/images/wormhole_circle.png',
-      theme: {
-        circle: true
-      }
     }],
   logoURIs: {
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gateway/images/wormhole_icon.svg'

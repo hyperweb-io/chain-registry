@@ -15,12 +15,6 @@ const info: AssetList = {
       name: 'Sei',
       display: 'sei',
       symbol: 'SEI',
-      logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/seitestnet/images/sei.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/seitestnet/images/sei.png'
-        }],
       typeAsset: 'sdk.coin'
     }]
 };

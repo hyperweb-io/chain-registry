@@ -22,14 +22,6 @@ const info: AssetList = {
       name: 'LEFEEF',
       display: 'lefeef',
       symbol: 'LEFEEF',
-      logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lefeef/images/lefeef.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lefeef/images/lefeef.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lefeef/images/lefeef.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lefeef/images/lefeef.svg'
-        }],
       socials: {
         website: 'https://lefeef.net',
         twitter: 'https://x.com/lefeef2024'

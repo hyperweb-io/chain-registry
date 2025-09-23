@@ -118,10 +118,6 @@ const info: Chain = {
         provider: 'STAKR.space'
       },
       {
-        address: 'https://aura-rpc.highstakes.ch',
-        provider: 'High Stakes 🇨🇭'
-      },
-      {
         address: 'https://aura-rpc.noders.services',
         provider: '[NODERS]TEAM'
       }
@@ -178,10 +174,6 @@ const info: Chain = {
       {
         address: 'https://aura.api.srv.stakr.space',
         provider: 'STAKR.space'
-      },
-      {
-        address: 'https://aura-api.highstakes.ch',
-        provider: 'High Stakes 🇨🇭'
       },
       {
         address: 'https://aura-api.noders.services',

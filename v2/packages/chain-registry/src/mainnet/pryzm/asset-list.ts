@@ -5337,12 +5337,10 @@ const info: AssetList = {
       display: 'scar',
       symbol: 'SCAR',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/SCAR.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/SCAR.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/SCAR.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/SCAR.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/SCAR.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/SCAR.png'
         }],
       typeAsset: 'sdk.coin'
     }

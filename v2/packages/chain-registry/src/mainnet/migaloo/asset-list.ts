@@ -748,10 +748,10 @@ const info: AssetList = {
       display: 'uwhalex',
       symbol: 'WHALEX',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/whalex.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/whaleX.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/whalex.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/whaleX.png'
         }],
       traces: [{
           type: 'liquid-stake',

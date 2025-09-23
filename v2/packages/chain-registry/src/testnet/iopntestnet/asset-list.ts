@@ -16,14 +16,14 @@ const info: AssetList = {
       display: 'opn',
       symbol: 'OPN',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/iopntestnet/images/iopn_Dark.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/iopntestnet/images/iopn_white_bg_99x99.png'
       },
       socials: {
         website: 'https://iopn.tech'
       },
       typeAsset: 'sdk.coin',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/iopntestnet/images/iopn_Dark.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/iopntestnet/images/iopn_white_bg_99x99.png'
         }]
     }]
 };

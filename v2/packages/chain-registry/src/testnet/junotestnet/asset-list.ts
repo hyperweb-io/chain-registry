@@ -78,18 +78,6 @@ const info: AssetList = {
             baseDenom: 'factory/juno1vwmnqk0vyxc96qgffrure4nqxupjrql0zut8s02hadgp0n79r8xq5xdsxy/ARENA'
           },
           provider: 'Arena DAO'
-        }],
-      logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.svg'
-      },
-      images: [{
-          imageSync: {
-            chainName: 'juno',
-            baseDenom: 'factory/juno1vwmnqk0vyxc96qgffrure4nqxupjrql0zut8s02hadgp0n79r8xq5xdsxy/ARENA'
-          },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.png'
         }]
     }
   ]

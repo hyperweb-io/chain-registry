@@ -53,9 +53,6 @@ const info: Chain = {
     },
     tag: 'v5.3.8'
   },
-  images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zenrocktestnet/images/zenrock.png'
-    }],
   apis: {
     rpc: [{
         address: 'https://rpc.gardia.zenrocklabs.io/',
@@ -76,9 +73,6 @@ const info: Chain = {
       txPage: 'https://explorer.gardia.zenrocklabs.io/tx/${txHash}',
       accountPage: 'https://explorer.gardia.zenrocklabs.io/account/${accountAddress}'
     }],
-  logoURIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zenrocktestnet/images/zenrock.png'
-  },
   keywords: ['mpc', 'testnet']
 };
 export default info;

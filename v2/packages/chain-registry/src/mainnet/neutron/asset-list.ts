@@ -926,7 +926,7 @@ const info: AssetList = {
       display: 'takumi',
       symbol: 'TAKUMI',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/TAKUMI.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/takumi.png'
         }],
       typeAsset: 'sdk.coin'
     },

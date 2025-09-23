@@ -49,6 +49,7 @@ import * as _titantestnet from './titantestnet';
 import * as _wardenprotocoltestnet from './wardenprotocoltestnet';
 import * as _xiontestnet2 from './xiontestnet2';
 import * as _xrplevmtestnet from './xrplevmtestnet';
+import * as _zigchaintestnet from './zigchaintestnet';
 
 const ibcData: IBCData[] = [
   ..._agoricdevnet.ibcData,
@@ -99,7 +100,8 @@ const ibcData: IBCData[] = [
   ..._titantestnet.ibcData,
   ..._wardenprotocoltestnet.ibcData,
   ..._xiontestnet2.ibcData,
-  ..._xrplevmtestnet.ibcData
+  ..._xrplevmtestnet.ibcData,
+  ..._zigchaintestnet.ibcData
 ];
 
 export default ibcData;
