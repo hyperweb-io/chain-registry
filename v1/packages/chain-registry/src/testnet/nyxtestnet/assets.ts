@@ -16,10 +16,10 @@ const info: AssetList = {
       display: 'nyx',
       symbol: 'NYX',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nyx.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nyx.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nyx.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nyx.png'
         }],
       type_asset: 'sdk.coin'
     }, {
@@ -36,19 +36,19 @@ const info: AssetList = {
       display: 'nym',
       symbol: 'NYM',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nym_token_light.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nym_token_light.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nym_token_light.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nym_token_light.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nym_token_light.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nym_token_light.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nym_token_light.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nym_token_light.svg',
           theme: {
             dark_mode: false,
             circle: true
           }
         }, {
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nym_token_dark.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nym_token_dark.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nym_token_dark.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nym_token_dark.svg',
           theme: {
             dark_mode: true,
             circle: true

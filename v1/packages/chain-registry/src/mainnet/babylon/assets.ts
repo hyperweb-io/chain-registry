@@ -231,9 +231,6 @@ const info: AssetList = {
       name: 'uniBTC',
       display: 'uniBTC',
       symbol: 'uniBTC',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.png'
-      },
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -246,10 +243,7 @@ const info: AssetList = {
             path: 'transfer/channel-0/transfer/08-wasm-1369/0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568'
           }
         }],
-      type_asset: 'ics20',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/uniBTC.png'
-        }]
+      type_asset: 'ics20'
     },
     {
       denom_units: [{
@@ -263,9 +257,6 @@ const info: AssetList = {
       name: 'mBTC',
       display: 'mBTC',
       symbol: 'mBTC',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/mbtc.png'
-      },
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -278,10 +269,7 @@ const info: AssetList = {
             path: 'transfer/channel-0/transfer/08-wasm-1369/0xbdf245957992bfbc62b07e344128a1eec7b7ee3f'
           }
         }],
-      type_asset: 'ics20',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/mbtc.png'
-        }]
+      type_asset: 'ics20'
     },
     {
       denom_units: [{
@@ -296,7 +284,7 @@ const info: AssetList = {
       display: 'LBTC',
       symbol: 'LBTC',
       logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/LBTC.svg'
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
       },
       traces: [{
           type: 'ibc',
@@ -312,7 +300,7 @@ const info: AssetList = {
         }],
       type_asset: 'ics20',
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/LBTC.svg'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/lbtc.svg'
         }]
     },
     {
@@ -364,7 +352,7 @@ const info: AssetList = {
       display: 'SolvBTC',
       symbol: 'SolvBTC',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/SolvBTC.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png'
       },
       traces: [{
           type: 'ibc',
@@ -380,7 +368,7 @@ const info: AssetList = {
         }],
       type_asset: 'ics20',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/SolvBTC.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png'
         }]
     },
     {
@@ -764,7 +752,7 @@ const info: AssetList = {
       display: 'mBTC',
       symbol: 'mBTC',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mBTC.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png'
       },
       type_asset: 'cw20',
       traces: [{
@@ -781,7 +769,7 @@ const info: AssetList = {
           }
         }],
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mBTC.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png'
         }]
     },
     {

@@ -6302,12 +6302,6 @@ const assets: AssetList = {
       name: 'Staked Astroport Token',
       display: 'xastro.cw20',
       symbol: 'xASTRO.cw20',
-      logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xastro-cw20.svg'
-      },
-      images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xastro-cw20.svg'
-        }],
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -14843,12 +14837,6 @@ const assets: AssetList = {
       name: 'Staked Astroport Token',
       display: 'xastro.cw20',
       symbol: 'xASTRO.cw20',
-      logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xastro-cw20.svg'
-      },
-      images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xastro-cw20.svg'
-        }],
       traces: [{
           type: 'ibc-cw20',
           counterparty: {

@@ -49,3 +49,4 @@ export * as solanatestnet from './solanatestnet';
 export * as tontestnet from './tontestnet';
 export * as xrpltestnet from './xrpltestnet';
 export * as ojotestnet from './ojotestnet';
+export * as tsc from './tsc';

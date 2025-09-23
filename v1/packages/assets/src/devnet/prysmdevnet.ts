@@ -50,14 +50,6 @@ const assets: AssetList = {
       name: 'Pica',
       display: 'pica',
       symbol: 'PICA',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.svg'
-        }],
       type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
@@ -285,14 +277,6 @@ const assets: AssetList = {
       name: 'Pica',
       display: 'pica',
       symbol: 'PICA',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.svg'
-        }],
       type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',

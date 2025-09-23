@@ -46,4 +46,5 @@ export * as titannettestnet from './titannettestnet';
 export * as titantestnet from './titantestnet';
 export * as wardenprotocoltestnet from './wardenprotocoltestnet';
 export * as xiontestnet2 from './xiontestnet2';
-export * as xrplevmtestnet from './xrplevmtestnet'
+export * as xrplevmtestnet from './xrplevmtestnet';
+export * as zigchaintestnet from './zigchaintestnet'

@@ -50,6 +50,7 @@ import * as _solanatestnet from './solanatestnet';
 import * as _tontestnet from './tontestnet';
 import * as _xrpltestnet from './xrpltestnet';
 import * as _ojotestnet from './ojotestnet';
+import * as _tsc from './tsc';
 
 const assets: AssetList[] = [
   _picasso.assets,
@@ -101,7 +102,8 @@ const assets: AssetList[] = [
   _solanatestnet.assets,
   _tontestnet.assets,
   _xrpltestnet.assets,
-  _ojotestnet.assets
+  _ojotestnet.assets,
+  _tsc.assets
 ];
 
 export default assets;

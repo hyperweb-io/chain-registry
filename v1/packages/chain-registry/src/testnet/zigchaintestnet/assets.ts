@@ -2,7 +2,8 @@ import { AssetList } from '@chain-registry/types';
 const info: AssetList = {
   $schema: '../../assetlist.schema.json',
   chain_name: 'zigchaintestnet',
-  assets: [{
+  assets: [
+    {
       description: 'The native token of ZIGChain',
       denom_units: [
         {
@@ -49,16 +50,17 @@ const info: AssetList = {
         discord: 'https://discord.com/invite/zignaly-the-better-way-to-invest-in-crypto-486954374845956097',
         medium: 'https://medium.com/zignaly'
       }
-    }, {
+    },
+    {
       description: 'Staked Zig Token by Valdora Finance - Decentralized staking with stZIG',
       denom_units: [{
-          denom: 'factory/zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak/stzig',
+          denom: 'coin.zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak.stzig',
           exponent: 0
         }, {
           denom: 'stzig',
           exponent: 6
         }],
-      base: 'factory/zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak/stzig',
+      base: 'coin.zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak.stzig',
       name: 'Staked Zig',
       display: 'stzig',
       symbol: 'STZIG',
@@ -77,6 +79,69 @@ const info: AssetList = {
         telegram: 'https://t.me/ValdoraWarriors',
         discord: 'http://discord.gg/valdora'
       }
-    }]
+    },
+    {
+      description: 'Noble USDC on ZIGChain',
+      denom_units: [{
+          denom: 'ibc/8E452E728A6598EEF051E63FFE49AF19004F5D2AA3F690413C2985660AAFD38F',
+          exponent: 0,
+          aliases: ['microusdc', 'uusdc']
+        }, {
+          denom: 'usdc',
+          exponent: 6
+        }],
+      type_asset: 'ics20',
+      base: 'ibc/8E452E728A6598EEF051E63FFE49AF19004F5D2AA3F690413C2985660AAFD38F',
+      name: 'Noble USDC',
+      display: 'usdc',
+      symbol: 'USDC',
+      traces: [
+        {
+          type: 'synthetic',
+          counterparty: {
+            chain_name: 'forex',
+            base_denom: 'USD'
+          },
+          provider: 'Circle'
+        },
+        {
+          type: 'test-mintage',
+          counterparty: {
+            chain_name: 'noble',
+            base_denom: 'uusdc'
+          },
+          provider: 'Circle'
+        },
+        {
+          type: 'ibc',
+          counterparty: {
+            chain_name: 'nobletestnet',
+            base_denom: 'uusdc',
+            channel_id: 'channel-664'
+          },
+          chain: {
+            channel_id: 'channel-35',
+            path: 'transfer/channel-35/uusdc'
+          }
+        }
+      ],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+      },
+      images: [{
+          image_sync: {
+            chain_name: 'nobletestnet',
+            base_denom: 'uusdc'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          theme: {
+            circle: true
+          }
+        }],
+      coingecko_id: 'usd-coin'
+    }
+  ]
 };
 export default info;

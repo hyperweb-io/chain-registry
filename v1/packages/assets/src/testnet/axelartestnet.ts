@@ -529,6 +529,106 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of ZIGChain',
+      denom_units: [
+        {
+          denom: 'ibc/871A67DD3876AD445E6BBEBA064669BD06116BD2163DCC181AB9F2BBD3F3CA14',
+          exponent: 0,
+          aliases: ['uzig']
+        },
+        {
+          denom: 'mzig',
+          exponent: 3,
+          aliases: ['millizig']
+        },
+        {
+          denom: 'zig',
+          exponent: 6
+        }
+      ],
+      base: 'ibc/871A67DD3876AD445E6BBEBA064669BD06116BD2163DCC181AB9F2BBD3F3CA14',
+      name: 'ZIG',
+      display: 'zig',
+      symbol: 'ZIG',
+      coingecko_id: 'zignaly',
+      keywords: [
+        'zigchain',
+        'zig',
+        'staking',
+        'delegating',
+        'governance',
+        'defi'
+      ],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/zigchain.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/zigchain.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/zigchain.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/zigchain.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://zigchain.com/',
+        twitter: 'https://twitter.com/zigchain',
+        telegram: 'https://t.me/ZignalyHQ',
+        discord: 'https://discord.com/invite/zignaly-the-better-way-to-invest-in-crypto-486954374845956097',
+        medium: 'https://medium.com/zignaly'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uzig',
+            chain_name: 'zigchaintestnet'
+          },
+          chain: {
+            channel_id: 'channel-612'
+          }
+        }]
+    },
+    {
+      description: 'Staked Zig Token by Valdora Finance - Decentralized staking with stZIG',
+      denom_units: [{
+          denom: 'ibc/9BD7F5D98B77D136BE47573AF97EC891D296A94DEE52AA76026AEAF731091CD6',
+          exponent: 0,
+          aliases: ['coin.zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak.stzig']
+        }, {
+          denom: 'stzig',
+          exponent: 6
+        }],
+      base: 'ibc/9BD7F5D98B77D136BE47573AF97EC891D296A94DEE52AA76026AEAF731091CD6',
+      name: 'Staked Zig',
+      display: 'stzig',
+      symbol: 'STZIG',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://dev.valdora.finance',
+        twitter: 'https://x.com/Valdora_finance',
+        telegram: 'https://t.me/ValdoraWarriors',
+        discord: 'http://discord.gg/valdora'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'coin.zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak.stzig',
+            chain_name: 'zigchaintestnet'
+          },
+          chain: {
+            channel_id: 'channel-612'
+          }
+        }]
+    },
+    {
       description: 'The native staking token of Babylon.',
       denom_units: [{
           denom: 'ibc/19142C352B3DB3B2C6CCE8B9EDCC8D4D8EF9E4A1335E54A69DE5F4ECFBBD8A36',
@@ -861,6 +961,106 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-537'
+          }
+        }]
+    },
+    {
+      description: 'The native token of ZIGChain',
+      denom_units: [
+        {
+          denom: 'ibc/871A67DD3876AD445E6BBEBA064669BD06116BD2163DCC181AB9F2BBD3F3CA14',
+          exponent: 0,
+          aliases: ['uzig']
+        },
+        {
+          denom: 'mzig',
+          exponent: 3,
+          aliases: ['millizig']
+        },
+        {
+          denom: 'zig',
+          exponent: 6
+        }
+      ],
+      base: 'ibc/871A67DD3876AD445E6BBEBA064669BD06116BD2163DCC181AB9F2BBD3F3CA14',
+      name: 'ZIG',
+      display: 'zig',
+      symbol: 'ZIG',
+      coingecko_id: 'zignaly',
+      keywords: [
+        'zigchain',
+        'zig',
+        'staking',
+        'delegating',
+        'governance',
+        'defi'
+      ],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/zigchain.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/zigchain.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/zigchain.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/zigchain.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://zigchain.com/',
+        twitter: 'https://twitter.com/zigchain',
+        telegram: 'https://t.me/ZignalyHQ',
+        discord: 'https://discord.com/invite/zignaly-the-better-way-to-invest-in-crypto-486954374845956097',
+        medium: 'https://medium.com/zignaly'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uzig',
+            chain_name: 'zigchaintestnet'
+          },
+          chain: {
+            channel_id: 'channel-612'
+          }
+        }]
+    },
+    {
+      description: 'Staked Zig Token by Valdora Finance - Decentralized staking with stZIG',
+      denom_units: [{
+          denom: 'ibc/9BD7F5D98B77D136BE47573AF97EC891D296A94DEE52AA76026AEAF731091CD6',
+          exponent: 0,
+          aliases: ['coin.zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak.stzig']
+        }, {
+          denom: 'stzig',
+          exponent: 6
+        }],
+      base: 'ibc/9BD7F5D98B77D136BE47573AF97EC891D296A94DEE52AA76026AEAF731091CD6',
+      name: 'Staked Zig',
+      display: 'stzig',
+      symbol: 'STZIG',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://dev.valdora.finance',
+        twitter: 'https://x.com/Valdora_finance',
+        telegram: 'https://t.me/ValdoraWarriors',
+        discord: 'http://discord.gg/valdora'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'coin.zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak.stzig',
+            chain_name: 'zigchaintestnet'
+          },
+          chain: {
+            channel_id: 'channel-612'
           }
         }]
     },

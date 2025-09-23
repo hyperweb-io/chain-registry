@@ -51,8 +51,8 @@ const info: Chain = {
     tag: 'v0.43.0'
   },
   logo_URIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nym_token_light.png',
-    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nym_token_light.svg'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nym_token_light.png',
+    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nym_token_light.svg'
   },
   apis: {
     rpc: [{
@@ -73,26 +73,20 @@ const info: Chain = {
       url: 'https://sandbox-blocks.nymtech.net/sandbox',
       tx_page: 'https://sandbox-blocks.nymtech.net/sandbox/tx/${txHash}'
     }],
-  images: [
-    {
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nym_token_light.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nym_token_light.svg',
+  images: [{
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nym_token_light.png',
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nym_token_light.svg',
       theme: {
         dark_mode: false,
         circle: true
       }
-    },
-    {
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nym_token_dark.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nym_token_dark.svg',
+    }, {
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nym_token_dark.png',
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nyxtestnet/images/nym_token_dark.svg',
       theme: {
         dark_mode: true,
         circle: true
       }
-    },
-    {
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyxtestnet/images/nym_token_light.png'
-    }
-  ]
+    }]
 };
 export default info;

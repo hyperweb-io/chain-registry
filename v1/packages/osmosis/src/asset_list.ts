@@ -33014,7 +33014,7 @@ const asset_list: AssetList = {
       display: 'mBTC',
       symbol: 'mBTC',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mBTC.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png'
       },
       type_asset: 'cw20',
       traces: [{
@@ -33031,7 +33031,7 @@ const asset_list: AssetList = {
           }
         }],
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mBTC.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png'
         }]
     },
     {
@@ -36401,7 +36401,7 @@ const asset_list: AssetList = {
       display: 'mBTC',
       symbol: 'mBTC',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mBTC.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png'
       },
       type_asset: 'cw20',
       traces: [{
@@ -36418,7 +36418,7 @@ const asset_list: AssetList = {
           }
         }],
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mBTC.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png'
         }]
     },
     {
@@ -43300,12 +43300,6 @@ const asset_list: AssetList = {
       name: 'Staked Astroport Token',
       display: 'xastro.cw20',
       symbol: 'xASTRO.cw20',
-      logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xastro-cw20.svg'
-      },
-      images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xastro-cw20.svg'
-        }],
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -51841,12 +51835,6 @@ const asset_list: AssetList = {
       name: 'Staked Astroport Token',
       display: 'xastro.cw20',
       symbol: 'xASTRO.cw20',
-      logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xastro-cw20.svg'
-      },
-      images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/xastro-cw20.svg'
-        }],
       traces: [{
           type: 'ibc-cw20',
           counterparty: {

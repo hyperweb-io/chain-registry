@@ -61,6 +61,10 @@ const info: Chain = {
         provider: 'Sunrise Team'
       },
       {
+        address: 'https://rpc-sunrise.infrasingularity.com',
+        provider: 'Infrasingularity'
+      },
+      {
         address: 'https://sunrise-mainnet-rpc.mekonglabs.tech',
         provider: 'MekongLabs'
       },

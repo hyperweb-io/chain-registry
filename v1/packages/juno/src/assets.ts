@@ -1857,15 +1857,7 @@ const assets: AssetList = {
       base: 'factory/juno1vwmnqk0vyxc96qgffrure4nqxupjrql0zut8s02hadgp0n79r8xq5xdsxy/ARENA',
       name: 'Arena Token',
       display: 'arena',
-      symbol: 'ARENA',
-      images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.png'
-        }],
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.svg'
-      }
+      symbol: 'ARENA'
     },
     {
       description: 'ashWIND',

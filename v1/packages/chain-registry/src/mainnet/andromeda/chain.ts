@@ -85,10 +85,6 @@ const info: Chain = {
         provider: 'StakerHouse'
       },
       {
-        address: 'https://andromeda-rpc.highstakes.ch',
-        provider: 'High Stakes 🇨🇭'
-      },
-      {
         address: 'https://andromeda-rpc.genznodes.dev',
         provider: 'genznodes'
       },
@@ -133,10 +129,6 @@ const info: Chain = {
       {
         address: 'https://andromeda-rest.stakerhouse.com:443',
         provider: 'StakerHouse'
-      },
-      {
-        address: 'https://andromeda-api.highstakes.ch',
-        provider: 'High Stakes 🇨🇭'
       },
       {
         address: 'https://andromeda-api.genznodes.dev',

@@ -227,14 +227,6 @@ const assets: AssetList = {
       name: 'Pica',
       display: 'pica',
       symbol: 'PICA',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.svg'
-        }],
       type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
@@ -1088,14 +1080,6 @@ const assets: AssetList = {
       name: 'Pica',
       display: 'pica',
       symbol: 'PICA',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/composable.svg'
-        }],
       type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
@@ -1886,12 +1870,6 @@ const assets: AssetList = {
       name: 'SGE Testnet',
       display: 'sge',
       symbol: 'SGE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sgetestnet/images/sge.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sgetestnet/images/sge.png'
-        }],
       type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
@@ -2449,12 +2427,6 @@ const assets: AssetList = {
       name: 'SGE Testnet',
       display: 'sge',
       symbol: 'SGE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sgetestnet/images/sge.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sgetestnet/images/sge.png'
-        }],
       type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
