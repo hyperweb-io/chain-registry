@@ -1,0 +1,37 @@
+import { AssetList } from '@chain-registry/types';
+const info: AssetList = {
+  $schema: '../assetlist.schema.json',
+  chainName: 'union',
+  assets: [{
+      description: 'Union is the zero-knowledge (zk) interoperability network that functions as a settlement and liquidity layer for protocols and asset issuers.',
+      extendedDescription: 'Union is the zero-knowledge (zk) interoperability network that functions as a settlement and liquidity layer for protocols and asset issuers. Union supports direct connections between L1s, L2s, and rollups regardless of execution environment, while still being powered by the most secure consensus verification.',
+      denomUnits: [{
+          denom: 'au',
+          exponent: 0
+        }, {
+          denom: 'U',
+          exponent: 18
+        }],
+      base: 'au',
+      name: 'U',
+      display: 'U',
+      symbol: 'U',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/union/images/u.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/union/images/u.svg'
+      },
+      coingeckoId: 'union-2',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/union/images/u.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/union/images/u.svg'
+        }],
+      socials: {
+        website: 'https://union.build/',
+        twitter: 'https://x.com/union_build',
+        discord: 'https://discord.union.build',
+        github: 'https://github.com/unionlabs/union'
+      },
+      typeAsset: 'sdk.coin'
+    }]
+};
+export default info;

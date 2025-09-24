@@ -108,14 +108,6 @@ const info: Chain = {
         provider: 'Neutron'
       },
       {
-        address: 'https://rpc-voidara.neutron-1.neutron.org',
-        provider: 'Neutron'
-      },
-      {
-        address: 'https://rpc-pulsarix.neutron-1.neutron.org',
-        provider: 'Neutron'
-      },
-      {
         address: 'https://rpc.novel.remedy.tm.p2p.org',
         provider: 'P2P'
       },

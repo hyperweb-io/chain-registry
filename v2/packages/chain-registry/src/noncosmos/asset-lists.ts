@@ -35,6 +35,7 @@ import * as _xrpl from './xrpl';
 import * as _zilliqa from './zilliqa';
 import * as _berachain from './berachain';
 import * as _hall from './hall';
+import * as _optio from './optio';
 import * as _avalanchetestnet from './avalanchetestnet';
 import * as _binancesmartchaintestnet from './binancesmartchaintestnet';
 import * as _bitcoincashtestnet from './bitcoincashtestnet';
@@ -88,6 +89,7 @@ const assetList: AssetList[] = [
   _zilliqa.assetList,
   _berachain.assetList,
   _hall.assetList,
+  _optio.assetList,
   _avalanchetestnet.assetList,
   _binancesmartchaintestnet.assetList,
   _bitcoincashtestnet.assetList,
