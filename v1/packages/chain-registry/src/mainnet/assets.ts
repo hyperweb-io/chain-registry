@@ -206,6 +206,7 @@ import * as _titan from './titan';
 import * as _umee from './umee';
 import * as _unicorn from './unicorn';
 import * as _unification from './unification';
+import * as _union from './union';
 import * as _ununifi from './ununifi';
 import * as _uptick from './uptick';
 import * as _vector from './vector';
@@ -424,6 +425,7 @@ const assets: AssetList[] = [
   _umee.assets,
   _unicorn.assets,
   _unification.assets,
+  _union.assets,
   _ununifi.assets,
   _uptick.assets,
   _vector.assets,

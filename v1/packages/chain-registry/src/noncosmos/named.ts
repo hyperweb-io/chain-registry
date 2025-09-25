@@ -33,6 +33,7 @@ export * as xrpl from './xrpl';
 export * as zilliqa from './zilliqa';
 export * as berachain from './berachain';
 export * as hall from './hall';
+export * as optio from './optio';
 export * as cosmoshubicstestnet from './cosmoshubicstestnet';
 export * as avalanchetestnet from './avalanchetestnet';
 export * as binancesmartchaintestnet from './binancesmartchaintestnet';
