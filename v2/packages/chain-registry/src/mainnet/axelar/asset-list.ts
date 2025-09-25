@@ -1476,7 +1476,7 @@ const info: AssetList = {
         }],
       typeAsset: 'sdk.coin',
       base: 'cbbtc-satoshi',
-      name: 'Coinbase Warpped Bitcoin',
+      name: 'Coinbase Wrapped Bitcoin',
       display: 'cbbtc',
       symbol: 'axl-cbBTC',
       traces: [{
