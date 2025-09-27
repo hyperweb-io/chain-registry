@@ -36,7 +36,7 @@ const info: Chain = {
       "linux/arm64": 'https://github.com/unionlabs/union/releases/download/uniond%2Fv1.2.2/uniond-release-aarch64-linux'
     },
     consensus: {
-      type: 'cometbft',
+      type: 'cometbls',
       version: 'v1.0.1',
       repo: 'https://github.com/unionlabs/cometbls',
       tag: 'v1.0.1-cometbls'
