@@ -53,8 +53,7 @@ const info: Chain = {
     }
   },
   logo_URIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png',
-    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png'
   },
   apis: {
     rpc: [
@@ -132,8 +131,11 @@ const info: Chain = {
     }
   ],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg'
+      image_sync: {
+        chain_name: 'odin',
+        base_denom: 'loki'
+      },
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png'
     }]
 };
 export default info;

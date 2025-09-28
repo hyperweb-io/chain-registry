@@ -57,8 +57,7 @@ const info: Chain = {
     tag: 'v2.0.0'
   },
   logo_URIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png',
-    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png'
   },
   description: 'Developers use Shido as the Ethereum and Wasm Chain to deploy applications of the future. Get all the functionalities of Ethereum and Wasm with the power of IBC and Interchain composability.',
   apis: {
@@ -222,8 +221,7 @@ const info: Chain = {
     }
   ],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg'
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png'
     }]
 };
 export default info;

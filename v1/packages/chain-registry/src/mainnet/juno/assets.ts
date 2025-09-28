@@ -135,12 +135,10 @@ const info: AssetList = {
       display: 'hope',
       symbol: 'HOPE',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.png'
         }]
     },
     {
@@ -167,13 +165,11 @@ const info: AssetList = {
           provider: 'Racoon'
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png'
       },
       coingecko_id: 'racoon',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png'
         }]
     },
     {
@@ -328,12 +324,10 @@ const info: AssetList = {
       display: 'dla',
       symbol: 'DLA',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.png'
         }]
     },
     {
@@ -412,12 +406,10 @@ const info: AssetList = {
       display: 'hole',
       symbol: 'HOLE',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.png'
         }]
     },
     {

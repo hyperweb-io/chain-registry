@@ -48,7 +48,6 @@ const info: AssetList = {
       symbol: 'HMSTR',
       coingecko_id: 'hamster-kombat',
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/hmstr.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/hmstr.png',
           theme: {
             circle: true

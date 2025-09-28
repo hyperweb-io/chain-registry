@@ -2639,12 +2639,10 @@ const assets: AssetList = {
       display: 'odin',
       symbol: 'ODIN',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png'
         }],
       socials: {
         website: 'https://odinprotocol.io/',
@@ -9915,13 +9913,11 @@ const assets: AssetList = {
       display: 'SHIDO',
       symbol: 'SHIDO',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png'
       },
       coingecko_id: 'shido-2',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png'
         }],
       socials: {
         website: 'https://shido.io/',
@@ -12216,12 +12212,10 @@ const assets: AssetList = {
       display: 'odin',
       symbol: 'ODIN',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png'
         }],
       socials: {
         website: 'https://odinprotocol.io/',
@@ -19492,13 +19486,11 @@ const assets: AssetList = {
       display: 'SHIDO',
       symbol: 'SHIDO',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png'
       },
       coingecko_id: 'shido-2',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png'
         }],
       socials: {
         website: 'https://shido.io/',
@@ -20203,12 +20195,10 @@ const assets: AssetList = {
       display: 'amber',
       symbol: 'AMBER',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.png'
         }],
       socials: {
         website: 'http://amber.money/',
@@ -20631,12 +20621,10 @@ const assets: AssetList = {
       display: 'amber',
       symbol: 'AMBER',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.png'
         }],
       socials: {
         website: 'http://amber.money/',

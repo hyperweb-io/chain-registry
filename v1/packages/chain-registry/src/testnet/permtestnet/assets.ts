@@ -16,12 +16,10 @@ const info: AssetList = {
       display: 'perm',
       symbol: 'PERM',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.png'
         }],
       type_asset: 'sdk.coin'
     }]

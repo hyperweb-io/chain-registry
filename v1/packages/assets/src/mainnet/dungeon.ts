@@ -53,12 +53,10 @@ const assets: AssetList = {
       name: 'Frienzies',
       symbol: 'FRNZ',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png'
         }],
       traces: [{
           type: 'ibc',
@@ -281,12 +279,10 @@ const assets: AssetList = {
       name: 'Frienzies',
       symbol: 'FRNZ',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png'
         }],
       traces: [{
           type: 'ibc',

@@ -165,7 +165,6 @@ const assets: AssetList = {
       name: 'Prysm',
       symbol: 'PRYSM',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.svg',
           theme: {
             circle: true
@@ -565,7 +564,6 @@ const assets: AssetList = {
       name: 'Prysm',
       symbol: 'PRYSM',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.svg',
           theme: {
             circle: true

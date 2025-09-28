@@ -36,8 +36,7 @@ const info: Chain = {
     }
   },
   logo_URIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png',
-    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.svg'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png'
   },
   apis: {
     rpc: [{
@@ -93,8 +92,7 @@ const info: Chain = {
     }
   ],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.svg'
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png'
     }]
 };
 export default info;

@@ -46,12 +46,10 @@ const info: AssetList = {
       display: 'strdst',
       symbol: 'STRDST',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/dust.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/dust.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/dust.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/dust.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/dust.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/dust.png'
         }],
       type_asset: 'sdk.coin'
     },
@@ -69,12 +67,10 @@ const info: AssetList = {
       display: 'GAZE',
       symbol: 'GAZE',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/gaze.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/gaze.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/gaze.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/gaze.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/gaze.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/gaze.png'
         }],
       type_asset: 'sdk.coin'
     },
@@ -92,12 +88,10 @@ const info: AssetList = {
       display: 'BRNCH',
       symbol: 'BRNCH',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/brnch.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/brnch.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/brnch.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/brnch.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/brnch.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/brnch.png'
         }],
       type_asset: 'sdk.coin'
     },
@@ -115,12 +109,10 @@ const info: AssetList = {
       display: 'OHH',
       symbol: 'OHH',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/ohh.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/ohh.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/ohh.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/ohh.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/ohh.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/ohh.png'
         }],
       type_asset: 'sdk.coin'
     },
@@ -284,16 +276,14 @@ const info: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png'
       },
       images: [{
           image_sync: {
             chain_name: 'neutron',
             base_denom: 'factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png'
         }],
       coingecko_id: 'astroport-fi'
     },

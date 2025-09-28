@@ -843,8 +843,7 @@ const info: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.png'
       },
       keywords: ['memecoin'],
       socials: {
@@ -855,8 +854,7 @@ const info: AssetList = {
             chain_name: 'osmosis',
             base_denom: 'factory/osmo1x7s7a2erqspkm6e79n7yh7fw3yh7xx4lt54mxg/uquark'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.png'
         }]
     },
     {

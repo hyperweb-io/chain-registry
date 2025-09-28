@@ -16,13 +16,11 @@ const info: AssetList = {
       display: 'medas',
       symbol: 'MEDAS',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.png'
       },
       keywords: ['medas'],
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.png'
         }],
       type_asset: 'sdk.coin'
     }]

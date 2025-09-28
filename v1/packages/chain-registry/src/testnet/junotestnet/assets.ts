@@ -78,6 +78,12 @@ const info: AssetList = {
             base_denom: 'factory/juno1vwmnqk0vyxc96qgffrure4nqxupjrql0zut8s02hadgp0n79r8xq5xdsxy/ARENA'
           },
           provider: 'Arena DAO'
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'juno',
+            base_denom: 'factory/juno1vwmnqk0vyxc96qgffrure4nqxupjrql0zut8s02hadgp0n79r8xq5xdsxy/ARENA'
+          }
         }]
     }
   ]

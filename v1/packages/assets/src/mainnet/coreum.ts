@@ -449,12 +449,10 @@ const assets: AssetList = {
       symbol: 'GRAV',
       coingecko_id: 'graviton',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png'
         }],
       socials: {
         website: 'https://www.gravitybridge.net/',
@@ -754,12 +752,10 @@ const assets: AssetList = {
       name: 'Frienzies',
       symbol: 'FRNZ',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png'
         }],
       traces: [{
           type: 'ibc',
@@ -1258,12 +1254,10 @@ const assets: AssetList = {
       symbol: 'GRAV',
       coingecko_id: 'graviton',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png'
         }],
       socials: {
         website: 'https://www.gravitybridge.net/',
@@ -1563,12 +1557,10 @@ const assets: AssetList = {
       name: 'Frienzies',
       symbol: 'FRNZ',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png'
         }],
       traces: [{
           type: 'ibc',

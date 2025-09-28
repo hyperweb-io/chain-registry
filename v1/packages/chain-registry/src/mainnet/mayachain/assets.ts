@@ -16,12 +16,12 @@ const info: AssetList = {
       display: 'CACAO',
       symbol: 'CACAO',
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mayachain/images/cacao.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mayachain/images/cacao.png'
         }],
       coingecko_id: 'cacao',
       keywords: ['dex'],
       logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mayachain/images/cacao.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mayachain/images/cacao.png'
       },
       type_asset: 'sdk.coin'
     }, {
@@ -38,10 +38,10 @@ const info: AssetList = {
       display: 'MAYA',
       symbol: 'MAYA',
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mayachain/images/maya.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mayachain/images/maya.png'
         }],
       logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mayachain/images/maya.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mayachain/images/maya.png'
       },
       type_asset: 'sdk.coin'
     }]

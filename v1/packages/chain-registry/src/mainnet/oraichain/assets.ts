@@ -637,8 +637,7 @@ const info: AssetList = {
       display: 'hmstr',
       symbol: 'HMSTR',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/hmstr.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/hmstr.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/hmstr.png'
       },
       type_asset: 'sdk.coin',
       images: [{
@@ -646,7 +645,6 @@ const info: AssetList = {
             chain_name: 'ton',
             base_denom: 'nanohmstr'
           },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/hmstr.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/hmstr.png',
           theme: {
             circle: true

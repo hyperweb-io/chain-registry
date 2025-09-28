@@ -16,13 +16,11 @@ const info: AssetList = {
       display: 'SHIDO',
       symbol: 'SHIDO',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png'
       },
       coingecko_id: 'shido-2',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png'
         }],
       socials: {
         website: 'https://shido.io/',

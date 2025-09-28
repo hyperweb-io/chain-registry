@@ -986,12 +986,10 @@ const assets: AssetList = {
       symbol: 'GRAV',
       coingecko_id: 'graviton',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png'
         }],
       socials: {
         website: 'https://www.gravitybridge.net/',
@@ -1611,12 +1609,10 @@ const assets: AssetList = {
       name: 'Frienzies',
       symbol: 'FRNZ',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png'
         }],
       traces: [{
           type: 'ibc',
@@ -3084,12 +3080,10 @@ const assets: AssetList = {
       symbol: 'GRAV',
       coingecko_id: 'graviton',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png'
         }],
       socials: {
         website: 'https://www.gravitybridge.net/',
@@ -3709,12 +3703,10 @@ const assets: AssetList = {
       name: 'Frienzies',
       symbol: 'FRNZ',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png'
         }],
       traces: [{
           type: 'ibc',
@@ -6856,12 +6848,10 @@ const assets: AssetList = {
       display: 'hope',
       symbol: 'HOPE',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -6907,13 +6897,11 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png'
       },
       coingecko_id: 'racoon',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png'
         }]
     },
     {
@@ -7152,12 +7140,10 @@ const assets: AssetList = {
       display: 'dla',
       symbol: 'DLA',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -7270,12 +7256,10 @@ const assets: AssetList = {
       display: 'hole',
       symbol: 'HOLE',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10100,12 +10084,10 @@ const assets: AssetList = {
       display: 'hope',
       symbol: 'HOPE',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10151,13 +10133,11 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png'
       },
       coingecko_id: 'racoon',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png'
         }]
     },
     {
@@ -10396,12 +10376,10 @@ const assets: AssetList = {
       display: 'dla',
       symbol: 'DLA',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -10514,12 +10492,10 @@ const assets: AssetList = {
       display: 'hole',
       symbol: 'HOLE',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -13289,8 +13265,7 @@ const assets: AssetList = {
             chain_name: 'neutron',
             base_denom: 'factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png'
         }],
       socials: {
         website: 'https://astroport.fi/',
@@ -14603,8 +14578,7 @@ const assets: AssetList = {
             chain_name: 'neutron',
             base_denom: 'factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png'
         }],
       socials: {
         website: 'https://astroport.fi/',

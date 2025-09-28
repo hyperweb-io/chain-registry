@@ -52,8 +52,7 @@ const info: Chain = {
     }
   },
   logo_URIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.png',
-    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.svg'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.png'
   },
   apis: {
     rpc: [{
@@ -72,8 +71,7 @@ const info: Chain = {
       }]
   },
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.svg'
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.png'
     }]
 };
 export default info;

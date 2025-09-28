@@ -24,7 +24,15 @@ const info: AssetList = {
           provider: 'Desmos'
         }],
       coingecko_id: 'desmos',
-      type_asset: 'sdk.coin'
+      type_asset: 'sdk.coin',
+      images: [{
+          image_sync: {
+            chain_name: 'desmos',
+            base_denom: 'udsm'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.svg'
+        }]
     }]
 };
 export default info;

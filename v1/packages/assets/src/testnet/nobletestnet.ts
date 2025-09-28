@@ -595,7 +595,6 @@ const assets: AssetList = {
       name: 'Prysm',
       symbol: 'PRYSM',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.svg',
           theme: {
             circle: true
@@ -815,12 +814,10 @@ const assets: AssetList = {
       display: 'stzig',
       symbol: 'STZIG',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.png'
         }],
       type_asset: 'sdk.coin',
       socials: {
@@ -1038,12 +1035,10 @@ const assets: AssetList = {
       display: 'stzig',
       symbol: 'STZIG',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.png'
         }],
       type_asset: 'sdk.coin',
       socials: {
@@ -1079,7 +1074,6 @@ const assets: AssetList = {
       name: 'Prysm',
       symbol: 'PRYSM',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.svg',
           theme: {
             circle: true
