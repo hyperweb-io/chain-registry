@@ -17,12 +17,10 @@ const info: AssetList = {
       display: 'odin',
       symbol: 'ODIN',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png'
         }],
       socials: {
         website: 'https://odinprotocol.io/',

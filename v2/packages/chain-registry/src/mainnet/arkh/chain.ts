@@ -40,8 +40,7 @@ const info: Chain = {
     }
   },
   logoURIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkh/images/arkh.png',
-    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkh/images/arkh.svg'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkh/images/arkh.png'
   },
   apis: {
     rpc: [{
@@ -66,8 +65,7 @@ const info: Chain = {
       txPage: 'https://explorer.bonynode.online/arkhadian/tx/${txHash}'
     }],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkh/images/arkh.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkh/images/arkh.svg'
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/arkh/images/arkh.png'
     }]
 };
 export default info;

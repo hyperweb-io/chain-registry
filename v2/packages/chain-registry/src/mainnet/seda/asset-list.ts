@@ -17,13 +17,11 @@ const info: AssetList = {
       display: 'seda',
       symbol: 'SEDA',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png'
       },
       coingeckoId: 'seda-2',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png'
         }],
       socials: {
         website: 'https://www.seda.xyz/',

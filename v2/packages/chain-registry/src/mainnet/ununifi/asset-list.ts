@@ -16,8 +16,7 @@ const info: AssetList = {
       display: 'guu',
       symbol: 'GUU',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ununifi/images/ununifi.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ununifi/images/ununifi.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ununifi/images/ununifi.png'
       },
       keywords: [
         'staking',
@@ -26,8 +25,7 @@ const info: AssetList = {
         'nft'
       ],
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ununifi/images/ununifi.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ununifi/images/ununifi.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ununifi/images/ununifi.png'
         }],
       typeAsset: 'sdk.coin'
     }]

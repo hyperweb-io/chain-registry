@@ -16,13 +16,23 @@ const info: AssetList = {
       name: 'Seda',
       display: 'seda',
       symbol: 'SEDA',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'seda',
+            baseDenom: 'aseda'
+          },
+          provider: 'Seda'
+        }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg'
+          imageSync: {
+            chainName: 'seda',
+            baseDenom: 'aseda'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png'
         }],
       socials: {
         website: 'https://www.seda.xyz/',

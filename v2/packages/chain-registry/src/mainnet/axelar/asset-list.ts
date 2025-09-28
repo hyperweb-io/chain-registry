@@ -300,14 +300,14 @@ const info: AssetList = {
           provider: 'Axelar'
         }],
       logoURIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ape.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ape.png'
       },
       images: [{
           imageSync: {
             chainName: 'ethereum',
             baseDenom: '0x4d224452801aced8b2f0aebe155379bb5d594381'
           },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ape.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ape.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -434,14 +434,14 @@ const info: AssetList = {
           provider: 'Axelar'
         }],
       logoURIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/rai.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/rai.png'
       },
       images: [{
           imageSync: {
             chainName: 'ethereum',
             baseDenom: '0x03ab458634910aad20ef5f1c8ee96f1d6ac54919'
           },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/rai.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/rai.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -566,14 +566,14 @@ const info: AssetList = {
           provider: 'Axelar'
         }],
       logoURIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xcn.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xcn.png'
       },
       images: [{
           imageSync: {
             chainName: 'ethereum',
             baseDenom: '0xa2cd3d43c775978a96bdbf12d733d5a1ed94fb18'
           },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xcn.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xcn.png'
         }],
       typeAsset: 'sdk.coin'
     },

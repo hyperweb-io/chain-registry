@@ -203,10 +203,10 @@ const info: AssetList = {
       display: 'blend',
       symbol: 'BLEND',
       logoURIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/blend.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/blend.png'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/blend.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/blend.png'
         }],
       typeAsset: 'sdk.coin'
     },

@@ -62,8 +62,7 @@ const info: Chain = {
     tag: 'v1.0.0-rc.6'
   },
   logoURIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png',
-    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png'
   },
   description: 'SEDA is a standard for modular data transport and querying. Any data type, for all networks.',
   apis: {
@@ -112,7 +111,9 @@ const info: Chain = {
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg'
+      imageSync: {
+        chainName: 'seda'
+      }
     }]
 };
 export default info;

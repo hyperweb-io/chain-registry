@@ -331,12 +331,10 @@ const info: AssetList = {
       symbol: 'ASTRO',
       coingeckoId: 'astroport-fi',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png'
       },
       socials: {
         website: 'https://astroport.fi/',
@@ -655,10 +653,10 @@ const info: AssetList = {
       display: 'newtroll',
       symbol: 'NTRL',
       logoURIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newtroll.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newtroll.png'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newtroll.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newtroll.png'
         }],
       typeAsset: 'sdk.coin'
     },

@@ -17,12 +17,10 @@ const info: AssetList = {
       display: 'cgas',
       symbol: 'CGAS',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -40,12 +38,10 @@ const info: AssetList = {
       display: 'coss',
       symbol: 'COSS',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -63,13 +59,11 @@ const info: AssetList = {
       display: 'cias',
       symbol: 'CIAS',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.png'
       },
       coingeckoId: 'cias',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.png'
         }],
       typeAsset: 'sdk.coin'
     }

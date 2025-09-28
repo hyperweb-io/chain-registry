@@ -62,8 +62,7 @@ const info: Chain = {
     }
   },
   logoURIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ununifi/images/ununifi.png',
-    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ununifi/images/ununifi.svg'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ununifi/images/ununifi.png'
   },
   apis: {
     rpc: [
@@ -159,8 +158,11 @@ const info: Chain = {
     'nft'
   ],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ununifi/images/ununifi.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ununifi/images/ununifi.svg'
+      imageSync: {
+        chainName: 'ununify',
+        baseDenom: 'uguu'
+      },
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ununifi/images/ununifi.png'
     }]
 };
 export default info;

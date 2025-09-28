@@ -15,13 +15,25 @@ const info: AssetList = {
       name: 'LUMEN',
       display: 'lumen',
       symbol: 'LUMEN',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'lumenx',
+            baseDenom: 'ulumen'
+          },
+          provider: 'LumenX'
+        }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lumenxtestnet/images/lumen.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lumenxtestnet/images/lumen.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumenx/images/lumen.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumenx/images/lumen.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lumenxtestnet/images/lumen.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lumenxtestnet/images/lumen.svg'
+          imageSync: {
+            chainName: 'lumenx',
+            baseDenom: 'ulumen'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumenx/images/lumen.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumenx/images/lumen.svg'
         }],
       typeAsset: 'sdk.coin'
     }]
