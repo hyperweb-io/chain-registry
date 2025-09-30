@@ -414,9 +414,9 @@ const info: Chain = {
     },
     {
       kind: 'Ruangnode Explorer',
-      url: 'https://explorer.ruangnode.com/atomone',
-      txPage: 'https://explorer.ruangnode.com/atomone/tx/${txHash}',
-      accountPage: 'https://explorer.ruangnode.com/atomone/account/${accountAddress}'
+      url: 'https://explorer.ruangnode.com/dashboard/atomone',
+      txPage: 'https://explorer.ruangnode.com/dashboard/atomone/tx/${txHash}',
+      accountPage: 'https://explorer.ruangnode.com/addresses/atomone/${accountAddress}'
     },
     {
       kind: 'Kynraze Explorer',

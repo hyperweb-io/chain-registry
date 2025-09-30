@@ -151,8 +151,8 @@ const info: Chain = {
     },
     {
       kind: 'Ruangnode Explorers',
-      url: 'https://explorer.ruangnode.com/dora/staking',
-      txPage: 'https://explorer.ruangnode.com/dora/tx/${txHash}'
+      url: 'https://explorer.ruangnode.com/dashboard/dora',
+      txPage: 'https://explorer.ruangnode.com/transactions/dora?hash=${txHash}'
     },
     {
       kind: 'Roomit',
