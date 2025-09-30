@@ -81,6 +81,10 @@ const info: Chain = {
       {
         address: 'https://union-rpc.stakeandrelax.net',
         provider: 'Stake&Relax'
+      },
+      {
+        address: 'https://m-union-rpc.ruangnode.com:443',
+        provider: 'ruangnode'
       }
     ],
     rest: [
@@ -107,6 +111,10 @@ const info: Chain = {
       {
         address: 'https://union-api.stakeandrelax.net',
         provider: 'Stake&Relax'
+      },
+      {
+        address: 'https://m-union-api.ruangnode.com:443',
+        provider: 'ruangnode'
       }
     ],
     grpc: [
@@ -133,6 +141,10 @@ const info: Chain = {
       {
         address: 'union-grpc.stakeandrelax.net:24690',
         provider: 'Stake&Relax'
+      },
+      {
+        address: 'm-union-grpc.ruangnode.com:14090',
+        provider: 'ruangnode'
       }
     ]
   },
@@ -141,6 +153,10 @@ const info: Chain = {
       url: 'https://explorer.union.build/union',
       tx_page: 'https://explorer.union.build/union/tx/${txHash}',
       account_page: 'https://explorer.union.build/union/account/${accountAddress}'
+    }, {
+      kind: 'Ruangnode Explorer',
+      url: 'https://explorer.ruangnode.com/dashboard/union',
+      tx_page: 'https://explorer.ruangnode.com/transactions/union?hash=${txHash}'
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/union/images/u.png',
