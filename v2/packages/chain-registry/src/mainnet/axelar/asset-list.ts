@@ -1649,6 +1649,38 @@ const info: AssetList = {
         website: 'https://www.movementnetwork.xyz/',
         twitter: 'https://twitter.com/movementfdn'
       }
+    },
+    {
+      description: 'ZigCoin from Ethereum via Axelar Bridge',
+      denomUnits: [{
+          denom: 'unit-zig',
+          exponent: 0
+        }, {
+          denom: 'zig',
+          exponent: 18
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'unit-zig',
+      name: 'ZigCoin',
+      display: 'zig',
+      symbol: 'ZigCoin',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0xb2617246d0c6c0087f18703d576831899ca94f01'
+          },
+          provider: 'Axelar'
+        }],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
+      },
+      coingeckoId: 'zignaly'
     }
   ]
 };

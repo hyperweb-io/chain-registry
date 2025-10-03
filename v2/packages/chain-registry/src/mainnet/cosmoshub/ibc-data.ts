@@ -2221,6 +2221,35 @@ const info: IBCData[] = [
           preferred: true
         }
       }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
+      chainName: 'cosmoshub',
+      clientId: '07-tendermint-1439',
+      connectionId: 'connection-1177'
+    },
+    chain2: {
+      chainName: 'zigchain',
+      clientId: '07-tendermint-4',
+      connectionId: 'connection-4'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-1555',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-4',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'live',
+          preferred: true
+        }
+      }]
   }
 ];
 export default info;

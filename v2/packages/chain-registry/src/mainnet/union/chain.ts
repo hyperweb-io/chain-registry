@@ -85,6 +85,10 @@ const info: Chain = {
       {
         address: 'https://m-union-rpc.ruangnode.com:443',
         provider: 'ruangnode'
+      },
+      {
+        address: 'https://union-rpc.highstakes.ch',
+        provider: 'High Stakes 🇨🇭'
       }
     ],
     rest: [
@@ -115,6 +119,10 @@ const info: Chain = {
       {
         address: 'https://m-union-api.ruangnode.com:443',
         provider: 'ruangnode'
+      },
+      {
+        address: 'https://union-api.highstakes.ch',
+        provider: 'High Stakes 🇨🇭'
       }
     ],
     grpc: [

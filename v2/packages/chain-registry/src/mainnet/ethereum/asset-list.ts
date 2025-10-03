@@ -2064,6 +2064,30 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/midas-mbtc.svg'
         }]
+    },
+    {
+      typeAsset: 'erc20',
+      address: '0xb2617246d0c6c0087f18703d576831899ca94f01',
+      denomUnits: [{
+          denom: '0xb2617246d0c6c0087f18703d576831899ca94f01',
+          exponent: 0
+        }, {
+          denom: 'ZIG',
+          exponent: 18
+        }],
+      base: '0xb2617246d0c6c0087f18703d576831899ca94f01',
+      name: 'ZigCoin',
+      display: 'ZIG',
+      symbol: 'ZIG',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
+      },
+      coingeckoId: 'zignaly',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
+        }]
     }
   ]
 };
