@@ -10,7 +10,7 @@ const info: Chain = {
   chain_id: 'zigchain-1',
   bech32_prefix: 'zig',
   daemon_name: 'zigchaind',
-  node_home: '$HOME/.zigchaind',
+  node_home: '$HOME/.zigchain',
   key_algos: ['secp256k1'],
   slip44: 118,
   description: 'ZIGChain (ZIG) is a Layer 1 blockchain focused on unlocking financial opportunities for everyone - regardless of their income, location, or level of knowledge.',

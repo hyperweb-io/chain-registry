@@ -998,6 +998,42 @@ const assets: AssetList = {
         }]
     },
     {
+      type_asset: 'erc20',
+      address: '0xb2617246d0c6c0087f18703d576831899ca94f01',
+      denom_units: [{
+          denom: 'ibc/7DAD3ACB250AA9F5B344DF13E88B98CCEB66FA450D474BE640B2ED4988A511CE',
+          exponent: 0,
+          aliases: ['0xb2617246d0c6c0087f18703d576831899ca94f01']
+        }, {
+          denom: 'ZIG',
+          exponent: 18
+        }],
+      base: 'ibc/7DAD3ACB250AA9F5B344DF13E88B98CCEB66FA450D474BE640B2ED4988A511CE',
+      name: 'ZigCoin',
+      display: 'ZIG',
+      symbol: 'ZIG',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
+      },
+      coingecko_id: 'zignaly',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0xb2617246d0c6c0087f18703d576831899ca94f01',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
       description: 'Solana is a high-performance blockchain platform known for its fast transaction speeds, low costs, and scalability, ideal for decentralized applications and crypto projects.',
       denom_units: [{
           denom: 'ibc/C7F9D7DFF5469F53AB878ED0FBE53CC6B8B2720CD0ED09FD65F25343B13517CC',
@@ -3134,6 +3170,42 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-2',
             base_denom: '0x007115416ab6c266329a03b09a8aa39ac2ef7d9d',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      type_asset: 'erc20',
+      address: '0xb2617246d0c6c0087f18703d576831899ca94f01',
+      denom_units: [{
+          denom: 'ibc/7DAD3ACB250AA9F5B344DF13E88B98CCEB66FA450D474BE640B2ED4988A511CE',
+          exponent: 0,
+          aliases: ['0xb2617246d0c6c0087f18703d576831899ca94f01']
+        }, {
+          denom: 'ZIG',
+          exponent: 18
+        }],
+      base: 'ibc/7DAD3ACB250AA9F5B344DF13E88B98CCEB66FA450D474BE640B2ED4988A511CE',
+      name: 'ZigCoin',
+      display: 'ZIG',
+      symbol: 'ZIG',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
+      },
+      coingecko_id: 'zignaly',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0xb2617246d0c6c0087f18703d576831899ca94f01',
             chain_name: 'ethereum'
           },
           chain: {

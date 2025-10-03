@@ -168,6 +168,7 @@ import * as _xion from './xion';
 import * as _xpla from './xpla';
 import * as _xrplevm from './xrplevm';
 import * as _zenrock from './zenrock';
+import * as _zigchain from './zigchain';
 
 const ibc: IBCInfo[] = [
   ..._ethereum.ibc,
@@ -337,7 +338,8 @@ const ibc: IBCInfo[] = [
   ..._xion.ibc,
   ..._xpla.ibc,
   ..._xrplevm.ibc,
-  ..._zenrock.ibc
+  ..._zenrock.ibc,
+  ..._zigchain.ibc
 ];
 
 export default ibc;

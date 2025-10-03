@@ -165,4 +165,5 @@ export * as uptick from './uptick';
 export * as xion from './xion';
 export * as xpla from './xpla';
 export * as xrplevm from './xrplevm';
-export * as zenrock from './zenrock'
+export * as zenrock from './zenrock';
+export * as zigchain from './zigchain'

@@ -10258,6 +10258,104 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of ZIGChain',
+      denom_units: [
+        {
+          denom: 'ibc/4ABB59EC51905535CC63CD3B4B29D417CE1D27F924C8481B20F3AB3F8607D295',
+          exponent: 0,
+          aliases: ['uzig']
+        },
+        {
+          denom: 'mzig',
+          exponent: 3,
+          aliases: ['millizig']
+        },
+        {
+          denom: 'zig',
+          exponent: 6
+        }
+      ],
+      type_asset: 'sdk.coin',
+      base: 'ibc/4ABB59EC51905535CC63CD3B4B29D417CE1D27F924C8481B20F3AB3F8607D295',
+      name: 'ZIG',
+      display: 'zig',
+      symbol: 'ZIG',
+      coingecko_id: 'zignaly',
+      keywords: [
+        'zigchain',
+        'rwa',
+        'wealth generation infrastructure',
+        'wasm'
+      ],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
+        }],
+      socials: {
+        website: 'https://zigchain.com/',
+        twitter: 'https://x.com/zigchain',
+        telegram: 'https://t.me/ZignalyHQ',
+        discord: 'https://discord.zignaly.com',
+        medium: 'https://medium.com/zignaly'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'uzig',
+            chain_name: 'zigchain'
+          },
+          chain: {
+            channel_id: 'channel-182'
+          }
+        }]
+    },
+    {
+      description: 'Staked Zig Token by Valdora Finance - Decentralized staking with stZIG',
+      denom_units: [{
+          denom: 'ibc/DE67884ED4725FEE6B30D96CE52E11C0374A91A39B516D8A3F3E4FE693739E52',
+          exponent: 0,
+          aliases: ['coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig']
+        }, {
+          denom: 'stzig',
+          exponent: 6
+        }],
+      base: 'ibc/DE67884ED4725FEE6B30D96CE52E11C0374A91A39B516D8A3F3E4FE693739E52',
+      name: 'Staked Zig',
+      display: 'stzig',
+      symbol: 'STZIG',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://valdora.finance',
+        twitter: 'https://x.com/Valdora_finance',
+        telegram: 'https://t.me/ValdoraWarriors',
+        discord: 'http://discord.gg/valdora'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig',
+            chain_name: 'zigchain'
+          },
+          chain: {
+            channel_id: 'channel-182'
+          }
+        }]
+    },
+    {
       description: 'The native token of Babylon Genesis.',
       denom_units: [{
           denom: 'ibc/331F1904D36D53358B18AB6E26EFCAFB2156DE56374F947C6781A96CDFE9DBE9',
@@ -19827,6 +19925,104 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-49'
+          }
+        }]
+    },
+    {
+      description: 'The native token of ZIGChain',
+      denom_units: [
+        {
+          denom: 'ibc/4ABB59EC51905535CC63CD3B4B29D417CE1D27F924C8481B20F3AB3F8607D295',
+          exponent: 0,
+          aliases: ['uzig']
+        },
+        {
+          denom: 'mzig',
+          exponent: 3,
+          aliases: ['millizig']
+        },
+        {
+          denom: 'zig',
+          exponent: 6
+        }
+      ],
+      type_asset: 'sdk.coin',
+      base: 'ibc/4ABB59EC51905535CC63CD3B4B29D417CE1D27F924C8481B20F3AB3F8607D295',
+      name: 'ZIG',
+      display: 'zig',
+      symbol: 'ZIG',
+      coingecko_id: 'zignaly',
+      keywords: [
+        'zigchain',
+        'rwa',
+        'wealth generation infrastructure',
+        'wasm'
+      ],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
+        }],
+      socials: {
+        website: 'https://zigchain.com/',
+        twitter: 'https://x.com/zigchain',
+        telegram: 'https://t.me/ZignalyHQ',
+        discord: 'https://discord.zignaly.com',
+        medium: 'https://medium.com/zignaly'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'uzig',
+            chain_name: 'zigchain'
+          },
+          chain: {
+            channel_id: 'channel-182'
+          }
+        }]
+    },
+    {
+      description: 'Staked Zig Token by Valdora Finance - Decentralized staking with stZIG',
+      denom_units: [{
+          denom: 'ibc/DE67884ED4725FEE6B30D96CE52E11C0374A91A39B516D8A3F3E4FE693739E52',
+          exponent: 0,
+          aliases: ['coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig']
+        }, {
+          denom: 'stzig',
+          exponent: 6
+        }],
+      base: 'ibc/DE67884ED4725FEE6B30D96CE52E11C0374A91A39B516D8A3F3E4FE693739E52',
+      name: 'Staked Zig',
+      display: 'stzig',
+      symbol: 'STZIG',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://valdora.finance',
+        twitter: 'https://x.com/Valdora_finance',
+        telegram: 'https://t.me/ValdoraWarriors',
+        discord: 'http://discord.gg/valdora'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig',
+            chain_name: 'zigchain'
+          },
+          chain: {
+            channel_id: 'channel-182'
           }
         }]
     },

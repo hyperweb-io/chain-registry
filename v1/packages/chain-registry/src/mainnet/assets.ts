@@ -210,6 +210,7 @@ import * as _union from './union';
 import * as _ununifi from './ununifi';
 import * as _uptick from './uptick';
 import * as _vector from './vector';
+import * as _wardenprotocol from './wardenprotocol';
 import * as _xarchain from './xarchain';
 import * as _xion from './xion';
 import * as _xpla from './xpla';
@@ -429,6 +430,7 @@ const assets: AssetList[] = [
   _ununifi.assets,
   _uptick.assets,
   _vector.assets,
+  _wardenprotocol.assets,
   _xarchain.assets,
   _xion.assets,
   _xpla.assets,
