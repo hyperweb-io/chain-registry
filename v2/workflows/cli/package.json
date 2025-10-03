@@ -1,6 +1,6 @@
 {
   "name": "@chain-registry/cli",
-  "version": "1.53.218",
+  "version": "1.53.219",
   "description": "Chain Registry CLI",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "homepage": "https://github.com/hyperweb-io/chain-registry",
@@ -34,8 +34,8 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "@chain-registry/interfaces": "^0.52.218",
-    "@chain-registry/workflows": "^1.53.218",
+    "@chain-registry/interfaces": "^0.52.219",
+    "@chain-registry/workflows": "^1.53.219",
     "chalk": "^4.1.0",
     "inquirerer": "1.9.0",
     "minimist": "^1.2.8"
