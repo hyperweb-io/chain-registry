@@ -55,8 +55,8 @@ const info: Chain = {
     }
   },
   logoURIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/planqtestnet/images/planq.png',
-    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/planqtestnet/images/planq.svg'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.png',
+    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.svg'
   },
   apis: {
     rpc: [{
@@ -103,8 +103,12 @@ const info: Chain = {
     }
   ],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/planqtestnet/images/planq.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/planqtestnet/images/planq.svg'
+      imageSync: {
+        chainName: 'planq',
+        baseDenom: 'aplanq'
+      },
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.png',
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.svg'
     }]
 };
 export default info;

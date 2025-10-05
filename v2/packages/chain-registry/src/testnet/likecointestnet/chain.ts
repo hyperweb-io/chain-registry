@@ -84,13 +84,16 @@ const info: Chain = {
       url: 'https://likecoin-public-testnet-5.netlify.app/'
     }],
   logoURIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/likecoin-chain-logo.png',
-    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/likecoin-chain-logo.svg'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png',
+    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg'
   },
   keywords: [],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/likecoin-chain-logo.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/likecoin-chain-logo.svg'
+      imageSync: {
+        chainName: 'likecoin'
+      },
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png',
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg'
     }]
 };
 export default info;

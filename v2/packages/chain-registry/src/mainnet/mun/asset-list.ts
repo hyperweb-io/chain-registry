@@ -16,12 +16,10 @@ const info: AssetList = {
       display: 'mun',
       symbol: 'MUN',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mun/images/mun.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mun/images/mun.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mun/images/mun.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mun/images/mun.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mun/images/mun.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mun/images/mun.png'
         }],
       typeAsset: 'sdk.coin'
     }]

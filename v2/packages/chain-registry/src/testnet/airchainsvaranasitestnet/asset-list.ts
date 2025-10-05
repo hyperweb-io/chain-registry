@@ -15,9 +15,21 @@ const info: AssetList = {
       name: 'Airchains',
       display: 'AMF',
       symbol: 'AMF',
+      traces: [{
+          type: 'additional-mintage',
+          counterparty: {
+            chainName: 'airchainstestnet',
+            baseDenom: 'amf'
+          },
+          provider: 'Airchains'
+        }],
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/airchainsvaranasitestnet/images/airchains-logo.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/airchainsvaranasitestnet/images/airchains-logo.svg'
+          imageSync: {
+            chainName: 'airchainstestnet',
+            baseDenom: 'amf'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/airchainstestnet/images/airchains-logo.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/airchainstestnet/images/airchains-logo.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

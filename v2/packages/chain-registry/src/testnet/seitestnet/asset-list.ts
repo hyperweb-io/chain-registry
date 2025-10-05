@@ -15,7 +15,27 @@ const info: AssetList = {
       name: 'Sei',
       display: 'sei',
       symbol: 'SEI',
-      typeAsset: 'sdk.coin'
+      typeAsset: 'sdk.coin',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'sei',
+            baseDenom: 'usei'
+          },
+          provider: 'Sei'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'sei',
+            baseDenom: 'usei'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg'
+        }]
     }]
 };
 export default info;

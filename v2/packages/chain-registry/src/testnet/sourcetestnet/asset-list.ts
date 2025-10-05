@@ -15,13 +15,25 @@ const info: AssetList = {
       name: 'Source Testnet',
       display: 'source',
       symbol: 'SOURCE',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'source',
+            baseDenom: 'usource'
+          },
+          provider: 'Source'
+        }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/sourcetestnet/images/source.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/sourcetestnet/images/source.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/sourcetestnet/images/source.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/sourcetestnet/images/source.svg'
+          imageSync: {
+            chainName: 'source',
+            baseDenom: 'usource'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

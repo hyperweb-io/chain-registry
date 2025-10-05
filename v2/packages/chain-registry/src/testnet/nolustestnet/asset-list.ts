@@ -15,13 +15,25 @@ const info: AssetList = {
       name: 'Nolus',
       display: 'nls',
       symbol: 'NLS',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'nolus',
+            baseDenom: 'unls'
+          },
+          provider: 'Nolus'
+        }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.svg'
+          imageSync: {
+            chainName: 'nolus',
+            baseDenom: 'unls'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

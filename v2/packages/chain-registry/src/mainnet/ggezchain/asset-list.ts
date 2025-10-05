@@ -24,12 +24,10 @@ const info: AssetList = {
       symbol: 'GGEZ1',
       coingeckoId: 'ggez1',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggez1.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggez1.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggez1.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggez1.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggez1.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggez1.png'
         }],
       socials: {
         website: 'https://ggez.one',
@@ -58,12 +56,10 @@ const info: AssetList = {
       display: 'uggz',
       symbol: 'GGZ',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggz.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggz.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggz.png'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggz.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggz.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ggezchain/images/ggz.png'
       },
       socials: {
         website: 'https://ggez.one',

@@ -30,8 +30,8 @@ const info: Chain = {
     gitRepo: 'https://github.com/archway-network/archway'
   },
   logoURIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/archwaytestnet/images/ArchwayBrandmark.png',
-    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/archwaytestnet/images/ArchwayBrandmark.svg'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png',
+    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg'
   },
   apis: {
     rpc: [{
@@ -52,8 +52,11 @@ const info: Chain = {
       txPage: 'https://testnet.archway.explorers.guru/transaction/${txHash}'
     }],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/archwaytestnet/images/ArchwayBrandmark.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/archwaytestnet/images/ArchwayBrandmark.svg'
+      imageSync: {
+        chainName: 'archway'
+      },
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png',
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg'
     }]
 };
 export default info;

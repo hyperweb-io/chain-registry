@@ -15,13 +15,25 @@ const info: AssetList = {
       name: 'Planq Atlas Testnet',
       display: 'tplanq',
       symbol: 'tPLQ',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'planq',
+            baseDenom: 'aplanq'
+          },
+          provider: 'Planq'
+        }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/planqtestnet/images/planq.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/planqtestnet/images/planq.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/planqtestnet/images/planq.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/planqtestnet/images/planq.svg'
+          imageSync: {
+            chainName: 'planq',
+            baseDenom: 'aplanq'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

@@ -39,8 +39,8 @@ const info: Chain = {
     }
   },
   logoURIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/logo.png',
-    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/echelon.svg'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.png',
+    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.svg'
   },
   apis: {
     rpc: [{
@@ -90,8 +90,12 @@ const info: Chain = {
     }
   ],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/logo.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/echelon.svg'
+      imageSync: {
+        chainName: 'echelon',
+        baseDenom: 'aechelon'
+      },
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.png',
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.svg'
     }]
 };
 export default info;

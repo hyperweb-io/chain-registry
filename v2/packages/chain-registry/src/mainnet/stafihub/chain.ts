@@ -132,11 +132,11 @@ const info: Chain = {
     }
   ],
   logoURIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/stafihub-chain-logo.png'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/stafihub.png'
   },
   keywords: ['liquid staking'],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/stafihub-chain-logo.png'
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/stafihub.png'
     }]
 };
 export default info;

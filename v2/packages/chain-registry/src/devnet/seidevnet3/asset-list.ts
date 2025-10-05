@@ -15,11 +15,25 @@ const info: AssetList = {
       name: 'Sei',
       display: 'sei',
       symbol: 'SEI',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'sei',
+            baseDenom: 'usei'
+          },
+          provider: 'Sei'
+        }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/seidevnet3/images/sei.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/seidevnet3/images/sei.png'
+          imageSync: {
+            chainName: 'sei',
+            baseDenom: 'usei'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

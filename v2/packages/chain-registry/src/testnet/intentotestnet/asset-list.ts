@@ -15,13 +15,25 @@ const info: AssetList = {
       name: 'Intento',
       display: 'into',
       symbol: 'INTO',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'intento',
+            baseDenom: 'uinto'
+          },
+          provider: 'Intento'
+        }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/intentotestnet/images/into.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/intentotestnet/images/into.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/intentotestnet/images/into.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/intentotestnet/images/into.svg'
+          imageSync: {
+            chainName: 'intento',
+            baseDenom: 'uinto'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg'
         }],
       typeAsset: 'sdk.coin'
     }]
