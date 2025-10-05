@@ -2408,9 +2408,11 @@ const assets: AssetList = {
       display: 'echelon',
       symbol: 'ECH',
       logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.svg'
       },
       images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.svg'
         }],
       type_asset: 'sdk.coin',
@@ -8634,9 +8636,11 @@ const assets: AssetList = {
       display: 'echelon',
       symbol: 'ECH',
       logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.svg'
       },
       images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.svg'
         }],
       type_asset: 'sdk.coin',
@@ -22436,10 +22440,28 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.svg'
       },
-      images: [{
+      images: [
+        {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.svg'
-        }],
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-white.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-white.svg'
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient_lines.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient_lines.svg'
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-white_lines.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-white_lines.svg'
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-black_lines.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-black_lines.svg'
+        }
+      ],
       type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
@@ -32473,10 +32495,28 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.svg'
       },
-      images: [{
+      images: [
+        {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.svg'
-        }],
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-white.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-white.svg'
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient_lines.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient_lines.svg'
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-white_lines.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-white_lines.svg'
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-black_lines.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-black_lines.svg'
+        }
+      ],
       type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
@@ -42411,12 +42451,6 @@ const assets: AssetList = {
       name: 'Chainlink (Portal)',
       display: 'link',
       symbol: 'LINK',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png'
-        }],
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -42429,6 +42463,14 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-78488'
           }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg'
         }]
     },
     {
@@ -44445,12 +44487,6 @@ const assets: AssetList = {
       name: 'Paxos Gold (Portal)',
       display: 'paxg',
       symbol: 'PAXG',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/paxg.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/paxg.png'
-        }],
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -44463,6 +44499,18 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-78488'
           }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg'
+      },
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x45804880De22913dAFE09f4980848ECE6EcbAf78'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg'
         }]
     },
     {
@@ -44515,12 +44563,6 @@ const assets: AssetList = {
       name: 'ChainLink Token',
       display: 'link',
       symbol: 'LINK',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png'
-        }],
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -44533,6 +44575,14 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-78488'
           }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg'
         }]
     },
     {
@@ -50943,12 +50993,6 @@ const assets: AssetList = {
       name: 'Chainlink (Portal)',
       display: 'link',
       symbol: 'LINK',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png'
-        }],
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -50961,6 +51005,14 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-78488'
           }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg'
         }]
     },
     {
@@ -52977,12 +53029,6 @@ const assets: AssetList = {
       name: 'Paxos Gold (Portal)',
       display: 'paxg',
       symbol: 'PAXG',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/paxg.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/paxg.png'
-        }],
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -52995,6 +53041,18 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-78488'
           }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg'
+      },
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x45804880De22913dAFE09f4980848ECE6EcbAf78'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg'
         }]
     },
     {
@@ -53047,12 +53105,6 @@ const assets: AssetList = {
       name: 'ChainLink Token',
       display: 'link',
       symbol: 'LINK',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png'
-        }],
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -53065,6 +53117,14 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-78488'
           }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg'
         }]
     },
     {

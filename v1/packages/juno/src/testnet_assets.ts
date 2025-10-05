@@ -25,13 +25,17 @@ const testnet_assets: AssetList = {
           provider: 'Juno'
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg'
       },
       coingecko_id: 'juno-network',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.svg'
+          image_sync: {
+            chain_name: 'juno',
+            base_denom: 'ujuno'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg'
         }],
       type_asset: 'sdk.coin'
     },

@@ -262,16 +262,16 @@ const info: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg'
       },
       images: [{
           image_sync: {
-            chain_name: 'junotestnet',
+            chain_name: 'junotestnet6',
             base_denom: 'ujunox'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg'
         }],
       coingecko_id: 'juno-network'
     },

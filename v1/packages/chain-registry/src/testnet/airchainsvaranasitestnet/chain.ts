@@ -40,8 +40,12 @@ const info: Chain = {
     compatible_versions: ['v0.3.1']
   },
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/airchainsvaranasitestnet/images/airchains-logo.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/airchainsvaranasitestnet/images/airchains-logo.svg'
+      image_sync: {
+        chain_name: 'airchainstestnet',
+        base_denom: 'amf'
+      },
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/airchainstestnet/images/airchains-logo.png',
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/airchainstestnet/images/airchains-logo.svg'
     }],
   description: 'Airchains',
   apis: {

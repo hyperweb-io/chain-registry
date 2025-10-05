@@ -697,41 +697,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Neutron chain',
-      denom_units: [{
-          denom: 'ibc/6E74FCA8851F2F81213A6F0D61DB78D1898454C3BF924105DF6549500E1C4785',
-          exponent: 0,
-          aliases: ['untrn']
-        }, {
-          denom: 'ntrn',
-          exponent: 6
-        }],
-      base: 'ibc/6E74FCA8851F2F81213A6F0D61DB78D1898454C3BF924105DF6549500E1C4785',
-      name: 'Neutron Testnet',
-      display: 'ntrn',
-      symbol: 'NTRN',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-196',
-            base_denom: 'untrn',
-            chain_name: 'neutrontestnet'
-          },
-          chain: {
-            channel_id: 'channel-4172'
-          }
-        }]
-    },
-    {
       description: 'The controlled staking asset for Noble Chain',
       denom_units: [{
           denom: 'ibc/5C6404C2D9BAE2BE397908F6503464EBC3EAEE448AE6B7ED218248FF7E7A3236',
@@ -817,41 +782,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-4280'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Nolus chain',
-      denom_units: [{
-          denom: 'ibc/EF145240FE393A1CEC9C35ED1866A235D23176EA9B32069F714C9309FEA55718',
-          exponent: 0,
-          aliases: ['unls']
-        }, {
-          denom: 'nls',
-          exponent: 6
-        }],
-      base: 'ibc/EF145240FE393A1CEC9C35ED1866A235D23176EA9B32069F714C9309FEA55718',
-      name: 'Nolus',
-      display: 'nls',
-      symbol: 'NLS',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-0',
-            base_denom: 'unls',
-            chain_name: 'nolustestnet'
-          },
-          chain: {
-            channel_id: 'channel-8272'
           }
         }]
     },
@@ -1550,41 +1480,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Neutron chain',
-      denom_units: [{
-          denom: 'ibc/6E74FCA8851F2F81213A6F0D61DB78D1898454C3BF924105DF6549500E1C4785',
-          exponent: 0,
-          aliases: ['untrn']
-        }, {
-          denom: 'ntrn',
-          exponent: 6
-        }],
-      base: 'ibc/6E74FCA8851F2F81213A6F0D61DB78D1898454C3BF924105DF6549500E1C4785',
-      name: 'Neutron Testnet',
-      display: 'ntrn',
-      symbol: 'NTRN',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-196',
-            base_denom: 'untrn',
-            chain_name: 'neutrontestnet'
-          },
-          chain: {
-            channel_id: 'channel-4172'
-          }
-        }]
-    },
-    {
       description: 'The controlled staking asset for Noble Chain',
       denom_units: [{
           denom: 'ibc/5C6404C2D9BAE2BE397908F6503464EBC3EAEE448AE6B7ED218248FF7E7A3236',
@@ -1670,41 +1565,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-4280'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Nolus chain',
-      denom_units: [{
-          denom: 'ibc/EF145240FE393A1CEC9C35ED1866A235D23176EA9B32069F714C9309FEA55718',
-          exponent: 0,
-          aliases: ['unls']
-        }, {
-          denom: 'nls',
-          exponent: 6
-        }],
-      base: 'ibc/EF145240FE393A1CEC9C35ED1866A235D23176EA9B32069F714C9309FEA55718',
-      name: 'Nolus',
-      display: 'nls',
-      symbol: 'NLS',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-0',
-            base_denom: 'unls',
-            chain_name: 'nolustestnet'
-          },
-          chain: {
-            channel_id: 'channel-8272'
           }
         }]
     },

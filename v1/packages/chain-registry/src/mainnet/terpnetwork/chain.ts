@@ -44,7 +44,7 @@ const info: Chain = {
       }]
   },
   logo_URIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terpnetwork/images/logo.png'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terpnetwork/images/terp.png'
   },
   apis: {
     rpc: [
@@ -121,7 +121,7 @@ const info: Chain = {
     }
   ],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terpnetwork/images/logo.png'
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terpnetwork/images/terp.png'
     }]
 };
 export default info;

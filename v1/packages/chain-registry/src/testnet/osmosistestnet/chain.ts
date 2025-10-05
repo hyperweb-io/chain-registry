@@ -86,7 +86,8 @@ const info: Chain = {
       }]
   },
   logo_URIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmosis-chain-logo.png'
+    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg',
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png'
   },
   explorers: [{
       kind: 'mintscan',
@@ -101,7 +102,11 @@ const info: Chain = {
     }],
   keywords: ['dex', 'testnet'],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmosis-chain-logo.png'
+      image_sync: {
+        chain_name: 'osmosis'
+      },
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg',
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png'
     }]
 };
 export default info;

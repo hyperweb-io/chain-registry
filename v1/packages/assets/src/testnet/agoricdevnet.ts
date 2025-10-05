@@ -80,41 +80,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Neutron chain',
-      denom_units: [{
-          denom: 'ibc/74989B1FAC0186E85055BEAFB7F6816F3A65E4EE0D79F95889CF7AF3D2930A61',
-          exponent: 0,
-          aliases: ['untrn']
-        }, {
-          denom: 'ntrn',
-          exponent: 6
-        }],
-      base: 'ibc/74989B1FAC0186E85055BEAFB7F6816F3A65E4EE0D79F95889CF7AF3D2930A61',
-      name: 'Neutron Testnet',
-      display: 'ntrn',
-      symbol: 'NTRN',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-1578',
-            base_denom: 'untrn',
-            chain_name: 'neutrontestnet'
-          },
-          chain: {
-            channel_id: 'channel-62'
-          }
-        }]
-    },
-    {
       description: 'The controlled staking asset for Noble Chain',
       denom_units: [{
           denom: 'ibc/C1F9ED162106514A423FD073D997EF84FE7C31352D2C347C307B7404EF3FEE76',
@@ -312,41 +277,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-23'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Neutron chain',
-      denom_units: [{
-          denom: 'ibc/74989B1FAC0186E85055BEAFB7F6816F3A65E4EE0D79F95889CF7AF3D2930A61',
-          exponent: 0,
-          aliases: ['untrn']
-        }, {
-          denom: 'ntrn',
-          exponent: 6
-        }],
-      base: 'ibc/74989B1FAC0186E85055BEAFB7F6816F3A65E4EE0D79F95889CF7AF3D2930A61',
-      name: 'Neutron Testnet',
-      display: 'ntrn',
-      symbol: 'NTRN',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-1578',
-            base_denom: 'untrn',
-            chain_name: 'neutrontestnet'
-          },
-          chain: {
-            channel_id: 'channel-62'
           }
         }]
     },

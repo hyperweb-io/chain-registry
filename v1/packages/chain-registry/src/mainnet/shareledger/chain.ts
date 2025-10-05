@@ -83,12 +83,12 @@ const info: Chain = {
       account_page: 'https://staking-explorer.com/account.php?chain=shareledger&addr=${accountAddress}'
     }],
   logo_URIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shareledger/images/chain-logo.png',
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shareledger/images/token.png',
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shareledger/images/token.svg'
   },
   keywords: ['id'],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shareledger/images/chain-logo.png',
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shareledger/images/token.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shareledger/images/token.svg'
     }]
 };

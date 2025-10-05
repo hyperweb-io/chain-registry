@@ -170,8 +170,8 @@ const info: Chain = {
     }
   ],
   logo_URIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/likecoin-chain-logo.png',
-    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/likecoin-chain-logo.svg'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png',
+    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg'
   },
   keywords: [
     'ebook',
@@ -183,8 +183,12 @@ const info: Chain = {
     'nft'
   ],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/likecoin-chain-logo.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/likecoin-chain-logo.svg'
+      image_sync: {
+        chain_name: 'likecoin',
+        base_denom: 'nanolike'
+      },
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png',
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg'
     }]
 };
 export default info;

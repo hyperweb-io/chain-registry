@@ -257,41 +257,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Neutron chain',
-      denom_units: [{
-          denom: 'ibc/851EEC49724871CA7ADE05481AD88C1EC9664BCED83F81E8A2B5D8AFD2C640C6',
-          exponent: 0,
-          aliases: ['untrn']
-        }, {
-          denom: 'ntrn',
-          exponent: 6
-        }],
-      base: 'ibc/851EEC49724871CA7ADE05481AD88C1EC9664BCED83F81E8A2B5D8AFD2C640C6',
-      name: 'Neutron Testnet',
-      display: 'ntrn',
-      symbol: 'NTRN',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-496',
-            base_denom: 'untrn',
-            chain_name: 'neutrontestnet'
-          },
-          chain: {
-            channel_id: 'channel-43'
-          }
-        }]
-    },
-    {
       description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
       denom_units: [{
           denom: 'ibc/B004A9200E85CD5B6B6D8FB6ADCD1288F36969E926A1D4418ABD2AEDFC52F43E',
@@ -546,41 +511,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Neutron chain',
-      denom_units: [{
-          denom: 'ibc/851EEC49724871CA7ADE05481AD88C1EC9664BCED83F81E8A2B5D8AFD2C640C6',
-          exponent: 0,
-          aliases: ['untrn']
-        }, {
-          denom: 'ntrn',
-          exponent: 6
-        }],
-      base: 'ibc/851EEC49724871CA7ADE05481AD88C1EC9664BCED83F81E8A2B5D8AFD2C640C6',
-      name: 'Neutron Testnet',
-      display: 'ntrn',
-      symbol: 'NTRN',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-496',
-            base_denom: 'untrn',
-            chain_name: 'neutrontestnet'
-          },
-          chain: {
-            channel_id: 'channel-43'
-          }
-        }]
-    },
-    {
       description: 'The native token of Prysm',
       denom_units: [{
           denom: 'ibc/FF9995EBAD9CF69784B1061603FDA91CFBDFE7A096CF4D466D4A18B3A68CCD75',
@@ -614,39 +544,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-222'
-          }
-        }]
-    },
-    {
-      description: 'The native staking and governance token of the Atlantic testnet version of Sei.',
-      denom_units: [{
-          denom: 'ibc/C27A06C741FEAFE57DE859ECFAA568928862219C0301F44A98D9B1A1770B1933',
-          exponent: 0,
-          aliases: ['usei']
-        }, {
-          denom: 'sei',
-          exponent: 6
-        }],
-      base: 'ibc/C27A06C741FEAFE57DE859ECFAA568928862219C0301F44A98D9B1A1770B1933',
-      name: 'Sei',
-      display: 'sei',
-      symbol: 'SEI',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/seitestnet2/images/sei.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/seitestnet2/images/sei.png'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-75',
-            base_denom: 'usei',
-            chain_name: 'seitestnet2'
-          },
-          chain: {
-            channel_id: 'channel-23'
           }
         }]
     },
@@ -835,39 +732,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-664'
-          }
-        }]
-    },
-    {
-      description: 'The native staking and governance token of the Atlantic testnet version of Sei.',
-      denom_units: [{
-          denom: 'ibc/C27A06C741FEAFE57DE859ECFAA568928862219C0301F44A98D9B1A1770B1933',
-          exponent: 0,
-          aliases: ['usei']
-        }, {
-          denom: 'sei',
-          exponent: 6
-        }],
-      base: 'ibc/C27A06C741FEAFE57DE859ECFAA568928862219C0301F44A98D9B1A1770B1933',
-      name: 'Sei',
-      display: 'sei',
-      symbol: 'SEI',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/seitestnet2/images/sei.png'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/seitestnet2/images/sei.png'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-75',
-            base_denom: 'usei',
-            chain_name: 'seitestnet2'
-          },
-          chain: {
-            channel_id: 'channel-23'
           }
         }]
     },

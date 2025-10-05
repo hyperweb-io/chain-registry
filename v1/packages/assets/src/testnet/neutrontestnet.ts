@@ -351,41 +351,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Nolus chain',
-      denom_units: [{
-          denom: 'ibc/E808FAAE7ADDA37453A8F0F67D74669F6580CBA5EF0F7889D46FB02D282098E3',
-          exponent: 0,
-          aliases: ['unls']
-        }, {
-          denom: 'nls',
-          exponent: 6
-        }],
-      base: 'ibc/E808FAAE7ADDA37453A8F0F67D74669F6580CBA5EF0F7889D46FB02D282098E3',
-      name: 'Nolus',
-      display: 'nls',
-      symbol: 'NLS',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-1',
-            base_denom: 'unls',
-            chain_name: 'nolustestnet'
-          },
-          chain: {
-            channel_id: 'channel-1061'
-          }
-        }]
-    },
-    {
       description: 'The controlled staking asset for Noble Chain',
       denom_units: [{
           denom: 'ibc/C1CCDE2852D142DCDD5760DAB22163D4C2B22E6C54417265AC9C6CA3642CFD1B',
@@ -512,41 +477,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-133'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Nolus chain',
-      denom_units: [{
-          denom: 'ibc/E808FAAE7ADDA37453A8F0F67D74669F6580CBA5EF0F7889D46FB02D282098E3',
-          exponent: 0,
-          aliases: ['unls']
-        }, {
-          denom: 'nls',
-          exponent: 6
-        }],
-      base: 'ibc/E808FAAE7ADDA37453A8F0F67D74669F6580CBA5EF0F7889D46FB02D282098E3',
-      name: 'Nolus',
-      display: 'nls',
-      symbol: 'NLS',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-1',
-            base_denom: 'unls',
-            chain_name: 'nolustestnet'
-          },
-          chain: {
-            channel_id: 'channel-1061'
           }
         }]
     }
