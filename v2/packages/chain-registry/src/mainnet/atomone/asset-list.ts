@@ -54,7 +54,8 @@ const info: AssetList = {
       socials: {
         website: 'https://atom.one',
         twitter: 'https://x.com/_atomone'
-      }
+      },
+      coingeckoId: 'photon-2'
     }]
 };
 export default info;

@@ -32,25 +32,25 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/bluzelle/bluzelle-public',
-    recommendedVersion: 'v10.0',
-    compatibleVersions: ['v10.0'],
+    recommendedVersion: 'v11.0',
+    compatibleVersions: ['v11.0'],
+    binaries: {
+      "linux/amd64": 'https://github.com/bluzelle/bluzelle-public/releases/download/v11.0/curiumd-linux-amd'
+    },
     consensus: {
       type: 'cometbft',
-      version: '0.34.23'
+      version: 'v0.38.12'
     },
     genesis: {
       genesisUrl: 'https://a.client.sentry.net.bluzelle.com:26657/genesis'
     },
     sdk: {
       type: 'cosmos',
-      version: 'v0.45.11'
+      version: 'v0.47.15'
     },
     ibc: {
       type: 'go',
-      version: 'v3.4.0'
-    },
-    binaries: {
-      "linux/amd64": 'https://github.com/bluzelle/bluzelle-public/releases/download/v10.0/curiumd'
+      version: 'v7'
     }
   },
   logoURIs: {
