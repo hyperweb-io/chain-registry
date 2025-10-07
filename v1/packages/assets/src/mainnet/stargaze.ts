@@ -222,6 +222,7 @@ const assets: AssetList = {
         website: 'https://atom.one',
         twitter: 'https://x.com/_atomone'
       },
+      coingecko_id: 'photon-2',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -1745,6 +1746,7 @@ const assets: AssetList = {
         website: 'https://atom.one',
         twitter: 'https://x.com/_atomone'
       },
+      coingecko_id: 'photon-2',
       traces: [{
           type: 'ibc',
           counterparty: {
