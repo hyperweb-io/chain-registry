@@ -81,7 +81,7 @@ const info: AssetList = {
     {
       description: 'Noble USDC on ZIGChain',
       denomUnits: [{
-          denom: 'ibc/8E452E728A6598EEF051E63FFE49AF19004F5D2AA3F690413C2985660AAFD38F',
+          denom: 'ibc/5260516290F7883EC893AADA09A6B8CEC790F2EEF3196F440037908749785BE8',
           exponent: 0,
           aliases: ['microusdc', 'uusdc']
         }, {
@@ -89,7 +89,7 @@ const info: AssetList = {
           exponent: 6
         }],
       typeAsset: 'ics20',
-      base: 'ibc/8E452E728A6598EEF051E63FFE49AF19004F5D2AA3F690413C2985660AAFD38F',
+      base: 'ibc/5260516290F7883EC893AADA09A6B8CEC790F2EEF3196F440037908749785BE8',
       name: 'Noble USDC',
       display: 'usdc',
       symbol: 'USDC',
@@ -115,11 +115,11 @@ const info: AssetList = {
           counterparty: {
             chainName: 'nobletestnet',
             baseDenom: 'uusdc',
-            channelId: 'channel-664'
+            channelId: 'channel-704'
           },
           chain: {
-            channelId: 'channel-35',
-            path: 'transfer/channel-35/uusdc'
+            channelId: 'channel-44',
+            path: 'transfer/channel-44/uusdc'
           }
         }
       ],

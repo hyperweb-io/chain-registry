@@ -31,18 +31,18 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/realiotech/realio-network',
-    recommendedVersion: 'v1.3.0',
-    compatibleVersions: ['v1.3.0'],
+    recommendedVersion: 'v1.4.0',
+    compatibleVersions: ['v1.4.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/realiotech/realio-network/releases/download/v1.3.0/realio-network_Linux_x86_64.tar.gz',
-      "linux/arm64": 'https://github.com/realiotech/realio-network/releases/download/v1.3.0/realio-network_Linux_arm64.tar.gz',
-      "darwin/amd64": 'https://github.com/realiotech/realio-network/releases/download/v1.3.0/realio-network_Darwin_x86_64.tar.gz',
-      "darwin/arm64": 'https://github.com/realiotech/realio-network/releases/download/v1.3.0/realio-network_Darwin_arm64.tar.gz',
-      "windows/amd64": 'https://github.com/realiotech/realio-network/releases/download/v1.3.0/realio-network_Windows_x86_64.zip'
+      "linux/amd64": 'https://github.com/realiotech/realio-network/releases/download/v1.4.0/realio-network_Linux_x86_64.tar.gz',
+      "linux/arm64": 'https://github.com/realiotech/realio-network/releases/download/v1.4.0/realio-network_Linux_arm64.tar.gz',
+      "darwin/amd64": 'https://github.com/realiotech/realio-network/releases/download/v1.4.0/realio-network_Darwin_x86_64.tar.gz',
+      "darwin/arm64": 'https://github.com/realiotech/realio-network/releases/download/v1.4.0/realio-network_Darwin_arm64.tar.gz',
+      "windows/amd64": 'https://github.com/realiotech/realio-network/releases/download/v1.4.0/realio-network_Windows_x86_64.zip'
     },
     consensus: {
       type: 'cometbft',
-      version: 'v0.38.12'
+      version: 'v0.38.17'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/realiotech/mainnet/main/realionetwork_3301-1/genesis.json'
@@ -53,9 +53,9 @@ const info: Chain = {
     },
     ibc: {
       type: 'go',
-      version: 'v8.5.1'
+      version: 'v10'
     },
-    tag: 'v1.3.0'
+    tag: 'v1.4.0'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/realio/images/rio.png'

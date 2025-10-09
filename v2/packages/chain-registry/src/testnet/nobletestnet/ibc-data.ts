@@ -401,21 +401,21 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'nobletestnet',
-      clientId: '07-tendermint-555',
-      connectionId: 'connection-507'
+      clientId: '07-tendermint-572',
+      connectionId: 'connection-520'
     },
     chain2: {
       chainName: 'zigchaintestnet',
-      clientId: '07-tendermint-72',
-      connectionId: 'connection-52'
+      clientId: '07-tendermint-84',
+      connectionId: 'connection-62'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-664',
+          channelId: 'channel-704',
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-35',
+          channelId: 'channel-44',
           portId: 'transfer'
         },
         ordering: 'unordered',
