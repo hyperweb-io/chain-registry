@@ -5,14 +5,14 @@ const assets: AssetList = {
     {
       description: 'The controlled staking asset for Noble Chain',
       denom_units: [{
-          denom: 'ibc/EA033D3F393DF62365465263D1E22611DC052720EF62DAC2F7A0ABA41A235E0E',
+          denom: 'ibc/CAD05930D78013FA730DFE64FB309809969219AC7644CCB16FD7E91299EE89CE',
           exponent: 0,
           aliases: ['ustake']
         }, {
           denom: 'stake',
           exponent: 6
         }],
-      base: 'ibc/EA033D3F393DF62365465263D1E22611DC052720EF62DAC2F7A0ABA41A235E0E',
+      base: 'ibc/CAD05930D78013FA730DFE64FB309809969219AC7644CCB16FD7E91299EE89CE',
       name: 'Stake',
       display: 'stake',
       symbol: 'STAKE',
@@ -20,26 +20,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-664',
+            channel_id: 'channel-704',
             base_denom: 'ustake',
             chain_name: 'nobletestnet'
           },
           chain: {
-            channel_id: 'channel-35'
+            channel_id: 'channel-44'
           }
         }]
     },
     {
       description: 'Love is a test tokenfactory asset controlled by the Strangelove Team',
       denom_units: [{
-          denom: 'ibc/5B3B61D7EACB8A8CB10E51476849B0C79B1A9C9EBA90B0DE4FB85DACF7431478',
+          denom: 'ibc/99A6D41FAD06B68188937E3A2BF3A5672DA6DAF01AC0267399519FC474142B1F',
           exponent: 0,
           aliases: ['ulove']
         }, {
           denom: 'love',
           exponent: 6
         }],
-      base: 'ibc/5B3B61D7EACB8A8CB10E51476849B0C79B1A9C9EBA90B0DE4FB85DACF7431478',
+      base: 'ibc/99A6D41FAD06B68188937E3A2BF3A5672DA6DAF01AC0267399519FC474142B1F',
       display: 'love',
       name: 'Love',
       symbol: 'LOVE',
@@ -47,26 +47,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-664',
+            channel_id: 'channel-704',
             base_denom: 'ulove',
             chain_name: 'nobletestnet'
           },
           chain: {
-            channel_id: 'channel-35'
+            channel_id: 'channel-44'
           }
         }]
     },
     {
       description: 'Ondo US Dollar Yield',
       denom_units: [{
-          denom: 'ibc/E15FB403FE7A861FC2C8F117F6576B7316EDEB7DA61B24A6867ED3DEF376111F',
+          denom: 'ibc/255DFC6D24DE9120CBC5E21252B1E3A734140C2F8221A87F7BDD81F51817773B',
           exponent: 0,
           aliases: ['ausdy']
         }, {
           denom: 'usdy',
           exponent: 18
         }],
-      base: 'ibc/E15FB403FE7A861FC2C8F117F6576B7316EDEB7DA61B24A6867ED3DEF376111F',
+      base: 'ibc/255DFC6D24DE9120CBC5E21252B1E3A734140C2F8221A87F7BDD81F51817773B',
       display: 'usdy',
       name: 'Ondo US Dollar Yield',
       symbol: 'USDY',
@@ -82,26 +82,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-664',
+            channel_id: 'channel-704',
             base_denom: 'ausdy',
             chain_name: 'nobletestnet'
           },
           chain: {
-            channel_id: 'channel-35'
+            channel_id: 'channel-44'
           }
         }]
     },
     {
       description: 'The controlled staking asset for Noble Chain',
       denom_units: [{
-          denom: 'ibc/EA033D3F393DF62365465263D1E22611DC052720EF62DAC2F7A0ABA41A235E0E',
+          denom: 'ibc/CAD05930D78013FA730DFE64FB309809969219AC7644CCB16FD7E91299EE89CE',
           exponent: 0,
           aliases: ['ustake']
         }, {
           denom: 'stake',
           exponent: 6
         }],
-      base: 'ibc/EA033D3F393DF62365465263D1E22611DC052720EF62DAC2F7A0ABA41A235E0E',
+      base: 'ibc/CAD05930D78013FA730DFE64FB309809969219AC7644CCB16FD7E91299EE89CE',
       name: 'Stake',
       display: 'stake',
       symbol: 'STAKE',
@@ -109,26 +109,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-664',
+            channel_id: 'channel-704',
             base_denom: 'ustake',
             chain_name: 'nobletestnet'
           },
           chain: {
-            channel_id: 'channel-35'
+            channel_id: 'channel-44'
           }
         }]
     },
     {
       description: 'Love is a test tokenfactory asset controlled by the Strangelove Team',
       denom_units: [{
-          denom: 'ibc/5B3B61D7EACB8A8CB10E51476849B0C79B1A9C9EBA90B0DE4FB85DACF7431478',
+          denom: 'ibc/99A6D41FAD06B68188937E3A2BF3A5672DA6DAF01AC0267399519FC474142B1F',
           exponent: 0,
           aliases: ['ulove']
         }, {
           denom: 'love',
           exponent: 6
         }],
-      base: 'ibc/5B3B61D7EACB8A8CB10E51476849B0C79B1A9C9EBA90B0DE4FB85DACF7431478',
+      base: 'ibc/99A6D41FAD06B68188937E3A2BF3A5672DA6DAF01AC0267399519FC474142B1F',
       display: 'love',
       name: 'Love',
       symbol: 'LOVE',
@@ -136,26 +136,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-664',
+            channel_id: 'channel-704',
             base_denom: 'ulove',
             chain_name: 'nobletestnet'
           },
           chain: {
-            channel_id: 'channel-35'
+            channel_id: 'channel-44'
           }
         }]
     },
     {
       description: 'Ondo US Dollar Yield',
       denom_units: [{
-          denom: 'ibc/E15FB403FE7A861FC2C8F117F6576B7316EDEB7DA61B24A6867ED3DEF376111F',
+          denom: 'ibc/255DFC6D24DE9120CBC5E21252B1E3A734140C2F8221A87F7BDD81F51817773B',
           exponent: 0,
           aliases: ['ausdy']
         }, {
           denom: 'usdy',
           exponent: 18
         }],
-      base: 'ibc/E15FB403FE7A861FC2C8F117F6576B7316EDEB7DA61B24A6867ED3DEF376111F',
+      base: 'ibc/255DFC6D24DE9120CBC5E21252B1E3A734140C2F8221A87F7BDD81F51817773B',
       display: 'usdy',
       name: 'Ondo US Dollar Yield',
       symbol: 'USDY',
@@ -171,12 +171,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-664',
+            channel_id: 'channel-704',
             base_denom: 'ausdy',
             chain_name: 'nobletestnet'
           },
           chain: {
-            channel_id: 'channel-35'
+            channel_id: 'channel-44'
           }
         }]
     }

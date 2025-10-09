@@ -245,7 +245,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Medas Digital Network',
+      description: 'Utility token for decentralized scientific computing. Used to pay provider nodes for executing computational jobs including N-body simulations, orbital analysis, and large-scale parameter searches.',
       denom_units: [{
           denom: 'ibc/A85ACA68D4EBB931256F86A5360F93CAA4B9102F39FED10CC3A7C57328D4AD34',
           exponent: 0,
@@ -265,6 +265,10 @@ const assets: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.png'
         }],
+      socials: {
+        website: 'https://medas-digital.io/',
+        twitter: 'https://x.com/medasdigital'
+      },
       type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',
@@ -762,7 +766,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Medas Digital Network',
+      description: 'Utility token for decentralized scientific computing. Used to pay provider nodes for executing computational jobs including N-body simulations, orbital analysis, and large-scale parameter searches.',
       denom_units: [{
           denom: 'ibc/A85ACA68D4EBB931256F86A5360F93CAA4B9102F39FED10CC3A7C57328D4AD34',
           exponent: 0,
@@ -782,6 +786,10 @@ const assets: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.png'
         }],
+      socials: {
+        website: 'https://medas-digital.io/',
+        twitter: 'https://x.com/medasdigital'
+      },
       type_asset: 'sdk.coin',
       traces: [{
           type: 'ibc',

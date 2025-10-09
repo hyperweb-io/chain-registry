@@ -101,7 +101,7 @@ const info: Chain = {
         provider: 'ITRocket'
       },
       {
-        address: 'm-dora-grpc.ruangnode.com:30090',
+        address: 'm-dora-grpc.ruangnode.com:443',
         provider: 'ruangnode'
       },
       {

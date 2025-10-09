@@ -37,6 +37,7 @@ const info: Chain = {
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.png'
   },
+  description: 'Decentralized scientific computing platform for computationally intensive research. Distributed network of provider nodes executes simulations and analyses across astrophysics, molecular dynamics, climate modeling, and AI training. Initial deployment focuses on astronomical computing including the Planet 9 search through large-scale N-body simulations and orbital parameter exploration.',
   apis: {
     rpc: [{
         address: 'https://rpc.medas-digital.io:26657/',
@@ -57,26 +58,17 @@ const info: Chain = {
         provider: 'Neptun Validator'
       }]
   },
-  explorers: [
-    {
-      kind: 'BigDipper',
+  explorers: [{
+      kind: 'Ping',
       url: 'https://explorer.medas-digital.io:3100/medasdigital',
       tx_page: 'https://explorer.medas-digital.io:3100/medasdigital/transactions/${txHash}',
       account_page: 'explorer.medas-digital.io:3100/medasdigital/accounts/${accountAddress}'
-    },
-    {
-      kind: 'atomscan',
-      url: 'https://atomscan.com/frontier/medasdigital',
-      tx_page: 'https://atomscan.com/frontier/medasdigital/transactions/${txHash}',
-      account_page: 'https://atomscan.com/frontier/medasdigital/accounts/${accountAddress}'
-    },
-    {
+    }, {
       kind: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥',
       url: 'https://explorer.whenmoonwhenlambo.money/medasdigital',
       tx_page: 'https://explorer.whenmoonwhenlambo.money/medasdigital/tx/${txHash}',
       account_page: 'https://explorer.whenmoonwhenlambo.money/medasdigital/account/${accountAddress}'
-    }
-  ],
+    }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.png'
     }]

@@ -641,7 +641,7 @@ const assets: AssetList = {
       description: 'The native token of ZIGChain',
       denom_units: [
         {
-          denom: 'ibc/321DA5CCCC78681100FE93ADC3085513507E089BFDDE453C2A66829AFFEE167B',
+          denom: 'ibc/00D8C59ACB5ACA18B842991E964100FA9A5B30B48F44483963F6614DF2463D8E',
           exponent: 0,
           aliases: ['uzig']
         },
@@ -655,7 +655,7 @@ const assets: AssetList = {
           exponent: 6
         }
       ],
-      base: 'ibc/321DA5CCCC78681100FE93ADC3085513507E089BFDDE453C2A66829AFFEE167B',
+      base: 'ibc/00D8C59ACB5ACA18B842991E964100FA9A5B30B48F44483963F6614DF2463D8E',
       name: 'ZIG',
       display: 'zig',
       symbol: 'ZIG',
@@ -687,26 +687,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-35',
+            channel_id: 'channel-44',
             base_denom: 'uzig',
             chain_name: 'zigchaintestnet'
           },
           chain: {
-            channel_id: 'channel-664'
+            channel_id: 'channel-704'
           }
         }]
     },
     {
       description: 'Staked Zig Token by Valdora Finance - Decentralized staking with stZIG',
       denom_units: [{
-          denom: 'ibc/020DC19695408F7F3632E6C104562ACC715E1677B2097F8772DF0632F76FD036',
+          denom: 'ibc/6A5FD2F87F33C2D6BFCF88062FA2BD4AAFF3CF912F2887A2B75B939830186AFE',
           exponent: 0,
           aliases: ['coin.zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak.stzig']
         }, {
           denom: 'stzig',
           exponent: 6
         }],
-      base: 'ibc/020DC19695408F7F3632E6C104562ACC715E1677B2097F8772DF0632F76FD036',
+      base: 'ibc/6A5FD2F87F33C2D6BFCF88062FA2BD4AAFF3CF912F2887A2B75B939830186AFE',
       name: 'Staked Zig',
       display: 'stzig',
       symbol: 'STZIG',
@@ -726,12 +726,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-35',
+            channel_id: 'channel-44',
             base_denom: 'coin.zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak.stzig',
             chain_name: 'zigchaintestnet'
           },
           chain: {
-            channel_id: 'channel-664'
+            channel_id: 'channel-704'
           }
         }]
     },
@@ -829,7 +829,7 @@ const assets: AssetList = {
       description: 'The native token of ZIGChain',
       denom_units: [
         {
-          denom: 'ibc/321DA5CCCC78681100FE93ADC3085513507E089BFDDE453C2A66829AFFEE167B',
+          denom: 'ibc/00D8C59ACB5ACA18B842991E964100FA9A5B30B48F44483963F6614DF2463D8E',
           exponent: 0,
           aliases: ['uzig']
         },
@@ -843,7 +843,7 @@ const assets: AssetList = {
           exponent: 6
         }
       ],
-      base: 'ibc/321DA5CCCC78681100FE93ADC3085513507E089BFDDE453C2A66829AFFEE167B',
+      base: 'ibc/00D8C59ACB5ACA18B842991E964100FA9A5B30B48F44483963F6614DF2463D8E',
       name: 'ZIG',
       display: 'zig',
       symbol: 'ZIG',
@@ -875,26 +875,26 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-35',
+            channel_id: 'channel-44',
             base_denom: 'uzig',
             chain_name: 'zigchaintestnet'
           },
           chain: {
-            channel_id: 'channel-664'
+            channel_id: 'channel-704'
           }
         }]
     },
     {
       description: 'Staked Zig Token by Valdora Finance - Decentralized staking with stZIG',
       denom_units: [{
-          denom: 'ibc/020DC19695408F7F3632E6C104562ACC715E1677B2097F8772DF0632F76FD036',
+          denom: 'ibc/6A5FD2F87F33C2D6BFCF88062FA2BD4AAFF3CF912F2887A2B75B939830186AFE',
           exponent: 0,
           aliases: ['coin.zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak.stzig']
         }, {
           denom: 'stzig',
           exponent: 6
         }],
-      base: 'ibc/020DC19695408F7F3632E6C104562ACC715E1677B2097F8772DF0632F76FD036',
+      base: 'ibc/6A5FD2F87F33C2D6BFCF88062FA2BD4AAFF3CF912F2887A2B75B939830186AFE',
       name: 'Staked Zig',
       display: 'stzig',
       symbol: 'STZIG',
@@ -914,12 +914,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-35',
+            channel_id: 'channel-44',
             base_denom: 'coin.zig1q5cuxuekvjdsl3l2t87jv83gdwjryc4hmh8s90y7mwgpyfwkqutsy9tqak.stzig',
             chain_name: 'zigchaintestnet'
           },
           chain: {
-            channel_id: 'channel-664'
+            channel_id: 'channel-704'
           }
         }]
     },
