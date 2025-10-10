@@ -1173,7 +1173,7 @@ const info: AssetList = {
       denomUnits: [{
           denom: 'ibc/DF8722298D192AAB85D86D0462E8166234A6A9A572DD4A2EA7996029DF4DB363',
           exponent: 0,
-          aliases: ['uusdc']
+          aliases: ['wbtc-satoshi']
         }, {
           denom: 'axlwbtc',
           exponent: 8
@@ -1210,6 +1210,53 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png'
         }],
       coingeckoId: 'axlwbtc'
+    },
+    {
+      description: 'IBC Axelar weth-wei through axelar-dojo-1 transfer/channel-2',
+      denomUnits: [{
+          denom: 'ibc/A585C2D15DCD3B010849B453A2CFCB5E213208A5AB665691792684C26274304D',
+          exponent: 0,
+          aliases: ['weth-wei']
+        }, {
+          denom: 'axlweth',
+          exponent: 18
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/A585C2D15DCD3B010849B453A2CFCB5E213208A5AB665691792684C26274304D',
+      name: 'Wrapped Ether (Axelar)',
+      display: 'axlweth',
+      symbol: 'axlWETH',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'axelar',
+            baseDenom: 'weth-wei',
+            channelId: 'channel-78'
+          },
+          chain: {
+            channelId: 'channel-2',
+            path: 'transfer/channel-2/weth-wei'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: 'wei'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg'
+        }, {
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: 'wei'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg'
+        }],
+      coingeckoId: 'axlweth'
     },
     {
       description: 'Astrovault xATOM on Neutron Chain',
