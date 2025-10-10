@@ -577,6 +577,10 @@ const chain: Chain = {
   apis: {
     rpc: [
       {
+        address: 'http://79.173.83.234:26657',
+        provider: 'Gonz_chains'
+      },
+      {
         address: 'https://rpc.osmosis.zone/',
         provider: 'Osmosis Foundation'
       },
@@ -714,6 +718,10 @@ const chain: Chain = {
       }
     ],
     rest: [
+      {
+        address: 'http://79.173.83.234:1317',
+        provider: 'Gonz_chains'
+      },
       {
         address: 'https://lcd.osmosis.zone/',
         provider: 'Osmosis Foundation'
