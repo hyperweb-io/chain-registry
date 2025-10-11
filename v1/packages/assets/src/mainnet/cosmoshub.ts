@@ -12382,7 +12382,7 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.svg'
         }],
       socials: {
-        website: 'https://www.sentinel.co/',
+        website: 'https://sentinel.co',
         twitter: 'https://x.com/SentinelP2P'
       },
       type_asset: 'sdk.coin',
@@ -22978,7 +22978,7 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.svg'
         }],
       socials: {
-        website: 'https://www.sentinel.co/',
+        website: 'https://sentinel.co',
         twitter: 'https://x.com/SentinelP2P'
       },
       type_asset: 'sdk.coin',
