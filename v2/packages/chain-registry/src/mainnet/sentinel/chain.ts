@@ -4,7 +4,7 @@ const info: Chain = {
   chainName: 'sentinel',
   status: 'live',
   networkType: 'mainnet',
-  website: 'https://sentinel.co/',
+  website: 'https://sentinel.co',
   prettyName: 'Sentinel',
   chainType: 'cosmos',
   chainId: 'sentinelhub-2',
@@ -253,25 +253,25 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
+      kind: 'Sentinel',
+      url: 'https://explorer.sentinel.co',
+      txPage: 'https://explorer.sentinel.co/transactions/${txHash}',
+      accountPage: 'https://explorer.sentinel.co/accounts/${accountAddress}'
+    },
+    {
+      kind: 'ChainRoot',
       url: 'https://explorer.chainroot.io/sentinel',
       txPage: 'https://explorer.chainroot.io/sentinel/transactions/${txHash}',
       accountPage: 'https://explorer.chainroot.io/sentinel/accounts/${accountAddress}'
     },
     {
-      kind: 'mintscan',
-      url: 'https://www.mintscan.io/sentinel',
-      txPage: 'https://www.mintscan.io/sentinel/transactions/${txHash}',
-      accountPage: 'https://www.mintscan.io/sentinel/accounts/${accountAddress}'
-    },
-    {
-      kind: 'ezstaking',
+      kind: 'EZ Staking App',
       url: 'https://ezstaking.app/sentinel',
       txPage: 'https://ezstaking.app/sentinel/txs/${txHash}',
       accountPage: 'https://ezstaking.app/sentinel/account/${accountAddress}'
     },
     {
-      kind: 'atomscan',
+      kind: 'ATOMScan',
       url: 'https://atomscan.com/sentinel',
       txPage: 'https://atomscan.com/sentinel/transactions/${txHash}',
       accountPage: 'https://atomscan.com/sentinel/accounts/${accountAddress}'
@@ -294,21 +294,15 @@ const info: Chain = {
       txPage: 'https://explorer.validatornode.com/sentinel/tx/${txHash}'
     },
     {
-      kind: 'Decloud Nodes Lab',
+      kind: 'DNL Explorer',
       url: 'https://explorer.declab.pro/Sentinel',
       txPage: 'https://explorer.declab.pro/Sentinel/tx/${txHash}'
     },
     {
-      kind: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅',
+      kind: 'NodesHub',
       url: 'https://explorer.nodeshub.online/sentinel/',
       txPage: 'https://explorer.nodeshub.online/sentinel/tx/${txHash}',
       accountPage: 'https://explorer.nodeshub.online/sentinel/accounts/${accountAddress}'
-    },
-    {
-      kind: 'WhisperNode 🤐',
-      url: 'https://mainnet.whispernode.com/sentinel',
-      txPage: 'https://mainnet.whispernode.com/sentinel/tx/${txHash}',
-      accountPage: 'https://mainnet.whispernode.com/sentinel/account/${accountAddress}'
     }
   ],
   images: [{
