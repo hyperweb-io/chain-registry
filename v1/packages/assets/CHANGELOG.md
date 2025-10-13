@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.70.367](https://github.com/hyperweb-io/chain-registry/compare/@chain-registry/assets@1.70.366...@chain-registry/assets@1.70.367) (2025-10-13)
+
+**Note:** Version bump only for package @chain-registry/assets
+
+
+
+
+
 ## 1.70.366 (2025-10-12)
 
 **Note:** Version bump only for package @chain-registry/assets
