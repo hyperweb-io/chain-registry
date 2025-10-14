@@ -123,6 +123,10 @@ const info: Chain = {
       {
         address: 'https://rpc-sunrise.blockval.io/',
         provider: 'Blockval'
+      },
+      {
+        address: 'https://rpc-sunrice-mainnet.catsmile.space',
+        provider: 'catsmile'
       }
     ],
     rest: [
@@ -189,6 +193,10 @@ const info: Chain = {
       {
         address: 'https://api-sunrise.blockval.io',
         provider: 'Blockval'
+      },
+      {
+        address: 'https://api-sunrice-mainnet.catsmile.space',
+        provider: 'catsmile'
       }
     ],
     grpc: [
@@ -239,6 +247,10 @@ const info: Chain = {
       {
         address: 'grpc-sunrise.blockval.io:443',
         provider: 'Blockval'
+      },
+      {
+        address: 'grpc-sunrice-mainnet.catsmile.space:443',
+        provider: 'catsmile'
       }
     ]
   },
@@ -313,6 +325,12 @@ const info: Chain = {
       url: 'https://explorer.winnode.xyz/Sunrise-Mainnet',
       txPage: 'https://explorer.winnode.xyz/Sunrise-Mainnet/tx/${txHash}',
       accountPage: 'https://explorer.winnode.xyz/Sunrise-Mainnet/account/${accountAddress}'
+    },
+    {
+      kind: 'catsmile explorer',
+      url: 'https://explorer.catsmile.cloud/sunrice-mainnet',
+      txPage: 'https://explorer.catsmile.cloud/sunrice-mainnet/tx/${txHash}',
+      accountPage: 'https://explorer.catsmile.cloud/sunrice-mainnet/account/${accountAddress}'
     }
   ],
   images: [{
