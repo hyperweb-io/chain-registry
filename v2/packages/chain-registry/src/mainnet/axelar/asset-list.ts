@@ -1673,6 +1673,10 @@ const info: AssetList = {
           provider: 'Axelar'
         }],
       images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0xb2617246d0c6c0087f18703d576831899ca94f01'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
         }],

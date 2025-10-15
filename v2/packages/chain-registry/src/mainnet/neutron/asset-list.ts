@@ -1254,7 +1254,8 @@ const info: AssetList = {
             chainName: 'ethereum',
             baseDenom: 'wei'
           },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png'
         }],
       coingeckoId: 'axlweth'
     },

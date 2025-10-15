@@ -1,7 +1,6 @@
 import { IBCData } from '@chain-registry/types';
 
 import * as _agoricdevnet from './agoricdevnet';
-import * as _akashtestnet from './akashtestnet';
 import * as _archwaytestnet from './archwaytestnet';
 import * as _axelartestnet from './axelartestnet';
 import * as _babylontestnet from './babylontestnet';
@@ -53,7 +52,6 @@ import * as _zigchaintestnet from './zigchaintestnet';
 
 const ibcData: IBCData[] = [
   ..._agoricdevnet.ibcData,
-  ..._akashtestnet.ibcData,
   ..._archwaytestnet.ibcData,
   ..._axelartestnet.ibcData,
   ..._babylontestnet.ibcData,

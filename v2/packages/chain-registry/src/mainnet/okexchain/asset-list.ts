@@ -18,7 +18,6 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/okexchain/images/okc.png'
       },
-      coingeckoId: 'oec-token',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/okexchain/images/okc.png'
         }],

@@ -125,8 +125,32 @@ const info: Chain = {
         provider: 'Blockval'
       },
       {
+        address: 'https://sunrise-rpc.onenov.xyz',
+        provider: 'OneNov'
+      },
+      {
         address: 'https://rpc-sunrice-mainnet.catsmile.space',
         provider: 'catsmile'
+      },
+      {
+        address: 'https://rpc-sunrise-m.winsnip.xyz',
+        provider: 'Winsnip'
+      },
+      {
+        address: 'https://rpc-sunrise.maouam.xyz',
+        provider: 'MaouamNodelab'
+      },
+      {
+        address: 'https://rpc-sunrise.nodegod20.cloud',
+        provider: 'nodegod20'
+      },
+      {
+        address: 'https://rpc-sunrise.divinzzo.xyz',
+        provider: 'divinzzo'
+      },
+      {
+        address: 'https://rpc-sunrise.veriznode.xyz',
+        provider: 'veriznode'
       }
     ],
     rest: [
@@ -195,8 +219,32 @@ const info: Chain = {
         provider: 'Blockval'
       },
       {
+        address: 'https://sunrise-api.onenov.xyz',
+        provider: 'OneNov'
+      },
+      {
         address: 'https://api-sunrice-mainnet.catsmile.space',
         provider: 'catsmile'
+      },
+      {
+        address: 'https://api-sunrise-m.winsnip.xyz',
+        provider: 'Winsnip'
+      },
+      {
+        address: 'https://api-sunrise.maouam.xyz',
+        provider: 'MaouamNodelab'
+      },
+      {
+        address: 'https://api-sunrise.nodegod20.cloud',
+        provider: 'nodegod20'
+      },
+      {
+        address: 'https://api-sunrise.divinzzo.xyz',
+        provider: 'divinzzo'
+      },
+      {
+        address: 'https://api-sunrise.veriznode.xyz',
+        provider: 'veriznode'
       }
     ],
     grpc: [
@@ -249,8 +297,32 @@ const info: Chain = {
         provider: 'Blockval'
       },
       {
+        address: 'https://sunrise-grpc.onenov.xyz:9193',
+        provider: 'OneNov'
+      },
+      {
         address: 'grpc-sunrice-mainnet.catsmile.space:443',
         provider: 'catsmile'
+      },
+      {
+        address: 'https://grpc-sunrise-m.winsnip.xyz:443',
+        provider: 'Winsnip'
+      },
+      {
+        address: 'grpc-sunrise.maouam.xyz:443',
+        provider: 'MaouamNodelab'
+      },
+      {
+        address: 'grpc-sunrise.nodegod20.cloud:443',
+        provider: 'nodegod20'
+      },
+      {
+        address: 'grpc-sunrise.divinzzo.xyz:443',
+        provider: 'divinzzo'
+      },
+      {
+        address: 'grpc-sunrise.veriznode.xyz:443',
+        provider: 'veriznode'
       }
     ]
   },
@@ -327,10 +399,46 @@ const info: Chain = {
       accountPage: 'https://explorer.winnode.xyz/Sunrise-Mainnet/account/${accountAddress}'
     },
     {
+      kind: 'OneNov Explorer',
+      url: 'https://explorer.onenov.xyz/Sunrise-Mainnet',
+      txPage: 'https://explorer.onenov.xyz/Sunrise-Mainnet/transaction/${txHash}',
+      accountPage: 'https://explorer.onenov.xyz/Sunrise-Mainnet/account/${accountAddress}'
+    },
+    {
       kind: 'catsmile explorer',
       url: 'https://explorer.catsmile.cloud/sunrice-mainnet',
       txPage: 'https://explorer.catsmile.cloud/sunrice-mainnet/tx/${txHash}',
       accountPage: 'https://explorer.catsmile.cloud/sunrice-mainnet/account/${accountAddress}'
+    },
+    {
+      kind: 'Winsnip explorer',
+      url: 'https://portal.winsnip.xyz/Sunrise-Mainnet',
+      txPage: 'https://portal.winsnip.xyz/Sunrise-Mainnet/tx/${txHash}',
+      accountPage: 'https://portal.winsnip.xyz/Sunrise-Mainnet/account/${accountAddress}'
+    },
+    {
+      kind: 'Maouam explorer',
+      url: 'https://explorer.maouam.xyz/sunrise-mainnet',
+      txPage: 'https://explorer.maouam.xyz/sunrise-mainnet/tx/${txHash}',
+      accountPage: 'https://explorer.maouam.xyz/sunrise-mainnet/account/${accountAddress}'
+    },
+    {
+      kind: 'nodegod20 explorer',
+      url: 'https://explorer.nodegod20.cloud/sunrice-mainnet',
+      txPage: 'https://explorer.nodegod20.cloud/sunrice-mainnet/tx/${txHash}',
+      accountPage: 'https://explorer.nodegod20.cloud/sunrice-mainnet/account/${accountAddress}'
+    },
+    {
+      kind: 'Divinzzo explorer',
+      url: 'https://explorer.divinzzo.xyz/sunrise-mainnet',
+      txPage: 'https://explorer.divinzzo.xyz/sunrise-mainnet/tx/${txHash}',
+      accountPage: 'https://explorer.divinzzo.xyz/sunrise-mainnet/account/${accountAddress}'
+    },
+    {
+      kind: 'veriznode explorer',
+      url: 'https://explorer.veriznode.xyz/sunrise-mainnet',
+      txPage: 'https://explorer.veriznode.xyz/sunrise-mainnet/tx/${txHash}',
+      accountPage: 'https://explorer.veriznode.xyz/sunrise-mainnet/account/${accountAddress}'
     }
   ],
   images: [{

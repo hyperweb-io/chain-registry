@@ -15,7 +15,6 @@ const info: AssetList = {
       name: 'Rizon Chain',
       display: 'atolo',
       symbol: 'ATOLO',
-      coingeckoId: 'rizon',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.svg'

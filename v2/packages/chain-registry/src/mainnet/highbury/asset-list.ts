@@ -28,7 +28,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/fury.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/fury.svg'
       },
-      coingeckoId: 'fanfury',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/fury.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/fury.svg'

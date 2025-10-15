@@ -59,6 +59,7 @@ import * as _jackaltestnet from './jackaltestnet';
 import * as _jackaltestnet2 from './jackaltestnet2';
 import * as _junotestnet from './junotestnet';
 import * as _kichaintestnet from './kichaintestnet';
+import * as _kiiorotestnet from './kiiorotestnet';
 import * as _kimanetworktestnet from './kimanetworktestnet';
 import * as _kujiratestnet from './kujiratestnet';
 import * as _kyvetestnet from './kyvetestnet';
@@ -197,6 +198,7 @@ const assetList: AssetList[] = [
   _jackaltestnet2.assetList,
   _junotestnet.assetList,
   _kichaintestnet.assetList,
+  _kiiorotestnet.assetList,
   _kimanetworktestnet.assetList,
   _kujiratestnet.assetList,
   _kyvetestnet.assetList,
