@@ -23,7 +23,6 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.svg'
         }],
-      coingecko_id: 'fanfury',
       keywords: ['gaming', 'staking'],
       socials: {
         twitter: 'https://twitter.com/furyachain'

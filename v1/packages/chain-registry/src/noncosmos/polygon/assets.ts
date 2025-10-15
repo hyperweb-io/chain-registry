@@ -404,7 +404,6 @@ const info: AssetList = {
           },
           provider: 'Polygon PoS Bridge'
         }],
-      coingecko_id: 'polygon-bridged-usdt-polygon',
       images: [{
           image_sync: {
             chain_name: 'ethereum',

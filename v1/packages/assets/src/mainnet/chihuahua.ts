@@ -277,7 +277,6 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/okexchain/images/okc.png'
       },
-      coingecko_id: 'oec-token',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/okexchain/images/okc.png'
         }],
@@ -768,7 +767,6 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/okexchain/images/okc.png'
       },
-      coingecko_id: 'oec-token',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/okexchain/images/okc.png'
         }],

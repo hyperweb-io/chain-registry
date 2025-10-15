@@ -34,7 +34,10 @@ const info: AssetList = {
             base_denom: 'untrn'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg',
+          theme: {
+            circle: true
+          }
         }],
       type_asset: 'sdk.coin'
     },

@@ -770,7 +770,6 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.svg'
         }],
-      coingecko_id: 'fanfury',
       keywords: ['gaming', 'staking'],
       socials: {
         twitter: 'https://twitter.com/furyachain'
@@ -1556,7 +1555,6 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.svg'
         }],
-      coingecko_id: 'fanfury',
       keywords: ['gaming', 'staking'],
       socials: {
         twitter: 'https://twitter.com/furyachain'
@@ -1953,7 +1951,6 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/okexchain/images/okc.png'
       },
-      coingecko_id: 'oec-token',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/okexchain/images/okc.png'
         }],
@@ -3723,7 +3720,6 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/okexchain/images/okc.png'
       },
-      coingecko_id: 'oec-token',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/okexchain/images/okc.png'
         }],

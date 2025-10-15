@@ -3101,7 +3101,6 @@ const asset_list: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.svg'
         }],
-      coingecko_id: 'fanfury',
       keywords: ['gaming', 'staking'],
       socials: {
         twitter: 'https://twitter.com/furyachain'
@@ -4817,7 +4816,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg'
       },
-      coingecko_id: 'likecoin',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg'
@@ -9334,7 +9332,6 @@ const asset_list: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.svg'
         }],
-      coingecko_id: 'fanfury',
       keywords: ['gaming', 'staking'],
       socials: {
         twitter: 'https://twitter.com/furyachain'
@@ -11050,7 +11047,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg'
       },
-      coingecko_id: 'likecoin',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg'
@@ -20075,7 +20071,6 @@ const asset_list: AssetList = {
       name: 'Rizon Chain',
       display: 'atolo',
       symbol: 'ATOLO',
-      coingecko_id: 'rizon',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.svg'
@@ -30130,7 +30125,6 @@ const asset_list: AssetList = {
       name: 'Rizon Chain',
       display: 'atolo',
       symbol: 'ATOLO',
-      coingecko_id: 'rizon',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.svg'
@@ -42479,6 +42473,10 @@ const asset_list: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg'
       },
       images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x514910771af9ca656af840dff83e8264ecf986ca'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg'
         }]
@@ -44591,6 +44589,10 @@ const asset_list: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg'
       },
       images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x514910771af9ca656af840dff83e8264ecf986ca'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg'
         }]
@@ -51021,6 +51023,10 @@ const asset_list: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg'
       },
       images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x514910771af9ca656af840dff83e8264ecf986ca'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg'
         }]
@@ -53133,6 +53139,10 @@ const asset_list: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg'
       },
       images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0x514910771af9ca656af840dff83e8264ecf986ca'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg'
         }]

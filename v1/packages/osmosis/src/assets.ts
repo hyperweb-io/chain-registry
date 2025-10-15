@@ -1354,8 +1354,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg'
-        }],
-      coingecko_id: 'likecoin'
+        }]
     },
     {
       description: 'The native token of IXO Chain',
@@ -3290,8 +3289,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.svg'
-        }],
-      coingecko_id: 'rizon'
+        }]
     },
     {
       description: 'Governance token of Kava Lend Protocol',
@@ -3758,6 +3756,7 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.svg'
       },
       images: [{
@@ -3765,7 +3764,8 @@ const assets: AssetList = {
             chain_name: 'echelon',
             base_denom: 'aechelon'
           },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.svg'
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.png'
         }]
     },
     {
@@ -9081,8 +9081,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/mnta.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/mnta.svg'
-        }],
-      coingecko_id: 'mantadao'
+        }]
     },
     {
       denom_units: [{
@@ -10015,8 +10014,7 @@ const assets: AssetList = {
             base_denom: 'factory/kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh/unstk'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/nstk.svg'
-        }],
-      coingecko_id: 'unstake-fi'
+        }]
     },
     {
       description: 'ohhNFT LP token.',
@@ -12858,7 +12856,6 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.svg'
         }],
-      coingecko_id: 'fanfury',
       keywords: ['gaming', 'staking']
     },
     {

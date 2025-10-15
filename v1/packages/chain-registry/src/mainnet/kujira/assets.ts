@@ -113,7 +113,6 @@ const info: AssetList = {
       name: 'MantaDAO',
       display: 'mnta',
       symbol: 'MNTA',
-      coingecko_id: 'mantadao',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/mnta.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/mnta.svg'
@@ -266,7 +265,6 @@ const info: AssetList = {
       name: 'Fuzion',
       display: 'fuzn',
       symbol: 'FUZN',
-      coingecko_id: 'fuzion',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuzion.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuzion.svg'
@@ -410,7 +408,6 @@ const info: AssetList = {
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/nstk.svg'
       },
-      coingecko_id: 'unstake-fi',
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/nstk.svg'
         }],

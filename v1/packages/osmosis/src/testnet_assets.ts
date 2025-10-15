@@ -403,7 +403,7 @@ const testnet_assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            chain_name: 'akashtestnet',
+            chain_name: 'akashtestnet1',
             base_denom: 'uakt',
             channel_id: 'channel-6'
           },
@@ -418,7 +418,7 @@ const testnet_assets: AssetList = {
       },
       images: [{
           image_sync: {
-            chain_name: 'akashtestnet',
+            chain_name: 'akashtestnet1',
             base_denom: 'uakt'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',

@@ -1,5 +1,4 @@
 export * as agoricdevnet from './agoricdevnet';
-export * as akashtestnet from './akashtestnet';
 export * as archwaytestnet from './archwaytestnet';
 export * as axelartestnet from './axelartestnet';
 export * as babylontestnet from './babylontestnet';

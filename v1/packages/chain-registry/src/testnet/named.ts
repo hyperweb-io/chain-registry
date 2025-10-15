@@ -57,6 +57,7 @@ export * as jackaltestnet from './jackaltestnet';
 export * as jackaltestnet2 from './jackaltestnet2';
 export * as junotestnet from './junotestnet';
 export * as kichaintestnet from './kichaintestnet';
+export * as kiiorotestnet from './kiiorotestnet';
 export * as kimanetworktestnet from './kimanetworktestnet';
 export * as kujiratestnet from './kujiratestnet';
 export * as kyvetestnet from './kyvetestnet';

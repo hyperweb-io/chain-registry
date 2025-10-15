@@ -7,7 +7,7 @@ const info: Chain = {
   website: 'https://akash.network/',
   pretty_name: 'Sandbox',
   chain_type: 'cosmos',
-  chain_id: 'sandbox-01',
+  chain_id: 'sandbox-2',
   bech32_prefix: 'akash',
   daemon_name: 'akash',
   node_home: '$HOME/.akash',
@@ -28,14 +28,14 @@ const info: Chain = {
   },
   codebase: {
     git_repo: 'https://github.com/akash-network/node',
-    recommended_version: 'v0.22.0',
-    compatible_versions: ['v0.22.0'],
+    recommended_version: 'v0.38.2',
+    compatible_versions: ['v0.38.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/akash-network/node/releases/download/v0.22.0/akash_0.22.0_linux_amd64.zip',
-      "linux/arm64": 'https://github.com/akash-network/node/releases/download/v0.22.0/akash_0.22.0_linux_arm64.zip'
+      "linux/amd64": 'https://github.com/akash-network/node/releases/download/v0.38.2/akash_0.38.2_linux_amd64.zip',
+      "linux/arm64": 'https://github.com/akash-network/node/releases/download/v0.38.2/akash_0.38.2_linux_arm64.zip'
     },
     genesis: {
-      genesis_url: 'https://raw.githubusercontent.com/akash-network/net/master/sandbox/genesis.json'
+      genesis_url: 'https://raw.githubusercontent.com/akash-network/net/master/sandbox-2/genesis.json'
     }
   },
   logo_URIs: {
@@ -44,24 +44,27 @@ const info: Chain = {
   },
   apis: {
     rpc: [{
-        address: 'https://rpc.sandbox-01.aksh.pw:443',
+        address: 'https://rpc.sandbox-2.aksh.pw:443',
         provider: 'akash'
       }],
     rest: [{
-        address: 'https://api.sandbox-01.aksh.pw:443',
+        address: 'https://api.sandbox-2.aksh.pw:443',
         provider: 'akash'
       }],
     grpc: [{
-        address: 'grpc.sandbox-01.aksh.pw:9090',
+        address: 'grpc.sandbox-2.aksh.pw:9090',
         provider: 'akash'
       }]
   },
   explorers: [{
       kind: 'ping.pub',
-      url: 'https://explorer.sandbox-01.aksh.pw/akash',
-      tx_page: 'https://explorer.sandbox-01.aksh.pw/akash/tx/${txHash}'
+      url: 'https://explorer.sandbox-2.aksh.pw/akash',
+      tx_page: 'https://explorer.sandbox-2.aksh.pw/akash/tx/${txHash}'
     }],
   images: [{
+      image_sync: {
+        chain_name: 'akash'
+      },
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
     }]

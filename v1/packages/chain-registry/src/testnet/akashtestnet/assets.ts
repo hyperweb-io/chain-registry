@@ -15,11 +15,23 @@ const info: AssetList = {
       name: 'Akash Network',
       display: 'akt',
       symbol: 'AKT',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chain_name: 'akash',
+            base_denom: 'uakt'
+          },
+          provider: 'Akash'
+        }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
       },
       images: [{
+          image_sync: {
+            chain_name: 'akash',
+            base_denom: 'uakt'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
         }],

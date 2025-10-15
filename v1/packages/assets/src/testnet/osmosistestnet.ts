@@ -79,41 +79,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'Akash Token (AKT) is the Akash Network\'s native utility token, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.',
-      denom_units: [{
-          denom: 'ibc/AD59D59CFB0E628E73C798415F823AB5B6257C2FE4BF67DBB5D6A677B2686E82',
-          exponent: 0,
-          aliases: ['uakt']
-        }, {
-          denom: 'akt',
-          exponent: 6
-        }],
-      base: 'ibc/AD59D59CFB0E628E73C798415F823AB5B6257C2FE4BF67DBB5D6A677B2686E82',
-      name: 'Akash Network',
-      display: 'akt',
-      symbol: 'AKT',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-6',
-            base_denom: 'uakt',
-            chain_name: 'akashtestnet'
-          },
-          chain: {
-            channel_id: 'channel-4171'
-          }
-        }]
-    },
-    {
       description: 'The native staking token of Babylon.',
       denom_units: [{
           denom: 'ibc/D538E142FC525F8CE0937169ED4645AE6E5BFC37F9C2C5CB178603F5DF1FEDF3',
@@ -858,41 +823,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-10293'
-          }
-        }]
-    },
-    {
-      description: 'Akash Token (AKT) is the Akash Network\'s native utility token, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.',
-      denom_units: [{
-          denom: 'ibc/AD59D59CFB0E628E73C798415F823AB5B6257C2FE4BF67DBB5D6A677B2686E82',
-          exponent: 0,
-          aliases: ['uakt']
-        }, {
-          denom: 'akt',
-          exponent: 6
-        }],
-      base: 'ibc/AD59D59CFB0E628E73C798415F823AB5B6257C2FE4BF67DBB5D6A677B2686E82',
-      name: 'Akash Network',
-      display: 'akt',
-      symbol: 'AKT',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-6',
-            base_denom: 'uakt',
-            chain_name: 'akashtestnet'
-          },
-          chain: {
-            channel_id: 'channel-4171'
           }
         }]
     },
