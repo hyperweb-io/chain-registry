@@ -25,8 +25,8 @@ const info: IBCInfo[] = [
         version: 'ics20-1',
         fee_version: 'ics29-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -54,8 +54,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -83,8 +83,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -113,8 +113,8 @@ const info: IBCInfo[] = [
         version: 'ics20-1',
         fee_version: 'ics29-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -142,8 +142,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   }

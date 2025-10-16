@@ -24,8 +24,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'ics-20',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -53,8 +53,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -82,8 +82,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -109,10 +109,7 @@ const info: IBCInfo[] = [
           port_id: 'transfer'
         },
         ordering: 'unordered',
-        version: 'ics20-1',
-        tags: {
-
-        }
+        version: 'ics20-1'
       }]
   },
   {
@@ -139,9 +136,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          dex: 'osmosis'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -169,8 +165,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -198,8 +194,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   }

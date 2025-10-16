@@ -22,10 +22,7 @@ const info: IBCInfo[] = [
           port_id: 'transfer'
         },
         ordering: 'unordered',
-        version: 'ics20-1',
-        tags: {
-
-        }
+        version: 'ics20-1'
       }]
   },
   {
@@ -50,10 +47,7 @@ const info: IBCInfo[] = [
           port_id: 'transfer'
         },
         ordering: 'unordered',
-        version: 'ics20-1',
-        tags: {
-
-        }
+        version: 'ics20-1'
       }]
   },
   {
@@ -78,10 +72,7 @@ const info: IBCInfo[] = [
           port_id: 'transfer'
         },
         ordering: 'unordered',
-        version: 'ics20-1',
-        tags: {
-
-        }
+        version: 'ics20-1'
       }]
   }
 ];

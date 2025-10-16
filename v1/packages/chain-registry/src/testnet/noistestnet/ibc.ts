@@ -24,8 +24,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }, {
         chain_1: {
@@ -39,8 +39,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'nois-v7',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -68,8 +68,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'killed',
-          preferred: true
+          preferred: true,
+          status: 'INACTIVE'
         }
       }, {
         chain_1: {
@@ -83,8 +83,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'nois-v7',
         tags: {
-          status: 'killed',
-          preferred: true
+          preferred: true,
+          status: 'INACTIVE'
         }
       }]
   },
@@ -112,8 +112,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }, {
         chain_1: {
@@ -127,8 +127,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'nois-v7',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -156,8 +156,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }, {
         chain_1: {
@@ -171,8 +171,8 @@ const info: IBCInfo[] = [
         ordering: 'unordered',
         version: 'nois-v7',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   }

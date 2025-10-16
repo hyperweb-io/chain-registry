@@ -27,8 +27,8 @@ const info: IBCInfo[] = [{
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   }];
