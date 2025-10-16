@@ -24,8 +24,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -53,8 +53,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -83,8 +83,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       },
       {
@@ -99,8 +99,8 @@ const info: IBCData[] = [
         ordering: 'ordered',
         version: 'ics27-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       },
       {
@@ -115,8 +115,8 @@ const info: IBCData[] = [
         ordering: 'ordered',
         version: 'ics27-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       },
       {
@@ -131,8 +131,8 @@ const info: IBCData[] = [
         ordering: 'ordered',
         version: 'ics27-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }
     ]
@@ -161,8 +161,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -191,8 +191,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       },
       {
@@ -207,8 +207,8 @@ const info: IBCData[] = [
         ordering: 'ordered',
         version: 'ics27-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       },
       {
@@ -223,8 +223,8 @@ const info: IBCData[] = [
         ordering: 'ordered',
         version: 'ics27-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       },
       {
@@ -239,8 +239,8 @@ const info: IBCData[] = [
         ordering: 'ordered',
         version: 'ics27-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }
     ]
@@ -269,8 +269,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -298,8 +298,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -328,8 +328,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       },
       {
@@ -344,8 +344,8 @@ const info: IBCData[] = [
         ordering: 'ordered',
         version: 'ics27-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       },
       {
@@ -360,8 +360,8 @@ const info: IBCData[] = [
         ordering: 'ordered',
         version: 'ics27-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       },
       {
@@ -376,8 +376,8 @@ const info: IBCData[] = [
         ordering: 'ordered',
         version: 'ics27-1',
         tags: {
-          status: 'killed',
-          preferred: false
+          preferred: false,
+          status: 'INACTIVE'
         }
       },
       {
@@ -392,8 +392,8 @@ const info: IBCData[] = [
         ordering: 'ordered',
         version: 'ics27-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }
     ]
@@ -422,8 +422,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -452,8 +452,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       },
       {
@@ -468,8 +468,8 @@ const info: IBCData[] = [
         ordering: 'ordered',
         version: 'ics27-1',
         tags: {
-          status: 'killed',
-          preferred: false
+          preferred: false,
+          status: 'INACTIVE'
         }
       },
       {
@@ -484,8 +484,8 @@ const info: IBCData[] = [
         ordering: 'ordered',
         version: 'ics27-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       },
       {
@@ -500,8 +500,8 @@ const info: IBCData[] = [
         ordering: 'ordered',
         version: 'ics27-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       },
       {
@@ -516,8 +516,8 @@ const info: IBCData[] = [
         ordering: 'ordered',
         version: 'ics27-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }
     ]

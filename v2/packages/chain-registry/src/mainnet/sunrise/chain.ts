@@ -151,6 +151,10 @@ const info: Chain = {
       {
         address: 'https://rpc-sunrise.veriznode.xyz',
         provider: 'veriznode'
+      },
+      {
+        address: 'https://rpc-sunrise.nagagininode.xyz',
+        provider: 'nagagini'
       }
     ],
     rest: [
@@ -245,6 +249,10 @@ const info: Chain = {
       {
         address: 'https://api-sunrise.veriznode.xyz',
         provider: 'veriznode'
+      },
+      {
+        address: 'https://api-sunrise.nagagininode.xyz',
+        provider: 'nagagini'
       }
     ],
     grpc: [
@@ -323,6 +331,10 @@ const info: Chain = {
       {
         address: 'grpc-sunrise.veriznode.xyz:443',
         provider: 'veriznode'
+      },
+      {
+        address: 'grpc-sunrise.nagagininode.xyz:443',
+        provider: 'nagagini'
       }
     ]
   },
@@ -439,6 +451,12 @@ const info: Chain = {
       url: 'https://explorer.veriznode.xyz/sunrise-mainnet',
       txPage: 'https://explorer.veriznode.xyz/sunrise-mainnet/tx/${txHash}',
       accountPage: 'https://explorer.veriznode.xyz/sunrise-mainnet/account/${accountAddress}'
+    },
+    {
+      kind: 'nagagini explorer',
+      url: 'https://explorer.nagagininode.xyz/sunrise-mainnet',
+      txPage: 'https://explorer.nagagininode.xyz/sunrise-mainnet/tx/${txHash}',
+      accountPage: 'https://explorer.nagagininode.xyz/sunrise-mainnet/${accountAddress}'
     }
   ],
   images: [{

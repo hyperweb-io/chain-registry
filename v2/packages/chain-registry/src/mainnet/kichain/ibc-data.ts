@@ -23,8 +23,8 @@ const info: IBCData[] = [{
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   }, {
@@ -51,9 +51,8 @@ const info: IBCData[] = [{
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          dex: 'osmosis'
+          status: 'ACTIVE'
         }
       }, {
         chain1: {
@@ -67,9 +66,8 @@ const info: IBCData[] = [{
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          dex: 'osmosis'
+          status: 'ACTIVE'
         }
       }]
   }];

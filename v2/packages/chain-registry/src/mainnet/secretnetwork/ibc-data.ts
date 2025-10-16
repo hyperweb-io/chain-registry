@@ -24,8 +24,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -53,9 +53,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -83,8 +82,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -112,7 +111,7 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -140,9 +139,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }, {
         chain1: {
@@ -160,9 +158,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -190,8 +187,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -220,8 +217,8 @@ const info: IBCData[] = [
         version: 'ics20-1',
         feeVersion: 'ics29-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -249,9 +246,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -279,9 +275,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          dex: 'osmosis'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -309,8 +304,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }, {
         chain1: {
@@ -328,9 +323,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -358,8 +352,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -387,9 +381,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }, {
         chain1: {
@@ -403,8 +396,7 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          properties: 'cw20'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -432,10 +424,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          dex: 'crescent',
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -463,8 +453,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -492,9 +482,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -522,8 +511,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }, {
         chain1: {
@@ -537,9 +526,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -567,9 +555,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -597,9 +584,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          dex: 'osmosis'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -627,8 +613,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }, {
         chain1: {
@@ -646,9 +632,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -676,9 +661,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          dex: 'osmosis'
+          status: 'ACTIVE'
         }
       }, {
         chain1: {
@@ -696,9 +680,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -726,8 +709,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }, {
         chain1: {
@@ -741,9 +724,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -771,8 +753,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }, {
         chain1: {
@@ -786,8 +768,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -815,8 +797,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -844,8 +826,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -873,8 +855,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -902,9 +884,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }, {
         chain1: {
@@ -918,9 +899,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -948,10 +928,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          dex: 'osmosis',
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }, {
         chain1: {
@@ -965,10 +943,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          dex: 'osmosis',
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -994,10 +970,7 @@ const info: IBCData[] = [
           portId: 'transfer'
         },
         ordering: 'unordered',
-        version: 'ics20-1',
-        tags: {
-
-        }
+        version: 'ics20-1'
       }, {
         chain1: {
           channelId: 'channel-159',
@@ -1008,10 +981,7 @@ const info: IBCData[] = [
           portId: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4'
         },
         ordering: 'unordered',
-        version: 'ics20-1',
-        tags: {
-
-        }
+        version: 'ics20-1'
       }]
   },
   {
@@ -1038,8 +1008,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -1067,8 +1037,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
-          preferred: true
+          preferred: true,
+          status: 'ACTIVE'
         }
       }]
   },
@@ -1096,9 +1066,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -1126,9 +1095,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -1156,9 +1124,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -1186,9 +1153,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -1216,9 +1182,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -1246,9 +1211,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -1276,9 +1240,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }, {
         chain1: {
@@ -1292,9 +1255,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   },
@@ -1322,9 +1284,8 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          properties: 'privacy'
+          status: 'ACTIVE'
         }
       }]
   }

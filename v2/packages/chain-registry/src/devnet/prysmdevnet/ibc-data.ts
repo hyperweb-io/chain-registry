@@ -224,7 +224,7 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'killed'
+          status: 'INACTIVE'
         }
       }]
   },

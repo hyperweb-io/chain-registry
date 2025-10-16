@@ -21,10 +21,7 @@ const info: IBCData[] = [{
           portId: 'transfer'
         },
         ordering: 'unordered',
-        version: 'ics20-1',
-        tags: {
-
-        }
+        version: 'ics20-1'
       }]
   }, {
     $schema: '../ibc_data.schema.json',
@@ -50,9 +47,8 @@ const info: IBCData[] = [{
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
-          status: 'live',
           preferred: true,
-          dex: 'osmosis'
+          status: 'ACTIVE'
         }
       }]
   }];
