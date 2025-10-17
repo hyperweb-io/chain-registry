@@ -155,6 +155,14 @@ const info: Chain = {
       {
         address: 'https://rpc-sunrise.nagagininode.xyz',
         provider: 'nagagini'
+      },
+      {
+        address: 'https://rpc-sunrise.nodeyus.cloud',
+        provider: 'nodeyus'
+      },
+      {
+        address: 'https://rpc-sunrice.batana.space',
+        provider: 'batana'
       }
     ],
     rest: [
@@ -253,6 +261,14 @@ const info: Chain = {
       {
         address: 'https://api-sunrise.nagagininode.xyz',
         provider: 'nagagini'
+      },
+      {
+        address: 'https://api-sunrise.nodeyus.cloud',
+        provider: 'nodeyus'
+      },
+      {
+        address: 'https://api-sunrice.batana.space',
+        provider: 'batana'
       }
     ],
     grpc: [
@@ -335,6 +351,14 @@ const info: Chain = {
       {
         address: 'grpc-sunrise.nagagininode.xyz:443',
         provider: 'nagagini'
+      },
+      {
+        address: 'grpc-sunrise.nodeyus.cloud:443',
+        provider: 'nodeyus'
+      },
+      {
+        address: 'grpc-sunrice.batana.space:443',
+        provider: 'batana'
       }
     ]
   },
@@ -457,6 +481,18 @@ const info: Chain = {
       url: 'https://explorer.nagagininode.xyz/sunrise-mainnet',
       txPage: 'https://explorer.nagagininode.xyz/sunrise-mainnet/tx/${txHash}',
       accountPage: 'https://explorer.nagagininode.xyz/sunrise-mainnet/${accountAddress}'
+    },
+    {
+      kind: 'nodeyus explorer',
+      url: 'https://explorer.divinzzo.xyz/sunrise-mainnet',
+      txPage: 'https://explorer.divinzzo.xyz/sunrise-mainnet/tx/${txHash}',
+      accountPage: 'https://explorer.divinzzo.xyz/sunrise-mainnet/account/${accountAddress}'
+    },
+    {
+      kind: 'batana explorer',
+      url: 'https://explorer.batana.space/sunrise-mainnet',
+      txPage: 'https://explorer.batana.space/sunrise-mainnet/tx/${txHash}',
+      accountPage: 'https://explorer.batana.space/sunrise-mainnet/${accountAddress}'
     }
   ],
   images: [{
