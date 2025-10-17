@@ -1017,6 +1017,7 @@ const info: AssetList = {
       name: 'dNTRN',
       display: 'dNTRN',
       symbol: 'dNTRN',
+      coingecko_id: 'drop-staked-ntrn',
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dNTRN.svg'
         }],
@@ -1715,6 +1716,32 @@ const info: AssetList = {
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/eho.svg'
         }]
+    },
+    {
+      denom_units: [{
+          denom: 'factory/neutron17sp75wng9vl2hu3sf4ky86d7smmk3wle9gkts2gmedn9x4ut3xcqa5xp34/maxbtc',
+          exponent: 0
+        }, {
+          denom: 'maxBTC',
+          exponent: 8
+        }],
+      base: 'factory/neutron17sp75wng9vl2hu3sf4ky86d7smmk3wle9gkts2gmedn9x4ut3xcqa5xp34/maxbtc',
+      name: 'maxBTC',
+      display: 'maxBTC',
+      symbol: 'maxBTC',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/maxBTC.svg'
+      },
+      coingecko_id: 'maxbtc',
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/maxBTC.svg'
+        }],
+      socials: {
+        website: 'https://www.structured.money/',
+        twitter: 'https://x.com/StructuredFi',
+        telegram: 'https://t.me/StructuredFi'
+      },
+      type_asset: 'sdk.coin'
     }
   ]
 };
