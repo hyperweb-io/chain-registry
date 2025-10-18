@@ -98,7 +98,7 @@ const info: Chain = {
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       },
       {
-        address: 'https://atomone-rpc.ibs.team:443',
+        address: 'https://atomone.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
       {
@@ -200,7 +200,7 @@ const info: Chain = {
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       },
       {
-        address: 'https://atomone-api.ibs.team:443',
+        address: 'https://atomone.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
       },
       {

@@ -54,6 +54,7 @@ import * as _elys from './elys';
 import * as _emoney from './emoney';
 import * as _empowerchain from './empowerchain';
 import * as _evmos from './evmos';
+import * as _fandomchain from './fandomchain';
 import * as _fetchhub from './fetchhub';
 import * as _firmachain from './firmachain';
 import * as _furya from './furya';
@@ -112,6 +113,7 @@ import * as _okexchain from './okexchain';
 import * as _omniflixhub from './omniflixhub';
 import * as _onex from './onex';
 import * as _onomy from './onomy';
+import * as _optio from './optio';
 import * as _oraichain from './oraichain';
 import * as _osmosis from './osmosis';
 import * as _panacea from './panacea';
@@ -225,6 +227,7 @@ const ibcData: IBCData[] = [
   ..._emoney.ibcData,
   ..._empowerchain.ibcData,
   ..._evmos.ibcData,
+  ..._fandomchain.ibcData,
   ..._fetchhub.ibcData,
   ..._firmachain.ibcData,
   ..._furya.ibcData,
@@ -283,6 +286,7 @@ const ibcData: IBCData[] = [
   ..._omniflixhub.ibcData,
   ..._onex.ibcData,
   ..._onomy.ibcData,
+  ..._optio.ibcData,
   ..._oraichain.ibcData,
   ..._osmosis.ibcData,
   ..._panacea.ibcData,

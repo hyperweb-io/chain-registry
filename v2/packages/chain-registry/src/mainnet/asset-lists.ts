@@ -69,6 +69,7 @@ import * as _empowerchain from './empowerchain';
 import * as _epix from './epix';
 import * as _ethos from './ethos';
 import * as _evmos from './evmos';
+import * as _fandomchain from './fandomchain';
 import * as _fetchhub from './fetchhub';
 import * as _finschia from './finschia';
 import * as _firmachain from './firmachain';
@@ -146,6 +147,7 @@ import * as _omniflixhub from './omniflixhub';
 import * as _onex from './onex';
 import * as _onomy from './onomy';
 import * as _opct from './opct';
+import * as _optio from './optio';
 import * as _oraichain from './oraichain';
 import * as _osmosis from './osmosis';
 import * as _paloma from './paloma';
@@ -289,6 +291,7 @@ const assetList: AssetList[] = [
   _epix.assetList,
   _ethos.assetList,
   _evmos.assetList,
+  _fandomchain.assetList,
   _fetchhub.assetList,
   _finschia.assetList,
   _firmachain.assetList,
@@ -366,6 +369,7 @@ const assetList: AssetList[] = [
   _onex.assetList,
   _onomy.assetList,
   _opct.assetList,
+  _optio.assetList,
   _oraichain.assetList,
   _osmosis.assetList,
   _paloma.assetList,

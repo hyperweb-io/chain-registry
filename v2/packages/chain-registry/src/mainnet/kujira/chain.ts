@@ -178,7 +178,7 @@ const info: Chain = {
         provider: 'Notional'
       },
       {
-        address: 'https://kujira-rpc.ibs.team/',
+        address: 'https://kujira.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
       {
@@ -248,7 +248,7 @@ const info: Chain = {
         provider: 'WildSage Labs'
       },
       {
-        address: 'https://kujira-api.ibs.team/',
+        address: 'https://kujira.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
       },
       {

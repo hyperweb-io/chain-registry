@@ -223,10 +223,6 @@ const info: Chain = {
         provider: 'Stakewolle'
       },
       {
-        address: 'https://stride-rpc.ibs.team',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://stride.rpc.quasarstaking.ai:443',
         provider: 'Quasar'
       }
@@ -295,10 +291,6 @@ const info: Chain = {
       {
         address: 'https://public.stakewolle.com/cosmos/stride/rest',
         provider: 'Stakewolle'
-      },
-      {
-        address: 'https://stride-api.ibs.team',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://stride.api.quasarstaking.ai:443',

@@ -80,7 +80,7 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'https://provenance-rpc.ibs.team',
+        address: 'https://provenance.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
       {
@@ -126,7 +126,7 @@ const info: Chain = {
         provider: 'Notional'
       },
       {
-        address: 'https://provenance-api.ibs.team',
+        address: 'https://provenance.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
       },
       {

@@ -1209,7 +1209,7 @@ const info: AssetList = {
       base: 'factory/kujira10qyzrqaza0f593cmnl4sc3p3nhqqakn9j56d899u723pznxpn8us6cypuw/ulp',
       name: 'LP Bow: DOT.axl-MNTA',
       display: 'lp-dot-mnta',
-      symbol: 'LP DOT.axl-MNTA',
+      symbol: 'LP-DOT.axl-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1230,7 +1230,7 @@ const info: AssetList = {
       base: 'factory/kujira12tpc335t72qtrjh64ccdydzsr9qtswkqn72cyvfj4d5hmtgynphsv4xjtu/ulp',
       name: 'LP Bow: SHD-MNTA',
       display: 'lp-shd-mnta',
-      symbol: 'LP SHD-MNTA',
+      symbol: 'LP-SHD-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1251,7 +1251,7 @@ const info: AssetList = {
       base: 'factory/kujira13g2eelkf9q4md4xx52ylqvlgpccn50f2vyu05eazufd2g4jatmhq2425pq/ulp',
       name: 'LP Bow: DYDX-MNTA',
       display: 'lp-dydx-mnta',
-      symbol: 'LP DYDX-MNTA',
+      symbol: 'LP-DYDX-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1272,7 +1272,7 @@ const info: AssetList = {
       base: 'factory/kujira15pk8c09vcsgsdq4xlh2qfqxtu2r8pgdy7nggkqj8p3h2phke80pqwnvtzk/ulp',
       name: 'LP Bow: wAVAX.axl-MNTA',
       display: 'lp-wavax-mnta',
-      symbol: 'LP wAVAX.axl-MNTA',
+      symbol: 'LP-wAVAX.axl-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1293,7 +1293,7 @@ const info: AssetList = {
       base: 'factory/kujira15w6jhxsv924mn9cfr0qg9z36hltmw4rzd68x40d9re6hzyhslumqjw9zqd/ulp',
       name: 'LP Bow: CHEQ-MNTA',
       display: 'lp-cheq-mnta',
-      symbol: 'LP CHEQ-MNTA',
+      symbol: 'LP-CHEQ-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1314,7 +1314,7 @@ const info: AssetList = {
       base: 'factory/kujira1622xuv8unv22xzazljvqh8uukcdz3yzmrp6axgerh7vxg4kum5tqcwcqmv/ulp',
       name: 'LP Bow: FUZN-MNTA',
       display: 'lp-fuzn-mnta',
-      symbol: 'LP FUZN-MNTA',
+      symbol: 'LP-FUZN-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1335,7 +1335,7 @@ const info: AssetList = {
       base: 'factory/kujira17djzq5x5e5zm9q9zlp6dtxdt9p8q2zvj0qtmjs0wrxm5g9e2vf5q9d6y2t/ulp',
       name: 'LP Bow: SOMM-MNTA',
       display: 'lp-somm-mnta',
-      symbol: 'LP SOMM-MNTA',
+      symbol: 'LP-SOMM-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1356,7 +1356,7 @@ const info: AssetList = {
       base: 'factory/kujira17x2v39aut0paj5d6wc5jxvqqxrdhy9kvca4y5xn6vsfpsxkgc6gq7n4tg0/ulp',
       name: 'LP Bow: wETH.axl-MNTA',
       display: 'lp-weth-mnta',
-      symbol: 'LP wETH.axl-MNTA',
+      symbol: 'LP-wETH.axl-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1377,7 +1377,7 @@ const info: AssetList = {
       base: 'factory/kujira18lhugzap20ndlqr5j2p86yk4pxpe9jjuac05z0ypxuwn3mm5vjhsjh4etr/ulp',
       name: 'LP Bow: NTRN-MNTA',
       display: 'lp-ntrn-mnta',
-      symbol: 'LP NTRN-MNTA',
+      symbol: 'LP-NTRN-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1398,7 +1398,7 @@ const info: AssetList = {
       base: 'factory/kujira18mveas6xseaqu3fmukwv2ac6mp4hszk08lvyamedytjs0kxm42yqs9v89x/ulp',
       name: 'LP Bow: wFTM.axl-MNTA',
       display: 'lp-wftm-mnta',
-      symbol: 'LP wFTM.axl-MNTA',
+      symbol: 'LP-wFTM.axl-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1419,7 +1419,7 @@ const info: AssetList = {
       base: 'factory/kujira1av284rnqh6s0l2lwdqgpgz8wuva3wh9lkmlsupjd9escn5v4fels6kwc7v/ulp',
       name: 'LP Bow: STARS-MNTA',
       display: 'lp-stars-mnta',
-      symbol: 'LP STARS-MNTA',
+      symbol: 'LP-STARS-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1440,7 +1440,7 @@ const info: AssetList = {
       base: 'factory/kujira1cpdyhrkwdnz38u45el3zq7007at9dm6h05tc36zpxvs6vrdwzrrskt0tgg/ulp',
       name: 'LP Bow: TIA-MNTA',
       display: 'lp-tia-mnta',
-      symbol: 'LP TIA-MNTA',
+      symbol: 'LP-TIA-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1461,7 +1461,7 @@ const info: AssetList = {
       base: 'factory/kujira1eqd96322ec258w7k9n9cfqkusrlvzwv38jkph3qs720egdv0epmq70j2zl/ulp',
       name: 'LP Bow: SOL.wh-MNTA',
       display: 'lp-sol-mnta',
-      symbol: 'LP SOL.wh-MNTA',
+      symbol: 'LP-SOL.wh-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1482,7 +1482,7 @@ const info: AssetList = {
       base: 'factory/kujira1fg7wmsde7ygw3pm6hqmd29cdvp947anajmunsvk0guvjta3md25qdqk4fw/ulp',
       name: 'LP Bow: DYM-MNTA',
       display: 'lp-dym-mnta',
-      symbol: 'LP DYM-MNTA',
+      symbol: 'LP-DYM-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1503,7 +1503,7 @@ const info: AssetList = {
       base: 'factory/kujira1gnftck9586x0nhsqsj99k9zednl6tx4kezu9hpph0u6jtqnafpyqxha3me/ulp',
       name: 'LP Bow: AKT-MNTA',
       display: 'lp-akt-mnta',
-      symbol: 'LP AKT-MNTA',
+      symbol: 'LP-AKT-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1524,7 +1524,7 @@ const info: AssetList = {
       base: 'factory/kujira1gnvja05kkmpeh9dnxl0c2p4sde7fpsy2r44njzyqgpsf72nqs78q3gzpzc/ulp',
       name: 'LP Bow: LINK.axl-MNTA',
       display: 'lp-link-mnta',
-      symbol: 'LP LINK.axl-MNTA',
+      symbol: 'LP-LINK.axl-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1545,7 +1545,7 @@ const info: AssetList = {
       base: 'factory/kujira1gz2kvfw7hpds9fvygwkj64znl3a9pw697g77cspcq5y4vj3ru45s7qc0rd/ulp',
       name: 'LP Bow: wTAO.grv-MNTA',
       display: 'lp-wtao-mnta',
-      symbol: 'LP wTAO.grv-MNTA',
+      symbol: 'LP-wTAO.grv-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1566,7 +1566,7 @@ const info: AssetList = {
       base: 'factory/kujira1h75predtjdm2e7u8cuvqs3usc6xs2mxlkcr20zsshvw3qap25frsr4z949/ulp',
       name: 'LP Bow: MNTA-KUJI',
       display: 'lp-mnta-kuji',
-      symbol: 'LP MNTA-KUJI',
+      symbol: 'LP-MNTA-KUJI',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1587,7 +1587,7 @@ const info: AssetList = {
       base: 'factory/kujira1h929g9e9vxhc5y8v7uexdrncacxdatjupr67velewafwepfyfaaq6s7l3v/ulp',
       name: 'LP Bow: AXL-MNTA',
       display: 'lp-axl-mnta',
-      symbol: 'LP AXL-MNTA',
+      symbol: 'LP-AXL-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1608,7 +1608,7 @@ const info: AssetList = {
       base: 'factory/kujira1h9f3k54j060pzlnea8ep8qfymsmwl5yhwc5hqept5p2esqzve7tq2ghnm4/ulp',
       name: 'LP Bow: ATOM-MNTA',
       display: 'lp-atom-mnta',
-      symbol: 'LP ATOM-MNTA',
+      symbol: 'LP-ATOM-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1629,7 +1629,7 @@ const info: AssetList = {
       base: 'factory/kujira1kc90tgn4ucvdv4c9xycktanwz2lna0nfel6244ylqjvhaetfntusnmyu3d/ulp',
       name: 'LP Bow: ARB-MNTA',
       display: 'lp-arb-mnta',
-      symbol: 'LP ARB-MNTA',
+      symbol: 'LP-ARB-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1650,7 +1650,7 @@ const info: AssetList = {
       base: 'factory/kujira1jsjygyj8hwa4f0p9wwgct4yzmzzexe5x5u6l40l7ty2qzwwwsemqavhk3x/ulp',
       name: 'LP Bow: WHALE-MNTA',
       display: 'lp-whale-mnta',
-      symbol: 'LP WHALE-MNTA',
+      symbol: 'LP-WHALE-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1671,7 +1671,7 @@ const info: AssetList = {
       base: 'factory/kujira1p7w9ncnnme9yzzhrvzv0hnsa5u5ga06v0ckt7lq9yfap04hc5k9sn2vf6w/ulp',
       name: 'LP Bow: SCRT-MNTA',
       display: 'lp-scrt-mnta',
-      symbol: 'LP SCRT-MNTA',
+      symbol: 'LP-SCRT-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1692,7 +1692,7 @@ const info: AssetList = {
       base: 'factory/kujira1qx3hcr297qmgjt5f6u9peldf4phxqufvmew8d3eey3ns29e8qp3snj6jfu/ulp',
       name: 'LP Bow: wstETH.axl-MNTA',
       display: 'lp-wsteth-mnta',
-      symbol: 'LP wstETH.axl-MNTA',
+      symbol: 'LP-wstETH.axl-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1713,7 +1713,7 @@ const info: AssetList = {
       base: 'factory/kujira1smfdnww47xav4nn849xphku3gk3xp7a24fk533dce8masnsz4v8quklajx/ulp',
       name: 'LP Bow: wMATIC.axl-MNTA',
       display: 'lp-wmatic-mnta',
-      symbol: 'LP wMATIC.axl-MNTA',
+      symbol: 'LP-wMATIC.axl-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1734,7 +1734,7 @@ const info: AssetList = {
       base: 'factory/kujira1t4mr2xt4ky4mfwcy752chzlquam3hzs44mt8vwyec8mvypmzxu5s90vamt/ulp',
       name: 'LP Bow: UNI.axl-MNTA',
       display: 'lp-uni-mnta',
-      symbol: 'LP UNI.axl-MNTA',
+      symbol: 'LP-UNI.axl-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1755,7 +1755,7 @@ const info: AssetList = {
       base: 'factory/kujira1u8dluwa4a83q7anz0cgpmma605r07a06f0789ajcl8l0xjrplqss005cgn/ulp',
       name: 'LP Bow: yieldETH.axl-MNTA',
       display: 'lp-yieldeth-mnta',
-      symbol: 'LP yieldETH.axl-MNTA',
+      symbol: 'LP-yieldETH.axl-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1776,7 +1776,7 @@ const info: AssetList = {
       base: 'factory/kujira1vj39mdwekxznxxa97fv5gt957cghfdqhwju8fdv5ysu0x6vsyhps4zmqjl/ulp',
       name: 'LP Bow: wBTC.axl-MNTA',
       display: 'lp-wbtc-mnta',
-      symbol: 'LP wBTC.axl-MNTA',
+      symbol: 'LP-wBTC.axl-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1797,7 +1797,7 @@ const info: AssetList = {
       base: 'factory/kujira1vqdyup9zxxl9gqy5hwh593vvuc84lstldj7qzt7fylf3q3e3uemqlwpg9y/ulp',
       name: 'LP Bow: PAXG.grv-MNTA',
       display: 'lp-paxg-mnta',
-      symbol: 'LP PAXG.grv-MNTA',
+      symbol: 'LP-PAXG.grv-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1818,7 +1818,7 @@ const info: AssetList = {
       base: 'factory/kujira1y24jwsv84lnuv5j78qeqz5ujjpd058qsft7wfc0nk9jvycugm32sqnq53d/ulp',
       name: 'LP Bow: wBNB.axl-MNTA',
       display: 'lp-wbnb-mnta',
-      symbol: 'LP wBNB.axl-MNTA',
+      symbol: 'LP-wBNB.axl-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1839,7 +1839,7 @@ const info: AssetList = {
       base: 'factory/kujira1ygperwf0dc9ng2jffj0pwnnray3rscn9el6d78qjtt25qwgqukqszmdwtv/ulp',
       name: 'LP Bow: OSMO-MNTA',
       display: 'lp-osmo-mnta',
-      symbol: 'LP OSMO-MNTA',
+      symbol: 'LP-OSMO-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1860,7 +1860,7 @@ const info: AssetList = {
       base: 'factory/kujira1znx048dcc6arqfw6kpckl0k4ts2h7cdx20nk22wz2cxh5vle3wxqknk238/ulp',
       name: 'LP Bow: INJ-MNTA',
       display: 'lp-inj-mnta',
-      symbol: 'LP INJ-MNTA',
+      symbol: 'LP-INJ-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1881,7 +1881,7 @@ const info: AssetList = {
       base: 'factory/kujira18sek950cg92gd0kvpj67dfg6p7kee6hzw92etcf2jgufr3mttvaslt5sal/ulp',
       name: 'LP Bow: stOSMO-OSMO',
       display: 'lp-stosmo-osmo',
-      symbol: 'LP stOSMO-OSMO',
+      symbol: 'LP-stOSMO-OSMO',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1902,7 +1902,7 @@ const info: AssetList = {
       base: 'factory/kujira1lyyeyuw4qgan6nz45thw2m0nmxa457uz7cp9dqw5d9a0h7ccek7qavkm6g/ulp',
       name: 'LP Bow: wstETH.axl-wETH.axl',
       display: 'lp-wsteth-weth',
-      symbol: 'LP wstETH.axl-wETH.axl',
+      symbol: 'LP-wstETH.axl-wETH.axl',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1923,7 +1923,7 @@ const info: AssetList = {
       base: 'factory/kujira1ul00h0a2kgcg9x2yfa86wj9qguhyv7jmpjpw6ztt24j9mn9xjw3slawyc8/ulp',
       name: 'LP Bow: qcMNTA-MNTA',
       display: 'lp-qcmnta-mnta',
-      symbol: 'LP qcMNTA-MNTA',
+      symbol: 'LP-qcMNTA-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1944,7 +1944,7 @@ const info: AssetList = {
       base: 'factory/kujira1vj36ntsqd3msc69lxldcv9dd50jngknmael9e07rz4fpn5kyq0jsglvz2m/ulp',
       name: 'LP Bow: ampMNTA-MNTA',
       display: 'lp-ampmnta-mnta',
-      symbol: 'LP ampMNTA-MNTA',
+      symbol: 'LP-ampMNTA-MNTA',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -1965,7 +1965,7 @@ const info: AssetList = {
       base: 'factory/kujira1n648rfqqvjxm6c7zgfnfqay85rkapgg0z7da9pnmjazz5m5d7l0qxdtq90/ulp',
       name: 'LP Bow: wETH.axl-USK',
       display: 'lp-weth-usk',
-      symbol: 'LP wETH.axl-USK',
+      symbol: 'LP-wETH.axl-USK',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -2119,7 +2119,7 @@ const info: AssetList = {
       base: 'factory/kujira1yncutssgh2vj9scaymtteg949hwcft07c6qmgarxnaf04yesq3jsn6g2uv/ulp',
       name: 'LP Bow: ATOM-USK',
       display: 'lp-atom-usk',
-      symbol: 'LP ATOM-USK',
+      symbol: 'LP-ATOM-USK',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -2140,7 +2140,7 @@ const info: AssetList = {
       base: 'factory/kujira1xwvvjq5w0887v2vz4e83kcu38s0jq8q8lqa3z5hxm295q7y4uejqp24la7/ulp',
       name: 'LP Bow: wETH.axl-USK',
       display: 'lp-weth-usk',
-      symbol: 'LP wETH.axl-USK',
+      symbol: 'LP-wETH.axl-USK',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -2161,7 +2161,7 @@ const info: AssetList = {
       base: 'factory/kujira1vcmh95lje5dln782pxckma65eujs4sv960w22whgsp7a2ajsc6lsvnlhgd/ulp',
       name: 'LP Bow: SOL.wh-USK',
       display: 'lp-sol-usk',
-      symbol: 'LP SOL.wh-USK',
+      symbol: 'LP-SOL.wh-USK',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -2182,7 +2182,7 @@ const info: AssetList = {
       base: 'factory/kujira1n4jfv39hzv2dtshzv6gj4hp8rkdy5rrsr7l84lc3x9cahz4v0umq24q3lu/ulp',
       name: 'LP Bow: wETH.axl-USDC',
       display: 'lp-weth-usdc',
-      symbol: 'LP wETH.axl-USDC',
+      symbol: 'LP-wETH.axl-USDC',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -2203,7 +2203,7 @@ const info: AssetList = {
       base: 'factory/kujira1lctu7hy65466fxw3tcqf8w45zwrpwgd9chvjqpgyfgcr73k774nsv4ya6t/ulp',
       name: 'LP Bow: DYDX-USK',
       display: 'lp-dydx-usk',
-      symbol: 'LP DYDX-USK',
+      symbol: 'LP-DYDX-USK',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -2224,7 +2224,7 @@ const info: AssetList = {
       base: 'factory/kujira1g5st8p6qdyf23zzerjcxgpr2r7a9wzdyaymu79ngg6ve3m9v3n4sdetv4e/ulp',
       name: 'LP Bow: AKT-USDC',
       display: 'lp-akt-usdc',
-      symbol: 'LP AKT-USDC',
+      symbol: 'LP-AKT-USDC',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -2245,7 +2245,7 @@ const info: AssetList = {
       base: 'factory/kujira1d7jt9zwlnpvf7sskfm57c77pm9mtwczqre75t9k80ees0v523kasss9htj/ulp',
       name: 'LP Bow: wBTC-USK',
       display: 'lp-wbtc-usk',
-      symbol: 'LP wBTC-USK',
+      symbol: 'LP-wBTC-USK',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -2266,7 +2266,7 @@ const info: AssetList = {
       base: 'factory/kujira1c4e2zk4z0anrufjh64gxtse6e4s5g52fe2ja8ke3r9e0pvpd0z0qws8zsp/ulp',
       name: 'LP Bow: wBTC.axl-wBTC',
       display: 'lp-wbtc-wbtc',
-      symbol: 'LP wBTC.axl-wBTC',
+      symbol: 'LP-wBTC.axl-wBTC',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -2287,7 +2287,7 @@ const info: AssetList = {
       base: 'factory/kujira14jwhlsg3az20f7keav2axxj205fyv5j8mp6rv5svqwwll3ls9slq6zwleg/ulp',
       name: 'LP Bow: INJ-USDC',
       display: 'lp-inj-usdc',
-      symbol: 'LP INJ-USDC',
+      symbol: 'LP-INJ-USDC',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -2308,7 +2308,7 @@ const info: AssetList = {
       base: 'factory/kujira13my0qtm2a8jp0wg8uzg49tyn4zcea8scy3dc7ghn8z9eys08yzls49ymdm/ulp',
       name: 'LP Bow: ATOM-USDC',
       display: 'lp-atom-usdc',
-      symbol: 'LP ATOM-USDC',
+      symbol: 'LP-ATOM-USDC',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -2329,7 +2329,7 @@ const info: AssetList = {
       base: 'factory/kujira1742pe93mxm0cwqjxgxh6th9sspdrluqvw9pha9q69eeatue4x5xs0wdq2d/ulp',
       name: 'LP Bow: MNTA-USDC',
       display: 'lp-mnta-usdc',
-      symbol: 'LP MNTA-USDC',
+      symbol: 'LP-MNTA-USDC',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },
@@ -2350,7 +2350,7 @@ const info: AssetList = {
       base: 'factory/kujira1xtaadmh06s8u3z5mypp8qayhrnxgga5wr88s7raram4rz8zu37hquf82wk/ulp',
       name: 'LP Bow: MNTA-USK',
       display: 'lp-mnta-usk',
-      symbol: 'LP MNTA-USK',
+      symbol: 'LP-MNTA-USK',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bow.svg'
       },

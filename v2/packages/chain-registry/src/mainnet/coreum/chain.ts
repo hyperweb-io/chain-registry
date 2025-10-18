@@ -104,7 +104,7 @@ const info: Chain = {
         provider: 'genznodes'
       },
       {
-        address: 'https://coreum-rpc.ibs.team',
+        address: 'https://coreum.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
       {
@@ -176,7 +176,7 @@ const info: Chain = {
         provider: 'genznodes'
       },
       {
-        address: 'https://coreum-api.ibs.team',
+        address: 'https://coreum.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
       },
       {

@@ -92,7 +92,7 @@ const info: Chain = {
         provider: 'Kleomedes'
       },
       {
-        address: 'https://seda-rpc.ibs.team:443',
+        address: 'https://seda.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
       {
@@ -174,7 +174,7 @@ const info: Chain = {
         provider: 'Kleomedes'
       },
       {
-        address: 'https://seda-api.ibs.team:443',
+        address: 'https://seda.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
       },
       {

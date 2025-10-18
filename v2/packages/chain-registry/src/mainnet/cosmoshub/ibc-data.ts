@@ -1864,7 +1864,26 @@ const info: IBCData[] = [
           portId: 'transfer'
         },
         ordering: 'unordered',
-        version: 'ics20-1'
+        version: 'ics20-1',
+        tags: {
+          preferred: false,
+          status: 'ACTIVE'
+        }
+      }, {
+        chain1: {
+          channelId: 'channel-1549',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-97',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
       }]
   },
   {

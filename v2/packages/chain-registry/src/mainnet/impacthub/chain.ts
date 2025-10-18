@@ -74,7 +74,7 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://ixo-rpc.ibs.team',
+        address: 'https://ixo.ibs.team/rpc',
         provider: 'Inter Blockchain Services'
       },
       {
@@ -108,7 +108,7 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://ixo-api.ibs.team',
+        address: 'https://ixo.ibs.team/api',
         provider: 'Inter Blockchain Services'
       },
       {

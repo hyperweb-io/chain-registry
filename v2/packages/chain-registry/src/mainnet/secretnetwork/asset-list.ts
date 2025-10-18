@@ -71,7 +71,7 @@ const info: AssetList = {
       base: 'cw20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d',
       name: 'Shade (old)',
       display: 'shd',
-      symbol: 'SHD(old)',
+      symbol: 'SHD.old',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shdold.svg'
       },

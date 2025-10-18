@@ -125,7 +125,7 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://elys-rpc.ibs.team',
+        address: 'https://elys.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
       {
@@ -157,7 +157,7 @@ const info: Chain = {
         provider: 'Node39'
       },
       {
-        address: 'https://rpc.elys.srvs.vnodesv.net',
+        address: 'https://elys.srvs.vnodesv.net/rpc',
         provider: 'vNodes[V] Ser[V]ices'
       },
       {
@@ -211,7 +211,7 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://elys-api.ibs.team',
+        address: 'https://elys.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
       },
       {
@@ -243,7 +243,7 @@ const info: Chain = {
         provider: 'Node39'
       },
       {
-        address: 'https://rest.elys.srvs.vnodesv.net:443',
+        address: 'https://elys.srvs.vnodesv.net/rest',
         provider: 'vNodes[V] Ser[V]ices'
       },
       {
@@ -313,7 +313,7 @@ const info: Chain = {
         provider: 'Pro-Nodes75'
       },
       {
-        address: 'https://grpc.elys.srvs.vnodesv.net:443',
+        address: 'https://elys.srvs.vnodesv.net/grpc',
         provider: 'vNodes[V] Ser[V]ices'
       }
     ]

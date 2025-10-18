@@ -1600,6 +1600,35 @@ const info: IBCData[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain1: {
+      chainName: 'fandomchain',
+      clientId: '07-tendermint-0',
+      connectionId: 'connection-0'
+    },
+    chain2: {
+      chainName: 'osmosis',
+      clientId: '07-tendermint-3607',
+      connectionId: 'connection-10960'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-0',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-107314',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
       chainName: 'fetchhub',
       clientId: '07-tendermint-10',
       connectionId: 'connection-10'
@@ -3328,6 +3357,35 @@ const info: IBCData[] = [
         },
         chain2: {
           channelId: 'channel-525',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
+      chainName: 'optio',
+      clientId: '07-tendermint-1',
+      connectionId: 'connection-5'
+    },
+    chain2: {
+      chainName: 'osmosis',
+      clientId: '07-tendermint-3608',
+      connectionId: 'connection-10961'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-1',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-107347',
           portId: 'transfer'
         },
         ordering: 'unordered',
