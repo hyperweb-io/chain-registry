@@ -67,7 +67,7 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'https://fetch-rpc.ibs.team',
+        address: 'https://fetch.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
       {
@@ -137,7 +137,7 @@ const info: Chain = {
         provider: 'Architect Nodes'
       },
       {
-        address: 'https://fetch-api.ibs.team',
+        address: 'https://fetch.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
       },
       {

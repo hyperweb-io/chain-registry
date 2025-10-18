@@ -219,7 +219,7 @@ const info: Chain = {
         provider: 'Quasar'
       },
       {
-        address: 'https://cosmos-rpc.ibs.team',
+        address: 'https://cosmos.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
       {
@@ -349,7 +349,7 @@ const info: Chain = {
         provider: 'Quasar'
       },
       {
-        address: 'https://cosmos-api.ibs.team',
+        address: 'https://cosmos.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
       },
       {

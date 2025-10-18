@@ -2536,7 +2536,7 @@ const asset_list: AssetList = {
       base: 'ibc/F1CCCA9D4369F4DBAD7456232C1EE7A0D287D1D8AEF02D7290C69B26AF3EE136',
       name: 'Eden BOOST',
       display: 'edenb',
-      symbol: 'EDEN BOOST',
+      symbol: 'EDENBOOST',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
       },
@@ -2957,6 +2957,42 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-204'
+          }
+        }]
+    },
+    {
+      description: 'FANDOMCHAIN is the native token of the FANDOMCHAIN Network',
+      denom_units: [{
+          denom: 'ibc/EE3BD5717AABFDDBE9AB446002D528FD0C5202430C5E4E662D3955AF953DFD98',
+          exponent: 0,
+          aliases: ['ufandomChain']
+        }, {
+          denom: 'FANDOMCHAIN',
+          exponent: 9
+        }],
+      base: 'ibc/EE3BD5717AABFDDBE9AB446002D528FD0C5202430C5E4E662D3955AF953DFD98',
+      name: 'FANDOMCHAIN',
+      display: 'FANDOMCHAIN',
+      symbol: 'FANDOMCHAIN',
+      type_asset: 'sdk.coin',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fandomchain/images/fandomchain.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fandomchain/images/fandomchain.png'
+        }],
+      socials: {
+        website: 'https://fandom-chain-website.vercel.app'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ufandomChain',
+            chain_name: 'fandomchain'
+          },
+          chain: {
+            channel_id: 'channel-107314'
           }
         }]
     },
@@ -6212,6 +6248,37 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'The native token of Optio',
+      denom_units: [{
+          denom: 'ibc/60CFDF4D8367F6C29FE210CE1CA36BE8C21BB2B505DE0F0ABAC0855411CCDB37',
+          exponent: 0,
+          aliases: ['uOPT']
+        }, {
+          denom: 'OPT',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/60CFDF4D8367F6C29FE210CE1CA36BE8C21BB2B505DE0F0ABAC0855411CCDB37',
+      name: 'OPT',
+      display: 'OPT',
+      symbol: 'OPT',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/optio/images/opt.png'
+        }],
+      coingecko_id: 'optio',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'uOPT',
+            chain_name: 'optio'
+          },
+          chain: {
+            channel_id: 'channel-107347'
+          }
+        }]
+    },
+    {
       description: 'The native token of Oraichain',
       denom_units: [{
           denom: 'ibc/161D7D62BAB3B9C39003334F1671208F43C06B643CC9EDBBE82B64793C857F1D',
@@ -8767,7 +8834,7 @@ const asset_list: AssetList = {
       base: 'ibc/F1CCCA9D4369F4DBAD7456232C1EE7A0D287D1D8AEF02D7290C69B26AF3EE136',
       name: 'Eden BOOST',
       display: 'edenb',
-      symbol: 'EDEN BOOST',
+      symbol: 'EDENBOOST',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
       },
@@ -9188,6 +9255,42 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-204'
+          }
+        }]
+    },
+    {
+      description: 'FANDOMCHAIN is the native token of the FANDOMCHAIN Network',
+      denom_units: [{
+          denom: 'ibc/EE3BD5717AABFDDBE9AB446002D528FD0C5202430C5E4E662D3955AF953DFD98',
+          exponent: 0,
+          aliases: ['ufandomChain']
+        }, {
+          denom: 'FANDOMCHAIN',
+          exponent: 9
+        }],
+      base: 'ibc/EE3BD5717AABFDDBE9AB446002D528FD0C5202430C5E4E662D3955AF953DFD98',
+      name: 'FANDOMCHAIN',
+      display: 'FANDOMCHAIN',
+      symbol: 'FANDOMCHAIN',
+      type_asset: 'sdk.coin',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fandomchain/images/fandomchain.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fandomchain/images/fandomchain.png'
+        }],
+      socials: {
+        website: 'https://fandom-chain-website.vercel.app'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ufandomChain',
+            chain_name: 'fandomchain'
+          },
+          chain: {
+            channel_id: 'channel-107314'
           }
         }]
     },
@@ -12478,6 +12581,37 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-525'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Optio',
+      denom_units: [{
+          denom: 'ibc/60CFDF4D8367F6C29FE210CE1CA36BE8C21BB2B505DE0F0ABAC0855411CCDB37',
+          exponent: 0,
+          aliases: ['uOPT']
+        }, {
+          denom: 'OPT',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/60CFDF4D8367F6C29FE210CE1CA36BE8C21BB2B505DE0F0ABAC0855411CCDB37',
+      name: 'OPT',
+      display: 'OPT',
+      symbol: 'OPT',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/optio/images/opt.png'
+        }],
+      coingecko_id: 'optio',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'uOPT',
+            chain_name: 'optio'
+          },
+          chain: {
+            channel_id: 'channel-107347'
           }
         }]
     },
@@ -39546,7 +39680,7 @@ const asset_list: AssetList = {
       base: 'ibc/71055835C7639739EAE03AACD1324FE162DBA41D09F197CB72D966D014225B1C',
       name: 'Shade (old)',
       display: 'shd',
-      symbol: 'SHD(old)',
+      symbol: 'SHD.old',
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shdold.svg'
       },
@@ -48096,7 +48230,7 @@ const asset_list: AssetList = {
       base: 'ibc/71055835C7639739EAE03AACD1324FE162DBA41D09F197CB72D966D014225B1C',
       name: 'Shade (old)',
       display: 'shd',
-      symbol: 'SHD(old)',
+      symbol: 'SHD.old',
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shdold.svg'
       },

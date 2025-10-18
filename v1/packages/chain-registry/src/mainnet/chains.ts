@@ -69,6 +69,7 @@ import * as _empowerchain from './empowerchain';
 import * as _epix from './epix';
 import * as _ethos from './ethos';
 import * as _evmos from './evmos';
+import * as _fandomchain from './fandomchain';
 import * as _fetchhub from './fetchhub';
 import * as _finschia from './finschia';
 import * as _firmachain from './firmachain';
@@ -146,6 +147,7 @@ import * as _omniflixhub from './omniflixhub';
 import * as _onex from './onex';
 import * as _onomy from './onomy';
 import * as _opct from './opct';
+import * as _optio from './optio';
 import * as _oraichain from './oraichain';
 import * as _osmosis from './osmosis';
 import * as _paloma from './paloma';
@@ -289,6 +291,7 @@ const chains: Chain[] = [
   _epix.chain,
   _ethos.chain,
   _evmos.chain,
+  _fandomchain.chain,
   _fetchhub.chain,
   _finschia.chain,
   _firmachain.chain,
@@ -366,6 +369,7 @@ const chains: Chain[] = [
   _onex.chain,
   _onomy.chain,
   _opct.chain,
+  _optio.chain,
   _oraichain.chain,
   _osmosis.chain,
   _paloma.chain,

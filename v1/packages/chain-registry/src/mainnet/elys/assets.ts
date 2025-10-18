@@ -88,7 +88,7 @@ const info: AssetList = {
       base: 'uedenb',
       name: 'Eden BOOST',
       display: 'edenb',
-      symbol: 'EDEN BOOST',
+      symbol: 'EDENBOOST',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
       },

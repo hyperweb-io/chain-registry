@@ -137,7 +137,7 @@ const info: Chain = {
         provider: 'RockawayX Infra'
       },
       {
-        address: 'https://axelar-rpc.ibs.team',
+        address: 'https://axelar.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
       {
@@ -215,7 +215,7 @@ const info: Chain = {
         provider: 'QuantNode'
       },
       {
-        address: 'https://axelar-api.ibs.team',
+        address: 'https://axelar.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
       },
       {

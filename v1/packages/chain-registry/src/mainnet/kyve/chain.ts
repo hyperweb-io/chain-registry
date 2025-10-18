@@ -83,7 +83,7 @@ const info: Chain = {
         provider: 'Imperator.co'
       },
       {
-        address: 'https://kyve-rpc.ibs.team',
+        address: 'https://kyve.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
       {
@@ -137,7 +137,7 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://kyve-api.ibs.team',
+        address: 'https://kyve.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
       },
       {

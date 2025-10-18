@@ -2696,7 +2696,7 @@ const assets: AssetList = {
       base: 'ibc/F0280DA924768646FA39E7C08FA6935B4C5A313C3C5BA611095350CE8B45C742',
       name: 'Eden BOOST',
       display: 'edenb',
-      symbol: 'EDEN BOOST',
+      symbol: 'EDENBOOST',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
       },
@@ -13330,7 +13330,7 @@ const assets: AssetList = {
       base: 'ibc/F0280DA924768646FA39E7C08FA6935B4C5A313C3C5BA611095350CE8B45C742',
       name: 'Eden BOOST',
       display: 'edenb',
-      symbol: 'EDEN BOOST',
+      symbol: 'EDENBOOST',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
       },
@@ -23636,7 +23636,7 @@ const assets: AssetList = {
       base: 'ibc/CC6EEF34CA5C007F93EA7062FFDB11537AD3563E5D05A11B36A8D58D91768150',
       name: 'Shade (old)',
       display: 'shd',
-      symbol: 'SHD(old)',
+      symbol: 'SHD.old',
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shdold.svg'
       },
@@ -24062,7 +24062,7 @@ const assets: AssetList = {
       base: 'ibc/CC6EEF34CA5C007F93EA7062FFDB11537AD3563E5D05A11B36A8D58D91768150',
       name: 'Shade (old)',
       display: 'shd',
-      symbol: 'SHD(old)',
+      symbol: 'SHD.old',
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shdold.svg'
       },

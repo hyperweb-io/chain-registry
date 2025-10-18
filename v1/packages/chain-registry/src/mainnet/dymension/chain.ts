@@ -123,7 +123,7 @@ const info: Chain = {
         provider: 'Enigma'
       },
       {
-        address: 'https://dymension-rpc.ibs.team',
+        address: 'https://dymension.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
       {
@@ -249,7 +249,7 @@ const info: Chain = {
         provider: 'Enigma'
       },
       {
-        address: 'https://dymension-api.ibs.team',
+        address: 'https://dymension.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
       },
       {
@@ -393,7 +393,7 @@ const info: Chain = {
         provider: 'AgoraNodes'
       },
       {
-        address: 'https://dymension-jsonrpc.ibs.team',
+        address: 'https://dymension.ibs.team:443/ethrpc/',
         provider: 'Inter Blockchain Services'
       },
       {

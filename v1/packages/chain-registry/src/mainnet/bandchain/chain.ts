@@ -71,7 +71,7 @@ const info: Chain = {
         provider: 'Notional'
       },
       {
-        address: 'https://band-rpc.ibs.team/',
+        address: 'https://band.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
       {
@@ -125,7 +125,7 @@ const info: Chain = {
         provider: 'Notional'
       },
       {
-        address: 'https://band-api.ibs.team/',
+        address: 'https://band.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
       },
       {

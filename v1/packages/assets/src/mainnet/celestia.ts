@@ -268,7 +268,7 @@ const assets: AssetList = {
       base: 'ibc/D4C85AF923503EC133214EDD27071BFEBB1D55051F0B255F7EDA12237CAC1A8C',
       name: 'Eden BOOST',
       display: 'edenb',
-      symbol: 'EDEN BOOST',
+      symbol: 'EDENBOOST',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
       },
@@ -8260,7 +8260,7 @@ const assets: AssetList = {
       base: 'ibc/D4C85AF923503EC133214EDD27071BFEBB1D55051F0B255F7EDA12237CAC1A8C',
       name: 'Eden BOOST',
       display: 'edenb',
-      symbol: 'EDEN BOOST',
+      symbol: 'EDENBOOST',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png'
       },

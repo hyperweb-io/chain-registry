@@ -2548,7 +2548,7 @@ const assets: AssetList = {
       base: 'ibc/AAF6CEBDF3E51AB8C746073FD349FADC056A5517FB8646B556DDBBEB6D7ECCBD',
       name: 'Shade (old)',
       display: 'shd',
-      symbol: 'SHD(old)',
+      symbol: 'SHD.old',
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shdold.svg'
       },
@@ -11098,7 +11098,7 @@ const assets: AssetList = {
       base: 'ibc/AAF6CEBDF3E51AB8C746073FD349FADC056A5517FB8646B556DDBBEB6D7ECCBD',
       name: 'Shade (old)',
       display: 'shd',
-      symbol: 'SHD(old)',
+      symbol: 'SHD.old',
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shdold.svg'
       },

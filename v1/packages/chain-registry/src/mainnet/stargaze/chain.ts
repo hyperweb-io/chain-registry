@@ -86,7 +86,7 @@ const info: Chain = {
         provider: 'Cosmos Spaces'
       },
       {
-        address: 'https://stargaze-rpc.ibs.team',
+        address: 'https://stargaze.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
       {
@@ -164,7 +164,7 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'https://stargaze-api.ibs.team',
+        address: 'https://stargaze.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
       },
       {

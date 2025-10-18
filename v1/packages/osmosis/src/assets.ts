@@ -5151,7 +5151,7 @@ const assets: AssetList = {
       base: 'ibc/71055835C7639739EAE03AACD1324FE162DBA41D09F197CB72D966D014225B1C',
       name: 'Shade (old)',
       display: 'shd',
-      symbol: 'SHD(old)',
+      symbol: 'SHD.old',
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
