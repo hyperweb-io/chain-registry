@@ -244,6 +244,27 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
         }],
       typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Drop dTIA token',
+      denomUnits: [{
+          denom: 'factory/neutron1qex378awvwhsxealmrtuunn70f242u49dagqus6ug423paxyevyqvw9s3t/uTIA',
+          exponent: 0
+        }, {
+          denom: 'dTIA',
+          exponent: 6
+        }],
+      base: 'factory/neutron1qex378awvwhsxealmrtuunn70f242u49dagqus6ug423paxyevyqvw9s3t/uTIA',
+      name: 'Drop dTIA testnet',
+      display: 'dTIA',
+      symbol: 'dTIA',
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dTIA.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dTIA.svg'
+        }],
+      typeAsset: 'sdk.coin'
     }
   ]
 };
