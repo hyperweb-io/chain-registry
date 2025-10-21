@@ -91,10 +91,6 @@ const info: Chain = {
         provider: 'kjnodes'
       },
       {
-        address: 'https://bitcanna-rpc.genznodes.dev/',
-        provider: 'genznodes'
-      },
-      {
         address: 'https://rpc.bitcanna-1.bitcanna.aviaone.com/',
         provider: 'AVIAONE 🟢'
       },
@@ -257,10 +253,6 @@ const info: Chain = {
       {
         address: 'https://bitcanna.api.kjnodes.com',
         provider: 'kjnodes'
-      },
-      {
-        address: 'https://bitcanna-api.genznodes.dev',
-        provider: 'genznodes'
       },
       {
         address: 'https://api.bitcanna-1.bitcanna.aviaone.com',

@@ -116,6 +116,7 @@ export * as oraichain from './oraichain';
 export * as osmosis from './osmosis';
 export * as panacea from './panacea';
 export * as passage from './passage';
+export * as paxi from './paxi';
 export * as persistence from './persistence';
 export * as planq from './planq';
 export * as point from './point';

@@ -64,10 +64,6 @@ const info: Chain = {
         provider: 'Router'
       },
       {
-        address: 'https://router-rpc.genznodes.dev/',
-        provider: 'genznodes'
-      },
-      {
         address: 'https://router.rpc.nodeshub.online:443',
         provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️'
       },
@@ -88,10 +84,6 @@ const info: Chain = {
       {
         address: 'https://sentry.lcd.routerprotocol.com/',
         provider: 'Router'
-      },
-      {
-        address: 'https://router-api.genznodes.dev/',
-        provider: 'genznodes'
       },
       {
         address: 'https://router.api.nodeshub.online',
@@ -116,10 +108,6 @@ const info: Chain = {
         provider: 'Router'
       },
       {
-        address: 'router-grpc.genznodes.dev:3090',
-        provider: 'genznodes'
-      },
-      {
         address: 'router.grpc.nodeshub.online',
         provider: 'Nodes Hub'
       },
@@ -132,20 +120,13 @@ const info: Chain = {
         provider: 'NodeStake'
       }
     ],
-    "evm-http-jsonrpc": [
-      {
+    "evm-http-jsonrpc": [{
         address: 'https://sentry.evm.rpc.routerprotocol.com',
         provider: 'Router'
-      },
-      {
-        address: 'https://router-rpc-evm.genznodes.dev',
-        provider: 'genznodes'
-      },
-      {
+      }, {
         address: 'https://routerchain_mainnet_evm.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
-      }
-    ]
+      }]
   },
   explorers: [
     {

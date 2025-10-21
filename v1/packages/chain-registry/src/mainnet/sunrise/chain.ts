@@ -163,6 +163,10 @@ const info: Chain = {
       {
         address: 'https://rpc-sunrice.batana.space',
         provider: 'batana'
+      },
+      {
+        address: 'https://rpc-sunrise.gombezzz.xyz',
+        provider: 'GombezzZ'
       }
     ],
     rest: [
@@ -269,6 +273,10 @@ const info: Chain = {
       {
         address: 'https://api-sunrice.batana.space',
         provider: 'batana'
+      },
+      {
+        address: 'https://api-sunrise.gombezzz.xyz',
+        provider: 'GombezzZ'
       }
     ],
     grpc: [
@@ -321,7 +329,7 @@ const info: Chain = {
         provider: 'Blockval'
       },
       {
-        address: 'https://sunrise-grpc.onenov.xyz:9193',
+        address: 'https://sunrise-grpc.onenov.xyz:443',
         provider: 'OneNov'
       },
       {
@@ -359,6 +367,10 @@ const info: Chain = {
       {
         address: 'grpc-sunrice.batana.space:443',
         provider: 'batana'
+      },
+      {
+        address: 'grpc-sunrise.gombezzz.xyz:443',
+        provider: 'GombezzZ'
       }
     ]
   },
@@ -493,6 +505,12 @@ const info: Chain = {
       url: 'https://explorer.batana.space/sunrise-mainnet',
       tx_page: 'https://explorer.batana.space/sunrise-mainnet/tx/${txHash}',
       account_page: 'https://explorer.batana.space/sunrise-mainnet/${accountAddress}'
+    },
+    {
+      kind: 'GombezzZ explorer',
+      url: 'https://explorer.gombezzz.xyz/sunrise-mainnet',
+      tx_page: 'https://explorer.gombezzz.xyz/sunrise-mainnet/tx/${txHash}',
+      account_page: 'https://explorer.gombezzz.xyz/sunrise-mainnet/${accountAddress}'
     }
   ],
   images: [{

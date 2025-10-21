@@ -12747,6 +12747,43 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'PAXI is the native token of the Paxi blockchain.',
+      denom_units: [{
+          denom: 'ibc/2BDB1A24CECA305FBECD3285D7C4391AE8916B80AB4ED2B1DBFCAECED254D4D1',
+          exponent: 0,
+          aliases: ['upaxi']
+        }, {
+          denom: 'PAXI',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/2BDB1A24CECA305FBECD3285D7C4391AE8916B80AB4ED2B1DBFCAECED254D4D1',
+      name: 'Paxi',
+      display: 'PAXI',
+      symbol: 'PAXI',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/paxi/images/paxi.png',
+          theme: {
+            circle: false
+          }
+        }],
+      keywords: ['staking'],
+      socials: {
+        website: 'https://paxinet.io'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'upaxi',
+            chain_name: 'paxi'
+          },
+          chain: {
+            channel_id: 'channel-107354'
+          }
+        }]
+    },
+    {
       description: 'The native token of Penumbra.',
       denom_units: [{
           denom: 'ibc/0FA9232B262B89E77D1335D54FB1E1F506A92A7E4B51524B400DC69C68D28372',
@@ -22835,6 +22872,43 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-2494'
+          }
+        }]
+    },
+    {
+      description: 'PAXI is the native token of the Paxi blockchain.',
+      denom_units: [{
+          denom: 'ibc/2BDB1A24CECA305FBECD3285D7C4391AE8916B80AB4ED2B1DBFCAECED254D4D1',
+          exponent: 0,
+          aliases: ['upaxi']
+        }, {
+          denom: 'PAXI',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/2BDB1A24CECA305FBECD3285D7C4391AE8916B80AB4ED2B1DBFCAECED254D4D1',
+      name: 'Paxi',
+      display: 'PAXI',
+      symbol: 'PAXI',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/paxi/images/paxi.png',
+          theme: {
+            circle: false
+          }
+        }],
+      keywords: ['staking'],
+      socials: {
+        website: 'https://paxinet.io'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'upaxi',
+            chain_name: 'paxi'
+          },
+          chain: {
+            channel_id: 'channel-107354'
           }
         }]
     },

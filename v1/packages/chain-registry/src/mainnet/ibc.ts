@@ -118,6 +118,7 @@ import * as _oraichain from './oraichain';
 import * as _osmosis from './osmosis';
 import * as _panacea from './panacea';
 import * as _passage from './passage';
+import * as _paxi from './paxi';
 import * as _persistence from './persistence';
 import * as _planq from './planq';
 import * as _point from './point';
@@ -291,6 +292,7 @@ const ibc: IBCInfo[] = [
   ..._osmosis.ibc,
   ..._panacea.ibc,
   ..._passage.ibc,
+  ..._paxi.ibc,
   ..._persistence.ibc,
   ..._planq.ibc,
   ..._point.ibc,

@@ -89,10 +89,6 @@ const info: Chain = {
         provider: 'Roomit'
       },
       {
-        address: 'https://planq-rpc.genznodes.dev',
-        provider: 'genznodes'
-      },
-      {
         address: 'https://planq.rpc.skynodejs.net',
         provider: 'skynodejs'
       },
@@ -133,10 +129,6 @@ const info: Chain = {
       {
         address: 'https://api.planq.roomit.xyz',
         provider: 'Roomit'
-      },
-      {
-        address: 'https://planq-api.genznodes.dev',
-        provider: 'genznodes'
       },
       {
         address: 'https://planq.api.skynodejs.net',
@@ -193,10 +185,6 @@ const info: Chain = {
         provider: 'Hexnodes'
       },
       {
-        address: 'planq-grpc.genznodes.dev:28090',
-        provider: 'genznodes'
-      },
-      {
         address: 'https://planq.grpc.skynodejs.net',
         provider: 'skynodejs'
       },
@@ -225,10 +213,6 @@ const info: Chain = {
       {
         address: 'https://jsonrpc.planq.nodexcapital.com',
         provider: 'NodeX Validator'
-      },
-      {
-        address: 'https://planq-rpc-evm.genznodes.dev',
-        provider: 'genznodes'
       },
       {
         address: 'https://planq-jsonrpc.stake-town.com',

@@ -4948,6 +4948,43 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'PAXI is the native token of the Paxi blockchain.',
+      denom_units: [{
+          denom: 'ibc/9AB9994A232592CCAE28FF4ADA5FF2C62B58C13595372C906EB45999694F0A4E',
+          exponent: 0,
+          aliases: ['upaxi']
+        }, {
+          denom: 'PAXI',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/9AB9994A232592CCAE28FF4ADA5FF2C62B58C13595372C906EB45999694F0A4E',
+      name: 'Paxi',
+      display: 'PAXI',
+      symbol: 'PAXI',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/paxi/images/paxi.png',
+          theme: {
+            circle: false
+          }
+        }],
+      keywords: ['staking'],
+      socials: {
+        website: 'https://paxinet.io'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'upaxi',
+            chain_name: 'paxi'
+          },
+          chain: {
+            channel_id: 'channel-1566'
+          }
+        }]
+    },
+    {
       description: 'Persistence One is building a Bitcoin Cross-chain Swaps solution, enabling fast, zero-slippage secure swaps across Bitcoin Layer 2s.',
       denom_units: [{
           denom: 'ibc/81D08BC39FB520EBD948CF017910DD69702D34BF5AC160F76D3B5CFC444EBCE0',
@@ -15539,6 +15576,43 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-141'
+          }
+        }]
+    },
+    {
+      description: 'PAXI is the native token of the Paxi blockchain.',
+      denom_units: [{
+          denom: 'ibc/9AB9994A232592CCAE28FF4ADA5FF2C62B58C13595372C906EB45999694F0A4E',
+          exponent: 0,
+          aliases: ['upaxi']
+        }, {
+          denom: 'PAXI',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/9AB9994A232592CCAE28FF4ADA5FF2C62B58C13595372C906EB45999694F0A4E',
+      name: 'Paxi',
+      display: 'PAXI',
+      symbol: 'PAXI',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/paxi/images/paxi.png',
+          theme: {
+            circle: false
+          }
+        }],
+      keywords: ['staking'],
+      socials: {
+        website: 'https://paxinet.io'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'upaxi',
+            chain_name: 'paxi'
+          },
+          chain: {
+            channel_id: 'channel-1566'
           }
         }]
     },
