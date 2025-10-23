@@ -87,6 +87,9 @@ const info: Chain = {
     'RWA',
     'stablecoins',
     'kii'
-  ]
+  ],
+  images: [{
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/kiiorotestnet/images/kii_oro.png'
+    }]
 };
 export default info;
