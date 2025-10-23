@@ -1436,6 +1436,66 @@ const info: AssetList = {
           },
           provider: 'ERIS Protocol'
         }]
+    },
+    {
+      description: 'PAX Gold bridged via Eureka on Cosmos Hub and relayed to Terra (phoenix-1) over IBC.',
+      denomUnits: [
+        {
+          denom: 'ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62',
+          exponent: 0,
+          aliases: ['attopaxg', 'apaxg']
+        },
+        {
+          denom: 'paxg',
+          exponent: 18
+        },
+        {
+          denom: 'paxg.atom',
+          exponent: 18
+        }
+      ],
+      typeAsset: 'ics20',
+      base: 'ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62',
+      name: 'Eureka Bridged PAX Gold (Terra)',
+      display: 'paxg.atom',
+      symbol: 'PAXG.ATOM',
+      traces: [{
+          type: 'ibc-bridge',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x45804880De22913dAFE09f4980848ECE6EcbAf78',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: '08-wasm-1369',
+            path: 'transfer/08-wasm-1369/0x45804880de22913dafe09f4980848ece6ecbaf78'
+          },
+          provider: 'Eureka'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'cosmoshub',
+            baseDenom: 'ibc/09E95F57939E344EE36109AC41780B8A51F1FE0548A5203C5957674FF64C0F26',
+            channelId: 'channel-339'
+          },
+          chain: {
+            channelId: 'channel-0',
+            path: 'transfer/channel-0/transfer/08-wasm-1369/0x45804880de22913dafe09f4980848ece6ecbaf78'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x45804880De22913dAFE09f4980848ECE6EcbAf78'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png'
+        }],
+      coingeckoId: 'eureka-bridged-pax-gold-terra'
     }
   ]
 };
