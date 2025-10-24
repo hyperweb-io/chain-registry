@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'agoricdevnet',
+      chainId: 'agoricdev-25',
       clientId: '07-tendermint-16',
       connectionId: 'connection-16'
     },
     chain2: {
       chainName: 'elystestnet',
+      chainId: 'elysicstestnet-1',
       clientId: '07-tendermint-17',
       connectionId: 'connection-10'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'cosmoshubtestnet',
+      chainId: 'theta-testnet-001',
       clientId: '07-tendermint-2522',
       connectionId: 'connection-2881'
     },
     chain2: {
       chainName: 'elystestnet',
+      chainId: 'elysicstestnet-1',
       clientId: '07-tendermint-19',
       connectionId: 'connection-17'
     },
@@ -61,11 +65,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'elystestnet',
+      chainId: 'elysicstestnet-1',
       clientId: '07-tendermint-9',
       connectionId: 'connection-12'
     },
     chain2: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-28',
       connectionId: 'connection-26'
     },
@@ -89,11 +95,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'elystestnet',
+      chainId: 'elysicstestnet-1',
       clientId: '07-tendermint-118',
       connectionId: 'connection-80'
     },
     chain2: {
       chainName: 'prysmdevnet',
+      chainId: 'prysm-devnet-1',
       clientId: '07-tendermint-21',
       connectionId: 'connection-14'
     },
@@ -114,11 +122,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'elystestnet',
+      chainId: 'elysicstestnet-1',
       clientId: '07-tendermint-13',
       connectionId: 'connection-9'
     },
     chain2: {
       chainName: 'xrplevmtestnet',
+      chainId: 'xrplevm_1449000-1',
       clientId: '07-tendermint-15',
       connectionId: 'connection-3'
     },

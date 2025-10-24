@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-1001',
       connectionId: 'connection-780'
     },
     chain2: {
       chainName: 'titantestnet',
+      chainId: 'titan_18889-1',
       clientId: '07-tendermint-6',
       connectionId: 'connection-4'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'cosmoshubtestnet',
+      chainId: 'theta-testnet-001',
       clientId: '07-tendermint-3237',
       connectionId: 'connection-3407'
     },
     chain2: {
       chainName: 'titantestnet',
+      chainId: 'titan_18889-1',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-293',
       connectionId: 'connection-246'
     },
     chain2: {
       chainName: 'titantestnet',
+      chainId: 'titan_18889-1',
       clientId: '07-tendermint-9',
       connectionId: 'connection-7'
     },
@@ -91,11 +97,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-2436',
       connectionId: 'connection-2267'
     },
     chain2: {
       chainName: 'titantestnet',
+      chainId: 'titan_18889-1',
       clientId: '07-tendermint-2',
       connectionId: 'connection-2'
     },
@@ -120,11 +128,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'stargazetestnet',
+      chainId: 'elgafar-1',
       clientId: '07-tendermint-764',
       connectionId: 'connection-753'
     },
     chain2: {
       chainName: 'titantestnet',
+      chainId: 'titan_18889-1',
       clientId: '07-tendermint-3',
       connectionId: 'connection-3'
     },

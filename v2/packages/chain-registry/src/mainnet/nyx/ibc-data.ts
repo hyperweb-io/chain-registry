@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'axelar',
+      chainId: 'axelar-dojo-1',
       clientId: '07-tendermint-246',
       connectionId: 'connection-235'
     },
     chain2: {
       chainName: 'nyx',
+      chainId: 'nyx',
       clientId: '07-tendermint-21',
       connectionId: 'connection-11'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-33',
       connectionId: 'connection-44'
     },
     chain2: {
       chainName: 'nyx',
+      chainId: 'nyx',
       clientId: '07-tendermint-1',
       connectionId: 'connection-0'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'namada',
+      chainId: 'namada.5f5de2dd1b88cba30586420',
       clientId: '07-tendermint-10',
       connectionId: 'connection-7'
     },
     chain2: {
       chainName: 'nyx',
+      chainId: 'nyx',
       clientId: '07-tendermint-20',
       connectionId: 'connection-10'
     },
@@ -87,11 +93,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'nyx',
+      chainId: 'nyx',
       clientId: '07-tendermint-17',
       connectionId: 'connection-8'
     },
     chain2: {
       chainName: 'osmosis',
+      chainId: 'osmosis-1',
       clientId: '07-tendermint-3065',
       connectionId: 'connection-2555'
     },
@@ -116,11 +124,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'nyx',
+      chainId: 'nyx',
       clientId: '07-tendermint-19',
       connectionId: 'connection-9'
     },
     chain2: {
       chainName: 'secretnetwork',
+      chainId: 'secret-4',
       clientId: '07-tendermint-213',
       connectionId: 'connection-203'
     },

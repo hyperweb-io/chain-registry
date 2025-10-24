@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'acrechain',
+      chainId: 'acre_9052-1',
       clientId: '07-tendermint-7',
       connectionId: 'connection-7'
     },
     chain2: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-201',
       connectionId: 'connection-175'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'agoric',
+      chainId: 'agoric-3',
       clientId: '07-tendermint-4',
       connectionId: 'connection-7'
     },
     chain2: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-173',
       connectionId: 'connection-154'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'archway',
+      chainId: 'archway-1',
       clientId: '07-tendermint-40',
       connectionId: 'connection-43'
     },
     chain2: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-424',
       connectionId: 'connection-406'
     },
@@ -90,11 +96,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'canto',
+      chainId: 'canto_7700-1',
       clientId: '07-tendermint-0',
       connectionId: '07-tendermint-0'
     },
     chain2: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-156',
       connectionId: 'connection-150'
     },
@@ -119,11 +127,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'cheqd',
+      chainId: 'cheqd-mainnet-1',
       clientId: '07-tendermint-13',
       connectionId: 'connection-2'
     },
     chain2: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-64',
       connectionId: 'connection-74'
     },
@@ -148,11 +158,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'coreum',
+      chainId: 'coreum-mainnet-1',
       clientId: '07-tendermint-8',
       connectionId: 'connection-8'
     },
     chain2: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-421',
       connectionId: 'connection-399'
     },
@@ -177,11 +189,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'crescent',
+      chainId: 'crescent-1',
       clientId: '07-tendermint-4',
       connectionId: 'connection-2'
     },
     chain2: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-100',
       connectionId: 'connection-102'
     },
@@ -206,11 +220,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'evmos',
+      chainId: 'evmos_9001-2',
       clientId: '07-tendermint-17',
       connectionId: 'connection-11'
     },
     chain2: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-108',
       connectionId: 'connection-106'
     },
@@ -235,11 +251,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-192',
       connectionId: 'connection-163'
     },
     chain2: {
       chainName: 'haqq',
+      chainId: 'haqq_11235-1',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
@@ -264,11 +282,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-225',
       connectionId: 'connection-189'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-69',
       connectionId: 'connection-45'
     },
@@ -293,11 +313,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-33',
       connectionId: 'connection-44'
     },
     chain2: {
       chainName: 'nyx',
+      chainId: 'nyx',
       clientId: '07-tendermint-1',
       connectionId: 'connection-0'
     },
@@ -322,11 +344,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-13',
       connectionId: 'connection-13'
     },
     chain2: {
       chainName: 'osmosis',
+      chainId: 'osmosis-1',
       clientId: '07-tendermint-1737',
       connectionId: 'connection-1340'
     },
@@ -351,11 +375,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-39',
       connectionId: 'connection-50'
     },
     chain2: {
       chainName: 'persistence',
+      chainId: 'core-1',
       clientId: '07-tendermint-51',
       connectionId: 'connection-49'
     },
@@ -376,11 +402,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-195',
       connectionId: 'connection-165'
     },
     chain2: {
       chainName: 'planq',
+      chainId: 'planq_7070-2',
       clientId: '07-tendermint-1',
       connectionId: 'connection-0'
     },
@@ -405,11 +433,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-140',
       connectionId: 'connection-139'
     },
     chain2: {
       chainName: 'secretnetwork',
+      chainId: 'secret-4',
       clientId: '07-tendermint-40',
       connectionId: 'connection-23'
     },
@@ -449,11 +479,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-190',
       connectionId: 'connection-161'
     },
     chain2: {
       chainName: 'unification',
+      chainId: 'FUND-MainNet-2',
       clientId: '07-tendermint-4',
       connectionId: 'connection-4'
     },

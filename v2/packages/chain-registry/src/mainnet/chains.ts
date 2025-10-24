@@ -2,6 +2,7 @@ import { Chain } from '@chain-registry/types';
 
 import * as _ethereum from './ethereum';
 import * as _namada from './namada';
+import * as _penumbra from './penumbra';
 import * as _rootstock from './rootstock';
 import * as _solana from './solana';
 import * as _ton from './ton';
@@ -224,6 +225,7 @@ import * as _zigchain from './zigchain';
 const chains: Chain[] = [
   _ethereum.chain,
   _namada.chain,
+  _penumbra.chain,
   _rootstock.chain,
   _solana.chain,
   _ton.chain,

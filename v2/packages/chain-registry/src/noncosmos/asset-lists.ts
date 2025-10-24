@@ -1,8 +1,5 @@
 import { AssetList } from '@chain-registry/types';
 
-import * as _picasso from './picasso';
-import * as _composablepolkadot from './composablepolkadot';
-import * as _penumbra from './penumbra';
 import * as _0l from './0l';
 import * as _aptos from './aptos';
 import * as _arbitrum from './arbitrum';
@@ -53,9 +50,6 @@ import * as _ojotestnet from './ojotestnet';
 import * as _tsc from './tsc';
 
 const assetList: AssetList[] = [
-  _picasso.assetList,
-  _composablepolkadot.assetList,
-  _penumbra.assetList,
   _0l.assetList,
   _aptos.assetList,
   _arbitrum.assetList,

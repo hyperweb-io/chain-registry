@@ -4,6 +4,7 @@ const info: Chain = {
   chainName: 'solana',
   chainType: 'solana',
   status: 'live',
+  chainId: '101',
   website: 'https://solana.com/',
   networkType: 'mainnet',
   prettyName: 'Solana Mainnet Beta',

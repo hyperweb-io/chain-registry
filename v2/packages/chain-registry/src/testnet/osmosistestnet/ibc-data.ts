@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'agoricdevnet',
+      chainId: 'agoricdev-25',
       clientId: '07-tendermint-6',
       connectionId: 'connection-6'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-4596',
       connectionId: 'connection-3957'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'akashtestnet1',
+      chainId: 'sandbox-01',
       clientId: '07-tendermint-6',
       connectionId: 'connection-6'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-1271',
       connectionId: 'connection-1171'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'archwaytestnet',
+      chainId: 'constantine-3',
       clientId: '07-tendermint-121',
       connectionId: 'connection-120'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-3459',
       connectionId: 'connection-3027'
     },
@@ -122,11 +128,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-685',
       connectionId: 'connection-538'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-1270',
       connectionId: 'connection-1169'
     },
@@ -151,11 +159,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'babylontestnet',
+      chainId: 'bbn-test-5',
       clientId: '07-tendermint-31',
       connectionId: 'connection-29'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-4636',
       connectionId: 'connection-3994'
     },
@@ -195,11 +205,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'celestiatestnet3',
+      chainId: 'mocha-4',
       clientId: '07-tendermint-118',
       connectionId: 'connection-98'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-1445',
       connectionId: 'connection-1350'
     },
@@ -224,11 +236,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'chain4energytestnet',
+      chainId: 'babajaga-1',
       clientId: '07-tendermint-18',
       connectionId: 'connection-5'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-3393',
       connectionId: 'connection-2989'
     },
@@ -253,11 +267,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'composabletestnet',
+      chainId: 'banksy-testnet-3',
       clientId: '07-tendermint-23',
       connectionId: 'connection-18'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-273',
       connectionId: 'connection-237'
     },
@@ -282,11 +298,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'coreumtestnet',
+      chainId: 'coreum-testnet-1',
       clientId: '07-tendermint-104',
       connectionId: 'connection-69'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-3529',
       connectionId: 'connection-3094'
     },
@@ -311,11 +329,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'cosmoshubtestnet',
+      chainId: 'theta-testnet-001',
       clientId: '07-tendermint-2528',
       connectionId: 'connection-2886'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-1262',
       connectionId: 'connection-1157'
     },
@@ -340,11 +360,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'doravotatestnet',
+      chainId: 'vota-testnet',
       clientId: '07-tendermint-2',
       connectionId: 'connection-3'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-2',
       connectionId: 'connection-611'
     },
@@ -369,11 +391,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'empowertestnet',
+      chainId: 'circulus-1',
       clientId: '07-tendermint-1',
       connectionId: 'connection-0'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-146',
       connectionId: 'connection-157'
     },
@@ -398,11 +422,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'entrypointtestnet',
+      chainId: 'entrypoint-pubtest-2',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-930',
       connectionId: 'connection-840'
     },
@@ -427,11 +453,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'hippoprotocoltestnet',
+      chainId: 'hippo-protocol-testnet-1',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-4754',
       connectionId: 'connection-4185'
     },
@@ -456,11 +484,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'impacthubtestnet',
+      chainId: 'pandora-8',
       clientId: '07-tendermint-53',
       connectionId: 'connection-23'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-1010',
       connectionId: 'connection-911'
     },
@@ -485,11 +515,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'injectivetestnet',
+      chainId: 'injective-888',
       clientId: '07-tendermint-305',
       connectionId: 'connection-272'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-4379',
       connectionId: 'connection-3814'
     },
@@ -514,11 +546,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'int3facetestnet',
+      chainId: 'int3-test-2',
       clientId: '07-tendermint-3',
       connectionId: 'connection-3'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-4231',
       connectionId: 'connection-3694'
     },
@@ -543,11 +577,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'junotestnet6',
+      chainId: 'uni-6',
       clientId: '07-tendermint-743',
       connectionId: 'connection-827'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-1932',
       connectionId: 'connection-1889'
     },
@@ -572,11 +608,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'kimanetworktestnet',
+      chainId: 'kima_testnet',
       clientId: '07-tendermint-2',
       connectionId: 'connection-2'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-4135',
       connectionId: 'connection-3592'
     },
@@ -601,11 +639,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'kyvetestnet',
+      chainId: 'kaon-1',
       clientId: '07-tendermint-2',
       connectionId: 'connection-2'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-11',
       connectionId: 'connection-11'
     },
@@ -630,11 +670,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'lavatestnet',
+      chainId: 'lava-testnet-2',
       clientId: '07-tendermint-11',
       connectionId: 'connection-11'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-2554',
       connectionId: 'connection-2401'
     },
@@ -659,11 +701,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'likecointestnet',
+      chainId: 'likecoin-public-testnet-5',
       clientId: '07-tendermint-5',
       connectionId: 'connection-2'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-1431',
       connectionId: 'connection-1336'
     },
@@ -688,11 +732,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'lumeratestnet',
+      chainId: 'lumera-testnet-2',
       clientId: '07-tendermint-2',
       connectionId: 'connection-1'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-4899',
       connectionId: 'connection-4268'
     },
@@ -717,11 +763,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'manifesttestnet',
+      chainId: 'manifest-ledger-testnet',
       clientId: '07-tendermint-8',
       connectionId: 'connection-9'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-4456',
       connectionId: 'connection-3898'
     },
@@ -750,11 +798,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'mantrachaintestnet',
+      chainId: 'mantra-hongbai-1',
       clientId: '07-tendermint-5',
       connectionId: 'connection-5'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-3930',
       connectionId: 'connection-3411'
     },
@@ -779,11 +829,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'mantrachaintestnet2',
+      chainId: 'mantra-dukong-1',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-4086',
       connectionId: 'connection-3531'
     },
@@ -808,11 +860,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'marstestnet',
+      chainId: 'ares-1',
       clientId: '07-tendermint-33',
       connectionId: 'connection-30'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-1933',
       connectionId: 'connection-1890'
     },
@@ -837,11 +891,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'neutrontestnet',
+      chainId: 'pion-1',
       clientId: '07-tendermint-133',
       connectionId: 'connection-123'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-1272',
       connectionId: 'connection-1172'
     },
@@ -866,11 +922,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-42',
       connectionId: 'connection-31'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-1374',
       connectionId: 'connection-1275'
     },
@@ -894,11 +952,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'nolustestnet',
+      chainId: 'rila-3',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-3711',
       connectionId: 'connection-3235'
     },
@@ -923,11 +983,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'nolustestnet1',
+      chainId: 'rila-1',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-102',
       connectionId: 'connection-120'
     },
@@ -952,11 +1014,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-595',
       connectionId: 'connection-529'
     },
     chain2: {
       chainName: 'persistencetestnet2',
+      chainId: 'test-core-2',
       clientId: '07-tendermint-3',
       connectionId: 'connection-2'
     },
@@ -981,11 +1045,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-19',
       connectionId: 'connection-14'
     },
     chain2: {
       chainName: 'quicksilvertestnet2',
+      chainId: 'rhye-2',
       clientId: '07-tendermint-6',
       connectionId: 'connection-4'
     },
@@ -1010,11 +1076,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-1448',
       connectionId: 'connection-1552'
     },
     chain2: {
       chainName: 'sagatestnet',
+      chainId: 'ssc-testnet-2',
       clientId: '07-tendermint-26',
       connectionId: 'connection-21'
     },
@@ -1039,11 +1107,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-965',
       connectionId: 'connection-865'
     },
     chain2: {
       chainName: 'sgetestnet',
+      chainId: 'sge-network-3',
       clientId: '07-tendermint-1',
       connectionId: 'connection-1'
     },
@@ -1068,11 +1138,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-1274',
       connectionId: 'connection-1175'
     },
     chain2: {
       chainName: 'stargazetestnet',
+      chainId: 'elgafar-1',
       clientId: '07-tendermint-621',
       connectionId: 'connection-633'
     },
@@ -1097,11 +1169,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-3714',
       connectionId: 'connection-3238'
     },
     chain2: {
       chainName: 'swisstroniktestnet',
+      chainId: 'swisstronik_1291-1',
       clientId: '07-tendermint-31',
       connectionId: 'connection-18'
     },
@@ -1126,11 +1200,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-4155',
       connectionId: 'connection-3614'
     },
     chain2: {
       chainName: 'symphonytestnet',
+      chainId: 'symphony-testnet-4',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
@@ -1155,11 +1231,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-4093',
       connectionId: 'connection-3540'
     },
     chain2: {
       chainName: 'synternettestnet',
+      chainId: 'amber-2',
       clientId: '07-tendermint-3',
       connectionId: 'connection-0'
     },
@@ -1199,11 +1277,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-4301',
       connectionId: 'connection-3765'
     },
     chain2: {
       chainName: 'titannettestnet',
+      chainId: 'titan-test-4',
       clientId: '07-tendermint-7',
       connectionId: 'connection-5'
     },
@@ -1228,11 +1308,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-2436',
       connectionId: 'connection-2267'
     },
     chain2: {
       chainName: 'titantestnet',
+      chainId: 'titan_18889-1',
       clientId: '07-tendermint-2',
       connectionId: 'connection-2'
     },
@@ -1257,11 +1339,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-3125',
       connectionId: 'connection-2826'
     },
     chain2: {
       chainName: 'xiontestnet1',
+      chainId: 'xion-testnet-1',
       clientId: '07-tendermint-121',
       connectionId: 'connection-57'
     },
@@ -1285,11 +1369,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-4492',
       connectionId: 'connection-3926'
     },
     chain2: {
       chainName: 'xiontestnet2',
+      chainId: 'xion-testnet-2',
       clientId: '07-tendermint-2',
       connectionId: 'connection-2'
     },
@@ -1328,11 +1414,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-4629',
       connectionId: 'connection-3984'
     },
     chain2: {
       chainName: 'xrplevmtestnet',
+      chainId: 'xrplevm_1449000-1',
       clientId: '07-tendermint-10',
       connectionId: 'connection-2'
     },

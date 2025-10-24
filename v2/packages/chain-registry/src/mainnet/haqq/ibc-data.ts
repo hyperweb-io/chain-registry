@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'axelar',
+      chainId: 'axelar-dojo-1',
       clientId: '07-tendermint-162',
       connectionId: 'connection-148'
     },
     chain2: {
       chainName: 'haqq',
+      chainId: 'haqq_11235-1',
       clientId: '07-tendermint-1',
       connectionId: 'connection-1'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'cosmoshub',
+      chainId: 'cosmoshub-4',
       clientId: '07-tendermint-1153',
       connectionId: 'connection-874'
     },
     chain2: {
       chainName: 'haqq',
+      chainId: 'haqq_11235-1',
       clientId: '07-tendermint-2',
       connectionId: 'connection-3'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-192',
       connectionId: 'connection-163'
     },
     chain2: {
       chainName: 'haqq',
+      chainId: 'haqq_11235-1',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
@@ -91,11 +97,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'haqq',
+      chainId: 'haqq_11235-1',
       clientId: '07-tendermint-5',
       connectionId: 'connection-7'
     },
     chain2: {
       chainName: 'kava',
+      chainId: 'kava_2222-10',
       clientId: '07-tendermint-149',
       connectionId: 'connection-193'
     },
@@ -120,11 +128,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'haqq',
+      chainId: 'haqq_11235-1',
       clientId: '07-tendermint-4',
       connectionId: 'connection-4'
     },
     chain2: {
       chainName: 'noble',
+      chainId: 'noble-1',
       clientId: '07-tendermint-58',
       connectionId: 'connection-56'
     },
@@ -149,11 +159,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'haqq',
+      chainId: 'haqq_11235-1',
       clientId: '07-tendermint-3',
       connectionId: 'connection-2'
     },
     chain2: {
       chainName: 'osmosis',
+      chainId: 'osmosis-1',
       clientId: '07-tendermint-2871',
       connectionId: 'connection-2388'
     },
@@ -178,11 +190,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'haqq',
+      chainId: 'haqq_11235-1',
       clientId: '07-tendermint-6',
       connectionId: 'connection-8'
     },
     chain2: {
       chainName: 'stride',
+      chainId: 'stride-1',
       clientId: '07-tendermint-143',
       connectionId: 'connection-143'
     },

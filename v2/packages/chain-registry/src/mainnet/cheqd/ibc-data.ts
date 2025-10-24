@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'cheqd',
+      chainId: 'cheqd-mainnet-1',
       clientId: '07-tendermint-13',
       connectionId: 'connection-2'
     },
     chain2: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-64',
       connectionId: 'connection-74'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'cheqd',
+      chainId: 'cheqd-mainnet-1',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
     chain2: {
       chainName: 'osmosis',
+      chainId: 'osmosis-1',
       clientId: '07-tendermint-1615',
       connectionId: 'connection-1268'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'cheqd',
+      chainId: 'cheqd-mainnet-1',
       clientId: '07-tendermint-85',
       connectionId: 'connection-63'
     },
     chain2: {
       chainName: 'secretnetwork',
+      chainId: 'secret-4',
       clientId: '07-tendermint-196',
       connectionId: 'connection-191'
     },
@@ -92,11 +98,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'cheqd',
+      chainId: 'cheqd-mainnet-1',
       clientId: '07-tendermint-83',
       connectionId: 'connection-61'
     },
     chain2: {
       chainName: 'terra2',
+      chainId: 'phoenix-1',
       clientId: '07-tendermint-392',
       connectionId: 'connection-382'
     },

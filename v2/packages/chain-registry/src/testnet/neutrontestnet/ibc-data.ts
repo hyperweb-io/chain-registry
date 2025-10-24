@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'agoricdevnet',
+      chainId: 'agoricdev-25',
       clientId: '07-tendermint-128',
       connectionId: 'connection-82'
     },
     chain2: {
       chainName: 'neutrontestnet',
+      chainId: 'pion-1',
       clientId: '07-tendermint-553',
       connectionId: 'connection-474'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'babylontestnet',
+      chainId: 'bbn-test-5',
       clientId: '07-tendermint-2',
       connectionId: 'connection-2'
     },
     chain2: {
       chainName: 'neutrontestnet',
+      chainId: 'pion-1',
       clientId: '07-tendermint-582',
       connectionId: 'connection-522'
     },
@@ -61,11 +65,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'neutrontestnet',
+      chainId: 'pion-1',
       clientId: '07-tendermint-191',
       connectionId: 'connection-156'
     },
     chain2: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-70',
       connectionId: 'connection-61'
     },
@@ -89,11 +95,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'neutrontestnet',
+      chainId: 'pion-1',
       clientId: '07-tendermint-102',
       connectionId: 'connection-93'
     },
     chain2: {
       chainName: 'noistestnet',
+      chainId: 'nois-testnet-005',
       clientId: '07-tendermint-30',
       connectionId: 'connection-17'
     },
@@ -133,11 +141,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'neutrontestnet',
+      chainId: 'pion-1',
       clientId: '07-tendermint-338',
       connectionId: 'connection-237'
     },
     chain2: {
       chainName: 'nolustestnet',
+      chainId: 'rila-3',
       clientId: '07-tendermint-1',
       connectionId: 'connection-1'
     },
@@ -161,11 +171,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'neutrontestnet',
+      chainId: 'pion-1',
       clientId: '07-tendermint-143',
       connectionId: 'connection-130'
     },
     chain2: {
       chainName: 'nolustestnet1',
+      chainId: 'rila-1',
       clientId: '07-tendermint-2',
       connectionId: 'connection-1'
     },
@@ -189,11 +201,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'neutrontestnet',
+      chainId: 'pion-1',
       clientId: '07-tendermint-133',
       connectionId: 'connection-123'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-1272',
       connectionId: 'connection-1172'
     },

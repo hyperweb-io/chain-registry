@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'evmos',
+      chainId: 'evmos_9001-2',
       clientId: '07-tendermint-119',
       connectionId: 'connection-77'
     },
     chain2: {
       chainName: 'gateway',
+      chainId: 'wormchain',
       clientId: '07-tendermint-10',
       connectionId: 'connection-6'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gateway',
+      chainId: 'wormchain',
       clientId: '07-tendermint-18',
       connectionId: 'connection-13'
     },
     chain2: {
       chainName: 'injective',
+      chainId: 'injective-1',
       clientId: '07-tendermint-248',
       connectionId: 'connection-241'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gateway',
+      chainId: 'wormchain',
       clientId: '07-tendermint-13',
       connectionId: 'connection-9'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-153',
       connectionId: 'connection-117'
     },
@@ -91,11 +97,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gateway',
+      chainId: 'wormchain',
       clientId: '07-tendermint-21',
       connectionId: 'connection-16'
     },
     chain2: {
       chainName: 'noble',
+      chainId: 'noble-1',
       clientId: '07-tendermint-143',
       connectionId: 'connection-137'
     },
@@ -119,11 +127,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gateway',
+      chainId: 'wormchain',
       clientId: '07-tendermint-8',
       connectionId: 'connection-4'
     },
     chain2: {
       chainName: 'osmosis',
+      chainId: 'osmosis-1',
       clientId: '07-tendermint-2927',
       connectionId: 'connection-2424'
     },
@@ -148,11 +158,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gateway',
+      chainId: 'wormchain',
       clientId: '07-tendermint-16',
       connectionId: 'connection-12'
     },
     chain2: {
       chainName: 'stargaze',
+      chainId: 'stargaze-1',
       clientId: '07-tendermint-354',
       connectionId: 'connection-290'
     },

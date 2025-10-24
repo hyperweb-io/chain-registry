@@ -3,11 +3,13 @@ const info: IBCData[] = [{
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'bostrom',
+      chainId: 'bostrom',
       clientId: '07-tendermint-15',
       connectionId: 'connection-10'
     },
     chain2: {
       chainName: 'cosmoshub',
+      chainId: 'cosmoshub-4',
       clientId: '07-tendermint-764',
       connectionId: 'connection-553'
     },
@@ -31,11 +33,13 @@ const info: IBCData[] = [{
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'bostrom',
+      chainId: 'bostrom',
       clientId: '07-tendermint-5',
       connectionId: 'connection-2'
     },
     chain2: {
       chainName: 'osmosis',
+      chainId: 'osmosis-1',
       clientId: '07-tendermint-1597',
       connectionId: 'connection-1255'
     },

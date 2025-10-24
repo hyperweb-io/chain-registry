@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'empowertestnet',
+      chainId: 'circulus-1',
       clientId: '07-tendermint-2',
       connectionId: 'connection-1'
     },
     chain2: {
       chainName: 'stargazetestnet',
+      chainId: 'elgafar-1',
       clientId: '07-tendermint-450',
       connectionId: 'connection-469'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'noistestnet',
+      chainId: 'nois-testnet-005',
       clientId: '07-tendermint-39',
       connectionId: 'connection-23'
     },
     chain2: {
       chainName: 'stargazetestnet',
+      chainId: 'elgafar-1',
       clientId: '07-tendermint-483',
       connectionId: 'connection-500'
     },
@@ -77,11 +81,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-1274',
       connectionId: 'connection-1175'
     },
     chain2: {
       chainName: 'stargazetestnet',
+      chainId: 'elgafar-1',
       clientId: '07-tendermint-621',
       connectionId: 'connection-633'
     },
@@ -106,11 +112,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'prysmdevnet',
+      chainId: 'prysm-devnet-1',
       clientId: '07-tendermint-29',
       connectionId: 'connection-18'
     },
     chain2: {
       chainName: 'stargazetestnet',
+      chainId: 'elgafar-1',
       clientId: '07-tendermint-961',
       connectionId: 'connection-954'
     },
@@ -131,11 +139,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'stargazetestnet',
+      chainId: 'elgafar-1',
       clientId: '07-tendermint-962',
       connectionId: 'connection-955'
     },
     chain2: {
       chainName: 'symphonytestnet',
+      chainId: 'symphony-testnet-4',
       clientId: '07-tendermint-2',
       connectionId: 'connection-2'
     },
@@ -159,11 +169,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'stargazetestnet',
+      chainId: 'elgafar-1',
       clientId: '07-tendermint-764',
       connectionId: 'connection-753'
     },
     chain2: {
       chainName: 'titantestnet',
+      chainId: 'titan_18889-1',
       clientId: '07-tendermint-3',
       connectionId: 'connection-3'
     },

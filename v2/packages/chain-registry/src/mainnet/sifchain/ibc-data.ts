@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'akash',
+      chainId: 'akashnet-2',
       clientId: '07-tendermint-61',
       connectionId: 'connection-36'
     },
     chain2: {
       chainName: 'sifchain',
+      chainId: 'sifchain-1',
       clientId: '07-tendermint-11',
       connectionId: 'connection-2'
     },
@@ -29,11 +31,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'cosmoshub',
+      chainId: 'cosmoshub-4',
       clientId: '07-tendermint-395',
       connectionId: 'connection-347'
     },
     chain2: {
       chainName: 'sifchain',
+      chainId: 'sifchain-1',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
@@ -54,11 +58,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'cryptoorgchain',
+      chainId: 'crypto-org-chain-mainnet-1',
       clientId: '07-tendermint-1103',
       connectionId: 'connection-239'
     },
     chain2: {
       chainName: 'sifchain',
+      chainId: 'sifchain-1',
       clientId: '07-tendermint-20',
       connectionId: 'connection-10'
     },
@@ -79,11 +85,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'impacthub',
+      chainId: 'ixo-5',
       clientId: '07-tendermint-25',
       connectionId: 'connection-25'
     },
     chain2: {
       chainName: 'sifchain',
+      chainId: 'sifchain-1',
       clientId: '07-tendermint-39',
       connectionId: 'connection-18'
     },
@@ -104,11 +112,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'irisnet',
+      chainId: 'irishub-1',
       clientId: '07-tendermint-42',
       connectionId: 'connection-30'
     },
     chain2: {
       chainName: 'sifchain',
+      chainId: 'sifchain-1',
       clientId: '07-tendermint-19',
       connectionId: 'connection-9'
     },
@@ -129,11 +139,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'juno',
+      chainId: 'juno-1',
       clientId: '07-tendermint-9',
       connectionId: 'connection-8'
     },
     chain2: {
       chainName: 'sifchain',
+      chainId: 'sifchain-1',
       clientId: '07-tendermint-37',
       connectionId: 'connection-17'
     },
@@ -154,11 +166,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosis',
+      chainId: 'osmosis-1',
       clientId: '07-tendermint-1484',
       connectionId: 'connection-1159'
     },
     chain2: {
       chainName: 'sifchain',
+      chainId: 'sifchain-1',
       clientId: '07-tendermint-41',
       connectionId: 'connection-20'
     },
@@ -183,11 +197,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'persistence',
+      chainId: 'core-1',
       clientId: '07-tendermint-38',
       connectionId: 'connection-32'
     },
     chain2: {
       chainName: 'sifchain',
+      chainId: 'sifchain-1',
       clientId: '07-tendermint-18',
       connectionId: 'connection-8'
     },
@@ -208,11 +224,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'regen',
+      chainId: 'regen-1',
       clientId: '07-tendermint-73',
       connectionId: 'connection-60'
     },
     chain2: {
       chainName: 'sifchain',
+      chainId: 'sifchain-1',
       clientId: '07-tendermint-31',
       connectionId: 'connection-13'
     },
@@ -233,11 +251,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'secretnetwork',
+      chainId: 'secret-4',
       clientId: '07-tendermint-37',
       connectionId: 'connection-19'
     },
     chain2: {
       chainName: 'sifchain',
+      chainId: 'sifchain-1',
       clientId: '07-tendermint-171',
       connectionId: 'connection-98'
     },
@@ -262,11 +282,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'sentinel',
+      chainId: 'sentinelhub-2',
       clientId: '07-tendermint-84',
       connectionId: 'connection-58'
     },
     chain2: {
       chainName: 'sifchain',
+      chainId: 'sifchain-1',
       clientId: '07-tendermint-9',
       connectionId: 'connection-1'
     },

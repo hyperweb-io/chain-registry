@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'agoricdevnet',
+      chainId: 'agoricdev-25',
       clientId: '07-tendermint-22',
       connectionId: 'connection-19'
     },
     chain2: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-1193',
       connectionId: 'connection-942'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'archwaytestnet',
+      chainId: 'constantine-3',
       clientId: '07-tendermint-70',
       connectionId: 'connection-60'
     },
     chain2: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-603',
       connectionId: 'connection-418'
     },
@@ -61,11 +65,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-1106',
       connectionId: 'connection-862'
     },
     chain2: {
       chainName: 'babylontestnet',
+      chainId: 'bbn-test-5',
       clientId: '07-tendermint-17',
       connectionId: 'connection-15'
     },
@@ -90,11 +96,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-594',
       connectionId: 'connection-410'
     },
     chain2: {
       chainName: 'dydxtestnet',
+      chainId: 'dydx-testnet-4',
       clientId: '07-tendermint-6',
       connectionId: 'connection-4'
     },
@@ -119,11 +127,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-855',
       connectionId: 'connection-659'
     },
     chain2: {
       chainName: 'lavatestnet',
+      chainId: 'lava-testnet-2',
       clientId: '07-tendermint-10',
       connectionId: 'connection-10'
     },
@@ -148,11 +158,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-1090',
       connectionId: 'connection-847'
     },
     chain2: {
       chainName: 'manifesttestnet',
+      chainId: 'manifest-ledger-testnet',
       clientId: '07-tendermint-9',
       connectionId: 'connection-10'
     },
@@ -181,11 +193,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-1009',
       connectionId: 'connection-783'
     },
     chain2: {
       chainName: 'mantrachaintestnet',
+      chainId: 'mantra-hongbai-1',
       clientId: '07-tendermint-7',
       connectionId: 'connection-7'
     },
@@ -210,11 +224,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-685',
       connectionId: 'connection-538'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-1270',
       connectionId: 'connection-1169'
     },
@@ -239,11 +255,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-213',
       connectionId: 'connection-151'
     },
     chain2: {
       chainName: 'osmosistestnet4',
+      chainId: 'osmo-test-4',
       clientId: '07-tendermint-3319',
       connectionId: 'connection-2807'
     },
@@ -268,11 +286,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-522',
       connectionId: 'connection-372'
     },
     chain2: {
       chainName: 'persistencetestnet2',
+      chainId: 'test-core-2',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
@@ -297,11 +317,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-1045',
       connectionId: 'connection-806'
     },
     chain2: {
       chainName: 'prysmdevnet',
+      chainId: 'prysm-devnet-1',
       clientId: '07-tendermint-4',
       connectionId: 'connection-2'
     },
@@ -322,11 +344,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-1047',
       connectionId: 'connection-808'
     },
     chain2: {
       chainName: 'sagatestnet',
+      chainId: 'ssc-testnet-2',
       clientId: '07-tendermint-2',
       connectionId: 'connection-3'
     },
@@ -351,11 +375,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-1001',
       connectionId: 'connection-780'
     },
     chain2: {
       chainName: 'titantestnet',
+      chainId: 'titan_18889-1',
       clientId: '07-tendermint-6',
       connectionId: 'connection-4'
     },
@@ -380,11 +406,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-970',
       connectionId: 'connection-752'
     },
     chain2: {
       chainName: 'xiontestnet1',
+      chainId: 'xion-testnet-1',
       clientId: '07-tendermint-127',
       connectionId: 'connection-64'
     },
@@ -408,11 +436,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-1163',
       connectionId: 'connection-916'
     },
     chain2: {
       chainName: 'zigchaintestnet',
+      chainId: 'zig-test-2',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },

@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'agoric',
+      chainId: 'agoric-3',
       clientId: '07-tendermint-73',
       connectionId: 'connection-67'
     },
     chain2: {
       chainName: 'omniflixhub',
+      chainId: 'omniflixhub-1',
       clientId: '07-tendermint-47',
       connectionId: 'connection-40'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'akash',
+      chainId: 'akashnet-2',
       clientId: '07-tendermint-119',
       connectionId: 'connection-93'
     },
     chain2: {
       chainName: 'omniflixhub',
+      chainId: 'omniflixhub-1',
       clientId: '07-tendermint-42',
       connectionId: 'connection-35'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'archway',
+      chainId: 'archway-1',
       clientId: '07-tendermint-39',
       connectionId: 'connection-42'
     },
     chain2: {
       chainName: 'omniflixhub',
+      chainId: 'omniflixhub-1',
       clientId: '07-tendermint-49',
       connectionId: 'connection-43'
     },
@@ -90,11 +96,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'axelar',
+      chainId: 'axelar-dojo-1',
       clientId: '07-tendermint-122',
       connectionId: 'connection-109'
     },
     chain2: {
       chainName: 'omniflixhub',
+      chainId: 'omniflixhub-1',
       clientId: '07-tendermint-44',
       connectionId: 'connection-37'
     },
@@ -119,11 +127,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'beezee',
+      chainId: 'beezee-1',
       clientId: '07-tendermint-11',
       connectionId: 'connection-5'
     },
     chain2: {
       chainName: 'omniflixhub',
+      chainId: 'omniflixhub-1',
       clientId: '07-tendermint-75',
       connectionId: 'connection-55'
     },
@@ -148,11 +158,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'cosmoshub',
+      chainId: 'cosmoshub-4',
       clientId: '07-tendermint-656',
       connectionId: 'connection-501'
     },
     chain2: {
       chainName: 'omniflixhub',
+      chainId: 'omniflixhub-1',
       clientId: '07-tendermint-23',
       connectionId: 'connection-19'
     },
@@ -177,11 +189,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-108',
       connectionId: 'connection-78'
     },
     chain2: {
       chainName: 'omniflixhub',
+      chainId: 'omniflixhub-1',
       clientId: '07-tendermint-43',
       connectionId: 'connection-36'
     },
@@ -202,11 +216,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'noble',
+      chainId: 'noble-1',
       clientId: '07-tendermint-68',
       connectionId: 'connection-65'
     },
     chain2: {
       chainName: 'omniflixhub',
+      chainId: 'omniflixhub-1',
       clientId: '07-tendermint-51',
       connectionId: 'connection-49'
     },
@@ -231,11 +247,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'omniflixhub',
+      chainId: 'omniflixhub-1',
       clientId: '07-tendermint-8',
       connectionId: 'connection-8'
     },
     chain2: {
       chainName: 'osmosis',
+      chainId: 'osmosis-1',
       clientId: '07-tendermint-1829',
       connectionId: 'connection-1431'
     },
@@ -260,11 +278,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'omniflixhub',
+      chainId: 'omniflixhub-1',
       clientId: '07-tendermint-76',
       connectionId: 'connection-57'
     },
     chain2: {
       chainName: 'quicksilver',
+      chainId: 'quicksilver-2',
       clientId: '07-tendermint-101',
       connectionId: 'connection-66'
     },
@@ -289,11 +309,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'omniflixhub',
+      chainId: 'omniflixhub-1',
       clientId: '07-tendermint-74',
       connectionId: 'connection-54'
     },
     chain2: {
       chainName: 'stargaze',
+      chainId: 'stargaze-1',
       clientId: '07-tendermint-370',
       connectionId: 'connection-328'
     },

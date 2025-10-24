@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'archway',
+      chainId: 'archway-1',
       clientId: '07-tendermint-114',
       connectionId: 'connection-107'
     },
     chain2: {
       chainName: 'beezee',
+      chainId: 'beezee-1',
       clientId: '07-tendermint-8',
       connectionId: 'connection-2'
     },
@@ -32,11 +34,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'atomone',
+      chainId: 'atomone-1',
       clientId: '07-tendermint-1',
       connectionId: 'connection-1'
     },
     chain2: {
       chainName: 'beezee',
+      chainId: 'beezee-1',
       clientId: '07-tendermint-23',
       connectionId: 'connection-6'
     },
@@ -61,11 +65,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'beezee',
+      chainId: 'beezee-1',
       clientId: '07-tendermint-10',
       connectionId: 'connection-4'
     },
     chain2: {
       chainName: 'jackal',
+      chainId: 'jackal-1',
       clientId: '07-tendermint-79',
       connectionId: 'connection-65'
     },
@@ -90,11 +96,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'beezee',
+      chainId: 'beezee-1',
       clientId: '07-tendermint-9',
       connectionId: 'connection-3'
     },
     chain2: {
       chainName: 'noble',
+      chainId: 'noble-1',
       clientId: '07-tendermint-112',
       connectionId: 'connection-107'
     },
@@ -119,11 +127,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'beezee',
+      chainId: 'beezee-1',
       clientId: '07-tendermint-11',
       connectionId: 'connection-5'
     },
     chain2: {
       chainName: 'omniflixhub',
+      chainId: 'omniflixhub-1',
       clientId: '07-tendermint-75',
       connectionId: 'connection-55'
     },
@@ -148,11 +158,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'beezee',
+      chainId: 'beezee-1',
       clientId: '07-tendermint-2',
       connectionId: 'connection-0'
     },
     chain2: {
       chainName: 'osmosis',
+      chainId: 'osmosis-1',
       clientId: '07-tendermint-2154',
       connectionId: 'connection-1672'
     },

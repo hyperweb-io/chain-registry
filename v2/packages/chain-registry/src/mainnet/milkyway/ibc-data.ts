@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'babylon',
+      chainId: 'bbn-1',
       clientId: '07-tendermint-4',
       connectionId: 'connection-4'
     },
     chain2: {
       chainName: 'milkyway',
+      chainId: 'milkyway',
       clientId: '07-tendermint-6',
       connectionId: 'connection-4'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'celestia',
+      chainId: 'celestia',
       clientId: '07-tendermint-94',
       connectionId: 'connection-64'
     },
     chain2: {
       chainName: 'milkyway',
+      chainId: 'milkyway',
       clientId: '07-tendermint-2',
       connectionId: 'connection-1'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'initia',
+      chainId: 'interwoven-1',
       clientId: '07-tendermint-42',
       connectionId: 'connection-40'
     },
     chain2: {
       chainName: 'milkyway',
+      chainId: 'milkyway',
       clientId: '07-tendermint-7',
       connectionId: 'connection-5'
     },
@@ -91,11 +97,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'milkyway',
+      chainId: 'milkyway',
       clientId: '07-tendermint-1',
       connectionId: 'connection-0'
     },
     chain2: {
       chainName: 'osmosis',
+      chainId: 'osmosis-1',
       clientId: '07-tendermint-3364',
       connectionId: 'connection-2821'
     },

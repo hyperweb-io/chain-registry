@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'agoricdevnet',
+      chainId: 'agoricdev-25',
       clientId: '07-tendermint-13',
       connectionId: 'connection-13'
     },
     chain2: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-432',
       connectionId: 'connection-196'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'babylontestnet',
+      chainId: 'bbn-test-5',
       clientId: '07-tendermint-11',
       connectionId: 'connection-9'
     },
     chain2: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-420',
       connectionId: 'connection-386'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'elystestnet',
+      chainId: 'elysicstestnet-1',
       clientId: '07-tendermint-9',
       connectionId: 'connection-12'
     },
     chain2: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-28',
       connectionId: 'connection-26'
     },
@@ -90,11 +96,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'int3facetestnet',
+      chainId: 'int3-test-2',
       clientId: '07-tendermint-12',
       connectionId: 'connection-8'
     },
     chain2: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-529',
       connectionId: 'connection-491'
     },
@@ -119,11 +127,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'mantrachaintestnet',
+      chainId: 'mantra-hongbai-1',
       clientId: '07-tendermint-6',
       connectionId: 'connection-6'
     },
     chain2: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-294',
       connectionId: 'connection-247'
     },
@@ -148,11 +158,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'mantrachaintestnet2',
+      chainId: 'mantra-dukong-1',
       clientId: '07-tendermint-2',
       connectionId: 'connection-2'
     },
     chain2: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-341',
       connectionId: 'connection-290'
     },
@@ -177,11 +189,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'neutrontestnet',
+      chainId: 'pion-1',
       clientId: '07-tendermint-191',
       connectionId: 'connection-156'
     },
     chain2: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-70',
       connectionId: 'connection-61'
     },
@@ -205,11 +219,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-42',
       connectionId: 'connection-31'
     },
     chain2: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-1374',
       connectionId: 'connection-1275'
     },
@@ -233,11 +249,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-6',
       connectionId: 'connection-6'
     },
     chain2: {
       chainName: 'osmosistestnet4',
+      chainId: 'osmo-test-4',
       clientId: '07-tendermint-4504',
       connectionId: 'connection-3905'
     },
@@ -261,11 +279,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-319',
       connectionId: 'connection-269'
     },
     chain2: {
       chainName: 'prysmdevnet',
+      chainId: 'prysm-devnet-1',
       clientId: '07-tendermint-2',
       connectionId: 'connection-0'
     },
@@ -286,11 +306,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-44',
       connectionId: 'connection-32'
     },
     chain2: {
       chainName: 'seitestnet2',
+      chainId: 'atlantic-2',
       clientId: '07-tendermint-127',
       connectionId: 'connection-107'
     },
@@ -315,11 +337,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-293',
       connectionId: 'connection-246'
     },
     chain2: {
       chainName: 'titantestnet',
+      chainId: 'titan_18889-1',
       clientId: '07-tendermint-9',
       connectionId: 'connection-7'
     },
@@ -344,11 +368,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-224',
       connectionId: 'connection-176'
     },
     chain2: {
       chainName: 'xiontestnet1',
+      chainId: 'xion-testnet-1',
       clientId: '07-tendermint-120',
       connectionId: 'connection-56'
     },
@@ -372,11 +398,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-423',
       connectionId: 'connection-390'
     },
     chain2: {
       chainName: 'xiontestnet2',
+      chainId: 'xion-testnet-2',
       clientId: '07-tendermint-3',
       connectionId: 'connection-3'
     },
@@ -401,11 +429,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-572',
       connectionId: 'connection-520'
     },
     chain2: {
       chainName: 'zigchaintestnet',
+      chainId: 'zig-test-2',
       clientId: '07-tendermint-84',
       connectionId: 'connection-62'
     },

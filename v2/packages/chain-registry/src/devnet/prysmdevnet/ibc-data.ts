@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'axelartestnet',
+      chainId: 'axelar-testnet-lisbon-3',
       clientId: '07-tendermint-1045',
       connectionId: 'connection-806'
     },
     chain2: {
       chainName: 'prysmdevnet',
+      chainId: 'prysm-devnet-1',
       clientId: '07-tendermint-4',
       connectionId: 'connection-2'
     },
@@ -29,11 +31,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'celestiatestnet3',
+      chainId: 'mocha-4',
       clientId: '07-tendermint-615',
       connectionId: 'connection-551'
     },
     chain2: {
       chainName: 'prysmdevnet',
+      chainId: 'prysm-devnet-1',
       clientId: '07-tendermint-14',
       connectionId: 'connection-8'
     },
@@ -54,11 +58,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'composabletestnet',
+      chainId: 'banksy-testnet-3',
       clientId: '07-tendermint-218',
       connectionId: 'connection-127'
     },
     chain2: {
       chainName: 'prysmdevnet',
+      chainId: 'prysm-devnet-1',
       clientId: '07-tendermint-6',
       connectionId: 'connection-3'
     },
@@ -79,11 +85,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'cosmoshubtestnet',
+      chainId: 'theta-testnet-001',
       clientId: '07-tendermint-3805',
       connectionId: 'connection-3845'
     },
     chain2: {
       chainName: 'prysmdevnet',
+      chainId: 'prysm-devnet-1',
       clientId: '07-tendermint-18',
       connectionId: 'connection-11'
     },
@@ -104,11 +112,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'elystestnet',
+      chainId: 'elysicstestnet-1',
       clientId: '07-tendermint-118',
       connectionId: 'connection-80'
     },
     chain2: {
       chainName: 'prysmdevnet',
+      chainId: 'prysm-devnet-1',
       clientId: '07-tendermint-21',
       connectionId: 'connection-14'
     },
@@ -129,11 +139,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'jackaltestnet2',
+      chainId: 'mesomelas-1',
       clientId: '07-tendermint-2',
       connectionId: 'connection-2'
     },
     chain2: {
       chainName: 'prysmdevnet',
+      chainId: 'prysm-devnet-1',
       clientId: '07-tendermint-17',
       connectionId: 'connection-10'
     },
@@ -154,11 +166,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'nobletestnet',
+      chainId: 'grand-1',
       clientId: '07-tendermint-319',
       connectionId: 'connection-269'
     },
     chain2: {
       chainName: 'prysmdevnet',
+      chainId: 'prysm-devnet-1',
       clientId: '07-tendermint-2',
       connectionId: 'connection-0'
     },
@@ -179,11 +193,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet4',
+      chainId: 'osmo-test-4',
       clientId: '07-tendermint-4060',
       connectionId: 'connection-3506'
     },
     chain2: {
       chainName: 'prysmdevnet',
+      chainId: 'prysm-devnet-1',
       clientId: '07-tendermint-3',
       connectionId: 'connection-1'
     },
@@ -204,11 +220,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'prysmdevnet',
+      chainId: 'prysm-devnet-1',
       clientId: '07-tendermint-16',
       connectionId: 'connection-9'
     },
     chain2: {
       chainName: 'quicksilvertestnet2',
+      chainId: 'rhye-2',
       clientId: '07-tendermint-4',
       connectionId: 'connection-3'
     },
@@ -232,11 +250,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'prysmdevnet',
+      chainId: 'prysm-devnet-1',
       clientId: '07-tendermint-29',
       connectionId: 'connection-18'
     },
     chain2: {
       chainName: 'stargazetestnet',
+      chainId: 'elgafar-1',
       clientId: '07-tendermint-961',
       connectionId: 'connection-954'
     },

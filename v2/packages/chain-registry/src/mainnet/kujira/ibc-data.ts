@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'acrechain',
+      chainId: 'acre_9052-1',
       clientId: '07-tendermint-8',
       connectionId: 'connection-8'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-61',
       connectionId: 'connection-41'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'agoric',
+      chainId: 'agoric-3',
       clientId: '07-tendermint-20',
       connectionId: 'connection-20'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-94',
       connectionId: 'connection-64'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'akash',
+      chainId: 'akashnet-2',
       clientId: '07-tendermint-126',
       connectionId: 'connection-103'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-103',
       connectionId: 'connection-72'
     },
@@ -91,11 +97,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'andromeda',
+      chainId: 'andromeda-1',
       clientId: '07-tendermint-6',
       connectionId: 'connection-4'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-164',
       connectionId: 'connection-127'
     },
@@ -120,11 +128,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'archway',
+      chainId: 'archway-1',
       clientId: '07-tendermint-12',
       connectionId: 'connection-12'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-144',
       connectionId: 'connection-110'
     },
@@ -148,11 +158,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'assetmantle',
+      chainId: 'mantle-1',
       clientId: '07-tendermint-50',
       connectionId: 'connection-31'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-104',
       connectionId: 'connection-73'
     },
@@ -177,11 +189,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'axelar',
+      chainId: 'axelar-dojo-1',
       clientId: '07-tendermint-42',
       connectionId: 'connection-23'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-11',
       connectionId: 'connection-6'
     },
@@ -206,11 +220,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'carbon',
+      chainId: 'carbon-1',
       clientId: '07-tendermint-16',
       connectionId: 'connection-13'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-60',
       connectionId: 'connection-40'
     },
@@ -235,11 +251,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'comdex',
+      chainId: 'comdex-1',
       clientId: '07-tendermint-52',
       connectionId: 'connection-34'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-20',
       connectionId: 'connection-15'
     },
@@ -264,11 +282,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'composable',
+      chainId: 'centauri-1',
       clientId: '07-tendermint-110',
       connectionId: 'connection-43'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-147',
       connectionId: 'connection-112'
     },
@@ -293,11 +313,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'coreum',
+      chainId: 'coreum-mainnet-1',
       clientId: '07-tendermint-28',
       connectionId: 'connection-19'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-163',
       connectionId: 'connection-126'
     },
@@ -322,11 +344,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'cosmoshub',
+      chainId: 'cosmoshub-4',
       clientId: '07-tendermint-769',
       connectionId: 'connection-555'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
@@ -351,11 +375,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'crescent',
+      chainId: 'crescent-1',
       clientId: '07-tendermint-78',
       connectionId: 'connection-68'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-105',
       connectionId: 'connection-75'
     },
@@ -380,11 +406,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'dydx',
+      chainId: 'dydx-mainnet-1',
       clientId: '07-tendermint-5',
       connectionId: 'connection-9'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-158',
       connectionId: 'connection-122'
     },
@@ -409,11 +437,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'dymension',
+      chainId: 'dymension_1100-1',
       clientId: '07-tendermint-17',
       connectionId: 'connection-10'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-169',
       connectionId: 'connection-132'
     },
@@ -438,11 +468,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'evmos',
+      chainId: 'evmos_9001-2',
       clientId: '07-tendermint-53',
       connectionId: 'connection-21'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-25',
       connectionId: 'connection-19'
     },
@@ -467,11 +499,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'furya',
+      chainId: 'furya-1',
       clientId: '07-tendermint-1',
       connectionId: 'connection-0'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-160',
       connectionId: 'connection-123'
     },
@@ -496,11 +530,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gateway',
+      chainId: 'wormchain',
       clientId: '07-tendermint-13',
       connectionId: 'connection-9'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-153',
       connectionId: 'connection-117'
     },
@@ -525,11 +561,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'gravitybridge',
+      chainId: 'gravity-bridge-3',
       clientId: '07-tendermint-225',
       connectionId: 'connection-189'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-69',
       connectionId: 'connection-45'
     },
@@ -554,11 +592,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'injective',
+      chainId: 'injective-1',
       clientId: '07-tendermint-144',
       connectionId: 'connection-116'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-77',
       connectionId: 'connection-53'
     },
@@ -583,11 +623,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'jackal',
+      chainId: 'jackal-1',
       clientId: '07-tendermint-57',
       connectionId: 'connection-47'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-139',
       connectionId: 'connection-105'
     },
@@ -612,11 +654,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'juno',
+      chainId: 'juno-1',
       clientId: '07-tendermint-198',
       connectionId: 'connection-140'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-2',
       connectionId: 'connection-1'
     },
@@ -641,11 +685,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kava',
+      chainId: 'kava_2222-10',
       clientId: '07-tendermint-119',
       connectionId: 'connection-156'
     },
     chain2: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-140',
       connectionId: 'connection-106'
     },
@@ -670,11 +716,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-78',
       connectionId: 'connection-54'
     },
     chain2: {
       chainName: 'mars',
+      chainId: 'mars-1',
       clientId: '07-tendermint-3',
       connectionId: 'connection-2'
     },
@@ -699,11 +747,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-82',
       connectionId: 'connection-59'
     },
     chain2: {
       chainName: 'migaloo',
+      chainId: 'migaloo-1',
       clientId: '07-tendermint-16',
       connectionId: 'connection-19'
     },
@@ -728,11 +778,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-112',
       connectionId: 'connection-82'
     },
     chain2: {
       chainName: 'neutron',
+      chainId: 'neutron-1',
       clientId: '07-tendermint-2',
       connectionId: 'connection-2'
     },
@@ -757,11 +809,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-95',
       connectionId: 'connection-65'
     },
     chain2: {
       chainName: 'noble',
+      chainId: 'noble-1',
       clientId: '07-tendermint-2',
       connectionId: 'connection-4'
     },
@@ -786,11 +840,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-156',
       connectionId: 'connection-120'
     },
     chain2: {
       chainName: 'nomic',
+      chainId: 'nomic-stakenet-3',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
@@ -815,11 +871,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-166',
       connectionId: 'connection-129'
     },
     chain2: {
       chainName: 'odin',
+      chainId: 'odin-mainnet-freya',
       clientId: '07-tendermint-114',
       connectionId: 'connection-83'
     },
@@ -844,11 +902,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-108',
       connectionId: 'connection-78'
     },
     chain2: {
       chainName: 'omniflixhub',
+      chainId: 'omniflixhub-1',
       clientId: '07-tendermint-43',
       connectionId: 'connection-36'
     },
@@ -869,11 +929,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-3',
       connectionId: 'connection-2'
     },
     chain2: {
       chainName: 'osmosis',
+      chainId: 'osmosis-1',
       clientId: '07-tendermint-2017',
       connectionId: 'connection-1559'
     },
@@ -898,11 +960,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-167',
       connectionId: 'connection-130'
     },
     chain2: {
       chainName: 'persistence',
+      chainId: 'core-1',
       clientId: '07-tendermint-162',
       connectionId: 'connection-200'
     },
@@ -927,11 +991,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-70',
       connectionId: 'connection-46'
     },
     chain2: {
       chainName: 'planq',
+      chainId: 'planq_7070-2',
       clientId: '07-tendermint-144',
       connectionId: 'connection-151'
     },
@@ -956,11 +1022,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-155',
       connectionId: 'connection-119'
     },
     chain2: {
       chainName: 'realio',
+      chainId: 'realionetwork_3301-1',
       clientId: '07-tendermint-6',
       connectionId: 'connection-4'
     },
@@ -985,11 +1053,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-106',
       connectionId: 'connection-76'
     },
     chain2: {
       chainName: 'regen',
+      chainId: 'regen-1',
       clientId: '07-tendermint-115',
       connectionId: 'connection-104'
     },
@@ -1010,11 +1080,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-12',
       connectionId: 'connection-7'
     },
     chain2: {
       chainName: 'secretnetwork',
+      chainId: 'secret-4',
       clientId: '07-tendermint-48',
       connectionId: 'connection-29'
     },
@@ -1058,11 +1130,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-107',
       connectionId: 'connection-77'
     },
     chain2: {
       chainName: 'sommelier',
+      chainId: 'sommelier-3',
       clientId: '07-tendermint-12',
       connectionId: 'connection-8'
     },
@@ -1083,11 +1157,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-96',
       connectionId: 'connection-68'
     },
     chain2: {
       chainName: 'stafihub',
+      chainId: 'stafihub-1',
       clientId: '07-tendermint-4',
       connectionId: 'connection-4'
     },
@@ -1112,11 +1188,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-9',
       connectionId: 'connection-5'
     },
     chain2: {
       chainName: 'stargaze',
+      chainId: 'stargaze-1',
       clientId: '07-tendermint-178',
       connectionId: 'connection-111'
     },
@@ -1141,11 +1219,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-37',
       connectionId: 'connection-31'
     },
     chain2: {
       chainName: 'stride',
+      chainId: 'stride-1',
       clientId: '07-tendermint-5',
       connectionId: 'connection-5'
     },
@@ -1170,11 +1250,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-132',
       connectionId: 'connection-100'
     },
     chain2: {
       chainName: 'teritori',
+      chainId: 'teritori-1',
       clientId: '07-tendermint-61',
       connectionId: 'connection-38'
     },
@@ -1199,11 +1281,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-5',
       connectionId: 'connection-3'
     },
     chain2: {
       chainName: 'terra2',
+      chainId: 'phoenix-1',
       clientId: '07-tendermint-11',
       connectionId: 'connection-13'
     },

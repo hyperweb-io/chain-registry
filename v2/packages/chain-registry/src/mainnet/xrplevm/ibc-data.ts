@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'cosmoshub',
+      chainId: 'cosmoshub-4',
       clientId: '07-tendermint-1411',
       connectionId: 'connection-1134'
     },
     chain2: {
       chainName: 'xrplevm',
+      chainId: 'xrplevm_1440000-1',
       clientId: '07-tendermint-2',
       connectionId: 'connection-2'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'elys',
+      chainId: 'elys-1',
       clientId: '07-tendermint-57',
       connectionId: 'connection-38'
     },
     chain2: {
       chainName: 'xrplevm',
+      chainId: 'xrplevm_1440000-1',
       clientId: '07-tendermint-1',
       connectionId: 'connection-1'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'injective',
+      chainId: 'injective-1',
       clientId: '07-tendermint-314',
       connectionId: 'connection-314'
     },
     chain2: {
       chainName: 'xrplevm',
+      chainId: 'xrplevm_1440000-1',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
@@ -91,11 +97,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'noble',
+      chainId: 'noble-1',
       clientId: '07-tendermint-164',
       connectionId: 'connection-159'
     },
     chain2: {
       chainName: 'xrplevm',
+      chainId: 'xrplevm_1440000-1',
       clientId: '07-tendermint-4',
       connectionId: 'connection-4'
     },
@@ -120,11 +128,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosis',
+      chainId: 'osmosis-1',
       clientId: '07-tendermint-3499',
       connectionId: 'connection-10747'
     },
     chain2: {
       chainName: 'xrplevm',
+      chainId: 'xrplevm_1440000-1',
       clientId: '07-tendermint-3',
       connectionId: 'connection-3'
     },

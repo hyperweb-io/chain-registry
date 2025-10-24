@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'cosmoshubtestnet',
+      chainId: 'theta-testnet-001',
       clientId: '07-tendermint-160',
       connectionId: 'connection-108'
     },
     chain2: {
       chainName: 'symphonytestnet',
+      chainId: 'symphony-testnet-4',
       clientId: '07-tendermint-1',
       connectionId: 'connection-1'
     },
@@ -32,11 +34,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'junotestnet6',
+      chainId: 'uni-6',
       clientId: '07-tendermint-794',
       connectionId: 'connection-872'
     },
     chain2: {
       chainName: 'symphonytestnet',
+      chainId: 'symphony-testnet-4',
       clientId: '07-tendermint-3',
       connectionId: 'connection-3'
     },
@@ -60,11 +64,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'osmosistestnet',
+      chainId: 'osmo-test-5',
       clientId: '07-tendermint-4155',
       connectionId: 'connection-3614'
     },
     chain2: {
       chainName: 'symphonytestnet',
+      chainId: 'symphony-testnet-4',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
@@ -89,11 +95,13 @@ const info: IBCData[] = [
     $schema: '../../ibc_data.schema.json',
     chain1: {
       chainName: 'stargazetestnet',
+      chainId: 'elgafar-1',
       clientId: '07-tendermint-962',
       connectionId: 'connection-955'
     },
     chain2: {
       chainName: 'symphonytestnet',
+      chainId: 'symphony-testnet-4',
       clientId: '07-tendermint-2',
       connectionId: 'connection-2'
     },

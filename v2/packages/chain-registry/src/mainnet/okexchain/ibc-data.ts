@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'assetmantle',
+      chainId: 'mantle-1',
       clientId: '07-tendermint-42',
       connectionId: 'connection-22'
     },
     chain2: {
       chainName: 'okexchain',
+      chainId: 'exchain-66',
       clientId: '07-tendermint-92',
       connectionId: 'connection-35'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'chihuahua',
+      chainId: 'chihuahua-1',
       clientId: '07-tendermint-85',
       connectionId: 'connection-54'
     },
     chain2: {
       chainName: 'okexchain',
+      chainId: 'exchain-66',
       clientId: '07-tendermint-5',
       connectionId: 'connection-6'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'crescent',
+      chainId: 'crescent-1',
       clientId: '07-tendermint-44',
       connectionId: 'connection-46'
     },
     chain2: {
       chainName: 'okexchain',
+      chainId: 'exchain-66',
       clientId: '07-tendermint-116',
       connectionId: 'connection-78'
     },
@@ -91,11 +97,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'juno',
+      chainId: 'juno-1',
       clientId: '07-tendermint-314',
       connectionId: 'connection-285'
     },
     chain2: {
       chainName: 'okexchain',
+      chainId: 'exchain-66',
       clientId: '07-tendermint-122',
       connectionId: 'connection-92'
     },
@@ -120,11 +128,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'okexchain',
+      chainId: 'exchain-66',
       clientId: '07-tendermint-100',
       connectionId: 'connection-44'
     },
     chain2: {
       chainName: 'vidulum',
+      chainId: 'vidulum-1',
       clientId: '07-tendermint-5',
       connectionId: 'connection-13'
     },

@@ -76,6 +76,10 @@ const info: Chain = {
       {
         address: 'https://rpc.axone.nodestake.org',
         provider: 'NodeStake'
+      },
+      {
+        address: 'https://rpc.cros-nest.com:443/axone',
+        provider: 'crosnest'
       }
     ],
     rest: [
@@ -94,6 +98,10 @@ const info: Chain = {
       {
         address: 'https://api.axone.nodestake.org',
         provider: 'NodeStake'
+      },
+      {
+        address: 'https://rest.cros-nest.com:443/axone',
+        provider: 'crosnest'
       }
     ],
     grpc: [

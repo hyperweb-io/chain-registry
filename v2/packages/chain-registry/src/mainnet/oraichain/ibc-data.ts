@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'acrechain',
+      chainId: 'acre_9052-1',
       clientId: '07-tendermint-12',
       connectionId: 'connection-13'
     },
     chain2: {
       chainName: 'oraichain',
+      chainId: 'Oraichain',
       clientId: '07-tendermint-74',
       connectionId: 'connection-42'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'cosmoshub',
+      chainId: 'cosmoshub-4',
       clientId: '07-tendermint-651',
       connectionId: 'connection-497'
     },
     chain2: {
       chainName: 'oraichain',
+      chainId: 'Oraichain',
       clientId: '07-tendermint-47',
       connectionId: 'connection-22'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'injective',
+      chainId: 'injective-1',
       clientId: '07-tendermint-211',
       connectionId: 'connection-194'
     },
     chain2: {
       chainName: 'oraichain',
+      chainId: 'Oraichain',
       clientId: '07-tendermint-105',
       connectionId: 'connection-82'
     },
@@ -91,11 +97,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'noble',
+      chainId: 'noble-1',
       clientId: '07-tendermint-60',
       connectionId: 'connection-58'
     },
     chain2: {
       chainName: 'oraichain',
+      chainId: 'Oraichain',
       clientId: '07-tendermint-106',
       connectionId: 'connection-83'
     },
@@ -120,11 +128,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'oraichain',
+      chainId: 'Oraichain',
       clientId: '07-tendermint-49',
       connectionId: 'connection-21'
     },
     chain2: {
       chainName: 'osmosis',
+      chainId: 'osmosis-1',
       clientId: '07-tendermint-1882',
       connectionId: 'connection-1464'
     },
@@ -149,11 +159,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'oraichain',
+      chainId: 'Oraichain',
       clientId: '07-tendermint-178',
       connectionId: 'connection-142'
     },
     chain2: {
       chainName: 'secretnetwork',
+      chainId: 'secret-4',
       clientId: '07-tendermint-195',
       connectionId: 'connection-190'
     },

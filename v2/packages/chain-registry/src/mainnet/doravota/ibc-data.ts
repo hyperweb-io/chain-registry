@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'akash',
+      chainId: 'akashnet-2',
       clientId: '07-tendermint-183',
       connectionId: 'connection-171'
     },
     chain2: {
       chainName: 'doravota',
+      chainId: 'vota-ash',
       clientId: '07-tendermint-17',
       connectionId: 'connection-11'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'archway',
+      chainId: 'archway-1',
       clientId: '07-tendermint-113',
       connectionId: 'connection-106'
     },
     chain2: {
       chainName: 'doravota',
+      chainId: 'vota-ash',
       clientId: '07-tendermint-22',
       connectionId: 'connection-28'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'coreum',
+      chainId: 'coreum-mainnet-1',
       clientId: '07-tendermint-12',
       connectionId: 'connection-12'
     },
     chain2: {
       chainName: 'doravota',
+      chainId: 'vota-ash',
       clientId: '07-tendermint-12',
       connectionId: 'connection-4'
     },
@@ -91,11 +97,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'cosmoshub',
+      chainId: 'cosmoshub-4',
       clientId: '07-tendermint-1191',
       connectionId: 'connection-920'
     },
     chain2: {
       chainName: 'doravota',
+      chainId: 'vota-ash',
       clientId: '07-tendermint-14',
       connectionId: 'connection-8'
     },
@@ -120,11 +128,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'doravota',
+      chainId: 'vota-ash',
       clientId: '07-tendermint-16',
       connectionId: 'connection-10'
     },
     chain2: {
       chainName: 'dydx',
+      chainId: 'dydx-mainnet-1',
       clientId: '07-tendermint-15',
       connectionId: 'connection-21'
     },
@@ -149,11 +159,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'doravota',
+      chainId: 'vota-ash',
       clientId: '07-tendermint-15',
       connectionId: 'connection-9'
     },
     chain2: {
       chainName: 'injective',
+      chainId: 'injective-1',
       clientId: '07-tendermint-245',
       connectionId: 'connection-239'
     },
@@ -178,11 +190,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'doravota',
+      chainId: 'vota-ash',
       clientId: '07-tendermint-23',
       connectionId: 'connection-29'
     },
     chain2: {
       chainName: 'noble',
+      chainId: 'noble-1',
       clientId: '07-tendermint-111',
       connectionId: 'connection-106'
     },
@@ -207,11 +221,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'doravota',
+      chainId: 'vota-ash',
       clientId: '07-tendermint-13',
       connectionId: 'connection-5'
     },
     chain2: {
       chainName: 'nolus',
+      chainId: 'pirin-1',
       clientId: '07-tendermint-14',
       connectionId: 'connection-12'
     },
@@ -236,11 +252,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'doravota',
+      chainId: 'vota-ash',
       clientId: '07-tendermint-0',
       connectionId: 'connection-1'
     },
     chain2: {
       chainName: 'osmosis',
+      chainId: 'osmosis-1',
       clientId: '07-tendermint-2959',
       connectionId: 'connection-2454'
     },
@@ -265,11 +283,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'doravota',
+      chainId: 'vota-ash',
       clientId: '07-tendermint-21',
       connectionId: 'connection-27'
     },
     chain2: {
       chainName: 'sei',
+      chainId: 'pacific-1',
       clientId: '07-tendermint-109',
       connectionId: 'connection-153'
     },
@@ -294,11 +314,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'doravota',
+      chainId: 'vota-ash',
       clientId: '07-tendermint-24',
       connectionId: 'connection-30'
     },
     chain2: {
       chainName: 'stargaze',
+      chainId: 'stargaze-1',
       clientId: '07-tendermint-368',
       connectionId: 'connection-318'
     },

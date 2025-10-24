@@ -2,6 +2,7 @@ import { AssetList } from '@chain-registry/types';
 
 import * as _ethereum from './ethereum';
 import * as _namada from './namada';
+import * as _penumbra from './penumbra';
 import * as _rootstock from './rootstock';
 import * as _solana from './solana';
 import * as _ton from './ton';
@@ -224,6 +225,7 @@ import * as _zigchain from './zigchain';
 const assetList: AssetList[] = [
   _ethereum.assetList,
   _namada.assetList,
+  _penumbra.assetList,
   _rootstock.assetList,
   _solana.assetList,
   _ton.assetList,

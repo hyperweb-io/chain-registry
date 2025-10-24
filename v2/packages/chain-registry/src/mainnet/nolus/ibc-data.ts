@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'axelar',
+      chainId: 'axelar-dojo-1',
       clientId: '07-tendermint-205',
       connectionId: 'connection-186'
     },
     chain2: {
       chainName: 'nolus',
+      chainId: 'pirin-1',
       clientId: '07-tendermint-17',
       connectionId: 'connection-13'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'doravota',
+      chainId: 'vota-ash',
       clientId: '07-tendermint-13',
       connectionId: 'connection-5'
     },
     chain2: {
       chainName: 'nolus',
+      chainId: 'pirin-1',
       clientId: '07-tendermint-14',
       connectionId: 'connection-12'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'neutron',
+      chainId: 'neutron-1',
       clientId: '07-tendermint-71',
       connectionId: 'connection-50'
     },
     chain2: {
       chainName: 'nolus',
+      chainId: 'pirin-1',
       clientId: '07-tendermint-13',
       connectionId: 'connection-11'
     },
@@ -91,11 +97,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'nolus',
+      chainId: 'pirin-1',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
     chain2: {
       chainName: 'osmosis',
+      chainId: 'osmosis-1',
       clientId: '07-tendermint-2791',
       connectionId: 'connection-2289'
     },
@@ -120,11 +128,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'nolus',
+      chainId: 'pirin-1',
       clientId: '07-tendermint-18',
       connectionId: 'connection-14'
     },
     chain2: {
       chainName: 'secretnetwork',
+      chainId: 'secret-4',
       clientId: '07-tendermint-201',
       connectionId: 'connection-193'
     },

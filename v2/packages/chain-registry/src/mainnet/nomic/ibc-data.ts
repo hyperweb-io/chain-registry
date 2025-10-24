@@ -4,11 +4,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'kujira',
+      chainId: 'kaiyo-1',
       clientId: '07-tendermint-156',
       connectionId: 'connection-120'
     },
     chain2: {
       chainName: 'nomic',
+      chainId: 'nomic-stakenet-3',
       clientId: '07-tendermint-0',
       connectionId: 'connection-0'
     },
@@ -33,11 +35,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'neutron',
+      chainId: 'neutron-1',
       clientId: '07-tendermint-154',
       connectionId: 'connection-114'
     },
     chain2: {
       chainName: 'nomic',
+      chainId: 'nomic-stakenet-3',
       clientId: '07-tendermint-11',
       connectionId: 'connection-10'
     },
@@ -62,11 +66,13 @@ const info: IBCData[] = [
     $schema: '../ibc_data.schema.json',
     chain1: {
       chainName: 'nomic',
+      chainId: 'nomic-stakenet-3',
       clientId: '07-tendermint-1',
       connectionId: 'connection-1'
     },
     chain2: {
       chainName: 'osmosis',
+      chainId: 'osmosis-1',
       clientId: '07-tendermint-3010',
       connectionId: 'connection-2501'
     },
