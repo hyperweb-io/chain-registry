@@ -42,6 +42,44 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Penumbra.',
+      denom_units: [{
+          denom: 'ibc/2DC4028D9196E4FC82B6EA1633FF38F4161FD081AF6AE30249C2020FCFBCD4F8',
+          exponent: 0,
+          aliases: ['upenumbra']
+        }, {
+          denom: 'penumbra',
+          exponent: 6
+        }],
+      type_asset: 'unknown',
+      base: 'ibc/2DC4028D9196E4FC82B6EA1633FF38F4161FD081AF6AE30249C2020FCFBCD4F8',
+      display: 'penumbra',
+      symbol: 'UM',
+      name: 'Penumbra',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/penumbra/images/um.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/penumbra/images/um.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://penumbra.zone/',
+        twitter: 'https://twitter.com/penumbrazone'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'upenumbra',
+            chain_name: 'penumbra'
+          },
+          chain: {
+            channel_id: 'channel-4886'
+          }
+        }]
+    },
+    {
       description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
       denom_units: [{
           denom: 'ibc/B074BCF31E5892A522FD48DDD5DD80C3953D4B43D59A6E4FD0DC6759685FD36C',
@@ -17361,44 +17399,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-25'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Penumbra.',
-      denom_units: [{
-          denom: 'ibc/2DC4028D9196E4FC82B6EA1633FF38F4161FD081AF6AE30249C2020FCFBCD4F8',
-          exponent: 0,
-          aliases: ['upenumbra']
-        }, {
-          denom: 'penumbra',
-          exponent: 6
-        }],
-      type_asset: 'unknown',
-      base: 'ibc/2DC4028D9196E4FC82B6EA1633FF38F4161FD081AF6AE30249C2020FCFBCD4F8',
-      display: 'penumbra',
-      symbol: 'UM',
-      name: 'Penumbra',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/penumbra/images/um.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/penumbra/images/um.svg',
-          theme: {
-            circle: true
-          }
-        }],
-      socials: {
-        website: 'https://penumbra.zone/',
-        twitter: 'https://twitter.com/penumbrazone'
-      },
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-6',
-            base_denom: 'upenumbra',
-            chain_name: 'penumbra'
-          },
-          chain: {
-            channel_id: 'channel-4886'
           }
         }]
     },

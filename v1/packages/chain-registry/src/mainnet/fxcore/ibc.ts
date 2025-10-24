@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'axelar',
+      chain_id: 'axelar-dojo-1',
       client_id: '07-tendermint-188',
       connection_id: 'connection-166'
     },
     chain_2: {
       chain_name: 'fxcore',
+      chain_id: 'fxcore',
       client_id: '07-tendermint-24',
       connection_id: 'connection-23'
     },
@@ -33,11 +35,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshub',
+      chain_id: 'cosmoshub-4',
       client_id: '07-tendermint-1141',
       connection_id: 'connection-829'
     },
     chain_2: {
       chain_name: 'fxcore',
+      chain_id: 'fxcore',
       client_id: '07-tendermint-13',
       connection_id: 'connection-13'
     },
@@ -62,11 +66,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'fxcore',
+      chain_id: 'fxcore',
       client_id: '07-tendermint-23',
       connection_id: 'connection-22'
     },
     chain_2: {
       chain_name: 'osmosis',
+      chain_id: 'osmosis-1',
       client_id: '07-tendermint-2961',
       connection_id: 'connection-2456'
     },
@@ -91,11 +97,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'fxcore',
+      chain_id: 'fxcore',
       client_id: '07-tendermint-0',
       connection_id: 'connection-0'
     },
     chain_2: {
       chain_name: 'pundix',
+      chain_id: 'PUNDIX',
       client_id: '07-tendermint-0',
       connection_id: 'connection-0'
     },

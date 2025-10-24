@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshub',
+      chain_id: 'cosmoshub-4',
       client_id: '07-tendermint-1157',
       connection_id: 'connection-879'
     },
     chain_2: {
       chain_name: 'realio',
+      chain_id: 'realionetwork_3301-1',
       client_id: '07-tendermint-2',
       connection_id: 'connection-2'
     },
@@ -33,11 +35,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'kujira',
+      chain_id: 'kaiyo-1',
       client_id: '07-tendermint-155',
       connection_id: 'connection-119'
     },
     chain_2: {
       chain_name: 'realio',
+      chain_id: 'realionetwork_3301-1',
       client_id: '07-tendermint-6',
       connection_id: 'connection-4'
     },
@@ -62,11 +66,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'osmosis',
+      chain_id: 'osmosis-1',
       client_id: '07-tendermint-2849',
       connection_id: 'connection-2361'
     },
     chain_2: {
       chain_name: 'realio',
+      chain_id: 'realionetwork_3301-1',
       client_id: '07-tendermint-1',
       connection_id: 'connection-1'
     },

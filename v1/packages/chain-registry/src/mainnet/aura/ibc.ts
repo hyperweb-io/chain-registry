@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'aura',
+      chain_id: 'aura_6322-2',
       client_id: '07-tendermint-17',
       connection_id: 'connection-11'
     },
     chain_2: {
       chain_name: 'axelar',
+      chain_id: 'axelar-dojo-1',
       client_id: '07-tendermint-152',
       connection_id: 'connection-137'
     },
@@ -33,11 +35,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'aura',
+      chain_id: 'aura_6322-2',
       client_id: '07-tendermint-24',
       connection_id: 'connection-14'
     },
     chain_2: {
       chain_name: 'cosmoshub',
+      chain_id: 'cosmoshub-4',
       client_id: '07-tendermint-1158',
       connection_id: 'connection-880'
     },
@@ -62,11 +66,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'aura',
+      chain_id: 'aura_6322-2',
       client_id: '07-tendermint-26',
       connection_id: 'connection-15'
     },
     chain_2: {
       chain_name: 'kava',
+      chain_id: 'kava_2222-10',
       client_id: '07-tendermint-133',
       connection_id: 'connection-168'
     },
@@ -91,11 +97,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'aura',
+      chain_id: 'aura_6322-2',
       client_id: '07-tendermint-43',
       connection_id: 'connection-27'
     },
     chain_2: {
       chain_name: 'noble',
+      chain_id: 'noble-1',
       client_id: '07-tendermint-66',
       connection_id: 'connection-63'
     },
@@ -120,11 +128,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'aura',
+      chain_id: 'aura_6322-2',
       client_id: '07-tendermint-13',
       connection_id: 'connection-10'
     },
     chain_2: {
       chain_name: 'nois',
+      chain_id: 'nois-1',
       client_id: '07-tendermint-4',
       connection_id: 'connection-4'
     },
@@ -164,11 +174,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'aura',
+      chain_id: 'aura_6322-2',
       client_id: '07-tendermint-47',
       connection_id: 'connection-33'
     },
     chain_2: {
       chain_name: 'osmosis',
+      chain_id: 'osmosis-1',
       client_id: '07-tendermint-3054',
       connection_id: 'connection-2551'
     },
@@ -193,11 +205,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'aura',
+      chain_id: 'aura_6322-2',
       client_id: '07-tendermint-48',
       connection_id: 'connection-47'
     },
     chain_2: {
       chain_name: 'stargaze',
+      chain_id: 'stargaze-1',
       client_id: '07-tendermint-339',
       connection_id: 'connection-288'
     },

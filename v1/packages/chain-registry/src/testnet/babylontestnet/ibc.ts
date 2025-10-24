@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'axelartestnet',
+      chain_id: 'axelar-testnet-lisbon-3',
       client_id: '07-tendermint-1106',
       connection_id: 'connection-862'
     },
     chain_2: {
       chain_name: 'babylontestnet',
+      chain_id: 'bbn-test-5',
       client_id: '07-tendermint-17',
       connection_id: 'connection-15'
     },
@@ -33,11 +35,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'babylontestnet',
+      chain_id: 'bbn-test-5',
       client_id: '07-tendermint-12',
       connection_id: 'connection-11'
     },
     chain_2: {
-      chain_name: 'cosmoshubicstestnet',
+      chain_name: 'cosmosicsprovidertestnet',
+      chain_id: 'provider',
       client_id: '07-tendermint-248',
       connection_id: 'connection-179'
     },
@@ -62,11 +66,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'babylontestnet',
+      chain_id: 'bbn-test-5',
       client_id: '07-tendermint-2',
       connection_id: 'connection-2'
     },
     chain_2: {
       chain_name: 'neutrontestnet',
+      chain_id: 'pion-1',
       client_id: '07-tendermint-582',
       connection_id: 'connection-522'
     },
@@ -90,11 +96,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'babylontestnet',
+      chain_id: 'bbn-test-5',
       client_id: '07-tendermint-11',
       connection_id: 'connection-9'
     },
     chain_2: {
       chain_name: 'nobletestnet',
+      chain_id: 'grand-1',
       client_id: '07-tendermint-420',
       connection_id: 'connection-386'
     },
@@ -119,11 +127,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'babylontestnet',
+      chain_id: 'bbn-test-5',
       client_id: '07-tendermint-31',
       connection_id: 'connection-29'
     },
     chain_2: {
       chain_name: 'osmosistestnet',
+      chain_id: 'osmo-test-5',
       client_id: '07-tendermint-4636',
       connection_id: 'connection-3994'
     },

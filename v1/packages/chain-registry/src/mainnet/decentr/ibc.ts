@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'archway',
+      chain_id: 'archway-1',
       client_id: '07-tendermint-38',
       connection_id: 'connection-41'
     },
     chain_2: {
       chain_name: 'decentr',
+      chain_id: 'mainnet-3',
       client_id: '07-tendermint-21',
       connection_id: 'connection-8'
     },
@@ -32,11 +34,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'decentr',
+      chain_id: 'mainnet-3',
       client_id: '07-tendermint-6',
       connection_id: 'connection-1'
     },
     chain_2: {
       chain_name: 'osmosis',
+      chain_id: 'osmosis-1',
       client_id: '07-tendermint-1798',
       connection_id: 'connection-1403'
     },
@@ -61,11 +65,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'decentr',
+      chain_id: 'mainnet-3',
       client_id: '07-tendermint-13',
       connection_id: 'connection-5'
     },
     chain_2: {
       chain_name: 'sentinel',
+      chain_id: 'sentinelhub-2',
       client_id: '07-tendermint-103',
       connection_id: 'connection-81'
     },
@@ -86,11 +92,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'decentr',
+      chain_id: 'mainnet-3',
       client_id: '07-tendermint-26',
       connection_id: 'connection-10'
     },
     chain_2: {
       chain_name: 'terra2',
+      chain_id: 'phoenix-1',
       client_id: '07-tendermint-395',
       connection_id: 'connection-385'
     },

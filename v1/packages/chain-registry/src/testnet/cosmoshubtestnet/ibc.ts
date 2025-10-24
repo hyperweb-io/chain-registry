@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'celestiatestnet3',
+      chain_id: 'mocha-4',
       client_id: '07-tendermint-0',
       connection_id: 'connection-0'
     },
     chain_2: {
       chain_name: 'cosmoshubtestnet',
+      chain_id: 'theta-testnet-001',
       client_id: '07-tendermint-2382',
       connection_id: 'connection-2727'
     },
@@ -33,11 +35,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshubtestnet',
+      chain_id: 'theta-testnet-001',
       client_id: '07-tendermint-2522',
       connection_id: 'connection-2881'
     },
     chain_2: {
       chain_name: 'elystestnet',
+      chain_id: 'elysicstestnet-1',
       client_id: '07-tendermint-19',
       connection_id: 'connection-17'
     },
@@ -61,11 +65,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshubtestnet',
+      chain_id: 'theta-testnet-001',
       client_id: '07-tendermint-2073',
       connection_id: 'connection-2418'
     },
     chain_2: {
       chain_name: 'empowertestnet',
+      chain_id: 'circulus-1',
       client_id: '07-tendermint-3',
       connection_id: 'connection-2'
     },
@@ -90,11 +96,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshubtestnet',
+      chain_id: 'theta-testnet-001',
       client_id: '7-tendermint-3407',
       connection_id: 'connection-3519'
     },
     chain_2: {
       chain_name: 'kujiratestnet',
+      chain_id: 'harpoon-4',
       client_id: '07-tendermint-72',
       connection_id: 'connection-47'
     },
@@ -119,11 +127,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshubtestnet',
+      chain_id: 'theta-testnet-001',
       client_id: '07-tendermint-2528',
       connection_id: 'connection-2886'
     },
     chain_2: {
       chain_name: 'osmosistestnet',
+      chain_id: 'osmo-test-5',
       client_id: '07-tendermint-1262',
       connection_id: 'connection-1157'
     },
@@ -148,11 +158,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshubtestnet',
+      chain_id: 'theta-testnet-001',
       client_id: '07-tendermint-2100',
       connection_id: 'connection-2447'
     },
     chain_2: {
       chain_name: 'persistencetestnet2',
+      chain_id: 'test-core-2',
       client_id: '07-tendermint-1',
       connection_id: 'connection-1'
     },
@@ -177,11 +189,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshubtestnet',
+      chain_id: 'theta-testnet-001',
       client_id: '07-tendermint-3805',
       connection_id: 'connection-3845'
     },
     chain_2: {
       chain_name: 'prysmdevnet',
+      chain_id: 'prysm-devnet-1',
       client_id: '07-tendermint-18',
       connection_id: 'connection-11'
     },
@@ -202,11 +216,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshubtestnet',
+      chain_id: 'theta-testnet-001',
       client_id: '07-tendermint-160',
       connection_id: 'connection-108'
     },
     chain_2: {
       chain_name: 'symphonytestnet',
+      chain_id: 'symphony-testnet-4',
       client_id: '07-tendermint-1',
       connection_id: 'connection-1'
     },
@@ -230,11 +246,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshubtestnet',
+      chain_id: 'theta-testnet-001',
       client_id: '07-tendermint-3237',
       connection_id: 'connection-3407'
     },
     chain_2: {
       chain_name: 'titantestnet',
+      chain_id: 'titan_18889-1',
       client_id: '07-tendermint-0',
       connection_id: 'connection-0'
     },
@@ -259,11 +277,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshubtestnet',
+      chain_id: 'theta-testnet-001',
       client_id: '07-tendermint-289',
       connection_id: 'connection-207'
     },
     chain_2: {
       chain_name: 'wardenprotocoltestnet',
+      chain_id: 'docas_10100-1',
       client_id: '07-tendermint-0',
       connection_id: 'connection-0'
     },

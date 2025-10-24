@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'andromeda',
+      chain_id: 'andromeda-1',
       client_id: '07-tendermint-17',
       connection_id: 'connection-13'
     },
     chain_2: {
       chain_name: 'kyve',
+      chain_id: 'kyve-1',
       client_id: '07-tendermint-2',
       connection_id: 'connection-3'
     },
@@ -34,11 +36,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'axelar',
+      chain_id: 'axelar-dojo-1',
       client_id: '07-tendermint-118',
       connection_id: 'connection-107'
     },
     chain_2: {
       chain_name: 'kyve',
+      chain_id: 'kyve-1',
       client_id: '07-tendermint-1',
       connection_id: 'connection-1'
     },
@@ -63,11 +67,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'kyve',
+      chain_id: 'kyve-1',
       client_id: '07-tendermint-0',
       connection_id: 'connection-0'
     },
     chain_2: {
       chain_name: 'osmosis',
+      chain_id: 'osmosis-1',
       client_id: '07-tendermint-2757',
       connection_id: 'connection-2274'
     },
@@ -92,11 +98,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'kyve',
+      chain_id: 'kyve-1',
       client_id: '07-tendermint-3',
       connection_id: 'connection-5'
     },
     chain_2: {
       chain_name: 'source',
+      chain_id: 'source-1',
       client_id: '07-tendermint-15',
       connection_id: 'connection-16'
     },
@@ -122,11 +130,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'kyve',
+      chain_id: 'kyve-1',
       client_id: '07-tendermint-8',
       connection_id: 'connection-7'
     },
     chain_2: {
       chain_name: 'xion',
+      chain_id: 'xion-mainnet-1',
       client_id: '07-tendermint-5',
       connection_id: 'connection-5'
     },

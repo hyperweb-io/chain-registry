@@ -609,6 +609,44 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Penumbra.',
+      denom_units: [{
+          denom: 'ibc/9473AE955A0A5E6EFDDB8C529E777814DBE3D0FE2FD2ECB9D7208920E0FD62D3',
+          exponent: 0,
+          aliases: ['upenumbra']
+        }, {
+          denom: 'penumbra',
+          exponent: 6
+        }],
+      type_asset: 'unknown',
+      base: 'ibc/9473AE955A0A5E6EFDDB8C529E777814DBE3D0FE2FD2ECB9D7208920E0FD62D3',
+      display: 'penumbra',
+      symbol: 'UM',
+      name: 'Penumbra',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/penumbra/images/um.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/penumbra/images/um.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://penumbra.zone/',
+        twitter: 'https://twitter.com/penumbrazone'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-13',
+            base_denom: 'upenumbra',
+            chain_name: 'penumbra'
+          },
+          chain: {
+            channel_id: 'channel-4'
+          }
+        }]
+    },
+    {
       description: 'Celestia is a modular blockchain network focused on data availability, allowing developers to deploy their own customizable blockchains with ease.',
       denom_units: [{
           denom: 'ibc/BF28D9C17E0306B194D50F51C3B2590BEAD15E04E03ADD34C3A26E62D85C9676',
@@ -1173,44 +1211,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-0'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Penumbra.',
-      denom_units: [{
-          denom: 'ibc/9473AE955A0A5E6EFDDB8C529E777814DBE3D0FE2FD2ECB9D7208920E0FD62D3',
-          exponent: 0,
-          aliases: ['upenumbra']
-        }, {
-          denom: 'penumbra',
-          exponent: 6
-        }],
-      type_asset: 'unknown',
-      base: 'ibc/9473AE955A0A5E6EFDDB8C529E777814DBE3D0FE2FD2ECB9D7208920E0FD62D3',
-      display: 'penumbra',
-      symbol: 'UM',
-      name: 'Penumbra',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/penumbra/images/um.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/penumbra/images/um.svg',
-          theme: {
-            circle: true
-          }
-        }],
-      socials: {
-        website: 'https://penumbra.zone/',
-        twitter: 'https://twitter.com/penumbrazone'
-      },
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-13',
-            base_denom: 'upenumbra',
-            chain_name: 'penumbra'
-          },
-          chain: {
-            channel_id: 'channel-4'
           }
         }]
     }

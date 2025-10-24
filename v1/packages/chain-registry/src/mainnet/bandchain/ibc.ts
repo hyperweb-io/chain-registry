@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'bandchain',
+      chain_id: 'laozi-mainnet',
       client_id: '07-tendermint-124',
       connection_id: 'connection-107'
     },
     chain_2: {
       chain_name: 'comdex',
+      chain_id: 'comdex-1',
       client_id: '07-tendermint-81',
       connection_id: 'connection-48'
     },
@@ -33,11 +35,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'bandchain',
+      chain_id: 'laozi-mainnet',
       client_id: '07-tendermint-162',
       connection_id: 'connection-141'
     },
     chain_2: {
       chain_name: 'coreum',
+      chain_id: 'coreum-mainnet-1',
       client_id: '07-tendermint-33',
       connection_id: 'connection-22'
     },
@@ -62,11 +66,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'bandchain',
+      chain_id: 'laozi-mainnet',
       client_id: '07-tendermint-94',
       connection_id: 'connection-91'
     },
     chain_2: {
       chain_name: 'osmosis',
+      chain_id: 'osmosis-1',
       client_id: '07-tendermint-1743',
       connection_id: 'connection-1345'
     },
@@ -91,11 +97,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'bandchain',
+      chain_id: 'laozi-mainnet',
       client_id: '07-tendermint-169',
       connection_id: 'connection-150'
     },
     chain_2: {
       chain_name: 'stride',
+      chain_id: 'stride-1',
       client_id: '07-tendermint-146',
       connection_id: 'connection-146'
     },

@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'kava',
+      chain_id: 'kava_2222-10',
       client_id: '07-tendermint-163',
       connection_id: 'connection-204'
     },
     chain_2: {
       chain_name: 'onex',
+      chain_id: 'onex-mainnet-1',
       client_id: '07-tendermint-1',
       connection_id: 'connection-13'
     },
@@ -33,11 +35,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'noble',
+      chain_id: 'noble-1',
       client_id: '07-tendermint-98',
       connection_id: 'connection-91'
     },
     chain_2: {
       chain_name: 'onex',
+      chain_id: 'onex-mainnet-1',
       client_id: '07-tendermint-6',
       connection_id: 'connection-14'
     },
@@ -62,11 +66,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'onex',
+      chain_id: 'onex-mainnet-1',
       client_id: '07-tendermint-0',
       connection_id: 'connection-0'
     },
     chain_2: {
       chain_name: 'onomy',
+      chain_id: 'onomy-mainnet-1',
       client_id: '07-tendermint-12',
       connection_id: 'connection-12'
     },
@@ -91,11 +97,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'onex',
+      chain_id: 'onex-mainnet-1',
       client_id: '07-tendermint-7',
       connection_id: 'connection-15'
     },
     chain_2: {
       chain_name: 'osmosis',
+      chain_id: 'osmosis-1',
       client_id: '07-tendermint-3202',
       connection_id: 'connection-2659'
     },

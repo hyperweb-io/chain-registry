@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshub',
+      chain_id: 'cosmoshub-4',
       client_id: '07-tendermint-1411',
       connection_id: 'connection-1134'
     },
     chain_2: {
       chain_name: 'xrplevm',
+      chain_id: 'xrplevm_1440000-1',
       client_id: '07-tendermint-2',
       connection_id: 'connection-2'
     },
@@ -33,11 +35,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'elys',
+      chain_id: 'elys-1',
       client_id: '07-tendermint-57',
       connection_id: 'connection-38'
     },
     chain_2: {
       chain_name: 'xrplevm',
+      chain_id: 'xrplevm_1440000-1',
       client_id: '07-tendermint-1',
       connection_id: 'connection-1'
     },
@@ -62,11 +66,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'injective',
+      chain_id: 'injective-1',
       client_id: '07-tendermint-314',
       connection_id: 'connection-314'
     },
     chain_2: {
       chain_name: 'xrplevm',
+      chain_id: 'xrplevm_1440000-1',
       client_id: '07-tendermint-0',
       connection_id: 'connection-0'
     },
@@ -91,11 +97,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'noble',
+      chain_id: 'noble-1',
       client_id: '07-tendermint-164',
       connection_id: 'connection-159'
     },
     chain_2: {
       chain_name: 'xrplevm',
+      chain_id: 'xrplevm_1440000-1',
       client_id: '07-tendermint-4',
       connection_id: 'connection-4'
     },
@@ -120,11 +128,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'osmosis',
+      chain_id: 'osmosis-1',
       client_id: '07-tendermint-3499',
       connection_id: 'connection-10747'
     },
     chain_2: {
       chain_name: 'xrplevm',
+      chain_id: 'xrplevm_1440000-1',
       client_id: '07-tendermint-3',
       connection_id: 'connection-3'
     },

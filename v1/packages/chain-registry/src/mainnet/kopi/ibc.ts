@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshub',
+      chain_id: 'cosmoshub-4',
       client_id: '07-tendermint-1382',
       connection_id: 'connection-1105'
     },
     chain_2: {
       chain_name: 'kopi',
+      chain_id: 'luwak-1',
       client_id: '07-tendermint-19',
       connection_id: 'connection-43'
     },
@@ -33,11 +35,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'elys',
+      chain_id: 'elys-1',
       client_id: '07-tendermint-55',
       connection_id: 'connection-36'
     },
     chain_2: {
       chain_name: 'kopi',
+      chain_id: 'luwak-1',
       client_id: '07-tendermint-24',
       connection_id: 'connection-45'
     },
@@ -62,11 +66,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'injective',
+      chain_id: 'injective-1',
       client_id: '07-tendermint-278',
       connection_id: 'connection-281'
     },
     chain_2: {
       chain_name: 'kopi',
+      chain_id: 'luwak-1',
       client_id: '07-tendermint-0',
       connection_id: 'connection-0'
     },
@@ -91,11 +97,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'kopi',
+      chain_id: 'luwak-1',
       client_id: '07-tendermint-0',
       connection_id: 'connection-1'
     },
     chain_2: {
       chain_name: 'noble',
+      chain_id: 'noble-1',
       client_id: '07-tendermint-140',
       connection_id: 'connection-135'
     },
@@ -120,11 +128,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'kopi',
+      chain_id: 'luwak-1',
       client_id: '07-tendermint-12',
       connection_id: 'connection-36'
     },
     chain_2: {
       chain_name: 'osmosis',
+      chain_id: 'osmosis-1',
       client_id: '07-tendermint-3422',
       connection_id: 'connection-10584'
     },
@@ -149,11 +159,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'kopi',
+      chain_id: 'luwak-1',
       client_id: '07-tendermint-22',
       connection_id: 'connection-44'
     },
     chain_2: {
       chain_name: 'planq',
+      chain_id: 'planq_7070-2',
       client_id: '07-tendermint-573',
       connection_id: 'connection-492'
     },
@@ -178,11 +190,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'kopi',
+      chain_id: 'luwak-1',
       client_id: '07-tendermint-26',
       connection_id: 'connection-46'
     },
     chain_2: {
       chain_name: 'stride',
+      chain_id: 'stride-1',
       client_id: '07-tendermint-161',
       connection_id: 'connection-170'
     },
@@ -207,11 +221,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'kopi',
+      chain_id: 'luwak-1',
       client_id: '07-tendermint-2',
       connection_id: 'connection-2'
     },
     chain_2: {
       chain_name: 'terra2',
+      chain_id: 'phoenix-1',
       client_id: '07-tendermint-426',
       connection_id: 'connection-440'
     },

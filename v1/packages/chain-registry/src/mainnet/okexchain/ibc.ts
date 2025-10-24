@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'assetmantle',
+      chain_id: 'mantle-1',
       client_id: '07-tendermint-42',
       connection_id: 'connection-22'
     },
     chain_2: {
       chain_name: 'okexchain',
+      chain_id: 'exchain-66',
       client_id: '07-tendermint-92',
       connection_id: 'connection-35'
     },
@@ -33,11 +35,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'chihuahua',
+      chain_id: 'chihuahua-1',
       client_id: '07-tendermint-85',
       connection_id: 'connection-54'
     },
     chain_2: {
       chain_name: 'okexchain',
+      chain_id: 'exchain-66',
       client_id: '07-tendermint-5',
       connection_id: 'connection-6'
     },
@@ -62,11 +66,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'crescent',
+      chain_id: 'crescent-1',
       client_id: '07-tendermint-44',
       connection_id: 'connection-46'
     },
     chain_2: {
       chain_name: 'okexchain',
+      chain_id: 'exchain-66',
       client_id: '07-tendermint-116',
       connection_id: 'connection-78'
     },
@@ -91,11 +97,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'juno',
+      chain_id: 'juno-1',
       client_id: '07-tendermint-314',
       connection_id: 'connection-285'
     },
     chain_2: {
       chain_name: 'okexchain',
+      chain_id: 'exchain-66',
       client_id: '07-tendermint-122',
       connection_id: 'connection-92'
     },
@@ -120,11 +128,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'okexchain',
+      chain_id: 'exchain-66',
       client_id: '07-tendermint-100',
       connection_id: 'connection-44'
     },
     chain_2: {
       chain_name: 'vidulum',
+      chain_id: 'vidulum-1',
       client_id: '07-tendermint-5',
       connection_id: 'connection-13'
     },

@@ -1,12 +1,11 @@
 import assets from './assets';
-import ibc from './ibc';
 
 
 
 export default {
-  assets, ibc
+  assets
 };
 
 export {
-  assets, ibc
+  assets
 };

@@ -3,11 +3,13 @@ const info: IBCInfo[] = [{
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshub',
+      chain_id: 'cosmoshub-4',
       client_id: '07-tendermint-468',
       connection_id: 'connection-386'
     },
     chain_2: {
       chain_name: 'likecoin',
+      chain_id: 'likecoin-mainnet-2',
       client_id: '07-tendermint-24',
       connection_id: 'connection-13'
     },
@@ -27,11 +29,13 @@ const info: IBCInfo[] = [{
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'likecoin',
+      chain_id: 'likecoin-mainnet-2',
       client_id: '07-tendermint-16',
       connection_id: 'connection-9'
     },
     chain_2: {
       chain_name: 'osmosis',
+      chain_id: 'osmosis-1',
       client_id: '07-tendermint-1507',
       connection_id: 'connection-1173'
     },

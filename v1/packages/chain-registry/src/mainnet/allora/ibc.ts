@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'allora',
+      chain_id: 'allora-mainnet-1',
       client_id: '07-tendermint-0',
       connection_id: 'connection-0'
     },
     chain_2: {
       chain_name: 'axelar',
+      chain_id: 'axelar-dojo-1',
       client_id: '07-tendermint-232',
       connection_id: 'connection-223'
     },
@@ -29,11 +31,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'allora',
+      chain_id: 'allora-mainnet-1',
       client_id: '07-tendermint-2',
       connection_id: 'connection-7'
     },
     chain_2: {
       chain_name: 'cosmoshub',
+      chain_id: 'cosmoshub-4',
       client_id: '07-tendermint-1384',
       connection_id: 'connection-1107'
     },
@@ -54,11 +58,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'allora',
+      chain_id: 'allora-mainnet-1',
       client_id: '07-tendermint-1',
       connection_id: 'connection-1'
     },
     chain_2: {
       chain_name: 'sei',
+      chain_id: 'pacific-1',
       client_id: '07-tendermint-141',
       connection_id: 'connection-175'
     },

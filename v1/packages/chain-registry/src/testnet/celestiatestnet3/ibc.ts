@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'celestiatestnet3',
+      chain_id: 'mocha-4',
       client_id: '07-tendermint-0',
       connection_id: 'connection-0'
     },
     chain_2: {
       chain_name: 'cosmoshubtestnet',
+      chain_id: 'theta-testnet-001',
       client_id: '07-tendermint-2382',
       connection_id: 'connection-2727'
     },
@@ -33,11 +35,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'celestiatestnet3',
+      chain_id: 'mocha-4',
       client_id: '07-tendermint-118',
       connection_id: 'connection-98'
     },
     chain_2: {
       chain_name: 'osmosistestnet',
+      chain_id: 'osmo-test-5',
       client_id: '07-tendermint-1445',
       connection_id: 'connection-1350'
     },
@@ -62,11 +66,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'celestiatestnet3',
+      chain_id: 'mocha-4',
       client_id: '07-tendermint-615',
       connection_id: 'connection-551'
     },
     chain_2: {
       chain_name: 'prysmdevnet',
+      chain_id: 'prysm-devnet-1',
       client_id: '07-tendermint-14',
       connection_id: 'connection-8'
     },

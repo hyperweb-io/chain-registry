@@ -1,5 +1,6 @@
 export * as ethereum from './ethereum';
 export * as namada from './namada';
+export * as penumbra from './penumbra';
 export * as rootstock from './rootstock';
 export * as solana from './solana';
 export * as ton from './ton';

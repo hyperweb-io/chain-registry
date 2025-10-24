@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'agoricdevnet',
+      chain_id: 'agoricdev-25',
       client_id: '07-tendermint-16',
       connection_id: 'connection-16'
     },
     chain_2: {
       chain_name: 'elystestnet',
+      chain_id: 'elysicstestnet-1',
       client_id: '07-tendermint-17',
       connection_id: 'connection-10'
     },
@@ -33,11 +35,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshubtestnet',
+      chain_id: 'theta-testnet-001',
       client_id: '07-tendermint-2522',
       connection_id: 'connection-2881'
     },
     chain_2: {
       chain_name: 'elystestnet',
+      chain_id: 'elysicstestnet-1',
       client_id: '07-tendermint-19',
       connection_id: 'connection-17'
     },
@@ -61,11 +65,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'elystestnet',
+      chain_id: 'elysicstestnet-1',
       client_id: '07-tendermint-9',
       connection_id: 'connection-12'
     },
     chain_2: {
       chain_name: 'nobletestnet',
+      chain_id: 'grand-1',
       client_id: '07-tendermint-28',
       connection_id: 'connection-26'
     },
@@ -89,11 +95,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'elystestnet',
+      chain_id: 'elysicstestnet-1',
       client_id: '07-tendermint-118',
       connection_id: 'connection-80'
     },
     chain_2: {
       chain_name: 'prysmdevnet',
+      chain_id: 'prysm-devnet-1',
       client_id: '07-tendermint-21',
       connection_id: 'connection-14'
     },
@@ -114,11 +122,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'elystestnet',
+      chain_id: 'elysicstestnet-1',
       client_id: '07-tendermint-13',
       connection_id: 'connection-9'
     },
     chain_2: {
       chain_name: 'xrplevmtestnet',
+      chain_id: 'xrplevm_1449000-1',
       client_id: '07-tendermint-15',
       connection_id: 'connection-3'
     },

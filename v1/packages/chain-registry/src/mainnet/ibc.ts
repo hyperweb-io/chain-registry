@@ -2,6 +2,7 @@ import { IBCInfo } from '@chain-registry/types';
 
 import * as _ethereum from './ethereum';
 import * as _namada from './namada';
+import * as _penumbra from './penumbra';
 import * as _solana from './solana';
 import * as _aaronetwork from './aaronetwork';
 import * as _acrechain from './acrechain';
@@ -176,6 +177,7 @@ import * as _zigchain from './zigchain';
 const ibc: IBCInfo[] = [
   ..._ethereum.ibc,
   ..._namada.ibc,
+  ..._penumbra.ibc,
   ..._solana.ibc,
   ..._aaronetwork.ibc,
   ..._acrechain.ibc,

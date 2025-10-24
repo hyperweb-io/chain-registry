@@ -1,6 +1,3 @@
-export * as picasso from './picasso';
-export * as composablepolkadot from './composablepolkadot';
-export * as penumbra from './penumbra';
 export * as _0l from './0l';
 export * as aptos from './aptos';
 export * as arbitrum from './arbitrum';
@@ -33,7 +30,6 @@ export * as xrpl from './xrpl';
 export * as zilliqa from './zilliqa';
 export * as berachain from './berachain';
 export * as hall from './hall';
-export * as cosmoshubicstestnet from './cosmoshubicstestnet';
 export * as avalanchetestnet from './avalanchetestnet';
 export * as binancesmartchaintestnet from './binancesmartchaintestnet';
 export * as bitcoincashtestnet from './bitcoincashtestnet';

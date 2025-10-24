@@ -3925,40 +3925,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native staking and governance token of Picasso Kusama.',
-      denom_units: [{
-          denom: 'ibc/6517CF990493C8F3D6AE1E03FA1B5167B1E40345061104F07296D883379B4A08',
-          exponent: 0,
-          aliases: ['ppica']
-        }, {
-          denom: 'pica',
-          exponent: 12
-        }],
-      type_asset: 'substrate',
-      base: 'ibc/6517CF990493C8F3D6AE1E03FA1B5167B1E40345061104F07296D883379B4A08',
-      name: 'Picasso',
-      display: 'pica',
-      symbol: 'PICA',
-      coingecko_id: 'picasso',
-      logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg'
-      },
-      images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg'
-        }],
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-17',
-            base_denom: 'ppica',
-            chain_name: 'picasso'
-          },
-          chain: {
-            channel_id: 'channel-2'
-          }
-        }]
-    },
-    {
       description: 'QCK - native token of Quicksilver',
       denom_units: [{
           denom: 'ibc/E8C4BDE0CDFFA83759AD3324EEE5A1B1E39FCA6BA0791AAE67F4CCF829DB8F1F',
@@ -5579,40 +5545,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-5'
-          }
-        }]
-    },
-    {
-      description: 'The native staking and governance token of Picasso Kusama.',
-      denom_units: [{
-          denom: 'ibc/6517CF990493C8F3D6AE1E03FA1B5167B1E40345061104F07296D883379B4A08',
-          exponent: 0,
-          aliases: ['ppica']
-        }, {
-          denom: 'pica',
-          exponent: 12
-        }],
-      type_asset: 'substrate',
-      base: 'ibc/6517CF990493C8F3D6AE1E03FA1B5167B1E40345061104F07296D883379B4A08',
-      name: 'Picasso',
-      display: 'pica',
-      symbol: 'PICA',
-      coingecko_id: 'picasso',
-      logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg'
-      },
-      images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg'
-        }],
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-17',
-            base_denom: 'ppica',
-            chain_name: 'picasso'
-          },
-          chain: {
-            channel_id: 'channel-2'
           }
         }]
     },

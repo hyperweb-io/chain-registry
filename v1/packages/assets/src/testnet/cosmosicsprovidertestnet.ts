@@ -79,6 +79,39 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native staking token of Babylon.',
+      denom_units: [{
+          denom: 'ibc/66D14DD6F6E1170CC4E17FB3FF485F83F6E2DC01DC4AB88399AD956920847EFF',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ibc/66D14DD6F6E1170CC4E17FB3FF485F83F6E2DC01DC4AB88399AD956920847EFF',
+      name: 'Babylon Testnet',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-8',
+            base_denom: 'ubbn',
+            chain_name: 'babylontestnet'
+          },
+          chain: {
+            channel_id: 'channel-347'
+          }
+        }]
+    },
+    {
       description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
       denom_units: [{
           denom: 'ibc/14F68F1D091D089FA4425BDBFB2166B40218979F7E065B6BE61188E93DD4DD30',
@@ -151,6 +184,39 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-388'
+          }
+        }]
+    },
+    {
+      description: 'The native staking token of Babylon.',
+      denom_units: [{
+          denom: 'ibc/66D14DD6F6E1170CC4E17FB3FF485F83F6E2DC01DC4AB88399AD956920847EFF',
+          exponent: 0,
+          aliases: ['ubbn']
+        }, {
+          denom: 'BABY',
+          exponent: 6
+        }],
+      base: 'ibc/66D14DD6F6E1170CC4E17FB3FF485F83F6E2DC01DC4AB88399AD956920847EFF',
+      name: 'Babylon Testnet',
+      display: 'BABY',
+      symbol: 'BABY',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-8',
+            base_denom: 'ubbn',
+            chain_name: 'babylontestnet'
+          },
+          chain: {
+            channel_id: 'channel-347'
           }
         }]
     },

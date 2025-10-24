@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'akash',
+      chain_id: 'akashnet-2',
       client_id: '07-tendermint-48',
       connection_id: 'connection-23'
     },
     chain_2: {
       chain_name: 'cryptoorgchain',
+      chain_id: 'crypto-org-chain-mainnet-1',
       client_id: '07-tendermint-65',
       connection_id: 'connection-38'
     },
@@ -29,11 +31,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshub',
+      chain_id: 'cosmoshub-4',
       client_id: '07-tendermint-389',
       connection_id: 'connection-342'
     },
     chain_2: {
       chain_name: 'cryptoorgchain',
+      chain_id: 'crypto-org-chain-mainnet-1',
       client_id: '07-tendermint-735',
       connection_id: 'connection-220'
     },
@@ -54,11 +58,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'crescent',
+      chain_id: 'crescent-1',
       client_id: '07-tendermint-77',
       connection_id: 'connection-65'
     },
     chain_2: {
       chain_name: 'cryptoorgchain',
+      chain_id: 'crypto-org-chain-mainnet-1',
       client_id: '07-tendermint-1153',
       connection_id: 'connection-277'
     },
@@ -83,11 +89,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cryptoorgchain',
+      chain_id: 'crypto-org-chain-mainnet-1',
       client_id: '07-tendermint-1136',
       connection_id: 'connection-260'
     },
     chain_2: {
       chain_name: 'evmos',
+      chain_id: 'evmos_9001-2',
       client_id: '07-tendermint-85',
       connection_id: 'connection-43'
     },
@@ -108,11 +116,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cryptoorgchain',
+      chain_id: 'crypto-org-chain-mainnet-1',
       client_id: '07-tendermint-650',
       connection_id: 'connection-197'
     },
     chain_2: {
       chain_name: 'irisnet',
+      chain_id: 'irishub-1',
       client_id: '07-tendermint-32',
       connection_id: 'connection-23'
     },
@@ -133,11 +143,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cryptoorgchain',
+      chain_id: 'crypto-org-chain-mainnet-1',
       client_id: '07-tendermint-33',
       connection_id: 'connection-12'
     },
     chain_2: {
       chain_name: 'osmosis',
+      chain_id: 'osmosis-1',
       client_id: '07-tendermint-4',
       connection_id: 'connection-5'
     },
@@ -162,11 +174,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cryptoorgchain',
+      chain_id: 'crypto-org-chain-mainnet-1',
       client_id: '07-tendermint-61',
       connection_id: 'connection-34'
     },
     chain_2: {
       chain_name: 'persistence',
+      chain_id: 'core-1',
       client_id: '07-tendermint-24',
       connection_id: 'connection-17'
     },
@@ -187,11 +201,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cryptoorgchain',
+      chain_id: 'crypto-org-chain-mainnet-1',
       client_id: '07-tendermint-732',
       connection_id: 'connection-218'
     },
     chain_2: {
       chain_name: 'regen',
+      chain_id: 'regen-1',
       client_id: '07-tendermint-28',
       connection_id: 'connection-26'
     },
@@ -212,11 +228,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cryptoorgchain',
+      chain_id: 'crypto-org-chain-mainnet-1',
       client_id: '07-tendermint-63',
       connection_id: 'connection-36'
     },
     chain_2: {
       chain_name: 'sentinel',
+      chain_id: 'sentinelhub-2',
       client_id: '07-tendermint-43',
       connection_id: 'connection-28'
     },
@@ -237,11 +255,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cryptoorgchain',
+      chain_id: 'crypto-org-chain-mainnet-1',
       client_id: '07-tendermint-1103',
       connection_id: 'connection-239'
     },
     chain_2: {
       chain_name: 'sifchain',
+      chain_id: 'sifchain-1',
       client_id: '07-tendermint-20',
       connection_id: 'connection-10'
     },
@@ -262,11 +282,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cryptoorgchain',
+      chain_id: 'crypto-org-chain-mainnet-1',
       client_id: '07-tendermint-66',
       connection_id: 'connection-39'
     },
     chain_2: {
       chain_name: 'starname',
+      chain_id: 'iov-mainnet-ibc',
       client_id: '07-tendermint-16',
       connection_id: 'connection-11'
     },

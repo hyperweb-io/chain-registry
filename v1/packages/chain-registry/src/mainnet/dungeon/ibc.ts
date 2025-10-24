@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmoshub',
+      chain_id: 'cosmoshub-4',
       client_id: '07-tendermint-1441',
       connection_id: 'connection-1179'
     },
     chain_2: {
       chain_name: 'dungeon',
+      chain_id: 'dungeon-1',
       client_id: '07-tendermint-24',
       connection_id: 'connection-8631'
     },
@@ -33,11 +35,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'dungeon',
+      chain_id: 'dungeon-1',
       client_id: '07-tendermint-22',
       connection_id: 'connection-8630'
     },
     chain_2: {
       chain_name: 'noble',
+      chain_id: 'noble-1',
       client_id: '07-tendermint-163',
       connection_id: 'connection-157'
     },
@@ -62,11 +66,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'dungeon',
+      chain_id: 'dungeon-1',
       client_id: '07-tendermint-18',
       connection_id: 'connection-8628'
     },
     chain_2: {
       chain_name: 'osmosis',
+      chain_id: 'osmosis-1',
       client_id: '07-tendermint-3456',
       connection_id: 'connection-10614'
     },

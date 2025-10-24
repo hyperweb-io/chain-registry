@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'akashtestnet1',
+      chain_id: 'sandbox-01',
       client_id: '07-tendermint-4',
       connection_id: 'connection-4'
     },
     chain_2: {
       chain_name: 'archwaytestnet',
+      chain_id: 'constantine-3',
       client_id: '07-tendermint-45',
       connection_id: 'connection-39'
     },
@@ -32,11 +34,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'archwaytestnet',
+      chain_id: 'constantine-3',
       client_id: '07-tendermint-70',
       connection_id: 'connection-60'
     },
     chain_2: {
       chain_name: 'axelartestnet',
+      chain_id: 'axelar-testnet-lisbon-3',
       client_id: '07-tendermint-603',
       connection_id: 'connection-418'
     },
@@ -60,11 +64,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'archwaytestnet',
+      chain_id: 'constantine-3',
       client_id: '07-tendermint-0',
       connection_id: 'connection-119'
     },
     chain_2: {
       chain_name: 'jackaltestnet2',
+      chain_id: 'mesomelas-1',
       client_id: '07-tendermint-0',
       connection_id: 'connection-0'
     },
@@ -88,11 +94,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'archwaytestnet',
+      chain_id: 'constantine-3',
       client_id: '07-tendermint-121',
       connection_id: 'connection-120'
     },
     chain_2: {
       chain_name: 'osmosistestnet',
+      chain_id: 'osmo-test-5',
       client_id: '07-tendermint-3459',
       connection_id: 'connection-3027'
     },

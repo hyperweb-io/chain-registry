@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'archway',
+      chain_id: 'archway-1',
       client_id: '07-tendermint-37',
       connection_id: 'connection-40'
     },
     chain_2: {
       chain_name: 'bitcanna',
+      chain_id: 'bitcanna-1',
       client_id: '07-tendermint-83',
       connection_id: 'connection-74'
     },
@@ -33,11 +35,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'bitcanna',
+      chain_id: 'bitcanna-1',
       client_id: '07-tendermint-0',
       connection_id: 'connection-19'
     },
     chain_2: {
       chain_name: 'bitsong',
+      chain_id: 'bitsong-2b',
       client_id: '07-tendermint-1237',
       connection_id: 'connection-1132'
     },
@@ -62,11 +66,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'bitcanna',
+      chain_id: 'bitcanna-1',
       client_id: '07-tendermint-4',
       connection_id: 'connection-3'
     },
     chain_2: {
       chain_name: 'cosmoshub',
+      chain_id: 'cosmoshub-4',
       client_id: '07-tendermint-490',
       connection_id: 'connection-399'
     },
@@ -91,11 +97,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'bitcanna',
+      chain_id: 'bitcanna-1',
       client_id: '07-tendermint-12',
       connection_id: 'connection-11'
     },
     chain_2: {
       chain_name: 'juno',
+      chain_id: 'juno-1',
       client_id: '07-tendermint-110',
       connection_id: 'connection-70'
     },
@@ -120,11 +128,13 @@ const info: IBCInfo[] = [
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'bitcanna',
+      chain_id: 'bitcanna-1',
       client_id: '07-tendermint-1',
       connection_id: 'connection-1'
     },
     chain_2: {
       chain_name: 'osmosis',
+      chain_id: 'osmosis-1',
       client_id: '07-tendermint-1499',
       connection_id: 'connection-1167'
     },

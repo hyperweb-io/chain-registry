@@ -4,11 +4,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'cosmosicsprovidertestnet',
+      chain_id: 'provider',
       client_id: '07-tendermint-290',
       connection_id: 'connection-208'
     },
     chain_2: {
       chain_name: 'xrplevmtestnet',
+      chain_id: 'xrplevm_1449000-1',
       client_id: '07-tendermint-9',
       connection_id: 'connection-1'
     },
@@ -33,11 +35,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'elystestnet',
+      chain_id: 'elysicstestnet-1',
       client_id: '07-tendermint-13',
       connection_id: 'connection-9'
     },
     chain_2: {
       chain_name: 'xrplevmtestnet',
+      chain_id: 'xrplevm_1449000-1',
       client_id: '07-tendermint-15',
       connection_id: 'connection-3'
     },
@@ -62,11 +66,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'injectivetestnet',
+      chain_id: 'injective-888',
       client_id: '07-tendermint-321',
       connection_id: 'connection-281'
     },
     chain_2: {
       chain_name: 'xrplevmtestnet',
+      chain_id: 'xrplevm_1449000-1',
       client_id: '07-tendermint-24',
       connection_id: 'connection-4'
     },
@@ -91,11 +97,13 @@ const info: IBCInfo[] = [
     $schema: '../../ibc_data.schema.json',
     chain_1: {
       chain_name: 'osmosistestnet',
+      chain_id: 'osmo-test-5',
       client_id: '07-tendermint-4629',
       connection_id: 'connection-3984'
     },
     chain_2: {
       chain_name: 'xrplevmtestnet',
+      chain_id: 'xrplevm_1449000-1',
       client_id: '07-tendermint-10',
       connection_id: 'connection-2'
     },
