@@ -27,6 +27,7 @@ export * as cosmosicsprovidertestnet from './cosmosicsprovidertestnet';
 export * as cosmwasmtestnet from './cosmwasmtestnet';
 export * as cosstestnet from './cosstestnet';
 export * as cudostestnet from './cudostestnet';
+export * as daodiseotestnet from './daodiseotestnet';
 export * as deardogetestnet from './deardogetestnet';
 export * as desmostestnet from './desmostestnet';
 export * as dhealthtestnet from './dhealthtestnet';

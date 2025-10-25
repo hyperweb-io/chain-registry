@@ -2088,6 +2088,29 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
         }]
+    },
+    {
+      description: 'Tether Gold(XAUT)',
+      type_asset: 'erc20',
+      address: '0x68749665ff8d2d112fa859aa293f07a622782f38',
+      denom_units: [{
+          denom: '0x68749665ff8d2d112fa859aa293f07a622782f38',
+          exponent: 0
+        }, {
+          denom: 'xaut',
+          exponent: 6
+        }],
+      base: '0x68749665ff8d2d112fa859aa293f07a622782f38',
+      name: 'Tether Gold',
+      display: 'xaut',
+      symbol: 'XAUt',
+      coingecko_id: 'tether-gold',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xaut.png'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xaut.png'
+      }
     }
   ]
 };

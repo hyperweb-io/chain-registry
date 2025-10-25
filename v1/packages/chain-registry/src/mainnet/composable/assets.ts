@@ -613,7 +613,7 @@ const info: AssetList = {
           aliases: ['wbtc-satoshi']
         }, {
           denom: 'wbtc',
-          exponent: 18
+          exponent: 8
         }],
       type_asset: 'ics20',
       base: 'ibc/1507315B0C337368B85A7EC67C3956C508E1106EBD96336B1B092F7B2815B3E5',

@@ -2,6 +2,7 @@ import { IBCInfo } from '@chain-registry/types';
 
 import * as _agoricdevnet from './agoricdevnet';
 import * as _archwaytestnet from './archwaytestnet';
+import * as _atomonetestnet from './atomonetestnet';
 import * as _axelartestnet from './axelartestnet';
 import * as _babylontestnet from './babylontestnet';
 import * as _celestiatestnet3 from './celestiatestnet3';
@@ -53,6 +54,7 @@ import * as _zigchaintestnet from './zigchaintestnet';
 const ibc: IBCInfo[] = [
   ..._agoricdevnet.ibc,
   ..._archwaytestnet.ibc,
+  ..._atomonetestnet.ibc,
   ..._axelartestnet.ibc,
   ..._babylontestnet.ibc,
   ..._celestiatestnet3.ibc,

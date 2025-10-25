@@ -79,6 +79,84 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native staking and governance token of AtomOne',
+      denom_units: [{
+          denom: 'ibc/D3D4FD02210AC8D021A951263C4CF901995E2A8BC99CD832C6DE6381E1F2515E',
+          exponent: 0,
+          aliases: ['uatone']
+        }, {
+          denom: 'atone',
+          exponent: 6
+        }],
+      base: 'ibc/D3D4FD02210AC8D021A951263C4CF901995E2A8BC99CD832C6DE6381E1F2515E',
+      name: 'Atone',
+      display: 'atone',
+      symbol: 'ATONE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://atom.one',
+        twitter: 'https://x.com/_atomone'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uatone',
+            chain_name: 'atomonetestnet'
+          },
+          chain: {
+            channel_id: 'channel-629'
+          }
+        }]
+    },
+    {
+      description: 'The fee token of AtomOne',
+      denom_units: [{
+          denom: 'ibc/7C026AD4B5528819146874B2DFFAECB645D3EBF3509A331E2B06FEE8060C149F',
+          exponent: 0,
+          aliases: ['uphoton']
+        }, {
+          denom: 'photon',
+          exponent: 6
+        }],
+      base: 'ibc/7C026AD4B5528819146874B2DFFAECB645D3EBF3509A331E2B06FEE8060C149F',
+      name: 'Photon',
+      display: 'photon',
+      symbol: 'PHOTON',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://atom.one',
+        twitter: 'https://x.com/_atomone'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uphoton',
+            chain_name: 'atomonetestnet'
+          },
+          chain: {
+            channel_id: 'channel-629'
+          }
+        }]
+    },
+    {
       description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
       denom_units: [{
           denom: 'ibc/452A877FB580D5FA3B55F3DDCE9A9B07E9E8C6B85CA1211175EC4A9D90D9FBE8',
@@ -151,6 +229,84 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-623'
+          }
+        }]
+    },
+    {
+      description: 'The native staking and governance token of AtomOne',
+      denom_units: [{
+          denom: 'ibc/D3D4FD02210AC8D021A951263C4CF901995E2A8BC99CD832C6DE6381E1F2515E',
+          exponent: 0,
+          aliases: ['uatone']
+        }, {
+          denom: 'atone',
+          exponent: 6
+        }],
+      base: 'ibc/D3D4FD02210AC8D021A951263C4CF901995E2A8BC99CD832C6DE6381E1F2515E',
+      name: 'Atone',
+      display: 'atone',
+      symbol: 'ATONE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://atom.one',
+        twitter: 'https://x.com/_atomone'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uatone',
+            chain_name: 'atomonetestnet'
+          },
+          chain: {
+            channel_id: 'channel-629'
+          }
+        }]
+    },
+    {
+      description: 'The fee token of AtomOne',
+      denom_units: [{
+          denom: 'ibc/7C026AD4B5528819146874B2DFFAECB645D3EBF3509A331E2B06FEE8060C149F',
+          exponent: 0,
+          aliases: ['uphoton']
+        }, {
+          denom: 'photon',
+          exponent: 6
+        }],
+      base: 'ibc/7C026AD4B5528819146874B2DFFAECB645D3EBF3509A331E2B06FEE8060C149F',
+      name: 'Photon',
+      display: 'photon',
+      symbol: 'PHOTON',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://atom.one',
+        twitter: 'https://x.com/_atomone'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uphoton',
+            chain_name: 'atomonetestnet'
+          },
+          chain: {
+            channel_id: 'channel-629'
           }
         }]
     },

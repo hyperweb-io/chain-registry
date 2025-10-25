@@ -1034,6 +1034,41 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Tether Gold(XAUT)',
+      type_asset: 'erc20',
+      address: '0x68749665ff8d2d112fa859aa293f07a622782f38',
+      denom_units: [{
+          denom: 'ibc/B337F4897D6299EDAB71A12E45FCEB8C706F5A9A938ABAB686F8BB096A797BEB',
+          exponent: 0,
+          aliases: ['0x68749665ff8d2d112fa859aa293f07a622782f38']
+        }, {
+          denom: 'xaut',
+          exponent: 6
+        }],
+      base: 'ibc/B337F4897D6299EDAB71A12E45FCEB8C706F5A9A938ABAB686F8BB096A797BEB',
+      name: 'Tether Gold',
+      display: 'xaut',
+      symbol: 'XAUt',
+      coingecko_id: 'tether-gold',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xaut.png'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xaut.png'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0x68749665ff8d2d112fa859aa293f07a622782f38',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
       description: 'Solana is a high-performance blockchain platform known for its fast transaction speeds, low costs, and scalability, ideal for decentralized applications and crypto projects.',
       denom_units: [{
           denom: 'ibc/C7F9D7DFF5469F53AB878ED0FBE53CC6B8B2720CD0ED09FD65F25343B13517CC',
@@ -3206,6 +3241,41 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-2',
             base_denom: '0xb2617246d0c6c0087f18703d576831899ca94f01',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      description: 'Tether Gold(XAUT)',
+      type_asset: 'erc20',
+      address: '0x68749665ff8d2d112fa859aa293f07a622782f38',
+      denom_units: [{
+          denom: 'ibc/B337F4897D6299EDAB71A12E45FCEB8C706F5A9A938ABAB686F8BB096A797BEB',
+          exponent: 0,
+          aliases: ['0x68749665ff8d2d112fa859aa293f07a622782f38']
+        }, {
+          denom: 'xaut',
+          exponent: 6
+        }],
+      base: 'ibc/B337F4897D6299EDAB71A12E45FCEB8C706F5A9A938ABAB686F8BB096A797BEB',
+      name: 'Tether Gold',
+      display: 'xaut',
+      symbol: 'XAUt',
+      coingecko_id: 'tether-gold',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xaut.png'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xaut.png'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0x68749665ff8d2d112fa859aa293f07a622782f38',
             chain_name: 'ethereum'
           },
           chain: {

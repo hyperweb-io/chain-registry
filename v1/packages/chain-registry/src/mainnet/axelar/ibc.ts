@@ -122,6 +122,37 @@ const info: IBCInfo[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain_1: {
+      chain_name: 'atomone',
+      chain_id: 'atomone-1',
+      client_id: '07-tendermint-38',
+      connection_id: 'connection-40'
+    },
+    chain_2: {
+      chain_name: 'axelar',
+      chain_id: 'axelar-dojo-1',
+      client_id: '07-tendermint-258',
+      connection_id: 'connection-252'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-10',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-190',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain_1: {
       chain_name: 'aura',
       chain_id: 'aura_6322-2',
       client_id: '07-tendermint-17',

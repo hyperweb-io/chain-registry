@@ -139,7 +139,7 @@ const info: AssetList = {
           exponent: 0
         }, {
           denom: 'inj',
-          exponent: 6
+          exponent: 18
         }],
       type_asset: 'ics20',
       base: 'ibc/49D820DFDE9F885D7081725A58202ABA2F465CAEE4AFBC683DFB79A8E013E83E',
