@@ -672,9 +672,9 @@ const info: AssetList = {
       denomUnits: [{
           denom: 'ibc/A356EC90DC3AE43D485514DA7260EDC7ABB5CFAA0654CE2524C739392975AD3C',
           exponent: 0,
-          aliases: ['wstETH']
+          aliases: ['factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH']
         }, {
-          denom: 'factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH',
+          denom: 'wstETH',
           exponent: 18
         }],
       typeAsset: 'ics20',
@@ -1496,6 +1496,63 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png'
         }],
       coingeckoId: 'eureka-bridged-pax-gold-terra'
+    },
+    {
+      description: 'Tether Gold bridged via Eureka on Cosmos Hub and relayed to Terra (phoenix-1) over IBC.',
+      denomUnits: [
+        {
+          denom: 'ibc/F20FE45BF7122CF10559EDEA032E37956D3314774EA6D8D1D46B87D138290C45',
+          exponent: 0,
+          aliases: ['microxaut', 'uxaut']
+        },
+        {
+          denom: 'xaut',
+          exponent: 6
+        },
+        {
+          denom: 'xaut.atom',
+          exponent: 6
+        }
+      ],
+      typeAsset: 'ics20',
+      base: 'ibc/F20FE45BF7122CF10559EDEA032E37956D3314774EA6D8D1D46B87D138290C45',
+      name: 'Eureka Bridged Tether Gold (Terra)',
+      display: 'xaut.atom',
+      symbol: 'XAUt.ATOM',
+      traces: [{
+          type: 'ibc-bridge',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x68749665ff8d2d112fa859aa293f07a622782f38',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: '08-wasm-1369',
+            path: 'transfer/08-wasm-1369/0x68749665ff8d2d112fa859aa293f07a622782f38'
+          },
+          provider: 'Eureka'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'cosmoshub',
+            baseDenom: 'ibc/A96C4DBCB7E36F8D265E92240510DB0F29F39CE4AAF52DBDE686E448BA447886',
+            channelId: 'channel-339'
+          },
+          chain: {
+            channelId: 'channel-0',
+            path: 'transfer/channel-0/transfer/08-wasm-1369/0x68749665ff8d2d112fa859aa293f07a622782f38'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xaut.png'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x68749665ff8d2d112fa859aa293f07a622782f38'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xaut.png'
+        }]
     }
   ]
 };

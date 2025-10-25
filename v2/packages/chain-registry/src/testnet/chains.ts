@@ -29,6 +29,7 @@ import * as _cosmosicsprovidertestnet from './cosmosicsprovidertestnet';
 import * as _cosmwasmtestnet from './cosmwasmtestnet';
 import * as _cosstestnet from './cosstestnet';
 import * as _cudostestnet from './cudostestnet';
+import * as _daodiseotestnet from './daodiseotestnet';
 import * as _deardogetestnet from './deardogetestnet';
 import * as _desmostestnet from './desmostestnet';
 import * as _dhealthtestnet from './dhealthtestnet';
@@ -168,6 +169,7 @@ const chains: Chain[] = [
   _cosmwasmtestnet.chain,
   _cosstestnet.chain,
   _cudostestnet.chain,
+  _daodiseotestnet.chain,
   _deardogetestnet.chain,
   _desmostestnet.chain,
   _dhealthtestnet.chain,

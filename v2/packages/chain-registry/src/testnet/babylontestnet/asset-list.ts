@@ -31,7 +31,7 @@ const info: AssetList = {
           exponent: 0
         }, {
           denom: 'IBC6',
-          exponent: 18
+          exponent: 6
         }],
       base: 'ibc/2278567FFA6D754BDD8C159CE1770D8AF27649BFB58E5132CF530460591E479D',
       name: 'IBC Test Token 6',
@@ -68,7 +68,7 @@ const info: AssetList = {
           exponent: 0
         }, {
           denom: 'IBC1',
-          exponent: 6
+          exponent: 18
         }],
       base: 'ibc/241F1FFE4117C31D7DFC2A91C026F083FCEB6868C169BA5002FF0B3E17B88EDF',
       name: 'IBC Test Token 1',
@@ -105,7 +105,7 @@ const info: AssetList = {
           exponent: 0
         }, {
           denom: 'IBC5',
-          exponent: 18
+          exponent: 6
         }],
       base: 'ibc/3AA6631D204C192DDB757935A4C49A0E83EEEE14AC045E8A180CCB4EE08B6196',
       name: 'IBC Test Token 5',
@@ -179,7 +179,7 @@ const info: AssetList = {
           exponent: 0
         }, {
           denom: 'IBC3',
-          exponent: 6
+          exponent: 18
         }],
       base: 'ibc/53BE513F8FEA2E000E8522CD60383AFA431F0F655EC05A1D56B7428836F3F314',
       name: 'IBC Test Token 3',

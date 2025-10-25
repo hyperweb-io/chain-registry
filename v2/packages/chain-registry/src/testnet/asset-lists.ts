@@ -29,6 +29,7 @@ import * as _cosmosicsprovidertestnet from './cosmosicsprovidertestnet';
 import * as _cosmwasmtestnet from './cosmwasmtestnet';
 import * as _cosstestnet from './cosstestnet';
 import * as _cudostestnet from './cudostestnet';
+import * as _daodiseotestnet from './daodiseotestnet';
 import * as _deardogetestnet from './deardogetestnet';
 import * as _desmostestnet from './desmostestnet';
 import * as _dhealthtestnet from './dhealthtestnet';
@@ -168,6 +169,7 @@ const assetList: AssetList[] = [
   _cosmwasmtestnet.assetList,
   _cosstestnet.assetList,
   _cudostestnet.assetList,
+  _daodiseotestnet.assetList,
   _deardogetestnet.assetList,
   _desmostestnet.assetList,
   _dhealthtestnet.assetList,
