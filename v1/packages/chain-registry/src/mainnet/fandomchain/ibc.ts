@@ -10,8 +10,8 @@ const info: IBCInfo[] = [{
     chain_2: {
       chain_name: 'osmosis',
       chain_id: 'osmosis-1',
-      client_id: '07-tendermint-3607',
-      connection_id: 'connection-10960'
+      client_id: '07-tendermint-3613',
+      connection_id: 'connection-10964'
     },
     channels: [{
         chain_1: {
@@ -19,7 +19,7 @@ const info: IBCInfo[] = [{
           port_id: 'transfer'
         },
         chain_2: {
-          channel_id: 'channel-107314',
+          channel_id: 'channel-107392',
           port_id: 'transfer'
         },
         ordering: 'unordered',

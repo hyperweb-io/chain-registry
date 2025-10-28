@@ -3001,14 +3001,14 @@ const asset_list: AssetList = {
     {
       description: 'FANDOMCHAIN is the native token of the FANDOMCHAIN Network',
       denom_units: [{
-          denom: 'ibc/EE3BD5717AABFDDBE9AB446002D528FD0C5202430C5E4E662D3955AF953DFD98',
+          denom: 'ibc/71F741EEE3CE4AC4C537550AD401927BDC888FDED01DE5F66CAEDA46FFE67D57',
           exponent: 0,
           aliases: ['ufandomChain']
         }, {
           denom: 'FANDOMCHAIN',
           exponent: 9
         }],
-      base: 'ibc/EE3BD5717AABFDDBE9AB446002D528FD0C5202430C5E4E662D3955AF953DFD98',
+      base: 'ibc/71F741EEE3CE4AC4C537550AD401927BDC888FDED01DE5F66CAEDA46FFE67D57',
       name: 'FANDOMCHAIN',
       display: 'FANDOMCHAIN',
       symbol: 'FANDOMCHAIN',
@@ -3030,7 +3030,7 @@ const asset_list: AssetList = {
             chain_name: 'fandomchain'
           },
           chain: {
-            channel_id: 'channel-107314'
+            channel_id: 'channel-107392'
           }
         }]
     },
@@ -9299,14 +9299,14 @@ const asset_list: AssetList = {
     {
       description: 'FANDOMCHAIN is the native token of the FANDOMCHAIN Network',
       denom_units: [{
-          denom: 'ibc/EE3BD5717AABFDDBE9AB446002D528FD0C5202430C5E4E662D3955AF953DFD98',
+          denom: 'ibc/71F741EEE3CE4AC4C537550AD401927BDC888FDED01DE5F66CAEDA46FFE67D57',
           exponent: 0,
           aliases: ['ufandomChain']
         }, {
           denom: 'FANDOMCHAIN',
           exponent: 9
         }],
-      base: 'ibc/EE3BD5717AABFDDBE9AB446002D528FD0C5202430C5E4E662D3955AF953DFD98',
+      base: 'ibc/71F741EEE3CE4AC4C537550AD401927BDC888FDED01DE5F66CAEDA46FFE67D57',
       name: 'FANDOMCHAIN',
       display: 'FANDOMCHAIN',
       symbol: 'FANDOMCHAIN',
@@ -9328,7 +9328,7 @@ const asset_list: AssetList = {
             chain_name: 'fandomchain'
           },
           chain: {
-            channel_id: 'channel-107314'
+            channel_id: 'channel-107392'
           }
         }]
     },

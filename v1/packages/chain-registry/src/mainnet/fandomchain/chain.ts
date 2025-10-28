@@ -8,7 +8,7 @@ const info: Chain = {
   pretty_name: 'fandomChain',
   chain_type: 'cosmos',
   chain_id: 'fandomChain',
-  bech32_prefix: 'cosmos',
+  bech32_prefix: 'fandom',
   daemon_name: 'fandomChaind',
   node_home: '$HOME/.fandomChaind',
   key_algos: ['secp256k1'],
