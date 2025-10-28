@@ -12,8 +12,8 @@ const info: Chain = {
   daemonName: 'zigchaind',
   nodeHome: '$HOME/.zigchain',
   logoURIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/zigchain.png',
-    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/zigchain.svg'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
   },
   keyAlgos: ['secp256k1'],
   slip44: 118,
@@ -108,8 +108,8 @@ const info: Chain = {
         chainName: 'zigchaintestnet',
         baseDenom: 'uzig'
       },
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/zigchain.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/zigchain.svg'
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
     }]
 };
 export default info;
