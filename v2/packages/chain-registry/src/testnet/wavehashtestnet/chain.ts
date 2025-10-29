@@ -17,7 +17,7 @@ const info: Chain = {
         denom: 'uwahax',
         lowGasPrice: 0.0025,
         averageGasPrice: 0.0025,
-        highGasPrice: 0.0024
+        highGasPrice: 0.0025
       }]
   },
   staking: {

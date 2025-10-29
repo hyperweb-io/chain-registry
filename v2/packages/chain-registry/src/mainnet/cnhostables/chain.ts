@@ -16,7 +16,7 @@ const info: Chain = {
     feeTokens: [{
         denom: 'ucnho',
         fixedMinGasPrice: 0.000005,
-        lowGasPrice: 0.000001,
+        lowGasPrice: 0.000005,
         averageGasPrice: 0.00001,
         highGasPrice: 0.025
       }]

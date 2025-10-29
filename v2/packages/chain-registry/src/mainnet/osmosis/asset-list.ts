@@ -17364,6 +17364,44 @@ const info: AssetList = {
         }]
     },
     {
+      description: 'Native ZEC from Zcash blockchain bridged via Int3face bridge',
+      denomUnits: [{
+          denom: 'ibc/18A91A3DDFD9776A247AE1B4B3298D754D1627B85F288DCEA473B7239F7B7A0E',
+          exponent: 0,
+          aliases: ['factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/zcash-zec']
+        }, {
+          denom: 'zec',
+          exponent: 8
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/18A91A3DDFD9776A247AE1B4B3298D754D1627B85F288DCEA473B7239F7B7A0E',
+      name: 'Zcash',
+      display: 'zec',
+      symbol: 'ZEC',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'int3face',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/zcash-zec',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-82819',
+            path: 'transfer/channel-82819/factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/zcash-zec'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/zec.int3.png'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'int3face',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/zcash-zec'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/zec.int3.png'
+        }]
+    },
+    {
       description: 'Tether\'s USD stablecoin from Arbitrum on Axelar',
       denomUnits: [{
           denom: 'ibc/57B63A0795B6BC0AC4EFD0D4DEE9FE71FCC1D0FFA87F6280C9CDEF4F6727A173',

@@ -1531,6 +1531,53 @@ const info: AssetList = {
         }]
     },
     {
+      description: 'Testnet ZEC from Zcash bridged via Int3face bridge',
+      denomUnits: [{
+          denom: 'ibc/49C1211CF9077E5D504D895A0C374D1D3E9B0EA3D0FFBA0CAB4EF3FEBEDA8DE2',
+          exponent: 0,
+          aliases: ['factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/zcash-zec']
+        }, {
+          denom: 'zec',
+          exponent: 8
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/49C1211CF9077E5D504D895A0C374D1D3E9B0EA3D0FFBA0CAB4EF3FEBEDA8DE2',
+      name: 'Testnet Zcash (Int3)',
+      display: 'zec',
+      symbol: 'ZEC.int3',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'zcashtestnet',
+            baseDenom: 'zatoshi'
+          },
+          provider: 'Int3face'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'int3facetestnet',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/zcash-zec',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-9755',
+            path: 'transfer/channel-9755/factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/zcash-zec'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/zec.int3.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/zec.int3.png'
+        }, {
+          imageSync: {
+            chainName: 'int3facetestnet',
+            baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/zcash-zec'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/zec.int3.png'
+        }]
+    },
+    {
       description: 'Testnet TON coin bridged via Int3face bridge',
       denomUnits: [{
           denom: 'ibc/17993F75F724B0CB68D0C26642007CDD62286010974B843F86507F383E9F19F3',

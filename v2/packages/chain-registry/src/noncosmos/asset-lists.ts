@@ -29,6 +29,7 @@ import * as _stellar from './stellar';
 import * as _sui from './sui';
 import * as _tinkernet from './tinkernet';
 import * as _xrpl from './xrpl';
+import * as _zcash from './zcash';
 import * as _zilliqa from './zilliqa';
 import * as _berachain from './berachain';
 import * as _hall from './hall';
@@ -46,6 +47,7 @@ import * as _polygontestnet from './polygontestnet';
 import * as _solanatestnet from './solanatestnet';
 import * as _tontestnet from './tontestnet';
 import * as _xrpltestnet from './xrpltestnet';
+import * as _zcashtestnet from './zcashtestnet';
 import * as _ojotestnet from './ojotestnet';
 import * as _tsc from './tsc';
 
@@ -79,6 +81,7 @@ const assetList: AssetList[] = [
   _sui.assetList,
   _tinkernet.assetList,
   _xrpl.assetList,
+  _zcash.assetList,
   _zilliqa.assetList,
   _berachain.assetList,
   _hall.assetList,
@@ -96,6 +99,7 @@ const assetList: AssetList[] = [
   _solanatestnet.assetList,
   _tontestnet.assetList,
   _xrpltestnet.assetList,
+  _zcashtestnet.assetList,
   _ojotestnet.assetList,
   _tsc.assetList
 ];

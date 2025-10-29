@@ -17,7 +17,7 @@ const info: Chain = {
     feeTokens: [{
         denom: 'uodis',
         fixedMinGasPrice: 0.025,
-        lowGasPrice: 0.01,
+        lowGasPrice: 0.025,
         averageGasPrice: 0.025,
         highGasPrice: 0.04
       }]

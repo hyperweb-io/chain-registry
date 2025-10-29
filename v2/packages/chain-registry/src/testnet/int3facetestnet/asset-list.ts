@@ -244,6 +244,35 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/xrp.int3.svg'
         }],
       typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Testnet Zcash on Int3face',
+      denomUnits: [{
+          denom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/zcash-zec',
+          exponent: 0
+        }, {
+          denom: 'zec',
+          exponent: 8
+        }],
+      base: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/zcash-zec',
+      name: 'Testnet Zcash',
+      display: 'zec',
+      symbol: 'ZEC',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'zcashtestnet',
+            baseDenom: 'zatoshi'
+          },
+          provider: 'Int3face'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/zec.int3.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/zec.int3.png'
+        }],
+      typeAsset: 'sdk.coin'
     }
   ]
 };
