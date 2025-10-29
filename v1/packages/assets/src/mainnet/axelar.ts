@@ -10418,63 +10418,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of ZIGChain',
-      denom_units: [
-        {
-          denom: 'ibc/4ABB59EC51905535CC63CD3B4B29D417CE1D27F924C8481B20F3AB3F8607D295',
-          exponent: 0,
-          aliases: ['uzig']
-        },
-        {
-          denom: 'mzig',
-          exponent: 3,
-          aliases: ['millizig']
-        },
-        {
-          denom: 'zig',
-          exponent: 6
-        }
-      ],
-      type_asset: 'sdk.coin',
-      base: 'ibc/4ABB59EC51905535CC63CD3B4B29D417CE1D27F924C8481B20F3AB3F8607D295',
-      name: 'ZIG',
-      display: 'zig',
-      symbol: 'ZIG',
-      coingecko_id: 'zignaly',
-      keywords: [
-        'zigchain',
-        'rwa',
-        'wealth generation infrastructure',
-        'wasm'
-      ],
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
-        }],
-      socials: {
-        website: 'https://zigchain.com/',
-        twitter: 'https://x.com/zigchain',
-        telegram: 'https://t.me/ZignalyHQ',
-        discord: 'https://discord.zignaly.com',
-        medium: 'https://medium.com/zignaly'
-      },
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-1',
-            base_denom: 'uzig',
-            chain_name: 'zigchain'
-          },
-          chain: {
-            channel_id: 'channel-182'
-          }
-        }]
-    },
-    {
       description: 'Staked Zig Token by Valdora Finance - Decentralized staking with stZIG',
       denom_units: [{
           denom: 'ibc/DE67884ED4725FEE6B30D96CE52E11C0374A91A39B516D8A3F3E4FE693739E52',
@@ -20085,63 +20028,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-49'
-          }
-        }]
-    },
-    {
-      description: 'The native token of ZIGChain',
-      denom_units: [
-        {
-          denom: 'ibc/4ABB59EC51905535CC63CD3B4B29D417CE1D27F924C8481B20F3AB3F8607D295',
-          exponent: 0,
-          aliases: ['uzig']
-        },
-        {
-          denom: 'mzig',
-          exponent: 3,
-          aliases: ['millizig']
-        },
-        {
-          denom: 'zig',
-          exponent: 6
-        }
-      ],
-      type_asset: 'sdk.coin',
-      base: 'ibc/4ABB59EC51905535CC63CD3B4B29D417CE1D27F924C8481B20F3AB3F8607D295',
-      name: 'ZIG',
-      display: 'zig',
-      symbol: 'ZIG',
-      coingecko_id: 'zignaly',
-      keywords: [
-        'zigchain',
-        'rwa',
-        'wealth generation infrastructure',
-        'wasm'
-      ],
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
-        }],
-      socials: {
-        website: 'https://zigchain.com/',
-        twitter: 'https://x.com/zigchain',
-        telegram: 'https://t.me/ZignalyHQ',
-        discord: 'https://discord.zignaly.com',
-        medium: 'https://medium.com/zignaly'
-      },
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-1',
-            base_denom: 'uzig',
-            chain_name: 'zigchain'
-          },
-          chain: {
-            channel_id: 'channel-182'
           }
         }]
     },

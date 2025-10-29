@@ -17,7 +17,7 @@ const info: Chain = {
         denom: 'uperm',
         low_gas_price: 0.0025,
         average_gas_price: 0.0025,
-        high_gas_price: 0.0024
+        high_gas_price: 0.0025
       }]
   },
   staking: {

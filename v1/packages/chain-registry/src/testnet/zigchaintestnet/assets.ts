@@ -25,6 +25,14 @@ const info: AssetList = {
       name: 'ZIG',
       display: 'zig',
       symbol: 'ZIG',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chain_name: 'zigchain',
+            base_denom: 'uzig'
+          },
+          provider: 'ZIGChain'
+        }],
       coingecko_id: 'zignaly',
       keywords: [
         'zigchain',
@@ -35,12 +43,16 @@ const info: AssetList = {
         'defi'
       ],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/zigchain.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/zigchain.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/zigchain.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/zigchain.svg'
+          image_sync: {
+            chain_name: 'zigchain',
+            base_denom: 'uzig'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
         }],
       type_asset: 'sdk.coin',
       socials: {
@@ -64,11 +76,25 @@ const info: AssetList = {
       name: 'Staked Zig',
       display: 'stzig',
       symbol: 'STZIG',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chain_name: 'zigchain',
+            base_denom: 'coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig'
+          },
+          provider: 'ZIGChain'
+        }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zigchaintestnet/images/stzig.png'
+          image_sync: {
+            chain_name: 'zigchain',
+            base_denom: 'coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.svg'
         }],
       type_asset: 'sdk.coin',
       socials: {

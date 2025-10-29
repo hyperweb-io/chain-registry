@@ -1683,8 +1683,7 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
-      },
-      coingecko_id: 'zignaly'
+      }
     }
   ]
 };

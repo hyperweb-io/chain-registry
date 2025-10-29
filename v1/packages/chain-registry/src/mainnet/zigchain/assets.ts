@@ -27,6 +27,14 @@ const info: AssetList = {
       name: 'ZIG',
       display: 'zig',
       symbol: 'ZIG',
+      traces: [{
+          type: 'additional-mintage',
+          counterparty: {
+            chain_name: 'ethereum',
+            base_denom: '0xb2617246d0c6c0087f18703d576831899ca94f01'
+          },
+          provider: 'ZIGChain'
+        }],
       coingecko_id: 'zignaly',
       keywords: [
         'zigchain',
@@ -220,8 +228,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
-        }],
-      coingecko_id: 'zignaly'
+        }]
     }
   ]
 };
