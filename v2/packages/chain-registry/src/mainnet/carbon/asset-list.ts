@@ -181,7 +181,7 @@ const info: AssetList = {
       display: 'cglp',
       symbol: 'CGLP',
       traces: [{
-          type: 'wrapped',
+          type: 'bridge',
           counterparty: {
             chainName: 'arbitrum',
             baseDenom: '0xab19bdaeb37242fa0f30486195f45b9cf5361b78',

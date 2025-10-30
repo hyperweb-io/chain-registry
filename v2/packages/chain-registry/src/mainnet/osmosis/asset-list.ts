@@ -21870,6 +21870,41 @@ const info: AssetList = {
         }]
     },
     {
+      description: 'An alloy of ZEC asset variants on Osmosis.',
+      extendedDescription: 'Multiple Zcash variants on Osmosis comprise the liquidity backing of a tokenized transmuter pool to create an alloy of ZEC.',
+      denomUnits: [{
+          denom: 'factory/osmo1twk0c4kcwnhkyn6pzxe0qsk6a3nrye2w2sy309d60sljfysugagsd7e3mn/alloyed/allZEC',
+          exponent: 0
+        }, {
+          denom: 'allZEC',
+          exponent: 8
+        }],
+      typeAsset: 'sdk.coin',
+      address: 'osmo1twk0c4kcwnhkyn6pzxe0qsk6a3nrye2w2sy309d60sljfysugagsd7e3mn',
+      base: 'factory/osmo1twk0c4kcwnhkyn6pzxe0qsk6a3nrye2w2sy309d60sljfysugagsd7e3mn/alloyed/allZEC',
+      name: 'Zcash',
+      display: 'allZEC',
+      symbol: 'ZEC',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chainName: 'zcash',
+            baseDenom: 'zatoshi'
+          },
+          provider: 'Osmosis'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/zcash/images/zec.png'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'zcash',
+            baseDenom: 'zatoshi'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/zcash/images/zec.png'
+        }]
+    },
+    {
       denomUnits: [{
           denom: 'ibc/29EA1818A218B35E18FADC287C85A01802C900A5FFC0D7C8FC592D05186AAFD0',
           exponent: 0,
@@ -22552,6 +22587,7 @@ const info: AssetList = {
     },
     {
       description: 'The native token of Intento.',
+      extendedDescription: 'Intento is a purpose-built blockchain for orchestrating intent-driven actions across chains. It enables secure, self-custodial execution of flows using real-time inputs, and IBC — no smart contracts required. At its core is the intent engine, supported by trustless agents that execute cross-chain actions in a self-custodial manner. This design allows users to build anything from streaming tokens to complex interchain workflows, turning intent into action across the interchain.',
       denomUnits: [{
           denom: 'ibc/BE072C03DA544CF282499418E7BC64D38614879B3EE95F9AD91E6C37267D4836',
           exponent: 0,
@@ -22588,7 +22624,12 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg'
-        }]
+        }],
+      keywords: ['defi', 'orchestration'],
+      socials: {
+        website: 'https://intento.zone',
+        twitter: 'https://x.com/intentozone'
+      }
     },
     {
       description: 'The native token of Lumera.',

@@ -1439,26 +1439,19 @@ const info: AssetList = {
     },
     {
       description: 'PAX Gold bridged via Eureka on Cosmos Hub and relayed to Terra (phoenix-1) over IBC.',
-      denomUnits: [
-        {
+      denomUnits: [{
           denom: 'ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62',
           exponent: 0,
           aliases: ['attopaxg', 'apaxg']
-        },
-        {
+        }, {
           denom: 'paxg',
           exponent: 18
-        },
-        {
-          denom: 'paxg.atom',
-          exponent: 18
-        }
-      ],
+        }],
       typeAsset: 'ics20',
       base: 'ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62',
       name: 'Eureka Bridged PAX Gold (Terra)',
-      display: 'paxg.atom',
-      symbol: 'PAXG.ATOM',
+      display: 'paxg',
+      symbol: 'PAXG',
       traces: [{
           type: 'ibc-bridge',
           counterparty: {
@@ -1499,26 +1492,19 @@ const info: AssetList = {
     },
     {
       description: 'Tether Gold bridged via Eureka on Cosmos Hub and relayed to Terra (phoenix-1) over IBC.',
-      denomUnits: [
-        {
+      denomUnits: [{
           denom: 'ibc/F20FE45BF7122CF10559EDEA032E37956D3314774EA6D8D1D46B87D138290C45',
           exponent: 0,
           aliases: ['microxaut', 'uxaut']
-        },
-        {
+        }, {
           denom: 'xaut',
           exponent: 6
-        },
-        {
-          denom: 'xaut.atom',
-          exponent: 6
-        }
-      ],
+        }],
       typeAsset: 'ics20',
       base: 'ibc/F20FE45BF7122CF10559EDEA032E37956D3314774EA6D8D1D46B87D138290C45',
       name: 'Eureka Bridged Tether Gold (Terra)',
-      display: 'xaut.atom',
-      symbol: 'XAUt.ATOM',
+      display: 'xaut',
+      symbol: 'XAUt',
       traces: [{
           type: 'ibc-bridge',
           counterparty: {
