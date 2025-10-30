@@ -27,7 +27,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://akash.network/',
-        twitter: 'https://twitter.com/akashnet_'
+        twitter: 'https://twitter.com/akashnet'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -177,7 +177,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://akash.network/',
-        twitter: 'https://twitter.com/akashnet_'
+        twitter: 'https://twitter.com/akashnet'
       },
       type_asset: 'sdk.coin',
       traces: [{

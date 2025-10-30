@@ -817,7 +817,7 @@ const info: AssetList = {
       name: 'tBTC v2',
       symbol: 'tBTC',
       traces: [{
-          type: 'wrapped',
+          type: 'bridge',
           counterparty: {
             chain_name: 'bitcoin',
             base_denom: 'sat'
