@@ -26,7 +26,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.bandprotocol.com/',
-        twitter: 'https://twitter.com/BandProtocol'
+        x: 'https://x.com/BandProtocol'
       },
       typeAsset: 'sdk.coin'
     }]

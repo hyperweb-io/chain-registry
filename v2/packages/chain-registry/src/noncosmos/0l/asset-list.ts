@@ -27,7 +27,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://0l.network/',
-        twitter: 'https://twitter.com/0LNetwork'
+        x: 'https://x.com/0LNetwork'
       }
     }]
 };

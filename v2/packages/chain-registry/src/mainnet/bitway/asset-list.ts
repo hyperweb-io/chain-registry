@@ -26,7 +26,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://bitway.com',
-        twitter: 'https://x.com/BitwayOfficial'
+        x: 'https://x.com/BitwayOfficial'
       },
       typeAsset: 'sdk.coin'
     },
@@ -58,7 +58,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://bitway.com',
-        twitter: 'https://x.com/BitwayOfficial'
+        x: 'https://x.com/BitwayOfficial'
       },
       typeAsset: 'sdk.coin'
     },

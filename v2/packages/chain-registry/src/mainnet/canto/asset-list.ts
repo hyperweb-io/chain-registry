@@ -26,7 +26,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://canto.io/',
-        twitter: 'https://twitter.com/CantoPublic'
+        x: 'https://x.com/CantoPublic'
       },
       typeAsset: 'sdk.coin'
     }]

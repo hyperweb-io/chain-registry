@@ -9,7 +9,7 @@ const info: AssetList = {
       extendedDescription: 'Nibiru is a smart contract ecosystem with a high-performance, EVM-equivalent execution layer. Nibiru is engineered to meet the growing demand for versatile, scalable, and easy-to-use Web3 applications.',
       socials: {
         website: 'https://nibiru.fi',
-        twitter: 'https://twitter.com/nibiruchain'
+        x: 'https://x.com/nibiruchain'
       },
       denomUnits: [
         {
@@ -45,7 +45,7 @@ const info: AssetList = {
       extendedDescription: 'Liquid Staked Nibiru, powered by Eris Protocol\'s amplifier contracts. Nibiru is a smart contract ecosystem with a high-performance, EVM-equivalent execution layer. Nibiru is engineered to meet the growing demand for versatile, scalable, and easy-to-use Web3 applications.',
       socials: {
         website: 'https://nibiru.fi/docs/learn/liquid-stake/',
-        twitter: 'https://x.com/eris_protocol'
+        x: 'https://x.com/eris_protocol'
       },
       denomUnits: [{
           denom: 'tf/nibi1udqqx30cw8nwjxtl4l28ym9hhrp933zlq8dqxfjzcdhvl8y24zcqpzmh8m/ampNIBI',
@@ -124,7 +124,7 @@ const info: AssetList = {
       extendedDescription: 'AXV is the Astrovault token.',
       socials: {
         website: 'https://astrovault.io/',
-        twitter: 'https://x.com/axvdex'
+        x: 'https://x.com/axvdex'
       },
       denomUnits: [{
           denom: 'tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv',
@@ -165,7 +165,7 @@ const info: AssetList = {
       extendedDescription: 'xNIBI is a liquid staking derivative for NIBI created by Astrovault.',
       socials: {
         website: 'https://astrovault.io/',
-        twitter: 'https://x.com/axvdex'
+        x: 'https://x.com/axvdex'
       },
       denomUnits: [{
           denom: 'cw20:nibi1cehpv50vl90g9qkwwny8mw7txw79zs6f7wsfe8ey7dgp238gpy4qhdqjhm',

@@ -31,8 +31,8 @@ const info: AssetList = {
       ],
       socials: {
         website: 'https://kopi.money/',
-        twitter: 'https://x.com/kopi_money',
-        discord: 'https://discord.gg/kopi-money'
+        discord: 'https://discord.gg/kopi-money',
+        x: 'https://x.com/kopi_money'
       },
       typeAsset: 'sdk.coin'
     },
@@ -70,8 +70,8 @@ const info: AssetList = {
         'arbitrage'
       ],
       socials: {
-        twitter: 'https://x.com/kopi_money',
-        discord: 'https://discord.gg/kopi-money'
+        discord: 'https://discord.gg/kopi-money',
+        x: 'https://x.com/kopi_money'
       },
       typeAsset: 'sdk.coin'
     },
@@ -96,8 +96,8 @@ const info: AssetList = {
         }],
       keywords: ['dex', 'mm'],
       socials: {
-        twitter: 'https://x.com/kopi_money',
-        discord: 'https://discord.gg/kopi-money'
+        discord: 'https://discord.gg/kopi-money',
+        x: 'https://x.com/kopi_money'
       },
       typeAsset: 'sdk.coin'
     },

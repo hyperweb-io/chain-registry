@@ -26,7 +26,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://scorum.network',
-        twitter: 'https://twitter.com/scorum_en'
+        x: 'https://x.com/scorum_en'
       },
       typeAsset: 'sdk.coin'
     }, {

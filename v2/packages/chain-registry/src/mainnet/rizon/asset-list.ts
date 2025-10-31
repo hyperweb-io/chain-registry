@@ -25,7 +25,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://rizon.world/',
-        twitter: 'https://twitter.com/hdac_rizon'
+        x: 'https://x.com/hdac_rizon'
       },
       typeAsset: 'sdk.coin'
     }]

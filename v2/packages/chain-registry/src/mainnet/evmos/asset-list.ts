@@ -27,7 +27,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://evmos.org/',
-        twitter: 'https://twitter.com/EvmosOrg'
+        x: 'https://x.com/EvmosOrg'
       },
       typeAsset: 'sdk.coin'
     },
@@ -98,7 +98,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.neokingdom.org/',
-        twitter: 'https://twitter.com/NEOKingdomDAO'
+        x: 'https://x.com/NEOKingdomDAO'
       },
       typeAsset: 'sdk.coin'
     },

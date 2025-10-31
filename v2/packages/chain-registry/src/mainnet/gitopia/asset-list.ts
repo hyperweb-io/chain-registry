@@ -28,7 +28,7 @@ const info: AssetList = {
       coingeckoId: 'gitopia',
       socials: {
         website: 'https://gitopia.com/',
-        twitter: 'https://twitter.com/gitopiaDAO'
+        x: 'https://x.com/gitopiaDAO'
       },
       typeAsset: 'sdk.coin'
     }]

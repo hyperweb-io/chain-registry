@@ -382,7 +382,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.terra.money/',
-        twitter: 'https://twitter.com/terra_money'
+        x: 'https://x.com/terra_money'
       }
     },
     {
@@ -715,7 +715,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.cryptodungeon.org',
-        twitter: 'https://twitter.com/cryptodungeonma'
+        x: 'https://x.com/cryptodungeonma'
       },
       coingeckoId: 'dragon-coin-2'
     },
@@ -767,7 +767,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://app.migaloo.zone',
-        twitter: 'https://x.com/Migaloo_Zone'
+        x: 'https://x.com/Migaloo_Zone'
       },
       typeAsset: 'sdk.coin'
     },

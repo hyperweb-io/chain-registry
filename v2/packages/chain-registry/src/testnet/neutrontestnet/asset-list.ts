@@ -115,8 +115,8 @@ const info: AssetList = {
         }],
       description: 'The governance token of the Arena DAO on Neutron testnet',
       socials: {
-        twitter: 'https://x.com/ArenaDAO',
-        website: 'https://testnet.arenadao.org/'
+        website: 'https://testnet.arenadao.org/',
+        x: 'https://x.com/ArenaDAO'
       }
     },
     {

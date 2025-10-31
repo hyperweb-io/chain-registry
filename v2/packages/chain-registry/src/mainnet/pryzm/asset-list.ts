@@ -28,7 +28,7 @@ const info: AssetList = {
       coingeckoId: 'pryzm',
       socials: {
         website: 'https://pryzm.zone/',
-        twitter: 'https://twitter.com/Pryzm_Zone'
+        x: 'https://x.com/Pryzm_Zone'
       }
     },
     {

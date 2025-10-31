@@ -22,7 +22,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://islamiccoin.net',
-        twitter: 'https://x.com/islamic_coin'
+        x: 'https://x.com/islamic_coin'
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/islm.png',
@@ -59,7 +59,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://deenar.com',
-        twitter: 'https://x.com/DeenarGold'
+        x: 'https://x.com/DeenarGold'
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.png',

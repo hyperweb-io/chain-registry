@@ -26,7 +26,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://z.cash/',
-        twitter: 'https://x.com/zcash'
+        x: 'https://x.com/zcash'
       }
     }]
 };

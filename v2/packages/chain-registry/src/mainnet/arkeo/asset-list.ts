@@ -24,7 +24,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://arkeo.network/',
-        twitter: 'https://twitter.com/ArkeoNetwork'
+        x: 'https://x.com/ArkeoNetwork'
       },
       typeAsset: 'sdk.coin'
     }]

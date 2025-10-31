@@ -27,7 +27,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.phoenix.money/',
-        twitter: 'https://twitter.com/phoenix_dir'
+        x: 'https://x.com/phoenix_dir'
       },
       typeAsset: 'sdk.coin'
     },
@@ -68,7 +68,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://astroport.fi/',
-        twitter: 'https://twitter.com/astroport_fi'
+        x: 'https://x.com/astroport_fi'
       },
       coingeckoId: 'astroport-fi'
     },
@@ -1153,7 +1153,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.cryptodungeon.org',
-        twitter: 'https://twitter.com/cryptodungeonma'
+        x: 'https://x.com/cryptodungeonma'
       },
       coingeckoId: 'dragon-coin-2'
     },

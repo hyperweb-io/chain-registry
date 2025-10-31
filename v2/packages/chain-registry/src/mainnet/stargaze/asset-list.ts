@@ -28,7 +28,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.stargaze.zone/',
-        twitter: 'https://twitter.com/StargazeZone'
+        x: 'https://x.com/StargazeZone'
       },
       typeAsset: 'sdk.coin'
     },
@@ -579,7 +579,7 @@ const info: AssetList = {
       coingeckoId: 'yield-gata',
       socials: {
         website: 'https://gatahub.zone',
-        twitter: 'https://x.com/GataHubZone'
+        x: 'https://x.com/GataHubZone'
       }
     },
     {
@@ -745,7 +745,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://ffsc.site',
-        twitter: 'https://x.com/FortunateFewNFT'
+        x: 'https://x.com/FortunateFewNFT'
       },
       typeAsset: 'sdk.coin'
     },

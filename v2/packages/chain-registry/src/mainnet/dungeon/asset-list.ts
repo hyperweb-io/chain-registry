@@ -22,7 +22,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://www.cryptodungeon.org',
-        twitter: 'https://twitter.com/cryptodungeonma'
+        x: 'https://x.com/cryptodungeonma'
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png',

@@ -26,7 +26,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://pocket.network/',
-        twitter: 'https://twitter.com/POKTnetwork'
+        x: 'https://x.com/POKTnetwork'
       },
       typeAsset: 'sdk.coin'
     }]

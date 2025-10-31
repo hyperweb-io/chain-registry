@@ -27,7 +27,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://akash.network/',
-        twitter: 'https://twitter.com/akashnet'
+        x: 'https://x.com/akashnet'
       },
       typeAsset: 'sdk.coin'
     }]

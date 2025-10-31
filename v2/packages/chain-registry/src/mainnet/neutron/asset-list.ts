@@ -31,7 +31,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://neutron.org/',
-        twitter: 'https://twitter.com/Neutron_org'
+        x: 'https://x.com/Neutron_org'
       },
       typeAsset: 'sdk.coin'
     },
@@ -338,7 +338,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://astroport.fi/',
-        twitter: 'https://twitter.com/astroport_fi'
+        x: 'https://x.com/astroport_fi'
       },
       typeAsset: 'sdk.coin'
     },
@@ -372,7 +372,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://astroport.fi/',
-        twitter: 'https://twitter.com/astroport_fi'
+        x: 'https://x.com/astroport_fi'
       },
       typeAsset: 'sdk.coin'
     },
@@ -634,7 +634,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://apollo.farm/',
-        twitter: 'https://twitter.com/ApolloDAO'
+        x: 'https://x.com/ApolloDAO'
       },
       typeAsset: 'sdk.coin'
     },
@@ -970,7 +970,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://blaze.ninja',
-        twitter: 'https://x.com/NinjaBlazeApp'
+        x: 'https://x.com/NinjaBlazeApp'
       }
     },
     {
@@ -999,7 +999,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://marsprotocol.io/',
-        twitter: 'https://x.com/mars_protocol'
+        x: 'https://x.com/mars_protocol'
       },
       typeAsset: 'sdk.coin'
     },
@@ -1026,7 +1026,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://www.drop.money/',
-        twitter: 'https://x.com/Dropdotmoney'
+        x: 'https://x.com/Dropdotmoney'
       },
       typeAsset: 'sdk.coin'
     },
@@ -1061,7 +1061,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://www.drop.money/',
-        twitter: 'https://x.com/Dropdotmoney'
+        x: 'https://x.com/Dropdotmoney'
       },
       typeAsset: 'sdk.coin'
     },
@@ -1136,8 +1136,8 @@ const info: AssetList = {
         }],
       description: 'The governance token of the Arena DAO',
       socials: {
-        twitter: 'https://x.com/ArenaDAO',
-        website: 'https://arenadao.org/'
+        website: 'https://arenadao.org/',
+        x: 'https://x.com/ArenaDAO'
       }
     },
     {
@@ -1165,7 +1165,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://astrovault.io/',
-        twitter: 'https://x.com/axvdex'
+        x: 'https://x.com/axvdex'
       },
       coingeckoId: 'astrovault'
     },
@@ -1348,7 +1348,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://Jade.Money',
-        twitter: 'https://x.com/jadedotmoney'
+        x: 'https://x.com/jadedotmoney'
       },
       typeAsset: 'sdk.coin'
     },
@@ -1373,7 +1373,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.boostdao.io',
-        twitter: 'https://x.com/boost_dao'
+        x: 'https://x.com/boost_dao'
       },
       typeAsset: 'sdk.coin'
     },
@@ -1429,7 +1429,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://www.drop.money/',
-        twitter: 'https://x.com/Dropdotmoney'
+        x: 'https://x.com/Dropdotmoney'
       },
       typeAsset: 'sdk.coin'
     },
@@ -1467,7 +1467,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://nept.finance/',
-        twitter: 'https://x.com/neptune_finance'
+        x: 'https://x.com/neptune_finance'
       },
       typeAsset: 'ics20'
     },
@@ -1738,8 +1738,8 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.structured.money/',
-        twitter: 'https://x.com/StructuredFi',
-        telegram: 'https://t.me/StructuredFi'
+        telegram: 'https://t.me/StructuredFi',
+        x: 'https://x.com/StructuredFi'
       },
       typeAsset: 'sdk.coin'
     }

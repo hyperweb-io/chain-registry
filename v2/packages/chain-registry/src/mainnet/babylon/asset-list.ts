@@ -27,7 +27,7 @@ const info: AssetList = {
       typeAsset: 'sdk.coin',
       socials: {
         website: 'https://babylonlabs.io/',
-        twitter: 'https://x.com/babylonlabs_io'
+        x: 'https://x.com/babylonlabs_io'
       }
     },
     {
@@ -542,10 +542,10 @@ const info: AssetList = {
       typeAsset: 'cw20',
       socials: {
         website: 'https://www.satlayer.xyz',
-        twitter: 'https://x.com/satlayer',
         github: 'https://github.com/satlayer',
         telegram: 'https://t.me/satlayerannouncements',
-        discord: 'https://discord.com/invite/satlayer'
+        discord: 'https://discord.com/invite/satlayer',
+        x: 'https://x.com/satlayer'
       }
     },
     {

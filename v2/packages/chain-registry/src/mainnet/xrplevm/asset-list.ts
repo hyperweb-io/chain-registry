@@ -49,7 +49,7 @@ const info: AssetList = {
       coingeckoId: 'ripple',
       socials: {
         website: 'https://xrplevm.org',
-        twitter: 'https://twitter.com/Peersyst'
+        x: 'https://x.com/Peersyst'
       }
     }]
 };

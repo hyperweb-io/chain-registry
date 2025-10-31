@@ -27,7 +27,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.routerprotocol.com/',
-        twitter: 'https://x.com/routerprotocol'
+        x: 'https://x.com/routerprotocol'
       },
       typeAsset: 'sdk.coin'
     }, {

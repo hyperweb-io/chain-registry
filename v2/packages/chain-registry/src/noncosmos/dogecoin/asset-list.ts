@@ -24,7 +24,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://dogecoin.com/',
-        twitter: 'https://x.com/dogecoin'
+        x: 'https://x.com/dogecoin'
       }
     }]
 };

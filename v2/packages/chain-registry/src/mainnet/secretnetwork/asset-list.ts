@@ -28,7 +28,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://scrt.network/',
-        twitter: 'https://twitter.com/SecretNetwork'
+        x: 'https://x.com/SecretNetwork'
       },
       typeAsset: 'sdk.coin'
     },
@@ -251,7 +251,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'http://alter.network/',
-        twitter: 'https://twitter.com/AlterDapp'
+        x: 'https://x.com/AlterDapp'
       }
     },
     {
@@ -277,7 +277,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'http://amber.money/',
-        twitter: 'https://twitter.com/AmberDAO_'
+        x: 'https://x.com/AmberDAO_'
       }
     },
     {

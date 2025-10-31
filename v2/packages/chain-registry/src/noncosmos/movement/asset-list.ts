@@ -29,7 +29,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.movementnetwork.xyz/',
-        twitter: 'https://twitter.com/movementfdn'
+        x: 'https://x.com/movementfdn'
       }
     }]
 };

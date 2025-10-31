@@ -25,8 +25,8 @@ const info: AssetList = {
         }],
       socials: {
         website: 'http://cifer.ai',
-        twitter: 'https://x.com/cifer_ai',
-        github: 'https://github.com/CiferAI'
+        github: 'https://github.com/CiferAI',
+        x: 'https://x.com/cifer_ai'
       },
       typeAsset: 'sdk.coin'
     }]

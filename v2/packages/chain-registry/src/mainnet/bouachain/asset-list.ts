@@ -25,9 +25,9 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://Bouachain.com',
-        twitter: 'https://x.com/bouachain',
         github: 'https://github.com/bouachain',
-        telegram: 'https://t.me/boua-chain'
+        telegram: 'https://t.me/boua-chain',
+        x: 'https://x.com/bouachain'
       },
       typeAsset: 'sdk.coin'
     }]

@@ -25,7 +25,7 @@ const info: AssetList = {
         }],
       keywords: ['gaming', 'staking'],
       socials: {
-        twitter: 'https://twitter.com/furyachain'
+        x: 'https://x.com/furyachain'
       },
       typeAsset: 'sdk.coin'
     }]

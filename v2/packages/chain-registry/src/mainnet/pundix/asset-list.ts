@@ -39,7 +39,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://pundix.com',
-        twitter: 'https://twitter.com/PundiXLabs'
+        x: 'https://x.com/PundiXLabs'
       }
     }, {
       description: 'Purse is the decentralised loyalty program for physical stores and merchants. PURSE token shall serve as governance token of the PURSE Merchant loyalty point platform, the gas fee as well as the transaction fee on PURSE Merchant platform. To launch any merchant loyalty tokens and do transaction on the merchant platform, users and merchants need Purse tokens.',
@@ -74,7 +74,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://purse.land',
-        twitter: 'https://twitter.com/Purse_Land'
+        x: 'https://x.com/Purse_Land'
       }
     }]
 };

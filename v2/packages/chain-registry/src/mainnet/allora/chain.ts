@@ -15,10 +15,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'uallo',
-        fixedMinGasPrice: 10,
-        lowGasPrice: 10,
-        averageGasPrice: 10,
-        highGasPrice: 12
+        fixedMinGasPrice: 250000000,
+        lowGasPrice: 500000000,
+        averageGasPrice: 1000000000,
+        highGasPrice: 1500000000
       }]
   },
   staking: {

@@ -24,7 +24,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://namada.net/',
-        twitter: 'https://x.com/namada'
+        x: 'https://x.com/namada'
       },
       coingeckoId: 'namada',
       images: [{

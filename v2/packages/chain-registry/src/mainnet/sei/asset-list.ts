@@ -28,7 +28,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.sei.io/',
-        twitter: 'https://twitter.com/SeiNetwork'
+        x: 'https://x.com/SeiNetwork'
       },
       typeAsset: 'sdk.coin'
     },

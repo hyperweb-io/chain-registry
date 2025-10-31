@@ -51,7 +51,7 @@ const info: AssetList = {
       ],
       socials: {
         website: 'https://www.mantrachain.io/',
-        twitter: 'https://x.com/MANTRA_Chain'
+        x: 'https://x.com/MANTRA_Chain'
       }
     },
     {
@@ -328,7 +328,7 @@ const info: AssetList = {
       typeAsset: 'sdk.coin',
       socials: {
         website: 'https://www.hodlthethrottle.bike/',
-        twitter: 'https://x.com/BikeOnMANTRA'
+        x: 'https://x.com/BikeOnMANTRA'
       }
     }
   ]

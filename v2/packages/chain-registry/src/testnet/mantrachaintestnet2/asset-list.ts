@@ -55,7 +55,7 @@ const info: AssetList = {
       ],
       socials: {
         website: 'https://www.mantrachain.io/',
-        twitter: 'https://x.com/MANTRA_Chain'
+        x: 'https://x.com/MANTRA_Chain'
       }
     },
     {

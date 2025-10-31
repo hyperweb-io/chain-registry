@@ -24,7 +24,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://shido.io/',
-        twitter: 'https://twitter.com/ShidoGlobal'
+        x: 'https://x.com/ShidoGlobal'
       },
       typeAsset: 'sdk.coin'
     }]

@@ -25,7 +25,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://medas-digital.io/',
-        twitter: 'https://x.com/medasdigital'
+        x: 'https://x.com/medasdigital'
       },
       typeAsset: 'sdk.coin'
     }]

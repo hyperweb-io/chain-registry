@@ -28,7 +28,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://cosmos.network',
-        twitter: 'https://twitter.com/cosmoshub'
+        x: 'https://x.com/cosmoshub'
       },
       typeAsset: 'sdk.coin'
     },
@@ -728,7 +728,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://www.ophirdao.com',
-        twitter: 'https://x.com/OphirDAO'
+        x: 'https://x.com/OphirDAO'
       },
       keywords: ['dao'],
       images: [{
@@ -850,7 +850,7 @@ const info: AssetList = {
       },
       keywords: ['memecoin'],
       socials: {
-        twitter: 'https://x.com/quark_on_cosmos'
+        x: 'https://x.com/quark_on_cosmos'
       },
       images: [{
           imageSync: {

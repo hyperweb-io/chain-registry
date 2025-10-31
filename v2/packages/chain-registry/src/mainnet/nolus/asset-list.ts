@@ -27,7 +27,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://nolus.io/',
-        twitter: 'https://twitter.com/NolusProtocol'
+        x: 'https://x.com/NolusProtocol'
       },
       typeAsset: 'sdk.coin'
     },

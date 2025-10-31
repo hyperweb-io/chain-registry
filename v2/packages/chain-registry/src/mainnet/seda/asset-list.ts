@@ -25,7 +25,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.seda.xyz/',
-        twitter: 'https://twitter.com/sedaprotocol'
+        x: 'https://x.com/sedaprotocol'
       },
       typeAsset: 'sdk.coin'
     }]

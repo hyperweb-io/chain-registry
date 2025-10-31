@@ -28,7 +28,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://kujira.network/',
-        twitter: 'https://twitter.com/TeamKujira'
+        x: 'https://x.com/TeamKujira'
       },
       typeAsset: 'sdk.coin'
     },
@@ -2396,7 +2396,7 @@ const info: AssetList = {
       name: 'Axelar Wrapped YUM',
       socials: {
         website: 'https://cacaoswap.app',
-        twitter: 'https://x.com/CacaoSwap'
+        x: 'https://x.com/CacaoSwap'
       },
       display: 'yum',
       symbol: 'YUM.axl',

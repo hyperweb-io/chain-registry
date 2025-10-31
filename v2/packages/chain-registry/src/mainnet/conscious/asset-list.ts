@@ -24,7 +24,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://cvn.io',
-        twitter: 'https://twitter.com/conscious_chain'
+        x: 'https://x.com/conscious_chain'
       },
       typeAsset: 'sdk.coin'
     }]

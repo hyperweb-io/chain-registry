@@ -28,7 +28,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://planq.network',
-        twitter: 'https://twitter.com/planqfoundation'
+        x: 'https://x.com/planqfoundation'
       },
       typeAsset: 'sdk.coin'
     },
@@ -131,7 +131,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/anubis.png'
         }],
       socials: {
-        twitter: 'https://x.com/Anubis_Phy'
+        x: 'https://x.com/Anubis_Phy'
       },
       typeAsset: 'sdk.coin'
     },
@@ -156,8 +156,8 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       typeAsset: 'sdk.coin'
     },
@@ -190,8 +190,8 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       typeAsset: 'sdk.coin'
     },
@@ -224,8 +224,8 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       typeAsset: 'sdk.coin'
     },
@@ -258,8 +258,8 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       typeAsset: 'sdk.coin'
     }

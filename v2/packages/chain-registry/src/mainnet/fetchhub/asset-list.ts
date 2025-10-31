@@ -50,9 +50,9 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://mobix.ai',
-        twitter: 'https://twitter.com/mobixwallet',
         telegram: 'https://t.me/mobix_ai',
-        github: 'https://github.com/MOBIX-ai'
+        github: 'https://github.com/MOBIX-ai',
+        x: 'https://x.com/mobixwallet'
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/mobx.png',

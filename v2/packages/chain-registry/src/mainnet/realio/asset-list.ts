@@ -30,7 +30,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://realio.network/',
-        twitter: 'https://x.com/realio_network'
+        x: 'https://x.com/realio_network'
       },
       typeAsset: 'sdk.coin'
     }, {

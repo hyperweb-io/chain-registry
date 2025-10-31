@@ -36,7 +36,7 @@ const info: AssetList = {
       ],
       socials: {
         website: 'https://cronos.org/',
-        twitter: 'https://twitter.com/cronos_chain'
+        x: 'https://x.com/cronos_chain'
       },
       typeAsset: 'sdk.coin'
     }, {

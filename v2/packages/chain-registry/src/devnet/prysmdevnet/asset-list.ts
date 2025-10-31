@@ -23,7 +23,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.prysm.network/',
-        twitter: 'https://twitter.com/PrysmNetwork'
+        x: 'https://x.com/PrysmNetwork'
       },
       typeAsset: 'sdk.coin'
     }]

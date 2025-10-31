@@ -27,9 +27,9 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://union.build/',
-        twitter: 'https://x.com/union_build',
         discord: 'https://discord.union.build',
-        github: 'https://github.com/unionlabs/union'
+        github: 'https://github.com/unionlabs/union',
+        x: 'https://x.com/union_build'
       },
       typeAsset: 'sdk.coin'
     }]

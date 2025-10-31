@@ -33,7 +33,7 @@ const info: AssetList = {
       coingeckoId: 'ankr',
       socials: {
         website: 'https://www.ankr.com',
-        twitter: 'https://x.com/ankr'
+        x: 'https://x.com/ankr'
       },
       typeAsset: 'sdk.coin'
     }]

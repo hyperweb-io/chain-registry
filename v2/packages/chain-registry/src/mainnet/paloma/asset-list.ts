@@ -25,7 +25,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://palomachain.com/',
-        twitter: 'https://twitter.com/paloma_chain'
+        x: 'https://x.com/paloma_chain'
       },
       typeAsset: 'sdk.coin'
     }]

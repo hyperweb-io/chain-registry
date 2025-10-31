@@ -30,7 +30,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'http://bluzelle.com/',
-        twitter: 'https://twitter.com/BluzelleHQ'
+        x: 'https://x.com/BluzelleHQ'
       },
       typeAsset: 'sdk.coin'
     },

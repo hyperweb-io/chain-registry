@@ -612,7 +612,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://tether.to/',
-        twitter: 'https://x.com/Tether_to'
+        x: 'https://x.com/Tether_to'
       }
     },
     {
@@ -1011,7 +1011,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://pundix.com',
-        twitter: 'https://x.com/PundiXLabs'
+        x: 'https://x.com/PundiXLabs'
       }
     },
     {
@@ -1101,7 +1101,7 @@ const info: AssetList = {
       coingeckoId: 'pax-gold',
       socials: {
         website: 'https://www.paxos.com/paxgold/',
-        twitter: 'https://twitter.com/paxosglobal'
+        x: 'https://x.com/paxosglobal'
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png',
@@ -1342,7 +1342,7 @@ const info: AssetList = {
       coingeckoId: 'ankr',
       socials: {
         website: 'https://www.ankr.com',
-        twitter: 'https://x.com/ankr'
+        x: 'https://x.com/ankr'
       }
     },
     {
@@ -1366,7 +1366,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://cacaoswap.app',
-        twitter: 'https://x.com/CacaoSwap'
+        x: 'https://x.com/CacaoSwap'
       }
     },
     {
@@ -1440,7 +1440,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://monerium.com/',
-        twitter: 'https://x.com/monerium'
+        x: 'https://x.com/monerium'
       }
     },
     {
@@ -1477,7 +1477,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://lombard.finance',
-        twitter: 'https://x.com/Lombard_Finance'
+        x: 'https://x.com/Lombard_Finance'
       }
     },
     {
@@ -1518,7 +1518,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.movementnetwork.xyz/',
-        twitter: 'https://twitter.com/movementfdn'
+        x: 'https://x.com/movementfdn'
       }
     },
     {

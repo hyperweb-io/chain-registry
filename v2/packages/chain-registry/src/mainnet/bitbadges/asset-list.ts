@@ -26,7 +26,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://bitbadges.io/',
-        twitter: 'https://twitter.com/bitbadges_io'
+        x: 'https://x.com/bitbadges_io'
       },
       typeAsset: 'sdk.coin'
     }]

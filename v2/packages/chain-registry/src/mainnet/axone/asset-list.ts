@@ -25,7 +25,7 @@ const info: AssetList = {
       typeAsset: 'sdk.coin',
       socials: {
         website: 'https://axone.xyz',
-        twitter: 'https://x.com/axonexyz'
+        x: 'https://x.com/axonexyz'
       }
     }]
 };

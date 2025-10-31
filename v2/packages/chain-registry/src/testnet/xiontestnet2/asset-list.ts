@@ -28,8 +28,8 @@ const info: AssetList = {
         discord: 'https://discord.com/invite/burnt',
         github: 'https://github.com/burnt-labs',
         telegram: 'https://t.me/xion_announcements',
-        twitter: 'https://x.com/burnt_xion',
-        website: 'https://xion.burnt.com'
+        website: 'https://xion.burnt.com',
+        x: 'https://x.com/burnt_xion'
       },
       typeAsset: 'sdk.coin',
       coingeckoId: 'xion-2'

@@ -32,7 +32,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://dydx.trade/',
-        twitter: 'https://twitter.com/dYdX'
+        x: 'https://x.com/dYdX'
       },
       typeAsset: 'sdk.coin'
     }, {

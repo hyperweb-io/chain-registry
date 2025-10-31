@@ -28,7 +28,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://fx.pundi.ai',
-        twitter: 'https://x.com/PundiAI'
+        x: 'https://x.com/PundiAI'
       },
       typeAsset: 'sdk.coin'
     },
@@ -57,7 +57,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://fx.pundi.ai',
-        twitter: 'https://x.com/PundiAI'
+        x: 'https://x.com/PundiAI'
       },
       typeAsset: 'sdk.coin'
     },
@@ -94,7 +94,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://pundix.com',
-        twitter: 'https://x.com/PundiXLabs'
+        x: 'https://x.com/PundiXLabs'
       },
       typeAsset: 'sdk.coin'
     }

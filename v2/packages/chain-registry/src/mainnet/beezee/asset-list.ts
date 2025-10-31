@@ -29,7 +29,7 @@ const info: AssetList = {
       typeAsset: 'sdk.coin',
       socials: {
         website: 'https://getbze.com/',
-        twitter: 'https://x.com/BZEdgeCoin'
+        x: 'https://x.com/BZEdgeCoin'
       }
     },
     {
@@ -58,7 +58,7 @@ const info: AssetList = {
       typeAsset: 'sdk.coin',
       socials: {
         website: 'https://vidulum.app/',
-        twitter: 'https://x.com/VidulumApp'
+        x: 'https://x.com/VidulumApp'
       }
     },
     {
@@ -243,7 +243,7 @@ const info: AssetList = {
         }],
       keywords: ['meme'],
       socials: {
-        twitter: 'https://x.com/spiceoncosmos'
+        x: 'https://x.com/spiceoncosmos'
       },
       traces: [{
           type: 'ibc',
@@ -462,7 +462,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://posthuman.digital/',
-        twitter: 'https://twitter.com/POSTHUMAN_DVS'
+        x: 'https://x.com/POSTHUMAN_DVS'
       },
       coingeckoId: 'posthuman'
     },
@@ -487,7 +487,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://geegeecoin.io/',
-        twitter: 'https://x.com/gge_crypto'
+        x: 'https://x.com/gge_crypto'
       },
       typeAsset: 'sdk.coin'
     },
@@ -511,8 +511,8 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/ctl.png'
         }],
       socials: {
-        twitter: 'https://x.com/CryproTrtl',
-        telegram: 'https://T.me/CryptoTrtlCoin'
+        telegram: 'https://T.me/CryptoTrtlCoin',
+        x: 'https://x.com/CryproTrtl'
       },
       typeAsset: 'sdk.coin'
     }

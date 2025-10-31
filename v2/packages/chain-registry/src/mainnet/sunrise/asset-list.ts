@@ -27,7 +27,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://sunriselayer.io/',
-        twitter: 'https://twitter.com/SunriseLayer'
+        x: 'https://x.com/SunriseLayer'
       },
       typeAsset: 'sdk.coin'
     },
@@ -55,7 +55,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://sunriselayer.io/',
-        twitter: 'https://twitter.com/SunriseLayer'
+        x: 'https://x.com/SunriseLayer'
       },
       typeAsset: 'sdk.coin'
     },
@@ -83,7 +83,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://sunriselayer.io/',
-        twitter: 'https://twitter.com/SunriseLayer'
+        x: 'https://x.com/SunriseLayer'
       },
       typeAsset: 'sdk.coin'
     }

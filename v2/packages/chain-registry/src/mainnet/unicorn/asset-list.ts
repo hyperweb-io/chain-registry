@@ -20,7 +20,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://unicorn.meme/',
-        twitter: 'https://x.com/unicornandmemes'
+        x: 'https://x.com/unicornandmemes'
       },
       keywords: ['meme'],
       typeAsset: 'sdk.coin'

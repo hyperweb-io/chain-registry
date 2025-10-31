@@ -31,7 +31,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://persistence.one/',
-        twitter: 'https://twitter.com/PersistenceOne'
+        x: 'https://x.com/PersistenceOne'
       },
       typeAsset: 'sdk.coin'
     },

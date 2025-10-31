@@ -35,7 +35,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.sommelier.finance/',
-        twitter: 'https://twitter.com/sommfinance'
+        x: 'https://x.com/sommfinance'
       },
       typeAsset: 'sdk.coin'
     }]

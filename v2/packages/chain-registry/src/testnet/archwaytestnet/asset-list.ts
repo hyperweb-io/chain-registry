@@ -44,7 +44,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://archway.io/',
-        twitter: 'https://twitter.com/archwayHQ'
+        x: 'https://x.com/archwayHQ'
       },
       typeAsset: 'sdk.coin',
       coingeckoId: 'archway'

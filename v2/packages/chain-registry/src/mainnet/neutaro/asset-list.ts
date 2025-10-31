@@ -28,7 +28,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://neutaro.com/',
-        twitter: 'https://twitter.com/Timpi_TheNewWay'
+        x: 'https://x.com/Timpi_TheNewWay'
       },
       typeAsset: 'sdk.coin'
     }]

@@ -28,7 +28,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://stride.zone/',
-        twitter: 'https://twitter.com/stride_zone'
+        x: 'https://x.com/stride_zone'
       },
       typeAsset: 'sdk.coin'
     },

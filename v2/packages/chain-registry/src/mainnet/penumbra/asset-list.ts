@@ -26,7 +26,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://penumbra.zone/',
-        twitter: 'https://twitter.com/penumbrazone'
+        x: 'https://x.com/penumbrazone'
       }
     }]
 };

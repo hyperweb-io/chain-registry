@@ -24,7 +24,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://testnet.app.int3face.zone/',
-        twitter: 'https://x.com/_Bitfrost_'
+        x: 'https://x.com/_Bitfrost_'
       },
       typeAsset: 'sdk.coin'
     },

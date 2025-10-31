@@ -23,7 +23,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://mande.network/',
-        twitter: 'https://twitter.com/MandeNetwork'
+        x: 'https://x.com/MandeNetwork'
       },
       keywords: ['credibility', 'web3'],
       logoURIs: {

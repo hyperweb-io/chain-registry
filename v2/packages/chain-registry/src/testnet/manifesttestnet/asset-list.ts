@@ -28,7 +28,7 @@ const info: AssetList = {
       typeAsset: 'sdk.coin',
       socials: {
         website: 'https://manifestai.org/',
-        twitter: 'https://x.com/ManifestAIs/'
+        x: 'https://x.com/ManifestAIs/'
       }
     },
     {

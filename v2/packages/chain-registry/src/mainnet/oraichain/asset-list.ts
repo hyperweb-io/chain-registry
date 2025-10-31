@@ -23,7 +23,7 @@ const info: AssetList = {
       coingeckoId: 'oraichain-token',
       socials: {
         website: 'https://orai.io/',
-        twitter: 'https://x.com/oraichain'
+        x: 'https://x.com/oraichain'
       },
       images: [
         {
@@ -668,7 +668,7 @@ const info: AssetList = {
       coingeckoId: 'sam-2',
       socials: {
         website: 'https://www.lastsamorais.com/',
-        twitter: 'https://x.com/sam_thecoin'
+        x: 'https://x.com/sam_thecoin'
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/sam.png',

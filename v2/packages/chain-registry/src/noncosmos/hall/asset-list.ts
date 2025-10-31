@@ -23,7 +23,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://coinhall.org/',
-        twitter: 'https://twitter.com/coinhall_org'
+        x: 'https://x.com/coinhall_org'
       },
       typeAsset: 'sdk.coin'
     }]

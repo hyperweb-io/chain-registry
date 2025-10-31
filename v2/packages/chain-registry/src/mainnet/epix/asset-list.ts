@@ -25,7 +25,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://epix.zone/',
-        twitter: 'https://x.com/zone_epix'
+        x: 'https://x.com/zone_epix'
       },
       typeAsset: 'sdk.coin'
     }]

@@ -35,7 +35,7 @@ const info: AssetList = {
         website: 'https://thorchain.org/',
         discord: 'https://discord.gg/tW64BraTnX',
         telegram: 'https://t.me/thorchain_org',
-        twitter: 'https://twitter.com/thorchain'
+        x: 'https://x.com/thorchain'
       }
     },
     {
@@ -68,7 +68,7 @@ const info: AssetList = {
         website: 'https://rujira.network',
         discord: 'https://discord.gg/XPvsxhWKfb',
         telegram: 'https://t.me/Rujira_Community',
-        twitter: 'https://x.com/RujiraNetwork'
+        x: 'https://x.com/RujiraNetwork'
       }
     },
     {
@@ -101,7 +101,7 @@ const info: AssetList = {
         website: 'https://autorujira.app/',
         discord: 'https://discord.gg/P77vPrnWyr',
         telegram: 'https://t.me/autorujira',
-        twitter: 'https://x.com/autorujira'
+        x: 'https://x.com/autorujira'
       }
     },
     {
@@ -134,7 +134,7 @@ const info: AssetList = {
         website: 'https://liquidy.finance',
         discord: 'https://discord.gg/x4dmE9Cfpu',
         telegram: 'https://t.me/LiquidyFinance',
-        twitter: 'https://x.com/LiquidyFinance'
+        x: 'https://x.com/LiquidyFinance'
       }
     },
     {
@@ -167,7 +167,7 @@ const info: AssetList = {
         website: 'https://namifi.app/',
         discord: 'https://discord.gg/WGgUADfxXR',
         telegram: 'https://t.me/NAMIProtocol',
-        twitter: 'https://twitter.com/NamiProtocol'
+        x: 'https://x.com/NamiProtocol'
       }
     },
     {
@@ -200,7 +200,7 @@ const info: AssetList = {
         website: 'https://thorchain.org/',
         discord: 'https://discord.gg/tW64BraTnX',
         telegram: 'https://t.me/thorchain_org',
-        twitter: 'https://twitter.com/thorchain'
+        x: 'https://x.com/thorchain'
       }
     },
     {
@@ -240,7 +240,7 @@ const info: AssetList = {
         website: 'https://rujira.network/strategies/staking/TCY',
         discord: 'https://discord.gg/tW64BraTnX',
         telegram: 'https://t.me/thorchain_org',
-        twitter: 'https://twitter.com/thorchain'
+        x: 'https://x.com/thorchain'
       }
     },
     {
@@ -272,7 +272,7 @@ const info: AssetList = {
         website: 'https://rujira.network/index',
         discord: 'https://discord.gg/WGgUADfxXR',
         telegram: 'https://t.me/NAMIProtocol',
-        twitter: 'https://x.com/Nami_Index_'
+        x: 'https://x.com/Nami_Index_'
       }
     },
     {
@@ -307,7 +307,7 @@ const info: AssetList = {
         website: 'https://namifi.app/',
         discord: 'https://discord.gg/WGgUADfxXR',
         telegram: 'https://t.me/NAMIProtocol',
-        twitter: 'https://twitter.com/NamiProtocol'
+        x: 'https://x.com/NamiProtocol'
       }
     },
     {
@@ -340,7 +340,7 @@ const info: AssetList = {
         website: 'https://rujira.network/index',
         discord: 'https://discord.gg/WGgUADfxXR',
         telegram: 'https://t.me/NAMIProtocol',
-        twitter: 'https://x.com/Nami_Index_'
+        x: 'https://x.com/Nami_Index_'
       }
     },
     {
@@ -373,7 +373,7 @@ const info: AssetList = {
         website: 'https://rujira.network/index',
         discord: 'https://discord.gg/WGgUADfxXR',
         telegram: 'https://t.me/NAMIProtocol',
-        twitter: 'https://x.com/Nami_Index_'
+        x: 'https://x.com/Nami_Index_'
       }
     }
   ]

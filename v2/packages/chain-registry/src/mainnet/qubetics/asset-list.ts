@@ -24,7 +24,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.qubetics.com/',
-        twitter: 'https://x.com/qubetics'
+        x: 'https://x.com/qubetics'
       },
       typeAsset: 'sdk.coin'
     }]

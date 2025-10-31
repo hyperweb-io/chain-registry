@@ -23,7 +23,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://ai.nim.network/',
-        twitter: 'https://twitter.com/nim_network'
+        x: 'https://x.com/nim_network'
       },
       keywords: ['gaming', 'AI'],
       logoURIs: {

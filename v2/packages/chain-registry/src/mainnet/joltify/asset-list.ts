@@ -25,7 +25,7 @@ const info: AssetList = {
       keywords: ['staking'],
       socials: {
         website: 'https://www.joltify.io/',
-        twitter: 'https://twitter.com/joltify_finance'
+        x: 'https://x.com/joltify_finance'
       },
       typeAsset: 'sdk.coin'
     },
