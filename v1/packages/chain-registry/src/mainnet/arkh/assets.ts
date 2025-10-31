@@ -23,7 +23,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://arkhadian.io/',
-        twitter: 'https://twitter.com/ArkhadianSas'
+        x: 'https://x.com/ArkhadianSas'
       },
       type_asset: 'sdk.coin'
     }]

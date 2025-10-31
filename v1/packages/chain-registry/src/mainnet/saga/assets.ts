@@ -36,7 +36,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.saga.xyz/',
-        twitter: 'https://twitter.com/Sagaxyz__'
+        x: 'https://x.com/Sagaxyz__'
       },
       type_asset: 'sdk.coin'
     }]

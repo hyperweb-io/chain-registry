@@ -22,7 +22,7 @@ const info: AssetList = {
       coingecko_id: 'hippo-protocol',
       socials: {
         website: 'https://hippoprotocol.ai/',
-        twitter: 'https://x.com/Hippo_Protocol'
+        x: 'https://x.com/Hippo_Protocol'
       }
     }]
 };

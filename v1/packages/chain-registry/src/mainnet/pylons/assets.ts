@@ -23,7 +23,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://pylons.tech',
-        twitter: 'https://twitter.com/pylonstech'
+        x: 'https://x.com/pylonstech'
       },
       type_asset: 'sdk.coin'
     }]

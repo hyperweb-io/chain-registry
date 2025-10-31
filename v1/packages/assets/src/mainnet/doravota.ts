@@ -27,7 +27,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://akash.network/',
-        twitter: 'https://twitter.com/akashnet'
+        x: 'https://x.com/akashnet'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -74,7 +74,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://archway.io/',
-        twitter: 'https://twitter.com/archwayHQ'
+        x: 'https://x.com/archwayHQ'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -156,7 +156,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.coreum.com/',
-        twitter: 'https://twitter.com/CoreumOfficial'
+        x: 'https://x.com/CoreumOfficial'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -201,7 +201,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.pulsara.io',
-        twitter: 'https://twitter.com/pulsara_io'
+        x: 'https://x.com/pulsara_io'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -246,7 +246,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.pulsara.io',
-        twitter: 'https://twitter.com/pulsara_io'
+        x: 'https://x.com/pulsara_io'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -285,7 +285,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://coreumcommunitydao.com/',
-        twitter: 'https://x.com/Cor3_Community'
+        x: 'https://x.com/Cor3_Community'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -325,7 +325,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://cosmos.network',
-        twitter: 'https://twitter.com/cosmoshub'
+        x: 'https://x.com/cosmoshub'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -365,7 +365,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://akash.network/',
-        twitter: 'https://twitter.com/akashnet'
+        x: 'https://x.com/akashnet'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -412,7 +412,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://archway.io/',
-        twitter: 'https://twitter.com/archwayHQ'
+        x: 'https://x.com/archwayHQ'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -494,7 +494,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.coreum.com/',
-        twitter: 'https://twitter.com/CoreumOfficial'
+        x: 'https://x.com/CoreumOfficial'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -539,7 +539,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.pulsara.io',
-        twitter: 'https://twitter.com/pulsara_io'
+        x: 'https://x.com/pulsara_io'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -584,7 +584,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.pulsara.io',
-        twitter: 'https://twitter.com/pulsara_io'
+        x: 'https://x.com/pulsara_io'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -623,7 +623,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://coreumcommunitydao.com/',
-        twitter: 'https://x.com/Cor3_Community'
+        x: 'https://x.com/Cor3_Community'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -663,7 +663,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://cosmos.network',
-        twitter: 'https://twitter.com/cosmoshub'
+        x: 'https://x.com/cosmoshub'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -708,7 +708,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://dydx.trade/',
-        twitter: 'https://twitter.com/dYdX'
+        x: 'https://x.com/dYdX'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -748,7 +748,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://injective.com/',
-        twitter: 'https://twitter.com/Injective_'
+        x: 'https://x.com/Injective_'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1072,7 +1072,7 @@ const assets: AssetList = {
       coingecko_id: 'ondo-us-dollar-yield',
       socials: {
         website: 'https://ondo.finance/usdy',
-        twitter: 'https://x.com/OndoFinance'
+        x: 'https://x.com/OndoFinance'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1148,7 +1148,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://nolus.io/',
-        twitter: 'https://twitter.com/NolusProtocol'
+        x: 'https://x.com/NolusProtocol'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1190,7 +1190,7 @@ const assets: AssetList = {
       keywords: ['dex', 'staking'],
       socials: {
         website: 'https://osmosis.zone',
-        twitter: 'https://twitter.com/osmosiszone'
+        x: 'https://x.com/osmosiszone'
       },
       traces: [{
           type: 'ibc',
@@ -1231,7 +1231,7 @@ const assets: AssetList = {
       keywords: ['memecoin', 'defi'],
       socials: {
         website: 'https://ion.wtf',
-        twitter: 'https://twitter.com/_IONDAO'
+        x: 'https://x.com/_IONDAO'
       },
       traces: [{
           type: 'ibc',
@@ -1270,7 +1270,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.sei.io/',
-        twitter: 'https://twitter.com/SeiNetwork'
+        x: 'https://x.com/SeiNetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1344,7 +1344,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.stargaze.zone/',
-        twitter: 'https://twitter.com/StargazeZone'
+        x: 'https://x.com/StargazeZone'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1389,7 +1389,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://dydx.trade/',
-        twitter: 'https://twitter.com/dYdX'
+        x: 'https://x.com/dYdX'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1429,7 +1429,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://injective.com/',
-        twitter: 'https://twitter.com/Injective_'
+        x: 'https://x.com/Injective_'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1753,7 +1753,7 @@ const assets: AssetList = {
       coingecko_id: 'ondo-us-dollar-yield',
       socials: {
         website: 'https://ondo.finance/usdy',
-        twitter: 'https://x.com/OndoFinance'
+        x: 'https://x.com/OndoFinance'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1829,7 +1829,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://nolus.io/',
-        twitter: 'https://twitter.com/NolusProtocol'
+        x: 'https://x.com/NolusProtocol'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1871,7 +1871,7 @@ const assets: AssetList = {
       keywords: ['dex', 'staking'],
       socials: {
         website: 'https://osmosis.zone',
-        twitter: 'https://twitter.com/osmosiszone'
+        x: 'https://x.com/osmosiszone'
       },
       traces: [{
           type: 'ibc',
@@ -1912,7 +1912,7 @@ const assets: AssetList = {
       keywords: ['memecoin', 'defi'],
       socials: {
         website: 'https://ion.wtf',
-        twitter: 'https://twitter.com/_IONDAO'
+        x: 'https://x.com/_IONDAO'
       },
       traces: [{
           type: 'ibc',
@@ -1951,7 +1951,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.sei.io/',
-        twitter: 'https://twitter.com/SeiNetwork'
+        x: 'https://x.com/SeiNetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -2025,7 +2025,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.stargaze.zone/',
-        twitter: 'https://twitter.com/StargazeZone'
+        x: 'https://x.com/StargazeZone'
       },
       type_asset: 'sdk.coin',
       traces: [{

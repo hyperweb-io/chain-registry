@@ -26,7 +26,7 @@ const info: AssetList = {
       type_asset: 'sdk.coin',
       socials: {
         website: 'https://atom.one',
-        twitter: 'https://x.com/_atomone'
+        x: 'https://x.com/_atomone'
       }
     }, {
       description: 'The fee token of AtomOne',
@@ -52,7 +52,7 @@ const info: AssetList = {
       type_asset: 'sdk.coin',
       socials: {
         website: 'https://atom.one',
-        twitter: 'https://x.com/_atomone'
+        x: 'https://x.com/_atomone'
       }
     }]
 };

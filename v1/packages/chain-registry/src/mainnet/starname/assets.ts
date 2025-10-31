@@ -25,7 +25,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://app.starname.me/',
-        twitter: 'https://twitter.com/starname_me'
+        x: 'https://x.com/starname_me'
       },
       type_asset: 'sdk.coin'
     }]

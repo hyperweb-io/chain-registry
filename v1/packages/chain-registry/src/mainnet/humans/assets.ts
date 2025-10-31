@@ -29,7 +29,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://humans.ai/',
-        twitter: 'https://twitter.com/humansdotai'
+        x: 'https://x.com/humansdotai'
       },
       type_asset: 'sdk.coin'
     }]

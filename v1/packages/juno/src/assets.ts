@@ -27,7 +27,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://junonetwork.io/',
-        twitter: 'https://twitter.com/JunoNetwork'
+        x: 'https://x.com/JunoNetwork'
       },
       type_asset: 'sdk.coin'
     },
@@ -608,7 +608,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://posthuman.digital/',
-        twitter: 'https://twitter.com/POSTHUMAN_DVS'
+        x: 'https://x.com/POSTHUMAN_DVS'
       }
     },
     {
@@ -750,7 +750,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.nride.network',
-        twitter: 'https://twitter.com/nRide12'
+        x: 'https://x.com/nRide12'
       }
     },
     {

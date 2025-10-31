@@ -27,7 +27,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://agoric.com/',
-        twitter: 'https://twitter.com/agoric'
+        x: 'https://x.com/agoric'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -103,7 +103,7 @@ const assets: AssetList = {
       type_asset: 'sdk.coin',
       socials: {
         website: 'https://atom.one',
-        twitter: 'https://x.com/_atomone'
+        x: 'https://x.com/_atomone'
       },
       traces: [{
           type: 'ibc',
@@ -142,7 +142,7 @@ const assets: AssetList = {
       type_asset: 'sdk.coin',
       socials: {
         website: 'https://atom.one',
-        twitter: 'https://x.com/_atomone'
+        x: 'https://x.com/_atomone'
       },
       traces: [{
           type: 'ibc',
@@ -181,7 +181,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://agoric.com/',
-        twitter: 'https://twitter.com/agoric'
+        x: 'https://x.com/agoric'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -257,7 +257,7 @@ const assets: AssetList = {
       type_asset: 'sdk.coin',
       socials: {
         website: 'https://atom.one',
-        twitter: 'https://x.com/_atomone'
+        x: 'https://x.com/_atomone'
       },
       traces: [{
           type: 'ibc',
@@ -296,7 +296,7 @@ const assets: AssetList = {
       type_asset: 'sdk.coin',
       socials: {
         website: 'https://atom.one',
-        twitter: 'https://x.com/_atomone'
+        x: 'https://x.com/_atomone'
       },
       traces: [{
           type: 'ibc',
@@ -402,7 +402,7 @@ const assets: AssetList = {
       type_asset: 'sdk.coin',
       socials: {
         website: 'https://manifestai.org/',
-        twitter: 'https://x.com/ManifestAIs/'
+        x: 'https://x.com/ManifestAIs/'
       },
       traces: [{
           type: 'ibc',
@@ -584,7 +584,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.prysm.network/',
-        twitter: 'https://twitter.com/PrysmNetwork'
+        x: 'https://x.com/PrysmNetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -775,7 +775,7 @@ const assets: AssetList = {
       type_asset: 'sdk.coin',
       socials: {
         website: 'https://manifestai.org/',
-        twitter: 'https://x.com/ManifestAIs/'
+        x: 'https://x.com/ManifestAIs/'
       },
       traces: [{
           type: 'ibc',
@@ -1041,7 +1041,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.prysm.network/',
-        twitter: 'https://twitter.com/PrysmNetwork'
+        x: 'https://x.com/PrysmNetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{

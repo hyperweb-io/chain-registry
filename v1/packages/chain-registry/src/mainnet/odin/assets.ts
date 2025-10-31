@@ -24,7 +24,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://odinprotocol.io/',
-        twitter: 'https://twitter.com/odinprotocol'
+        x: 'https://x.com/odinprotocol'
       },
       type_asset: 'sdk.coin'
     },
@@ -73,7 +73,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://dokicoin.io/',
-        twitter: 'https://twitter.com/doki_coin'
+        x: 'https://x.com/doki_coin'
       },
       type_asset: 'sdk.coin'
     },
@@ -97,7 +97,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/MYRK_Logo.png'
         }],
       socials: {
-        twitter: 'https://twitter.com/myrkweilds'
+        x: 'https://x.com/myrkweilds'
       },
       type_asset: 'sdk.coin'
     },
@@ -124,7 +124,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.odin9worlds.io/',
-        twitter: 'https://twitter.com/odin9worlds'
+        x: 'https://x.com/odin9worlds'
       },
       type_asset: 'sdk.coin'
     }

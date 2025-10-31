@@ -23,7 +23,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://testnet.app.int3face.zone/',
-        twitter: 'https://x.com/_Bitfrost_'
+        x: 'https://x.com/_Bitfrost_'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -59,7 +59,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://testnet.app.int3face.zone/',
-        twitter: 'https://x.com/_Bitfrost_'
+        x: 'https://x.com/_Bitfrost_'
       },
       type_asset: 'sdk.coin',
       traces: [{

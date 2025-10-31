@@ -35,7 +35,7 @@ const info: AssetList = {
       coingecko_id: 'rootstock',
       socials: {
         website: 'https://rootstock.io/',
-        twitter: 'https://twitter.com/rootstock_io'
+        x: 'https://x.com/rootstock_io'
       }
     }, {
       description: 'The wrapped version of RBTC.',

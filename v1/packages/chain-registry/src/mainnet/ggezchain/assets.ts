@@ -31,7 +31,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://ggez.one',
-        twitter: 'https://x.com/ggez_one'
+        x: 'https://x.com/ggez_one'
       },
       type_asset: 'sdk.coin'
     }, {
@@ -63,7 +63,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://ggez.one',
-        twitter: 'https://x.com/ggez_one'
+        x: 'https://x.com/ggez_one'
       }
     }]
 };

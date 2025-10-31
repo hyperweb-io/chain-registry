@@ -33,7 +33,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://aioz.network/',
-        twitter: 'https://twitter.com/AIOZNetwork'
+        x: 'https://x.com/AIOZNetwork'
       },
       type_asset: 'sdk.coin'
     }]

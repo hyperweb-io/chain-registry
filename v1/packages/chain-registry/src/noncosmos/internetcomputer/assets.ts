@@ -27,7 +27,7 @@ const info: AssetList = {
       coingecko_id: 'internet-computer',
       socials: {
         website: 'https://internetcomputer.org/',
-        twitter: 'https://x.com/dfinity'
+        x: 'https://x.com/dfinity'
       }
     }, {
       description: 'A multi-chain bitcoin twin, trustlessly created by chain-key cryptography and Internet Computer smart contracts that directly hold raw bitcoin.',
@@ -63,7 +63,7 @@ const info: AssetList = {
       coingecko_id: 'chain-key-bitcoin',
       socials: {
         website: 'https://internetcomputer.org/ckbtc',
-        twitter: 'https://x.com/dfinity'
+        x: 'https://x.com/dfinity'
       }
     }]
 };

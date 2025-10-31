@@ -25,7 +25,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.lorenzo-protocol.xyz/',
-        twitter: 'https://x.com/LorenzoProtocol'
+        x: 'https://x.com/LorenzoProtocol'
       },
       type_asset: 'sdk.coin'
     }, {
@@ -60,7 +60,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.lorenzo-protocol.xyz/',
-        twitter: 'https://x.com/LorenzoProtocol'
+        x: 'https://x.com/LorenzoProtocol'
       },
       type_asset: 'sdk.coin'
     }]

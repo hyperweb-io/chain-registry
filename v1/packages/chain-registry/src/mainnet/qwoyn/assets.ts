@@ -25,7 +25,7 @@ const info: AssetList = {
       keywords: ['gaming'],
       socials: {
         website: 'https://qwoyn.studio',
-        twitter: 'https://twitter.com/Qwoyn_Studios'
+        x: 'https://x.com/Qwoyn_Studios'
       },
       type_asset: 'sdk.coin'
     }]

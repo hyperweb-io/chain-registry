@@ -28,7 +28,7 @@ const info: AssetList = {
       type_asset: 'sdk.coin',
       socials: {
         website: 'https://manifestai.org/',
-        twitter: 'https://x.com/ManifestAIs/'
+        x: 'https://x.com/ManifestAIs/'
       },
       coingecko_id: 'manifest-2'
     },

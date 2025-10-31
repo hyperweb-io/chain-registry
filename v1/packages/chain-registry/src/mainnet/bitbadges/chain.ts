@@ -57,21 +57,21 @@ const info: Chain = {
   description: 'BitBadges is the all-in-one, multi-chain platform for building your digital identity.',
   apis: {
     rpc: [{
-        address: 'http://134.122.12.165:26657',
+        address: 'https://rpc.bitbadges.io',
         provider: 'bitbadges'
       }, {
         address: 'https://bitbadges_mainnet_rpc.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }],
     rest: [{
-        address: 'http://134.122.12.165:1317',
+        address: 'https://lcd.bitbadges.io',
         provider: 'bitbadges'
       }, {
         address: 'https://bitbadges_mainnet_api.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }],
     grpc: [{
-        address: 'http://134.122.12.165:9090',
+        address: 'https://grpc.bitbadges.io',
         provider: 'bitbadges'
       }]
   },

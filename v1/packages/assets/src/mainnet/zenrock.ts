@@ -27,7 +27,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.sei.io/',
-        twitter: 'https://twitter.com/SeiNetwork'
+        x: 'https://x.com/SeiNetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -101,7 +101,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.sei.io/',
-        twitter: 'https://twitter.com/SeiNetwork'
+        x: 'https://x.com/SeiNetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{

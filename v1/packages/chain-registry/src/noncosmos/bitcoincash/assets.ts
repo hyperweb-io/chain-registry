@@ -27,7 +27,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://bitcoincash.org/',
-        twitter: 'https://x.com/bitcoincashorg'
+        x: 'https://x.com/bitcoincashorg'
       }
     }]
 };

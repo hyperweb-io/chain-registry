@@ -27,7 +27,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://wardenprotocol.org/',
-        twitter: 'https://twitter.com/wardenprotocol'
+        x: 'https://x.com/wardenprotocol'
       },
       type_asset: 'sdk.coin'
     }]

@@ -27,7 +27,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://litecoin.org/',
-        twitter: 'https://x.com/litecoin'
+        x: 'https://x.com/litecoin'
       }
     }]
 };

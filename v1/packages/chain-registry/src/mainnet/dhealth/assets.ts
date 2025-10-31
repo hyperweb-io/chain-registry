@@ -23,7 +23,7 @@ const info: AssetList = {
       coingecko_id: 'dhealth',
       socials: {
         website: 'https://dhealth.com',
-        twitter: 'https://twitter.com/dhealth_network'
+        x: 'https://x.com/dhealth_network'
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.png',

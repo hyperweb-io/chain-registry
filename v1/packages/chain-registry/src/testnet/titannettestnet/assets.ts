@@ -26,7 +26,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://titannet.io',
-        twitter: 'https://twitter.com/Titannet_dao'
+        x: 'https://x.com/Titannet_dao'
       },
       type_asset: 'sdk.coin'
     }, {
@@ -53,7 +53,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://titannet.io',
-        twitter: 'https://twitter.com/Titannet_dao'
+        x: 'https://x.com/Titannet_dao'
       },
       type_asset: 'sdk.coin'
     }]

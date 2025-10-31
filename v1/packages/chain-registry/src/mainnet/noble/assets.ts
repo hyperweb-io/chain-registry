@@ -156,7 +156,7 @@ const info: AssetList = {
       coingecko_id: 'ondo-us-dollar-yield',
       socials: {
         website: 'https://ondo.finance/usdy',
-        twitter: 'https://x.com/OndoFinance'
+        x: 'https://x.com/OndoFinance'
       },
       type_asset: 'sdk.coin'
     },

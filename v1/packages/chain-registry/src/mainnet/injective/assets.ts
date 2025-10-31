@@ -28,7 +28,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://injective.com/',
-        twitter: 'https://twitter.com/Injective_'
+        x: 'https://x.com/Injective_'
       },
       type_asset: 'sdk.coin'
     },
@@ -211,7 +211,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.dogwifnunchucks.com/',
-        twitter: 'https://x.com/dogwifnunchucks'
+        x: 'https://x.com/dogwifnunchucks'
       },
       type_asset: 'sdk.coin'
     },
@@ -332,7 +332,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://gelotto.io/',
-        twitter: 'https://twitter.com/Gelotto2'
+        x: 'https://x.com/Gelotto2'
       },
       type_asset: 'sdk.coin'
     },
@@ -358,7 +358,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://havacoin.xyz/',
-        twitter: 'https://twitter.com/Hava_Coin'
+        x: 'https://x.com/Hava_Coin'
       },
       type_asset: 'sdk.coin'
     },
@@ -474,7 +474,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://gelotto.io/',
-        twitter: 'https://twitter.com/Gelotto2'
+        x: 'https://x.com/Gelotto2'
       },
       type_asset: 'sdk.coin'
     },
@@ -632,7 +632,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://blaze.ninja',
-        twitter: 'https://x.com/NinjaBlazeApp'
+        x: 'https://x.com/NinjaBlazeApp'
       },
       type_asset: 'sdk.coin'
     },
@@ -654,7 +654,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://talis.art/',
-        twitter: 'https://twitter.com/ProtocolTalis'
+        x: 'https://x.com/ProtocolTalis'
       },
       type_asset: 'sdk.coin'
     },
@@ -676,7 +676,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://talis.art/',
-        twitter: 'https://twitter.com/ProtocolTalis'
+        x: 'https://x.com/ProtocolTalis'
       },
       type_asset: 'sdk.coin'
     },
@@ -808,7 +808,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://cosmoport.org',
-        twitter: 'https://x.com/cosmoport_org'
+        x: 'https://x.com/cosmoport_org'
       },
       type_asset: 'sdk.coin'
     },
@@ -1050,7 +1050,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://nept.finance/',
-        twitter: 'https://x.com/neptune_finance'
+        x: 'https://x.com/neptune_finance'
       },
       type_asset: 'sdk.coin'
     },
@@ -1074,8 +1074,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/bitcoin.png'
         }],
       socials: {
-        website: 'https://getbitcoinmeme.com',
-        twitter: 'https://getbitcoinmeme'
+        website: 'https://getbitcoinmeme.com'
       },
       type_asset: 'sdk.coin'
     },
@@ -1099,8 +1098,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/crypto.png'
         }],
       socials: {
-        website: 'https://getcryptomeme.com',
-        twitter: 'https://x.com/getcryptomeme'
+        website: 'https://getcryptomeme.com'
       },
       type_asset: 'sdk.coin'
     },
@@ -1124,8 +1122,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/brics.png'
         }],
       socials: {
-        website: 'https://bricscoin.cash',
-        twitter: 'https://x.com/bricscoincash'
+        website: 'https://bricscoin.cash'
       },
       type_asset: 'sdk.coin'
     },
@@ -1149,8 +1146,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inc.png'
         }],
       socials: {
-        website: 'https://instantnoodles.xyz',
-        twitter: 'https://x.com/instantnoodlesinc'
+        website: 'https://instantnoodles.xyz'
       },
       type_asset: 'sdk.coin'
     },

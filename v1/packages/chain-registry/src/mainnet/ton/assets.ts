@@ -28,7 +28,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://ton.tg/',
-        twitter: 'https://x.com/ton_blockchain'
+        x: 'https://x.com/ton_blockchain'
       }
     }, {
       description: 'The Hamster Kombat ($HMSTR) is the cryptocurrency of the TON (The Open Network) blockchain.',
@@ -55,7 +55,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://hamsterkombatgame.io/',
-        twitter: 'https://x.com/hamster_kombat'
+        x: 'https://x.com/hamster_kombat'
       }
     }]
 };

@@ -28,7 +28,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://omniflix.network/',
-        twitter: 'https://twitter.com/OmniFlixNetwork'
+        x: 'https://x.com/OmniFlixNetwork'
       },
       type_asset: 'sdk.coin'
     },
@@ -297,7 +297,7 @@ const info: AssetList = {
       coingecko_id: 'yield-gata',
       socials: {
         website: 'https://gatahub.zone',
-        twitter: 'https://x.com/GataHubZone'
+        x: 'https://x.com/GataHubZone'
       },
       type_asset: 'sdk.coin'
     },
@@ -343,7 +343,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://coreumcommunitydao.com/',
-        twitter: 'https://x.com/Cor3_Community'
+        x: 'https://x.com/Cor3_Community'
       }
     }
   ]

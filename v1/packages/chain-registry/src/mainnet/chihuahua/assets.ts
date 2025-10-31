@@ -75,7 +75,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://baddog.lol/',
-        twitter: 'https://x.com/chihuahuawifhat'
+        x: 'https://x.com/chihuahuawifhat'
       },
       type_asset: 'sdk.coin'
     },
@@ -397,7 +397,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://chihuahua.baby/',
-        twitter: 'https://x.com/chihuahuacoinx'
+        x: 'https://x.com/chihuahuacoinx'
       },
       type_asset: 'sdk.coin'
     },
@@ -426,7 +426,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://wirelibertyfence.xyz/',
-        twitter: 'https://x.com/Wirelibertyfence_CTO'
+        x: 'https://x.com/Wirelibertyfence_CTO'
       },
       type_asset: 'sdk.coin'
     }

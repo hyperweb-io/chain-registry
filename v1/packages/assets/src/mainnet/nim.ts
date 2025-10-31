@@ -27,7 +27,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://portal.dymension.xyz',
-        twitter: 'https://twitter.com/dymension'
+        x: 'https://x.com/dymension'
       },
       traces: [{
           type: 'ibc',
@@ -66,7 +66,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://portal.dymension.xyz',
-        twitter: 'https://twitter.com/dymension'
+        x: 'https://x.com/dymension'
       },
       traces: [{
           type: 'ibc',

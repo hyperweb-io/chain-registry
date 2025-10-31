@@ -36,7 +36,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://fbtc.com/',
-        twitter: 'https://twitter.com/fbtc_official'
+        x: 'https://x.com/fbtc_official'
       }
     }]
 };

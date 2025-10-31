@@ -27,7 +27,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.kava.io/',
-        twitter: 'https://twitter.com/KAVA_CHAIN'
+        x: 'https://x.com/KAVA_CHAIN'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -217,7 +217,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.kava.io/',
-        twitter: 'https://twitter.com/KAVA_CHAIN'
+        x: 'https://x.com/KAVA_CHAIN'
       },
       type_asset: 'sdk.coin',
       traces: [{

@@ -25,7 +25,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.gravitybridge.net/',
-        twitter: 'https://twitter.com/gravity_bridge'
+        x: 'https://x.com/gravity_bridge'
       },
       type_asset: 'sdk.coin'
     },

@@ -20,7 +20,7 @@ const info: AssetList = {
       coingecko_id: 'stellar',
       socials: {
         website: 'https://stellar.org/',
-        twitter: 'https://twitter.com/StellarOrg'
+        x: 'https://x.com/StellarOrg'
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/stellar/images/xlm.png',

@@ -27,7 +27,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://akash.network/',
-        twitter: 'https://twitter.com/akashnet'
+        x: 'https://x.com/akashnet'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -67,7 +67,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://cosmos.network',
-        twitter: 'https://twitter.com/cosmoshub'
+        x: 'https://x.com/cosmoshub'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -117,7 +117,7 @@ const assets: AssetList = {
       ],
       socials: {
         website: 'https://cronos.org/',
-        twitter: 'https://twitter.com/cronos_chain'
+        x: 'https://x.com/cronos_chain'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -195,7 +195,7 @@ const assets: AssetList = {
       keywords: ['dex', 'staking'],
       socials: {
         website: 'https://osmosis.zone',
-        twitter: 'https://twitter.com/osmosiszone'
+        x: 'https://x.com/osmosiszone'
       },
       traces: [{
           type: 'ibc',
@@ -236,7 +236,7 @@ const assets: AssetList = {
       keywords: ['memecoin', 'defi'],
       socials: {
         website: 'https://ion.wtf',
-        twitter: 'https://twitter.com/_IONDAO'
+        x: 'https://x.com/_IONDAO'
       },
       traces: [{
           type: 'ibc',
@@ -278,7 +278,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://persistence.one/',
-        twitter: 'https://twitter.com/PersistenceOne'
+        x: 'https://x.com/PersistenceOne'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -318,7 +318,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.regen.network/',
-        twitter: 'https://twitter.com/regen_network'
+        x: 'https://x.com/regen_network'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -394,7 +394,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://sentinel.co',
-        twitter: 'https://x.com/SentinelP2P'
+        x: 'https://x.com/SentinelP2P'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -434,7 +434,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://akash.network/',
-        twitter: 'https://twitter.com/akashnet'
+        x: 'https://x.com/akashnet'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -474,7 +474,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://cosmos.network',
-        twitter: 'https://twitter.com/cosmoshub'
+        x: 'https://x.com/cosmoshub'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -524,7 +524,7 @@ const assets: AssetList = {
       ],
       socials: {
         website: 'https://cronos.org/',
-        twitter: 'https://twitter.com/cronos_chain'
+        x: 'https://x.com/cronos_chain'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -602,7 +602,7 @@ const assets: AssetList = {
       keywords: ['dex', 'staking'],
       socials: {
         website: 'https://osmosis.zone',
-        twitter: 'https://twitter.com/osmosiszone'
+        x: 'https://x.com/osmosiszone'
       },
       traces: [{
           type: 'ibc',
@@ -643,7 +643,7 @@ const assets: AssetList = {
       keywords: ['memecoin', 'defi'],
       socials: {
         website: 'https://ion.wtf',
-        twitter: 'https://twitter.com/_IONDAO'
+        x: 'https://x.com/_IONDAO'
       },
       traces: [{
           type: 'ibc',
@@ -685,7 +685,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://persistence.one/',
-        twitter: 'https://twitter.com/PersistenceOne'
+        x: 'https://x.com/PersistenceOne'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -725,7 +725,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.regen.network/',
-        twitter: 'https://twitter.com/regen_network'
+        x: 'https://x.com/regen_network'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -801,7 +801,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://sentinel.co',
-        twitter: 'https://x.com/SentinelP2P'
+        x: 'https://x.com/SentinelP2P'
       },
       type_asset: 'sdk.coin',
       traces: [{

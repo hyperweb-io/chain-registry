@@ -35,7 +35,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.coreum.com/',
-        twitter: 'https://twitter.com/CoreumOfficial'
+        x: 'https://x.com/CoreumOfficial'
       },
       type_asset: 'sdk.coin'
     },
@@ -176,7 +176,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.pulsara.io',
-        twitter: 'https://twitter.com/pulsara_io'
+        x: 'https://x.com/pulsara_io'
       },
       type_asset: 'sdk.coin'
     },
@@ -209,7 +209,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.pulsara.io',
-        twitter: 'https://twitter.com/pulsara_io'
+        x: 'https://x.com/pulsara_io'
       },
       type_asset: 'sdk.coin'
     },
@@ -237,7 +237,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://coreumcommunitydao.com/',
-        twitter: 'https://x.com/Cor3_Community'
+        x: 'https://x.com/Cor3_Community'
       },
       type_asset: 'sdk.coin'
     }

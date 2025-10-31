@@ -27,7 +27,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://agoric.com/',
-        twitter: 'https://twitter.com/agoric'
+        x: 'https://x.com/agoric'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -175,7 +175,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://testnet.app.int3face.zone/',
-        twitter: 'https://x.com/_Bitfrost_'
+        x: 'https://x.com/_Bitfrost_'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -242,7 +242,7 @@ const assets: AssetList = {
       ],
       socials: {
         website: 'https://www.mantrachain.io/',
-        twitter: 'https://x.com/MANTRA_Chain'
+        x: 'https://x.com/MANTRA_Chain'
       },
       traces: [{
           type: 'ibc',
@@ -281,7 +281,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://agoric.com/',
-        twitter: 'https://twitter.com/agoric'
+        x: 'https://x.com/agoric'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -429,7 +429,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://testnet.app.int3face.zone/',
-        twitter: 'https://x.com/_Bitfrost_'
+        x: 'https://x.com/_Bitfrost_'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -496,7 +496,7 @@ const assets: AssetList = {
       ],
       socials: {
         website: 'https://www.mantrachain.io/',
-        twitter: 'https://x.com/MANTRA_Chain'
+        x: 'https://x.com/MANTRA_Chain'
       },
       traces: [{
           type: 'ibc',
@@ -532,7 +532,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.prysm.network/',
-        twitter: 'https://twitter.com/PrysmNetwork'
+        x: 'https://x.com/PrysmNetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -620,8 +620,8 @@ const assets: AssetList = {
         discord: 'https://discord.com/invite/burnt',
         github: 'https://github.com/burnt-labs',
         telegram: 'https://t.me/xion_announcements',
-        twitter: 'https://x.com/burnt_xion',
-        website: 'https://xion.burnt.com'
+        website: 'https://xion.burnt.com',
+        x: 'https://x.com/burnt_xion'
       },
       type_asset: 'sdk.coin',
       coingecko_id: 'xion-2',
@@ -710,8 +710,8 @@ const assets: AssetList = {
         discord: 'https://discord.com/invite/burnt',
         github: 'https://github.com/burnt-labs',
         telegram: 'https://t.me/xion_announcements',
-        twitter: 'https://x.com/burnt_xion',
-        website: 'https://xion.burnt.com'
+        website: 'https://xion.burnt.com',
+        x: 'https://x.com/burnt_xion'
       },
       type_asset: 'sdk.coin',
       coingecko_id: 'xion-2',
@@ -749,7 +749,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.prysm.network/',
-        twitter: 'https://twitter.com/PrysmNetwork'
+        x: 'https://x.com/PrysmNetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{

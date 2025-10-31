@@ -77,7 +77,7 @@ const assets: AssetList = {
       ],
       socials: {
         website: 'https://xrplevm.org',
-        twitter: 'https://twitter.com/Peersyst'
+        x: 'https://x.com/Peersyst'
       },
       traces: [{
           type: 'ibc',
@@ -166,7 +166,7 @@ const assets: AssetList = {
       ],
       socials: {
         website: 'https://xrplevm.org',
-        twitter: 'https://twitter.com/Peersyst'
+        x: 'https://x.com/Peersyst'
       },
       traces: [{
           type: 'ibc',

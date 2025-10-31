@@ -27,7 +27,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://celestia.org/',
-        twitter: 'https://twitter.com/CelestiaOrg'
+        x: 'https://x.com/CelestiaOrg'
       },
       type_asset: 'sdk.coin'
     }]

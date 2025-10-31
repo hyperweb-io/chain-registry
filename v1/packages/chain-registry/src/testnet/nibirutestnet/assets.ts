@@ -7,7 +7,7 @@ const info: AssetList = {
       extended_description: 'Nibiru hosts a variety of ecosystem partners in a wide variety of consumer sectors. From RWAs (Coded Estate) to DeFi (Constella, NOM) to Gaming (Blockchain Game Alliance, IntoTheVerse), Nibiru is advancing multiple emerging blockchain narratives that will onboard the next billion users.',
       socials: {
         website: 'https://nibiru.fi',
-        twitter: 'https://twitter.com/nibiruchain'
+        x: 'https://x.com/nibiruchain'
       },
       denom_units: [
         {
@@ -41,7 +41,7 @@ const info: AssetList = {
       extended_description: 'Liquid Staked Nibiru, powered by Eris Protocol\'s amplifier contracts. Nibiru is a smart contract ecosystem with a high-performance, EVM-equivalent execution layer. Nibiru is engineered to meet the growing demand for versatile, scalable, and easy-to-use Web3 applications.',
       socials: {
         website: 'https://nibiru.fi/docs/learn/liquid-stake/',
-        twitter: 'https://x.com/eris_protocol'
+        x: 'https://x.com/eris_protocol'
       },
       denom_units: [{
           denom: 'tf/nibi1xsvylys33m0y3dpyz6he3xuv2rcdwtk843wg2xdvqhdty8wmr0wq9au5px/ampNIBIT',

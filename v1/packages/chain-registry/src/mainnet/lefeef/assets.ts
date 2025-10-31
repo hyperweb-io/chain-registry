@@ -24,7 +24,7 @@ const info: AssetList = {
       symbol: 'LEFEEF',
       socials: {
         website: 'https://lefeef.net',
-        twitter: 'https://x.com/lefeef2024'
+        x: 'https://x.com/lefeef2024'
       },
       type_asset: 'sdk.coin'
     }]

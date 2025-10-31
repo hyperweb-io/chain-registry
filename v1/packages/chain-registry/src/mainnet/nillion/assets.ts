@@ -23,7 +23,7 @@ const info: AssetList = {
       type_asset: 'sdk.coin',
       socials: {
         website: 'https://nillion.com',
-        twitter: 'https://x.com/nillionnetwork'
+        x: 'https://x.com/nillionnetwork'
       },
       coingecko_id: 'nillion'
     }]

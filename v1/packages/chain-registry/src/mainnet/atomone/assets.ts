@@ -26,7 +26,7 @@ const info: AssetList = {
       type_asset: 'sdk.coin',
       socials: {
         website: 'https://atom.one',
-        twitter: 'https://x.com/_atomone'
+        x: 'https://x.com/_atomone'
       },
       coingecko_id: 'atomone'
     }, {
@@ -53,7 +53,7 @@ const info: AssetList = {
       type_asset: 'sdk.coin',
       socials: {
         website: 'https://atom.one',
-        twitter: 'https://x.com/_atomone'
+        x: 'https://x.com/_atomone'
       },
       coingecko_id: 'photon-2'
     }]

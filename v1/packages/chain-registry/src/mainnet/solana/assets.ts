@@ -185,7 +185,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.bskt.fi/',
-        twitter: 'https://twitter.com/bsktfi'
+        x: 'https://x.com/bsktfi'
       }
     },
     {
@@ -213,7 +213,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://wormhole.com/',
-        twitter: 'https://twitter.com/wormhole'
+        x: 'https://x.com/wormhole'
       }
     },
     {
@@ -246,7 +246,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://marinade.finance/',
-        twitter: 'https://twitter.com/MarinadeFinance'
+        x: 'https://x.com/MarinadeFinance'
       }
     },
     {
@@ -279,7 +279,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://jito.network/',
-        twitter: 'https://twitter.com/jito_foundation'
+        x: 'https://x.com/jito_foundation'
       }
     },
     {
@@ -312,7 +312,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://stake.solblaze.org/',
-        twitter: 'https://twitter.com/solblaze_org'
+        x: 'https://x.com/solblaze_org'
       }
     },
     {
@@ -344,7 +344,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.marginfi.com/',
-        twitter: 'https://twitter.com/marginfi'
+        x: 'https://x.com/marginfi'
       }
     },
     {
@@ -377,7 +377,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://edgevana.com/',
-        twitter: 'https://twitter.com/edgevana'
+        x: 'https://x.com/edgevana'
       }
     },
     {
@@ -410,7 +410,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://helius.dev/',
-        twitter: 'https://twitter.com/heliuslabs'
+        x: 'https://x.com/heliuslabs'
       }
     },
     {
@@ -443,7 +443,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://jup.ag/',
-        twitter: 'https://twitter.com/JupiterExchange'
+        x: 'https://x.com/JupiterExchange'
       }
     },
     {
@@ -467,7 +467,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://dogwifcoin.org/',
-        twitter: 'https://twitter.com/dogwifcoin'
+        x: 'https://x.com/dogwifcoin'
       }
     },
     {
@@ -508,7 +508,7 @@ const info: AssetList = {
       coingecko_id: 'tether',
       socials: {
         website: 'https://Tether.to/',
-        twitter: 'https://twitter.com/tether_to'
+        x: 'https://x.com/tether_to'
       }
     },
     {
@@ -535,7 +535,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://whinecoin.com/',
-        twitter: 'https://twitter.com/whinecoin'
+        x: 'https://x.com/whinecoin'
       }
     },
     {
@@ -562,7 +562,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://sandwichswap.io/',
-        twitter: 'https://twitter.com/pepebjenner_sol'
+        x: 'https://x.com/pepebjenner_sol'
       },
       keywords: [
         'meme',
@@ -603,7 +603,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://unicorn.meme/',
-        twitter: 'https://x.com/unicornandmemes'
+        x: 'https://x.com/unicornandmemes'
       },
       keywords: ['meme']
     },

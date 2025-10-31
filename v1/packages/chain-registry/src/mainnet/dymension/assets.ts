@@ -28,7 +28,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://portal.dymension.xyz',
-        twitter: 'https://twitter.com/dymension'
+        x: 'https://x.com/dymension'
       }
     },
     {
@@ -69,7 +69,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://nim.network/',
-        twitter: 'https://twitter.com/nim_network'
+        x: 'https://x.com/nim_network'
       },
       keywords: ['gaming', 'AI'],
       logo_URIs: {
@@ -115,7 +115,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://mande.network/',
-        twitter: 'https://twitter.com/MandeNetwork'
+        x: 'https://x.com/MandeNetwork'
       },
       keywords: ['credibility', 'identity'],
       logo_URIs: {

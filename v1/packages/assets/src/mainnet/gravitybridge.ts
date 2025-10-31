@@ -26,7 +26,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://arable.finance/',
-        twitter: 'https://twitter.com/ArableProtocol'
+        x: 'https://x.com/ArableProtocol'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -65,7 +65,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://arable.finance/',
-        twitter: 'https://twitter.com/ArableProtocol'
+        x: 'https://x.com/ArableProtocol'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -140,7 +140,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://agoric.com/',
-        twitter: 'https://twitter.com/agoric'
+        x: 'https://x.com/agoric'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -223,7 +223,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://archway.io/',
-        twitter: 'https://twitter.com/archwayHQ'
+        x: 'https://x.com/archwayHQ'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -297,7 +297,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://canto.io/',
-        twitter: 'https://twitter.com/CantoPublic'
+        x: 'https://x.com/CantoPublic'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -381,7 +381,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.coreum.com/',
-        twitter: 'https://twitter.com/CoreumOfficial'
+        x: 'https://x.com/CoreumOfficial'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -426,7 +426,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.pulsara.io',
-        twitter: 'https://twitter.com/pulsara_io'
+        x: 'https://x.com/pulsara_io'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -471,7 +471,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.pulsara.io',
-        twitter: 'https://twitter.com/pulsara_io'
+        x: 'https://x.com/pulsara_io'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -510,7 +510,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://coreumcommunitydao.com/',
-        twitter: 'https://x.com/Cor3_Community'
+        x: 'https://x.com/Cor3_Community'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -620,7 +620,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://evmos.org/',
-        twitter: 'https://twitter.com/EvmosOrg'
+        x: 'https://x.com/EvmosOrg'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -659,7 +659,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.neokingdom.org/',
-        twitter: 'https://twitter.com/NEOKingdomDAO'
+        x: 'https://x.com/NEOKingdomDAO'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -770,7 +770,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://arable.finance/',
-        twitter: 'https://twitter.com/ArableProtocol'
+        x: 'https://x.com/ArableProtocol'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -809,7 +809,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://arable.finance/',
-        twitter: 'https://twitter.com/ArableProtocol'
+        x: 'https://x.com/ArableProtocol'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -884,7 +884,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://agoric.com/',
-        twitter: 'https://twitter.com/agoric'
+        x: 'https://x.com/agoric'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -967,7 +967,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://archway.io/',
-        twitter: 'https://twitter.com/archwayHQ'
+        x: 'https://x.com/archwayHQ'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1041,7 +1041,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://canto.io/',
-        twitter: 'https://twitter.com/CantoPublic'
+        x: 'https://x.com/CantoPublic'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1125,7 +1125,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.coreum.com/',
-        twitter: 'https://twitter.com/CoreumOfficial'
+        x: 'https://x.com/CoreumOfficial'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1170,7 +1170,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.pulsara.io',
-        twitter: 'https://twitter.com/pulsara_io'
+        x: 'https://x.com/pulsara_io'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1215,7 +1215,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.pulsara.io',
-        twitter: 'https://twitter.com/pulsara_io'
+        x: 'https://x.com/pulsara_io'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1254,7 +1254,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://coreumcommunitydao.com/',
-        twitter: 'https://x.com/Cor3_Community'
+        x: 'https://x.com/Cor3_Community'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1364,7 +1364,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://evmos.org/',
-        twitter: 'https://twitter.com/EvmosOrg'
+        x: 'https://x.com/EvmosOrg'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1403,7 +1403,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.neokingdom.org/',
-        twitter: 'https://twitter.com/NEOKingdomDAO'
+        x: 'https://x.com/NEOKingdomDAO'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1511,7 +1511,7 @@ const assets: AssetList = {
       },
       socials: {
         website: 'https://islamiccoin.net',
-        twitter: 'https://x.com/islamic_coin'
+        x: 'https://x.com/islamic_coin'
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/islm.png',
@@ -1563,7 +1563,7 @@ const assets: AssetList = {
       },
       socials: {
         website: 'https://deenar.com',
-        twitter: 'https://x.com/DeenarGold'
+        x: 'https://x.com/DeenarGold'
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.png',
@@ -1598,7 +1598,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://kujira.network/',
-        twitter: 'https://twitter.com/TeamKujira'
+        x: 'https://x.com/TeamKujira'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1720,7 +1720,7 @@ const assets: AssetList = {
       keywords: ['dex', 'staking'],
       socials: {
         website: 'https://osmosis.zone',
-        twitter: 'https://twitter.com/osmosiszone'
+        x: 'https://x.com/osmosiszone'
       },
       traces: [{
           type: 'ibc',
@@ -1761,7 +1761,7 @@ const assets: AssetList = {
       keywords: ['memecoin', 'defi'],
       socials: {
         website: 'https://ion.wtf',
-        twitter: 'https://twitter.com/_IONDAO'
+        x: 'https://x.com/_IONDAO'
       },
       traces: [{
           type: 'ibc',
@@ -1803,7 +1803,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://persistence.one/',
-        twitter: 'https://twitter.com/PersistenceOne'
+        x: 'https://x.com/PersistenceOne'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1843,7 +1843,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://planq.network',
-        twitter: 'https://twitter.com/planqfoundation'
+        x: 'https://x.com/planqfoundation'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1916,7 +1916,7 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/anubis.png'
         }],
       socials: {
-        twitter: 'https://x.com/Anubis_Phy'
+        x: 'https://x.com/Anubis_Phy'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1952,8 +1952,8 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -2000,8 +2000,8 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       type_asset: 'sdk.coin'
     },
@@ -2037,8 +2037,8 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       type_asset: 'sdk.coin'
     },
@@ -2074,8 +2074,8 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       type_asset: 'sdk.coin'
     },
@@ -2104,7 +2104,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://scrt.network/',
-        twitter: 'https://twitter.com/SecretNetwork'
+        x: 'https://x.com/SecretNetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -2143,7 +2143,7 @@ const assets: AssetList = {
       },
       socials: {
         website: 'https://unification.com',
-        twitter: 'https://twitter.com/UnificationUND'
+        x: 'https://x.com/UnificationUND'
       },
       coingecko_id: 'unification',
       type_asset: 'sdk.coin',
@@ -2180,7 +2180,7 @@ const assets: AssetList = {
       },
       socials: {
         website: 'https://islamiccoin.net',
-        twitter: 'https://x.com/islamic_coin'
+        x: 'https://x.com/islamic_coin'
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/islm.png',
@@ -2232,7 +2232,7 @@ const assets: AssetList = {
       },
       socials: {
         website: 'https://deenar.com',
-        twitter: 'https://x.com/DeenarGold'
+        x: 'https://x.com/DeenarGold'
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.png',
@@ -2267,7 +2267,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://kujira.network/',
-        twitter: 'https://twitter.com/TeamKujira'
+        x: 'https://x.com/TeamKujira'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -2389,7 +2389,7 @@ const assets: AssetList = {
       keywords: ['dex', 'staking'],
       socials: {
         website: 'https://osmosis.zone',
-        twitter: 'https://twitter.com/osmosiszone'
+        x: 'https://x.com/osmosiszone'
       },
       traces: [{
           type: 'ibc',
@@ -2430,7 +2430,7 @@ const assets: AssetList = {
       keywords: ['memecoin', 'defi'],
       socials: {
         website: 'https://ion.wtf',
-        twitter: 'https://twitter.com/_IONDAO'
+        x: 'https://x.com/_IONDAO'
       },
       traces: [{
           type: 'ibc',
@@ -2472,7 +2472,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://persistence.one/',
-        twitter: 'https://twitter.com/PersistenceOne'
+        x: 'https://x.com/PersistenceOne'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -2512,7 +2512,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://planq.network',
-        twitter: 'https://twitter.com/planqfoundation'
+        x: 'https://x.com/planqfoundation'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -2585,7 +2585,7 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/anubis.png'
         }],
       socials: {
-        twitter: 'https://x.com/Anubis_Phy'
+        x: 'https://x.com/Anubis_Phy'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -2621,8 +2621,8 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -2669,8 +2669,8 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       type_asset: 'sdk.coin'
     },
@@ -2706,8 +2706,8 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       type_asset: 'sdk.coin'
     },
@@ -2743,8 +2743,8 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       type_asset: 'sdk.coin'
     },
@@ -2773,7 +2773,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://scrt.network/',
-        twitter: 'https://twitter.com/SecretNetwork'
+        x: 'https://x.com/SecretNetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -2812,7 +2812,7 @@ const assets: AssetList = {
       },
       socials: {
         website: 'https://unification.com',
-        twitter: 'https://twitter.com/UnificationUND'
+        x: 'https://x.com/UnificationUND'
       },
       coingecko_id: 'unification',
       type_asset: 'sdk.coin',
@@ -3160,7 +3160,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'http://alter.network/',
-        twitter: 'https://twitter.com/AlterDapp'
+        x: 'https://x.com/AlterDapp'
       },
       traces: [{
           type: 'ibc-cw20',
@@ -3200,7 +3200,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'http://amber.money/',
-        twitter: 'https://twitter.com/AmberDAO_'
+        x: 'https://x.com/AmberDAO_'
       },
       traces: [{
           type: 'ibc-cw20',
@@ -3586,7 +3586,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'http://alter.network/',
-        twitter: 'https://twitter.com/AlterDapp'
+        x: 'https://x.com/AlterDapp'
       },
       traces: [{
           type: 'ibc-cw20',
@@ -3626,7 +3626,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'http://amber.money/',
-        twitter: 'https://twitter.com/AmberDAO_'
+        x: 'https://x.com/AmberDAO_'
       },
       traces: [{
           type: 'ibc-cw20',

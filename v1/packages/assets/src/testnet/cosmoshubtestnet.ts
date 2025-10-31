@@ -311,7 +311,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.prysm.network/',
-        twitter: 'https://twitter.com/PrysmNetwork'
+        x: 'https://x.com/PrysmNetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -993,7 +993,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.prysm.network/',
-        twitter: 'https://twitter.com/PrysmNetwork'
+        x: 'https://x.com/PrysmNetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{

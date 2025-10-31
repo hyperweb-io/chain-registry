@@ -26,7 +26,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.kyve.network/',
-        twitter: 'https://twitter.com/KYVENetwork'
+        x: 'https://x.com/KYVENetwork'
       },
       type_asset: 'sdk.coin'
     }]

@@ -27,7 +27,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.quasar.fi/',
-        twitter: 'https://twitter.com/QuasarFi'
+        x: 'https://x.com/QuasarFi'
       }
     },
     {

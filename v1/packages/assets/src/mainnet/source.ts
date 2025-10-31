@@ -27,7 +27,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://axelar.network/',
-        twitter: 'https://twitter.com/axelarnetwork'
+        x: 'https://x.com/axelarnetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -67,7 +67,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.kyve.network/',
-        twitter: 'https://twitter.com/KYVENetwork'
+        x: 'https://x.com/KYVENetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -109,7 +109,7 @@ const assets: AssetList = {
       keywords: ['dex', 'staking'],
       socials: {
         website: 'https://osmosis.zone',
-        twitter: 'https://twitter.com/osmosiszone'
+        x: 'https://x.com/osmosiszone'
       },
       traces: [{
           type: 'ibc',
@@ -150,7 +150,7 @@ const assets: AssetList = {
       keywords: ['memecoin', 'defi'],
       socials: {
         website: 'https://ion.wtf',
-        twitter: 'https://twitter.com/_IONDAO'
+        x: 'https://x.com/_IONDAO'
       },
       traces: [{
           type: 'ibc',
@@ -189,7 +189,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://planq.network',
-        twitter: 'https://twitter.com/planqfoundation'
+        x: 'https://x.com/planqfoundation'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -262,7 +262,7 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/anubis.png'
         }],
       socials: {
-        twitter: 'https://x.com/Anubis_Phy'
+        x: 'https://x.com/Anubis_Phy'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -298,8 +298,8 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -346,8 +346,8 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       type_asset: 'sdk.coin'
     },
@@ -383,8 +383,8 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       type_asset: 'sdk.coin'
     },
@@ -420,8 +420,8 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       type_asset: 'sdk.coin'
     },
@@ -450,7 +450,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://axelar.network/',
-        twitter: 'https://twitter.com/axelarnetwork'
+        x: 'https://x.com/axelarnetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -490,7 +490,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.kyve.network/',
-        twitter: 'https://twitter.com/KYVENetwork'
+        x: 'https://x.com/KYVENetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -532,7 +532,7 @@ const assets: AssetList = {
       keywords: ['dex', 'staking'],
       socials: {
         website: 'https://osmosis.zone',
-        twitter: 'https://twitter.com/osmosiszone'
+        x: 'https://x.com/osmosiszone'
       },
       traces: [{
           type: 'ibc',
@@ -573,7 +573,7 @@ const assets: AssetList = {
       keywords: ['memecoin', 'defi'],
       socials: {
         website: 'https://ion.wtf',
-        twitter: 'https://twitter.com/_IONDAO'
+        x: 'https://x.com/_IONDAO'
       },
       traces: [{
           type: 'ibc',
@@ -612,7 +612,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://planq.network',
-        twitter: 'https://twitter.com/planqfoundation'
+        x: 'https://x.com/planqfoundation'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -685,7 +685,7 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/anubis.png'
         }],
       socials: {
-        twitter: 'https://x.com/Anubis_Phy'
+        x: 'https://x.com/Anubis_Phy'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -721,8 +721,8 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/atc.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -769,8 +769,8 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/ausd.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       type_asset: 'sdk.coin'
     },
@@ -806,8 +806,8 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/aeur.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       type_asset: 'sdk.coin'
     },
@@ -843,8 +843,8 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/abrl.svg'
         }],
       socials: {
-        twitter: 'https://x.com/astonic_xyz',
-        telegram: 'https://t.me/astonic_io'
+        telegram: 'https://t.me/astonic_io',
+        x: 'https://x.com/astonic_xyz'
       },
       type_asset: 'sdk.coin'
     }

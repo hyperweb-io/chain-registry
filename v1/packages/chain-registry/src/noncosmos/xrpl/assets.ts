@@ -21,7 +21,7 @@ const info: AssetList = {
       coingecko_id: 'ripple',
       socials: {
         website: 'https://xrpl.org/',
-        twitter: 'https://twitter.com/Ripple'
+        x: 'https://x.com/Ripple'
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png',

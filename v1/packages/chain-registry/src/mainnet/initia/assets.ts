@@ -25,7 +25,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://initia.xyz/',
-        twitter: 'https://twitter.com/initiaFDN'
+        x: 'https://x.com/initiaFDN'
       },
       type_asset: 'sdk.coin',
       coingecko_id: 'initia'

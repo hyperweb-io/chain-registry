@@ -27,7 +27,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.assetmantle.one/',
-        twitter: 'https://twitter.com/AssetMantle'
+        x: 'https://x.com/AssetMantle'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -173,7 +173,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://junonetwork.io/',
-        twitter: 'https://twitter.com/JunoNetwork'
+        x: 'https://x.com/JunoNetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -213,7 +213,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.assetmantle.one/',
-        twitter: 'https://twitter.com/AssetMantle'
+        x: 'https://x.com/AssetMantle'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -359,7 +359,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://junonetwork.io/',
-        twitter: 'https://twitter.com/JunoNetwork'
+        x: 'https://x.com/JunoNetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{

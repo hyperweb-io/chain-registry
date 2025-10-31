@@ -27,7 +27,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://tron.network/',
-        twitter: 'https://x.com/trondao'
+        x: 'https://x.com/trondao'
       }
     }, {
       description: 'USDT is the official stablecoin issued by Tether on the TRON network.',
@@ -71,7 +71,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://tether.to/',
-        twitter: 'https://x.com/Tether_to'
+        x: 'https://x.com/Tether_to'
       }
     }]
 };

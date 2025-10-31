@@ -38,7 +38,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://picasso.network/',
-        twitter: 'https://twitter.com/picasso_network'
+        x: 'https://x.com/picasso_network'
       },
       type_asset: 'sdk.coin'
     },
@@ -244,7 +244,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://ethereum.org/',
-        twitter: 'https://twitter.com/ethereum'
+        x: 'https://x.com/ethereum'
       }
     },
     {
@@ -288,7 +288,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://makerdao.com/',
-        twitter: 'https://twitter.com/MakerDAO'
+        x: 'https://x.com/MakerDAO'
       }
     },
     {
@@ -334,7 +334,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.frax.com/',
-        twitter: 'https://twitter.com/fraxfinance'
+        x: 'https://x.com/fraxfinance'
       }
     },
     {
@@ -378,7 +378,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.frax.com/',
-        twitter: 'https://twitter.com/fraxfinance'
+        x: 'https://x.com/fraxfinance'
       }
     },
     {
@@ -424,7 +424,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.frax.com/',
-        twitter: 'https://twitter.com/fraxfinance'
+        x: 'https://x.com/fraxfinance'
       }
     },
     {
@@ -468,7 +468,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.frax.com/',
-        twitter: 'https://twitter.com/fraxfinance'
+        x: 'https://x.com/fraxfinance'
       }
     },
     {
@@ -514,7 +514,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.frax.com/',
-        twitter: 'https://twitter.com/fraxfinance'
+        x: 'https://x.com/fraxfinance'
       }
     },
     {
@@ -563,7 +563,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.tether.to/',
-        twitter: 'https://twitter.com/Tether_to'
+        x: 'https://x.com/Tether_to'
       }
     },
     {

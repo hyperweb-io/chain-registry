@@ -29,7 +29,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://sgenetwork.io/',
-        twitter: 'https://x.com/sge_network'
+        x: 'https://x.com/sge_network'
       },
       type_asset: 'sdk.coin'
     }]

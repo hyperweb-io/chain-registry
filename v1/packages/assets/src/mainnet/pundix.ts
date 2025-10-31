@@ -27,7 +27,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://fx.pundi.ai',
-        twitter: 'https://x.com/PundiAI'
+        x: 'https://x.com/PundiAI'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -67,7 +67,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://fx.pundi.ai',
-        twitter: 'https://x.com/PundiAI'
+        x: 'https://x.com/PundiAI'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -109,7 +109,7 @@ const assets: AssetList = {
       keywords: ['dex', 'staking'],
       socials: {
         website: 'https://osmosis.zone',
-        twitter: 'https://twitter.com/osmosiszone'
+        x: 'https://x.com/osmosiszone'
       },
       traces: [{
           type: 'ibc',
@@ -150,7 +150,7 @@ const assets: AssetList = {
       keywords: ['memecoin', 'defi'],
       socials: {
         website: 'https://ion.wtf',
-        twitter: 'https://twitter.com/_IONDAO'
+        x: 'https://x.com/_IONDAO'
       },
       traces: [{
           type: 'ibc',
@@ -189,7 +189,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://fx.pundi.ai',
-        twitter: 'https://x.com/PundiAI'
+        x: 'https://x.com/PundiAI'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -229,7 +229,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://fx.pundi.ai',
-        twitter: 'https://x.com/PundiAI'
+        x: 'https://x.com/PundiAI'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -271,7 +271,7 @@ const assets: AssetList = {
       keywords: ['dex', 'staking'],
       socials: {
         website: 'https://osmosis.zone',
-        twitter: 'https://twitter.com/osmosiszone'
+        x: 'https://x.com/osmosiszone'
       },
       traces: [{
           type: 'ibc',
@@ -312,7 +312,7 @@ const assets: AssetList = {
       keywords: ['memecoin', 'defi'],
       socials: {
         website: 'https://ion.wtf',
-        twitter: 'https://twitter.com/_IONDAO'
+        x: 'https://x.com/_IONDAO'
       },
       traces: [{
           type: 'ibc',

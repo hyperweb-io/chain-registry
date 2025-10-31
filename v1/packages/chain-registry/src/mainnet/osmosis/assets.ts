@@ -30,7 +30,7 @@ const info: AssetList = {
       keywords: ['dex', 'staking'],
       socials: {
         website: 'https://osmosis.zone',
-        twitter: 'https://twitter.com/osmosiszone'
+        x: 'https://x.com/osmosiszone'
       }
     },
     {
@@ -60,7 +60,7 @@ const info: AssetList = {
       keywords: ['memecoin', 'defi'],
       socials: {
         website: 'https://ion.wtf',
-        twitter: 'https://twitter.com/_IONDAO'
+        x: 'https://x.com/_IONDAO'
       }
     },
     {
@@ -5551,7 +5551,7 @@ const info: AssetList = {
       coingecko_id: 'posthuman',
       socials: {
         website: 'https://posthuman.digital/',
-        twitter: 'https://twitter.com/POSTHUMAN_DVS'
+        x: 'https://x.com/POSTHUMAN_DVS'
       }
     },
     {
@@ -8672,7 +8672,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.erisprotocol.com/',
-        twitter: 'https://twitter.com/eris_protocol'
+        x: 'https://x.com/eris_protocol'
       }
     },
     {
@@ -12286,7 +12286,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://daodao.zone/dao/osmo106tvcj58rvdn9k36m9m3xcmcwk2c3fgft3ldcst9lgy05gcmjanqexru3h/home',
-        twitter: 'https://twitter.com/Sail_DAO_'
+        x: 'https://x.com/Sail_DAO_'
       }
     },
     {
@@ -12649,7 +12649,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://app.backbonelabs.io/',
-        twitter: 'https://twitter.com/BackBone_Labs'
+        x: 'https://x.com/BackBone_Labs'
       }
     },
     {
@@ -13091,7 +13091,7 @@ const info: AssetList = {
       keywords: ['memecoin', 'osmosis_unlisted'],
       socials: {
         website: 'https://www.ibcmeme.wtf',
-        twitter: 'https://twitter.com/IBCmemecoin'
+        x: 'https://x.com/IBCmemecoin'
       }
     },
     {
@@ -13317,7 +13317,7 @@ const info: AssetList = {
       keywords: ['memecoin'],
       socials: {
         website: 'https://bernesechain.github.io',
-        twitter: 'https://twitter.com/bernesechain'
+        x: 'https://x.com/bernesechain'
       }
     },
     {
@@ -13751,7 +13751,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://0l.network/',
-        twitter: 'https://twitter.com/0LNetwork'
+        x: 'https://x.com/0LNetwork'
       }
     },
     {
@@ -13801,7 +13801,7 @@ const info: AssetList = {
       ],
       socials: {
         website: 'https://ai.nim.network/',
-        twitter: 'https://twitter.com/nim_network'
+        x: 'https://x.com/nim_network'
       }
     },
     {
@@ -14015,7 +14015,7 @@ const info: AssetList = {
       keywords: ['memecoin'],
       socials: {
         website: 'https://shitmos.wtf',
-        twitter: 'https://twitter.com/shitoncosmos'
+        x: 'https://x.com/shitoncosmos'
       }
     },
     {
@@ -14981,7 +14981,7 @@ const info: AssetList = {
       coingecko_id: 'juris-protocol',
       socials: {
         website: 'https://jurisprotocol.com/',
-        twitter: 'https://x.com/jurisprotocol'
+        x: 'https://x.com/jurisprotocol'
       },
       traces: [{
           type: 'ibc-cw20',
@@ -15230,7 +15230,7 @@ const info: AssetList = {
       ],
       socials: {
         website: 'https://mande.network/',
-        twitter: 'https://twitter.com/MandeNetwork'
+        x: 'https://x.com/MandeNetwork'
       }
     },
     {
@@ -15703,7 +15703,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://cosmoport.org',
-        twitter: 'https://x.com/cosmoport_org'
+        x: 'https://x.com/cosmoport_org'
       }
     },
     {
@@ -16206,7 +16206,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://github.com/raphaellafar/Cosmo',
-        twitter: 'https://x.com/CosmoClub84'
+        x: 'https://x.com/CosmoClub84'
       }
     },
     {
@@ -16299,7 +16299,7 @@ const info: AssetList = {
       keywords: ['nft'],
       socials: {
         website: 'https://fractal.fun',
-        twitter: 'https://twitter.com/fractaldotfun'
+        x: 'https://x.com/fractaldotfun'
       }
     },
     {
@@ -16327,7 +16327,7 @@ const info: AssetList = {
       keywords: ['nft'],
       socials: {
         website: 'https://fractal.fun',
-        twitter: 'https://twitter.com/fractaldotfun'
+        x: 'https://x.com/fractaldotfun'
       }
     },
     {
@@ -16355,7 +16355,7 @@ const info: AssetList = {
       keywords: ['nft'],
       socials: {
         website: 'https://fractal.fun',
-        twitter: 'https://twitter.com/fractaldotfun'
+        x: 'https://x.com/fractaldotfun'
       }
     },
     {
@@ -16383,7 +16383,7 @@ const info: AssetList = {
       keywords: ['nft'],
       socials: {
         website: 'https://fractal.fun',
-        twitter: 'https://twitter.com/fractaldotfun'
+        x: 'https://x.com/fractaldotfun'
       }
     },
     {
@@ -16784,7 +16784,7 @@ const info: AssetList = {
       keywords: ['nft'],
       socials: {
         website: 'https://fractal.fun',
-        twitter: 'https://twitter.com/fractaldotfun'
+        x: 'https://x.com/fractaldotfun'
       }
     },
     {
@@ -16812,7 +16812,7 @@ const info: AssetList = {
       keywords: ['nft'],
       socials: {
         website: 'https://fractal.fun',
-        twitter: 'https://twitter.com/fractaldotfun'
+        x: 'https://x.com/fractaldotfun'
       }
     },
     {
@@ -16840,7 +16840,7 @@ const info: AssetList = {
       keywords: ['nft'],
       socials: {
         website: 'https://fractal.fun',
-        twitter: 'https://twitter.com/fractaldotfun'
+        x: 'https://x.com/fractaldotfun'
       }
     },
     {
@@ -16868,7 +16868,7 @@ const info: AssetList = {
       keywords: ['nft'],
       socials: {
         website: 'https://fractal.fun',
-        twitter: 'https://twitter.com/fractaldotfun'
+        x: 'https://x.com/fractaldotfun'
       }
     },
     {
@@ -16896,7 +16896,7 @@ const info: AssetList = {
       keywords: ['nft'],
       socials: {
         website: 'https://fractal.fun',
-        twitter: 'https://twitter.com/fractaldotfun'
+        x: 'https://x.com/fractaldotfun'
       }
     },
     {
@@ -16924,7 +16924,7 @@ const info: AssetList = {
       keywords: ['nft'],
       socials: {
         website: 'https://fractal.fun',
-        twitter: 'https://twitter.com/fractaldotfun'
+        x: 'https://x.com/fractaldotfun'
       }
     },
     {
@@ -17918,7 +17918,7 @@ const info: AssetList = {
       coingecko_id: 'atomone',
       socials: {
         website: 'https://atom.one',
-        twitter: 'https://x.com/_atomone'
+        x: 'https://x.com/_atomone'
       }
     },
     {
@@ -17944,7 +17944,7 @@ const info: AssetList = {
       coingecko_id: 'spice-2',
       keywords: ['meme'],
       socials: {
-        twitter: 'https://x.com/spiceoncosmos'
+        x: 'https://x.com/spiceoncosmos'
       }
     },
     {
@@ -17986,7 +17986,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://cacaoswap.app',
-        twitter: 'https://x.com/CacaoSwap'
+        x: 'https://x.com/CacaoSwap'
       }
     },
     {
@@ -18031,7 +18031,7 @@ const info: AssetList = {
       coingecko_id: 'yield-gata',
       socials: {
         website: 'https://gatahub.zone',
-        twitter: 'https://x.com/GataHubZone'
+        x: 'https://x.com/GataHubZone'
       }
     },
     {
@@ -18728,7 +18728,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://blaze.ninja',
-        twitter: 'https://x.com/NinjaBlazeApp'
+        x: 'https://x.com/NinjaBlazeApp'
       }
     },
     {
@@ -18772,7 +18772,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://internetcomputer.org',
-        twitter: 'https://x.com/dfinity'
+        x: 'https://x.com/dfinity'
       }
     },
     {
@@ -19600,7 +19600,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.hodlthethrottle.bike/',
-        twitter: 'https://x.com/BikeOnMANTRA'
+        x: 'https://x.com/BikeOnMANTRA'
       }
     },
     {
@@ -19683,7 +19683,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://ffsc.site',
-        twitter: 'https://x.com/FortunateFewNFT'
+        x: 'https://x.com/FortunateFewNFT'
       }
     },
     {
@@ -19710,7 +19710,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://thesevens.app',
-        twitter: 'https://x.com/T7SToken'
+        x: 'https://x.com/T7SToken'
       }
     },
     {
@@ -19899,7 +19899,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.movementnetwork.xyz/',
-        twitter: 'https://twitter.com/movementfdn'
+        x: 'https://x.com/movementfdn'
       }
     },
     {
@@ -19943,7 +19943,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.movementnetwork.xyz/',
-        twitter: 'https://twitter.com/movementfdn'
+        x: 'https://x.com/movementfdn'
       }
     },
     {
@@ -19971,7 +19971,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.architectsnft.io/',
-        twitter: 'https://x.com/Architects_nft'
+        x: 'https://x.com/Architects_nft'
       }
     },
     {
@@ -20160,7 +20160,7 @@ const info: AssetList = {
       keywords: ['nft'],
       socials: {
         website: 'https://fractal.fun',
-        twitter: 'https://twitter.com/fractaldotfun'
+        x: 'https://x.com/fractaldotfun'
       }
     },
     {
@@ -20188,7 +20188,7 @@ const info: AssetList = {
       keywords: ['nft'],
       socials: {
         website: 'https://fractal.fun',
-        twitter: 'https://twitter.com/fractaldotfun'
+        x: 'https://x.com/fractaldotfun'
       }
     },
     {
@@ -20691,7 +20691,7 @@ const info: AssetList = {
           }
         }],
       socials: {
-        twitter: 'https://x.com/Stealth_stars'
+        x: 'https://x.com/Stealth_stars'
       }
     },
     {
@@ -20757,7 +20757,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://builder.crmh.xyz/auth',
-        twitter: 'https://x.com/crypmatcha'
+        x: 'https://x.com/crypmatcha'
       }
     },
     {
@@ -20959,7 +20959,7 @@ const info: AssetList = {
       keywords: ['dao'],
       socials: {
         website: 'https://www.ophirdao.com',
-        twitter: 'https://x.com/OphirDAO'
+        x: 'https://x.com/OphirDAO'
       }
     },
     {
@@ -21273,7 +21273,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.paxos.com/pax-gold',
-        twitter: 'https://x.com/Paxos'
+        x: 'https://x.com/Paxos'
       }
     },
     {
@@ -21318,7 +21318,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://coreumcommunitydao.com/',
-        twitter: 'https://x.com/Cor3_Community'
+        x: 'https://x.com/Cor3_Community'
       }
     },
     {
@@ -22254,7 +22254,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://www.stargaze.zone/m/stargazepleb/tokens',
-        twitter: 'https://x.com/Pixl_Plebs'
+        x: 'https://x.com/Pixl_Plebs'
       },
       keywords: ['meme'],
       images: [{
@@ -22298,7 +22298,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://getbitcoinmeme.com',
-        twitter: 'https://x.com/getbitcoinmeme'
+        x: 'https://x.com/getbitcoinmeme'
       },
       keywords: ['meme'],
       images: [{
@@ -22342,7 +22342,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://getcryptomeme.com',
-        twitter: 'https://x.com/getcryptomeme'
+        x: 'https://x.com/getcryptomeme'
       },
       keywords: ['meme'],
       images: [{
@@ -22386,7 +22386,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://bricscoin.cash',
-        twitter: 'https://x.com/bricscoincash'
+        x: 'https://x.com/bricscoincash'
       },
       keywords: ['meme'],
       images: [{
@@ -22430,7 +22430,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://instantnoodles.xyz',
-        twitter: 'https://x.com/instantnoodlesinc'
+        x: 'https://x.com/instantnoodlesinc'
       },
       keywords: ['meme'],
       images: [{
@@ -22582,7 +22582,7 @@ const info: AssetList = {
         }],
       keywords: ['meme'],
       socials: {
-        twitter: 'https://x.com/quark_on_cosmos'
+        x: 'https://x.com/quark_on_cosmos'
       }
     },
     {
@@ -22628,7 +22628,7 @@ const info: AssetList = {
       keywords: ['defi', 'orchestration'],
       socials: {
         website: 'https://intento.zone',
-        twitter: 'https://x.com/intentozone'
+        x: 'https://x.com/intentozone'
       }
     },
     {

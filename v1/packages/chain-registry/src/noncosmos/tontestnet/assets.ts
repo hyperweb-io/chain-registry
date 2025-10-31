@@ -39,7 +39,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://ton.tg/',
-        twitter: 'https://x.com/ton_blockchain'
+        x: 'https://x.com/ton_blockchain'
       }
     }]
 };

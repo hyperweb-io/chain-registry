@@ -29,7 +29,7 @@ const info: AssetList = {
       keywords: ['liquid staking', 'restaking'],
       socials: {
         website: 'https://milkyway.zone',
-        twitter: 'https://x.com/milky_way_zone'
+        x: 'https://x.com/milky_way_zone'
       }
     },
     {

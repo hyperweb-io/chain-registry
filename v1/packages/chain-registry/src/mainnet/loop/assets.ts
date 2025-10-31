@@ -23,7 +23,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.loop.fans/',
-        twitter: 'https://twitter.com/LoopFans'
+        x: 'https://x.com/LoopFans'
       }
     }, {
       denom_units: [{

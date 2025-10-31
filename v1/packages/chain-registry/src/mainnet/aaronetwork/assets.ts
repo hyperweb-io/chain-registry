@@ -21,8 +21,8 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://aaronetwork.xyz',
-        twitter: 'https://x.com/aaronetwork',
-        discord: 'https://discord.gg/HezQu22zxZ'
+        discord: 'https://discord.gg/HezQu22zxZ',
+        x: 'https://x.com/aaronetwork'
       },
       keywords: [
         'social',

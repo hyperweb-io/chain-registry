@@ -23,7 +23,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://arcana.network',
-        twitter: 'https://x.com/ArcanaNetwork'
+        x: 'https://x.com/ArcanaNetwork'
       },
       type_asset: 'sdk.coin'
     }]

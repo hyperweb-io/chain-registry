@@ -19,7 +19,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://daodiseo.money',
-        twitter: 'https://x.com/DaoDiseoMoney'
+        x: 'https://x.com/DaoDiseoMoney'
       },
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/daodiseotestnet/images/odiseo.svg',

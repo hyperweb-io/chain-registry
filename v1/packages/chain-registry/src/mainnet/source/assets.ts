@@ -27,7 +27,7 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://www.sourceprotocol.io/',
-        twitter: 'https://twitter.com/sourceprotocol_'
+        x: 'https://x.com/sourceprotocol_'
       },
       type_asset: 'sdk.coin'
     }, {

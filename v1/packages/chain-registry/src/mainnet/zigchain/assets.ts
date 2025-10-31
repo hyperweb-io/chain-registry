@@ -52,10 +52,10 @@ const info: AssetList = {
         }],
       socials: {
         website: 'https://zigchain.com/',
-        twitter: 'https://x.com/zigchain',
         telegram: 'https://t.me/ZignalyHQ',
         discord: 'https://discord.zignaly.com',
-        medium: 'https://medium.com/zignaly'
+        medium: 'https://medium.com/zignaly',
+        x: 'https://x.com/zigchain'
       }
     },
     {
@@ -82,9 +82,9 @@ const info: AssetList = {
       type_asset: 'sdk.coin',
       socials: {
         website: 'https://valdora.finance',
-        twitter: 'https://x.com/Valdora_finance',
         telegram: 'https://t.me/ValdoraWarriors',
-        discord: 'http://discord.gg/valdora'
+        discord: 'http://discord.gg/valdora',
+        x: 'https://x.com/Valdora_finance'
       }
     },
     {

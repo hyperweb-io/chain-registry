@@ -27,7 +27,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://agoric.com/',
-        twitter: 'https://twitter.com/agoric'
+        x: 'https://x.com/agoric'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -138,7 +138,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://agoric.com/',
-        twitter: 'https://twitter.com/agoric'
+        x: 'https://x.com/agoric'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -335,7 +335,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.prysm.network/',
-        twitter: 'https://twitter.com/PrysmNetwork'
+        x: 'https://x.com/PrysmNetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -384,7 +384,7 @@ const assets: AssetList = {
       ],
       socials: {
         website: 'https://xrplevm.org',
-        twitter: 'https://twitter.com/Peersyst'
+        x: 'https://x.com/Peersyst'
       },
       traces: [{
           type: 'ibc',
@@ -521,7 +521,7 @@ const assets: AssetList = {
       ],
       socials: {
         website: 'https://xrplevm.org',
-        twitter: 'https://twitter.com/Peersyst'
+        x: 'https://x.com/Peersyst'
       },
       traces: [{
           type: 'ibc',
@@ -557,7 +557,7 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://www.prysm.network/',
-        twitter: 'https://twitter.com/PrysmNetwork'
+        x: 'https://x.com/PrysmNetwork'
       },
       type_asset: 'sdk.coin',
       traces: [{

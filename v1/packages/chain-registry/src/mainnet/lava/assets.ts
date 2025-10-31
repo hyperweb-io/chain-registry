@@ -36,7 +36,7 @@ const info: AssetList = {
       ],
       socials: {
         website: 'https://lavanet.xyz',
-        twitter: 'https://twitter.com/lavanetxyz'
+        x: 'https://x.com/lavanetxyz'
       }
     }]
 };

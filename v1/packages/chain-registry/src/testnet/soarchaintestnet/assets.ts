@@ -19,7 +19,7 @@ const info: AssetList = {
       keywords: ['DePin'],
       socials: {
         website: 'https://www.soarchain.com',
-        twitter: 'https://x.com/soar_chain'
+        x: 'https://x.com/soar_chain'
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/soarchaintestnet/images/soarchain.png',

@@ -26,7 +26,7 @@ const info: AssetList = {
       },
       socials: {
         website: 'https://unification.com',
-        twitter: 'https://twitter.com/UnificationUND'
+        x: 'https://x.com/UnificationUND'
       },
       coingecko_id: 'unification',
       type_asset: 'sdk.coin'
