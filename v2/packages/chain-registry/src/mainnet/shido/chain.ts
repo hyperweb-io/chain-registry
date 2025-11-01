@@ -71,6 +71,10 @@ const info: Chain = {
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       },
       {
+        address: 'https://rpc-shido.onenov.xyz',
+        provider: 'OneNov'
+      },
+      {
         address: 'https://rpc.shido.256x25.tech:443',
         provider: '256x25'
       },
@@ -103,6 +107,10 @@ const info: Chain = {
       {
         address: 'https://shidochain_mainnet_api.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://api-shido.onenov.xyz',
+        provider: 'OneNov'
       },
       {
         address: 'https://rest.shido.256x25.tech:443',
@@ -194,6 +202,12 @@ const info: Chain = {
       url: 'https://explorer.whenmoonwhenlambo.money/shido',
       txPage: 'https://explorer.whenmoonwhenlambo.money/shido/tx/${txHash}',
       accountPage: 'https://explorer.whenmoonwhenlambo.money/shido/account/${accountAddress}'
+    },
+    {
+      kind: 'OneNov',
+      url: 'https://explorer.onenov.xyz/shido',
+      txPage: 'https://explorer.onenov.xyz/shido/tx/${txHash}',
+      accountPage: 'https://explorer.onenov.xyz/shido/account/${accountAddress}'
     },
     {
       kind: '256x25',
