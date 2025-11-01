@@ -82,67 +82,55 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'http://47.236.19.22:18000/chain-rpc/',
+        address: 'https://gonka04.6block.com:8443/chain-rpc/',
         provider: '6block'
       },
       {
-        address: 'http://gonka.spv.re:8000/chain-rpc/',
-        provider: 'Hyperfusion'
+        address: 'https://gonka03.6block.com:8443',
+        provider: '6block'
       },
       {
-        address: 'http://185.216.21.98:8000/chain-rpc/',
-        provider: 'HardYaka'
+        address: 'https://node1.gonka.ai:8443/chain-rpc/',
+        provider: 'PS on Nebius'
       },
       {
-        address: 'http://93.119.168.58:8000/chain-rpc/',
-        provider: 'GCore'
-      },
-      {
-        address: 'http:// :8000/chain-rpc/',
+        address: 'https://node2.gonka.ai:8443/chain-rpc/',
         provider: 'PS on Nebius'
       }
     ],
     rest: [
       {
-        address: 'http://47.236.19.22:18000/chain-api/',
+        address: 'https://gonka04.6block.com:8443/chain-api/',
         provider: '6block'
       },
       {
-        address: 'http://gonka.spv.re:8000/chain-api/',
-        provider: 'Hyperfusion'
+        address: 'https://gonka03.6block.com:8443',
+        provider: '6block'
       },
       {
-        address: 'http://185.216.21.98:8000/chain-api/',
-        provider: 'HardYaka'
+        address: 'https://node1.gonka.ai:8443/chain-api/',
+        provider: 'PS on Nebius'
       },
       {
-        address: 'http://93.119.168.58:8000/chain-api/',
-        provider: 'GCore'
-      },
-      {
-        address: 'http://node1.gonka.ai:8000/chain-api/',
+        address: 'https://node2.gonka.ai:8443/chain-api/',
         provider: 'PS on Nebius'
       }
     ],
     grpc: [
       {
-        address: 'http://47.236.19.22:18000/chain-grpc/',
+        address: 'https://gonka04.6block.com:8443/chain-grpc/',
         provider: '6block'
       },
       {
-        address: 'http://gonka.spv.re:8000/chain-grpc/',
-        provider: 'Hyperfusion'
+        address: 'https://gonka03.6block.com:8443/chain-grpc/',
+        provider: '6block'
       },
       {
-        address: 'http://185.216.21.98:8000/chain-grpc/',
-        provider: 'HardYaka'
+        address: 'https://node1.gonka.ai:8443/chain-grpc/',
+        provider: 'PS on Nebius'
       },
       {
-        address: 'http://93.119.168.58:8000/chain-grpc/',
-        provider: 'GCore'
-      },
-      {
-        address: 'http://node1.gonka.ai:8000/chain-grpc/',
+        address: 'https://node2.gonka.ai:8443/chain-grpc/',
         provider: 'PS on Nebius'
       }
     ]
@@ -150,33 +138,27 @@ const info: Chain = {
   explorers: [
     {
       kind: 'ping.pub',
-      url: 'http://47.236.19.22:18000/dashboard',
-      tx_page: 'http://47.236.19.22:18000/dashboard/gonka/txs/${txHash}',
-      account_page: 'http://47.236.19.22:18000/dashboard/gonka/account/${accountAddress}'
+      url: 'https://gonka04.6block.com:8443/dashboard',
+      tx_page: 'https://gonka04.6block.com:8443/dashboard/gonka/txs/${txHash}',
+      account_page: 'https://gonka04.6block.com:8443/dashboard/gonka/account/${accountAddress}'
     },
     {
       kind: 'ping.pub',
-      url: 'http://gonka.spv.re:8000/dashboard',
-      tx_page: 'http://gonka.spv.re:8000/dashboard/gonka/txs/${txHash}',
-      account_page: 'http://gonka.spv.re:8000/dashboard/gonka/account/${accountAddress}'
+      url: 'https://gonka03.6block.com:8443/dashboard',
+      tx_page: 'https://gonka03.6block.com:8443/dashboard/gonka/txs/${txHash}',
+      account_page: 'https://gonka03.6block.com:8443/dashboard/gonka/account/${accountAddress}'
     },
     {
       kind: 'ping.pub',
-      url: 'http://185.216.21.98:8000/dashboard',
-      tx_page: 'http://185.216.21.98:8000/dashboard/gonka/txs/${txHash}',
-      account_page: 'http://185.216.21.98:8000/dashboard/gonka/account/${accountAddress}'
+      url: 'https://node1.gonka.ai:8443/dashboard',
+      tx_page: 'https://node1.gonka.ai:8443/dashboard/gonka/txs/${txHash}',
+      account_page: 'https://node1.gonka.ai:8443/dashboard/gonka/account/${accountAddress}'
     },
     {
       kind: 'ping.pub',
-      url: 'http://93.119.168.58:8000/dashboard',
-      tx_page: 'http://93.119.168.58:8000/dashboard/gonka/txs/${txHash}',
-      account_page: 'http://93.119.168.58:8000/dashboard/gonka/account/${accountAddress}'
-    },
-    {
-      kind: 'ping.pub',
-      url: 'http://node1.gonka.ai:8000/dashboard',
-      tx_page: 'http://node1.gonka.ai:8000/dashboard/gonka/txs/${txHash}',
-      account_page: 'http://node1.gonka.ai:8000/dashboard/gonka/account/${accountAddress}'
+      url: 'https://node2.gonka.ai:8443/dashboard',
+      tx_page: 'https://node2.gonka.ai:8443/dashboard/gonka/txs/${txHash}',
+      account_page: 'https://node2.gonka.ai:8443/dashboard/gonka/account/${accountAddress}'
     }
   ],
   keywords: [

@@ -35,8 +35,8 @@ const info: Chain = {
   },
   codebase: {
     git_repo: 'https://github.com/bitwaylabs/bitway',
-    recommended_version: 'v2.0.0',
-    compatible_versions: ['v2.0.0'],
+    recommended_version: 'v2.0.1',
+    compatible_versions: ['v2.0.1'],
     consensus: {
       type: 'cometbft',
       version: 'v0.38.12'
@@ -56,7 +56,7 @@ const info: Chain = {
       version: 'v0.53.0',
       enabled: true
     },
-    tag: 'v2.0.0'
+    tag: 'v2.0.1'
   },
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitway/images/btw.png',
@@ -92,6 +92,10 @@ const info: Chain = {
       {
         address: 'https://bitway.rpc.m.stavr.tech',
         provider: '🔥STAVR🔥'
+      },
+      {
+        address: 'https://bitway.rpc.mandragora.io',
+        provider: 'Mandragora'
       }
     ],
     rest: [
@@ -122,6 +126,10 @@ const info: Chain = {
       {
         address: 'https://bitway.api.m.stavr.tech',
         provider: '🔥STAVR🔥'
+      },
+      {
+        address: 'https://bitway.api.mandragora.io',
+        provider: 'Mandragora'
       }
     ],
     grpc: [
@@ -148,6 +156,10 @@ const info: Chain = {
       {
         address: 'bitway-mainnet-grpc.itrocket.net:443',
         provider: 'ITRocket'
+      },
+      {
+        address: 'http://bitway.grpc.mandragora.io:9079',
+        provider: 'Mandragora'
       }
     ]
   },

@@ -47,35 +47,61 @@ const info: Chain = {
   },
   description: 'CNHO Stables Network is designed to facilitate the real world asset in Cosmos ecosystem.',
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://rpc.cnho.io',
         provider: 'CNHO Stables'
-      }, {
+      },
+      {
         address: 'https://cnhostables_mainnet_rpc.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://rpc-cnho.onenov.xyz',
+        provider: 'OneNov'
+      }
+    ],
+    rest: [
+      {
         address: 'https://api.cnho.io',
         provider: 'CNHO Stables'
-      }, {
+      },
+      {
+        address: 'https://api-cnho.onenov.xyz',
+        provider: 'OneNov'
+      },
+      {
         address: 'https://cnhostables_mainnet_api.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
-      }],
+      }
+    ],
     grpc: [{
         address: '159.138.232.248:9090',
         provider: 'CNHO Stables'
+      }, {
+        address: 'grpc-cnho.onenov.xyz:9191',
+        provider: 'OneNov'
       }]
   },
-  explorers: [{
+  explorers: [
+    {
       url: 'https://explorer.cnho.io',
       tx_page: 'https://explorer.cnho.io/transaction/${txHash}',
       account_page: 'https://explorer.cnho.io/account/${accountAddress}'
-    }, {
+    },
+    {
       kind: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥',
       url: 'https://explorer.whenmoonwhenlambo.money/cnhostables',
       tx_page: 'https://explorer.whenmoonwhenlambo.money/cnhostables/tx/${txHash}',
       account_page: 'https://explorer.whenmoonwhenlambo.money/cnhostables/account/${accountAddress}'
-    }],
+    },
+    {
+      kind: 'OneNov',
+      url: 'https://explorer.onenov.xyz/cnho',
+      tx_page: 'https://explorer.onenov.xyz/cnho/tx/${txHash}',
+      account_page: 'https://explorer.onenov.xyz/cnho/account/${accountAddress}'
+    }
+  ],
   keywords: ['CNHO'],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cnhostables/images/chain.png',
