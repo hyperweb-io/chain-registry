@@ -22668,6 +22668,52 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png'
         }]
+    },
+    {
+      description: 'GRDX is the native utility token powering the DeFi, marketplace, and gaming ecosystem on the Terra Classic blockchain.',
+      extendedDescription: 'GRDX serves as the core utility and payment token across the DeFi, marketplace, and gaming ecosystem on the Terra Classic blockchain. It drives all on-chain activities within Garuda DeFi, including staking, trading, and governance participation. As a deflationary asset, GRDX features both on-chain and off-chain burn mechanisms that gradually reduce its supply, supporting long-term value growth. By integrating Garuda DeFi utilities, the BigbangX marketplace, and GameFi functions under one ecosystem, GRDX unites decentralized finance, digital commerce, and gaming innovation.',
+      denomUnits: [{
+          denom: 'ibc/A91095096C44646CB885509AEF56842DD37CB7897E602D7200A1CCF6414AA0D2',
+          exponent: 0,
+          aliases: ['cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw']
+        }, {
+          denom: 'GRDX',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/A91095096C44646CB885509AEF56842DD37CB7897E602D7200A1CCF6414AA0D2',
+      name: 'GRDX',
+      display: 'GRDX',
+      symbol: 'GRDX',
+      coingeckoId: 'garudax',
+      socials: {
+        website: 'https://garuda-defi.org/',
+        x: 'https://x.com/garuda_defi'
+      },
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            chainName: 'terra',
+            baseDenom: 'cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw',
+            port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
+            channelId: 'channel-108'
+          },
+          chain: {
+            port: 'transfer',
+            channelId: 'channel-78488',
+            path: 'transfer/channel-78488/cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/GRDX.png'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'terra',
+            baseDenom: 'cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/GRDX.png'
+        }]
     }
   ]
 };

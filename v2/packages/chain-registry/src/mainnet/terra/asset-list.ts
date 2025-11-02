@@ -4938,6 +4938,33 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/lunctoken.png'
         }]
+    },
+    {
+      description: 'GRDX is the native utility token powering the DeFi, marketplace, and gaming ecosystem on the Terra Classic blockchain.',
+      extendedDescription: 'GRDX serves as the core utility and payment token across the DeFi, marketplace, and gaming ecosystem on the Terra Classic blockchain. It drives all on-chain activities within Garuda DeFi, including staking, trading, and governance participation. As a deflationary asset, GRDX features both on-chain and off-chain burn mechanisms that gradually reduce its supply, supporting long-term value growth. By integrating Garuda DeFi utilities, the BigbangX marketplace, and GameFi functions under one ecosystem, GRDX unites decentralized finance, digital commerce, and gaming innovation.',
+      socials: {
+        website: 'https://garuda-defi.org/',
+        x: 'https://x.com/garuda_defi'
+      },
+      typeAsset: 'cw20',
+      address: 'terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw',
+      denomUnits: [{
+          denom: 'cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw',
+          exponent: 0
+        }, {
+          denom: 'GRDX',
+          exponent: 6
+        }],
+      base: 'cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw',
+      name: 'GRDX',
+      display: 'GRDX',
+      symbol: 'GRDX',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/GRDX.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/GRDX.png'
+        }]
     }
   ]
 };
