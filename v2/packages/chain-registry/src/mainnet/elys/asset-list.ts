@@ -29,7 +29,6 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png'
       },
-      coingeckoId: 'elys-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png'
         }],

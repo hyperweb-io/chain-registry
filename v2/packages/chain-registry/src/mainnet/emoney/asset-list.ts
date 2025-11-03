@@ -41,13 +41,11 @@ const info: AssetList = {
       display: 'eur',
       symbol: 'EEUR',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
       },
       coingeckoId: 'e-money-eur',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -65,12 +63,10 @@ const info: AssetList = {
       display: 'chf',
       symbol: 'ECHF',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -88,12 +84,10 @@ const info: AssetList = {
       display: 'nok',
       symbol: 'ENOK',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -111,12 +105,10 @@ const info: AssetList = {
       display: 'dkk',
       symbol: 'EDKK',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -134,12 +126,10 @@ const info: AssetList = {
       display: 'sek',
       symbol: 'ESEK',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.png'
         }],
       typeAsset: 'sdk.coin'
     }

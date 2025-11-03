@@ -63,7 +63,6 @@ const info: AssetList = {
           provider: 'Neutron'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.svg'
       },
       images: [{
@@ -71,7 +70,6 @@ const info: AssetList = {
             chainName: 'neutron',
             baseDenom: 'factory/neutron1shwxlkpdjd8h5wdtrykypwd2v62z5glr95yp0etdcspkkjwm5meq82ndxs/amatom'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.svg'
         }],
       typeAsset: 'sdk.coin'

@@ -1180,10 +1180,10 @@ const info: AssetList = {
             chainName: 'ethereum',
             baseDenom: '0x78a0A62Fba6Fb21A83FE8a3433d44C73a4017A6f'
           },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.png'
         }],
       logoURIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.png'
       },
       typeAsset: 'sdk.coin'
     },

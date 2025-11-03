@@ -210,12 +210,10 @@ const info: AssetList = {
       display: 'dhk',
       symbol: 'DHK',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.png'
         }]
     },
     {
@@ -476,11 +474,9 @@ const info: AssetList = {
       display: 'solar',
       symbol: 'SOLAR',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.svg'
         }]
     },

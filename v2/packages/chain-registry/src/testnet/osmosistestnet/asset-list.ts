@@ -1365,19 +1365,16 @@ const info: AssetList = {
           }
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/doge.int3.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/doge.int3.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/doge.int3.png'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/doge.int3.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/doge.int3.png'
         }, {
           imageSync: {
             chainName: 'int3facetestnet',
             baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png'
         }]
     },
     {
@@ -1712,19 +1709,16 @@ const info: AssetList = {
           }
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/XRP.int3.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/XRP.int3.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/XRP.int3.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/XRP.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/XRP.int3.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/XRP.int3.png'
         }, {
           imageSync: {
             chainName: 'int3facetestnet',
             baseDenom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/xrpl-xrp'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/xrp.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/xrp.int3.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/xrp.int3.png'
         }]
     }
   ]

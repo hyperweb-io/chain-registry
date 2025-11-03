@@ -16,12 +16,10 @@ const info: AssetList = {
       display: 'heart',
       symbol: 'HEART',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg'
       },
       coingeckoId: 'humans-ai',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg',
           theme: {
             darkMode: true

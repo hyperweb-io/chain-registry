@@ -3968,10 +3968,10 @@ const info: AssetList = {
       display: 'stnd',
       symbol: 'sTND',
       logoURIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stnd.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stnd.png'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stnd.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stnd.png'
         }]
     },
     {

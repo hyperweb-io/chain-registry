@@ -46,12 +46,10 @@ const info: AssetList = {
       display: 'auuu',
       symbol: 'AUUU',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/AUUU.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/AUUU.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/AUUU.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/AUUU.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/AUUU.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/AUUU.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -809,12 +807,10 @@ const info: AssetList = {
           provider: 'Pryzm'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/cAuuu.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/cAuuu.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/cAuuu.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/cAuuu.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/cAuuu.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/cAuuu.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -1538,12 +1534,10 @@ const info: AssetList = {
       display: 'pAUUU30Sep2024',
       symbol: 'pAUUU-30Sep2024',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -1561,12 +1555,10 @@ const info: AssetList = {
       display: 'pAUUU31Dec2024',
       symbol: 'pAUUU-31Dec2024',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -1584,12 +1576,10 @@ const info: AssetList = {
       display: 'pAUUU30Jun2025',
       symbol: 'pAUUU-30Jun2025',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -1607,12 +1597,10 @@ const info: AssetList = {
       display: 'pAUUU31Dec2025',
       symbol: 'pAUUU-31Dec2025',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -1630,12 +1618,10 @@ const info: AssetList = {
       display: 'pAUUU31Dec2026',
       symbol: 'pAUUU-31Dec2026',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pAuuu.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -3309,12 +3295,10 @@ const info: AssetList = {
       display: 'yAUUU30Sep2024',
       symbol: 'yAUUU-30Sep2024',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -3332,12 +3316,10 @@ const info: AssetList = {
       display: 'yAUUU31Dec2024',
       symbol: 'yAUUU-31Dec2024',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -3355,12 +3337,10 @@ const info: AssetList = {
       display: 'yAUUU30Jun2025',
       symbol: 'yAUUU-30Jun2025',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -3378,12 +3358,10 @@ const info: AssetList = {
       display: 'yAUUU31Dec2025',
       symbol: 'yAUUU-31Dec2025',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png'
         }],
       typeAsset: 'sdk.coin'
     },
@@ -3401,12 +3379,10 @@ const info: AssetList = {
       display: 'yAUUU31Dec2026',
       symbol: 'yAUUU-31Dec2026',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/yAuuu.png'
         }],
       typeAsset: 'sdk.coin'
     },

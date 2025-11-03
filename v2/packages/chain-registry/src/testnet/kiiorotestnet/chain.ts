@@ -42,7 +42,8 @@ const info: Chain = {
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/KiiChain/testnets/refs/heads/main/testnet_oro/genesis.json'
-    }
+    },
+    tag: 'v5.0.0'
   },
   apis: {
     rpc: [{

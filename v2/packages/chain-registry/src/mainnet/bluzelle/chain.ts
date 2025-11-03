@@ -51,7 +51,8 @@ const info: Chain = {
     ibc: {
       type: 'go',
       version: 'v7'
-    }
+    },
+    tag: 'v11.0'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/bluzelle.png',

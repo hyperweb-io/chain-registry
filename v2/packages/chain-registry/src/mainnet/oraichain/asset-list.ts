@@ -294,12 +294,10 @@ const info: AssetList = {
       display: 'kwt',
       symbol: 'KWT',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/kwt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/kwt.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/kwt.png'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/kwt.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/kwt.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/kwt.png'
       }
     },
     {
@@ -318,12 +316,10 @@ const info: AssetList = {
       display: 'milky',
       symbol: 'MILKY',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/milky-token.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/milky-token.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/milky-token.png'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/milky-token.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/milky-token.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/milky-token.png'
       }
     },
     {
@@ -430,12 +426,10 @@ const info: AssetList = {
       display: 'xoch',
       symbol: 'xOCH',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png'
       }
     },
     {
@@ -530,12 +524,10 @@ const info: AssetList = {
       symbol: 'OCH',
       coingeckoId: 'och',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png'
       }
     },
     {
