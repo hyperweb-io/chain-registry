@@ -194,8 +194,7 @@ const info: AssetList = {
         }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png'
-      },
-      coingecko_id: 'elys-network'
+      }
     },
     {
       description: 'Astropepe meme coin',
@@ -627,10 +626,10 @@ const info: AssetList = {
       display: 'apollo',
       symbol: 'APOLLO',
       logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.png'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.png'
         }],
       socials: {
         website: 'https://apollo.farm/',
@@ -675,10 +674,10 @@ const info: AssetList = {
       display: 'retro',
       symbol: 'RETRO',
       logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/retro.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/retro.png'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/retro.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/retro.png'
         }],
       type_asset: 'sdk.coin'
     },
@@ -697,10 +696,10 @@ const info: AssetList = {
       display: 'goddard',
       symbol: 'GODDARD',
       logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddard.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddard.png'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddard.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddard.png'
         }],
       type_asset: 'sdk.coin'
     },
@@ -1316,11 +1315,9 @@ const info: AssetList = {
           provider: 'Amulet'
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.svg'
         }],
       type_asset: 'sdk.coin'
@@ -1506,19 +1503,14 @@ const info: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png'
-        }, {
           image_sync: {
             chain_name: 'int3face',
             base_denom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png'
         }]
     },
     {

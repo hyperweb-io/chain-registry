@@ -1823,13 +1823,11 @@ const assets: AssetList = {
       display: 'scrt',
       symbol: 'SCRT',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png'
       },
       coingecko_id: 'secret',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png'
         }],
       socials: {
         website: 'https://scrt.network/',
@@ -2279,13 +2277,11 @@ const assets: AssetList = {
       display: 'scrt',
       symbol: 'SCRT',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png'
       },
       coingecko_id: 'secret',
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png'
         }],
       socials: {
         website: 'https://scrt.network/',
@@ -9306,10 +9302,10 @@ const assets: AssetList = {
       display: 'stnd',
       symbol: 'sTND',
       logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stnd.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stnd.png'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stnd.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stnd.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -9723,6 +9719,46 @@ const assets: AssetList = {
             port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
             channel_id: 'channel-87',
             base_denom: 'cw20:terra1mm8tdp40r2slzwqxk8jsz66ayc4zp69muxeateq37x2xquttzsaqy7275a',
+            chain_name: 'terra'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-114'
+          }
+        }]
+    },
+    {
+      description: 'GRDX is the native utility token powering the DeFi, marketplace, and gaming ecosystem on the Terra Classic blockchain.',
+      socials: {
+        website: 'https://garuda-defi.org/',
+        x: 'https://x.com/garuda_defi'
+      },
+      type_asset: 'cw20',
+      address: 'terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw',
+      denom_units: [{
+          denom: 'ibc/D399DAB84AA4983162C9FEAA74C4DEB0E04855E83865EC35F598524A32F849DF',
+          exponent: 0,
+          aliases: ['cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw']
+        }, {
+          denom: 'GRDX',
+          exponent: 6
+        }],
+      base: 'ibc/D399DAB84AA4983162C9FEAA74C4DEB0E04855E83865EC35F598524A32F849DF',
+      name: 'GRDX',
+      display: 'GRDX',
+      symbol: 'GRDX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/GRDX.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/GRDX.png'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
+            channel_id: 'channel-87',
+            base_denom: 'cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw',
             chain_name: 'terra'
           },
           chain: {
@@ -17856,10 +17892,10 @@ const assets: AssetList = {
       display: 'stnd',
       symbol: 'sTND',
       logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stnd.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stnd.png'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stnd.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/stnd.png'
         }],
       traces: [{
           type: 'ibc-cw20',
@@ -18273,6 +18309,46 @@ const assets: AssetList = {
             port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
             channel_id: 'channel-87',
             base_denom: 'cw20:terra1mm8tdp40r2slzwqxk8jsz66ayc4zp69muxeateq37x2xquttzsaqy7275a',
+            chain_name: 'terra'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-114'
+          }
+        }]
+    },
+    {
+      description: 'GRDX is the native utility token powering the DeFi, marketplace, and gaming ecosystem on the Terra Classic blockchain.',
+      socials: {
+        website: 'https://garuda-defi.org/',
+        x: 'https://x.com/garuda_defi'
+      },
+      type_asset: 'cw20',
+      address: 'terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw',
+      denom_units: [{
+          denom: 'ibc/D399DAB84AA4983162C9FEAA74C4DEB0E04855E83865EC35F598524A32F849DF',
+          exponent: 0,
+          aliases: ['cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw']
+        }, {
+          denom: 'GRDX',
+          exponent: 6
+        }],
+      base: 'ibc/D399DAB84AA4983162C9FEAA74C4DEB0E04855E83865EC35F598524A32F849DF',
+      name: 'GRDX',
+      display: 'GRDX',
+      symbol: 'GRDX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/GRDX.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/GRDX.png'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
+            channel_id: 'channel-87',
+            base_denom: 'cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw',
             chain_name: 'terra'
           },
           chain: {

@@ -48,7 +48,8 @@ const info: Chain = {
     sdk: {
       type: 'cosmos',
       version: 'v0.53.4'
-    }
+    },
+    tag: 'v0.7.0'
   },
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.png',

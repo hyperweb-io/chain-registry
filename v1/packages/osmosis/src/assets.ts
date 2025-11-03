@@ -797,16 +797,14 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png'
       },
       images: [{
           image_sync: {
             chain_name: 'secretnetwork',
             base_denom: 'uscrt'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png'
         }],
       coingecko_id: 'secret'
     },
@@ -1303,16 +1301,14 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
       },
       images: [{
           image_sync: {
             chain_name: 'emoney',
             base_denom: 'eeur'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
         }],
       coingecko_id: 'e-money-eur'
     },
@@ -3035,16 +3031,14 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.png'
       },
       images: [{
           image_sync: {
             chain_name: 'juno',
             base_denom: 'cw20:juno1tdjwrqmnztn2j3sj2ln9xnyps5hs48q3ddwjrz7jpv6mskappjys5czd49'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.png'
         }]
     },
     {
@@ -4594,7 +4588,6 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.svg'
       },
       images: [{
@@ -4602,7 +4595,6 @@ const assets: AssetList = {
             chain_name: 'juno',
             base_denom: 'cw20:juno159q8t5g02744lxq8lfmcn6f78qqulq9wn3y9w7lxjgkz4e0a6kvsfvapse'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.svg'
         }]
     },
@@ -11426,14 +11418,14 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.png'
       },
       images: [{
           image_sync: {
             chain_name: 'neutron',
             base_denom: 'factory/neutron154gg0wtm2v4h9ur8xg32ep64e8ef0g5twlsgvfeajqwghdryvyqsqhgk8e/APOLLO'
           },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.png'
         }]
     },
     {
@@ -11840,7 +11832,6 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg'
       },
       images: [{
@@ -11848,7 +11839,6 @@ const assets: AssetList = {
             chain_name: 'humans',
             base_denom: 'aheart'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg',
           theme: {
             dark_mode: true
@@ -17229,16 +17219,14 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png'
       },
       images: [{
           image_sync: {
             chain_name: 'int3face',
             base_denom: 'factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/doge.int3.png'
         }]
     },
     {
@@ -18267,7 +18255,6 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.svg'
       },
       images: [{
@@ -18275,7 +18262,6 @@ const assets: AssetList = {
             chain_name: 'neutron',
             base_denom: 'factory/neutron1shwxlkpdjd8h5wdtrykypwd2v62z5glr95yp0etdcspkkjwm5meq82ndxs/amatom'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/amATOM.svg'
         }]
     },
@@ -18558,8 +18544,7 @@ const assets: AssetList = {
             base_denom: 'uelys'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png'
-        }],
-      coingecko_id: 'elys-network'
+        }]
     },
     {
       description: 'Aaron Network is an innovative platform for secure and private messaging, integrated into the blockchain ecosystem. We also offer a unique address reputation scoring system, ensuring that every user can interact with others confidently.',
@@ -22099,10 +22084,10 @@ const assets: AssetList = {
       display: 'factory/osmo13gu58hzw3e9aqpj25h67m7snwcjuccd7v4p55w/brnz',
       symbol: 'BRNZ',
       logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/BRNZ.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/BRNZ.png'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/BRNZ.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/BRNZ.png'
         }]
     },
     {
@@ -22665,6 +22650,52 @@ const assets: AssetList = {
             base_denom: 'ulume'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png'
+        }]
+    },
+    {
+      description: 'GRDX is the native utility token powering the DeFi, marketplace, and gaming ecosystem on the Terra Classic blockchain.',
+      extended_description: 'GRDX serves as the core utility and payment token across the DeFi, marketplace, and gaming ecosystem on the Terra Classic blockchain. It drives all on-chain activities within Garuda DeFi, including staking, trading, and governance participation. As a deflationary asset, GRDX features both on-chain and off-chain burn mechanisms that gradually reduce its supply, supporting long-term value growth. By integrating Garuda DeFi utilities, the BigbangX marketplace, and GameFi functions under one ecosystem, GRDX unites decentralized finance, digital commerce, and gaming innovation.',
+      denom_units: [{
+          denom: 'ibc/A91095096C44646CB885509AEF56842DD37CB7897E602D7200A1CCF6414AA0D2',
+          exponent: 0,
+          aliases: ['cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw']
+        }, {
+          denom: 'GRDX',
+          exponent: 6
+        }],
+      type_asset: 'ics20',
+      base: 'ibc/A91095096C44646CB885509AEF56842DD37CB7897E602D7200A1CCF6414AA0D2',
+      name: 'GRDX',
+      display: 'GRDX',
+      symbol: 'GRDX',
+      coingecko_id: 'garudax',
+      socials: {
+        website: 'https://garuda-defi.org/',
+        x: 'https://x.com/garuda_defi'
+      },
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            chain_name: 'terra',
+            base_denom: 'cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw',
+            port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
+            channel_id: 'channel-108'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-78488',
+            path: 'transfer/channel-78488/cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw'
+          }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/GRDX.png'
+      },
+      images: [{
+          image_sync: {
+            chain_name: 'terra',
+            base_denom: 'cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/GRDX.png'
         }]
     }
   ]
