@@ -28,12 +28,8 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/sentinel-official/hub',
-    recommendedVersion: 'v0.11.3',
-    compatibleVersions: [
-      'v0.11.1',
-      'v0.11.2',
-      'v0.11.3'
-    ],
+    recommendedVersion: 'v12.0.0',
+    compatibleVersions: ['v12.0.0'],
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/sentinel-official/networks/main/sentinelhub-2/genesis.zip'
     }

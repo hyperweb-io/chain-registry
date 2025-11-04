@@ -32,6 +32,10 @@ const info: Chain = {
       {
         address: 'https://dungeon_mainnet_rpc.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://rpc.dungeon.chaintools.tech',
+        provider: 'ChainTools'
       }
     ],
     rest: [
@@ -50,24 +54,40 @@ const info: Chain = {
       {
         address: 'https://dungeon_mainnet_api.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://api.dungeon.chaintools.tech',
+        provider: 'ChainTools'
       }
     ],
     grpc: [{
-        address: 'dungeon.grpc.quasarstaking.ai',
+        address: 'dungeon.grpc.quasarstaking.ai:80',
         provider: 'Quasar'
+      }, {
+        address: 'grpc.dungeon.chaintools.tech:443',
+        provider: 'ChainTools'
       }]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'Ping.Pub',
       url: 'https://ping.pub/Dungeonchain',
       txPage: 'https://ping.pub/Dungeonchain/tx/${txHash}',
       accountPage: 'https://ping.pub/Dungeonchain/account/${accountAddress}'
-    }, {
+    },
+    {
       kind: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥',
       url: 'https://explorer.whenmoonwhenlambo.money/dungeon',
       txPage: 'https://explorer.whenmoonwhenlambo.money/dungeon/tx/${txHash}',
       accountPage: 'https://explorer.whenmoonwhenlambo.money/dungeon/account/${accountAddress}'
-    }],
+    },
+    {
+      kind: 'ChainTools',
+      url: 'https://explorer.chaintools.tech/Dungeon',
+      txPage: 'https://explorer.chaintools.tech/Dungeon/tx/${txHash}',
+      accountPage: 'https://explorer.chaintools.tech/Dungeon/account/${accountAddress}'
+    }
+  ],
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png'
   },
