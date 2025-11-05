@@ -61,23 +61,14 @@ const info: Chain = {
     rpc: [{
         address: 'https://px-json.pundix.com',
         provider: 'Pundi X'
-      }, {
-        address: 'https://pundix.rpc.nodeshub.online:443',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅'
       }],
     rest: [{
         address: 'https://px-rest.pundix.com',
         provider: 'Pundi X'
-      }, {
-        address: 'https://pundix.api.nodeshub.online:443',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅'
       }],
     grpc: [{
         address: 'https://px-grpc.pundix.com',
         provider: 'Pundi X'
-      }, {
-        address: 'https://pundix.grpc.nodeshub.online',
-        provider: 'Nodes Hub'
       }]
   },
   images: [{
@@ -95,11 +86,6 @@ const info: Chain = {
       url: 'https://starscan.io',
       txPage: 'https://starscan.io/pundix/tx/${txHash}',
       accountPage: 'https://starscan.io/pundix/address/${accountAddress}'
-    }, {
-      kind: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅',
-      url: 'https://explorer.nodeshub.online/pundix/',
-      txPage: 'https://explorer.nodeshub.online/pundix/tx/${txHash}',
-      accountPage: 'https://explorer.nodeshub.online/pundix/accounts/${accountAddress}'
     }]
 };
 export default info;

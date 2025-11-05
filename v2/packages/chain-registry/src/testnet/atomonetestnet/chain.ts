@@ -119,7 +119,7 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️',
+      kind: 'NodesHub',
       url: 'https://testnet.explorer.nodeshub.online/atomone/',
       txPage: 'https://testnet.explorer.nodeshub.online/atomone/tx/${txHash}',
       accountPage: 'https://testnet.explorer.nodeshub.online/atomone/accounts/${accountAddress}'

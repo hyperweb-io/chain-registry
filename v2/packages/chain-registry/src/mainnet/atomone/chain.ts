@@ -75,7 +75,7 @@ const info: Chain = {
       },
       {
         address: 'https://atomone.rpc.nodeshub.online:443',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️'
+        provider: 'NodesHub'
       },
       {
         address: 'https://rpc-atomone.nodeist.net',
@@ -177,7 +177,7 @@ const info: Chain = {
       },
       {
         address: 'https://atomone.api.nodeshub.online',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️'
+        provider: 'NodesHub'
       },
       {
         address: 'https://api-atomone.nodeist.net',
@@ -347,7 +347,7 @@ const info: Chain = {
       accountPage: 'https://explorer.allinbits.com/atomone/account/${accountAddress}'
     },
     {
-      kind: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️',
+      kind: 'NodesHub',
       url: 'https://explorer.nodeshub.online/atomone/',
       txPage: 'https://explorer.nodeshub.online/atomone/tx/${txHash}',
       accountPage: 'https://explorer.nodeshub.online/atomone/accounts/${accountAddress}'

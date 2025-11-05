@@ -340,7 +340,7 @@ const info: Chain = {
       accountPage: 'https://explorer.whenmoonwhenlambo.money/source/account/${accountAddress}'
     },
     {
-      kind: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅',
+      kind: 'NodesHub',
       url: 'https://explorer.nodeshub.online/source/',
       txPage: 'https://explorer.nodeshub.online/source/tx/${txHash}',
       accountPage: 'https://explorer.nodeshub.online/source/accounts/${accountAddress}'

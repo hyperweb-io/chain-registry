@@ -102,7 +102,7 @@ const info: Chain = {
       },
       {
         address: 'https://nibiru.rpc.nodeshub.online:443',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅'
+        provider: 'NodesHub'
       },
       {
         address: 'https://nibiru.rpc.m.stavr.tech:443',
@@ -168,7 +168,7 @@ const info: Chain = {
       },
       {
         address: 'https://nibiru.api.nodeshub.online:443',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅'
+        provider: 'NodesHub'
       },
       {
         address: 'https://nibiru-api.noders.services',
@@ -292,7 +292,7 @@ const info: Chain = {
       accountPage: 'https://explorer.stavr.tech/Nibiru-Mainnet/account/${accountAddress}'
     },
     {
-      kind: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅',
+      kind: 'NodesHub',
       url: 'https://explorer.nodeshub.online/nibiru/',
       txPage: 'https://explorer.nodeshub.online/nibiru/tx/${txHash}',
       accountPage: 'https://explorer.nodeshub.online/nibiru/accounts/${accountAddress}'

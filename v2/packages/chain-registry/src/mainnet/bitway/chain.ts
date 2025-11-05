@@ -96,6 +96,10 @@ const info: Chain = {
       {
         address: 'https://bitway.rpc.mandragora.io',
         provider: 'Mandragora'
+      },
+      {
+        address: 'https://bitway.rpc.nodeshub.online:443',
+        provider: 'NodesHub'
       }
     ],
     rest: [
@@ -130,6 +134,10 @@ const info: Chain = {
       {
         address: 'https://bitway.api.mandragora.io',
         provider: 'Mandragora'
+      },
+      {
+        address: 'https://bitway.api.nodeshub.online',
+        provider: 'NodesHub'
       }
     ],
     grpc: [
@@ -160,6 +168,10 @@ const info: Chain = {
       {
         address: 'http://bitway.grpc.mandragora.io:9079',
         provider: 'Mandragora'
+      },
+      {
+        address: 'bitway.grpc.nodeshub.online',
+        provider: 'Nodes Hub'
       }
     ]
   },

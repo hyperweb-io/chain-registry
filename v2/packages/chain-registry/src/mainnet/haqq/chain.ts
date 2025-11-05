@@ -103,6 +103,10 @@ const info: Chain = {
       {
         address: 'https://haqq.rpc.m.stavr.tech:443',
         provider: '🔥STAVR🔥'
+      },
+      {
+        address: 'https://haqq.rpc.onenov.xyz',
+        provider: 'OneNov'
       }
     ],
     rest: [
@@ -145,6 +149,10 @@ const info: Chain = {
       {
         address: 'https://haqq.api.m.stavr.tech',
         provider: '🔥STAVR🔥'
+      },
+      {
+        address: 'https://haqq.api.onenov.xyz',
+        provider: 'OneNov'
       }
     ],
     grpc: [
@@ -187,6 +195,10 @@ const info: Chain = {
       {
         address: 'haqq-grpc.noders.services:14090',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'grpc-haqq.onenov.xyz:443',
+        provider: 'OneNov'
       }
     ],
     evmHttpJsonrpc: [
@@ -271,6 +283,11 @@ const info: Chain = {
       kind: '🔥STAVR🔥 Explorer',
       url: 'https://explorer.stavr.tech/HAQQ-Mainnet',
       txPage: 'https://explorer.stavr.tech/HAQQ-Mainnet/tx/${txHash}'
+    },
+    {
+      kind: 'OneNov Explorer',
+      url: 'https://explorer.onenov.xyz/haqq-mainnet',
+      txPage: 'https://explorer.onenov.xyz/haqq-mainnet/tx/${txHash}'
     }
   ],
   images: [{

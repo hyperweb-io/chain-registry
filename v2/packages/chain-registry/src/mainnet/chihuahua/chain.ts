@@ -108,7 +108,7 @@ const info: Chain = {
       },
       {
         address: 'https://chihuahua.rpc.nodeshub.online:443',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅'
+        provider: 'NodesHub'
       },
       {
         address: 'https://chihuahua-rpc.chainroot.io',
@@ -162,7 +162,7 @@ const info: Chain = {
       },
       {
         address: 'https://chihuahua.api.nodeshub.online:443',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅'
+        provider: 'NodesHub'
       },
       {
         address: 'https://chihuahua-api.chainroot.io',
@@ -254,7 +254,7 @@ const info: Chain = {
       accountPage: 'https://ezstaking.app/chihuahua/account/${accountAddress}'
     },
     {
-      kind: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅',
+      kind: 'NodesHub',
       url: 'https://explorer.nodeshub.online/chihuahua/',
       txPage: 'https://explorer.nodeshub.online/chihuahua/tx/${txHash}',
       accountPage: 'https://explorer.nodeshub.online/chihuahua/accounts/${accountAddress}'
