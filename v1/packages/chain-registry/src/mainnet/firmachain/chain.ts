@@ -63,7 +63,7 @@ const info: Chain = {
       },
       {
         address: 'https://firmachain.rpc.nodeshub.online:443',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅'
+        provider: 'NodesHub'
       },
       {
         address: 'https://firmachain_mainnet_rpc.chain.whenmoonwhenlambo.money',
@@ -93,7 +93,7 @@ const info: Chain = {
       },
       {
         address: 'https://firmachain.api.nodeshub.online:443',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅'
+        provider: 'NodesHub'
       },
       {
         address: 'https://firmachain_mainnet_api.chain.whenmoonwhenlambo.money',
@@ -161,7 +161,7 @@ const info: Chain = {
       account_page: 'https://atomscan.com/firmachain/accounts/${accountAddress}'
     },
     {
-      kind: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅',
+      kind: 'NodesHub',
       url: 'https://explorer.nodeshub.online/firmachain/',
       tx_page: 'https://explorer.nodeshub.online/firmachain/tx/${txHash}',
       account_page: 'https://explorer.nodeshub.online/firmachain/accounts/${accountAddress}'

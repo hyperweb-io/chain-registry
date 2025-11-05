@@ -66,14 +66,23 @@ const info: Chain = {
     rpc: [{
         address: 'https://rpc.hippo-protocol.com/',
         provider: 'Hippo Protocol'
+      }, {
+        address: 'https://hippo.rpc.nodeshub.online:443',
+        provider: 'NodesHub'
       }],
     rest: [{
         address: 'https://api.hippo-protocol.com/',
         provider: 'Hippo Protocol'
+      }, {
+        address: 'https://hippo.api.nodeshub.online',
+        provider: 'NodesHub'
       }],
     grpc: [{
         address: 'ibc-grpc.hippo-protocol.com:443',
         provider: 'Hippo Protocol'
+      }, {
+        address: 'hippo.grpc.nodeshub.online',
+        provider: 'Nodes Hub'
       }]
   },
   explorers: [{

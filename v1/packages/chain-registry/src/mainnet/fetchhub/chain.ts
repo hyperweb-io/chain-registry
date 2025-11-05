@@ -92,7 +92,7 @@ const info: Chain = {
       },
       {
         address: 'https://fetch.rpc.nodeshub.online:443',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅'
+        provider: 'NodesHub'
       },
       {
         address: 'https://rpc.fetchhub-4.fetch.aviaone.com',
@@ -162,7 +162,7 @@ const info: Chain = {
       },
       {
         address: 'https://fetch.api.nodeshub.online:443',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅'
+        provider: 'NodesHub'
       },
       {
         address: 'https://api.fetchhub-4.fetch.aviaone.com/',
@@ -281,7 +281,7 @@ const info: Chain = {
       account_page: 'https://fetchstation.azoyalabs.com/mainnet/explorer/address/${accountAddress}'
     },
     {
-      kind: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅',
+      kind: 'NodesHub',
       url: 'https://explorer.nodeshub.online/fetchhub/',
       tx_page: 'https://explorer.nodeshub.online/fetchhub/tx/${txHash}',
       account_page: 'https://explorer.nodeshub.online/fetchhub/accounts/${accountAddress}'

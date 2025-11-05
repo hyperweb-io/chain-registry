@@ -46,10 +46,6 @@ const info: Chain = {
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       },
       {
-        address: 'https://selfchain.rpc.nodeshub.online:443',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️'
-      },
-      {
         address: 'https://selfchain-mainnet.rpc.stakevillage.net:443',
         provider: 'Stake Village'
       },
@@ -84,10 +80,6 @@ const info: Chain = {
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       },
       {
-        address: 'https://selfchain.api.nodeshub.online',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️'
-      },
-      {
         address: 'https://selfchain-mainnet.api.stakevillage.net',
         provider: 'Stake Village'
       },
@@ -104,10 +96,6 @@ const info: Chain = {
       {
         address: 'grpc.selfchain.roomit.xyz:8443',
         provider: 'Roomit'
-      },
-      {
-        address: 'selfchain.grpc.nodeshub.online',
-        provider: 'Nodes Hub'
       },
       {
         address: 'selfchain-mainnet.grpc.stakevillage.net:443',
@@ -153,12 +141,6 @@ const info: Chain = {
       url: 'https://explorer.whenmoonwhenlambo.money/self',
       tx_page: 'https://explorer.whenmoonwhenlambo.money/self/tx/${txHash}',
       account_page: 'https://explorer.whenmoonwhenlambo.money/self/account/${accountAddress}'
-    },
-    {
-      kind: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️',
-      url: 'https://explorer.nodeshub.online/selfchain/',
-      tx_page: 'https://explorer.nodeshub.online/selfchain/tx/${txHash}',
-      account_page: 'https://explorer.nodeshub.online/selfchain/accounts/${accountAddress}'
     },
     {
       kind: 'Stake Village',

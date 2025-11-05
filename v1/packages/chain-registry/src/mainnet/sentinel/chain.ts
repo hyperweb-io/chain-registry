@@ -94,10 +94,6 @@ const info: Chain = {
         provider: 'Decloud Nodes Lab'
       },
       {
-        address: 'https://sentinel.rpc.nodeshub.online:443',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅'
-      },
-      {
         address: 'https://rpc.dvpn.me:443',
         provider: 'MathNodes China'
       },
@@ -164,10 +160,6 @@ const info: Chain = {
         provider: 'Decloud Nodes Lab'
       },
       {
-        address: 'https://sentinel.api.nodeshub.online:443',
-        provider: 'Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅'
-      },
-      {
         address: 'https://api.dvpn.me:443',
         provider: 'MathNodes China'
       },
@@ -212,10 +204,6 @@ const info: Chain = {
       {
         address: 'https://sentinel.declab.pro:9019',
         provider: 'Decloud Nodes Lab'
-      },
-      {
-        address: 'https://sentinel.grpc.nodeshub.online',
-        provider: 'Nodes Hub'
       },
       {
         address: 'https://grpc.dvpn.me:443',
@@ -293,12 +281,6 @@ const info: Chain = {
       kind: 'DNL Explorer',
       url: 'https://explorer.declab.pro/Sentinel',
       tx_page: 'https://explorer.declab.pro/Sentinel/tx/${txHash}'
-    },
-    {
-      kind: 'NodesHub',
-      url: 'https://explorer.nodeshub.online/sentinel/',
-      tx_page: 'https://explorer.nodeshub.online/sentinel/tx/${txHash}',
-      account_page: 'https://explorer.nodeshub.online/sentinel/accounts/${accountAddress}'
     }
   ],
   images: [{

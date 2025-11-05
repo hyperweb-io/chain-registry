@@ -68,10 +68,6 @@ const info: Chain = {
         provider: 'SG-1'
       },
       {
-        address: 'https://govgen.rpc.nodeshub.online:443',
-        provider: 'Nodes Hub'
-      },
-      {
         address: 'https://govgen-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
@@ -94,10 +90,6 @@ const info: Chain = {
         provider: 'SG-1'
       },
       {
-        address: 'https://govgen.api.nodeshub.online/',
-        provider: 'Nodes Hub'
-      },
-      {
         address: 'https://govgen-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
@@ -110,20 +102,13 @@ const info: Chain = {
         provider: 'Kewr Node'
       }
     ],
-    grpc: [
-      {
+    grpc: [{
         address: 'govgen-grpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https://govgen.grpc.nodeshub.online:443',
-        provider: 'Nodes Hub'
-      },
-      {
+      }, {
         address: 'https://grpc.govgen.posthuman.digital:443',
         provider: 'posthuman'
-      }
-    ]
+      }]
   },
   explorers: [
     {
@@ -137,12 +122,6 @@ const info: Chain = {
       url: 'https://staking-explorer.com/explorer/govgen',
       tx_page: 'https://staking-explorer.com/transaction.php?chain=govgen&tx=${txHash}',
       account_page: 'https://staking-explorer.com/account.php?chain=govgen&addr=${accountAddress}'
-    },
-    {
-      kind: 'ping.pub',
-      url: 'https://explorer.nodeshub.online/govgen',
-      tx_page: 'https://explorer.nodeshub.online/govgen/tx/${txHash}',
-      account_page: 'https://explorer.nodeshub.online/govgen/account/${accountAddress}'
     },
     {
       kind: 'ping.pub',
