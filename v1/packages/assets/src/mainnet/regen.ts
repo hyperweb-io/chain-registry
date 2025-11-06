@@ -379,7 +379,7 @@ const assets: AssetList = {
       keywords: ['dex', 'staking'],
       socials: {
         website: 'https://osmosis.zone',
-        x: 'https://x.com/osmosiszone'
+        x: 'https://x.com/osmosis'
       },
       traces: [{
           type: 'ibc',
@@ -893,7 +893,7 @@ const assets: AssetList = {
       keywords: ['dex', 'staking'],
       socials: {
         website: 'https://osmosis.zone',
-        x: 'https://x.com/osmosiszone'
+        x: 'https://x.com/osmosis'
       },
       traces: [{
           type: 'ibc',

@@ -30,7 +30,7 @@ const info: AssetList = {
       keywords: ['dex', 'staking'],
       socials: {
         website: 'https://osmosis.zone',
-        x: 'https://x.com/osmosiszone'
+        x: 'https://x.com/osmosis'
       }
     },
     {
