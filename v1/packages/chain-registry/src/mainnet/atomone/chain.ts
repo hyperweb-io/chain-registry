@@ -164,6 +164,10 @@ const info: Chain = {
       {
         address: 'https://atomone-rpc.stakerhouse.com',
         provider: 'StakerHouse'
+      },
+      {
+        address: 'https://mainnet-atomone-rpc.konsortech.xyz/',
+        provider: 'KonsorTech'
       }
     ],
     rest: [
@@ -266,6 +270,10 @@ const info: Chain = {
       {
         address: 'https://atomone-rest.stakerhouse.com',
         provider: 'StakerHouse'
+      },
+      {
+        address: 'https://mainnet-atomone-api.konsortech.xyz/',
+        provider: 'KonsorTech'
       }
     ],
     grpc: [
@@ -336,6 +344,10 @@ const info: Chain = {
       {
         address: 'atomone-grpc.kynraze.com:77',
         provider: 'kynraze'
+      },
+      {
+        address: 'mainnet-atomone.konsortech.xyz:12090',
+        provider: 'KonsorTech'
       }
     ]
   },
@@ -429,6 +441,12 @@ const info: Chain = {
       url: 'https://cosmotracker.com/atomone',
       tx_page: 'https://cosmotracker.com/atomone/tx/${txHash}',
       account_page: 'https://cosmotracker.com/atomone/account/${accountAddress}'
+    },
+    {
+      kind: 'KonsorTech',
+      url: 'https://explorer.konsortech.xyz/atomone',
+      tx_page: 'https://explorer.konsortech.xyz/atomone/tx/${txHash}',
+      account_page: 'https://explorer.konsortech.xyz/atomone/account/${accountAddress}'
     }
   ],
   images: [{
