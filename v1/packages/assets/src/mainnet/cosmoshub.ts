@@ -3565,7 +3565,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of INTENTO',
+      description: 'The native token of Intento',
       denom_units: [{
           denom: 'ibc/DC1EF3EA03CD7F2226981D610335C3E62E3DD868A1B83EB017CE294E29C8D473',
           exponent: 0,
@@ -3587,6 +3587,10 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg'
         }],
       type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://intento.zone',
+        x: 'https://x.com/intentozone'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -14144,7 +14148,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of INTENTO',
+      description: 'The native token of Intento',
       denom_units: [{
           denom: 'ibc/DC1EF3EA03CD7F2226981D610335C3E62E3DD868A1B83EB017CE294E29C8D473',
           exponent: 0,
@@ -14166,6 +14170,10 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg'
         }],
       type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://intento.zone',
+        x: 'https://x.com/intentozone'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {

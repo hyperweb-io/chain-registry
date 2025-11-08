@@ -4,7 +4,8 @@ const info: AssetList = {
   chain_name: 'intento',
   assets: [
     {
-      description: 'The native token of INTENTO',
+      description: 'The native token of Intento',
+      extended_description: 'Intento is a purpose-built blockchain for orchestrating intent-driven actions across chains. It enables secure, self-custodial execution of flows using real-time inputs, and IBC — no smart contracts required. At its core is the intent engine, supported by trustless agents that execute cross-chain actions in a self-custodial manner. This design allows users to build anything from streaming tokens to complex interchain workflows, turning intent into action across the interchain.',
       denom_units: [{
           denom: 'uinto',
           exponent: 0
@@ -24,7 +25,11 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg'
         }],
-      type_asset: 'sdk.coin'
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://intento.zone',
+        x: 'https://x.com/intentozone'
+      }
     },
     {
       description: 'The staking token of the Cosmos Hub',
