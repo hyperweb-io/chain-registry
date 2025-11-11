@@ -14,7 +14,10 @@ const info: Chain = {
         base_denom: 'upenumbra'
       },
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/penumbra/images/um.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/penumbra/images/um.svg'
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/penumbra/images/um.svg',
+      theme: {
+        circle: true
+      }
     }],
   slip44: 118
 };

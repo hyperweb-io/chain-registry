@@ -263,6 +263,9 @@ const info: Chain = {
   ],
   logo_URIs: {
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/daodiseotestnet/images/odiseo.svg'
-  }
+  },
+  images: [{
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/daodiseotestnet/images/odiseo.svg'
+    }]
 };
 export default info;
