@@ -21886,7 +21886,10 @@ const info: AssetList = {
             chainName: 'zcash',
             baseDenom: 'zatoshi'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/zcash/images/zec.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/zcash/images/zec.png',
+          theme: {
+            circle: true
+          }
         }]
     },
     {
