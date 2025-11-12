@@ -17,18 +17,6 @@ const info: AssetList = {
       name: 'KIMA',
       display: 'KIMA',
       symbol: 'KIMA',
-      traces: [{
-          type: 'test-mintage',
-          counterparty: {
-            chain_name: 'kimanetwork',
-            base_denom: 'uKIMA'
-          },
-          provider: 'Kima Network'
-        }],
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg'
-      },
       images: [{
           image_sync: {
             chain_name: 'kimanetwork',
@@ -37,6 +25,20 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg'
         }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg'
+      },
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chain_name: 'kimanetwork',
+            base_denom: 'uKIMA'
+          },
+          provider: 'Kima Network'
+        }],
+      coingecko_id: 'kima',
+      keywords: ['interoperability'],
       socials: {
         github: 'https://github.com/kima-finance',
         medium: 'https://medium.com/@kima_finance',

@@ -63,33 +63,59 @@ const info: Chain = {
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg'
   },
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://rpc.hippo-protocol.com/',
         provider: 'Hippo Protocol'
-      }, {
+      },
+      {
         address: 'https://hippo.rpc.nodeshub.online:443',
         provider: 'NodesHub'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://hippo-rpc.node39.top:443',
+        provider: 'Node39'
+      }
+    ],
+    rest: [
+      {
         address: 'https://api.hippo-protocol.com/',
         provider: 'Hippo Protocol'
-      }, {
+      },
+      {
         address: 'https://hippo.api.nodeshub.online',
         provider: 'NodesHub'
-      }],
-    grpc: [{
+      },
+      {
+        address: 'https://hippo-api.node39.top:443',
+        provider: 'Node39'
+      }
+    ],
+    grpc: [
+      {
         address: 'ibc-grpc.hippo-protocol.com:443',
         provider: 'Hippo Protocol'
-      }, {
+      },
+      {
         address: 'hippo.grpc.nodeshub.online',
         provider: 'Nodes Hub'
-      }]
+      },
+      {
+        address: 'hippo-grpc.node39.top:443',
+        provider: 'Node39'
+      }
+    ]
   },
   explorers: [{
       kind: 'Hippo River',
       url: 'https://river.hippoprotocol.ai/',
       tx_page: 'https://river.hippoprotocol.ai/hippo-protocol/tx/${txHash}',
       account_page: 'https://river.hippoprotocol.ai/hippo-protocol/account/${accountAddress}'
+    }, {
+      kind: 'Node39',
+      url: 'https://explorer.node39.top/hippo',
+      tx_page: 'https://explorer.node39.top/hippo/tx/${txHash}',
+      account_page: 'https://explorer.node39.top/hippo/account/${accountAddress}'
     }],
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg'

@@ -5,8 +5,8 @@ const info: Chain = {
   status: 'live',
   website: 'https://www.kima.network/',
   network_type: 'testnet',
-  pretty_name: 'Kima Network Testnet',
   chain_type: 'cosmos',
+  pretty_name: 'Kima Network Testnet',
   chain_id: 'kima_testnet',
   bech32_prefix: 'kima',
   daemon_name: 'kimad',
@@ -43,10 +43,6 @@ const info: Chain = {
       type: 'go',
       version: '1.21.13'
     },
-    binaries: {
-      "linux/amd64": 'https://github.com/kima-finance/kima-blockchain/releases/download/v0.4.8/kimad-v0.4.8-amd64',
-      "linux/arm64": 'https://github.com/kima-finance/kima-blockchain/releases/download/v0.4.8/kimad-v0.4.8-arm64'
-    },
     sdk: {
       type: 'cosmos',
       repo: 'https://github.com/cosmos/cosmos-sdk',
@@ -65,6 +61,17 @@ const info: Chain = {
       ics_enabled: ['ics20-1']
     }
   },
+  images: [{
+      image_sync: {
+        chain_name: 'kimanetwork'
+      },
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg',
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png'
+    }],
+  logo_URIs: {
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png',
+    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg'
+  },
   apis: {
     rpc: [{
         address: 'https://rpc.sardis.kima.network/',
@@ -82,7 +89,9 @@ const info: Chain = {
   explorers: [{
       kind: 'Kima Network',
       url: 'https://explorer.sardis.kima.network/',
-      tx_page: 'https://explorer.sardis.kima.network/transactions/${txHash}'
-    }]
+      tx_page: 'https://explorer.sardis.kima.network/transactions/${txHash}',
+      account_page: 'https://explorer.sardis.kima.network/accounts/?address=${accountAddress}'
+    }],
+  keywords: ['interoperability']
 };
 export default info;
