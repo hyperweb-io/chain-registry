@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.101 (2025-11-12)
+
+**Note:** Version bump only for package @chain-registry/cosmostation
+
+
+
+
+
 ## 2.0.100 (2025-11-11)
 
 **Note:** Version bump only for package @chain-registry/cosmostation
