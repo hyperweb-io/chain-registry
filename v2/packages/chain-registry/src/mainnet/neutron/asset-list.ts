@@ -1087,6 +1087,28 @@ const info: AssetList = {
       typeAsset: 'sdk.coin'
     },
     {
+      description: 'SEED token',
+      denomUnits: [{
+          denom: 'factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/seed',
+          exponent: 0,
+          aliases: ['uSEED']
+        }, {
+          denom: 'SEED',
+          exponent: 6
+        }],
+      base: 'factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/seed',
+      name: 'SEED',
+      display: 'SEED',
+      symbol: 'SEED',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/seed.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/seed.png'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
       description: 'CryptoGopniks token',
       denomUnits: [{
           denom: 'factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/GOP',

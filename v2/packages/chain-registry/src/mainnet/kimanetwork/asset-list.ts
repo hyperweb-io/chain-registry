@@ -17,14 +17,16 @@ const info: AssetList = {
       name: 'KIMA',
       display: 'KIMA',
       symbol: 'KIMA',
-      logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg'
-      },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg'
         }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg'
+      },
+      coingeckoId: 'kima',
+      keywords: ['interoperability'],
       socials: {
         github: 'https://github.com/kima-finance',
         medium: 'https://medium.com/@kima_finance',

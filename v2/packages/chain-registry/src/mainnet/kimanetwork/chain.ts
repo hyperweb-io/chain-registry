@@ -5,8 +5,8 @@ const info: Chain = {
   status: 'live',
   website: 'https://www.kima.network/',
   networkType: 'mainnet',
-  prettyName: 'Kima Network',
   chainType: 'cosmos',
+  prettyName: 'Kima Network',
   chainId: 'kima_network',
   bech32Prefix: 'kima',
   daemonName: 'kimad',
@@ -65,6 +65,10 @@ const info: Chain = {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg'
     }],
+  logoURIs: {
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png',
+    svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg'
+  },
   apis: {
     wss: [{
         address: 'wss://rpc.kima.network/query',
@@ -86,7 +90,9 @@ const info: Chain = {
   explorers: [{
       kind: 'Kima Network Explorer',
       url: 'https://explorer.kima.network/',
-      txPage: 'https://explorer.kima.network/transactions/${txHash}'
-    }]
+      txPage: 'https://explorer.kima.network/transactions/${txHash}',
+      accountPage: 'https://explorer.kima.network/accounts/?address=${accountAddress}'
+    }],
+  keywords: ['interoperability']
 };
 export default info;
