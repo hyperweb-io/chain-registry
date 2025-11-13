@@ -945,6 +945,44 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xaut.png'
         }]
+    },
+    {
+      description: 'Neiro bridged via Eureka on Cosmos Hub.',
+      denomUnits: [{
+          denom: 'ibc/F7C4726BF9F1B1872C48BA39688A1AC741E9D77B3182662CF6D42A149C86B758',
+          exponent: 0
+        }, {
+          denom: 'neiro',
+          exponent: 9
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/F7C4726BF9F1B1872C48BA39688A1AC741E9D77B3182662CF6D42A149C86B758',
+      name: 'Eureka Bridged Neiro (NEIRO)',
+      display: 'neiro',
+      symbol: 'NEIRO',
+      traces: [{
+          type: 'ibc-bridge',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: '08-wasm-1369',
+            path: 'transfer/08-wasm-1369/0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee'
+          },
+          provider: 'Eureka'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/neiro.png'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/neiro.png'
+        }]
     }
   ]
 };

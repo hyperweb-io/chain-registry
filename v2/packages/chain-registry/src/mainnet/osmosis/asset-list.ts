@@ -16222,6 +16222,27 @@ const info: AssetList = {
         }]
     },
     {
+      description: 'Leg token',
+      denomUnits: [{
+          denom: 'factory/osmo1c3sjhsneuajqn4ke84kqqaf26ct5cjs8z5ale0yv7096wh6fyf6qxmgkph/leg',
+          exponent: 0
+        }, {
+          denom: 'LEG',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/osmo1c3sjhsneuajqn4ke84kqqaf26ct5cjs8z5ale0yv7096wh6fyf6qxmgkph/leg',
+      name: 'LEG',
+      display: 'LEG',
+      symbol: 'LEG',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/leg.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/leg.png'
+        }]
+    },
+    {
       description: 'Tether USDt from Ethereum via Peggy bridge.',
       denomUnits: [{
           denom: 'ibc/2AD3C64D19ADFBB522CD738B58F421102143F827C1CAFF574A8BF0B81017D53D',

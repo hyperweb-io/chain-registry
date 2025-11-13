@@ -2110,6 +2110,29 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xaut.png'
       }
+    },
+    {
+      description: 'Neiro is a meme coin and claimed to be the little sister of Doge.',
+      typeAsset: 'erc20',
+      address: '0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee',
+      denomUnits: [{
+          denom: '0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee',
+          exponent: 0
+        }, {
+          denom: 'neiro',
+          exponent: 9
+        }],
+      base: '0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee',
+      name: 'Neiro',
+      display: 'neiro',
+      symbol: 'NEIRO',
+      keywords: ['meme'],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/neiro.png'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/neiro.png'
+      }
     }
   ]
 };

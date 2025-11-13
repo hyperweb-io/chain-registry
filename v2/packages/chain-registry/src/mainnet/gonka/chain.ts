@@ -86,7 +86,7 @@ const info: Chain = {
         provider: '6block'
       },
       {
-        address: 'https://gonka03.6block.com:8443',
+        address: 'https://gonka03.6block.com:8443/chain-rpc/',
         provider: '6block'
       },
       {
@@ -104,7 +104,7 @@ const info: Chain = {
         provider: '6block'
       },
       {
-        address: 'https://gonka03.6block.com:8443',
+        address: 'https://gonka03.6block.com:8443/chain-api/',
         provider: '6block'
       },
       {
