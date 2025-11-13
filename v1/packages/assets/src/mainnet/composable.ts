@@ -1069,6 +1069,41 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Neiro is a meme coin and claimed to be the little sister of Doge.',
+      type_asset: 'erc20',
+      address: '0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee',
+      denom_units: [{
+          denom: 'ibc/11F124126F92901CE9148C81F43DD22F27E13589F52CA5EC169F0F501901E5AC',
+          exponent: 0,
+          aliases: ['0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee']
+        }, {
+          denom: 'neiro',
+          exponent: 9
+        }],
+      base: 'ibc/11F124126F92901CE9148C81F43DD22F27E13589F52CA5EC169F0F501901E5AC',
+      name: 'Neiro',
+      display: 'neiro',
+      symbol: 'NEIRO',
+      keywords: ['meme'],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/neiro.png'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/neiro.png'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
       description: 'Solana is a high-performance blockchain platform known for its fast transaction speeds, low costs, and scalability, ideal for decentralized applications and crypto projects.',
       denom_units: [{
           denom: 'ibc/C7F9D7DFF5469F53AB878ED0FBE53CC6B8B2720CD0ED09FD65F25343B13517CC',
@@ -3276,6 +3311,41 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-2',
             base_denom: '0x68749665ff8d2d112fa859aa293f07a622782f38',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      description: 'Neiro is a meme coin and claimed to be the little sister of Doge.',
+      type_asset: 'erc20',
+      address: '0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee',
+      denom_units: [{
+          denom: 'ibc/11F124126F92901CE9148C81F43DD22F27E13589F52CA5EC169F0F501901E5AC',
+          exponent: 0,
+          aliases: ['0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee']
+        }, {
+          denom: 'neiro',
+          exponent: 9
+        }],
+      base: 'ibc/11F124126F92901CE9148C81F43DD22F27E13589F52CA5EC169F0F501901E5AC',
+      name: 'Neiro',
+      display: 'neiro',
+      symbol: 'NEIRO',
+      keywords: ['meme'],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/neiro.png'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/neiro.png'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee',
             chain_name: 'ethereum'
           },
           chain: {
