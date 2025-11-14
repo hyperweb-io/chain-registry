@@ -29,16 +29,16 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/cosmos/gaia',
-    recommendedVersion: 'v25.1.1',
-    compatibleVersions: ['v25.1.1'],
+    recommendedVersion: 'v25.2.0',
+    compatibleVersions: ['v25.2.0'],
     consensus: {
       type: 'cometbft',
       version: 'v0.38.19'
     },
     binaries: {
-      "darwin/amd64": 'https://github.com/cosmos/gaia/releases/download/v25.1.1/gaiad-v25.1.1-darwin-amd64',
-      "darwin/arm64": 'https://github.com/cosmos/gaia/releases/download/v25.1.1/gaiad-v25.1.1-darwin-arm64',
-      "linux/amd64": 'https://github.com/cosmos/gaia/releases/download/v25.1.1/gaiad-v25.1.1-linux-amd64'
+      "darwin/amd64": 'https://github.com/cosmos/gaia/releases/download/v25.2.0/gaiad-v25.2.0-darwin-amd64',
+      "darwin/arm64": 'https://github.com/cosmos/gaia/releases/download/v25.2.0/gaiad-v25.2.0-darwin-arm64',
+      "linux/amd64": 'https://github.com/cosmos/gaia/releases/download/v25.2.0/gaiad-v25.2.0-linux-amd64'
     },
     genesis: {
       genesisUrl: 'https://github.com/cosmos/mainnet/raw/master/genesis/genesis.cosmoshub-4.json.gz'
@@ -53,11 +53,11 @@ const info: Chain = {
       version: 'v10.3.0'
     },
     cosmwasm: {
-      version: 'v0.60.1',
+      version: 'v0.60.2',
       repo: 'https://github.com/CosmWasm/wasmd',
-      tag: 'v0.60.1'
+      tag: 'v0.60.2'
     },
-    tag: 'v25.1.1'
+    tag: 'v25.2.0'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
