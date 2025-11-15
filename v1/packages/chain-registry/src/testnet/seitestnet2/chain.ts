@@ -33,16 +33,10 @@ const info: Chain = {
   },
   apis: {
     rpc: [{
-        address: 'https://sei-testnet-2-rpc.brocha.in',
-        provider: 'Brochain'
-      }, {
         address: 'https://rpc-testnet-sei.stingray.plus',
         provider: 'StingRay'
       }],
     rest: [{
-        address: 'https://sei-testnet-2-rest.brocha.in',
-        provider: 'Brochain'
-      }, {
         address: 'https://api-testnet-sei.stingray.plus',
         provider: 'StingRay'
       }],
@@ -70,11 +64,6 @@ const info: Chain = {
       kind: 'explorers.guru',
       url: 'https://testnet.sei.explorers.guru',
       tx_page: 'https://testnet.sei.explorers.guru/transaction/${txHash}'
-    },
-    {
-      kind: 'Brochain',
-      url: 'https://testnet-explorer.brocha.in/sei%20atlantic%202',
-      tx_page: 'https://testnet-explorer.brocha.in/sei%20atlantic%202/tx/${txHash}'
     }
   ]
 };

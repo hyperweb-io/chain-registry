@@ -75,10 +75,6 @@ const info: Chain = {
         provider: 'polkachu.com'
       },
       {
-        address: 'https://sei-rpc.brocha.in',
-        provider: 'Brochain'
-      },
-      {
         address: 'https://rpc-sei.stingray.plus',
         provider: 'StingRay'
       },
@@ -111,10 +107,6 @@ const info: Chain = {
       {
         address: 'https://sei-api.polkachu.com',
         provider: 'polkachu.com'
-      },
-      {
-        address: 'https://sei-rest.brocha.in',
-        provider: 'Brochain'
       },
       {
         address: 'https://api-sei.stingray.plus',

@@ -32,14 +32,8 @@ const info: Chain = {
     }
   },
   apis: {
-    rpc: [{
-        address: 'https://jackal-testnet-v4-rpc.brocha.in',
-        provider: 'Brochain'
-      }],
-    rest: [{
-        address: 'https://jackal-testnet-v4-rest.brocha.in',
-        provider: 'Brochain'
-      }],
+    rpc: [],
+    rest: [],
     grpc: []
   },
   explorers: [{
