@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.53.250 (2025-11-15)
+
+**Note:** Version bump only for package @chain-registry/workflows
+
+
+
+
+
 ## 1.53.249 (2025-11-14)
 
 **Note:** Version bump only for package @chain-registry/workflows
