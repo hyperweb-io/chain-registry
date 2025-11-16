@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.52.251 (2025-11-16)
+
+**Note:** Version bump only for package @chain-registry/generate-types
+
+
+
+
+
 ## 0.52.250 (2025-11-15)
 
 **Note:** Version bump only for package @chain-registry/generate-types
