@@ -510,8 +510,7 @@ const info: AssetList = {
             baseDenom: 'uqck'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png'
-        }],
-      coingeckoId: 'quicksilver'
+        }]
     },
     {
       description: 'The XPRT token is primarily a governance token for the Persistence chain.',

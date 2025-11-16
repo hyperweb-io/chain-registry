@@ -1037,7 +1037,6 @@ const info: AssetList = {
           },
           provider: 'Frax'
         }],
-      coingeckoId: 'staked-frax',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sfrax.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sfrax.svg'
