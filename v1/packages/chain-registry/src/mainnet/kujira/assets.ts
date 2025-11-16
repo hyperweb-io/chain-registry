@@ -45,7 +45,6 @@ const info: AssetList = {
       name: 'USK',
       display: 'usk',
       symbol: 'USK',
-      coingecko_id: 'usk',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/usk.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/usk.svg'

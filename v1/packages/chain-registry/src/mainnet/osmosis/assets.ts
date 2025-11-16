@@ -4962,8 +4962,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/usk.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/usk.svg'
-        }],
-      coingecko_id: 'usk'
+        }]
     },
     {
       description: 'Staking and governance coin for the Unification Blockchain',
@@ -5212,8 +5211,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.svg'
-        }],
-      coingecko_id: 'sienna'
+        }]
     },
     {
       description: 'The native token cw20 for SCRT Staking Derivatives on Secret Network',
@@ -6523,8 +6521,7 @@ const info: AssetList = {
             base_denom: 'uqck'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png'
-        }],
-      coingecko_id: 'quicksilver'
+        }]
     },
     {
       description: 'The native token of Arkhadian',
