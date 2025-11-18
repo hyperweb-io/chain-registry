@@ -132,6 +132,10 @@ const info: Chain = {
       {
         address: 'https://lava.rpc.stakevillage.net:443',
         provider: 'Stake Village'
+      },
+      {
+        address: 'https://rpc-lava.maouam.xyz:443',
+        provider: 'MaouamNodelab'
       }
     ],
     rest: [
@@ -190,6 +194,10 @@ const info: Chain = {
       {
         address: 'https://lava.api.stakevillage.net:443',
         provider: 'Stake Village'
+      },
+      {
+        address: 'https://api-lava.maouam.xyz:443',
+        provider: 'MaouamNodelab'
       }
     ],
     grpc: [
@@ -232,6 +240,10 @@ const info: Chain = {
       {
         address: 'grpc.lava-mainnet-1.lava.aviaone.com:9104/',
         provider: 'AVIAONE 🟢'
+      },
+      {
+        address: 'grpc-lava.maouam.xyz:443',
+        provider: 'MaouamNodelab'
       }
     ]
   },
@@ -283,6 +295,12 @@ const info: Chain = {
       url: 'https://explorer.stavr.tech/Lava-Mainnet',
       tx_page: 'https://explorer.stavr.tech/Lava-Mainnet/tx/${txHash}',
       account_page: 'https://explorer.stavr.tech/Lava-Mainnet/account/${accountAddress}'
+    },
+    {
+      kind: 'MaouamNodelab',
+      url: 'https://explorer.maouam.xyz/lava-mainnet',
+      tx_page: 'https://explorer.maouam.xyz/lava-mainnet/tx/${txHash}',
+      account_page: 'https://explorer.maouam.xyz/lava-mainnet/account/${accountAddress}'
     }
   ],
   keywords: [

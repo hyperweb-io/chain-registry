@@ -57,10 +57,6 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://rpc.andromeda-1.andromeda.aviaone.com',
-        provider: 'AviaOne 🟢'
-      },
-      {
         address: 'https://andromeda.rpc.kjnodes.com',
         provider: 'kjnodes'
       },
@@ -102,10 +98,6 @@ const info: Chain = {
       }
     ],
     rest: [
-      {
-        address: 'https://api.andromeda-1.andromeda.aviaone.com',
-        provider: 'AviaOne 🟢'
-      },
       {
         address: 'https://andromeda.api.kjnodes.com',
         provider: 'kjnodes'
@@ -151,10 +143,6 @@ const info: Chain = {
       {
         address: 'andromeda.lavenderfive.com:443',
         provider: 'Lavender.Five Nodes 🐝'
-      },
-      {
-        address: 'https://grpc.andromeda-1.andromeda.aviaone.com:9108',
-        provider: 'AviaOne 🟢'
       },
       {
         address: 'andromeda.grpc.kjnodes.com:443',
@@ -223,11 +211,6 @@ const info: Chain = {
       kind: 'ping.pub',
       url: 'https://ping.pub/andromeda',
       tx_page: 'https://ping.pub/andromeda/tx/${txHash}'
-    },
-    {
-      kind: 'AviaOne Explorer 🟢',
-      url: 'https://mainnet.explorer.aviaone.com/andromeda',
-      tx_page: 'https://mainnet.explorer.aviaone.com/andromeda/tx/${txHash}'
     }
   ],
   logo_URIs: {
