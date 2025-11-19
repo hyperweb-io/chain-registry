@@ -62,6 +62,14 @@ const info: Chain = {
       {
         address: 'https://althea_mainnet_api.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://api.althea.citizenweb3.com',
+        provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://api.althea-archive.citizenweb3.com',
+        provider: 'Citizen Web3'
       }
     ],
     rpc: [
@@ -80,12 +88,30 @@ const info: Chain = {
       {
         address: 'https://althea_mainnet_rpc.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://rpc.althea.citizenweb3.com',
+        provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://rpc.althea-archive.citizenweb3.com',
+        provider: 'Citizen Web3'
       }
     ],
-    grpc: [{
+    grpc: [
+      {
         address: 'althea.lavenderfive.com:443',
         provider: 'Lavender.Five Nodes 🐝'
-      }]
+      },
+      {
+        address: 'grpc.althea.citizenweb3.com:443',
+        provider: 'Citizen Web3'
+      },
+      {
+        address: 'grpc.althea-archive.citizenweb3.com:443',
+        provider: 'Citizen Web3'
+      }
+    ]
   },
   explorers: [
     {
@@ -117,6 +143,12 @@ const info: Chain = {
       url: 'https://explorer.whenmoonwhenlambo.money/althea',
       tx_page: 'https://explorer.whenmoonwhenlambo.money/althea/tx/${txHash}',
       account_page: 'https://explorer.whenmoonwhenlambo.money/althea/account/${accountAddress}'
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/althea/overview',
+      validator_page: 'https://validatorinfo.com/networks/althea/validators',
+      proposal_page: 'https://validatorinfo.com/networks/althea/governance'
     }
   ]
 };

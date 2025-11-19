@@ -5153,19 +5153,19 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'PAXI is the native token of the Paxi blockchain.',
+      description: 'Paxi Network is a Layer 1, general-purpose decentralized blockchain designed for everyone.Built for speed, security, and scalability, it empowers individuals and communities to participate freely — anyone can become a validator and help secure the network.With native support for DeFi, DAOs, cross-chain interoperability, and dApps, Paxi makes blockchain simple, inclusive, and truly decentralized.Ultimately, Paxi aims to become a universal blockchain — hosting a vast ecosystem of dApps that seamlessly integrate into everyday life.',
       denom_units: [{
           denom: 'ibc/99BDB05C04DA3F606B4F0F6A5344F2D0078F614B2D1EA6ED5320E9CA52FE32F1',
           exponent: 0,
           aliases: ['upaxi']
         }, {
-          denom: 'PAXI',
+          denom: 'paxi',
           exponent: 6
         }],
       type_asset: 'sdk.coin',
       base: 'ibc/99BDB05C04DA3F606B4F0F6A5344F2D0078F614B2D1EA6ED5320E9CA52FE32F1',
-      name: 'Paxi',
-      display: 'PAXI',
+      name: 'Paxi Network',
+      display: 'paxi',
       symbol: 'PAXI',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/paxi/images/paxi.png',
@@ -5173,9 +5173,17 @@ const assets: AssetList = {
             circle: false
           }
         }],
-      keywords: ['staking'],
+      keywords: [
+        'staking',
+        'layer1',
+        'DAO'
+      ],
+      coingecko_id: 'paxi-network',
       socials: {
-        website: 'https://paxinet.io'
+        website: 'https://paxinet.io',
+        x: 'https://x.com/paxiweb3',
+        telegram: 'https://t.me/paxi_network',
+        discord: 'https://discord.gg/yxZRnxvrr5'
       },
       traces: [{
           type: 'ibc',
@@ -14125,19 +14133,19 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'PAXI is the native token of the Paxi blockchain.',
+      description: 'Paxi Network is a Layer 1, general-purpose decentralized blockchain designed for everyone.Built for speed, security, and scalability, it empowers individuals and communities to participate freely — anyone can become a validator and help secure the network.With native support for DeFi, DAOs, cross-chain interoperability, and dApps, Paxi makes blockchain simple, inclusive, and truly decentralized.Ultimately, Paxi aims to become a universal blockchain — hosting a vast ecosystem of dApps that seamlessly integrate into everyday life.',
       denom_units: [{
           denom: 'ibc/99BDB05C04DA3F606B4F0F6A5344F2D0078F614B2D1EA6ED5320E9CA52FE32F1',
           exponent: 0,
           aliases: ['upaxi']
         }, {
-          denom: 'PAXI',
+          denom: 'paxi',
           exponent: 6
         }],
       type_asset: 'sdk.coin',
       base: 'ibc/99BDB05C04DA3F606B4F0F6A5344F2D0078F614B2D1EA6ED5320E9CA52FE32F1',
-      name: 'Paxi',
-      display: 'PAXI',
+      name: 'Paxi Network',
+      display: 'paxi',
       symbol: 'PAXI',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/paxi/images/paxi.png',
@@ -14145,9 +14153,17 @@ const assets: AssetList = {
             circle: false
           }
         }],
-      keywords: ['staking'],
+      keywords: [
+        'staking',
+        'layer1',
+        'DAO'
+      ],
+      coingecko_id: 'paxi-network',
       socials: {
-        website: 'https://paxinet.io'
+        website: 'https://paxinet.io',
+        x: 'https://x.com/paxiweb3',
+        telegram: 'https://t.me/paxi_network',
+        discord: 'https://discord.gg/yxZRnxvrr5'
       },
       traces: [{
           type: 'ibc',

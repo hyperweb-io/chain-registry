@@ -92,6 +92,11 @@ const info: Chain = {
       url: 'https://mainnet.whispernode.com/nomic',
       tx_page: 'https://mainnet.whispernode.com/nomic/tx/${txHash}',
       account_page: 'https://mainnet.whispernode.com/nomic/account/${accountAddress}'
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/nomic/overview',
+      validator_page: 'https://validatorinfo.com/networks/nomic/validators'
     }
   ],
   images: [{

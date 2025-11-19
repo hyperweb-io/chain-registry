@@ -74,6 +74,10 @@ const info: Chain = {
   apis: {
     rpc: [
       {
+        address: 'https://rpc-lava.onenov.xyz',
+        provider: 'OneNov'
+      },
+      {
         address: 'https://lava.tendermintrpc.lava.build',
         provider: 'Lava Over Lava'
       },
@@ -136,9 +140,17 @@ const info: Chain = {
       {
         address: 'https://rpc-lava.maouam.xyz:443',
         provider: 'MaouamNodelab'
+      },
+      {
+        address: 'https://rpc-lava.winnode.xyz',
+        provider: 'Winnode'
       }
     ],
     rest: [
+      {
+        address: 'https://api-lava.onenov.xyz',
+        provider: 'OneNov'
+      },
       {
         address: 'https://lava-api.finteh.org:443',
         provider: 'finteh'
@@ -198,6 +210,10 @@ const info: Chain = {
       {
         address: 'https://api-lava.maouam.xyz:443',
         provider: 'MaouamNodelab'
+      },
+      {
+        address: 'https://api-lava.winnode.xyz',
+        provider: 'Winnode'
       }
     ],
     grpc: [
@@ -244,10 +260,20 @@ const info: Chain = {
       {
         address: 'grpc-lava.maouam.xyz:443',
         provider: 'MaouamNodelab'
+      },
+      {
+        address: 'grpc-lava.winnode.xyz:443',
+        provider: 'Winnode'
       }
     ]
   },
   explorers: [
+    {
+      kind: 'OneNov',
+      url: 'https://explorer.onenov.xyz/lava',
+      tx_page: 'https://explorer.onenov.xyz/lava/transactions/${txHash}',
+      account_page: 'https://explorer.onenov.xyz/lava/accounts/${accountAddress}'
+    },
     {
       kind: 'Chainroot',
       url: 'https://explorer.chainroot.io/lava',
@@ -301,6 +327,12 @@ const info: Chain = {
       url: 'https://explorer.maouam.xyz/lava-mainnet',
       tx_page: 'https://explorer.maouam.xyz/lava-mainnet/tx/${txHash}',
       account_page: 'https://explorer.maouam.xyz/lava-mainnet/account/${accountAddress}'
+    },
+    {
+      kind: 'Winnode',
+      url: 'https://winnode.xyz/explorer/lava',
+      tx_page: 'https://winnode.xyz/explorer/lava/tx/${txHash}',
+      account_page: 'https://winnode.xyz/explorer/lava/account/${accountAddress}'
     }
   ],
   keywords: [

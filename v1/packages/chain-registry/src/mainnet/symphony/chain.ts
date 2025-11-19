@@ -68,6 +68,10 @@ const info: Chain = {
       {
         address: 'https://rpc-symphony.sr20de.xyz',
         provider: 'Sr20de'
+      },
+      {
+        address: 'https://rpc.symphony.citizenweb3.com',
+        provider: 'Citizen Web3'
       }
     ],
     rest: [
@@ -86,6 +90,10 @@ const info: Chain = {
       {
         address: 'https://api-symphony.sr20de.xyz',
         provider: 'Sr20de'
+      },
+      {
+        address: 'https://api.symphony.citizenweb3.com',
+        provider: 'Citizen Web3'
       }
     ],
     grpc: [
@@ -104,20 +112,33 @@ const info: Chain = {
       {
         address: 'https://grpc-symphony.sr20de.xyz',
         provider: 'Sr20de'
+      },
+      {
+        address: 'grpc.symphony.citizenweb3.com:443',
+        provider: 'Citizen Web3'
       }
     ]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'VinjanXplorer',
       url: 'https://xplorer.vinjan.xyz/symphony',
       tx_page: 'https://xplorer.vinjan.xyz/symphony/tx/${txHash}',
       account_page: 'https://xplorer.vinjan.xyz/symphony/account/${accountAddress}'
-    }, {
+    },
+    {
       kind: 'Sr20de Explorer',
       url: 'https://explorer.sr20de.xyz/symphony',
       tx_page: 'https://explorer.sr20de.xyz/symphony/tx/${txHash}',
       account_page: 'https://explorer.sr20de.xyz/symphony/account/${accountAddress}'
-    }],
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/symphony/overview',
+      validator_page: 'https://validatorinfo.com/networks/symphony/validators',
+      proposal_page: 'https://validatorinfo.com/networks/symphony/governance'
+    }
+  ],
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/symphony_logo.png'
   },

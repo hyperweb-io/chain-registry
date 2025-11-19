@@ -510,6 +510,12 @@ const info: Chain = {
       url: 'https://dymension.valopers.com/',
       tx_page: 'https://dymension.valopers.com/transactions/${txHash}',
       account_page: 'https://dymension.valopers.com/account/${accountAddress}'
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/dymension/overview',
+      validator_page: 'https://validatorinfo.com/networks/dymension/validators',
+      proposal_page: 'https://validatorinfo.com/networks/dymension/governance'
     }
   ]
 };

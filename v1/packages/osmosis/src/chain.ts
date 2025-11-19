@@ -635,6 +635,10 @@ const chain: Chain = {
       {
         address: 'https://osmosis-rpc.highstakes.ch',
         provider: 'High Stakes 🇨🇭'
+      },
+      {
+        address: 'https://rpc.osmosis.citizenweb3.com/',
+        provider: 'Citizen Web3'
       }
     ],
     rest: [
@@ -693,6 +697,10 @@ const chain: Chain = {
       {
         address: 'https://osmosis-api.highstakes.ch',
         provider: 'High Stakes 🇨🇭'
+      },
+      {
+        address: 'https://api.osmosis.citizenweb3.com/',
+        provider: 'Citizen Web3'
       }
     ],
     grpc: [
@@ -719,6 +727,10 @@ const chain: Chain = {
       {
         address: 'grpc.osmosis.validatus.com:443',
         provider: 'Validatus'
+      },
+      {
+        address: 'grpc.osmosis.citizenweb3.com:443',
+        provider: 'Citizen Web3'
       }
     ]
   },
@@ -801,6 +813,12 @@ const chain: Chain = {
       url: 'https://osmosis.valopers.com/',
       tx_page: 'https://osmosis.valopers.com/transactions/${txHash}',
       account_page: 'https://osmosis.valopers.com/account/${accountAddress}'
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/osmosis/overview',
+      validator_page: 'https://validatorinfo.com/networks/osmosis/validators',
+      proposal_page: 'https://validatorinfo.com/networks/osmosis/governance'
     }
   ],
   keywords: ['dex']

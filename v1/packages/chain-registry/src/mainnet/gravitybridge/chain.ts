@@ -105,6 +105,10 @@ const info: Chain = {
       {
         address: 'https://rpc.gravity-bridge-3.gravity.aviaone.com:443',
         provider: 'AviaOne 🟢'
+      },
+      {
+        address: 'https://rpc.gravity.citizenweb3.com',
+        provider: 'Citizen Web3'
       }
     ],
     rest: [
@@ -151,6 +155,10 @@ const info: Chain = {
       {
         address: 'https://api.gravity-bridge-3.gravity.aviaone.com',
         provider: 'AviaOne 🟢'
+      },
+      {
+        address: 'https://api.gravity.citizenweb3.com',
+        provider: 'Citizen Web3'
       }
     ],
     grpc: [
@@ -193,6 +201,10 @@ const info: Chain = {
       {
         address: 'grpc.gravity-bridge-3.gravity.aviaone.com:9200',
         provider: 'AviaOne 🟢'
+      },
+      {
+        address: 'grpc.gravity.citizenweb3.com:443',
+        provider: 'Citizen Web3'
       }
     ]
   },
@@ -252,6 +264,12 @@ const info: Chain = {
       url: 'https://mainnet.explorer.aviaone.com/gravity-bridge',
       tx_page: 'https://mainnet.explorer.aviaone.com/gravity-bridge/tx/${txHash}',
       account_page: 'https://mainnet.explorer.aviaone.com/gravity-bridge/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/gravitybridge/overview',
+      validator_page: 'https://validatorinfo.com/networks/gravitybridge/validators',
+      proposal_page: 'https://validatorinfo.com/networks/gravitybridge/governance'
     }
   ],
   images: [{
