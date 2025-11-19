@@ -1,6 +1,6 @@
 {
   "name": "@chain-registry/juno",
-  "version": "1.70.403",
+  "version": "1.70.404",
   "description": "Chain Registry info for Juno",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "homepage": "https://github.com/hyperweb-io/chain-registry",
@@ -29,10 +29,10 @@
     "test:watch": "jest --watch"
   },
   "devDependencies": {
-    "chain-registry": "^1.69.403"
+    "chain-registry": "^1.69.404"
   },
   "dependencies": {
-    "@chain-registry/types": "^0.50.257"
+    "@chain-registry/types": "^0.50.258"
   },
   "keywords": [
     "chain-registry",
