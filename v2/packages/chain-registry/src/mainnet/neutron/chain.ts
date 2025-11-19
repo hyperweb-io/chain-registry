@@ -255,6 +255,12 @@ const info: Chain = {
       url: 'https://mainnet.whispernode.com/neutron',
       txPage: 'https://mainnet.whispernode.com/neutron/tx/${txHash}',
       accountPage: 'https://mainnet.whispernode.com/neutron/account/${accountAddress}'
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/neutron/overview',
+      validatorPage: 'https://validatorinfo.com/networks/neutron/validators',
+      proposalPage: 'https://validatorinfo.com/networks/neutron/governance'
     }
   ],
   images: [{

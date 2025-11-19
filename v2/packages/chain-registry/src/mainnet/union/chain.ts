@@ -156,16 +156,25 @@ const info: Chain = {
       }
     ]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'Ping.Pub',
       url: 'https://explorer.union.build/union',
       txPage: 'https://explorer.union.build/union/tx/${txHash}',
       accountPage: 'https://explorer.union.build/union/account/${accountAddress}'
-    }, {
+    },
+    {
       kind: 'Ruangnode Explorer',
       url: 'https://explorer.ruangnode.com/dashboard/union',
       txPage: 'https://explorer.ruangnode.com/transactions/union?hash=${txHash}'
-    }],
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/union/overview',
+      validatorPage: 'https://validatorinfo.com/networks/union/validators',
+      proposalPage: 'https://validatorinfo.com/networks/union/governance'
+    }
+  ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/union/images/u.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/union/images/u.svg'

@@ -92,6 +92,10 @@ const info: Chain = {
       {
         address: 'https://uptick-rpc.noders.services',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'https://rpc.uptick.citizenweb3.com',
+        provider: 'Citizen Web3'
       }
     ],
     rest: [
@@ -126,6 +130,10 @@ const info: Chain = {
       {
         address: 'https://uptick-api.noders.services',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'https://api.uptick.citizenweb3.com',
+        provider: 'Citizen Web3'
       }
     ],
     grpc: [
@@ -160,6 +168,10 @@ const info: Chain = {
       {
         address: 'uptick-grpc.noders.services:24090',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'grpc.uptick.citizenweb3.com:443',
+        provider: 'Citizen Web3'
       }
     ],
     evmHttpJsonrpc: [
@@ -217,6 +229,12 @@ const info: Chain = {
       kind: 'Sr20de',
       url: 'https://explorer.sr20de.xyz/uptick',
       txPage: 'https://explorer.sr20de.xyz/uptick/tx/${txHash}'
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/uptick/overview',
+      validatorPage: 'https://validatorinfo.com/networks/uptick/validators',
+      proposalPage: 'https://validatorinfo.com/networks/uptick/governance'
     }
   ],
   images: [{

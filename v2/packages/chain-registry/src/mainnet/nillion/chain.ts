@@ -120,6 +120,12 @@ const info: Chain = {
       url: 'https://explorer.nodestake.org/nillion/',
       txPage: 'https://explorer.nodestake.org/nillion/txs/${txHash}',
       accountPage: 'https://explorer.nodestake.org/nillion/account/${accountAddress}'
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/nillion/overview',
+      validatorPage: 'https://validatorinfo.com/networks/nillion/validators',
+      proposalPage: 'https://validatorinfo.com/networks/nillion/governance'
     }
   ],
   images: [{

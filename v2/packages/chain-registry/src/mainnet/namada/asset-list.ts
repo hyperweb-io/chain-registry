@@ -366,6 +366,48 @@ const info: AssetList = {
         }]
     },
     {
+      description: 'USDN token',
+      extendedDescription: 'USDN is a yielding stablecoin collateral-backed by short-duration U.S. Treasury Bills.',
+      denomUnits: [{
+          denom: 'ibc/FF4DCB799014F4648230C356EA3CCE3B8C7D328EA3A3A4F77C2849219678CB12',
+          exponent: 0,
+          aliases: ['microusdn']
+        }, {
+          denom: 'usdn',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/FF4DCB799014F4648230C356EA3CCE3B8C7D328EA3A3A4F77C2849219678CB12',
+      name: 'Noble Dollar',
+      display: 'usdn',
+      symbol: 'USDN',
+      address: 'tnam1phl5mjmejq20geyzxrp4d63uecacclfj3crmrdat',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'noble',
+            baseDenom: 'uusdn',
+            channelId: 'channel-136'
+          },
+          chain: {
+            channelId: 'channel-5',
+            path: 'transfer/channel-5/uusdn'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'noble',
+            baseDenom: 'uusdn'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg'
+        }]
+    },
+    {
       description: 'NYM Token (NYM) is the Nym Network\'s native utility token, used as the primary means to incentivize mixnet node operators.',
       denomUnits: [{
           denom: 'ibc/D956638E52570976F762354757863F60F2AFE4879E849CB1C77B163F0BF11C64',

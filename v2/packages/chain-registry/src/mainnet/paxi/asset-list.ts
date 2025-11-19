@@ -2,19 +2,20 @@ import { AssetList } from '@chain-registry/types';
 const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chainName: 'paxi',
-  assets: [{
-      description: 'PAXI is the native token of the Paxi blockchain.',
+  assets: [
+    {
+      description: 'Paxi Network is a Layer 1, general-purpose decentralized blockchain designed for everyone.Built for speed, security, and scalability, it empowers individuals and communities to participate freely — anyone can become a validator and help secure the network.With native support for DeFi, DAOs, cross-chain interoperability, and dApps, Paxi makes blockchain simple, inclusive, and truly decentralized.Ultimately, Paxi aims to become a universal blockchain — hosting a vast ecosystem of dApps that seamlessly integrate into everyday life.',
       denomUnits: [{
           denom: 'upaxi',
           exponent: 0
         }, {
-          denom: 'PAXI',
+          denom: 'paxi',
           exponent: 6
         }],
       typeAsset: 'sdk.coin',
       base: 'upaxi',
-      name: 'Paxi',
-      display: 'PAXI',
+      name: 'Paxi Network',
+      display: 'paxi',
       symbol: 'PAXI',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/paxi/images/paxi.png',
@@ -22,10 +23,127 @@ const info: AssetList = {
             circle: false
           }
         }],
-      keywords: ['staking'],
+      keywords: [
+        'staking',
+        'layer1',
+        'DAO'
+      ],
+      coingeckoId: 'paxi-network',
       socials: {
-        website: 'https://paxinet.io'
+        website: 'https://paxinet.io',
+        x: 'https://x.com/paxiweb3',
+        telegram: 'https://t.me/paxi_network',
+        discord: 'https://discord.gg/yxZRnxvrr5'
       }
-    }]
+    },
+    {
+      description: 'Circle\'s stablecoin on Paxi Network',
+      denomUnits: [{
+          denom: 'ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349',
+          exponent: 0,
+          aliases: ['uusdc']
+        }, {
+          denom: 'usdc',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349',
+      name: 'USD Coin',
+      display: 'usdc',
+      symbol: 'USDC',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'noble',
+            baseDenom: 'uusdc',
+            channelId: 'channel-205'
+          },
+          chain: {
+            channelId: 'channel-2',
+            path: 'transfer/channel-2/uusdc'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'noble',
+            baseDenom: 'uusdc'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+        }]
+    },
+    {
+      description: 'The native staking and governance token of the Cosmos Hub on Paxi Network.',
+      denomUnits: [{
+          denom: 'ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9',
+          exponent: 0,
+          aliases: ['uatom']
+        }, {
+          denom: 'atom',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9',
+      name: 'Cosmos Hub',
+      display: 'atom',
+      symbol: 'ATOM',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'cosmoshub',
+            baseDenom: 'uatom',
+            channelId: 'channel-1566'
+          },
+          chain: {
+            channelId: 'channel-1',
+            path: 'transfer/channel-1/uatom'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'cosmoshub',
+            baseDenom: 'uatom'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
+        }]
+    },
+    {
+      description: 'The native token of Osmosis on Paxi Network.',
+      denomUnits: [{
+          denom: 'ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518',
+          exponent: 0,
+          aliases: ['uosmo']
+        }, {
+          denom: 'osmo',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518',
+      name: 'Osmosis',
+      display: 'osmo',
+      symbol: 'OSMO',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'osmosis',
+            baseDenom: 'uosmo',
+            channelId: 'channel-107354'
+          },
+          chain: {
+            channelId: 'channel-0',
+            path: 'transfer/channel-0/uosmo'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'osmosis',
+            baseDenom: 'uosmo'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
+        }]
+    }
+  ]
 };
 export default info;

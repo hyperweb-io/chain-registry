@@ -225,6 +225,10 @@ const info: Chain = {
       {
         address: 'https://stride.rpc.quasarstaking.ai:443',
         provider: 'Quasar'
+      },
+      {
+        address: 'https://rpc.stride.citizenweb3.com',
+        provider: 'Citizen Web3'
       }
     ],
     rest: [
@@ -295,6 +299,10 @@ const info: Chain = {
       {
         address: 'https://stride.api.quasarstaking.ai:443',
         provider: 'Quasar'
+      },
+      {
+        address: 'https://api.stride.citizenweb3.com',
+        provider: 'Citizen Web3'
       }
     ],
     grpc: [
@@ -349,6 +357,10 @@ const info: Chain = {
       {
         address: 'stride.grpc.quasarstaking.ai:80',
         provider: 'Quasar'
+      },
+      {
+        address: 'grpc.stride.citizenweb3.com:443',
+        provider: 'Citizen Web3'
       }
     ]
   },
@@ -417,6 +429,12 @@ const info: Chain = {
       url: 'https://mainnet.whispernode.com/stride',
       txPage: 'https://mainnet.whispernode.com/stride/tx/${txHash}',
       accountPage: 'https://mainnet.whispernode.com/stride/account/${accountAddress}'
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/stride/overview',
+      validatorPage: 'https://validatorinfo.com/networks/stride/validators',
+      proposalPage: 'https://validatorinfo.com/networks/stride/governance'
     }
   ],
   logoURIs: {

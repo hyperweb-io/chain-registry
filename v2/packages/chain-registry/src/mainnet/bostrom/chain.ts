@@ -108,6 +108,12 @@ const info: Chain = {
       url: 'https://atomscan.com/bostrom',
       txPage: 'https://atomscan.com/bostrom/transactions/${txHash}',
       accountPage: 'https://atomscan.com/bostrom/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/bostrom/overview',
+      validatorPage: 'https://validatorinfo.com/networks/bostrom/validators',
+      proposalPage: 'https://validatorinfo.com/networks/bostrom/governance'
     }
   ],
   images: [{

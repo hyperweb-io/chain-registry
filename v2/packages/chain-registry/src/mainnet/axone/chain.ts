@@ -80,6 +80,14 @@ const info: Chain = {
       {
         address: 'https://rpc.cros-nest.com:443/axone',
         provider: 'crosnest'
+      },
+      {
+        address: 'https://rpc.axone.citizenweb3.com',
+        provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://rpc.axone-archive.citizenweb3.com',
+        provider: 'Citizen Web3'
       }
     ],
     rest: [
@@ -102,6 +110,14 @@ const info: Chain = {
       {
         address: 'https://rest.cros-nest.com:443/axone',
         provider: 'crosnest'
+      },
+      {
+        address: 'https://api.axone.citizenweb3.com',
+        provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://api.axone-archive.citizenweb3.com',
+        provider: 'Citizen Web3'
       }
     ],
     grpc: [
@@ -120,20 +136,37 @@ const info: Chain = {
       {
         address: 'grpc.axone.nodestake.org:443',
         provider: 'NodeStake'
+      },
+      {
+        address: 'grpc.axone.citizenweb3.com:443',
+        provider: 'Citizen Web3'
+      },
+      {
+        address: 'grpc.axone-archive.citizenweb3.com:443',
+        provider: 'Citizen Web3'
       }
     ]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'valopers',
       url: 'https://axone.valopers.com/',
       txPage: 'https://axone.valopers.com/transactions/${txHash}',
       accountPage: 'https://axone.valopers.com/account/${accountAddress}'
-    }, {
+    },
+    {
       kind: 'NodeStake',
       url: 'https://explorer.nodestake.org/axone',
       txPage: 'https://explorer.nodestake.org/axone/tx/${txHash}',
       accountPage: 'https://explorer.nodestake.org/axone/account/${accountAddress}'
-    }],
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/axone/overview',
+      validatorPage: 'https://validatorinfo.com/networks/axone/validators',
+      proposalPage: 'https://validatorinfo.com/networks/axone/governance'
+    }
+  ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axone/images/chain.png'
     }],

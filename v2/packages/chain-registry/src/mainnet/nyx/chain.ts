@@ -134,6 +134,12 @@ const info: Chain = {
       kind: 'ping.pub',
       url: 'https://ping.pub/nyx',
       txPage: 'https://ping.pub/nyx/tx/${txHash}'
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/nym/overview',
+      validatorPage: 'https://validatorinfo.com/networks/nym/validators',
+      proposalPage: 'https://validatorinfo.com/networks/nym/governance'
     }
   ],
   images: [

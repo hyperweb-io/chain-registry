@@ -168,6 +168,10 @@ const info: Chain = {
       {
         address: 'https://mainnet-atomone-rpc.konsortech.xyz/',
         provider: 'KonsorTech'
+      },
+      {
+        address: 'https://rpc.atomone-archive.citizenweb3.com:443',
+        provider: 'Citizen Web3'
       }
     ],
     rest: [
@@ -274,6 +278,10 @@ const info: Chain = {
       {
         address: 'https://mainnet-atomone-api.konsortech.xyz/',
         provider: 'KonsorTech'
+      },
+      {
+        address: 'https://api.atomone-archive.citizenweb3.com',
+        provider: 'Citizen Web3'
       }
     ],
     grpc: [
@@ -310,7 +318,7 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: ' grpc.atomone.citizenweb3.com',
+        address: 'grpc.atomone.citizenweb3.com:443',
         provider: 'Citizen Web3'
       },
       {
@@ -348,6 +356,10 @@ const info: Chain = {
       {
         address: 'mainnet-atomone.konsortech.xyz:12090',
         provider: 'KonsorTech'
+      },
+      {
+        address: 'grpc.atomone-archive.citizenweb3.com:443',
+        provider: 'Citizen Web3'
       }
     ]
   },
@@ -447,6 +459,12 @@ const info: Chain = {
       url: 'https://explorer.konsortech.xyz/atomone',
       txPage: 'https://explorer.konsortech.xyz/atomone/tx/${txHash}',
       accountPage: 'https://explorer.konsortech.xyz/atomone/account/${accountAddress}'
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/atomone/overview',
+      validatorPage: 'https://validatorinfo.com/networks/atomone/validators',
+      proposalPage: 'https://validatorinfo.com/networks/atomone/governance'
     }
   ],
   images: [{

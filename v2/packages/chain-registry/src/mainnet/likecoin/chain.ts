@@ -167,6 +167,12 @@ const info: Chain = {
       url: 'https://atomscan.com/likecoin',
       txPage: 'https://atomscan.com/likecoin/transactions/${txHash}',
       accountPage: 'https://atomscan.com/likecoin/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/likecoin/overview',
+      validatorPage: 'https://validatorinfo.com/networks/likecoin/validators',
+      proposalPage: 'https://validatorinfo.com/networks/likecoin/governance'
     }
   ],
   logoURIs: {

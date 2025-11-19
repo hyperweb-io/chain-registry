@@ -355,6 +355,10 @@ const info: Chain = {
       {
         address: 'https://api.cosmoshub-4-archive.citizenweb3.com:443',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://api.cosmoshub-4.citizenweb3.com:443',
+        provider: 'Citizen Web3'
       }
     ],
     grpc: [
@@ -443,7 +447,11 @@ const info: Chain = {
         provider: 'Quasar'
       },
       {
-        address: 'grpc.cosmoshub-4-archive.citizenweb3.com',
+        address: 'grpc.cosmoshub-4-archive.citizenweb3.com:443',
+        provider: 'Citizen Web3'
+      },
+      {
+        address: 'grpc.cosmoshub-4.citizenweb3.com:443',
         provider: 'Citizen Web3'
       }
     ]
@@ -562,6 +570,12 @@ const info: Chain = {
       url: 'https://cosmos.valopers.com/',
       txPage: 'https://cosmos.valopers.com/transactions/${txHash}',
       accountPage: 'https://cosmos.valopers.com/account/${accountAddress}'
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/cosmoshub/overview',
+      validatorPage: 'https://validatorinfo.com/networks/cosmoshub/validators',
+      proposalPage: 'https://validatorinfo.com/networks/cosmoshub/governance'
     }
   ],
   images: [{

@@ -114,6 +114,10 @@ const info: Chain = {
       {
         address: 'https://quicksilver-rpc.noders.services',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'https://rpc.quicksilver.citizenweb3.com',
+        provider: 'Citizen Web3'
       }
     ],
     rest: [
@@ -164,6 +168,10 @@ const info: Chain = {
       {
         address: 'https://quicksilver-api.noders.services',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'https://api.quicksilver.citizenweb3.com',
+        provider: 'Citizen Web3'
       }
     ],
     grpc: [
@@ -194,6 +202,10 @@ const info: Chain = {
       {
         address: 'quicksilver.tdrsys.com:2083',
         provider: 'TdrSys'
+      },
+      {
+        address: 'grpc.quicksilver.citizenweb3.com:443',
+        provider: 'Citizen Web3'
       }
     ]
   },
@@ -230,6 +242,12 @@ const info: Chain = {
       kind: 'KonsorTech',
       url: 'https://explorer.konsortech.xyz/quicksilver/staking',
       txPage: 'https://explorer.konsortech.xyz/quicksilver/tx/${txHash}'
+    },
+    {
+      kind: 'Validatorinfo',
+      url: 'https://validatorinfo.com/networks/quicksilver/overview',
+      validatorPage: 'https://validatorinfo.com/networks/quicksilver/validators',
+      proposalPage: 'https://validatorinfo.com/networks/quicksilver/governance'
     }
   ],
   images: [{
