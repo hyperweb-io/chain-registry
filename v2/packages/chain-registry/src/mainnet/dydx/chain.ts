@@ -89,10 +89,6 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'https://rpc-dydx.ecostake.com:443',
-        provider: 'ecostake'
-      },
-      {
         address: 'https://rpc-dydx.cosmos-spaces.cloud',
         provider: 'Cosmos Spaces'
       },
@@ -145,10 +141,6 @@ const info: Chain = {
       {
         address: 'https://dydx-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'https://rest-dydx.ecostake.com:443',
-        provider: 'ecostake'
       },
       {
         address: 'https://api-dydx.cosmos-spaces.cloud',

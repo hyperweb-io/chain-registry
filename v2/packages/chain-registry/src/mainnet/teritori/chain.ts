@@ -93,10 +93,6 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'https://rpc-teritori.ecostake.com',
-        provider: 'ecostake'
-      },
-      {
         address: 'https://teritori-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
@@ -149,10 +145,6 @@ const info: Chain = {
       {
         address: 'https://teritori-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'https://rest-teritori.ecostake.com',
-        provider: 'ecostake'
       },
       {
         address: 'https://teritori-rest.publicnode.com',

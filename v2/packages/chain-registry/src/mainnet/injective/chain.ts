@@ -99,10 +99,6 @@ const info: Chain = {
         provider: '[NODERS]TEAM'
       },
       {
-        address: 'https://rpc-injective.ecostake.com',
-        provider: 'ecostake'
-      },
-      {
         address: 'https://rpc-injective.kewrnode.com',
         provider: 'Kewr Node'
       }
@@ -159,10 +155,6 @@ const info: Chain = {
       {
         address: 'https://injective-api.noders.services',
         provider: '[NODERS]TEAM'
-      },
-      {
-        address: 'https://rest-injective.ecostake.com',
-        provider: 'ecostake'
       },
       {
         address: 'https://rest-injective.kewrnode.com',

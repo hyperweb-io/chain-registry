@@ -63,10 +63,6 @@ const info: Chain = {
         provider: 'Chihuahua'
       },
       {
-        address: 'https://rpc-chihuahua.ecostake.com',
-        provider: 'ecostake'
-      },
-      {
         address: 'https://chihua.rpc.m.stavr.tech',
         provider: '🔥STAVR🔥'
       },
@@ -119,10 +115,6 @@ const info: Chain = {
       {
         address: 'https://api.chihuahua.wtf',
         provider: 'Chihuahua'
-      },
-      {
-        address: 'https://rest-chihuahua.ecostake.com',
-        provider: 'ecostake'
       },
       {
         address: 'https://chihua.api.m.stavr.tech',
