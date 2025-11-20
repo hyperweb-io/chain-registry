@@ -41,10 +41,6 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://rpc-empowerchain.ecostake.com:443',
-        provider: 'ecostake'
-      },
-      {
         address: 'https://empowerchain-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -98,10 +94,6 @@ const info: Chain = {
       }
     ],
     rest: [
-      {
-        address: 'https://rest-empowerchain.ecostake.com:443',
-        provider: 'ecostake'
-      },
       {
         address: 'https://empowerchain-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'

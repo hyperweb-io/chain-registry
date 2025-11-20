@@ -41,34 +41,20 @@ const info: Chain = {
     }
   },
   apis: {
-    rpc: [
-      {
+    rpc: [{
         address: 'https://rpc.kaon.kyve.network',
         provider: 'kyve'
-      },
-      {
-        address: 'https://rpc-kyve-test.ecostake.com',
-        provider: 'ecostake'
-      },
-      {
+      }, {
         address: 'https://kyve-testnet-rpc.ibs.team:443',
         provider: 'Inter Blockchain Services'
-      }
-    ],
-    rest: [
-      {
+      }],
+    rest: [{
         address: 'https://api.kaon.kyve.network',
         provider: 'kyve'
-      },
-      {
-        address: 'https://rest-kyve-test.ecostake.com',
-        provider: 'ecostake'
-      },
-      {
+      }, {
         address: 'https://kyve-testnet-api.ibs.team:443',
         provider: 'Inter Blockchain Services'
-      }
-    ]
+      }]
   },
   explorers: [{
       kind: 'mintscan',
