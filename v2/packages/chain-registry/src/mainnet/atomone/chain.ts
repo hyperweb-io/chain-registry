@@ -172,6 +172,10 @@ const info: Chain = {
       {
         address: 'https://rpc.atomone-archive.citizenweb3.com:443',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://rpc.atomone.indonode.net:443',
+        provider: 'Indonode'
       }
     ],
     rest: [
@@ -282,6 +286,10 @@ const info: Chain = {
       {
         address: 'https://api.atomone-archive.citizenweb3.com',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://api.atomone.indonode.net',
+        provider: 'Indonode'
       }
     ],
     grpc: [
@@ -465,6 +473,12 @@ const info: Chain = {
       url: 'https://validatorinfo.com/networks/atomone/overview',
       validatorPage: 'https://validatorinfo.com/networks/atomone/validators',
       proposalPage: 'https://validatorinfo.com/networks/atomone/governance'
+    },
+    {
+      kind: 'Indonode',
+      url: 'https://explorer.indonode.net/atomone/staking',
+      txPage: 'https://explorer.indonode.net/atomone/tx/${txHash}',
+      accountPage: 'https://explorer.indonode.net/atomone/account/${accountAddress}'
     }
   ],
   images: [{
