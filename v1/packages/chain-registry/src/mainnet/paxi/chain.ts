@@ -47,14 +47,23 @@ const info: Chain = {
     rpc: [{
         address: 'https://mainnet-rpc.paxinet.io',
         provider: 'Paxi Foundation'
+      }, {
+        address: 'https://rpc.paxi.indonode.net',
+        provider: 'Indonode'
       }],
     rest: [{
         address: 'https://mainnet-lcd.paxinet.io',
         provider: 'Paxi Foundation'
+      }, {
+        address: 'https://api.paxi.indonode.net',
+        provider: 'Indonode'
       }],
     grpc: [{
         address: 'mainnet-rpc.paxinet.io:443',
         provider: 'Paxi Foundation'
+      }, {
+        address: 'grpc.paxi.indonode.net:443',
+        provider: 'Indonode'
       }]
   },
   explorers: [{
@@ -62,6 +71,11 @@ const info: Chain = {
       url: 'https://explorer.paxinet.io',
       tx_page: 'https://explorer.paxinet.io/tx/${txHash}',
       account_page: 'https://explorer.paxinet.io/address/${accountAddress}'
+    }, {
+      kind: 'Indonode',
+      url: 'https://explorer.indonode.net/paxi',
+      tx_page: 'https://explorer.indonode.net/paxi/tx/${txHash}',
+      account_page: 'https://explorer.indonode.net/paxi/address/${accountAddress}'
     }],
   keywords: [
     'ibc',

@@ -10,8 +10,9 @@ const info: Chain = {
   bech32_prefix: 'mantra',
   daemon_name: 'mantrachaind',
   node_home: '$HOME/.mantrachain',
-  key_algos: ['secp256k1'],
-  slip44: 118,
+  key_algos: ['ethsecp256k1'],
+  extra_codecs: ['ethermint'],
+  slip44: 60,
   fees: {
     fee_tokens: [{
         denom: 'uom',
@@ -24,62 +25,59 @@ const info: Chain = {
   staking: {
     staking_tokens: [{
         denom: 'uom'
-      }]
+      }],
+    lock_duration: {
+      time: '691200s'
+    }
   },
   codebase: {
     git_repo: 'https://github.com/MANTRA-Chain/mantrachain',
-    recommended_version: 'v3.0.1',
-    compatible_versions: ['v3.0.0', 'v3.0.1'],
+    recommended_version: 'v6.1.1',
+    compatible_versions: ['v6.1.0', 'v6.1.1'],
     consensus: {
       type: 'cometbft',
-      version: 'v0.38.17'
+      version: 'v0.38.19'
     },
     sdk: {
       type: 'cosmos',
-      version: 'v0.50.12',
+      version: 'v0.53.4',
       repo: 'https://github.com/MANTRA-Chain/cosmos-sdk',
-      tag: 'v0.50.12-v2-mantra-1'
+      tag: 'v0.53.4-mantra'
     },
     cosmwasm: {
-      version: 'v0.54.0',
+      version: 'v0.61.1',
       enabled: true
     },
     ibc: {
       type: 'go',
-      version: 'v8.7.0'
+      version: 'v10.4.0'
     },
     genesis: {
-      genesis_url: 'https://raw.githubusercontent.com/MANTRA-Chain/mantrachain/refs/heads/main/networks/mantra-dukong-1/genesis.json'
+      genesis_url: 'https://raw.githubusercontent.com/MANTRA-Chain/net/refs/heads/main/mantra-dukong-1/genesis.json'
     }
   },
   apis: {
     rpc: [{
         address: 'https://rpc.dukong.mantrachain.io',
         provider: 'MANTRACHAIN'
-      }, {
-        address: 'https://mantra-testnet-rpc.publicnode.com:443',
-        provider: 'Allnodes ⚡️ Nodes & Staking'
       }],
     rest: [{
         address: 'https://api.dukong.mantrachain.io',
         provider: 'MANTRACHAIN'
       }, {
-        address: 'https://mantra-testnet-rest.publicnode.com',
-        provider: 'Allnodes ⚡️ Nodes & Staking'
+        address: 'https://lcd-office.cosmostation.io/mantra-testnet/',
+        provider: 'Cosmostation'
       }],
     grpc: [{
         address: 'https://grpc.dukong.mantrachain.io',
         provider: 'MANTRACHAIN'
       }, {
-        address: 'mantra-testnet-grpc.publicnode.com:443',
-        provider: 'Allnodes ⚡️ Nodes & Staking'
+        address: 'grpc-office-mantra.cosmostation.io:443',
+        provider: 'Cosmostation'
       }],
     "evm-http-jsonrpc": [{
         address: 'https://evm.dukong.mantrachain.io',
         provider: 'MANTRACHAIN'
-      }, {
-        address: 'https://rpc.evm.mantra.testnet.cosmostation.io',
-        provider: 'Cosmostation'
       }]
   },
   logo_URIs: {
@@ -92,6 +90,12 @@ const info: Chain = {
       url: 'https://www.mintscan.io/mantra-testnet',
       tx_page: 'https://mintscan.io/mantra-testnet/txs/${txHash}',
       account_page: 'https://mintscan.io/mantra-testnet/account/${accountAddress}'
+    },
+    {
+      kind: 'mantrascan',
+      url: 'https://mantrascan.io/dukong',
+      tx_page: 'https://mantrascan.io/dukong/tx/${txHash}',
+      account_page: 'https://mantrascan.io/dukong/address/${accountAddress}'
     },
     {
       kind: 'ping.pub',
@@ -109,6 +113,7 @@ const info: Chain = {
   keywords: [
     'rwa',
     'wasm',
+    'evm',
     'staking',
     'testnet'
   ],
