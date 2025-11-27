@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.74.412 (2025-11-27)
+
+**Note:** Version bump only for package @chain-registry/keplr
+
+
+
+
+
 ## [1.74.411](https://github.com/hyperweb-io/chain-registry/compare/@chain-registry/keplr@2.0.110...@chain-registry/keplr@1.74.411) (2025-11-26)
 
 **Note:** Version bump only for package @chain-registry/keplr
