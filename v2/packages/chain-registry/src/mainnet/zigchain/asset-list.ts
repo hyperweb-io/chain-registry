@@ -438,6 +438,47 @@ const info: AssetList = {
             circle: true
           }
         }]
+    },
+    {
+      description: 'Stride Staked ATOM on ZIGChain',
+      denomUnits: [{
+          denom: 'ibc/729AE368985B0F7B35648D17BA74A3D0A1C833FBAE8C3B49D75C6A2B578B9930',
+          exponent: 0,
+          aliases: ['stuatom']
+        }, {
+          denom: 'statom',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/729AE368985B0F7B35648D17BA74A3D0A1C833FBAE8C3B49D75C6A2B578B9930',
+      name: 'Stride Staked ATOM',
+      display: 'statom',
+      symbol: 'stATOM',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'cosmoshub',
+            baseDenom: 'ibc/B05539B66B72E2739B986B86391E5D08F12B8D5D2C2A7F8F8CF9ADF674DFA231',
+            channelId: 'channel-1555'
+          },
+          chain: {
+            channelId: 'channel-4',
+            path: 'transfer/channel-4/transfer/channel-391/stuatom'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'stride',
+            baseDenom: 'stuatom'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg'
+        }],
+      coingeckoId: 'stride-staked-atom'
     }
   ]
 };
