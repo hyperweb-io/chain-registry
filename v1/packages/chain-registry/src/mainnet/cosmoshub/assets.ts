@@ -113,8 +113,7 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.svg'
-      },
-      coingecko_id: 'fx-coin'
+      }
     },
     {
       description: 'The token of Crowdpunk DAO',
