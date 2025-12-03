@@ -102,6 +102,10 @@ const info: Chain = {
       {
         address: 'https://rpc-shentu.onenov.xyz',
         provider: 'OneNov'
+      },
+      {
+        address: 'https://shentu.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     rest: [
@@ -156,6 +160,10 @@ const info: Chain = {
       {
         address: 'https://api-shentu.onenov.xyz',
         provider: 'OneNov'
+      },
+      {
+        address: 'https://shentu.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     grpc: [

@@ -129,6 +129,10 @@ const info: Chain = {
       {
         address: 'https://jackal-rpc.noders.services',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'https://jackal.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     rest: [
@@ -199,6 +203,10 @@ const info: Chain = {
       {
         address: 'https://jackal-api.noders.services',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'https://jackal.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     grpc: [

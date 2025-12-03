@@ -109,6 +109,10 @@ const info: Chain = {
       {
         address: 'https://chihuahua-rpc.chainroot.io',
         provider: 'Chainroot'
+      },
+      {
+        address: 'https://chihuahua.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     rest: [
@@ -159,6 +163,10 @@ const info: Chain = {
       {
         address: 'https://chihuahua-api.chainroot.io',
         provider: 'Chainroot'
+      },
+      {
+        address: 'https://chihuahua.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     grpc: [

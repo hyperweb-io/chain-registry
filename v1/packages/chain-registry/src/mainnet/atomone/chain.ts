@@ -180,6 +180,10 @@ const info: Chain = {
       {
         address: 'https://atomone-rpc.nyan-cat.net',
         provider: 'NyanCat'
+      },
+      {
+        address: 'https://atomone.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     rest: [
@@ -298,6 +302,10 @@ const info: Chain = {
       {
         address: 'https://atomone-api.nyan-cat.net',
         provider: 'NyanCat'
+      },
+      {
+        address: 'https://atomone.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     grpc: [

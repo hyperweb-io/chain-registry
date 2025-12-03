@@ -86,6 +86,10 @@ const info: Chain = {
       {
         address: 'https://akash.rpc.arcturian.tech/',
         provider: 'Arcturian Tech'
+      },
+      {
+        address: 'https://akash.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     rest: [
@@ -128,6 +132,10 @@ const info: Chain = {
       {
         address: 'https://akash.api.arcturian.tech',
         provider: 'Arcturian Tech'
+      },
+      {
+        address: 'https://akash.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     grpc: [{

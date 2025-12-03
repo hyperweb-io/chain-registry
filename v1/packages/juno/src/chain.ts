@@ -118,6 +118,10 @@ const chain: Chain = {
       {
         address: 'https://juno-rpc.chainroot.io',
         provider: 'Chainroot'
+      },
+      {
+        address: 'https://juno.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     rest: [
@@ -168,6 +172,10 @@ const chain: Chain = {
       {
         address: 'https://juno-api.chainroot.io',
         provider: 'Chainroot'
+      },
+      {
+        address: 'https://juno.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     grpc: [

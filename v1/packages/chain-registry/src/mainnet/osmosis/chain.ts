@@ -639,6 +639,10 @@ const info: Chain = {
       {
         address: 'https://rpc.osmosis.citizenweb3.com/',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://osmosis.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     rest: [
@@ -701,6 +705,10 @@ const info: Chain = {
       {
         address: 'https://api.osmosis.citizenweb3.com/',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://osmosis.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     grpc: [
