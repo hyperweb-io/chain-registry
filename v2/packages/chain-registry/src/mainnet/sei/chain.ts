@@ -93,6 +93,10 @@ const info: Chain = {
       {
         address: 'https://sei.drpc.org',
         provider: 'dRPC - All chains in one place'
+      },
+      {
+        address: 'https://sei.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     rest: [
@@ -123,6 +127,10 @@ const info: Chain = {
       {
         address: 'https://sei-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
+      },
+      {
+        address: 'https://sei.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     grpc: [

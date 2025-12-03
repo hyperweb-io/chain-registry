@@ -76,6 +76,10 @@ const info: Chain = {
       {
         address: 'https://rpc.kava.nodestake.org',
         provider: 'NodeStake'
+      },
+      {
+        address: 'https://kava.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     rest: [
@@ -110,6 +114,10 @@ const info: Chain = {
       {
         address: 'https://api.kava.nodestake.org',
         provider: 'NodeStake'
+      },
+      {
+        address: 'https://kava.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     grpc: [

@@ -153,6 +153,10 @@ const info: Chain = {
       {
         address: 'https://persistence-rpc.stake-town.com',
         provider: 'StakeTown'
+      },
+      {
+        address: 'https://persistence.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     rest: [
@@ -239,6 +243,10 @@ const info: Chain = {
       {
         address: 'https://persistence-api.stake-town.com',
         provider: 'StakeTown'
+      },
+      {
+        address: 'https://persistence.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     grpc: [

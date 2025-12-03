@@ -103,6 +103,10 @@ const info: Chain = {
       {
         address: 'https://cheqd-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
+      },
+      {
+        address: 'https://cheqd.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     rest: [
@@ -153,6 +157,10 @@ const info: Chain = {
       {
         address: 'https://cheqd-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
+      },
+      {
+        address: 'https://cheqd.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     grpc: [

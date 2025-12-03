@@ -136,6 +136,10 @@ const info: Chain = {
       {
         address: 'https://stargaze-rpc.chainroot.io',
         provider: 'Chainroot'
+      },
+      {
+        address: 'https://stargaze.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     rest: [
@@ -218,6 +222,10 @@ const info: Chain = {
       {
         address: 'https://stargaze-api.chainroot.io',
         provider: 'Chainroot'
+      },
+      {
+        address: 'https://stargaze.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     grpc: [
