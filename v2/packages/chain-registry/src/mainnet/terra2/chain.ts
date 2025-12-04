@@ -126,6 +126,10 @@ const info: Chain = {
       {
         address: 'https://terra-rpc.node39.top',
         provider: 'Node39'
+      },
+      {
+        address: 'https://terra-m-rpc.onnode.org',
+        provider: 'OnNode'
       }
     ],
     rest: [
@@ -176,6 +180,10 @@ const info: Chain = {
       {
         address: 'https://terra-api.node39.top',
         provider: 'Node39'
+      },
+      {
+        address: 'https://terra-m-api.onnode.org',
+        provider: 'OnNode'
       }
     ],
     grpc: [
@@ -268,6 +276,12 @@ const info: Chain = {
       url: 'https://explorer.node39.top/terra',
       txPage: 'https://explorer.node39.top/terra/transactions/${txHash}',
       accountPage: 'https://explorer.node39.top/terra/accounts/${accountAddress}'
+    },
+    {
+      kind: 'OnNode',
+      url: 'https://explorer.onnode.org/terra',
+      txPage: 'https://explorer.onnode.org/terra/transactions/${txHash}',
+      accountPage: 'https://explorer.onnode.org/terra/accounts/${accountAddress}'
     }
   ],
   images: [{

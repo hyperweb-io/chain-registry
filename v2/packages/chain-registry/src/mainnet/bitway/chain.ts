@@ -8,7 +8,7 @@ const info: Chain = {
   prettyName: 'Bitway',
   chainType: 'cosmos',
   chainId: 'bitway-1',
-  bech32Prefix: 'bitway',
+  bech32Prefix: 'bc',
   daemonName: 'bitwayd',
   nodeHome: '$HOME/.bitway',
   keyAlgos: ['secp256k1'],
