@@ -7,17 +7,17 @@ const info: AssetList = {
       description: 'The native token of MANTRA',
       extended_description: 'The first RWA Layer 1 Blockchain, capable of adherence and enforcement of real world regulatory requirements.',
       denom_units: [{
-          denom: 'uom',
+          denom: 'amantra',
           exponent: 0
         }, {
-          denom: 'om',
-          exponent: 6
+          denom: 'mantra',
+          exponent: 18
         }],
       type_asset: 'sdk.coin',
-      base: 'uom',
+      base: 'amantra',
       name: 'MANTRA Chain Dukong',
-      display: 'om',
-      symbol: 'OM',
+      display: 'mantra',
+      symbol: 'MANTRA',
       keywords: [
         'rwa',
         'wasm',

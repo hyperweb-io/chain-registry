@@ -563,18 +563,18 @@ const assets: AssetList = {
     {
       description: 'The native token of MANTRA',
       denom_units: [{
-          denom: 'ibc/9FFAF10A8821A69C52CF66910A8F75BBC9454FB282167FA7F015BE2753B474C8',
+          denom: 'ibc/6C59388CEFA3A3DCF4B8011C78844E3665BC0021C125E5DA44DF4DACD1D677D0',
           exponent: 0,
-          aliases: ['uom']
+          aliases: ['amantra']
         }, {
-          denom: 'om',
-          exponent: 6
+          denom: 'mantra',
+          exponent: 18
         }],
       type_asset: 'sdk.coin',
-      base: 'ibc/9FFAF10A8821A69C52CF66910A8F75BBC9454FB282167FA7F015BE2753B474C8',
+      base: 'ibc/6C59388CEFA3A3DCF4B8011C78844E3665BC0021C125E5DA44DF4DACD1D677D0',
       name: 'MANTRA Chain Dukong',
-      display: 'om',
-      symbol: 'OM',
+      display: 'mantra',
+      symbol: 'MANTRA',
       keywords: [
         'rwa',
         'wasm',
@@ -618,7 +618,7 @@ const assets: AssetList = {
           type: 'ibc',
           counterparty: {
             channel_id: 'channel-0',
-            base_denom: 'uom',
+            base_denom: 'amantra',
             chain_name: 'mantrachaintestnet2'
           },
           chain: {
@@ -1311,18 +1311,18 @@ const assets: AssetList = {
     {
       description: 'The native token of MANTRA',
       denom_units: [{
-          denom: 'ibc/9FFAF10A8821A69C52CF66910A8F75BBC9454FB282167FA7F015BE2753B474C8',
+          denom: 'ibc/6C59388CEFA3A3DCF4B8011C78844E3665BC0021C125E5DA44DF4DACD1D677D0',
           exponent: 0,
-          aliases: ['uom']
+          aliases: ['amantra']
         }, {
-          denom: 'om',
-          exponent: 6
+          denom: 'mantra',
+          exponent: 18
         }],
       type_asset: 'sdk.coin',
-      base: 'ibc/9FFAF10A8821A69C52CF66910A8F75BBC9454FB282167FA7F015BE2753B474C8',
+      base: 'ibc/6C59388CEFA3A3DCF4B8011C78844E3665BC0021C125E5DA44DF4DACD1D677D0',
       name: 'MANTRA Chain Dukong',
-      display: 'om',
-      symbol: 'OM',
+      display: 'mantra',
+      symbol: 'MANTRA',
       keywords: [
         'rwa',
         'wasm',
@@ -1366,7 +1366,7 @@ const assets: AssetList = {
           type: 'ibc',
           counterparty: {
             channel_id: 'channel-0',
-            base_denom: 'uom',
+            base_denom: 'amantra',
             chain_name: 'mantrachaintestnet2'
           },
           chain: {
