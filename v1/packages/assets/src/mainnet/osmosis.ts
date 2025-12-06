@@ -6280,7 +6280,7 @@ const assets: AssetList = {
     {
       description: 'The native token of Optio',
       denom_units: [{
-          denom: 'ibc/60CFDF4D8367F6C29FE210CE1CA36BE8C21BB2B505DE0F0ABAC0855411CCDB37',
+          denom: 'ibc/6AA47B1A9F00CC9B127796717F4BE976C12EFC843387F22461152888E1365045',
           exponent: 0,
           aliases: ['uOPT']
         }, {
@@ -6288,7 +6288,7 @@ const assets: AssetList = {
           exponent: 6
         }],
       type_asset: 'sdk.coin',
-      base: 'ibc/60CFDF4D8367F6C29FE210CE1CA36BE8C21BB2B505DE0F0ABAC0855411CCDB37',
+      base: 'ibc/6AA47B1A9F00CC9B127796717F4BE976C12EFC843387F22461152888E1365045',
       name: 'OPT',
       display: 'OPT',
       symbol: 'OPT',
@@ -6299,12 +6299,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-1',
+            channel_id: 'channel-5',
             base_denom: 'uOPT',
             chain_name: 'optio'
           },
           chain: {
-            channel_id: 'channel-107347'
+            channel_id: 'channel-108371'
           }
         }]
     },
@@ -12609,7 +12609,7 @@ const assets: AssetList = {
     {
       description: 'The native token of Optio',
       denom_units: [{
-          denom: 'ibc/60CFDF4D8367F6C29FE210CE1CA36BE8C21BB2B505DE0F0ABAC0855411CCDB37',
+          denom: 'ibc/6AA47B1A9F00CC9B127796717F4BE976C12EFC843387F22461152888E1365045',
           exponent: 0,
           aliases: ['uOPT']
         }, {
@@ -12617,7 +12617,7 @@ const assets: AssetList = {
           exponent: 6
         }],
       type_asset: 'sdk.coin',
-      base: 'ibc/60CFDF4D8367F6C29FE210CE1CA36BE8C21BB2B505DE0F0ABAC0855411CCDB37',
+      base: 'ibc/6AA47B1A9F00CC9B127796717F4BE976C12EFC843387F22461152888E1365045',
       name: 'OPT',
       display: 'OPT',
       symbol: 'OPT',
@@ -12628,12 +12628,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-1',
+            channel_id: 'channel-5',
             base_denom: 'uOPT',
             chain_name: 'optio'
           },
           chain: {
-            channel_id: 'channel-107347'
+            channel_id: 'channel-108371'
           }
         }]
     },

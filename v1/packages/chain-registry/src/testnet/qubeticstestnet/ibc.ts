@@ -1,25 +1,25 @@
 import { IBCInfo } from '@chain-registry/types';
 const info: IBCInfo[] = [{
-    $schema: '../ibc_data.schema.json',
+    $schema: '../../ibc_data.schema.json',
     chain_1: {
-      chain_name: 'optio',
-      chain_id: 'optio',
-      client_id: '07-tendermint-4',
-      connection_id: 'connection-10'
+      chain_name: 'osmosistestnet',
+      chain_id: 'osmo-test-5',
+      client_id: '07-tendermint-4996',
+      connection_id: 'connection-4359'
     },
     chain_2: {
-      chain_name: 'osmosis',
-      chain_id: 'osmosis-1',
-      client_id: '07-tendermint-3640',
-      connection_id: 'connection-10985'
+      chain_name: 'qubeticstestnet',
+      chain_id: 'qubetics_9029-1',
+      client_id: '07-tendermint-14',
+      connection_id: 'connection-12'
     },
     channels: [{
         chain_1: {
-          channel_id: 'channel-5',
+          channel_id: 'channel-11229',
           port_id: 'transfer'
         },
         chain_2: {
-          channel_id: 'channel-108371',
+          channel_id: 'channel-8',
           port_id: 'transfer'
         },
         ordering: 'unordered',

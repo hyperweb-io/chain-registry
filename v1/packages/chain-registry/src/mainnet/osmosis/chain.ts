@@ -827,6 +827,12 @@ const info: Chain = {
       url: 'https://validatorinfo.com/networks/osmosis/overview',
       validator_page: 'https://validatorinfo.com/networks/osmosis/validators',
       proposal_page: 'https://validatorinfo.com/networks/osmosis/governance'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/osmosis/mainnet',
+      tx_page: 'https://moon-runners.net/osmosis/mainnet/finder?search=${txHash}',
+      account_page: 'https://moon-runners.net/osmosis/mainnet/finder?search=${accountAddress}'
     }
   ],
   keywords: ['dex']

@@ -1610,6 +1610,39 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native EVM, governance and staking token of the Qubetics Chain',
+      denom_units: [{
+          denom: 'ibc/3E5037EFB506F3F007D1CA1B5A436DDB32983B191B9F5730BE2BE46E16AC83B5',
+          exponent: 0,
+          aliases: ['tics']
+        }, {
+          denom: 'TICS',
+          exponent: 18
+        }],
+      base: 'ibc/3E5037EFB506F3F007D1CA1B5A436DDB32983B191B9F5730BE2BE46E16AC83B5',
+      name: 'Qubetics Testnet',
+      display: 'TICS',
+      symbol: 'TICS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/qubeticstestnet/images/qubetics.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/qubeticstestnet/images/qubetics.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-8',
+            base_denom: 'tics',
+            chain_name: 'qubeticstestnet'
+          },
+          chain: {
+            channel_id: 'channel-11229'
+          }
+        }]
+    },
+    {
       description: 'The native token of Saga Testnet',
       denom_units: [{
           denom: 'ibc/48384130079A5987378F5776775F8C29A02505273E777BBB99361F2BB5B577C9',
@@ -2163,6 +2196,39 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-1037'
+          }
+        }]
+    },
+    {
+      description: 'The native EVM, governance and staking token of the Qubetics Chain',
+      denom_units: [{
+          denom: 'ibc/3E5037EFB506F3F007D1CA1B5A436DDB32983B191B9F5730BE2BE46E16AC83B5',
+          exponent: 0,
+          aliases: ['tics']
+        }, {
+          denom: 'TICS',
+          exponent: 18
+        }],
+      base: 'ibc/3E5037EFB506F3F007D1CA1B5A436DDB32983B191B9F5730BE2BE46E16AC83B5',
+      name: 'Qubetics Testnet',
+      display: 'TICS',
+      symbol: 'TICS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/qubeticstestnet/images/qubetics.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/qubeticstestnet/images/qubetics.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-8',
+            base_denom: 'tics',
+            chain_name: 'qubeticstestnet'
+          },
+          chain: {
+            channel_id: 'channel-11229'
           }
         }]
     },
