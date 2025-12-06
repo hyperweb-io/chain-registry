@@ -277,6 +277,12 @@ const info: Chain = {
       url: 'https://injective.valopers.com/',
       txPage: 'https://injective.valopers.com/transactions/${txHash}',
       accountPage: 'https://injective.valopers.com/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/injective/mainnet',
+      txPage: 'https://moon-runners.net/injective/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/injective/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

@@ -280,6 +280,12 @@ const info: Chain = {
       accountPage: 'https://staking-explorer.com/account.php?chain=terra&addr=${accountAddress}'
     },
     {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/terra/mainnet',
+      txPage: 'https://moon-runners.net/terra/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/terra/mainnet/finder?search=${accountAddress}'
+    },
+    {
       kind: 'terraport-finder',
       url: 'https://finder.terraport.finance/',
       txPage: 'https://finder.terraport.finance/mainnet/tx/${txHash}',

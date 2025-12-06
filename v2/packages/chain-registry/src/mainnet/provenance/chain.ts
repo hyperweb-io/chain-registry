@@ -16,10 +16,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'nhash',
-        fixedMinGasPrice: 1905,
-        lowGasPrice: 1905,
-        averageGasPrice: 2100,
-        highGasPrice: 2500
+        fixedMinGasPrice: 1,
+        lowGasPrice: 1,
+        averageGasPrice: 1,
+        highGasPrice: 1
       }]
   },
   staking: {
@@ -29,14 +29,14 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/provenance-io/provenance',
-    recommendedVersion: 'v1.17.0',
-    compatibleVersions: ['v1.17.0'],
+    recommendedVersion: 'v1.26.0',
+    compatibleVersions: ['v1.26.0'],
     consensus: {
-      type: 'tendermint',
-      version: '0.34.29'
+      type: 'cometbft',
+      version: '0.38.19'
     },
     binaries: {
-      "linux/amd64": 'https://github.com/provenance-io/provenance/releases/download/v1.17.0/provenance-linux-amd64-v1.17.0.zip'
+      "linux/amd64": 'https://github.com/provenance-io/provenance/releases/download/v1.26.0/provenance-linux-amd64-v1.26.0.zip'
     },
     genesis: {
       name: 'v1.0.1',
@@ -44,18 +44,18 @@ const info: Chain = {
     },
     sdk: {
       type: 'cosmos',
-      version: '0.46.13'
+      version: '0.50.14'
     },
     ibc: {
       type: 'go',
-      version: '6.2.0',
+      version: '8.6.1',
       icsEnabled: ['ics20-1', 'ics27-1']
     },
     cosmwasm: {
-      version: '0.30',
+      version: '0.52',
       enabled: true
     },
-    tag: 'v1.17.0'
+    tag: 'v1.26.0'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.png',
