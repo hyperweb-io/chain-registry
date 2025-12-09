@@ -67,6 +67,11 @@ const info: Chain = {
   apis: {
     rpc: [
       {
+        address: 'https://rpc.cosmoshub-main.ccvalidators.com:443',
+        provider: 'CryptoCrew',
+        archive: true
+      },
+      {
         address: 'https://cosmoshub.tendermintrpc.lava.build:443',
         provider: 'Lava'
       },
@@ -229,6 +234,11 @@ const info: Chain = {
     ],
     rest: [
       {
+        address: 'https://rest.cosmoshub-main.ccvalidators.com:443',
+        provider: 'CryptoCrew',
+        archive: true
+      },
+      {
         address: 'https://cosmoshub.lava.build:443',
         provider: 'Lava'
       },
@@ -362,6 +372,11 @@ const info: Chain = {
       }
     ],
     grpc: [
+      {
+        address: 'grpc.cosmoshub-main.ccvalidators.com:443',
+        provider: 'CryptoCrew',
+        archive: true
+      },
       {
         address: 'cosmoshub.grpc.lava.build',
         provider: 'Lava'
