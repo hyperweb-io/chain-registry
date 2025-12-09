@@ -184,6 +184,10 @@ const info: Chain = {
       {
         address: 'https://atomone.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://atomone.blocksync.me/rpc',
+        provider: 'BlockSync'
       }
     ],
     rest: [
@@ -306,6 +310,10 @@ const info: Chain = {
       {
         address: 'https://atomone.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://atomone.blocksync.me/api',
+        provider: 'BlockSync'
       }
     ],
     grpc: [
@@ -388,6 +396,10 @@ const info: Chain = {
       {
         address: 'atomone-grpc.nyan-cat.net',
         provider: 'NyanCat'
+      },
+      {
+        address: 'atomone-grpc.blocksync.me:443',
+        provider: 'BlockSync'
       }
     ]
   },
@@ -505,6 +517,12 @@ const info: Chain = {
       url: 'https://explorer.nyan-cat.net/atomone',
       txPage: 'https://explorer.nyan-cat.net/atomone/tx/${txHash}',
       accountPage: 'https://explorer.nyan-cat.net/atomone/account/${accountAddress}'
+    },
+    {
+      kind: 'BlockSync',
+      url: 'https://dashboard.blocksync.me/atomone',
+      txPage: 'https://dashboard.blocksync.me/atomone/tx/${txHash}',
+      accountPage: 'https://dashboard.blocksync.me/atomone/account/${accountAddress}'
     }
   ],
   images: [{
