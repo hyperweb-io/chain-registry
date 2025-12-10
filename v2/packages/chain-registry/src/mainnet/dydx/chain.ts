@@ -35,11 +35,11 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/dydxprotocol/v4-chain/',
-    recommendedVersion: 'protocol/v9.4.0',
-    compatibleVersions: ['protocol/v9.4.0'],
+    recommendedVersion: 'protocol/v9.5.0',
+    compatibleVersions: ['protocol/v9.5.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/dydxprotocol/v4-chain/releases/download/protocol%2Fv9.4.0/dydxprotocold-v9.4.0-linux-amd64.tar.gz',
-      "linux/arm64": 'https://github.com/dydxprotocol/v4-chain/releases/download/protocol%2Fv9.4.0/dydxprotocold-v9.4.0-linux-arm64.tar.gz'
+      "linux/amd64": 'https://github.com/dydxprotocol/v4-chain/releases/download/protocol%2Fv9.5.0/dydxprotocold-v9.5.0-linux-amd64.tar.gz',
+      "linux/arm64": 'https://github.com/dydxprotocol/v4-chain/releases/download/protocol%2Fv9.5.0/dydxprotocold-v9.5.0-linux-arm64.tar.gz'
     },
     consensus: {
       type: 'cometbft',

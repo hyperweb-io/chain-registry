@@ -16,7 +16,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'uOPT',
-        fixedMinGasPrice: 1
+        fixedMinGasPrice: 1,
+        lowGasPrice: 1,
+        averageGasPrice: 1.5,
+        highGasPrice: 2
       }]
   },
   staking: {

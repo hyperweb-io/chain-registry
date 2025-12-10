@@ -192,6 +192,7 @@ import * as _source from './source';
 import * as _stafihub from './stafihub';
 import * as _stargaze from './stargaze';
 import * as _starname from './starname';
+import * as _stoc from './stoc';
 import * as _stratos from './stratos';
 import * as _stride from './stride';
 import * as _sunrise from './sunrise';
@@ -415,6 +416,7 @@ const assetList: AssetList[] = [
   _stafihub.assetList,
   _stargaze.assetList,
   _starname.assetList,
+  _stoc.assetList,
   _stratos.assetList,
   _stride.assetList,
   _sunrise.assetList,
