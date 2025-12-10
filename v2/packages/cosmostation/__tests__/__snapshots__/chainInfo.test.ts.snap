@@ -14,7 +14,7 @@ exports[`gravity 1`] = `
     "low": "0",
     "tiny": "0.00025",
   },
-  "imageURL": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg",
+  "imageURL": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png",
   "restURL": "https://gravitychain.io:1317",
 }
 `;
@@ -48,8 +48,8 @@ exports[`osmosis 1`] = `
   "coinType": "118",
   "displayDenom": "OSMO",
   "gasRate": {
-    "average": "0.025",
-    "low": "0.0025",
+    "average": "0.1",
+    "low": "0.03",
     "tiny": "0.00025",
   },
   "imageURL": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg",
