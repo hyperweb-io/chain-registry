@@ -190,6 +190,7 @@ export * as source from './source';
 export * as stafihub from './stafihub';
 export * as stargaze from './stargaze';
 export * as starname from './starname';
+export * as stoc from './stoc';
 export * as stratos from './stratos';
 export * as stride from './stride';
 export * as sunrise from './sunrise';

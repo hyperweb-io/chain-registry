@@ -1,0 +1,78 @@
+import { Chain } from '@chain-registry/types';
+const info: Chain = {
+  $schema: '../chain.schema.json',
+  chain_name: 'stoc',
+  status: 'live',
+  network_type: 'mainnet',
+  website: 'https://www.stochain.io/',
+  pretty_name: 'STO Chain',
+  chain_type: 'cosmos',
+  chain_id: 'stoc',
+  bech32_prefix: 'stoc',
+  daemon_name: 'stocd',
+  node_home: '$HOME/.stoc',
+  key_algos: ['secp256k1'],
+  slip44: 60,
+  fees: {
+    fee_tokens: [{
+        denom: 'ustoc',
+        fixed_min_gas_price: 0.01,
+        low_gas_price: 0.01,
+        average_gas_price: 0.015,
+        high_gas_price: 0.02
+      }]
+  },
+  staking: {
+    staking_tokens: [{
+        denom: 'ustoc'
+      }]
+  },
+  codebase: {
+    git_repo: 'https://github.com/stochainassociation/stoc-blockchain-mainnet',
+    recommended_version: 'latest-a2d23f37',
+    compatible_versions: ['latest-a2d23f37'],
+    consensus: {
+      type: 'cometbft',
+      version: 'v0.38.19'
+    },
+    genesis: {
+      genesis_url: 'https://rpc-stoc-mainnet.stochainscan.io/genesis'
+    },
+    sdk: {
+      type: 'cosmos',
+      version: 'v0.53.3'
+    },
+    ibc: {
+      type: 'go',
+      version: 'v8.7.0'
+    }
+  },
+  description: 'STO Chain is a Cosmos-based blockchain network designed to enable the digitization, compliance, and cross-chain circulation of real assets such as real estate, stocks, and commodities through blockchain technology.',
+  logo_URIs: {
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stoc/images/stoc-logo.png'
+  },
+  apis: {
+    rpc: [{
+        address: 'https://rpc-stoc-mainnet.stochainscan.io/',
+        provider: 'STO Chain'
+      }],
+    rest: [{
+        address: 'https://api-stoc-mainnet.stochainscan.io/',
+        provider: 'STO Chain'
+      }],
+    grpc: [{
+        address: 'grpc-stoc-mainnet.stochainscan.io:443',
+        provider: 'STO Chain'
+      }]
+  },
+  explorers: [{
+      kind: 'stochainscan',
+      url: 'https://stochainscan.io/en',
+      tx_page: 'https://stochainscan.io/en/transaction/${txHash}',
+      account_page: 'https://stochainscan.io/en/address/${accountAddress}'
+    }],
+  images: [{
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stoc/images/stoc-logo.png'
+    }]
+};
+export default info;

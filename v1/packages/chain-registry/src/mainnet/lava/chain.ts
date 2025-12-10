@@ -144,6 +144,10 @@ const info: Chain = {
       {
         address: 'https://rpc-lava.winnode.xyz',
         provider: 'Winnode'
+      },
+      {
+        address: 'https://rpc-lava.vinjan.xyz',
+        provider: 'Vinjan.Inc'
       }
     ],
     rest: [
@@ -214,6 +218,10 @@ const info: Chain = {
       {
         address: 'https://api-lava.winnode.xyz',
         provider: 'Winnode'
+      },
+      {
+        address: 'https://api-lava.vinjan.xyz',
+        provider: 'Vinjan.Inc'
       }
     ],
     grpc: [
@@ -264,6 +272,10 @@ const info: Chain = {
       {
         address: 'grpc-lava.winnode.xyz:443',
         provider: 'Winnode'
+      },
+      {
+        address: 'grpc-lava.vinjan.xyz:29990',
+        provider: 'Vinjan.Inc'
       }
     ]
   },

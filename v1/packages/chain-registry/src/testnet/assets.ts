@@ -124,6 +124,7 @@ import * as _terra2testnet from './terra2testnet';
 import * as _terratestnet from './terratestnet';
 import * as _titannettestnet from './titannettestnet';
 import * as _titantestnet from './titantestnet';
+import * as _tstoctestnet from './tstoctestnet';
 import * as _tucanatestnet from './tucanatestnet';
 import * as _ulastestnet from './ulastestnet';
 import * as _unificationtestnet from './unificationtestnet';
@@ -264,6 +265,7 @@ const assets: AssetList[] = [
   _terratestnet.assets,
   _titannettestnet.assets,
   _titantestnet.assets,
+  _tstoctestnet.assets,
   _tucanatestnet.assets,
   _ulastestnet.assets,
   _unificationtestnet.assets,
