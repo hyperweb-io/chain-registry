@@ -2837,6 +2837,45 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'The EPIX coin, the lifeblood of the Epix network, providing the utility that powers every interaction and transaction within the ecosystem.',
+      denom_units: [{
+          denom: 'ibc/776917313EC3252954ED622945D4979651ACD909A18E528283F46D7B166F20BF',
+          exponent: 0,
+          aliases: ['aepix']
+        }, {
+          denom: 'epix',
+          exponent: 18
+        }],
+      base: 'ibc/776917313EC3252954ED622945D4979651ACD909A18E528283F46D7B166F20BF',
+      name: 'Epix',
+      display: 'epix',
+      symbol: 'EPIX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
+        }],
+      socials: {
+        website: 'https://epix.zone/',
+        x: 'https://x.com/zone_epix'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'aepix',
+            chain_name: 'epix'
+          },
+          chain: {
+            channel_id: 'channel-108456'
+          }
+        }]
+    },
+    {
       description: 'The native EVM, governance and staking token of the Evmos Hub',
       denom_units: [{
           denom: 'ibc/6AE98883D4D5D5FF9E50D7130F1305DA2FFA0C652D1DD9C123657C6B4EB2DF8A',
@@ -9123,6 +9162,45 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-1411'
+          }
+        }]
+    },
+    {
+      description: 'The EPIX coin, the lifeblood of the Epix network, providing the utility that powers every interaction and transaction within the ecosystem.',
+      denom_units: [{
+          denom: 'ibc/776917313EC3252954ED622945D4979651ACD909A18E528283F46D7B166F20BF',
+          exponent: 0,
+          aliases: ['aepix']
+        }, {
+          denom: 'epix',
+          exponent: 18
+        }],
+      base: 'ibc/776917313EC3252954ED622945D4979651ACD909A18E528283F46D7B166F20BF',
+      name: 'Epix',
+      display: 'epix',
+      symbol: 'EPIX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
+        }],
+      socials: {
+        website: 'https://epix.zone/',
+        x: 'https://x.com/zone_epix'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'aepix',
+            chain_name: 'epix'
+          },
+          chain: {
+            channel_id: 'channel-108456'
           }
         }]
     },

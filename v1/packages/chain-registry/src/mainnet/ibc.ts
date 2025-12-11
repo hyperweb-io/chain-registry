@@ -54,6 +54,7 @@ import * as _echelon from './echelon';
 import * as _elys from './elys';
 import * as _emoney from './emoney';
 import * as _empowerchain from './empowerchain';
+import * as _epix from './epix';
 import * as _evmos from './evmos';
 import * as _fandomchain from './fandomchain';
 import * as _fetchhub from './fetchhub';
@@ -229,6 +230,7 @@ const ibc: IBCInfo[] = [
   ..._elys.ibc,
   ..._emoney.ibc,
   ..._empowerchain.ibc,
+  ..._epix.ibc,
   ..._evmos.ibc,
   ..._fandomchain.ibc,
   ..._fetchhub.ibc,

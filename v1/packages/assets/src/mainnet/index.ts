@@ -52,6 +52,7 @@ export * as echelon from './echelon';
 export * as elys from './elys';
 export * as emoney from './emoney';
 export * as empowerchain from './empowerchain';
+export * as epix from './epix';
 export * as evmos from './evmos';
 export * as fandomchain from './fandomchain';
 export * as fetchhub from './fetchhub';

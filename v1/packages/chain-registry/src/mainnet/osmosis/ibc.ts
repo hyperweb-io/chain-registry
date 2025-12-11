@@ -1675,6 +1675,37 @@ const info: IBCInfo[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain_1: {
+      chain_name: 'epix',
+      chain_id: 'epix_1916-1',
+      client_id: '07-tendermint-0',
+      connection_id: 'connection-1'
+    },
+    chain_2: {
+      chain_name: 'osmosis',
+      chain_id: 'osmosis-1',
+      client_id: '07-tendermint-3641',
+      connection_id: 'connection-10988'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-0',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-108456',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'ACTIVE',
+          preferred: true
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain_1: {
       chain_name: 'evmos',
       chain_id: 'evmos_9001-2',
       client_id: '07-tendermint-0',
