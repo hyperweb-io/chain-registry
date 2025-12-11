@@ -230,6 +230,10 @@ const info: Chain = {
       {
         address: 'https://rpc.cosmoshub-4-archive.citizenweb3.com:443',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://cosmoshub-mainnet.chain.whenmoonwhenlambo.money',
+        provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }
     ],
     rest: [
@@ -369,6 +373,10 @@ const info: Chain = {
       {
         address: 'https://api.cosmoshub-4.citizenweb3.com:443',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://cosmoshub-mainnet.chain.whenmoonwhenlambo.money',
+        provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }
     ],
     grpc: [
@@ -468,6 +476,10 @@ const info: Chain = {
       {
         address: 'grpc.cosmoshub-4.citizenweb3.com:443',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'cosmoshub-mainnet.chain.whenmoonwhenlambo.money:443',
+        provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }
     ]
   },
@@ -591,6 +603,15 @@ const info: Chain = {
       url: 'https://validatorinfo.com/networks/cosmoshub/overview',
       validatorPage: 'https://validatorinfo.com/networks/cosmoshub/validators',
       proposalPage: 'https://validatorinfo.com/networks/cosmoshub/governance'
+    },
+    {
+      kind: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥',
+      url: 'https://explorer.whenmoonwhenlambo.money/cosmos',
+      txPage: 'https://explorer.whenmoonwhenlambo.money/cosmos/tx/${txHash}',
+      accountPage: 'https://explorer.whenmoonwhenlambo.money/cosmos/account/${accountAddress}',
+      validatorPage: 'https://explorer.whenmoonwhenlambo.money/cosmos/staking/${validatorAddress}',
+      proposalPage: 'https://explorer.whenmoonwhenlambo.money/cosmos/gov/${proposalId}',
+      blockPage: 'https://explorer.whenmoonwhenlambo.money/cosmos/block/${blockHeight}'
     }
   ],
   images: [{

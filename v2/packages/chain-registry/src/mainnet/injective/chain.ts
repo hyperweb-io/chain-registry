@@ -218,7 +218,11 @@ const info: Chain = {
         address: 'injective-grpc.noders.services:33090',
         provider: '[NODERS]TEAM'
       }
-    ]
+    ],
+    evmHttpJsonrpc: [{
+        address: 'https://injective.json-rpc.decentrio.ventures',
+        provider: 'Decentrio'
+      }]
   },
   explorers: [
     {

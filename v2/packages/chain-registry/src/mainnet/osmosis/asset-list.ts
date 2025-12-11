@@ -22741,6 +22741,46 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/NINEDOLLERS.png'
         }]
+    },
+    {
+      description: 'The native token of EpixChain',
+      denomUnits: [{
+          denom: 'ibc/776917313EC3252954ED622945D4979651ACD909A18E528283F46D7B166F20BF',
+          exponent: 0,
+          aliases: ['aepix']
+        }, {
+          denom: 'epix',
+          exponent: 18
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/776917313EC3252954ED622945D4979651ACD909A18E528283F46D7B166F20BF',
+      name: 'Epix',
+      display: 'epix',
+      symbol: 'EPIX',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'epix',
+            baseDenom: 'aepix',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-108456',
+            path: 'transfer/channel-108456/aepix'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'epix',
+            baseDenom: 'aepix'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
+        }]
     }
   ]
 };
