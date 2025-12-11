@@ -62,6 +62,6 @@ ${header('REPORTING BUGS')}
     ${normal('Report bugs at')} ${chalk.underline('https://github.com/hyperweb-io/chain-registry/issues')}
 
 ${header('COPYRIGHT')}
-    ${normal('Copyright 2024 Interweb, Inc. Licensed under MIT.')}
+    ${normal('Copyright 2024 Constructive Licensed under MIT.')}
 `.trim();
 }

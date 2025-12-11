@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/hyperweb-io/chain-registry"
   },
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "publishConfig": {
     "access": "restricted"
   },

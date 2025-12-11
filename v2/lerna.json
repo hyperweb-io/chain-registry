@@ -14,7 +14,7 @@
   "command": {
     "create": {
       "homepage": "https://github.com/hyperweb-io/chain-registry",
-      "license": "SEE LICENSE IN LICENSE",
+      "license": "MIT",
       "access": "restricted"
     },
     "publish": {

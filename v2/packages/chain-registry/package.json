@@ -4,7 +4,7 @@
   "description": "Cosmos chain registry ⚛️",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "homepage": "https://github.com/hyperweb-io/chain-registry/tree/master/packages/chain-registry#readme",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "main": "index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",
