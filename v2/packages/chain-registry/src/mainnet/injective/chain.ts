@@ -219,10 +219,20 @@ const info: Chain = {
         provider: '[NODERS]TEAM'
       }
     ],
-    evmHttpJsonrpc: [{
+    evmHttpJsonrpc: [
+      {
         address: 'https://injective.json-rpc.decentrio.ventures',
         provider: 'Decentrio'
-      }]
+      },
+      {
+        address: 'https://injective-evm-rpc.scvsecurity.io',
+        provider: 'SCV Security'
+      },
+      {
+        address: 'https://injective-evm-rpc.highstakes.ch',
+        provider: 'High Stakes 🇨🇭'
+      }
+    ]
   },
   explorers: [
     {
