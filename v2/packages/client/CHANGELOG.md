@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.122 (2025-12-13)
+
+**Note:** Version bump only for package @chain-registry/client
+
+
+
+
+
 ## 2.0.121 (2025-12-12)
 
 **Note:** Version bump only for package @chain-registry/client
