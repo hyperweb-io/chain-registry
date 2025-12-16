@@ -2837,7 +2837,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The EPIX coin, the lifeblood of the Epix network, providing the utility that powers every interaction and transaction within the ecosystem.',
+      description: 'Epix is designed to power a completely decentralized internet, where websites are hosted by everyone and controlled by no one, making the web unstoppable.',
       denom_units: [{
           denom: 'ibc/776917313EC3252954ED622945D4979651ACD909A18E528283F46D7B166F20BF',
           exponent: 0,
@@ -9166,7 +9166,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The EPIX coin, the lifeblood of the Epix network, providing the utility that powers every interaction and transaction within the ecosystem.',
+      description: 'Epix is designed to power a completely decentralized internet, where websites are hosted by everyone and controlled by no one, making the web unstoppable.',
       denom_units: [{
           denom: 'ibc/776917313EC3252954ED622945D4979651ACD909A18E528283F46D7B166F20BF',
           exponent: 0,

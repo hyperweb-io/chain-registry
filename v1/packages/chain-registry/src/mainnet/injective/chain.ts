@@ -231,6 +231,14 @@ const info: Chain = {
       {
         address: 'https://injective-evm-rpc.highstakes.ch',
         provider: 'High Stakes 🇨🇭'
+      },
+      {
+        address: 'https://sentry.evm-rpc.injective.network',
+        provider: 'injectivelabs.org'
+      },
+      {
+        address: 'https://injectiveevm-rpc.polkachu.com',
+        provider: 'Polkachu'
       }
     ]
   },
