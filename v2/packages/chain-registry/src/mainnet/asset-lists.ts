@@ -58,6 +58,7 @@ import * as _cryptoorgchain from './cryptoorgchain';
 import * as _decentr from './decentr';
 import * as _desmos from './desmos';
 import * as _dhealth from './dhealth';
+import * as _divine from './divine';
 import * as _doravota from './doravota';
 import * as _dungeon from './dungeon';
 import * as _dydx from './dydx';
@@ -282,6 +283,7 @@ const assetList: AssetList[] = [
   _decentr.assetList,
   _desmos.assetList,
   _dhealth.assetList,
+  _divine.assetList,
   _doravota.assetList,
   _dungeon.assetList,
   _dydx.assetList,

@@ -515,6 +515,50 @@ const info: AssetList = {
         x: 'https://x.com/CryproTrtl'
       },
       typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'The fee token of AtomOne',
+      denomUnits: [{
+          denom: 'ibc/82931180F0962712BFABB189083A94C77EA90E269ABFC6D310AF922B2B14E011',
+          exponent: 0
+        }, {
+          denom: 'photon',
+          exponent: 6
+        }],
+      base: 'ibc/82931180F0962712BFABB189083A94C77EA90E269ABFC6D310AF922B2B14E011',
+      name: 'Photon',
+      display: 'photon',
+      symbol: 'PHOTON',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'atomone',
+            baseDenom: 'uphoton'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/photon.svg'
+        }],
+      socials: {
+        website: 'https://atom.one',
+        x: 'https://x.com/_atomone'
+      },
+      coingeckoId: 'photon-2',
+      typeAsset: 'ics20',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'atomone',
+            baseDenom: 'uphoton',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-6',
+            path: 'transfer/channel-6/uphoton'
+          }
+        }]
     }
   ]
 };
