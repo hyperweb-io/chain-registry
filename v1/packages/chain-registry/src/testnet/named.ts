@@ -31,6 +31,7 @@ export * as daodiseotestnet from './daodiseotestnet';
 export * as deardogetestnet from './deardogetestnet';
 export * as desmostestnet from './desmostestnet';
 export * as dhealthtestnet from './dhealthtestnet';
+export * as divinetestnet from './divinetestnet';
 export * as doravotatestnet from './doravotatestnet';
 export * as dydxtestnet from './dydxtestnet';
 export * as dymensiontestnet1 from './dymensiontestnet1';

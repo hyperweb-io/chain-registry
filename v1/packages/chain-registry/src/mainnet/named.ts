@@ -56,6 +56,7 @@ export * as cryptoorgchain from './cryptoorgchain';
 export * as decentr from './decentr';
 export * as desmos from './desmos';
 export * as dhealth from './dhealth';
+export * as divine from './divine';
 export * as doravota from './doravota';
 export * as dungeon from './dungeon';
 export * as dydx from './dydx';

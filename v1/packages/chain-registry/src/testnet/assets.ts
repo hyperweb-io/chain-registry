@@ -33,6 +33,7 @@ import * as _daodiseotestnet from './daodiseotestnet';
 import * as _deardogetestnet from './deardogetestnet';
 import * as _desmostestnet from './desmostestnet';
 import * as _dhealthtestnet from './dhealthtestnet';
+import * as _divinetestnet from './divinetestnet';
 import * as _doravotatestnet from './doravotatestnet';
 import * as _dydxtestnet from './dydxtestnet';
 import * as _dymensiontestnet1 from './dymensiontestnet1';
@@ -174,6 +175,7 @@ const assets: AssetList[] = [
   _deardogetestnet.assets,
   _desmostestnet.assets,
   _dhealthtestnet.assets,
+  _divinetestnet.assets,
   _doravotatestnet.assets,
   _dydxtestnet.assets,
   _dymensiontestnet1.assets,
