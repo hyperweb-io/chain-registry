@@ -29,30 +29,30 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/bze-alphateam/bze',
-    recommendedVersion: 'v7.2.0',
-    compatibleVersions: ['v7.2.0'],
+    recommendedVersion: 'v8.0.0',
+    compatibleVersions: ['v8.0.0'],
     binaries: {
-      "darwin/amd64": 'https://github.com/bze-alphateam/bze/releases/download/v7.2.0/bze-7.2.0-darwin-amd64.tar.gz',
-      "darwin/arm64": 'https://github.com/bze-alphateam/bze/releases/download/v7.2.0/bze-7.2.0-darwin-arm64.tar.gz',
-      "linux/amd64": 'https://github.com/bze-alphateam/bze/releases/download/v7.2.0/bze-7.2.0-linux-amd64.tar.gz',
-      "linux/arm64": 'https://github.com/bze-alphateam/bze/releases/download/v7.2.0/bze-7.2.0-linux-arm64.tar.gz',
-      "windows/amd64": 'https://github.com/bze-alphateam/bze/releases/download/v7.2.0/bze-7.2.0-win64.zip'
+      "darwin/amd64": 'https://github.com/bze-alphateam/bze/releases/download/v8.0.0/bze-8.0.0-darwin-amd64.tar.gz',
+      "darwin/arm64": 'https://github.com/bze-alphateam/bze/releases/download/v8.0.0/bze-8.0.0-darwin-arm64.tar.gz',
+      "linux/amd64": 'https://github.com/bze-alphateam/bze/releases/download/v8.0.0/bze-8.0.0-linux-amd64.tar.gz',
+      "linux/arm64": 'https://github.com/bze-alphateam/bze/releases/download/v8.0.0/bze-8.0.0-linux-arm64.tar.gz',
+      "windows/amd64": 'https://github.com/bze-alphateam/bze/releases/download/v8.0.0/bze-8.0.0-win64.zip'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/bze-alphateam/bze/main/genesis.json'
     },
-    tag: 'v7.2.0',
+    tag: 'v8.0.0',
     sdk: {
       type: 'cosmos',
-      version: 'v0.45.16'
+      version: 'v0.50.14'
     },
     consensus: {
       type: 'cometbft',
-      version: 'v0.34.27'
+      version: 'v0.38.17'
     },
     ibc: {
       type: 'go',
-      version: 'v4.5.1'
+      version: 'v8.7.0'
     }
   },
   logoURIs: {

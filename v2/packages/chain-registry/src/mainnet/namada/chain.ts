@@ -30,7 +30,7 @@ const info: Chain = {
     }
   },
   codebase: {
-    gitRepo: 'https://github.com/anoma/namada'
+    gitRepo: 'https://github.com/namada-net/namada'
   },
   apis: {
     rpc: [
@@ -106,6 +106,12 @@ const info: Chain = {
   },
   explorers: [
     {
+      kind: 'Namada Explorer',
+      url: 'https://namada.world/',
+      txPage: 'https://namada.world/transactions/${txHash}',
+      accountPage: 'https://namada.world/account/${accountAddress}'
+    },
+    {
       kind: 'Explorer75',
       url: 'https://explorer75.org/namada',
       txPage: 'https://explorer75.org/namada/tx/${txHash}',
@@ -132,7 +138,8 @@ const info: Chain = {
     {
       kind: 'Coverlet',
       url: 'https://namada.coverlet.io/',
-      txPage: 'https://namada.coverlet.io/tx/${txHash}'
+      txPage: 'https://namada.coverlet.io/tx/${txHash}',
+      accountPage: 'https://namada.coverlet.io/address/${accountAddress}'
     }
   ],
   logoURIs: {
