@@ -32,32 +32,32 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/persistenceOne/persistenceCore',
-    recommendedVersion: 'v12.0.0-rc0',
-    compatibleVersions: ['v12.0.0-rc0'],
+    recommendedVersion: 'v16.0.0-rc0',
+    compatibleVersions: ['v16.0.0-rc0'],
     binaries: {
-      "linux/amd64": 'https://github.com/persistenceOne/persistenceCore/releases/download/v12.0.0-rc0/persistenceCore-v12.0.0-rc0-linux-amd64.tar.gz'
+      "linux/amd64": 'https://github.com/persistenceOne/persistenceCore/releases/download/v16.0.0-rc0/persistenceCore-v16.0.0-rc0-linux-amd64.tar.gz'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/persistenceOne/networks/auditOne/test-core-2/test-core-2/genesis.json'
     },
-    tag: 'v12.0.0-rc0',
+    tag: 'v16.0.0-rc0',
     sdk: {
       type: 'cosmos',
-      version: 'v0.47.14',
-      tag: 'v0.47.14-lsm',
-      repo: 'https://github.com/persistenceOne/cosmos-sdk'
+      version: 'v0.53.4',
+      tag: 'v0.53.4',
+      repo: 'https://github.com/cosmos/cosmos-sdk'
     },
     consensus: {
       type: 'cometbft',
-      version: 'v0.37.15'
+      version: 'v0.38.19'
     },
     cosmwasm: {
-      version: 'v0.46.0',
+      version: 'v0.60.2',
       enabled: true
     },
     ibc: {
       type: 'go',
-      version: 'v7.10.0',
+      version: 'v10.4.0',
       icsEnabled: ['ics20-1', 'ics27-1']
     }
   },
