@@ -11,6 +11,7 @@ const info: Chain = {
   slip44: 877,
   bech32Prefix: 'tnam',
   daemonName: 'unam',
+  nodeHome: '$HOME/.local/share/namada',
   keyAlgos: ['ed25519'],
   fees: {
     feeTokens: [{
@@ -32,8 +33,13 @@ const info: Chain = {
   codebase: {
     gitRepo: 'https://github.com/namada-net/namada'
   },
+  description: 'Namada is a composable privacy layer for the multichain ecosystem. It\'s a proof-of-stake Layer 1 designed to protect user data through a shielded asset hub and shielded cross-chain transactions. Namada can support any asset and helps bring data protection to existing chains, dapps, tokens, and NFTs. Built primarily in Rust, Namada uses CometBFT consensus and the IBC (Inter-Blockchain Communication) protocol for multichain interoperability, with the ability to expand to additional ecosystems beyond IBC. By leveraging advanced cryptography such as zk-SNARKs and a strong interoperability model, Namada serves as a privacy-preserving building block for users interacting across many blockchains and protocols.',
   apis: {
     rpc: [
+      {
+        provider: 'Heliax',
+        address: 'https://rpc.namada.net'
+      },
       {
         provider: 'TuDudes',
         address: 'https://rpc.namada.tududes.com'
@@ -41,14 +47,6 @@ const info: Chain = {
       {
         provider: 'Mandragora',
         address: 'https://namada-rpc.mandragora.io'
-      },
-      {
-        provider: 'PowerStaking',
-        address: 'https://namadam.powerstaking.tech'
-      },
-      {
-        provider: 'stake.systems',
-        address: 'https://namada-main.stakesystems.io'
       },
       {
         provider: '5ElementsNodes',
@@ -59,20 +57,12 @@ const info: Chain = {
         address: 'https://namada-mainnet-rpc.itrocket.net'
       },
       {
-        provider: 'Sproutstake',
-        address: 'https://namada-rpc.sproutstake.space'
-      },
-      {
         provider: 'Papadritta',
         address: 'https://rpc.papadritta.com'
       },
       {
         provider: 'Decentrio',
         address: 'https://namada.rpc.decentrio.ventures'
-      },
-      {
-        provider: 'StakePool',
-        address: 'https://rpc.namada.stakepool.dev.br'
       },
       {
         provider: 'TNSO',
@@ -91,16 +81,84 @@ const info: Chain = {
         address: 'https://namada.loserboy.xyz'
       },
       {
-        provider: 'jacky1988',
-        address: 'https://namada.itudou.xyz'
-      },
-      {
         provider: 'Validatus',
         address: 'https://rpc.namada.validatus.com'
       },
       {
         provider: 'anodeofzen',
         address: 'https://namada-rpc.zenode.app'
+      },
+      {
+        provider: 'max-02',
+        address: 'https://rpc.namada.max-02.xyz'
+      },
+      {
+        provider: 'Grand Valley',
+        address: 'https://lightnode-rpc-mainnet-namada.grandvalleys.com'
+      },
+      {
+        provider: 'deNodes',
+        address: 'https://namada-mainnet-rpc.denodes.xyz'
+      },
+      {
+        provider: 'shield-crypto',
+        address: 'https://namada-public-rpc.shield-crypto.com'
+      },
+      {
+        provider: 'EmberStake',
+        address: 'https://namada-rpc.emberstake.xyz'
+      },
+      {
+        provider: 'NODERS',
+        address: 'https://namada-rpc.noders.services'
+      },
+      {
+        provider: 'Wavefive',
+        address: 'https://namada-rpc.wavefive.xyz'
+      },
+      {
+        provider: 'Architect Nodes',
+        address: 'https://rpc-namada.architectnodes.com'
+      },
+      {
+        provider: 'Citizen Web3',
+        address: 'https://rpc.namada-archive.citizenweb3.com'
+      },
+      {
+        provider: 'Coverlet',
+        address: 'https://rpc.namada.coverlet.io'
+      },
+      {
+        provider: 'CroutonDigital',
+        address: 'https://namada-mainnet-rpc.crouton.digital'
+      },
+      {
+        provider: '0xWave',
+        address: 'https://namada-rpc.0xwave.com'
+      },
+      {
+        provider: 'Cosmic Validator',
+        address: 'https://namada-rpc.cosmicvalidator.com'
+      },
+      {
+        provider: 'Hadesguard',
+        address: 'https://namada-rpc.hadesguard.tech'
+      },
+      {
+        provider: 'LiveRaveN',
+        address: 'https://namada.rpc.liveraven.net'
+      },
+      {
+        provider: 'TdrSys',
+        address: 'https://namada.tdrsys.com'
+      },
+      {
+        provider: 'Nodes.Guru',
+        address: 'https://rpc-1.namada.nodes.guru'
+      },
+      {
+        provider: 'StakeUp',
+        address: 'https://rpc.namada.stakeup.tech'
       }
     ]
   },

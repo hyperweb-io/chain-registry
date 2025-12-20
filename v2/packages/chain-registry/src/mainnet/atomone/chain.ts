@@ -188,6 +188,10 @@ const info: Chain = {
       {
         address: 'https://atomone.blocksync.me/rpc',
         provider: 'BlockSync'
+      },
+      {
+        address: 'https://atomone-mainnet-rpc.oshvank.xyz',
+        provider: '🏆OshVanK🏆'
       }
     ],
     rest: [
@@ -314,6 +318,10 @@ const info: Chain = {
       {
         address: 'https://atomone.blocksync.me/api',
         provider: 'BlockSync'
+      },
+      {
+        address: 'https://atomone-mainnet-api.oshvank.xyz',
+        provider: '🏆OshVanK🏆'
       }
     ],
     grpc: [
@@ -400,6 +408,10 @@ const info: Chain = {
       {
         address: 'atomone-grpc.blocksync.me:443',
         provider: 'BlockSync'
+      },
+      {
+        address: 'atomone-mainnet-grpc.oshvank.xyz:443',
+        provider: '🏆OshVanK🏆'
       }
     ]
   },
@@ -523,6 +535,12 @@ const info: Chain = {
       url: 'https://dashboard.blocksync.me/atomone',
       txPage: 'https://dashboard.blocksync.me/atomone/tx/${txHash}',
       accountPage: 'https://dashboard.blocksync.me/atomone/account/${accountAddress}'
+    },
+    {
+      kind: '🏆OshVanK🏆',
+      url: 'https://explorer.oshvank.xyz/AtomOne',
+      txPage: 'https://explorer.oshvank.xyz/AtomOne/tx/${txHash}',
+      accountPage: 'https://explorer.oshvank.xyz/AtomOne/account/${accountAddress}'
     }
   ],
   images: [{
