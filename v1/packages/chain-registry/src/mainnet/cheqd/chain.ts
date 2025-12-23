@@ -151,7 +151,7 @@ const info: Chain = {
         provider: 'Kleomedes'
       },
       {
-        address: 'https://cheqd.srvs.vnodesv.net/rest',
+        address: 'https://api.cheqd.srvs.vnodesv.net',
         provider: 'vNodes[V] Ser[V]ices'
       },
       {

@@ -1218,6 +1218,7 @@ const info: AssetList = {
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/arbluna.svg'
         }],
+      coingecko_id: 'eris-arbitrage-luna',
       traces: [{
           type: 'synthetic',
           counterparty: {
@@ -1539,6 +1540,21 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xaut.png'
         }]
+    },
+    {
+      type_asset: 'sdk.coin',
+      description: 'Eris Protocol LUNA/ampLUNA ampLP',
+      denom_units: [{
+          denom: 'factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/32/project/amplp',
+          exponent: 0
+        }, {
+          denom: 'amplp',
+          exponent: 6
+        }],
+      base: 'factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/32/project/amplp',
+      name: 'Eris Protocol LUNA/ampLUNA ampLP',
+      display: 'amplp',
+      symbol: 'LUNA-ampLUNA-ampLP'
     }
   ]
 };

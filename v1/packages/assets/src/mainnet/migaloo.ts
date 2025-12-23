@@ -10987,6 +10987,7 @@ const assets: AssetList = {
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/arbluna.svg'
         }],
+      coingecko_id: 'eris-arbitrage-luna',
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -19576,6 +19577,7 @@ const assets: AssetList = {
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/arbluna.svg'
         }],
+      coingecko_id: 'eris-arbitrage-luna',
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
