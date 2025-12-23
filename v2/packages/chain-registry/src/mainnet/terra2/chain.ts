@@ -80,20 +80,12 @@ const info: Chain = {
         provider: 'stakely'
       },
       {
-        address: 'https://phoenix-rpc.terra.dev:443',
-        provider: 'Terraform Labs'
-      },
-      {
         address: 'https://terra-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
       {
         address: 'https://rpc-terra-01.stakeflow.io',
         provider: 'Stakeflow'
-      },
-      {
-        address: 'https://rpc-archive-terra.r93axnodes.cloud:443',
-        provider: 'r93AX Nodes'
       },
       {
         address: 'https://rpc-terra.cosmos-spaces.cloud',
@@ -104,24 +96,12 @@ const info: Chain = {
         provider: 'High Stakes 🇨🇭'
       },
       {
-        address: 'https://rpc-terra.wildsage.io',
-        provider: '🧙 WildSage Labs'
-      },
-      {
-        address: 'https://terra.interstellar-lounge.org',
-        provider: 'Interstellar Lounge 🍸'
-      },
-      {
         address: 'https://terra2.tdrsys.com:2053',
         provider: 'TdrSys'
       },
       {
         address: 'https://terra-rpc.cosmosrescue.dev:8443',
         provider: 'cosmosrescue'
-      },
-      {
-        address: 'https://terra-rpc.chainroot.io',
-        provider: 'Chainroot'
       },
       {
         address: 'https://terra-rpc.node39.top',
@@ -134,24 +114,12 @@ const info: Chain = {
     ],
     rest: [
       {
-        address: 'https://lcd-terra.wildsage.io',
-        provider: '🧙 WildSage Labs'
-      },
-      {
         address: 'https://phoenix-lcd.terra.dev:443',
         provider: 'Terraform Labs'
       },
       {
-        address: 'https://api-terra.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://terra-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https://api-archive-terra.r93axnodes.cloud:443',
-        provider: 'r93AX Nodes'
       },
       {
         address: 'https://api-terra-01.stakeflow.io',
@@ -160,10 +128,6 @@ const info: Chain = {
       {
         address: 'https://terra-phoenix-api.highstakes.ch',
         provider: 'High Stakes 🇨🇭'
-      },
-      {
-        address: 'https://terra-rest.interstellar-lounge.org',
-        provider: 'Interstellar Lounge 🍸'
       },
       {
         address: 'https://terra2.tdrsys.com',

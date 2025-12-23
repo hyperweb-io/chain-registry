@@ -78,10 +78,6 @@ const info: Chain = {
         provider: 'TdrSys'
       },
       {
-        address: 'https://bitsong-rpc.panthea.eu',
-        provider: 'Panthea EU'
-      },
-      {
         address: 'https://rpc.bitsong.mathnodes.com',
         provider: 'MathNodes'
       },
@@ -124,10 +120,6 @@ const info: Chain = {
         provider: 'TdrSys'
       },
       {
-        address: 'https://bitsong-api.panthea.eu',
-        provider: 'Panthea EU'
-      },
-      {
         address: 'https://api.bitsong.mathnodes.com',
         provider: 'MathNodes'
       },
@@ -160,10 +152,6 @@ const info: Chain = {
       {
         address: 'grpc.bitsong.mathnodes.com:443',
         provider: 'MathNodes'
-      },
-      {
-        address: 'bitsong-grpc.panthea.eu:16750',
-        provider: 'Panthea EU'
       },
       {
         address: 'bitsong-grpc.noders.services:20090',
