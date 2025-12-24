@@ -31,7 +31,19 @@ const info: Chain = {
     }
   },
   codebase: {
-    git_repo: 'https://github.com/namada-net/namada'
+    git_repo: 'https://github.com/namada-net/namada',
+    language: {
+      type: 'rust'
+    },
+    consensus: {
+      type: 'cometbft'
+    },
+    genesis: {
+      genesis_url: 'https://github.com/namada-net/namada-mainnet-genesis/tree/main/genesis'
+    },
+    ibc: {
+      type: 'go'
+    }
   },
   description: 'Namada is a composable privacy layer for the multichain ecosystem. It\'s a proof-of-stake Layer 1 designed to protect user data through a shielded asset hub and shielded cross-chain transactions. Namada can support any asset and helps bring data protection to existing chains, dapps, tokens, and NFTs. Built primarily in Rust, Namada uses CometBFT consensus and the IBC (Inter-Blockchain Communication) protocol for multichain interoperability, with the ability to expand to additional ecosystems beyond IBC. By leveraging advanced cryptography such as zk-SNARKs and a strong interoperability model, Namada serves as a privacy-preserving building block for users interacting across many blockchains and protocols.',
   apis: {
@@ -74,7 +86,7 @@ const info: Chain = {
       },
       {
         provider: 'L0vd',
-        address: 'https://namada-mainnet.rpc.l0vd.com:443'
+        address: 'https://namada-mainnet.rpc.l0vd.com'
       },
       {
         provider: 'Loser',

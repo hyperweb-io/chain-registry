@@ -128,6 +128,7 @@ import * as _medasdigital from './medasdigital';
 import * as _meme from './meme';
 import * as _migaloo from './migaloo';
 import * as _milkyway from './milkyway';
+import * as _mirage from './mirage';
 import * as _mises from './mises';
 import * as _mtgbp from './mtgbp';
 import * as _mun from './mun';
@@ -353,6 +354,7 @@ const chains: Chain[] = [
   _meme.chain,
   _migaloo.chain,
   _milkyway.chain,
+  _mirage.chain,
   _mises.chain,
   _mtgbp.chain,
   _mun.chain,
