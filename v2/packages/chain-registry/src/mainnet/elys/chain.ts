@@ -243,7 +243,7 @@ const info: Chain = {
         provider: 'Node39'
       },
       {
-        address: 'https://elys.srvs.vnodesv.net/rest',
+        address: 'https://rest.elys.srvs.vnodesv.net',
         provider: 'vNodes[V] Ser[V]ices'
       },
       {

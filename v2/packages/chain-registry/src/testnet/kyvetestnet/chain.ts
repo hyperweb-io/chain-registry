@@ -28,13 +28,13 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/KYVENetwork/chain',
-    recommendedVersion: 'v1.5.0',
-    compatibleVersions: ['v1.0.0-rc0', 'v1.5.0'],
+    recommendedVersion: 'v2.2.0',
+    compatibleVersions: ['v2.2.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/KYVENetwork/chain/releases/download/v1.5.0/kyved_kaon_linux_amd64',
-      "linux/arm64": 'https://github.com/KYVENetwork/chain/releases/download/v1.5.0/kyved_kaon_linux_arm64',
-      "darwin/amd64": 'https://github.com/KYVENetwork/chain/releases/download/v1.5.0/kyved_kaon_darwin_amd64',
-      "darwin/arm64": 'https://github.com/KYVENetwork/chain/releases/download/v1.5.0/kyved_kaon_darwin_arm64'
+      "linux/amd64": 'https://github.com/KYVENetwork/chain/releases/download/v2.2.0/kyved_kaon_linux_amd64',
+      "linux/arm64": 'https://github.com/KYVENetwork/chain/releases/download/v2.2.0/kyved_kaon_linux_arm64',
+      "darwin/amd64": 'https://github.com/KYVENetwork/chain/releases/download/v2.2.0/kyved_kaon_darwin_amd64',
+      "darwin/arm64": 'https://github.com/KYVENetwork/chain/releases/download/v2.2.0/kyved_kaon_darwin_arm64'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/KYVENetwork/networks/main/kaon-1/genesis.json'

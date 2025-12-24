@@ -16,10 +16,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'ukyve',
-        fixedMinGasPrice: 2,
-        lowGasPrice: 2,
-        averageGasPrice: 3,
-        highGasPrice: 6
+        fixedMinGasPrice: 62.5,
+        lowGasPrice: 62.5,
+        averageGasPrice: 80,
+        highGasPrice: 125
       }]
   },
   staking: {
@@ -29,30 +29,30 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/KYVENetwork/chain',
-    recommendedVersion: 'v2.1.0',
-    compatibleVersions: ['v2.1.0'],
+    recommendedVersion: 'v2.2.0',
+    compatibleVersions: ['v2.2.0'],
     consensus: {
       type: 'cometbft',
       version: 'v0.38.17',
       tag: 'v0.38.17'
     },
     binaries: {
-      "linux/amd64": 'https://github.com/KYVENetwork/chain/releases/download/v2.1.0/kyved_mainnet_linux_amd64.tar.gz',
-      "linux/arm64": 'https://github.com/KYVENetwork/chain/releases/download/v2.1.0/kyved_mainnet_linux_arm64.tar.gz',
-      "darwin/amd64": 'https://github.com/KYVENetwork/chain/releases/download/v2.1.0/kyved_mainnet_darwin_amd64.tar.gz',
-      "darwin/arm64": 'https://github.com/KYVENetwork/chain/releases/download/v2.1.0/kyved_mainnet_darwin_arm64.tar.gz'
+      "linux/amd64": 'https://github.com/KYVENetwork/chain/releases/download/v2.2.0/kyved_mainnet_linux_amd64.tar.gz',
+      "linux/arm64": 'https://github.com/KYVENetwork/chain/releases/download/v2.2.0/kyved_mainnet_linux_arm64.tar.gz',
+      "darwin/amd64": 'https://github.com/KYVENetwork/chain/releases/download/v2.2.0/kyved_mainnet_darwin_amd64.tar.gz',
+      "darwin/arm64": 'https://github.com/KYVENetwork/chain/releases/download/v2.2.0/kyved_mainnet_darwin_arm64.tar.gz'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/KYVENetwork/networks/main/kyve-1/genesis.json'
     },
     sdk: {
       type: 'cosmos',
-      version: 'v0.50.12',
-      tag: 'v0.50.12-kyve-rc1'
+      version: 'v0.50.14',
+      tag: 'v0.50.14-kyve-rc1'
     },
     ibc: {
       type: 'go',
-      version: 'v8.3.1'
+      version: 'v8.7.0'
     }
   },
   logoURIs: {
