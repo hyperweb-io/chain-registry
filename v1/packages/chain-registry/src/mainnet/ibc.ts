@@ -100,6 +100,7 @@ import * as _medasdigital from './medasdigital';
 import * as _meme from './meme';
 import * as _migaloo from './migaloo';
 import * as _milkyway from './milkyway';
+import * as _mirage from './mirage';
 import * as _mtgbp from './mtgbp';
 import * as _neutaro from './neutaro';
 import * as _neutron from './neutron';
@@ -276,6 +277,7 @@ const ibc: IBCInfo[] = [
   ..._meme.ibc,
   ..._migaloo.ibc,
   ..._milkyway.ibc,
+  ..._mirage.ibc,
   ..._mtgbp.ibc,
   ..._neutaro.ibc,
   ..._neutron.ibc,

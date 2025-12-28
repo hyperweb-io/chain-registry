@@ -5340,6 +5340,43 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'The native token of Mirage. A social platform for true discourse. Decentralized. Unstoppable.',
+      denom_units: [{
+          denom: 'ibc/FD0C5BF3009F3300961E52E4E0160D6901B1B3E7D0475766C5D960A9D3999B32',
+          exponent: 0,
+          aliases: ['umirage']
+        }, {
+          denom: 'mirage',
+          exponent: 6
+        }],
+      base: 'ibc/FD0C5BF3009F3300961E52E4E0160D6901B1B3E7D0475766C5D960A9D3999B32',
+      name: 'Mirage',
+      display: 'mirage',
+      symbol: 'MIRAGE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mirage/images/mirage.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mirage/images/mirage.png'
+        }],
+      socials: {
+        website: 'https://mirage.foundation',
+        x: 'https://x.com/getmirage'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'umirage',
+            chain_name: 'mirage'
+          },
+          chain: {
+            channel_id: 'channel-108600'
+          }
+        }]
+    },
+    {
       description: 'MTGBP the stablecoin of the future.',
       denom_units: [{
           denom: 'ibc/698687E700D8B255FAB6B8145CE25B12591C99296965DB5C2C5DD5FE0AB685BF',
@@ -11665,6 +11702,43 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-89298'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Mirage. A social platform for true discourse. Decentralized. Unstoppable.',
+      denom_units: [{
+          denom: 'ibc/FD0C5BF3009F3300961E52E4E0160D6901B1B3E7D0475766C5D960A9D3999B32',
+          exponent: 0,
+          aliases: ['umirage']
+        }, {
+          denom: 'mirage',
+          exponent: 6
+        }],
+      base: 'ibc/FD0C5BF3009F3300961E52E4E0160D6901B1B3E7D0475766C5D960A9D3999B32',
+      name: 'Mirage',
+      display: 'mirage',
+      symbol: 'MIRAGE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mirage/images/mirage.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mirage/images/mirage.png'
+        }],
+      socials: {
+        website: 'https://mirage.foundation',
+        x: 'https://x.com/getmirage'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'umirage',
+            chain_name: 'mirage'
+          },
+          chain: {
+            channel_id: 'channel-108600'
           }
         }]
     },

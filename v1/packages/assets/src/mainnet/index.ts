@@ -98,6 +98,7 @@ export * as medasdigital from './medasdigital';
 export * as meme from './meme';
 export * as migaloo from './migaloo';
 export * as milkyway from './milkyway';
+export * as mirage from './mirage';
 export * as mtgbp from './mtgbp';
 export * as neutaro from './neutaro';
 export * as neutron from './neutron';
