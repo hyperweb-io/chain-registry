@@ -862,6 +862,31 @@ const info: AssetList = {
             baseDenom: 'factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stlth'
           }
         }]
+    },
+    {
+      description: 'The official token of the Clown Society, originating on Stargaze.',
+      denomUnits: [{
+          denom: 'factory/stars1khzuhuhv02vaturh9x9lz4jach824x9umcgghl/uclw',
+          exponent: 0
+        }, {
+          denom: 'CLW',
+          exponent: 6
+        }],
+      base: 'factory/stars1khzuhuhv02vaturh9x9lz4jach824x9umcgghl/uclw',
+      name: 'Clown Society',
+      display: 'CLW',
+      symbol: 'CLW',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/clw.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/clw.png'
+        }],
+      socials: {
+        website: 'https://www.clown-society.com/',
+        x: 'https://x.com/ClownsocieT'
+      },
+      typeAsset: 'sdk.coin'
     }
   ]
 };

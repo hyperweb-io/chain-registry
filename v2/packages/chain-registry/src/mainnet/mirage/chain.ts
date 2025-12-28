@@ -27,6 +27,7 @@ const info: Chain = {
       }]
   },
   codebase: {
+    gitRepo: 'https://github.com/MirageFoundation/mirage-node',
     sdk: {
       type: 'cosmos',
       version: '0.53'
