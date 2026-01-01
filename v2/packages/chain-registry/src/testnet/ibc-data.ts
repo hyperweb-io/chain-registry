@@ -11,6 +11,7 @@ import * as _composabletestnet from './composabletestnet';
 import * as _coreumtestnet from './coreumtestnet';
 import * as _cosmoshubtestnet from './cosmoshubtestnet';
 import * as _cosmosicsprovidertestnet from './cosmosicsprovidertestnet';
+import * as _divinetestnet from './divinetestnet';
 import * as _doravotatestnet from './doravotatestnet';
 import * as _dydxtestnet from './dydxtestnet';
 import * as _elystestnet from './elystestnet';
@@ -64,6 +65,7 @@ const ibcData: IBCData[] = [
   ..._coreumtestnet.ibcData,
   ..._cosmoshubtestnet.ibcData,
   ..._cosmosicsprovidertestnet.ibcData,
+  ..._divinetestnet.ibcData,
   ..._doravotatestnet.ibcData,
   ..._dydxtestnet.ibcData,
   ..._elystestnet.ibcData,

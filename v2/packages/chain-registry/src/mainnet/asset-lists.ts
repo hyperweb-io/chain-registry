@@ -103,6 +103,7 @@ import * as _joltify from './joltify';
 import * as _juno from './juno';
 import * as _kava from './kava';
 import * as _kichain from './kichain';
+import * as _kiichain from './kiichain';
 import * as _kimanetwork from './kimanetwork';
 import * as _konstellation from './konstellation';
 import * as _kopi from './kopi';
@@ -329,6 +330,7 @@ const assetList: AssetList[] = [
   _juno.assetList,
   _kava.assetList,
   _kichain.assetList,
+  _kiichain.assetList,
   _kimanetwork.assetList,
   _konstellation.assetList,
   _kopi.assetList,
