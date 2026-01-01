@@ -101,6 +101,7 @@ export * as joltify from './joltify';
 export * as juno from './juno';
 export * as kava from './kava';
 export * as kichain from './kichain';
+export * as kiichain from './kiichain';
 export * as kimanetwork from './kimanetwork';
 export * as konstellation from './konstellation';
 export * as kopi from './kopi';

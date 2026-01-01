@@ -80,8 +80,8 @@ const info: Chain = {
   },
   explorers: [{
       kind: 'custom',
-      url: 'https://explorer.kiichain.io/',
-      account_page: 'https://explorer.kiichain.io/account/${accountAddress}'
+      url: 'https://testnet.explorer.kiichain.io',
+      account_page: 'https://testnet.explorer.kiichain.io/account/${accountAddress}'
     }],
   keywords: [
     'testnet',

@@ -9,6 +9,7 @@ export * as composabletestnet from './composabletestnet';
 export * as coreumtestnet from './coreumtestnet';
 export * as cosmoshubtestnet from './cosmoshubtestnet';
 export * as cosmosicsprovidertestnet from './cosmosicsprovidertestnet';
+export * as divinetestnet from './divinetestnet';
 export * as doravotatestnet from './doravotatestnet';
 export * as dydxtestnet from './dydxtestnet';
 export * as elystestnet from './elystestnet';

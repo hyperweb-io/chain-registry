@@ -866,13 +866,13 @@ const info: AssetList = {
     {
       description: 'The official token of the Clown Society, originating on Stargaze.',
       denom_units: [{
-          denom: 'factory/stars1khzuhuhv02vaturh9x9lz4jach824x9umcgghl/uclw',
+          denom: 'factory/stars1khzuhuhv02vaturh9x9lz4jach824x9umcgghl/uCLW',
           exponent: 0
         }, {
           denom: 'CLW',
           exponent: 6
         }],
-      base: 'factory/stars1khzuhuhv02vaturh9x9lz4jach824x9umcgghl/uclw',
+      base: 'factory/stars1khzuhuhv02vaturh9x9lz4jach824x9umcgghl/uCLW',
       name: 'Clown Society',
       display: 'CLW',
       symbol: 'CLW',
