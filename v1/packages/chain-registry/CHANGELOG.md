@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.69.451](https://github.com/hyperweb-io/chain-registry/compare/chain-registry@1.69.450...chain-registry@1.69.451) (2026-01-05)
+
+**Note:** Version bump only for package chain-registry
+
+
+
+
+
 ## [1.69.450](https://github.com/hyperweb-io/chain-registry/compare/chain-registry@1.69.449...chain-registry@1.69.450) (2026-01-04)
 
 **Note:** Version bump only for package chain-registry
