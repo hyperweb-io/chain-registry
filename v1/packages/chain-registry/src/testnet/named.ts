@@ -73,6 +73,7 @@ export * as mantrachaintestnet2 from './mantrachaintestnet2';
 export * as marstestnet from './marstestnet';
 export * as metanovaversetestnet from './metanovaversetestnet';
 export * as migalootestnet from './migalootestnet';
+export * as monolythiumsprintnet from './monolythiumsprintnet';
 export * as neuratestnet from './neuratestnet';
 export * as neutrontestnet from './neutrontestnet';
 export * as nibirutestnet from './nibirutestnet';

@@ -1,0 +1,27 @@
+import { AssetList } from '@chain-registry/types';
+const info: AssetList = {
+  $schema: '../../assetlist.schema.json',
+  chain_name: 'monolythiumsprintnet',
+  assets: [{
+      description: 'The native staking and gas token of Monolythium Sprintnet.',
+      denom_units: [{
+          denom: 'alyth',
+          exponent: 0
+        }, {
+          denom: 'lyth',
+          exponent: 18
+        }],
+      type_asset: 'sdk.coin',
+      base: 'alyth',
+      name: 'Monolythium Sprintnet',
+      display: 'lyth',
+      symbol: 'LYTH',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/monolythiumsprintnet/images/lyth.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/monolythiumsprintnet/images/lyth.png'
+        }]
+    }]
+};
+export default info;

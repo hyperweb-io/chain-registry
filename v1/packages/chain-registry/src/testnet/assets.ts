@@ -75,6 +75,7 @@ import * as _mantrachaintestnet2 from './mantrachaintestnet2';
 import * as _marstestnet from './marstestnet';
 import * as _metanovaversetestnet from './metanovaversetestnet';
 import * as _migalootestnet from './migalootestnet';
+import * as _monolythiumsprintnet from './monolythiumsprintnet';
 import * as _neuratestnet from './neuratestnet';
 import * as _neutrontestnet from './neutrontestnet';
 import * as _nibirutestnet from './nibirutestnet';
@@ -217,6 +218,7 @@ const assets: AssetList[] = [
   _marstestnet.assets,
   _metanovaversetestnet.assets,
   _migalootestnet.assets,
+  _monolythiumsprintnet.assets,
   _neuratestnet.assets,
   _neutrontestnet.assets,
   _nibirutestnet.assets,
