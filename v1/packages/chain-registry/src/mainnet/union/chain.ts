@@ -89,6 +89,10 @@ const info: Chain = {
       {
         address: 'https://union-rpc.highstakes.ch',
         provider: 'High Stakes 🇨🇭'
+      },
+      {
+        address: 'https://union-mainnet-rpc.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     rest: [
@@ -123,6 +127,10 @@ const info: Chain = {
       {
         address: 'https://union-api.highstakes.ch',
         provider: 'High Stakes 🇨🇭'
+      },
+      {
+        address: 'https://union-mainnet-api.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     grpc: [
@@ -153,6 +161,10 @@ const info: Chain = {
       {
         address: 'm-union-grpc.ruangnode.com:14090',
         provider: 'ruangnode'
+      },
+      {
+        address: 'union-mainnet-grpc.shazoes.xyz:30990',
+        provider: 'Shazoes'
       }
     ]
   },

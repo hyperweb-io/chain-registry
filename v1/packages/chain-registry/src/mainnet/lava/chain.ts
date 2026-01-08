@@ -148,6 +148,10 @@ const info: Chain = {
       {
         address: 'https://rpc-lava.vinjan.xyz',
         provider: 'Vinjan.Inc'
+      },
+      {
+        address: 'https://lava-mainnet-rpc.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     rest: [
@@ -222,6 +226,10 @@ const info: Chain = {
       {
         address: 'https://api-lava.vinjan.xyz',
         provider: 'Vinjan.Inc'
+      },
+      {
+        address: 'https://lava-mainnet-api.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     grpc: [
@@ -276,6 +284,10 @@ const info: Chain = {
       {
         address: 'grpc-lava.vinjan.xyz:29990',
         provider: 'Vinjan.Inc'
+      },
+      {
+        address: 'lava-mainnet-grpc.shazoes.xyz:30790',
+        provider: 'Shazoes'
       }
     ]
   },

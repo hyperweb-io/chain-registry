@@ -88,6 +88,10 @@ const info: Chain = {
       {
         address: 'https://rpc.axone-archive.citizenweb3.com',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://axone-mainnet-rpc.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     rest: [
@@ -118,6 +122,10 @@ const info: Chain = {
       {
         address: 'https://api.axone-archive.citizenweb3.com',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://axone-mainnet-api.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     grpc: [
@@ -144,6 +152,10 @@ const info: Chain = {
       {
         address: 'grpc.axone-archive.citizenweb3.com:443',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'axone-mainnet-grpc.shazoes.xyz:30490',
+        provider: 'Shazoes'
       }
     ]
   },

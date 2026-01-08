@@ -75,6 +75,10 @@ const info: Chain = {
       {
         address: 'https://hippo-rpc.node39.top:443',
         provider: 'Node39'
+      },
+      {
+        address: 'https://hippo-mainnet-rpc.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     rest: [
@@ -89,6 +93,10 @@ const info: Chain = {
       {
         address: 'https://hippo-api.node39.top:443',
         provider: 'Node39'
+      },
+      {
+        address: 'https://hippo-mainnet-api.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     grpc: [
@@ -103,6 +111,10 @@ const info: Chain = {
       {
         address: 'hippo-grpc.node39.top:443',
         provider: 'Node39'
+      },
+      {
+        address: 'hippo-mainnet-grpc.shazoes.xyz:30290',
+        provider: 'Shazoes'
       }
     ]
   },
