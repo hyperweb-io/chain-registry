@@ -61,6 +61,10 @@ const info: Chain = {
       {
         address: 'https://nillion-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
+      },
+      {
+        address: 'https://nillion-mainnet-rpc.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     rest: [
@@ -75,6 +79,10 @@ const info: Chain = {
       {
         address: 'https://nillion-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
+      },
+      {
+        address: 'https://nillion-mainnet-api.shazoes.xyz',
+        provider: 'Shazoes'
       }
     ],
     grpc: [
@@ -89,6 +97,10 @@ const info: Chain = {
       {
         address: 'nillion-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
+      },
+      {
+        address: 'nillion-mainnet-grpc.shazoes.xyz:30890',
+        provider: 'Shazoes'
       }
     ]
   },

@@ -22803,6 +22803,47 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/SLAYER.png'
         }]
+    },
+    {
+      description: 'An alloy of EPIX asset variants on Osmosis.',
+      extendedDescription: 'Multiple EPIX variants on Osmosis comprise the liquidity backing of a tokenized transmuter pool to create an alloy of EPIX.',
+      denomUnits: [{
+          denom: 'factory/osmo130tfawc7katf7jwzt2rjdranhqju929rjra3xwsrfsd85hedh3tsssy9j7/alloyed/allEPIX',
+          exponent: 0
+        }, {
+          denom: 'allEPIX',
+          exponent: 12
+        }],
+      typeAsset: 'sdk.coin',
+      address: 'osmo130tfawc7katf7jwzt2rjdranhqju929rjra3xwsrfsd85hedh3tsssy9j7',
+      base: 'factory/osmo130tfawc7katf7jwzt2rjdranhqju929rjra3xwsrfsd85hedh3tsssy9j7/alloyed/allEPIX',
+      name: 'Epix',
+      display: 'allEPIX',
+      symbol: 'EPIX',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chainName: 'epix',
+            baseDenom: 'aepix'
+          },
+          provider: 'Osmosis'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg',
+          theme: {
+            circle: true
+          }
+        }, {
+          imageSync: {
+            chainName: 'epix',
+            baseDenom: 'aepix'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
+        }]
     }
   ]
 };
