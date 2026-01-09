@@ -45,6 +45,7 @@ import * as _cryptoorgchain from './cryptoorgchain';
 import * as _decentr from './decentr';
 import * as _desmos from './desmos';
 import * as _dhealth from './dhealth';
+import * as _divine from './divine';
 import * as _doravota from './doravota';
 import * as _dungeon from './dungeon';
 import * as _dydx from './dydx';
@@ -222,6 +223,7 @@ const ibc: IBCInfo[] = [
   ..._decentr.ibc,
   ..._desmos.ibc,
   ..._dhealth.ibc,
+  ..._divine.ibc,
   ..._doravota.ibc,
   ..._dungeon.ibc,
   ..._dydx.ibc,

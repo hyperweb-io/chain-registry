@@ -2240,6 +2240,43 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Divine Ray Chain (DRC) powers a public-permissioned blockchain designed for conscious creators and community networks. DRC is the native asset used to secure the chain, enable transactions, reward participation, and support the emerging divine digital economy.',
+      denom_units: [{
+          denom: 'ibc/33AA30DB77B9580083EBDCF8B94A6ACE2258E00148B98EE744F990562E4D0325',
+          exponent: 0,
+          aliases: ['uDRC']
+        }, {
+          denom: 'DRC',
+          exponent: 6
+        }],
+      base: 'ibc/33AA30DB77B9580083EBDCF8B94A6ACE2258E00148B98EE744F990562E4D0325',
+      name: 'Divine',
+      display: 'DRC',
+      symbol: 'DRC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/divine/images/udrc.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/divine/images/udrc.png'
+        }],
+      socials: {
+        website: 'https://divineray.ca/',
+        telegram: 'https://t.me/+WF9GmuVpuOFmOTEx'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uDRC',
+            chain_name: 'divine'
+          },
+          chain: {
+            channel_id: 'channel-108620'
+          }
+        }]
+    },
+    {
       description: 'The native staking and governance token of the Theta testnet version of the Dora Vota.',
       denom_units: [{
           denom: 'ibc/672406ADE4EDFD8C5EA7A0D0DD0C37E431DA7BD8393A15CD2CFDE3364917EB2A',
@@ -8602,6 +8639,43 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-75030'
+          }
+        }]
+    },
+    {
+      description: 'Divine Ray Chain (DRC) powers a public-permissioned blockchain designed for conscious creators and community networks. DRC is the native asset used to secure the chain, enable transactions, reward participation, and support the emerging divine digital economy.',
+      denom_units: [{
+          denom: 'ibc/33AA30DB77B9580083EBDCF8B94A6ACE2258E00148B98EE744F990562E4D0325',
+          exponent: 0,
+          aliases: ['uDRC']
+        }, {
+          denom: 'DRC',
+          exponent: 6
+        }],
+      base: 'ibc/33AA30DB77B9580083EBDCF8B94A6ACE2258E00148B98EE744F990562E4D0325',
+      name: 'Divine',
+      display: 'DRC',
+      symbol: 'DRC',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/divine/images/udrc.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/divine/images/udrc.png'
+        }],
+      socials: {
+        website: 'https://divineray.ca/',
+        telegram: 'https://t.me/+WF9GmuVpuOFmOTEx'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uDRC',
+            chain_name: 'divine'
+          },
+          chain: {
+            channel_id: 'channel-108620'
           }
         }]
     },

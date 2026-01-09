@@ -67,6 +67,37 @@ const info: IBCInfo[] = [
     chain_1: {
       chain_name: 'cosmosicsprovidertestnet',
       chain_id: 'provider',
+      client_id: '07-tendermint-399',
+      connection_id: 'connection-286'
+    },
+    chain_2: {
+      chain_name: 'divinetestnet',
+      chain_id: 'divine-testnet-1',
+      client_id: '07-tendermint-4',
+      connection_id: 'connection-1'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-572',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-1',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../../ibc_data.schema.json',
+    chain_1: {
+      chain_name: 'cosmosicsprovidertestnet',
+      chain_id: 'provider',
       client_id: '07-tendermint-159',
       connection_id: 'connection-107'
     },

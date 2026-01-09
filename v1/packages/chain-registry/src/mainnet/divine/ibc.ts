@@ -1,21 +1,21 @@
 import { IBCInfo } from '@chain-registry/types';
 const info: IBCInfo[] = [{
-    $schema: '../../ibc_data.schema.json',
+    $schema: '../ibc_data.schema.json',
     chain_1: {
-      chain_name: 'cosmosicsprovidertestnet',
-      chain_id: 'provider',
-      client_id: '07-tendermint-399',
-      connection_id: 'connection-286'
+      chain_name: 'cosmoshub',
+      chain_id: 'cosmoshub-4',
+      client_id: '07-tendermint-1457',
+      connection_id: 'connection-1199'
     },
     chain_2: {
-      chain_name: 'divinetestnet',
-      chain_id: 'divine-testnet-1',
-      client_id: '07-tendermint-4',
-      connection_id: 'connection-1'
+      chain_name: 'divine',
+      chain_id: 'divine-1',
+      client_id: '07-tendermint-6',
+      connection_id: 'connection-6'
     },
     channels: [{
         chain_1: {
-          channel_id: 'channel-572',
+          channel_id: 'channel-1672',
           port_id: 'transfer'
         },
         chain_2: {
@@ -30,18 +30,18 @@ const info: IBCInfo[] = [{
         }
       }]
   }, {
-    $schema: '../../ibc_data.schema.json',
+    $schema: '../ibc_data.schema.json',
     chain_1: {
-      chain_name: 'divinetestnet',
-      chain_id: 'divine-testnet-1',
-      client_id: '07-tendermint-0',
-      connection_id: 'connection-0'
+      chain_name: 'divine',
+      chain_id: 'divine-1',
+      client_id: '07-tendermint-2',
+      connection_id: 'connection-2'
     },
     chain_2: {
-      chain_name: 'osmosistestnet',
-      chain_id: 'osmo-test-5',
-      client_id: '07-tendermint-4998',
-      connection_id: 'connection-4361'
+      chain_name: 'osmosis',
+      chain_id: 'osmosis-1',
+      client_id: '07-tendermint-3647',
+      connection_id: 'connection-10994'
     },
     channels: [{
         chain_1: {
@@ -49,7 +49,7 @@ const info: IBCInfo[] = [{
           port_id: 'transfer'
         },
         chain_2: {
-          channel_id: 'channel-11231',
+          channel_id: 'channel-108620',
           port_id: 'transfer'
         },
         ordering: 'unordered',
