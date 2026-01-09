@@ -1,21 +1,21 @@
 import { IBCData } from '@chain-registry/types';
 const info: IBCData[] = [{
-    $schema: '../../ibc_data.schema.json',
+    $schema: '../ibc_data.schema.json',
     chain1: {
-      chainName: 'cosmosicsprovidertestnet',
-      chainId: 'provider',
-      clientId: '07-tendermint-399',
-      connectionId: 'connection-286'
+      chainName: 'cosmoshub',
+      chainId: 'cosmoshub-4',
+      clientId: '07-tendermint-1457',
+      connectionId: 'connection-1199'
     },
     chain2: {
-      chainName: 'divinetestnet',
-      chainId: 'divine-testnet-1',
-      clientId: '07-tendermint-4',
-      connectionId: 'connection-1'
+      chainName: 'divine',
+      chainId: 'divine-1',
+      clientId: '07-tendermint-6',
+      connectionId: 'connection-6'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-572',
+          channelId: 'channel-1672',
           portId: 'transfer'
         },
         chain2: {
@@ -30,18 +30,18 @@ const info: IBCData[] = [{
         }
       }]
   }, {
-    $schema: '../../ibc_data.schema.json',
+    $schema: '../ibc_data.schema.json',
     chain1: {
-      chainName: 'divinetestnet',
-      chainId: 'divine-testnet-1',
-      clientId: '07-tendermint-0',
-      connectionId: 'connection-0'
+      chainName: 'divine',
+      chainId: 'divine-1',
+      clientId: '07-tendermint-2',
+      connectionId: 'connection-2'
     },
     chain2: {
-      chainName: 'osmosistestnet',
-      chainId: 'osmo-test-5',
-      clientId: '07-tendermint-4998',
-      connectionId: 'connection-4361'
+      chainName: 'osmosis',
+      chainId: 'osmosis-1',
+      clientId: '07-tendermint-3647',
+      connectionId: 'connection-10994'
     },
     channels: [{
         chain1: {
@@ -49,7 +49,7 @@ const info: IBCData[] = [{
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-11231',
+          channelId: 'channel-108620',
           portId: 'transfer'
         },
         ordering: 'unordered',
