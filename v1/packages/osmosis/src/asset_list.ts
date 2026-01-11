@@ -5379,14 +5379,14 @@ const asset_list: AssetList = {
     {
       description: 'The native token of Mirage. A social platform for true discourse. Decentralized. Unstoppable.',
       denom_units: [{
-          denom: 'ibc/FD0C5BF3009F3300961E52E4E0160D6901B1B3E7D0475766C5D960A9D3999B32',
+          denom: 'ibc/E132A35DC380C8D68E99F46BC7A5083602F171D00E3BE9471541FB1AA62D8BE2',
           exponent: 0,
           aliases: ['umirage']
         }, {
           denom: 'mirage',
           exponent: 6
         }],
-      base: 'ibc/FD0C5BF3009F3300961E52E4E0160D6901B1B3E7D0475766C5D960A9D3999B32',
+      base: 'ibc/E132A35DC380C8D68E99F46BC7A5083602F171D00E3BE9471541FB1AA62D8BE2',
       name: 'Mirage',
       display: 'mirage',
       symbol: 'MIRAGE',
@@ -5404,12 +5404,12 @@ const asset_list: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-0',
+            channel_id: 'channel-1',
             base_denom: 'umirage',
             chain_name: 'mirage'
           },
           chain: {
-            channel_id: 'channel-108600'
+            channel_id: 'channel-108698'
           }
         }]
     },
@@ -11782,14 +11782,14 @@ const asset_list: AssetList = {
     {
       description: 'The native token of Mirage. A social platform for true discourse. Decentralized. Unstoppable.',
       denom_units: [{
-          denom: 'ibc/FD0C5BF3009F3300961E52E4E0160D6901B1B3E7D0475766C5D960A9D3999B32',
+          denom: 'ibc/E132A35DC380C8D68E99F46BC7A5083602F171D00E3BE9471541FB1AA62D8BE2',
           exponent: 0,
           aliases: ['umirage']
         }, {
           denom: 'mirage',
           exponent: 6
         }],
-      base: 'ibc/FD0C5BF3009F3300961E52E4E0160D6901B1B3E7D0475766C5D960A9D3999B32',
+      base: 'ibc/E132A35DC380C8D68E99F46BC7A5083602F171D00E3BE9471541FB1AA62D8BE2',
       name: 'Mirage',
       display: 'mirage',
       symbol: 'MIRAGE',
@@ -11807,12 +11807,12 @@ const asset_list: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-0',
+            channel_id: 'channel-1',
             base_denom: 'umirage',
             chain_name: 'mirage'
           },
           chain: {
-            channel_id: 'channel-108600'
+            channel_id: 'channel-108698'
           }
         }]
     },
