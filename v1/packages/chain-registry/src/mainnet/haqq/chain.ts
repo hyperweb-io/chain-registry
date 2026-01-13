@@ -238,20 +238,14 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/haqq',
-      tx_page: 'https://explorer.chainroot.io/haqq/transactions/${txHash}',
-      account_page: 'https://explorer.chainroot.io/haqq/accounts/${accountAddress}'
+      kind: 'ping.pub',
+      url: 'https://ping.pub/haqq',
+      tx_page: 'https://ping.pub/haqq/tx/${txHash}'
     },
     {
       kind: 'blockscout',
       url: 'https://explorer.haqq.network',
       tx_page: 'https://explorer.haqq.network/tx/${txHash}'
-    },
-    {
-      kind: 'ping.pub',
-      url: 'https://ping.pub/haqq',
-      tx_page: 'https://ping.pub/haqq/tx/${txHash}'
     },
     {
       kind: 'explorers.guru',
@@ -273,11 +267,6 @@ const info: Chain = {
       kind: 'KonsorTech Explorer',
       url: 'https://explorer.konsortech.xyz/haqq',
       tx_page: 'https://explorer.konsortech.xyz/haqq/tx/${txHash}'
-    },
-    {
-      kind: 'Palamar Explorer',
-      url: 'https://explorer.palamar.io/haqq',
-      tx_page: 'https://explorer.palamar.io/haqq/tx/${txHash}'
     },
     {
       kind: '🔥STAVR🔥 Explorer',
