@@ -7,6 +7,7 @@ const info: Chain = {
   prettyName: 'GenesisL1',
   chainType: 'cosmos',
   chainId: 'genesis_29-2',
+  website: 'https://GenesisL1.com',
   bech32Prefix: 'genesis',
   daemonName: 'genesisd',
   nodeHome: '$HOME/.genesis',
@@ -14,9 +15,9 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'el1',
-        lowGasPrice: 51000000000,
-        averageGasPrice: 52000000000,
-        highGasPrice: 53000000000
+        lowGasPrice: 57000000000,
+        averageGasPrice: 58000000000,
+        highGasPrice: 59000000000
       }]
   },
   staking: {
@@ -25,12 +26,12 @@ const info: Chain = {
       }]
   },
   codebase: {
-    gitRepo: 'https://github.com/alpha-omega-labs/genesis-crypto',
+    gitRepo: 'https://github.com/GenesisL1/genesis-crypto',
     recommendedVersion: 'v1.0.0',
     compatibleVersions: ['v1.0.0'],
     genesis: {
       name: 'plan_ethermint',
-      genesisUrl: 'https://raw.githubusercontent.com/alpha-omega-labs/genesis-parameters/main/genesis_29-2/genesis.json'
+      genesisUrl: 'https://raw.githubusercontent.com/GenesisL1/genesis-parameters/main/genesis_29-2/genesis.json'
     },
     sdk: {
       type: 'cosmos',
@@ -42,6 +43,7 @@ const info: Chain = {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.png',
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.svg'
   },
+  description: 'GenesisL1 is a public distributed ledger for decentralized scientific data, assets, applications, and protocols, with a focus on bioinformatics, biotechnology, medicine, and machine learning.',
   apis: {
     rpc: [{
         address: 'https://26657.genesisl1.org',
