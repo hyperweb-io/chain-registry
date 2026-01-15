@@ -62,7 +62,7 @@ const info: Chain = {
         provider: 'Cogwheel ⚙️'
       },
       {
-        address: 'https://rpc-main-symphony.vinjan.xyz',
+        address: 'https://rpc-m.symphony.vinjan-inc.com',
         provider: 'Vinjan.Inc'
       },
       {
@@ -84,7 +84,7 @@ const info: Chain = {
         provider: 'Cogwheel ⚙️'
       },
       {
-        address: 'https://api-main-symphony.vinjan.xyz',
+        address: 'https://api-m.symphony.vinjan-inc.com',
         provider: 'Vinjan.Inc'
       },
       {
@@ -106,7 +106,7 @@ const info: Chain = {
         provider: 'Cogwheel ⚙️'
       },
       {
-        address: 'grpc-main-symphony.vinjan.xyz:21090',
+        address: 'grpc-m.symphony.vinjan-inc.com:21090',
         provider: 'Vinjan.Inc'
       },
       {
@@ -122,9 +122,9 @@ const info: Chain = {
   explorers: [
     {
       kind: 'VinjanXplorer',
-      url: 'https://xplorer.vinjan.xyz/symphony',
-      tx_page: 'https://xplorer.vinjan.xyz/symphony/tx/${txHash}',
-      account_page: 'https://xplorer.vinjan.xyz/symphony/account/${accountAddress}'
+      url: 'https://explorer.vinjan-inc.com/symphony',
+      tx_page: 'https://explorer.vinjan-inc.com/symphony/tx/${txHash}',
+      account_page: 'https://explorer.vinjan-inc.com/symphony/account/${accountAddress}'
     },
     {
       kind: 'Sr20de Explorer',
