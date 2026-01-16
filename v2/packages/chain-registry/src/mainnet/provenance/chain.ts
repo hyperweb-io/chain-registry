@@ -179,12 +179,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/provenance',
-      txPage: 'https://explorer.chainroot.io/provenance/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/provenance/accounts/${accountAddress}'
-    },
-    {
       kind: 'Provenance',
       url: 'https://explorer.provenance.io',
       txPage: 'https://explorer.provenance.io/tx/${txHash}'

@@ -412,12 +412,6 @@ const info: Chain = {
       url: 'https://mainnet.whispernode.com/archway',
       txPage: 'https://mainnet.whispernode.com/archway/tx/${txHash}',
       accountPage: 'https://mainnet.whispernode.com/archway/account/${accountAddress}'
-    },
-    {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/archway',
-      txPage: 'https://explorer.chainroot.io/archway/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/archway/accounts/${accountAddress}'
     }
   ],
   images: [{

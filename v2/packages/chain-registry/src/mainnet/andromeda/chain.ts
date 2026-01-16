@@ -184,12 +184,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/andromeda',
-      txPage: 'https://explorer.chainroot.io/andromeda/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/andromeda/accounts/${accountAddress}'
-    },
-    {
       kind: '🔥STAVR🔥 Explorer',
       url: 'https://explorer.stavr.tech/Andromeda-Mainnet',
       txPage: 'https://explorer.stavr.tech/Andromeda-Mainnet/tx/${txHash}',

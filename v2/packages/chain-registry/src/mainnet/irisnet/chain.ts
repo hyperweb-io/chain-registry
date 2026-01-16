@@ -134,12 +134,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/iris',
-      txPage: 'https://explorer.chainroot.io/iris/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/iris/accounts/${accountAddress}'
-    },
-    {
       kind: 'ezstaking',
       url: 'https://ezstaking.app/irisnet',
       txPage: 'https://ezstaking.app/irisnet/txs/${txHash}',

@@ -214,12 +214,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/chihuahua',
-      txPage: 'https://explorer.chainroot.io/chihuahua/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/chihuahua/accounts/${accountAddress}'
-    },
-    {
       kind: 'ping.pub',
       url: 'https://ping.pub/chihuahua',
       txPage: 'https://ping.pub/chihuahua/tx/${txHash}'
@@ -258,12 +252,6 @@ const info: Chain = {
       url: 'https://explorer.nodeshub.online/chihuahua/',
       txPage: 'https://explorer.nodeshub.online/chihuahua/tx/${txHash}',
       accountPage: 'https://explorer.nodeshub.online/chihuahua/accounts/${accountAddress}'
-    },
-    {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/chihuahua',
-      txPage: 'https://explorer.chainroot.io/chihuahua/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/chihuahua/accounts/${accountAddress}'
     }
   ],
   images: [{

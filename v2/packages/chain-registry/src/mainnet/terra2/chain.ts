@@ -230,12 +230,6 @@ const info: Chain = {
       accountPage: 'https://stakeflow.io/terra/accounts/${accountAddress}'
     },
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/terra',
-      txPage: 'https://explorer.chainroot.io/terra/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/terra/accounts/${accountAddress}'
-    },
-    {
       kind: 'Node39',
       url: 'https://explorer.node39.top/terra',
       txPage: 'https://explorer.node39.top/terra/transactions/${txHash}',

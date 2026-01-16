@@ -318,12 +318,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/persistence',
-      txPage: 'https://explorer.chainroot.io/persistence/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/persistence/accounts/${accountAddress}'
-    },
-    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/persistence',
       txPage: 'https://www.mintscan.io/persistence/transactions/${txHash}',

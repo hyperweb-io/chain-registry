@@ -210,12 +210,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/kyve',
-      txPage: 'https://explorer.chainroot.io/kyve/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/kyve/accounts/${accountAddress}'
-    },
-    {
       kind: 'ezstaking',
       url: 'https://ezstaking.app/kyve',
       txPage: 'https://ezstaking.app/kyve/txs/${txHash}',

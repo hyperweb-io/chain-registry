@@ -483,12 +483,6 @@ const info: Chain = {
       accountPage: 'https://explorer.bonynode.online/atomone/account/${accountAddress}'
     },
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/atomone',
-      txPage: 'https://explorer.chainroot.io/atomone/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/atomone/accounts/${accountAddress}'
-    },
-    {
       kind: 'Ruangnode Explorer',
       url: 'https://explorer.ruangnode.com/dashboard/atomone',
       txPage: 'https://explorer.ruangnode.com/dashboard/atomone/tx/${txHash}',

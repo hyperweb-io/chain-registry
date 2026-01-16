@@ -230,12 +230,6 @@ const info: Chain = {
       url: 'https://staking-explorer.com/explorer/pryzm',
       txPage: 'https://staking-explorer.com/transaction.php?chain=pryzm&tx=${txHash}',
       accountPage: 'https://staking-explorer.com/account.php?chain=pryzm&addr=${accountAddress}'
-    },
-    {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/pryzm',
-      txPage: 'https://explorer.chainroot.io/pryzm/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/pryzm/accounts/${accountAddress}'
     }
   ],
   images: [{

@@ -121,12 +121,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/firmachain',
-      txPage: 'https://explorer.chainroot.io/firmachain/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/firmachain/accounts/${accountAddress}'
-    },
-    {
       kind: 'staking-explorer.com',
       url: 'https://staking-explorer.com/explorer/firmachain',
       txPage: 'https://staking-explorer.com/transaction.php?chain=firmachain&tx=${txHash}',

@@ -253,12 +253,6 @@ const info: Chain = {
       url: 'https://explorer.whenmoonwhenlambo.money/teritori',
       txPage: 'https://explorer.whenmoonwhenlambo.money/teritori/tx/${txHash}',
       accountPage: 'https://explorer.whenmoonwhenlambo.money/teritori/account/${accountAddress}'
-    },
-    {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/teritori',
-      txPage: 'https://explorer.chainroot.io/teritori/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/teritori/accounts/${accountAddress}'
     }
   ],
   images: [{

@@ -125,12 +125,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/lum',
-      txPage: 'https://explorer.chainroot.io/lum/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/lum/accounts/${accountAddress}'
-    },
-    {
       kind: 'ezstaking',
       url: 'https://ezstaking.app/lumnetwork',
       txPage: 'https://ezstaking.app/lumnetwork/txs/${txHash}',

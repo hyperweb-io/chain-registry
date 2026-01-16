@@ -58,11 +58,6 @@ const info: Chain = {
       }]
   },
   explorers: [{
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/paloma',
-      txPage: 'https://explorer.chainroot.io/paloma/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/paloma/accounts/${accountAddress}'
-    }, {
       kind: 'explorers.guru',
       url: 'https://paloma.explorers.guru/',
       txPage: 'https://paloma.explorers.guru/transaction/${txHash}'

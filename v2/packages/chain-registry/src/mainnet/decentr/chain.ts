@@ -100,12 +100,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/decentr',
-      txPage: 'https://explorer.chainroot.io/decentr/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/decentr/accounts/${accountAddress}'
-    },
-    {
       kind: 'decentr.net',
       url: 'https://explorer.decentr.net',
       txPage: 'https://explorer.decentr.net/transactions/${txHash}?networkId=mainnet'

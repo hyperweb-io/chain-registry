@@ -90,12 +90,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/aaronetwork',
-      txPage: 'https://explorer.chainroot.io/aaronetwork/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/aaronetwork/accounts/${accountAddress}'
-    },
-    {
       kind: 'Ping.pub',
       url: 'https://ping.pub/Aaron%20Network',
       txPage: 'https://ping.pub/Aaron%20Network/tx/${txHash}',

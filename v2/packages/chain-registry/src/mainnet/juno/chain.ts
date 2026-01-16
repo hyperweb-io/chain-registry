@@ -267,12 +267,6 @@ const info: Chain = {
       url: 'https://www.stake-hub.xyz/juno'
     },
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/juno',
-      txPage: 'https://explorer.chainroot.io/juno/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/juno/accounts/${accountAddress}'
-    },
-    {
       kind: 'Valopers',
       url: 'https://juno.valopers.com/',
       txPage: 'https://juno.valopers.com/transactions/${txHash}',

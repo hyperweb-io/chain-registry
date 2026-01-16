@@ -115,12 +115,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/althea',
-      txPage: 'https://explorer.chainroot.io/althea/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/althea/accounts/${accountAddress}'
-    },
-    {
       kind: 'staking-explorer.com',
       url: 'https://staking-explorer.com/explorer/althea',
       txPage: 'https://staking-explorer.com/transaction.php?chain=althea&tx=${txHash}',

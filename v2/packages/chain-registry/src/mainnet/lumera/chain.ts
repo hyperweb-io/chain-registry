@@ -84,6 +84,10 @@ const info: Chain = {
       {
         address: 'https://lumera.archive.data.nexus',
         provider: 'Data Nexus'
+      },
+      {
+        address: 'https://lumera-rpc.linknode.org',
+        provider: 'AstroStake'
       }
     ],
     rest: [
@@ -102,27 +106,47 @@ const info: Chain = {
       {
         address: 'https://rest.lumera.archive.data.nexus',
         provider: 'Data Nexus'
+      },
+      {
+        address: 'https://lumera-api.linknode.org',
+        provider: 'AstroStake'
       }
     ],
-    grpc: [{
+    grpc: [
+      {
         address: 'https://grpc.lumera.io:443',
         provider: 'LumeraProtocol'
-      }, {
+      },
+      {
         address: 'https://grpc.lumera.archive.data.nexus:443',
         provider: 'Data Nexus'
-      }]
+      },
+      {
+        address: 'lumera-grpc.linknode.org:443',
+        provider: 'AstroStake'
+      }
+    ]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'ping.pub',
       url: 'https://portal.lumera.io/lumera-mainnet-1/',
       txPage: 'https://portal.lumera.io/lumera-mainnet-1/tx/${txHash}',
       accountPage: 'https://portal.lumera.io/lumera-mainnet-1/account/${accountAddress}'
-    }, {
+    },
+    {
       kind: 'Cosmotracker',
       url: 'https://cosmotracker.com/lumera/',
       txPage: 'https://cosmotracker.com/lumera/tx/${txHash}',
       accountPage: 'https://cosmotracker.com/lumera/account/${accountAddress}'
-    }],
+    },
+    {
+      kind: 'AstroStake',
+      url: 'https://stake.astrostake.xyz/lumera',
+      txPage: 'https://stake.astrostake.xyz/lumera/tx/${txHash}',
+      accountPage: 'https://stake.astrostake.xyz/lumera/address/${accountAddress}'
+    }
+  ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png'
     }],

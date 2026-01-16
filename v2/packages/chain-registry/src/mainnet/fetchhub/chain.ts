@@ -218,12 +218,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/fetchai',
-      txPage: 'https://explorer.chainroot.io/fetchai/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/fetchai/accounts/${accountAddress}'
-    },
-    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/fetchai',
       txPage: 'https://www.mintscan.io/fetchai/transactions/${txHash}',

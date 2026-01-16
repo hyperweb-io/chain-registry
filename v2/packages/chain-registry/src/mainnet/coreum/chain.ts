@@ -191,12 +191,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/coreum',
-      txPage: 'https://explorer.chainroot.io/coreum/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/coreum/accounts/${accountAddress}'
-    },
-    {
       kind: 'Coreum',
       url: 'https://explorer.coreum.com/coreum',
       txPage: 'https://explorer.coreum.com/coreum/transactions/${txHash}',
@@ -243,12 +237,6 @@ const info: Chain = {
       url: 'https://ezstaking.app/coreum',
       txPage: 'https://ezstaking.app/coreum/txs/${txHash}',
       accountPage: 'https://ezstaking.app/coreum/account/${accountAddress}'
-    },
-    {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/coreum',
-      txPage: 'https://explorer.chainroot.io/coreum/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/coreum/accounts/${accountAddress}'
     }
   ],
   keywords: [

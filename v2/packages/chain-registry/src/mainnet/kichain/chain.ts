@@ -141,12 +141,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/kichain',
-      txPage: 'https://explorer.chainroot.io/kichain/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/kichain/accounts/${accountAddress}'
-    },
-    {
       kind: 'ezstaking',
       url: 'https://ezstaking.app/kichain',
       txPage: 'https://ezstaking.app/kichain/txs/${txHash}',

@@ -220,12 +220,6 @@ const info: Chain = {
       txPage: 'https://explorer.tcnetwork.io/seda/transaction/${txHash}'
     },
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/seda',
-      txPage: 'https://explorer.chainroot.io/seda/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/seda/accounts/${accountAddress}'
-    },
-    {
       kind: 'sedaexplorer',
       url: 'https://explorer.seda.xyz/',
       txPage: 'https://explorer.seda.xyz/txs/${txHash}',

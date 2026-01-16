@@ -112,12 +112,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/doravota',
-      txPage: 'https://explorer.chainroot.io/doravota/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/doravota/accounts/${accountAddress}'
-    },
-    {
       kind: 'Dora Vota Ping Pub',
       url: 'https://vota-explorer.dorafactory.org',
       txPage: 'https://vota-explorer.dorafactory.org/doravota/tx/${txHash}'

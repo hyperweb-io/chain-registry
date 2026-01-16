@@ -152,6 +152,10 @@ const info: Chain = {
       {
         address: 'https://lava-mainnet-rpc.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://lava-rpc.linknode.org',
+        provider: 'AstroStake'
       }
     ],
     rest: [
@@ -230,6 +234,10 @@ const info: Chain = {
       {
         address: 'https://lava-mainnet-api.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://lava-api.linknode.org',
+        provider: 'AstroStake'
       }
     ],
     grpc: [
@@ -288,6 +296,10 @@ const info: Chain = {
       {
         address: 'lava-mainnet-grpc.shazoes.xyz:30790',
         provider: 'Shazoes'
+      },
+      {
+        address: 'lava-grpc.linknode.org:443',
+        provider: 'AstroStake'
       }
     ]
   },
@@ -297,12 +309,6 @@ const info: Chain = {
       url: 'https://explorer.onenov.xyz/lava',
       txPage: 'https://explorer.onenov.xyz/lava/transactions/${txHash}',
       accountPage: 'https://explorer.onenov.xyz/lava/accounts/${accountAddress}'
-    },
-    {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/lava',
-      txPage: 'https://explorer.chainroot.io/lava/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/lava/accounts/${accountAddress}'
     },
     {
       kind: 'finteh',
@@ -357,6 +363,12 @@ const info: Chain = {
       url: 'https://winnode.xyz/explorer/lava',
       txPage: 'https://winnode.xyz/explorer/lava/tx/${txHash}',
       accountPage: 'https://winnode.xyz/explorer/lava/account/${accountAddress}'
+    },
+    {
+      kind: 'AstroStake',
+      url: 'https://stake.astrostake.xyz/lava',
+      txPage: 'https://stake.astrostake.xyz/lava/tx/${txHash}',
+      accountPage: 'https://stake.astrostake.xyz/lava/address/${accountAddress}'
     }
   ],
   keywords: [

@@ -240,12 +240,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/omniflix',
-      txPage: 'https://explorer.chainroot.io/omniflix/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/omniflix/accounts/${accountAddress}'
-    },
-    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/omniflix',
       txPage: 'https://www.mintscan.io/omniflix/transactions/${txHash}',

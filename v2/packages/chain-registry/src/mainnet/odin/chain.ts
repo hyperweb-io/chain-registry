@@ -109,12 +109,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/odin',
-      txPage: 'https://explorer.chainroot.io/odin/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/odin/accounts/${accountAddress}'
-    },
-    {
       kind: 'Runa',
       url: 'https://runa.odinprotocol.io/',
       txPage: 'https://runa.odinprotocol.io/transactions/${txHash}'

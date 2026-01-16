@@ -211,12 +211,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/quicksilver',
-      txPage: 'https://explorer.chainroot.io/quicksilver/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/quicksilver/accounts/${accountAddress}'
-    },
-    {
       kind: 'stakeme',
       url: 'https://explorer.quicksilver.zone',
       txPage: 'https://explorer.quicksilver.zone/transactions/${txHash}',

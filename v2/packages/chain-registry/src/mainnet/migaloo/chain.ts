@@ -117,12 +117,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/migaloo',
-      txPage: 'https://explorer.chainroot.io/migaloo/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/migaloo/accounts/${accountAddress}'
-    },
-    {
       kind: 'Migaloo Explorers Guru',
       url: 'https://migaloo.explorers.guru',
       txPage: 'https://migaloo.explorers.guru/transaction/${txHash}',

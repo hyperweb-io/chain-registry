@@ -405,12 +405,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/gitopia',
-      txPage: 'https://explorer.chainroot.io/gitopia/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/gitopia/accounts/${accountAddress}'
-    },
-    {
       kind: 'ping.pub',
       url: 'https://ping.pub/gitopia',
       txPage: 'https://ping.pub/gitopia/tx/${txHash}',

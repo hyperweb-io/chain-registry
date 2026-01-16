@@ -318,12 +318,6 @@ const info: Chain = {
       accountPage: 'https://mainnet.whispernode.com/stargaze/account/${accountAddress}'
     },
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/stargaze',
-      txPage: 'https://explorer.chainroot.io/stargaze/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/stargaze/accounts/${accountAddress}'
-    },
-    {
       kind: 'Valopers',
       url: 'https://stargaze.valopers.com/',
       txPage: 'https://stargaze.valopers.com/transactions/${txHash}',

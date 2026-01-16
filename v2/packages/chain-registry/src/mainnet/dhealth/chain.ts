@@ -83,26 +83,17 @@ const info: Chain = {
         provider: 'NodeStake'
       }]
   },
-  explorers: [
-    {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/dhealth',
-      txPage: 'https://explorer.chainroot.io/dhealth/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/dhealth/accounts/${accountAddress}'
-    },
-    {
+  explorers: [{
       kind: 'staking-explorer.com',
       url: 'https://staking-explorer.com/explorer/dhealth',
       txPage: 'https://staking-explorer.com/transaction.php?chain=dhealth&tx=${txHash}',
       accountPage: 'https://staking-explorer.com/account.php?chain=dhealth&addr=${accountAddress}'
-    },
-    {
+    }, {
       kind: 'nodestake',
       url: 'https://explorer.nodestake.org/dhealth',
       txPage: 'https://explorer.nodestake.org/dhealth/tx/${txHash}',
       accountPage: 'https://explorer.nodestake.org/dhealth/account/${accountAddress}'
-    }
-  ],
+    }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg'

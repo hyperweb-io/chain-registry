@@ -106,12 +106,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/nillion',
-      txPage: 'https://explorer.chainroot.io/nillion/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/nillion/accounts/${accountAddress}'
-    },
-    {
       kind: 'Nillionhub [Noders]',
       url: 'https://nillionhub.org/explorer/dashboard',
       txPage: 'https://nillionhub.org/explorer/transactions/${txHash}',

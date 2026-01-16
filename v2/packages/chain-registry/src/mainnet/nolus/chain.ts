@@ -226,12 +226,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/nolus',
-      txPage: 'https://explorer.chainroot.io/nolus/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/nolus/accounts/${accountAddress}'
-    },
-    {
       kind: 'Nolus Explorer',
       url: 'https://explorer.nolus.io/pirin-1',
       txPage: 'https://explorer.nolus.io/pirin-1/tx/${txHash}',

@@ -224,12 +224,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/dydx',
-      txPage: 'https://explorer.chainroot.io/dydx/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/dydx/accounts/${accountAddress}'
-    },
-    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/dydx',
       txPage: 'https://www.mintscan.io/dydx/txs/${txHash}',

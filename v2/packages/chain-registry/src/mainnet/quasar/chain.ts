@@ -242,12 +242,6 @@ const info: Chain = {
       url: 'https://mainnet.whispernode.com/quasar',
       txPage: 'https://mainnet.whispernode.com/quasar/tx/${txHash}',
       accountPage: 'https://mainnet.whispernode.com/quasar/account/${accountAddress}'
-    },
-    {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/quasar',
-      txPage: 'https://explorer.chainroot.io/quasar/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/quasar/accounts/${accountAddress}'
     }
   ],
   keywords: ['mainnet'],

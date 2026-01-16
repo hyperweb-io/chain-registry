@@ -122,12 +122,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/xpla',
-      txPage: 'https://explorer.chainroot.io/xpla/transactions/${txHash}',
-      accountPage: 'https://explorer.chainroot.io/xpla/accounts/${accountAddress}'
-    },
-    {
       kind: 'explorer.xpla',
       url: 'https://explorer.xpla.io/mainnet',
       txPage: 'https://explorer.xpla.io/mainnet/tx/${txHash}'
