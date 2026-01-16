@@ -266,12 +266,6 @@ const info: Chain = {
       account_page: 'https://stakeflow.io/shentu/accounts/${accountAddress}'
     },
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/shentu',
-      tx_page: 'https://explorer.chainroot.io/shentu/transactions/${txHash}',
-      account_page: 'https://explorer.chainroot.io/shentu/accounts/${accountAddress}'
-    },
-    {
       kind: 'Node39',
       url: 'https://explorer.node39.top/shentu',
       tx_page: 'https://explorer.node39.top/shentu/transactions/${txHash}',

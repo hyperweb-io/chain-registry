@@ -225,12 +225,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/passage',
-      tx_page: 'https://explorer.chainroot.io/passage/transactions/${txHash}',
-      account_page: 'https://explorer.chainroot.io/passage/accounts/${accountAddress}'
-    },
-    {
       kind: 'aneka',
       url: 'https://passage.aneka.io',
       tx_page: 'https://passage.aneka.io/txs/${txHash}',

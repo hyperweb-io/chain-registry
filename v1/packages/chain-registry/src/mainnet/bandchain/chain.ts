@@ -218,12 +218,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/band',
-      tx_page: 'https://explorer.chainroot.io/band/transactions/${txHash}',
-      account_page: 'https://explorer.chainroot.io/band/accounts/${accountAddress}'
-    },
-    {
       kind: 'cosmoscan',
       url: 'https://cosmoscan.io',
       tx_page: 'https://cosmoscan.io/tx/${txHash}'

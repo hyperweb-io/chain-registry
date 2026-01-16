@@ -101,12 +101,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/nym',
-      tx_page: 'https://explorer.chainroot.io/nym/transactions/${txHash}',
-      account_page: 'https://explorer.chainroot.io/nym/accounts/${accountAddress}'
-    },
-    {
       kind: 'Nodes Guru explorer',
       url: 'https://nym.explorers.guru/',
       tx_page: 'https://nym.explorers.guru/transaction/${txHash}',

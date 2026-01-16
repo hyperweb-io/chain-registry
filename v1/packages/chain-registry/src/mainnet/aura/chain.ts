@@ -241,12 +241,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/aura',
-      tx_page: 'https://explorer.chainroot.io/aura/transactions/${txHash}',
-      account_page: 'https://explorer.chainroot.io/aura/accounts/${accountAddress}'
-    },
-    {
       kind: 'aurascan',
       url: 'https://aurascan.io',
       tx_page: 'https://aurascan.io/tx/${txHash}',

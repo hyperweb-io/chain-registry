@@ -811,12 +811,6 @@ const info: Chain = {
       account_page: 'https://mainnet.whispernode.com/osmosis/account/${accountAddress}'
     },
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/osmosis',
-      tx_page: 'https://explorer.chainroot.io/osmosis/transactions/${txHash}',
-      account_page: 'https://explorer.chainroot.io/osmosis/accounts/${accountAddress}'
-    },
-    {
       kind: 'Valopers',
       url: 'https://osmosis.valopers.com/',
       tx_page: 'https://osmosis.valopers.com/transactions/${txHash}',

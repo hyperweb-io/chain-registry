@@ -171,12 +171,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/kava',
-      tx_page: 'https://explorer.chainroot.io/kava/transactions/${txHash}',
-      account_page: 'https://explorer.chainroot.io/kava/accounts/${accountAddress}'
-    },
-    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/kava',
       tx_page: 'https://www.mintscan.io/kava/transactions/${txHash}',

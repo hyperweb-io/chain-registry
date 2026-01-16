@@ -15,10 +15,10 @@ const info: Chain = {
   fees: {
     fee_tokens: [{
         denom: 'umirage',
-        fixed_min_gas_price: 0.025,
-        low_gas_price: 0.025,
-        average_gas_price: 0.05,
-        high_gas_price: 0.1
+        fixed_min_gas_price: 5000,
+        low_gas_price: 5000,
+        average_gas_price: 7500,
+        high_gas_price: 10000
       }]
   },
   staking: {
@@ -46,42 +46,20 @@ const info: Chain = {
   },
   description: 'Mirage is what Reddit could have been if it never sold out. Free speech lives on-chain. True discourse. Decentralized. Unstoppable.',
   apis: {
-    rpc: [
-      {
-        address: 'http://mirage.talk:26657',
-        provider: 'Mirage'
-      },
-      {
-        address: 'http://mirage.vote:26657',
-        provider: 'Mirage'
-      },
-      {
-        address: 'http://146.190.108.140:26657',
-        provider: 'Mirage'
-      },
-      {
-        address: 'http://139.59.9.96:26657',
-        provider: 'Mirage'
-      }
-    ],
-    grpc: [
-      {
-        address: 'mirage.talk:9090',
-        provider: 'Mirage'
-      },
-      {
-        address: 'mirage.vote:9090',
-        provider: 'Mirage'
-      },
-      {
-        address: '146.190.108.140:9090',
-        provider: 'Mirage'
-      },
-      {
-        address: '139.59.9.96:9090',
-        provider: 'Mirage'
-      }
-    ]
+    rpc: [{
+        address: 'https://mirage.talk/chain/rpc',
+        provider: 'Mirage Foundation'
+      }, {
+        address: 'https://mirage.vote/chain/rpc',
+        provider: 'Mirage Foundation'
+      }],
+    rest: [{
+        address: 'https://mirage.talk/chain/rest',
+        provider: 'Mirage Foundation'
+      }, {
+        address: 'https://mirage.vote/chain/rest',
+        provider: 'Mirage Foundation'
+      }]
   },
   explorers: [],
   images: [{

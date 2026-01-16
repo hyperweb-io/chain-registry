@@ -168,12 +168,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/regen',
-      tx_page: 'https://explorer.chainroot.io/regen/transactions/${txHash}',
-      account_page: 'https://explorer.chainroot.io/regen/accounts/${accountAddress}'
-    },
-    {
       kind: 'ezstaking',
       url: 'https://ezstaking.app/regen',
       tx_page: 'https://ezstaking.app/regen/txs/${txHash}',

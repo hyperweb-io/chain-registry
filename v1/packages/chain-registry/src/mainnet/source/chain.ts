@@ -265,12 +265,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/source',
-      tx_page: 'https://explorer.chainroot.io/source/transactions/${txHash}',
-      account_page: 'https://explorer.chainroot.io/source/accounts/${accountAddress}'
-    },
-    {
       kind: '🔥STAVR🔥',
       url: 'https://explorer.stavr.tech/Source-Mainnet/',
       tx_page: 'https://explorer.stavr.tech/Source-Mainnet/tx/${txHash}',

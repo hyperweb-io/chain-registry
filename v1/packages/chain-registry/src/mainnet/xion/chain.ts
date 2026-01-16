@@ -160,12 +160,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/xion',
-      tx_page: 'https://explorer.chainroot.io/xion/transactions/${txHash}',
-      account_page: 'https://explorer.chainroot.io/xion/accounts/${accountAddress}'
-    },
-    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/xion',
       tx_page: 'https://www.mintscan.io/xion/transactions/${txHash}',

@@ -320,12 +320,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/elys',
-      tx_page: 'https://explorer.chainroot.io/elys/transactions/${txHash}',
-      account_page: 'https://explorer.chainroot.io/elys/accounts/${accountAddress}'
-    },
-    {
       kind: 'NodeStake',
       url: 'https://explorer.nodestake.org/elys',
       tx_page: 'https://explorer.nodestake.org/elys/tx/${txHash}',

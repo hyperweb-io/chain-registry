@@ -110,12 +110,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/mantra',
-      tx_page: 'https://explorer.chainroot.io/mantra/transactions/${txHash}',
-      account_page: 'https://explorer.chainroot.io/mantra/accounts/${accountAddress}'
-    },
-    {
       kind: 'mintscan',
       url: 'https://www.mintscan.io/mantra',
       tx_page: 'https://mintscan.io/mantra/txs/${txHash}',

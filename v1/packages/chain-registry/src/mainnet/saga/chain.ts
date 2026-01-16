@@ -206,12 +206,6 @@ const info: Chain = {
       url: 'https://explorer.nodestake.org/saga',
       tx_page: 'https://explorer.nodestake.org/saga/tx/${txHash}',
       account_page: 'https://explorer.nodestake.org/saga/account/${accountAddress}'
-    },
-    {
-      kind: 'Chainroot',
-      url: 'https://explorer.chainroot.io/saga',
-      tx_page: 'https://explorer.chainroot.io/saga/transactions/${txHash}',
-      account_page: 'https://explorer.chainroot.io/saga/accounts/${accountAddress}'
     }
   ],
   images: [{
