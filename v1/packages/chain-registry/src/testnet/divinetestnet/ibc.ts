@@ -4,22 +4,22 @@ const info: IBCInfo[] = [{
     chain_1: {
       chain_name: 'cosmosicsprovidertestnet',
       chain_id: 'provider',
-      client_id: '07-tendermint-399',
-      connection_id: 'connection-286'
+      client_id: '07-tendermint-403',
+      connection_id: 'connection-289'
     },
     chain_2: {
       chain_name: 'divinetestnet',
       chain_id: 'divine-testnet-1',
-      client_id: '07-tendermint-4',
-      connection_id: 'connection-1'
+      client_id: '07-tendermint-7',
+      connection_id: 'connection-4'
     },
     channels: [{
         chain_1: {
-          channel_id: 'channel-572',
+          channel_id: 'channel-575',
           port_id: 'transfer'
         },
         chain_2: {
-          channel_id: 'channel-1',
+          channel_id: 'channel-3',
           port_id: 'transfer'
         },
         ordering: 'unordered',
@@ -34,22 +34,22 @@ const info: IBCInfo[] = [{
     chain_1: {
       chain_name: 'divinetestnet',
       chain_id: 'divine-testnet-1',
-      client_id: '07-tendermint-0',
-      connection_id: 'connection-0'
+      client_id: '07-tendermint-6',
+      connection_id: 'connection-3'
     },
     chain_2: {
       chain_name: 'osmosistestnet',
       chain_id: 'osmo-test-5',
-      client_id: '07-tendermint-4998',
-      connection_id: 'connection-4361'
+      client_id: '07-tendermint-5016',
+      connection_id: 'connection-4378'
     },
     channels: [{
         chain_1: {
-          channel_id: 'channel-0',
+          channel_id: 'channel-2',
           port_id: 'transfer'
         },
         chain_2: {
-          channel_id: 'channel-11231',
+          channel_id: 'channel-11257',
           port_id: 'transfer'
         },
         ordering: 'unordered',

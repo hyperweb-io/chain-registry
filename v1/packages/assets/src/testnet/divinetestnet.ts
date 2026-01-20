@@ -4,14 +4,14 @@ const assets: AssetList = {
   assets: [{
       description: 'The native staking and governance token for the Cosmos ICS Provider Testnet.',
       denom_units: [{
-          denom: 'ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9',
+          denom: 'ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701',
           exponent: 0,
           aliases: ['uatom']
         }, {
           denom: 'atom',
           exponent: 6
         }],
-      base: 'ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9',
+      base: 'ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701',
       name: 'Cosmos',
       display: 'atom',
       symbol: 'ATOM',
@@ -27,25 +27,25 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-572',
+            channel_id: 'channel-575',
             base_denom: 'uatom',
             chain_name: 'cosmosicsprovidertestnet'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-3'
           }
         }]
     }, {
       description: 'The native staking and governance token for the Cosmos ICS Provider Testnet.',
       denom_units: [{
-          denom: 'ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9',
+          denom: 'ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701',
           exponent: 0,
           aliases: ['uatom']
         }, {
           denom: 'atom',
           exponent: 6
         }],
-      base: 'ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9',
+      base: 'ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701',
       name: 'Cosmos',
       display: 'atom',
       symbol: 'ATOM',
@@ -61,12 +61,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-572',
+            channel_id: 'channel-575',
             base_denom: 'uatom',
             chain_name: 'cosmosicsprovidertestnet'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-3'
           }
         }]
     }]
