@@ -53,27 +53,48 @@ const info: Chain = {
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
   },
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://rpc.epix.zone',
         provider: 'Epix'
-      }, {
+      },
+      {
         address: 'https://rpc-m.epix.vinjan-inc.com',
         provider: 'Vinjan.Inc'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://rpc-epix.dnsarz.net:443',
+        provider: 'dnsarz'
+      }
+    ],
+    rest: [
+      {
         address: 'https://api.epix.zone',
         provider: 'Epix'
-      }, {
+      },
+      {
         address: 'https://api-m.epix.vinjan-inc.com',
         provider: 'Vinjan.Inc'
-      }],
-    grpc: [{
+      },
+      {
+        address: 'https://api-epix.dnsarz.net',
+        provider: 'dnsarz'
+      }
+    ],
+    grpc: [
+      {
         address: 'grpc.epix.zone:15067',
         provider: 'Epix'
-      }, {
+      },
+      {
         address: 'grpc-m.epix.vinjan-inc.com:39990',
         provider: 'Vinjan.Inc'
-      }],
+      },
+      {
+        address: 'grpc-epix.dnsarz.net:443',
+        provider: 'dnsarz'
+      }
+    ],
     evmHttpJsonrpc: [{
         address: 'https://evmrpc.epix.zone/',
         provider: 'Epix'
