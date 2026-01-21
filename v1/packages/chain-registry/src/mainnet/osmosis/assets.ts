@@ -16218,7 +16218,8 @@ const info: AssetList = {
         }]
     },
     {
-      description: 'Leg token',
+      description: 'Legend token',
+      extended_description: '$LEG is the Red Planet’s meme token, integrating the game economy, rewards, staking, and value circulation within the entire Red Planet ecosystem. It’s more than just an asset — it’s the Red Planet’s circulatory system, powering all products, missions, and ventures — from NFTs and DAO mechanics to RWAs and gaming activities.',
       denom_units: [{
           denom: 'factory/osmo1c3sjhsneuajqn4ke84kqqaf26ct5cjs8z5ale0yv7096wh6fyf6qxmgkph/leg',
           exponent: 0
@@ -16236,7 +16237,11 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/leg.png'
-        }]
+        }],
+      socials: {
+        website: 'https://redplanetdna.com',
+        x: 'https://x.com/Red_Planet_Dao'
+      }
     },
     {
       description: 'Tether USDt from Ethereum via Peggy bridge.',
