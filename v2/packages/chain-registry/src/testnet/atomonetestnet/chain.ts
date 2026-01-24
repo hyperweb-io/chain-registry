@@ -64,10 +64,6 @@ const info: Chain = {
         provider: 'Nodeist'
       },
       {
-        address: 'https://atomone-testnet-rpc.ibs.team',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://rpc-test.atomone.vinjan.xyz',
         provider: 'Vinjan'
       },
@@ -88,10 +84,6 @@ const info: Chain = {
       {
         address: 'https://api-testnet-atomone.nodeist.net',
         provider: 'Nodeist'
-      },
-      {
-        address: 'https://atomone-testnet-api.ibs.team',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://api-test.atomone.vinjan.xyz',

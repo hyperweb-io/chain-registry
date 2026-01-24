@@ -83,10 +83,6 @@ const info: Chain = {
       {
         address: 'https://lava-testnet-rpc.itrocket.net:443',
         provider: 'ITRocket'
-      },
-      {
-        address: 'https://lava-testnet-rpc.ibs.team:443',
-        provider: 'Inter Blockchain Services'
       }
     ],
     rest: [
@@ -101,10 +97,6 @@ const info: Chain = {
       {
         address: 'https://lava-testnet-api.itrocket.net',
         provider: 'ITRocket'
-      },
-      {
-        address: 'https://lava-testnet-api.ibs.team:443',
-        provider: 'Inter Blockchain Services'
       }
     ]
   },

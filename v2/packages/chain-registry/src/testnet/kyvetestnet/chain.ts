@@ -44,16 +44,10 @@ const info: Chain = {
     rpc: [{
         address: 'https://rpc.kaon.kyve.network',
         provider: 'kyve'
-      }, {
-        address: 'https://kyve-testnet-rpc.ibs.team:443',
-        provider: 'Inter Blockchain Services'
       }],
     rest: [{
         address: 'https://api.kaon.kyve.network',
         provider: 'kyve'
-      }, {
-        address: 'https://kyve-testnet-api.ibs.team:443',
-        provider: 'Inter Blockchain Services'
       }]
   },
   explorers: [{

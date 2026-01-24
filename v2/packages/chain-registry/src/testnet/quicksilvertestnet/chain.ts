@@ -53,34 +53,20 @@ const info: Chain = {
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.svg'
   },
   apis: {
-    rpc: [
-      {
+    rpc: [{
         address: 'http://quick.rpc.t.stavr.tech:20027',
         provider: '🔥STAVR🔥'
-      },
-      {
+      }, {
         address: 'https://quicksilver-testnet-rpc.polkachu.com/',
         provider: 'polkachu'
-      },
-      {
-        address: 'https://quicksilver-testnet-rpc.ibs.team:443',
-        provider: 'Inter Blockchain Services'
-      }
-    ],
-    rest: [
-      {
+      }],
+    rest: [{
         address: 'https://quick.api.t.stavr.tech',
         provider: '🔥STAVR🔥'
-      },
-      {
+      }, {
         address: 'https://quicksilver-testnet-api.polkachu.com/',
         provider: 'polkachu'
-      },
-      {
-        address: 'https://quicksilver-testnet-api.ibs.team:443',
-        provider: 'Inter Blockchain Services'
-      }
-    ],
+      }],
     grpc: [{
         address: 'http://quick.grpc.t.stavr.tech:9112',
         provider: '🔥STAVR🔥'

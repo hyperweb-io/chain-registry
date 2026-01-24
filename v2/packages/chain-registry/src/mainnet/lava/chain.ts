@@ -74,10 +74,6 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://rpc-lava.onenov.xyz',
-        provider: 'OneNov'
-      },
-      {
         address: 'https://lava.tendermintrpc.lava.build',
         provider: 'Lava Over Lava'
       },
@@ -159,10 +155,6 @@ const info: Chain = {
       }
     ],
     rest: [
-      {
-        address: 'https://api-lava.onenov.xyz',
-        provider: 'OneNov'
-      },
       {
         address: 'https://lava-api.finteh.org:443',
         provider: 'finteh'
@@ -304,12 +296,6 @@ const info: Chain = {
     ]
   },
   explorers: [
-    {
-      kind: 'OneNov',
-      url: 'https://explorer.onenov.xyz/lava',
-      txPage: 'https://explorer.onenov.xyz/lava/transactions/${txHash}',
-      accountPage: 'https://explorer.onenov.xyz/lava/accounts/${accountAddress}'
-    },
     {
       kind: 'finteh',
       url: 'https://explorer.finteh.org/lava',
