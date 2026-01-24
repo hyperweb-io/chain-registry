@@ -63,20 +63,13 @@ const info: Chain = {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png'
   },
   apis: {
-    rpc: [
-      {
+    rpc: [{
         address: 'https://full-node.testnet-1.coreum.dev:26657',
         provider: 'Coreum Foundation'
-      },
-      {
+      }, {
         address: 'https://full-node-eris.testnet-1.coreum.dev:26657',
         provider: 'Coreum Foundation'
-      },
-      {
-        address: 'https://coreum-testnet-rpc.ibs.team:443',
-        provider: 'Inter Blockchain Services'
-      }
-    ],
+      }],
     grpc: [{
         address: 'https://full-node.testnet-1.coreum.dev:9090',
         provider: 'Coreum Foundation'
@@ -87,9 +80,6 @@ const info: Chain = {
     rest: [{
         address: 'https://full-node.testnet-1.coreum.dev:1317',
         provider: 'Coreum'
-      }, {
-        address: 'https://coreum-testnet-api.ibs.team:443',
-        provider: 'Inter Blockchain Services'
       }]
   },
   explorers: [{

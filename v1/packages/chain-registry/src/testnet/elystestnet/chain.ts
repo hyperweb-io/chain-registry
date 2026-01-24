@@ -68,10 +68,6 @@ const info: Chain = {
       {
         address: 'https://elys-testnet-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https://elys-testnet-rpc.ibs.team:443',
-        provider: 'Inter Blockchain Services'
       }
     ],
     rest: [
@@ -86,10 +82,6 @@ const info: Chain = {
       {
         address: 'https://elys-testnet-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https://elys-testnet-api.ibs.team:443',
-        provider: 'Inter Blockchain Services'
       }
     ],
     grpc: []

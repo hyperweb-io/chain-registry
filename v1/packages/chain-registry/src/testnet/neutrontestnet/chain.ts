@@ -49,20 +49,13 @@ const info: Chain = {
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron-raw.svg'
   },
   apis: {
-    rpc: [
-      {
+    rpc: [{
         address: 'https://rpc-falcron.pion-1.ntrn.tech',
         provider: 'Neutron'
-      },
-      {
+      }, {
         address: 'https://neutron-testnet-rpc.polkachu.com/',
         provider: 'Polkachu'
-      },
-      {
-        address: 'https://neutron-testnet-rpc.ibs.team:443',
-        provider: 'Inter Blockchain Services'
-      }
-    ],
+      }],
     rest: [
       {
         address: 'https://rest-falcron.pion-1.ntrn.tech',
@@ -75,10 +68,6 @@ const info: Chain = {
       {
         address: 'https://rest.baryon-sentry-01.rs-testnet.polypore.xyz',
         provider: 'Hypha'
-      },
-      {
-        address: 'https://neutron-testnet-api.ibs.team:443',
-        provider: 'Inter Blockchain Services'
       }
     ],
     grpc: [{

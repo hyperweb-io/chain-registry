@@ -59,6 +59,10 @@ const info: Chain = {
         provider: 'Epix'
       },
       {
+        address: 'https://rpc-epix.onenov.xyz',
+        provider: 'OneNov'
+      },
+      {
         address: 'https://rpc-m.epix.vinjan-inc.com',
         provider: 'Vinjan.Inc'
       },
@@ -71,6 +75,10 @@ const info: Chain = {
       {
         address: 'https://api.epix.zone',
         provider: 'Epix'
+      },
+      {
+        address: 'https://api-epix.onenov.xyz',
+        provider: 'OneNov'
       },
       {
         address: 'https://api-m.epix.vinjan-inc.com',
@@ -100,15 +108,23 @@ const info: Chain = {
         provider: 'Epix'
       }]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'L1',
       url: 'https://explorer.epix.zone/',
       tx_page: 'https://explorer.epix.zone/epix/tx/${txHash}'
-    }, {
+    },
+    {
+      kind: 'OneNov',
+      url: 'https://explorer.onenov.xyz',
+      tx_page: 'https://explorer.onenov.xyz/epix/tx/${txHash}'
+    },
+    {
       kind: 'EVM',
       url: 'https://scan.epix.zone/',
       tx_page: 'https://scan.epix.zone/tx/${txHash}'
-    }],
+    }
+  ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
