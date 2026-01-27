@@ -57,10 +57,6 @@ const info: Chain = {
         provider: 'paranorm'
       },
       {
-        address: 'https://assetmantle-rpc.stakerhouse.com',
-        provider: 'StakerHouse'
-      },
-      {
         address: 'https://assetmantle-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       }
@@ -81,10 +77,6 @@ const info: Chain = {
       {
         address: 'https://api.mantle.paranorm.pro:443',
         provider: 'paranorm'
-      },
-      {
-        address: 'https://assetmantle-rest.stakerhouse.com',
-        provider: 'StakerHouse'
       },
       {
         address: 'https://assetmantle-rest.publicnode.com',
