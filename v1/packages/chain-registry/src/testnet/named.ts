@@ -98,6 +98,7 @@ export * as quasartestnet from './quasartestnet';
 export * as qubeticstestnet from './qubeticstestnet';
 export * as quicksilvertestnet from './quicksilvertestnet';
 export * as qwoyntestnet from './qwoyntestnet';
+export * as raitestnet from './raitestnet';
 export * as safrochaintestnet from './safrochaintestnet';
 export * as sagatestnet from './sagatestnet';
 export * as secretnetworktestnet from './secretnetworktestnet';
