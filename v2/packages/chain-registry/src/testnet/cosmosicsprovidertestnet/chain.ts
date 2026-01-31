@@ -28,19 +28,19 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/cosmos/gaia',
-    recommendedVersion: 'v25.3.0',
-    compatibleVersions: ['v25.3.0'],
+    recommendedVersion: 'v26.0.0-rc0',
+    compatibleVersions: ['v26.0.0-rc0'],
     consensus: {
       type: 'cometbft',
-      version: 'v0.38.20'
+      version: 'v0.38.21'
     },
     binaries: {
-      "linux/amd64": 'https://github.com/cosmos/gaia/releases/download/v25.3.0/gaiad-v25.3.0-linux-amd64',
-      "darwin/amd64": 'https://github.com/cosmos/gaia/releases/download/v25.3.0/gaiad-v25.3.0-darwin-amd64',
-      "darwin/arm64": 'https://github.com/cosmos/gaia/releases/download/v25.3.0/gaiad-v25.3.0-darwin-arm64'
+      "linux/amd64": 'https://github.com/cosmos/gaia/releases/download/v26.0.0-rc0/gaiad-v26.0.0-rc0-linux-amd64',
+      "darwin/amd64": 'https://github.com/cosmos/gaia/releases/download/v26.0.0-rc0/gaiad-v26.0.0-rc0-darwin-amd64',
+      "darwin/arm64": 'https://github.com/cosmos/gaia/releases/download/v26.0.0-rc0/gaiad-v26.0.0-rc0-darwin-arm64'
     },
     genesis: {
-      genesisUrl: 'https://raw.githubusercontent.com/cosmos/testnets/master/interchain-security/provider/provider-genesis.json'
+      genesisUrl: 'https://raw.githubusercontent.com/cosmos/testnets/master/provider/provider-genesis.json'
     },
     sdk: {
       type: 'cosmos',
@@ -56,24 +56,24 @@ const info: Chain = {
       repo: 'https://github.com/CosmWasm/wasmd',
       tag: 'v0.60.2'
     },
-    tag: 'v25.3.0'
+    tag: 'v26.0.0-rc0'
   },
   apis: {
     rpc: [
       {
-        address: 'https://rpc.provider-sentry-01.ics-testnet.polypore.xyz',
+        address: 'https://rpc.provider-sentry-01.hub-testnet.polypore.xyz',
         provider: 'Hypha'
       },
       {
-        address: 'https://rpc.provider-sentry-02.ics-testnet.polypore.xyz',
+        address: 'https://rpc.provider-sentry-02.hub-testnet.polypore.xyz',
         provider: 'Hypha'
       },
       {
-        address: 'https://rpc.provider-state-sync-01.ics-testnet.polypore.xyz',
+        address: 'https://rpc.provider-state-sync-01.hub-testnet.polypore.xyz',
         provider: 'Hypha'
       },
       {
-        address: 'https://rpc.provider-state-sync-02.ics-testnet.polypore.xyz',
+        address: 'https://rpc.provider-state-sync-02.hub-testnet.polypore.xyz',
         provider: 'Hypha'
       },
       {
@@ -87,19 +87,19 @@ const info: Chain = {
     ],
     rest: [
       {
-        address: 'https://rest.provider-sentry-01.ics-testnet.polypore.xyz',
+        address: 'https://rest.provider-sentry-01.hub-testnet.polypore.xyz',
         provider: 'Hypha'
       },
       {
-        address: 'https://rest.provider-sentry-02.ics-testnet.polypore.xyz',
+        address: 'https://rest.provider-sentry-02.hub-testnet.polypore.xyz',
         provider: 'Hypha'
       },
       {
-        address: 'https://rest.provider-state-sync-01.ics-testnet.polypore.xyz',
+        address: 'https://rest.provider-state-sync-01.hub-testnet.polypore.xyz',
         provider: 'Hypha'
       },
       {
-        address: 'https://rest.provider-state-sync-02.ics-testnet.polypore.xyz',
+        address: 'https://rest.provider-state-sync-02.hub-testnet.polypore.xyz',
         provider: 'Hypha'
       },
       {
@@ -113,19 +113,19 @@ const info: Chain = {
     ],
     grpc: [
       {
-        address: 'https://grpc.provider-sentry-01.ics-testnet.polypore.xyz',
+        address: 'https://grpc.provider-sentry-01.hub-testnet.polypore.xyz',
         provider: 'Hypha'
       },
       {
-        address: 'https://grpc.provider-sentry-02.ics-testnet.polypore.xyz',
+        address: 'https://grpc.provider-sentry-02.hub-testnet.polypore.xyz',
         provider: 'Hypha'
       },
       {
-        address: 'https://grpc.provider-state-sync-01.ics-testnet.polypore.xyz',
+        address: 'https://grpc.provider-state-sync-01.hub-testnet.polypore.xyz',
         provider: 'Hypha'
       },
       {
-        address: 'https://grpc.provider-state-sync-02.ics-testnet.polypore.xyz',
+        address: 'https://grpc.provider-state-sync-02.hub-testnet.polypore.xyz',
         provider: 'Hypha'
       },
       {

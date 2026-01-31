@@ -4,7 +4,7 @@ const info: Chain = {
   chainName: 'terra',
   status: 'live',
   networkType: 'mainnet',
-  website: 'https://www.terra-Classic.money/',
+  website: 'https://www.terra-classic.io/',
   prettyName: 'Terra Classic',
   chainType: 'cosmos',
   chainId: 'columbus-5',
