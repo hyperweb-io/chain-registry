@@ -35,17 +35,17 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/dydxprotocol/v4-chain/',
-    recommendedVersion: 'protocol/v9.5.0',
-    compatibleVersions: ['protocol/v9.5.0'],
+    recommendedVersion: 'protocol/v9.6.1',
+    compatibleVersions: ['protocol/v9.6.1'],
     binaries: {
-      "linux/amd64": 'https://github.com/dydxprotocol/v4-chain/releases/download/protocol%2Fv9.5.0/dydxprotocold-v9.5.0-linux-amd64.tar.gz',
-      "linux/arm64": 'https://github.com/dydxprotocol/v4-chain/releases/download/protocol%2Fv9.5.0/dydxprotocold-v9.5.0-linux-arm64.tar.gz'
+      "linux/amd64": 'https://github.com/dydxprotocol/v4-chain/releases/download/protocol%2Fv9.6.1/dydxprotocold-v9.6.1-linux-amd64.tar.gz',
+      "linux/arm64": 'https://github.com/dydxprotocol/v4-chain/releases/download/protocol%2Fv9.6.1/dydxprotocold-v9.6.1-linux-arm64.tar.gz'
     },
     consensus: {
       type: 'cometbft',
       version: 'v0.38.15',
       repo: 'https://github.com/dydxprotocol/cometbft',
-      tag: 'v0.38.6-0.20251014202517-0235a938b029'
+      tag: 'v0.38.6-0.20260126154011-467083c7ba0b'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/dydxopsdao/networks/main/dydx-mainnet-1/genesis.json'
@@ -54,7 +54,7 @@ const info: Chain = {
       type: 'cosmos',
       repo: 'https://github.com/dydxprotocol/cosmos-sdk',
       version: 'v0.50.11',
-      tag: 'v0.50.6-0.20251014211237-3a1ba0aabac3'
+      tag: 'v0.50.6-0.20260126162345-69ba38d4ae69'
     },
     ibc: {
       type: 'go',

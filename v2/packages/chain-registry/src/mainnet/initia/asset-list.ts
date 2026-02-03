@@ -29,6 +29,51 @@ const info: AssetList = {
       },
       typeAsset: 'sdk.coin',
       coingeckoId: 'initia'
+    }, {
+      description: 'MilkyWay\'s liquid staked INIT from moo-1 L2',
+      extendedDescription: 'milkINIT is a liquid staking token representing staked INIT on the Initia blockchain. It is created on MilkyWay\'s moo-1 L2 rollup and bridges to Initia mainnet for broader DeFi integration.',
+      denomUnits: [{
+          denom: 'ibc/39B55F22F15FB09189045A993817CDF0D388D3FF8773B2E22B6DE7B222636EEA',
+          exponent: 0,
+          aliases: ['factory/init17p9rzwnnfxcjp32un9ug7yhhzgtkhvl9jfksztgw5uh69wac2pgsj6uxxj/umilkINIT']
+        }, {
+          denom: 'milkINIT',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/39B55F22F15FB09189045A993817CDF0D388D3FF8773B2E22B6DE7B222636EEA',
+      name: 'milkINIT',
+      display: 'milkINIT',
+      symbol: 'milkINIT',
+      traces: [{
+          type: 'liquid-stake',
+          counterparty: {
+            chainName: 'initia',
+            baseDenom: 'uinit'
+          },
+          provider: 'MilkyWay'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'moo',
+            baseDenom: 'factory/init17p9rzwnnfxcjp32un9ug7yhhzgtkhvl9jfksztgw5uh69wac2pgsj6uxxj/umilkINIT',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-29',
+            path: 'transfer/channel-29/factory/init17p9rzwnnfxcjp32un9ug7yhhzgtkhvl9jfksztgw5uh69wac2pgsj6uxxj/umilkINIT'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/moo/images/milkINIT.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/moo/images/milkINIT.png',
+          imageSync: {
+            chainName: 'moo',
+            baseDenom: 'factory/init17p9rzwnnfxcjp32un9ug7yhhzgtkhvl9jfksztgw5uh69wac2pgsj6uxxj/umilkINIT'
+          }
+        }]
     }]
 };
 export default info;
