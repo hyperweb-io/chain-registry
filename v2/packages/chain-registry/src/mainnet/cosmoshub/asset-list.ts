@@ -1022,6 +1022,48 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg'
         }],
       coingeckoId: 'stride-staked-atom'
+    },
+    {
+      description: 'Dragon Token is the native staking and governance token of Dungeon Chain, serving as the backbone of the ecosystem. Its primary roles include staking, where users stake Dragon Tokens to secure the network, enhance its functionality, and earn rewards in return; governance, granting token holders voting rights to influence key decisions such as game onboarding, protocol updates, and community-driven initiatives; and ecosystem growth, facilitating transactions, incentivizing developers, and promoting the creation of new interchain games. Dragon Token ensures a decentralized, fair, and community-driven ecosystem, fostering the evolution of blockchain-based gaming. It plays a crucial role in driving the growth of Dungeon Chain by empowering both developers and players to participate actively in the ecosystem\'s governance and success.',
+      denomUnits: [{
+          denom: 'ibc/0F8D3C0F081E126A4E275703DA67165DA5353C81F45E945140D0F961B9F7692A',
+          exponent: 0,
+          aliases: ['udgn']
+        }, {
+          denom: 'DGN',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/0F8D3C0F081E126A4E275703DA67165DA5353C81F45E945140D0F961B9F7692A',
+      name: 'Dragon Coin',
+      display: 'DGN',
+      symbol: 'DGN',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'dungeon',
+            baseDenom: 'udgn',
+            channelId: 'channel-5308'
+          },
+          chain: {
+            channelId: 'channel-1560',
+            path: 'transfer/channel-1560/udgn'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'dungeon',
+            baseDenom: 'udgn'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png',
+          theme: {
+            circle: true
+          }
+        }],
+      coingeckoId: 'dragon-coin-2'
     }
   ]
 };
