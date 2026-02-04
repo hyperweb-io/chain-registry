@@ -131,6 +131,7 @@ import * as _migaloo from './migaloo';
 import * as _milkyway from './milkyway';
 import * as _mirage from './mirage';
 import * as _mises from './mises';
+import * as _moo from './moo';
 import * as _mtgbp from './mtgbp';
 import * as _mun from './mun';
 import * as _mythos from './mythos';
@@ -358,6 +359,7 @@ const assets: AssetList[] = [
   _milkyway.assets,
   _mirage.assets,
   _mises.assets,
+  _moo.assets,
   _mtgbp.assets,
   _mun.assets,
   _mythos.assets,
