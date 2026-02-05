@@ -4,22 +4,22 @@ const info: IBCData[] = [{
     chain1: {
       chainName: 'cosmoshub',
       chainId: 'cosmoshub-4',
-      clientId: '07-tendermint-1457',
-      connectionId: 'connection-1199'
+      clientId: '07-tendermint-1467',
+      connectionId: 'connection-1205'
     },
     chain2: {
       chainName: 'divine',
       chainId: 'divine-1',
-      clientId: '07-tendermint-6',
-      connectionId: 'connection-6'
+      clientId: '07-tendermint-14',
+      connectionId: 'connection-9'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-1672',
+          channelId: 'channel-1742',
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-1',
+          channelId: 'channel-4',
           portId: 'transfer'
         },
         ordering: 'unordered',
@@ -34,22 +34,22 @@ const info: IBCData[] = [{
     chain1: {
       chainName: 'divine',
       chainId: 'divine-1',
-      clientId: '07-tendermint-7',
-      connectionId: 'connection-7'
+      clientId: '07-tendermint-10',
+      connectionId: 'connection-8'
     },
     chain2: {
       chainName: 'osmosis',
       chainId: 'osmosis-1',
-      clientId: '07-tendermint-3663',
-      connectionId: 'connection-11022'
+      clientId: '07-tendermint-3667',
+      connectionId: 'connection-11030'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-2',
+          channelId: 'channel-3',
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-108757',
+          channelId: 'channel-108909',
           portId: 'transfer'
         },
         ordering: 'unordered',

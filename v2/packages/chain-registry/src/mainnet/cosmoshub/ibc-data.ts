@@ -643,22 +643,22 @@ const info: IBCData[] = [
     chain1: {
       chainName: 'cosmoshub',
       chainId: 'cosmoshub-4',
-      clientId: '07-tendermint-1457',
-      connectionId: 'connection-1199'
+      clientId: '07-tendermint-1467',
+      connectionId: 'connection-1205'
     },
     chain2: {
       chainName: 'divine',
       chainId: 'divine-1',
-      clientId: '07-tendermint-6',
-      connectionId: 'connection-6'
+      clientId: '07-tendermint-14',
+      connectionId: 'connection-9'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-1672',
+          channelId: 'channel-1742',
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-1',
+          channelId: 'channel-4',
           portId: 'transfer'
         },
         ordering: 'unordered',
