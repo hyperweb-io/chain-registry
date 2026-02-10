@@ -214,6 +214,10 @@ const chain: Chain = {
       {
         address: 'juno-grpc.chainroot.io:443',
         provider: 'Chainroot'
+      },
+      {
+        address: 'grpc.juno.validatus.com:443',
+        provider: 'Validatus'
       }
     ]
   },

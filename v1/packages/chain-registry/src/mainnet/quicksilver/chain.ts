@@ -206,6 +206,10 @@ const info: Chain = {
       {
         address: 'grpc.quicksilver.citizenweb3.com:443',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'grpc.quicksilver.validatus.com:443',
+        provider: 'Validatus'
       }
     ]
   },

@@ -119,6 +119,7 @@ import * as _lombardledger from './lombardledger';
 import * as _loop from './loop';
 import * as _lorenzo from './lorenzo';
 import * as _loyal from './loyal';
+import * as _lumen from './lumen';
 import * as _lumera from './lumera';
 import * as _lumnetwork from './lumnetwork';
 import * as _mande from './mande';
@@ -347,6 +348,7 @@ const assets: AssetList[] = [
   _loop.assets,
   _lorenzo.assets,
   _loyal.assets,
+  _lumen.assets,
   _lumera.assets,
   _lumnetwork.assets,
   _mande.assets,

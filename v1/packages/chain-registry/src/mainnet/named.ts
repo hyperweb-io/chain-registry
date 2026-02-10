@@ -117,6 +117,7 @@ export * as lombardledger from './lombardledger';
 export * as loop from './loop';
 export * as lorenzo from './lorenzo';
 export * as loyal from './loyal';
+export * as lumen from './lumen';
 export * as lumera from './lumera';
 export * as lumnetwork from './lumnetwork';
 export * as mande from './mande';
