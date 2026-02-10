@@ -67,6 +67,10 @@ const info: Chain = {
       {
         address: 'https://rpc.arkeo.nodestake.org',
         provider: 'NodeStake'
+      },
+      {
+        address: 'https://rpc.arkeo.validatus.com',
+        provider: 'Validatus'
       }
     ],
     rest: [
@@ -85,15 +89,26 @@ const info: Chain = {
       {
         address: 'https://api.arkeo.nodestake.org',
         provider: 'NodeStake'
+      },
+      {
+        address: 'https://api.arkeo.validatus.com',
+        provider: 'Validatus'
       }
     ],
-    grpc: [{
+    grpc: [
+      {
         address: 'grpc.arkeo.roomit.xyz:8443',
         provider: 'Roomit'
-      }, {
+      },
+      {
         address: 'https://grpc.arkeo.nodestake.org:443',
         provider: 'NodeStake'
-      }]
+      },
+      {
+        address: 'https://grpc.arkeo.validatus.com:443',
+        provider: 'Validatus'
+      }
+    ]
   },
   explorers: [
     {

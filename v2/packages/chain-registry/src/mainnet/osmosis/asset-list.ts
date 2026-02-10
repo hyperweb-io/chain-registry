@@ -22849,6 +22849,49 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
         }]
+    },
+    {
+      denomUnits: [{
+          denom: 'ibc/59A4A5CC7201CDDD3E9A6033E0345959B025577C10C224563B720F720895DB72',
+          exponent: 0,
+          aliases: ['factory/neutron17sp75wng9vl2hu3sf4ky86d7smmk3wle9gkts2gmedn9x4ut3xcqa5xp34/maxbtc']
+        }, {
+          denom: 'maxBTC',
+          exponent: 8
+        }],
+      base: 'ibc/59A4A5CC7201CDDD3E9A6033E0345959B025577C10C224563B720F720895DB72',
+      name: 'maxBTC',
+      display: 'maxBTC',
+      symbol: 'maxBTC',
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/maxBTC.svg'
+      },
+      coingeckoId: 'maxbtc',
+      images: [{
+          imageSync: {
+            chainName: 'neutron',
+            baseDenom: 'factory/neutron17sp75wng9vl2hu3sf4ky86d7smmk3wle9gkts2gmedn9x4ut3xcqa5xp34/maxbtc'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/maxBTC.svg'
+        }],
+      socials: {
+        website: 'https://www.structured.money/',
+        telegram: 'https://t.me/StructuredFi',
+        x: 'https://x.com/StructuredFi'
+      },
+      typeAsset: 'ics20',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'neutron',
+            baseDenom: 'factory/neutron17sp75wng9vl2hu3sf4ky86d7smmk3wle9gkts2gmedn9x4ut3xcqa5xp34/maxbtc',
+            channelId: 'channel-10'
+          },
+          chain: {
+            channelId: 'channel-874',
+            path: 'transfer/channel-874/factory/neutron17sp75wng9vl2hu3sf4ky86d7smmk3wle9gkts2gmedn9x4ut3xcqa5xp34/maxbtc'
+          }
+        }]
     }
   ]
 };

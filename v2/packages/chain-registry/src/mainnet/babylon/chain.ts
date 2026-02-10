@@ -107,6 +107,10 @@ const info: Chain = {
       {
         address: 'https://babylon-mainnet-rpc.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://rpc.babylon.validatus.com',
+        provider: 'Validatus'
       }
     ],
     rest: [
@@ -149,6 +153,10 @@ const info: Chain = {
       {
         address: 'https://babylon-mainnet-api.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://api.babylon.validatus.com',
+        provider: 'Validatus'
       }
     ],
     grpc: [
@@ -187,6 +195,10 @@ const info: Chain = {
       {
         address: 'babylon-mainnet-grpc.shazoes.xyz:30190',
         provider: 'Shazoes'
+      },
+      {
+        address: 'grpc.babylon.validatus.com:443',
+        provider: 'Validatus'
       }
     ]
   },

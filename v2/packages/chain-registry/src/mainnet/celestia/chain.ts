@@ -184,6 +184,10 @@ const info: Chain = {
       {
         address: 'https://rpc.celestia.node75.org',
         provider: 'Pro-Nodes75'
+      },
+      {
+        address: 'https://rpc.archive.celestia.validatus.com',
+        provider: 'Validatus'
       }
     ],
     rest: [
@@ -294,6 +298,10 @@ const info: Chain = {
       {
         address: 'https://api.celestia.node75.org',
         provider: 'Pro-Nodes75'
+      },
+      {
+        address: 'https://api.archive.celestia.validatus.com',
+        provider: 'Validatus'
       }
     ],
     grpc: [
@@ -346,7 +354,7 @@ const info: Chain = {
         provider: 'AM Solutions'
       },
       {
-        address: 'grpc.celestia.validatus.com',
+        address: 'grpc.celestia.validatus.com:443',
         provider: 'Validatus'
       },
       {
@@ -388,6 +396,10 @@ const info: Chain = {
       {
         address: 'grpc.celestia.node75.org:9220',
         provider: 'Pro-Nodes75'
+      },
+      {
+        address: 'grpc.archive.celestia.validatus.com:2125',
+        provider: 'Validatus'
       }
     ]
   },

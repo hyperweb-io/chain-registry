@@ -299,7 +299,7 @@ const info: Chain = {
         provider: 'Stake&Relax 🦥'
       },
       {
-        address: 'grpc.persistence.validatus.com',
+        address: 'grpc.persistence.validatus.com:443',
         provider: 'Validatus'
       },
       {

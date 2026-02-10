@@ -65,6 +65,10 @@ const info: Chain = {
       {
         address: 'https://nillion-mainnet-rpc.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://rpc.nillion.validatus.com',
+        provider: 'Validatus'
       }
     ],
     rest: [
@@ -83,6 +87,10 @@ const info: Chain = {
       {
         address: 'https://nillion-mainnet-api.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://api.nillion.validatus.com',
+        provider: 'Validatus'
       }
     ],
     grpc: [
@@ -101,6 +109,10 @@ const info: Chain = {
       {
         address: 'nillion-mainnet-grpc.shazoes.xyz:30890',
         provider: 'Shazoes'
+      },
+      {
+        address: 'grpc.nillion.validatus.com:443',
+        provider: 'Validatus'
       }
     ]
   },

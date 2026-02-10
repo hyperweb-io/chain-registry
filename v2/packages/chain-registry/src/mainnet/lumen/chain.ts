@@ -1,0 +1,149 @@
+import { Chain } from '@chain-registry/types';
+const info: Chain = {
+  $schema: '../chain.schema.json',
+  chainName: 'lumen',
+  status: 'live',
+  networkType: 'mainnet',
+  website: 'https://lumen-network.org/',
+  prettyName: 'Lumen',
+  description: 'Lumen is a Cosmos SDK chain focused on DNS auctions, release distribution, and gateway settlement flows.',
+  chainType: 'cosmos',
+  chainId: 'lumen',
+  bech32Prefix: 'lmn',
+  daemonName: 'lumend',
+  nodeHome: '$HOME/.lumen',
+  keyAlgos: ['secp256k1'],
+  slip44: 118,
+  fees: {
+    feeTokens: [{
+        denom: 'ulmn',
+        fixedMinGasPrice: 0,
+        lowGasPrice: 0,
+        averageGasPrice: 0,
+        highGasPrice: 0
+      }]
+  },
+  staking: {
+    stakingTokens: [{
+        denom: 'ulmn'
+      }]
+  },
+  codebase: {
+    gitRepo: 'https://github.com/network-lumen/blockchain',
+    recommendedVersion: 'v1.4.3',
+    compatibleVersions: ['v1.4.3'],
+    genesis: {
+      genesisUrl: 'https://raw.githubusercontent.com/network-lumen/validator-kit/master/config/genesis.json'
+    }
+  },
+  apis: {
+    rpc: [
+      {
+        address: 'https://lumen-rpc.linknode.org',
+        provider: 'AstroStake'
+      },
+      {
+        address: 'https://rpc.lumen.chaintools.tech',
+        provider: 'ChainTools'
+      },
+      {
+        address: 'https://lumen.blocksync.me/rpc',
+        provider: 'BlockSync'
+      },
+      {
+        address: 'https://lumen-mainnet-rpc.mekonglabs.com',
+        provider: 'MekongLabs'
+      },
+      {
+        address: 'https://rpc-lumen.onenov.xyz',
+        provider: 'OneNov'
+      }
+    ],
+    rest: [
+      {
+        address: 'https://lumen-api.linknode.org',
+        provider: 'AstroStake'
+      },
+      {
+        address: 'https://api.lumen.chaintools.tech',
+        provider: 'ChainTools'
+      },
+      {
+        address: 'https://lumen-mainnet-api.mekonglabs.com/',
+        provider: 'MekongLabs'
+      }
+    ],
+    grpc: [
+      {
+        address: 'lumen-grpc.linknode.org:443',
+        provider: 'AstroStake'
+      },
+      {
+        address: 'lumen-grpc.blocksync.me:443',
+        provider: 'BlockSync'
+      },
+      {
+        address: 'lumen-mainnet-grpc.mekonglabs.tech:35090',
+        provider: 'MekongLabs'
+      }
+    ]
+  },
+  explorers: [
+    {
+      kind: 'MekongLabs',
+      url: 'https://explorer.mekonglabs.com/lumen-mainnet'
+    },
+    {
+      kind: 'OneNov',
+      url: 'https://explorer.onenov.xyz/lumen'
+    },
+    {
+      kind: 'WinSnip',
+      url: 'https://winscan.winsnip.xyz/lumen-mainnet'
+    },
+    {
+      kind: 'AstroStake',
+      url: 'https://stake.astrostake.xyz/lumen'
+    },
+    {
+      kind: 'Gombezzz',
+      url: 'https://explorer.gombezzz.xyz/lumen-mainnet'
+    },
+    {
+      kind: 'Node9x',
+      url: 'https://explorer.node9x.com/lumen'
+    },
+    {
+      kind: 'OneNov (OV)',
+      url: 'https://ov-explorer.onenov.xyz/network/lumen'
+    },
+    {
+      kind: 'UTSA',
+      url: 'https://exp.utsa.tech/lumen/staking'
+    },
+    {
+      kind: 'Stavr',
+      url: 'https://explorer.stavr.tech/Lumen-Mainnet/staking'
+    },
+    {
+      kind: 'ChainTools',
+      url: 'https://explorer.chaintools.tech/lumen'
+    },
+    {
+      kind: 'Maouam',
+      url: 'https://explorer.maouam.xyz/lumen-mainnet'
+    },
+    {
+      kind: 'Blocksync',
+      url: 'https://dashboard.blocksync.me/lumen'
+    },
+    {
+      kind: 'Indonode',
+      url: 'https://explorer.indonode.net/lumen'
+    }
+  ],
+  images: [{
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumen/images/lumen.png'
+    }]
+};
+export default info;
