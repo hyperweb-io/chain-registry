@@ -65,6 +65,10 @@ const info: Chain = {
         provider: 'AstroStake'
       },
       {
+        address: 'https://api-lumen.onenov.xyz',
+        provider: 'OneNov'
+      },
+      {
         address: 'https://api.lumen.chaintools.tech',
         provider: 'ChainTools'
       },

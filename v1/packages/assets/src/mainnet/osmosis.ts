@@ -3503,6 +3503,36 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of gnodi',
+      denom_units: [{
+          denom: 'ibc/9005151AB92A888293B05E8D0C679032F86639EC2251430565FA38CF3BB6226B',
+          exponent: 0,
+          aliases: ['uGNOD']
+        }, {
+          denom: 'GNOD',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/9005151AB92A888293B05E8D0C679032F86639EC2251430565FA38CF3BB6226B',
+      name: 'GNOD',
+      display: 'GNOD',
+      symbol: 'GNOD',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gnodi/images/gnod.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uGNOD',
+            chain_name: 'gnodi'
+          },
+          chain: {
+            channel_id: 'channel-108866'
+          }
+        }]
+    },
+    {
       description: 'The native token of Gravity Bridge',
       denom_units: [{
           denom: 'ibc/E97634A40119F1898989C2A23224ED83FDD0A57EA46B3A094E287288D1672B44',
@@ -9902,6 +9932,36 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-781'
+          }
+        }]
+    },
+    {
+      description: 'The native token of gnodi',
+      denom_units: [{
+          denom: 'ibc/9005151AB92A888293B05E8D0C679032F86639EC2251430565FA38CF3BB6226B',
+          exponent: 0,
+          aliases: ['uGNOD']
+        }, {
+          denom: 'GNOD',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/9005151AB92A888293B05E8D0C679032F86639EC2251430565FA38CF3BB6226B',
+      name: 'GNOD',
+      display: 'GNOD',
+      symbol: 'GNOD',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gnodi/images/gnod.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uGNOD',
+            chain_name: 'gnodi'
+          },
+          chain: {
+            channel_id: 'channel-108866'
           }
         }]
     },
