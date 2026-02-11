@@ -66,6 +66,7 @@ import * as _galaxy from './galaxy';
 import * as _gateway from './gateway';
 import * as _genesisl1 from './genesisl1';
 import * as _gitopia from './gitopia';
+import * as _gnodi from './gnodi';
 import * as _gravitybridge from './gravitybridge';
 import * as _haqq from './haqq';
 import * as _hippoprotocol from './hippoprotocol';
@@ -244,6 +245,7 @@ const ibcData: IBCData[] = [
   ..._gateway.ibcData,
   ..._genesisl1.ibcData,
   ..._gitopia.ibcData,
+  ..._gnodi.ibcData,
   ..._gravitybridge.ibcData,
   ..._haqq.ibcData,
   ..._hippoprotocol.ibcData,
