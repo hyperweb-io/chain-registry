@@ -1433,8 +1433,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.svg'
-        }],
-      coingeckoId: 'bitcanna'
+        }]
     },
     {
       description: 'BitSong Native Token',
@@ -1974,7 +1973,6 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.svg'
         }],
-      coingeckoId: 'darcmatter-coin',
       keywords: ['osmosis_unstable']
     },
     {
@@ -2221,7 +2219,6 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cerberus/images/crbrus.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cerberus/images/crbrus.svg'
         }],
-      coingeckoId: 'cerberus-2',
       keywords: ['osmosis_unstable']
     },
     {
@@ -2303,8 +2300,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.svg'
-        }],
-      coingeckoId: 'assetmantle'
+        }]
     },
     {
       description: 'The native token cw20 for Neta on Juno Chain',
@@ -2518,8 +2514,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.svg'
-        }],
-      coingeckoId: 'sifchain'
+        }]
     },
     {
       description: 'The native token of Shentu',
@@ -3123,8 +3118,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.svg'
-        }],
-      coingeckoId: 'meme-network'
+        }]
     },
     {
       description: 'Profit sharing token for Another.Software validator. Hold and receive dividends from Another.Software validator commissions!',
@@ -10539,8 +10533,7 @@ const info: AssetList = {
             baseDenom: 'factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newt.png'
-        }],
-      coingeckoId: 'newt'
+        }]
     },
     {
       description: 'MilkyWay\'s liquid staked TIA',
@@ -10769,7 +10762,6 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/autism.png'
         }],
-      coingeckoId: 'autism',
       keywords: ['osmosis_unlisted']
     },
     {
@@ -12802,8 +12794,7 @@ const info: AssetList = {
             darkMode: true,
             circle: true
           }
-        }],
-      coingeckoId: 'dhealth'
+        }]
     },
     {
       description: 'The native token of Furya',
@@ -13051,8 +13042,7 @@ const info: AssetList = {
             baseDenom: 'factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hava.png'
-        }],
-      coingeckoId: 'hava-coin'
+        }]
     },
     {
       description: 'OnE mEmEcOiN tO cOnNeCt oL ImBeCiles - aNd in Da Cosmos BiNd DeM',
@@ -18038,7 +18028,6 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.svg'
         }],
-      coingeckoId: 'yield-gata',
       socials: {
         website: 'https://gatahub.zone',
         x: 'https://x.com/GataHubZone'
@@ -19526,8 +19515,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/sam.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/sam.svg'
-        }],
-      coingeckoId: 'sam-2'
+        }]
     },
     {
       description: 'Staking coin of Emporion',
@@ -19648,8 +19636,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pryzm.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pryzm.svg'
-        }],
-      coingeckoId: 'pryzm'
+        }]
     },
     {
       description: 'The community token for The Fortunate Few, a multi chain NFT community platform.',

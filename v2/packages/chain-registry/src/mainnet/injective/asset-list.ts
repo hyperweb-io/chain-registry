@@ -150,7 +150,6 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/autism.png'
       },
-      coingeckoId: 'autism',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/autism.png'
         }],
@@ -349,7 +348,6 @@ const info: AssetList = {
       name: 'Hava Coin',
       display: 'hava',
       symbol: 'HAVA',
-      coingeckoId: 'hava-coin',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hava.png'
       },

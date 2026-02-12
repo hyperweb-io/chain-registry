@@ -31,16 +31,28 @@ const info: Chain = {
     rpc: [{
         address: 'https://rpc.republicai.io',
         provider: 'Republic AI'
+      }, {
+        address: 'https://rpc-t.republic.vinjan-inc.com',
+        provider: 'Vinjan.Inc'
       }],
     rest: [{
         address: 'https://rest.republicai.io',
         provider: 'Republic AI'
+      }, {
+        address: 'https://api-t.republic.vinjan-inc.com',
+        provider: 'Vinjan.Inc'
       }],
     evmHttpJsonrpc: [{
         address: 'https://evm-rpc.republicai.io',
         provider: 'Republic AI'
       }]
   },
+  explorers: [{
+      kind: 'Vinjan.Inc',
+      url: 'https://explorer.vinjan-inc.com/republic-testnet',
+      txPage: 'https://explorer.vinjan-inc.com/republic-testnet/tx/${txHash}',
+      accountPage: 'https://explorer.vinjan-inc.com/republic-testnet/accounts/${accountAddress}'
+    }],
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/raitestnet/images/rai.png'
   },

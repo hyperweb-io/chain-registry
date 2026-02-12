@@ -20,7 +20,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg'
       },
-      coingeckoId: 'dhealth',
       socials: {
         website: 'https://dhealth.com',
         x: 'https://x.com/dhealth_network'

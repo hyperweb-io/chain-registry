@@ -308,7 +308,6 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newt.png'
       },
-      coingeckoId: 'newt',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newt.png'
         }],
@@ -1311,8 +1310,7 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/xatom.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/xatom.svg'
-        }],
-      coingeckoId: 'astrovault-xatom'
+        }]
     },
     {
       description: 'The advance token for ATOM denominated vaults on Amulet Protocol',

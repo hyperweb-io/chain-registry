@@ -25,7 +25,6 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pryzm.svg'
         }],
       typeAsset: 'sdk.coin',
-      coingeckoId: 'pryzm',
       socials: {
         website: 'https://pryzm.zone/',
         x: 'https://x.com/Pryzm_Zone'

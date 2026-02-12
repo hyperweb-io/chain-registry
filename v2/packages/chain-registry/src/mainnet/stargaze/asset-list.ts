@@ -576,7 +576,6 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/ygata.svg'
         }],
-      coingeckoId: 'yield-gata',
       socials: {
         website: 'https://gatahub.zone',
         x: 'https://x.com/GataHubZone'
