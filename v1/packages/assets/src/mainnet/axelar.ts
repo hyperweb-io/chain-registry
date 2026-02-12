@@ -3148,7 +3148,6 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pryzm.svg'
         }],
       type_asset: 'sdk.coin',
-      coingecko_id: 'pryzm',
       socials: {
         website: 'https://pryzm.zone/',
         x: 'https://x.com/Pryzm_Zone'
@@ -12736,7 +12735,6 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pryzm.svg'
         }],
       type_asset: 'sdk.coin',
-      coingecko_id: 'pryzm',
       socials: {
         website: 'https://pryzm.zone/',
         x: 'https://x.com/Pryzm_Zone'

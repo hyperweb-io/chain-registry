@@ -57,6 +57,10 @@ const info: Chain = {
       {
         address: 'https://rpc-lumen.onenov.xyz',
         provider: 'OneNov'
+      },
+      {
+        address: 'https://m-lumen.rpc.utsa.tech/',
+        provider: 'UTSA'
       }
     ],
     rest: [
@@ -75,6 +79,10 @@ const info: Chain = {
       {
         address: 'https://lumen-mainnet-api.mekonglabs.com/',
         provider: 'MekongLabs'
+      },
+      {
+        address: 'https://m-lumen.api.utsa.tech/',
+        provider: 'UTSA'
       }
     ],
     grpc: [

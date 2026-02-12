@@ -19,7 +19,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.svg'
       },
-      coingecko_id: 'meme-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.svg'

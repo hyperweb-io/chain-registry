@@ -610,7 +610,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.svg'
       },
-      coingecko_id: 'assetmantle',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.svg'
@@ -963,7 +962,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.svg'
       },
-      coingecko_id: 'bitcanna',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.svg'
@@ -2210,7 +2208,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg'
       },
-      coingecko_id: 'dhealth',
       socials: {
         website: 'https://dhealth.com',
         x: 'https://x.com/dhealth_network'
@@ -4571,7 +4568,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.svg'
       },
-      coingecko_id: 'darcmatter-coin',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.svg'
@@ -5312,7 +5308,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.svg'
       },
-      coingecko_id: 'meme-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.svg'
@@ -7043,7 +7038,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.svg'
       },
-      coingecko_id: 'assetmantle',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.svg'
@@ -7396,7 +7390,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.svg'
       },
-      coingecko_id: 'bitcanna',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.svg'
@@ -8643,7 +8636,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg'
       },
-      coingecko_id: 'dhealth',
       socials: {
         website: 'https://dhealth.com',
         x: 'https://x.com/dhealth_network'
@@ -11004,7 +10996,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.svg'
       },
-      coingecko_id: 'darcmatter-coin',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.svg'
@@ -11745,7 +11736,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.svg'
       },
-      coingecko_id: 'meme-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.svg'
@@ -13500,7 +13490,6 @@ const asset_list: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pryzm.svg'
         }],
       type_asset: 'sdk.coin',
-      coingecko_id: 'pryzm',
       socials: {
         website: 'https://pryzm.zone/',
         x: 'https://x.com/Pryzm_Zone'
@@ -21159,7 +21148,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.svg'
       },
-      coingecko_id: 'sifchain',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.svg'
@@ -23576,7 +23564,6 @@ const asset_list: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pryzm.svg'
         }],
       type_asset: 'sdk.coin',
-      coingecko_id: 'pryzm',
       socials: {
         website: 'https://pryzm.zone/',
         x: 'https://x.com/Pryzm_Zone'
@@ -31235,7 +31222,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.svg'
       },
-      coingecko_id: 'sifchain',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.svg'

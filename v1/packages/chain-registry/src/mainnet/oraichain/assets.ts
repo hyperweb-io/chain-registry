@@ -657,7 +657,6 @@ const info: AssetList = {
       name: 'SAM',
       display: 'sam',
       symbol: 'SAM',
-      coingecko_id: 'sam-2',
       socials: {
         website: 'https://www.lastsamorais.com/',
         x: 'https://x.com/sam_thecoin'

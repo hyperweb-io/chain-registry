@@ -4246,7 +4246,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.svg'
       },
-      coingecko_id: 'sifchain',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.svg'
@@ -5528,7 +5527,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.svg'
       },
-      coingecko_id: 'sifchain',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.svg'
@@ -9429,8 +9427,7 @@ const assets: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/xatom.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/xatom.svg'
-        }],
-      coingecko_id: 'astrovault-xatom'
+        }]
     },
     {
       description: 'EHO is the native token powering Cognitive Echo — a VR + AI ecosystem where thoughts become visual, insights resonate, and cognitive echo transforms ideas into reality. The infinity symbol (∞) represents infinite resonance and community-driven growth.',
@@ -12653,8 +12650,7 @@ const assets: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/xatom.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/xatom.svg'
-        }],
-      coingecko_id: 'astrovault-xatom'
+        }]
     },
     {
       description: 'EHO is the native token powering Cognitive Echo — a VR + AI ecosystem where thoughts become visual, insights resonate, and cognitive echo transforms ideas into reality. The infinity symbol (∞) represents infinite resonance and community-driven growth.',

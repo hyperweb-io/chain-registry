@@ -1984,7 +1984,6 @@ const info: AssetList = {
       name: 'NAMI',
       display: 'nami',
       symbol: 'NAMI',
-      coingecko_id: 'nami-protocol',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/nami.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/nami.svg'

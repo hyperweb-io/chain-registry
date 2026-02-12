@@ -157,7 +157,6 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/nami.png'
         }],
-      coingecko_id: 'nami-protocol',
       keywords: [
         'savings',
         'real yield',

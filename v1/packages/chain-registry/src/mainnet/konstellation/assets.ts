@@ -19,7 +19,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.svg'
       },
-      coingecko_id: 'darcmatter-coin',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.svg'

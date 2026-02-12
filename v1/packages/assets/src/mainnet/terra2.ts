@@ -2003,7 +2003,6 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pryzm.svg'
         }],
       type_asset: 'sdk.coin',
-      coingecko_id: 'pryzm',
       socials: {
         website: 'https://pryzm.zone/',
         x: 'https://x.com/Pryzm_Zone'
@@ -11855,7 +11854,6 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pryzm.svg'
         }],
       type_asset: 'sdk.coin',
-      coingecko_id: 'pryzm',
       socials: {
         website: 'https://pryzm.zone/',
         x: 'https://x.com/Pryzm_Zone'
@@ -19821,8 +19819,7 @@ const assets: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/xatom.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/xatom.svg'
-        }],
-      coingecko_id: 'astrovault-xatom'
+        }]
     },
     {
       description: 'EHO is the native token powering Cognitive Echo — a VR + AI ecosystem where thoughts become visual, insights resonate, and cognitive echo transforms ideas into reality. The infinity symbol (∞) represents infinite resonance and community-driven growth.',
@@ -20400,8 +20397,7 @@ const assets: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/xatom.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/xatom.svg'
-        }],
-      coingecko_id: 'astrovault-xatom'
+        }]
     },
     {
       description: 'EHO is the native token powering Cognitive Echo — a VR + AI ecosystem where thoughts become visual, insights resonate, and cognitive echo transforms ideas into reality. The infinity symbol (∞) represents infinite resonance and community-driven growth.',
