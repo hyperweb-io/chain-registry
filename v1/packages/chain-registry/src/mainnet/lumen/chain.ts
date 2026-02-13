@@ -152,6 +152,10 @@ const info: Chain = {
     {
       kind: 'Indonode',
       url: 'https://explorer.indonode.net/lumen'
+    },
+    {
+      kind: 'NodeGod20',
+      url: 'https://explorer.nodegod20.cloud/lumen-mainnet'
     }
   ],
   images: [{
