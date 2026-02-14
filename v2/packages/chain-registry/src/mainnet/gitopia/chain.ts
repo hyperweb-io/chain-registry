@@ -164,6 +164,10 @@ const info: Chain = {
       {
         address: 'https://rpc-gitopia.blockval.io/',
         provider: 'Blockval'
+      },
+      {
+        address: 'https://rpc-gitopia.onenov.xyz',
+        provider: 'OneNov'
       }
     ],
     rest: [
@@ -278,6 +282,10 @@ const info: Chain = {
       {
         address: 'https://api-gitopia.blockval.io',
         provider: 'Blockval'
+      },
+      {
+        address: 'https://api-gitopia.onenov.xyz',
+        provider: 'OneNov'
       }
     ],
     grpc: [
@@ -400,6 +408,10 @@ const info: Chain = {
       {
         address: 'grpc-gitopia.blockval.io:443',
         provider: 'Blockval'
+      },
+      {
+        address: 'grpc-gitopia.onenov.xyz:443',
+        provider: 'OneNov'
       }
     ]
   },
@@ -505,6 +517,13 @@ const info: Chain = {
       url: 'https://mainnet.whispernode.com/gitopia',
       txPage: 'https://mainnet.whispernode.com/gitopia/tx/${txHash}',
       accountPage: 'https://mainnet.whispernode.com/gitopia/account/${accountAddress}'
+    },
+    {
+      kind: 'OV Explorer',
+      url: 'https://ov-explorer.onenov.xyz/network/gitopia',
+      txPage: 'https://ov-explorer.onenov.xyz/network/gitopia/tx/${txHash}',
+      accountPage: 'https://ov-explorer.onenov.xyz/network/gitopia/account/${accountAddress}',
+      validatorPage: 'https://ov-explorer.onenov.xyz/network/gitopia/validator/${validatorAddress}'
     }
   ],
   logoURIs: {
