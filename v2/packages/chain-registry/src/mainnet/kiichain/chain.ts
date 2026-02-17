@@ -42,7 +42,8 @@ const info: Chain = {
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/KiiChain/mainnets/refs/heads/main/kiichain/genesis.json'
-    }
+    },
+    tag: 'v6.1.0'
   },
   apis: {
     rpc: [{
