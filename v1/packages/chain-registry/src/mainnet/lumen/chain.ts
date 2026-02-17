@@ -34,7 +34,8 @@ const info: Chain = {
     compatible_versions: ['v1.4.3'],
     genesis: {
       genesis_url: 'https://raw.githubusercontent.com/network-lumen/validator-kit/master/config/genesis.json'
-    }
+    },
+    tag: 'v1.4.3'
   },
   apis: {
     rpc: [
