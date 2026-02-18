@@ -3,6 +3,38 @@ const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chainName: 'moo',
   assets: [{
+      description: 'The native token of Initia',
+      denomUnits: [{
+          denom: 'ibc/37A3FB4FED4CA04ED6D9E5DA36C6D27248645F0E22F585576A1488B8A89C5A50',
+          exponent: 0
+        }, {
+          denom: 'INIT',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/37A3FB4FED4CA04ED6D9E5DA36C6D27248645F0E22F585576A1488B8A89C5A50',
+      name: 'Initia',
+      display: 'INIT',
+      symbol: 'INIT',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'initia',
+            baseDenom: 'uinit',
+            channelId: 'channel-29'
+          },
+          chain: {
+            channelId: 'channel-0',
+            path: 'transfer/channel-0/uinit'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'initia',
+            baseDenom: 'uinit'
+          }
+        }]
+    }, {
       description: 'MilkyWay\'s Liquid Staked INIT',
       denomUnits: [{
           denom: 'factory/init17p9rzwnnfxcjp32un9ug7yhhzgtkhvl9jfksztgw5uh69wac2pgsj6uxxj/umilkINIT',
