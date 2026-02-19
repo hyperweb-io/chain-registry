@@ -114,10 +114,6 @@ const info: Chain = {
         provider: 'StakeTown'
       },
       {
-        address: 'https://umee-rpc.highstakes.ch',
-        provider: 'High Stakes 🇨🇭'
-      },
-      {
         address: 'https://umee.rpc.stakevillage.net:443',
         provider: 'Stake Village'
       },
@@ -182,10 +178,6 @@ const info: Chain = {
       {
         address: 'https://umee-api.stake-town.com',
         provider: 'StakeTown'
-      },
-      {
-        address: 'https://umee-api.highstakes.ch',
-        provider: 'High Stakes 🇨🇭'
       },
       {
         address: 'https://umee.api.stakevillage.net',
