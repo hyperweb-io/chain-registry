@@ -16,20 +16,15 @@ const info: Chain = {
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/terpnetwork/networks/main/mainnet/morocco-1/genesis.json'
     },
-    recommendedVersion: 'v4.2.2',
-    compatibleVersions: [
-      'v4.1.0',
-      'v4.2.0',
-      'v4.2.1',
-      'v4.2.2'
-    ],
+    recommendedVersion: 'v5.0.3',
+    compatibleVersions: ['v5.0.2', 'v5.0.3'],
     consensus: {
       type: 'cometbft',
-      version: '0.37.2'
+      version: '0.38.21'
     },
     binaries: {
-      "linux/amd64": 'https://github.com/terpnetwork/terp-core/releases/download/v4.2.2/terpd-linux-amd64',
-      "linux/arm64": 'https://github.com/terpnetwork/terp-core/releases/download/v4.2.2/terpd-linux-arm64'
+      "linux/amd64": 'https://github.com/terpnetwork/terp-core/releases/download/v5.0.3/terpd-linux-amd64',
+      "linux/arm64": 'https://github.com/terpnetwork/terp-core/releases/download/v5.0.3/terpd-linux-arm64'
     }
   },
   fees: {
@@ -49,8 +44,8 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://rpc-terp.zenchainlabs.io/',
-        provider: 'ZenChainLabs'
+        address: 'https://rpc-mainnet.terp.network:443',
+        provider: 'TerpNet Foundation'
       },
       {
         address: 'https://terp-mainnet-rpc.itrocket.net:443',
@@ -63,7 +58,7 @@ const info: Chain = {
     ],
     rest: [
       {
-        address: 'https://api-terp.zenchainlabs.io:443',
+        address: 'https://api-mainnet.terp.network.io:443',
         provider: 'ZenChainLabs'
       },
       {
@@ -80,6 +75,10 @@ const info: Chain = {
       }
     ],
     grpc: [
+      {
+        address: 'grpc-mainnet.terp.network.io:443',
+        provider: 'TerpNet Foundation'
+      },
       {
         address: 'https://grpc.terp.nodestake.top:443',
         provider: 'NodeStake'
@@ -106,12 +105,6 @@ const info: Chain = {
       url: 'https://explorer.nodestake.top',
       txPage: 'https://explorer.nodestake.top/terp/tx/${txHash}',
       accountPage: 'https://explorer.nodestake.top/terp/account/{$accountAddress}'
-    },
-    {
-      kind: 'ZenChainLabs',
-      url: 'https://terp.zenscan.io/',
-      txPage: 'https://terp.zenscan.io/transaction.php?hash=${txHash}',
-      accountPage: 'https://terp.zenscan.io/address.php?address=${accountAddress}'
     },
     {
       kind: '🔥STAVR🔥',
