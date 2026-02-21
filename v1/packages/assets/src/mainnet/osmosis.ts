@@ -2239,14 +2239,14 @@ const assets: AssetList = {
     {
       description: 'Divine Ray Chain (DRC) powers a public-permissioned blockchain designed for conscious creators and community networks. DRC is the native asset used to secure the chain, enable transactions, reward participation, and support the emerging divine digital economy.',
       denom_units: [{
-          denom: 'ibc/E7D5845607642A90E1E6285DB54BCD0EE68ECD24545F3449BFBA40C2628FBCAF',
+          denom: 'ibc/31B7E66F7236A52FE7ED2E5418CEF92C71A72DA711B373309C69C21BE8032DF7',
           exponent: 0,
           aliases: ['uDRC']
         }, {
           denom: 'DRC',
           exponent: 6
         }],
-      base: 'ibc/E7D5845607642A90E1E6285DB54BCD0EE68ECD24545F3449BFBA40C2628FBCAF',
+      base: 'ibc/31B7E66F7236A52FE7ED2E5418CEF92C71A72DA711B373309C69C21BE8032DF7',
       name: 'Divine',
       display: 'DRC',
       symbol: 'DRC',
@@ -2264,12 +2264,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-3',
+            channel_id: 'channel-0',
             base_denom: 'uDRC',
             chain_name: 'divine'
           },
           chain: {
-            channel_id: 'channel-108909'
+            channel_id: 'channel-109096'
           }
         }]
     },
@@ -8667,14 +8667,14 @@ const assets: AssetList = {
     {
       description: 'Divine Ray Chain (DRC) powers a public-permissioned blockchain designed for conscious creators and community networks. DRC is the native asset used to secure the chain, enable transactions, reward participation, and support the emerging divine digital economy.',
       denom_units: [{
-          denom: 'ibc/E7D5845607642A90E1E6285DB54BCD0EE68ECD24545F3449BFBA40C2628FBCAF',
+          denom: 'ibc/31B7E66F7236A52FE7ED2E5418CEF92C71A72DA711B373309C69C21BE8032DF7',
           exponent: 0,
           aliases: ['uDRC']
         }, {
           denom: 'DRC',
           exponent: 6
         }],
-      base: 'ibc/E7D5845607642A90E1E6285DB54BCD0EE68ECD24545F3449BFBA40C2628FBCAF',
+      base: 'ibc/31B7E66F7236A52FE7ED2E5418CEF92C71A72DA711B373309C69C21BE8032DF7',
       name: 'Divine',
       display: 'DRC',
       symbol: 'DRC',
@@ -8692,12 +8692,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-3',
+            channel_id: 'channel-0',
             base_denom: 'uDRC',
             chain_name: 'divine'
           },
           chain: {
-            channel_id: 'channel-108909'
+            channel_id: 'channel-109096'
           }
         }]
     },

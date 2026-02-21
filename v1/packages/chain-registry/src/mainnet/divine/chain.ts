@@ -103,7 +103,11 @@ const info: Chain = {
       }
     ]
   },
-  explorers: [],
+  explorers: [{
+      kind: 'ping.pub',
+      url: 'https://ping.pub/divine',
+      tx_page: 'https://ping.pub/divine/tx/${txHash}'
+    }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/divine/images/udrc.png'
     }]
