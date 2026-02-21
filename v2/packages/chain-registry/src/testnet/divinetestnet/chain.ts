@@ -30,7 +30,7 @@ const info: Chain = {
   codebase: {
     gitRepo: 'https://github.com/Divine-Ray-Coin/divinechain.git',
     genesis: {
-      genesisUrl: 'https://raw.githubusercontent.com/Divine-Ray-Coin/divinechain/refs/heads/main/genesis/genesis.json'
+      genesisUrl: 'https://raw.githubusercontent.com/Divine-Ray-Coin/divinechain/refs/heads/testnet/genesis/genesis.json'
     },
     recommendedVersion: 'v1.0.0',
     compatibleVersions: ['v1.0.0'],
@@ -102,7 +102,11 @@ const info: Chain = {
       }
     ]
   },
-  explorers: [],
+  explorers: [{
+      kind: 'ping.pub',
+      url: 'https://testnet.ping.pub/divine',
+      txPage: 'https://testnet.ping.pub/divine/tx/${txHash}'
+    }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/divine/images/udrc.png'
     }]
