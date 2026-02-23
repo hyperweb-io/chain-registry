@@ -32,6 +32,11 @@ const info: AssetList = {
           imageSync: {
             chainName: 'initia',
             baseDenom: 'uinit'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.svg',
+          theme: {
+            circle: true
           }
         }]
     }, {
