@@ -12,7 +12,7 @@ const info: Chain = {
   daemon_name: 'stocd',
   node_home: '$HOME/.stoc',
   key_algos: ['secp256k1'],
-  slip44: 60,
+  slip44: 118,
   fees: {
     fee_tokens: [{
         denom: 'ustoc',
@@ -41,10 +41,6 @@ const info: Chain = {
     sdk: {
       type: 'cosmos',
       version: 'v0.53.3'
-    },
-    ibc: {
-      type: 'go',
-      version: 'v8.7.0'
     }
   },
   description: 'STO Chain is a Cosmos-based blockchain network designed to enable the digitization, compliance, and cross-chain circulation of real assets such as real estate, stocks, and commodities through blockchain technology.',
