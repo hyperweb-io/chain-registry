@@ -28,17 +28,17 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/cheqd/cheqd-node',
-    recommendedVersion: 'v4.1.6',
-    compatibleVersions: ['v4.1.6'],
+    recommendedVersion: 'v4.2.1',
+    compatibleVersions: ['v4.2.1'],
     binaries: {
-      "linux/amd64": 'https://github.com/cheqd/cheqd-node/releases/download/v4.1.6/cheqd-noded-4.1.6-linux-amd64.tar.gz',
-      "linux/arm64": 'https://github.com/cheqd/cheqd-node/releases/download/v4.1.6/cheqd-noded-4.1.6-linux-arm64.tar.gz',
-      "darwin/amd64": 'https://github.com/cheqd/cheqd-node/releases/download/v4.1.6/cheqd-noded-4.1.6-darwin-amd64.tar.gz',
-      "darwin/arm64": 'https://github.com/cheqd/cheqd-node/releases/download/v4.1.6/cheqd-noded-4.1.6-darwin-arm64.tar.gz'
+      "linux/amd64": 'https://github.com/cheqd/cheqd-node/releases/download/v4.2.1/cheqd-noded-4.2.1-linux-amd64.tar.gz',
+      "linux/arm64": 'https://github.com/cheqd/cheqd-node/releases/download/v4.2.1/cheqd-noded-4.2.1-linux-arm64.tar.gz',
+      "darwin/amd64": 'https://github.com/cheqd/cheqd-node/releases/download/v4.2.1/cheqd-noded-4.2.1-darwin-amd64.tar.gz',
+      "darwin/arm64": 'https://github.com/cheqd/cheqd-node/releases/download/v4.2.1/cheqd-noded-4.2.1-darwin-arm64.tar.gz'
     },
     consensus: {
       type: 'cometbft',
-      version: '0.38.19'
+      version: '0.38.21'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/cheqd/cheqd-node/main/networks/mainnet/genesis.json'
