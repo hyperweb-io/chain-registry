@@ -11,7 +11,9 @@ const info: Chain = {
   daemon_name: 'bitbadgeschaind',
   bech32_prefix: 'bb',
   node_home: '$HOME/.bitbadgeschaind',
-  slip44: 118,
+  slip44: 60,
+  extra_codecs: ['ethermint'],
+  key_algos: ['ethsecp256k1'],
   fees: {
     fee_tokens: [{
         denom: 'ubadge',
@@ -73,6 +75,10 @@ const info: Chain = {
     grpc: [{
         address: 'https://grpc.bitbadges.io',
         provider: 'bitbadges'
+      }],
+    "evm-http-jsonrpc": [{
+        address: 'https://evm-rpc.bitbadges.io',
+        provider: 'bitbadges'
       }]
   },
   explorers: [
@@ -86,7 +92,7 @@ const info: Chain = {
       kind: 'ping.pub',
       url: 'https://explorer.bitbadges.io/BitBadges%20Mainnet',
       tx_page: 'https://explorer.bitbadges.io/BitBadges%20Mainnet/txs/${txHash}',
-      account_page: 'https://explorer.bitbadges.io/BitBadBitBadges%20Mainnetges/account/${accountAddress}'
+      account_page: 'https://explorer.bitbadges.io/BitBadges%20Mainnet/account/${accountAddress}'
     },
     {
       kind: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥',
