@@ -4485,19 +4485,19 @@ const assets: AssetList = {
     {
       description: 'The native token of MANTRA',
       denom_units: [{
-          denom: 'ibc/30DE434D61B6C6F0E3132FE1F2413C76D2EBA63B3E18A211C4CD192A5F5580F1',
+          denom: 'ibc/728FEBF35CB28DF463E5A465763F2958E13A0E85BF16D1683A9A4F237D1EEDF5',
           exponent: 0,
-          aliases: ['uom']
+          aliases: ['amantra']
         }, {
-          denom: 'om',
-          exponent: 6
+          denom: 'mantra',
+          exponent: 18
         }],
       type_asset: 'sdk.coin',
-      base: 'ibc/30DE434D61B6C6F0E3132FE1F2413C76D2EBA63B3E18A211C4CD192A5F5580F1',
+      base: 'ibc/728FEBF35CB28DF463E5A465763F2958E13A0E85BF16D1683A9A4F237D1EEDF5',
       name: 'MANTRA Chain',
-      display: 'om',
-      symbol: 'OM',
-      coingecko_id: 'mantra-dao',
+      display: 'mantra',
+      symbol: 'MANTRA',
+      coingecko_id: 'mantra',
       keywords: [
         'rwa',
         'wasm',
@@ -4536,7 +4536,7 @@ const assets: AssetList = {
           type: 'ibc',
           counterparty: {
             channel_id: 'channel-3',
-            base_denom: 'uom',
+            base_denom: 'amantra',
             chain_name: 'mantrachain'
           },
           chain: {
@@ -15109,19 +15109,19 @@ const assets: AssetList = {
     {
       description: 'The native token of MANTRA',
       denom_units: [{
-          denom: 'ibc/30DE434D61B6C6F0E3132FE1F2413C76D2EBA63B3E18A211C4CD192A5F5580F1',
+          denom: 'ibc/728FEBF35CB28DF463E5A465763F2958E13A0E85BF16D1683A9A4F237D1EEDF5',
           exponent: 0,
-          aliases: ['uom']
+          aliases: ['amantra']
         }, {
-          denom: 'om',
-          exponent: 6
+          denom: 'mantra',
+          exponent: 18
         }],
       type_asset: 'sdk.coin',
-      base: 'ibc/30DE434D61B6C6F0E3132FE1F2413C76D2EBA63B3E18A211C4CD192A5F5580F1',
+      base: 'ibc/728FEBF35CB28DF463E5A465763F2958E13A0E85BF16D1683A9A4F237D1EEDF5',
       name: 'MANTRA Chain',
-      display: 'om',
-      symbol: 'OM',
-      coingecko_id: 'mantra-dao',
+      display: 'mantra',
+      symbol: 'MANTRA',
+      coingecko_id: 'mantra',
       keywords: [
         'rwa',
         'wasm',
@@ -15160,7 +15160,7 @@ const assets: AssetList = {
           type: 'ibc',
           counterparty: {
             channel_id: 'channel-3',
-            base_denom: 'uom',
+            base_denom: 'amantra',
             chain_name: 'mantrachain'
           },
           chain: {
