@@ -15,16 +15,16 @@ const info: Chain = {
   slip44: 60,
   fees: {
     feeTokens: [{
-        denom: 'uom',
-        fixedMinGasPrice: 0.01,
-        lowGasPrice: 0.01,
-        averageGasPrice: 0.01,
-        highGasPrice: 0.03
+        denom: 'amantra',
+        fixedMinGasPrice: 40000000000,
+        lowGasPrice: 40000000000,
+        averageGasPrice: 80000000000,
+        highGasPrice: 120000000000
       }]
   },
   staking: {
     stakingTokens: [{
-        denom: 'uom'
+        denom: 'amantra'
       }],
     lockDuration: {
       time: '691200s'
@@ -32,17 +32,17 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/MANTRA-Chain/mantrachain',
-    recommendedVersion: 'v6.1.1',
-    compatibleVersions: ['v6.1.0', 'v6.1.1'],
+    recommendedVersion: 'v7.0.0',
+    compatibleVersions: ['v7.0.0'],
     consensus: {
       type: 'cometbft',
-      version: 'v0.38.19'
+      version: 'v0.38.21'
     },
     sdk: {
       type: 'cosmos',
       version: 'v0.53.4',
       repo: 'https://github.com/MANTRA-Chain/cosmos-sdk',
-      tag: 'v0.53.4-mantra'
+      tag: 'v0.53.4-v7-mantra-2'
     },
     cosmwasm: {
       version: 'v0.61.1',

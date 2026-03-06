@@ -17816,6 +17816,68 @@ const info: AssetList = {
     {
       description: 'The native token of MANTRA',
       denomUnits: [{
+          denom: 'ibc/4EDB04DED162ED1D45F86F8C7F92E011E8CF3AE9E5214BD3EA06F9D05B38F18D',
+          exponent: 0,
+          aliases: ['amantra']
+        }, {
+          denom: 'mantra',
+          exponent: 18
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/4EDB04DED162ED1D45F86F8C7F92E011E8CF3AE9E5214BD3EA06F9D05B38F18D',
+      name: 'MANTRA',
+      display: 'mantra',
+      symbol: 'MANTRA',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'mantrachain',
+            baseDenom: 'amantra',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-85077',
+            path: 'transfer/channel-85077/amantra'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg'
+      },
+      images: [
+        {
+          imageSync: {
+            chainName: 'mantrachain',
+            baseDenom: 'amantra'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg',
+          theme: {
+            circle: true
+          }
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Darkmatt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Darkmatt.svg',
+          theme: {
+            darkMode: true,
+            circle: true
+          }
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-WHT.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-WHT.svg',
+          theme: {
+            darkMode: false,
+            circle: true
+          }
+        }
+      ],
+      coingeckoId: 'mantra'
+    },
+    {
+      description: 'The deprecated native token of MANTRA before $OM to $MANTRA Redenomination',
+      denomUnits: [{
           denom: 'ibc/164807F6226F91990F358C6467EEE8B162E437BDCD3DADEC3F0CE20693720795',
           exponent: 0,
           aliases: ['uom']

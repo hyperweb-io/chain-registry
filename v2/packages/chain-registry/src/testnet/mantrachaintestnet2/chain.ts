@@ -32,8 +32,8 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/MANTRA-Chain/mantrachain',
-    recommendedVersion: 'v7.0.0-rc2',
-    compatibleVersions: ['v7.0.0-rc2'],
+    recommendedVersion: 'v7.0.0-rc3',
+    compatibleVersions: ['v7.0.0-rc3'],
     consensus: {
       type: 'cometbft',
       version: 'v0.38.19'
@@ -120,7 +120,7 @@ const info: Chain = {
   images: [{
       imageSync: {
         chainName: 'mantrachain',
-        baseDenom: 'uom'
+        baseDenom: 'amantra'
       },
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg',

@@ -7,6 +7,57 @@ const info: AssetList = {
       description: 'The native token of MANTRA',
       extendedDescription: 'The first RWA Layer 1 Blockchain, capable of adherence and enforcement of real world regulatory requirements.',
       denomUnits: [{
+          denom: 'amantra',
+          exponent: 0
+        }, {
+          denom: 'mantra',
+          exponent: 18
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'amantra',
+      name: 'MANTRA Chain',
+      display: 'mantra',
+      symbol: 'MANTRA',
+      coingeckoId: 'mantra',
+      keywords: [
+        'rwa',
+        'wasm',
+        'staking'
+      ],
+      images: [
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg',
+          theme: {
+            circle: true
+          }
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Darkmatt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Darkmatt.svg',
+          theme: {
+            darkMode: true,
+            circle: true
+          }
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-WHT.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-WHT.svg',
+          theme: {
+            darkMode: false,
+            circle: true
+          }
+        }
+      ],
+      socials: {
+        website: 'https://www.mantrachain.io/',
+        x: 'https://x.com/MANTRA_Chain'
+      }
+    },
+    {
+      description: 'The deprecated native token of MANTRA before $OM to $MANTRA Redenomination',
+      extendedDescription: 'The first RWA Layer 1 Blockchain, capable of adherence and enforcement of real world regulatory requirements.',
+      denomUnits: [{
           denom: 'uom',
           exponent: 0
         }, {
@@ -18,6 +69,14 @@ const info: AssetList = {
       name: 'MANTRA Chain',
       display: 'om',
       symbol: 'OM',
+      traces: [{
+          type: 'legacy-mintage',
+          counterparty: {
+            chainName: 'mantrachain',
+            baseDenom: 'amantra'
+          },
+          provider: 'MANTRA'
+        }],
       coingeckoId: 'mantra-dao',
       keywords: [
         'rwa',
