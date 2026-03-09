@@ -85,6 +85,10 @@ const info: AssetList = {
       ],
       images: [
         {
+          imageSync: {
+            chainName: 'mantrachain',
+            baseDenom: 'amantra'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg',
           theme: {
