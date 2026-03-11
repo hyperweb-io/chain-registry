@@ -131,7 +131,6 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
       },
-      coingecko_id: 'white-whale',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
         }]

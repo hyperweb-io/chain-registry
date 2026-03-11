@@ -1222,7 +1222,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg'
       },
-      coingecko_id: 'kava-swap',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg'
@@ -1594,7 +1593,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg'
       },
-      coingecko_id: 'white-whale',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg'
@@ -11073,7 +11071,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg'
       },
-      coingecko_id: 'kava-swap',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg'
@@ -11445,7 +11442,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg'
       },
-      coingecko_id: 'white-whale',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg'

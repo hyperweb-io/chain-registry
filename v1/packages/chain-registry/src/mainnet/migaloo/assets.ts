@@ -21,7 +21,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg'
       },
-      coingecko_id: 'white-whale',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg'
@@ -160,8 +159,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rac.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rac.svg'
         }],
-      type_asset: 'sdk.coin',
-      coingecko_id: 'racoon'
+      type_asset: 'sdk.coin'
     },
     {
       description: 'ASH',

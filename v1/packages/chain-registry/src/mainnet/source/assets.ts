@@ -20,7 +20,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg'
       },
-      coingecko_id: 'source',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg'

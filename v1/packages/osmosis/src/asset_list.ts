@@ -2680,7 +2680,6 @@ const asset_list: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
       },
-      coingecko_id: 'e-money-eur',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
         }],
@@ -4374,7 +4373,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg'
       },
-      coingecko_id: 'kava-swap',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg'
@@ -4488,7 +4486,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg'
       },
-      coingecko_id: 'ki',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg'
@@ -5343,7 +5340,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg'
       },
-      coingecko_id: 'white-whale',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg'
@@ -6316,7 +6312,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
       },
-      coingecko_id: 'omniflix-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
@@ -9108,7 +9103,6 @@ const asset_list: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
       },
-      coingecko_id: 'e-money-eur',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
         }],
@@ -10802,7 +10796,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg'
       },
-      coingecko_id: 'kava-swap',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg'
@@ -10916,7 +10909,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg'
       },
-      coingecko_id: 'ki',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg'
@@ -11771,7 +11763,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg'
       },
-      coingecko_id: 'white-whale',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg'
@@ -12783,7 +12774,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
       },
-      coingecko_id: 'omniflix-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
@@ -21231,7 +21221,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg'
       },
-      coingecko_id: 'source',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg'
@@ -21807,7 +21796,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.svg'
       },
-      coingecko_id: 'teritori',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.svg'
@@ -31305,7 +31293,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg'
       },
-      coingecko_id: 'source',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg'
@@ -31881,7 +31868,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.svg'
       },
-      coingecko_id: 'teritori',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.svg'
@@ -34086,7 +34072,6 @@ const asset_list: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png'
       },
-      coingecko_id: 'racoon',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png'
         }]
@@ -37465,7 +37450,6 @@ const asset_list: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png'
       },
-      coingecko_id: 'racoon',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png'
         }]
@@ -40375,7 +40359,6 @@ const asset_list: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
       },
-      coingecko_id: 'white-whale',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
         }]
@@ -48965,7 +48948,6 @@ const asset_list: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
       },
-      coingecko_id: 'white-whale',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/whale.png'
         }]

@@ -17,7 +17,6 @@ const info: AssetList = {
       name: 'Pica',
       display: 'pica',
       symbol: 'PICA',
-      coingecko_id: 'picasso',
       traces: [{
           type: 'additional-mintage',
           counterparty: {

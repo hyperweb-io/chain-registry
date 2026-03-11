@@ -74,14 +74,50 @@ const info: Chain = {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/pocket/images/pokt-icon.png'
   },
   apis: {
-    rpc: [{
-        address: 'https://shannon-grove-rpc.mainnet.poktroll.com',
-        provider: 'Grove'
-      }],
-    rest: [{
-        address: 'https://shannon-grove-api.mainnet.poktroll.com',
-        provider: 'Grove'
-      }]
+    rpc: [
+      {
+        address: 'https://sauron-rpc.infra.pocket.network:443',
+        provider: 'Pocket Network'
+      },
+      {
+        address: 'https://pocket.api.pocket.network:443',
+        provider: 'Pocket Network'
+      },
+      {
+        address: 'https://rpc-pocket.blockval.io:443',
+        provider: 'Blockval'
+      },
+      {
+        address: 'https://pocket-rpc.polkachu.com:443',
+        provider: 'Polkachu'
+      },
+      {
+        address: 'https://rpc.pocket.chaintools.tech:443',
+        provider: 'ChainTools'
+      }
+    ],
+    rest: [
+      {
+        address: 'https://sauron-api.infra.pocket.network:443',
+        provider: 'Pocket Network'
+      },
+      {
+        address: 'https://pocket.api.pocket.network:443',
+        provider: 'Pocket Network'
+      },
+      {
+        address: 'https://api-pocket.blockval.io:443',
+        provider: 'Blockval'
+      },
+      {
+        address: 'https://pocket-api.polkachu.com:443',
+        provider: 'Polkachu'
+      },
+      {
+        address: 'https://api.pocket.chaintools.tech:443',
+        provider: 'ChainTools'
+      }
+    ]
   },
   explorers: [
     {

@@ -1309,8 +1309,7 @@ const assets: AssetList = {
             base_denom: 'eeur'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
-        }],
-      coingecko_id: 'e-money-eur'
+        }]
     },
     {
       description: 'LIKE is the native staking and governance token of LikeCoin chain, a Decentralized Publishing Infrastructure to empower content ownership, authenticity, and provenance.',
@@ -1512,8 +1511,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg'
-        }],
-      coingecko_id: 'ki'
+        }]
     },
     {
       description: 'Panacea is a public blockchain launched by MediBloc, which is the key infrastructure for reinventing the patient-centered healthcare data ecosystem',
@@ -2633,8 +2631,7 @@ const assets: AssetList = {
             base_denom: 'cw20:juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png'
-        }],
-      coingecko_id: 'racoon'
+        }]
     },
     {
       description: 'Frax is a fractional-algorithmic stablecoin protocol. It aims to provide a highly scalable, decentralized, algorithmic money in place of fixed-supply assets like BTC. Additionally, FXS is the value accrual and governance token of the entire Frax ecosystem.',
@@ -3358,8 +3355,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg'
-        }],
-      coingecko_id: 'kava-swap'
+        }]
     },
     {
       description: 'A blockchain-based middleware, acting as a bridge between cryptocurrency smart contracts, data feeds, APIs and traditional bank account payments.',
@@ -4753,8 +4749,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.svg'
-        }],
-      coingecko_id: 'teritori'
+        }]
     },
     {
       denom_units: [{
@@ -6671,8 +6666,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg'
-        }],
-      coingecko_id: 'white-whale'
+        }]
     },
     {
       description: 'Evmos Guardians governance token.',
@@ -7197,8 +7191,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-        }],
-      coingecko_id: 'omniflix-network'
+        }]
     },
     {
       description: 'Spacer',
@@ -8024,8 +8017,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stumee.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stumee.svg'
-        }],
-      coingecko_id: 'stride-staked-umee'
+        }]
     },
     {
       denom_units: [{
@@ -8291,8 +8283,7 @@ const assets: AssetList = {
             base_denom: 'ppica'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg'
-        }],
-      coingecko_id: 'picasso'
+        }]
     },
     {
       description: 'The native fee, governance, staking, and bonding token of the Polkadot platform.',
@@ -10346,8 +10337,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg'
-        }],
-      coingecko_id: 'source'
+        }]
     },
     {
       description: 'Pyth is a protocol that allows market participants to publish pricing information on-chain for others to use. The protocol is an interaction between three parties:\n-Publishers submit pricing information to Pyth\'s oracle program. Pyth has multiple data publishers for every product to improve the accuracy and robustness of the system.\n-Pyth\'s oracle program combines publishers\' data to produce a single aggregate price and confidence interval.\nConsumers read the price information produced by the oracle program.\n\nPyth\'s oracle program runs simultaneously on both Solana mainnet and Pythnet. Each instance of the program is responsible for its own set of price feeds. Solana Price Feeds are available for use by Solana protocols. In this case, since the oracle program itself runs on Solana, the resulting prices are immediately available to consumers without requiring any additional work. Pythnet Price Feeds are available on 12+ blockchains. The prices constructed on Pythnet are transferred cross-chain to reach consumers on these blockchains.\n\nIn both cases, the critical component of the system is the oracle program that combines the data from each individual publisher. This program maintains a number of different Solana accounts that list the products on Pyth and their current price data. Publishers publish their price and confidence by interacting with the oracle program on every slot. The program stores this information in its accounts. The first price update in a slot additionally triggers price aggregation, which combines the price data from the previous slot into a single aggregate price and confidence interval. This aggregate price is written to the Solana account where it is readable by other on-chain programs and available for transmission to other blockchains.',
@@ -10641,8 +10631,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rac.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rac.svg'
-        }],
-      coingecko_id: 'racoon'
+        }]
     },
     {
       description: 'GUPPY',

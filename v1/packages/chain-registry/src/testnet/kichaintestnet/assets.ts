@@ -27,7 +27,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg'
       },
-      coingecko_id: 'ki',
       images: [{
           image_sync: {
             chain_name: 'kichain',

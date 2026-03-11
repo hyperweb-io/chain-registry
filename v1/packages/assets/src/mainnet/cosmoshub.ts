@@ -2881,7 +2881,6 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
       },
-      coingecko_id: 'e-money-eur',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
         }],
@@ -3922,7 +3921,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg'
       },
-      coingecko_id: 'kava-swap',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg'
@@ -4036,7 +4034,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg'
       },
-      coingecko_id: 'ki',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg'
@@ -4887,7 +4884,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
       },
-      coingecko_id: 'omniflix-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
@@ -12885,7 +12881,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.svg'
       },
-      coingecko_id: 'teritori',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.svg'
@@ -13505,7 +13500,6 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
       },
-      coingecko_id: 'e-money-eur',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
         }],
@@ -14546,7 +14540,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg'
       },
-      coingecko_id: 'kava-swap',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg'
@@ -14660,7 +14653,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg'
       },
-      coingecko_id: 'ki',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg'
@@ -15472,7 +15464,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
       },
-      coingecko_id: 'omniflix-network',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
@@ -23470,7 +23461,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.svg'
       },
-      coingecko_id: 'teritori',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.svg'

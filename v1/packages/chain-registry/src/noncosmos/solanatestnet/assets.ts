@@ -139,7 +139,6 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/oracler.png'
       },
-      coingecko_id: 'oracler-ai',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/oracler.png'
         }]

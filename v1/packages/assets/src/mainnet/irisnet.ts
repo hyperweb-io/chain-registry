@@ -364,7 +364,6 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
       },
-      coingecko_id: 'e-money-eur',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
         }],
@@ -875,7 +874,6 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
       },
-      coingecko_id: 'e-money-eur',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png'
         }],
