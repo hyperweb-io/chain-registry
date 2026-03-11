@@ -11,9 +11,8 @@ const info: Chain = {
   daemonName: 'bitbadgeschaind',
   bech32Prefix: 'bb',
   nodeHome: '$HOME/.bitbadgeschaind',
-  slip44: 60,
-  extraCodecs: ['ethermint'],
-  keyAlgos: ['ethsecp256k1'],
+  slip44: 118,
+  keyAlgos: ['secp256k1'],
   fees: {
     feeTokens: [{
         denom: 'ubadge',

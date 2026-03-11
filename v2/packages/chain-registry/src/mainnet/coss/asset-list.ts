@@ -61,7 +61,6 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.png'
       },
-      coingeckoId: 'cias',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.png'
         }],

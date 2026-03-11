@@ -338,8 +338,7 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-      },
-      coingeckoId: 'omniflix-network'
+      }
     },
     {
       description: 'The Sherpa memecoin',
