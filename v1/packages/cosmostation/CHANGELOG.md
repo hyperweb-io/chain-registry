@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.72.516](https://github.com/hyperweb-io/chain-registry/compare/@chain-registry/cosmostation@2.0.168...@chain-registry/cosmostation@1.72.516) (2026-03-12)
+
+**Note:** Version bump only for package @chain-registry/cosmostation
+
+
+
+
+
 ## 1.72.515 (2026-03-11)
 
 **Note:** Version bump only for package @chain-registry/cosmostation
