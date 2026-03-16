@@ -134,7 +134,6 @@ const info: AssetList = {
             path: 'transfer/channel-30/ukuji'
           }
         }],
-      coingeckoId: 'kujira',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg'
