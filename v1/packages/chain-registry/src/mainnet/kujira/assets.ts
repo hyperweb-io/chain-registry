@@ -17,7 +17,6 @@ const info: AssetList = {
       name: 'Kujira',
       display: 'kuji',
       symbol: 'KUJI',
-      coingecko_id: 'kujira',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg'

@@ -619,8 +619,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg'
-        }],
-      coingecko_id: 'kujira'
+        }]
     },
     {
       description: 'stOSMO token on Carbon',

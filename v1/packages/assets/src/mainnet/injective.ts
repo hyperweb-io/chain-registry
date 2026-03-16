@@ -1351,7 +1351,6 @@ const assets: AssetList = {
       name: 'Kujira',
       display: 'kuji',
       symbol: 'KUJI',
-      coingecko_id: 'kujira',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg'
@@ -1888,7 +1887,6 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png'
       },
-      coingecko_id: 'doki',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png'
         }],
@@ -9617,7 +9615,6 @@ const assets: AssetList = {
       name: 'Kujira',
       display: 'kuji',
       symbol: 'KUJI',
-      coingecko_id: 'kujira',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg'
@@ -10154,7 +10151,6 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png'
       },
-      coingecko_id: 'doki',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png'
         }],

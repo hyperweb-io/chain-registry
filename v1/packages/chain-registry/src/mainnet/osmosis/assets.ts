@@ -2091,8 +2091,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg'
-        }],
-      coingecko_id: 'decentr'
+        }]
     },
     {
       description: 'The native token cw20 for Marble DAO on Juno Chain',
@@ -3671,8 +3670,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg'
-        }],
-      coingecko_id: 'kujira'
+        }]
     },
     {
       description: 'The native token of Tgrade',
@@ -12227,8 +12225,7 @@ const info: AssetList = {
             base_denom: 'udoki'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png'
-        }],
-      coingecko_id: 'doki'
+        }]
     },
     {
       description: 'Sail DAO is a liquidity deployment and management DAO built as a collaboration between the Osmosis and Migaloo Blockchains.',

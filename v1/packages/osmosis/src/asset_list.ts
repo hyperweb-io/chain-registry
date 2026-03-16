@@ -2136,7 +2136,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg'
       },
-      coingecko_id: 'decentr',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg'
@@ -4814,7 +4813,6 @@ const asset_list: AssetList = {
       name: 'Kujira',
       display: 'kuji',
       symbol: 'KUJI',
-      coingecko_id: 'kujira',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg'
@@ -6198,7 +6196,6 @@ const asset_list: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png'
       },
-      coingecko_id: 'doki',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png'
         }],
@@ -8559,7 +8556,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg'
       },
-      coingecko_id: 'decentr',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg'
@@ -11237,7 +11233,6 @@ const asset_list: AssetList = {
       name: 'Kujira',
       display: 'kuji',
       symbol: 'KUJI',
-      coingecko_id: 'kujira',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg'
@@ -12660,7 +12655,6 @@ const asset_list: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png'
       },
-      coingecko_id: 'doki',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png'
         }],

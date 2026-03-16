@@ -519,7 +519,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg'
       },
-      coingecko_id: 'decentr',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg'
@@ -740,7 +739,6 @@ const assets: AssetList = {
       name: 'Kujira',
       display: 'kuji',
       symbol: 'KUJI',
-      coingecko_id: 'kujira',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg'
@@ -1876,7 +1874,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg'
       },
-      coingecko_id: 'decentr',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg'
@@ -2097,7 +2094,6 @@ const assets: AssetList = {
       name: 'Kujira',
       display: 'kuji',
       symbol: 'KUJI',
-      coingecko_id: 'kujira',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg'
