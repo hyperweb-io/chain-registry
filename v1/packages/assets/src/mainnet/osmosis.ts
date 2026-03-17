@@ -47172,6 +47172,46 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Cookie DO is a next-gen memecoin powering a full gaming + metaverse ecosystem. It fuels DO Gaming (play-to-earn tournaments), DO DAO governance, deep on-chain trading pools, and real-asset tokens like GG (DO Gold) and SG (DO Silver). Backed by Artemis staking, the Food Token humanitarian project, and multi-chain Cookie on LUNC, Solana, and BSC, Cookie DO creates nonstop cross-chain arbitrage frenzy — fun, utility, and yield in one token.',
+      socials: {
+        website: 'https://cookie-verse.io/',
+        x: 'https://x.com/LUNC_Cookies'
+      },
+      type_asset: 'cw20',
+      address: 'terra15p8su45k45axng8ue59rl6zph4at27s49u3agr6uqrx3dhcxpg3qt0ekdt',
+      denom_units: [{
+          denom: 'ibc/3B16647EEE058DA677ED944A6798125F4E69E9D24328404C7E213BA0A365D668',
+          exponent: 0,
+          aliases: ['cw20:terra15p8su45k45axng8ue59rl6zph4at27s49u3agr6uqrx3dhcxpg3qt0ekdt']
+        }, {
+          denom: 'cookie',
+          exponent: 6
+        }],
+      base: 'ibc/3B16647EEE058DA677ED944A6798125F4E69E9D24328404C7E213BA0A365D668',
+      name: 'cookie',
+      display: 'cookie',
+      symbol: 'cookie',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/do.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/do.png'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
+            channel_id: 'channel-108',
+            base_denom: 'cw20:terra15p8su45k45axng8ue59rl6zph4at27s49u3agr6uqrx3dhcxpg3qt0ekdt',
+            chain_name: 'terra'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-78488'
+          }
+        }]
+    },
+    {
       description: 'Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.',
       denom_units: [{
           denom: 'ibc/8410580A4F5421DFDBD888212624591E92A9E3B5C87D3C58913CE16ABD98B9B4',
@@ -55752,6 +55792,46 @@ const assets: AssetList = {
             port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
             channel_id: 'channel-108',
             base_denom: 'cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw',
+            chain_name: 'terra'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-78488'
+          }
+        }]
+    },
+    {
+      description: 'Cookie DO is a next-gen memecoin powering a full gaming + metaverse ecosystem. It fuels DO Gaming (play-to-earn tournaments), DO DAO governance, deep on-chain trading pools, and real-asset tokens like GG (DO Gold) and SG (DO Silver). Backed by Artemis staking, the Food Token humanitarian project, and multi-chain Cookie on LUNC, Solana, and BSC, Cookie DO creates nonstop cross-chain arbitrage frenzy — fun, utility, and yield in one token.',
+      socials: {
+        website: 'https://cookie-verse.io/',
+        x: 'https://x.com/LUNC_Cookies'
+      },
+      type_asset: 'cw20',
+      address: 'terra15p8su45k45axng8ue59rl6zph4at27s49u3agr6uqrx3dhcxpg3qt0ekdt',
+      denom_units: [{
+          denom: 'ibc/3B16647EEE058DA677ED944A6798125F4E69E9D24328404C7E213BA0A365D668',
+          exponent: 0,
+          aliases: ['cw20:terra15p8su45k45axng8ue59rl6zph4at27s49u3agr6uqrx3dhcxpg3qt0ekdt']
+        }, {
+          denom: 'cookie',
+          exponent: 6
+        }],
+      base: 'ibc/3B16647EEE058DA677ED944A6798125F4E69E9D24328404C7E213BA0A365D668',
+      name: 'cookie',
+      display: 'cookie',
+      symbol: 'cookie',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/do.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/do.png'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
+            channel_id: 'channel-108',
+            base_denom: 'cw20:terra15p8su45k45axng8ue59rl6zph4at27s49u3agr6uqrx3dhcxpg3qt0ekdt',
             chain_name: 'terra'
           },
           chain: {
