@@ -36,6 +36,10 @@ const info: Chain = {
       {
         address: 'https://rpc.dungeon.chaintools.tech',
         provider: 'ChainTools'
+      },
+      {
+        address: 'https://rpc.dungeongames.io',
+        provider: 'Dungeon Games'
       }
     ],
     rest: [
@@ -58,6 +62,10 @@ const info: Chain = {
       {
         address: 'https://api.dungeon.chaintools.tech',
         provider: 'ChainTools'
+      },
+      {
+        address: 'https://api.dungeongames.io',
+        provider: 'Dungeon Games'
       }
     ],
     grpc: [{
@@ -86,6 +94,12 @@ const info: Chain = {
       url: 'https://explorer.chaintools.tech/Dungeon',
       tx_page: 'https://explorer.chaintools.tech/Dungeon/tx/${txHash}',
       account_page: 'https://explorer.chaintools.tech/Dungeon/account/${accountAddress}'
+    },
+    {
+      kind: 'Dungeon Games',
+      url: 'https://explorer.dungeongames.io',
+      tx_page: 'https://explorer.dungeongames.io/tx/${txHash}',
+      account_page: 'https://explorer.dungeongames.io/account/${accountAddress}'
     }
   ],
   logo_URIs: {
