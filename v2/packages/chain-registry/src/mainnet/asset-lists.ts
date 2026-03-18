@@ -122,6 +122,7 @@ import * as _lorenzo from './lorenzo';
 import * as _loyal from './loyal';
 import * as _lumen from './lumen';
 import * as _lumera from './lumera';
+import * as _lumiwaveprotocol from './lumiwaveprotocol';
 import * as _lumnetwork from './lumnetwork';
 import * as _mande from './mande';
 import * as _manifest from './manifest';
@@ -211,6 +212,7 @@ import * as _terpnetwork from './terpnetwork';
 import * as _terra from './terra';
 import * as _terra2 from './terra2';
 import * as _tgrade from './tgrade';
+import * as _thejaynetwork from './thejaynetwork';
 import * as _thorchain from './thorchain';
 import * as _titan from './titan';
 import * as _umee from './umee';
@@ -352,6 +354,7 @@ const assetList: AssetList[] = [
   _loyal.assetList,
   _lumen.assetList,
   _lumera.assetList,
+  _lumiwaveprotocol.assetList,
   _lumnetwork.assetList,
   _mande.assetList,
   _manifest.assetList,
@@ -441,6 +444,7 @@ const assetList: AssetList[] = [
   _terra.assetList,
   _terra2.assetList,
   _tgrade.assetList,
+  _thejaynetwork.assetList,
   _thorchain.assetList,
   _titan.assetList,
   _umee.assetList,

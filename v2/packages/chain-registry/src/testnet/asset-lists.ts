@@ -70,6 +70,7 @@ import * as _likecointestnet from './likecointestnet';
 import * as _lombardledgertestnet from './lombardledgertestnet';
 import * as _lumenxtestnet from './lumenxtestnet';
 import * as _lumeratestnet from './lumeratestnet';
+import * as _lumiwaveprotocoltestnet from './lumiwaveprotocoltestnet';
 import * as _manifesttestnet from './manifesttestnet';
 import * as _mantrachaintestnet2 from './mantrachaintestnet2';
 import * as _marstestnet from './marstestnet';
@@ -95,6 +96,7 @@ import * as _persistencetestnet from './persistencetestnet';
 import * as _persistencetestnet2 from './persistencetestnet2';
 import * as _planqtestnet from './planqtestnet';
 import * as _pockettestnet from './pockettestnet';
+import * as _provenancetestnet from './provenancetestnet';
 import * as _pryzmtestnet from './pryzmtestnet';
 import * as _quasartestnet from './quasartestnet';
 import * as _qubeticstestnet from './qubeticstestnet';
@@ -214,6 +216,7 @@ const assetList: AssetList[] = [
   _lombardledgertestnet.assetList,
   _lumenxtestnet.assetList,
   _lumeratestnet.assetList,
+  _lumiwaveprotocoltestnet.assetList,
   _manifesttestnet.assetList,
   _mantrachaintestnet2.assetList,
   _marstestnet.assetList,
@@ -239,6 +242,7 @@ const assetList: AssetList[] = [
   _persistencetestnet2.assetList,
   _planqtestnet.assetList,
   _pockettestnet.assetList,
+  _provenancetestnet.assetList,
   _pryzmtestnet.assetList,
   _quasartestnet.assetList,
   _qubeticstestnet.assetList,
