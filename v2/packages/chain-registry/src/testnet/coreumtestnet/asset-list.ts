@@ -3,46 +3,45 @@ const info: AssetList = {
   $schema: '../../assetlist.schema.json',
   chainName: 'coreumtestnet',
   assets: [{
-      description: 'The native token of Coreum',
+      description: 'The native token of TX',
       denomUnits: [{
           denom: 'utestcore',
           exponent: 0
         }, {
-          denom: 'testcore',
+          denom: 'testtx',
           exponent: 6
         }],
       base: 'utestcore',
-      name: 'Coreum',
-      display: 'testcore',
-      symbol: 'TESTCORE',
+      name: 'TX',
+      display: 'testtx',
+      symbol: 'TESTTX',
       traces: [{
           type: 'test-mintage',
           counterparty: {
             chainName: 'coreum',
             baseDenom: 'ucore'
           },
-          provider: 'Coreum'
+          provider: 'TX'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.svg'
       },
-      coingeckoId: 'coreum',
+      coingeckoId: 'tx',
       keywords: [
-        'dex',
-        'staking',
-        'wasm',
-        'assets',
-        'nft',
-        'XRPL'
+        'L1',
+        'RWA',
+        'RWA Protocol',
+        'RWA Marketplace',
+        'tokenization'
       ],
       images: [{
           imageSync: {
             chainName: 'coreum',
             baseDenom: 'ucore'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.svg'
         }],
       typeAsset: 'sdk.coin'
     }]

@@ -4,12 +4,12 @@ const info: Chain = {
   chainName: 'coreum',
   status: 'live',
   networkType: 'mainnet',
-  website: 'https://www.coreum.com',
-  prettyName: 'Coreum',
+  website: 'https://tx.org/',
+  prettyName: 'TX',
   chainType: 'cosmos',
   chainId: 'coreum-mainnet-1',
   bech32Prefix: 'core',
-  daemonName: 'cored',
+  daemonName: 'txd',
   nodeHome: '$HOME/.core/coreum-mainnet-1',
   keyAlgos: ['secp256k1'],
   slip44: 990,
@@ -31,12 +31,12 @@ const info: Chain = {
     }
   },
   codebase: {
-    gitRepo: 'https://github.com/CoreumFoundation/coreum',
-    recommendedVersion: 'v5.0.0',
-    compatibleVersions: ['v5.0.0'],
+    gitRepo: 'https://github.com/tokenize-x/tx-chain',
+    recommendedVersion: 'v6.0.1',
+    compatibleVersions: ['v6.0.1'],
     binaries: {
-      "linux/amd64": 'https://github.com/CoreumFoundation/coreum/releases/download/v5.0.0/cored-linux-amd64?checksum=sha256:bb32768a1114733dc9a90db70a32dd8cd25828a725a57fc9831301ceb648c0f9',
-      "linux/arm64": 'https://github.com/CoreumFoundation/coreum/releases/download/v5.0.0/cored-linux-arm64?checksum=sha256:8776d26dcd02694c927858da183e81a5cb51ec25aa6fa22d382d8b082ca57cc1'
+      "linux/amd64": 'https://github.com/tokenize-x/tx-chain/releases/download/v6.0.1/txd-linux-amd64?checksum=sha256:5865d0351b5c6c084ec8e0501104f5acc441820981dab6debf4b9a8c6df61703',
+      "linux/arm64": 'https://github.com/tokenize-x/tx-chain/releases/download/v6.0.1/txd-linux-arm64?checksum=sha256:f7edeb470e3f1952fd8c516cd08a973012c94d9f6a6c92ca902bf56402b32d86'
     },
     consensus: {
       type: 'cometbft',
@@ -57,31 +57,27 @@ const info: Chain = {
     tag: 'v5.0.0'
   },
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png'
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.png'
     }, {
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
-      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg'
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.png',
+      svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.svg'
     }],
   logoURIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.png'
   },
   apis: {
     rpc: [
       {
-        address: 'https://full-node.mainnet-1.coreum.dev:26657',
-        provider: 'Coreum Foundation'
+        address: 'https://rpc-01.mainnet-1.tx.org/',
+        provider: 'TX Foundation'
       },
       {
-        address: 'https://full-node-californium.mainnet-1.coreum.dev:26657',
-        provider: 'Coreum Foundation'
+        address: 'https://rpc-02.mainnet-1.tx.org/',
+        provider: 'TX Foundation'
       },
       {
-        address: 'https://full-node-curium.mainnet-1.coreum.dev:26657',
-        provider: 'Coreum Foundation'
-      },
-      {
-        address: 'https://full-node-uranium.mainnet-1.coreum.dev:26657',
-        provider: 'Coreum Foundation'
+        address: 'https://archive.rpc.mainnet-1.tx.org/',
+        provider: 'TX Foundation'
       },
       {
         address: 'https://rpc-coreum.ecostake.com',
@@ -118,20 +114,16 @@ const info: Chain = {
     ],
     grpc: [
       {
-        address: 'https://full-node.mainnet-1.coreum.dev:9090',
-        provider: 'Coreum Foundation'
+        address: 'https://grpc-01.mainnet-1.tx.org',
+        provider: 'TX Foundation'
       },
       {
-        address: 'https://full-node-californium.mainnet-1.coreum.dev:9090',
-        provider: 'Coreum Foundation'
+        address: 'https://grpc-02.mainnet-1.tx.org',
+        provider: 'TX Foundation'
       },
       {
-        address: 'https://full-node-curium.mainnet-1.coreum.dev:9090',
-        provider: 'Coreum Foundation'
-      },
-      {
-        address: 'https://full-node-uranium.mainnet-1.coreum.dev:9090',
-        provider: 'Coreum Foundation'
+        address: 'https://archive.grpc.mainnet-1.tx.org',
+        provider: 'TX Foundation'
       },
       {
         address: 'https://grpc.coreum.nodexcapital.com:444',
@@ -152,16 +144,24 @@ const info: Chain = {
     ],
     rest: [
       {
+        address: 'https://rest-01.mainnet-1.tx.org/',
+        provider: 'TX Foundation'
+      },
+      {
+        address: 'https://rest-02.mainnet-1.tx.org/',
+        provider: 'TX Foundation'
+      },
+      {
+        address: 'https://archive.rest.mainnet-1.tx.org/',
+        provider: 'TX Foundation'
+      },
+      {
         address: 'https://rest-coreum.ecostake.com',
         provider: 'ecostake'
       },
       {
         address: 'https://coreum.api.silknodes.io',
         provider: 'Silk Nodes'
-      },
-      {
-        address: 'https://full-node.mainnet-1.coreum.dev:1317',
-        provider: 'Coreum'
       },
       {
         address: 'https://coreum-rest.publicnode.com',
@@ -191,10 +191,10 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Coreum',
-      url: 'https://explorer.coreum.com/coreum',
-      txPage: 'https://explorer.coreum.com/coreum/transactions/${txHash}',
-      accountPage: 'https://explorer.coreum.com/coreum/account/${accountAddress}'
+      kind: 'TX',
+      url: 'https://explorer.tx.org/tx',
+      txPage: 'https://explorer.tx.org/tx/transactions/${txHash}',
+      accountPage: 'https://explorer.tx.org/tx/account/${accountAddress}'
     },
     {
       kind: 'mintscan',
@@ -240,12 +240,11 @@ const info: Chain = {
     }
   ],
   keywords: [
-    'dex',
-    'staking',
-    'wasm',
-    'assets',
-    'nft',
-    'XRPL'
+    'L1',
+    'RWA',
+    'RWA Protocol',
+    'RWA Marketplace',
+    'tokenization'
   ]
 };
 export default info;
