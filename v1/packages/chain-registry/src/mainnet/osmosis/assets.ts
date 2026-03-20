@@ -9669,20 +9669,20 @@ const info: AssetList = {
         }]
     },
     {
-      description: 'The native token of Coreum',
+      description: 'The native token of TX',
       denom_units: [{
           denom: 'ibc/F3166F4D31D6BA1EC6C9F5536F5DDDD4CC93DBA430F7419E7CDC41C497944A65',
           exponent: 0,
           aliases: ['ucore']
         }, {
-          denom: 'core',
+          denom: 'tx',
           exponent: 6
         }],
       type_asset: 'ics20',
       base: 'ibc/F3166F4D31D6BA1EC6C9F5536F5DDDD4CC93DBA430F7419E7CDC41C497944A65',
-      name: 'Coreum',
-      display: 'core',
-      symbol: 'COREUM',
+      name: 'TX',
+      display: 'tx',
+      symbol: 'TX',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -9696,25 +9696,24 @@ const info: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.svg'
       },
       images: [{
           image_sync: {
             chain_name: 'coreum',
             base_denom: 'ucore'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.svg'
         }],
-      coingecko_id: 'coreum',
+      coingecko_id: 'tx',
       keywords: [
-        'dex',
-        'staking',
-        'wasm',
-        'assets',
-        'nft',
-        'XRPL'
+        'L1',
+        'RWA',
+        'RWA Protocol',
+        'RWA Marketplace',
+        'tokenization'
       ]
     },
     {

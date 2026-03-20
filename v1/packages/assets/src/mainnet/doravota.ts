@@ -124,39 +124,38 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Coreum',
+      description: 'The native token of TX',
       denom_units: [{
           denom: 'ibc/1C8A050BBE4C060A4392CC062B2D3B7C3BFD68E0FA6BB5A5D03DEFCBC0FA7C38',
           exponent: 0,
           aliases: ['ucore']
         }, {
-          denom: 'core',
+          denom: 'tx',
           exponent: 6
         }],
       base: 'ibc/1C8A050BBE4C060A4392CC062B2D3B7C3BFD68E0FA6BB5A5D03DEFCBC0FA7C38',
-      name: 'Coreum',
-      display: 'core',
-      symbol: 'COREUM',
+      name: 'TX',
+      display: 'tx',
+      symbol: 'TX',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.svg'
       },
-      coingecko_id: 'coreum',
+      coingecko_id: 'tx',
       keywords: [
-        'dex',
-        'staking',
-        'wasm',
-        'assets',
-        'nft',
-        'XRPL'
+        'L1',
+        'RWA',
+        'RWA Protocol',
+        'RWA Marketplace',
+        'tokenization'
       ],
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.svg'
         }],
       socials: {
-        website: 'https://www.coreum.com/',
-        x: 'https://x.com/CoreumOfficial'
+        website: 'https://tx.org/',
+        x: 'https://x.com/txEcosystem'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -462,39 +461,38 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Coreum',
+      description: 'The native token of TX',
       denom_units: [{
           denom: 'ibc/1C8A050BBE4C060A4392CC062B2D3B7C3BFD68E0FA6BB5A5D03DEFCBC0FA7C38',
           exponent: 0,
           aliases: ['ucore']
         }, {
-          denom: 'core',
+          denom: 'tx',
           exponent: 6
         }],
       base: 'ibc/1C8A050BBE4C060A4392CC062B2D3B7C3BFD68E0FA6BB5A5D03DEFCBC0FA7C38',
-      name: 'Coreum',
-      display: 'core',
-      symbol: 'COREUM',
+      name: 'TX',
+      display: 'tx',
+      symbol: 'TX',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.svg'
       },
-      coingecko_id: 'coreum',
+      coingecko_id: 'tx',
       keywords: [
-        'dex',
-        'staking',
-        'wasm',
-        'assets',
-        'nft',
-        'XRPL'
+        'L1',
+        'RWA',
+        'RWA Protocol',
+        'RWA Marketplace',
+        'tokenization'
       ],
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/tx.svg'
         }],
       socials: {
-        website: 'https://www.coreum.com/',
-        x: 'https://x.com/CoreumOfficial'
+        website: 'https://tx.org/',
+        x: 'https://x.com/txEcosystem'
       },
       type_asset: 'sdk.coin',
       traces: [{
