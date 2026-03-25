@@ -225,6 +225,7 @@ export * as xarchain from './xarchain';
 export * as xion from './xion';
 export * as xpla from './xpla';
 export * as xrplevm from './xrplevm';
+export * as xyra from './xyra';
 export * as zenrock from './zenrock';
 export * as zetachain from './zetachain';
 export * as zigchain from './zigchain';
