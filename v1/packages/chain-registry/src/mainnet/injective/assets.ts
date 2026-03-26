@@ -1039,6 +1039,7 @@ const info: AssetList = {
           denom: 'NEPT',
           exponent: 6
         }],
+      coingecko_id: 'neptune-2',
       base: 'factory/inj1v3a4zznudwpukpr8y987pu5gnh4xuf7v36jhva/nept',
       name: 'Neptune Finance',
       display: 'NEPT',

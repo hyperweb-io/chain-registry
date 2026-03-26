@@ -29,8 +29,7 @@ const info: AssetList = {
       socials: {
         website: 'https://manifestai.org/',
         x: 'https://x.com/ManifestAIs/'
-      },
-      coingecko_id: 'manifest-2'
+      }
     },
     {
       description: 'Proof of Authority token for the Manifest network',

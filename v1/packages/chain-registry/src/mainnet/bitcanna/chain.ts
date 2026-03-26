@@ -91,10 +91,6 @@ const info: Chain = {
         provider: 'kjnodes'
       },
       {
-        address: 'https://rpc.bitcanna-1.bitcanna.aviaone.com/',
-        provider: 'AVIAONE 🟢'
-      },
-      {
         address: 'https://rpc.bitcanna-mainnet.hexnodes.one/',
         provider: 'Hexnodes'
       },
@@ -167,10 +163,6 @@ const info: Chain = {
       {
         address: 'grpc.bitcanna-mainnet.hexnodes.one:27090',
         provider: 'HexNodes'
-      },
-      {
-        address: 'grpc.bitcanna-1.bitcanna.aviaone.com:9102',
-        provider: 'AVIAONE 🟢'
       },
       {
         address: 'bitcanna-mainnet.grpc.l0vd.com:80',
@@ -253,10 +245,6 @@ const info: Chain = {
       {
         address: 'https://bitcanna.api.kjnodes.com',
         provider: 'kjnodes'
-      },
-      {
-        address: 'https://api.bitcanna-1.bitcanna.aviaone.com',
-        provider: 'AVIAONE 🟢'
       },
       {
         address: 'https://lcd.bitcanna-mainnet.hexnodes.one',
@@ -413,22 +401,10 @@ const info: Chain = {
       account_page: 'https://explorer.kalia.network/bitcanna/account/${accountAddress}'
     },
     {
-      kind: 'AviaOne Explorer 🟢',
-      url: 'https://mainnet.explorer.aviaone.com/bitcanna',
-      tx_page: 'https://mainnet.explorer.aviaone.com/bitcanna/tx/${txHash}',
-      account_page: 'https://mainnet.explorer.aviaone.com/bitcanna/account/${accountAddress}'
-    },
-    {
       kind: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥',
       url: 'https://explorer.whenmoonwhenlambo.money/bitcanna',
       tx_page: 'https://explorer.whenmoonwhenlambo.money/bitcanna/tx/${txHash}',
       account_page: 'https://explorer.whenmoonwhenlambo.money/bitcanna/account/${accountAddress}'
-    },
-    {
-      kind: 'AviaOne Explorer 🟢',
-      url: 'https://mainnet.explorer.aviaone.com/bitcanna',
-      tx_page: 'https://mainnet.explorer.aviaone.com/bitcanna/tx/${txHash}',
-      account_page: 'https://mainnet.explorer.aviaone.com/bitcanna/account/${accountAddress}'
     },
     {
       kind: 'Valopers',
