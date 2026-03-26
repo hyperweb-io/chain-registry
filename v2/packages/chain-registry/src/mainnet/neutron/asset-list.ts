@@ -986,7 +986,6 @@ const info: AssetList = {
       name: 'Mars Protocol',
       display: 'MARS',
       symbol: 'MARS',
-      coingeckoId: 'mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/mars-token.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/mars-token.svg'
