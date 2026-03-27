@@ -28,7 +28,8 @@ const info: Chain = {
       genesis_url: 'https://lwp-mainnet-rpc.lumiwavelab.com/genesis'
     },
     recommended_version: 'v0.0.11',
-    compatible_versions: ['v0.0.11']
+    compatible_versions: ['v0.0.11'],
+    tag: 'v0.0.11'
   },
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumiwaveprotocol/images/lumiwave.png',
