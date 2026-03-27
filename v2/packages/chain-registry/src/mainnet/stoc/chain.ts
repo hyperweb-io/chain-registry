@@ -29,23 +29,24 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/stochainassociation/stoc-blockchain-mainnet',
-    recommendedVersion: 'latest-a2d23f37',
-    compatibleVersions: ['latest-a2d23f37'],
+    recommendedVersion: 'latest-83111dde',
+    compatibleVersions: ['latest-83111dde'],
     consensus: {
       type: 'cometbft',
-      version: 'v0.38.19'
+      version: 'v0.38.18'
     },
     genesis: {
       genesisUrl: 'https://rpc-stoc-mainnet.stochainscan.io/genesis'
     },
     sdk: {
       type: 'cosmos',
-      version: 'v0.53.3'
+      version: 'v0.53.4'
     },
     ibc: {
       type: 'go',
-      version: 'v8.7.0'
-    }
+      version: 'v10.2.0'
+    },
+    tag: 'latest-83111dde'
   },
   description: 'STO Chain is a Cosmos-based blockchain network designed to enable the digitization, compliance, and cross-chain circulation of real assets such as real estate, stocks, and commodities through blockchain technology.',
   logoURIs: {
@@ -62,6 +63,10 @@ const info: Chain = {
       }],
     grpc: [{
         address: 'grpc-stoc-mainnet.stochainscan.io:443',
+        provider: 'STO Chain'
+      }],
+    evmHttpJsonrpc: [{
+        address: 'https://evm-stoc-mainnet.stochainscan.io',
         provider: 'STO Chain'
       }]
   },

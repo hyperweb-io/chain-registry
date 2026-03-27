@@ -159,10 +159,6 @@ const info: Chain = {
         provider: '[NODERS]TEAM'
       },
       {
-        address: 'https://rpc.mainnet.dymension.aviaone.com',
-        provider: 'AVIAONE 🟢'
-      },
-      {
         address: 'https://rpc.archive.dymension.mainnet.dteam.tech:443',
         provider: 'DTEAM'
       },
@@ -285,10 +281,6 @@ const info: Chain = {
         provider: '[NODERS]TEAM'
       },
       {
-        address: 'https://api.mainnet.dymension.aviaone.com',
-        provider: 'AVIAONE 🟢'
-      },
-      {
         address: 'https://api.archive.dymension.mainnet.dteam.tech:443',
         provider: 'DTEAM'
       }
@@ -377,10 +369,6 @@ const info: Chain = {
       {
         address: 'dymension-grpc.noders.services:12090',
         provider: '[NODERS]TEAM'
-      },
-      {
-        address: 'https://grpc.mainnet.dymension.aviaone.com:9092',
-        provider: 'AVIAONE 🟢'
       },
       {
         address: 'grpc.archive.dymension.mainnet.dteam.tech:29090',
@@ -480,12 +468,6 @@ const info: Chain = {
       url: 'https://explorer.posthuman.digital/dymension',
       txPage: 'https://explorer.posthuman.digital/dymension/tx/${txHash}',
       accountPage: 'https://explorer.posthuman.digital/dymension/account/${accountAddress}'
-    },
-    {
-      kind: 'AVIAONE 🟢',
-      url: 'https://mainnet.explorer.aviaone.com/dymension',
-      txPage: 'https://mainnet.explorer.aviaone.com/dymension/tx/${txHash}',
-      accountPage: 'https://mainnet.explorer.aviaone.com/dymension/account/${accountAddress}'
     },
     {
       kind: 'WhisperNode 🤐',

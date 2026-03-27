@@ -28,7 +28,8 @@ const info: Chain = {
       genesisUrl: 'https://lwp-testnet.lumiwavelab.com/tendermint/genesis'
     },
     recommendedVersion: 'v0.0.11',
-    compatibleVersions: ['v0.0.11']
+    compatibleVersions: ['v0.0.11'],
+    tag: 'v0.0.11'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumiwaveprotocol/images/lumiwave.png',
