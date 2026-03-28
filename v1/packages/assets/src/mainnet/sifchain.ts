@@ -43,6 +43,52 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Akash Compute Token (ACT) is the native utility token for compute on the Akash Network.',
+      denom_units: [
+        {
+          denom: 'ibc/3425FBBC0419E3031086B99ECA90ECC4A28B7CCE9B501D4DCBD914C1CBA945CF',
+          exponent: 0,
+          aliases: ['uact']
+        },
+        {
+          denom: 'mact',
+          exponent: 3
+        },
+        {
+          denom: 'act',
+          exponent: 6
+        }
+      ],
+      base: 'ibc/3425FBBC0419E3031086B99ECA90ECC4A28B7CCE9B501D4DCBD914C1CBA945CF',
+      name: 'Akash Compute Token',
+      display: 'act',
+      symbol: 'ACT',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
+        }],
+      socials: {
+        website: 'https://akash.network/',
+        x: 'https://x.com/akashnet'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-24',
+            base_denom: 'uact',
+            chain_name: 'akash'
+          },
+          chain: {
+            channel_id: 'channel-2'
+          }
+        }]
+    },
+    {
       description: 'ATOM is the native cryptocurrency of the Cosmos network, designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.',
       denom_units: [{
           denom: 'ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2',
@@ -556,6 +602,52 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-24',
             base_denom: 'uakt',
+            chain_name: 'akash'
+          },
+          chain: {
+            channel_id: 'channel-2'
+          }
+        }]
+    },
+    {
+      description: 'Akash Compute Token (ACT) is the native utility token for compute on the Akash Network.',
+      denom_units: [
+        {
+          denom: 'ibc/3425FBBC0419E3031086B99ECA90ECC4A28B7CCE9B501D4DCBD914C1CBA945CF',
+          exponent: 0,
+          aliases: ['uact']
+        },
+        {
+          denom: 'mact',
+          exponent: 3
+        },
+        {
+          denom: 'act',
+          exponent: 6
+        }
+      ],
+      base: 'ibc/3425FBBC0419E3031086B99ECA90ECC4A28B7CCE9B501D4DCBD914C1CBA945CF',
+      name: 'Akash Compute Token',
+      display: 'act',
+      symbol: 'ACT',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
+        }],
+      socials: {
+        website: 'https://akash.network/',
+        x: 'https://x.com/akashnet'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-24',
+            base_denom: 'uact',
             chain_name: 'akash'
           },
           chain: {

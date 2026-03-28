@@ -119,6 +119,52 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Akash Compute Token (ACT) is the native utility token for compute on the Akash Network.',
+      denom_units: [
+        {
+          denom: 'ibc/3254C63362C25604D81911C3AE3298E5833E00380B33F5BC2BD2AE99052FAE85',
+          exponent: 0,
+          aliases: ['uact']
+        },
+        {
+          denom: 'mact',
+          exponent: 3
+        },
+        {
+          denom: 'act',
+          exponent: 6
+        }
+      ],
+      base: 'ibc/3254C63362C25604D81911C3AE3298E5833E00380B33F5BC2BD2AE99052FAE85',
+      name: 'Akash Compute Token',
+      display: 'act',
+      symbol: 'ACT',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
+        }],
+      socials: {
+        website: 'https://akash.network/',
+        x: 'https://x.com/akashnet'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-70',
+            base_denom: 'uact',
+            chain_name: 'akash'
+          },
+          chain: {
+            channel_id: 'channel-44'
+          }
+        }]
+    },
+    {
       description: 'Axelar is a decentralized interoperability network connecting multiple blockchain ecosystems, enabling seamless cross-chain communication and value transfer.',
       denom_units: [{
           denom: 'ibc/0634D0993744740D675AD01E81156EAC945AEAAE17C074918DC7FF52F41B263E',
@@ -414,6 +460,52 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-70',
             base_denom: 'uakt',
+            chain_name: 'akash'
+          },
+          chain: {
+            channel_id: 'channel-44'
+          }
+        }]
+    },
+    {
+      description: 'Akash Compute Token (ACT) is the native utility token for compute on the Akash Network.',
+      denom_units: [
+        {
+          denom: 'ibc/3254C63362C25604D81911C3AE3298E5833E00380B33F5BC2BD2AE99052FAE85',
+          exponent: 0,
+          aliases: ['uact']
+        },
+        {
+          denom: 'mact',
+          exponent: 3
+        },
+        {
+          denom: 'act',
+          exponent: 6
+        }
+      ],
+      base: 'ibc/3254C63362C25604D81911C3AE3298E5833E00380B33F5BC2BD2AE99052FAE85',
+      name: 'Akash Compute Token',
+      display: 'act',
+      symbol: 'ACT',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
+        }],
+      socials: {
+        website: 'https://akash.network/',
+        x: 'https://x.com/akashnet'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-70',
+            base_denom: 'uact',
             chain_name: 'akash'
           },
           chain: {
