@@ -30,6 +30,39 @@ const info: AssetList = {
         x: 'https://x.com/akashnet'
       },
       typeAsset: 'sdk.coin'
+    }, {
+      description: 'Akash Compute Token (ACT) is the native utility token for compute on the Akash Network.',
+      denomUnits: [
+        {
+          denom: 'uact',
+          exponent: 0
+        },
+        {
+          denom: 'mact',
+          exponent: 3
+        },
+        {
+          denom: 'act',
+          exponent: 6
+        }
+      ],
+      base: 'uact',
+      name: 'Akash Compute Token',
+      display: 'act',
+      symbol: 'ACT',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
+        }],
+      socials: {
+        website: 'https://akash.network/',
+        x: 'https://x.com/akashnet'
+      },
+      typeAsset: 'sdk.coin'
     }]
 };
 export default info;

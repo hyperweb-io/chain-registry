@@ -28,28 +28,28 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/akash-network/node/',
-    recommendedVersion: 'v0.38.1',
-    compatibleVersions: ['v0.38.0', 'v0.38.1'],
+    recommendedVersion: 'v2.0.1',
+    compatibleVersions: ['v2.0.1'],
     binaries: {
-      "linux/amd64": 'https://github.com/akash-network/node/releases/download/v0.38.1/akash_linux_amd64.zip',
-      "linux/arm64": 'https://github.com/akash-network/node/releases/download/v0.38.1/akash_linux_arm64.zip'
+      "linux/amd64": 'https://github.com/akash-network/node/releases/download/v2.0.1/akash_linux_amd64.zip',
+      "linux/arm64": 'https://github.com/akash-network/node/releases/download/v2.0.1/akash_linux_arm64.zip'
     },
     consensus: {
       type: 'cometbft',
-      version: 'v0.34.27',
+      version: 'v0.38.21',
       repo: 'https://github.com/akash-network/cometbft',
-      tag: 'v0.34.27-akash'
+      tag: 'v0.38.21-akash.1'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/akash-network/net/master/mainnet/genesis.json'
     },
     sdk: {
       type: 'cosmos',
-      version: 'v0.45.16'
+      version: 'v0.53.5'
     },
     ibc: {
       type: 'go',
-      version: 'v4.6.0'
+      version: 'v10.5.0'
     }
   },
   logoURIs: {
