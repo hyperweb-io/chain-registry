@@ -55,6 +55,29 @@ const info: AssetList = {
       typeAsset: 'sdk.coin'
     },
     {
+      description: 'Manifest Power token',
+      denomUnits: [{
+          denom: 'factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwr',
+          exponent: 0
+        }, {
+          denom: 'pwr',
+          exponent: 6
+        }],
+      base: 'factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwr',
+      name: 'Manifest Power Token',
+      display: 'pwr',
+      symbol: 'PWR',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg'
+        }],
+      typeAsset: 'sdk.coin'
+    },
+    {
       description: 'Osmosis token on Manifest Ledger Testnet',
       denomUnits: [{
           denom: 'ibc/D24B4564BCD51D3D02D9987D92571EAC5915676A9BD6D9B0C1D0254CB8A5EA34',

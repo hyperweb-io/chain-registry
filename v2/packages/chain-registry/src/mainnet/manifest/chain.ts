@@ -19,6 +19,12 @@ const info: Chain = {
         lowGasPrice: 1.05,
         averageGasPrice: 1.1,
         highGasPrice: 3
+      }, {
+        denom: 'factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwr',
+        fixedMinGasPrice: 0.37,
+        lowGasPrice: 0.4,
+        averageGasPrice: 0.5,
+        highGasPrice: 1
       }]
   },
   staking: {
@@ -28,10 +34,10 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/liftedinit/manifest-ledger',
-    recommendedVersion: 'v1.0.5',
-    compatibleVersions: ['v1.0.3', 'v1.0.5'],
+    recommendedVersion: 'v1.0.14',
+    compatibleVersions: ['v1.0.14'],
     binaries: {
-      "linux/amd64": 'https://github.com/liftedinit/manifest-ledger/releases/download/v1.0.5/manifest-ledger-v1.0.5-linux-amd64.tar.gz'
+      "linux/amd64": 'https://github.com/liftedinit/manifest-ledger/releases/download/v1.0.14/manifest-ledger-v1.0.14-linux-amd64.tar.gz'
     },
     genesis: {
       genesisUrl: 'https://nodes.liftedinit.app/manifest/rpc/genesis?'

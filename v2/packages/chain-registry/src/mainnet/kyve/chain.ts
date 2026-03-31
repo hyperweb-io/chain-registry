@@ -67,10 +67,6 @@ const info: Chain = {
         provider: 'kyve'
       },
       {
-        address: 'https://rpc-kyve.ecostake.com',
-        provider: 'ecostake'
-      },
-      {
         address: 'https://rpc.lavenderfive.com:443/kyve',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -123,10 +119,6 @@ const info: Chain = {
       {
         address: 'https://rest.lavenderfive.com:443/kyve',
         provider: 'Lavender.Five Nodes 🐝'
-      },
-      {
-        address: 'https://rest-kyve.ecostake.com',
-        provider: 'ecostake'
       },
       {
         address: 'https://lcd-kyve.imperator.co',

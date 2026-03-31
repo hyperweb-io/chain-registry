@@ -104,6 +104,45 @@ const info: AssetList = {
       coingeckoId: 'osmosis'
     },
     {
+      description: 'LMN from Lumen',
+      denomUnits: [{
+          denom: 'ibc/693DDB2D9B4260D67C8136C22D837F37488E0FBD81857D8E9C6022332EA26E33',
+          exponent: 0,
+          aliases: ['ulmn']
+        }, {
+          denom: 'lmn',
+          exponent: 6,
+          aliases: []
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/693DDB2D9B4260D67C8136C22D837F37488E0FBD81857D8E9C6022332EA26E33',
+      name: 'Lumen',
+      display: 'lmn',
+      symbol: 'LMN',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'lumen',
+            baseDenom: 'ulmn',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-10',
+            path: 'transfer/channel-10/ulmn'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'lumen',
+            baseDenom: 'ulmn'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumen/images/lmn.png'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumen/images/lmn.png'
+      }
+    },
+    {
       description: 'Crypto2Mars Community Token',
       denomUnits: [{
           denom: 'factory/bze15pqjgk4la0mfphwddce00d05n3th3u66n3ptcv/2MARS',
