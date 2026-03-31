@@ -361,6 +361,43 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native staking token of Lumen.',
+      denom_units: [{
+          denom: 'ibc/693DDB2D9B4260D67C8136C22D837F37488E0FBD81857D8E9C6022332EA26E33',
+          exponent: 0,
+          aliases: ['ulmn']
+        }, {
+          denom: 'lmn',
+          exponent: 6
+        }],
+      base: 'ibc/693DDB2D9B4260D67C8136C22D837F37488E0FBD81857D8E9C6022332EA26E33',
+      name: 'Lumen',
+      display: 'lmn',
+      symbol: 'LMN',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumen/images/lmn.png'
+        }],
+      socials: {
+        website: 'https://lumen-network.org/',
+        github: 'https://github.com/network-lumen/',
+        telegram: 'https://t.me/+HBWh_cUJCrZiODE0',
+        discord: 'https://discord.gg/DwK6V9shKc',
+        x: 'https://x.com/LumenStack'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ulmn',
+            chain_name: 'lumen'
+          },
+          chain: {
+            channel_id: 'channel-10'
+          }
+        }]
+    },
+    {
       description: 'The permissioned staking asset for Noble Chain',
       denom_units: [{
           denom: 'ibc/0CC1485F7DF4F335F6F416C46EDB77B09557EC7E5B7215BED40EB741D45FD6C8',
@@ -658,6 +695,43 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-4'
+          }
+        }]
+    },
+    {
+      description: 'The native staking token of Lumen.',
+      denom_units: [{
+          denom: 'ibc/693DDB2D9B4260D67C8136C22D837F37488E0FBD81857D8E9C6022332EA26E33',
+          exponent: 0,
+          aliases: ['ulmn']
+        }, {
+          denom: 'lmn',
+          exponent: 6
+        }],
+      base: 'ibc/693DDB2D9B4260D67C8136C22D837F37488E0FBD81857D8E9C6022332EA26E33',
+      name: 'Lumen',
+      display: 'lmn',
+      symbol: 'LMN',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumen/images/lmn.png'
+        }],
+      socials: {
+        website: 'https://lumen-network.org/',
+        github: 'https://github.com/network-lumen/',
+        telegram: 'https://t.me/+HBWh_cUJCrZiODE0',
+        discord: 'https://discord.gg/DwK6V9shKc',
+        x: 'https://x.com/LumenStack'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'ulmn',
+            chain_name: 'lumen'
+          },
+          chain: {
+            channel_id: 'channel-10'
           }
         }]
     },

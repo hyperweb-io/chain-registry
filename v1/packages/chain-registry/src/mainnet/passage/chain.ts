@@ -62,10 +62,6 @@ const info: Chain = {
         provider: 'Staketab'
       },
       {
-        address: 'https://rpc-passage.ecostake.com',
-        provider: 'ecostake'
-      },
-      {
         address: 'https://rpc.lavenderfive.com:443/passage',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -122,10 +118,6 @@ const info: Chain = {
       {
         address: 'https://passage-rest.staketab.org',
         provider: 'Staketab'
-      },
-      {
-        address: 'https://rest-passage.ecostake.com',
-        provider: 'ecostake'
       },
       {
         address: 'https://rest.lavenderfive.com:443/passage',

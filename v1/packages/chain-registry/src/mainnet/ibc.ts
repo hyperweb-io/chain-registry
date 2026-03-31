@@ -93,6 +93,7 @@ import * as _lava from './lava';
 import * as _likecoin from './likecoin';
 import * as _lombardledger from './lombardledger';
 import * as _lorenzo from './lorenzo';
+import * as _lumen from './lumen';
 import * as _lumera from './lumera';
 import * as _lumnetwork from './lumnetwork';
 import * as _mande from './mande';
@@ -272,6 +273,7 @@ const ibc: IBCInfo[] = [
   ..._likecoin.ibc,
   ..._lombardledger.ibc,
   ..._lorenzo.ibc,
+  ..._lumen.ibc,
   ..._lumera.ibc,
   ..._lumnetwork.ibc,
   ..._mande.ibc,
