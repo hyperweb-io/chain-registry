@@ -906,7 +906,6 @@ const info: AssetList = {
       name: 'Page',
       display: 'page',
       symbol: 'PAGE',
-      coingeckoId: 'page',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg'
