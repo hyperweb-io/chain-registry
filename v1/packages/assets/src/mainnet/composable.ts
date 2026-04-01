@@ -417,7 +417,6 @@ const assets: AssetList = {
       name: 'Page',
       display: 'page',
       symbol: 'PAGE',
-      coingecko_id: 'page',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg'
@@ -2666,7 +2665,6 @@ const assets: AssetList = {
       name: 'Page',
       display: 'page',
       symbol: 'PAGE',
-      coingecko_id: 'page',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg'

@@ -347,8 +347,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg'
-        }],
-      coingecko_id: 'page'
+        }]
     },
     {
       description: 'wETH is \'wrapped ETH\'',
