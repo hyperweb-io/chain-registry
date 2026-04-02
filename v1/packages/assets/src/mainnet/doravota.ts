@@ -346,6 +346,45 @@ const assets: AssetList = {
         }]
     },
     {
+      description: '$COREZ is the chillest coin on Coreum, built for stakers who believe slow and steady wins the race.',
+      denom_units: [{
+          denom: 'ibc/3CE2A94DB3081AC1F2985F666018CBF71E4384087A7034D69AE66B904765C131',
+          exponent: 0,
+          aliases: ['ucorez-core1astd8pqhs7mslk9rnygy9kzc5s2cqnwftcvmquxr7z9z78szzvzqljlc23']
+        }, {
+          denom: 'COREZ',
+          exponent: 6
+        }],
+      base: 'ibc/3CE2A94DB3081AC1F2985F666018CBF71E4384087A7034D69AE66B904765C131',
+      name: 'COREZ',
+      display: 'COREZ',
+      symbol: 'COREZ',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/corez.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/corez.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/corez.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/corez.svg'
+        }],
+      socials: {
+        website: 'https://coreezy.xyz',
+        x: 'https://x.com/CoreezyVibes'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-10',
+            base_denom: 'ucorez-core1astd8pqhs7mslk9rnygy9kzc5s2cqnwftcvmquxr7z9z78szzvzqljlc23',
+            chain_name: 'coreum'
+          },
+          chain: {
+            channel_id: 'channel-2'
+          }
+        }]
+    },
+    {
       description: 'ATOM is the native cryptocurrency of the Cosmos network, designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.',
       denom_units: [{
           denom: 'ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0',
@@ -721,6 +760,45 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-10',
             base_denom: 'uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv',
+            chain_name: 'coreum'
+          },
+          chain: {
+            channel_id: 'channel-2'
+          }
+        }]
+    },
+    {
+      description: '$COREZ is the chillest coin on Coreum, built for stakers who believe slow and steady wins the race.',
+      denom_units: [{
+          denom: 'ibc/3CE2A94DB3081AC1F2985F666018CBF71E4384087A7034D69AE66B904765C131',
+          exponent: 0,
+          aliases: ['ucorez-core1astd8pqhs7mslk9rnygy9kzc5s2cqnwftcvmquxr7z9z78szzvzqljlc23']
+        }, {
+          denom: 'COREZ',
+          exponent: 6
+        }],
+      base: 'ibc/3CE2A94DB3081AC1F2985F666018CBF71E4384087A7034D69AE66B904765C131',
+      name: 'COREZ',
+      display: 'COREZ',
+      symbol: 'COREZ',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/corez.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/corez.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/corez.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/corez.svg'
+        }],
+      socials: {
+        website: 'https://coreezy.xyz',
+        x: 'https://x.com/CoreezyVibes'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-10',
+            base_denom: 'ucorez-core1astd8pqhs7mslk9rnygy9kzc5s2cqnwftcvmquxr7z9z78szzvzqljlc23',
             chain_name: 'coreum'
           },
           chain: {
