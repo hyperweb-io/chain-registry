@@ -36,24 +36,56 @@ const info: Chain = {
     }
   },
   apis: {
-    rest: [{
+    rest: [
+      {
         address: 'https://testnet-api.zigchain.com',
         provider: 'ZIGCHAIN'
-      }, {
+      },
+      {
         address: 'https://public-zigchain-testnet-lcd.numia.xyz/',
         provider: 'Numia'
-      }],
-    rpc: [{
+      },
+      {
+        address: 'https://zigchain-testnet-api.polkachu.com',
+        provider: 'Polkachu'
+      },
+      {
+        address: 'https://api-t.zigchain.nodestake.org',
+        provider: 'NodeStake'
+      }
+    ],
+    rpc: [
+      {
         address: 'https://testnet-rpc.zigchain.com',
         provider: 'ZIGCHAIN'
-      }, {
+      },
+      {
         address: 'https://public-zigchain-testnet-rpc.numia.xyz/',
         provider: 'Numia'
-      }],
-    grpc: [{
+      },
+      {
+        address: 'https://zigchain-testnet-rpc.polkachu.com:443',
+        provider: 'Polkachu'
+      },
+      {
+        address: 'https://rpc-t.zigchain.nodestake.org:443',
+        provider: 'NodeStake'
+      }
+    ],
+    grpc: [
+      {
         address: 'zigchain-grpc.327oz4i6b04df1e27394zieudsh.g.eu.link.numia.xyz:9090',
         provider: 'Numia'
-      }]
+      },
+      {
+        address: 'zigchain-testnet-grpc.polkachu.com:32890',
+        provider: 'Polkachu'
+      },
+      {
+        address: 'grpc-t.zigchain.nodestake.org:443',
+        provider: 'NodeStake'
+      }
+    ]
   },
   codebase: {
     gitRepo: 'https://github.com/ZIGChain/zigchain',
@@ -89,17 +121,26 @@ const info: Chain = {
       version: '1.25.4'
     }
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'range',
       url: 'https://app.range.org/address/zigchain-testnet/zigchain',
       txPage: 'https://app.range.org/tx/zig-test-2/${txHash}',
       accountPage: 'https://app.range.org/address/zig-test-2/${accountAddress}'
-    }, {
+    },
+    {
       kind: 'zigscan',
       url: 'https://testnet.zigscan.org',
       txPage: 'https://testnet.zigscan.org/tx/${txHash}',
       accountPage: 'https://testnet.zigscan.org/address/${accountAddress}'
-    }],
+    },
+    {
+      kind: 'nodestake',
+      url: 'https://explorer.nodestake.org/zigchain-testnet',
+      txPage: 'https://explorer.nodestake.org/zigchain-testnet/tx/${txHash}',
+      accountPage: 'https://explorer.nodestake.org/zigchain-testnet/account/${accountAddress}'
+    }
+  ],
   keywords: [
     'wealth generation',
     'rwa',

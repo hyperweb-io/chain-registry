@@ -74,36 +74,91 @@ const info: Chain = {
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
     }],
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://public-zigchain-rpc.numia.xyz/',
         provider: 'Numia'
-      }, {
+      },
+      {
         address: 'https://rpc.zigchain.com',
         provider: 'ZIGCHAIN'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://zigchain-rpc.polkachu.com:443',
+        provider: 'Polkachu'
+      },
+      {
+        address: 'https://rpc.zigchain.nodestake.org:443',
+        provider: 'NodeStake'
+      },
+      {
+        address: 'https://zigchain-rpc.stakeandrelax.net',
+        provider: 'Stake and Relax'
+      }
+    ],
+    rest: [
+      {
         address: 'https://public-zigchain-lcd.numia.xyz/',
         provider: 'Numia'
-      }, {
+      },
+      {
         address: 'https://api.zigchain.com',
         provider: 'ZIGCHAIN'
-      }],
-    grpc: [{
+      },
+      {
+        address: 'https://zigchain-api.polkachu.com',
+        provider: 'Polkachu'
+      },
+      {
+        address: 'https://api.zigchain.nodestake.org',
+        provider: 'NodeStake'
+      },
+      {
+        address: 'https://zigchain-api.stakeandrelax.net',
+        provider: 'Stake and Relax'
+      }
+    ],
+    grpc: [
+      {
         address: 'grpc.zigchain.com:9090',
         provider: 'ZIGCHAIN'
-      }]
+      },
+      {
+        address: 'zigchain-grpc.polkachu.com:32890',
+        provider: 'Polkachu'
+      },
+      {
+        address: 'grpc.zigchain.nodestake.org:443',
+        provider: 'NodeStake'
+      }
+    ]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'range',
       url: 'https://app.range.org/address/zigchain/zigchain',
       txPage: 'https://app.range.org/tx/zigchain/${txHash}',
       accountPage: 'https://app.range.org/address/zigchain/${accountAddress}'
-    }, {
+    },
+    {
       kind: 'zigscan',
-      url: 'https://zigscan.org',
-      txPage: 'https://zigscan.org/tx/${txHash}',
-      accountPage: 'https://zigscan.org/address/${accountAddress}'
-    }],
+      url: 'https://www.zigscan.org/',
+      txPage: 'https://www.zigscan.org/tx/${txHash}',
+      accountPage: 'https://www.zigscan.org/address/${accountAddress}'
+    },
+    {
+      kind: 'nodestake',
+      url: 'https://explorer.nodestake.org/zigchain',
+      txPage: 'https://explorer.nodestake.org/zigchain/tx/${txHash}',
+      accountPage: 'https://explorer.nodestake.org/zigchain/account/${accountAddress}'
+    },
+    {
+      kind: 'stakeandrelax',
+      url: 'https://explorer.stakeandrelax.net/zigchain',
+      txPage: 'https://explorer.stakeandrelax.net/zigchain/tx/${txHash}',
+      accountPage: 'https://explorer.stakeandrelax.net/zigchain/account/${accountAddress}'
+    }
+  ],
   keywords: [
     'zigchain',
     'rwa',
