@@ -49,18 +49,30 @@ const info: Chain = {
     rpc: [{
         address: 'https://rpc.kiivalidator.com',
         provider: 'Kiichain'
+      }, {
+        address: 'https://rpc-kiichain-mainnet.onenov.xyz',
+        provider: 'OneNov'
       }],
     rest: [{
         address: 'https://lcd.kiivalidator.com',
         provider: 'Kiichain'
+      }, {
+        address: 'https://api-kiichain-mainnet.onenov.xyz',
+        provider: 'OneNov'
       }],
     grpc: [{
         address: 'grpc.kiivalidator.com',
         provider: 'Kiichain'
+      }, {
+        address: 'grpc-kiichain-mainnet.onenov.xyz:443',
+        provider: 'OneNov'
       }],
     "evm-http-jsonrpc": [{
         address: 'https://json-rpc.kiivalidator.com',
         provider: 'Kiichain'
+      }, {
+        address: 'https://evm-kiichain-mainnet.onenov.xyz',
+        provider: 'OneNov'
       }]
   },
   logo_URIs: {
