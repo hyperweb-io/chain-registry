@@ -66,15 +66,21 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gnodi/images/gnod.png'
     }],
-  description: 'The Gnodi Blockchain is a community-governed, decentralized infrastructure that empowers individuals to own their digital identity and data. Guided by principles of autonomy, transparency, and equity, it bridges today’s internet with a fair, participatory digital future.',
+  description: 'The Gnodi Blockchain is a community-governed, decentralized infrastructure that empowers individuals to own their digital identity and data. Guided by principles of autonomy, transparency, and equity, it bridges today\'s internet with a fair, participatory digital future.',
   apis: {
     rpc: [{
         address: 'https://rpc.gnodi.zone:443',
         provider: 'Gnodi Team'
+      }, {
+        address: 'https://rpc-gnodi.vinjan-inc.com',
+        provider: 'Vinjan.Inc'
       }],
     rest: [{
         address: 'https://api.gnodi.zone:443',
         provider: 'Gnodi Team'
+      }, {
+        address: 'https://api-gnodi.vinjan-inc.com',
+        provider: 'Vinjan.Inc'
       }],
     grpc: [{
         address: 'grpc.gnodi.zone:443',
@@ -86,6 +92,11 @@ const info: Chain = {
       url: 'https://explore.gnodi.org/gnodi',
       tx_page: 'https://explore.gnodi.org/gnodi/transactions',
       account_page: 'https://explore.gnodi.org/gnodi/accounts/${accountAddress}'
+    }, {
+      kind: 'Vinjan.Inc Explorer',
+      url: 'https://explorer.vinjan-inc.com/gnodi',
+      tx_page: 'https://explorer.vinjan-inc.com/gnodi/tx/${txHash}',
+      account_page: 'https://explorer.vinjan-inc.com/gnodi/account/${accountAddress}'
     }]
 };
 export default info;
