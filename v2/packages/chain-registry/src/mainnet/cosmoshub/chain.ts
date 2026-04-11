@@ -235,6 +235,10 @@ const info: Chain = {
       {
         address: 'https://cosmoshub-mainnet.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://rpc.cosmos.cumulo.com.es',
+        provider: 'Cumulo'
       }
     ],
     rest: [
@@ -378,6 +382,10 @@ const info: Chain = {
       {
         address: 'https://cosmoshub-mainnet.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://api.cosmos.cumulo.com.es',
+        provider: 'Cumulo'
       }
     ],
     grpc: [
@@ -481,6 +489,10 @@ const info: Chain = {
       {
         address: 'cosmoshub-mainnet.chain.whenmoonwhenlambo.money:443',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'grpc.cosmos.cumulo.com.es:9790',
+        provider: 'Cumulo'
       }
     ]
   },
