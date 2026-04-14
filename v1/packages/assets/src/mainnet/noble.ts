@@ -1622,7 +1622,6 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/joltify/images/jolt.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/joltify/images/jolt.svg'
         }],
-      coingecko_id: 'joltify',
       keywords: ['staking'],
       socials: {
         website: 'https://www.joltify.io/',
@@ -4114,7 +4113,6 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/joltify/images/jolt.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/joltify/images/jolt.svg'
         }],
-      coingecko_id: 'joltify',
       keywords: ['staking'],
       socials: {
         website: 'https://www.joltify.io/',

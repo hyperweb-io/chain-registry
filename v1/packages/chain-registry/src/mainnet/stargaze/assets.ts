@@ -175,8 +175,7 @@ const info: AssetList = {
             chain_name: 'osmosis',
             base_denom: 'factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB'
           }
-        }],
-      coingecko_id: 'mad-scientists'
+        }]
     },
     {
       description: 'CDT - Membrane\'s solvency preserving stablecoin',
