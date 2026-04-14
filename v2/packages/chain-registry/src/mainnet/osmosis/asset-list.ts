@@ -12576,8 +12576,7 @@ const info: AssetList = {
       },
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/LAB.png'
-        }],
-      coingeckoId: 'mad-scientists'
+        }]
     },
     {
       description: 'BackBone Labs Liquid Staked OSMO',

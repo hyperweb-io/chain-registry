@@ -21,7 +21,6 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/joltify/images/jolt.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/joltify/images/jolt.svg'
         }],
-      coingeckoId: 'joltify',
       keywords: ['staking'],
       socials: {
         website: 'https://www.joltify.io/',
