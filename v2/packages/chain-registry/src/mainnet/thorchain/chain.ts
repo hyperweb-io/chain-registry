@@ -28,22 +28,41 @@ const info: Chain = {
     }
   },
   apis: {
-    rpc: [{
-        address: 'https://thornode-mainnet-rpc.bryanlabs.net',
-        provider: 'BryanLabs'
-      }],
+    rpc: [
+      {
+        address: 'https://gateway.liquify.com/chain/thorchain_rpc',
+        provider: 'Liquify'
+      },
+      {
+        address: 'https://rpc-thorchain.rorcual.xyz',
+        provider: 'Rorcual'
+      },
+      {
+        address: 'https://thorchain.ibs.team/rpc/',
+        provider: 'IBS'
+      }
+    ],
     grpc: [{
-        address: 'thornode-mainnet-grpc.bryanlabs.net:443',
-        provider: 'BryanLabs'
+        address: 'https://grpc-thorchain.rorcual.xyz',
+        provider: 'Rorcual'
+      }, {
+        address: 'https://thorchain.ibs.team:443',
+        provider: 'IBS'
       }],
-    rest: [{
-        address: 'https://thornode-mainnet-rpc.bryanlabs.net',
-        provider: 'BryanLabs'
-      }],
-    wss: [{
-        address: 'wss://thornode-mainnet-rpc.bryanlabs.net/websocket',
-        provider: 'BryanLabs'
-      }]
+    rest: [
+      {
+        address: 'https://gateway.liquify.com/chain/thorchain_api',
+        provider: 'Liquify'
+      },
+      {
+        address: 'https://api-thorchain.rorcual.xyz',
+        provider: 'Rorcual'
+      },
+      {
+        address: 'https://thorchain.ibs.team/api/',
+        provider: 'IBS'
+      }
+    ]
   },
   explorers: [
     {
@@ -59,11 +78,6 @@ const info: Chain = {
     {
       kind: 'THORChain Dashboard',
       url: 'https://thorchain.net/dashboard'
-    },
-    {
-      kind: 'Bryanlabs explorer',
-      url: 'https://explore.bryanlabs.net/thorchain',
-      txPage: 'https://explore.bryanlabs.net/thorchain/#/txs/${txHash}'
     }
   ]
 };

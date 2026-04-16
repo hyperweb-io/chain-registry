@@ -101,6 +101,10 @@ const info: Chain = {
       {
         address: 'https://fetchai-rpc.bluestake.net:443',
         provider: 'BlueStake 🚀'
+      },
+      {
+        address: 'https://fetch.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     rest: [
@@ -167,6 +171,10 @@ const info: Chain = {
       {
         address: 'https://fetchai-api.bluestake.net',
         provider: 'BlueStake 🚀'
+      },
+      {
+        address: 'https://fetch.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     grpc: [
