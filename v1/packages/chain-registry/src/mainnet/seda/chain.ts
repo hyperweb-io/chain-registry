@@ -122,6 +122,10 @@ const info: Chain = {
       {
         address: 'https://rpc.cros-nest.com/seda',
         provider: 'Crosnest'
+      },
+      {
+        address: 'https://seda.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     rest: [
@@ -180,6 +184,10 @@ const info: Chain = {
       {
         address: 'https://rest.cros-nest.com/seda',
         provider: 'Crosnest'
+      },
+      {
+        address: 'https://seda.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     grpc: [

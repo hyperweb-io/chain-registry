@@ -102,6 +102,10 @@ const info: Chain = {
       {
         address: 'https://provenance-mainnet-rpc.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://provenance.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     rest: [
@@ -148,6 +152,10 @@ const info: Chain = {
       {
         address: 'https://provenance-mainnet-api.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://provenance.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     grpc: [

@@ -239,6 +239,10 @@ const info: Chain = {
       {
         address: 'https://rpc.cosmos.cumulo.com.es',
         provider: 'Cumulo'
+      },
+      {
+        address: 'https://cosmoshub.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     rest: [
@@ -386,6 +390,10 @@ const info: Chain = {
       {
         address: 'https://api.cosmos.cumulo.com.es',
         provider: 'Cumulo'
+      },
+      {
+        address: 'https://cosmoshub.api.pocket.network',
+        provider: 'Pocket Network'
       }
     ],
     grpc: [
