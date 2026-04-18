@@ -1488,8 +1488,7 @@ const info: AssetList = {
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png'
-        }],
-      coingeckoId: 'eureka-bridged-pax-gold-terra'
+        }]
     },
     {
       description: 'Tether Gold bridged via Eureka on Cosmos Hub and relayed to Terra (phoenix-1) over IBC.',

@@ -479,6 +479,57 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg'
         }],
       coingeckoId: 'stride-staked-atom'
+    },
+    {
+      description: 'SolvBTC on ZIGChain',
+      denomUnits: [{
+          denom: 'ibc/F1E29C7A6E0A3782CD87D279722AC11FEDE1BAAB9BD5A25A2A7EAE44ED02ADD5',
+          exponent: 0
+        }, {
+          denom: 'solvbtc',
+          exponent: 18
+        }],
+      base: 'ibc/F1E29C7A6E0A3782CD87D279722AC11FEDE1BAAB9BD5A25A2A7EAE44ED02ADD5',
+      name: 'SolvBTC on ZIGChain',
+      display: 'solvbtc',
+      symbol: 'SolvBTC',
+      traces: [{
+          type: 'ibc-bridge',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x7a56e1c57c7475ccf742a1832b028f0456652f97',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: '08-wasm-1369',
+            path: 'transfer/08-wasm-1369/0x7a56e1c57c7475ccf742a1832b028f0456652f97'
+          },
+          provider: 'Eureka'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'cosmoshub',
+            baseDenom: 'ibc/0C4417F123459B47B6933939BF6F128C362B0C1F9EDA6A6EBC08860E4672AF7E',
+            channelId: 'channel-1555'
+          },
+          chain: {
+            channelId: 'channel-4',
+            path: 'transfer/channel-4/transfer/08-wasm-1369/0x7a56e1c57c7475ccf742a1832b028f0456652f97'
+          }
+        }],
+      typeAsset: 'ics20',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x7a56e1c57c7475ccf742a1832b028f0456652f97'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvBTC.svg'
+        }]
     }
   ]
 };
