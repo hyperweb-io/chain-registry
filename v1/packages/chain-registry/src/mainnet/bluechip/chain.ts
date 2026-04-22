@@ -3,21 +3,20 @@ const info: Chain = {
   $schema: '../chain.schema.json',
   chain_name: 'bluechip',
   status: 'live',
-  website: 'https://www.bluechip.link',
   network_type: 'mainnet',
-  pretty_name: 'BlueChip',
+  pretty_name: 'Bluechip',
   chain_type: 'cosmos',
-  chain_id: 'bluechip-2',
-  bech32_prefix: 'bcp',
-  daemon_name: 'bluechipd',
-  node_home: '$HOME/.bluechip',
-  slip44: 118,
+  chain_id: 'bluechip-3',
+  bech32_prefix: 'bluechip',
+  daemon_name: 'bluechipchaind',
+  node_home: '$HOME/.bluechipChain',
   key_algos: ['secp256k1'],
+  slip44: 118,
   fees: {
     fee_tokens: [{
         denom: 'ubluechip',
         fixed_min_gas_price: 0,
-        low_gas_price: 0,
+        low_gas_price: 0.01,
         average_gas_price: 0.025,
         high_gas_price: 0.04
       }]
@@ -27,24 +26,37 @@ const info: Chain = {
         denom: 'ubluechip'
       }]
   },
-  description: 'Stake to the BlueChip chain, interact with the creator pools, and subscribe through the creator subscription contracts.',
   codebase: {
-    git_repo: 'https://github.com/Bluechip23/bluechip/tree/main',
-    recommended_version: 'v1',
-    compatible_versions: ['v1'],
+    git_repo: 'https://github.com/Bluechip23/bluechip-chain-official.git',
+    recommended_version: 'v1.0.0',
+    compatible_versions: ['v1.0.0'],
+    consensus: {
+      type: 'cometbft'
+    },
     genesis: {
-      genesis_url: 'https://github.com/Bluechip23/bluechip/blob/main/genesis.json'
-    },
-    sdk: {
-      type: 'cosmos',
-      version: '0.47.11'
-    },
-    cosmwasm: {
-      enabled: true
+      genesis_url: 'https://raw.githubusercontent.com/Bluechip23/bluechip-chain-official/main/genesis.json'
     }
   },
+  apis: {
+    rpc: [{
+        address: 'https://bluechip.rpc.bluechip.link',
+        provider: 'BluechipNode'
+      }],
+    rest: [{
+        address: 'https://bluechip.api.bluechip.link',
+        provider: 'BluechipNode'
+      }],
+    grpc: []
+  },
+  explorers: [{
+      kind: 'custom',
+      url: 'https://bluechipsblockexplorer.com/frontpage',
+      tx_page: 'https://bluechipsblockexplorer.com/tx/${txHash}',
+      account_page: 'https://bluechipsblockexplorer.com/account/${accountAddress}'
+    }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bluechip/images/bluechip.png'
-    }]
+    }],
+  website: 'https://www.bluechip.link/home'
 };
 export default info;
