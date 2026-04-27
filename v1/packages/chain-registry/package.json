@@ -1,6 +1,6 @@
 {
   "name": "chain-registry",
-  "version": "1.69.561",
+  "version": "1.69.562",
   "description": "Cosmos chain registry ⚛️",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "homepage": "https://github.com/hyperweb-io/chain-registry/tree/master/packages/chain-registry#readme",
