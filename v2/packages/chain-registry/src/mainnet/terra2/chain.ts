@@ -126,10 +126,6 @@ const info: Chain = {
         provider: 'Stakeflow'
       },
       {
-        address: 'https://terra-phoenix-api.highstakes.ch',
-        provider: 'High Stakes 🇨🇭'
-      },
-      {
         address: 'https://terra2.tdrsys.com',
         provider: 'TdrSys'
       },
