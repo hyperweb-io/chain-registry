@@ -87,6 +87,7 @@ import * as _gonka from './gonka';
 import * as _govgen from './govgen';
 import * as _gravitybridge from './gravitybridge';
 import * as _haqq from './haqq';
+import * as _hazinachain from './hazinachain';
 import * as _heli from './heli';
 import * as _highbury from './highbury';
 import * as _hippoprotocol from './hippoprotocol';
@@ -320,6 +321,7 @@ const assets: AssetList[] = [
   _govgen.assets,
   _gravitybridge.assets,
   _haqq.assets,
+  _hazinachain.assets,
   _heli.assets,
   _highbury.assets,
   _hippoprotocol.assets,

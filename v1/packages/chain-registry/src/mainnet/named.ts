@@ -85,6 +85,7 @@ export * as gonka from './gonka';
 export * as govgen from './govgen';
 export * as gravitybridge from './gravitybridge';
 export * as haqq from './haqq';
+export * as hazinachain from './hazinachain';
 export * as heli from './heli';
 export * as highbury from './highbury';
 export * as hippoprotocol from './hippoprotocol';

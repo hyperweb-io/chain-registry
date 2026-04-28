@@ -200,7 +200,7 @@ const info: Chain = {
     ],
     grpc: [
       {
-        address: 'grpc-lb.neutron.org:80',
+        address: 'grpc-lb.neutron.org:443',
         provider: 'Neutron'
       },
       {
