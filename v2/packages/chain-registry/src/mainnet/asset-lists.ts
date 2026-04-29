@@ -172,6 +172,7 @@ import * as _pryzm from './pryzm';
 import * as _pundix from './pundix';
 import * as _pylons from './pylons';
 import * as _qfs from './qfs';
+import * as _qie from './qie';
 import * as _quasar from './quasar';
 import * as _qubetics from './qubetics';
 import * as _quicksilver from './quicksilver';
@@ -406,6 +407,7 @@ const assetList: AssetList[] = [
   _pundix.assetList,
   _pylons.assetList,
   _qfs.assetList,
+  _qie.assetList,
   _quasar.assetList,
   _qubetics.assetList,
   _quicksilver.assetList,
