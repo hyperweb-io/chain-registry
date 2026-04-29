@@ -1759,7 +1759,6 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.svg'
         }],
-      coingecko_id: 'vidulum',
       keywords: ['osmosis_unstable']
     },
     {
@@ -20699,8 +20698,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/vdl.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/vdl.svg'
-        }],
-      coingecko_id: 'vidulum'
+        }]
     },
     {
       description: 'Real power moves quietly.',
