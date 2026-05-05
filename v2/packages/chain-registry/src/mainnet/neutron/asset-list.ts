@@ -1743,7 +1743,6 @@ const info: AssetList = {
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/maxBTC.svg'
       },
-      coingeckoId: 'maxbtc',
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/maxBTC.svg'
         }],
