@@ -1647,7 +1647,6 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png'
       },
-      coingecko_id: 'babypie-wrapped-btc',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mbtc.png'
         }]

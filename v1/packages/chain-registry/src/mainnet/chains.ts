@@ -121,6 +121,7 @@ import * as _lombardledger from './lombardledger';
 import * as _loop from './loop';
 import * as _lorenzo from './lorenzo';
 import * as _loyal from './loyal';
+import * as _ltrstchain from './ltrstchain';
 import * as _lumen from './lumen';
 import * as _lumera from './lumera';
 import * as _lumiwaveprotocol from './lumiwaveprotocol';
@@ -356,6 +357,7 @@ const chains: Chain[] = [
   _loop.chain,
   _lorenzo.chain,
   _loyal.chain,
+  _ltrstchain.chain,
   _lumen.chain,
   _lumera.chain,
   _lumiwaveprotocol.chain,

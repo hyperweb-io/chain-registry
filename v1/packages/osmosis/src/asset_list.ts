@@ -23172,7 +23172,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
       },
-      coingecko_id: 'umee',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
@@ -33244,7 +33243,6 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
       },
-      coingecko_id: 'umee',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'

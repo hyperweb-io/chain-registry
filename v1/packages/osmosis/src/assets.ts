@@ -2008,8 +2008,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-        }],
-      coingecko_id: 'umee'
+        }]
     },
     {
       description: 'The native token of Gravity Bridge',
