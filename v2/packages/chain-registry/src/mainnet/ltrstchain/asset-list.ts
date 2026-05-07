@@ -3,7 +3,7 @@ const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chainName: 'ltrstchain',
   assets: [{
-      description: 'The native token of LTRST Chain. Used for transaction fees, staking, and governance. The chain is built for privacy-respecting estate and legal documents.',
+      description: 'The native token of LTRST Chain. Used for transaction fees, staking, and governance. The chain is purpose-built to host legal, financial, and medical AI-generated projects and tools with protocol-level privacy.',
       denomUnits: [
         {
           denom: 'ultrst',
