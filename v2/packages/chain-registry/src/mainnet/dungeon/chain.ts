@@ -78,12 +78,6 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'Ping.Pub',
-      url: 'https://ping.pub/Dungeonchain',
-      txPage: 'https://ping.pub/Dungeonchain/tx/${txHash}',
-      accountPage: 'https://ping.pub/Dungeonchain/account/${accountAddress}'
-    },
-    {
       kind: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥',
       url: 'https://explorer.whenmoonwhenlambo.money/dungeon',
       txPage: 'https://explorer.whenmoonwhenlambo.money/dungeon/tx/${txHash}',
