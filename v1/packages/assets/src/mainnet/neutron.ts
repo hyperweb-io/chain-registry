@@ -489,7 +489,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png'
       },
       socials: {
-        website: 'https://www.cryptodungeon.org',
+        website: 'https://dungeongames.io',
         x: 'https://x.com/cryptodungeonma'
       },
       images: [{
@@ -1794,7 +1794,7 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png'
       },
       socials: {
-        website: 'https://www.cryptodungeon.org',
+        website: 'https://dungeongames.io',
         x: 'https://x.com/cryptodungeonma'
       },
       images: [{

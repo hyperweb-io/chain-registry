@@ -216,6 +216,7 @@ export * as tgrade from './tgrade';
 export * as thejaynetwork from './thejaynetwork';
 export * as thorchain from './thorchain';
 export * as titan from './titan';
+export * as turkchain from './turkchain';
 export * as umee from './umee';
 export * as unicorn from './unicorn';
 export * as unification from './unification';

@@ -2410,7 +2410,7 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png'
       },
       socials: {
-        website: 'https://www.cryptodungeon.org',
+        website: 'https://dungeongames.io',
         x: 'https://x.com/cryptodungeonma'
       },
       images: [{
@@ -8950,7 +8950,7 @@ const asset_list: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png'
       },
       socials: {
-        website: 'https://www.cryptodungeon.org',
+        website: 'https://dungeongames.io',
         x: 'https://x.com/cryptodungeonma'
       },
       images: [{
@@ -20436,6 +20436,43 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'QIE is the native gas and staking token of the QIE Blockchain, a high-performance Layer-1 EVM-compatible Cosmos SDK chain',
+      denom_units: [{
+          denom: 'ibc/29651CA364AA857248A912B1DEC17EF8AC320728C616FB635338CFE965E18BE3',
+          exponent: 0,
+          aliases: ['aqie']
+        }, {
+          denom: 'qie',
+          exponent: 18
+        }],
+      type_asset: 'evm-base',
+      base: 'ibc/29651CA364AA857248A912B1DEC17EF8AC320728C616FB635338CFE965E18BE3',
+      name: 'QIE',
+      display: 'qie',
+      symbol: 'QIE',
+      coingecko_id: 'qie',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qie/images/qie.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qie/images/qie.png'
+        }],
+      socials: {
+        website: 'https://qie.digital'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'aqie',
+            chain_name: 'qie'
+          },
+          chain: {
+            channel_id: 'channel-109956'
+          }
+        }]
+    },
+    {
       description: 'The QSR token has transitioned to a legacy token, with migration to the EVM ecosystem currently underway.',
       denom_units: [{
           denom: 'ibc/1B708808D372E959CD4839C594960309283424C775F4A038AAEBE7F83A988477',
@@ -30503,6 +30540,43 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-105393'
+          }
+        }]
+    },
+    {
+      description: 'QIE is the native gas and staking token of the QIE Blockchain, a high-performance Layer-1 EVM-compatible Cosmos SDK chain',
+      denom_units: [{
+          denom: 'ibc/29651CA364AA857248A912B1DEC17EF8AC320728C616FB635338CFE965E18BE3',
+          exponent: 0,
+          aliases: ['aqie']
+        }, {
+          denom: 'qie',
+          exponent: 18
+        }],
+      type_asset: 'evm-base',
+      base: 'ibc/29651CA364AA857248A912B1DEC17EF8AC320728C616FB635338CFE965E18BE3',
+      name: 'QIE',
+      display: 'qie',
+      symbol: 'QIE',
+      coingecko_id: 'qie',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qie/images/qie.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/qie/images/qie.png'
+        }],
+      socials: {
+        website: 'https://qie.digital'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'aqie',
+            chain_name: 'qie'
+          },
+          chain: {
+            channel_id: 'channel-109956'
           }
         }]
     },

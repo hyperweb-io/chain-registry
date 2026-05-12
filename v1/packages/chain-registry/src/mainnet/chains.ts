@@ -218,6 +218,7 @@ import * as _tgrade from './tgrade';
 import * as _thejaynetwork from './thejaynetwork';
 import * as _thorchain from './thorchain';
 import * as _titan from './titan';
+import * as _turkchain from './turkchain';
 import * as _umee from './umee';
 import * as _unicorn from './unicorn';
 import * as _unification from './unification';
@@ -454,6 +455,7 @@ const chains: Chain[] = [
   _thejaynetwork.chain,
   _thorchain.chain,
   _titan.chain,
+  _turkchain.chain,
   _umee.chain,
   _unicorn.chain,
   _unification.chain,

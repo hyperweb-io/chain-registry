@@ -5,7 +5,7 @@ const info: Chain = {
   status: 'live',
   network_type: 'mainnet',
   chain_type: 'cosmos',
-  website: 'https://www.cryptodungeon.org',
+  website: 'https://dungeongames.io',
   pretty_name: 'Dungeon Chain',
   chain_id: 'dungeon-1',
   bech32_prefix: 'dungeon',
@@ -22,6 +22,10 @@ const info: Chain = {
   apis: {
     rpc: [
       {
+        address: 'https://rpc.dungeongames.io',
+        provider: 'Dungeon Games'
+      },
+      {
         address: 'https://dungeon-wallet.rpc.quasarstaking.ai',
         provider: 'Quasar'
       },
@@ -36,13 +40,13 @@ const info: Chain = {
       {
         address: 'https://rpc.dungeon.chaintools.tech',
         provider: 'ChainTools'
-      },
-      {
-        address: 'https://rpc.dungeongames.io',
-        provider: 'Dungeon Games'
       }
     ],
     rest: [
+      {
+        address: 'https://api.dungeongames.io',
+        provider: 'Dungeon Games'
+      },
       {
         address: 'https://dungeon-wallet.api.quasarstaking.ai',
         provider: 'Quasar'
@@ -62,10 +66,6 @@ const info: Chain = {
       {
         address: 'https://api.dungeon.chaintools.tech',
         provider: 'ChainTools'
-      },
-      {
-        address: 'https://api.dungeongames.io',
-        provider: 'Dungeon Games'
       }
     ],
     grpc: [{
