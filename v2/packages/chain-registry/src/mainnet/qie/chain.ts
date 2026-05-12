@@ -32,7 +32,8 @@ const info: Chain = {
     recommendedVersion: 'v1.0.0',
     genesis: {
       genesisUrl: 'https://github.com/qieadmin/qie/raw/main/genesis.json'
-    }
+    },
+    compatibleVersions: ['v1.0.0']
   },
   apis: {
     rpc: [{

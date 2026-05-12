@@ -133,6 +133,7 @@ import * as _pryzm from './pryzm';
 import * as _pundix from './pundix';
 import * as _pylons from './pylons';
 import * as _qfs from './qfs';
+import * as _qie from './qie';
 import * as _quasar from './quasar';
 import * as _quicksilver from './quicksilver';
 import * as _qwoyn from './qwoyn';
@@ -313,6 +314,7 @@ const ibcData: IBCData[] = [
   ..._pundix.ibcData,
   ..._pylons.ibcData,
   ..._qfs.ibcData,
+  ..._qie.ibcData,
   ..._quasar.ibcData,
   ..._quicksilver.ibcData,
   ..._qwoyn.ibcData,

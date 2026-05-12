@@ -1064,6 +1064,27 @@ const info: AssetList = {
           }
         }],
       coingeckoId: 'dragon-coin-2'
+    },
+    {
+      description: 'Nether is a tokenfactory token on the Cosmos Hub.',
+      denomUnits: [{
+          denom: 'factory/cosmos1wdja2gcsesyl07raq9jm3rcvu0sse5zkev0h8m/Nether',
+          exponent: 0
+        }, {
+          denom: 'nthr',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/cosmos1wdja2gcsesyl07raq9jm3rcvu0sse5zkev0h8m/Nether',
+      name: 'Nether',
+      display: 'nthr',
+      symbol: 'NTHR',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/nthr.png'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/nthr.png'
+      }
     }
   ]
 };

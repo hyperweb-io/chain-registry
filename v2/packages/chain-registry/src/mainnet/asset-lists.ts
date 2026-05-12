@@ -218,6 +218,7 @@ import * as _tgrade from './tgrade';
 import * as _thejaynetwork from './thejaynetwork';
 import * as _thorchain from './thorchain';
 import * as _titan from './titan';
+import * as _turkchain from './turkchain';
 import * as _umee from './umee';
 import * as _unicorn from './unicorn';
 import * as _unification from './unification';
@@ -454,6 +455,7 @@ const assetList: AssetList[] = [
   _thejaynetwork.assetList,
   _thorchain.assetList,
   _titan.assetList,
+  _turkchain.assetList,
   _umee.assetList,
   _unicorn.assetList,
   _unification.assetList,
