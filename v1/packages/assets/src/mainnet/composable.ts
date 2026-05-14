@@ -756,6 +756,46 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'EURC is a euro-backed stablecoin issued by Circle. EURC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.',
+      type_asset: 'erc20',
+      address: '0x1abaea1f7c830bd89acc67ec4af516284b1bc33c',
+      denom_units: [{
+          denom: 'ibc/72BE61360C3439F69F2F080F4E410E2725AF4CEF28C944C8B5FA948B4A542BCF',
+          exponent: 0,
+          aliases: ['0x1abaea1f7c830bd89acc67ec4af516284b1bc33c']
+        }, {
+          denom: 'eurc',
+          exponent: 6
+        }],
+      base: 'ibc/72BE61360C3439F69F2F080F4E410E2725AF4CEF28C944C8B5FA948B4A542BCF',
+      name: 'Euro Coin',
+      display: 'eurc',
+      symbol: 'EURC',
+      keywords: [
+        'eurc',
+        'circle',
+        'stablecoin',
+        'euro'
+      ],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eurc.png'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eurc.png'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0x1abaea1f7c830bd89acc67ec4af516284b1bc33c',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
       type_asset: 'erc20',
       address: '0x657e8c867d8b37dcc18fa4caead9c45eb088c642',
       denom_units: [{
@@ -2995,6 +3035,46 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-2',
             base_denom: '0xcE682c89C63d2850Cb2ca898E44D6c7c30d897a6',
+            chain_name: 'ethereum'
+          },
+          chain: {
+            channel_id: 'channel-52'
+          }
+        }]
+    },
+    {
+      description: 'EURC is a euro-backed stablecoin issued by Circle. EURC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.',
+      type_asset: 'erc20',
+      address: '0x1abaea1f7c830bd89acc67ec4af516284b1bc33c',
+      denom_units: [{
+          denom: 'ibc/72BE61360C3439F69F2F080F4E410E2725AF4CEF28C944C8B5FA948B4A542BCF',
+          exponent: 0,
+          aliases: ['0x1abaea1f7c830bd89acc67ec4af516284b1bc33c']
+        }, {
+          denom: 'eurc',
+          exponent: 6
+        }],
+      base: 'ibc/72BE61360C3439F69F2F080F4E410E2725AF4CEF28C944C8B5FA948B4A542BCF',
+      name: 'Euro Coin',
+      display: 'eurc',
+      symbol: 'EURC',
+      keywords: [
+        'eurc',
+        'circle',
+        'stablecoin',
+        'euro'
+      ],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eurc.png'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eurc.png'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: '0x1abaea1f7c830bd89acc67ec4af516284b1bc33c',
             chain_name: 'ethereum'
           },
           chain: {
