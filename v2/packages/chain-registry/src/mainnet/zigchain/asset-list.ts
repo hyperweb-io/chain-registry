@@ -440,6 +440,55 @@ const info: AssetList = {
         }]
     },
     {
+      description: 'EURC (Euro Coin) on ZIGChain',
+      denomUnits: [{
+          denom: 'ibc/CC5268F89C752A4BDCBDAA574AF0A381786FCC839104E077DA9A9145176BF8ED',
+          exponent: 0
+        }, {
+          denom: 'eurc',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/CC5268F89C752A4BDCBDAA574AF0A381786FCC839104E077DA9A9145176BF8ED',
+      name: 'Euro Coin',
+      display: 'eurc',
+      symbol: 'EURC',
+      traces: [{
+          type: 'ibc-bridge',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x1abaea1f7c830bd89acc67ec4af516284b1bc33c',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: '08-wasm-1369',
+            path: 'transfer/08-wasm-1369/0x1abaea1f7c830bd89acc67ec4af516284b1bc33c'
+          },
+          provider: 'Eureka'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'cosmoshub',
+            baseDenom: 'ibc/5512EB544A275E5375CE4D82233BDAA2D03002E352A9C6B0049175BD368DF10E',
+            channelId: 'channel-1555'
+          },
+          chain: {
+            channelId: 'channel-4',
+            path: 'transfer/channel-4/transfer/08-wasm-1369/0x1abaea1f7c830bd89acc67ec4af516284b1bc33c'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eurc.png'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x1abaea1f7c830bd89acc67ec4af516284b1bc33c'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eurc.png'
+        }]
+    },
+    {
       description: 'Stride Staked ATOM on ZIGChain',
       denomUnits: [{
           denom: 'ibc/729AE368985B0F7B35648D17BA74A3D0A1C833FBAE8C3B49D75C6A2B578B9930',

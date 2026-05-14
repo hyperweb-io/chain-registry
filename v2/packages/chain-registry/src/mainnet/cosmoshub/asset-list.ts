@@ -558,6 +558,41 @@ const info: AssetList = {
         }]
     },
     {
+      description: 'Euro Coin on the Cosmos Hub',
+      denomUnits: [{
+          denom: 'ibc/5512EB544A275E5375CE4D82233BDAA2D03002E352A9C6B0049175BD368DF10E',
+          exponent: 0
+        }, {
+          denom: 'eurc',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/5512EB544A275E5375CE4D82233BDAA2D03002E352A9C6B0049175BD368DF10E',
+      name: 'Euro Coin',
+      display: 'eurc',
+      symbol: 'EURC',
+      traces: [{
+          type: 'ibc-bridge',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x1abaea1f7c830bd89acc67ec4af516284b1bc33c',
+            channelId: 'cosmoshub-0'
+          },
+          chain: {
+            channelId: '08-wasm-1369',
+            path: 'transfer/08-wasm-1369/0x1abaea1f7c830bd89acc67ec4af516284b1bc33c'
+          },
+          provider: 'Eureka'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x1abaea1f7c830bd89acc67ec4af516284b1bc33c'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eurc.png'
+        }]
+    },
+    {
       description: 'Tether USD on the Cosmos Hub',
       denomUnits: [{
           denom: 'ibc/E7E51FFF94A8B55BE84CEB0345E5CAF0A5DAEB374C6806CE908098B8996C7782',
