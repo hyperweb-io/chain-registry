@@ -169,7 +169,6 @@ import * as _planq from './planq';
 import * as _pocket from './pocket';
 import * as _point from './point';
 import * as _provenance from './provenance';
-import * as _pryzm from './pryzm';
 import * as _pundix from './pundix';
 import * as _pylons from './pylons';
 import * as _qfs from './qfs';
@@ -406,7 +405,6 @@ const chains: Chain[] = [
   _pocket.chain,
   _point.chain,
   _provenance.chain,
-  _pryzm.chain,
   _pundix.chain,
   _pylons.chain,
   _qfs.chain,
