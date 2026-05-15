@@ -167,7 +167,6 @@ export * as planq from './planq';
 export * as pocket from './pocket';
 export * as point from './point';
 export * as provenance from './provenance';
-export * as pryzm from './pryzm';
 export * as pundix from './pundix';
 export * as pylons from './pylons';
 export * as qfs from './qfs';

@@ -69,6 +69,7 @@ import * as _gitopia from './gitopia';
 import * as _gnodi from './gnodi';
 import * as _gravitybridge from './gravitybridge';
 import * as _haqq from './haqq';
+import * as _hazinachain from './hazinachain';
 import * as _hippoprotocol from './hippoprotocol';
 import * as _humans from './humans';
 import * as _impacthub from './impacthub';
@@ -129,7 +130,6 @@ import * as _persistence from './persistence';
 import * as _planq from './planq';
 import * as _point from './point';
 import * as _provenance from './provenance';
-import * as _pryzm from './pryzm';
 import * as _pundix from './pundix';
 import * as _pylons from './pylons';
 import * as _qfs from './qfs';
@@ -250,6 +250,7 @@ const ibc: IBCInfo[] = [
   ..._gnodi.ibc,
   ..._gravitybridge.ibc,
   ..._haqq.ibc,
+  ..._hazinachain.ibc,
   ..._hippoprotocol.ibc,
   ..._humans.ibc,
   ..._impacthub.ibc,
@@ -310,7 +311,6 @@ const ibc: IBCInfo[] = [
   ..._planq.ibc,
   ..._point.ibc,
   ..._provenance.ibc,
-  ..._pryzm.ibc,
   ..._pundix.ibc,
   ..._pylons.ibc,
   ..._qfs.ibc,

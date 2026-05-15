@@ -42,6 +42,10 @@ const info: Chain = {
   apis: {
     rpc: [
       {
+        address: 'https://rpc.saudi.dvpn-x.com',
+        provider: 'DIGGO: RPC Saudi Arabia'
+      },
+      {
         address: 'https://rpc-sentinel.busurnode.com',
         provider: 'Busurnode'
       },
@@ -119,6 +123,10 @@ const info: Chain = {
       }
     ],
     rest: [
+      {
+        address: 'https://api.saudi.dvpn-x.com',
+        provider: 'DIGGO: API Saudi Arabia'
+      },
       {
         address: 'https://api-sentinel.busurnode.com',
         provider: 'Busurnode'
