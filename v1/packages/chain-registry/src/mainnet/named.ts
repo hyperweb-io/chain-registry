@@ -12,6 +12,7 @@ export * as aioz from './aioz';
 export * as akash from './akash';
 export * as allora from './allora';
 export * as althea from './althea';
+export * as amitis from './amitis';
 export * as andromeda from './andromeda';
 export * as archway from './archway';
 export * as arkeo from './arkeo';

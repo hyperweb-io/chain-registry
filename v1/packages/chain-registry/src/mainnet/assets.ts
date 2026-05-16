@@ -14,6 +14,7 @@ import * as _aioz from './aioz';
 import * as _akash from './akash';
 import * as _allora from './allora';
 import * as _althea from './althea';
+import * as _amitis from './amitis';
 import * as _andromeda from './andromeda';
 import * as _archway from './archway';
 import * as _arkeo from './arkeo';
@@ -250,6 +251,7 @@ const assets: AssetList[] = [
   _akash.assets,
   _allora.assets,
   _althea.assets,
+  _amitis.assets,
   _andromeda.assets,
   _archway.assets,
   _arkeo.assets,

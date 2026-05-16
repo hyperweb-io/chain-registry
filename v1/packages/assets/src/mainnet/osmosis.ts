@@ -450,6 +450,45 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of the Amitis Network. AMTS powers the cooperative Layer 1 blockchain that returns 80% of transaction fees to users.',
+      type_asset: 'sdk.coin',
+      denom_units: [{
+          denom: 'ibc/7E577151E593349028AAC4A9FCC33258D70749FDF3CBB48F7744262DD18FC89D',
+          exponent: 0,
+          aliases: ['uamts']
+        }, {
+          denom: 'amts',
+          exponent: 6
+        }],
+      base: 'ibc/7E577151E593349028AAC4A9FCC33258D70749FDF3CBB48F7744262DD18FC89D',
+      name: 'Amitis',
+      display: 'amts',
+      symbol: 'AMTS',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.svg'
+        }],
+      keywords: [
+        'native',
+        'staking',
+        'fee-rebate',
+        'dex'
+      ],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'uamts',
+            chain_name: 'amitis'
+          },
+          chain: {
+            channel_id: 'channel-110089'
+          }
+        }]
+    },
+    {
       description: 'The native staking and governance token of Andromeda',
       denom_units: [{
           denom: 'ibc/631DB9935E8523BDCF76B55129F5238A14C809CCB3B43AECC157DC19702F3F9E',
@@ -1892,7 +1931,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/sara.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/sara.svg'
       },
-      coingecko_id: 'pulsara',
       keywords: [
         'dex',
         'staking',
@@ -7025,6 +7063,45 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of the Amitis Network. AMTS powers the cooperative Layer 1 blockchain that returns 80% of transaction fees to users.',
+      type_asset: 'sdk.coin',
+      denom_units: [{
+          denom: 'ibc/7E577151E593349028AAC4A9FCC33258D70749FDF3CBB48F7744262DD18FC89D',
+          exponent: 0,
+          aliases: ['uamts']
+        }, {
+          denom: 'amts',
+          exponent: 6
+        }],
+      base: 'ibc/7E577151E593349028AAC4A9FCC33258D70749FDF3CBB48F7744262DD18FC89D',
+      name: 'Amitis',
+      display: 'amts',
+      symbol: 'AMTS',
+      logo_URIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.svg'
+      },
+      images: [{
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.svg'
+        }],
+      keywords: [
+        'native',
+        'staking',
+        'fee-rebate',
+        'dex'
+      ],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'uamts',
+            chain_name: 'amitis'
+          },
+          chain: {
+            channel_id: 'channel-110089'
+          }
+        }]
+    },
+    {
       description: 'The native staking and governance token of Andromeda',
       denom_units: [{
           denom: 'ibc/631DB9935E8523BDCF76B55129F5238A14C809CCB3B43AECC157DC19702F3F9E',
@@ -8467,7 +8544,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/sara.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/sara.svg'
       },
-      coingecko_id: 'pulsara',
       keywords: [
         'dex',
         'staking',
