@@ -57,20 +57,34 @@ const info: Chain = {
   },
   description: 'The Jay Network is a Cosmos SDK-based blockchain providing fast, secure, and scalable infrastructure for decentralized applications.',
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://jayscan.duckdns.org/rpc',
         provider: 'Jay Network'
-      }, {
+      },
+      {
         address: 'http://34.67.101.201:26657',
         provider: 'Jay Network (direct)'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://rpc-jay.onenov.xyz',
+        provider: 'OneNov'
+      }
+    ],
+    rest: [
+      {
         address: 'https://jayscan.duckdns.org/api',
         provider: 'Jay Network'
-      }, {
+      },
+      {
         address: 'http://34.67.101.201:1317',
         provider: 'Jay Network (direct)'
-      }],
+      },
+      {
+        address: 'https://api-jay.onenov.xyz',
+        provider: 'OneNov'
+      }
+    ],
     grpc: [{
         address: '34.67.101.201:9090',
         provider: 'Jay Network'
@@ -84,6 +98,11 @@ const info: Chain = {
       url: 'https://jayscan.duckdns.org',
       txPage: 'https://jayscan.duckdns.org/?tx=${txHash}',
       accountPage: 'https://jayscan.duckdns.org/?account=${accountAddress}'
+    }, {
+      kind: 'Jay Network Explorer',
+      url: 'https://jay-explorer.onenov.xyz',
+      txPage: 'https://jay-explorer.onenov.xyz/transactions/${txHash}',
+      accountPage: 'https://jay-explorer.onenov.xyz/accounts/${accountAddress}'
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/thejaynetwork.png'

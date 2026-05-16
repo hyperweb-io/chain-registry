@@ -163,7 +163,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/sara.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/sara.svg'
       },
-      coingeckoId: 'pulsara',
       keywords: [
         'dex',
         'staking',
