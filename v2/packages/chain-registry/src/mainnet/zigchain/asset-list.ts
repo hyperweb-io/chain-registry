@@ -489,6 +489,55 @@ const info: AssetList = {
         }]
     },
     {
+      description: 'Tether Gold on ZIGChain',
+      denomUnits: [{
+          denom: 'ibc/294719272CB20610F3C0173B0E14DD65F9D7F515548AB3F8373CC91F36357234',
+          exponent: 0
+        }, {
+          denom: 'xaut',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/294719272CB20610F3C0173B0E14DD65F9D7F515548AB3F8373CC91F36357234',
+      name: 'Tether Gold on ZIGChain',
+      display: 'xaut',
+      symbol: 'XAUt',
+      traces: [{
+          type: 'ibc-bridge',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x68749665ff8d2d112fa859aa293f07a622782f38',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: '08-wasm-1369',
+            path: 'transfer/08-wasm-1369/0x68749665ff8d2d112fa859aa293f07a622782f38'
+          },
+          provider: 'Eureka'
+        }, {
+          type: 'ibc',
+          counterparty: {
+            chainName: 'cosmoshub',
+            baseDenom: 'ibc/A96C4DBCB7E36F8D265E92240510DB0F29F39CE4AAF52DBDE686E448BA447886',
+            channelId: 'channel-1555'
+          },
+          chain: {
+            channelId: 'channel-4',
+            path: 'transfer/channel-4/transfer/08-wasm-1369/0x68749665ff8d2d112fa859aa293f07a622782f38'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xaut.png'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x68749665ff8d2d112fa859aa293f07a622782f38'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/xaut.png'
+        }]
+    },
+    {
       description: 'Stride Staked ATOM on ZIGChain',
       denomUnits: [{
           denom: 'ibc/729AE368985B0F7B35648D17BA74A3D0A1C833FBAE8C3B49D75C6A2B578B9930',

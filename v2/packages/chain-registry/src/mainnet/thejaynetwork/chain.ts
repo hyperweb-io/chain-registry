@@ -4,10 +4,10 @@ const info: Chain = {
   chainName: 'thejaynetwork',
   chainType: 'cosmos',
   chainId: 'thejaynetwork',
+  website: 'https://thejaynetwork.com',
   prettyName: 'The Jay Network',
   status: 'live',
   networkType: 'mainnet',
-  website: 'https://jaynwk.gt.tc',
   bech32Prefix: 'yjay',
   daemonName: 'jaynd',
   nodeHome: '$HOME/.jayn',
@@ -16,10 +16,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'ujay',
-        fixedMinGasPrice: 0.0025,
-        lowGasPrice: 0.0025,
+        fixedMinGasPrice: 0.005,
+        lowGasPrice: 0.01,
         averageGasPrice: 0.025,
-        highGasPrice: 0.04
+        highGasPrice: 0.03
       }]
   },
   staking: {
@@ -29,11 +29,18 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/bbtccore/thejaynetwork',
-    recommendedVersion: 'v1.0.0',
-    compatibleVersions: ['v1.0.0'],
+    recommendedVersion: 'v1.1.0',
+    compatibleVersions: ['v1.1.0'],
+    binaries: {
+      "linux/amd64": 'https://github.com/bbtccore/thejaynetwork/releases/download/v1.1.0/jaynd-linux-amd64.tar.gz',
+      "linux/arm64": 'https://github.com/bbtccore/thejaynetwork/releases/download/v1.1.0/jaynd-linux-arm64.tar.gz'
+    },
     consensus: {
       type: 'cometbft',
-      version: 'v0.38.19'
+      version: 'v0.38.21'
+    },
+    genesis: {
+      genesisUrl: 'https://raw.githubusercontent.com/bbtccore/thejaynetwork/master/genesis/genesis.json'
     },
     sdk: {
       type: 'cosmos',
@@ -41,30 +48,27 @@ const info: Chain = {
     },
     ibc: {
       type: 'go',
-      version: 'v10.4.0'
+      version: 'v10.5.0'
     },
-    binaries: {
-      "linux/amd64": 'https://github.com/bbtccore/thejaynetwork/releases/download/v1.0.0/jaynd-linux-amd64',
-      "linux/arm64": 'https://github.com/bbtccore/thejaynetwork/releases/download/v1.0.0/jaynd-linux-arm64'
-    },
-    genesis: {
-      name: 'v1',
-      genesisUrl: 'https://raw.githubusercontent.com/bbtccore/thejaynetwork/master/genesis/genesis.json'
+    cosmwasm: {
+      version: 'v0.61.10',
+      repo: 'https://github.com/CosmWasm/wasmd',
+      tag: 'v0.61.10'
     }
   },
   logoURIs: {
-    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/thejaynetwork.png'
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/jay.png'
   },
-  description: 'The Jay Network is a Cosmos SDK-based blockchain providing fast, secure, and scalable infrastructure for decentralized applications.',
+  description: 'The Jay Network is a Cosmos SDK-based blockchain with IBC interoperability, CosmWasm smart contracts, and cross-chain connectivity to Cosmos Hub, Celestia, and Injective.',
   apis: {
     rpc: [
       {
-        address: 'https://jayscan.duckdns.org/rpc',
-        provider: 'Jay Network'
+        address: 'https://thejaynetwork.com/rpc',
+        provider: 'The Jay Network'
       },
       {
-        address: 'http://34.67.101.201:26657',
-        provider: 'Jay Network (direct)'
+        address: 'http://152.53.195.74:26657',
+        provider: 'The Jay Network (Sentry)'
       },
       {
         address: 'https://rpc-jay.onenov.xyz',
@@ -73,12 +77,12 @@ const info: Chain = {
     ],
     rest: [
       {
-        address: 'https://jayscan.duckdns.org/api',
-        provider: 'Jay Network'
+        address: 'https://thejaynetwork.com/rest',
+        provider: 'The Jay Network'
       },
       {
-        address: 'http://34.67.101.201:1317',
-        provider: 'Jay Network (direct)'
+        address: 'http://152.53.195.74:1317',
+        provider: 'The Jay Network (Sentry)'
       },
       {
         address: 'https://api-jay.onenov.xyz',
@@ -86,18 +90,15 @@ const info: Chain = {
       }
     ],
     grpc: [{
-        address: '34.67.101.201:9090',
-        provider: 'Jay Network'
-      }, {
-        address: '34.171.203.84:9090',
-        provider: 'Jay Network'
+        address: '152.53.195.74:9090',
+        provider: 'The Jay Network (Sentry)'
       }]
   },
   explorers: [{
-      kind: 'Jayscan',
-      url: 'https://jayscan.duckdns.org',
-      txPage: 'https://jayscan.duckdns.org/?tx=${txHash}',
-      accountPage: 'https://jayscan.duckdns.org/?account=${accountAddress}'
+      kind: 'JayScan',
+      url: 'https://jayscan.thejaynetwork.com',
+      txPage: 'https://jayscan.thejaynetwork.com/tx/${txHash}',
+      accountPage: 'https://jayscan.thejaynetwork.com/account/${accountAddress}'
     }, {
       kind: 'Jay Network Explorer',
       url: 'https://jay-explorer.onenov.xyz',
@@ -105,7 +106,7 @@ const info: Chain = {
       accountPage: 'https://jay-explorer.onenov.xyz/accounts/${accountAddress}'
     }],
   images: [{
-      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/thejaynetwork.png'
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/jay.png'
     }]
 };
 export default info;

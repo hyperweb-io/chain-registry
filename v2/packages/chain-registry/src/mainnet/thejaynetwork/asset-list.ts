@@ -3,7 +3,7 @@ const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chainName: 'thejaynetwork',
   assets: [{
-      description: 'The native staking and governance token of The Jay Network.',
+      description: 'JAY is the native staking and governance token of The Jay Network.',
       denomUnits: [{
           denom: 'ujay',
           exponent: 0
@@ -11,17 +11,20 @@ const info: AssetList = {
           denom: 'jay',
           exponent: 6
         }],
-      typeAsset: 'sdk.coin',
       base: 'ujay',
-      name: 'Jay Token',
+      name: 'Jay',
       display: 'jay',
       symbol: 'JAY',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/thejaynetwork.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/jay.png'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/thejaynetwork.png'
-        }]
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/jay.png'
+        }],
+      socials: {
+        website: 'https://thejaynetwork.com'
+      },
+      typeAsset: 'sdk.coin'
     }]
 };
 export default info;
