@@ -169,6 +169,7 @@ export * as teritori from './teritori';
 export * as terra from './terra';
 export * as terra2 from './terra2';
 export * as tgrade from './tgrade';
+export * as thejaynetwork from './thejaynetwork';
 export * as titan from './titan';
 export * as umee from './umee';
 export * as unification from './unification';

@@ -171,6 +171,7 @@ import * as _teritori from './teritori';
 import * as _terra from './terra';
 import * as _terra2 from './terra2';
 import * as _tgrade from './tgrade';
+import * as _thejaynetwork from './thejaynetwork';
 import * as _titan from './titan';
 import * as _umee from './umee';
 import * as _unification from './unification';
@@ -353,6 +354,7 @@ const ibc: IBCInfo[] = [
   ..._terra.ibc,
   ..._terra2.ibc,
   ..._tgrade.ibc,
+  ..._thejaynetwork.ibc,
   ..._titan.ibc,
   ..._umee.ibc,
   ..._unification.ibc,

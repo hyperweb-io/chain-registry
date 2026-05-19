@@ -6434,6 +6434,42 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'JAY is the native staking and governance token of The Jay Network.',
+      denom_units: [{
+          denom: 'ibc/BDD572CF2B04523EF151A3D96C42BD5FE163203FCD02563B72770346F97E7C4B',
+          exponent: 0,
+          aliases: ['ujay']
+        }, {
+          denom: 'jay',
+          exponent: 6
+        }],
+      base: 'ibc/BDD572CF2B04523EF151A3D96C42BD5FE163203FCD02563B72770346F97E7C4B',
+      name: 'Jay',
+      display: 'jay',
+      symbol: 'JAY',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/jay.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/jay.png'
+        }],
+      socials: {
+        website: 'https://thejaynetwork.com'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'ujay',
+            chain_name: 'thejaynetwork'
+          },
+          chain: {
+            channel_id: 'channel-1871'
+          }
+        }]
+    },
+    {
       description: 'The native token of Umee',
       denom_units: [{
           denom: 'ibc/DEC41A02E47658D40FC71E5A35A9C807111F5A6662A3FB5DA84C4E6F53E616B3',
@@ -10338,6 +10374,42 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-339'
+          }
+        }]
+    },
+    {
+      description: 'JAY is the native staking and governance token of The Jay Network.',
+      denom_units: [{
+          denom: 'ibc/BDD572CF2B04523EF151A3D96C42BD5FE163203FCD02563B72770346F97E7C4B',
+          exponent: 0,
+          aliases: ['ujay']
+        }, {
+          denom: 'jay',
+          exponent: 6
+        }],
+      base: 'ibc/BDD572CF2B04523EF151A3D96C42BD5FE163203FCD02563B72770346F97E7C4B',
+      name: 'Jay',
+      display: 'jay',
+      symbol: 'JAY',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/jay.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/jay.png'
+        }],
+      socials: {
+        website: 'https://thejaynetwork.com'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'ujay',
+            chain_name: 'thejaynetwork'
+          },
+          chain: {
+            channel_id: 'channel-1871'
           }
         }]
     },
