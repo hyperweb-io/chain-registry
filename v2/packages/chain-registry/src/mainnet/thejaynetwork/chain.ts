@@ -73,6 +73,10 @@ const info: Chain = {
       {
         address: 'https://rpc-jay.onenov.xyz',
         provider: 'OneNov'
+      },
+      {
+        address: 'https://rpc-jaynetwork.vinjan-inc.com',
+        provider: 'Vinjan.Inc'
       }
     ],
     rest: [
@@ -87,6 +91,10 @@ const info: Chain = {
       {
         address: 'https://api-jay.onenov.xyz',
         provider: 'OneNov'
+      },
+      {
+        address: 'https://api-jaynetwork.vinjan-inc.com',
+        provider: 'Vinjan.Inc'
       }
     ],
     grpc: [{
@@ -94,17 +102,26 @@ const info: Chain = {
         provider: 'The Jay Network (Sentry)'
       }]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'JayScan',
       url: 'https://jayscan.thejaynetwork.com',
       txPage: 'https://jayscan.thejaynetwork.com/tx/${txHash}',
       accountPage: 'https://jayscan.thejaynetwork.com/account/${accountAddress}'
-    }, {
+    },
+    {
       kind: 'Jay Network Explorer',
       url: 'https://jay-explorer.onenov.xyz',
       txPage: 'https://jay-explorer.onenov.xyz/transactions/${txHash}',
       accountPage: 'https://jay-explorer.onenov.xyz/accounts/${accountAddress}'
-    }],
+    },
+    {
+      kind: 'Vinjan.Inc Explorer',
+      url: 'https://explorer.vinjan-inc.com/jaynetwork',
+      txPage: 'https://explorer.vinjan-inc.com/jaynetwork/tx/${txHash}',
+      accountPage: 'https://explorer.vinjan-inc.com/jaynetwork/account/${accountAddress}'
+    }
+  ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/jay.png'
     }]
