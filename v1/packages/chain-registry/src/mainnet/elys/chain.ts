@@ -113,10 +113,6 @@ const info: Chain = {
         provider: 'PRO Delegators'
       },
       {
-        address: 'https://elys-rpc.highstakes.ch',
-        provider: 'High Stakes'
-      },
-      {
         address: 'https://elys-rpc.stake-town.com:443',
         provider: 'StakeTown'
       },
@@ -197,10 +193,6 @@ const info: Chain = {
       {
         address: 'https://community.nuxian-node.ch:6797/elys/crpc',
         provider: 'PRO Delegators'
-      },
-      {
-        address: 'https://elys-api.highstakes.ch',
-        provider: 'High Stakes'
       },
       {
         address: 'https://elys-api.stake-town.com:443',
