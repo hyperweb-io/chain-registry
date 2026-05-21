@@ -2,7 +2,8 @@ import { AssetList } from '@chain-registry/types';
 const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chain_name: 'haqq',
-  assets: [{
+  assets: [
+    {
       description: 'The native EVM, governance and staking token of the Haqq Network',
       denom_units: [{
           denom: 'aISLM',
@@ -29,7 +30,8 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/islm.svg'
         }],
       type_asset: 'sdk.coin'
-    }, {
+    },
+    {
       description: 'Deenar gold-backed stablecoin',
       extended_description: 'Deenar Gold (DEEN) is a 1:1 gold-backed halal stablecoin with the ability to physically deliver gold. 1 DEEN = 1 gram of gold.',
       denom_units: [{
@@ -68,6 +70,39 @@ const info: AssetList = {
             circle: true
           }
         }]
-    }]
+    },
+    {
+      description: 'HAQQ is the ecosystem token of the Haqq ecosystem',
+      extended_description: 'HAQQ is the ecosystem participation token of the Haqq ecosystem, designed to connect product activity, users, and value into a unified economic layer',
+      denom_units: [{
+          denom: 'aHAQQ',
+          exponent: 0
+        }, {
+          denom: 'HAQQ',
+          exponent: 18
+        }],
+      base: 'aHAQQ',
+      name: 'HAQQ Token',
+      display: 'HAQQ',
+      address: '0x3af1695e3354Ec35F892b3d0880D4f7E12F4A172',
+      symbol: 'HAQQ',
+      type_asset: 'sdk.coin',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.svg'
+      },
+      socials: {
+        website: 'https://ethiq.network',
+        x: 'https://x.com/The_HaqqNetwork'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.svg',
+          theme: {
+            circle: true
+          }
+        }]
+    }
+  ]
 };
 export default info;

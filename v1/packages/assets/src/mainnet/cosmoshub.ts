@@ -3550,6 +3550,49 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'HAQQ is the ecosystem token of the Haqq ecosystem',
+      denom_units: [{
+          denom: 'ibc/C9FAE8B64B5A023AFAF1E041513139394BD51190BC03E61668C2A2D6CD5D3767',
+          exponent: 0,
+          aliases: ['aHAQQ']
+        }, {
+          denom: 'HAQQ',
+          exponent: 18
+        }],
+      base: 'ibc/C9FAE8B64B5A023AFAF1E041513139394BD51190BC03E61668C2A2D6CD5D3767',
+      name: 'HAQQ Token',
+      display: 'HAQQ',
+      address: '0x3af1695e3354Ec35F892b3d0880D4f7E12F4A172',
+      symbol: 'HAQQ',
+      type_asset: 'sdk.coin',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.svg'
+      },
+      socials: {
+        website: 'https://ethiq.network',
+        x: 'https://x.com/The_HaqqNetwork'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'aHAQQ',
+            chain_name: 'haqq'
+          },
+          chain: {
+            channel_id: 'channel-632'
+          }
+        }]
+    },
+    {
       description: 'The native token of the Internet of Impacts of inter-connected networks, powered by IXO Protocol blockchains.',
       denom_units: [{
           denom: 'ibc/B2B5AEE174062FA7804AC95223D8169852F8F58962C51C66391C272C838258B7',
@@ -7529,6 +7572,49 @@ const assets: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.svg',
           theme: {
             circle: true
+          }
+        }]
+    },
+    {
+      description: 'HAQQ is the ecosystem token of the Haqq ecosystem',
+      denom_units: [{
+          denom: 'ibc/C9FAE8B64B5A023AFAF1E041513139394BD51190BC03E61668C2A2D6CD5D3767',
+          exponent: 0,
+          aliases: ['aHAQQ']
+        }, {
+          denom: 'HAQQ',
+          exponent: 18
+        }],
+      base: 'ibc/C9FAE8B64B5A023AFAF1E041513139394BD51190BC03E61668C2A2D6CD5D3767',
+      name: 'HAQQ Token',
+      display: 'HAQQ',
+      address: '0x3af1695e3354Ec35F892b3d0880D4f7E12F4A172',
+      symbol: 'HAQQ',
+      type_asset: 'sdk.coin',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.svg'
+      },
+      socials: {
+        website: 'https://ethiq.network',
+        x: 'https://x.com/The_HaqqNetwork'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'aHAQQ',
+            chain_name: 'haqq'
+          },
+          chain: {
+            channel_id: 'channel-632'
           }
         }]
     },
