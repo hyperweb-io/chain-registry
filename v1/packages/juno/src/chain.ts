@@ -68,10 +68,6 @@ const chain: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://rpc-juno.itastakers.com',
-        provider: 'itastakers'
-      },
-      {
         address: 'https://juno.rpc.m.stavr.tech',
         provider: '🔥STAVR🔥'
       },
@@ -92,10 +88,6 @@ const chain: Chain = {
         provider: 'Stake&Relax Validator 🦥'
       },
       {
-        address: 'https://rpc-juno-01.stakeflow.io',
-        provider: 'Stakeflow'
-      },
-      {
         address: 'https://juno-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
@@ -110,14 +102,6 @@ const chain: Chain = {
       {
         address: 'https://juno-rpc.cogwheel.zone',
         provider: 'Cogwheel'
-      },
-      {
-        address: 'https://juno.declab.pro:26610',
-        provider: 'Decloud Nodes Lab'
-      },
-      {
-        address: 'https://juno-rpc.chainroot.io',
-        provider: 'Chainroot'
       },
       {
         address: 'https://juno.api.pocket.network',
@@ -146,10 +130,6 @@ const chain: Chain = {
         provider: 'Stake&Relax Validator 🦥'
       },
       {
-        address: 'https://api-juno-01.stakeflow.io',
-        provider: 'Stakeflow'
-      },
-      {
         address: 'https://juno-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
@@ -164,14 +144,6 @@ const chain: Chain = {
       {
         address: 'https://juno-api.cogwheel.zone',
         provider: 'Cogwheel'
-      },
-      {
-        address: 'https://juno.declab.pro:443',
-        provider: 'Decloud Nodes Lab'
-      },
-      {
-        address: 'https://juno-api.chainroot.io',
-        provider: 'Chainroot'
       },
       {
         address: 'https://juno.api.pocket.network',
@@ -200,20 +172,12 @@ const chain: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'grpc-juno-01.stakeflow.io:2302',
-        provider: 'Stakeflow'
-      },
-      {
         address: 'juno-grpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
       {
         address: 'juno-grpc.cogwheel.zone:443',
         provider: 'Cogwheel'
-      },
-      {
-        address: 'juno-grpc.chainroot.io:443',
-        provider: 'Chainroot'
       },
       {
         address: 'grpc.juno.validatus.com:443',
