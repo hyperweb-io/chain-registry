@@ -22972,6 +22972,10 @@ const info: AssetList = {
           }
         }],
       images: [{
+          imageSync: {
+            chainName: 'cosmoshub',
+            baseDenom: 'factory/cosmos1wdja2gcsesyl07raq9jm3rcvu0sse5zkev0h8m/Nether'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/nthr.png',
           theme: {
             circle: true
