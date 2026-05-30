@@ -28,17 +28,15 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/cosmos/gaia',
-    recommendedVersion: 'v27.3.0-rc0',
-    compatibleVersions: ['v27.3.0-rc0'],
+    recommendedVersion: 'v27.4.0-rc0',
+    compatibleVersions: ['v27.4.0-rc0'],
     consensus: {
       type: 'cometbft',
-      version: 'v0.38.21'
+      version: 'v0.38.23'
     },
     binaries: {
-      "darwin/amd64": 'https://github.com/cosmos/gaia/releases/download/v27.3.0-rc0/gaiad-v27.3.0-rc0-darwin-amd64',
-      "darwin/arm64": 'https://github.com/cosmos/gaia/releases/download/v27.3.0-rc0/gaiad-v27.3.0-rc0-darwin-arm64',
-      "linux/amd64": 'https://github.com/cosmos/gaia/releases/download/v27.3.0-rc0/gaiad-v27.3.0-rc0-linux-amd64',
-      "linux/arm64": 'https://github.com/cosmos/gaia/releases/download/v27.3.0-rc0/gaiad-v27.3.0-rc0-linux-arm64'
+      "darwin/amd64": 'https://github.com/cosmos/gaia/releases/download/v27.4.0-rc0/gaiad-v27.4.0-rc0-darwin-amd64',
+      "linux/amd64": 'https://github.com/cosmos/gaia/releases/download/v27.4.0-rc0/gaiad-v27.4.0-rc0-linux-amd64'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/cosmos/testnets/master/provider/provider-genesis.json'
@@ -53,11 +51,11 @@ const info: Chain = {
       version: 'v10.6.0'
     },
     cosmwasm: {
-      version: 'v0.60.6',
+      version: 'v0.60.7',
       repo: 'https://github.com/CosmWasm/wasmd',
-      tag: 'v0.60.6'
+      tag: 'v0.60.7'
     },
-    tag: 'v27.3.0-rc0'
+    tag: 'v27.4.0-rc0'
   },
   apis: {
     rpc: [

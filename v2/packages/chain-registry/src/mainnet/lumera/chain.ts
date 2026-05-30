@@ -88,6 +88,10 @@ const info: Chain = {
       {
         address: 'https://lumera-rpc.linknode.org',
         provider: 'AstroStake'
+      },
+      {
+        address: 'https://lumera-rpc.dungeon.games',
+        provider: 'Dungeon'
       }
     ],
     rest: [
@@ -110,6 +114,10 @@ const info: Chain = {
       {
         address: 'https://lumera-api.linknode.org',
         provider: 'AstroStake'
+      },
+      {
+        address: 'https://lumera-lcd.dungeon.games',
+        provider: 'Dungeon'
       }
     ],
     grpc: [

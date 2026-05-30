@@ -59,6 +59,10 @@ const info: Chain = {
       {
         address: 'https://assetmantle-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
+      },
+      {
+        address: 'https://mantle-rpc.dungeon.games',
+        provider: 'Dungeon'
       }
     ],
     rest: [
@@ -81,6 +85,10 @@ const info: Chain = {
       {
         address: 'https://assetmantle-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
+      },
+      {
+        address: 'https://mantle-lcd.dungeon.games',
+        provider: 'Dungeon'
       }
     ],
     grpc: [
