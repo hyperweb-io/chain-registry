@@ -242,6 +242,12 @@ const info: Chain = {
       url: 'https://mainnet.explorer.aviaone.com/provenance',
       txPage: 'https://mainnet.explorer.aviaone.com/provenance/tx/${txHash}',
       accountPage: 'https://mainnet.explorer.aviaone.com/provenance/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/provenance/mainnet',
+      txPage: 'https://moon-runners.net/provenance/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/provenance/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

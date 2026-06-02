@@ -176,6 +176,7 @@ import * as _titan from './titan';
 import * as _umee from './umee';
 import * as _unification from './unification';
 import * as _uptick from './uptick';
+import * as _wolochain from './wolochain';
 import * as _xion from './xion';
 import * as _xpla from './xpla';
 import * as _xrplevm from './xrplevm';
@@ -359,6 +360,7 @@ const ibcData: IBCData[] = [
   ..._umee.ibcData,
   ..._unification.ibcData,
   ..._uptick.ibcData,
+  ..._wolochain.ibcData,
   ..._xion.ibcData,
   ..._xpla.ibcData,
   ..._xrplevm.ibcData,

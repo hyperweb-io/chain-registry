@@ -91,6 +91,11 @@ const info: Chain = {
       url: 'https://scan.initia.xyz/interwoven-1',
       txPage: 'https://scan.initia.xyz/interwoven-1/txs/${txHash}',
       accountPage: 'https://scan.initia.xyz/interwoven-1/accounts/${accountAddress}'
+    }, {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/initia/mainnet',
+      txPage: 'https://moon-runners.net/initia/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/initia/mainnet/finder?search=${accountAddress}'
     }],
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.svg',

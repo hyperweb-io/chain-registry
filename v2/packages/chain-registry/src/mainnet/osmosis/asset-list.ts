@@ -22988,6 +22988,51 @@ const info: AssetList = {
         website: 'https://www.necrovault.com/',
         x: 'https://x.com/Underworld_NFTs'
       }
+    },
+    {
+      description: 'WOLO is the fixed-supply native token of WoloChain.',
+      extendedDescription: 'WOLO powers AoE2WAR betting, staking, rewards, and settlement for Age of Empires II matches.',
+      denomUnits: [{
+          denom: 'ibc/D09120C7085DFA412DF77608DAD3A4797F5F097A038DA0C2E1D1426FC9CD836D',
+          exponent: 0,
+          aliases: ['uwolo']
+        }, {
+          denom: 'wolo',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/D09120C7085DFA412DF77608DAD3A4797F5F097A038DA0C2E1D1426FC9CD836D',
+      name: 'WOLO',
+      display: 'wolo',
+      symbol: 'WOLO',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'wolochain',
+            baseDenom: 'uwolo',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-110224',
+            path: 'transfer/channel-110224/uwolo'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'wolochain',
+            baseDenom: 'uwolo'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://aoe2war.com'
+      }
     }
   ]
 };
