@@ -225,6 +225,7 @@ export * as ununifi from './ununifi';
 export * as uptick from './uptick';
 export * as vector from './vector';
 export * as wardenprotocol from './wardenprotocol';
+export * as wolochain from './wolochain';
 export * as xarchain from './xarchain';
 export * as xion from './xion';
 export * as xpla from './xpla';

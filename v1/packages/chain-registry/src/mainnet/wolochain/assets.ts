@@ -1,0 +1,35 @@
+import { AssetList } from '@chain-registry/types';
+const info: AssetList = {
+  $schema: '../assetlist.schema.json',
+  chain_name: 'wolochain',
+  assets: [{
+      description: 'WOLO is the fixed-supply native token of WoloChain.',
+      extended_description: 'WOLO powers AoE2WAR betting, staking, rewards, and settlement for Age of Empires II matches.',
+      denom_units: [{
+          denom: 'uwolo',
+          exponent: 0,
+          aliases: ['microWOLO']
+        }, {
+          denom: 'wolo',
+          exponent: 6
+        }],
+      base: 'uwolo',
+      name: 'WOLO',
+      display: 'wolo',
+      symbol: 'WOLO',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://aoe2war.com'
+      },
+      type_asset: 'sdk.coin'
+    }]
+};
+export default info;

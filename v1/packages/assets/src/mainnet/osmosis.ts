@@ -16830,6 +16830,45 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'WOLO is the fixed-supply native token of WoloChain.',
+      denom_units: [{
+          denom: 'ibc/D09120C7085DFA412DF77608DAD3A4797F5F097A038DA0C2E1D1426FC9CD836D',
+          exponent: 0,
+          aliases: ['uwolo']
+        }, {
+          denom: 'wolo',
+          exponent: 6
+        }],
+      base: 'ibc/D09120C7085DFA412DF77608DAD3A4797F5F097A038DA0C2E1D1426FC9CD836D',
+      name: 'WOLO',
+      display: 'wolo',
+      symbol: 'WOLO',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://aoe2war.com'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uwolo',
+            chain_name: 'wolochain'
+          },
+          chain: {
+            channel_id: 'channel-110224'
+          }
+        }]
+    },
+    {
       description: 'XION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction.',
       denom_units: [{
           denom: 'ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5',
@@ -20265,6 +20304,45 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-382'
+          }
+        }]
+    },
+    {
+      description: 'WOLO is the fixed-supply native token of WoloChain.',
+      denom_units: [{
+          denom: 'ibc/D09120C7085DFA412DF77608DAD3A4797F5F097A038DA0C2E1D1426FC9CD836D',
+          exponent: 0,
+          aliases: ['uwolo']
+        }, {
+          denom: 'wolo',
+          exponent: 6
+        }],
+      base: 'ibc/D09120C7085DFA412DF77608DAD3A4797F5F097A038DA0C2E1D1426FC9CD836D',
+      name: 'WOLO',
+      display: 'wolo',
+      symbol: 'WOLO',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://aoe2war.com'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'uwolo',
+            chain_name: 'wolochain'
+          },
+          chain: {
+            channel_id: 'channel-110224'
           }
         }]
     },

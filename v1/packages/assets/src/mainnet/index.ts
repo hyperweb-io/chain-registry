@@ -174,6 +174,7 @@ export * as titan from './titan';
 export * as umee from './umee';
 export * as unification from './unification';
 export * as uptick from './uptick';
+export * as wolochain from './wolochain';
 export * as xion from './xion';
 export * as xpla from './xpla';
 export * as xrplevm from './xrplevm';
