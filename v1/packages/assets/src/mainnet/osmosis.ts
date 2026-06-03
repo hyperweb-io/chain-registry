@@ -27606,6 +27606,45 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'SNVR - Stealth Network for Vault Relay. Privacy token on Secret Network (SNIP-20).',
+      denom_units: [{
+          denom: 'ibc/C2543DF97BE8C586695DBEE56A4DE0FB82F16B37F57DC6818AA349C68D0C3927',
+          exponent: 0,
+          aliases: ['cw20:secret1d6qvapy96q94etwlnc7j33dlzmenz4j70w3ew7']
+        }, {
+          denom: 'snvr',
+          exponent: 9
+        }],
+      type_asset: 'snip20',
+      address: 'secret1d6qvapy96q94etwlnc7j33dlzmenz4j70w3ew7',
+      base: 'ibc/C2543DF97BE8C586695DBEE56A4DE0FB82F16B37F57DC6818AA349C68D0C3927',
+      name: 'SNVR',
+      display: 'snvr',
+      symbol: 'SNVR',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/snvr.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/snvr.png'
+        }],
+      socials: {
+        website: 'https://snvr.org'
+      },
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4',
+            channel_id: 'channel-44',
+            base_denom: 'cw20:secret1d6qvapy96q94etwlnc7j33dlzmenz4j70w3ew7',
+            chain_name: 'secretnetwork'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-476'
+          }
+        }]
+    },
+    {
       description: 'The governance token of the White Whale protocol on Terra.',
       type_asset: 'cw20',
       address: 'terra1php5m8a6qd68z02t3zpw4jv2pj4vgw4wz0t8mz',
@@ -36226,6 +36265,45 @@ const assets: AssetList = {
             port: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4',
             channel_id: 'channel-44',
             base_denom: 'cw20:secret197dvnt9yjxwn8sjdlx05f7zuk27lsdxtfnwxse',
+            chain_name: 'secretnetwork'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-476'
+          }
+        }]
+    },
+    {
+      description: 'SNVR - Stealth Network for Vault Relay. Privacy token on Secret Network (SNIP-20).',
+      denom_units: [{
+          denom: 'ibc/C2543DF97BE8C586695DBEE56A4DE0FB82F16B37F57DC6818AA349C68D0C3927',
+          exponent: 0,
+          aliases: ['cw20:secret1d6qvapy96q94etwlnc7j33dlzmenz4j70w3ew7']
+        }, {
+          denom: 'snvr',
+          exponent: 9
+        }],
+      type_asset: 'snip20',
+      address: 'secret1d6qvapy96q94etwlnc7j33dlzmenz4j70w3ew7',
+      base: 'ibc/C2543DF97BE8C586695DBEE56A4DE0FB82F16B37F57DC6818AA349C68D0C3927',
+      name: 'SNVR',
+      display: 'snvr',
+      symbol: 'SNVR',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/snvr.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/snvr.png'
+        }],
+      socials: {
+        website: 'https://snvr.org'
+      },
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4',
+            channel_id: 'channel-44',
+            base_denom: 'cw20:secret1d6qvapy96q94etwlnc7j33dlzmenz4j70w3ew7',
             chain_name: 'secretnetwork'
           },
           chain: {
