@@ -96,6 +96,15 @@ const info: Chain = {
   apis: {
     rpc: [
       {
+        address: 'https://rpc.neutron.solva.solutions:443',
+        provider: 'solva.solutions'
+      },
+      {
+        address: 'https://rpc-archive.neutron.solva.solutions:443',
+        provider: 'solva.solutions',
+        archive: true
+      },
+      {
         address: 'https://rpc-lb.neutron.org',
         provider: 'Neutron'
       },
@@ -145,6 +154,15 @@ const info: Chain = {
       }
     ],
     rest: [
+      {
+        address: 'https://rest.neutron.solva.solutions:443',
+        provider: 'solva.solutions'
+      },
+      {
+        address: 'https://rest-archive.neutron.solva.solutions:443',
+        provider: 'solva.solutions',
+        archive: true
+      },
       {
         address: 'https://rest-lb.neutron.org',
         provider: 'Neutron'
@@ -199,6 +217,15 @@ const info: Chain = {
       }
     ],
     grpc: [
+      {
+        address: 'grpc.neutron.solva.solutions:443',
+        provider: 'solva.solutions'
+      },
+      {
+        address: 'grpc-archive.neutron.solva.solutions:443',
+        provider: 'solva.solutions',
+        archive: true
+      },
       {
         address: 'grpc-lb.neutron.org:443',
         provider: 'Neutron'
