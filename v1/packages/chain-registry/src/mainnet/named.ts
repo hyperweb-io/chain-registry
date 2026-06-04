@@ -69,7 +69,6 @@ export * as emoney from './emoney';
 export * as empowerchain from './empowerchain';
 export * as epix from './epix';
 export * as ethos from './ethos';
-export * as evmos from './evmos';
 export * as fandomchain from './fandomchain';
 export * as fetchhub from './fetchhub';
 export * as finschia from './finschia';

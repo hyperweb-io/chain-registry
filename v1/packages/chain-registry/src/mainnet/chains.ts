@@ -71,7 +71,6 @@ import * as _emoney from './emoney';
 import * as _empowerchain from './empowerchain';
 import * as _epix from './epix';
 import * as _ethos from './ethos';
-import * as _evmos from './evmos';
 import * as _fandomchain from './fandomchain';
 import * as _fetchhub from './fetchhub';
 import * as _finschia from './finschia';
@@ -309,7 +308,6 @@ const chains: Chain[] = [
   _empowerchain.chain,
   _epix.chain,
   _ethos.chain,
-  _evmos.chain,
   _fandomchain.chain,
   _fetchhub.chain,
   _finschia.chain,

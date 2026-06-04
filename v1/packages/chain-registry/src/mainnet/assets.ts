@@ -71,7 +71,6 @@ import * as _emoney from './emoney';
 import * as _empowerchain from './empowerchain';
 import * as _epix from './epix';
 import * as _ethos from './ethos';
-import * as _evmos from './evmos';
 import * as _fandomchain from './fandomchain';
 import * as _fetchhub from './fetchhub';
 import * as _finschia from './finschia';
@@ -309,7 +308,6 @@ const assets: AssetList[] = [
   _empowerchain.assets,
   _epix.assets,
   _ethos.assets,
-  _evmos.assets,
   _fandomchain.assets,
   _fetchhub.assets,
   _finschia.assets,
