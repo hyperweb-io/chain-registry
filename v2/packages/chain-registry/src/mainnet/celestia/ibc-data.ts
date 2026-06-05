@@ -67,6 +67,37 @@ const info: IBCData[] = [
     chain1: {
       chainName: 'celestia',
       chainId: 'celestia',
+      clientId: '07-tendermint-151',
+      connectionId: 'connection-103'
+    },
+    chain2: {
+      chainName: 'cosmoshub',
+      chainId: 'cosmoshub-4',
+      clientId: '07-tendermint-1480',
+      connectionId: 'connection-1272'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-278',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-1879',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
+      chainName: 'celestia',
+      chainId: 'celestia',
       clientId: '07-tendermint-82',
       connectionId: 'connection-52'
     },
@@ -580,6 +611,37 @@ const info: IBCData[] = [
         ordering: 'unordered',
         version: 'ics20-1',
         tags: {
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
+      chainName: 'celestia',
+      chainId: 'celestia',
+      clientId: '07-tendermint-165',
+      connectionId: 'connection-105'
+    },
+    chain2: {
+      chainName: 'xrplevm',
+      chainId: 'xrplevm_1440000-1',
+      clientId: '07-tendermint-13',
+      connectionId: 'connection-6'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-280',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-6',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
           status: 'ACTIVE'
         }
       }]
