@@ -3,6 +3,46 @@ const assets: AssetList = {
   chain_name: 'xrplevm',
   assets: [
     {
+      description: 'Celestia is a modular blockchain network focused on data availability, allowing developers to deploy their own customizable blockchains with ease.',
+      denom_units: [{
+          denom: 'ibc/05CB495CFED46D0902E42E368F9F47ACB3F8287E023A9FD2060DE9293B850FD8',
+          exponent: 0,
+          aliases: ['utia']
+        }, {
+          denom: 'tia',
+          exponent: 6
+        }],
+      base: 'ibc/05CB495CFED46D0902E42E368F9F47ACB3F8287E023A9FD2060DE9293B850FD8',
+      name: 'Celestia',
+      display: 'tia',
+      symbol: 'TIA',
+      coingecko_id: 'celestia',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg'
+        }],
+      socials: {
+        website: 'https://celestia.org/',
+        x: 'https://x.com/CelestiaOrg'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-280',
+            base_denom: 'utia',
+            chain_name: 'celestia'
+          },
+          chain: {
+            channel_id: 'channel-6'
+          }
+        }]
+    },
+    {
       description: 'ATOM is the native cryptocurrency of the Cosmos network, designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.',
       denom_units: [{
           denom: 'ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E',
@@ -647,6 +687,46 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-3'
+          }
+        }]
+    },
+    {
+      description: 'Celestia is a modular blockchain network focused on data availability, allowing developers to deploy their own customizable blockchains with ease.',
+      denom_units: [{
+          denom: 'ibc/05CB495CFED46D0902E42E368F9F47ACB3F8287E023A9FD2060DE9293B850FD8',
+          exponent: 0,
+          aliases: ['utia']
+        }, {
+          denom: 'tia',
+          exponent: 6
+        }],
+      base: 'ibc/05CB495CFED46D0902E42E368F9F47ACB3F8287E023A9FD2060DE9293B850FD8',
+      name: 'Celestia',
+      display: 'tia',
+      symbol: 'TIA',
+      coingecko_id: 'celestia',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg'
+        }],
+      socials: {
+        website: 'https://celestia.org/',
+        x: 'https://x.com/CelestiaOrg'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-280',
+            base_denom: 'utia',
+            chain_name: 'celestia'
+          },
+          chain: {
+            channel_id: 'channel-6'
           }
         }]
     },

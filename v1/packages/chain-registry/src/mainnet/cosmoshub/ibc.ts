@@ -490,6 +490,37 @@ const info: IBCInfo[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain_1: {
+      chain_name: 'celestia',
+      chain_id: 'celestia',
+      client_id: '07-tendermint-151',
+      connection_id: 'connection-103'
+    },
+    chain_2: {
+      chain_name: 'cosmoshub',
+      chain_id: 'cosmoshub-4',
+      client_id: '07-tendermint-1480',
+      connection_id: 'connection-1272'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-278',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-1879',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain_1: {
       chain_name: 'cifer',
       chain_id: 'cifer-2',
       client_id: '07-tendermint-0',
