@@ -192,6 +192,16 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.svg'
+    }],
+  snapshots: [{
+      provider: 'High Stakes 🇨🇭',
+      url: 'https://tools.highstakes.ch/snapshots/iris',
+      latestUrl: 'https://tools.highstakes.ch/files/iris.tar.gz',
+      type: 'pruned',
+      dbBackend: 'goleveldb',
+      frequency: 'every 3h',
+      compression: 'tar',
+      checksumAvailable: true
     }]
 };
 export default info;

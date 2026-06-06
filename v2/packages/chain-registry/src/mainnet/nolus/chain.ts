@@ -103,7 +103,7 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'rpc.nolus.network',
+        address: 'https://rpc.nolus.network',
         provider: 'NolusProtocol'
       },
       {
@@ -145,7 +145,7 @@ const info: Chain = {
     ],
     rest: [
       {
-        address: 'lcd.nolus.network',
+        address: 'https://lcd.nolus.network',
         provider: 'NolusProtocol'
       },
       {

@@ -632,6 +632,16 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
+    }],
+  snapshots: [{
+      provider: 'High Stakes 🇨🇭',
+      url: 'https://tools.highstakes.ch/snapshots/cosmos',
+      latestUrl: 'https://tools.highstakes.ch/files/cosmos.tar.gz',
+      type: 'pruned',
+      dbBackend: 'goleveldb',
+      frequency: 'every 3h',
+      compression: 'tar',
+      checksumAvailable: true
     }]
 };
 export default info;

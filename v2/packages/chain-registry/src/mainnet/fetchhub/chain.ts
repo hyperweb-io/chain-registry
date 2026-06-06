@@ -292,6 +292,16 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg'
+    }],
+  snapshots: [{
+      provider: 'High Stakes 🇨🇭',
+      url: 'https://tools.highstakes.ch/snapshots/fetchai',
+      latestUrl: 'https://tools.highstakes.ch/files/fetchai.tar.gz',
+      type: 'pruned',
+      dbBackend: 'goleveldb',
+      frequency: 'every 3h',
+      compression: 'tar',
+      checksumAvailable: true
     }]
 };
 export default info;
