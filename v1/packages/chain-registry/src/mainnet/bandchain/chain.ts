@@ -274,6 +274,16 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.svg'
+    }],
+  snapshots: [{
+      provider: 'High Stakes 🇨🇭',
+      url: 'https://tools.highstakes.ch/snapshots/bandprotocol',
+      latest_url: 'https://tools.highstakes.ch/files/bandprotocol.tar.gz',
+      type: 'pruned',
+      db_backend: 'goleveldb',
+      frequency: 'every 3h',
+      compression: 'tar',
+      checksum_available: true
     }]
 };
 export default info;

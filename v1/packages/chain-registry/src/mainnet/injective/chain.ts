@@ -240,6 +240,25 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
+    }],
+  snapshots: [{
+      provider: 'High Stakes 🇨🇭',
+      url: 'https://tools.highstakes.ch/snapshots/injective',
+      latest_url: 'https://tools.highstakes.ch/files/injective.tar.gz',
+      type: 'pruned',
+      db_backend: 'goleveldb',
+      frequency: 'every 3h',
+      compression: 'tar',
+      checksum_available: true
+    }, {
+      provider: 'High Stakes 🇨🇭',
+      url: 'https://tools.highstakes.ch/snapshots/injective',
+      latest_url: 'https://tools.highstakes.ch/files/injective_pebbledb.tar.gz',
+      type: 'pruned',
+      db_backend: 'pebbledb',
+      frequency: 'every 3h',
+      compression: 'tar',
+      checksum_available: true
     }]
 };
 export default info;

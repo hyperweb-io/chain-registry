@@ -241,6 +241,16 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg'
+    }],
+  snapshots: [{
+      provider: 'High Stakes 🇨🇭',
+      url: 'https://tools.highstakes.ch/snapshots/terra',
+      latest_url: 'https://tools.highstakes.ch/files/terra.tar.gz',
+      type: 'pruned',
+      db_backend: 'goleveldb',
+      frequency: 'every 3h',
+      compression: 'tar',
+      checksum_available: true
     }]
 };
 export default info;
