@@ -222,7 +222,6 @@ const info: AssetList = {
       name: 'Wrapped Bitcoin',
       display: 'wbtc',
       symbol: 'WBTC',
-      coingecko_id: 'axlwbtc',
       traces: [{
           type: 'bridge',
           counterparty: {

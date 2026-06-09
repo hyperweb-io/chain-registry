@@ -25,7 +25,6 @@ const assets: AssetList = {
         website: 'https://namada.net/',
         x: 'https://x.com/namada'
       },
-      coingecko_id: 'namada',
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
         }],
@@ -220,7 +219,6 @@ const assets: AssetList = {
         website: 'https://namada.net/',
         x: 'https://x.com/namada'
       },
-      coingecko_id: 'namada',
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
         }],

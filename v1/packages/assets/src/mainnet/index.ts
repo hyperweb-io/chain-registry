@@ -170,6 +170,7 @@ export * as terra2 from './terra2';
 export * as tgrade from './tgrade';
 export * as thejaynetwork from './thejaynetwork';
 export * as titan from './titan';
+export * as turkchain from './turkchain';
 export * as umee from './umee';
 export * as unification from './unification';
 export * as uptick from './uptick';

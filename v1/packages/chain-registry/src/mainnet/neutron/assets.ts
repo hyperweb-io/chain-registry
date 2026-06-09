@@ -1228,8 +1228,7 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg'
         }, {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png'
-        }],
-      coingecko_id: 'axlwbtc'
+        }]
     },
     {
       description: 'IBC Axelar weth-wei through axelar-dojo-1 transfer/channel-2',

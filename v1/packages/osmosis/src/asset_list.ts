@@ -25,7 +25,6 @@ const asset_list: AssetList = {
         website: 'https://namada.net/',
         x: 'https://x.com/namada'
       },
-      coingecko_id: 'namada',
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
         }],
@@ -12083,7 +12082,6 @@ const asset_list: AssetList = {
         website: 'https://namada.net/',
         x: 'https://x.com/namada'
       },
-      coingecko_id: 'namada',
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/namada/images/namada.svg'
         }],
@@ -16453,6 +16451,39 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'Native token of Turkchain',
+      denom_units: [{
+          denom: 'ibc/897E03F5F866333ED0CD1F732E6A7E86D9B79D59970BC2F8BC4A77A47737F16C',
+          exponent: 0,
+          aliases: ['lira']
+        }, {
+          denom: 'TURK',
+          exponent: 18
+        }],
+      base: 'ibc/897E03F5F866333ED0CD1F732E6A7E86D9B79D59970BC2F8BC4A77A47737F16C',
+      name: 'TC',
+      display: 'TURK',
+      symbol: 'TURK',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/turkchain/images/turkchain.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/turkchain/images/turkchain.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'lira',
+            chain_name: 'turkchain'
+          },
+          chain: {
+            channel_id: 'channel-110319'
+          }
+        }]
+    },
+    {
       description: 'The native token of Umee',
       denom_units: [{
           denom: 'ibc/67795E528DF67C5606FC20F824EA39A6EF55BA133F4DC79C90A8C47A0901E17C',
@@ -19927,6 +19958,39 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-263'
+          }
+        }]
+    },
+    {
+      description: 'Native token of Turkchain',
+      denom_units: [{
+          denom: 'ibc/897E03F5F866333ED0CD1F732E6A7E86D9B79D59970BC2F8BC4A77A47737F16C',
+          exponent: 0,
+          aliases: ['lira']
+        }, {
+          denom: 'TURK',
+          exponent: 18
+        }],
+      base: 'ibc/897E03F5F866333ED0CD1F732E6A7E86D9B79D59970BC2F8BC4A77A47737F16C',
+      name: 'TC',
+      display: 'TURK',
+      symbol: 'TURK',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/turkchain/images/turkchain.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/turkchain/images/turkchain.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'lira',
+            chain_name: 'turkchain'
+          },
+          chain: {
+            channel_id: 'channel-110319'
           }
         }]
     },

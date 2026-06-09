@@ -3,6 +3,37 @@ const info: IBCInfo[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain_1: {
+      chain_name: 'agoric',
+      chain_id: 'agoric-3',
+      client_id: '07-tendermint-126',
+      connection_id: 'connection-118'
+    },
+    chain_2: {
+      chain_name: 'injective',
+      chain_id: 'injective-1',
+      client_id: '07-tendermint-328',
+      connection_id: 'connection-333'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-492',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-454',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'ACTIVE',
+          preferred: true
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain_1: {
       chain_name: 'andromeda',
       chain_id: 'andromeda-1',
       client_id: '07-tendermint-16',
@@ -276,6 +307,37 @@ const info: IBCInfo[] = [
         tags: {
           preferred: true,
           status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain_1: {
+      chain_name: 'initia',
+      chain_id: 'interwoven-1',
+      client_id: '07-tendermint-64',
+      connection_id: 'connection-55'
+    },
+    chain_2: {
+      chain_name: 'injective',
+      chain_id: 'injective-1',
+      client_id: '07-tendermint-329',
+      connection_id: 'connection-334'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-112',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-455',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'ACTIVE',
+          preferred: true
         }
       }]
   },
@@ -1116,6 +1178,37 @@ const info: IBCInfo[] = [
         tags: {
           preferred: true,
           status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain_1: {
+      chain_name: 'injective',
+      chain_id: 'injective-1',
+      client_id: '07-tendermint-330',
+      connection_id: 'connection-335'
+    },
+    chain_2: {
+      chain_name: 'zigchain',
+      chain_id: 'zigchain-1',
+      client_id: '07-tendermint-5',
+      connection_id: 'connection-5'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-456',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-12',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'ACTIVE',
+          preferred: true
         }
       }]
   }

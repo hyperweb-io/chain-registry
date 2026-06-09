@@ -43,6 +43,10 @@ const info: Chain = {
         address: 'https://api.turkscan.com',
         provider: 'turkchain'
       }],
+    grpc: [{
+        address: 'grpc.turkscan.com:443',
+        provider: 'turkchain'
+      }],
     "evm-http-jsonrpc": [{
         address: 'https://rpc.turkscan.com',
         provider: 'turkchain'

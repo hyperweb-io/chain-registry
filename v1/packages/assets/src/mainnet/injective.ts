@@ -3,6 +3,82 @@ const assets: AssetList = {
   chain_name: 'injective',
   assets: [
     {
+      description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
+      denom_units: [{
+          denom: 'ibc/367BE9C593E869E8C462857902A94BC796D931E9138548DF858D6624F253F9F0',
+          exponent: 0,
+          aliases: ['ubld']
+        }, {
+          denom: 'bld',
+          exponent: 6
+        }],
+      base: 'ibc/367BE9C593E869E8C462857902A94BC796D931E9138548DF858D6624F253F9F0',
+      name: 'Agoric',
+      display: 'bld',
+      symbol: 'BLD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.svg'
+      },
+      coingecko_id: 'agoric',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.svg'
+        }],
+      socials: {
+        website: 'https://agoric.com/',
+        x: 'https://x.com/agoric'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-492',
+            base_denom: 'ubld',
+            chain_name: 'agoric'
+          },
+          chain: {
+            channel_id: 'channel-454'
+          }
+        }]
+    },
+    {
+      description: 'IST is the stable token used by the Agoric chain for execution fees and commerce.',
+      denom_units: [{
+          denom: 'ibc/93A34D469CDACD46B2A4E5067CFBE09B980B83ADDCEC2646E24C25C66954F77E',
+          exponent: 0,
+          aliases: ['uist']
+        }, {
+          denom: 'ist',
+          exponent: 6
+        }],
+      base: 'ibc/93A34D469CDACD46B2A4E5067CFBE09B980B83ADDCEC2646E24C25C66954F77E',
+      name: 'Inter Stable Token',
+      display: 'ist',
+      symbol: 'IST',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg'
+      },
+      coingecko_id: 'inter-stable-token',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-492',
+            base_denom: 'uist',
+            chain_name: 'agoric'
+          },
+          chain: {
+            channel_id: 'channel-454'
+          }
+        }]
+    },
+    {
       description: 'The native staking and governance token of Andromeda',
       denom_units: [{
           denom: 'ibc/61FA42C3F0B0F8768ED2CE380EDD3BE0E4CB7E67688F81F70DE9ECF5F8684E1E',
@@ -316,6 +392,121 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Initia',
+      denom_units: [{
+          denom: 'ibc/6A4AB30BEDEE4F648FD772CCE2C7C0FF431C6359B93FD22C9F31D5B10FEB40CE',
+          exponent: 0,
+          aliases: ['uinit']
+        }, {
+          denom: 'INIT',
+          exponent: 6
+        }],
+      base: 'ibc/6A4AB30BEDEE4F648FD772CCE2C7C0FF431C6359B93FD22C9F31D5B10FEB40CE',
+      display: 'INIT',
+      name: 'Initia',
+      symbol: 'INIT',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://initia.xyz/',
+        x: 'https://x.com/initiaFDN'
+      },
+      type_asset: 'sdk.coin',
+      coingecko_id: 'initia',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-112',
+            base_denom: 'uinit',
+            chain_name: 'initia'
+          },
+          chain: {
+            channel_id: 'channel-455'
+          }
+        }]
+    },
+    {
+      description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
+      denom_units: [{
+          denom: 'ibc/367BE9C593E869E8C462857902A94BC796D931E9138548DF858D6624F253F9F0',
+          exponent: 0,
+          aliases: ['ubld']
+        }, {
+          denom: 'bld',
+          exponent: 6
+        }],
+      base: 'ibc/367BE9C593E869E8C462857902A94BC796D931E9138548DF858D6624F253F9F0',
+      name: 'Agoric',
+      display: 'bld',
+      symbol: 'BLD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.svg'
+      },
+      coingecko_id: 'agoric',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.svg'
+        }],
+      socials: {
+        website: 'https://agoric.com/',
+        x: 'https://x.com/agoric'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-492',
+            base_denom: 'ubld',
+            chain_name: 'agoric'
+          },
+          chain: {
+            channel_id: 'channel-454'
+          }
+        }]
+    },
+    {
+      description: 'IST is the stable token used by the Agoric chain for execution fees and commerce.',
+      denom_units: [{
+          denom: 'ibc/93A34D469CDACD46B2A4E5067CFBE09B980B83ADDCEC2646E24C25C66954F77E',
+          exponent: 0,
+          aliases: ['uist']
+        }, {
+          denom: 'ist',
+          exponent: 6
+        }],
+      base: 'ibc/93A34D469CDACD46B2A4E5067CFBE09B980B83ADDCEC2646E24C25C66954F77E',
+      name: 'Inter Stable Token',
+      display: 'ist',
+      symbol: 'IST',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg'
+      },
+      coingecko_id: 'inter-stable-token',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-492',
+            base_denom: 'uist',
+            chain_name: 'agoric'
+          },
+          chain: {
+            channel_id: 'channel-454'
+          }
+        }]
+    },
+    {
       description: 'The native staking and governance token of Andromeda',
       denom_units: [{
           denom: 'ibc/61FA42C3F0B0F8768ED2CE380EDD3BE0E4CB7E67688F81F70DE9ECF5F8684E1E',
@@ -625,6 +816,45 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-183'
+          }
+        }]
+    },
+    {
+      description: 'The native token of Initia',
+      denom_units: [{
+          denom: 'ibc/6A4AB30BEDEE4F648FD772CCE2C7C0FF431C6359B93FD22C9F31D5B10FEB40CE',
+          exponent: 0,
+          aliases: ['uinit']
+        }, {
+          denom: 'INIT',
+          exponent: 6
+        }],
+      base: 'ibc/6A4AB30BEDEE4F648FD772CCE2C7C0FF431C6359B93FD22C9F31D5B10FEB40CE',
+      display: 'INIT',
+      name: 'Initia',
+      symbol: 'INIT',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://initia.xyz/',
+        x: 'https://x.com/initiaFDN'
+      },
+      type_asset: 'sdk.coin',
+      coingecko_id: 'initia',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-112',
+            base_denom: 'uinit',
+            chain_name: 'initia'
+          },
+          chain: {
+            channel_id: 'channel-455'
           }
         }]
     },
@@ -2259,6 +2489,45 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Staked Zig Token by Valdora Finance - Decentralized staking with stZIG',
+      denom_units: [{
+          denom: 'ibc/2A466E674B7D513B03A0E3DCBADCFD9CC00B23050FEFDF4AE57FD20B03DF1C55',
+          exponent: 0,
+          aliases: ['coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig']
+        }, {
+          denom: 'stzig',
+          exponent: 6
+        }],
+      base: 'ibc/2A466E674B7D513B03A0E3DCBADCFD9CC00B23050FEFDF4AE57FD20B03DF1C55',
+      name: 'Staked Zig',
+      display: 'stzig',
+      symbol: 'STZIG',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://valdora.finance',
+        telegram: 'https://t.me/ValdoraWarriors',
+        discord: 'http://discord.gg/valdora',
+        x: 'https://x.com/Valdora_finance'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-12',
+            base_denom: 'coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig',
+            chain_name: 'zigchain'
+          },
+          chain: {
+            channel_id: 'channel-456'
+          }
+        }]
+    },
+    {
       description: 'Kava is a decentralized finance (DeFi) platform that provides a range of financial services, including lending, borrowing, and stablecoins, leveraging the Cosmos and Ethereum ecosystems.',
       denom_units: [{
           denom: 'ibc/57AA1A70A4BC9769C525EBF6386F7A21536E04A79D62E1981EFCEF9428EBB205',
@@ -3885,6 +4154,45 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-137'
+          }
+        }]
+    },
+    {
+      description: 'Staked Zig Token by Valdora Finance - Decentralized staking with stZIG',
+      denom_units: [{
+          denom: 'ibc/2A466E674B7D513B03A0E3DCBADCFD9CC00B23050FEFDF4AE57FD20B03DF1C55',
+          exponent: 0,
+          aliases: ['coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig']
+        }, {
+          denom: 'stzig',
+          exponent: 6
+        }],
+      base: 'ibc/2A466E674B7D513B03A0E3DCBADCFD9CC00B23050FEFDF4AE57FD20B03DF1C55',
+      name: 'Staked Zig',
+      display: 'stzig',
+      symbol: 'STZIG',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://valdora.finance',
+        telegram: 'https://t.me/ValdoraWarriors',
+        discord: 'http://discord.gg/valdora',
+        x: 'https://x.com/Valdora_finance'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-12',
+            base_denom: 'coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig',
+            chain_name: 'zigchain'
+          },
+          chain: {
+            channel_id: 'channel-456'
           }
         }]
     }
