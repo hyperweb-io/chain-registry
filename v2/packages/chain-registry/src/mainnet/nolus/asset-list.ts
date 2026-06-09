@@ -395,8 +395,7 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg'
-      },
-      coingeckoId: 'axlwbtc'
+      }
     },
     {
       description: 'AKT transferred from the Osmosis mainnet that is supported on the Nolus chain',

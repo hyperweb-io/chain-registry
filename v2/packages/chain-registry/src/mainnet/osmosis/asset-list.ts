@@ -207,8 +207,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg'
-        }],
-      coingeckoId: 'axlwbtc'
+        }]
     },
     {
       description: 'Tether\'s USD stablecoin on Axelar',

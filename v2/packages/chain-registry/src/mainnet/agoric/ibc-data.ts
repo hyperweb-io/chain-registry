@@ -221,6 +221,37 @@ const info: IBCData[] = [
     chain1: {
       chainName: 'agoric',
       chainId: 'agoric-3',
+      clientId: '07-tendermint-126',
+      connectionId: 'connection-118'
+    },
+    chain2: {
+      chainName: 'injective',
+      chainId: 'injective-1',
+      clientId: '07-tendermint-328',
+      connectionId: 'connection-333'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-492',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-454',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'ACTIVE',
+          preferred: true
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
+      chainName: 'agoric',
+      chainId: 'agoric-3',
       clientId: '07-tendermint-78',
       connectionId: 'connection-73'
     },

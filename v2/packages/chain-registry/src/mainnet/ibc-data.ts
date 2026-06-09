@@ -172,6 +172,7 @@ import * as _terra2 from './terra2';
 import * as _tgrade from './tgrade';
 import * as _thejaynetwork from './thejaynetwork';
 import * as _titan from './titan';
+import * as _turkchain from './turkchain';
 import * as _umee from './umee';
 import * as _unification from './unification';
 import * as _uptick from './uptick';
@@ -355,6 +356,7 @@ const ibcData: IBCData[] = [
   ..._tgrade.ibcData,
   ..._thejaynetwork.ibcData,
   ..._titan.ibcData,
+  ..._turkchain.ibcData,
   ..._umee.ibcData,
   ..._unification.ibcData,
   ..._uptick.ibcData,
