@@ -3699,14 +3699,17 @@ const assets: AssetList = {
     {
       description: 'The native token of Hippo Protocol.',
       denom_units: [{
-          denom: 'ibc/955E5E0BED298F85956121C3BD627CEB12B858A9EB7C1ED24B1515A658318CE4',
+          denom: 'ibc/24C3429B835A84801EFEFC28C8CBDF787C4067D971CB6E510BB525FA462CCE1C',
           exponent: 0,
           aliases: ['ahp']
+        }, {
+          denom: 'hp',
+          exponent: 18
         }],
       type_asset: 'sdk.coin',
-      base: 'ibc/955E5E0BED298F85956121C3BD627CEB12B858A9EB7C1ED24B1515A658318CE4',
+      base: 'ibc/24C3429B835A84801EFEFC28C8CBDF787C4067D971CB6E510BB525FA462CCE1C',
       name: 'Hippo',
-      display: 'ahp',
+      display: 'hp',
       symbol: 'HP',
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg'
@@ -3722,12 +3725,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-0',
+            channel_id: 'channel-1',
             base_denom: 'ahp',
             chain_name: 'hippoprotocol'
           },
           chain: {
-            channel_id: 'channel-104931'
+            channel_id: 'channel-110277'
           }
         }]
     },
@@ -10204,14 +10207,17 @@ const assets: AssetList = {
     {
       description: 'The native token of Hippo Protocol.',
       denom_units: [{
-          denom: 'ibc/955E5E0BED298F85956121C3BD627CEB12B858A9EB7C1ED24B1515A658318CE4',
+          denom: 'ibc/24C3429B835A84801EFEFC28C8CBDF787C4067D971CB6E510BB525FA462CCE1C',
           exponent: 0,
           aliases: ['ahp']
+        }, {
+          denom: 'hp',
+          exponent: 18
         }],
       type_asset: 'sdk.coin',
-      base: 'ibc/955E5E0BED298F85956121C3BD627CEB12B858A9EB7C1ED24B1515A658318CE4',
+      base: 'ibc/24C3429B835A84801EFEFC28C8CBDF787C4067D971CB6E510BB525FA462CCE1C',
       name: 'Hippo',
-      display: 'ahp',
+      display: 'hp',
       symbol: 'HP',
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg'
@@ -10227,12 +10233,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-0',
+            channel_id: 'channel-1',
             base_denom: 'ahp',
             chain_name: 'hippoprotocol'
           },
           chain: {
-            channel_id: 'channel-104931'
+            channel_id: 'channel-110277'
           }
         }]
     },

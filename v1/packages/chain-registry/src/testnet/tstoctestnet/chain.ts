@@ -7,7 +7,7 @@ const info: Chain = {
   website: 'https://www.stochain.io/',
   pretty_name: 'STO Chain Testnet',
   chain_type: 'cosmos',
-  chain_id: 'tstoc',
+  chain_id: 'tstoc_1999-1',
   bech32_prefix: 'stoc',
   daemon_name: 'stocd',
   node_home: '$HOME/.stoc',
@@ -68,7 +68,7 @@ const info: Chain = {
   explorers: [{
       kind: 'stochainscan',
       url: 'https://stochainscan.io/en',
-      tx_page: 'https://stochainscan.io/en/transaction/${txHash}',
+      tx_page: 'https://stochainscan.io/en/tx/${txHash}',
       account_page: 'https://stochainscan.io/en/address/${accountAddress}'
     }],
   images: [{
