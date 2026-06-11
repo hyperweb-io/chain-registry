@@ -7,19 +7,29 @@ const info: AssetList = {
       denomUnits: [{
           denom: 'ahp',
           exponent: 0
+        }, {
+          denom: 'hp',
+          exponent: 18
         }],
       typeAsset: 'sdk.coin',
       base: 'ahp',
       name: 'Hippo',
-      display: 'ahp',
+      display: 'hp',
       symbol: 'HP',
+      traces: [{
+          type: 'test-mintage',
+          counterparty: {
+            chainName: 'hippoprotocol',
+            baseDenom: 'ahp'
+          },
+          provider: 'Hippo Protocol'
+        }],
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg'
       },
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg'
         }],
-      coingeckoId: 'hippo-protocol',
       socials: {
         website: 'https://hippoprotocol.ai/',
         x: 'https://x.com/Hippo_Protocol'

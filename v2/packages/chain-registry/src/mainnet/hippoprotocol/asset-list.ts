@@ -7,11 +7,14 @@ const info: AssetList = {
       denomUnits: [{
           denom: 'ahp',
           exponent: 0
+        }, {
+          denom: 'hp',
+          exponent: 18
         }],
       typeAsset: 'sdk.coin',
       base: 'ahp',
       name: 'Hippo',
-      display: 'ahp',
+      display: 'hp',
       symbol: 'HP',
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg'

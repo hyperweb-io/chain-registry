@@ -21603,25 +21603,28 @@ const info: AssetList = {
     {
       description: 'The native token of Hippo Protocol.',
       denomUnits: [{
-          denom: 'ibc/955E5E0BED298F85956121C3BD627CEB12B858A9EB7C1ED24B1515A658318CE4',
+          denom: 'ibc/24C3429B835A84801EFEFC28C8CBDF787C4067D971CB6E510BB525FA462CCE1C',
           exponent: 0,
           aliases: ['ahp']
+        }, {
+          denom: 'hp',
+          exponent: 18
         }],
       typeAsset: 'ics20',
-      base: 'ibc/955E5E0BED298F85956121C3BD627CEB12B858A9EB7C1ED24B1515A658318CE4',
+      base: 'ibc/24C3429B835A84801EFEFC28C8CBDF787C4067D971CB6E510BB525FA462CCE1C',
       name: 'Hippo Protocol',
-      display: 'ahp',
+      display: 'hp',
       symbol: 'HP',
       traces: [{
           type: 'ibc',
           counterparty: {
             chainName: 'hippoprotocol',
             baseDenom: 'ahp',
-            channelId: 'channel-0'
+            channelId: 'channel-1'
           },
           chain: {
-            channelId: 'channel-104931',
-            path: 'transfer/channel-104931/ahp'
+            channelId: 'channel-110277',
+            path: 'transfer/channel-110277/ahp'
           }
         }],
       logoURIs: {

@@ -73,7 +73,7 @@ const info: Chain = {
   explorers: [{
       kind: 'stochainscan',
       url: 'https://stochainscan.io/en',
-      txPage: 'https://stochainscan.io/en/transaction/${txHash}',
+      txPage: 'https://stochainscan.io/en/tx/${txHash}',
       accountPage: 'https://stochainscan.io/en/address/${accountAddress}'
     }],
   images: [{
