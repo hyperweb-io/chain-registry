@@ -63,10 +63,6 @@ const info: Chain = {
         provider: '1RPC - Automata Network'
       },
       {
-        address: 'https://secretnetwork-rpc.highstakes.ch',
-        provider: 'High Stakes 🇨🇭'
-      },
-      {
         address: 'https://rpc.mainnet.secretsaturn.net',
         provider: '🪐 𝕊ecret 𝕊aturn'
       },
@@ -91,10 +87,6 @@ const info: Chain = {
       {
         address: 'https://1rpc.io/scrt-lcd',
         provider: '1RPC - Automata Network'
-      },
-      {
-        address: 'https://secretnetwork-api.highstakes.ch',
-        provider: 'High Stakes 🇨🇭'
       },
       {
         address: 'https://lcd.mainnet.secretsaturn.net',
