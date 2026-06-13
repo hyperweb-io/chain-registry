@@ -122,6 +122,12 @@ const info: Chain = {
       kind: 'Stakeflow',
       url: 'https://stakeflow.io/noble',
       account_page: 'https://stakeflow.io/noble/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://noble.valopers.com/',
+      tx_page: 'https://noble.valopers.com/transactions/${txHash}',
+      account_page: 'https://noble.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

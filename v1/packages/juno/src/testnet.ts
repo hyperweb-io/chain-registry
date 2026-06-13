@@ -86,15 +86,24 @@ const testnet: Chain = {
         provider: 'Kleomedes'
       }]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: '🔥STAVR🔥',
       url: 'https://explorer.stavr.tech/Juno-Testnet',
       tx_page: 'https://explorer.stavr.tech/Juno-Testnet/txs/${txHash}',
       account_page: 'https://explorer.stavr.tech/Juno-Testnet/account/${accountAddress}'
-    }, {
+    },
+    {
       kind: 'Stake Hub by Kleomedes',
       url: 'https://www.stake-hub.xyz/junotestnet'
-    }]
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://testnet.juno.valopers.com/',
+      tx_page: 'https://testnet.juno.valopers.com/transactions/${txHash}',
+      account_page: 'https://testnet.juno.valopers.com/account/${accountAddress}'
+    }
+  ]
 };
 export default testnet;
     

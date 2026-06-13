@@ -51,6 +51,11 @@ const info: Chain = {
       kind: 'bigdipper',
       url: 'https://explorer.testnet.safrochain.com',
       tx_page: 'https://explorer.testnet.safrochain.com/transactions/${txHash}'
+    }, {
+      kind: 'Valopers',
+      url: 'https://testnet.safrochain.valopers.com/',
+      tx_page: 'https://testnet.safrochain.valopers.com/transactions/${txHash}',
+      account_page: 'https://testnet.safrochain.valopers.com/account/${accountAddress}'
     }],
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/safrochaintestnet/images/saf.png',

@@ -95,17 +95,26 @@ const info: Chain = {
         provider: 'Cumulo'
       }]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'evm',
       url: 'https://explorer.xrplevm.org',
       tx_page: 'https://explorer.xrplevm.org/tx/${txHash}',
       account_page: 'https://explorer.xrplevm.org/address/${accountAddress}'
-    }, {
+    },
+    {
       kind: 'cosmos',
       url: 'https://governance.xrplevm.org',
       tx_page: 'https://governance.xrplevm.org/xrplevm/transactions/${txHash}',
       account_page: 'https://governance.xrplevm.org/xrplevm/accounts/${accountAddress}'
-    }],
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://xrplevm.valopers.com/',
+      tx_page: 'https://xrplevm.valopers.com/transactions/${txHash}',
+      account_page: 'https://xrplevm.valopers.com/account/${accountAddress}'
+    }
+  ],
   keywords: [
     'xrpl',
     'evm',
