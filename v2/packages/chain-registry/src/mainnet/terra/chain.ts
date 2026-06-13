@@ -290,6 +290,12 @@ const info: Chain = {
       url: 'https://finder.terraport.finance/',
       txPage: 'https://finder.terraport.finance/mainnet/tx/${txHash}',
       accountPage: 'https://finder.terraport.finance/mainnet/address/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://terra-classic.valopers.com/',
+      txPage: 'https://terra-classic.valopers.com/transactions/${txHash}',
+      accountPage: 'https://terra-classic.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

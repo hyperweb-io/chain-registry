@@ -288,6 +288,12 @@ const info: Chain = {
       url: 'https://validatorinfo.com/networks/neutron/overview',
       validatorPage: 'https://validatorinfo.com/networks/neutron/validators',
       proposalPage: 'https://validatorinfo.com/networks/neutron/governance'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://neutron.valopers.com/',
+      txPage: 'https://neutron.valopers.com/transactions/${txHash}',
+      accountPage: 'https://neutron.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

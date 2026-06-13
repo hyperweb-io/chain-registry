@@ -137,6 +137,12 @@ const info: Chain = {
       url: 'https://testnet.explorer.aviaone.com/atomone',
       txPage: 'https://testnet.explorer.aviaone.com/atomone/tx/${txHash}',
       accountPage: 'https://testnet.explorer.aviaone.com/atomone/account/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://testnet.atomone.valopers.com/',
+      txPage: 'https://testnet.atomone.valopers.com/transactions/${txHash}',
+      accountPage: 'https://testnet.atomone.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

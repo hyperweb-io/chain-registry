@@ -269,6 +269,12 @@ const info: Chain = {
       kind: 'kjnodes Explorer',
       url: 'https://explorer.kjnodes.com/band',
       txPage: 'https://explorer.kjnodes.com/band/tx/${txHash}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://band.valopers.com/',
+      txPage: 'https://band.valopers.com/transactions/${txHash}',
+      accountPage: 'https://band.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

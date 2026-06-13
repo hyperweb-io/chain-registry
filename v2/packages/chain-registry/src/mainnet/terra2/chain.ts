@@ -236,6 +236,12 @@ const info: Chain = {
       url: 'https://explorer.onnode.org/terra',
       txPage: 'https://explorer.onnode.org/terra/transactions/${txHash}',
       accountPage: 'https://explorer.onnode.org/terra/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://terra.valopers.com/',
+      txPage: 'https://terra.valopers.com/transactions/${txHash}',
+      accountPage: 'https://terra.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

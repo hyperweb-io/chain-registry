@@ -89,17 +89,26 @@ const info: Chain = {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png',
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg'
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'mintscan',
       url: 'https://mintscan.io/osmosis-testnet',
       txPage: 'https://mintscan.io/osmosis-testnet/txs/${txHash}',
       accountPage: 'https://mintscan.io/osmosis-testnet/account/${accountAddress}'
-    }, {
+    },
+    {
       kind: 'ping.pub',
       url: 'https://explorer.osmotest5.osmosis.zone',
       txPage: 'https://explorer.osmotest5.osmosis.zone/osmo-test-5/tx/${txHash}',
       accountPage: 'https://explorer.osmotest5.osmosis.zone/osmo-test-5/account/${accountAddress}'
-    }],
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://testnet.osmosis.valopers.com/',
+      txPage: 'https://testnet.osmosis.valopers.com/transactions/${txHash}',
+      accountPage: 'https://testnet.osmosis.valopers.com/account/${accountAddress}'
+    }
+  ],
   keywords: ['dex', 'testnet'],
   images: [{
       imageSync: {

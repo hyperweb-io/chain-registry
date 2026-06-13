@@ -67,6 +67,12 @@ const info: Chain = {
         provider: 'AoE2WAR'
       }]
   },
+  explorers: [{
+      kind: 'Valopers',
+      url: 'https://wolochain.valopers.com/',
+      txPage: 'https://wolochain.valopers.com/transactions/${txHash}',
+      accountPage: 'https://wolochain.valopers.com/account/${accountAddress}'
+    }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png',
       theme: {

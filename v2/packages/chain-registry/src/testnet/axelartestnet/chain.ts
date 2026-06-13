@@ -71,15 +71,24 @@ const info: Chain = {
         provider: 'QuantNode'
       }]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'axelarscan',
       url: 'https://testnet.axelarscan.io',
       txPage: 'https://testnet.axelarscan.io/tx/${txHash}'
-    }, {
+    },
+    {
       kind: 'mintscan',
       url: 'https://mintscan.io/axelar-testnet',
       txPage: 'https://mintscan.io/axelar-testnet/txs/${txHash}',
       accountPage: 'https://mintscan.io/axelar-testnet/account/${accountAddress}'
-    }]
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://testnet.axelar.valopers.com/',
+      txPage: 'https://testnet.axelar.valopers.com/transactions/${txHash}',
+      accountPage: 'https://testnet.axelar.valopers.com/account/${accountAddress}'
+    }
+  ]
 };
 export default info;

@@ -220,6 +220,12 @@ const info: Chain = {
       url: 'https://explorer.nodeshub.online/babylon/',
       txPage: 'https://explorer.nodeshub.online/babylon/tx/${txHash}',
       accountPage: 'https://explorer.nodeshub.online/babylon/accounts/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://babylon.valopers.com/',
+      txPage: 'https://babylon.valopers.com/transactions/${txHash}',
+      accountPage: 'https://babylon.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{
