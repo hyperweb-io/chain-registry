@@ -1014,7 +1014,6 @@ const info: AssetList = {
       name: 'dNTRN',
       display: 'dNTRN',
       symbol: 'dNTRN',
-      coingeckoId: 'drop-staked-ntrn',
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dNTRN.svg'
         }],

@@ -211,7 +211,6 @@ const info: AssetList = {
       name: 'Noble Dollar',
       display: 'usdn',
       symbol: 'USDN',
-      coingeckoId: 'noble-dollar-usdn',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg'
