@@ -21573,8 +21573,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDN.svg'
-        }],
-      coingecko_id: 'noble-dollar-usdn'
+        }]
     },
     {
       description: 'Formation Of $hit Tokens',
