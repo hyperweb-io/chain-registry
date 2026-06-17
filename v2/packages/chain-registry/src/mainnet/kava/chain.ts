@@ -50,28 +50,12 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'https://rpc-kava-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://kava-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'https://kava.ibs.team:443/rpc',
-        provider: 'Inter Blockchain Services'
-      },
-      {
-        address: 'https://rpc-kava-01.stakeflow.io',
-        provider: 'Stakeflow'
-      },
-      {
         address: 'https://kava-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https://kava.drpc.org',
-        provider: 'dRPC'
       },
       {
         address: 'https://rpc.kava.nodestake.org',
@@ -88,24 +72,12 @@ const info: Chain = {
         provider: 'kava'
       },
       {
-        address: 'https://api-kava-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://kava-api.polkachu.com',
         provider: 'Polkachu'
       },
       {
         address: 'https://kava-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'https://kava.ibs.team:443/api',
-        provider: 'Inter Blockchain Services'
-      },
-      {
-        address: 'https://api-kava-01.stakeflow.io',
-        provider: 'Stakeflow'
       },
       {
         address: 'https://kava-rest.publicnode.com',
@@ -126,20 +98,12 @@ const info: Chain = {
         provider: 'kava'
       },
       {
-        address: 'grpc-kava-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
-      },
-      {
         address: 'kava-grpc.polkachu.com:13990',
         provider: 'Polkachu'
       },
       {
         address: 'kava-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'grpc-kava-01.stakeflow.io:1202',
-        provider: 'Stakeflow'
       },
       {
         address: 'kava-grpc.publicnode.com:443',
