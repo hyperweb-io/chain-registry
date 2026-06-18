@@ -4,8 +4,8 @@ const info: AssetList = {
   chainName: 'xion',
   assets: [
     {
-      description: 'XION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction.',
-      extendedDescription: 'XION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction. Utilizing protocol-level implementations related to abstracted accounts, signatures, fees, interoperability, and more, XION empowers developers to build secure, intuitive, and seamless user experiences.',
+      description: 'Verona is the intelligence layer for AI.',
+      extendedDescription: 'Verona is the intelligence layer for AI. It makes user-verified data portable, private, and programmable, so agents can transact on information the user actually owns.',
       denomUnits: [{
           denom: 'uxion',
           exponent: 0,
@@ -13,25 +13,27 @@ const info: AssetList = {
         }, {
           denom: 'XION',
           exponent: 6,
-          aliases: ['xion']
+          aliases: ['xion', 'VERONA']
         }],
       base: 'uxion',
-      display: 'XION',
-      name: 'xion',
-      symbol: 'XION',
+      display: 'VERONA',
+      name: 'Verona',
+      symbol: 'VERONA',
       coingeckoId: 'xion-2',
       typeAsset: 'sdk.coin',
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg'
         }],
       socials: {
         discord: 'https://discord.com/invite/burnt',
         github: 'https://github.com/burnt-labs',
         telegram: 'https://t.me/xion_announcements',
-        website: 'https://xion.burnt.com',
+        website: 'https://verona.dev',
         x: 'https://x.com/burnt_xion'
       }
     },

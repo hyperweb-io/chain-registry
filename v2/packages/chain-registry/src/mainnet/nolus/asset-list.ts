@@ -1029,21 +1029,21 @@ const info: AssetList = {
       coingeckoId: 'nillion'
     },
     {
-      description: 'XION transferred from the Osmosis mainnet that is supported on the Nolus chain',
+      description: 'Verona transferred from the Osmosis mainnet that is supported on the Nolus chain',
       denomUnits: [{
           denom: 'ibc/B8E95841C22213AC4E3EF000CB9D1D3B06FFAA1784FCE1169C6E92982BCC89B4',
           exponent: 0,
           aliases: ['uxion']
         }, {
-          denom: 'xion',
+          denom: 'XION',
           exponent: 6,
-          aliases: []
+          aliases: ['xion', 'VERONA']
         }],
       typeAsset: 'ics20',
       base: 'ibc/B8E95841C22213AC4E3EF000CB9D1D3B06FFAA1784FCE1169C6E92982BCC89B4',
-      name: 'XION',
-      display: 'xion',
-      symbol: 'XION',
+      name: 'Verona',
+      display: 'VERONA',
+      symbol: 'VERONA',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -1061,10 +1061,12 @@ const info: AssetList = {
             chainName: 'osmosis',
             baseDenom: 'ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg'
       },
       coingeckoId: 'xion-2'
     },

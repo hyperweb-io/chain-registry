@@ -302,20 +302,22 @@ const info: AssetList = {
       coingeckoId: 'celestia'
     },
     {
-      description: 'Xion Network Token',
+      description: 'Verona is the intelligence layer for AI.',
+      extendedDescription: 'Verona is the intelligence layer for AI. It makes user-verified data portable, private, and programmable, so agents can transact on information the user actually owns.',
       denomUnits: [{
           denom: 'ibc/6BFB09FE2464A7681645610F56BBEFF555A00B8AE146339FEB4609BF40FB0F4A',
           exponent: 0,
           aliases: ['uxion']
         }, {
-          denom: 'xion',
-          exponent: 6
+          denom: 'XION',
+          exponent: 6,
+          aliases: ['xion', 'VERONA']
         }],
       typeAsset: 'ics20',
       base: 'ibc/6BFB09FE2464A7681645610F56BBEFF555A00B8AE146339FEB4609BF40FB0F4A',
-      name: 'Xion',
-      display: 'xion',
-      symbol: 'XION',
+      name: 'Verona',
+      display: 'VERONA',
+      symbol: 'VERONA',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -333,10 +335,12 @@ const info: AssetList = {
             chainName: 'xion',
             baseDenom: 'uxion'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg'
       },
       coingeckoId: 'xion-2'
     },
