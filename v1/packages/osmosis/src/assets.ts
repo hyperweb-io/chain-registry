@@ -18355,7 +18355,8 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'XION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction.',
+      description: 'Verona is the intelligence layer for AI.',
+      extended_description: 'Verona is the intelligence layer for AI. It makes user-verified data portable, private, and programmable, so agents can transact on information the user actually owns.',
       denom_units: [{
           denom: 'ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5',
           exponent: 0,
@@ -18363,13 +18364,13 @@ const assets: AssetList = {
         }, {
           denom: 'XION',
           exponent: 6,
-          aliases: ['xion']
+          aliases: ['xion', 'VERONA']
         }],
       type_asset: 'ics20',
       base: 'ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5',
-      name: 'Xion',
-      display: 'XION',
-      symbol: 'XION',
+      name: 'Verona',
+      display: 'VERONA',
+      symbol: 'VERONA',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -18383,14 +18384,16 @@ const assets: AssetList = {
           }
         }],
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg'
       },
       images: [{
           image_sync: {
             chain_name: 'xion',
             base_denom: 'uxion'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg'
         }],
       coingecko_id: 'xion-2'
     },

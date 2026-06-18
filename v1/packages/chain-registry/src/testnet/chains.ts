@@ -114,6 +114,7 @@ import * as _sgetestnet from './sgetestnet';
 import * as _sgetestnet4 from './sgetestnet4';
 import * as _shentutestnet from './shentutestnet';
 import * as _sixtestnet from './sixtestnet';
+import * as _skyzennet from './skyzennet';
 import * as _soarchaintestnet from './soarchaintestnet';
 import * as _sourcetestnet from './sourcetestnet';
 import * as _stargazetestnet from './stargazetestnet';
@@ -261,6 +262,7 @@ const chains: Chain[] = [
   _sgetestnet4.chain,
   _shentutestnet.chain,
   _sixtestnet.chain,
+  _skyzennet.chain,
   _soarchaintestnet.chain,
   _sourcetestnet.chain,
   _stargazetestnet.chain,

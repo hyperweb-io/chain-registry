@@ -7069,7 +7069,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'XION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction.',
+      description: 'Verona is the intelligence layer for AI.',
       denom_units: [{
           denom: 'ibc/E7D78F7EEF80EC9B57BB833298FD0E2928CF41F3019D2A125AFF90F43298E46B',
           exponent: 0,
@@ -7077,25 +7077,27 @@ const assets: AssetList = {
         }, {
           denom: 'XION',
           exponent: 6,
-          aliases: ['xion']
+          aliases: ['xion', 'VERONA']
         }],
       base: 'ibc/E7D78F7EEF80EC9B57BB833298FD0E2928CF41F3019D2A125AFF90F43298E46B',
-      display: 'XION',
-      name: 'xion',
-      symbol: 'XION',
+      display: 'VERONA',
+      name: 'Verona',
+      symbol: 'VERONA',
       coingecko_id: 'xion-2',
       type_asset: 'sdk.coin',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg'
         }],
       socials: {
         discord: 'https://discord.com/invite/burnt',
         github: 'https://github.com/burnt-labs',
         telegram: 'https://t.me/xion_announcements',
-        website: 'https://xion.burnt.com',
+        website: 'https://verona.dev',
         x: 'https://x.com/burnt_xion'
       },
       traces: [{
@@ -9376,7 +9378,7 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'XION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction.',
+      description: 'Verona is the intelligence layer for AI.',
       denom_units: [{
           denom: 'ibc/E7D78F7EEF80EC9B57BB833298FD0E2928CF41F3019D2A125AFF90F43298E46B',
           exponent: 0,
@@ -9384,25 +9386,27 @@ const assets: AssetList = {
         }, {
           denom: 'XION',
           exponent: 6,
-          aliases: ['xion']
+          aliases: ['xion', 'VERONA']
         }],
       base: 'ibc/E7D78F7EEF80EC9B57BB833298FD0E2928CF41F3019D2A125AFF90F43298E46B',
-      display: 'XION',
-      name: 'xion',
-      symbol: 'XION',
+      display: 'VERONA',
+      name: 'Verona',
+      symbol: 'VERONA',
       coingecko_id: 'xion-2',
       type_asset: 'sdk.coin',
       logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg'
       },
       images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/verona-main.svg'
         }],
       socials: {
         discord: 'https://discord.com/invite/burnt',
         github: 'https://github.com/burnt-labs',
         telegram: 'https://t.me/xion_announcements',
-        website: 'https://xion.burnt.com',
+        website: 'https://verona.dev',
         x: 'https://x.com/burnt_xion'
       },
       traces: [{
