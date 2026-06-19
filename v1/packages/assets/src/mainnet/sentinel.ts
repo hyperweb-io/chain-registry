@@ -1166,45 +1166,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'IOV coin is the token for the Starname (IOV) Asset Name Service',
-      denom_units: [{
-          denom: 'ibc/3D545A106B82CC4D4AD4D928D2602E1890EC50D32456901576F1ACB9E37C0BC4',
-          exponent: 0,
-          aliases: ['uiov']
-        }, {
-          denom: 'iov',
-          exponent: 6
-        }],
-      base: 'ibc/3D545A106B82CC4D4AD4D928D2602E1890EC50D32456901576F1ACB9E37C0BC4',
-      name: 'Starname',
-      display: 'iov',
-      symbol: 'IOV',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
-        }],
-      socials: {
-        website: 'https://app.starname.me/',
-        x: 'https://x.com/starname_me'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-15',
-            base_denom: 'uiov',
-            chain_name: 'starname'
-          },
-          chain: {
-            channel_id: 'channel-40'
-          }
-        }]
-    },
-    {
       description: 'Rowan Token (ROWAN) is the Sifchain Network\'s native utility token, used as the primary means to govern, provide liquidity, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.',
       denom_units: [{
           denom: 'ibc/4540773B0B2F62935EB4329B91F6D256F29A2F9FFD119D3B25C54513477751A7',
@@ -1236,45 +1197,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-36'
-          }
-        }]
-    },
-    {
-      description: 'IOV coin is the token for the Starname (IOV) Asset Name Service',
-      denom_units: [{
-          denom: 'ibc/3D545A106B82CC4D4AD4D928D2602E1890EC50D32456901576F1ACB9E37C0BC4',
-          exponent: 0,
-          aliases: ['uiov']
-        }, {
-          denom: 'iov',
-          exponent: 6
-        }],
-      base: 'ibc/3D545A106B82CC4D4AD4D928D2602E1890EC50D32456901576F1ACB9E37C0BC4',
-      name: 'Starname',
-      display: 'iov',
-      symbol: 'IOV',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
-        }],
-      socials: {
-        website: 'https://app.starname.me/',
-        x: 'https://x.com/starname_me'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-15',
-            base_denom: 'uiov',
-            chain_name: 'starname'
-          },
-          chain: {
-            channel_id: 'channel-40'
           }
         }]
     }

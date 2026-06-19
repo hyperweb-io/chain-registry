@@ -1192,45 +1192,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'IOV coin is the token for the Starname (IOV) Asset Name Service',
-      denom_units: [{
-          denom: 'ibc/F03BD5742985639DE77F85D961525508CE630352100F459211671DFB79850F56',
-          exponent: 0,
-          aliases: ['uiov']
-        }, {
-          denom: 'iov',
-          exponent: 6
-        }],
-      base: 'ibc/F03BD5742985639DE77F85D961525508CE630352100F459211671DFB79850F56',
-      name: 'Starname',
-      display: 'iov',
-      symbol: 'IOV',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
-        }],
-      socials: {
-        website: 'https://app.starname.me/',
-        x: 'https://x.com/starname_me'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-14',
-            base_denom: 'uiov',
-            chain_name: 'starname'
-          },
-          chain: {
-            channel_id: 'channel-29'
-          }
-        }]
-    },
-    {
       description: 'The native token of Umee',
       denom_units: [{
           denom: 'ibc/76ADAF7500FA7E048261145768030EB72392A488BFDEC353631B21EF15F0EE69',
@@ -1337,45 +1298,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-28'
-          }
-        }]
-    },
-    {
-      description: 'IOV coin is the token for the Starname (IOV) Asset Name Service',
-      denom_units: [{
-          denom: 'ibc/F03BD5742985639DE77F85D961525508CE630352100F459211671DFB79850F56',
-          exponent: 0,
-          aliases: ['uiov']
-        }, {
-          denom: 'iov',
-          exponent: 6
-        }],
-      base: 'ibc/F03BD5742985639DE77F85D961525508CE630352100F459211671DFB79850F56',
-      name: 'Starname',
-      display: 'iov',
-      symbol: 'IOV',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg'
-        }],
-      socials: {
-        website: 'https://app.starname.me/',
-        x: 'https://x.com/starname_me'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-14',
-            base_denom: 'uiov',
-            chain_name: 'starname'
-          },
-          chain: {
-            channel_id: 'channel-29'
           }
         }]
     },

@@ -144,7 +144,6 @@ import * as _neura from './neura';
 import * as _neutaro from './neutaro';
 import * as _neutron from './neutron';
 import * as _nibiru from './nibiru';
-import * as _nillion from './nillion';
 import * as _nim from './nim';
 import * as _noble from './noble';
 import * as _nolus from './nolus';
@@ -199,8 +198,6 @@ import * as _six from './six';
 import * as _sommelier from './sommelier';
 import * as _source from './source';
 import * as _stafihub from './stafihub';
-import * as _stargaze from './stargaze';
-import * as _starname from './starname';
 import * as _stoc from './stoc';
 import * as _stratos from './stratos';
 import * as _stride from './stride';
@@ -213,7 +210,6 @@ import * as _teritori from './teritori';
 import * as _terpnetwork from './terpnetwork';
 import * as _terra from './terra';
 import * as _terra2 from './terra2';
-import * as _tgrade from './tgrade';
 import * as _thejaynetwork from './thejaynetwork';
 import * as _thorchain from './thorchain';
 import * as _titan from './titan';
@@ -381,7 +377,6 @@ const assets: AssetList[] = [
   _neutaro.assets,
   _neutron.assets,
   _nibiru.assets,
-  _nillion.assets,
   _nim.assets,
   _noble.assets,
   _nolus.assets,
@@ -436,8 +431,6 @@ const assets: AssetList[] = [
   _sommelier.assets,
   _source.assets,
   _stafihub.assets,
-  _stargaze.assets,
-  _starname.assets,
   _stoc.assets,
   _stratos.assets,
   _stride.assets,
@@ -450,7 +443,6 @@ const assets: AssetList[] = [
   _terpnetwork.assets,
   _terra.assets,
   _terra2.assets,
-  _tgrade.assets,
   _thejaynetwork.assets,
   _thorchain.assets,
   _titan.assets,
