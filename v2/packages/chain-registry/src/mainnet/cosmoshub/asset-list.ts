@@ -1128,6 +1128,35 @@ const info: AssetList = {
         website: 'https://www.necrovault.com/',
         x: 'https://x.com/Underworld_NFTs'
       }
+    },
+    {
+      description: 'The native STARS token, migrated from Stargaze to the Cosmos Hub.',
+      denomUnits: [{
+          denom: 'factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars',
+          exponent: 0,
+          aliases: ['ustars']
+        }, {
+          denom: 'stars',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars',
+      name: 'Stargaze',
+      display: 'stars',
+      symbol: 'STARS',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/stars.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/stars.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/stars.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/stars.svg'
+        }],
+      coingeckoId: 'stargaze',
+      socials: {
+        website: 'https://www.stargaze.zone/',
+        x: 'https://x.com/StargazeZone'
+      }
     }
   ]
 };

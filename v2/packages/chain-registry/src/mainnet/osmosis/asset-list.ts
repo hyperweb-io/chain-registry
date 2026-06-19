@@ -860,7 +860,8 @@ const info: AssetList = {
       coingeckoId: 'terrausd'
     },
     {
-      description: 'The native token of Stargaze',
+      description: '(Deprecated) STARS bridged from legacy Stargaze. STARS has migrated to the Cosmos Hub.',
+      deprecated: true,
       denomUnits: [{
           denom: 'ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4',
           exponent: 0,
@@ -873,7 +874,7 @@ const info: AssetList = {
       base: 'ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4',
       name: 'Stargaze',
       display: 'stars',
-      symbol: 'STARS',
+      symbol: 'STARS.legacy',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -897,6 +898,46 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg'
+        }]
+    },
+    {
+      description: 'The native STARS token, migrated from Stargaze to the Cosmos Hub.',
+      denomUnits: [{
+          denom: 'ibc/68BAF19F76BAC04C4CEA06325EF91D43E8637AE43EAC7887CE6211B4B99E1EC0',
+          exponent: 0,
+          aliases: ['factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars']
+        }, {
+          denom: 'stars',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/68BAF19F76BAC04C4CEA06325EF91D43E8637AE43EAC7887CE6211B4B99E1EC0',
+      name: 'Stargaze',
+      display: 'stars',
+      symbol: 'STARS',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'cosmoshub',
+            baseDenom: 'factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars',
+            channelId: 'channel-141'
+          },
+          chain: {
+            channelId: 'channel-0',
+            path: 'transfer/channel-0/factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/stars.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/stars.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'cosmoshub',
+            baseDenom: 'factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/stars.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/stars.svg'
         }],
       coingeckoId: 'stargaze'
     },

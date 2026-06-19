@@ -101,6 +101,10 @@ const info: Chain = {
         provider: 'vNodes[V] Ser[V]ices'
       },
       {
+        address: 'https://cheqd2-rpc.vnodesv.net',
+        provider: 'vNodes[V] Ser[V]ices [2]'
+      },
+      {
         address: 'https://cheqd-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
@@ -153,6 +157,10 @@ const info: Chain = {
       {
         address: 'https://cheqd-api.vnodesv.net',
         provider: 'vNodes[V] Ser[V]ices'
+      },
+      {
+        address: 'https://cheqd2-api.vnodesv.net',
+        provider: 'vNodes[V] Ser[V]ices [2]'
       },
       {
         address: 'https://cheqd-rest.publicnode.com',

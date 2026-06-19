@@ -109,7 +109,6 @@ import * as _mtgbp from './mtgbp';
 import * as _neutaro from './neutaro';
 import * as _neutron from './neutron';
 import * as _nibiru from './nibiru';
-import * as _nillion from './nillion';
 import * as _nim from './nim';
 import * as _noble from './noble';
 import * as _nolus from './nolus';
@@ -158,8 +157,6 @@ import * as _sifchain from './sifchain';
 import * as _sommelier from './sommelier';
 import * as _source from './source';
 import * as _stafihub from './stafihub';
-import * as _stargaze from './stargaze';
-import * as _starname from './starname';
 import * as _stratos from './stratos';
 import * as _stride from './stride';
 import * as _sunrise from './sunrise';
@@ -169,7 +166,6 @@ import * as _taketitan from './taketitan';
 import * as _teritori from './teritori';
 import * as _terra from './terra';
 import * as _terra2 from './terra2';
-import * as _tgrade from './tgrade';
 import * as _thejaynetwork from './thejaynetwork';
 import * as _titan from './titan';
 import * as _turkchain from './turkchain';
@@ -293,7 +289,6 @@ const ibcData: IBCData[] = [
   ..._neutaro.ibcData,
   ..._neutron.ibcData,
   ..._nibiru.ibcData,
-  ..._nillion.ibcData,
   ..._nim.ibcData,
   ..._noble.ibcData,
   ..._nolus.ibcData,
@@ -342,8 +337,6 @@ const ibcData: IBCData[] = [
   ..._sommelier.ibcData,
   ..._source.ibcData,
   ..._stafihub.ibcData,
-  ..._stargaze.ibcData,
-  ..._starname.ibcData,
   ..._stratos.ibcData,
   ..._stride.ibcData,
   ..._sunrise.ibcData,
@@ -353,7 +346,6 @@ const ibcData: IBCData[] = [
   ..._teritori.ibcData,
   ..._terra.ibcData,
   ..._terra2.ibcData,
-  ..._tgrade.ibcData,
   ..._thejaynetwork.ibcData,
   ..._titan.ibcData,
   ..._turkchain.ibcData,

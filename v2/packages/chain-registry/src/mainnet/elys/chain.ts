@@ -121,7 +121,7 @@ const info: Chain = {
         provider: 'AutoStake'
       },
       {
-        address: 'https://elys.srvs.vnodesv.net/rpc',
+        address: 'https://elys-rpc.vnodesv.net',
         provider: 'vNodes[V] Ser[V]ices'
       }
     ],
@@ -163,7 +163,7 @@ const info: Chain = {
         provider: 'AutoStake'
       },
       {
-        address: 'https://rest.elys.srvs.vnodesv.net',
+        address: 'https://elys-api.vnodesv.net',
         provider: 'vNodes[V] Ser[V]ices'
       }
     ],
@@ -189,7 +189,7 @@ const info: Chain = {
         provider: 'AutoStake'
       },
       {
-        address: 'https://elys.srvs.vnodesv.net/grpc',
+        address: 'https://elys.vnodesv.net/grpc',
         provider: 'vNodes[V] Ser[V]ices'
       }
     ]

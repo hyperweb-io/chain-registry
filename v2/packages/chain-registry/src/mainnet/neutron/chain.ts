@@ -125,14 +125,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://rpc-neutron.whispernode.com',
-        provider: 'WhisperNode 🤐'
-      },
-      {
-        address: 'https://rpc-neutron.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://neutron-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
@@ -192,14 +184,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://lcd-neutron.whispernode.com',
-        provider: 'WhisperNode 🤐'
-      },
-      {
-        address: 'https://api-neutron.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://neutron-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
@@ -235,20 +219,8 @@ const info: Chain = {
         provider: 'Neutron'
       },
       {
-        address: 'neutron-grpc-pub.rpc.p2p.world:3001',
-        provider: 'P2P'
-      },
-      {
         address: 'neutron.lavenderfive.com:443',
         provider: 'Lavender.Five Nodes 🐝'
-      },
-      {
-        address: 'grpc-neutron.whispernode.com:443',
-        provider: 'WhisperNode 🤐'
-      },
-      {
-        address: 'grpc-neutron.cosmos-spaces.cloud:3090',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'neutron-grpc.publicnode.com:443',
