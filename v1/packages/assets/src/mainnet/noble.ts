@@ -4843,81 +4843,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'OmniFlix is a decentralized media platform that enables content creators to distribute, monetize, and manage their digital content using blockchain technology.',
-      denom_units: [{
-          denom: 'ibc/C3CC3C026E4185943767E7D519704C2AAE9CCB908663EDDD159D1A34F6B62CC6',
-          exponent: 0,
-          aliases: ['uflix']
-        }, {
-          denom: 'flix',
-          exponent: 6
-        }],
-      base: 'ibc/C3CC3C026E4185943767E7D519704C2AAE9CCB908663EDDD159D1A34F6B62CC6',
-      name: 'Flix',
-      display: 'flix',
-      symbol: 'FLIX',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-        }],
-      socials: {
-        website: 'https://omniflix.network/',
-        x: 'https://x.com/OmniFlixNetwork'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-38',
-            base_denom: 'uflix',
-            chain_name: 'omniflixhub'
-          },
-          chain: {
-            channel_id: 'channel-44'
-          }
-        }]
-    },
-    {
-      description: 'The native token of ONEX',
-      denom_units: [{
-          denom: 'ibc/08225A281FBE70F78A07C286263389B077A2FB3CA6508CCEC1D89E98B60C3893',
-          exponent: 0,
-          aliases: ['aonex']
-        }, {
-          denom: 'onex',
-          exponent: 18
-        }],
-      base: 'ibc/08225A281FBE70F78A07C286263389B077A2FB3CA6508CCEC1D89E98B60C3893',
-      name: 'ONEX',
-      display: 'onex',
-      symbol: 'ONEX',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.svg'
-      },
-      keywords: ['dex'],
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-5',
-            base_denom: 'aonex',
-            chain_name: 'onex'
-          },
-          chain: {
-            channel_id: 'channel-78'
-          }
-        }]
-    },
-    {
       description: 'The native token of Osmosis',
       denom_units: [{
           denom: 'ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B',
@@ -5457,46 +5382,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-83'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Router Chain',
-      denom_units: [{
-          denom: 'ibc/E4904724D95BB5FCA3423F0CBDE13CE8B26945F422BD0F044227DE93542005E5',
-          exponent: 0,
-          aliases: ['route']
-        }, {
-          denom: 'ROUTE',
-          exponent: 18
-        }],
-      base: 'ibc/E4904724D95BB5FCA3423F0CBDE13CE8B26945F422BD0F044227DE93542005E5',
-      name: 'Router Chain',
-      display: 'ROUTE',
-      symbol: 'ROUTE',
-      coingecko_id: 'router-protocol-2',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg'
-      },
-      images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png'
-        }],
-      socials: {
-        website: 'https://www.routerprotocol.com/',
-        x: 'https://x.com/routerprotocol'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-13',
-            base_denom: 'route',
-            chain_name: 'routerchain'
-          },
-          chain: {
-            channel_id: 'channel-119'
           }
         }]
     },
@@ -7112,81 +6997,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'OmniFlix is a decentralized media platform that enables content creators to distribute, monetize, and manage their digital content using blockchain technology.',
-      denom_units: [{
-          denom: 'ibc/C3CC3C026E4185943767E7D519704C2AAE9CCB908663EDDD159D1A34F6B62CC6',
-          exponent: 0,
-          aliases: ['uflix']
-        }, {
-          denom: 'flix',
-          exponent: 6
-        }],
-      base: 'ibc/C3CC3C026E4185943767E7D519704C2AAE9CCB908663EDDD159D1A34F6B62CC6',
-      name: 'Flix',
-      display: 'flix',
-      symbol: 'FLIX',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-        }],
-      socials: {
-        website: 'https://omniflix.network/',
-        x: 'https://x.com/OmniFlixNetwork'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-38',
-            base_denom: 'uflix',
-            chain_name: 'omniflixhub'
-          },
-          chain: {
-            channel_id: 'channel-44'
-          }
-        }]
-    },
-    {
-      description: 'The native token of ONEX',
-      denom_units: [{
-          denom: 'ibc/08225A281FBE70F78A07C286263389B077A2FB3CA6508CCEC1D89E98B60C3893',
-          exponent: 0,
-          aliases: ['aonex']
-        }, {
-          denom: 'onex',
-          exponent: 18
-        }],
-      base: 'ibc/08225A281FBE70F78A07C286263389B077A2FB3CA6508CCEC1D89E98B60C3893',
-      name: 'ONEX',
-      display: 'onex',
-      symbol: 'ONEX',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.svg'
-      },
-      keywords: ['dex'],
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-5',
-            base_denom: 'aonex',
-            chain_name: 'onex'
-          },
-          chain: {
-            channel_id: 'channel-78'
-          }
-        }]
-    },
-    {
       description: 'The native token of Osmosis',
       denom_units: [{
           denom: 'ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B',
@@ -7726,46 +7536,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-83'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Router Chain',
-      denom_units: [{
-          denom: 'ibc/E4904724D95BB5FCA3423F0CBDE13CE8B26945F422BD0F044227DE93542005E5',
-          exponent: 0,
-          aliases: ['route']
-        }, {
-          denom: 'ROUTE',
-          exponent: 18
-        }],
-      base: 'ibc/E4904724D95BB5FCA3423F0CBDE13CE8B26945F422BD0F044227DE93542005E5',
-      name: 'Router Chain',
-      display: 'ROUTE',
-      symbol: 'ROUTE',
-      coingecko_id: 'router-protocol-2',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg'
-      },
-      images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png'
-        }],
-      socials: {
-        website: 'https://www.routerprotocol.com/',
-        x: 'https://x.com/routerprotocol'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-13',
-            base_denom: 'route',
-            chain_name: 'routerchain'
-          },
-          chain: {
-            channel_id: 'channel-119'
           }
         }]
     },

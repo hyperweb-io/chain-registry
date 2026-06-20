@@ -541,45 +541,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'OmniFlix is a decentralized media platform that enables content creators to distribute, monetize, and manage their digital content using blockchain technology.',
-      denom_units: [{
-          denom: 'ibc/FF39851E73089ACBD0B09BDF62FA3C67FBD77A2CD97CD159DBCE9C770561F8AF',
-          exponent: 0,
-          aliases: ['uflix']
-        }, {
-          denom: 'flix',
-          exponent: 6
-        }],
-      base: 'ibc/FF39851E73089ACBD0B09BDF62FA3C67FBD77A2CD97CD159DBCE9C770561F8AF',
-      name: 'Flix',
-      display: 'flix',
-      symbol: 'FLIX',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-        }],
-      socials: {
-        website: 'https://omniflix.network/',
-        x: 'https://x.com/OmniFlixNetwork'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-50',
-            base_denom: 'uflix',
-            chain_name: 'omniflixhub'
-          },
-          chain: {
-            channel_id: 'channel-5'
-          }
-        }]
-    },
-    {
       description: 'The native token of Osmosis',
       denom_units: [{
           denom: 'ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518',
@@ -874,45 +835,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-3'
-          }
-        }]
-    },
-    {
-      description: 'OmniFlix is a decentralized media platform that enables content creators to distribute, monetize, and manage their digital content using blockchain technology.',
-      denom_units: [{
-          denom: 'ibc/FF39851E73089ACBD0B09BDF62FA3C67FBD77A2CD97CD159DBCE9C770561F8AF',
-          exponent: 0,
-          aliases: ['uflix']
-        }, {
-          denom: 'flix',
-          exponent: 6
-        }],
-      base: 'ibc/FF39851E73089ACBD0B09BDF62FA3C67FBD77A2CD97CD159DBCE9C770561F8AF',
-      name: 'Flix',
-      display: 'flix',
-      symbol: 'FLIX',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-        }],
-      socials: {
-        website: 'https://omniflix.network/',
-        x: 'https://x.com/OmniFlixNetwork'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-50',
-            base_denom: 'uflix',
-            chain_name: 'omniflixhub'
-          },
-          chain: {
-            channel_id: 'channel-5'
           }
         }]
     },

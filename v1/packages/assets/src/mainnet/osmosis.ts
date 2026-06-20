@@ -1739,7 +1739,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg'
       },
-      coingecko_id: 'comdex',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg'
@@ -2307,52 +2306,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-135'
-          }
-        }]
-    },
-    {
-      description: 'The native token of dHealth',
-      denom_units: [{
-          denom: 'ibc/FD506CCA1FC574F2A8175FB574C981E9F6351E194AA48AC219BD67FF934E2F33',
-          exponent: 0,
-          aliases: ['udhp']
-        }, {
-          denom: 'dhp',
-          exponent: 6
-        }],
-      base: 'ibc/FD506CCA1FC574F2A8175FB574C981E9F6351E194AA48AC219BD67FF934E2F33',
-      name: 'Digital Health Point',
-      display: 'dhp',
-      symbol: 'DHP',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg'
-      },
-      socials: {
-        website: 'https://dhealth.com',
-        x: 'https://x.com/dhealth_network'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg'
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp-circle.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp-circle.png',
-          theme: {
-            dark_mode: true,
-            circle: true
-          }
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-4',
-            base_denom: 'udhp',
-            chain_name: 'dhealth'
-          },
-          chain: {
-            channel_id: 'channel-75030'
           }
         }]
     },
@@ -3219,85 +3172,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-74222'
-          }
-        }]
-    },
-    {
-      description: 'PUNDIAI is an ERC-20 utility and governance token of Pundi AI ecosystem, including Pundi AI Data Platform, Pundi AI Marketplace, Pundi AIFX Omni Layer and Pundi MM AI Agent Launcher.',
-      denom_units: [{
-          denom: 'ibc/19F9C5CE416BAB6DA4D807CBF3C70D8860CEDD93F5FDE57CCD5C3930F4BA7FD2',
-          exponent: 0,
-          aliases: ['apundiai']
-        }, {
-          denom: 'pundiai',
-          exponent: 18
-        }],
-      base: 'ibc/19F9C5CE416BAB6DA4D807CBF3C70D8860CEDD93F5FDE57CCD5C3930F4BA7FD2',
-      name: 'Pundi AI',
-      display: 'pundiai',
-      symbol: 'PUNDIAI',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.svg'
-      },
-      coingecko_id: 'pundi-aifx',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.svg'
-        }],
-      socials: {
-        website: 'https://fx.pundi.ai',
-        x: 'https://x.com/PundiAI'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-19',
-            base_denom: 'apundiai',
-            chain_name: 'fxcore'
-          },
-          chain: {
-            channel_id: 'channel-2716'
-          }
-        }]
-    },
-    {
-      description: 'The native staking token of the Function X',
-      denom_units: [{
-          denom: 'ibc/2B30802A0B03F91E4E16D6175C9B70F2911377C1CAE9E50FF011C821465463F9',
-          exponent: 0,
-          aliases: ['FX']
-        }, {
-          denom: 'WFX',
-          exponent: 18
-        }],
-      base: 'ibc/2B30802A0B03F91E4E16D6175C9B70F2911377C1CAE9E50FF011C821465463F9',
-      name: 'Function X',
-      display: 'WFX',
-      symbol: 'FX',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.svg'
-        }],
-      socials: {
-        website: 'https://fx.pundi.ai',
-        x: 'https://x.com/PundiAI'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-19',
-            base_denom: 'FX',
-            chain_name: 'fxcore'
-          },
-          chain: {
-            channel_id: 'channel-2716'
           }
         }]
     },
@@ -4930,41 +4804,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Lambda',
-      denom_units: [{
-          denom: 'ibc/80825E8F04B12D914ABEADB1F4D39C04755B12C8402F6876EE3168450C0A90BB',
-          exponent: 0,
-          aliases: ['ulamb']
-        }, {
-          denom: 'lamb',
-          exponent: 18
-        }],
-      base: 'ibc/80825E8F04B12D914ABEADB1F4D39C04755B12C8402F6876EE3168450C0A90BB',
-      name: 'Lambda',
-      display: 'lamb',
-      symbol: 'LAMB',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-2',
-            base_denom: 'ulamb',
-            chain_name: 'lambda'
-          },
-          chain: {
-            channel_id: 'channel-378'
-          }
-        }]
-    },
-    {
       description: 'Lava Network is a modular data network designed to provide fast, reliable, and scalable access to blockchain data for developers and users.',
       denom_units: [{
           denom: 'ibc/1AEF145C549D4F9847C79E49710B198C294C7F4A107F4610DEE8E725FFC4B378',
@@ -5439,46 +5278,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-642'
-          }
-        }]
-    },
-    {
-      description: 'The native token of MilkyWay',
-      denom_units: [{
-          denom: 'ibc/9D8D4CAE9D8F15B69E93969304AF3878D14BDED39FEAF0060566D6AC22288779',
-          exponent: 0,
-          aliases: ['umilk']
-        }, {
-          denom: 'milk',
-          exponent: 6
-        }],
-      type_asset: 'sdk.coin',
-      base: 'ibc/9D8D4CAE9D8F15B69E93969304AF3878D14BDED39FEAF0060566D6AC22288779',
-      name: 'Milk',
-      display: 'milk',
-      symbol: 'MILK',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg'
-        }],
-      keywords: ['liquid staking', 'restaking'],
-      socials: {
-        website: 'https://milkyway.zone',
-        x: 'https://x.com/milky_way_zone'
-      },
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-0',
-            base_denom: 'umilk',
-            chain_name: 'milkyway'
-          },
-          chain: {
-            channel_id: 'channel-89298'
           }
         }]
     },
@@ -6338,122 +6137,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-258'
-          }
-        }]
-    },
-    {
-      description: 'OmniFlix is a decentralized media platform that enables content creators to distribute, monetize, and manage their digital content using blockchain technology.',
-      denom_units: [{
-          denom: 'ibc/CEE970BB3D26F4B907097B6B660489F13F3B0DA765B83CC7D9A0BC0CE220FA6F',
-          exponent: 0,
-          aliases: ['uflix']
-        }, {
-          denom: 'flix',
-          exponent: 6
-        }],
-      base: 'ibc/CEE970BB3D26F4B907097B6B660489F13F3B0DA765B83CC7D9A0BC0CE220FA6F',
-      name: 'Flix',
-      display: 'flix',
-      symbol: 'FLIX',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-        }],
-      socials: {
-        website: 'https://omniflix.network/',
-        x: 'https://x.com/OmniFlixNetwork'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-1',
-            base_denom: 'uflix',
-            chain_name: 'omniflixhub'
-          },
-          chain: {
-            channel_id: 'channel-199'
-          }
-        }]
-    },
-    {
-      description: 'The native token of ONEX',
-      denom_units: [{
-          denom: 'ibc/B8FD98E11799F3D76F184A6976CA25EDA8625AE5F05B1875ACF2D430A611DD99',
-          exponent: 0,
-          aliases: ['aonex']
-        }, {
-          denom: 'onex',
-          exponent: 18
-        }],
-      base: 'ibc/B8FD98E11799F3D76F184A6976CA25EDA8625AE5F05B1875ACF2D430A611DD99',
-      name: 'ONEX',
-      display: 'onex',
-      symbol: 'ONEX',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.svg'
-      },
-      keywords: ['dex'],
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-6',
-            base_denom: 'aonex',
-            chain_name: 'onex'
-          },
-          chain: {
-            channel_id: 'channel-74628'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Onomy Protocol',
-      denom_units: [{
-          denom: 'ibc/B9606D347599F0F2FDF82BA3EE339000673B7D274EA50F59494DC51EFCD42163',
-          exponent: 0,
-          aliases: ['anom']
-        }, {
-          denom: 'nom',
-          exponent: 18
-        }],
-      base: 'ibc/B9606D347599F0F2FDF82BA3EE339000673B7D274EA50F59494DC51EFCD42163',
-      name: 'Nom',
-      display: 'nom',
-      symbol: 'NOM',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.svg'
-      },
-      keywords: [
-        'dex',
-        'stablecoin',
-        'bridge',
-        'staking'
-      ],
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-0',
-            base_denom: 'anom',
-            chain_name: 'onomy'
-          },
-          chain: {
-            channel_id: 'channel-525'
           }
         }]
     },
@@ -8210,7 +7893,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg'
       },
-      coingecko_id: 'comdex',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg'
@@ -8778,52 +8460,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-135'
-          }
-        }]
-    },
-    {
-      description: 'The native token of dHealth',
-      denom_units: [{
-          denom: 'ibc/FD506CCA1FC574F2A8175FB574C981E9F6351E194AA48AC219BD67FF934E2F33',
-          exponent: 0,
-          aliases: ['udhp']
-        }, {
-          denom: 'dhp',
-          exponent: 6
-        }],
-      base: 'ibc/FD506CCA1FC574F2A8175FB574C981E9F6351E194AA48AC219BD67FF934E2F33',
-      name: 'Digital Health Point',
-      display: 'dhp',
-      symbol: 'DHP',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg'
-      },
-      socials: {
-        website: 'https://dhealth.com',
-        x: 'https://x.com/dhealth_network'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg'
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp-circle.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp-circle.png',
-          theme: {
-            dark_mode: true,
-            circle: true
-          }
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-4',
-            base_denom: 'udhp',
-            chain_name: 'dhealth'
-          },
-          chain: {
-            channel_id: 'channel-75030'
           }
         }]
     },
@@ -9690,85 +9326,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-74222'
-          }
-        }]
-    },
-    {
-      description: 'PUNDIAI is an ERC-20 utility and governance token of Pundi AI ecosystem, including Pundi AI Data Platform, Pundi AI Marketplace, Pundi AIFX Omni Layer and Pundi MM AI Agent Launcher.',
-      denom_units: [{
-          denom: 'ibc/19F9C5CE416BAB6DA4D807CBF3C70D8860CEDD93F5FDE57CCD5C3930F4BA7FD2',
-          exponent: 0,
-          aliases: ['apundiai']
-        }, {
-          denom: 'pundiai',
-          exponent: 18
-        }],
-      base: 'ibc/19F9C5CE416BAB6DA4D807CBF3C70D8860CEDD93F5FDE57CCD5C3930F4BA7FD2',
-      name: 'Pundi AI',
-      display: 'pundiai',
-      symbol: 'PUNDIAI',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.svg'
-      },
-      coingecko_id: 'pundi-aifx',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.svg'
-        }],
-      socials: {
-        website: 'https://fx.pundi.ai',
-        x: 'https://x.com/PundiAI'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-19',
-            base_denom: 'apundiai',
-            chain_name: 'fxcore'
-          },
-          chain: {
-            channel_id: 'channel-2716'
-          }
-        }]
-    },
-    {
-      description: 'The native staking token of the Function X',
-      denom_units: [{
-          denom: 'ibc/2B30802A0B03F91E4E16D6175C9B70F2911377C1CAE9E50FF011C821465463F9',
-          exponent: 0,
-          aliases: ['FX']
-        }, {
-          denom: 'WFX',
-          exponent: 18
-        }],
-      base: 'ibc/2B30802A0B03F91E4E16D6175C9B70F2911377C1CAE9E50FF011C821465463F9',
-      name: 'Function X',
-      display: 'WFX',
-      symbol: 'FX',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.svg'
-        }],
-      socials: {
-        website: 'https://fx.pundi.ai',
-        x: 'https://x.com/PundiAI'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-19',
-            base_denom: 'FX',
-            chain_name: 'fxcore'
-          },
-          chain: {
-            channel_id: 'channel-2716'
           }
         }]
     },
@@ -11401,41 +10958,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Lambda',
-      denom_units: [{
-          denom: 'ibc/80825E8F04B12D914ABEADB1F4D39C04755B12C8402F6876EE3168450C0A90BB',
-          exponent: 0,
-          aliases: ['ulamb']
-        }, {
-          denom: 'lamb',
-          exponent: 18
-        }],
-      base: 'ibc/80825E8F04B12D914ABEADB1F4D39C04755B12C8402F6876EE3168450C0A90BB',
-      name: 'Lambda',
-      display: 'lamb',
-      symbol: 'LAMB',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-2',
-            base_denom: 'ulamb',
-            chain_name: 'lambda'
-          },
-          chain: {
-            channel_id: 'channel-378'
-          }
-        }]
-    },
-    {
       description: 'Lava Network is a modular data network designed to provide fast, reliable, and scalable access to blockchain data for developers and users.',
       denom_units: [{
           denom: 'ibc/1AEF145C549D4F9847C79E49710B198C294C7F4A107F4610DEE8E725FFC4B378',
@@ -11910,46 +11432,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-642'
-          }
-        }]
-    },
-    {
-      description: 'The native token of MilkyWay',
-      denom_units: [{
-          denom: 'ibc/9D8D4CAE9D8F15B69E93969304AF3878D14BDED39FEAF0060566D6AC22288779',
-          exponent: 0,
-          aliases: ['umilk']
-        }, {
-          denom: 'milk',
-          exponent: 6
-        }],
-      type_asset: 'sdk.coin',
-      base: 'ibc/9D8D4CAE9D8F15B69E93969304AF3878D14BDED39FEAF0060566D6AC22288779',
-      name: 'Milk',
-      display: 'milk',
-      symbol: 'MILK',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg'
-        }],
-      keywords: ['liquid staking', 'restaking'],
-      socials: {
-        website: 'https://milkyway.zone',
-        x: 'https://x.com/milky_way_zone'
-      },
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-0',
-            base_denom: 'umilk',
-            chain_name: 'milkyway'
-          },
-          chain: {
-            channel_id: 'channel-89298'
           }
         }]
     },
@@ -12847,122 +12329,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-258'
-          }
-        }]
-    },
-    {
-      description: 'OmniFlix is a decentralized media platform that enables content creators to distribute, monetize, and manage their digital content using blockchain technology.',
-      denom_units: [{
-          denom: 'ibc/CEE970BB3D26F4B907097B6B660489F13F3B0DA765B83CC7D9A0BC0CE220FA6F',
-          exponent: 0,
-          aliases: ['uflix']
-        }, {
-          denom: 'flix',
-          exponent: 6
-        }],
-      base: 'ibc/CEE970BB3D26F4B907097B6B660489F13F3B0DA765B83CC7D9A0BC0CE220FA6F',
-      name: 'Flix',
-      display: 'flix',
-      symbol: 'FLIX',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-        }],
-      socials: {
-        website: 'https://omniflix.network/',
-        x: 'https://x.com/OmniFlixNetwork'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-1',
-            base_denom: 'uflix',
-            chain_name: 'omniflixhub'
-          },
-          chain: {
-            channel_id: 'channel-199'
-          }
-        }]
-    },
-    {
-      description: 'The native token of ONEX',
-      denom_units: [{
-          denom: 'ibc/B8FD98E11799F3D76F184A6976CA25EDA8625AE5F05B1875ACF2D430A611DD99',
-          exponent: 0,
-          aliases: ['aonex']
-        }, {
-          denom: 'onex',
-          exponent: 18
-        }],
-      base: 'ibc/B8FD98E11799F3D76F184A6976CA25EDA8625AE5F05B1875ACF2D430A611DD99',
-      name: 'ONEX',
-      display: 'onex',
-      symbol: 'ONEX',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.svg'
-      },
-      keywords: ['dex'],
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onex/images/onex.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-6',
-            base_denom: 'aonex',
-            chain_name: 'onex'
-          },
-          chain: {
-            channel_id: 'channel-74628'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Onomy Protocol',
-      denom_units: [{
-          denom: 'ibc/B9606D347599F0F2FDF82BA3EE339000673B7D274EA50F59494DC51EFCD42163',
-          exponent: 0,
-          aliases: ['anom']
-        }, {
-          denom: 'nom',
-          exponent: 18
-        }],
-      base: 'ibc/B9606D347599F0F2FDF82BA3EE339000673B7D274EA50F59494DC51EFCD42163',
-      name: 'Nom',
-      display: 'nom',
-      symbol: 'NOM',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.svg'
-      },
-      keywords: [
-        'dex',
-        'stablecoin',
-        'bridge',
-        'staking'
-      ],
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-0',
-            base_denom: 'anom',
-            chain_name: 'onomy'
-          },
-          chain: {
-            channel_id: 'channel-525'
           }
         }]
     },
@@ -14000,46 +13366,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-221'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Router Chain',
-      denom_units: [{
-          denom: 'ibc/3F8F00094F0F79D17750FF69C5F09B078084018570AAF4F1C92C86D3F73E6488',
-          exponent: 0,
-          aliases: ['route']
-        }, {
-          denom: 'ROUTE',
-          exponent: 18
-        }],
-      base: 'ibc/3F8F00094F0F79D17750FF69C5F09B078084018570AAF4F1C92C86D3F73E6488',
-      name: 'Router Chain',
-      display: 'ROUTE',
-      symbol: 'ROUTE',
-      coingecko_id: 'router-protocol-2',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg'
-      },
-      images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png'
-        }],
-      socials: {
-        website: 'https://www.routerprotocol.com/',
-        x: 'https://x.com/routerprotocol'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-7',
-            base_denom: 'route',
-            chain_name: 'routerchain'
-          },
-          chain: {
-            channel_id: 'channel-79180'
           }
         }]
     },
@@ -17381,46 +16707,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-221'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Router Chain',
-      denom_units: [{
-          denom: 'ibc/3F8F00094F0F79D17750FF69C5F09B078084018570AAF4F1C92C86D3F73E6488',
-          exponent: 0,
-          aliases: ['route']
-        }, {
-          denom: 'ROUTE',
-          exponent: 18
-        }],
-      base: 'ibc/3F8F00094F0F79D17750FF69C5F09B078084018570AAF4F1C92C86D3F73E6488',
-      name: 'Router Chain',
-      display: 'ROUTE',
-      symbol: 'ROUTE',
-      coingecko_id: 'router-protocol-2',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg'
-      },
-      images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg',
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png'
-        }],
-      socials: {
-        website: 'https://www.routerprotocol.com/',
-        x: 'https://x.com/routerprotocol'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-7',
-            base_denom: 'route',
-            chain_name: 'routerchain'
-          },
-          chain: {
-            channel_id: 'channel-79180'
           }
         }]
     },

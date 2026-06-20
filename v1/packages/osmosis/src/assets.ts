@@ -1670,8 +1670,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg'
-        }],
-      coingecko_id: 'comdex'
+        }]
     },
     {
       description: 'Native token for the cheqd network',
@@ -17952,8 +17951,7 @@ const assets: AssetList = {
             circle: true
           }
         }
-      ],
-      coingecko_id: 'mantra-dao'
+      ]
     },
     {
       description: 'The native staking and governance token of AtomOne',

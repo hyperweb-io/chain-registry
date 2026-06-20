@@ -3316,85 +3316,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'PUNDIAI is an ERC-20 utility and governance token of Pundi AI ecosystem, including Pundi AI Data Platform, Pundi AI Marketplace, Pundi AIFX Omni Layer and Pundi MM AI Agent Launcher.',
-      denom_units: [{
-          denom: 'ibc/19EAFC8147E47371620ED2C8EC90B3612C19408FC59A89AAD79033A88ABBF078',
-          exponent: 0,
-          aliases: ['apundiai']
-        }, {
-          denom: 'pundiai',
-          exponent: 18
-        }],
-      base: 'ibc/19EAFC8147E47371620ED2C8EC90B3612C19408FC59A89AAD79033A88ABBF078',
-      name: 'Pundi AI',
-      display: 'pundiai',
-      symbol: 'PUNDIAI',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.svg'
-      },
-      coingecko_id: 'pundi-aifx',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.svg'
-        }],
-      socials: {
-        website: 'https://fx.pundi.ai',
-        x: 'https://x.com/PundiAI'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-10',
-            base_denom: 'apundiai',
-            chain_name: 'fxcore'
-          },
-          chain: {
-            channel_id: 'channel-585'
-          }
-        }]
-    },
-    {
-      description: 'The native staking token of the Function X',
-      denom_units: [{
-          denom: 'ibc/4925E6ABA571A44D2BE0286D2D29AF42A294D0FF2BB16490149A1B26EAD33729',
-          exponent: 0,
-          aliases: ['FX']
-        }, {
-          denom: 'WFX',
-          exponent: 18
-        }],
-      base: 'ibc/4925E6ABA571A44D2BE0286D2D29AF42A294D0FF2BB16490149A1B26EAD33729',
-      name: 'Function X',
-      display: 'WFX',
-      symbol: 'FX',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.svg'
-        }],
-      socials: {
-        website: 'https://fx.pundi.ai',
-        x: 'https://x.com/PundiAI'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-10',
-            base_denom: 'FX',
-            chain_name: 'fxcore'
-          },
-          chain: {
-            channel_id: 'channel-585'
-          }
-        }]
-    },
-    {
       description: 'The native EVM, governance and staking token of the Haqq Network',
       denom_units: [{
           denom: 'ibc/5CF697413DE79A9340E8B77A278FEBF6ACD17CB22DAAF758841959A8D69A2859',
@@ -4996,45 +4917,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-536'
-          }
-        }]
-    },
-    {
-      description: 'OmniFlix is a decentralized media platform that enables content creators to distribute, monetize, and manage their digital content using blockchain technology.',
-      denom_units: [{
-          denom: 'ibc/15B4D31D457B80DD46CA46F6B89FD6BB15CB92FE7BBF8763947417537C3A4C2E',
-          exponent: 0,
-          aliases: ['uflix']
-        }, {
-          denom: 'flix',
-          exponent: 6
-        }],
-      base: 'ibc/15B4D31D457B80DD46CA46F6B89FD6BB15CB92FE7BBF8763947417537C3A4C2E',
-      name: 'Flix',
-      display: 'flix',
-      symbol: 'FLIX',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-        }],
-      socials: {
-        website: 'https://omniflix.network/',
-        x: 'https://x.com/OmniFlixNetwork'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-12',
-            base_denom: 'uflix',
-            chain_name: 'omniflixhub'
-          },
-          chain: {
-            channel_id: 'channel-306'
           }
         }]
     },
@@ -7110,85 +6992,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'PUNDIAI is an ERC-20 utility and governance token of Pundi AI ecosystem, including Pundi AI Data Platform, Pundi AI Marketplace, Pundi AIFX Omni Layer and Pundi MM AI Agent Launcher.',
-      denom_units: [{
-          denom: 'ibc/19EAFC8147E47371620ED2C8EC90B3612C19408FC59A89AAD79033A88ABBF078',
-          exponent: 0,
-          aliases: ['apundiai']
-        }, {
-          denom: 'pundiai',
-          exponent: 18
-        }],
-      base: 'ibc/19EAFC8147E47371620ED2C8EC90B3612C19408FC59A89AAD79033A88ABBF078',
-      name: 'Pundi AI',
-      display: 'pundiai',
-      symbol: 'PUNDIAI',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.svg'
-      },
-      coingecko_id: 'pundi-aifx',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/PUNDIAI.svg'
-        }],
-      socials: {
-        website: 'https://fx.pundi.ai',
-        x: 'https://x.com/PundiAI'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-10',
-            base_denom: 'apundiai',
-            chain_name: 'fxcore'
-          },
-          chain: {
-            channel_id: 'channel-585'
-          }
-        }]
-    },
-    {
-      description: 'The native staking token of the Function X',
-      denom_units: [{
-          denom: 'ibc/4925E6ABA571A44D2BE0286D2D29AF42A294D0FF2BB16490149A1B26EAD33729',
-          exponent: 0,
-          aliases: ['FX']
-        }, {
-          denom: 'WFX',
-          exponent: 18
-        }],
-      base: 'ibc/4925E6ABA571A44D2BE0286D2D29AF42A294D0FF2BB16490149A1B26EAD33729',
-      name: 'Function X',
-      display: 'WFX',
-      symbol: 'FX',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.svg'
-        }],
-      socials: {
-        website: 'https://fx.pundi.ai',
-        x: 'https://x.com/PundiAI'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-10',
-            base_denom: 'FX',
-            chain_name: 'fxcore'
-          },
-          chain: {
-            channel_id: 'channel-585'
-          }
-        }]
-    },
-    {
       description: 'The native EVM, governance and staking token of the Haqq Network',
       denom_units: [{
           denom: 'ibc/5CF697413DE79A9340E8B77A278FEBF6ACD17CB22DAAF758841959A8D69A2859',
@@ -8752,45 +8555,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-536'
-          }
-        }]
-    },
-    {
-      description: 'OmniFlix is a decentralized media platform that enables content creators to distribute, monetize, and manage their digital content using blockchain technology.',
-      denom_units: [{
-          denom: 'ibc/15B4D31D457B80DD46CA46F6B89FD6BB15CB92FE7BBF8763947417537C3A4C2E',
-          exponent: 0,
-          aliases: ['uflix']
-        }, {
-          denom: 'flix',
-          exponent: 6
-        }],
-      base: 'ibc/15B4D31D457B80DD46CA46F6B89FD6BB15CB92FE7BBF8763947417537C3A4C2E',
-      name: 'Flix',
-      display: 'flix',
-      symbol: 'FLIX',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg'
-        }],
-      socials: {
-        website: 'https://omniflix.network/',
-        x: 'https://x.com/OmniFlixNetwork'
-      },
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-12',
-            base_denom: 'uflix',
-            chain_name: 'omniflixhub'
-          },
-          chain: {
-            channel_id: 'channel-306'
           }
         }]
     },

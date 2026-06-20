@@ -58,7 +58,6 @@ import * as _cronos from './cronos';
 import * as _cryptoorgchain from './cryptoorgchain';
 import * as _decentr from './decentr';
 import * as _desmos from './desmos';
-import * as _dhealth from './dhealth';
 import * as _divine from './divine';
 import * as _doravota from './doravota';
 import * as _dungeon from './dungeon';
@@ -76,7 +75,6 @@ import * as _fetchhub from './fetchhub';
 import * as _finschia from './finschia';
 import * as _firmachain from './firmachain';
 import * as _furya from './furya';
-import * as _fxcore from './fxcore';
 import * as _galaxy from './galaxy';
 import * as _gateway from './gateway';
 import * as _genesisl1 from './genesisl1';
@@ -112,7 +110,6 @@ import * as _kopi from './kopi';
 import * as _kudora from './kudora';
 import * as _kujira from './kujira';
 import * as _kyve from './kyve';
-import * as _lambda from './lambda';
 import * as _lava from './lava';
 import * as _lefeef from './lefeef';
 import * as _likecoin from './likecoin';
@@ -133,7 +130,6 @@ import * as _mayachain from './mayachain';
 import * as _medasdigital from './medasdigital';
 import * as _meme from './meme';
 import * as _migaloo from './migaloo';
-import * as _milkyway from './milkyway';
 import * as _mirage from './mirage';
 import * as _mises from './mises';
 import * as _moo from './moo';
@@ -152,9 +148,6 @@ import * as _nyx from './nyx';
 import * as _octa from './octa';
 import * as _odin from './odin';
 import * as _okexchain from './okexchain';
-import * as _omniflixhub from './omniflixhub';
-import * as _onex from './onex';
-import * as _onomy from './onomy';
 import * as _opct from './opct';
 import * as _optio from './optio';
 import * as _oraichain from './oraichain';
@@ -180,7 +173,6 @@ import * as _realio from './realio';
 import * as _rebus from './rebus';
 import * as _regen from './regen';
 import * as _rizon from './rizon';
-import * as _routerchain from './routerchain';
 import * as _saga from './saga';
 import * as _scorum from './scorum';
 import * as _secretnetwork from './secretnetwork';
@@ -291,7 +283,6 @@ const assets: AssetList[] = [
   _cryptoorgchain.assets,
   _decentr.assets,
   _desmos.assets,
-  _dhealth.assets,
   _divine.assets,
   _doravota.assets,
   _dungeon.assets,
@@ -309,7 +300,6 @@ const assets: AssetList[] = [
   _finschia.assets,
   _firmachain.assets,
   _furya.assets,
-  _fxcore.assets,
   _galaxy.assets,
   _gateway.assets,
   _genesisl1.assets,
@@ -345,7 +335,6 @@ const assets: AssetList[] = [
   _kudora.assets,
   _kujira.assets,
   _kyve.assets,
-  _lambda.assets,
   _lava.assets,
   _lefeef.assets,
   _likecoin.assets,
@@ -366,7 +355,6 @@ const assets: AssetList[] = [
   _medasdigital.assets,
   _meme.assets,
   _migaloo.assets,
-  _milkyway.assets,
   _mirage.assets,
   _mises.assets,
   _moo.assets,
@@ -385,9 +373,6 @@ const assets: AssetList[] = [
   _octa.assets,
   _odin.assets,
   _okexchain.assets,
-  _omniflixhub.assets,
-  _onex.assets,
-  _onomy.assets,
   _opct.assets,
   _optio.assets,
   _oraichain.assets,
@@ -413,7 +398,6 @@ const assets: AssetList[] = [
   _rebus.assets,
   _regen.assets,
   _rizon.assets,
-  _routerchain.assets,
   _saga.assets,
   _scorum.assets,
   _secretnetwork.assets,
