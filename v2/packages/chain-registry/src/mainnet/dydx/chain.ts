@@ -77,10 +77,6 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'https://dydx-mainnet-full-rpc.public.blastapi.io',
-        provider: 'Bware Labs'
-      },
-      {
         address: 'https://rpc.lavenderfive.com:443/dydx',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -89,16 +85,8 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'https://rpc-dydx.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://dydx-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https://rpc-dydx.cros-nest.com:443',
-        provider: 'Crosnest'
       },
       {
         address: 'https://dydx-rpc.enigma-validator.com',
@@ -111,10 +99,6 @@ const info: Chain = {
       {
         address: 'https://dydx-rpc.noders.services',
         provider: '[NODERS]TEAM'
-      },
-      {
-        address: 'https://dydx.interstellar-lounge.org',
-        provider: 'Interstellar Lounge 🍸'
       }
     ],
     rest: [
@@ -125,10 +109,6 @@ const info: Chain = {
       {
         address: 'https://dydx-dao-api.polkachu.com',
         provider: 'Polkachu'
-      },
-      {
-        address: 'https://dydx-mainnet-full-lcd.public.blastapi.io',
-        provider: 'Bware Labs'
       },
       {
         address: 'https://dydx-rest.kingnodes.com:443',
@@ -143,16 +123,8 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'https://api-dydx.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://dydx-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https://rest-dydx.cros-nest.com:443',
-        provider: 'Crosnest'
       },
       {
         address: 'https://dydx-lcd.enigma-validator.com',
@@ -161,10 +133,6 @@ const info: Chain = {
       {
         address: 'https://dydx-api.noders.services',
         provider: '[NODERS]TEAM'
-      },
-      {
-        address: 'https://dydx-rest.interstellar-lounge.org',
-        provider: 'Interstellar Lounge 🍸'
       }
     ],
     grpc: [
@@ -189,10 +157,6 @@ const info: Chain = {
         provider: 'Polkachu (5)'
       },
       {
-        address: 'dydx-mainnet-full-grpc.public.blastapi.io:443',
-        provider: 'Bware Labs'
-      },
-      {
         address: 'https://dydx-grpc.kingnodes.com:443',
         provider: 'Kingnodes 👑'
       },
@@ -207,10 +171,6 @@ const info: Chain = {
       {
         address: 'dydx.grpc.kjnodes.com:443',
         provider: 'kjnodes'
-      },
-      {
-        address: 'grpc-dydx.cosmos-spaces.cloud:4990',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'dydx-grpc.publicnode.com:443',

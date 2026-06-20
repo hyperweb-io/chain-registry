@@ -77,7 +77,6 @@ const info: AssetList = {
           },
           provider: 'MANTRA'
         }],
-      coingeckoId: 'mantra-dao',
       keywords: [
         'rwa',
         'wasm',

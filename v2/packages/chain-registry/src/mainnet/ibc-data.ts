@@ -45,7 +45,6 @@ import * as _cronos from './cronos';
 import * as _cryptoorgchain from './cryptoorgchain';
 import * as _decentr from './decentr';
 import * as _desmos from './desmos';
-import * as _dhealth from './dhealth';
 import * as _divine from './divine';
 import * as _doravota from './doravota';
 import * as _dungeon from './dungeon';
@@ -61,7 +60,6 @@ import * as _fandomchain from './fandomchain';
 import * as _fetchhub from './fetchhub';
 import * as _firmachain from './firmachain';
 import * as _furya from './furya';
-import * as _fxcore from './fxcore';
 import * as _galaxy from './galaxy';
 import * as _gateway from './gateway';
 import * as _genesisl1 from './genesisl1';
@@ -89,7 +87,6 @@ import * as _konstellation from './konstellation';
 import * as _kopi from './kopi';
 import * as _kujira from './kujira';
 import * as _kyve from './kyve';
-import * as _lambda from './lambda';
 import * as _lava from './lava';
 import * as _likecoin from './likecoin';
 import * as _lombardledger from './lombardledger';
@@ -103,7 +100,6 @@ import * as _mantrachain from './mantrachain';
 import * as _medasdigital from './medasdigital';
 import * as _meme from './meme';
 import * as _migaloo from './migaloo';
-import * as _milkyway from './milkyway';
 import * as _mirage from './mirage';
 import * as _mtgbp from './mtgbp';
 import * as _neutaro from './neutaro';
@@ -116,9 +112,6 @@ import * as _nomic from './nomic';
 import * as _nyx from './nyx';
 import * as _odin from './odin';
 import * as _okexchain from './okexchain';
-import * as _omniflixhub from './omniflixhub';
-import * as _onex from './onex';
-import * as _onomy from './onomy';
 import * as _optio from './optio';
 import * as _oraichain from './oraichain';
 import * as _osmosis from './osmosis';
@@ -140,7 +133,6 @@ import * as _realio from './realio';
 import * as _rebus from './rebus';
 import * as _regen from './regen';
 import * as _rizon from './rizon';
-import * as _routerchain from './routerchain';
 import * as _saga from './saga';
 import * as _scorum from './scorum';
 import * as _secretnetwork from './secretnetwork';
@@ -225,7 +217,6 @@ const ibcData: IBCData[] = [
   ..._cryptoorgchain.ibcData,
   ..._decentr.ibcData,
   ..._desmos.ibcData,
-  ..._dhealth.ibcData,
   ..._divine.ibcData,
   ..._doravota.ibcData,
   ..._dungeon.ibcData,
@@ -241,7 +232,6 @@ const ibcData: IBCData[] = [
   ..._fetchhub.ibcData,
   ..._firmachain.ibcData,
   ..._furya.ibcData,
-  ..._fxcore.ibcData,
   ..._galaxy.ibcData,
   ..._gateway.ibcData,
   ..._genesisl1.ibcData,
@@ -269,7 +259,6 @@ const ibcData: IBCData[] = [
   ..._kopi.ibcData,
   ..._kujira.ibcData,
   ..._kyve.ibcData,
-  ..._lambda.ibcData,
   ..._lava.ibcData,
   ..._likecoin.ibcData,
   ..._lombardledger.ibcData,
@@ -283,7 +272,6 @@ const ibcData: IBCData[] = [
   ..._medasdigital.ibcData,
   ..._meme.ibcData,
   ..._migaloo.ibcData,
-  ..._milkyway.ibcData,
   ..._mirage.ibcData,
   ..._mtgbp.ibcData,
   ..._neutaro.ibcData,
@@ -296,9 +284,6 @@ const ibcData: IBCData[] = [
   ..._nyx.ibcData,
   ..._odin.ibcData,
   ..._okexchain.ibcData,
-  ..._omniflixhub.ibcData,
-  ..._onex.ibcData,
-  ..._onomy.ibcData,
   ..._optio.ibcData,
   ..._oraichain.ibcData,
   ..._osmosis.ibcData,
@@ -320,7 +305,6 @@ const ibcData: IBCData[] = [
   ..._rebus.ibcData,
   ..._regen.ibcData,
   ..._rizon.ibcData,
-  ..._routerchain.ibcData,
   ..._saga.ibcData,
   ..._scorum.ibcData,
   ..._secretnetwork.ibcData,

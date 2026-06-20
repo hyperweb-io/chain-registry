@@ -742,6 +742,16 @@ const info: Chain = {
       }
     ]
   },
+  snapshots: [{
+      provider: 'Osmosis',
+      url: 'https://snapshots.osmosis.zone',
+      latestUrl: 'https://snapshots.osmosis.zone/latest',
+      type: 'pruned',
+      dbBackend: 'goleveldb',
+      frequency: 'every 2h',
+      compression: 'lz4',
+      checksumAvailable: true
+    }],
   explorers: [
     {
       kind: 'ezstaking',

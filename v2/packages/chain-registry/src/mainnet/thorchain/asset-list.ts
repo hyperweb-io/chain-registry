@@ -91,7 +91,6 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/auto.png'
         }],
-      coingeckoId: 'auto-2',
       keywords: [
         'automation',
         'ai',

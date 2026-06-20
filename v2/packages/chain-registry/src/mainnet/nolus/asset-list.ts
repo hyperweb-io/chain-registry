@@ -983,8 +983,7 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg'
-      },
-      coingeckoId: 'mantra-dao'
+      }
     },
     {
       description: 'NIL transferred from the Osmosis mainnet that is supported on the Nolus chain',
