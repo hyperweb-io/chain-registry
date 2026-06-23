@@ -28,6 +28,10 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg'
       },
       images: [{
+          image_sync: {
+            chain_name: 'hippoprotocol',
+            base_denom: 'ahp'
+          },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg'
         }],
       socials: {
