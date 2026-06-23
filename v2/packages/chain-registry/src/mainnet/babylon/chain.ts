@@ -73,10 +73,6 @@ const info: Chain = {
         provider: 'Nodes.Guru'
       },
       {
-        address: 'https://babylon-archive.nodes.guru/rpc',
-        provider: 'Nodes.Guru'
-      },
-      {
         address: 'https://babylon-rpc.polkachu.com',
         provider: 'Polkachu'
       },
@@ -97,18 +93,6 @@ const info: Chain = {
         provider: 'PRO Delegators'
       },
       {
-        address: 'https://babylon-mainnet-rpc.shazoe.xyz',
-        provider: 'Shazoe'
-      },
-      {
-        address: 'https://babylon.rpc.nodeshub.online:443',
-        provider: 'NodesHub'
-      },
-      {
-        address: 'https://babylon-mainnet-rpc.shazoes.xyz',
-        provider: 'Shazoes'
-      },
-      {
         address: 'https://rpc.babylon.validatus.com',
         provider: 'Validatus'
       }
@@ -116,10 +100,6 @@ const info: Chain = {
     rest: [
       {
         address: 'https://babylon.nodes.guru/api',
-        provider: 'Nodes.Guru'
-      },
-      {
-        address: 'https://babylon-archive.nodes.guru/api',
         provider: 'Nodes.Guru'
       },
       {
@@ -143,18 +123,6 @@ const info: Chain = {
         provider: 'PRO Delegators'
       },
       {
-        address: 'https://babylon-mainnet-api.shazoe.xyz',
-        provider: 'Shazoe'
-      },
-      {
-        address: 'https://babylon.api.nodeshub.online',
-        provider: 'NodesHub'
-      },
-      {
-        address: 'https://babylon-mainnet-api.shazoes.xyz',
-        provider: 'Shazoes'
-      },
-      {
         address: 'https://api.babylon.validatus.com',
         provider: 'Validatus'
       }
@@ -162,10 +130,6 @@ const info: Chain = {
     grpc: [
       {
         address: 'babylon.nodes.guru:443/grpc',
-        provider: 'Nodes.Guru'
-      },
-      {
-        address: 'babylon-archive.nodes.guru:443/grpc',
         provider: 'Nodes.Guru'
       },
       {
@@ -183,18 +147,6 @@ const info: Chain = {
       {
         address: 'babylon-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'babylon-mainnet-grpc.shazoe.xyz:30190',
-        provider: 'Shazoe'
-      },
-      {
-        address: 'babylon.grpc.nodeshub.online',
-        provider: 'NodesHub'
-      },
-      {
-        address: 'babylon-mainnet-grpc.shazoes.xyz:30190',
-        provider: 'Shazoes'
       },
       {
         address: 'grpc.babylon.validatus.com:443',

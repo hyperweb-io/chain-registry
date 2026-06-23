@@ -197,6 +197,10 @@ const info: Chain = {
       {
         address: 'https://cosmoshub.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://rpc.sbsconstrutionnconsultancy.com',
+        provider: 'bapimondal-server'
       }
     ],
     rest: [

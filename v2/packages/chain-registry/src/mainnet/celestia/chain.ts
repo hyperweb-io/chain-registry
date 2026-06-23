@@ -70,10 +70,6 @@ const info: Chain = {
         provider: 'Numia'
       },
       {
-        address: 'https://celestia-rpc.mesa.newmetric.xyz',
-        provider: 'Newmetric'
-      },
-      {
         address: 'https://rpc.lunaroasis.net',
         provider: 'Lunar Oasis'
       },
@@ -84,18 +80,6 @@ const info: Chain = {
       {
         address: 'https://rpc.lavenderfive.com:443/celestia',
         provider: 'Lavender.Five Nodes 🐝'
-      },
-      {
-        address: 'https://rpc-celestia-01.stakeflow.io',
-        provider: 'Stakeflow'
-      },
-      {
-        address: 'https://rpc-celestia.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
-        address: 'http://celestia.rpc.nodersteam.com:29657',
-        provider: '[NODERS]TEAM'
       },
       {
         address: 'https://celestia.rpc.interchain.validao.xyz',
@@ -138,24 +122,12 @@ const info: Chain = {
         provider: 'Validatus'
       },
       {
-        address: 'https://celestia-rpc.sr20de.xyz',
-        provider: 'Sr20de'
-      },
-      {
-        address: 'https://rpc-celestia-full.avril14th.org',
-        provider: 'Avril 14th'
-      },
-      {
         address: 'https://rpc.freshstaking.com/celestia',
         provider: 'FreshSTAKING'
       },
       {
         address: 'https://celestia.cumulo.org.es/',
         provider: 'Cumulo'
-      },
-      {
-        address: 'https://celestia-rpc.stake-town.com',
-        provider: 'StakeTown'
       },
       {
         address: 'https://rpc.celestia-app.bronbro.io',
@@ -196,14 +168,6 @@ const info: Chain = {
         provider: 'Numia'
       },
       {
-        address: 'https://celestia-rest.mesa.newmetric.xyz',
-        provider: 'Newmetric'
-      },
-      {
-        address: 'http://celestia.rpc.nodersteam.com:1617',
-        provider: '[NODERS]TEAM'
-      },
-      {
         address: 'https://api.lunaroasis.net',
         provider: 'Lunar Oasis'
       },
@@ -214,14 +178,6 @@ const info: Chain = {
       {
         address: 'https://rest.lavenderfive.com:443/celestia',
         provider: 'Lavender.Five Nodes 🐝'
-      },
-      {
-        address: 'https://api-celestia-01.stakeflow.io',
-        provider: 'Stakeflow'
-      },
-      {
-        address: 'https://api-celestia.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'https://celestia.rest.interchain.validao.xyz',
@@ -256,24 +212,12 @@ const info: Chain = {
         provider: 'Validatus'
       },
       {
-        address: 'https://celestia-api.sr20de.xyz',
-        provider: 'Sr20de'
-      },
-      {
         address: 'https://celestia-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake | Delegate for StakeDrops'
       },
       {
-        address: 'https://api-celestia-full.avril14th.org',
-        provider: 'Avril 14th'
-      },
-      {
         address: 'https://celestia.api.cumulo.org.es',
         provider: 'Cumulo'
-      },
-      {
-        address: 'https://celestia-api.stake-town.com',
-        provider: 'StakeTown'
       },
       {
         address: 'https://lcd.celestia-app.bronbro.io',
@@ -318,18 +262,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'celestia.grpc.nodersteam.com:9690',
-        provider: '[NODERS]TEAM'
-      },
-      {
-        address: 'grpc-celestia-01.stakeflow.io:15002',
-        provider: 'Stakeflow'
-      },
-      {
-        address: 'grpc-celestia.cosmos-spaces.cloud:443',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'celestia.grpc.interchain.validao.xyz:443',
         provider: 'ValiDAO'
       },
@@ -358,20 +290,8 @@ const info: Chain = {
         provider: 'Validatus'
       },
       {
-        address: 'celestia-grpc.sr20de.xyz',
-        provider: 'Sr20de'
-      },
-      {
-        address: 'grpc-celestia-full.avril14th.org',
-        provider: 'Avril 14th'
-      },
-      {
         address: 'celestia.grpc.cumulo.org.es',
         provider: 'Cumulo'
-      },
-      {
-        address: 'https://celestia-grpc.stake-town.com',
-        provider: 'StakeTown'
       },
       {
         address: 'grpc.celestia-app.bronbro.io:443',
@@ -384,10 +304,6 @@ const info: Chain = {
       {
         address: 'celestia-mainnet-grpc.itrocket.net:443',
         provider: 'itrocket'
-      },
-      {
-        address: 'grpc.celestia.mainnet.dteam.tech:28090',
-        provider: 'DTEAM'
       },
       {
         address: 'http://celestia-grpc.stakeandrelax.net:11690',
