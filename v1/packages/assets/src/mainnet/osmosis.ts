@@ -4943,7 +4943,7 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumen/images/lmn.png'
         }],
       socials: {
-        website: 'https://lumen-network.org/',
+        website: 'https://lumen-browser.com/',
         github: 'https://github.com/network-lumen/',
         telegram: 'https://t.me/+HBWh_cUJCrZiODE0',
         discord: 'https://discord.gg/DwK6V9shKc',
@@ -11097,7 +11097,7 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumen/images/lmn.png'
         }],
       socials: {
-        website: 'https://lumen-network.org/',
+        website: 'https://lumen-browser.com/',
         github: 'https://github.com/network-lumen/',
         telegram: 'https://t.me/+HBWh_cUJCrZiODE0',
         discord: 'https://discord.gg/DwK6V9shKc',
@@ -20702,9 +20702,10 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token cw20 for PHMN on Juno Chain',
+      description: '(Deprecated) The original CW20 PHMN token on Juno. PHMN has migrated to the Cosmos Hub as the tokenfactory denom factory/cosmos146s5j3t7gh2g37ywm47dp8avhesu2htvjjaxq7z55e7xj0rq0k8q5qnjjy/PHMN. This asset is retained for historical reference.',
       type_asset: 'cw20',
       address: 'juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l',
+      deprecated: true,
       denom_units: [{
           denom: 'ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B',
           exponent: 0,
@@ -20716,20 +20717,7 @@ const assets: AssetList = {
       base: 'ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B',
       name: 'POSTHUMAN',
       display: 'phmn',
-      symbol: 'PHMN',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg'
-      },
-      coingecko_id: 'posthuman',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg'
-        }],
-      socials: {
-        website: 'https://posthuman.digital/',
-        x: 'https://x.com/POSTHUMAN_DVS'
-      },
+      symbol: 'PHMN.legacy',
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -20742,7 +20730,19 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-169'
           }
-        }]
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg'
+        }],
+      socials: {
+        website: 'https://posthuman.digital/',
+        x: 'https://x.com/POSTHUMAN_DVS'
+      }
     },
     {
       description: 'The native token cw20 for Hopers on Juno Chain',
@@ -24080,9 +24080,10 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token cw20 for PHMN on Juno Chain',
+      description: '(Deprecated) The original CW20 PHMN token on Juno. PHMN has migrated to the Cosmos Hub as the tokenfactory denom factory/cosmos146s5j3t7gh2g37ywm47dp8avhesu2htvjjaxq7z55e7xj0rq0k8q5qnjjy/PHMN. This asset is retained for historical reference.',
       type_asset: 'cw20',
       address: 'juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l',
+      deprecated: true,
       denom_units: [{
           denom: 'ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B',
           exponent: 0,
@@ -24094,20 +24095,7 @@ const assets: AssetList = {
       base: 'ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B',
       name: 'POSTHUMAN',
       display: 'phmn',
-      symbol: 'PHMN',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg'
-      },
-      coingecko_id: 'posthuman',
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg'
-        }],
-      socials: {
-        website: 'https://posthuman.digital/',
-        x: 'https://x.com/POSTHUMAN_DVS'
-      },
+      symbol: 'PHMN.legacy',
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -24120,7 +24108,19 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-169'
           }
-        }]
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg'
+        }],
+      socials: {
+        website: 'https://posthuman.digital/',
+        x: 'https://x.com/POSTHUMAN_DVS'
+      }
     },
     {
       description: 'The native token cw20 for Hopers on Juno Chain',

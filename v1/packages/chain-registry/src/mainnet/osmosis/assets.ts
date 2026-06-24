@@ -5521,8 +5521,9 @@ const info: AssetList = {
         }]
     },
     {
-      description: 'The native token cw20 for PHMN on Juno Chain',
+      description: '(Deprecated) PHMN bridged from legacy Juno CW20. PHMN has migrated to the Cosmos Hub.',
       extended_description: '$PHMN is the governance token of a distributed validator. Similar to PoS chains, each holder possesses voting rights proportionate to the number of locked tokens. PHMN holders can govern the POSTHUMAN validator via DAODAO. For instance, decisions such as diversifying the treasury, updating the validator\'s commission rate, or exiting the network are determined by the PHMN community.',
+      deprecated: true,
       denom_units: [{
           denom: 'ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B',
           exponent: 0,
@@ -5535,7 +5536,7 @@ const info: AssetList = {
       base: 'ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B',
       name: 'POSTHUMAN',
       display: 'phmn',
-      symbol: 'PHMN',
+      symbol: 'PHMN.legacy',
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -5562,7 +5563,6 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg'
         }],
-      coingecko_id: 'posthuman',
       socials: {
         website: 'https://posthuman.digital/',
         x: 'https://x.com/POSTHUMAN_DVS'
