@@ -1157,6 +1157,35 @@ const info: AssetList = {
         website: 'https://www.stargaze.zone/',
         x: 'https://x.com/StargazeZone'
       }
+    },
+    {
+      description: 'POSTHUMAN (PHMN) is the governance token of the POSTHUMAN DAO, issued on Cosmos Hub through TokenFactory.',
+      extendedDescription: 'PHMN is the governance token of POSTHUMAN DAO. The new PHMN token was created on Cosmos Hub through TokenFactory after the 2026 migration from the legacy Juno CW20 token.',
+      denomUnits: [{
+          denom: 'factory/cosmos146s5j3t7gh2g37ywm47dp8avhesu2htvjjaxq7z55e7xj0rq0k8q5qnjjy/PHMN',
+          exponent: 0
+        }, {
+          denom: 'phmn',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/cosmos146s5j3t7gh2g37ywm47dp8avhesu2htvjjaxq7z55e7xj0rq0k8q5qnjjy/PHMN',
+      name: 'POSTHUMAN',
+      display: 'phmn',
+      symbol: 'PHMN',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/phmn.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/phmn.png',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://posthuman.digital/',
+        x: 'https://x.com/POSTHUMAN_DVS'
+      }
     }
   ]
 };

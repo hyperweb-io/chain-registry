@@ -458,7 +458,8 @@ const info: AssetList = {
       }
     },
     {
-      description: 'PHMN from Osmosis',
+      description: '(Deprecated) PHMN bridged via Osmosis from legacy to the Cosmos Hub.',
+      deprecated: true,
       denomUnits: [{
           denom: 'ibc/12C0B8B561AFCFDA3C73DEE0F7F84AA2B860D48493C27E8E81A5D14724FAB08B',
           exponent: 0,
@@ -472,7 +473,7 @@ const info: AssetList = {
       base: 'ibc/12C0B8B561AFCFDA3C73DEE0F7F84AA2B860D48493C27E8E81A5D14724FAB08B',
       name: 'POSTHUMAN',
       display: 'phmn',
-      symbol: 'PHMN',
+      symbol: 'PHMN.legacy',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -500,8 +501,7 @@ const info: AssetList = {
       socials: {
         website: 'https://posthuman.digital/',
         x: 'https://x.com/POSTHUMAN_DVS'
-      },
-      coingeckoId: 'posthuman'
+      }
     },
     {
       description: 'GEEGEE (GGE) on Cosmos is a community driven meme coin. Sharing knowledge and create visibility. How strong can we be? ☀️',

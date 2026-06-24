@@ -19,7 +19,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumen/images/lmn.png'
         }],
       socials: {
-        website: 'https://lumen-network.org/',
+        website: 'https://lumen-browser.com/',
         github: 'https://github.com/network-lumen/',
         telegram: 'https://t.me/+HBWh_cUJCrZiODE0',
         discord: 'https://discord.gg/DwK6V9shKc',

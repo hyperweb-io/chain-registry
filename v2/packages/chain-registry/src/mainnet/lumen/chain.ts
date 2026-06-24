@@ -4,7 +4,7 @@ const info: Chain = {
   chainName: 'lumen',
   status: 'live',
   networkType: 'mainnet',
-  website: 'https://lumen-network.org/',
+  website: 'https://lumen-browser.com/',
   prettyName: 'Lumen',
   description: 'Lumen is a Cosmos SDK chain focused on DNS auctions, release distribution, and gateway settlement flows.',
   chainType: 'cosmos',

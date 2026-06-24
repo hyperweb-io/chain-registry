@@ -578,10 +578,11 @@ const info: AssetList = {
         }]
     },
     {
-      description: 'The native token cw20 for PHMN on Juno Chain',
+      description: '(Deprecated) The original CW20 PHMN token on Juno. PHMN has migrated to the Cosmos Hub as the tokenfactory denom factory/cosmos146s5j3t7gh2g37ywm47dp8avhesu2htvjjaxq7z55e7xj0rq0k8q5qnjjy/PHMN. This asset is retained for historical reference.',
       extendedDescription: '$PHMN is the governance token of a distributed validator. Similar to PoS chains, each holder possesses voting rights proportionate to the number of locked tokens. PHMN holders can govern the POSTHUMAN validator via DAODAO. For instance, decisions such as diversifying the treasury, updating the validator\'s commission rate, or exiting the network are determined by the PHMN community.',
       typeAsset: 'cw20',
       address: 'juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l',
+      deprecated: true,
       denomUnits: [{
           denom: 'cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l',
           exponent: 0
@@ -592,12 +593,19 @@ const info: AssetList = {
       base: 'cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l',
       name: 'POSTHUMAN',
       display: 'phmn',
-      symbol: 'PHMN',
+      symbol: 'PHMN.legacy',
+      traces: [{
+          type: 'legacy-mintage',
+          counterparty: {
+            chainName: 'cosmoshub',
+            baseDenom: 'factory/cosmos146s5j3t7gh2g37ywm47dp8avhesu2htvjjaxq7z55e7xj0rq0k8q5qnjjy/PHMN'
+          },
+          provider: 'POSTHUMAN'
+        }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg'
       },
-      coingeckoId: 'posthuman',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg'
