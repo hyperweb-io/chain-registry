@@ -66,6 +66,10 @@ const info: Chain = {
   apis: {
     rpc: [
       {
+        address: 'https://celestia.rpc.uquad.org:443',
+        provider: 'QUAD'
+      },
+      {
         address: 'https://public-celestia-rpc.numia.xyz',
         provider: 'Numia'
       },
@@ -163,6 +167,10 @@ const info: Chain = {
       }
     ],
     rest: [
+      {
+        address: 'https://celestia.rpc.uquad.org:443',
+        provider: 'QUAD'
+      },
       {
         address: 'https://public-celestia-lcd.numia.xyz',
         provider: 'Numia'

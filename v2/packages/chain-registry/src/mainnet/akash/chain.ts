@@ -60,6 +60,10 @@ const info: Chain = {
   apis: {
     rpc: [
       {
+        address: 'https://akash.rpc.uquad.org:443',
+        provider: 'QUAD'
+      },
+      {
         address: 'https://rpc-akash.ecostake.com:443',
         provider: 'ecostake'
       },
@@ -89,6 +93,10 @@ const info: Chain = {
       }
     ],
     rest: [
+      {
+        address: 'https://akash.rpc.uquad.org:443',
+        provider: 'QUAD'
+      },
       {
         address: 'https://rest-akash.ecostake.com',
         provider: 'ecostake'
