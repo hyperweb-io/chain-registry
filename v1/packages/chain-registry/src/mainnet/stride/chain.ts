@@ -155,6 +155,10 @@ const info: Chain = {
   apis: {
     rpc: [
       {
+        address: 'https://stride.rpc.uquad.org:443',
+        provider: 'QUAD'
+      },
+      {
         address: 'https://stride-rpc.polkachu.com/',
         provider: 'Polkachu'
       },
@@ -232,6 +236,10 @@ const info: Chain = {
       }
     ],
     rest: [
+      {
+        address: 'https://stride.rpc.uquad.org:443',
+        provider: 'QUAD'
+      },
       {
         address: 'https://stride-api.polkachu.com/',
         provider: 'Polkachu'

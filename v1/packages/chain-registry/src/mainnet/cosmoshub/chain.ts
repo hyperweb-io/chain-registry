@@ -66,6 +66,10 @@ const info: Chain = {
   apis: {
     rpc: [
       {
+        address: 'https://cosmos.rpc.uquad.org:443',
+        provider: 'QUAD'
+      },
+      {
         address: 'https://rpc.cosmoshub-main.ccvalidators.com:443',
         provider: 'CryptoCrew',
         archive: true
@@ -204,6 +208,10 @@ const info: Chain = {
       }
     ],
     rest: [
+      {
+        address: 'https://cosmos.rpc.uquad.org:443',
+        provider: 'QUAD'
+      },
       {
         address: 'https://rest.cosmoshub-main.ccvalidators.com:443',
         provider: 'CryptoCrew',
