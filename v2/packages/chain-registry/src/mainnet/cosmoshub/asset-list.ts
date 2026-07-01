@@ -1186,6 +1186,35 @@ const info: AssetList = {
         website: 'https://posthuman.digital/',
         x: 'https://x.com/POSTHUMAN_DVS'
       }
+    },
+    {
+      description: 'POSTHUMAN Reputation (RESP) is the reputation token of the POSTHUMAN ecosystem, migrated from the legacy Juno RESP token to Cosmos Hub through TokenFactory.',
+      extendedDescription: 'RESP is the POSTHUMAN reputation token. This Cosmos Hub TokenFactory asset represents the migration of RESP from the legacy Juno token to Cosmos Hub under the new Reputation SubDAO.',
+      denomUnits: [{
+          denom: 'factory/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr/RESP',
+          exponent: 0
+        }, {
+          denom: 'resp',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr/RESP',
+      name: 'POSTHUMAN Reputation',
+      display: 'resp',
+      symbol: 'RESP',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/resp.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/resp.png',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://posthuman.digital/',
+        x: 'https://x.com/POSTHUMAN_DVS'
+      }
     }
   ]
 };
