@@ -173,6 +173,7 @@ import * as _realio from './realio';
 import * as _rebus from './rebus';
 import * as _regen from './regen';
 import * as _rizon from './rizon';
+import * as _safrochain from './safrochain';
 import * as _saga from './saga';
 import * as _scorum from './scorum';
 import * as _secretnetwork from './secretnetwork';
@@ -398,6 +399,7 @@ const chains: Chain[] = [
   _rebus.chain,
   _regen.chain,
   _rizon.chain,
+  _safrochain.chain,
   _saga.chain,
   _scorum.chain,
   _secretnetwork.chain,

@@ -133,6 +133,7 @@ import * as _realio from './realio';
 import * as _rebus from './rebus';
 import * as _regen from './regen';
 import * as _rizon from './rizon';
+import * as _safrochain from './safrochain';
 import * as _saga from './saga';
 import * as _scorum from './scorum';
 import * as _secretnetwork from './secretnetwork';
@@ -305,6 +306,7 @@ const ibcData: IBCData[] = [
   ..._rebus.ibcData,
   ..._regen.ibcData,
   ..._rizon.ibcData,
+  ..._safrochain.ibcData,
   ..._saga.ibcData,
   ..._scorum.ibcData,
   ..._secretnetwork.ibcData,
