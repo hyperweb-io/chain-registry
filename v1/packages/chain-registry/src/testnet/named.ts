@@ -65,6 +65,7 @@ export * as kujiratestnet from './kujiratestnet';
 export * as kyvetestnet from './kyvetestnet';
 export * as lavatestnet from './lavatestnet';
 export * as likecointestnet from './likecointestnet';
+export * as limonatatestnet from './limonatatestnet';
 export * as lombardledgertestnet from './lombardledgertestnet';
 export * as lumenxtestnet from './lumenxtestnet';
 export * as lumeratestnet from './lumeratestnet';

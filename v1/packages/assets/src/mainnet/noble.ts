@@ -5386,6 +5386,41 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native staking, governance, and fee token of Safrochain, a mobile-first mobile-money-powered blockchain connecting mobile wallets to on-chain finance and interoperable digital rails.',
+      denom_units: [{
+          denom: 'ibc/416D906365215CB6641B38CCDAA01385AA4B20E5E8EF2D65702A1B3F383FBBA2',
+          exponent: 0,
+          aliases: ['usaf']
+        }, {
+          denom: 'saf',
+          exponent: 6
+        }],
+      base: 'ibc/416D906365215CB6641B38CCDAA01385AA4B20E5E8EF2D65702A1B3F383FBBA2',
+      name: 'Safrochain',
+      display: 'saf',
+      symbol: 'SAF',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'usaf',
+            chain_name: 'safrochain'
+          },
+          chain: {
+            channel_id: 'channel-581'
+          }
+        }]
+    },
+    {
       description: 'Saga is a blockchain platform focused on providing customizable blockchain solutions with a strong emphasis on security and scalability.',
       denom_units: [{
           denom: 'ibc/B7DFB783DD437306048703B818F81EB8C8ED06856DB9FD126EA7F2248907C1FF',
@@ -7536,6 +7571,41 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-83'
+          }
+        }]
+    },
+    {
+      description: 'The native staking, governance, and fee token of Safrochain, a mobile-first mobile-money-powered blockchain connecting mobile wallets to on-chain finance and interoperable digital rails.',
+      denom_units: [{
+          denom: 'ibc/416D906365215CB6641B38CCDAA01385AA4B20E5E8EF2D65702A1B3F383FBBA2',
+          exponent: 0,
+          aliases: ['usaf']
+        }, {
+          denom: 'saf',
+          exponent: 6
+        }],
+      base: 'ibc/416D906365215CB6641B38CCDAA01385AA4B20E5E8EF2D65702A1B3F383FBBA2',
+      name: 'Safrochain',
+      display: 'saf',
+      symbol: 'SAF',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'usaf',
+            chain_name: 'safrochain'
+          },
+          chain: {
+            channel_id: 'channel-581'
           }
         }]
     },

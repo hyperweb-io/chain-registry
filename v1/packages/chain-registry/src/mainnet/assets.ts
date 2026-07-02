@@ -173,6 +173,7 @@ import * as _realio from './realio';
 import * as _rebus from './rebus';
 import * as _regen from './regen';
 import * as _rizon from './rizon';
+import * as _safrochain from './safrochain';
 import * as _saga from './saga';
 import * as _scorum from './scorum';
 import * as _secretnetwork from './secretnetwork';
@@ -398,6 +399,7 @@ const assets: AssetList[] = [
   _rebus.assets,
   _regen.assets,
   _rizon.assets,
+  _safrochain.assets,
   _saga.assets,
   _scorum.assets,
   _secretnetwork.assets,
