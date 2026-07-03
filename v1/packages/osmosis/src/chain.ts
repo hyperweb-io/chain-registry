@@ -601,10 +601,6 @@ const chain: Chain = {
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
       {
-        address: 'https://community.nuxian-node.ch:6797/osmosis/trpc',
-        provider: 'PRO Delegators'
-      },
-      {
         address: 'http://rpc-osmosis.freshstaking.com:31657',
         provider: 'FreshSTAKING'
       },
@@ -673,10 +669,6 @@ const chain: Chain = {
       {
         address: 'https://osmosis-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https://community.nuxian-node.ch:6797/osmosis/crpc',
-        provider: 'PRO Delegators'
       },
       {
         address: 'https://osmosis-api.stake-town.com',

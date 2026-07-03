@@ -90,10 +90,6 @@ const info: Chain = {
         provider: 'crosnest'
       },
       {
-        address: 'https://community.nuxian-node.ch:6797/atomone/trpc',
-        provider: 'PRO Delegators'
-      },
-      {
         address: 'https://atomone-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
@@ -218,10 +214,6 @@ const info: Chain = {
       {
         address: 'https://rest-atomone-1.cros-nest.com:443',
         provider: 'crosnest'
-      },
-      {
-        address: 'https://community.nuxian-node.ch:6797/atomone/crpc',
-        provider: 'PRO Delegators'
       },
       {
         address: 'https://atomone-rest.publicnode.com',

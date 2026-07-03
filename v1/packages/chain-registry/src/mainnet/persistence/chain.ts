@@ -75,10 +75,6 @@ const info: Chain = {
         provider: 'Persistence'
       },
       {
-        address: 'https://rpc-persistent-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://persistence.rpc.m.stavr.tech',
         provider: '🔥STAVR🔥'
       },
@@ -165,10 +161,6 @@ const info: Chain = {
         provider: 'Persistence'
       },
       {
-        address: 'https://api-persistent-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://persistence.api.m.stavr.tech',
         provider: '🔥STAVR🔥'
       },
@@ -253,10 +245,6 @@ const info: Chain = {
       {
         address: 'grpc.core.persistence.one:443',
         provider: 'Persistence'
-      },
-      {
-        address: 'grpc-persistent-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
       },
       {
         address: 'persistence.grpc.m.stavr.tech:410',

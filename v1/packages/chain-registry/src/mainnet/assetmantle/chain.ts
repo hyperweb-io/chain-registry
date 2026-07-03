@@ -49,10 +49,6 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'https://rpc-assetmantle-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://rpc.mantle.paranorm.pro:443',
         provider: 'paranorm'
       },
@@ -69,10 +65,6 @@ const info: Chain = {
       {
         address: 'https://rest.assetmantle.one',
         provider: 'AssetMantle'
-      },
-      {
-        address: 'https://api-assetmantle-ia.cosmosia.notional.ventures',
-        provider: 'Notional'
       },
       {
         address: 'https://assetmantle-api.polkachu.com',
@@ -92,10 +84,6 @@ const info: Chain = {
       }
     ],
     grpc: [
-      {
-        address: 'grpc-assetmantle-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
-      },
       {
         address: 'assetmantle-grpc.polkachu.com:14690',
         provider: 'Polkachu'

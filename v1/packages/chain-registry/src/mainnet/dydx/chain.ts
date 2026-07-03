@@ -93,19 +93,11 @@ const info: Chain = {
         provider: 'Enigma'
       },
       {
-        address: 'https://community.nuxian-node.ch:6797/dydx/trpc',
-        provider: 'PRO Delegators'
-      },
-      {
         address: 'https://dydx-rpc.noders.services',
         provider: '[NODERS]TEAM'
       }
     ],
     rest: [
-      {
-        address: 'https://community.nuxian-node.ch:6797/dydx/crpc',
-        provider: 'PRO Delegators'
-      },
       {
         address: 'https://dydx-dao-api.polkachu.com',
         provider: 'Polkachu'

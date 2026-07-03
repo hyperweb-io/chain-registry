@@ -101,10 +101,6 @@ const info: Chain = {
         provider: 'itrocket'
       },
       {
-        address: 'https://community.nuxian-node.ch:6797/elys/trpc',
-        provider: 'PRO Delegators'
-      },
-      {
         address: 'https://elys-rpc.stake-town.com:443',
         provider: 'StakeTown'
       },
@@ -141,10 +137,6 @@ const info: Chain = {
       {
         address: 'https://elys-mainnet-api.itrocket.net',
         provider: 'itrocket'
-      },
-      {
-        address: 'https://community.nuxian-node.ch:6797/elys/crpc',
-        provider: 'PRO Delegators'
       },
       {
         address: 'https://elys-api.stake-town.com:443',

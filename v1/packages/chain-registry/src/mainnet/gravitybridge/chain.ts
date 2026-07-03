@@ -71,10 +71,6 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'https://rpc-gravitybridge-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://rpc.lavenderfive.com:443/gravitybridge',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -115,10 +111,6 @@ const info: Chain = {
       {
         address: 'https://gravitychain.io:1317',
         provider: 'althea'
-      },
-      {
-        address: 'https://api-gravitybridge-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
       },
       {
         address: 'https://gravity-api.polkachu.com',
@@ -165,10 +157,6 @@ const info: Chain = {
       {
         address: 'gravity-bridge-1-08.nodes.amhost.net:9090',
         provider: 'amhost'
-      },
-      {
-        address: 'grpc-gravitybridge-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
       },
       {
         address: 'gravity-grpc.polkachu.com:14290',

@@ -50,10 +50,6 @@ const info: Chain = {
         provider: 'Busurnode'
       },
       {
-        address: 'https://rpc-sentinel-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://rpc.sentinel.chaintools.tech/',
         provider: 'ChainTools'
       },
@@ -132,10 +128,6 @@ const info: Chain = {
         provider: 'Busurnode'
       },
       {
-        address: 'https://api-sentinel-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://api.sentinel.quokkastake.io',
         provider: '🐹 Quokka Stake'
       },
@@ -197,10 +189,6 @@ const info: Chain = {
       }
     ],
     grpc: [
-      {
-        address: 'grpc-sentinel-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
-      },
       {
         address: 'sentinel.grpcui.chaintools.host:443',
         provider: 'ChainTools'

@@ -44,6 +44,10 @@ const info: Chain = {
     rest: [{
         address: 'https://rest.limonata.xyz',
         provider: 'Limonata'
+      }],
+    "evm-http-jsonrpc": [{
+        address: 'https://rpc.limonata.xyz',
+        provider: 'Limonata'
       }]
   },
   explorers: [{

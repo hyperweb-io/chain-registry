@@ -72,10 +72,6 @@ const info: Chain = {
         provider: 'Figure'
       },
       {
-        address: 'https://rpc-provenance-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://provenance-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -126,10 +122,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://api-provenance-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://provenance.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
       },
@@ -166,10 +158,6 @@ const info: Chain = {
       {
         address: 'provenance-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'grpc-provenance-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
       },
       {
         address: 'provenance-grpc.panthea.eu:16780',

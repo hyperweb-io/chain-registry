@@ -61,10 +61,6 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://rpc-composable-ia.cosmosia.notional.ventures',
-        provider: 'Notional'
-      },
-      {
         address: 'https://composable-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -111,10 +107,6 @@ const info: Chain = {
     ],
     rest: [
       {
-        address: 'https://api-composable-ia.cosmosia.notional.ventures',
-        provider: 'Notional'
-      },
-      {
         address: 'https://composable-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -156,10 +148,6 @@ const info: Chain = {
       }
     ],
     grpc: [
-      {
-        address: 'https://grpc-composable-ia.cosmosia.notional.ventures',
-        provider: 'Notional'
-      },
       {
         address: 'grpc.composable.nodestake.top:9090',
         provider: 'NodeStake'

@@ -52,10 +52,6 @@ const info: Chain = {
         provider: 'cronos.org'
       },
       {
-        address: 'https://rpc-cryptoorgchain-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://rpc-cryptoorgchain.ecostake.com',
         provider: 'ecostake'
       },
@@ -82,10 +78,6 @@ const info: Chain = {
         provider: 'cronos.org'
       },
       {
-        address: 'https://api-cryptoorgchain-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://cryptocom-api.polkachu.com',
         provider: 'Polkachu'
       },
@@ -110,10 +102,6 @@ const info: Chain = {
       {
         address: 'grpc.mainnet.crypto.org:443',
         provider: 'cronos.org'
-      },
-      {
-        address: 'grpc-cryptoorgchain-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
       },
       {
         address: 'cryptocom-grpc.polkachu.com:20290',

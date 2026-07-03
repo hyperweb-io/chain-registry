@@ -89,10 +89,6 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'https://community.nuxian-node.ch:6797/babylon/trpc',
-        provider: 'PRO Delegators'
-      },
-      {
         address: 'https://rpc.babylon.validatus.com',
         provider: 'Validatus'
       }
@@ -117,10 +113,6 @@ const info: Chain = {
       {
         address: 'https://babylon-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'https://community.nuxian-node.ch:6797/babylon/crpc',
-        provider: 'PRO Delegators'
       },
       {
         address: 'https://api.babylon.validatus.com',

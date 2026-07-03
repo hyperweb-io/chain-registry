@@ -66,10 +66,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://rpc-ixo-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://rpc.lavenderfive.com:443/impacthub',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -100,10 +96,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://api-ixo-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://rest.lavenderfive.com:443/impacthub',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -120,20 +112,13 @@ const info: Chain = {
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }
     ],
-    grpc: [
-      {
-        address: 'grpc-ixo-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
-      },
-      {
+    grpc: [{
         address: 'ixo.grpc.m.stavr.tech:2010',
         provider: '🔥STAVR🔥'
-      },
-      {
+      }, {
         address: 'impacthub.lavenderfive.com:443',
         provider: 'Lavender.Five Nodes 🐝'
-      }
-    ]
+      }]
   },
   explorers: [
     {

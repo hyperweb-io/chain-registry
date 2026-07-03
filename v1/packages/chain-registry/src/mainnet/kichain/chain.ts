@@ -50,10 +50,6 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'https://rpc-kichain-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://kichain-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -78,10 +74,6 @@ const info: Chain = {
       {
         address: 'https://api-mainnet.blockchain.ki',
         provider: 'kifoundation'
-      },
-      {
-        address: 'https://api-kichain-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
       },
       {
         address: 'https://kichain.api.m.stavr.tech',
@@ -113,10 +105,6 @@ const info: Chain = {
       }
     ],
     grpc: [
-      {
-        address: 'grpc-kichain-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
-      },
       {
         address: 'kichain-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
