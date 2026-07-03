@@ -143,10 +143,6 @@ const info: Chain = {
         provider: 'w3coins'
       },
       {
-        address: 'https://community.nuxian-node.ch:6797/gaia/trpc',
-        provider: 'PRO Delegators'
-      },
-      {
         address: 'https://cosmos-rpc.highstakes.ch',
         provider: 'High Stakes 🇨🇭'
       },
@@ -272,10 +268,6 @@ const info: Chain = {
       {
         address: 'https://cosmos-api.w3coins.io',
         provider: 'w3coins'
-      },
-      {
-        address: 'https://community.nuxian-node.ch:6797/gaia/crpc',
-        provider: 'PRO Delegators'
       },
       {
         address: 'https://cosmos-api.highstakes.ch',

@@ -77,10 +77,6 @@ const info: Chain = {
         provider: 'forbole'
       },
       {
-        address: 'https://rpc-regen-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://regen-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -115,10 +111,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://api-regen-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://regen-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -144,10 +136,6 @@ const info: Chain = {
       }
     ],
     grpc: [
-      {
-        address: 'grpc-regen-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
-      },
       {
         address: 'regen-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'

@@ -69,10 +69,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://rpc-cheqd-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://rpc.cheqd.nodestake.org',
         provider: 'NodeStake'
       },
@@ -121,10 +117,6 @@ const info: Chain = {
       {
         address: 'https://cheqd.api.m.stavr.tech',
         provider: '🔥STAVR🔥'
-      },
-      {
-        address: 'https://api-cheqd-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
       },
       {
         address: 'https://cheqd-mainnet-lcd.autostake.com:443',
@@ -179,10 +171,6 @@ const info: Chain = {
       {
         address: 'cheqd-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'grpc-cheqd-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
       },
       {
         address: 'grpc.cheqd.nodestake.org:443',

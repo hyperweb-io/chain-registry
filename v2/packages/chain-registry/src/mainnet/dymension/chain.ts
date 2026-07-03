@@ -115,10 +115,6 @@ const info: Chain = {
         provider: 'WhisperNode 🤐'
       },
       {
-        address: 'https://community.nuxian-node.ch:6797/dymension/trpc',
-        provider: 'PRO Delegators'
-      },
-      {
         address: 'https://dymension-rpc.enigma-validator.com',
         provider: 'Enigma'
       },
@@ -235,10 +231,6 @@ const info: Chain = {
       {
         address: 'https://api-dymension.whispernode.com:443',
         provider: 'WhisperNode 🤐'
-      },
-      {
-        address: 'https://community.nuxian-node.ch:6797/dymension/crpc',
-        provider: 'PRO Delegators'
       },
       {
         address: 'https://dymension-lcd.enigma-validator.com',

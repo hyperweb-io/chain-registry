@@ -104,10 +104,6 @@ const info: Chain = {
         provider: 'StakeWithUs'
       },
       {
-        address: 'https://rpc-agoric-ia.cosmosia.notional.ventures',
-        provider: 'Notional'
-      },
-      {
         address: 'https://agoric-rpc.stakeandrelax.net',
         provider: 'Stake&Relax 🦥'
       },
@@ -153,10 +149,6 @@ const info: Chain = {
         provider: 'StakeWithUs'
       },
       {
-        address: 'https://api-agoric-ia.cosmosia.notional.ventures',
-        provider: 'Notional'
-      },
-      {
         address: 'https://agoric-api.stakeandrelax.net',
         provider: 'Stake&Relax 🦥'
       },
@@ -193,10 +185,6 @@ const info: Chain = {
       {
         address: 'https://grpc.agoric.stakewith.us',
         provider: 'StakeWithUs'
-      },
-      {
-        address: 'grpc-agoric-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
       },
       {
         address: 'agoric-grpc.stakeandrelax.net:14490',

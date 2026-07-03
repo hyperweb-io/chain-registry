@@ -66,10 +66,6 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'https://rpc-umee-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://umee-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -132,10 +128,6 @@ const info: Chain = {
     ],
     rest: [
       {
-        address: 'https://api-umee-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://umee.api.m.stavr.tech',
         provider: '🔥STAVR🔥'
       },
@@ -197,10 +189,6 @@ const info: Chain = {
       }
     ],
     grpc: [
-      {
-        address: 'grpc-umee-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
-      },
       {
         address: 'umee-grpc.polkachu.com:13690',
         provider: 'Polkachu'

@@ -67,10 +67,6 @@ const info: Chain = {
         provider: 'bandprotocol'
       },
       {
-        address: 'https://rpc-bandchain-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://band.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
@@ -121,10 +117,6 @@ const info: Chain = {
         provider: 'bandprotocol'
       },
       {
-        address: 'https://api-bandchain-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://band.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
       },
@@ -170,10 +162,6 @@ const info: Chain = {
       }
     ],
     grpc: [
-      {
-        address: 'grpc-bandchain-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
-      },
       {
         address: 'bandchain-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'

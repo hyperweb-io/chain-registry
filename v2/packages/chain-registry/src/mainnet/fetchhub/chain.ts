@@ -43,10 +43,6 @@ const info: Chain = {
         provider: 'fetch.ai'
       },
       {
-        address: 'https://rpc-fetchhub-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://fetch-rpc.polkachu.com',
         provider: 'Polkachu'
       },
@@ -113,10 +109,6 @@ const info: Chain = {
         provider: 'fetch.ai'
       },
       {
-        address: 'https://api-fetchhub-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://fetch-api.polkachu.com',
         provider: 'Polkachu'
       },
@@ -181,10 +173,6 @@ const info: Chain = {
       {
         address: 'grpc-fetchhub.fetch.ai:443',
         provider: 'fetch.ai'
-      },
-      {
-        address: 'grpc-fetchhub-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
       },
       {
         address: 'fetch-grpc.polkachu.com:15290',

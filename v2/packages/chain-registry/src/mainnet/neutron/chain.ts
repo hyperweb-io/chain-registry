@@ -129,10 +129,6 @@ const info: Chain = {
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
       {
-        address: 'https://community.nuxian-node.ch:6797/neutron/trpc',
-        provider: 'PRO Delegators'
-      },
-      {
         address: 'https://rpc.neutron.bronbro.io:443',
         provider: 'Bro_n_Bro'
       },
@@ -186,10 +182,6 @@ const info: Chain = {
       {
         address: 'https://neutron-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https://community.nuxian-node.ch:6797/neutron/crpc',
-        provider: 'PRO Delegators'
       },
       {
         address: 'https://lcd.neutron.bronbro.io:443',

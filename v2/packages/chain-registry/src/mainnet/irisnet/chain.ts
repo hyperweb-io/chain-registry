@@ -40,10 +40,6 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://rpc-irisnet-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://rpc-irisnet-01.stakeflow.io',
         provider: 'Stakeflow'
       },
@@ -66,10 +62,6 @@ const info: Chain = {
     ],
     rest: [
       {
-        address: 'https://api-irisnet-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://api-irisnet-01.stakeflow.io',
         provider: 'Stakeflow'
       },
@@ -91,10 +83,6 @@ const info: Chain = {
       }
     ],
     grpc: [
-      {
-        address: 'grpc-irisnet-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
-      },
       {
         address: 'grpc-irisnet-01.stakeflow.io:1902',
         provider: 'Stakeflow'

@@ -70,38 +70,21 @@ const info: Chain = {
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.svg'
   },
   apis: {
-    rpc: [
-      {
+    rpc: [{
         address: 'https://emoney.validator.network',
         provider: 'e-Money'
-      },
-      {
-        address: 'https://rpc-emoney-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
+      }, {
         address: 'https://rpc.emoney.bh.rocks',
         provider: 'BlockHunters 🎯'
-      }
-    ],
-    rest: [
-      {
+      }],
+    rest: [{
         address: 'https://emoney.validator.network/api/',
         provider: 'e-Money'
-      },
-      {
-        address: 'https://api-emoney-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
+      }, {
         address: 'https://api.emoney.bh.rocks',
         provider: 'BlockHunters 🎯'
-      }
-    ],
+      }],
     grpc: [{
-        address: 'grpc-emoney-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
-      }, {
         address: 'emoney-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       }]

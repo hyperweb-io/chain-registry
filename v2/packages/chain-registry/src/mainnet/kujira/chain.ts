@@ -174,10 +174,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://rpc-kujira-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://kujira.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
@@ -240,10 +236,6 @@ const info: Chain = {
         provider: 'polkachu'
       },
       {
-        address: 'https://api-kujira-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://kujira-lcd.wildsage.io/',
         provider: 'WildSage Labs'
       },
@@ -293,10 +285,6 @@ const info: Chain = {
       }
     ],
     grpc: [
-      {
-        address: 'grpc-kujira-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
-      },
       {
         address: 'kujira.lavenderfive.com:443',
         provider: 'Lavender.Five Nodes 🐝'

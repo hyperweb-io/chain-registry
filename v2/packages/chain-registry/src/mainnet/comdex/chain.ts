@@ -178,10 +178,6 @@ const info: Chain = {
     ],
     grpc: [
       {
-        address: 'grpc-comdex-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
-      },
-      {
         address: 'comdex-grpc.polkachu.com:13190',
         provider: 'Polkachu'
       },

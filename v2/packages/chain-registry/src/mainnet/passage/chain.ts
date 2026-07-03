@@ -66,10 +66,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://rpc-passage-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://rpc-passage.cosmos-spaces.cloud',
         provider: 'Cosmos Spaces'
       },
@@ -128,10 +124,6 @@ const info: Chain = {
         provider: 'Cosmos Spaces'
       },
       {
-        address: 'https://api-passage-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://passage-api.polkachu.com',
         provider: 'Polkachu'
       },
@@ -169,10 +161,6 @@ const info: Chain = {
       }
     ],
     grpc: [
-      {
-        address: 'grpc-passage-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
-      },
       {
         address: 'passage.lavenderfive.com:443',
         provider: 'Lavender.Five Nodes 🐝'

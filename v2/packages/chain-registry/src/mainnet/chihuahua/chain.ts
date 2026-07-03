@@ -71,10 +71,6 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'https://rpc-chihuahua-ia.cosmosia.notional.ventures',
-        provider: 'Notional'
-      },
-      {
         address: 'https://rpc.lavenderfive.com:443/chihuahua',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -125,10 +121,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://api-chihuahua-ia.cosmosia.notional.ventures',
-        provider: 'Notional'
-      },
-      {
         address: 'https://chihuahua-api.polkachu.com',
         provider: 'Polkachu'
       },
@@ -170,10 +162,6 @@ const info: Chain = {
       }
     ],
     grpc: [
-      {
-        address: 'grpc-chihuahua-ia.cosmosia.notional.ventures:443',
-        provider: 'Notional'
-      },
       {
         address: 'chihuahua-grpc.polkachu.com:12990',
         provider: 'Polkachu'

@@ -61,10 +61,6 @@ const info: Chain = {
     ],
     rest: [
       {
-        address: 'https://api-sifchain-ia.cosmosia.notional.ventures/',
-        provider: 'Notional'
-      },
-      {
         address: 'https://sifchain-api.polkachu.com',
         provider: 'Polkachu'
       },
