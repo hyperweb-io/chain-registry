@@ -99,6 +99,7 @@ import * as _planqtestnet from './planqtestnet';
 import * as _pockettestnet from './pockettestnet';
 import * as _provenancetestnet from './provenancetestnet';
 import * as _pryzmtestnet from './pryzmtestnet';
+import * as _qorechaintestnet from './qorechaintestnet';
 import * as _quasartestnet from './quasartestnet';
 import * as _qubeticstestnet from './qubeticstestnet';
 import * as _quicksilvertestnet from './quicksilvertestnet';
@@ -248,6 +249,7 @@ const chains: Chain[] = [
   _pockettestnet.chain,
   _provenancetestnet.chain,
   _pryzmtestnet.chain,
+  _qorechaintestnet.chain,
   _quasartestnet.chain,
   _qubeticstestnet.chain,
   _quicksilvertestnet.chain,

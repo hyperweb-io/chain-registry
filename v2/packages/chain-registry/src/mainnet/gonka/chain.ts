@@ -159,6 +159,14 @@ const info: Chain = {
       url: 'https://node2.gonka.ai:8443/dashboard',
       txPage: 'https://node2.gonka.ai:8443/dashboard/gonka/txs/${txHash}',
       accountPage: 'https://node2.gonka.ai:8443/dashboard/gonka/account/${accountAddress}'
+    },
+    {
+      kind: 'gnkscan',
+      url: 'https://www.gnkscan.com',
+      txPage: 'https://www.gnkscan.com/tx/${txHash}',
+      accountPage: 'https://www.gnkscan.com/address/${accountAddress}',
+      blockPage: 'https://www.gnkscan.com/blocks/${blockHeight}',
+      proposalPage: 'https://www.gnkscan.com/proposals/${proposalId}'
     }
   ],
   keywords: [
