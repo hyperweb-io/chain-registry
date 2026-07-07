@@ -95,6 +95,10 @@ const info: Chain = {
       {
         address: 'https://dydx-rpc.noders.services',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'https://dydx.rpc.uquad.org:443',
+        provider: 'QUAD'
       }
     ],
     rest: [
@@ -125,6 +129,10 @@ const info: Chain = {
       {
         address: 'https://dydx-api.noders.services',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'https://dydx.rpc.uquad.org:443',
+        provider: 'QUAD'
       }
     ],
     grpc: [

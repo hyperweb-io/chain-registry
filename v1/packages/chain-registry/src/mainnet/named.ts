@@ -163,6 +163,7 @@ export * as pundix from './pundix';
 export * as pylons from './pylons';
 export * as qfs from './qfs';
 export * as qie from './qie';
+export * as qorechain from './qorechain';
 export * as quasar from './quasar';
 export * as qubetics from './qubetics';
 export * as quicksilver from './quicksilver';

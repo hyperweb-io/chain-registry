@@ -65,6 +65,10 @@ const info: Chain = {
       {
         address: 'https://public.stakewolle.com/cosmos/injective/rpc',
         provider: 'Stakewolle'
+      },
+      {
+        address: 'https://injective.rpc.uquad.org:443',
+        provider: 'QUAD'
       }
     ],
     rest: [
@@ -87,6 +91,10 @@ const info: Chain = {
       {
         address: 'https://public.stakewolle.com/cosmos/injective/rest',
         provider: 'Stakewolle'
+      },
+      {
+        address: 'https://injective.rpc.uquad.org:443',
+        provider: 'QUAD'
       }
     ],
     grpc: [

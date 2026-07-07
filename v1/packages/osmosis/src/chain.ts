@@ -639,6 +639,10 @@ const chain: Chain = {
       {
         address: 'https://osmosis.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://osmosis.rpc.uquad.org:443',
+        provider: 'QUAD'
       }
     ],
     rest: [
@@ -701,6 +705,10 @@ const chain: Chain = {
       {
         address: 'https://osmosis.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://osmosis.rpc.uquad.org:443',
+        provider: 'QUAD'
       }
     ],
     grpc: [

@@ -139,6 +139,10 @@ const info: Chain = {
       {
         address: 'https://neutron.drpc.org',
         provider: 'dRPC'
+      },
+      {
+        address: 'https://neutron.rpc.uquad.org:443',
+        provider: 'QUAD'
       }
     ],
     rest: [
@@ -190,6 +194,10 @@ const info: Chain = {
       {
         address: 'https://api.neutron.quokkastake.io',
         provider: '🐹 Quokka Stake'
+      },
+      {
+        address: 'https://neutron.rpc.uquad.org:443',
+        provider: 'QUAD'
       }
     ],
     grpc: [
