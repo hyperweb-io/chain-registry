@@ -88,6 +88,7 @@ import * as _haqq from './haqq';
 import * as _hazinachain from './hazinachain';
 import * as _heli from './heli';
 import * as _highbury from './highbury';
+import * as _hipercapital from './hipercapital';
 import * as _hippoprotocol from './hippoprotocol';
 import * as _humans from './humans';
 import * as _idep from './idep';
@@ -315,6 +316,7 @@ const assetList: AssetList[] = [
   _hazinachain.assetList,
   _heli.assetList,
   _highbury.assetList,
+  _hipercapital.assetList,
   _hippoprotocol.assetList,
   _humans.assetList,
   _idep.assetList,
