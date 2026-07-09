@@ -88,6 +88,7 @@ import * as _haqq from './haqq';
 import * as _hazinachain from './hazinachain';
 import * as _heli from './heli';
 import * as _highbury from './highbury';
+import * as _hipercapital from './hipercapital';
 import * as _hippoprotocol from './hippoprotocol';
 import * as _humans from './humans';
 import * as _idep from './idep';
@@ -173,6 +174,7 @@ import * as _qwoyn from './qwoyn';
 import * as _realio from './realio';
 import * as _rebus from './rebus';
 import * as _regen from './regen';
+import * as _ritbit from './ritbit';
 import * as _rizon from './rizon';
 import * as _safrochain from './safrochain';
 import * as _saga from './saga';
@@ -315,6 +317,7 @@ const assets: AssetList[] = [
   _hazinachain.assets,
   _heli.assets,
   _highbury.assets,
+  _hipercapital.assets,
   _hippoprotocol.assets,
   _humans.assets,
   _idep.assets,
@@ -400,6 +403,7 @@ const assets: AssetList[] = [
   _realio.assets,
   _rebus.assets,
   _regen.assets,
+  _ritbit.assets,
   _rizon.assets,
   _safrochain.assets,
   _saga.assets,

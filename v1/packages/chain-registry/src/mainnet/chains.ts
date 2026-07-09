@@ -88,6 +88,7 @@ import * as _haqq from './haqq';
 import * as _hazinachain from './hazinachain';
 import * as _heli from './heli';
 import * as _highbury from './highbury';
+import * as _hipercapital from './hipercapital';
 import * as _hippoprotocol from './hippoprotocol';
 import * as _humans from './humans';
 import * as _idep from './idep';
@@ -173,6 +174,7 @@ import * as _qwoyn from './qwoyn';
 import * as _realio from './realio';
 import * as _rebus from './rebus';
 import * as _regen from './regen';
+import * as _ritbit from './ritbit';
 import * as _rizon from './rizon';
 import * as _safrochain from './safrochain';
 import * as _saga from './saga';
@@ -315,6 +317,7 @@ const chains: Chain[] = [
   _hazinachain.chain,
   _heli.chain,
   _highbury.chain,
+  _hipercapital.chain,
   _hippoprotocol.chain,
   _humans.chain,
   _idep.chain,
@@ -400,6 +403,7 @@ const chains: Chain[] = [
   _realio.chain,
   _rebus.chain,
   _regen.chain,
+  _ritbit.chain,
   _rizon.chain,
   _safrochain.chain,
   _saga.chain,

@@ -153,6 +153,45 @@ const assets: AssetList = {
         }]
     },
     {
+      description: '$BADGE is the native in-app token for BitBadges.',
+      denom_units: [{
+          denom: 'ibc/E38C2BFD8DE76ADC3CC53290184D36B7766E55A860FD7DC703B579E226473FF3',
+          exponent: 0,
+          aliases: ['ubadge']
+        }, {
+          denom: 'badge',
+          exponent: 9
+        }],
+      base: 'ibc/E38C2BFD8DE76ADC3CC53290184D36B7766E55A860FD7DC703B579E226473FF3',
+      name: 'BitBadges',
+      display: 'badge',
+      symbol: 'BADGE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.svg'
+        }],
+      socials: {
+        website: 'https://bitbadges.io/',
+        x: 'https://x.com/bitbadges_io'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-40',
+            base_denom: 'ubadge',
+            chain_name: 'bitbadges'
+          },
+          chain: {
+            channel_id: 'channel-464'
+          }
+        }]
+    },
+    {
       description: 'Celestia is a modular blockchain network focused on data availability, allowing developers to deploy their own customizable blockchains with ease.',
       denom_units: [{
           denom: 'ibc/F51BB221BAA275F2EBF654F70B005627D7E713AFFD6D86AFD1E43CAA886149F4',
@@ -577,6 +616,45 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-84'
+          }
+        }]
+    },
+    {
+      description: '$BADGE is the native in-app token for BitBadges.',
+      denom_units: [{
+          denom: 'ibc/E38C2BFD8DE76ADC3CC53290184D36B7766E55A860FD7DC703B579E226473FF3',
+          exponent: 0,
+          aliases: ['ubadge']
+        }, {
+          denom: 'badge',
+          exponent: 9
+        }],
+      base: 'ibc/E38C2BFD8DE76ADC3CC53290184D36B7766E55A860FD7DC703B579E226473FF3',
+      name: 'BitBadges',
+      display: 'badge',
+      symbol: 'BADGE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.svg'
+        }],
+      socials: {
+        website: 'https://bitbadges.io/',
+        x: 'https://x.com/bitbadges_io'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-40',
+            base_denom: 'ubadge',
+            chain_name: 'bitbadges'
+          },
+          chain: {
+            channel_id: 'channel-464'
           }
         }]
     },
