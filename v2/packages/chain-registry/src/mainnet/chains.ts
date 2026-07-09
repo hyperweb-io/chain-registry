@@ -174,6 +174,7 @@ import * as _qwoyn from './qwoyn';
 import * as _realio from './realio';
 import * as _rebus from './rebus';
 import * as _regen from './regen';
+import * as _ritbit from './ritbit';
 import * as _rizon from './rizon';
 import * as _safrochain from './safrochain';
 import * as _saga from './saga';
@@ -402,6 +403,7 @@ const chains: Chain[] = [
   _realio.chain,
   _rebus.chain,
   _regen.chain,
+  _ritbit.chain,
   _rizon.chain,
   _safrochain.chain,
   _saga.chain,
