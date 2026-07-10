@@ -46,7 +46,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.svg'
       },
-      coingecko_id: 'toucan-protocol-nature-carbon-tonne',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.svg'

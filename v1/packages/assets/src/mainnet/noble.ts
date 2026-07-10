@@ -1183,7 +1183,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg'
       },
-      coingecko_id: 'ixo',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg'
@@ -3565,7 +3564,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg'
       },
-      coingecko_id: 'ixo',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg'
@@ -5367,7 +5365,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.svg'
       },
-      coingecko_id: 'toucan-protocol-nature-carbon-tonne',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.svg'
@@ -7556,7 +7553,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.svg'
       },
-      coingecko_id: 'toucan-protocol-nature-carbon-tonne',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.svg'
@@ -9461,7 +9457,6 @@ const assets: AssetList = {
       base: 'ibc/26E9FFCA4B6525662272F3EEB9AD4CEFFF46728B2A4DB330B97EB2064F28A79C',
       name: 'Scorai',
       display: 'scorai',
-      coingecko_id: 'scorai',
       symbol: 'SCORAI',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/scorai.png',
@@ -9969,7 +9964,6 @@ const assets: AssetList = {
       base: 'ibc/26E9FFCA4B6525662272F3EEB9AD4CEFFF46728B2A4DB330B97EB2064F28A79C',
       name: 'Scorai',
       display: 'scorai',
-      coingecko_id: 'scorai',
       symbol: 'SCORAI',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/scorai.png',

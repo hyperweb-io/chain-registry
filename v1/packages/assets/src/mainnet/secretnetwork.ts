@@ -9477,7 +9477,6 @@ const assets: AssetList = {
       base: 'ibc/FF4AE67A638C561EAECCD8B86C4C2F55AE3E5C8D1B39D5E3D6F0287CC55C64E0',
       name: 'Scorai',
       display: 'scorai',
-      coingecko_id: 'scorai',
       symbol: 'SCORAI',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/scorai.png',
@@ -12699,7 +12698,6 @@ const assets: AssetList = {
       base: 'ibc/FF4AE67A638C561EAECCD8B86C4C2F55AE3E5C8D1B39D5E3D6F0287CC55C64E0',
       name: 'Scorai',
       display: 'scorai',
-      coingecko_id: 'scorai',
       symbol: 'SCORAI',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/scorai.png',

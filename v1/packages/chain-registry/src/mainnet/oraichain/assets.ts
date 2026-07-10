@@ -336,7 +336,6 @@ const info: AssetList = {
       base: 'cw20:orai1065qe48g7aemju045aeyprflytemx7kecxkf5m7u5h5mphd0qlcs47pclp',
       name: 'Scorai',
       display: 'scorai',
-      coingecko_id: 'scorai',
       symbol: 'SCORAI',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/scorai.png',

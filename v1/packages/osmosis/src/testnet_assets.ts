@@ -642,8 +642,7 @@ const testnet_assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg'
-        }],
-      coingecko_id: 'ixo'
+        }]
     },
     {
       denom_units: [{

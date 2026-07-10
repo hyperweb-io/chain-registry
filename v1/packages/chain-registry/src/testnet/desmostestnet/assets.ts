@@ -23,7 +23,6 @@ const info: AssetList = {
           },
           provider: 'Desmos'
         }],
-      coingecko_id: 'desmos',
       type_asset: 'sdk.coin',
       images: [{
           image_sync: {

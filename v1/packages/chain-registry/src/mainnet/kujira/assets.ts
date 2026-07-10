@@ -381,7 +381,6 @@ const info: AssetList = {
       name: 'AQLA',
       display: 'AQLA',
       symbol: 'AQLA',
-      coingecko_id: 'aqualibre',
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/aqla.svg'
       },
@@ -999,8 +998,7 @@ const info: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg'
-      },
-      coingecko_id: 'stkatom'
+      }
     },
     {
       description: 'BackBone Labs Liquid Staked KUJI',

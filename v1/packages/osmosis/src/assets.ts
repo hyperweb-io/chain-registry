@@ -1310,8 +1310,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.svg'
-        }],
-      coingecko_id: 'e-money'
+        }]
     },
     {
       description: 'e-Money EUR stablecoin. Audited and backed by fiat EUR deposits and government bonds.',
@@ -1429,8 +1428,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg'
-        }],
-      coingecko_id: 'ixo'
+        }]
     },
     {
       description: 'The BCNA coin is the transactional token within the BitCanna network, serving the legal cannabis industry through its payment network, supply chain and trust network.',
@@ -1836,8 +1834,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.svg'
-        }],
-      coingecko_id: 'desmos'
+        }]
     },
     {
       description: 'Native token of Dig Chain',
@@ -4580,8 +4577,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg'
-        }],
-      coingecko_id: 'stride-staked-stars'
+        }]
     },
     {
       description: 'Solarbank DAO Governance Token for speeding up the shift to renewable and green energy',
@@ -5024,8 +5020,7 @@ const assets: AssetList = {
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png'
-        }],
-      coingecko_id: 'unification'
+        }]
     },
     {
       description: 'The native staking and governance token of Jackal.',
@@ -5275,8 +5270,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.svg'
-        }],
-      coingecko_id: 'stkd-scrt'
+        }]
     },
     {
       description: 'BeeZee native blockchain',
@@ -5691,8 +5685,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg'
-        }],
-      coingecko_id: 'stkatom'
+        }]
     },
     {
       description: 'The native staking and governance token of the Dyson Protocol',
@@ -6904,8 +6897,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/nct.svg'
-        }],
-      coingecko_id: 'toucan-protocol-nature-carbon-tonne'
+        }]
     },
     {
       description: 'Celestims',
@@ -7347,8 +7339,7 @@ const assets: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg'
-        }],
-      coingecko_id: 'silk-bcec1136-561c-4706-a42c-8b67d0d7f7d2'
+        }]
     },
     {
       description: 'Mille: the 1000th token on osmosis',
@@ -9479,8 +9470,7 @@ const assets: AssetList = {
       },
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/CDT.svg'
-        }],
-      coingecko_id: 'collateralized-debt-token'
+        }]
     },
     {
       description: 'Membrane\'s protocol token',
@@ -9501,8 +9491,7 @@ const assets: AssetList = {
       },
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/MBRN.svg'
-        }],
-      coingecko_id: 'membrane'
+        }]
     },
     {
       description: 'The native token of SGE Network',
