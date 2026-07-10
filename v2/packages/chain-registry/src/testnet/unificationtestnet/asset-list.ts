@@ -35,8 +35,7 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.svg'
       },
-      typeAsset: 'sdk.coin',
-      coingeckoId: 'unification'
+      typeAsset: 'sdk.coin'
     }]
 };
 export default info;

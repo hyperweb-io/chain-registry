@@ -40,10 +40,16 @@ const info: Chain = {
     rpc: [{
         address: 'https://cosmos-rpc.limonata.xyz',
         provider: 'Limonata'
+      }, {
+        address: 'https://rpc-t.limonata.vinjan-inc.com',
+        provider: 'Vinjan.Inc'
       }],
     rest: [{
         address: 'https://rest.limonata.xyz',
         provider: 'Limonata'
+      }, {
+        address: 'https://api-t.limonata.vinjan-inc.com',
+        provider: 'Vinjan.Inc'
       }],
     evmHttpJsonrpc: [{
         address: 'https://rpc.limonata.xyz',

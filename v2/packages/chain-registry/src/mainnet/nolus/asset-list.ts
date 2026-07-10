@@ -604,8 +604,7 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg'
-      },
-      coingeckoId: 'stkatom'
+      }
     },
     {
       description: 'SCRT transferred from the Osmosis mainnet that is supported on the Nolus chain',

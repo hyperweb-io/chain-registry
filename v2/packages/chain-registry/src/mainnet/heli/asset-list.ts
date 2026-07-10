@@ -15,7 +15,6 @@ const info: AssetList = {
       name: 'Heli',
       display: 'heli',
       symbol: 'HELI',
-      coingeckoId: 'helichain',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/heli/images/heli.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/heli/images/heli.svg'
