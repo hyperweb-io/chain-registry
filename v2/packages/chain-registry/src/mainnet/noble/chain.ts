@@ -65,7 +65,7 @@ const info: Chain = {
     rpc: [
       {
         address: 'https://noble-rpc.polkachu.com',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       },
       {
         address: 'https://rpc.lavenderfive.com:443/noble',
@@ -79,7 +79,7 @@ const info: Chain = {
     rest: [
       {
         address: 'https://noble-api.polkachu.com',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       },
       {
         address: 'https://rest.lavenderfive.com:443/noble',
@@ -93,7 +93,7 @@ const info: Chain = {
     grpc: [
       {
         address: 'noble-grpc.polkachu.com:21590',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       },
       {
         address: 'noble.lavenderfive.com:443',

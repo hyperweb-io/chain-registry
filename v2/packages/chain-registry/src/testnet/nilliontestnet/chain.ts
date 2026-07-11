@@ -52,7 +52,7 @@ const info: Chain = {
     rpc: [
       {
         address: 'https://nillion-testnet-rpc.polkachu.com/',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       },
       {
         address: 'https://testnet-nillion-rpc.lavenderfive.com',
@@ -70,7 +70,7 @@ const info: Chain = {
     rest: [
       {
         address: 'https://nillion-testnet-api.polkachu.com/',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       },
       {
         address: 'https://testnet-nillion-api.lavenderfive.com',

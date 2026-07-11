@@ -58,21 +58,21 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       }, {
         address: 'https://quicksilver-testnet-rpc.polkachu.com/',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       }],
     rest: [{
         address: 'https://quick.api.t.stavr.tech',
         provider: '🔥STAVR🔥'
       }, {
         address: 'https://quicksilver-testnet-api.polkachu.com/',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       }],
     grpc: [{
         address: 'http://quick.grpc.t.stavr.tech:9112',
         provider: '🔥STAVR🔥'
       }, {
         address: 'quicksilver-testnet-grpc.polkachu.com:11190',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       }]
   },
   explorers: [{

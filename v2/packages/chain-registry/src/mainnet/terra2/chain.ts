@@ -73,7 +73,7 @@ const info: Chain = {
       },
       {
         address: 'https://terra-rpc.polkachu.com',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       },
       {
         address: 'https://terra-rpc.stakely.io:443/',

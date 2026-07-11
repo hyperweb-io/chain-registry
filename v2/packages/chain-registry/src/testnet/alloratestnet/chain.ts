@@ -72,7 +72,7 @@ const info: Chain = {
       },
       {
         address: 'https://allora-testnet-rpc.polkachu.com',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       },
       {
         address: 'https://allora-rpc.sh.moonlet.cloud/public',
@@ -86,7 +86,7 @@ const info: Chain = {
       },
       {
         address: 'https://allora-testnet-api.polkachu.com',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       },
       {
         address: 'https://testnet-allora-api.lavenderfive.com',
@@ -102,7 +102,7 @@ const info: Chain = {
         provider: 'allora'
       }, {
         address: 'allora-testnet-grpc.polkachu.com:26790',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       }]
   },
   explorers: [
