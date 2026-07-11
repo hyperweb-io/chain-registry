@@ -167,7 +167,7 @@ const info: Chain = {
       },
       {
         address: 'https://kujira-rpc.polkachu.com',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       },
       {
         address: 'https://rpc.lavenderfive.com:443/kujira',
@@ -233,7 +233,7 @@ const info: Chain = {
       },
       {
         address: 'https://kujira-api.polkachu.com/',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       },
       {
         address: 'https://kujira-lcd.wildsage.io/',

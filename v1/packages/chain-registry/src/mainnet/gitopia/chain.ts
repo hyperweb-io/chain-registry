@@ -59,7 +59,7 @@ const info: Chain = {
     rpc: [
       {
         address: 'https://gitopia-rpc.polkachu.com:443',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       },
       {
         address: 'https://rpc.lavenderfive.com:443/gitopia',
@@ -173,7 +173,7 @@ const info: Chain = {
     rest: [
       {
         address: 'https://gitopia-api.polkachu.com:443',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       },
       {
         address: 'https://rest.lavenderfive.com:443/gitopia',
@@ -299,7 +299,7 @@ const info: Chain = {
       },
       {
         address: 'gitopia-grpc.polkachu.com:11390',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       },
       {
         address: 'services.staketab.com:9410',

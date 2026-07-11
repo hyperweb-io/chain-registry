@@ -29,11 +29,11 @@ const info: Chain = {
   apis: {
     rpc: [{
         address: 'https://kujira-testnet-rpc.polkachu.com',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       }],
     rest: [{
         address: 'https://kujira-testnet-api.polkachu.com/',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       }]
   },
   explorers: [{

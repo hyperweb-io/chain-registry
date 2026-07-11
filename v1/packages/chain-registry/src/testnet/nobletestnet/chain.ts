@@ -63,21 +63,21 @@ const info: Chain = {
   apis: {
     rpc: [{
         address: 'https://noble-testnet-rpc.polkachu.com',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       }, {
         address: 'https://rpc.testnet.noble.strange.love:443',
         provider: 'strangelove'
       }],
     rest: [{
         address: 'https://noble-testnet-api.polkachu.com',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       }, {
         address: 'https://api.testnet.noble.strange.love',
         provider: 'strangelove'
       }],
     grpc: [{
         address: 'noble-testnet-grpc.polkachu.com:21590',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       }]
   },
   explorers: [{

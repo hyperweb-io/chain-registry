@@ -82,7 +82,7 @@ const info: Chain = {
       },
       {
         address: 'https://quasar-rpc.polkachu.com',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       },
       {
         address: 'https://quasar-rpc.enigma-validator.com',
@@ -132,7 +132,7 @@ const info: Chain = {
       },
       {
         address: 'https://quasar-api.polkachu.com',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       },
       {
         address: 'https://api-quasar.cosmos-spaces.cloud',
@@ -182,7 +182,7 @@ const info: Chain = {
       },
       {
         address: 'quasar-grpc.polkachu.com:18290',
-        provider: 'polkachu'
+        provider: 'Polkachu'
       },
       {
         address: 'grpc-quasar.cosmos-spaces.cloud:12890',
