@@ -83,6 +83,10 @@ const info: Chain = {
       {
         address: 'https://zetachain-mainnet-tendermint.reliableninjas.com',
         provider: 'Reliable Ninjas'
+      },
+      {
+        address: 'https://zetachain-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -117,6 +121,10 @@ const info: Chain = {
       {
         address: 'https://zetachain-mainnet-cosmos.reliableninjas.com',
         provider: 'Reliable Ninjas'
+      },
+      {
+        address: 'https://zetachain-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -139,6 +147,10 @@ const info: Chain = {
       {
         address: 'zetachain-mainnet-grpc.cosmonautstakes.com:15190',
         provider: 'Cosmonaut Stakes'
+      },
+      {
+        address: 'zetachain-grpc.polkachu.com:22590',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -182,6 +194,13 @@ const info: Chain = {
       tx_page: 'https://zetachain.valopers.com/transactions/${txHash}',
       account_page: 'https://zetachain.valopers.com/account/${accountAddress}'
     }
-  ]
+  ],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/zetachain',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

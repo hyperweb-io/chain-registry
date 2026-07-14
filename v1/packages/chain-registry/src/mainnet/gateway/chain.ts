@@ -63,23 +63,40 @@ const info: Chain = {
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gateway/images/wormhole_icon.svg'
   },
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'http://wormchain-mainnet-1-full.tm.p2p.org/',
         provider: 'P2P'
-      }, {
+      },
+      {
         address: 'https://wormchain-rpc.quickapi.com/',
         provider: 'ChainLayer'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://wormchain-rpc.polkachu.com:443',
+        provider: 'Polkachu'
+      }
+    ],
+    rest: [
+      {
         address: 'http://wormchain-mainnet-1-full-rest.tm.p2p.org/',
         provider: 'P2P'
-      }, {
+      },
+      {
         address: 'https://wormchain-lcd.quickapi.com/',
         provider: 'ChainLayer'
-      }],
+      },
+      {
+        address: 'https://wormchain-api.polkachu.com',
+        provider: 'Polkachu'
+      }
+    ],
     grpc: [{
         address: 'http://wormchain-mainnet-1-full-grpc.tm.p2p.org',
         provider: 'P2P'
+      }, {
+        address: 'wormchain-grpc.polkachu.com:25990',
+        provider: 'Polkachu'
       }]
   },
   explorers: [{
@@ -88,6 +105,13 @@ const info: Chain = {
       tx_page: 'https://bigdipper.live/wormhole/transactions/${txHash}',
       account_page: 'https://bigdipper.live/wormhole/accounts/${accountAddress}'
     }],
-  keywords: ['bridge']
+  keywords: ['bridge'],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/wormchain',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

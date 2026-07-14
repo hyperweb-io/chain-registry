@@ -102,6 +102,10 @@ const info: Chain = {
       {
         address: 'https://saga-rpc.chainroot.io',
         provider: 'Chainroot'
+      },
+      {
+        address: 'https://saga-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -140,6 +144,10 @@ const info: Chain = {
       {
         address: 'https://saga-api.chainroot.io',
         provider: 'Chainroot'
+      },
+      {
+        address: 'https://saga-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -174,6 +182,10 @@ const info: Chain = {
       {
         address: 'saga-grpc.chainroot.io:443',
         provider: 'Chainroot'
+      },
+      {
+        address: 'saga-grpc.polkachu.com:24990',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -211,6 +223,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/saga',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

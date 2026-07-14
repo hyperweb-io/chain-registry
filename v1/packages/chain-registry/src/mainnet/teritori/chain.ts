@@ -57,10 +57,6 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://teritori-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://teritori.rpc.m.stavr.tech',
         provider: '🔥STAVR🔥'
       },
@@ -107,6 +103,10 @@ const info: Chain = {
       {
         address: 'https://teritori-rpc.chainroot.io',
         provider: 'Chainroot'
+      },
+      {
+        address: 'https://teritori-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -258,6 +258,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/chain.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/chain.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/teritori',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

@@ -106,6 +106,10 @@ const info: Chain = {
       {
         address: 'https://oraichain-mainnet-rpc.itrocket.net',
         provider: 'ITRocket'
+      },
+      {
+        address: 'https://orai-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -144,6 +148,10 @@ const info: Chain = {
       {
         address: 'https://oraichain-mainnet-api.itrocket.net',
         provider: 'ITRocket'
+      },
+      {
+        address: 'https://orai-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -182,6 +190,10 @@ const info: Chain = {
       {
         address: 'oraichain-mainnet-grpc.itrocket.net:443',
         provider: 'ITRocket'
+      },
+      {
+        address: 'orai-grpc.polkachu.com:23390',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -245,6 +257,13 @@ const info: Chain = {
         circle: false,
         dark_mode: false
       }
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/orai',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

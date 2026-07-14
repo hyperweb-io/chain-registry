@@ -55,22 +55,40 @@ const info: Chain = {
       {
         address: 'https://cronos.drpc.org',
         provider: 'dRPC'
+      },
+      {
+        address: 'https://cronos-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
-    rest: [{
+    rest: [
+      {
         address: 'https://rest.cronos.org/',
         provider: 'cronos.org'
-      }, {
+      },
+      {
         address: 'https://cronos-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      }],
-    grpc: [{
+      },
+      {
+        address: 'https://cronos-api.polkachu.com',
+        provider: 'Polkachu'
+      }
+    ],
+    grpc: [
+      {
         address: 'grpc.cronos.org:443',
         provider: 'cronos.org'
-      }, {
+      },
+      {
         address: 'cronos-grpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      }],
+      },
+      {
+        address: 'cronos-grpc.polkachu.com:23690',
+        provider: 'Polkachu'
+      }
+    ],
     "evm-http-jsonrpc": [{
         address: 'https://evm.cronos.org/',
         provider: 'cronos.org'
@@ -99,6 +117,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/cronos',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

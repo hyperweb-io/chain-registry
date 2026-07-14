@@ -41,10 +41,6 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://canto-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://rpc.canto.silentvalidator.com/',
         provider: 'silent'
       },
@@ -59,6 +55,10 @@ const info: Chain = {
       {
         address: 'https://rpc-canto.kewrnode.com',
         provider: 'Kewr Node'
+      },
+      {
+        address: 'https://canto-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -153,6 +153,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/canto',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

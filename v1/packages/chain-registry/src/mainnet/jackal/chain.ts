@@ -83,10 +83,6 @@ const info: Chain = {
         provider: 'Nodeist'
       },
       {
-        address: 'https://jackal-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://m-jackal.rpc.utsa.tech',
         provider: '𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀'
       },
@@ -133,6 +129,10 @@ const info: Chain = {
       {
         address: 'https://jackal.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://jackal-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -316,6 +316,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/jackal/images/jkl.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/jackal/images/jkl.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/jackal',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

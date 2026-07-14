@@ -120,6 +120,10 @@ const info: Chain = {
       {
         address: 'https://aura-rpc.noders.services',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'https://aura-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -178,6 +182,10 @@ const info: Chain = {
       {
         address: 'https://aura-api.noders.services',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'https://aura-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -236,6 +244,10 @@ const info: Chain = {
       {
         address: 'aura-grpc.noders.services:17090',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'aura-grpc.polkachu.com:21790',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -292,6 +304,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/aura',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

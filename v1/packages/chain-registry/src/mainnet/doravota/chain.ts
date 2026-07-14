@@ -59,6 +59,10 @@ const info: Chain = {
       {
         address: 'https://rpc.dora.roomit.xyz:443',
         provider: 'Roomit'
+      },
+      {
+        address: 'https://dora-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -85,6 +89,10 @@ const info: Chain = {
       {
         address: 'https://api.dora.roomit.xyz:443',
         provider: 'Roomit'
+      },
+      {
+        address: 'https://dora-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -107,6 +115,10 @@ const info: Chain = {
       {
         address: 'grpc.dora.roomit.xyz:8443',
         provider: 'Roomit'
+      },
+      {
+        address: 'dora-grpc.polkachu.com:25390',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -154,6 +166,13 @@ const info: Chain = {
       tx_page: 'https://explorer.tendermint.roomit.xyz/dora-mainnet/transactions/${txHash}',
       account_page: 'https://explorer.tendermint.roomit.xyz/dora-mainnet/account/${accountAddress}'
     }
-  ]
+  ],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/dora',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

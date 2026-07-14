@@ -100,6 +100,10 @@ const info: Chain = {
       {
         address: 'https://bitway.rpc.nodeshub.online:443',
         provider: 'NodesHub'
+      },
+      {
+        address: 'https://bitway-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -138,6 +142,10 @@ const info: Chain = {
       {
         address: 'https://bitway.api.nodeshub.online',
         provider: 'NodesHub'
+      },
+      {
+        address: 'https://bitway-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -172,6 +180,10 @@ const info: Chain = {
       {
         address: 'bitway.grpc.nodeshub.online',
         provider: 'Nodes Hub'
+      },
+      {
+        address: 'bitway-grpc.polkachu.com:26390',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -204,6 +216,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitway/images/btw.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitway/images/btw.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/bitway',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

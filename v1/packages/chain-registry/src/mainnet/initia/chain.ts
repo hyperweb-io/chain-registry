@@ -55,6 +55,10 @@ const info: Chain = {
       {
         address: 'https://initia-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
+      },
+      {
+        address: 'https://initia-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -69,6 +73,10 @@ const info: Chain = {
       {
         address: 'https://initia-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
+      },
+      {
+        address: 'https://initia-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -83,6 +91,10 @@ const info: Chain = {
       {
         address: 'initia-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
+      },
+      {
+        address: 'initia-grpc.polkachu.com:25790',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -107,6 +119,13 @@ const info: Chain = {
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png',
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.svg'
-  }
+  },
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/initia',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

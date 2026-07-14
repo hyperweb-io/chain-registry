@@ -80,6 +80,10 @@ const info: Chain = {
       {
         address: 'https://lumnetwork_mainnet_rpc.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://lum-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -102,6 +106,10 @@ const info: Chain = {
       {
         address: 'https://lumnetwork_mainnet_api.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://lum-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -120,6 +128,10 @@ const info: Chain = {
       {
         address: 'lum-grpc.stakerhouse.com:443',
         provider: 'StakerHouse'
+      },
+      {
+        address: 'lum-grpc.polkachu.com:16790',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -173,6 +185,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumnetwork/images/lum.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumnetwork/images/lum.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/lum',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

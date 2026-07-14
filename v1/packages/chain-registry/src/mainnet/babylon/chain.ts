@@ -73,14 +73,6 @@ const info: Chain = {
         provider: 'Nodes.Guru'
       },
       {
-        address: 'https://babylon-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
-        address: 'https://babylon-archive-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://babylon-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
@@ -91,6 +83,10 @@ const info: Chain = {
       {
         address: 'https://rpc.babylon.validatus.com',
         provider: 'Validatus'
+      },
+      {
+        address: 'https://babylon-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -100,10 +96,6 @@ const info: Chain = {
       },
       {
         address: 'https://babylon-api.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
-        address: 'https://babylon-archive-api.polkachu.com',
         provider: 'Polkachu'
       },
       {
@@ -126,10 +118,6 @@ const info: Chain = {
       },
       {
         address: 'babylon-grpc.polkachu.com:20690',
-        provider: 'Polkachu'
-      },
-      {
-        address: 'babylon-archive-grpc.polkachu.com:20690',
         provider: 'Polkachu'
       },
       {
@@ -175,6 +163,19 @@ const info: Chain = {
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg'
     }],
-  description: 'Babylon Genesis enables Bitcoin tokens to be used as an economic security layer for Proof of Stake (PoS) systems without relying on bridges, wrapping, or third-party custody.'
+  description: 'Babylon Genesis enables Bitcoin tokens to be used as an economic security layer for Proof of Stake (PoS) systems without relying on bridges, wrapping, or third-party custody.',
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/babylon',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
+    }, {
+      url: 'https://polkachu.com/archive_snapshots/babylon',
+      type: 'archive',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

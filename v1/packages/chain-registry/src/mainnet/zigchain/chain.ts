@@ -164,6 +164,13 @@ const info: Chain = {
     'rwa',
     'wealth generation infrastructure',
     'wasm'
-  ]
+  ],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/zigchain',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

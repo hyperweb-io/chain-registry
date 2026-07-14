@@ -3,6 +3,47 @@ const assets: AssetList = {
   chain_name: 'passage',
   assets: [
     {
+      description: 'Dragon Token is the native staking and governance token of Dungeon Chain, serving as the backbone of the ecosystem. Its primary roles include staking, where users stake Dragon Tokens to secure the network, enhance its functionality, and earn rewards in return; governance, granting token holders voting rights to influence key decisions such as game onboarding, protocol updates, and community-driven initiatives; and ecosystem growth, facilitating transactions, incentivizing developers, and promoting the creation of new interchain games. Dragon Token ensures a decentralized, fair, and community-driven ecosystem, fostering the evolution of blockchain-based gaming. It plays a crucial role in driving the growth of Dungeon Chain by empowering both developers and players to participate actively in the ecosystem\'s governance and success.',
+      denom_units: [{
+          denom: 'ibc/5722440AAB0970916B61ECF25C6342CF81DB0993A4F84EDD8873F2BE01363647',
+          exponent: 0,
+          aliases: ['udgn']
+        }, {
+          denom: 'DGN',
+          exponent: 6
+        }],
+      base: 'ibc/5722440AAB0970916B61ECF25C6342CF81DB0993A4F84EDD8873F2BE01363647',
+      name: 'Dragon Coin',
+      display: 'DGN',
+      coingecko_id: 'dragon-coin-2',
+      symbol: 'DGN',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png'
+      },
+      socials: {
+        website: 'https://dungeongames.io',
+        x: 'https://x.com/cryptodungeonma'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png',
+          theme: {
+            circle: true
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-5318',
+            base_denom: 'udgn',
+            chain_name: 'dungeon'
+          },
+          chain: {
+            channel_id: 'channel-13'
+          }
+        }]
+    },
+    {
       description: 'The native token of Osmosis',
       denom_units: [{
           denom: 'ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518',
@@ -81,6 +122,47 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-0'
+          }
+        }]
+    },
+    {
+      description: 'Dragon Token is the native staking and governance token of Dungeon Chain, serving as the backbone of the ecosystem. Its primary roles include staking, where users stake Dragon Tokens to secure the network, enhance its functionality, and earn rewards in return; governance, granting token holders voting rights to influence key decisions such as game onboarding, protocol updates, and community-driven initiatives; and ecosystem growth, facilitating transactions, incentivizing developers, and promoting the creation of new interchain games. Dragon Token ensures a decentralized, fair, and community-driven ecosystem, fostering the evolution of blockchain-based gaming. It plays a crucial role in driving the growth of Dungeon Chain by empowering both developers and players to participate actively in the ecosystem\'s governance and success.',
+      denom_units: [{
+          denom: 'ibc/5722440AAB0970916B61ECF25C6342CF81DB0993A4F84EDD8873F2BE01363647',
+          exponent: 0,
+          aliases: ['udgn']
+        }, {
+          denom: 'DGN',
+          exponent: 6
+        }],
+      base: 'ibc/5722440AAB0970916B61ECF25C6342CF81DB0993A4F84EDD8873F2BE01363647',
+      name: 'Dragon Coin',
+      display: 'DGN',
+      coingecko_id: 'dragon-coin-2',
+      symbol: 'DGN',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png'
+      },
+      socials: {
+        website: 'https://dungeongames.io',
+        x: 'https://x.com/cryptodungeonma'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png',
+          theme: {
+            circle: true
+          }
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-5318',
+            base_denom: 'udgn',
+            chain_name: 'dungeon'
+          },
+          chain: {
+            channel_id: 'channel-13'
           }
         }]
     },

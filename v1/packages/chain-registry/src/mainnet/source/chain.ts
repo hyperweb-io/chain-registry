@@ -124,6 +124,10 @@ const info: Chain = {
       {
         address: 'https://source-rpc.bluestake.net:443',
         provider: 'BlueStake 🚀'
+      },
+      {
+        address: 'https://source-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -202,6 +206,10 @@ const info: Chain = {
       {
         address: 'https://source-api.bluestake.net',
         provider: 'BlueStake 🚀'
+      },
+      {
+        address: 'https://source-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -260,6 +268,10 @@ const info: Chain = {
       {
         address: 'source-grpc.moonbridge.org:443',
         provider: 'Moonbridge'
+      },
+      {
+        address: 'source-grpc.polkachu.com:15890',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -347,6 +359,13 @@ const info: Chain = {
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.png',
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg'
-  }
+  },
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/source',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

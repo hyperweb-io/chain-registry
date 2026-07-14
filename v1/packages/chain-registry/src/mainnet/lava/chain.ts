@@ -152,6 +152,10 @@ const info: Chain = {
       {
         address: 'https://lava-rpc.linknode.org',
         provider: 'AstroStake'
+      },
+      {
+        address: 'https://lava-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -230,6 +234,10 @@ const info: Chain = {
       {
         address: 'https://lava-api.linknode.org',
         provider: 'AstroStake'
+      },
+      {
+        address: 'https://lava-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -292,6 +300,10 @@ const info: Chain = {
       {
         address: 'lava-grpc.linknode.org:443',
         provider: 'AstroStake'
+      },
+      {
+        address: 'lava-grpc.polkachu.com:19990',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -366,6 +378,13 @@ const info: Chain = {
     'dual staking',
     'indexing',
     'incentivized public rpc'
-  ]
+  ],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/lava',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

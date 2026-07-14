@@ -72,10 +72,6 @@ const chain: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://juno-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://rpc.lavenderfive.com:443/juno',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -106,6 +102,10 @@ const chain: Chain = {
       {
         address: 'https://juno.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://juno-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -244,6 +244,13 @@ const chain: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/juno',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default chain;

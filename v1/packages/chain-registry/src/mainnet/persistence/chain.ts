@@ -79,10 +79,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://persistence-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://persistence-rpc.kleomedes.network',
         provider: 'Kleomedes'
       },
@@ -153,6 +149,10 @@ const info: Chain = {
       {
         address: 'https://persistence.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://persistence-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -364,6 +364,12 @@ const info: Chain = {
       frequency: 'every 3h',
       compression: 'tar',
       checksum_available: true
+    }, {
+      url: 'https://polkachu.com/tendermint_snapshots/persistence',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

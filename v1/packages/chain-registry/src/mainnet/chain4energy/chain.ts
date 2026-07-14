@@ -181,6 +181,10 @@ const info: Chain = {
       {
         address: 'https://rpc.polcrypto.pl:443',
         provider: 'POLCRYPTO.PL'
+      },
+      {
+        address: 'https://chain4energy-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -291,6 +295,10 @@ const info: Chain = {
       {
         address: 'https://rest.polcrypto.pl:443',
         provider: 'POLCRYPTO.PL'
+      },
+      {
+        address: 'https://chain4energy-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -397,6 +405,10 @@ const info: Chain = {
       {
         address: 'grpc.polcrypto.pl:443',
         provider: 'POLCRYPTO.PL'
+      },
+      {
+        address: 'chain4energy-grpc.polkachu.com:27290',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -487,6 +499,13 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/chain4energy',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

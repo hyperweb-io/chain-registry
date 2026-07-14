@@ -610,6 +610,40 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Passage.io is a decentralized platform that enables users to create, distribute, and monetize immersive virtual experiences and content using blockchain technology.',
+      denom_units: [{
+          denom: 'ibc/73E558C82602DE116482AD0EFC351A375E7FF7048ED6A2C45F86A0BFE670CD5F',
+          exponent: 0,
+          aliases: ['upasg']
+        }, {
+          denom: 'pasg',
+          exponent: 6
+        }],
+      base: 'ibc/73E558C82602DE116482AD0EFC351A375E7FF7048ED6A2C45F86A0BFE670CD5F',
+      name: 'Passage',
+      display: 'pasg',
+      symbol: 'PASG',
+      coingecko_id: 'passage',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/passage/images/pasg.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/passage/images/pasg.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-13',
+            base_denom: 'upasg',
+            chain_name: 'passage'
+          },
+          chain: {
+            channel_id: 'channel-5318'
+          }
+        }]
+    },
+    {
       description: 'Neutron is a smart contract blockchain within the Cosmos ecosystem, leveraging the Cosmos Hub\'s security to provide cross-chain DeFi applications.',
       denom_units: [{
           denom: 'ibc/1F8CB23E10369EF0A5E88407E13D5FB20F74EED779BD8B3AE24973B12047EF96',
@@ -973,6 +1007,40 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-5305'
+          }
+        }]
+    },
+    {
+      description: 'Passage.io is a decentralized platform that enables users to create, distribute, and monetize immersive virtual experiences and content using blockchain technology.',
+      denom_units: [{
+          denom: 'ibc/73E558C82602DE116482AD0EFC351A375E7FF7048ED6A2C45F86A0BFE670CD5F',
+          exponent: 0,
+          aliases: ['upasg']
+        }, {
+          denom: 'pasg',
+          exponent: 6
+        }],
+      base: 'ibc/73E558C82602DE116482AD0EFC351A375E7FF7048ED6A2C45F86A0BFE670CD5F',
+      name: 'Passage',
+      display: 'pasg',
+      symbol: 'PASG',
+      coingecko_id: 'passage',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/passage/images/pasg.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/passage/images/pasg.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-13',
+            base_denom: 'upasg',
+            chain_name: 'passage'
+          },
+          chain: {
+            channel_id: 'channel-5318'
           }
         }]
     }

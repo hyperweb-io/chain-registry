@@ -85,10 +85,6 @@ const info: Chain = {
         provider: 'Imperator.co'
       },
       {
-        address: 'https://xion-rpc.polkachu.com:443',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://xion-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -99,6 +95,10 @@ const info: Chain = {
       {
         address: 'https://xion-rpc.kingnodes.com:443',
         provider: 'kingnodes 👑'
+      },
+      {
+        address: 'https://verona-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -115,10 +115,6 @@ const info: Chain = {
         provider: 'Imperator.co'
       },
       {
-        address: 'https://xion-api.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://xion-mainnet-lcd.autostake.com',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -129,6 +125,10 @@ const info: Chain = {
       {
         address: 'https://xion-rest.kingnodes.com',
         provider: 'kingnodes 👑'
+      },
+      {
+        address: 'https://verona-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -141,10 +141,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'xion-grpc.polkachu.com:22390',
-        provider: 'Polkachu'
-      },
-      {
         address: 'xion-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -155,6 +151,10 @@ const info: Chain = {
       {
         address: 'xion-grpc.kingnodes.com:443',
         provider: 'kingnodes 👑'
+      },
+      {
+        address: 'verona-grpc.polkachu.com:22390',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -204,6 +204,13 @@ const info: Chain = {
     'xion',
     'burnt',
     'mainnet'
-  ]
+  ],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/verona',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

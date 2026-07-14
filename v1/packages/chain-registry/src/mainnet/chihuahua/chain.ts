@@ -67,10 +67,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://chihuahua-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://rpc.lavenderfive.com:443/chihuahua',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -109,6 +105,10 @@ const info: Chain = {
       {
         address: 'https://chihuahua.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://chihuahua-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -245,6 +245,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/chihuahua',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

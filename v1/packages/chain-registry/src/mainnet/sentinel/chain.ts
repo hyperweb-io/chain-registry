@@ -116,6 +116,10 @@ const info: Chain = {
       {
         address: 'https://rpc.sentinel.validatus.com',
         provider: 'Validatus'
+      },
+      {
+        address: 'https://sentinel-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -186,6 +190,10 @@ const info: Chain = {
       {
         address: 'https://api.sentinel.validatus.com',
         provider: 'Validatus'
+      },
+      {
+        address: 'https://sentinel-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -240,6 +248,10 @@ const info: Chain = {
       {
         address: 'grpc.sentinel.validatus.com:443',
         provider: 'Validatus'
+      },
+      {
+        address: 'sentinel-grpc.polkachu.com:23990',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -294,6 +306,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/sentinel',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

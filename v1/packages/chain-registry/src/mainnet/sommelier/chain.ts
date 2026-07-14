@@ -61,10 +61,6 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://sommelier-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://rpc-sommelier.pupmos.network',
         provider: 'PUPMØS'
       },
@@ -87,6 +83,10 @@ const info: Chain = {
       {
         address: 'https://sommelier-rpc.w3coins.io',
         provider: 'w3coins'
+      },
+      {
+        address: 'https://sommelier-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -192,6 +192,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/sommelier',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

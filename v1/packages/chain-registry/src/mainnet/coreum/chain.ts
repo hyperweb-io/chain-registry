@@ -110,6 +110,10 @@ const info: Chain = {
       {
         address: 'https://coreum-rpc.chainroot.io',
         provider: 'Chainroot'
+      },
+      {
+        address: 'https://coreum-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -140,6 +144,10 @@ const info: Chain = {
       {
         address: 'coreum-grpc.chainroot.io:443',
         provider: 'Chainroot'
+      },
+      {
+        address: 'coreum-grpc.polkachu.com:24490',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -186,6 +194,10 @@ const info: Chain = {
       {
         address: 'https://coreum-api.chainroot.io',
         provider: 'Chainroot'
+      },
+      {
+        address: 'https://coreum-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -245,6 +257,13 @@ const info: Chain = {
     'RWA Protocol',
     'RWA Marketplace',
     'tokenization'
-  ]
+  ],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/coreum',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

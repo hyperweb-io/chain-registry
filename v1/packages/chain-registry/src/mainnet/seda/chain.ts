@@ -72,10 +72,6 @@ const info: Chain = {
         provider: 'SEDA'
       },
       {
-        address: 'https://seda-rpc.polkachu.com/',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://seda.rpc.kjnodes.com',
         provider: 'kjnodes'
       },
@@ -126,16 +122,16 @@ const info: Chain = {
       {
         address: 'https://seda.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://seda-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
       {
         address: 'https://lcd.mainnet.seda.xyz/',
         provider: 'SEDA'
-      },
-      {
-        address: 'https://seda-api.polkachu.com/',
-        provider: 'Polkachu'
       },
       {
         address: 'https://seda.api.kjnodes.com',
@@ -188,6 +184,10 @@ const info: Chain = {
       {
         address: 'https://seda.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://seda-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -272,6 +272,13 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/seda',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

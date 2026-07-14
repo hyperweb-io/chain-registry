@@ -57,23 +57,40 @@ const info: Chain = {
   },
   description: 'BitBadges is the all-in-one, multi-chain platform for building your digital identity.',
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://rpc.bitbadges.io',
         provider: 'bitbadges'
-      }, {
+      },
+      {
         address: 'https://bitbadges_mainnet_rpc.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://bitbadges-rpc.polkachu.com:443',
+        provider: 'Polkachu'
+      }
+    ],
+    rest: [
+      {
         address: 'https://lcd.bitbadges.io',
         provider: 'bitbadges'
-      }, {
+      },
+      {
         address: 'https://bitbadges_mainnet_api.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
-      }],
+      },
+      {
+        address: 'https://bitbadges-api.polkachu.com',
+        provider: 'Polkachu'
+      }
+    ],
     grpc: [{
         address: 'https://grpc.bitbadges.io',
         provider: 'bitbadges'
+      }, {
+        address: 'bitbadges-grpc.polkachu.com:32990',
+        provider: 'Polkachu'
       }],
     "evm-http-jsonrpc": [{
         address: 'https://evm-rpc.bitbadges.io',
@@ -102,6 +119,13 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/bitbadges',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

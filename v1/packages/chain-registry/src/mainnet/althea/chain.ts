@@ -70,6 +70,10 @@ const info: Chain = {
       {
         address: 'https://api.althea-archive.citizenweb3.com',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://althea-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     rpc: [
@@ -96,6 +100,10 @@ const info: Chain = {
       {
         address: 'https://rpc.althea-archive.citizenweb3.com',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://althea-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -110,6 +118,10 @@ const info: Chain = {
       {
         address: 'grpc.althea-archive.citizenweb3.com:443',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'althea-grpc.polkachu.com:12490',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -144,6 +156,13 @@ const info: Chain = {
       validator_page: 'https://validatorinfo.com/networks/althea/validators',
       proposal_page: 'https://validatorinfo.com/networks/althea/governance'
     }
-  ]
+  ],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/althea',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

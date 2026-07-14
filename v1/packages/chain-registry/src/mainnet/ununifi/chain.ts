@@ -81,6 +81,10 @@ const info: Chain = {
       {
         address: 'https://ununifi-rpc.genznodes.dev',
         provider: 'genznodes'
+      },
+      {
+        address: 'https://ununifi-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -99,6 +103,10 @@ const info: Chain = {
       {
         address: 'https://ununifi-api.genznodes.dev',
         provider: 'genznodes'
+      },
+      {
+        address: 'https://ununifi-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -125,6 +133,10 @@ const info: Chain = {
       {
         address: 'ununifi-grpc.genznodes.dev:54090',
         provider: 'genznodes'
+      },
+      {
+        address: 'ununifi-grpc.polkachu.com:23290',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -163,6 +175,13 @@ const info: Chain = {
         base_denom: 'uguu'
       },
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ununifi/images/ununifi.png'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/ununifi',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

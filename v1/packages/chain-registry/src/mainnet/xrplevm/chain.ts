@@ -66,27 +66,48 @@ const info: Chain = {
     }],
   description: 'The XRPL Ethereum Virtual Machine (EVM) is an innovative extension of the XRP Ledger developed by Peersyst in collaboration with Ripple that integrates Ethereum\'s smart contract capabilities via a dedicated sidechain. Built on the Cosmos SDK with a fork of evmOS, this sidechain utilizes a Proof-of-Authority (PoA) consensus model, ensuring high performance and low latency while maintaining the fundamental attributes of the XRP Ledger. It connects to the XRP Ledger through the Axelar network, employing XRP—bridged from the XRPL—as its native currency. This allows for seamless asset transfers and communication between the XRPL and the EVM sidechain. Moreover, the XRPL EVM supports Inter-Blockchain Communication (IBC), promoting interoperability with other blockchains in the Cosmos ecosystem.',
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://cosmos-rpc.xrplevm.org',
         provider: 'Peersyst'
-      }, {
+      },
+      {
         address: 'https://rpc.xrpl.cumulo.org.es',
         provider: 'Cumulo'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://xrp-rpc.polkachu.com:443',
+        provider: 'Polkachu'
+      }
+    ],
+    rest: [
+      {
         address: 'https://cosmos-api.xrplevm.org',
         provider: 'Peersyst'
-      }, {
+      },
+      {
         address: 'https://api.xrpl.cumulo.org.es',
         provider: 'Cumulo'
-      }],
-    grpc: [{
+      },
+      {
+        address: 'https://xrp-api.polkachu.com',
+        provider: 'Polkachu'
+      }
+    ],
+    grpc: [
+      {
         address: 'https://cosmos-grpc.xrplevm.org',
         provider: 'Peersyst'
-      }, {
+      },
+      {
         address: 'https://grpc.xrpl.cumulo.org.es',
         provider: 'Cumulo'
-      }],
+      },
+      {
+        address: 'xrp-grpc.polkachu.com:30090',
+        provider: 'Polkachu'
+      }
+    ],
     "evm-http-jsonrpc": [{
         address: 'https://rpc.xrplevm.org',
         provider: 'Peersyst'
@@ -127,6 +148,13 @@ const info: Chain = {
     'axelar',
     'xrp',
     'xrplevm'
-  ]
+  ],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/xrp',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

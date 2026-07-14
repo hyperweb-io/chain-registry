@@ -71,6 +71,10 @@ const info: Chain = {
       {
         address: 'https://rpc.arkeo.validatus.com',
         provider: 'Validatus'
+      },
+      {
+        address: 'https://arkeo-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -93,6 +97,10 @@ const info: Chain = {
       {
         address: 'https://api.arkeo.validatus.com',
         provider: 'Validatus'
+      },
+      {
+        address: 'https://arkeo-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -107,6 +115,10 @@ const info: Chain = {
       {
         address: 'https://grpc.arkeo.validatus.com:443',
         provider: 'Validatus'
+      },
+      {
+        address: 'arkeo-grpc.polkachu.com:22890',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -143,6 +155,13 @@ const info: Chain = {
     'data',
     'oracle',
     'marketplace'
-  ]
+  ],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/arkeo',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

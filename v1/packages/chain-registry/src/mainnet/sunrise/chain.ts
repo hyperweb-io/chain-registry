@@ -167,6 +167,10 @@ const info: Chain = {
       {
         address: 'https://rpc-sunrise.gombezzz.xyz',
         provider: 'GombezzZ'
+      },
+      {
+        address: 'https://sunrise-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -277,6 +281,10 @@ const info: Chain = {
       {
         address: 'https://api-sunrise.gombezzz.xyz',
         provider: 'GombezzZ'
+      },
+      {
+        address: 'https://sunrise-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -371,6 +379,10 @@ const info: Chain = {
       {
         address: 'grpc-sunrise.gombezzz.xyz:443',
         provider: 'GombezzZ'
+      },
+      {
+        address: 'sunrise-grpc.polkachu.com:28390',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -516,6 +528,19 @@ const info: Chain = {
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg',
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.png'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/sunrise',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
+    }, {
+      url: 'https://polkachu.com/archive_snapshots/sunrise',
+      type: 'archive',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

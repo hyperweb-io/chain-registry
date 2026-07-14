@@ -43,10 +43,6 @@ const info: Chain = {
         provider: 'fetch.ai'
       },
       {
-        address: 'https://fetch-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://fetchai-rpc.kleomedes.network',
         provider: 'Kleomedes'
       },
@@ -101,6 +97,10 @@ const info: Chain = {
       {
         address: 'https://fetch.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://fetch-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -290,6 +290,12 @@ const info: Chain = {
       frequency: 'every 3h',
       compression: 'tar',
       checksum_available: true
+    }, {
+      url: 'https://polkachu.com/tendermint_snapshots/fetch',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

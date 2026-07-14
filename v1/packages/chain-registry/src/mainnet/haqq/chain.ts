@@ -107,6 +107,10 @@ const info: Chain = {
       {
         address: 'https://haqq.rpc.onenov.xyz',
         provider: 'OneNov'
+      },
+      {
+        address: 'https://haqq-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -153,6 +157,10 @@ const info: Chain = {
       {
         address: 'https://haqq.api.onenov.xyz',
         provider: 'OneNov'
+      },
+      {
+        address: 'https://haqq-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -199,6 +207,10 @@ const info: Chain = {
       {
         address: 'grpc-haqq.onenov.xyz:443',
         provider: 'OneNov'
+      },
+      {
+        address: 'haqq-grpc.polkachu.com:24090',
+        provider: 'Polkachu'
       }
     ],
     "evm-http-jsonrpc": [
@@ -282,6 +294,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/haqq.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/haqq',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

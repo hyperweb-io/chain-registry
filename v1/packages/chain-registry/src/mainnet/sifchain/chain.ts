@@ -43,10 +43,6 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://sifchain-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://sifchain-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -57,6 +53,10 @@ const info: Chain = {
       {
         address: 'https://sifchain_mainnet_rpc.chain.whenmoonwhenlambo.money:443',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://sifchain-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -130,6 +130,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/sifchain',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

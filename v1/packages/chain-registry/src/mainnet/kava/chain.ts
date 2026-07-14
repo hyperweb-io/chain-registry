@@ -46,10 +46,6 @@ const info: Chain = {
         provider: 'kava'
       },
       {
-        address: 'https://kava-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://kava-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -64,6 +60,10 @@ const info: Chain = {
       {
         address: 'https://kava.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://kava-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -178,6 +178,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/kava',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

@@ -37,20 +37,34 @@ const info: Chain = {
     }
   },
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://cosmos-rpc.limonata.xyz',
         provider: 'Limonata'
-      }, {
+      },
+      {
         address: 'https://rpc-t.limonata.vinjan-inc.com',
         provider: 'Vinjan.Inc'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://rpc.limo-test.onenov.xyz',
+        provider: 'OneNov'
+      }
+    ],
+    rest: [
+      {
         address: 'https://rest.limonata.xyz',
         provider: 'Limonata'
-      }, {
+      },
+      {
         address: 'https://api-t.limonata.vinjan-inc.com',
         provider: 'Vinjan.Inc'
-      }],
+      },
+      {
+        address: 'https://api.limo-test.onenov.xyz',
+        provider: 'OneNov'
+      }
+    ],
     "evm-http-jsonrpc": [{
         address: 'https://rpc.limonata.xyz',
         provider: 'Limonata'
@@ -61,6 +75,13 @@ const info: Chain = {
       url: 'https://explorer.limonata.xyz',
       tx_page: 'https://explorer.limonata.xyz/tx/${txHash}',
       account_page: 'https://explorer.limonata.xyz/address/${accountAddress}'
+    }, {
+      kind: 'OneNov Explorer',
+      url: 'https://explorer.onenov.xyz/limonata-test',
+      tx_page: 'https://explorer.onenov.xyz/limonata-test/tx/${txHash}',
+      account_page: 'https://explorer.onenov.xyz/limonata-test/account/${accountAddress}',
+      validator_page: 'https://explorer.onenov.xyz/limonata-test/validator/${validatorAddress}',
+      block_page: 'https://explorer.onenov.xyz/limonata-test/block/${block}'
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/limonatatestnet/images/limonatatestnet.png'

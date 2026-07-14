@@ -143,6 +143,10 @@ const info: Chain = {
       {
         address: 'https://neutron.rpc.uquad.org:443',
         provider: 'QUAD'
+      },
+      {
+        address: 'https://neutron-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -198,6 +202,10 @@ const info: Chain = {
       {
         address: 'https://neutron.rpc.uquad.org:443',
         provider: 'QUAD'
+      },
+      {
+        address: 'https://neutron-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -233,6 +241,10 @@ const info: Chain = {
       {
         address: 'rpc.neutron.quokkastake.io:9090',
         provider: '🐹 Quokka Stake'
+      },
+      {
+        address: 'neutron-grpc.polkachu.com:19190',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -280,6 +292,13 @@ const info: Chain = {
       theme: {
         circle: false
       }
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/neutron',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

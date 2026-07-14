@@ -64,14 +64,23 @@ const info: Chain = {
     rpc: [{
         address: 'https://allora-rpc.mainnet.allora.network',
         provider: 'allora'
+      }, {
+        address: 'https://allora-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }],
     rest: [{
         address: 'https://allora-api.mainnet.allora.network',
         provider: 'allora'
+      }, {
+        address: 'https://allora-api.polkachu.com',
+        provider: 'Polkachu'
       }],
     grpc: [{
         address: 'allora-grpc.mainnet.allora.network:443',
         provider: 'allora'
+      }, {
+        address: 'allora-grpc.polkachu.com:26790',
+        provider: 'Polkachu'
       }]
   },
   explorers: [{
@@ -83,6 +92,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/allora',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

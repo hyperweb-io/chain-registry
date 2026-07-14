@@ -56,10 +56,6 @@ const info: Chain = {
         provider: 'ecostake'
       },
       {
-        address: 'https://cryptocom-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://cryptocom-rpc.w3coins.io',
         provider: 'w3coins'
       },
@@ -70,6 +66,10 @@ const info: Chain = {
       {
         address: 'https://cro-chain-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
+      },
+      {
+        address: 'https://cryptocom-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -155,6 +155,13 @@ const info: Chain = {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cryptoorgchain/images/cronos.png'
     }, {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/cryptocom',
+      type: 'pruned',
+      compression: 'lz4',
+      checksum_available: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;
