@@ -131,6 +131,10 @@ const info: Chain = {
       {
         address: 'https://nibiru-rpc.node39.top:443',
         provider: 'Node39'
+      },
+      {
+        address: 'https://nibiru-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -193,6 +197,10 @@ const info: Chain = {
       {
         address: 'https://nibiru-api.node39.top:443',
         provider: 'Node39'
+      },
+      {
+        address: 'https://nibiru-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -251,6 +259,10 @@ const info: Chain = {
       {
         address: 'nibiru-grpc.node39.top:14090',
         provider: 'Node39'
+      },
+      {
+        address: 'nibiru-grpc.polkachu.com:19890',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -319,6 +331,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/nibiru',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

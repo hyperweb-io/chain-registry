@@ -92,6 +92,10 @@ const info: Chain = {
       {
         address: 'https://lumera-rpc.dungeon.games',
         provider: 'Dungeon'
+      },
+      {
+        address: 'https://lumera-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -118,6 +122,10 @@ const info: Chain = {
       {
         address: 'https://lumera-lcd.dungeon.games',
         provider: 'Dungeon'
+      },
+      {
+        address: 'https://lumera-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -132,6 +140,10 @@ const info: Chain = {
       {
         address: 'lumera-grpc.linknode.org:443',
         provider: 'AstroStake'
+      },
+      {
+        address: 'lumera-grpc.polkachu.com:30790',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -166,6 +178,13 @@ const info: Chain = {
     'lume',
     'mainnet',
     'pastel'
-  ]
+  ],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/lumera',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

@@ -51,10 +51,6 @@ const info: Chain = {
         provider: 'High Stakes 🇨🇭'
       },
       {
-        address: 'https://injective-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://rpc.lavenderfive.com:443/injective',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -69,6 +65,10 @@ const info: Chain = {
       {
         address: 'https://injective.rpc.uquad.org:443',
         provider: 'QUAD'
+      },
+      {
+        address: 'https://injective-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -123,20 +123,13 @@ const info: Chain = {
         provider: '[NODERS]TEAM'
       }
     ],
-    evmHttpJsonrpc: [
-      {
+    evmHttpJsonrpc: [{
         address: 'https://injective.json-rpc.decentrio.ventures',
         provider: 'Decentrio'
-      },
-      {
+      }, {
         address: 'https://sentry.evm-rpc.injective.network',
         provider: 'injectivelabs.org'
-      },
-      {
-        address: 'https://injectiveevm-rpc.polkachu.com',
-        provider: 'Polkachu'
-      }
-    ]
+      }]
   },
   explorers: [
     {
@@ -201,7 +194,8 @@ const info: Chain = {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
     }],
-  snapshots: [{
+  snapshots: [
+    {
       provider: 'High Stakes 🇨🇭',
       url: 'https://tools.highstakes.ch/snapshots/injective',
       latestUrl: 'https://tools.highstakes.ch/files/injective.tar.gz',
@@ -210,7 +204,8 @@ const info: Chain = {
       frequency: 'every 3h',
       compression: 'tar',
       checksumAvailable: true
-    }, {
+    },
+    {
       provider: 'High Stakes 🇨🇭',
       url: 'https://tools.highstakes.ch/snapshots/injective',
       latestUrl: 'https://tools.highstakes.ch/files/injective_pebbledb.tar.gz',
@@ -219,6 +214,14 @@ const info: Chain = {
       frequency: 'every 3h',
       compression: 'tar',
       checksumAvailable: true
-    }]
+    },
+    {
+      url: 'https://polkachu.com/tendermint_snapshots/injective',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
+    }
+  ]
 };
 export default info;

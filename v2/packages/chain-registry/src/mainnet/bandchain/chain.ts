@@ -109,6 +109,10 @@ const info: Chain = {
       {
         address: 'https://band-rpc.noders.services',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'https://band-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -159,6 +163,10 @@ const info: Chain = {
       {
         address: 'https://band-api.noders.services',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'https://band-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -201,6 +209,10 @@ const info: Chain = {
       {
         address: 'band-grpc.noders.services:30090',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'band-grpc.polkachu.com:22990',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -278,6 +290,12 @@ const info: Chain = {
       frequency: 'every 3h',
       compression: 'tar',
       checksumAvailable: true
+    }, {
+      url: 'https://polkachu.com/tendermint_snapshots/band',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

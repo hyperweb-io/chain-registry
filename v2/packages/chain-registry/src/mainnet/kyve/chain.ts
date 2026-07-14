@@ -109,6 +109,10 @@ const info: Chain = {
       {
         address: 'https://kyve-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
+      },
+      {
+        address: 'https://kyve-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -159,6 +163,10 @@ const info: Chain = {
       {
         address: 'https://kyve-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
+      },
+      {
+        address: 'https://kyve-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -197,6 +205,10 @@ const info: Chain = {
       {
         address: 'kyve-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
+      },
+      {
+        address: 'kyve-grpc.polkachu.com:11090',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -265,6 +277,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/kyve',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

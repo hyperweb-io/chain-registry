@@ -170,6 +170,10 @@ const info: Chain = {
       {
         address: 'https://archway-rpc.chainroot.io',
         provider: 'Chainroot'
+      },
+      {
+        address: 'https://archway-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -264,6 +268,10 @@ const info: Chain = {
       {
         address: 'https://archway-api.chainroot.io',
         provider: 'Chainroot'
+      },
+      {
+        address: 'https://archway-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -350,6 +358,10 @@ const info: Chain = {
       {
         address: 'archway-grpc.chainroot.io:443',
         provider: 'Chainroot'
+      },
+      {
+        address: 'archway-grpc.polkachu.com:11590',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -417,6 +429,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/archway',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

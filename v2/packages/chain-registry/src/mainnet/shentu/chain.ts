@@ -56,10 +56,6 @@ const info: Chain = {
         provider: 'Shentu'
       },
       {
-        address: 'https://shentu-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://shentu.rpc.m.stavr.tech:443',
         provider: '🔥STAVR🔥'
       },
@@ -102,6 +98,10 @@ const info: Chain = {
       {
         address: 'https://shentu.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://shentu-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -263,6 +263,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/shentu',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

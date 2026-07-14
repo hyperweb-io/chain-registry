@@ -100,6 +100,10 @@ const info: Chain = {
       {
         address: 'https://humans-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
+      },
+      {
+        address: 'https://humans-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -150,6 +154,10 @@ const info: Chain = {
       {
         address: 'https://humans-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
+      },
+      {
+        address: 'https://humans-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -192,6 +200,10 @@ const info: Chain = {
       {
         address: 'humans-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
+      },
+      {
+        address: 'humans-grpc.polkachu.com:18490',
+        provider: 'Polkachu'
       }
     ],
     evmHttpJsonrpc: [
@@ -279,6 +291,13 @@ const info: Chain = {
   ],
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/humans',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

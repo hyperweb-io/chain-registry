@@ -330,6 +330,10 @@ const info: Chain = {
       {
         address: 'https://rpc.carbon.blockhunters.org',
         provider: 'BlockHunters'
+      },
+      {
+        address: 'https://carbon-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -348,15 +352,26 @@ const info: Chain = {
       {
         address: 'https://rest.carbon.blockhunters.org',
         provider: 'BlockHunters'
+      },
+      {
+        address: 'https://carbon-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
-    grpc: [{
+    grpc: [
+      {
         address: 'carbon.lavenderfive.com:443',
         provider: 'Lavender.Five Nodes 🐝'
-      }, {
+      },
+      {
         address: 'carbon-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
-      }]
+      },
+      {
+        address: 'carbon-grpc.polkachu.com:19690',
+        provider: 'Polkachu'
+      }
+    ]
   },
   explorers: [
     {
@@ -385,6 +400,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/carbon',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

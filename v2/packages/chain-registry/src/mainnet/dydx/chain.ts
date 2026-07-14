@@ -73,10 +73,6 @@ const info: Chain = {
         provider: 'Kingnodes 👑'
       },
       {
-        address: 'https://dydx-dao-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://rpc.lavenderfive.com:443/dydx',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -99,13 +95,13 @@ const info: Chain = {
       {
         address: 'https://dydx.rpc.uquad.org:443',
         provider: 'QUAD'
+      },
+      {
+        address: 'https://dydx-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
-      {
-        address: 'https://dydx-dao-api.polkachu.com',
-        provider: 'Polkachu'
-      },
       {
         address: 'https://dydx-rest.kingnodes.com:443',
         provider: 'Kingnodes 👑'
@@ -133,29 +129,13 @@ const info: Chain = {
       {
         address: 'https://dydx.rpc.uquad.org:443',
         provider: 'QUAD'
+      },
+      {
+        address: 'https://dydx-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
-      {
-        address: 'dydx-dao-grpc-1.polkachu.com:23890',
-        provider: 'Polkachu'
-      },
-      {
-        address: 'dydx-dao-grpc-2.polkachu.com:23890',
-        provider: 'Polkachu'
-      },
-      {
-        address: 'dydx-dao-grpc-3.polkachu.com:23890',
-        provider: 'Polkachu'
-      },
-      {
-        address: 'dydx-dao-grpc-4.polkachu.com:23890',
-        provider: 'Polkachu'
-      },
-      {
-        address: 'dydx-dao-grpc-5.polkachu.com:23890',
-        provider: 'Polkachu'
-      },
       {
         address: 'https://dydx-grpc.kingnodes.com:443',
         provider: 'Kingnodes 👑'
@@ -179,6 +159,10 @@ const info: Chain = {
       {
         address: 'dydx-grpc.noders.services:37090',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'dydx-grpc.polkachu.com:23890',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -223,6 +207,19 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/dydx',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
+    }, {
+      url: 'https://polkachu.com/archive_snapshots/dydx',
+      type: 'archive',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

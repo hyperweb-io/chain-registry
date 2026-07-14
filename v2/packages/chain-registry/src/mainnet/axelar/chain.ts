@@ -93,10 +93,6 @@ const info: Chain = {
         provider: 'nodes.guru'
       },
       {
-        address: 'https://axelar-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://axelar.rpc.stakin-nodes.com',
         provider: 'Stakin'
       },
@@ -127,6 +123,10 @@ const info: Chain = {
       {
         address: 'https://axelar.drpc.org',
         provider: 'dRPC'
+      },
+      {
+        address: 'https://axelar-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -268,6 +268,13 @@ const info: Chain = {
       theme: {
         circle: false
       }
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/axelar',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

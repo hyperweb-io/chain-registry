@@ -95,10 +95,6 @@ const info: Chain = {
         provider: 'GetBlock RPC Nodes'
       },
       {
-        address: 'https://cosmos-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://cosmos-rpc.staketab.org:443',
         provider: 'Staketab'
       },
@@ -201,6 +197,10 @@ const info: Chain = {
       {
         address: 'https://rpc.sbsconstrutionnconsultancy.com',
         provider: 'bapimondal-server'
+      },
+      {
+        address: 'https://cosmos-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -320,6 +320,10 @@ const info: Chain = {
       {
         address: 'https://cosmoshub.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://cosmos-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -540,6 +544,12 @@ const info: Chain = {
       frequency: 'every 3h',
       compression: 'tar',
       checksumAvailable: true
+    }, {
+      url: 'https://polkachu.com/tendermint_snapshots/cosmos',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

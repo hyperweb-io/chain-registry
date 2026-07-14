@@ -589,10 +589,6 @@ const info: Chain = {
         provider: 'ecostake'
       },
       {
-        address: 'https://osmosis-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://osmosis.rpc.stakin-nodes.com',
         provider: 'Stakin'
       },
@@ -643,6 +639,10 @@ const info: Chain = {
       {
         address: 'https://osmosis.rpc.uquad.org:443',
         provider: 'QUAD'
+      },
+      {
+        address: 'https://osmosis-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -739,6 +739,10 @@ const info: Chain = {
       {
         address: 'grpc.osmosis.citizenweb3.com:443',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'osmosis-grpc.polkachu.com:12590',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -751,6 +755,12 @@ const info: Chain = {
       frequency: 'every 2h',
       compression: 'lz4',
       checksumAvailable: true
+    }, {
+      url: 'https://polkachu.com/tendermint_snapshots/osmosis',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }],
   explorers: [
     {

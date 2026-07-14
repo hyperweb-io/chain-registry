@@ -103,6 +103,10 @@ const info: Chain = {
       {
         address: 'https://composable_mainnet_rpc.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://picasso-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -145,6 +149,10 @@ const info: Chain = {
       {
         address: 'https://composable_mainnet_api.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://picasso-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -203,6 +211,10 @@ const info: Chain = {
       {
         address: 'composable.grpc.m.stavr.tech:9907',
         provider: '🔥STAVR🔥'
+      },
+      {
+        address: 'picasso-grpc.polkachu.com:22290',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -254,6 +266,13 @@ const info: Chain = {
   ],
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/picasso',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

@@ -64,16 +64,16 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://noble-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://rpc.lavenderfive.com:443/noble',
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
         address: 'https://noble-rpc.owallet.io',
         provider: 'OWALLET'
+      },
+      {
+        address: 'https://noble-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -133,6 +133,19 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/noble',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
+    }, {
+      url: 'https://polkachu.com/archive_snapshots/noble',
+      type: 'archive',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

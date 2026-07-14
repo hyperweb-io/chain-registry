@@ -68,6 +68,10 @@ const info: Chain = {
       {
         address: 'https://firmachain_mainnet_rpc.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://firmachain-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -98,6 +102,10 @@ const info: Chain = {
       {
         address: 'https://firmachain_mainnet_api.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://firmachain-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -116,6 +124,10 @@ const info: Chain = {
       {
         address: 'firmachain.grpc.nodeshub.online',
         provider: 'Nodes Hub'
+      },
+      {
+        address: 'firmachain-grpc.polkachu.com:16490',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -170,6 +182,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/firmachain/images/fct.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/firmachain/images/fct.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/firmachain',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

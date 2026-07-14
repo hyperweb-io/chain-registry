@@ -45,10 +45,6 @@ const info: Chain = {
         provider: 'AssetMantle'
       },
       {
-        address: 'https://assetmantle-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://rpc.mantle.paranorm.pro:443',
         provider: 'paranorm'
       },
@@ -59,6 +55,10 @@ const info: Chain = {
       {
         address: 'https://mantle-rpc.dungeon.games',
         provider: 'Dungeon'
+      },
+      {
+        address: 'https://assetmantle-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -148,6 +148,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/assetmantle',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

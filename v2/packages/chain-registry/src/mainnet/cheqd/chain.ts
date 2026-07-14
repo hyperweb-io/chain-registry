@@ -103,6 +103,10 @@ const info: Chain = {
       {
         address: 'https://cheqd.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://cheqd-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -153,6 +157,10 @@ const info: Chain = {
       {
         address: 'https://cheqd.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://cheqd-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -187,6 +195,10 @@ const info: Chain = {
       {
         address: 'cheqd-grpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
+      },
+      {
+        address: 'cheqd-grpc.polkachu.com:16190',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -249,6 +261,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cheqd/images/cheq.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cheqd/images/cheq.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/cheqd',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

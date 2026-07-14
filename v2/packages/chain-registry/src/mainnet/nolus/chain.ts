@@ -141,6 +141,10 @@ const info: Chain = {
       {
         address: 'https://nolus-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
+      },
+      {
+        address: 'https://nolus-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -183,6 +187,10 @@ const info: Chain = {
       {
         address: 'https://nolus-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
+      },
+      {
+        address: 'https://nolus-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -221,6 +229,10 @@ const info: Chain = {
       {
         address: 'nolus-grpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
+      },
+      {
+        address: 'nolus-grpc.polkachu.com:19790',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -265,6 +277,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/nolus',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

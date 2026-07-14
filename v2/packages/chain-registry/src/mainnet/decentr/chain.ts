@@ -59,6 +59,10 @@ const info: Chain = {
       {
         address: 'https://rpc-decentr.mms.team/',
         provider: 'MMS'
+      },
+      {
+        address: 'https://decentr-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -73,6 +77,10 @@ const info: Chain = {
       {
         address: 'https://api.decentr.chaintools.tech/',
         provider: 'ChainTools'
+      },
+      {
+        address: 'https://decentr-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -95,6 +103,10 @@ const info: Chain = {
       {
         address: 'grpc-decentr.mms.team:443',
         provider: 'MMS'
+      },
+      {
+        address: 'decentr-grpc.polkachu.com:23490',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -155,6 +167,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/decentr',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

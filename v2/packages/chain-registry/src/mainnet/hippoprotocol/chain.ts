@@ -79,6 +79,10 @@ const info: Chain = {
       {
         address: 'https://hippo-mainnet-rpc.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://hippo-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -97,6 +101,10 @@ const info: Chain = {
       {
         address: 'https://hippo-mainnet-api.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://hippo-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -115,6 +123,10 @@ const info: Chain = {
       {
         address: 'hippo-mainnet-grpc.shazoes.xyz:30290',
         provider: 'Shazoes'
+      },
+      {
+        address: 'hippo-grpc.polkachu.com:31890',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -132,6 +144,13 @@ const info: Chain = {
   images: [{
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg'
     }],
-  description: 'One Protocol. Every Patient. Infinite Possibility.'
+  description: 'One Protocol. Every Patient. Infinite Possibility.',
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/hippo',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

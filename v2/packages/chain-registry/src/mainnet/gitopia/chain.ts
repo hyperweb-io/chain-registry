@@ -172,10 +172,6 @@ const info: Chain = {
     ],
     rest: [
       {
-        address: 'https://gitopia-api.polkachu.com:443',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://rest.lavenderfive.com:443/gitopia',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -286,6 +282,10 @@ const info: Chain = {
       {
         address: 'https://api-gitopia.onenov.xyz',
         provider: 'OneNov'
+      },
+      {
+        address: 'https://gitopia-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -528,6 +528,13 @@ const info: Chain = {
   ],
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gitopia/images/gitopia.png'
-  }
+  },
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/gitopia',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

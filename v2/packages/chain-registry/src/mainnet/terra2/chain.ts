@@ -72,10 +72,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://terra-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://terra-rpc.stakely.io:443/',
         provider: 'stakely'
       },
@@ -110,6 +106,10 @@ const info: Chain = {
       {
         address: 'https://terra-m-rpc.onnode.org',
         provider: 'OnNode'
+      },
+      {
+        address: 'https://terra-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -144,6 +144,10 @@ const info: Chain = {
       {
         address: 'https://terra-m-api.onnode.org',
         provider: 'OnNode'
+      },
+      {
+        address: 'https://terra-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -257,6 +261,12 @@ const info: Chain = {
       frequency: 'every 3h',
       compression: 'tar',
       checksumAvailable: true
+    }, {
+      url: 'https://polkachu.com/tendermint_snapshots/terra',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

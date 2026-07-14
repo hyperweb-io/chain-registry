@@ -103,6 +103,10 @@ const info: Chain = {
       {
         address: 'https://planq_mainnet_rpc.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://planq-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -145,6 +149,10 @@ const info: Chain = {
       {
         address: 'https://planq_mainnet_api.chain.whenmoonwhenlambo.money',
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
+      },
+      {
+        address: 'https://planq-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -195,6 +203,10 @@ const info: Chain = {
       {
         address: 'mainnet-planq.konsortech.xyz:10090',
         provider: 'KonsorTech'
+      },
+      {
+        address: 'planq-grpc.polkachu.com:20390',
+        provider: 'Polkachu'
       }
     ],
     evmHttpJsonrpc: [
@@ -309,6 +321,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/planq',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

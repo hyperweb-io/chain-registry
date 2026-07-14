@@ -91,6 +91,10 @@ const info: Chain = {
       {
         address: 'https://empower-rpc.moonbridge.org',
         provider: 'Moonbridge'
+      },
+      {
+        address: 'https://empower-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -141,6 +145,10 @@ const info: Chain = {
       {
         address: 'https://empower-api.moonbridge.org',
         provider: 'Moonbridge'
+      },
+      {
+        address: 'https://empower-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -187,6 +195,10 @@ const info: Chain = {
       {
         address: 'empower-grpc.moonbridge.org:443',
         provider: 'Moonbridge'
+      },
+      {
+        address: 'empower-grpc.polkachu.com:17490',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -248,6 +260,13 @@ const info: Chain = {
       theme: {
         circle: false
       }
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/empower',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

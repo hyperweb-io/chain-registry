@@ -50,10 +50,6 @@ const info: Chain = {
         provider: 'crescent'
       },
       {
-        address: 'https://crescent-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://rpc-crescent.pupmos.network',
         provider: 'PUPMØS'
       },
@@ -80,6 +76,10 @@ const info: Chain = {
       {
         address: 'https://rpc.crescent.bronbro.io:443',
         provider: 'Bro_n_Bro'
+      },
+      {
+        address: 'https://crescent-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -189,6 +189,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/images/cre.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/images/cre.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/crescent',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

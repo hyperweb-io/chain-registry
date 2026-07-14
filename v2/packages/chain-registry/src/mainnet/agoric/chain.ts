@@ -72,10 +72,6 @@ const info: Chain = {
         address: 'https://main.rpc.agoric.net:443'
       },
       {
-        address: 'https://agoric-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://agoric.rpc.kjnodes.com',
         provider: 'kjnodes'
       },
@@ -110,6 +106,10 @@ const info: Chain = {
       {
         address: 'https://rpc.agoric.bronbro.io:443',
         provider: 'Bro_n_Bro'
+      },
+      {
+        address: 'https://agoric-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -236,6 +236,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/Agoric-logo-color.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/Agoric-logo-color.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/agoric',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

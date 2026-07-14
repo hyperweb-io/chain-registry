@@ -1683,6 +1683,39 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
       }
+    },
+    {
+      description: 'Coinbase Wrapped DOGE on Axelar',
+      denomUnits: [{
+          denom: 'cbdoge-satoshi',
+          exponent: 0
+        }, {
+          denom: 'cbdoge',
+          exponent: 8
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'cbdoge-satoshi',
+      name: 'Coinbase Wrapped DOGE',
+      display: 'cbdoge',
+      symbol: 'axl-cbDOGE',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chainName: 'base',
+            baseDenom: '0xcbD06E5A2B0C65597161de254AA074E489dEb510'
+          },
+          provider: 'Axelar'
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'base',
+            baseDenom: '0xcbD06E5A2B0C65597161de254AA074E489dEb510'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/base/images/cbdoge.png',
+          theme: {
+            circle: true
+          }
+        }]
     }
   ]
 };

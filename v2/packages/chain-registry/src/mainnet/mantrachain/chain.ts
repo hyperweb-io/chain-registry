@@ -69,6 +69,10 @@ const info: Chain = {
       {
         address: 'https://mantra.rpc.m.stavr.tech',
         provider: '🔥STAVR🔥'
+      },
+      {
+        address: 'https://mantra-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -83,6 +87,10 @@ const info: Chain = {
       {
         address: 'https://mantra.api.m.stavr.tech',
         provider: '🔥STAVR🔥'
+      },
+      {
+        address: 'https://mantra-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -97,6 +105,10 @@ const info: Chain = {
       {
         address: 'mantra.grpc.m.stavr.tech:3601',
         provider: '🔥STAVR🔥'
+      },
+      {
+        address: 'mantra-grpc.polkachu.com:25190',
+        provider: 'Polkachu'
       }
     ],
     evmHttpJsonrpc: [{
@@ -150,6 +162,13 @@ const info: Chain = {
       theme: {
         circle: true
       }
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/mantra',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

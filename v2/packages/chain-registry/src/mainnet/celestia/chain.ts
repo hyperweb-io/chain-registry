@@ -102,10 +102,6 @@ const info: Chain = {
         provider: 'kjnodes'
       },
       {
-        address: 'https://celestia-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://rpc-celestia.mzonder.com',
         provider: 'MZONDER'
       },
@@ -164,6 +160,10 @@ const info: Chain = {
       {
         address: 'https://rpc.archive.celestia.validatus.com',
         provider: 'Validatus'
+      },
+      {
+        address: 'https://celestia-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -254,6 +254,10 @@ const info: Chain = {
       {
         address: 'https://api.archive.celestia.validatus.com',
         provider: 'Validatus'
+      },
+      {
+        address: 'https://celestia-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -324,6 +328,10 @@ const info: Chain = {
       {
         address: 'grpc.archive.celestia.validatus.com:2125',
         provider: 'Validatus'
+      },
+      {
+        address: 'celestia-grpc.polkachu.com:11690',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -415,6 +423,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/celestia',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

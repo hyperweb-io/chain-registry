@@ -161,6 +161,10 @@ const info: Chain = {
       {
         address: 'https://dymension.drpc.org',
         provider: 'dRPC'
+      },
+      {
+        address: 'https://dymension-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -275,6 +279,10 @@ const info: Chain = {
       {
         address: 'https://api.archive.dymension.mainnet.dteam.tech:443',
         provider: 'DTEAM'
+      },
+      {
+        address: 'https://dymension-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -365,6 +373,10 @@ const info: Chain = {
       {
         address: 'grpc.archive.dymension.mainnet.dteam.tech:29090',
         provider: 'DTEAM'
+      },
+      {
+        address: 'dymension-grpc.polkachu.com:20590',
+        provider: 'Polkachu'
       }
     ],
     evmHttpJsonrpc: [
@@ -485,6 +497,13 @@ const info: Chain = {
       validatorPage: 'https://validatorinfo.com/networks/dymension/validators',
       proposalPage: 'https://validatorinfo.com/networks/dymension/governance'
     }
-  ]
+  ],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/dymension',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

@@ -159,10 +159,6 @@ const info: Chain = {
         provider: 'QUAD'
       },
       {
-        address: 'https://stride-rpc.polkachu.com/',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://rpc.lavenderfive.com:443/stride',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -185,16 +181,16 @@ const info: Chain = {
       {
         address: 'https://rpc.stride.citizenweb3.com',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://stride-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
       {
         address: 'https://stride.rpc.uquad.org:443',
         provider: 'QUAD'
-      },
-      {
-        address: 'https://stride-api.polkachu.com/',
-        provider: 'Polkachu'
       },
       {
         address: 'https://rest.lavenderfive.com:443/stride',
@@ -219,6 +215,10 @@ const info: Chain = {
       {
         address: 'https://api.stride.citizenweb3.com',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://stride-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -336,6 +336,13 @@ const info: Chain = {
       },
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/stride',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

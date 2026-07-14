@@ -244,6 +244,46 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
       },
       coingeckoId: 'usd-coin'
+    },
+    {
+      description: 'Passage (PASG) transferred to Dungeon Chain over IBC.',
+      denomUnits: [{
+          denom: 'ibc/73E558C82602DE116482AD0EFC351A375E7FF7048ED6A2C45F86A0BFE670CD5F',
+          exponent: 0,
+          aliases: ['upasg']
+        }, {
+          denom: 'pasg',
+          exponent: 6,
+          aliases: []
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/73E558C82602DE116482AD0EFC351A375E7FF7048ED6A2C45F86A0BFE670CD5F',
+      name: 'Passage',
+      display: 'pasg',
+      symbol: 'PASG',
+      coingeckoId: 'passage',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'passage',
+            baseDenom: 'upasg',
+            channelId: 'channel-13'
+          },
+          chain: {
+            channelId: 'channel-5318',
+            path: 'transfer/channel-5318/upasg'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'passage',
+            baseDenom: 'upasg'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/passage/images/pasg.png'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/passage/images/pasg.png'
+      }
     }
   ]
 };

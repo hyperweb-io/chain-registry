@@ -181,6 +181,37 @@ const info: AssetList = {
             circle: true
           }
         }]
+    },
+    {
+      description: 'Coinbase Wrapped DOGE (\'cbDOGE\') is an ERC20 token that is backed 1:1 by Dogecoin (DOGE) held by Coinbase.',
+      typeAsset: 'erc20',
+      address: '0xcbD06E5A2B0C65597161de254AA074E489dEb510',
+      denomUnits: [{
+          denom: '0xcbD06E5A2B0C65597161de254AA074E489dEb510',
+          exponent: 0
+        }, {
+          denom: 'cbdoge',
+          exponent: 8
+        }],
+      base: '0xcbD06E5A2B0C65597161de254AA074E489dEb510',
+      name: 'Coinbase Wrapped DOGE',
+      display: 'cbdoge',
+      symbol: 'cbDOGE',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chainName: 'dogecoin',
+            baseDenom: 'shibe'
+          },
+          provider: 'Coinbase'
+        }],
+      coingeckoId: 'coinbase-wrapped-doge',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/base/images/cbdoge.png',
+          theme: {
+            circle: true
+          }
+        }]
     }
   ]
 };

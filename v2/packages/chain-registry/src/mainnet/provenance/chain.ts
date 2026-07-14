@@ -102,6 +102,10 @@ const info: Chain = {
       {
         address: 'https://provenance.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://provenance-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -148,6 +152,10 @@ const info: Chain = {
       {
         address: 'https://provenance.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://provenance-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -170,6 +178,10 @@ const info: Chain = {
       {
         address: 'provenance-mainnet-grpc.shazoes.xyz:12090',
         provider: 'Shazoes'
+      },
+      {
+        address: 'provenance-grpc.polkachu.com:27090',
+        provider: 'Polkachu'
       }
     ]
   },
@@ -251,6 +263,12 @@ const info: Chain = {
       frequency: 'every 3h',
       compression: 'tar',
       checksumAvailable: true
+    }, {
+      url: 'https://polkachu.com/tendermint_snapshots/provenance',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

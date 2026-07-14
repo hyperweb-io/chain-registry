@@ -68,10 +68,6 @@ const info: Chain = {
         provider: 'ecostake'
       },
       {
-        address: 'https://akash-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://akash-rpc.kleomedes.network',
         provider: 'Kleomedes'
       },
@@ -90,6 +86,10 @@ const info: Chain = {
       {
         address: 'https://akash.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://akash-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -134,13 +134,20 @@ const info: Chain = {
         provider: 'Pocket Network'
       }
     ],
-    grpc: [{
+    grpc: [
+      {
         address: 'akash.lavenderfive.com:443',
         provider: 'Lavender.Five Nodes 🐝'
-      }, {
+      },
+      {
         address: 'akash-grpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      }]
+      },
+      {
+        address: 'akash-grpc.polkachu.com:12890',
+        provider: 'Polkachu'
+      }
+    ]
   },
   explorers: [
     {
@@ -213,6 +220,12 @@ const info: Chain = {
       frequency: 'every 3h',
       compression: 'tar',
       checksumAvailable: true
+    }, {
+      url: 'https://polkachu.com/tendermint_snapshots/akash',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

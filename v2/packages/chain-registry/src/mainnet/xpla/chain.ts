@@ -77,6 +77,10 @@ const info: Chain = {
       {
         address: 'https://xpla.rpc.m.stavr.tech:443',
         provider: '🔥STAVR🔥'
+      },
+      {
+        address: 'https://xpla-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -103,15 +107,26 @@ const info: Chain = {
       {
         address: 'https://xpla.api.m.stavr.tech',
         provider: '🔥STAVR🔥'
+      },
+      {
+        address: 'https://xpla-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
-    grpc: [{
+    grpc: [
+      {
         address: 'xpla-grpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      }, {
+      },
+      {
         address: 'xpla.grpc.m.stavr.tech:112',
         provider: '🔥STAVR🔥'
-      }],
+      },
+      {
+        address: 'xpla-grpc.polkachu.com:20190',
+        provider: 'Polkachu'
+      }
+    ],
     evmHttpJsonrpc: [{
         address: 'https://dimension-evm-rpc.xpla.dev',
         provider: 'Holdings'
@@ -164,6 +179,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/xpla',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

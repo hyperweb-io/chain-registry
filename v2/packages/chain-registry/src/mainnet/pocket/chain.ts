@@ -110,14 +110,18 @@ const info: Chain = {
         provider: 'Blockval'
       },
       {
-        address: 'https://pocket-api.polkachu.com:443',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://api.pocket.chaintools.tech:443',
         provider: 'ChainTools'
+      },
+      {
+        address: 'https://pocket-api.polkachu.com',
+        provider: 'Polkachu'
       }
-    ]
+    ],
+    grpc: [{
+        address: 'pocket-grpc.polkachu.com:33490',
+        provider: 'Polkachu'
+      }]
   },
   explorers: [
     {
@@ -144,6 +148,13 @@ const info: Chain = {
     'api',
     'modular',
     'data'
-  ]
+  ],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/pocket',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

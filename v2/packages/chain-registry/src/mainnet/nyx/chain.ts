@@ -73,15 +73,11 @@ const info: Chain = {
         provider: 'commodum'
       },
       {
-        address: 'https://nym-rpc.polkachu.com/',
+        address: 'https://nym-rpc.polkachu.com:443',
         provider: 'Polkachu'
       }
     ],
     rest: [
-      {
-        address: 'https://nym-api.polkachu.com/',
-        provider: 'Polkachu'
-      },
       {
         address: 'https://api.nyx.nodes.guru/',
         provider: 'nodes guru'
@@ -89,6 +85,10 @@ const info: Chain = {
       {
         address: 'https://api.nymtech.net',
         provider: 'Nym'
+      },
+      {
+        address: 'https://nym-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [{
@@ -156,6 +156,13 @@ const info: Chain = {
     {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.png'
     }
-  ]
+  ],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/nym',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
+    }]
 };
 export default info;

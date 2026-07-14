@@ -71,10 +71,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://union-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://union-rpc.kingnodes.com',
         provider: 'Kingnodes 👑'
       },
@@ -93,6 +89,10 @@ const info: Chain = {
       {
         address: 'https://union-mainnet-rpc.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://union-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -190,6 +190,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/union/images/u.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/union/images/u.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/union',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

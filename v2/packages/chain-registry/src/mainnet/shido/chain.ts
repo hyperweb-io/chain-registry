@@ -97,6 +97,10 @@ const info: Chain = {
       {
         address: 'https://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/',
         provider: 'Zeeve'
+      },
+      {
+        address: 'https://shido-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -135,6 +139,10 @@ const info: Chain = {
       {
         address: 'https://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/',
         provider: 'Zeeve'
+      },
+      {
+        address: 'https://shido-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -157,6 +165,10 @@ const info: Chain = {
       {
         address: 'https://grpc.kenseishido.com',
         provider: 'KENSEI'
+      },
+      {
+        address: 'shido-grpc.polkachu.com:28690',
+        provider: 'Polkachu'
       }
     ],
     evmHttpJsonrpc: [
@@ -236,6 +248,13 @@ const info: Chain = {
   ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/shido',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;

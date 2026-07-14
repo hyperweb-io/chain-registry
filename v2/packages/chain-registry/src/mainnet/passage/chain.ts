@@ -70,10 +70,6 @@ const info: Chain = {
         provider: 'Cosmos Spaces'
       },
       {
-        address: 'https://passage-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://rpc-passage.d-stake.xyz',
         provider: 'D-stake'
       },
@@ -104,6 +100,10 @@ const info: Chain = {
       {
         address: 'https://passage-rpc.bluestake.net:443',
         provider: 'BlueStake 🚀'
+      },
+      {
+        address: 'https://passage-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -252,6 +252,13 @@ const info: Chain = {
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/passage/images/pasg.png'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/passage',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;
