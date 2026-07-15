@@ -130,7 +130,6 @@ export * as meme from './meme';
 export * as migaloo from './migaloo';
 export * as mirage from './mirage';
 export * as mises from './mises';
-export * as moo from './moo';
 export * as mtgbp from './mtgbp';
 export * as mun from './mun';
 export * as mythos from './mythos';
