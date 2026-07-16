@@ -1,6 +1,6 @@
 {
   "name": "@chain-registry/assets",
-  "version": "1.70.641",
+  "version": "1.70.642",
   "description": "Chain Registry Asset Lists",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "homepage": "https://github.com/hyperweb-io/chain-registry",
@@ -29,11 +29,11 @@
     "test:watch": "jest --watch"
   },
   "devDependencies": {
-    "@chain-registry/utils": "^1.51.392",
-    "chain-registry": "^1.69.641"
+    "@chain-registry/utils": "^1.51.393",
+    "chain-registry": "^1.69.642"
   },
   "dependencies": {
-    "@chain-registry/types": "^0.50.392"
+    "@chain-registry/types": "^0.50.393"
   },
   "keywords": [
     "chain-registry",
