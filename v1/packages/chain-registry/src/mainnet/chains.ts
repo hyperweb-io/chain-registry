@@ -198,6 +198,7 @@ import * as _stride from './stride';
 import * as _sunrise from './sunrise';
 import * as _symphony from './symphony';
 import * as _synternet from './synternet';
+import * as _tail from './tail';
 import * as _taketitan from './taketitan';
 import * as _tenet from './tenet';
 import * as _teritori from './teritori';
@@ -208,7 +209,6 @@ import * as _thejaynetwork from './thejaynetwork';
 import * as _thorchain from './thorchain';
 import * as _titan from './titan';
 import * as _turkchain from './turkchain';
-import * as _umee from './umee';
 import * as _unicorn from './unicorn';
 import * as _unification from './unification';
 import * as _union from './union';
@@ -425,6 +425,7 @@ const chains: Chain[] = [
   _sunrise.chain,
   _symphony.chain,
   _synternet.chain,
+  _tail.chain,
   _taketitan.chain,
   _tenet.chain,
   _teritori.chain,
@@ -435,7 +436,6 @@ const chains: Chain[] = [
   _thorchain.chain,
   _titan.chain,
   _turkchain.chain,
-  _umee.chain,
   _unicorn.chain,
   _unification.chain,
   _union.chain,

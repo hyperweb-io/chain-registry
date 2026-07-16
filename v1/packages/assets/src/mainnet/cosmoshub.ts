@@ -6113,41 +6113,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Umee',
-      denom_units: [{
-          denom: 'ibc/DEC41A02E47658D40FC71E5A35A9C807111F5A6662A3FB5DA84C4E6F53E616B3',
-          exponent: 0,
-          aliases: ['uumee']
-        }, {
-          denom: 'umee',
-          exponent: 6
-        }],
-      base: 'ibc/DEC41A02E47658D40FC71E5A35A9C807111F5A6662A3FB5DA84C4E6F53E616B3',
-      name: 'Umee',
-      display: 'umee',
-      symbol: 'UMEE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-1',
-            base_denom: 'uumee',
-            chain_name: 'umee'
-          },
-          chain: {
-            channel_id: 'channel-288'
-          }
-        }]
-    },
-    {
       description: 'The native token of Uptick',
       denom_units: [{
           denom: 'ibc/437D75DE90D857540013EB4BFAA57D600CC78A0D6233FF7C8E3204F066CA0C09',
@@ -9618,41 +9583,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-1871'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Umee',
-      denom_units: [{
-          denom: 'ibc/DEC41A02E47658D40FC71E5A35A9C807111F5A6662A3FB5DA84C4E6F53E616B3',
-          exponent: 0,
-          aliases: ['uumee']
-        }, {
-          denom: 'umee',
-          exponent: 6
-        }],
-      base: 'ibc/DEC41A02E47658D40FC71E5A35A9C807111F5A6662A3FB5DA84C4E6F53E616B3',
-      name: 'Umee',
-      display: 'umee',
-      symbol: 'UMEE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-1',
-            base_denom: 'uumee',
-            chain_name: 'umee'
-          },
-          chain: {
-            channel_id: 'channel-288'
           }
         }]
     },

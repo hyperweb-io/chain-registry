@@ -2453,41 +2453,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Umee',
-      denom_units: [{
-          denom: 'ibc/2FF3DC3A0265B9A220750E75E75E5D44ED2F716B8AC4EDC378A596CC958ABF6B',
-          exponent: 0,
-          aliases: ['uumee']
-        }, {
-          denom: 'umee',
-          exponent: 6
-        }],
-      base: 'ibc/2FF3DC3A0265B9A220750E75E75E5D44ED2F716B8AC4EDC378A596CC958ABF6B',
-      name: 'Umee',
-      display: 'umee',
-      symbol: 'UMEE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-116',
-            base_denom: 'uumee',
-            chain_name: 'umee'
-          },
-          chain: {
-            channel_id: 'channel-159'
-          }
-        }]
-    },
-    {
       description: 'Verona is the intelligence layer for AI.',
       denom_units: [{
           denom: 'ibc/00BF66BAB34873B07FB9EEEBCFACEA11FB4BB348718862AA7782D6DECC1F44C8',
@@ -4119,41 +4084,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-450'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Umee',
-      denom_units: [{
-          denom: 'ibc/2FF3DC3A0265B9A220750E75E75E5D44ED2F716B8AC4EDC378A596CC958ABF6B',
-          exponent: 0,
-          aliases: ['uumee']
-        }, {
-          denom: 'umee',
-          exponent: 6
-        }],
-      base: 'ibc/2FF3DC3A0265B9A220750E75E75E5D44ED2F716B8AC4EDC378A596CC958ABF6B',
-      name: 'Umee',
-      display: 'umee',
-      symbol: 'UMEE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-116',
-            base_denom: 'uumee',
-            chain_name: 'umee'
-          },
-          chain: {
-            channel_id: 'channel-159'
           }
         }]
     },

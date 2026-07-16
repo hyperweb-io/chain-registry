@@ -1100,41 +1100,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Umee',
-      denom_units: [{
-          denom: 'ibc/738D2E738EC4DA519DA88979D79FF7BDB893AFAA5AEC230C518863E477A8D95A',
-          exponent: 0,
-          aliases: ['uumee']
-        }, {
-          denom: 'umee',
-          exponent: 6
-        }],
-      base: 'ibc/738D2E738EC4DA519DA88979D79FF7BDB893AFAA5AEC230C518863E477A8D95A',
-      name: 'Umee',
-      display: 'umee',
-      symbol: 'UMEE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-119',
-            base_denom: 'uumee',
-            chain_name: 'umee'
-          },
-          chain: {
-            channel_id: 'channel-19'
-          }
-        }]
-    },
-    {
       description: 'ATOM is the native cryptocurrency of the Cosmos network, designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.',
       denom_units: [{
           denom: 'ibc/476DB10039AC227EC8E7B7FEF31E84392E6DEF01C62E64B98F769781471C6469',
@@ -2072,41 +2037,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-277'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Umee',
-      denom_units: [{
-          denom: 'ibc/738D2E738EC4DA519DA88979D79FF7BDB893AFAA5AEC230C518863E477A8D95A',
-          exponent: 0,
-          aliases: ['uumee']
-        }, {
-          denom: 'umee',
-          exponent: 6
-        }],
-      base: 'ibc/738D2E738EC4DA519DA88979D79FF7BDB893AFAA5AEC230C518863E477A8D95A',
-      name: 'Umee',
-      display: 'umee',
-      symbol: 'UMEE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-119',
-            base_denom: 'uumee',
-            chain_name: 'umee'
-          },
-          chain: {
-            channel_id: 'channel-19'
           }
         }]
     }

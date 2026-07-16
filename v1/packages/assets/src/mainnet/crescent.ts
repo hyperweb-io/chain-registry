@@ -2627,41 +2627,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native token of Umee',
-      denom_units: [{
-          denom: 'ibc/DA8D591FFA8836FDF3AD0F9F8AF4EAA77D9D4F23DA3D10DFD1FC3B9A3644B26D',
-          exponent: 0,
-          aliases: ['uumee']
-        }, {
-          denom: 'umee',
-          exponent: 6
-        }],
-      base: 'ibc/DA8D591FFA8836FDF3AD0F9F8AF4EAA77D9D4F23DA3D10DFD1FC3B9A3644B26D',
-      name: 'Umee',
-      display: 'umee',
-      symbol: 'UMEE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-49',
-            base_denom: 'uumee',
-            chain_name: 'umee'
-          },
-          chain: {
-            channel_id: 'channel-36'
-          }
-        }]
-    },
-    {
       description: 'CRO is the native token of the Crypto.org Chain, referred to as Native CRO.',
       denom_units: [{
           denom: 'ibc/5EDC10227E40B52D893F5A26C107E2A338C4A643615C10B356DC62B5F4FE1DB1',
@@ -4586,41 +4551,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-27'
-          }
-        }]
-    },
-    {
-      description: 'The native token of Umee',
-      denom_units: [{
-          denom: 'ibc/DA8D591FFA8836FDF3AD0F9F8AF4EAA77D9D4F23DA3D10DFD1FC3B9A3644B26D',
-          exponent: 0,
-          aliases: ['uumee']
-        }, {
-          denom: 'umee',
-          exponent: 6
-        }],
-      base: 'ibc/DA8D591FFA8836FDF3AD0F9F8AF4EAA77D9D4F23DA3D10DFD1FC3B9A3644B26D',
-      name: 'Umee',
-      display: 'umee',
-      symbol: 'UMEE',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-49',
-            base_denom: 'uumee',
-            chain_name: 'umee'
-          },
-          chain: {
-            channel_id: 'channel-36'
           }
         }]
     }

@@ -198,6 +198,7 @@ import * as _stride from './stride';
 import * as _sunrise from './sunrise';
 import * as _symphony from './symphony';
 import * as _synternet from './synternet';
+import * as _tail from './tail';
 import * as _taketitan from './taketitan';
 import * as _tenet from './tenet';
 import * as _teritori from './teritori';
@@ -208,7 +209,6 @@ import * as _thejaynetwork from './thejaynetwork';
 import * as _thorchain from './thorchain';
 import * as _titan from './titan';
 import * as _turkchain from './turkchain';
-import * as _umee from './umee';
 import * as _unicorn from './unicorn';
 import * as _unification from './unification';
 import * as _union from './union';
@@ -425,6 +425,7 @@ const assets: AssetList[] = [
   _sunrise.assets,
   _symphony.assets,
   _synternet.assets,
+  _tail.assets,
   _taketitan.assets,
   _tenet.assets,
   _teritori.assets,
@@ -435,7 +436,6 @@ const assets: AssetList[] = [
   _thorchain.assets,
   _titan.assets,
   _turkchain.assets,
-  _umee.assets,
   _unicorn.assets,
   _unification.assets,
   _union.assets,

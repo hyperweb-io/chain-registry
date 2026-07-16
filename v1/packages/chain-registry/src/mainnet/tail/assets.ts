@@ -1,0 +1,27 @@
+import { AssetList } from '@chain-registry/types';
+const info: AssetList = {
+  $schema: '../assetlist.schema.json',
+  chain_name: 'tail',
+  assets: [{
+      description: 'The native token of TAIL Network',
+      denom_units: [{
+          denom: 'utail',
+          exponent: 0
+        }, {
+          denom: 'TAIL',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'utail',
+      name: 'TAIL Network',
+      display: 'TAIL',
+      symbol: 'TAIL',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tail/images/logo-mark.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tail/images/logo-mark.png'
+        }]
+    }]
+};
+export default info;
