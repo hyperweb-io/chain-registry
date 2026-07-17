@@ -52,10 +52,6 @@ const info: Chain = {
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
       {
-        address: 'https://iris-rpc.highstakes.ch',
-        provider: 'High Stakes 🇨🇭'
-      },
-      {
         address: 'https://mainnet-iris-rpc.konsortech.xyz',
         provider: 'KonsorTech'
       }
@@ -72,10 +68,6 @@ const info: Chain = {
       {
         address: 'https://iris-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https://iris-api.highstakes.ch',
-        provider: 'High Stakes 🇨🇭'
       },
       {
         address: 'https://mainnet-iris-api.konsortech.xyz',
@@ -181,15 +173,6 @@ const info: Chain = {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.svg'
     }],
-  snapshots: [{
-      provider: 'High Stakes 🇨🇭',
-      url: 'https://tools.highstakes.ch/snapshots/iris',
-      latest_url: 'https://tools.highstakes.ch/files/iris.tar.gz',
-      type: 'pruned',
-      db_backend: 'goleveldb',
-      frequency: 'every 3h',
-      compression: 'tar',
-      checksum_available: true
-    }]
+  snapshots: []
 };
 export default info;
