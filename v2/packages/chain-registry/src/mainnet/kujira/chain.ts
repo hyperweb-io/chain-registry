@@ -166,10 +166,6 @@ const info: Chain = {
         provider: 'setten.io'
       },
       {
-        address: 'https://kujira-rpc.polkachu.com',
-        provider: 'Polkachu'
-      },
-      {
         address: 'https://rpc.lavenderfive.com:443/kujira',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -220,6 +216,10 @@ const info: Chain = {
       {
         address: 'https://kujira.interstellar-lounge.org',
         provider: 'Interstellar Lounge 🍸'
+      },
+      {
+        address: 'https://kujira-rpc.polkachu.com:443',
+        provider: 'Polkachu'
       }
     ],
     rest: [
@@ -230,10 +230,6 @@ const info: Chain = {
       {
         address: 'https://rest.lavenderfive.com:443/kujira',
         provider: 'Lavender.Five Nodes 🐝'
-      },
-      {
-        address: 'https://kujira-api.polkachu.com/',
-        provider: 'Polkachu'
       },
       {
         address: 'https://kujira-lcd.wildsage.io/',
@@ -282,6 +278,10 @@ const info: Chain = {
       {
         address: 'https://kujira-rest.interstellar-lounge.org',
         provider: 'Interstellar Lounge 🍸'
+      },
+      {
+        address: 'https://kujira-api.polkachu.com',
+        provider: 'Polkachu'
       }
     ],
     grpc: [
@@ -358,6 +358,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kujira-chain-logo.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg'
+    }],
+  snapshots: [{
+      url: 'https://polkachu.com/tendermint_snapshots/kujira',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: false,
+      provider: 'Polkachu'
     }]
 };
 export default info;
