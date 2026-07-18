@@ -63,7 +63,7 @@ const info: Chain = {
     rpc: [
       {
         address: 'https://rpc.axone.cumulo.com.es',
-        provider: 'cumulo'
+        provider: 'Cumulo'
       },
       {
         address: 'https://axone.rpc.bccnodes.com',
@@ -97,7 +97,7 @@ const info: Chain = {
     rest: [
       {
         address: 'https://api.axone.cumulo.com.es',
-        provider: 'cumulo'
+        provider: 'Cumulo'
       },
       {
         address: 'https://axone.lcd.bccnodes.com',
@@ -131,7 +131,7 @@ const info: Chain = {
     grpc: [
       {
         address: 'grpc.axone.cumulo.com.es:443',
-        provider: 'cumulo'
+        provider: 'Cumulo'
       },
       {
         address: 'axone.grpc.bccnodes.com:443',

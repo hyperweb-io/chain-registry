@@ -6,7 +6,7 @@ const info: Chain = {
   network_type: 'mainnet',
   pretty_name: 'TAIL Network',
   chain_type: 'cosmos',
-  chain_id: 'tail',
+  chain_id: 'tail-1',
   bech32_prefix: 'tail',
   daemon_name: 'taild',
   node_home: '$HOME/.tail',
@@ -28,17 +28,17 @@ const info: Chain = {
   },
   apis: {
     rpc: [{
-        address: 'http://rpc.trusttails.io:26657',
+        address: 'https://rpc.trusttails.io',
         provider: 'TrustTails'
       }],
     rest: [{
-        address: 'http://api.trusttails.io:1317',
+        address: 'https://api.trusttails.io',
         provider: 'TrustTails'
       }]
   },
   explorers: [{
-      url: 'http://explorer.trusttails.io',
-      tx_page: 'http://explorer.trusttails.io/tail/tx/${txHash}'
+      url: 'https://explorer.trusttails.io',
+      tx_page: 'https://explorer.trusttails.io/tail/tx/${txHash}'
     }],
   website: 'https://trusttails.io'
 };

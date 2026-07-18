@@ -3244,6 +3244,54 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Coins for the Gonka network.',
+      denom_units: [
+        {
+          denom: 'ibc/C9FADE15CBFACDF6A5B762100EDD999835CDBACD16D4BD2127ACC4EA40D0B276',
+          exponent: 0,
+          aliases: ['ngonka']
+        },
+        {
+          denom: 'ugonka',
+          exponent: 3,
+          aliases: ['microgonka']
+        },
+        {
+          denom: 'mgonka',
+          exponent: 6,
+          aliases: ['milligonka']
+        },
+        {
+          denom: 'gonka',
+          exponent: 9
+        }
+      ],
+      base: 'ibc/C9FADE15CBFACDF6A5B762100EDD999835CDBACD16D4BD2127ACC4EA40D0B276',
+      name: 'Gonka',
+      display: 'gonka',
+      symbol: 'GNK',
+      type_asset: 'sdk.coin',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gonka/images/gonka_logo.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gonka/images/gonka_logo.svg'
+        }],
+      socials: {
+        x: 'https://x.com/gonka_ai',
+        discord: 'https://discord.com/invite/RADwCT2U6R'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'ngonka',
+            chain_name: 'gonka'
+          },
+          chain: {
+            channel_id: 'channel-108157'
+          }
+        }]
+    },
+    {
       description: 'The native token of Gravity Bridge',
       denom_units: [{
           denom: 'ibc/E97634A40119F1898989C2A23224ED83FDD0A57EA46B3A094E287288D1672B44',
@@ -9265,6 +9313,54 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-108866'
+          }
+        }]
+    },
+    {
+      description: 'Coins for the Gonka network.',
+      denom_units: [
+        {
+          denom: 'ibc/C9FADE15CBFACDF6A5B762100EDD999835CDBACD16D4BD2127ACC4EA40D0B276',
+          exponent: 0,
+          aliases: ['ngonka']
+        },
+        {
+          denom: 'ugonka',
+          exponent: 3,
+          aliases: ['microgonka']
+        },
+        {
+          denom: 'mgonka',
+          exponent: 6,
+          aliases: ['milligonka']
+        },
+        {
+          denom: 'gonka',
+          exponent: 9
+        }
+      ],
+      base: 'ibc/C9FADE15CBFACDF6A5B762100EDD999835CDBACD16D4BD2127ACC4EA40D0B276',
+      name: 'Gonka',
+      display: 'gonka',
+      symbol: 'GNK',
+      type_asset: 'sdk.coin',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gonka/images/gonka_logo.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gonka/images/gonka_logo.svg'
+        }],
+      socials: {
+        x: 'https://x.com/gonka_ai',
+        discord: 'https://discord.com/invite/RADwCT2U6R'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'ngonka',
+            chain_name: 'gonka'
+          },
+          chain: {
+            channel_id: 'channel-108157'
           }
         }]
     },

@@ -62,6 +62,7 @@ export * as gateway from './gateway';
 export * as genesisl1 from './genesisl1';
 export * as gitopia from './gitopia';
 export * as gnodi from './gnodi';
+export * as gonka from './gonka';
 export * as gravitybridge from './gravitybridge';
 export * as haqq from './haqq';
 export * as hazinachain from './hazinachain';

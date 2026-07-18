@@ -82,8 +82,8 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://gonka04.6block.com:8443/chain-rpc/',
-        provider: '6block'
+        address: 'https://gonka.hyperfusion.io/chain-rpc/',
+        provider: 'Hyperfusion'
       },
       {
         address: 'https://gonka03.6block.com:8443/chain-rpc/',
@@ -91,17 +91,21 @@ const info: Chain = {
       },
       {
         address: 'https://node1.gonka.ai:8443/chain-rpc/',
-        provider: 'PS on Nebius'
+        provider: 'PS'
       },
       {
         address: 'https://node2.gonka.ai:8443/chain-rpc/',
-        provider: 'PS on Nebius'
+        provider: 'PS'
+      },
+      {
+        address: 'https://rpc.gonka.gg/key/keplr/chain-rpc/',
+        provider: 'GonkaLabs'
       }
     ],
     rest: [
       {
-        address: 'https://gonka04.6block.com:8443/chain-api/',
-        provider: '6block'
+        address: 'https://gonka.hyperfusion.io/chain-api/',
+        provider: 'Hyperfusion'
       },
       {
         address: 'https://gonka03.6block.com:8443/chain-api/',
@@ -109,17 +113,21 @@ const info: Chain = {
       },
       {
         address: 'https://node1.gonka.ai:8443/chain-api/',
-        provider: 'PS on Nebius'
+        provider: 'PS'
       },
       {
         address: 'https://node2.gonka.ai:8443/chain-api/',
-        provider: 'PS on Nebius'
+        provider: 'PS'
+      },
+      {
+        address: 'https://rpc.gonka.gg/key/keplr/chain-api/',
+        provider: 'GonkaLabs'
       }
     ],
     grpc: [
       {
-        address: 'https://gonka04.6block.com:8443/chain-grpc/',
-        provider: '6block'
+        address: 'https://gonka.hyperfusion.io/chain-grpc/',
+        provider: 'Hyperfusion'
       },
       {
         address: 'https://gonka03.6block.com:8443/chain-grpc/',
@@ -127,20 +135,24 @@ const info: Chain = {
       },
       {
         address: 'https://node1.gonka.ai:8443/chain-grpc/',
-        provider: 'PS on Nebius'
+        provider: 'PS'
       },
       {
         address: 'https://node2.gonka.ai:8443/chain-grpc/',
-        provider: 'PS on Nebius'
+        provider: 'PS'
+      },
+      {
+        address: 'https://rpc.gonka.gg/key/keplr/chain-grpc/',
+        provider: 'GonkaLabs'
       }
     ]
   },
   explorers: [
     {
       kind: 'ping.pub',
-      url: 'https://gonka04.6block.com:8443/dashboard',
-      tx_page: 'https://gonka04.6block.com:8443/dashboard/gonka/txs/${txHash}',
-      account_page: 'https://gonka04.6block.com:8443/dashboard/gonka/account/${accountAddress}'
+      url: 'https://gonka.hyperfusion.io/dashboard',
+      tx_page: 'https://gonka.hyperfusion.io/dashboard/gonka/txs/${txHash}',
+      account_page: 'https://gonka.hyperfusion.io/dashboard/gonka/account/${accountAddress}'
     },
     {
       kind: 'ping.pub',
