@@ -182,6 +182,10 @@ const info: Chain = {
       {
         address: 'provenance-grpc.polkachu.com:27090',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://provenance-grpc.highstakes.ch',
+        provider: 'High Stakes 🇨🇭'
       }
     ]
   },

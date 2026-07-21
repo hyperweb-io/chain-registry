@@ -5276,6 +5276,39 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'MUC is the native staking, governance and transaction fee token of the MuCoin blockchain.',
+      denom_units: [{
+          denom: 'ibc/8B84D6340B0340917D3E2E3A17B4BE962F5593637AD7E42F6AE61D6A00ACE713',
+          exponent: 0,
+          aliases: ['umuc']
+        }, {
+          denom: 'MUC',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/8B84D6340B0340917D3E2E3A17B4BE962F5593637AD7E42F6AE61D6A00ACE713',
+      name: 'MuCoin',
+      display: 'MUC',
+      symbol: 'MUC',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mucoin/images/mucoin.png'
+        }],
+      socials: {
+        website: 'https://mucoin.org'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'umuc',
+            chain_name: 'mucoin'
+          },
+          chain: {
+            channel_id: 'channel-110556'
+          }
+        }]
+    },
+    {
       description: 'The native token of Neutaro',
       denom_units: [{
           denom: 'ibc/DAED51CBD967A3BE0C467687970AFD97B202AFE4A1718B36936F49178AFE0133',
@@ -11345,6 +11378,39 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-105394'
+          }
+        }]
+    },
+    {
+      description: 'MUC is the native staking, governance and transaction fee token of the MuCoin blockchain.',
+      denom_units: [{
+          denom: 'ibc/8B84D6340B0340917D3E2E3A17B4BE962F5593637AD7E42F6AE61D6A00ACE713',
+          exponent: 0,
+          aliases: ['umuc']
+        }, {
+          denom: 'MUC',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/8B84D6340B0340917D3E2E3A17B4BE962F5593637AD7E42F6AE61D6A00ACE713',
+      name: 'MuCoin',
+      display: 'MUC',
+      symbol: 'MUC',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mucoin/images/mucoin.png'
+        }],
+      socials: {
+        website: 'https://mucoin.org'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'umuc',
+            chain_name: 'mucoin'
+          },
+          chain: {
+            channel_id: 'channel-110556'
           }
         }]
     },

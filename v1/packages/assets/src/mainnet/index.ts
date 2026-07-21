@@ -100,6 +100,7 @@ export * as meme from './meme';
 export * as migaloo from './migaloo';
 export * as mirage from './mirage';
 export * as mtgbp from './mtgbp';
+export * as mucoin from './mucoin';
 export * as neutaro from './neutaro';
 export * as neutron from './neutron';
 export * as nibiru from './nibiru';

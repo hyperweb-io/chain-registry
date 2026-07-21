@@ -131,6 +131,7 @@ export * as migaloo from './migaloo';
 export * as mirage from './mirage';
 export * as mises from './mises';
 export * as mtgbp from './mtgbp';
+export * as mucoin from './mucoin';
 export * as mun from './mun';
 export * as mythos from './mythos';
 export * as neura from './neura';

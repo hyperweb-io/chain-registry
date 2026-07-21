@@ -148,6 +148,10 @@ const info: Chain = {
       {
         address: 'https://terra-api.polkachu.com',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://terra-phoenix-api.highstakes.ch',
+        provider: 'High Stakes 🇨🇭'
       }
     ],
     grpc: [
@@ -190,6 +194,10 @@ const info: Chain = {
       {
         address: 'terra-grpc.node39.top:443',
         provider: 'Node39'
+      },
+      {
+        address: 'https://terra-phoenix-grpc.highstakes.ch',
+        provider: 'High Stakes 🇨🇭'
       }
     ]
   },

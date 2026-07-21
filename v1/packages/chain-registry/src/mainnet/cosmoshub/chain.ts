@@ -403,6 +403,10 @@ const info: Chain = {
       {
         address: 'grpc.cosmos.cumulo.com.es:9790',
         provider: 'Cumulo'
+      },
+      {
+        address: 'https://cosmos-grpc.highstakes.ch',
+        provider: 'High Stakes 🇨🇭'
       }
     ]
   },

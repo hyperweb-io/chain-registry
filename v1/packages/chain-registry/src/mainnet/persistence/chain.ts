@@ -301,6 +301,10 @@ const info: Chain = {
       {
         address: 'persistence.grpc.quantnode.xyz:22990',
         provider: 'QuantNode'
+      },
+      {
+        address: 'https://persistence-grpc.highstakes.ch',
+        provider: 'High Stakes 🇨🇭'
       }
     ]
   },

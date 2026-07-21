@@ -102,6 +102,7 @@ import * as _meme from './meme';
 import * as _migaloo from './migaloo';
 import * as _mirage from './mirage';
 import * as _mtgbp from './mtgbp';
+import * as _mucoin from './mucoin';
 import * as _neutaro from './neutaro';
 import * as _neutron from './neutron';
 import * as _nibiru from './nibiru';
@@ -274,6 +275,7 @@ const ibc: IBCInfo[] = [
   ..._migaloo.ibc,
   ..._mirage.ibc,
   ..._mtgbp.ibc,
+  ..._mucoin.ibc,
   ..._neutaro.ibc,
   ..._neutron.ibc,
   ..._nibiru.ibc,

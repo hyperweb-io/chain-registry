@@ -1,0 +1,27 @@
+import { AssetList } from '@chain-registry/types';
+const info: AssetList = {
+  $schema: '../assetlist.schema.json',
+  chain_name: 'mucoin',
+  assets: [{
+      description: 'MUC is the native staking, governance and transaction fee token of the MuCoin blockchain.',
+      denom_units: [{
+          denom: 'umuc',
+          exponent: 0
+        }, {
+          denom: 'MUC',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'umuc',
+      name: 'MuCoin',
+      display: 'MUC',
+      symbol: 'MUC',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mucoin/images/mucoin.png'
+        }],
+      socials: {
+        website: 'https://mucoin.org'
+      }
+    }]
+};
+export default info;

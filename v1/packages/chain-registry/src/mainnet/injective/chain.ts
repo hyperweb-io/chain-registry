@@ -121,6 +121,10 @@ const info: Chain = {
       {
         address: 'injective-grpc.noders.services:33090',
         provider: '[NODERS]TEAM'
+      },
+      {
+        address: 'https://injective-grpc.highstakes.ch',
+        provider: 'High Stakes 🇨🇭'
       }
     ],
     "evm-http-jsonrpc": [{
