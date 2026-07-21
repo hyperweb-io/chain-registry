@@ -3382,6 +3382,37 @@ const info: IBCData[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain1: {
+      chainName: 'mucoin',
+      chainId: 'mucoin-1',
+      clientId: '07-tendermint-0',
+      connectionId: 'connection-0'
+    },
+    chain2: {
+      chainName: 'osmosis',
+      chainId: 'osmosis-1',
+      clientId: '07-tendermint-3729',
+      connectionId: 'connection-11080'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-0',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-110556',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
       chainName: 'namada',
       chainId: 'namada.5f5de2dd1b88cba30586420',
       clientId: '07-tendermint-2',

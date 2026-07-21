@@ -133,6 +133,7 @@ import * as _migaloo from './migaloo';
 import * as _mirage from './mirage';
 import * as _mises from './mises';
 import * as _mtgbp from './mtgbp';
+import * as _mucoin from './mucoin';
 import * as _mun from './mun';
 import * as _mythos from './mythos';
 import * as _neura from './neura';
@@ -360,6 +361,7 @@ const assetList: AssetList[] = [
   _mirage.assetList,
   _mises.assetList,
   _mtgbp.assetList,
+  _mucoin.assetList,
   _mun.assetList,
   _mythos.assetList,
   _neura.assetList,

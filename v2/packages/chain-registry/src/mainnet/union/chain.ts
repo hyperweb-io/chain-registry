@@ -165,6 +165,10 @@ const info: Chain = {
       {
         address: 'union-mainnet-grpc.shazoes.xyz:30990',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://union-grpc.highstakes.ch',
+        provider: 'High Stakes 🇨🇭'
       }
     ]
   },

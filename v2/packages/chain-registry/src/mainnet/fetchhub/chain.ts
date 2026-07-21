@@ -209,6 +209,10 @@ const info: Chain = {
       {
         address: 'grpc.fetchhub-4.fetch.aviaone.com:9094',
         provider: 'AVIAONE 🟢'
+      },
+      {
+        address: 'https://fetch-grpc.highstakes.ch',
+        provider: 'High Stakes 🇨🇭'
       }
     ]
   },

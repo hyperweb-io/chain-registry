@@ -213,6 +213,10 @@ const info: Chain = {
       {
         address: 'band-grpc.polkachu.com:22990',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://bandprotocol-grpc.highstakes.ch',
+        provider: 'High Stakes 🇨🇭'
       }
     ]
   },
