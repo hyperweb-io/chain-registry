@@ -135,10 +135,6 @@ const info: Chain = {
         provider: 'w3coins'
       },
       {
-        address: 'https://rpc-nolus.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://nolus-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
@@ -159,10 +155,6 @@ const info: Chain = {
       {
         address: 'https://rest.lavenderfive.com:443/nolus',
         provider: 'Lavender.Five Nodes 🐝'
-      },
-      {
-        address: 'https://api-nolus.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'https://nolus.api.liveraven.net',
@@ -213,10 +205,6 @@ const info: Chain = {
       {
         address: 'grpc-nolus.architectnodes.com:1443',
         provider: 'Architect Nodes'
-      },
-      {
-        address: 'grpc-nolus.cosmos-spaces.cloud:1190',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'nolus.grpc.kjnodes.com:14390',

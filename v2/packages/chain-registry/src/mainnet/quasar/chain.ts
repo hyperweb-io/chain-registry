@@ -89,10 +89,6 @@ const info: Chain = {
         provider: 'Enigma'
       },
       {
-        address: 'https://rpc-quasar.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://quasar-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -133,10 +129,6 @@ const info: Chain = {
       {
         address: 'https://quasar-api.polkachu.com',
         provider: 'Polkachu'
-      },
-      {
-        address: 'https://api-quasar.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'https://quasar-lcd.enigma-validator.com',
@@ -183,10 +175,6 @@ const info: Chain = {
       {
         address: 'quasar-grpc.polkachu.com:18290',
         provider: 'Polkachu'
-      },
-      {
-        address: 'grpc-quasar.cosmos-spaces.cloud:12890',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'quasar-mainnet-grpc.autostake.com:443',

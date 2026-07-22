@@ -165,10 +165,6 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'grpc-centauri.cosmos-spaces.cloud:1120',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'picasso.lavenderfive.com:443',
         provider: 'Lavender.Five Nodes 🐝'
       },

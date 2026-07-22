@@ -60,10 +60,6 @@ const info: Chain = {
         provider: 'w3coins'
       },
       {
-        address: 'https://rpc-cryptoorg.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://cro-chain-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
@@ -90,10 +86,6 @@ const info: Chain = {
         provider: 'w3coins'
       },
       {
-        address: 'https://api-cryptoorg.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://cro-chain-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       }
@@ -110,10 +102,6 @@ const info: Chain = {
       {
         address: 'cryptocom-grpc.w3coins.io:20290',
         provider: 'w3coins'
-      },
-      {
-        address: 'grpc-cryptoorg.cosmos-spaces.cloud:1160',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'cro-chain-grpc.publicnode.com:443',

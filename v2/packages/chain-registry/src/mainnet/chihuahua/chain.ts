@@ -63,24 +63,8 @@ const info: Chain = {
         provider: 'Chihuahua'
       },
       {
-        address: 'https://chihua.rpc.m.stavr.tech',
-        provider: '🔥STAVR🔥'
-      },
-      {
-        address: 'https://rpc.lavenderfive.com:443/chihuahua',
-        provider: 'Lavender.Five Nodes 🐝'
-      },
-      {
-        address: 'https://rpc.huahua.bh.rocks',
-        provider: 'BlockHunters 🎯'
-      },
-      {
         address: 'https://chihuahua-rpc.kleomedes.network',
         provider: 'Kleomedes'
-      },
-      {
-        address: 'https://rpc-chihuahua.pupmos.network',
-        provider: 'PUPMØS'
       },
       {
         address: 'https://chihuahua-mainnet-rpc.autostake.com:443',
@@ -93,14 +77,6 @@ const info: Chain = {
       {
         address: 'https://rpc.chihuahua.validatus.com',
         provider: 'Validatus'
-      },
-      {
-        address: 'https://chihuahua.rpc.nodeshub.online:443',
-        provider: 'NodesHub'
-      },
-      {
-        address: 'https://chihuahua-rpc.chainroot.io',
-        provider: 'Chainroot'
       },
       {
         address: 'https://chihuahua.api.pocket.network',
@@ -117,24 +93,12 @@ const info: Chain = {
         provider: 'Chihuahua'
       },
       {
-        address: 'https://chihua.api.m.stavr.tech',
-        provider: '🔥STAVR🔥'
-      },
-      {
         address: 'https://chihuahua-api.polkachu.com',
         provider: 'Polkachu'
       },
       {
-        address: 'https://rest.lavenderfive.com:443/chihuahua',
-        provider: 'Lavender.Five Nodes 🐝'
-      },
-      {
         address: 'https://chihuahua-api.kleomedes.network',
         provider: 'Kleomedes'
-      },
-      {
-        address: 'https://api-chihuahua.pupmos.network',
-        provider: 'PUPMØS'
       },
       {
         address: 'https://chihuahua-mainnet-lcd.autostake.com:443',
@@ -147,14 +111,6 @@ const info: Chain = {
       {
         address: 'https://api.chihuahua.validatus.com',
         provider: 'Validatus'
-      },
-      {
-        address: 'https://chihuahua.api.nodeshub.online:443',
-        provider: 'NodesHub'
-      },
-      {
-        address: 'https://chihuahua-api.chainroot.io',
-        provider: 'Chainroot'
       },
       {
         address: 'https://chihuahua.api.pocket.network',
@@ -171,14 +127,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'chihua.grpc.m.stavr.tech:108',
-        provider: '🔥STAVR🔥'
-      },
-      {
-        address: 'grpc-chihuahua.cosmos-spaces.cloud:2290',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'chihuahua-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -189,14 +137,6 @@ const info: Chain = {
       {
         address: 'grpc.chihuahua.validatus.com:443',
         provider: 'Validatus'
-      },
-      {
-        address: 'chihuahua.grpc.nodeshub.online',
-        provider: 'Nodes Hub'
-      },
-      {
-        address: 'chihuahua-grpc.chainroot.io:443',
-        provider: 'Chainroot'
       }
     ]
   },

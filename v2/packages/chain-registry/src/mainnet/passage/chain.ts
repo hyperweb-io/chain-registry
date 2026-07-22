@@ -66,10 +66,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://rpc-passage.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://rpc-passage.d-stake.xyz',
         provider: 'D-stake'
       },
@@ -120,10 +116,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://api-passage.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://passage-api.polkachu.com',
         provider: 'Polkachu'
       },
@@ -168,10 +160,6 @@ const info: Chain = {
       {
         address: 'passage-grpc.polkachu.com:15690',
         provider: 'Polkachu'
-      },
-      {
-        address: 'grpc-passage.cosmos-spaces.cloud:2320',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'passage-mainnet-grpc.autostake.com:443',

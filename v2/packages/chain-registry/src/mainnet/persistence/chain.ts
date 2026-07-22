@@ -87,10 +87,6 @@ const info: Chain = {
         provider: 'Architect Nodes'
       },
       {
-        address: 'https://rpc-persistence.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://persistence-mainnet-rpc.cosmonautstakes.com',
         provider: 'Cosmonaut Stakes'
       },
@@ -167,10 +163,6 @@ const info: Chain = {
       {
         address: 'https://persistence-api.polkachu.com',
         provider: 'Polkachu'
-      },
-      {
-        address: 'https://api-persistence.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'https://persistence-api.kleomedes.network',
@@ -261,10 +253,6 @@ const info: Chain = {
       {
         address: 'grpc.persistence.posthuman.digital:80',
         provider: 'POSTHUMAN∞DVS'
-      },
-      {
-        address: 'grpc-persistence.cosmos-spaces.cloud:1180',
-        provider: 'Cosmos Spaces'
       },
       {
         address: '141.95.33.97:9090',
