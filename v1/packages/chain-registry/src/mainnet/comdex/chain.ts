@@ -78,10 +78,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://rpc-comdex.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://comdex-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -136,10 +132,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://api-comdex.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://comdex-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -184,10 +176,6 @@ const info: Chain = {
       {
         address: 'comdex.grpc.m.stavr.tech:104',
         provider: '🔥STAVR🔥'
-      },
-      {
-        address: 'grpc-comdex.cosmos-spaces.cloud:2300',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'comdex.lavenderfive.com:443',

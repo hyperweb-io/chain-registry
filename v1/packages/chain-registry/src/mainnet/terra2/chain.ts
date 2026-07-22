@@ -84,10 +84,6 @@ const info: Chain = {
         provider: 'Stakeflow'
       },
       {
-        address: 'https://rpc-terra.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://terra-phoenix-rpc.highstakes.ch',
         provider: 'High Stakes 🇨🇭'
       },
@@ -174,10 +170,6 @@ const info: Chain = {
       {
         address: 'grpc-archive-terra.r93axnodes.cloud:443',
         provider: 'r93AX Nodes'
-      },
-      {
-        address: 'grpc-terra.cosmos-spaces.cloud:2690',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'grpc-terra-01.stakeflow.io:1102',

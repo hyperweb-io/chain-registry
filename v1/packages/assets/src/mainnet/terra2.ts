@@ -672,7 +672,10 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://cosmos.network',
-        x: 'https://x.com/cosmoshub'
+        x: 'https://x.com/cosmoshub',
+        telegram: 'https://t.me/CosmosOG',
+        discord: 'https://discord.com/invite/interchain',
+        reddit: 'https://www.reddit.com/r/cosmosnetwork/'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -901,7 +904,10 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://injective.com/',
-        x: 'https://x.com/Injective_'
+        x: 'https://x.com/Injective',
+        telegram: 'https://t.me/joininjective',
+        discord: 'https://discord.com/invite/injective',
+        reddit: 'https://www.reddit.com/r/injective/'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -3854,7 +3860,10 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://cosmos.network',
-        x: 'https://x.com/cosmoshub'
+        x: 'https://x.com/cosmoshub',
+        telegram: 'https://t.me/CosmosOG',
+        discord: 'https://discord.com/invite/interchain',
+        reddit: 'https://www.reddit.com/r/cosmosnetwork/'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -4083,7 +4092,10 @@ const assets: AssetList = {
         }],
       socials: {
         website: 'https://injective.com/',
-        x: 'https://x.com/Injective_'
+        x: 'https://x.com/Injective',
+        telegram: 'https://t.me/joininjective',
+        discord: 'https://discord.com/invite/injective',
+        reddit: 'https://www.reddit.com/r/injective/'
       },
       type_asset: 'sdk.coin',
       traces: [{

@@ -62,10 +62,6 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'https://rpc-crescent.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://rpc-crescent-01.stakeflow.io',
         provider: 'Stakeflow'
       },
@@ -100,10 +96,6 @@ const info: Chain = {
         provider: 'Stakin'
       },
       {
-        address: 'https://api-crescent.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://crescent-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -132,10 +124,6 @@ const info: Chain = {
       {
         address: 'crescent-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'grpc-crescent.cosmos-spaces.cloud:2270',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'grpc-crescent-01.stakeflow.io:1402',

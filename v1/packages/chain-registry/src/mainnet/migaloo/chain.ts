@@ -62,10 +62,6 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'https://rpc-migaloo.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://migaloo-rpc.kleomedes.network:443',
         provider: 'Kleomedes'
       },
@@ -78,10 +74,6 @@ const info: Chain = {
       {
         address: 'https://migaloo-api.polkachu.com:443',
         provider: 'Polkachu'
-      },
-      {
-        address: 'https://api-migaloo.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'https://migaloo-api.kleomedes.network:443',
@@ -100,10 +92,6 @@ const info: Chain = {
       {
         address: 'whitewhale-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'grpc-migaloo.cosmos-spaces.cloud:4810',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'migaloo-grpc.publicnode.com:443',

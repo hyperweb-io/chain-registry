@@ -83,10 +83,6 @@ const info: Chain = {
         provider: 'Stakeflow'
       },
       {
-        address: 'https://rpc-band.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
-      },
-      {
         address: 'https://band-rpc.w3coins.io',
         provider: 'w3coins'
       },
@@ -123,10 +119,6 @@ const info: Chain = {
       {
         address: 'https://band.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
-      },
-      {
-        address: 'https://api-band.cosmos-spaces.cloud',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'https://band.api.m.stavr.tech',
@@ -173,10 +165,6 @@ const info: Chain = {
       {
         address: 'bandchain-mainnet-grpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'grpc-band.cosmos-spaces.cloud:2240',
-        provider: 'Cosmos Spaces'
       },
       {
         address: 'grpc-band-01.stakeflow.io:2502',

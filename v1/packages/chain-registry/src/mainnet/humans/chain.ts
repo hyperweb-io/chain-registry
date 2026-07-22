@@ -190,10 +190,6 @@ const info: Chain = {
         provider: 'PPNV Service'
       },
       {
-        address: 'https://grpc-humans.cosmos-spaces.cloud:1190',
-        provider: 'StakePool'
-      },
-      {
         address: 'humans-grpc.noders.services:21090',
         provider: '[NODERS]TEAM'
       },

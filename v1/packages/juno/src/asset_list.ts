@@ -494,7 +494,10 @@ const asset_list: AssetList = {
         }],
       socials: {
         website: 'https://cosmos.network',
-        x: 'https://x.com/cosmoshub'
+        x: 'https://x.com/cosmoshub',
+        telegram: 'https://t.me/CosmosOG',
+        discord: 'https://discord.com/invite/interchain',
+        reddit: 'https://www.reddit.com/r/cosmosnetwork/'
       },
       type_asset: 'sdk.coin',
       traces: [{
@@ -1310,7 +1313,10 @@ const asset_list: AssetList = {
         }],
       socials: {
         website: 'https://cosmos.network',
-        x: 'https://x.com/cosmoshub'
+        x: 'https://x.com/cosmoshub',
+        telegram: 'https://t.me/CosmosOG',
+        discord: 'https://discord.com/invite/interchain',
+        reddit: 'https://www.reddit.com/r/cosmosnetwork/'
       },
       type_asset: 'sdk.coin',
       traces: [{
