@@ -66,6 +66,10 @@ const info: Chain = {
       {
         address: 'https://celestia-testnet-rpc.stakeandrelax.net',
         provider: 'Stake&Relax Validator 🦥'
+      },
+      {
+        address: 'https://mocha.celestia.rpc.cumulo.me',
+        provider: 'Cumulo'
       }
     ],
     rest: [
@@ -96,6 +100,10 @@ const info: Chain = {
       {
         address: 'https://celestia-testnet-api.stakeandrelax.net',
         provider: 'Stake&Relax Validator 🦥'
+      },
+      {
+        address: 'https://mocha.api.cumulo.me',
+        provider: 'Cumulo'
       }
     ],
     grpc: [
@@ -122,8 +130,16 @@ const info: Chain = {
       {
         address: 'http://celestia-testnet-grpc.stakeandrelax.net:11690',
         provider: 'Stake&Relax Validator 🦥'
+      },
+      {
+        address: 'https://mocha.grpc.cumulo.me',
+        provider: 'Cumulo'
       }
-    ]
+    ],
+    wss: [{
+        address: 'wss://mocha.celestia.rpc.cumulo.me/websocket',
+        provider: 'Cumulo'
+      }]
   },
   explorers: [
     {

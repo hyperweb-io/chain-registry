@@ -106,6 +106,10 @@ const info: Chain = {
       {
         address: 'https://provenance-rpc.polkachu.com:443',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://provenance-rpc.kleomedes.network',
+        provider: 'Kleomedes'
       }
     ],
     rest: [
@@ -156,6 +160,10 @@ const info: Chain = {
       {
         address: 'https://provenance-api.polkachu.com',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://provenance-api.kleomedes.network',
+        provider: 'Kleomedes'
       }
     ],
     grpc: [
@@ -258,7 +266,8 @@ const info: Chain = {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.svg'
     }],
-  snapshots: [{
+  snapshots: [
+    {
       provider: 'High Stakes 🇨🇭',
       url: 'https://tools.highstakes.ch/snapshots/provenance',
       latest_url: 'https://tools.highstakes.ch/files/provenance_goleveldb.tar.gz',
@@ -267,12 +276,21 @@ const info: Chain = {
       frequency: 'every 3h',
       compression: 'tar',
       checksum_available: true
-    }, {
+    },
+    {
       url: 'https://polkachu.com/tendermint_snapshots/provenance',
       type: 'pruned',
       compression: 'lz4',
       checksum_available: false,
       provider: 'Polkachu'
-    }]
+    },
+    {
+      url: 'https://kleomedes.cloud/chains/provenance',
+      latest_url: 'https://api.kleomedes.network/api/v2/snapshots/provenance/latest',
+      type: 'pruned',
+      compression: 'zstd',
+      provider: 'Kleomedes'
+    }
+  ]
 };
 export default info;

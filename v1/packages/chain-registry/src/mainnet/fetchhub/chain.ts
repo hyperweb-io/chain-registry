@@ -43,10 +43,6 @@ const info: Chain = {
         provider: 'fetch.ai'
       },
       {
-        address: 'https://fetchai-rpc.kleomedes.network',
-        provider: 'Kleomedes'
-      },
-      {
         address: 'https://fetch-rpc.antrixy.org',
         provider: 'Antrix'
       },
@@ -101,6 +97,10 @@ const info: Chain = {
       {
         address: 'https://fetch-rpc.polkachu.com:443',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://fetchhub-rpc.kleomedes.network',
+        provider: 'Kleomedes'
       }
     ],
     rest: [
@@ -111,10 +111,6 @@ const info: Chain = {
       {
         address: 'https://fetch-api.polkachu.com',
         provider: 'Polkachu'
-      },
-      {
-        address: 'https://fetchai-api.kleomedes.network',
-        provider: 'Kleomedes'
       },
       {
         address: 'https://fetch-rest.antrixy.org',
@@ -167,6 +163,10 @@ const info: Chain = {
       {
         address: 'https://fetch.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://fetchhub-api.kleomedes.network',
+        provider: 'Kleomedes'
       }
     ],
     grpc: [
@@ -285,7 +285,8 @@ const info: Chain = {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg'
     }],
-  snapshots: [{
+  snapshots: [
+    {
       provider: 'High Stakes 🇨🇭',
       url: 'https://tools.highstakes.ch/snapshots/fetchai',
       latest_url: 'https://tools.highstakes.ch/files/fetchai.tar.gz',
@@ -294,12 +295,21 @@ const info: Chain = {
       frequency: 'every 3h',
       compression: 'tar',
       checksum_available: true
-    }, {
+    },
+    {
       url: 'https://polkachu.com/tendermint_snapshots/fetch',
       type: 'pruned',
       compression: 'lz4',
       checksum_available: false,
       provider: 'Polkachu'
-    }]
+    },
+    {
+      url: 'https://kleomedes.cloud/chains/fetchhub',
+      latest_url: 'https://api.kleomedes.network/api/v2/snapshots/fetchhub/latest',
+      type: 'pruned',
+      compression: 'zstd',
+      provider: 'Kleomedes'
+    }
+  ]
 };
 export default info;

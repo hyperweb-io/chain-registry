@@ -401,14 +401,18 @@ const info: Chain = {
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       },
       {
-        address: 'grpc.cosmos.cumulo.com.es:9790',
-        provider: 'Cumulo'
-      },
-      {
         address: 'https://cosmos-grpc.highstakes.ch',
         provider: 'High Stakes 🇨🇭'
+      },
+      {
+        address: 'https://grpc.cosmos.cumulo.com.es',
+        provider: 'Cumulo'
       }
-    ]
+    ],
+    wss: [{
+        address: 'wss://rpc.cosmos.cumulo.com.es/websocket',
+        provider: 'Cumulo'
+      }]
   },
   explorers: [
     {

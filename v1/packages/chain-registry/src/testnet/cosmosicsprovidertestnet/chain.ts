@@ -28,15 +28,15 @@ const info: Chain = {
   },
   codebase: {
     git_repo: 'https://github.com/cosmos/gaia',
-    recommended_version: 'v27.5.0-rc0',
-    compatible_versions: ['v27.5.0-rc0'],
+    recommended_version: 'v27.6.0-rc0',
+    compatible_versions: ['v27.6.0-rc0'],
     consensus: {
       type: 'cometbft',
       version: 'v0.38.23'
     },
     binaries: {
-      "darwin/amd64": 'https://github.com/cosmos/gaia/releases/download/v27.5.0-rc0/gaiad-v27.5.0-rc0-darwin-amd64',
-      "linux/amd64": 'https://github.com/cosmos/gaia/releases/download/v27.5.0-rc0/gaiad-v27.5.0-rc0-linux-amd64'
+      "darwin/amd64": 'https://github.com/cosmos/gaia/releases/download/v27.6.0-rc0/gaiad-v27.6.0-rc0-darwin-amd64',
+      "linux/amd64": 'https://github.com/cosmos/gaia/releases/download/v27.6.0-rc0/gaiad-v27.6.0-rc0-linux-amd64'
     },
     genesis: {
       genesis_url: 'https://raw.githubusercontent.com/cosmos/testnets/master/provider/provider-genesis.json'
@@ -51,11 +51,11 @@ const info: Chain = {
       version: 'v10.7.0'
     },
     cosmwasm: {
-      version: 'v0.60.7',
+      version: 'v0.60.8',
       repo: 'https://github.com/CosmWasm/wasmd',
-      tag: 'v0.60.7'
+      tag: 'v0.60.8'
     },
-    tag: 'v27.5.0-rc0'
+    tag: 'v27.6.0-rc0'
   },
   apis: {
     rpc: [
@@ -82,6 +82,10 @@ const info: Chain = {
       {
         address: 'https://cosmos-testnet-rpc.ibs.team',
         provider: 'Inter Blockchain Services'
+      },
+      {
+        address: 'https://cosmos.rpc.testnet.cumulo.me',
+        provider: 'Cumulo'
       }
     ],
     rest: [
@@ -108,6 +112,10 @@ const info: Chain = {
       {
         address: 'https://cosmos-testnet-api.ibs.team',
         provider: 'Inter Blockchain Services'
+      },
+      {
+        address: 'https://cosmos.api.testnet.cumulo.me',
+        provider: 'Cumulo'
       }
     ],
     grpc: [
@@ -130,8 +138,16 @@ const info: Chain = {
       {
         address: 'cosmos-testnet-grpc.itrocket.net:443',
         provider: 'ITRocket'
+      },
+      {
+        address: 'https://cosmos.grpc.testnet.cumulo.me',
+        provider: 'Cumulo'
       }
-    ]
+    ],
+    wss: [{
+        address: 'wss://cosmos.rpc.testnet.cumulo.me/websocket',
+        provider: 'Cumulo'
+      }]
   },
   explorers: [
     {

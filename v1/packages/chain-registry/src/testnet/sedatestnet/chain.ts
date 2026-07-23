@@ -82,6 +82,10 @@ const info: Chain = {
       {
         address: 'https://seda-testnet-rpc.synergynodes.com/',
         provider: 'Synergy Nodes'
+      },
+      {
+        address: 'https://seda-testnet.rpc.cumulo.org.es',
+        provider: 'Cumulo'
       }
     ],
     rest: [
@@ -96,11 +100,18 @@ const info: Chain = {
       {
         address: 'https://seda-testnet.api.kjnodes.com',
         provider: 'kjnodes'
+      },
+      {
+        address: 'https://seda-testnet.api.cumulo.org.es',
+        provider: 'Cumulo'
       }
     ],
     grpc: [{
         address: 'seda-testnet-grpc.polkachu.com:25890',
         provider: 'Polkachu'
+      }, {
+        address: 'https://seda-testnet.grpc.cumulo.org.es',
+        provider: 'Cumulo'
       }]
   },
   explorers: [{

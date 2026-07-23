@@ -211,7 +211,8 @@ const info: Chain = {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg'
     }],
-  snapshots: [{
+  snapshots: [
+    {
       provider: 'High Stakes 🇨🇭',
       url: 'https://tools.highstakes.ch/snapshots/akash',
       latest_url: 'https://tools.highstakes.ch/files/akash.tar.gz',
@@ -220,12 +221,21 @@ const info: Chain = {
       frequency: 'every 3h',
       compression: 'tar',
       checksum_available: true
-    }, {
+    },
+    {
       url: 'https://polkachu.com/tendermint_snapshots/akash',
       type: 'pruned',
       compression: 'lz4',
       checksum_available: false,
       provider: 'Polkachu'
-    }]
+    },
+    {
+      url: 'https://kleomedes.cloud/chains/akash',
+      latest_url: 'https://api.kleomedes.network/api/v2/snapshots/akash/latest',
+      type: 'pruned',
+      compression: 'zstd',
+      provider: 'Kleomedes'
+    }
+  ]
 };
 export default info;

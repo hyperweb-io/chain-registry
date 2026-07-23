@@ -126,10 +126,6 @@ const info: Chain = {
         provider: 'FreshSTAKING'
       },
       {
-        address: 'https://celestia.cumulo.org.es/',
-        provider: 'Cumulo'
-      },
-      {
         address: 'https://rpc.celestia-app.bronbro.io',
         provider: 'Bro_n_Bro'
       },
@@ -164,6 +160,10 @@ const info: Chain = {
       {
         address: 'https://celestia-rpc.polkachu.com:443',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://celestia.cumulo.org.es',
+        provider: 'Cumulo'
       }
     ],
     rest: [
@@ -302,10 +302,6 @@ const info: Chain = {
         provider: 'Validatus'
       },
       {
-        address: 'celestia.grpc.cumulo.org.es',
-        provider: 'Cumulo'
-      },
-      {
         address: 'grpc.celestia-app.bronbro.io:443',
         provider: 'Bro_n_Bro'
       },
@@ -332,8 +328,16 @@ const info: Chain = {
       {
         address: 'celestia-grpc.polkachu.com:11690',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://celestia.grpc.cumulo.org.es',
+        provider: 'Cumulo'
       }
-    ]
+    ],
+    wss: [{
+        address: 'wss://celestia.cumulo.org.es/websocket',
+        provider: 'Cumulo'
+      }]
   },
   explorers: [
     {

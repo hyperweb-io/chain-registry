@@ -135,10 +135,6 @@ const info: Chain = {
         provider: 'Wave'
       },
       {
-        address: 'https://archive.rpc.dym.cumulo.com.es:443',
-        provider: 'Cumulo'
-      },
-      {
         address: 'https://rpc.dymension.posthuman.digital',
         provider: 'posthuman'
       },
@@ -165,6 +161,10 @@ const info: Chain = {
       {
         address: 'https://dymension-rpc.polkachu.com:443',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://rollapp.rpc.cumulo.com.es',
+        provider: 'Cumulo'
       }
     ],
     rest: [
@@ -257,10 +257,6 @@ const info: Chain = {
         provider: 'Wave'
       },
       {
-        address: 'https://api.dym.cumulo.com.es',
-        provider: 'Cumulo'
-      },
-      {
         address: 'https://rest.dymension.posthuman.digital',
         provider: 'posthuman'
       },
@@ -283,6 +279,10 @@ const info: Chain = {
       {
         address: 'https://dymension-api.polkachu.com',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://rollapp.rest.cumulo.com.es',
+        provider: 'Cumulo'
       }
     ],
     grpc: [
@@ -355,10 +355,6 @@ const info: Chain = {
         provider: 'Wave'
       },
       {
-        address: 'grpc.dym.cumulo.com.es:443',
-        provider: 'Cumulo'
-      },
-      {
         address: 'https://grpc.dymension.posthuman.digital',
         provider: 'posthuman'
       },
@@ -377,6 +373,10 @@ const info: Chain = {
       {
         address: 'dymension-grpc.polkachu.com:20590',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://rollapp.grpc.cumulo.com.es',
+        provider: 'Cumulo'
       }
     ],
     "evm-http-jsonrpc": [
@@ -397,10 +397,6 @@ const info: Chain = {
         provider: 'Wave'
       },
       {
-        address: 'https://evm-rpc.dym.cumulo.com.es:443',
-        provider: 'Cumulo'
-      },
-      {
         address: 'https://evm-rpc.dymension.node75.org',
         provider: 'Pro-Nodes75'
       },
@@ -415,6 +411,10 @@ const info: Chain = {
       {
         address: 'https://evm.archive.dymension.mainnet.dteam.tech:443',
         provider: 'DTEAM'
+      },
+      {
+        address: 'https://rollapp.jrpc.cumulo.com.es',
+        provider: 'Cumulo'
       }
     ]
   },

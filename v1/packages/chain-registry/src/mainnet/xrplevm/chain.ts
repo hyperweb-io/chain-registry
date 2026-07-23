@@ -114,6 +114,10 @@ const info: Chain = {
       }, {
         address: 'https://json-rpc.xrpl.cumulo.org.es',
         provider: 'Cumulo'
+      }],
+    wss: [{
+        address: 'wss://rpc.xrpl.cumulo.org.es/websocket',
+        provider: 'Cumulo'
       }]
   },
   explorers: [

@@ -80,10 +80,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://seda-rpc.kleomedes.network/',
-        provider: 'Kleomedes'
-      },
-      {
         address: 'https://seda.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
@@ -126,6 +122,10 @@ const info: Chain = {
       {
         address: 'https://seda-rpc.polkachu.com:443',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://seda-rpc.kleomedes.network',
+        provider: 'Kleomedes'
       }
     ],
     rest: [
@@ -140,10 +140,6 @@ const info: Chain = {
       {
         address: 'https://rest.lavenderfive.com:443/seda',
         provider: 'Lavender.Five Nodes 🐝'
-      },
-      {
-        address: 'https://seda-api.kleomedes.network/',
-        provider: 'Kleomedes'
       },
       {
         address: 'https://seda.ibs.team:443/api',
@@ -188,6 +184,10 @@ const info: Chain = {
       {
         address: 'https://seda-api.polkachu.com',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://seda-api.kleomedes.network',
+        provider: 'Kleomedes'
       }
     ],
     grpc: [
@@ -212,12 +212,12 @@ const info: Chain = {
         provider: 'RHINO 🦏'
       },
       {
-        address: 'seda.grpc.cumulo.org.es:443',
-        provider: 'Cumulo'
-      },
-      {
         address: 'http://seda-grpc.stakeandrelax.net:25890',
         provider: 'Stake&Relax 🦥'
+      },
+      {
+        address: 'https://seda.grpc.cumulo.org.es',
+        provider: 'Cumulo'
       }
     ]
   },
@@ -279,6 +279,12 @@ const info: Chain = {
       compression: 'lz4',
       checksum_available: false,
       provider: 'Polkachu'
+    }, {
+      url: 'https://kleomedes.cloud/chains/seda',
+      latest_url: 'https://api.kleomedes.network/api/v2/snapshots/seda/latest',
+      type: 'pruned',
+      compression: 'zstd',
+      provider: 'Kleomedes'
     }]
 };
 export default info;

@@ -81,9 +81,6 @@ const testnet: Chain = {
     grpc: [{
         address: 'juno-testnet-grpc.polkachu.com:12690',
         provider: 'Polkachu'
-      }, {
-        address: 'junotestnet.gprc.kleomedes.network',
-        provider: 'Kleomedes'
       }]
   },
   explorers: [

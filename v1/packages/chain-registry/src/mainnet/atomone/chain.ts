@@ -192,6 +192,10 @@ const info: Chain = {
       {
         address: 'https://atomone-mainnet-rpc.oshvank.xyz',
         provider: '🏆OshVanK🏆'
+      },
+      {
+        address: 'https://atomone-rpc.kleomedes.network',
+        provider: 'Kleomedes'
       }
     ],
     rest: [
@@ -318,6 +322,10 @@ const info: Chain = {
       {
         address: 'https://atomone-mainnet-api.oshvank.xyz',
         provider: '🏆OshVanK🏆'
+      },
+      {
+        address: 'https://atomone-api.kleomedes.network',
+        provider: 'Kleomedes'
       }
     ],
     grpc: [
@@ -536,6 +544,13 @@ const info: Chain = {
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg'
+    }],
+  snapshots: [{
+      url: 'https://kleomedes.cloud/chains/atomone',
+      latest_url: 'https://api.kleomedes.network/api/v2/snapshots/atomone/latest',
+      type: 'pruned',
+      compression: 'zstd',
+      provider: 'Kleomedes'
     }]
 };
 export default info;
