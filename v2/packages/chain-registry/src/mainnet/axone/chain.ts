@@ -130,10 +130,6 @@ const info: Chain = {
     ],
     grpc: [
       {
-        address: 'grpc.axone.cumulo.com.es:443',
-        provider: 'Cumulo'
-      },
-      {
         address: 'axone.grpc.bccnodes.com:443',
         provider: 'BccNodes'
       },
@@ -156,6 +152,10 @@ const info: Chain = {
       {
         address: 'axone-mainnet-grpc.shazoes.xyz:30490',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://grpc.axone.cumulo.com.es',
+        provider: 'Cumulo'
       }
     ]
   },

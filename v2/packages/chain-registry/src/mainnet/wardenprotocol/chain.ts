@@ -60,14 +60,27 @@ const info: Chain = {
     rpc: [{
         address: 'https://rpc.wardenprotocol.org',
         provider: 'Warden Labs'
+      }, {
+        address: 'https://rpc.warden.cumulo.org.es',
+        provider: 'Cumulo'
       }],
     rest: [{
         address: 'https://api.wardenprotocol.org',
         provider: 'Warden Labs'
+      }, {
+        address: 'https://api.warden.cumulo.org.es',
+        provider: 'Cumulo'
       }],
     grpc: [{
         address: 'https://grpc.wardenprotocol.org',
         provider: 'Warden Labs'
+      }, {
+        address: 'https://grpc.warden.cumulo.org.es',
+        provider: 'Cumulo'
+      }],
+    evmHttpJsonrpc: [{
+        address: 'https://json-rpc.warden.cumulo.org.es',
+        provider: 'Cumulo'
       }]
   },
   explorers: [{

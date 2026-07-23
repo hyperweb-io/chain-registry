@@ -251,6 +251,12 @@ const info: Chain = {
       compression: 'lz4',
       checksumAvailable: false,
       provider: 'Polkachu'
+    }, {
+      url: 'https://kleomedes.cloud/chains/juno',
+      latestUrl: 'https://api.kleomedes.network/api/v2/snapshots/juno/latest',
+      type: 'pruned',
+      compression: 'zstd',
+      provider: 'Kleomedes'
     }]
 };
 export default info;

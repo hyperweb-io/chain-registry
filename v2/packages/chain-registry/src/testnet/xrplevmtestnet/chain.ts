@@ -172,10 +172,6 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'grpc.xrpl.cumulo.com.es',
-        provider: 'Cumulo'
-      },
-      {
         address: 'xrplevm-testnet-grpc.itrocket.net:443',
         provider: 'ITRocket'
       },
@@ -198,6 +194,10 @@ const info: Chain = {
       {
         address: 'http://xrplevm-testnet-grpc.blockitize.com/',
         provider: 'blockitize'
+      },
+      {
+        address: 'https://grpc.xrpl.cumulo.com.es',
+        provider: 'Cumulo'
       }
     ],
     evmHttpJsonrpc: [
@@ -289,7 +289,11 @@ const info: Chain = {
         address: 'https://evmrpc-t.archive.xrp.nodestake.org',
         provider: 'NodeStake'
       }
-    ]
+    ],
+    wss: [{
+        address: 'wss://rpc.xrpl.cumulo.com.es/websocket',
+        provider: 'Cumulo'
+      }]
   },
   explorers: [
     {

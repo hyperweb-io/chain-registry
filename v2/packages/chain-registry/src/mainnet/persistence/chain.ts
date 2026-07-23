@@ -347,7 +347,8 @@ const info: Chain = {
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg'
     }],
-  snapshots: [{
+  snapshots: [
+    {
       provider: 'High Stakes 🇨🇭',
       url: 'https://tools.highstakes.ch/snapshots/persistence',
       latestUrl: 'https://tools.highstakes.ch/files/persistence.tar.gz',
@@ -356,12 +357,21 @@ const info: Chain = {
       frequency: 'every 3h',
       compression: 'tar',
       checksumAvailable: true
-    }, {
+    },
+    {
       url: 'https://polkachu.com/tendermint_snapshots/persistence',
       type: 'pruned',
       compression: 'lz4',
       checksumAvailable: false,
       provider: 'Polkachu'
-    }]
+    },
+    {
+      url: 'https://kleomedes.cloud/chains/persistence',
+      latestUrl: 'https://api.kleomedes.network/api/v2/snapshots/persistence/latest',
+      type: 'pruned',
+      compression: 'zstd',
+      provider: 'Kleomedes'
+    }
+  ]
 };
 export default info;
