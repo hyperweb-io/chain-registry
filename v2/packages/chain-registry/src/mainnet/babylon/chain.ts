@@ -113,7 +113,7 @@ const info: Chain = {
     ],
     grpc: [
       {
-        address: 'babylon.nodes.guru:443/grpc',
+        address: 'https://babylon.nodes.guru:443/grpc',
         provider: 'Nodes.Guru'
       },
       {

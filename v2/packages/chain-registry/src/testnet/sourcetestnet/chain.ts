@@ -91,10 +91,7 @@ const info: Chain = {
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }
     ],
-    grpc: [{
-        address: 'grpc-testnet-source.sr20de.xyz/',
-        provider: 'SR20DE'
-      }]
+    grpc: []
   },
   explorers: [
     {

@@ -31,10 +31,6 @@ const info: Chain = {
         provider: 'Sge Network'
       },
       {
-        address: 'https://testnet-saage-rpc.lavenderfive.com/ ',
-        provider: 'Lavender.Five'
-      },
-      {
         address: 'https://saage-testnet-rpc.polkachu.com/',
         provider: 'Polkachu'
       },

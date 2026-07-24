@@ -338,10 +338,6 @@ const info: Chain = {
         provider: 'Cogwheel ⚙️'
       },
       {
-        address: 'atomone.grpc.nodeshub.online',
-        provider: 'Nodes Hub'
-      },
-      {
         address: 'https://grpc-atomone.nodeist.net',
         provider: 'Nodeist'
       },
@@ -386,7 +382,7 @@ const info: Chain = {
         provider: 'Shazoes'
       },
       {
-        address: 'grpc-atomone.22node.xyz',
+        address: 'https://grpc-atomone.22node.xyz',
         provider: 'Shazoes'
       },
       {
@@ -406,7 +402,7 @@ const info: Chain = {
         provider: 'Citizen Web3'
       },
       {
-        address: 'atomone-grpc.nyan-cat.net',
+        address: 'https://atomone-grpc.nyan-cat.net',
         provider: 'NyanCat'
       },
       {

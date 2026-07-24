@@ -48,10 +48,7 @@ const info: Chain = {
         address: 'humans-testnet-grpc.cosmonautstakes.com:14990',
         provider: 'Cosmonaut Stakes'
       }],
-    evmHttpJsonrpc: [{
-        address: 'humans-testnet-evm.cosmonautstakes.com',
-        provider: 'Cosmonaut Stakes'
-      }]
+    evmHttpJsonrpc: []
   },
   explorers: [{
       kind: 'explorer.humans.zone',

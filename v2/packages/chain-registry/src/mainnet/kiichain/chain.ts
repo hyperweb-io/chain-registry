@@ -61,7 +61,7 @@ const info: Chain = {
         provider: 'OneNov'
       }],
     grpc: [{
-        address: 'grpc.kiivalidator.com',
+        address: 'https://grpc.kiivalidator.com',
         provider: 'Kiichain'
       }, {
         address: 'grpc-kiichain-mainnet.onenov.xyz:443',

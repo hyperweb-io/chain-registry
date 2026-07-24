@@ -179,10 +179,6 @@ const info: Chain = {
         provider: 'Sr20de'
       },
       {
-        address: 'realio.grpc.skynodejs.net',
-        provider: 'skynodejs'
-      },
-      {
         address: 'https://realio.declab.pro:9015',
         provider: 'Decloud Nodes Lab'
       },

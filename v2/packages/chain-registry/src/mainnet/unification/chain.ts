@@ -85,9 +85,6 @@ const info: Chain = {
     grpc: [{
         address: 'grpc.unification.io:443',
         provider: 'Unification'
-      }, {
-        address: 'grpc.unification.chainmasters.info',
-        provider: 'Chainmasters'
       }]
   },
   explorers: [

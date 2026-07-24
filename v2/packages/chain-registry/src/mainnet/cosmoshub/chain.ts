@@ -333,7 +333,7 @@ const info: Chain = {
         archive: true
       },
       {
-        address: 'cosmoshub.grpc.lava.build',
+        address: 'https://cosmoshub.grpc.lava.build',
         provider: 'Lava'
       },
       {
@@ -385,7 +385,7 @@ const info: Chain = {
         provider: 'ITRocket'
       },
       {
-        address: 'cosmoshub.grpc.quasarstaking.ai',
+        address: 'https://cosmoshub.grpc.quasarstaking.ai',
         provider: 'Quasar'
       },
       {
@@ -537,6 +537,12 @@ const info: Chain = {
       validatorPage: 'https://explorer.whenmoonwhenlambo.money/cosmos/staking/${validatorAddress}',
       proposalPage: 'https://explorer.whenmoonwhenlambo.money/cosmos/gov/${proposalId}',
       blockPage: 'https://explorer.whenmoonwhenlambo.money/cosmos/block/${blockHeight}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/cosmoshub/mainnet',
+      txPage: 'https://moon-runners.net/cosmoshub/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/cosmoshub/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

@@ -54,10 +54,6 @@ const info: Chain = {
         provider: 'Stake Village'
       },
       {
-        address: 'https://rpc.odiseo-testnet.irynamcc.co.uk:443 ',
-        provider: 'Iryna'
-      },
-      {
         address: 'https://daodiseo-testnet.rpc.mrsml.fun:443',
         provider: 'Mrs_ml'
       },
@@ -164,10 +160,6 @@ const info: Chain = {
       {
         address: 'daodiseo-testnet-grpc.stakerhouse.com:443',
         provider: 'StakerHouse'
-      },
-      {
-        address: ' grpc.odiseo-testnet.irynamcc.co.uk:443',
-        provider: 'Iryna'
       },
       {
         address: 'odiseo-testnet.grpc.stakevillage.net:443',

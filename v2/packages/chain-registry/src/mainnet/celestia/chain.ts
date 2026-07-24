@@ -422,6 +422,12 @@ const info: Chain = {
       url: 'https://celestia.valopers.com/',
       txPage: 'https://celestia.valopers.com/transactions/${txHash}',
       accountPage: 'https://celestia.valopers.com/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/celestia/mainnet',
+      txPage: 'https://moon-runners.net/celestia/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/celestia/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

@@ -105,7 +105,7 @@ const info: Chain = {
     ],
     grpc: [
       {
-        address: 'cosmoshubt.grpc.lava.build',
+        address: 'https://cosmoshubt.grpc.lava.build',
         provider: 'Lava'
       },
       {

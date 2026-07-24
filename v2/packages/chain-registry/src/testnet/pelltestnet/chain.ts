@@ -63,9 +63,6 @@ const info: Chain = {
         provider: 'NodeStake'
       }],
     evmHttpJsonrpc: [{
-        address: 'pell-testnet-evm.cosmonautstakes.com:443',
-        provider: 'Cosmonaut Stakes'
-      }, {
         address: 'https://evmrpc-t.pell.nodestake.org',
         provider: 'NodeStake'
       }]

@@ -51,10 +51,7 @@ const info: Chain = {
         address: 'https://terp-testnet-api.itrocket.net:443/',
         provider: 'itrocket'
       }],
-    grpc: [{
-        address: 'terp-testnet-grpc.itrocket.net/',
-        provider: 'itrocket'
-      }]
+    grpc: []
   },
   explorers: [{
       kind: 'Ping Pub',

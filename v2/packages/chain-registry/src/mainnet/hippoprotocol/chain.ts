@@ -113,10 +113,6 @@ const info: Chain = {
         provider: 'Hippo Protocol'
       },
       {
-        address: 'hippo.grpc.nodeshub.online',
-        provider: 'Nodes Hub'
-      },
-      {
         address: 'hippo-grpc.node39.top:443',
         provider: 'Node39'
       },

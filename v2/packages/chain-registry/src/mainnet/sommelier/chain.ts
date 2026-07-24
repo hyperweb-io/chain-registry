@@ -141,7 +141,7 @@ const info: Chain = {
         provider: 'w3coins'
       },
       {
-        address: 'grpc.sommelier.validatus.com',
+        address: 'https://grpc.sommelier.validatus.com',
         provider: 'Validatus'
       }
     ]
