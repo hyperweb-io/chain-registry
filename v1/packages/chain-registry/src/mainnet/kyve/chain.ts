@@ -272,6 +272,12 @@ const info: Chain = {
       url: 'https://viewblock.io/kyve',
       tx_page: 'https://viewblock.io/kyve/tx/${txHash}',
       account_page: 'https://viewblock.io/kyve/address/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/kyve/mainnet',
+      tx_page: 'https://moon-runners.net/kyve/mainnet/finder?search=${txHash}',
+      account_page: 'https://moon-runners.net/kyve/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

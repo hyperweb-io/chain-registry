@@ -278,10 +278,6 @@ const info: Chain = {
         provider: 'r93AX Nodes'
       },
       {
-        address: 'grpc.lava-mainnet-1.lava.aviaone.com:9104/',
-        provider: 'AVIAONE 🟢'
-      },
-      {
         address: 'grpc-lava.maouam.xyz:443',
         provider: 'MaouamNodelab'
       },
@@ -367,6 +363,12 @@ const info: Chain = {
       url: 'https://stake.astrostake.xyz/lava',
       tx_page: 'https://stake.astrostake.xyz/lava/tx/${txHash}',
       account_page: 'https://stake.astrostake.xyz/lava/address/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/lava/mainnet',
+      tx_page: 'https://moon-runners.net/lava/mainnet/finder?search=${txHash}',
+      account_page: 'https://moon-runners.net/lava/mainnet/finder?search=${accountAddress}'
     }
   ],
   keywords: [

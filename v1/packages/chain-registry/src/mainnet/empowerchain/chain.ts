@@ -173,10 +173,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'grpc-empower.vinjan.xyz',
-        provider: 'vinjan'
-      },
-      {
         address: 'empower.grpc.stakevillage.net:16890',
         provider: 'Stake Village'
       },

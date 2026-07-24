@@ -112,10 +112,6 @@ const info: Chain = {
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
       {
-        address: 'grpc-mocha-full.avril14th.org',
-        provider: 'Avril 14th'
-      },
-      {
         address: 'celestia-testnet-grpc.itrocket.net:443',
         provider: 'itrocket'
       },

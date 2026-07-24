@@ -47,10 +47,7 @@ const info: Chain = {
         address: 'https://grpc-testnet-bfhevm.xyz:4430',
         provider: 'bfhlabs'
       }],
-    "evm-http-jsonrpc": [{
-        address: '_',
-        provider: 'bfhlabs'
-      }]
+    "evm-http-jsonrpc": []
   },
   explorers: [{
       kind: 'BFH-DEXplorer',

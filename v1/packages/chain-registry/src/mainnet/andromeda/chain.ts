@@ -89,10 +89,6 @@ const info: Chain = {
         provider: 'kjnodes.com 🦄'
       },
       {
-        address: 'andromeda-rpc.noders.services',
-        provider: '[NODERS]TEAM'
-      },
-      {
         address: 'https://andromeda.rpc.liveraven.net',
         provider: 'LiveRaveN'
       }
@@ -129,10 +125,6 @@ const info: Chain = {
       {
         address: 'https://andromeda.api.kjnodes.com',
         provider: 'kjnodes.com 🦄'
-      },
-      {
-        address: 'andromeda-api.noders.services',
-        provider: '[NODERS]TEAM'
       },
       {
         address: 'https://andromeda.api.liveraven.net',

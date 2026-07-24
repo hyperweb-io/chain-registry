@@ -115,10 +115,6 @@ const info: Chain = {
       {
         address: 'https://rebus-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https:/rebus-api.noders.services',
-        provider: '[NODERS]TEAM'
       }
     ],
     grpc: [

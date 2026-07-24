@@ -164,7 +164,7 @@ const chain: Chain = {
         provider: 'Stake&Relax Validator 🦥'
       },
       {
-        address: 'juno.grpc.kleomedes.network',
+        address: 'https://juno.grpc.kleomedes.network',
         provider: 'Kleomedes'
       },
       {

@@ -198,10 +198,6 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'aura.mainnet.grpc.nodersteam.com:9100/',
-        provider: '[NODERS]TEAM'
-      },
-      {
         address: 'https://aura-grpc.ramuchi.tech:15000',
         provider: 'ramuchi.tech'
       },

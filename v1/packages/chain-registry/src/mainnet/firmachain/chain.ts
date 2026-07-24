@@ -122,7 +122,7 @@ const info: Chain = {
         provider: 'ramuchi.tech'
       },
       {
-        address: 'firmachain.grpc.nodeshub.online',
+        address: 'https://firmachain.grpc.nodeshub.online',
         provider: 'Nodes Hub'
       },
       {

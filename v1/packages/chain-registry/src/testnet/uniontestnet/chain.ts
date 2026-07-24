@@ -45,10 +45,7 @@ const info: Chain = {
         provider: 'Nodeist'
       }
     ],
-    grpc: [{
-        address: 'grpc.testnet-9.union.build',
-        provider: 'union'
-      }]
+    grpc: []
   },
   logo_URIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/uniontestnet/images/union.png'

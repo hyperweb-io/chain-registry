@@ -187,7 +187,7 @@ const info: Chain = {
     ],
     grpc: [
       {
-        address: 'grpc.nolus.network',
+        address: 'https://grpc.nolus.network',
         provider: 'NolusProtocol'
       },
       {

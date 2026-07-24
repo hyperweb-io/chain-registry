@@ -181,20 +181,12 @@ const info: Chain = {
         provider: 'vinjan'
       },
       {
-        address: 'composable.grpc.skynodejs.net',
-        provider: 'skynodejs'
-      },
-      {
         address: 'composable.grpc.stakevillage.net:16190',
         provider: 'Stake Village'
       },
       {
         address: 'picasso-rpc.stakeandrelax.net:22290',
         provider: 'Stake&Relax 🦥'
-      },
-      {
-        address: 'grpc.composable.validatus.com',
-        provider: 'Validatus'
       },
       {
         address: 'https://grpc.centauri.bronbro.io:443',

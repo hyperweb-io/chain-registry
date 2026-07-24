@@ -203,10 +203,6 @@ const info: Chain = {
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
       {
-        address: 'fetch.grpc.nodeshub.online',
-        provider: 'Nodes Hub'
-      },
-      {
         address: 'grpc.fetchhub-4.fetch.aviaone.com:9094',
         provider: 'AVIAONE 🟢'
       },

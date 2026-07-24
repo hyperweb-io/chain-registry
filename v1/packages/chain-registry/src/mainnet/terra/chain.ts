@@ -236,7 +236,7 @@ const info: Chain = {
     ],
     grpc: [
       {
-        address: 'grpc.terra-classic.hexxagon.io/',
+        address: 'https://grpc.terra-classic.hexxagon.io',
         provider: 'Hexxagon'
       },
       {

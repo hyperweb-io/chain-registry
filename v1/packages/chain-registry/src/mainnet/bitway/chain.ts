@@ -178,10 +178,6 @@ const info: Chain = {
         provider: 'Mandragora'
       },
       {
-        address: 'bitway.grpc.nodeshub.online',
-        provider: 'Nodes Hub'
-      },
-      {
         address: 'bitway-grpc.polkachu.com:26390',
         provider: 'Polkachu'
       }

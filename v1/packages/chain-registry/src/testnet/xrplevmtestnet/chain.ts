@@ -164,7 +164,7 @@ const info: Chain = {
         provider: 'Peersyst'
       },
       {
-        address: 'grpc-xrp.kintsugi-nodes.com',
+        address: 'https://grpc-xrp.kintsugi-nodes.com',
         provider: 'Kintsugi Nodes'
       },
       {
