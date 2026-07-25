@@ -90,10 +90,6 @@ const info: Chain = {
         provider: 'AstroStake'
       },
       {
-        address: 'https://lumera-rpc.dungeon.games',
-        provider: 'Dungeon'
-      },
-      {
         address: 'https://lumera-rpc.polkachu.com:443',
         provider: 'Polkachu'
       }
@@ -118,10 +114,6 @@ const info: Chain = {
       {
         address: 'https://lumera-api.linknode.org',
         provider: 'AstroStake'
-      },
-      {
-        address: 'https://lumera-lcd.dungeon.games',
-        provider: 'Dungeon'
       },
       {
         address: 'https://lumera-api.polkachu.com',
