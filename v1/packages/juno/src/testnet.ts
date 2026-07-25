@@ -50,34 +50,20 @@ const testnet: Chain = {
     }
   },
   apis: {
-    rpc: [
-      {
+    rpc: [{
         address: 'https://juno-testnet-rpc.polkachu.com',
         provider: 'Polkachu'
-      },
-      {
+      }, {
         address: 'https://rpc-uni.junonetwork.io',
         provider: 'Juno Network'
-      },
-      {
-        address: 'https://junotestnet-rpc.kleomedes.network',
-        provider: 'Kleomedes'
-      }
-    ],
-    rest: [
-      {
+      }],
+    rest: [{
         address: 'https://juno-testnet-api.polkachu.com',
         provider: 'Polkachu'
-      },
-      {
+      }, {
         address: 'https://lcd-uni.junonetwork.io',
         provider: 'Juno Network'
-      },
-      {
-        address: 'https://junotestnet-api.kleomedes.network',
-        provider: 'Kleomedes'
-      }
-    ],
+      }],
     grpc: [{
         address: 'juno-testnet-grpc.polkachu.com:12690',
         provider: 'Polkachu'

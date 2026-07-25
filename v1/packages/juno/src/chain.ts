@@ -164,10 +164,6 @@ const chain: Chain = {
         provider: 'Stake&Relax Validator 🦥'
       },
       {
-        address: 'https://juno.grpc.kleomedes.network',
-        provider: 'Kleomedes'
-      },
-      {
         address: 'juno.lavenderfive.com:443',
         provider: 'Lavender.Five Nodes 🐝'
       },

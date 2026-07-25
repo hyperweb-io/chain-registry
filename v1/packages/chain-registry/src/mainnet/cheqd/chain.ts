@@ -89,10 +89,6 @@ const info: Chain = {
         provider: 'Stakewolle'
       },
       {
-        address: 'https://cheq-rpc.kleomedes.network',
-        provider: 'Kleomedes'
-      },
-      {
         address: 'https://cheqd-srvs.vnodesv.net/rpc',
         provider: 'vNodes[V] Ser[V]ices g[E]o st[EE]ring'
       },
@@ -141,10 +137,6 @@ const info: Chain = {
       {
         address: 'https://public.stakewolle.com/cosmos/cheqd/rest',
         provider: 'Stakewolle'
-      },
-      {
-        address: 'https://cheq-api.kleomedes.network',
-        provider: 'Kleomedes'
       },
       {
         address: 'https://cheqd-srvs.vnodesv.net/api',
