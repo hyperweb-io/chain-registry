@@ -26,6 +26,7 @@ import * as _kujiratestnet from './kujiratestnet';
 import * as _kyvetestnet from './kyvetestnet';
 import * as _lavatestnet from './lavatestnet';
 import * as _likecointestnet from './likecointestnet';
+import * as _limonatatestnet from './limonatatestnet';
 import * as _lumeratestnet from './lumeratestnet';
 import * as _manifesttestnet from './manifesttestnet';
 import * as _mantrachaintestnet2 from './mantrachaintestnet2';
@@ -80,6 +81,7 @@ const ibc: IBCInfo[] = [
   ..._kyvetestnet.ibc,
   ..._lavatestnet.ibc,
   ..._likecointestnet.ibc,
+  ..._limonatatestnet.ibc,
   ..._lumeratestnet.ibc,
   ..._manifesttestnet.ibc,
   ..._mantrachaintestnet2.ibc,

@@ -413,6 +413,39 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'LIMO is the native gas and staking token of Limonata, an EVM Layer-1 on the Cosmos SDK.',
+      denom_units: [{
+          denom: 'ibc/63FA8DC3426FEDEA61E47FB273E0D68FCC5201B9E3A99EBD42BE120E105583D9',
+          exponent: 0,
+          aliases: ['aLIMO']
+        }, {
+          denom: 'LIMO',
+          exponent: 18
+        }],
+      base: 'ibc/63FA8DC3426FEDEA61E47FB273E0D68FCC5201B9E3A99EBD42BE120E105583D9',
+      name: 'Limonata',
+      display: 'LIMO',
+      symbol: 'LIMO',
+      type_asset: 'sdk.coin',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/limonatatestnet/images/limonatatestnet.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/limonatatestnet/images/limonatatestnet.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'aLIMO',
+            chain_name: 'limonatatestnet'
+          },
+          chain: {
+            channel_id: 'channel-11808'
+          }
+        }]
+    },
+    {
       denom_units: [{
           denom: 'ibc/CCB7E815618185A792DA0A42E649270CB462A43E660885FB747CE57486A9F5F6',
           exponent: 0,
@@ -1122,6 +1155,39 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-4357'
+          }
+        }]
+    },
+    {
+      description: 'LIMO is the native gas and staking token of Limonata, an EVM Layer-1 on the Cosmos SDK.',
+      denom_units: [{
+          denom: 'ibc/63FA8DC3426FEDEA61E47FB273E0D68FCC5201B9E3A99EBD42BE120E105583D9',
+          exponent: 0,
+          aliases: ['aLIMO']
+        }, {
+          denom: 'LIMO',
+          exponent: 18
+        }],
+      base: 'ibc/63FA8DC3426FEDEA61E47FB273E0D68FCC5201B9E3A99EBD42BE120E105583D9',
+      name: 'Limonata',
+      display: 'LIMO',
+      symbol: 'LIMO',
+      type_asset: 'sdk.coin',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/limonatatestnet/images/limonatatestnet.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/limonatatestnet/images/limonatatestnet.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'aLIMO',
+            chain_name: 'limonatatestnet'
+          },
+          chain: {
+            channel_id: 'channel-11808'
           }
         }]
     },
