@@ -1218,6 +1218,31 @@ const info: AssetList = {
         website: 'https://posthuman.digital/',
         x: 'https://x.com/POSTHUMAN_DVS'
       }
+    },
+    {
+      description: 'pARTy (ART) - where art meets party in the interchain. A fair-launched community art token minted natively on Cosmos Hub via tokenfactory.',
+      denomUnits: [{
+          denom: 'factory/cosmos1w9ee57gnduzm4l9h6xwn9tee9pyh8wlr4r9r35/art',
+          exponent: 0
+        }, {
+          denom: 'art',
+          exponent: 6
+        }],
+      typeAsset: 'sdk.coin',
+      base: 'factory/cosmos1w9ee57gnduzm4l9h6xwn9tee9pyh8wlr4r9r35/art',
+      name: 'pARTy',
+      display: 'art',
+      symbol: 'ART',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/art.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/art.png'
+        }],
+      socials: {
+        website: 'https://pic.zone',
+        x: 'https://x.com/pARTy_in_Cosmos'
+      }
     }
   ]
 };
