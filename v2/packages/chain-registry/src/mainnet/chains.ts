@@ -224,6 +224,7 @@ import * as _xpla from './xpla';
 import * as _xrplevm from './xrplevm';
 import * as _xyra from './xyra';
 import * as _zenrock from './zenrock';
+import * as _zerone from './zerone';
 import * as _zetachain from './zetachain';
 import * as _zigchain from './zigchain';
 
@@ -452,6 +453,7 @@ const chains: Chain[] = [
   _xrplevm.chain,
   _xyra.chain,
   _zenrock.chain,
+  _zerone.chain,
   _zetachain.chain,
   _zigchain.chain
 ];

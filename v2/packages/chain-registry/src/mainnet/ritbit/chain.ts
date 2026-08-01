@@ -5,18 +5,21 @@ const info: Chain = {
   status: 'live',
   website: 'https://rubin.trade/',
   networkType: 'mainnet',
-  prettyName: 'RITBIT',
+  prettyName: 'Rubin',
   chainType: 'cosmos',
   chainId: 'ritbit-mainnet',
   bech32Prefix: 'rit',
+  daemonName: 'ritbitd',
+  nodeHome: '$HOME/.ritbit',
+  keyAlgos: ['secp256k1'],
   slip44: 118,
   fees: {
     feeTokens: [{
         denom: 'urit',
-        fixedMinGasPrice: 12500000000,
-        lowGasPrice: 12500000000,
-        averageGasPrice: 12500000000,
-        highGasPrice: 20000000000
+        fixedMinGasPrice: 25000000000,
+        lowGasPrice: 25000000000,
+        averageGasPrice: 25000000000,
+        highGasPrice: 40000000000
       }, {
         denom: 'uusdc',
         fixedMinGasPrice: 0.025,
@@ -30,10 +33,32 @@ const info: Chain = {
         denom: 'urit'
       }]
   },
+  codebase: {
+    recommendedVersion: 'v27.6',
+    compatibleVersions: ['v27.6'],
+    consensus: {
+      type: 'cometbft',
+      version: 'v0.39.3'
+    },
+    sdk: {
+      type: 'cosmos',
+      version: 'v0.54.3'
+    },
+    ibc: {
+      type: 'go',
+      version: 'v11.2.0'
+    },
+    genesis: {
+      genesisUrl: 'https://cdn.rubin.trade/scripts/genesis.json'
+    },
+    binaries: {
+      "linux/amd64": 'https://storage.yandexcloud.net/ritbit-upgrade/v27.6/ritbitd-v27.6-linux-amd64.tar.gz?checksum=sha256:9f6134e883fc52e44033b2ba52a90edf705c99799a7b4e885a8dce15938a6502'
+    }
+  },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ritbit/images/ritbit.png'
   },
-  description: 'RITBIT is the network that powers Rubin Trade — a self-custody decentralized exchange for crypto perpetual futures and spot trading.',
+  description: 'Rubin is a self-custody decentralized exchange for crypto perpetual futures and spot trading.',
   apis: {
     rpc: [{
         address: 'https://rpc.mainnet.rubin.trade',
