@@ -133,6 +133,7 @@ import * as _qwoyn from './qwoyn';
 import * as _realio from './realio';
 import * as _rebus from './rebus';
 import * as _regen from './regen';
+import * as _ritbit from './ritbit';
 import * as _rizon from './rizon';
 import * as _safrochain from './safrochain';
 import * as _saga from './saga';
@@ -306,6 +307,7 @@ const ibc: IBCInfo[] = [
   ..._realio.ibc,
   ..._rebus.ibc,
   ..._regen.ibc,
+  ..._ritbit.ibc,
   ..._rizon.ibc,
   ..._safrochain.ibc,
   ..._saga.ibc,

@@ -224,6 +224,7 @@ import * as _xpla from './xpla';
 import * as _xrplevm from './xrplevm';
 import * as _xyra from './xyra';
 import * as _zenrock from './zenrock';
+import * as _zerone from './zerone';
 import * as _zetachain from './zetachain';
 import * as _zigchain from './zigchain';
 
@@ -452,6 +453,7 @@ const assets: AssetList[] = [
   _xrplevm.assets,
   _xyra.assets,
   _zenrock.assets,
+  _zerone.assets,
   _zetachain.assets,
   _zigchain.assets
 ];

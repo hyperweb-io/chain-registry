@@ -5143,6 +5143,39 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'RIT is the native staking and governance token of RITBIT, the network that powers the Rubin Trade decentralized exchange.',
+      denom_units: [{
+          denom: 'ibc/2AD8B69F4CABF1118852564F8DFBAE83F46785AD8C80E0DB19106E70CB79C133',
+          exponent: 0,
+          aliases: ['urit']
+        }, {
+          denom: 'rit',
+          exponent: 18
+        }],
+      base: 'ibc/2AD8B69F4CABF1118852564F8DFBAE83F46785AD8C80E0DB19106E70CB79C133',
+      name: 'Rubin',
+      display: 'rit',
+      symbol: 'RIT',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ritbit/images/ritbit.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ritbit/images/ritbit.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'urit',
+            chain_name: 'ritbit'
+          },
+          chain: {
+            channel_id: 'channel-607'
+          }
+        }]
+    },
+    {
       description: 'The native staking, governance, and fee token of Safrochain, a mobile-first mobile-money-powered blockchain connecting mobile wallets to on-chain finance and interoperable digital rails.',
       denom_units: [{
           denom: 'ibc/416D906365215CB6641B38CCDAA01385AA4B20E5E8EF2D65702A1B3F383FBBA2',
@@ -7292,6 +7325,39 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-83'
+          }
+        }]
+    },
+    {
+      description: 'RIT is the native staking and governance token of RITBIT, the network that powers the Rubin Trade decentralized exchange.',
+      denom_units: [{
+          denom: 'ibc/2AD8B69F4CABF1118852564F8DFBAE83F46785AD8C80E0DB19106E70CB79C133',
+          exponent: 0,
+          aliases: ['urit']
+        }, {
+          denom: 'rit',
+          exponent: 18
+        }],
+      base: 'ibc/2AD8B69F4CABF1118852564F8DFBAE83F46785AD8C80E0DB19106E70CB79C133',
+      name: 'Rubin',
+      display: 'rit',
+      symbol: 'RIT',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ritbit/images/ritbit.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/ritbit/images/ritbit.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'urit',
+            chain_name: 'ritbit'
+          },
+          chain: {
+            channel_id: 'channel-607'
           }
         }]
     },

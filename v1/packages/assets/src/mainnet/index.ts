@@ -131,6 +131,7 @@ export * as qwoyn from './qwoyn';
 export * as realio from './realio';
 export * as rebus from './rebus';
 export * as regen from './regen';
+export * as ritbit from './ritbit';
 export * as rizon from './rizon';
 export * as safrochain from './safrochain';
 export * as saga from './saga';

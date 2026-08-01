@@ -1330,6 +1330,37 @@ const info: IBCInfo[] = [
     chain_1: {
       chain_name: 'noble',
       chain_id: 'noble-1',
+      client_id: '07-tendermint-228',
+      connection_id: 'connection-212'
+    },
+    chain_2: {
+      chain_name: 'ritbit',
+      chain_id: 'ritbit-mainnet',
+      client_id: '07-tendermint-0',
+      connection_id: 'connection-0'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-607',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-0',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain_1: {
+      chain_name: 'noble',
+      chain_id: 'noble-1',
       client_id: '07-tendermint-136',
       connection_id: 'connection-132'
     },
