@@ -3469,6 +3469,7 @@ const assets: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.svg'
         }],
+      coingecko_id: 'genesisl1',
       keywords: ['osmosis_unstable']
     },
     {

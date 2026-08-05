@@ -3149,6 +3149,7 @@ const asset_list: AssetList = {
           denom: 'l1',
           exponent: 18
         }],
+      type_asset: 'sdk.coin',
       base: 'ibc/F16FDC11A7662B86BC0B9CE61871CBACF7C20606F95E86260FD38915184B75B4',
       name: 'GenesisL1',
       display: 'l1',
@@ -3161,7 +3162,12 @@ const asset_list: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.svg'
         }],
-      type_asset: 'sdk.coin',
+      coingecko_id: 'genesisl1',
+      socials: {
+        website: 'https://genesisl1.com',
+        x: 'https://x.com/genesis_L1',
+        telegram: 'https://t.me/Genesis_L1'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -9261,6 +9267,7 @@ const asset_list: AssetList = {
           denom: 'l1',
           exponent: 18
         }],
+      type_asset: 'sdk.coin',
       base: 'ibc/F16FDC11A7662B86BC0B9CE61871CBACF7C20606F95E86260FD38915184B75B4',
       name: 'GenesisL1',
       display: 'l1',
@@ -9273,7 +9280,12 @@ const asset_list: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.svg'
         }],
-      type_asset: 'sdk.coin',
+      coingecko_id: 'genesisl1',
+      socials: {
+        website: 'https://genesisl1.com',
+        x: 'https://x.com/genesis_L1',
+        telegram: 'https://t.me/Genesis_L1'
+      },
       traces: [{
           type: 'ibc',
           counterparty: {

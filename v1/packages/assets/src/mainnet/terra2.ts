@@ -6442,7 +6442,6 @@ const assets: AssetList = {
         website: 'https://astrovault.io/',
         x: 'https://x.com/axvdex'
       },
-      coingecko_id: 'astrovault',
       traces: [{
           type: 'ibc-cw20',
           counterparty: {
@@ -7057,7 +7056,6 @@ const assets: AssetList = {
         website: 'https://astrovault.io/',
         x: 'https://x.com/axvdex'
       },
-      coingecko_id: 'astrovault',
       traces: [{
           type: 'ibc-cw20',
           counterparty: {

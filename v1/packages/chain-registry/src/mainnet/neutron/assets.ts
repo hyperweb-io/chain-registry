@@ -1184,8 +1184,7 @@ const info: AssetList = {
       socials: {
         website: 'https://astrovault.io/',
         x: 'https://x.com/axvdex'
-      },
-      coingecko_id: 'astrovault'
+      }
     },
     {
       description: 'IBC Axelar wbtc-satoshi through axelar-dojo-1 transfer/channel-2',
