@@ -183,8 +183,7 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.svg'
-        }],
-      coingeckoId: 'astrovault'
+        }]
     },
     {
       description: 'Wrapped ARCH',

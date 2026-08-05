@@ -11,6 +11,7 @@ const info: AssetList = {
           denom: 'l1',
           exponent: 18
         }],
+      typeAsset: 'sdk.coin',
       base: 'el1',
       name: 'GenesisL1',
       display: 'l1',
@@ -23,7 +24,12 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.svg'
         }],
-      typeAsset: 'sdk.coin'
+      coingeckoId: 'genesisl1',
+      socials: {
+        website: 'https://genesisl1.com',
+        x: 'https://x.com/genesis_L1',
+        telegram: 'https://t.me/Genesis_L1'
+      }
     }]
 };
 export default info;
