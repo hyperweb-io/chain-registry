@@ -35,32 +35,28 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/atomone-hub/atomone',
-    recommendedVersion: 'v3.3.0',
-    compatibleVersions: [
-      'v3.0.3',
-      'v3.2.0',
-      'v3.3.0'
-    ],
+    recommendedVersion: 'v4.1.0',
+    compatibleVersions: ['v4.1.0', 'v4.0.1'],
     binaries: {
-      "linux/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v3.3.0/atomoned-v3.3.0-linux-amd64',
-      "linux/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v3.3.0/atomoned-v3.3.0-linux-arm64',
-      "darwin/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v3.3.0/atomoned-v3.3.0-darwin-amd64',
-      "darwin/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v3.3.0/atomoned-v3.3.0-darwin-arm64',
-      "windows/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v3.3.0/atomoned-v3.3.0-windows-amd64.exe',
-      "windows/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v3.3.0/atomoned-v3.3.0-windows-arm64.exe'
+      "linux/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v4.1.0/atomoned-v4.1.0-linux-amd64',
+      "linux/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v4.1.0/atomoned-v4.1.0-linux-arm64',
+      "darwin/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v4.1.0/atomoned-v4.1.0-darwin-amd64',
+      "darwin/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v4.1.0/atomoned-v4.1.0-darwin-arm64',
+      "windows/amd64": 'https://github.com/atomone-hub/atomone/releases/download/v4.1.0/atomoned-v4.1.0-windows-amd64.exe',
+      "windows/arm64": 'https://github.com/atomone-hub/atomone/releases/download/v4.1.0/atomoned-v4.1.0-windows-arm64.exe'
     },
     genesis: {
       genesisUrl: 'https://atomone.fra1.digitaloceanspaces.com/atomone-1/genesis.json'
     },
     consensus: {
       type: 'cometbft',
-      version: 'v0.37.18'
+      version: 'v0.38.23'
     },
     sdk: {
       type: 'cosmos',
-      version: 'v0.47.17'
+      version: 'v0.500.2'
     },
-    tag: 'v3.3.0'
+    tag: 'v4.1.0'
   },
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png',

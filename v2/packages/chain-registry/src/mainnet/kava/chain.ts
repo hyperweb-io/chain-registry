@@ -64,6 +64,10 @@ const info: Chain = {
       {
         address: 'https://kava-rpc.polkachu.com:443',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://rpc.jjozzietech.com.au:9443/kava/tendermint/',
+        provider: 'jjozzietech'
       }
     ],
     rest: [
@@ -90,6 +94,10 @@ const info: Chain = {
       {
         address: 'https://kava.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://rpc.jjozzietech.com.au:9443/kava/rest/',
+        provider: 'jjozzietech'
       }
     ],
     grpc: [
@@ -112,6 +120,10 @@ const info: Chain = {
       {
         address: 'https://grpc.kava.nodestake.org',
         provider: 'NodeStake'
+      },
+      {
+        address: 'rpc.jjozzietech.com.au:9444',
+        provider: 'jjozzietech'
       }
     ],
     evmHttpJsonrpc: [

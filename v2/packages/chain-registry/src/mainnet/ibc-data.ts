@@ -157,6 +157,7 @@ import * as _stride from './stride';
 import * as _sunrise from './sunrise';
 import * as _symphony from './symphony';
 import * as _synternet from './synternet';
+import * as _tail from './tail';
 import * as _taketitan from './taketitan';
 import * as _teritori from './teritori';
 import * as _terra from './terra';
@@ -331,6 +332,7 @@ const ibcData: IBCData[] = [
   ..._sunrise.ibcData,
   ..._symphony.ibcData,
   ..._synternet.ibcData,
+  ..._tail.ibcData,
   ..._taketitan.ibcData,
   ..._teritori.ibcData,
   ..._terra.ibcData,
