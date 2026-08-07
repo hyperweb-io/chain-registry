@@ -155,6 +155,7 @@ export * as stride from './stride';
 export * as sunrise from './sunrise';
 export * as symphony from './symphony';
 export * as synternet from './synternet';
+export * as tail from './tail';
 export * as taketitan from './taketitan';
 export * as teritori from './teritori';
 export * as terra from './terra';

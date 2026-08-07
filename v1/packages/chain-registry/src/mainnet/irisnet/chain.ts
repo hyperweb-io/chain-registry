@@ -38,76 +38,16 @@ const info: Chain = {
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.svg'
   },
   apis: {
-    rpc: [
-      {
-        address: 'https://rpc-irisnet-01.stakeflow.io',
-        provider: 'Stakeflow'
-      },
-      {
-        address: 'https://irisnet-rpc.w3coins.io',
-        provider: 'w3coins'
-      },
-      {
-        address: 'https://iris-rpc.publicnode.com:443',
-        provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
+    rpc: [{
         address: 'https://mainnet-iris-rpc.konsortech.xyz',
         provider: 'KonsorTech'
-      }
-    ],
-    rest: [
-      {
-        address: 'https://api-irisnet-01.stakeflow.io',
-        provider: 'Stakeflow'
-      },
-      {
-        address: 'https://irisnet-api.w3coins.io',
-        provider: 'w3coins'
-      },
-      {
-        address: 'https://iris-rest.publicnode.com',
-        provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
+      }],
+    rest: [{
         address: 'https://mainnet-iris-api.konsortech.xyz',
         provider: 'KonsorTech'
-      }
-    ],
-    grpc: [
-      {
-        address: 'grpc-irisnet-01.stakeflow.io:1902',
-        provider: 'Stakeflow'
-      },
-      {
-        address: 'irisnet-grpc.w3coins.io:22690',
-        provider: 'w3coins'
-      },
-      {
-        address: 'iris-grpc.publicnode.com:443',
-        provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'iris.grpc.kjnodes.com:443',
-        provider: 'kjnodes'
-      },
-      {
-        address: 'https://grpc-irisnet.nodeist.net',
-        provider: 'Nodeist'
-      },
-      {
-        address: 'iris-mainnet.grpc.l0vd.com:80',
-        provider: 'L0vd.com ❤️'
-      },
-      {
-        address: 'mainnet-iris.konsortech.xyz:30090',
-        provider: 'KonsorTech'
-      }
-    ],
+      }],
+    grpc: [],
     "evm-http-jsonrpc": [{
-        address: 'https://iris-evm.publicnode.com',
-        provider: 'Allnodes.com ⚡️ Nodes & Staking'
-      }, {
         address: 'https://mainnet-iris-evm.konsortech.xyz',
         provider: 'KonsorTech'
       }]

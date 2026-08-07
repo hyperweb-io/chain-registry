@@ -14412,6 +14412,39 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'The native token of TAIL Network',
+      denom_units: [{
+          denom: 'ibc/6CF86ACC0BC170B45A41FFAA138B062CFA454D919490B79CCAA8491B3B4B420D',
+          exponent: 0,
+          aliases: ['utail']
+        }, {
+          denom: 'TAIL',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/6CF86ACC0BC170B45A41FFAA138B062CFA454D919490B79CCAA8491B3B4B420D',
+      name: 'TAIL Network',
+      display: 'TAIL',
+      symbol: 'TAIL',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tail/images/logo-mark.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tail/images/logo-mark.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'utail',
+            chain_name: 'tail'
+          },
+          chain: {
+            channel_id: 'channel-110566'
+          }
+        }]
+    },
+    {
       description: 'Taketitan the future of the asset management industry.',
       denom_units: [{
           denom: 'ibc/87B7A56E83C08DBFD567F0DE6463EC54181B8B819B3CAD7A584C47D59A2A05CF',
@@ -17747,6 +17780,39 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-85186'
+          }
+        }]
+    },
+    {
+      description: 'The native token of TAIL Network',
+      denom_units: [{
+          denom: 'ibc/6CF86ACC0BC170B45A41FFAA138B062CFA454D919490B79CCAA8491B3B4B420D',
+          exponent: 0,
+          aliases: ['utail']
+        }, {
+          denom: 'TAIL',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/6CF86ACC0BC170B45A41FFAA138B062CFA454D919490B79CCAA8491B3B4B420D',
+      name: 'TAIL Network',
+      display: 'TAIL',
+      symbol: 'TAIL',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tail/images/logo-mark.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/tail/images/logo-mark.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'utail',
+            chain_name: 'tail'
+          },
+          chain: {
+            channel_id: 'channel-110566'
           }
         }]
     },
