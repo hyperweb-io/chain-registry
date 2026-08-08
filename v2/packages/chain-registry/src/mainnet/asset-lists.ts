@@ -23,6 +23,7 @@ import * as _assetmantle from './assetmantle';
 import * as _atomone from './atomone';
 import * as _aura from './aura';
 import * as _axelar from './axelar';
+import * as _axiome from './axiome';
 import * as _axone from './axone';
 import * as _babylon from './babylon';
 import * as _bandchain from './bandchain';
@@ -252,6 +253,7 @@ const assetList: AssetList[] = [
   _atomone.assetList,
   _aura.assetList,
   _axelar.assetList,
+  _axiome.assetList,
   _axone.assetList,
   _babylon.assetList,
   _bandchain.assetList,
