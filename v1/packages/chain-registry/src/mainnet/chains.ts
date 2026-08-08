@@ -23,6 +23,7 @@ import * as _assetmantle from './assetmantle';
 import * as _atomone from './atomone';
 import * as _aura from './aura';
 import * as _axelar from './axelar';
+import * as _axiome from './axiome';
 import * as _axone from './axone';
 import * as _babylon from './babylon';
 import * as _bandchain from './bandchain';
@@ -252,6 +253,7 @@ const chains: Chain[] = [
   _atomone.chain,
   _aura.chain,
   _axelar.chain,
+  _axiome.chain,
   _axone.chain,
   _babylon.chain,
   _bandchain.chain,

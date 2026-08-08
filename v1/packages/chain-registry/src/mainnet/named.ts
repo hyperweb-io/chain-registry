@@ -21,6 +21,7 @@ export * as assetmantle from './assetmantle';
 export * as atomone from './atomone';
 export * as aura from './aura';
 export * as axelar from './axelar';
+export * as axiome from './axiome';
 export * as axone from './axone';
 export * as babylon from './babylon';
 export * as bandchain from './bandchain';
