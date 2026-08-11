@@ -424,6 +424,12 @@ const info: Chain = {
       url: 'https://mainnet.whispernode.com/archway',
       tx_page: 'https://mainnet.whispernode.com/archway/tx/${txHash}',
       account_page: 'https://mainnet.whispernode.com/archway/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/archway/mainnet',
+      tx_page: 'https://moon-runners.net/archway/mainnet/finder?search=${txHash}',
+      account_page: 'https://moon-runners.net/archway/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

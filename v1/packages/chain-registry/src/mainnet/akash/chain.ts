@@ -205,6 +205,12 @@ const info: Chain = {
       url: 'https://akash.valopers.com/',
       tx_page: 'https://akash.valopers.com/transactions/${txHash}',
       account_page: 'https://akash.valopers.com/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/akash/mainnet',
+      tx_page: 'https://moon-runners.net/akash/mainnet/finder?search=${txHash}',
+      account_page: 'https://moon-runners.net/akash/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{
