@@ -253,6 +253,12 @@ const info: Chain = {
       url: 'https://axelar.valopers.com/',
       txPage: 'https://axelar.valopers.com/transactions/${txHash}',
       accountPage: 'https://axelar.valopers.com/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/axelar/mainnet',
+      txPage: 'https://moon-runners.net/axelar/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/axelar/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

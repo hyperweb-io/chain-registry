@@ -531,6 +531,12 @@ const info: Chain = {
       url: 'https://explorer.oshvank.xyz/AtomOne',
       txPage: 'https://explorer.oshvank.xyz/AtomOne/tx/${txHash}',
       accountPage: 'https://explorer.oshvank.xyz/AtomOne/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/atomone/mainnet',
+      txPage: 'https://moon-runners.net/atomone/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/atomone/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{
