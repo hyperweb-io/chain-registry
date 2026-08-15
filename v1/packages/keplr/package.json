@@ -1,6 +1,6 @@
 {
   "name": "@chain-registry/keplr",
-  "version": "1.74.671",
+  "version": "1.74.672",
   "description": "Chain Registry to Keplr",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "homepage": "https://github.com/hyperweb-io/chain-registry",
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@types/semver": "^7.5.8",
-    "chain-registry": "^1.69.671"
+    "chain-registry": "^1.69.672"
   },
   "dependencies": {
     "@chain-registry/types": "^0.50.410",
