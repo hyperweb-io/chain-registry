@@ -57,6 +57,7 @@ import * as _coss from './coss';
 import * as _crescent from './crescent';
 import * as _cronos from './cronos';
 import * as _cryptoorgchain from './cryptoorgchain';
+import * as _cysic from './cysic';
 import * as _decentr from './decentr';
 import * as _desmos from './desmos';
 import * as _divine from './divine';
@@ -200,6 +201,7 @@ import * as _stride from './stride';
 import * as _sunrise from './sunrise';
 import * as _symphony from './symphony';
 import * as _synternet from './synternet';
+import * as _tac from './tac';
 import * as _tail from './tail';
 import * as _taketitan from './taketitan';
 import * as _tenet from './tenet';
@@ -287,6 +289,7 @@ const chains: Chain[] = [
   _crescent.chain,
   _cronos.chain,
   _cryptoorgchain.chain,
+  _cysic.chain,
   _decentr.chain,
   _desmos.chain,
   _divine.chain,
@@ -430,6 +433,7 @@ const chains: Chain[] = [
   _sunrise.chain,
   _symphony.chain,
   _synternet.chain,
+  _tac.chain,
   _tail.chain,
   _taketitan.chain,
   _tenet.chain,

@@ -57,6 +57,7 @@ import * as _coss from './coss';
 import * as _crescent from './crescent';
 import * as _cronos from './cronos';
 import * as _cryptoorgchain from './cryptoorgchain';
+import * as _cysic from './cysic';
 import * as _decentr from './decentr';
 import * as _desmos from './desmos';
 import * as _divine from './divine';
@@ -200,6 +201,7 @@ import * as _stride from './stride';
 import * as _sunrise from './sunrise';
 import * as _symphony from './symphony';
 import * as _synternet from './synternet';
+import * as _tac from './tac';
 import * as _tail from './tail';
 import * as _taketitan from './taketitan';
 import * as _tenet from './tenet';
@@ -287,6 +289,7 @@ const assets: AssetList[] = [
   _crescent.assets,
   _cronos.assets,
   _cryptoorgchain.assets,
+  _cysic.assets,
   _decentr.assets,
   _desmos.assets,
   _divine.assets,
@@ -430,6 +433,7 @@ const assets: AssetList[] = [
   _sunrise.assets,
   _symphony.assets,
   _synternet.assets,
+  _tac.assets,
   _tail.assets,
   _taketitan.assets,
   _tenet.assets,
