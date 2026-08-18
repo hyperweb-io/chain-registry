@@ -96,8 +96,8 @@ const info: Chain = {
         provider: 'cosmosrescue'
       },
       {
-        address: 'https://terra-rpc.node39.top',
-        provider: 'Node39'
+        address: 'https://terra2-rpc.meshrpc.com',
+        provider: 'Mesh'
       },
       {
         address: 'https://terra-m-rpc.onnode.org',
@@ -134,8 +134,8 @@ const info: Chain = {
         provider: 'Chainroot'
       },
       {
-        address: 'https://terra-api.node39.top',
-        provider: 'Node39'
+        address: 'https://terra2-api.meshrpc.com',
+        provider: 'Mesh'
       },
       {
         address: 'https://terra-m-api.onnode.org',
@@ -184,8 +184,8 @@ const info: Chain = {
         provider: 'Chainroot'
       },
       {
-        address: 'terra-grpc.node39.top:443',
-        provider: 'Node39'
+        address: 'https://terra2-grpc.meshrpc.com',
+        provider: 'Mesh'
       },
       {
         address: 'https://terra-phoenix-grpc.highstakes.ch',
