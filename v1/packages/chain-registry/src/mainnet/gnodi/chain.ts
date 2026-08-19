@@ -36,67 +36,124 @@ const info: Chain = {
       name: 'v1',
       genesis_url: 'https://raw.githubusercontent.com/gnodi-network/genesis-mainnet/refs/heads/main/genesis.json'
     },
-    recommended_version: '1.0.1',
-    compatible_versions: ['1.0.1'],
+    recommended_version: '2.0.2',
+    compatible_versions: [
+      '2.0.0',
+      '2.0.1',
+      '2.0.2'
+    ],
     consensus: {
       type: 'cometbft',
-      version: '0.38.17',
+      version: '0.38.21',
       repo: 'https://github.com/cometbft/cometbft',
-      tag: 'v0.38.17'
+      tag: 'v0.38.21'
     },
     sdk: {
       type: 'cosmos',
-      version: '0.53.3',
+      version: '0.53.5',
       repo: 'https://github.com/cosmos/cosmos-sdk',
-      tag: 'v0.53.3'
+      tag: 'v0.53.5-0.20251030204916-768cb210885c'
     },
     ibc: {
       type: 'go',
-      version: '10.2.0',
+      version: '10.3.1',
       repo: 'https://github.com/cosmos/ibc-go',
-      tag: 'v10.2.0',
+      tag: 'v10.3.1-0.20250909102629-ed3b125c7b6f',
       ics_enabled: ['ics20-1']
     },
     language: {
       type: 'go',
       version: '1.24.0'
     },
-    tag: 'v1.0.1'
+    tag: 'v2.0.2'
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/gnodi/images/gnod.png'
     }],
   description: 'The Gnodi Blockchain is a community-governed, decentralized infrastructure that empowers individuals to own their digital identity and data. Guided by principles of autonomy, transparency, and equity, it bridges today\'s internet with a fair, participatory digital future.',
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://rpc.gnodi.zone:443',
         provider: 'Gnodi Team'
-      }, {
+      },
+      {
+        address: 'https://rpc.gnodipowered.com',
+        provider: 'Gnodi Powered',
+        archive: true
+      },
+      {
         address: 'https://rpc-gnodi.vinjan-inc.com',
         provider: 'Vinjan.Inc'
-      }],
-    rest: [{
+      }
+    ],
+    rest: [
+      {
         address: 'https://api.gnodi.zone:443',
         provider: 'Gnodi Team'
-      }, {
+      },
+      {
+        address: 'https://api.gnodipowered.com',
+        provider: 'Gnodi Powered',
+        archive: true
+      },
+      {
         address: 'https://api-gnodi.vinjan-inc.com',
         provider: 'Vinjan.Inc'
-      }],
+      }
+    ],
     grpc: [{
         address: 'grpc.gnodi.zone:443',
         provider: 'Gnodi Team'
+      }, {
+        address: 'grpc-native.gnodipowered.com:443',
+        provider: 'Gnodi Powered',
+        archive: true
+      }],
+    wss: [{
+        address: 'wss://rpc.gnodipowered.com/websocket',
+        provider: 'Gnodi Powered'
+      }],
+    "evm-http-jsonrpc": [{
+        address: 'https://evm.gnodipowered.com',
+        provider: 'Gnodi Powered'
       }]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'Big Dipper',
       url: 'https://explore.gnodi.org/gnodi',
       tx_page: 'https://explore.gnodi.org/gnodi/transactions',
       account_page: 'https://explore.gnodi.org/gnodi/accounts/${accountAddress}'
-    }, {
+    },
+    {
       kind: 'Vinjan.Inc Explorer',
       url: 'https://explorer.vinjan-inc.com/gnodi',
       tx_page: 'https://explorer.vinjan-inc.com/gnodi/tx/${txHash}',
       account_page: 'https://explorer.vinjan-inc.com/gnodi/account/${accountAddress}'
-    }]
+    },
+    {
+      kind: 'NodeStake',
+      url: 'https://explorer.nodestake.org/gnodi',
+      tx_page: 'https://explorer.nodestake.org/gnodi/tx/${txHash}',
+      account_page: 'https://explorer.nodestake.org/gnodi/account/${accountAddress}'
+    },
+    {
+      kind: 'GnodiScan',
+      url: 'https://gnodiscanner.com',
+      tx_page: 'https://gnodiscanner.com/txs/${txHash}',
+      account_page: 'https://gnodiscanner.com/account/${accountAddress}',
+      validator_page: 'https://gnodiscanner.com/validators/${validatorAddress}',
+      proposal_page: 'https://gnodiscanner.com/governance/${proposalId}',
+      block_page: 'https://gnodiscanner.com/blocks/${blockHeight}'
+    },
+    {
+      kind: 'GnodiScan EVM',
+      url: 'https://evm.gnodiscanner.com',
+      tx_page: 'https://evm.gnodiscanner.com/tx/${txHash}',
+      account_page: 'https://evm.gnodiscanner.com/address/${accountAddress}',
+      block_page: 'https://evm.gnodiscanner.com/block/${blockHeight}'
+    }
+  ]
 };
 export default info;
