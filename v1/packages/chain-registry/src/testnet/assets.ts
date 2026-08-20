@@ -24,7 +24,6 @@ import * as _chimbatestnet from './chimbatestnet';
 import * as _composabletestnet from './composabletestnet';
 import * as _coolcattestnet from './coolcattestnet';
 import * as _coreumtestnet from './coreumtestnet';
-import * as _cosmoshubtestnet from './cosmoshubtestnet';
 import * as _cosmosicsprovidertestnet from './cosmosicsprovidertestnet';
 import * as _cosmwasmtestnet from './cosmwasmtestnet';
 import * as _cosstestnet from './cosstestnet';
@@ -174,7 +173,6 @@ const assets: AssetList[] = [
   _composabletestnet.assets,
   _coolcattestnet.assets,
   _coreumtestnet.assets,
-  _cosmoshubtestnet.assets,
   _cosmosicsprovidertestnet.assets,
   _cosmwasmtestnet.assets,
   _cosstestnet.assets,

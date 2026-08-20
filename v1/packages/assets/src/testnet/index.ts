@@ -7,7 +7,6 @@ export * as celestiatestnet3 from './celestiatestnet3';
 export * as chain4energytestnet from './chain4energytestnet';
 export * as composabletestnet from './composabletestnet';
 export * as coreumtestnet from './coreumtestnet';
-export * as cosmoshubtestnet from './cosmoshubtestnet';
 export * as cosmosicsprovidertestnet from './cosmosicsprovidertestnet';
 export * as divinetestnet from './divinetestnet';
 export * as doravotatestnet from './doravotatestnet';
@@ -47,7 +46,6 @@ export * as synternettestnet from './synternettestnet';
 export * as terra2testnet from './terra2testnet';
 export * as titannettestnet from './titannettestnet';
 export * as titantestnet from './titantestnet';
-export * as wardenprotocoltestnet from './wardenprotocoltestnet';
 export * as xiontestnet2 from './xiontestnet2';
 export * as xrplevmtestnet from './xrplevmtestnet';
 export * as zigchaintestnet from './zigchaintestnet'

@@ -206,41 +206,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native staking and governance token of the Theta testnet version of the Cosmos Hub.',
-      denom_units: [{
-          denom: 'ibc/9FF2B7A5F55038A7EE61F4FD6749D9A648B48E89830F2682B67B5DC158E2753C',
-          exponent: 0,
-          aliases: ['uatom']
-        }, {
-          denom: 'atom',
-          exponent: 6
-        }],
-      base: 'ibc/9FF2B7A5F55038A7EE61F4FD6749D9A648B48E89830F2682B67B5DC158E2753C',
-      name: 'Cosmos',
-      display: 'atom',
-      symbol: 'ATOM',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-3306',
-            base_denom: 'uatom',
-            chain_name: 'cosmoshubtestnet'
-          },
-          chain: {
-            channel_id: 'channel-4156'
-          }
-        }]
-    },
-    {
       description: 'The native staking and governance token of the Theta testnet version of the Dora Vota Testnet.',
       denom_units: [{
           denom: 'ibc/7AF17F89F81663C5EAF71BA3A538D03AEA47921C95ACD2212FF0ED2383A571FE',
@@ -948,41 +913,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-329'
-          }
-        }]
-    },
-    {
-      description: 'The native staking and governance token of the Theta testnet version of the Cosmos Hub.',
-      denom_units: [{
-          denom: 'ibc/9FF2B7A5F55038A7EE61F4FD6749D9A648B48E89830F2682B67B5DC158E2753C',
-          exponent: 0,
-          aliases: ['uatom']
-        }, {
-          denom: 'atom',
-          exponent: 6
-        }],
-      base: 'ibc/9FF2B7A5F55038A7EE61F4FD6749D9A648B48E89830F2682B67B5DC158E2753C',
-      name: 'Cosmos',
-      display: 'atom',
-      symbol: 'ATOM',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-3306',
-            base_denom: 'uatom',
-            chain_name: 'cosmoshubtestnet'
-          },
-          chain: {
-            channel_id: 'channel-4156'
           }
         }]
     },

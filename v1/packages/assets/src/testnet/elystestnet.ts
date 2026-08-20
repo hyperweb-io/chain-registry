@@ -79,41 +79,6 @@ const assets: AssetList = {
         }]
     },
     {
-      description: 'The native staking and governance token of the Theta testnet version of the Cosmos Hub.',
-      denom_units: [{
-          denom: 'ibc/E2D2F6ADCC68AA3384B2F5DFACCA437923D137C14E86FB8A10207CF3BED0C8D4',
-          exponent: 0,
-          aliases: ['uatom']
-        }, {
-          denom: 'atom',
-          exponent: 6
-        }],
-      base: 'ibc/E2D2F6ADCC68AA3384B2F5DFACCA437923D137C14E86FB8A10207CF3BED0C8D4',
-      name: 'Cosmos',
-      display: 'atom',
-      symbol: 'ATOM',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-3302',
-            base_denom: 'uatom',
-            chain_name: 'cosmoshubtestnet'
-          },
-          chain: {
-            channel_id: 'channel-16'
-          }
-        }]
-    },
-    {
       description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
       denom_units: [{
           denom: 'ibc/11F940BCDFD7CFBFD7EDA13F25DA95D308286D441209D780C9863FD4271514EB',
@@ -186,41 +151,6 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-11'
-          }
-        }]
-    },
-    {
-      description: 'The native staking and governance token of the Theta testnet version of the Cosmos Hub.',
-      denom_units: [{
-          denom: 'ibc/E2D2F6ADCC68AA3384B2F5DFACCA437923D137C14E86FB8A10207CF3BED0C8D4',
-          exponent: 0,
-          aliases: ['uatom']
-        }, {
-          denom: 'atom',
-          exponent: 6
-        }],
-      base: 'ibc/E2D2F6ADCC68AA3384B2F5DFACCA437923D137C14E86FB8A10207CF3BED0C8D4',
-      name: 'Cosmos',
-      display: 'atom',
-      symbol: 'ATOM',
-      logo_URIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
-      },
-      images: [{
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
-        }],
-      type_asset: 'sdk.coin',
-      traces: [{
-          type: 'ibc',
-          counterparty: {
-            channel_id: 'channel-3302',
-            base_denom: 'uatom',
-            chain_name: 'cosmoshubtestnet'
-          },
-          chain: {
-            channel_id: 'channel-16'
           }
         }]
     },

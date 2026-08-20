@@ -22,7 +22,6 @@ export * as chimbatestnet from './chimbatestnet';
 export * as composabletestnet from './composabletestnet';
 export * as coolcattestnet from './coolcattestnet';
 export * as coreumtestnet from './coreumtestnet';
-export * as cosmoshubtestnet from './cosmoshubtestnet';
 export * as cosmosicsprovidertestnet from './cosmosicsprovidertestnet';
 export * as cosmwasmtestnet from './cosmwasmtestnet';
 export * as cosstestnet from './cosstestnet';

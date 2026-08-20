@@ -4263,7 +4263,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg'
       },
-      coingecko_id: 'usdx',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg'
@@ -10381,7 +10380,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg'
       },
-      coingecko_id: 'usdx',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg'
@@ -13993,6 +13991,46 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'SOVR is the sole unit of account of the Sovren Layer 1: staking, governance, gas, and service payments.',
+      denom_units: [{
+          denom: 'ibc/FB26E04E71EACCCCCD6D81F0F7666D5567C3A1686E2AC577FCC03F28F5B5874F',
+          exponent: 0,
+          aliases: ['usovr']
+        }, {
+          denom: 'sovr',
+          exponent: 6,
+          aliases: ['SOVR']
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/FB26E04E71EACCCCCD6D81F0F7666D5567C3A1686E2AC577FCC03F28F5B5874F',
+      display: 'sovr',
+      name: 'Sovren',
+      symbol: 'SOVR',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.svg'
+        }],
+      socials: {
+        website: 'https://sovrentech.io',
+        x: 'https://x.com/sovrentech'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'usovr',
+            chain_name: 'sovr'
+          },
+          chain: {
+            channel_id: 'channel-110679'
+          }
+        }]
+    },
+    {
       description: 'The native staking and governance token of the StaFi Hub.',
       denom_units: [{
           denom: 'ibc/01D2F0C4739C871BFBEE7E786709E6904A55559DC1483DD92ED392EF12247862',
@@ -17361,6 +17399,46 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-8945'
+          }
+        }]
+    },
+    {
+      description: 'SOVR is the sole unit of account of the Sovren Layer 1: staking, governance, gas, and service payments.',
+      denom_units: [{
+          denom: 'ibc/FB26E04E71EACCCCCD6D81F0F7666D5567C3A1686E2AC577FCC03F28F5B5874F',
+          exponent: 0,
+          aliases: ['usovr']
+        }, {
+          denom: 'sovr',
+          exponent: 6,
+          aliases: ['SOVR']
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/FB26E04E71EACCCCCD6D81F0F7666D5567C3A1686E2AC577FCC03F28F5B5874F',
+      display: 'sovr',
+      name: 'Sovren',
+      symbol: 'SOVR',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.svg'
+        }],
+      socials: {
+        website: 'https://sovrentech.io',
+        x: 'https://x.com/sovrentech'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'usovr',
+            chain_name: 'sovr'
+          },
+          chain: {
+            channel_id: 'channel-110679'
           }
         }]
     },

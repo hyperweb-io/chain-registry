@@ -149,6 +149,7 @@ export * as sidechain from './sidechain';
 export * as sifchain from './sifchain';
 export * as sommelier from './sommelier';
 export * as source from './source';
+export * as sovr from './sovr';
 export * as stafihub from './stafihub';
 export * as stratos from './stratos';
 export * as stride from './stride';

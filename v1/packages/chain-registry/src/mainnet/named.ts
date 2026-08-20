@@ -192,6 +192,7 @@ export * as sifchain from './sifchain';
 export * as six from './six';
 export * as sommelier from './sommelier';
 export * as source from './source';
+export * as sovr from './sovr';
 export * as stafihub from './stafihub';
 export * as stoc from './stoc';
 export * as stratos from './stratos';
