@@ -151,6 +151,7 @@ import * as _sidechain from './sidechain';
 import * as _sifchain from './sifchain';
 import * as _sommelier from './sommelier';
 import * as _source from './source';
+import * as _sovr from './sovr';
 import * as _stafihub from './stafihub';
 import * as _stratos from './stratos';
 import * as _stride from './stride';
@@ -326,6 +327,7 @@ const ibcData: IBCData[] = [
   ..._sifchain.ibcData,
   ..._sommelier.ibcData,
   ..._source.ibcData,
+  ..._sovr.ibcData,
   ..._stafihub.ibcData,
   ..._stratos.ibcData,
   ..._stride.ibcData,

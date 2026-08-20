@@ -194,6 +194,7 @@ import * as _sifchain from './sifchain';
 import * as _six from './six';
 import * as _sommelier from './sommelier';
 import * as _source from './source';
+import * as _sovr from './sovr';
 import * as _stafihub from './stafihub';
 import * as _stoc from './stoc';
 import * as _stratos from './stratos';
@@ -426,6 +427,7 @@ const chains: Chain[] = [
   _six.chain,
   _sommelier.chain,
   _source.chain,
+  _sovr.chain,
   _stafihub.chain,
   _stoc.chain,
   _stratos.chain,

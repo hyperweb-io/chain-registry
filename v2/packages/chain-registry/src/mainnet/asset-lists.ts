@@ -194,6 +194,7 @@ import * as _sifchain from './sifchain';
 import * as _six from './six';
 import * as _sommelier from './sommelier';
 import * as _source from './source';
+import * as _sovr from './sovr';
 import * as _stafihub from './stafihub';
 import * as _stoc from './stoc';
 import * as _stratos from './stratos';
@@ -426,6 +427,7 @@ const assetList: AssetList[] = [
   _six.assetList,
   _sommelier.assetList,
   _source.assetList,
+  _sovr.assetList,
   _stafihub.assetList,
   _stoc.assetList,
   _stratos.assetList,

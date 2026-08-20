@@ -4293,8 +4293,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg'
-        }],
-      coingeckoId: 'usdx'
+        }]
     },
     {
       description: 'BLD is the token used to secure the Agoric chain through staking and to backstop Inter Protocol.',
