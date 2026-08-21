@@ -1243,6 +1243,49 @@ const info: AssetList = {
         website: 'https://pic.zone',
         x: 'https://x.com/pARTy_in_Cosmos'
       }
+    },
+    {
+      description: 'USD Coin issued natively on Injective by Circle',
+      denomUnits: [{
+          denom: 'ibc/E107DB3E8AABB49C87CB737A1ABBFDBA9803ECAE05E295D8D7A0B1A7FE83706C',
+          exponent: 0
+        }, {
+          denom: 'usdc',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/E107DB3E8AABB49C87CB737A1ABBFDBA9803ECAE05E295D8D7A0B1A7FE83706C',
+      name: 'Injective USDC',
+      display: 'usdc',
+      symbol: 'USDC.inj',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'injective',
+            baseDenom: 'erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-220',
+            path: 'transfer/channel-220/erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'injective',
+            baseDenom: 'erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+      },
+      coingeckoId: 'usd-coin'
     }
   ]
 };
