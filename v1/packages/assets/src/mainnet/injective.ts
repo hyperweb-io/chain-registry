@@ -380,6 +380,51 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'DYDX is a decentralized trading platform focused on derivatives and perpetual contracts, offering a secure and efficient trading experience without intermediaries.',
+      denom_units: [{
+          denom: 'ibc/7B911D87318EB1D6A472E9F08FE93955371DF3E1DFFE851A58F4919450FFE7AA',
+          exponent: 0,
+          aliases: ['adydx']
+        }, {
+          denom: 'dydx',
+          exponent: 18
+        }],
+      base: 'ibc/7B911D87318EB1D6A472E9F08FE93955371DF3E1DFFE851A58F4919450FFE7AA',
+      name: 'dYdX',
+      display: 'dydx',
+      symbol: 'DYDX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg'
+      },
+      coingecko_id: 'dydx-chain',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg'
+        }, {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://dydx.trade/',
+        x: 'https://x.com/dYdX'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-62',
+            base_denom: 'adydx',
+            chain_name: 'dydx'
+          },
+          chain: {
+            channel_id: 'channel-258'
+          }
+        }]
+    },
+    {
       description: 'The native fee token of Gateway.',
       denom_units: [{
           denom: 'ibc/A83851234A83F3FE51CDB44FF1A4435472A197C096EF9E7312B69E67C16B7FB7',
@@ -846,6 +891,51 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-182'
+          }
+        }]
+    },
+    {
+      description: 'DYDX is a decentralized trading platform focused on derivatives and perpetual contracts, offering a secure and efficient trading experience without intermediaries.',
+      denom_units: [{
+          denom: 'ibc/7B911D87318EB1D6A472E9F08FE93955371DF3E1DFFE851A58F4919450FFE7AA',
+          exponent: 0,
+          aliases: ['adydx']
+        }, {
+          denom: 'dydx',
+          exponent: 18
+        }],
+      base: 'ibc/7B911D87318EB1D6A472E9F08FE93955371DF3E1DFFE851A58F4919450FFE7AA',
+      name: 'dYdX',
+      display: 'dydx',
+      symbol: 'DYDX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg'
+      },
+      coingecko_id: 'dydx-chain',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg'
+        }, {
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://dydx.trade/',
+        x: 'https://x.com/dYdX'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-62',
+            base_denom: 'adydx',
+            chain_name: 'dydx'
+          },
+          chain: {
+            channel_id: 'channel-258'
           }
         }]
     },

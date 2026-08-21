@@ -9207,6 +9207,49 @@ const info: AssetList = {
         }]
     },
     {
+      description: 'USD Coin issued natively on Injective by Circle',
+      denom_units: [{
+          denom: 'ibc/794C7D7F3B857713878A3A1927251FA6AC1EEE520424C1F6FAFE9BA26D476138',
+          exponent: 0
+        }, {
+          denom: 'usdc',
+          exponent: 6
+        }],
+      base: 'ibc/794C7D7F3B857713878A3A1927251FA6AC1EEE520424C1F6FAFE9BA26D476138',
+      name: 'Injective USDC',
+      display: 'usdc',
+      symbol: 'USDC.inj',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chain_name: 'injective',
+            base_denom: 'erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a',
+            channel_id: 'channel-8'
+          },
+          chain: {
+            channel_id: 'channel-122',
+            path: 'transfer/channel-122/erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a'
+          }
+        }],
+      type_asset: 'ics20',
+      images: [{
+          image_sync: {
+            chain_name: 'injective',
+            base_denom: 'erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      coingecko_id: 'usd-coin'
+    },
+    {
       description: 'USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.',
       denom_units: [{
           denom: 'ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4',
@@ -14805,6 +14848,46 @@ const info: AssetList = {
           }
         }],
       keywords: ['osmosis_unlisted']
+    },
+    {
+      description: 'An alloy of USDC asset variants on Osmosis.',
+      extended_description: 'Multiple USD Coin variants on Osmosis comprise the liquidity backing of a tokenized transmuter pool to create an alloy of USDC.',
+      denom_units: [{
+          denom: 'factory/osmo147h5x9pcj7lm0cttlaefx6sqq5vdfnmwfcqxkmjd7exqm9gc7grqhr75m0/alloyed/allUSDC',
+          exponent: 0
+        }, {
+          denom: 'allUSDC',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      address: 'osmo147h5x9pcj7lm0cttlaefx6sqq5vdfnmwfcqxkmjd7exqm9gc7grqhr75m0',
+      base: 'factory/osmo147h5x9pcj7lm0cttlaefx6sqq5vdfnmwfcqxkmjd7exqm9gc7grqhr75m0/alloyed/allUSDC',
+      name: 'USD Coin',
+      display: 'allUSDC',
+      symbol: 'USDC',
+      traces: [{
+          type: 'synthetic',
+          counterparty: {
+            chain_name: 'ethereum',
+            base_denom: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
+          },
+          provider: 'Osmosis'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+      },
+      images: [{
+          image_sync: {
+            chain_name: 'ethereum',
+            base_denom: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          theme: {
+            circle: true
+          }
+        }]
     },
     {
       description: 'Whinecoin is an experimental memecoin by the Sommelier Finance team.',
