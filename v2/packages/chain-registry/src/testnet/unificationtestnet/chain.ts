@@ -32,15 +32,15 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/unification-com/mainchain',
-    recommendedVersion: 'v1.12.0',
-    compatibleVersions: ['v1.12.0'],
+    recommendedVersion: 'v1.13.4',
+    compatibleVersions: ['v1.13.4'],
     binaries: {
-      "linux/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.12.0/und_v1.12.0_linux_x86_64.tar.gz',
-      "linux/arm64": 'https://github.com/unification-com/mainchain/releases/download/v1.12.0/und_v1.12.0_linux_arm64.tar.gz',
-      "darwin/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.12.0/und_v1.12.0_darwin_x86_64.tar.gz',
-      "darwin/arm64": 'https://github.com/unification-com/mainchain/releases/download/v1.12.0/und_v1.12.0_darwin_arm64.tar.gz',
-      "windows/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.12.0/und_v1.12.0_windows_x86_64.tar.gz',
-      "windows/arm64": 'https://github.com/unification-com/mainchain/releases/download/v1.12.0/und_v1.12.0_windows_arm64.tar.gz'
+      "linux/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.13.4/und_v1.13.4_linux_x86_64.tar.gz',
+      "linux/arm64": 'https://github.com/unification-com/mainchain/releases/download/v1.13.4/und_v1.13.4_linux_arm64.tar.gz',
+      "darwin/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.13.4/und_v1.13.4_darwin_x86_64.tar.gz',
+      "darwin/arm64": 'https://github.com/unification-com/mainchain/releases/download/v1.13.4/und_v1.13.4_darwin_arm64.tar.gz',
+      "windows/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.13.4/und_v1.13.4_windows_x86_64.tar.gz',
+      "windows/arm64": 'https://github.com/unification-com/mainchain/releases/download/v1.13.4/und_v1.13.4_windows_arm64.tar.gz'
     },
     consensus: {
       type: 'cometbft',
