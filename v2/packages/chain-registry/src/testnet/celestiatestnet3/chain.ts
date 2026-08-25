@@ -32,20 +32,12 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://rpc-mocha.pops.one',
-        provider: 'P-OPs'
-      },
-      {
         address: 'https://celestia-testnet-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
       {
         address: 'https://rpc-mocha-full.avril14th.org',
         provider: 'Avril 14th'
-      },
-      {
-        address: 'https://celestia-testnet-rpc.itrocket.net',
-        provider: 'itrocket'
       },
       {
         address: 'https://rpc-celestia-testnet.cryptech.com.ua',
@@ -66,20 +58,12 @@ const info: Chain = {
     ],
     rest: [
       {
-        address: 'https://api-mocha.pops.one',
-        provider: 'P-OPs'
-      },
-      {
         address: 'https://celestia-testnet-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
       {
         address: 'https://api-mocha-full.avril14th.org',
         provider: 'Avril 14th'
-      },
-      {
-        address: 'https://celestia-testnet-api.itrocket.net',
-        provider: 'itrocket'
       },
       {
         address: 'https://api-celestia-testnet.cryptech.com.ua',
@@ -102,10 +86,6 @@ const info: Chain = {
       {
         address: 'celestia-testnet-grpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'celestia-testnet-grpc.itrocket.net:443',
-        provider: 'itrocket'
       },
       {
         address: 'https://grpc-celestia-testnet.cryptech.com.ua',
