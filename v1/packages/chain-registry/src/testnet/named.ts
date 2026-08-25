@@ -16,6 +16,7 @@ export * as bitcannadevnet from './bitcannadevnet';
 export * as blockxtestnet from './blockxtestnet';
 export * as cascadiatestnet from './cascadiatestnet';
 export * as celestiatestnet3 from './celestiatestnet3';
+export * as celestiatestnet4 from './celestiatestnet4';
 export * as chain4energytestnet from './chain4energytestnet';
 export * as cheqdtestnet from './cheqdtestnet';
 export * as chimbatestnet from './chimbatestnet';

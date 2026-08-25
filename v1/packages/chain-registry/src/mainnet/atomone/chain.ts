@@ -118,7 +118,7 @@ const info: Chain = {
         provider: 'ITRocket'
       },
       {
-        address: 'https://rpc-atone.vinjan.xyz',
+        address: 'https://rpc-m.atomone.vinjan-inc.com',
         provider: 'Vinjan.Inc'
       },
       {
@@ -248,7 +248,7 @@ const info: Chain = {
         provider: 'ITRocket'
       },
       {
-        address: 'https://api-atone.vinjan.xyz',
+        address: 'https://api-m.atomone.vinjan-inc.com',
         provider: 'Vinjan.Inc'
       },
       {
