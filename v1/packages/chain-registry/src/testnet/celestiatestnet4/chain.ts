@@ -76,6 +76,10 @@ const info: Chain = {
       {
         address: 'https://celestia-testnet-rpc.itrocket.net',
         provider: 'itrocket'
+      },
+      {
+        address: 'https://mocha5.celestia.rpc.cumulo.me',
+        provider: 'Cumulo'
       }
     ],
     rest: [
@@ -94,6 +98,10 @@ const info: Chain = {
       {
         address: 'https://celestia-testnet-api.itrocket.net',
         provider: 'itrocket'
+      },
+      {
+        address: 'https://mocha5.celestia.api.cumulo.me',
+        provider: 'Cumulo'
       }
     ],
     grpc: [
@@ -112,8 +120,16 @@ const info: Chain = {
       {
         address: 'celestia-testnet-grpc.itrocket.net:443',
         provider: 'itrocket'
+      },
+      {
+        address: 'https://mocha5.celestia.grpc.cumulo.me',
+        provider: 'Cumulo'
       }
-    ]
+    ],
+    wss: [{
+        address: 'wss://mocha5.celestia.rpc.cumulo.me/websocket',
+        provider: 'Cumulo'
+      }]
   },
   explorers: [{
       kind: 'Valopers',

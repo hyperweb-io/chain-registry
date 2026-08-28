@@ -49,10 +49,6 @@ const info: Chain = {
         provider: 'Initia Labs'
       },
       {
-        address: 'https://initia.rpc.quasarstaking.ai:443',
-        provider: 'Quasar'
-      },
-      {
         address: 'https://initia-mainnet-rpc.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -67,10 +63,6 @@ const info: Chain = {
         provider: 'Initia Labs'
       },
       {
-        address: 'https://initia.api.quasarstaking.ai:443',
-        provider: 'Quasar'
-      },
-      {
         address: 'https://initia-mainnet-lcd.autostake.com:443',
         provider: 'AutoStake 🛡️ Slash Protected'
       },
@@ -83,10 +75,6 @@ const info: Chain = {
       {
         address: 'grpc.initia.xyz:443',
         provider: 'Initia Labs'
-      },
-      {
-        address: 'initia.grpc.quasarstaking.ai:80',
-        provider: 'Quasar'
       },
       {
         address: 'initia-mainnet-grpc.autostake.com:443',

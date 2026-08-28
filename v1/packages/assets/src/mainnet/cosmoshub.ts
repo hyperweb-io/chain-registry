@@ -6150,6 +6150,42 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native staking token of XPLA.',
+      denom_units: [{
+          denom: 'ibc/102A112CAEE6E503721048E5B2221252E40ABAB8B4344680E28F17BEAC9F9FB1',
+          exponent: 0,
+          aliases: ['axpla']
+        }, {
+          denom: 'xpla',
+          exponent: 18
+        }],
+      base: 'ibc/102A112CAEE6E503721048E5B2221252E40ABAB8B4344680E28F17BEAC9F9FB1',
+      name: 'Xpla',
+      display: 'xpla',
+      symbol: 'XPLA',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.svg'
+      },
+      coingecko_id: 'xpla',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'axpla',
+            chain_name: 'xpla'
+          },
+          chain: {
+            channel_id: 'channel-533'
+          }
+        }]
+    },
+    {
       description: 'Staked Zig Token by Valdora Finance - Decentralized staking with stZIG',
       denom_units: [{
           denom: 'ibc/F1073E5895A25347EF10A7B50783D3048882726895AEE1176C498C45D0576F2B',
@@ -9622,6 +9658,42 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-535'
+          }
+        }]
+    },
+    {
+      description: 'The native staking token of XPLA.',
+      denom_units: [{
+          denom: 'ibc/102A112CAEE6E503721048E5B2221252E40ABAB8B4344680E28F17BEAC9F9FB1',
+          exponent: 0,
+          aliases: ['axpla']
+        }, {
+          denom: 'xpla',
+          exponent: 18
+        }],
+      base: 'ibc/102A112CAEE6E503721048E5B2221252E40ABAB8B4344680E28F17BEAC9F9FB1',
+      name: 'Xpla',
+      display: 'xpla',
+      symbol: 'XPLA',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.svg'
+      },
+      coingecko_id: 'xpla',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'axpla',
+            chain_name: 'xpla'
+          },
+          chain: {
+            channel_id: 'channel-533'
           }
         }]
     },
