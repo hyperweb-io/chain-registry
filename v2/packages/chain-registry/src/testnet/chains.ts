@@ -48,6 +48,7 @@ import * as _finschiatestnet from './finschiatestnet';
 import * as _galacticatestnet from './galacticatestnet';
 import * as _gitopiatestnet from './gitopiatestnet';
 import * as _hedgetestnet from './hedgetestnet';
+import * as _hickorytestnet from './hickorytestnet';
 import * as _hippoprotocoltestnet from './hippoprotocoltestnet';
 import * as _humanstestnet from './humanstestnet';
 import * as _hypersigntestnet from './hypersigntestnet';
@@ -198,6 +199,7 @@ const chains: Chain[] = [
   _galacticatestnet.chain,
   _gitopiatestnet.chain,
   _hedgetestnet.chain,
+  _hickorytestnet.chain,
   _hippoprotocoltestnet.chain,
   _humanstestnet.chain,
   _hypersigntestnet.chain,

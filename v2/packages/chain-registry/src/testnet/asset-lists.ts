@@ -48,6 +48,7 @@ import * as _finschiatestnet from './finschiatestnet';
 import * as _galacticatestnet from './galacticatestnet';
 import * as _gitopiatestnet from './gitopiatestnet';
 import * as _hedgetestnet from './hedgetestnet';
+import * as _hickorytestnet from './hickorytestnet';
 import * as _hippoprotocoltestnet from './hippoprotocoltestnet';
 import * as _humanstestnet from './humanstestnet';
 import * as _hypersigntestnet from './hypersigntestnet';
@@ -198,6 +199,7 @@ const assetList: AssetList[] = [
   _galacticatestnet.assetList,
   _gitopiatestnet.assetList,
   _hedgetestnet.assetList,
+  _hickorytestnet.assetList,
   _hippoprotocoltestnet.assetList,
   _humanstestnet.assetList,
   _hypersigntestnet.assetList,

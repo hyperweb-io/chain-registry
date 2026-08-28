@@ -110,10 +110,6 @@ const info: Chain = {
         provider: 'chainvibes'
       },
       {
-        address: 'https://sentinel.rpc.quasarstaking.ai:443',
-        provider: 'Quasar'
-      },
-      {
         address: 'https://rpc.sentinel.validatus.com',
         provider: 'Validatus'
       },
@@ -184,10 +180,6 @@ const info: Chain = {
         provider: 'chainvibes'
       },
       {
-        address: 'https://sentinel.api.quasarstaking.ai:443',
-        provider: 'Quasar'
-      },
-      {
         address: 'https://api.sentinel.validatus.com',
         provider: 'Validatus'
       },
@@ -240,10 +232,6 @@ const info: Chain = {
       {
         address: 'https://grpc.noncompliant.network:9090',
         provider: 'Noncompliant Network (Insecure)'
-      },
-      {
-        address: 'sentinel.grpc.quasarstaking.ai:80',
-        provider: 'Quasar'
       },
       {
         address: 'grpc.sentinel.validatus.com:443',

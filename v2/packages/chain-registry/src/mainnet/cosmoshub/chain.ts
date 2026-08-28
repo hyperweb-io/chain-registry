@@ -171,10 +171,6 @@ const info: Chain = {
         provider: 'ITRocket'
       },
       {
-        address: 'https://cosmoshub.rpc.quasarstaking.ai',
-        provider: 'Quasar'
-      },
-      {
         address: 'https://cosmos.ibs.team:443/rpc',
         provider: 'Inter Blockchain Services'
       },
@@ -294,10 +290,6 @@ const info: Chain = {
         provider: 'ITRocket'
       },
       {
-        address: 'https://cosmoshub.api.quasarstaking.ai',
-        provider: 'Quasar'
-      },
-      {
         address: 'https://cosmos.ibs.team:443/api',
         provider: 'Inter Blockchain Services'
       },
@@ -383,10 +375,6 @@ const info: Chain = {
       {
         address: 'cosmoshub-mainnet-grpc.itrocket.net:443',
         provider: 'ITRocket'
-      },
-      {
-        address: 'https://cosmoshub.grpc.quasarstaking.ai',
-        provider: 'Quasar'
       },
       {
         address: 'grpc.cosmoshub-4-archive.citizenweb3.com:443',

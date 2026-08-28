@@ -26,10 +26,6 @@ const info: Chain = {
         provider: 'Dungeon Games'
       },
       {
-        address: 'https://dungeon-wallet.rpc.quasarstaking.ai',
-        provider: 'Quasar'
-      },
-      {
         address: 'https://rpc-dungeon-1.seraphim.zone',
         provider: 'Seraphim'
       },
@@ -46,10 +42,6 @@ const info: Chain = {
       {
         address: 'https://api.dungeongames.io',
         provider: 'Dungeon Games'
-      },
-      {
-        address: 'https://dungeon-wallet.api.quasarstaking.ai',
-        provider: 'Quasar'
       },
       {
         address: 'https://api-dungeon-1.seraphim.zone',
@@ -69,9 +61,6 @@ const info: Chain = {
       }
     ],
     grpc: [{
-        address: 'dungeon.grpc.quasarstaking.ai:80',
-        provider: 'Quasar'
-      }, {
         address: 'grpc.dungeon.chaintools.tech:443',
         provider: 'ChainTools'
       }]
