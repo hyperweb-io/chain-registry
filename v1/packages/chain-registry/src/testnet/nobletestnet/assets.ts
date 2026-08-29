@@ -48,7 +48,7 @@ const info: AssetList = {
       base: 'uusdc',
       display: 'usdc',
       name: 'USD Coin',
-      symbol: 'USDC',
+      symbol: 'USDC.n',
       traces: [{
           type: 'test-mintage',
           counterparty: {

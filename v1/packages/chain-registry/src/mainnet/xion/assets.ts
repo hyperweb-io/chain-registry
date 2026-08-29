@@ -344,7 +344,7 @@ const info: AssetList = {
       base: 'ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349',
       name: 'Noble USDC Token',
       display: 'usdc',
-      symbol: 'USDC',
+      symbol: 'USDC.n',
       coingecko_id: 'usd-coin',
       traces: [{
           type: 'ibc',
@@ -363,8 +363,8 @@ const info: AssetList = {
             chain_name: 'noble',
             base_denom: 'uusdc'
           },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           theme: {
             circle: true
           }

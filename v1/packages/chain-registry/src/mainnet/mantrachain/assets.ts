@@ -130,7 +130,7 @@ const info: AssetList = {
       base: 'ibc/65D0BEC6DAD96C7F5043D1E54E54B6BB5D5B3AEC3FF6CEBB75B9E059F3580EA3',
       name: 'USDC',
       display: 'usdc',
-      symbol: 'USDC',
+      symbol: 'USDC.n',
       traces: [{
           type: 'ibc',
           counterparty: {
@@ -152,8 +152,8 @@ const info: AssetList = {
             chain_name: 'ethereum',
             base_denom: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
           },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           theme: {
             circle: true
           }
