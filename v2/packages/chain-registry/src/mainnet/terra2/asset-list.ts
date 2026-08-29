@@ -1105,7 +1105,7 @@ const info: AssetList = {
       base: 'ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB',
       name: 'USDC',
       display: 'usdc',
-      symbol: 'USDC',
+      symbol: 'USDC.n',
       traces: [
         {
           type: 'synthetic',
@@ -1150,8 +1150,6 @@ const info: AssetList = {
           theme: {
             circle: true
           }
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
         }],
       coingeckoId: 'usd-coin'
     },

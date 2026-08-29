@@ -87,20 +87,20 @@ const info: AssetList = {
         }],
       base: 'ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349',
       display: 'usdc',
-      symbol: 'USDC',
+      symbol: 'USDC.n',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
       },
       images: [{
+          imageSync: {
+            chainName: 'noble',
+            baseDenom: 'uusdc'
+          },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           theme: {
             circle: true
-          },
-          imageSync: {
-            chainName: 'noble',
-            baseDenom: 'uusdc'
           }
         }],
       typeAsset: 'ics20',

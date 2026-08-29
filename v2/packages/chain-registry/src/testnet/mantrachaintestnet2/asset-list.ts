@@ -72,7 +72,7 @@ const info: AssetList = {
       base: 'ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349',
       name: 'USDC',
       display: 'usdc',
-      symbol: 'USDC',
+      symbol: 'USDC.n',
       traces: [{
           type: 'ibc',
           counterparty: {

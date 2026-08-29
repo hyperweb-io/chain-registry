@@ -104,7 +104,7 @@ const info: AssetList = {
       base: 'uusdc',
       display: 'usdc',
       name: 'USDC',
-      symbol: 'USDC',
+      symbol: 'USDC.n',
       coingeckoId: 'usd-coin',
       traces: [{
           type: 'additional-mintage',
@@ -123,8 +123,8 @@ const info: AssetList = {
             chainName: 'ethereum',
             baseDenom: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
           },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           theme: {
             circle: true
           }

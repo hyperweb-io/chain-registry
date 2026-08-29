@@ -75,7 +75,7 @@ const info: AssetList = {
       base: 'ibc/B9E4FD154C92D3A23BEA029906C4C5FF2FE74CB7E3A058290B77197A263CF88B',
       name: 'Noble USDC',
       display: 'usdc',
-      symbol: 'USDC',
+      symbol: 'USDC.n',
       traces: [{
           type: 'ibc',
           counterparty: {

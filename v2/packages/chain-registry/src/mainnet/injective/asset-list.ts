@@ -695,7 +695,7 @@ const info: AssetList = {
       base: 'ibc/2CBC2EA121AE42563B08028466F37B600F2D7D4282342DE938283CC3FB2BC00E',
       name: 'USDC',
       display: 'usdc',
-      symbol: 'USDC',
+      symbol: 'USDC.n',
       traces: [
         {
           type: 'synthetic',
@@ -740,8 +740,6 @@ const info: AssetList = {
           theme: {
             circle: true
           }
-        }, {
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
         }],
       coingeckoId: 'usd-coin'
     },
@@ -1333,6 +1331,32 @@ const info: AssetList = {
         website: 'https://wenpoints.xyz',
         x: 'https://x.com/helixpoints',
         telegram: 'https://t.me/helixpoints'
+      },
+      typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'MOTION is the token of Motionism on Injective, launched on Trippy Pump (SHROOM Pad). Nothing happens until something moves.',
+      denomUnits: [{
+          denom: 'factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_0_3b4d31d5571b97db',
+          exponent: 0
+        }, {
+          denom: 'MOTION',
+          exponent: 18
+        }],
+      base: 'factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_0_3b4d31d5571b97db',
+      name: 'Motion',
+      display: 'MOTION',
+      symbol: 'MOTION',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/motion.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/motion.png'
+        }],
+      socials: {
+        website: 'https://motionism.xyz',
+        x: 'https://x.com/motionismxyz',
+        telegram: 'https://t.me/motionismxyz'
       },
       typeAsset: 'sdk.coin'
     }

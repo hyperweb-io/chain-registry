@@ -59,33 +59,34 @@ const info: Chain = {
       }]
   },
   codebase: {
-    gitRepo: 'https://github.com/neutron-org/neutron',
-    recommendedVersion: 'v5.0.2',
-    compatibleVersions: ['v5.0.2'],
+    gitRepo: 'https://github.com/solva-solutions/neutron',
+    recommendedVersion: 'v11.2.0',
+    compatibleVersions: ['v11.2.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/neutron-org/neutron/releases/download/v5.0.2/neutrond-linux-amd64'
+      "linux/amd64": 'https://github.com/solva-solutions/neutron/releases/download/v11.2.0/neutrond-linux-amd64'
     },
     consensus: {
       type: 'cometbft',
-      version: 'v0.38.15'
+      version: 'v0.38.21'
     },
     genesis: {
-      genesisUrl: 'https://raw.githubusercontent.com/neutron-org/mainnet-assets/main/neutron-1-genesis.json'
+      genesisUrl: 'https://raw.githubusercontent.com/solva-solutions/neutron-mainnet-assets/main/neutron-1-genesis.json'
     },
     sdk: {
       type: 'cosmos',
-      repo: 'https://github.com/neutron-org/cosmos-sdk',
-      version: 'v0.50.10',
-      tag: 'v0.50.10-neutron'
+      repo: 'https://github.com/solva-solutions/neutron-cosmos-sdk',
+      version: 'v0.53.4',
+      tag: 'v0.53.4-neutron'
     },
     ibc: {
       type: 'go',
-      version: 'v8.5.2'
+      version: 'v10.5.0'
     },
     cosmwasm: {
-      version: 'v0.53.0',
-      repo: 'https://github.com/neutron-org/wasmd',
-      enabled: true
+      version: 'v0.61.14',
+      repo: 'https://github.com/solva-solutions/neutron-wasmd',
+      enabled: true,
+      tag: 'v0.61.14-neutron'
     }
   },
   logoURIs: {
@@ -103,22 +104,6 @@ const info: Chain = {
         address: 'https://rpc-archive.neutron.solva.solutions:443',
         provider: 'solva.solutions',
         archive: true
-      },
-      {
-        address: 'https://rpc-lb.neutron.org',
-        provider: 'Neutron'
-      },
-      {
-        address: 'https://rpc-solara.neutron-1.neutron.org',
-        provider: 'Neutron'
-      },
-      {
-        address: 'https://rpc-vertexa.neutron-1.neutron.org',
-        provider: 'Neutron'
-      },
-      {
-        address: 'https://rpc.novel.remedy.tm.p2p.org',
-        provider: 'P2P'
       },
       {
         address: 'https://rpc.lavenderfive.com:443/neutron',
@@ -299,6 +284,12 @@ const info: Chain = {
       compression: 'lz4',
       checksumAvailable: false,
       provider: 'Polkachu'
+    }, {
+      url: 'https://github.com/solva-solutions/solva-solutions/blob/main/chains/neutron/service_Node_Snapshot.md',
+      type: 'pruned',
+      compression: 'lz4',
+      checksumAvailable: true,
+      provider: 'Solva'
     }]
 };
 export default info;

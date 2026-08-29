@@ -43,7 +43,7 @@ const info: Chain = {
       "linux/amd64": 'https://github.com/nymtech/nyxd/releases/tag/v0.43.0'
     },
     genesis: {
-      genesisUrl: 'https://rpc.sandbox.nymtech.net/genesis'
+      genesisUrl: 'https://validator-sandbox-1.nymtech.net/genesis'
     },
     cosmwasm: {
       enabled: true
@@ -56,15 +56,11 @@ const info: Chain = {
   },
   apis: {
     rpc: [{
-        address: 'https://rpc.sandbox.nymtech.net',
+        address: 'https://validator-sandbox-1.nymtech.net',
         provider: 'Nym'
       }],
     rest: [{
-        address: 'https://api.sandbox.nymtech.net',
-        provider: 'Nym'
-      }],
-    grpc: [{
-        address: 'grpc.sandbox.nymtech.net:443',
+        address: 'https://validator-sandbox-1.nymtech.net/api',
         provider: 'Nym'
       }]
   },

@@ -899,7 +899,7 @@ const info: AssetList = {
       base: 'ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81',
       name: 'USD Coin',
       display: 'usdc',
-      symbol: 'USDC',
+      symbol: 'USDC.n',
       coingeckoId: 'usd-coin',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',

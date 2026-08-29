@@ -116,7 +116,7 @@ const info: AssetList = {
       base: 'ibc/5260516290F7883EC893AADA09A6B8CEC790F2EEF3196F440037908749785BE8',
       name: 'Noble USDC',
       display: 'usdc',
-      symbol: 'USDC',
+      symbol: 'USDC.n',
       traces: [
         {
           type: 'synthetic',
@@ -156,8 +156,8 @@ const info: AssetList = {
             chainName: 'nobletestnet',
             baseDenom: 'uusdc'
           },
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
           theme: {
             circle: true
           }
