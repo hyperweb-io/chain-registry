@@ -1347,6 +1347,7 @@ const info: AssetList = {
       name: 'Motion',
       display: 'MOTION',
       symbol: 'MOTION',
+      coingecko_id: 'motion-6',
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/motion.png'
       },
