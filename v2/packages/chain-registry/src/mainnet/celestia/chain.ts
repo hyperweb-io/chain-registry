@@ -165,6 +165,10 @@ const info: Chain = {
       {
         address: 'https://celestia.cumulo.org.es',
         provider: 'Cumulo'
+      },
+      {
+        address: 'https://celestia-rpc.cogwheel.zone',
+        provider: 'Cogwheel ⚙️'
       }
     ],
     rest: [
@@ -259,6 +263,10 @@ const info: Chain = {
       {
         address: 'https://celestia-api.polkachu.com',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://celestia-api.cogwheel.zone',
+        provider: 'Cogwheel ⚙️'
       }
     ],
     grpc: [
@@ -333,11 +341,18 @@ const info: Chain = {
       {
         address: 'https://celestia.grpc.cumulo.org.es',
         provider: 'Cumulo'
+      },
+      {
+        address: 'celestia-grpc.cogwheel.zone:443',
+        provider: 'Cogwheel ⚙️'
       }
     ],
     wss: [{
         address: 'wss://celestia.cumulo.org.es/websocket',
         provider: 'Cumulo'
+      }, {
+        address: 'wss://celestia-rpc.cogwheel.zone/websocket',
+        provider: 'Cogwheel ⚙️'
       }]
   },
   explorers: [

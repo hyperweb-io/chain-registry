@@ -113,6 +113,10 @@ const info: Chain = {
       {
         address: 'https://nolus-rpc.polkachu.com:443',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://nolus-rpc.cogwheel.zone',
+        provider: 'Cogwheel ⚙️'
       }
     ],
     rest: [
@@ -127,6 +131,10 @@ const info: Chain = {
       {
         address: 'https://nolus-api.polkachu.com',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://nolus-api.cogwheel.zone',
+        provider: 'Cogwheel ⚙️'
       }
     ],
     grpc: [
@@ -141,6 +149,10 @@ const info: Chain = {
       {
         address: 'nolus-grpc.polkachu.com:19790',
         provider: 'Polkachu'
+      },
+      {
+        address: 'nolus-grpc.cogwheel.zone:443',
+        provider: 'Cogwheel ⚙️'
       }
     ]
   },
