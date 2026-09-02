@@ -96,10 +96,6 @@ const chain: Chain = {
         provider: 'Validatus'
       },
       {
-        address: 'https://juno-rpc.cogwheel.zone',
-        provider: 'Cogwheel'
-      },
-      {
         address: 'https://juno.api.pocket.network',
         provider: 'Pocket Network'
       },
@@ -142,10 +138,6 @@ const chain: Chain = {
         provider: 'Validatus'
       },
       {
-        address: 'https://juno-api.cogwheel.zone',
-        provider: 'Cogwheel'
-      },
-      {
         address: 'https://juno.api.pocket.network',
         provider: 'Pocket Network'
       }
@@ -170,10 +162,6 @@ const chain: Chain = {
       {
         address: 'juno-grpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'juno-grpc.cogwheel.zone:443',
-        provider: 'Cogwheel'
       },
       {
         address: 'grpc.juno.validatus.com:443',

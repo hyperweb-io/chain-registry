@@ -57,6 +57,13 @@ const info: Chain = {
       url: 'https://axiomechain.pro',
       tx_page: 'https://axiomechain.pro/transactions/${txHash}',
       account_page: 'https://axiomechain.pro/address/${accountAddress}'
+    }, {
+      kind: 'AxiomeScan',
+      url: 'https://axiomescan.pro',
+      tx_page: 'https://axiomescan.pro/tx/${txHash}',
+      account_page: 'https://axiomescan.pro/address/${accountAddress}',
+      validator_page: 'https://axiomescan.pro/validators/${validatorAddress}',
+      block_page: 'https://axiomescan.pro/blocks/${blockHeight}'
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/axiome/images/axiome.png'
