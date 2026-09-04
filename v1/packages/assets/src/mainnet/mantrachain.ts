@@ -972,6 +972,62 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Governance and utility token for NVNM Chain.',
+      denom_units: [{
+          denom: 'ibc/8A3AF9184B2AD2FA0DD2911890CFF12D9E2F7533384A8E18ABE464C260B2CC38',
+          exponent: 0,
+          aliases: ['anvnm']
+        }, {
+          denom: 'nvnm',
+          exponent: 18
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/8A3AF9184B2AD2FA0DD2911890CFF12D9E2F7533384A8E18ABE464C260B2CC38',
+      name: 'NVNM',
+      display: 'nvnm',
+      symbol: 'NVNM',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-primary.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-primary.svg'
+      },
+      images: [
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-primary.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-primary.svg',
+          theme: {
+            circle: true
+          }
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-black.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-black.svg',
+          theme: {
+            circle: true,
+            dark_mode: false
+          }
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-white.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-white.svg',
+          theme: {
+            circle: true,
+            dark_mode: true
+          }
+        }
+      ],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'anvnm',
+            chain_name: 'nvnmchain'
+          },
+          chain: {
+            channel_id: 'channel-9'
+          }
+        }]
+    },
+    {
       description: 'The native token of Osmosis',
       denom_units: [{
           denom: 'ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518',
@@ -1335,6 +1391,62 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-1'
+          }
+        }]
+    },
+    {
+      description: 'Governance and utility token for NVNM Chain.',
+      denom_units: [{
+          denom: 'ibc/8A3AF9184B2AD2FA0DD2911890CFF12D9E2F7533384A8E18ABE464C260B2CC38',
+          exponent: 0,
+          aliases: ['anvnm']
+        }, {
+          denom: 'nvnm',
+          exponent: 18
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/8A3AF9184B2AD2FA0DD2911890CFF12D9E2F7533384A8E18ABE464C260B2CC38',
+      name: 'NVNM',
+      display: 'nvnm',
+      symbol: 'NVNM',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-primary.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-primary.svg'
+      },
+      images: [
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-primary.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-primary.svg',
+          theme: {
+            circle: true
+          }
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-black.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-black.svg',
+          theme: {
+            circle: true,
+            dark_mode: false
+          }
+        },
+        {
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-white.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-white.svg',
+          theme: {
+            circle: true,
+            dark_mode: true
+          }
+        }
+      ],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'anvnm',
+            chain_name: 'nvnmchain'
+          },
+          chain: {
+            channel_id: 'channel-9'
           }
         }]
     },

@@ -146,6 +146,7 @@ import * as _nim from './nim';
 import * as _noble from './noble';
 import * as _nolus from './nolus';
 import * as _nomic from './nomic';
+import * as _nvnmchain from './nvnmchain';
 import * as _nyx from './nyx';
 import * as _octa from './octa';
 import * as _odin from './odin';
@@ -379,6 +380,7 @@ const chains: Chain[] = [
   _noble.chain,
   _nolus.chain,
   _nomic.chain,
+  _nvnmchain.chain,
   _nyx.chain,
   _octa.chain,
   _odin.chain,

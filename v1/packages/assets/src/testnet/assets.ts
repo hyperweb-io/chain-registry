@@ -34,6 +34,7 @@ import _neutrontestnet from './neutrontestnet';
 import _nobletestnet from './nobletestnet';
 import _noistestnet from './noistestnet';
 import _nolustestnet from './nolustestnet';
+import _nvnmchaintestnet from './nvnmchaintestnet';
 import _osmosistestnet from './osmosistestnet';
 import _persistencetestnet2 from './persistencetestnet2';
 import _qubeticstestnet from './qubeticstestnet';
@@ -52,6 +53,6 @@ import _xiontestnet2 from './xiontestnet2';
 import _xrplevmtestnet from './xrplevmtestnet';
 import _zigchaintestnet from './zigchaintestnet'
 
-const assets: AssetList[] = [_agoricdevnet,_archwaytestnet,_atomonetestnet,_axelartestnet,_babylontestnet,_celestiatestnet3,_chain4energytestnet,_composabletestnet,_coreumtestnet,_cosmosicsprovidertestnet,_divinetestnet,_doravotatestnet,_dydxtestnet,_elystestnet,_empowertestnet,_hippoprotocoltestnet,_impacthubtestnet,_injectivetestnet,_int3facetestnet,_jackaltestnet2,_kimanetworktestnet,_kujiratestnet,_kyvetestnet,_lavatestnet,_likecointestnet,_limonatatestnet,_lumeratestnet,_manifesttestnet,_mantrachaintestnet2,_marstestnet,_neutrontestnet,_nobletestnet,_noistestnet,_nolustestnet,_osmosistestnet,_persistencetestnet2,_qubeticstestnet,_sagatestnet,_seitestnet2,_sgetestnet,_stargazetestnet,_stridetestnet,_swisstroniktestnet,_symphonytestnet,_synternettestnet,_terra2testnet,_titannettestnet,_titantestnet,_xiontestnet2,_xrplevmtestnet,_zigchaintestnet];
+const assets: AssetList[] = [_agoricdevnet,_archwaytestnet,_atomonetestnet,_axelartestnet,_babylontestnet,_celestiatestnet3,_chain4energytestnet,_composabletestnet,_coreumtestnet,_cosmosicsprovidertestnet,_divinetestnet,_doravotatestnet,_dydxtestnet,_elystestnet,_empowertestnet,_hippoprotocoltestnet,_impacthubtestnet,_injectivetestnet,_int3facetestnet,_jackaltestnet2,_kimanetworktestnet,_kujiratestnet,_kyvetestnet,_lavatestnet,_likecointestnet,_limonatatestnet,_lumeratestnet,_manifesttestnet,_mantrachaintestnet2,_marstestnet,_neutrontestnet,_nobletestnet,_noistestnet,_nolustestnet,_nvnmchaintestnet,_osmosistestnet,_persistencetestnet2,_qubeticstestnet,_sagatestnet,_seitestnet2,_sgetestnet,_stargazetestnet,_stridetestnet,_swisstroniktestnet,_symphonytestnet,_synternettestnet,_terra2testnet,_titannettestnet,_titantestnet,_xiontestnet2,_xrplevmtestnet,_zigchaintestnet];
 
 export default assets;

@@ -87,6 +87,7 @@ export * as nobletestnet from './nobletestnet';
 export * as noistestnet from './noistestnet';
 export * as nolustestnet from './nolustestnet';
 export * as nomictestnet from './nomictestnet';
+export * as nvnmchaintestnet from './nvnmchaintestnet';
 export * as nyxtestnet from './nyxtestnet';
 export * as okp4testnet from './okp4testnet';
 export * as osmosistestnet from './osmosistestnet';

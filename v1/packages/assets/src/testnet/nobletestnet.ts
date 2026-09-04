@@ -257,6 +257,45 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Wrapped mantraUSD, an ERC20 on MANTRA Dukong testnet used as the gas token on NVNM Chain Testnet.',
+      denom_units: [{
+          denom: 'ibc/172DB5010F549557091DD6264472C791E3499548D321D6E1EBBF1DBA2AB73E46',
+          exponent: 0,
+          aliases: ['erc20:0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767']
+        }, {
+          denom: 'wmantrausd',
+          exponent: 18
+        }],
+      type_asset: 'erc20',
+      address: '0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767',
+      base: 'ibc/172DB5010F549557091DD6264472C791E3499548D321D6E1EBBF1DBA2AB73E46',
+      name: 'Wrapped mantraUSD',
+      display: 'wmantrausd',
+      symbol: 'wmantraUSD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'erc20:0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767',
+            chain_name: 'mantrachaintestnet2'
+          },
+          chain: {
+            channel_id: 'channel-237'
+          }
+        }]
+    },
+    {
       description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
       denom_units: [{
           denom: 'ibc/B004A9200E85CD5B6B6D8FB6ADCD1288F36969E926A1D4418ABD2AEDFC52F43E',
@@ -503,6 +542,45 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-2',
             base_denom: 'amantra',
+            chain_name: 'mantrachaintestnet2'
+          },
+          chain: {
+            channel_id: 'channel-237'
+          }
+        }]
+    },
+    {
+      description: 'Wrapped mantraUSD, an ERC20 on MANTRA Dukong testnet used as the gas token on NVNM Chain Testnet.',
+      denom_units: [{
+          denom: 'ibc/172DB5010F549557091DD6264472C791E3499548D321D6E1EBBF1DBA2AB73E46',
+          exponent: 0,
+          aliases: ['erc20:0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767']
+        }, {
+          denom: 'wmantrausd',
+          exponent: 18
+        }],
+      type_asset: 'erc20',
+      address: '0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767',
+      base: 'ibc/172DB5010F549557091DD6264472C791E3499548D321D6E1EBBF1DBA2AB73E46',
+      name: 'Wrapped mantraUSD',
+      display: 'wmantrausd',
+      symbol: 'wmantraUSD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'erc20:0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767',
             chain_name: 'mantrachaintestnet2'
           },
           chain: {

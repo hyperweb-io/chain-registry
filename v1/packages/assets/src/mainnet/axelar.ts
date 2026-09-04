@@ -2094,6 +2094,45 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Wrapped mantraUSD, an ERC20 on MANTRA Chain used as the gas token on NVNM Chain.',
+      denom_units: [{
+          denom: 'ibc/3DF5543EAE02B92BEAC5E07B9A65EF73F7F75C721F12E14D003629C7C6D6D83C',
+          exponent: 0,
+          aliases: ['erc20:0x5EB619e3dcA586c321Bb83282D2916577B5c383d']
+        }, {
+          denom: 'wmantrausd',
+          exponent: 18
+        }],
+      type_asset: 'erc20',
+      address: '0x5EB619e3dcA586c321Bb83282D2916577B5c383d',
+      base: 'ibc/3DF5543EAE02B92BEAC5E07B9A65EF73F7F75C721F12E14D003629C7C6D6D83C',
+      name: 'Wrapped mantraUSD',
+      display: 'wmantrausd',
+      symbol: 'wmantraUSD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'erc20:0x5EB619e3dcA586c321Bb83282D2916577B5c383d',
+            chain_name: 'mantrachain'
+          },
+          chain: {
+            channel_id: 'channel-170'
+          }
+        }]
+    },
+    {
       description: 'Migaloo is a cosmwasm-powered, permissionless blockchain designed to build decentralized applications with a focus on interchain liquidity solutions.',
       denom_units: [{
           denom: 'ibc/64E172EE7DCCA19E715FDBB23599E09672232C121B32D7E93F79767560A0B427',
@@ -4655,6 +4694,45 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-6',
             base_denom: 'amantra',
+            chain_name: 'mantrachain'
+          },
+          chain: {
+            channel_id: 'channel-170'
+          }
+        }]
+    },
+    {
+      description: 'Wrapped mantraUSD, an ERC20 on MANTRA Chain used as the gas token on NVNM Chain.',
+      denom_units: [{
+          denom: 'ibc/3DF5543EAE02B92BEAC5E07B9A65EF73F7F75C721F12E14D003629C7C6D6D83C',
+          exponent: 0,
+          aliases: ['erc20:0x5EB619e3dcA586c321Bb83282D2916577B5c383d']
+        }, {
+          denom: 'wmantrausd',
+          exponent: 18
+        }],
+      type_asset: 'erc20',
+      address: '0x5EB619e3dcA586c321Bb83282D2916577B5c383d',
+      base: 'ibc/3DF5543EAE02B92BEAC5E07B9A65EF73F7F75C721F12E14D003629C7C6D6D83C',
+      name: 'Wrapped mantraUSD',
+      display: 'wmantrausd',
+      symbol: 'wmantraUSD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'erc20:0x5EB619e3dcA586c321Bb83282D2916577B5c383d',
             chain_name: 'mantrachain'
           },
           chain: {

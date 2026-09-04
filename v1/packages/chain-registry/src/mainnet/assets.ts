@@ -146,6 +146,7 @@ import * as _nim from './nim';
 import * as _noble from './noble';
 import * as _nolus from './nolus';
 import * as _nomic from './nomic';
+import * as _nvnmchain from './nvnmchain';
 import * as _nyx from './nyx';
 import * as _octa from './octa';
 import * as _odin from './odin';
@@ -379,6 +380,7 @@ const assets: AssetList[] = [
   _noble.assets,
   _nolus.assets,
   _nomic.assets,
+  _nvnmchain.assets,
   _nyx.assets,
   _octa.assets,
   _odin.assets,

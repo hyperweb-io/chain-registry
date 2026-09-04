@@ -32,6 +32,7 @@ export * as neutrontestnet from './neutrontestnet';
 export * as nobletestnet from './nobletestnet';
 export * as noistestnet from './noistestnet';
 export * as nolustestnet from './nolustestnet';
+export * as nvnmchaintestnet from './nvnmchaintestnet';
 export * as osmosistestnet from './osmosistestnet';
 export * as persistencetestnet2 from './persistencetestnet2';
 export * as qubeticstestnet from './qubeticstestnet';

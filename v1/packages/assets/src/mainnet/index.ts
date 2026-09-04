@@ -108,6 +108,7 @@ export * as nim from './nim';
 export * as noble from './noble';
 export * as nolus from './nolus';
 export * as nomic from './nomic';
+export * as nvnmchain from './nvnmchain';
 export * as nyx from './nyx';
 export * as odin from './odin';
 export * as okexchain from './okexchain';

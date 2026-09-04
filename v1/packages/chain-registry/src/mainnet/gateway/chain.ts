@@ -94,9 +94,6 @@ const info: Chain = {
     grpc: [{
         address: 'http://wormchain-mainnet-1-full-grpc.tm.p2p.org',
         provider: 'P2P'
-      }, {
-        address: 'wormchain-grpc.polkachu.com:25990',
-        provider: 'Polkachu'
       }]
   },
   explorers: [{

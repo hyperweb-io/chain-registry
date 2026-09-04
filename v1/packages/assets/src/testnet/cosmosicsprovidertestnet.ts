@@ -287,6 +287,45 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Wrapped mantraUSD, an ERC20 on MANTRA Dukong testnet used as the gas token on NVNM Chain Testnet.',
+      denom_units: [{
+          denom: 'ibc/5140A20B8DF19846D51F0C7FB8171785D1E883C8F8E241B93E3BB1CE6FC9E216',
+          exponent: 0,
+          aliases: ['erc20:0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767']
+        }, {
+          denom: 'wmantrausd',
+          exponent: 18
+        }],
+      type_asset: 'erc20',
+      address: '0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767',
+      base: 'ibc/5140A20B8DF19846D51F0C7FB8171785D1E883C8F8E241B93E3BB1CE6FC9E216',
+      name: 'Wrapped mantraUSD',
+      display: 'wmantrausd',
+      symbol: 'wmantraUSD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'erc20:0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767',
+            chain_name: 'mantrachaintestnet2'
+          },
+          chain: {
+            channel_id: 'channel-241'
+          }
+        }]
+    },
+    {
       description: 'The native token of outbe-node',
       denom_units: [{
           denom: 'ibc/43AD599F4EACD7E21F84B194C329029DA9C4CED6015880386DBA074865CA3D11',
@@ -428,6 +467,45 @@ const assets: AssetList = {
           counterparty: {
             channel_id: 'channel-3',
             base_denom: 'amantra',
+            chain_name: 'mantrachaintestnet2'
+          },
+          chain: {
+            channel_id: 'channel-241'
+          }
+        }]
+    },
+    {
+      description: 'Wrapped mantraUSD, an ERC20 on MANTRA Dukong testnet used as the gas token on NVNM Chain Testnet.',
+      denom_units: [{
+          denom: 'ibc/5140A20B8DF19846D51F0C7FB8171785D1E883C8F8E241B93E3BB1CE6FC9E216',
+          exponent: 0,
+          aliases: ['erc20:0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767']
+        }, {
+          denom: 'wmantrausd',
+          exponent: 18
+        }],
+      type_asset: 'erc20',
+      address: '0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767',
+      base: 'ibc/5140A20B8DF19846D51F0C7FB8171785D1E883C8F8E241B93E3BB1CE6FC9E216',
+      name: 'Wrapped mantraUSD',
+      display: 'wmantrausd',
+      symbol: 'wmantraUSD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-3',
+            base_denom: 'erc20:0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767',
             chain_name: 'mantrachaintestnet2'
           },
           chain: {
