@@ -34,6 +34,7 @@ import * as _neutrontestnet from './neutrontestnet';
 import * as _nobletestnet from './nobletestnet';
 import * as _noistestnet from './noistestnet';
 import * as _nolustestnet from './nolustestnet';
+import * as _nvnmchaintestnet from './nvnmchaintestnet';
 import * as _osmosistestnet from './osmosistestnet';
 import * as _persistencetestnet2 from './persistencetestnet2';
 import * as _qubeticstestnet from './qubeticstestnet';
@@ -88,6 +89,7 @@ const ibcData: IBCData[] = [
   ..._nobletestnet.ibcData,
   ..._noistestnet.ibcData,
   ..._nolustestnet.ibcData,
+  ..._nvnmchaintestnet.ibcData,
   ..._osmosistestnet.ibcData,
   ..._persistencetestnet2.ibcData,
   ..._qubeticstestnet.ibcData,

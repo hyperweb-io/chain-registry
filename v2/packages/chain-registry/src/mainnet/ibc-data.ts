@@ -110,6 +110,7 @@ import * as _nim from './nim';
 import * as _noble from './noble';
 import * as _nolus from './nolus';
 import * as _nomic from './nomic';
+import * as _nvnmchain from './nvnmchain';
 import * as _nyx from './nyx';
 import * as _odin from './odin';
 import * as _okexchain from './okexchain';
@@ -286,6 +287,7 @@ const ibcData: IBCData[] = [
   ..._noble.ibcData,
   ..._nolus.ibcData,
   ..._nomic.ibcData,
+  ..._nvnmchain.ibcData,
   ..._nyx.ibcData,
   ..._odin.ibcData,
   ..._okexchain.ibcData,

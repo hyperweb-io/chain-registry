@@ -245,6 +245,33 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/mantrachaintestnet2/images/treats.png'
         }],
       typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Wrapped mantraUSD, an ERC20 on MANTRA Dukong testnet used as the gas token on NVNM Chain Testnet.',
+      denomUnits: [{
+          denom: 'erc20:0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767',
+          exponent: 0
+        }, {
+          denom: 'wmantrausd',
+          exponent: 18
+        }],
+      typeAsset: 'erc20',
+      address: '0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767',
+      base: 'erc20:0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767',
+      name: 'Wrapped mantraUSD',
+      display: 'wmantrausd',
+      symbol: 'wmantraUSD',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/wmantraUSD-token.svg',
+          theme: {
+            circle: true
+          }
+        }]
     }
   ]
 };
