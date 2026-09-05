@@ -481,14 +481,14 @@ const assets: AssetList = {
     {
       description: 'The native token of Initia',
       denom_units: [{
-          denom: 'ibc/6A4AB30BEDEE4F648FD772CCE2C7C0FF431C6359B93FD22C9F31D5B10FEB40CE',
+          denom: 'ibc/340FC25880AE8ADFB8062D3D177704C49EEEAC1AF908C902DF7A14E6FE996DE4',
           exponent: 0,
           aliases: ['uinit']
         }, {
           denom: 'INIT',
           exponent: 6
         }],
-      base: 'ibc/6A4AB30BEDEE4F648FD772CCE2C7C0FF431C6359B93FD22C9F31D5B10FEB40CE',
+      base: 'ibc/340FC25880AE8ADFB8062D3D177704C49EEEAC1AF908C902DF7A14E6FE996DE4',
       display: 'INIT',
       name: 'Initia',
       symbol: 'INIT',
@@ -508,12 +508,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-112',
+            channel_id: 'channel-113',
             base_denom: 'uinit',
             chain_name: 'initia'
           },
           chain: {
-            channel_id: 'channel-455'
+            channel_id: 'channel-488'
           }
         }]
     },
@@ -996,14 +996,14 @@ const assets: AssetList = {
     {
       description: 'The native token of Initia',
       denom_units: [{
-          denom: 'ibc/6A4AB30BEDEE4F648FD772CCE2C7C0FF431C6359B93FD22C9F31D5B10FEB40CE',
+          denom: 'ibc/340FC25880AE8ADFB8062D3D177704C49EEEAC1AF908C902DF7A14E6FE996DE4',
           exponent: 0,
           aliases: ['uinit']
         }, {
           denom: 'INIT',
           exponent: 6
         }],
-      base: 'ibc/6A4AB30BEDEE4F648FD772CCE2C7C0FF431C6359B93FD22C9F31D5B10FEB40CE',
+      base: 'ibc/340FC25880AE8ADFB8062D3D177704C49EEEAC1AF908C902DF7A14E6FE996DE4',
       display: 'INIT',
       name: 'Initia',
       symbol: 'INIT',
@@ -1023,12 +1023,12 @@ const assets: AssetList = {
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-112',
+            channel_id: 'channel-113',
             base_denom: 'uinit',
             chain_name: 'initia'
           },
           chain: {
-            channel_id: 'channel-455'
+            channel_id: 'channel-488'
           }
         }]
     },
