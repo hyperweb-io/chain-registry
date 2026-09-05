@@ -63,7 +63,7 @@ const info: Chain = {
         provider: 'OneNov'
       },
       {
-        address: 'https://rpc-m.epix.vinjan-inc.com',
+        address: 'https://rpc-epix.vinjan-inc.com',
         provider: 'Vinjan.Inc'
       },
       {
@@ -81,7 +81,7 @@ const info: Chain = {
         provider: 'OneNov'
       },
       {
-        address: 'https://api-m.epix.vinjan-inc.com',
+        address: 'https://api-epix.vinjan-inc.com',
         provider: 'Vinjan.Inc'
       },
       {
@@ -95,7 +95,7 @@ const info: Chain = {
         provider: 'Epix'
       },
       {
-        address: 'grpc-m.epix.vinjan-inc.com:39990',
+        address: 'grpc-epix.vinjan-inc.com:39990',
         provider: 'Vinjan.Inc'
       },
       {

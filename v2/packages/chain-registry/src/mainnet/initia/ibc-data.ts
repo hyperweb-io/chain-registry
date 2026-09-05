@@ -5,22 +5,22 @@ const info: IBCData[] = [
     chain1: {
       chainName: 'initia',
       chainId: 'interwoven-1',
-      clientId: '07-tendermint-64',
-      connectionId: 'connection-55'
+      clientId: '07-tendermint-65',
+      connectionId: 'connection-57'
     },
     chain2: {
       chainName: 'injective',
       chainId: 'injective-1',
-      clientId: '07-tendermint-329',
-      connectionId: 'connection-334'
+      clientId: '07-tendermint-349',
+      connectionId: 'connection-348'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-112',
+          channelId: 'channel-113',
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-455',
+          channelId: 'channel-488',
           portId: 'transfer'
         },
         ordering: 'unordered',

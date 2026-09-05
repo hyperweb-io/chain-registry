@@ -2,7 +2,8 @@ import { AssetList } from '@chain-registry/types';
 const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chainName: 'initia',
-  assets: [{
+  assets: [
+    {
       description: 'The native token of Initia',
       extendedDescription: 'Initia L1 is a Layer 1 blockchain designed to serve as the coordination layer and central hub for all Initia rollups. This layer provides essential services to Rollups, including: Network Security, Governance, Liquidity Solutions, Bridging and Interoperability.',
       denomUnits: [{
@@ -29,7 +30,8 @@ const info: AssetList = {
       },
       typeAsset: 'sdk.coin',
       coingeckoId: 'initia'
-    }, {
+    },
+    {
       description: 'MilkyWay\'s liquid staked INIT from moo-1 L2',
       extendedDescription: 'milkINIT is a liquid staking token representing staked INIT on the Initia blockchain. It is created on MilkyWay\'s moo-1 L2 rollup and bridges to Initia mainnet for broader DeFi integration.',
       denomUnits: [{
@@ -74,6 +76,50 @@ const info: AssetList = {
             baseDenom: 'factory/init17p9rzwnnfxcjp32un9ug7yhhzgtkhvl9jfksztgw5uh69wac2pgsj6uxxj/umilkINIT'
           }
         }]
-    }]
+    },
+    {
+      description: 'USD Coin issued natively on Injective by Circle',
+      denomUnits: [{
+          denom: 'ibc/A64E1233F240D4B886413A12CF0300D6EC6FA0554DBD176119C399D0E2CA8048',
+          exponent: 0
+        }, {
+          denom: 'usdc',
+          exponent: 6
+        }],
+      base: 'ibc/A64E1233F240D4B886413A12CF0300D6EC6FA0554DBD176119C399D0E2CA8048',
+      name: 'Injective USDC',
+      display: 'usdc',
+      symbol: 'USDC.inj',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'injective',
+            baseDenom: 'erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a',
+            channelId: 'channel-488'
+          },
+          chain: {
+            channelId: 'channel-113',
+            path: 'transfer/channel-113/erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a'
+          }
+        }],
+      typeAsset: 'ics20',
+      images: [{
+          imageSync: {
+            chainName: 'injective',
+            baseDenom: 'erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      coingeckoId: 'usd-coin'
+    }
+  ]
 };
 export default info;
