@@ -1286,6 +1286,52 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
       },
       coingeckoId: 'usd-coin'
+    },
+    {
+      description: 'Wrapped stETH bridged via Eureka on Cosmos Hub.',
+      denomUnits: [
+        {
+          denom: 'ibc/1568B2266E9CF742A068567F052D6057366121943C61F62D82518AEEC4C07C7F',
+          exponent: 0,
+          aliases: ['wsteth-wei']
+        },
+        {
+          denom: 'wsteth',
+          exponent: 18
+        },
+        {
+          denom: 'wsteth.atom',
+          exponent: 18
+        }
+      ],
+      typeAsset: 'ics20',
+      base: 'ibc/1568B2266E9CF742A068567F052D6057366121943C61F62D82518AEEC4C07C7F',
+      name: 'Eureka Bridged Wrapped stETH (ATOM)',
+      display: 'wsteth',
+      symbol: 'wstETH',
+      traces: [{
+          type: 'ibc-bridge',
+          counterparty: {
+            chainName: 'ethereum',
+            baseDenom: '0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: '08-wasm-1369',
+            path: 'transfer/08-wasm-1369/0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0'
+          },
+          provider: 'Eureka'
+        }],
+      logoURIs: {
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'ethereum',
+            baseDenom: '0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0'
+          },
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg'
+        }]
     }
   ]
 };
