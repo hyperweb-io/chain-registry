@@ -535,12 +535,6 @@ const info: Chain = {
       compression: 'lz4',
       checksumAvailable: false,
       provider: 'Polkachu'
-    }, {
-      url: 'https://polkachu.com/archive_snapshots/sunrise',
-      type: 'archive',
-      compression: 'lz4',
-      checksumAvailable: false,
-      provider: 'Polkachu'
     }]
 };
 export default info;
