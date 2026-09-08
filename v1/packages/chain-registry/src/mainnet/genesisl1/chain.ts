@@ -50,21 +50,52 @@ const info: Chain = {
   },
   description: 'GenesisL1 is a public distributed ledger for decentralized scientific data, assets, applications, and protocols, with a focus on bioinformatics, biotechnology, medicine, and machine learning.',
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://26657.genesisl1.org',
         provider: 'GenesisL1'
-      }],
-    rest: [{
+      },
+      {
+        address: 'https://rpc.gl1infra.online',
+        provider: 'GL1Infra'
+      },
+      {
+        address: 'https://rpc.vicky.gl1infra.online',
+        provider: 'GL1Infra'
+      }
+    ],
+    rest: [
+      {
         address: 'https://api.genesisl1.org',
         provider: 'GenesisL1'
-      }, {
+      },
+      {
         address: 'https://1317.genesisl1.org',
         provider: 'GenesisL1'
-      }],
-    "evm-http-jsonrpc": [{
+      },
+      {
+        address: 'https://api.gl1infra.online',
+        provider: 'GL1Infra'
+      },
+      {
+        address: 'https://api.vicky.gl1infra.online',
+        provider: 'GL1Infra'
+      }
+    ],
+    "evm-http-jsonrpc": [
+      {
         address: 'https://rpc.genesisl1.org',
         provider: 'GenesisL1'
-      }]
+      },
+      {
+        address: 'https://evm.gl1infra.online',
+        provider: 'GL1Infra'
+      },
+      {
+        address: 'https://evm.vicky.gl1infra.online',
+        provider: 'GL1Infra'
+      }
+    ]
   },
   explorers: [
     {
