@@ -119,10 +119,6 @@ const info: Chain = {
         provider: 'Enigma'
       },
       {
-        address: 'https://dymension.ibs.team:443/rpc',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://dymension.nodejumper.io:443',
         provider: 'NODEJUMPER'
       },
@@ -239,10 +235,6 @@ const info: Chain = {
       {
         address: 'https://dymension-lcd.enigma-validator.com',
         provider: 'Enigma'
-      },
-      {
-        address: 'https://dymension.ibs.team:443/api',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://dymension.nodejumper.io:1317',
@@ -383,10 +375,6 @@ const info: Chain = {
       {
         address: 'https://dym-m-json.agoranodes.com',
         provider: 'AgoraNodes'
-      },
-      {
-        address: 'https://dymension.ibs.team:443/ethrpc/',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://evm-dymension.hoodrun.io:8547',

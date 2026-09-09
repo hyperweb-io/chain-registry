@@ -5,23 +5,14 @@ const info: AssetList = {
   assets: [
     {
       description: 'The native token of ZIGChain',
-      denom_units: [
-        {
-          denom: 'uzig',
-          exponent: 0,
-          aliases: ['microzig']
-        },
-        {
-          denom: 'mzig',
-          exponent: 3,
-          aliases: ['millizig']
-        },
-        {
+      denom_units: [{
+          denom: 'azig',
+          exponent: 0
+        }, {
           denom: 'zig',
-          exponent: 6
-        }
-      ],
-      base: 'uzig',
+          exponent: 18
+        }],
+      base: 'azig',
       name: 'ZIG',
       display: 'zig',
       symbol: 'ZIG',
@@ -62,6 +53,51 @@ const info: AssetList = {
         medium: 'https://medium.com/zignaly',
         x: 'https://x.com/zigchain'
       }
+    },
+    {
+      description: 'Legacy pre-v5 base denomination of ZIG (6 decimals), retained only as IBC escrow backing after the uzig to azig redenomination.',
+      deprecated: true,
+      denom_units: [
+        {
+          denom: 'uzig',
+          exponent: 0,
+          aliases: ['microzig']
+        },
+        {
+          denom: 'mzig',
+          exponent: 3,
+          aliases: ['millizig']
+        },
+        {
+          denom: 'zig',
+          exponent: 6
+        }
+      ],
+      type_asset: 'sdk.coin',
+      base: 'uzig',
+      name: 'ZIG',
+      display: 'zig',
+      symbol: 'ZIG.legacy',
+      traces: [{
+          type: 'legacy-mintage',
+          counterparty: {
+            chain_name: 'zigchaintestnet',
+            base_denom: 'azig'
+          },
+          provider: 'ZIGChain'
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
+      },
+      images: [{
+          image_sync: {
+            chain_name: 'zigchaintestnet',
+            base_denom: 'azig'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'
+        }]
     },
     {
       description: 'Staked Zig Token by Valdora Finance - Decentralized staking with stZIG',
