@@ -20,16 +20,16 @@ const info: Chain = {
   description: 'ZIGChain (ZIG) is a Layer 1 blockchain focused on unlocking financial opportunities for everyone - regardless of their income, location, or level of knowledge.',
   fees: {
     feeTokens: [{
-        denom: 'uzig',
-        fixedMinGasPrice: 0.0025,
-        lowGasPrice: 0.0025,
-        averageGasPrice: 0.025,
-        highGasPrice: 0.05
+        denom: 'azig',
+        fixedMinGasPrice: 2500000000,
+        lowGasPrice: 2500000000,
+        averageGasPrice: 25000000000,
+        highGasPrice: 50000000000
       }]
   },
   staking: {
     stakingTokens: [{
-        denom: 'uzig'
+        denom: 'azig'
       }],
     lockDuration: {
       time: '604800s'
@@ -89,15 +89,15 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/ZIGChain/zigchain',
-    recommendedVersion: '4.1.0',
-    compatibleVersions: ['4.1.0'],
+    recommendedVersion: '5.0.0-patch-1',
+    compatibleVersions: ['5.0.0-patch-1'],
     consensus: {
       type: 'cometbft',
-      version: '0.38.21'
+      version: '0.38.25'
     },
     sdk: {
       type: 'cosmos',
-      version: '0.53.5'
+      version: '0.53.8'
     },
     ibc: {
       type: 'go',
@@ -111,14 +111,14 @@ const info: Chain = {
       genesisUrl: 'https://github.com/ZIGChain/networks/raw/main/zig-test-2/genesis.json'
     },
     binaries: {
-      "linux/amd64": 'https://github.com/ZIGChain/networks/raw/refs/heads/main/binaries/zigchaind-v4.1.0-linux-amd64.tar.gz?checksum=sha256:1a64152e48fb25c990bfcf52c0578171137470b78a79859e3c861714e099cd5e',
-      "darwin/amd64": 'https://github.com/ZIGChain/networks/raw/refs/heads/main/binaries/zigchaind-v4.1.0-darwin-amd64.tar.gz?checksum=sha256:adb639e7e1496ec30de54f7dbcd8a8110548b95ca3b3b1d20ca65ec4ad2bfaa0',
-      "darwin/arm64": 'https://github.com/ZIGChain/networks/raw/refs/heads/main/binaries/zigchaind-v4.1.0-darwin-arm64.tar.gz?checksum=sha256:a27cb748c8b4c90724378109e518fd730f8471d9e28fbea56bb963b3757fd6da'
+      "linux/amd64": 'https://github.com/ZIGChain/networks/raw/refs/heads/main/binaries/v5.0.0-patch-1/zigchaind-v5.0.0-patch-1-linux-amd64.tar.gz?checksum=sha256:002c1edb1db0f32ac16bc3faaa96438b1720f9330b2fca438108f19cd49586ee',
+      "darwin/amd64": 'https://github.com/ZIGChain/networks/raw/refs/heads/main/binaries/v5.0.0-patch-1/zigchaind-v5.0.0-patch-1-darwin-amd64.tar.gz?checksum=sha256:3b9dfc2cfd290fe2cf8e7a2f6ba6cff5f93f9a2f1fb1c2565ca27b17803e9b28',
+      "darwin/arm64": 'https://github.com/ZIGChain/networks/raw/refs/heads/main/binaries/v5.0.0-patch-1/zigchaind-v5.0.0-patch-1-darwin-arm64.tar.gz?checksum=sha256:408972867f66ae17fcf6730c5e5c96432f2175a96a36d991b6e0f26d7fa567ef'
     },
-    tag: 'v4.1.0',
+    tag: 'v5.0.0-patch-1',
     language: {
       type: 'go',
-      version: '1.25.9'
+      version: '1.25.13'
     }
   },
   explorers: [
@@ -151,7 +151,7 @@ const info: Chain = {
   images: [{
       imageSync: {
         chainName: 'zigchaintestnet',
-        baseDenom: 'uzig'
+        baseDenom: 'azig'
       },
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
       svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'

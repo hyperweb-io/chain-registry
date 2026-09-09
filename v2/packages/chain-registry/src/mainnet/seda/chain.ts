@@ -80,10 +80,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://seda.ibs.team:443/rpc',
-        provider: 'Inter Blockchain Services'
-      },
-      {
         address: 'https://rpc.seda.bronbro.io:443',
         provider: 'Bro_n_Bro'
       },
@@ -140,10 +136,6 @@ const info: Chain = {
       {
         address: 'https://rest.lavenderfive.com:443/seda',
         provider: 'Lavender.Five Nodes 🐝'
-      },
-      {
-        address: 'https://seda.ibs.team:443/api',
-        provider: 'Inter Blockchain Services'
       },
       {
         address: 'https://lcd.seda.bronbro.io:443',
