@@ -23,6 +23,7 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
         }],
+      coingecko_id: 'epix',
       socials: {
         website: 'https://epix.zone/',
         x: 'https://x.com/zone_epix'

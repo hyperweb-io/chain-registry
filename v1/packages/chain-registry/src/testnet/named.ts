@@ -38,7 +38,6 @@ export * as dymensiontestnet1 from './dymensiontestnet1';
 export * as elystestnet from './elystestnet';
 export * as empetestnet from './empetestnet';
 export * as empowertestnet from './empowertestnet';
-export * as epixtestnet from './epixtestnet';
 export * as evmostestnet from './evmostestnet';
 export * as fetchhubtestnet from './fetchhubtestnet';
 export * as fiammatestnet from './fiammatestnet';

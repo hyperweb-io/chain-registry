@@ -452,38 +452,37 @@ const asset_list: AssetList = {
       description: 'The native token of the Amitis Network. AMTS powers the cooperative Layer 1 blockchain that returns 80% of transaction fees to users.',
       type_asset: 'sdk.coin',
       denom_units: [{
-          denom: 'ibc/7E577151E593349028AAC4A9FCC33258D70749FDF3CBB48F7744262DD18FC89D',
+          denom: 'ibc/4793BB9CA6FFCF1A8AEA9BA386200D8D32413E0986BDD7812891A361B57F1C31',
           exponent: 0,
           aliases: ['uamts']
         }, {
           denom: 'amts',
           exponent: 6
         }],
-      base: 'ibc/7E577151E593349028AAC4A9FCC33258D70749FDF3CBB48F7744262DD18FC89D',
+      base: 'ibc/4793BB9CA6FFCF1A8AEA9BA386200D8D32413E0986BDD7812891A361B57F1C31',
       name: 'Amitis',
       display: 'amts',
       symbol: 'AMTS',
       logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.png'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.png'
         }],
       keywords: [
         'native',
-        'staking',
         'fee-rebate',
-        'dex'
+        'cooperative'
       ],
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-1',
+            channel_id: 'channel-3',
             base_denom: 'uamts',
             chain_name: 'amitis'
           },
           chain: {
-            channel_id: 'channel-110089'
+            channel_id: 'channel-111069'
           }
         }]
     },
@@ -2839,6 +2838,7 @@ const asset_list: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
         }],
+      coingecko_id: 'epix',
       socials: {
         website: 'https://epix.zone/',
         x: 'https://x.com/zone_epix'
@@ -6608,38 +6608,37 @@ const asset_list: AssetList = {
       description: 'The native token of the Amitis Network. AMTS powers the cooperative Layer 1 blockchain that returns 80% of transaction fees to users.',
       type_asset: 'sdk.coin',
       denom_units: [{
-          denom: 'ibc/7E577151E593349028AAC4A9FCC33258D70749FDF3CBB48F7744262DD18FC89D',
+          denom: 'ibc/4793BB9CA6FFCF1A8AEA9BA386200D8D32413E0986BDD7812891A361B57F1C31',
           exponent: 0,
           aliases: ['uamts']
         }, {
           denom: 'amts',
           exponent: 6
         }],
-      base: 'ibc/7E577151E593349028AAC4A9FCC33258D70749FDF3CBB48F7744262DD18FC89D',
+      base: 'ibc/4793BB9CA6FFCF1A8AEA9BA386200D8D32413E0986BDD7812891A361B57F1C31',
       name: 'Amitis',
       display: 'amts',
       symbol: 'AMTS',
       logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.png'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.png'
         }],
       keywords: [
         'native',
-        'staking',
         'fee-rebate',
-        'dex'
+        'cooperative'
       ],
       traces: [{
           type: 'ibc',
           counterparty: {
-            channel_id: 'channel-1',
+            channel_id: 'channel-3',
             base_denom: 'uamts',
             chain_name: 'amitis'
           },
           chain: {
-            channel_id: 'channel-110089'
+            channel_id: 'channel-111069'
           }
         }]
     },
@@ -8995,6 +8994,7 @@ const asset_list: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
         }],
+      coingecko_id: 'epix',
       socials: {
         website: 'https://epix.zone/',
         x: 'https://x.com/zone_epix'

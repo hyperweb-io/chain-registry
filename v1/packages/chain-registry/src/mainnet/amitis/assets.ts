@@ -17,16 +17,15 @@ const info: AssetList = {
       display: 'amts',
       symbol: 'AMTS',
       logo_URIs: {
-        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.svg'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.png'
       },
       images: [{
-          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.svg'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.png'
         }],
       keywords: [
         'native',
-        'staking',
         'fee-rebate',
-        'dex'
+        'cooperative'
       ]
     }]
 };
