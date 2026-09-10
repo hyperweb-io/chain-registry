@@ -41,7 +41,7 @@ const info: Chain = {
       genesisUrl: 'https://rpc.amitis.network/genesis'
     }
   },
-  description: 'Amitis Network is a cooperative Layer 1 blockchain built on the Cosmos SDK. Our philosophy is friendship through shared prosperity — the network returns 80% of transaction fees directly to users at the protocol level, making it one of the most user-aligned blockchains in the Cosmos ecosystem. Amitis features 21 fixed validator slots, a native DEX, and native liquid staking built directly into the protocol.',
+  description: 'Amitis Network is a cooperative Layer 1 blockchain built on the Cosmos SDK. 80% of all transaction fees are returned directly to users at the protocol level. Amitis features 21 fixed validator slots (petals), a native DEX, CosmWasm smart contracts, and IBC connectivity — building blockchain infrastructure where economics serve users, not insiders.',
   apis: {
     rpc: [{
         address: 'https://rpc.amitis.network',
@@ -52,13 +52,24 @@ const info: Chain = {
         provider: 'Amitis Network'
       }]
   },
-  explorers: [],
+  explorers: [{
+      kind: 'Amitis Explorer',
+      url: 'https://app.amitis.network/explorer',
+      txPage: 'https://app.amitis.network/explorer/tx/${txHash}',
+      accountPage: 'https://app.amitis.network/explorer/address/${accountAddress}'
+    }],
   keywords: [
     'cosmos',
     'fee-rebate',
-    'dex',
     'cooperative',
-    'layer1'
-  ]
+    'layer1',
+    'cosmwasm'
+  ],
+  logoURIs: {
+    png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.png'
+  },
+  images: [{
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/amitis/images/amts.png'
+    }]
 };
 export default info;

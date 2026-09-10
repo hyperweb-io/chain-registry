@@ -17,10 +17,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'aepix',
-        fixedMinGasPrice: 1000000000000,
-        lowGasPrice: 1000000000000,
-        averageGasPrice: 2000000000000,
-        highGasPrice: 3000000000000
+        fixedMinGasPrice: 20000000000,
+        lowGasPrice: 20000000000,
+        averageGasPrice: 25000000000,
+        highGasPrice: 30000000000
       }]
   },
   staking: {
@@ -29,25 +29,33 @@ const info: Chain = {
       }]
   },
   codebase: {
-    gitRepo: 'https://github.com/EpixZone/Epix',
-    recommendedVersion: 'v1.0.0',
-    compatibleVersions: ['v1.0.0'],
+    gitRepo: 'https://github.com/EpixZone/EpixChain',
+    recommendedVersion: 'v0.7.3',
+    compatibleVersions: ['v0.7.3'],
     genesis: {
-      genesisUrl: 'https://raw.githubusercontent.com/EpixZone/Epix/refs/heads/main/Networks/Mainnet/epix_1916-0/genesis.json'
+      genesisUrl: 'https://raw.githubusercontent.com/EpixZone/EpixChain/v0.5.0-rc42/artifacts/genesis/mainnet/genesis.json'
+    },
+    language: {
+      type: 'go',
+      version: '1.25.9'
     },
     sdk: {
       type: 'cosmos',
-      version: '0.46'
+      version: 'v0.54.3'
     },
     consensus: {
-      type: 'tendermint',
-      version: '0.34'
+      type: 'cometbft',
+      version: 'v0.39.3'
     },
     ibc: {
       type: 'go',
-      version: 'v6.1.0'
+      version: 'v11.1.0'
+    },
+    cosmwasm: {
+      enabled: false
     }
   },
+  description: 'Epix is designed to power a completely decentralized internet, where websites are hosted by everyone and controlled by no one, making the web unstoppable.',
   logoURIs: {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png',
     svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.svg'
@@ -89,20 +97,10 @@ const info: Chain = {
         provider: 'dnsarz'
       }
     ],
-    grpc: [
-      {
-        address: 'grpc.epix.zone:15067',
-        provider: 'Epix'
-      },
-      {
+    grpc: [{
         address: 'grpc-epix.vinjan-inc.com:39990',
         provider: 'Vinjan.Inc'
-      },
-      {
-        address: 'grpc-epix.dnsarz.net:443',
-        provider: 'dnsarz'
-      }
-    ],
+      }],
     evmHttpJsonrpc: [{
         address: 'https://evmrpc.epix.zone/',
         provider: 'Epix'
@@ -110,19 +108,25 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'L1',
+      kind: 'Epix',
       url: 'https://explorer.epix.zone/',
-      txPage: 'https://explorer.epix.zone/epix/tx/${txHash}'
+      txPage: 'https://explorer.epix.zone/#/tx/${txHash}',
+      accountPage: 'https://explorer.epix.zone/#/account/${accountAddress}',
+      blockPage: 'https://explorer.epix.zone/#/block/${blockHeight}',
+      proposalPage: 'https://explorer.epix.zone/#/gov/${proposalId}'
     },
     {
       kind: 'OneNov',
-      url: 'https://explorer.onenov.xyz',
-      txPage: 'https://explorer.onenov.xyz/epix/tx/${txHash}'
+      url: 'https://explorer.onenov.xyz/epix',
+      txPage: 'https://explorer.onenov.xyz/epix/tx/${txHash}',
+      accountPage: 'https://explorer.onenov.xyz/epix/account/${accountAddress}'
     },
     {
-      kind: 'EVM',
+      kind: 'Blockscout',
       url: 'https://scan.epix.zone/',
-      txPage: 'https://scan.epix.zone/tx/${txHash}'
+      txPage: 'https://scan.epix.zone/tx/${txHash}',
+      accountPage: 'https://scan.epix.zone/address/${accountAddress}',
+      blockPage: 'https://scan.epix.zone/block/${blockHeight}'
     }
   ],
   images: [{

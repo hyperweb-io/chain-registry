@@ -191,22 +191,22 @@ const info: IBCData[] = [
     chain1: {
       chainName: 'amitis',
       chainId: 'amitis-network',
-      clientId: '07-tendermint-0',
-      connectionId: 'connection-0'
+      clientId: '07-tendermint-3',
+      connectionId: 'connection-2'
     },
     chain2: {
       chainName: 'osmosis',
       chainId: 'osmosis-1',
-      clientId: '07-tendermint-3701',
-      connectionId: 'connection-11055'
+      clientId: '07-tendermint-3751',
+      connectionId: 'connection-11095'
     },
     channels: [{
         chain1: {
-          channelId: 'channel-1',
+          channelId: 'channel-3',
           portId: 'transfer'
         },
         chain2: {
-          channelId: 'channel-110089',
+          channelId: 'channel-111069',
           portId: 'transfer'
         },
         ordering: 'unordered',

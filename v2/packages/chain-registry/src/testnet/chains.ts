@@ -40,7 +40,6 @@ import * as _dymensiontestnet1 from './dymensiontestnet1';
 import * as _elystestnet from './elystestnet';
 import * as _empetestnet from './empetestnet';
 import * as _empowertestnet from './empowertestnet';
-import * as _epixtestnet from './epixtestnet';
 import * as _evmostestnet from './evmostestnet';
 import * as _fetchhubtestnet from './fetchhubtestnet';
 import * as _fiammatestnet from './fiammatestnet';
@@ -192,7 +191,6 @@ const chains: Chain[] = [
   _elystestnet.chain,
   _empetestnet.chain,
   _empowertestnet.chain,
-  _epixtestnet.chain,
   _evmostestnet.chain,
   _fetchhubtestnet.chain,
   _fiammatestnet.chain,
