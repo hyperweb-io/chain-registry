@@ -4,6 +4,35 @@ const info: IBCInfo[] = [{
     chain_1: {
       chain_name: 'amitis',
       chain_id: 'amitis-network',
+      client_id: '07-tendermint-4',
+      connection_id: 'connection-3'
+    },
+    chain_2: {
+      chain_name: 'noble',
+      chain_id: 'noble-1',
+      client_id: '07-tendermint-233',
+      connection_id: 'connection-216'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-4',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-635',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true
+        }
+      }]
+  }, {
+    $schema: '../ibc_data.schema.json',
+    chain_1: {
+      chain_name: 'amitis',
+      chain_id: 'amitis-network',
       client_id: '07-tendermint-3',
       connection_id: 'connection-2'
     },
