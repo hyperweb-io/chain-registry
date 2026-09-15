@@ -258,6 +258,12 @@ const info: Chain = {
       url: 'https://explorer.node39.top/shentu',
       tx_page: 'https://explorer.node39.top/shentu/transactions/${txHash}',
       account_page: 'https://explorer.node39.top/shentu/accounts/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/shentu/mainnet',
+      tx_page: 'https://moon-runners.net/shentu/mainnet/finder?search=${txHash}',
+      account_page: 'https://moon-runners.net/shentu/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

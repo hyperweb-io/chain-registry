@@ -249,6 +249,265 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'Injective is a decentralized exchange protocol that enables fast, secure, and fully decentralized trading of derivatives, futures, and spot markets.',
+      denom_units: [{
+          denom: 'ibc/7052F57BB1FD5131AD4C61F115C9900FB84A3FB5ED4D16DC3DD1802A83914AD4',
+          exponent: 0,
+          aliases: ['inj']
+        }, {
+          denom: 'INJ',
+          exponent: 18
+        }],
+      base: 'ibc/7052F57BB1FD5131AD4C61F115C9900FB84A3FB5ED4D16DC3DD1802A83914AD4',
+      name: 'Injective',
+      display: 'INJ',
+      symbol: 'INJ',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
+      },
+      coingecko_id: 'injective-protocol',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
+        }],
+      socials: {
+        website: 'https://injective.com/',
+        x: 'https://x.com/Injective',
+        telegram: 'https://t.me/joininjective',
+        discord: 'https://discord.com/invite/injective',
+        reddit: 'https://www.reddit.com/r/injective/'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-490',
+            base_denom: 'inj',
+            chain_name: 'injective'
+          },
+          chain: {
+            channel_id: 'channel-5320'
+          }
+        }]
+    },
+    {
+      description: 'The second meme coin on Injective.',
+      denom_units: [{
+          denom: 'ibc/45A3C86105A9810DD05AC71A5ADAA7F68FFD8662A08E5205C957657818CD8BB7',
+          exponent: 0,
+          aliases: ['inj1sudjgsyhufqu95yp7rqad3g78ws8g6htf32h88']
+        }, {
+          denom: 'NINPO',
+          exponent: 6
+        }],
+      base: 'ibc/45A3C86105A9810DD05AC71A5ADAA7F68FFD8662A08E5205C957657818CD8BB7',
+      name: 'Ninpo',
+      display: 'NINPO',
+      symbol: 'NINPO',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninpo.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninpo.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-490',
+            base_denom: 'inj1sudjgsyhufqu95yp7rqad3g78ws8g6htf32h88',
+            chain_name: 'injective'
+          },
+          chain: {
+            channel_id: 'channel-5320'
+          }
+        }]
+    },
+    {
+      description: 'JUDO is a very futuristic meme token.',
+      denom_units: [{
+          denom: 'ibc/D33F2CB8DD715DEB751017ABE6A79EEE9B35DD37867F4C479A9FE8F0C8EF0954',
+          exponent: 0,
+          aliases: ['inj16ukv8g2jcmml7gykxn5ws8ykhxjkugl4zhft5h']
+        }, {
+          denom: 'JUDO',
+          exponent: 6
+        }],
+      base: 'ibc/D33F2CB8DD715DEB751017ABE6A79EEE9B35DD37867F4C479A9FE8F0C8EF0954',
+      name: 'Judo',
+      display: 'JUDO',
+      symbol: 'JUDO',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/judo.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/judo.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-490',
+            base_denom: 'inj16ukv8g2jcmml7gykxn5ws8ykhxjkugl4zhft5h',
+            chain_name: 'injective'
+          },
+          chain: {
+            channel_id: 'channel-5320'
+          }
+        }]
+    },
+    {
+      description: 'A receipt token for lent INJ issued by the Neptune Protocol.',
+      denom_units: [{
+          denom: 'ibc/2F6D2D38330DC66D14AE37D6F2C4BBD335D20B2824CB3938522858BC12B4F870',
+          exponent: 0,
+          aliases: ['inj1rmzufd7h09sqfrre5dtvu5d09ta7c0t4jzkr2f']
+        }, {
+          denom: 'nINJ',
+          exponent: 18
+        }],
+      base: 'ibc/2F6D2D38330DC66D14AE37D6F2C4BBD335D20B2824CB3938522858BC12B4F870',
+      name: 'Neptune Receipt INJ',
+      display: 'nINJ',
+      symbol: 'nINJ',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninj.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-490',
+            base_denom: 'inj1rmzufd7h09sqfrre5dtvu5d09ta7c0t4jzkr2f',
+            chain_name: 'injective'
+          },
+          chain: {
+            channel_id: 'channel-5320'
+          }
+        }]
+    },
+    {
+      description: 'A receipt token for lent ATOM issued by the Neptune Protocol.',
+      denom_units: [{
+          denom: 'ibc/FA0104CBF6F2F837C57BE082957C1350819A709215630188A94B3CD1CD780A6B',
+          exponent: 0,
+          aliases: ['inj16jf4qkcarp3lan4wl2qkrelf4kduvvujwg0780']
+        }, {
+          denom: 'nATOM',
+          exponent: 6
+        }],
+      base: 'ibc/FA0104CBF6F2F837C57BE082957C1350819A709215630188A94B3CD1CD780A6B',
+      name: 'Neptune Receipt ATOM',
+      display: 'nATOM',
+      symbol: 'nATOM',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/natom.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-490',
+            base_denom: 'inj16jf4qkcarp3lan4wl2qkrelf4kduvvujwg0780',
+            chain_name: 'injective'
+          },
+          chain: {
+            channel_id: 'channel-5320'
+          }
+        }]
+    },
+    {
+      description: 'A receipt token for lent WETH issued by the Neptune Protocol.',
+      denom_units: [{
+          denom: 'ibc/DF71D6A7897C5E30DB2C53E13D797AD6399B12CDD1443035B458FB4ABA922111',
+          exponent: 0,
+          aliases: ['inj1kehk5nvreklhylx22p3x0yjydfsz9fv3fvg5xt']
+        }, {
+          denom: 'nWETH',
+          exponent: 18
+        }],
+      base: 'ibc/DF71D6A7897C5E30DB2C53E13D797AD6399B12CDD1443035B458FB4ABA922111',
+      name: 'Neptune Receipt WETH',
+      display: 'nWETH',
+      symbol: 'nWETH',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nweth.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-490',
+            base_denom: 'inj1kehk5nvreklhylx22p3x0yjydfsz9fv3fvg5xt',
+            chain_name: 'injective'
+          },
+          chain: {
+            channel_id: 'channel-5320'
+          }
+        }]
+    },
+    {
+      description: 'A receipt token for lent USDT issued by the Neptune Protocol.',
+      denom_units: [{
+          denom: 'ibc/57F5255C04291563795AE43F70079CDFFFEDB241EE59058572B192FE39DEC2DC',
+          exponent: 0,
+          aliases: ['inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s']
+        }, {
+          denom: 'nUSDT',
+          exponent: 6
+        }],
+      base: 'ibc/57F5255C04291563795AE43F70079CDFFFEDB241EE59058572B192FE39DEC2DC',
+      name: 'Neptune Receipt USDT',
+      display: 'nUSDT',
+      symbol: 'nUSDT',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nusdt.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-490',
+            base_denom: 'inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s',
+            chain_name: 'injective'
+          },
+          chain: {
+            channel_id: 'channel-5320'
+          }
+        }]
+    },
+    {
+      description: 'A receipt token for lent TIA issued by the Neptune Protocol.',
+      denom_units: [{
+          denom: 'ibc/89A9A64FF608457B32D38EF97AE09F42E61EBA95FEBE81F018E563C1D7EFF4DD',
+          exponent: 0,
+          aliases: ['inj1fzquxxxam59z6fzewy2hvvreeh3m04x83zg4vv']
+        }, {
+          denom: 'nTIA',
+          exponent: 6
+        }],
+      base: 'ibc/89A9A64FF608457B32D38EF97AE09F42E61EBA95FEBE81F018E563C1D7EFF4DD',
+      name: 'Neptune Receipt TIA',
+      display: 'nTIA',
+      symbol: 'nTIA',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ntia.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-490',
+            base_denom: 'inj1fzquxxxam59z6fzewy2hvvreeh3m04x83zg4vv',
+            chain_name: 'injective'
+          },
+          chain: {
+            channel_id: 'channel-5320'
+          }
+        }]
+    },
+    {
       description: 'Neutron is a smart contract blockchain within the Cosmos ecosystem, leveraging the Cosmos Hub\'s security to provide cross-chain DeFi applications.',
       denom_units: [{
           denom: 'ibc/1F8CB23E10369EF0A5E88407E13D5FB20F74EED779BD8B3AE24973B12047EF96',
@@ -646,6 +905,265 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-5318'
+          }
+        }]
+    },
+    {
+      description: 'Injective is a decentralized exchange protocol that enables fast, secure, and fully decentralized trading of derivatives, futures, and spot markets.',
+      denom_units: [{
+          denom: 'ibc/7052F57BB1FD5131AD4C61F115C9900FB84A3FB5ED4D16DC3DD1802A83914AD4',
+          exponent: 0,
+          aliases: ['inj']
+        }, {
+          denom: 'INJ',
+          exponent: 18
+        }],
+      base: 'ibc/7052F57BB1FD5131AD4C61F115C9900FB84A3FB5ED4D16DC3DD1802A83914AD4',
+      name: 'Injective',
+      display: 'INJ',
+      symbol: 'INJ',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
+      },
+      coingecko_id: 'injective-protocol',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
+        }],
+      socials: {
+        website: 'https://injective.com/',
+        x: 'https://x.com/Injective',
+        telegram: 'https://t.me/joininjective',
+        discord: 'https://discord.com/invite/injective',
+        reddit: 'https://www.reddit.com/r/injective/'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-490',
+            base_denom: 'inj',
+            chain_name: 'injective'
+          },
+          chain: {
+            channel_id: 'channel-5320'
+          }
+        }]
+    },
+    {
+      description: 'The second meme coin on Injective.',
+      denom_units: [{
+          denom: 'ibc/45A3C86105A9810DD05AC71A5ADAA7F68FFD8662A08E5205C957657818CD8BB7',
+          exponent: 0,
+          aliases: ['inj1sudjgsyhufqu95yp7rqad3g78ws8g6htf32h88']
+        }, {
+          denom: 'NINPO',
+          exponent: 6
+        }],
+      base: 'ibc/45A3C86105A9810DD05AC71A5ADAA7F68FFD8662A08E5205C957657818CD8BB7',
+      name: 'Ninpo',
+      display: 'NINPO',
+      symbol: 'NINPO',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninpo.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninpo.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-490',
+            base_denom: 'inj1sudjgsyhufqu95yp7rqad3g78ws8g6htf32h88',
+            chain_name: 'injective'
+          },
+          chain: {
+            channel_id: 'channel-5320'
+          }
+        }]
+    },
+    {
+      description: 'JUDO is a very futuristic meme token.',
+      denom_units: [{
+          denom: 'ibc/D33F2CB8DD715DEB751017ABE6A79EEE9B35DD37867F4C479A9FE8F0C8EF0954',
+          exponent: 0,
+          aliases: ['inj16ukv8g2jcmml7gykxn5ws8ykhxjkugl4zhft5h']
+        }, {
+          denom: 'JUDO',
+          exponent: 6
+        }],
+      base: 'ibc/D33F2CB8DD715DEB751017ABE6A79EEE9B35DD37867F4C479A9FE8F0C8EF0954',
+      name: 'Judo',
+      display: 'JUDO',
+      symbol: 'JUDO',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/judo.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/judo.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-490',
+            base_denom: 'inj16ukv8g2jcmml7gykxn5ws8ykhxjkugl4zhft5h',
+            chain_name: 'injective'
+          },
+          chain: {
+            channel_id: 'channel-5320'
+          }
+        }]
+    },
+    {
+      description: 'A receipt token for lent INJ issued by the Neptune Protocol.',
+      denom_units: [{
+          denom: 'ibc/2F6D2D38330DC66D14AE37D6F2C4BBD335D20B2824CB3938522858BC12B4F870',
+          exponent: 0,
+          aliases: ['inj1rmzufd7h09sqfrre5dtvu5d09ta7c0t4jzkr2f']
+        }, {
+          denom: 'nINJ',
+          exponent: 18
+        }],
+      base: 'ibc/2F6D2D38330DC66D14AE37D6F2C4BBD335D20B2824CB3938522858BC12B4F870',
+      name: 'Neptune Receipt INJ',
+      display: 'nINJ',
+      symbol: 'nINJ',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninj.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-490',
+            base_denom: 'inj1rmzufd7h09sqfrre5dtvu5d09ta7c0t4jzkr2f',
+            chain_name: 'injective'
+          },
+          chain: {
+            channel_id: 'channel-5320'
+          }
+        }]
+    },
+    {
+      description: 'A receipt token for lent ATOM issued by the Neptune Protocol.',
+      denom_units: [{
+          denom: 'ibc/FA0104CBF6F2F837C57BE082957C1350819A709215630188A94B3CD1CD780A6B',
+          exponent: 0,
+          aliases: ['inj16jf4qkcarp3lan4wl2qkrelf4kduvvujwg0780']
+        }, {
+          denom: 'nATOM',
+          exponent: 6
+        }],
+      base: 'ibc/FA0104CBF6F2F837C57BE082957C1350819A709215630188A94B3CD1CD780A6B',
+      name: 'Neptune Receipt ATOM',
+      display: 'nATOM',
+      symbol: 'nATOM',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/natom.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-490',
+            base_denom: 'inj16jf4qkcarp3lan4wl2qkrelf4kduvvujwg0780',
+            chain_name: 'injective'
+          },
+          chain: {
+            channel_id: 'channel-5320'
+          }
+        }]
+    },
+    {
+      description: 'A receipt token for lent WETH issued by the Neptune Protocol.',
+      denom_units: [{
+          denom: 'ibc/DF71D6A7897C5E30DB2C53E13D797AD6399B12CDD1443035B458FB4ABA922111',
+          exponent: 0,
+          aliases: ['inj1kehk5nvreklhylx22p3x0yjydfsz9fv3fvg5xt']
+        }, {
+          denom: 'nWETH',
+          exponent: 18
+        }],
+      base: 'ibc/DF71D6A7897C5E30DB2C53E13D797AD6399B12CDD1443035B458FB4ABA922111',
+      name: 'Neptune Receipt WETH',
+      display: 'nWETH',
+      symbol: 'nWETH',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nweth.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-490',
+            base_denom: 'inj1kehk5nvreklhylx22p3x0yjydfsz9fv3fvg5xt',
+            chain_name: 'injective'
+          },
+          chain: {
+            channel_id: 'channel-5320'
+          }
+        }]
+    },
+    {
+      description: 'A receipt token for lent USDT issued by the Neptune Protocol.',
+      denom_units: [{
+          denom: 'ibc/57F5255C04291563795AE43F70079CDFFFEDB241EE59058572B192FE39DEC2DC',
+          exponent: 0,
+          aliases: ['inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s']
+        }, {
+          denom: 'nUSDT',
+          exponent: 6
+        }],
+      base: 'ibc/57F5255C04291563795AE43F70079CDFFFEDB241EE59058572B192FE39DEC2DC',
+      name: 'Neptune Receipt USDT',
+      display: 'nUSDT',
+      symbol: 'nUSDT',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/nusdt.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-490',
+            base_denom: 'inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s',
+            chain_name: 'injective'
+          },
+          chain: {
+            channel_id: 'channel-5320'
+          }
+        }]
+    },
+    {
+      description: 'A receipt token for lent TIA issued by the Neptune Protocol.',
+      denom_units: [{
+          denom: 'ibc/89A9A64FF608457B32D38EF97AE09F42E61EBA95FEBE81F018E563C1D7EFF4DD',
+          exponent: 0,
+          aliases: ['inj1fzquxxxam59z6fzewy2hvvreeh3m04x83zg4vv']
+        }, {
+          denom: 'nTIA',
+          exponent: 6
+        }],
+      base: 'ibc/89A9A64FF608457B32D38EF97AE09F42E61EBA95FEBE81F018E563C1D7EFF4DD',
+      name: 'Neptune Receipt TIA',
+      display: 'nTIA',
+      symbol: 'nTIA',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ntia.png'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-490',
+            base_denom: 'inj1fzquxxxam59z6fzewy2hvvreeh3m04x83zg4vv',
+            chain_name: 'injective'
+          },
+          chain: {
+            channel_id: 'channel-5320'
           }
         }]
     },

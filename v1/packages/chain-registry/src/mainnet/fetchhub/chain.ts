@@ -275,6 +275,12 @@ const info: Chain = {
       url: 'https://asi.valopers.com/',
       tx_page: 'https://asi.valopers.com/transactions/${txHash}',
       account_page: 'https://asi.valopers.com/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/fetchhub/mainnet',
+      tx_page: 'https://moon-runners.net/fetchhub/mainnet/finder?search=${txHash}',
+      account_page: 'https://moon-runners.net/fetchhub/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

@@ -246,6 +246,12 @@ const info: Chain = {
       url: 'https://terra.valopers.com/',
       tx_page: 'https://terra.valopers.com/transactions/${txHash}',
       account_page: 'https://terra.valopers.com/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/terra2/mainnet',
+      tx_page: 'https://moon-runners.net/terra2/mainnet/finder?search=${txHash}',
+      account_page: 'https://moon-runners.net/terra2/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

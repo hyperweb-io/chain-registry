@@ -20,46 +20,20 @@ const info: Chain = {
       }]
   },
   apis: {
-    rpc: [
-      {
+    rpc: [{
         address: 'https://rpc.dungeongames.io',
         provider: 'Dungeon Games'
-      },
-      {
-        address: 'https://rpc-dungeon-1.seraphim.zone',
-        provider: 'Seraphim'
-      },
-      {
-        address: 'https://dungeon_mainnet_rpc.chain.whenmoonwhenlambo.money',
-        provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
-      },
-      {
+      }, {
         address: 'https://rpc.dungeon.chaintools.tech',
         provider: 'ChainTools'
-      }
-    ],
-    rest: [
-      {
+      }],
+    rest: [{
         address: 'https://api.dungeongames.io',
         provider: 'Dungeon Games'
-      },
-      {
-        address: 'https://api-dungeon-1.seraphim.zone',
-        provider: 'Seraphim'
-      },
-      {
-        address: 'https://api-archive-dungeonchain.apeironnodes.com',
-        provider: 'ApeironNodes (Archive)'
-      },
-      {
-        address: 'https://dungeon_mainnet_api.chain.whenmoonwhenlambo.money',
-        provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
-      },
-      {
+      }, {
         address: 'https://api.dungeon.chaintools.tech',
         provider: 'ChainTools'
-      }
-    ],
+      }],
     grpc: [{
         address: 'grpc.dungeon.chaintools.tech:443',
         provider: 'ChainTools'

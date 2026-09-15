@@ -189,6 +189,12 @@ const info: Chain = {
       url: 'https://validatorinfo.com/networks/union/overview',
       validator_page: 'https://validatorinfo.com/networks/union/validators',
       proposal_page: 'https://validatorinfo.com/networks/union/governance'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/union/mainnet',
+      tx_page: 'https://moon-runners.net/union/mainnet/finder?search=${txHash}',
+      account_page: 'https://moon-runners.net/union/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

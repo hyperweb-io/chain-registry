@@ -341,6 +341,12 @@ const info: Chain = {
       url: 'https://persistence.valopers.com/',
       tx_page: 'https://persistence.valopers.com/transactions/${txHash}',
       account_page: 'https://persistence.valopers.com/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/persistence/mainnet',
+      tx_page: 'https://moon-runners.net/persistence/mainnet/finder?search=${txHash}',
+      account_page: 'https://moon-runners.net/persistence/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{
