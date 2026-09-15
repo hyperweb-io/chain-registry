@@ -249,6 +249,12 @@ const info: Chain = {
       url: 'https://ezstaking.app/coreum',
       txPage: 'https://ezstaking.app/coreum/txs/${txHash}',
       accountPage: 'https://ezstaking.app/coreum/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/coreum/mainnet',
+      txPage: 'https://moon-runners.net/coreum/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/coreum/mainnet/finder?search=${accountAddress}'
     }
   ],
   keywords: [

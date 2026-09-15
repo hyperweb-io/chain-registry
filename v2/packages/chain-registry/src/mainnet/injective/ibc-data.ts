@@ -282,6 +282,37 @@ const info: IBCData[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain1: {
+      chainName: 'dungeon',
+      chainId: 'dungeon-1',
+      clientId: '07-tendermint-40',
+      connectionId: 'connection-8641'
+    },
+    chain2: {
+      chainName: 'injective',
+      chainId: 'injective-1',
+      clientId: '07-tendermint-350',
+      connectionId: 'connection-349'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-5320',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-490',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
       chainName: 'dydx',
       chainId: 'dydx-mainnet-1',
       clientId: '07-tendermint-26',

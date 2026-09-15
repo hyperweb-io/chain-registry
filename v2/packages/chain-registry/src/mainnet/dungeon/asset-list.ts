@@ -246,6 +246,49 @@ const info: AssetList = {
       coingeckoId: 'usd-coin'
     },
     {
+      description: 'USD Coin issued natively on Injective by Circle',
+      denomUnits: [{
+          denom: 'ibc/873B9E8BAA6E423691F506F6F9AC3151AA390F67D2B655A02EF406175F04FC4F',
+          exponent: 0
+        }, {
+          denom: 'usdc',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/873B9E8BAA6E423691F506F6F9AC3151AA390F67D2B655A02EF406175F04FC4F',
+      name: 'Injective USDC',
+      display: 'usdc',
+      symbol: 'USDC.inj',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'injective',
+            baseDenom: 'erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a',
+            channelId: 'channel-490'
+          },
+          chain: {
+            channelId: 'channel-5320',
+            path: 'transfer/channel-5320/erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'injective',
+            baseDenom: 'erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+      },
+      coingeckoId: 'usd-coin'
+    },
+    {
       description: 'Passage (PASG) transferred to Dungeon Chain over IBC.',
       denomUnits: [{
           denom: 'ibc/73E558C82602DE116482AD0EFC351A375E7FF7048ED6A2C45F86A0BFE670CD5F',

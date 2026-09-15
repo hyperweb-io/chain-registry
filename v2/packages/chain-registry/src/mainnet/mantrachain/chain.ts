@@ -144,6 +144,12 @@ const info: Chain = {
       url: 'https://explorer.stavr.tech/Mantra-Mainnet',
       txPage: 'https://explorer.stavr.tech/Mantra-Mainnet/transaction/${txHash}',
       accountPage: 'https://explorer.stavr.tech/Mantra-Mainnet/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/mantra/mainnet',
+      txPage: 'https://moon-runners.net/mantra/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/mantra/mainnet/finder?search=${accountAddress}'
     }
   ],
   keywords: [

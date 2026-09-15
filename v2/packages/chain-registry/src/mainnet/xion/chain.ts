@@ -188,6 +188,12 @@ const info: Chain = {
       url: 'https://xion.explorers.guru',
       txPage: 'https://xion.explorers.guru/transactions/${txHash}',
       accountPage: 'https://xion.explorers.guru//account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/xion/mainnet',
+      txPage: 'https://moon-runners.net/xion/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/xion/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

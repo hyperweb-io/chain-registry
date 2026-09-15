@@ -98,13 +98,26 @@ const info: Chain = {
         provider: 'dnsarz'
       }
     ],
-    grpc: [{
+    grpc: [
+      {
         address: 'grpc-epix.vinjan-inc.com:39990',
         provider: 'Vinjan.Inc'
-      }],
+      },
+      {
+        address: 'grpc-epix.dnsarz.net:443',
+        provider: 'dnsarz'
+      },
+      {
+        address: 'grpc-epix.onenov.xyz:443',
+        provider: 'OneNov'
+      }
+    ],
     evmHttpJsonrpc: [{
         address: 'https://evmrpc.epix.zone/',
         provider: 'Epix'
+      }, {
+        address: 'https://evm-epix.onenov.xyz',
+        provider: 'OneNov'
       }]
   },
   explorers: [

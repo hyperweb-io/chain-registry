@@ -248,6 +248,12 @@ const info: Chain = {
       url: 'https://mainnet.itrocket.net/oraichain',
       txPage: 'https://mainnet.itrocket.net/oraichain/tx/${txHash}',
       accountPage: 'https://mainnet.itrocket.net/oraichain/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/oraichain/mainnet',
+      txPage: 'https://moon-runners.net/oraichain/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/oraichain/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

@@ -158,6 +158,12 @@ const info: Chain = {
       url: 'https://babylon.valopers.com/',
       txPage: 'https://babylon.valopers.com/transactions/${txHash}',
       accountPage: 'https://babylon.valopers.com/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/babylon/mainnet',
+      txPage: 'https://moon-runners.net/babylon/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/babylon/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

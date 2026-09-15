@@ -173,6 +173,12 @@ const info: Chain = {
       url: 'https://explorer.kjnodes.com/nolus',
       txPage: 'https://explorer.kjnodes.com/nolus/tx/${txHash}',
       accountPage: 'https://explorer.kjnodes.com/nolus/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/nolus/mainnet',
+      txPage: 'https://moon-runners.net/nolus/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/nolus/mainnet/finder?search=${accountAddress}'
     }
   ],
   keywords: ['mainnet'],

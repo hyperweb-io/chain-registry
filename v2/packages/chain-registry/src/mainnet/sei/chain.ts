@@ -214,6 +214,12 @@ const info: Chain = {
       url: 'https://mainnet.whispernode.com/sei',
       txPage: 'https://mainnet.whispernode.com/sei/tx/${txHash}',
       accountPage: 'https://mainnet.whispernode.com/sei/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/sei/mainnet',
+      txPage: 'https://moon-runners.net/sei/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/sei/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

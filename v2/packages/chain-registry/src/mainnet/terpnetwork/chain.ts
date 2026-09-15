@@ -9,22 +9,36 @@ const info: Chain = {
   chainId: 'morocco-1',
   bech32Prefix: 'terp',
   slip44: 118,
-  daemonName: 'terp',
-  nodeHome: '$HOME/.terp',
+  daemonName: 'terpd',
+  nodeHome: '$HOME/.terpd',
   codebase: {
     gitRepo: 'https://github.com/terpnetwork/terp-core.git',
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/terpnetwork/networks/main/mainnet/morocco-1/genesis.json'
     },
-    recommendedVersion: 'v5.0.3',
-    compatibleVersions: ['v5.0.2', 'v5.0.3'],
+    recommendedVersion: 'v6.2.0',
+    compatibleVersions: ['v6.2.0'],
     consensus: {
       type: 'cometbft',
-      version: '0.38.21'
+      version: '0.40.0'
+    },
+    sdk: {
+      type: 'cosmos',
+      version: '0.55.0'
+    },
+    ibc: {
+      type: 'go',
+      version: 'v11.2.0'
+    },
+    cosmwasm: {
+      version: '0.70.3',
+      enabled: true,
+      path: '$HOME/.terpd/data/wasm'
     },
     binaries: {
-      "linux/amd64": 'https://github.com/terpnetwork/terp-core/releases/download/v5.0.3/terpd-linux-amd64',
-      "linux/arm64": 'https://github.com/terpnetwork/terp-core/releases/download/v5.0.3/terpd-linux-arm64'
+      "linux/amd64": 'https://s3.terp.network/releases/terp-core/v6.2.0/terpd-6.2.0-linux-amd64.tar.gz?checksum=sha256:38c15e1f54bc8234d07883c05e665ded68fdc0434c1c9db08de796d15ef491f6',
+      "linux/arm64": 'https://s3.terp.network/releases/terp-core/v6.2.0/terpd-6.2.0-linux-arm64.tar.gz?checksum=sha256:148eedb6e8f1dd97e2436bc1b36dfebdbc915d23c14e6bad483924b0a4052c3d',
+      "darwin/arm64": 'https://s3.terp.network/releases/terp-core/v6.2.0/terpd-6.2.0-darwin-arm64.tar.gz?checksum=sha256:f6953962782df3178ef99852054144106622df6763bbbf3d72679f30aace8de0'
     }
   },
   fees: {

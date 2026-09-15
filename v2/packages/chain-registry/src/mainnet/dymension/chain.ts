@@ -484,6 +484,12 @@ const info: Chain = {
       url: 'https://validatorinfo.com/networks/dymension/overview',
       validatorPage: 'https://validatorinfo.com/networks/dymension/validators',
       proposalPage: 'https://validatorinfo.com/networks/dymension/governance'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/dymension/mainnet',
+      txPage: 'https://moon-runners.net/dymension/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/dymension/mainnet/finder?search=${accountAddress}'
     }
   ],
   snapshots: [{

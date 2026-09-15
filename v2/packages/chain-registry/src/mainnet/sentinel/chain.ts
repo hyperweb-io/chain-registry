@@ -289,6 +289,12 @@ const info: Chain = {
       kind: 'DNL Explorer',
       url: 'https://explorer.declab.pro/Sentinel',
       txPage: 'https://explorer.declab.pro/Sentinel/tx/${txHash}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/sentinel/mainnet',
+      txPage: 'https://moon-runners.net/sentinel/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/sentinel/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

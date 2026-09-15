@@ -35,17 +35,17 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/dydxprotocol/v4-chain/',
-    recommendedVersion: 'protocol/v9.6.1',
-    compatibleVersions: ['protocol/v9.6.1'],
+    recommendedVersion: 'protocol/v9.7.0',
+    compatibleVersions: ['protocol/v9.7.0'],
     binaries: {
-      "linux/amd64": 'https://github.com/dydxprotocol/v4-chain/releases/download/protocol%2Fv9.6.1/dydxprotocold-v9.6.1-linux-amd64.tar.gz',
-      "linux/arm64": 'https://github.com/dydxprotocol/v4-chain/releases/download/protocol%2Fv9.6.1/dydxprotocold-v9.6.1-linux-arm64.tar.gz'
+      "linux/amd64": 'https://github.com/dydxprotocol/v4-chain/releases/download/protocol%2Fv9.7.0/dydxprotocold-v9.7.0-linux-amd64.tar.gz',
+      "linux/arm64": 'https://github.com/dydxprotocol/v4-chain/releases/download/protocol%2Fv9.7.0/dydxprotocold-v9.7.0-linux-arm64.tar.gz'
     },
     consensus: {
       type: 'cometbft',
       version: 'v0.38.15',
       repo: 'https://github.com/dydxprotocol/cometbft',
-      tag: 'v0.38.6-0.20260126154011-467083c7ba0b'
+      tag: 'v0.38.6-0.20260428184537-904204b11c9e'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/dydxopsdao/networks/main/dydx-mainnet-1/genesis.json'
@@ -54,7 +54,7 @@ const info: Chain = {
       type: 'cosmos',
       repo: 'https://github.com/dydxprotocol/cosmos-sdk',
       version: 'v0.50.11',
-      tag: 'v0.50.6-0.20260126162345-69ba38d4ae69'
+      tag: 'v0.50.6-0.20260428191449-a212821dc2c3'
     },
     ibc: {
       type: 'go',
@@ -202,6 +202,12 @@ const info: Chain = {
       url: 'https://dydx.valopers.com/',
       txPage: 'https://dydx.valopers.com/transactions/${txHash}',
       accountPage: 'https://dydx.valopers.com/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/dydx/mainnet',
+      txPage: 'https://moon-runners.net/dydx/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/dydx/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{

@@ -244,6 +244,12 @@ const info: Chain = {
       url: 'https://mainnet.whispernode.com/cheqd',
       txPage: 'https://mainnet.whispernode.com/cheqd/tx/${txHash}',
       accountPage: 'https://mainnet.whispernode.com/cheqd/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/cheqd/mainnet',
+      txPage: 'https://moon-runners.net/cheqd/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/cheqd/mainnet/finder?search=${accountAddress}'
     }
   ],
   logoURIs: {

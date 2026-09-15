@@ -185,6 +185,12 @@ const info: Chain = {
       url: 'https://kava.valopers.com/',
       txPage: 'https://kava.valopers.com/transactions/${txHash}',
       accountPage: 'https://kava.valopers.com/account/${accountAddress}'
+    },
+    {
+      kind: 'moon-runners',
+      url: 'https://moon-runners.net/kava/mainnet',
+      txPage: 'https://moon-runners.net/kava/mainnet/finder?search=${txHash}',
+      accountPage: 'https://moon-runners.net/kava/mainnet/finder?search=${accountAddress}'
     }
   ],
   images: [{
