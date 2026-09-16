@@ -32,6 +32,7 @@ import * as _bitbadges from './bitbadges';
 import * as _bitcanna from './bitcanna';
 import * as _bitsong from './bitsong';
 import * as _bitway from './bitway';
+import * as _blg24 from './blg24';
 import * as _blockx from './blockx';
 import * as _bluechip from './bluechip';
 import * as _bluzelle from './bluzelle';
@@ -266,6 +267,7 @@ const chains: Chain[] = [
   _bitcanna.chain,
   _bitsong.chain,
   _bitway.chain,
+  _blg24.chain,
   _blockx.chain,
   _bluechip.chain,
   _bluzelle.chain,

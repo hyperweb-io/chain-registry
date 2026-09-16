@@ -90,6 +90,10 @@ const info: Chain = {
       {
         address: 'https://akash-rpc.polkachu.com:443',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://akash-mainnet-rpc.crouton.digital',
+        provider: 'Crouton Digital'
       }
     ],
     rest: [
@@ -132,6 +136,10 @@ const info: Chain = {
       {
         address: 'https://akash.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://akash-mainnet-api.crouton.digital',
+        provider: 'Crouton Digital'
       }
     ],
     grpc: [
@@ -146,6 +154,10 @@ const info: Chain = {
       {
         address: 'akash-grpc.polkachu.com:12890',
         provider: 'Polkachu'
+      },
+      {
+        address: 'akash-mainnet-grpc.crouton.digital:12890',
+        provider: 'Crouton Digital'
       }
     ]
   },
@@ -211,6 +223,12 @@ const info: Chain = {
       url: 'https://moon-runners.net/akash/mainnet',
       txPage: 'https://moon-runners.net/akash/mainnet/finder?search=${txHash}',
       accountPage: 'https://moon-runners.net/akash/mainnet/finder?search=${accountAddress}'
+    },
+    {
+      kind: 'Crouton Digital',
+      url: 'https://explorer.crouton.digital/mainnets/akash/overview',
+      txPage: 'https://explorer.crouton.digital/mainnets/akash/transactions/${txHash}',
+      accountPage: 'https://explorer.crouton.digital/mainnets/akash/account/${accountAddress}'
     }
   ],
   images: [{
@@ -241,6 +259,12 @@ const info: Chain = {
       type: 'pruned',
       compression: 'zstd',
       provider: 'Kleomedes'
+    },
+    {
+      provider: 'Crouton Digital',
+      url: 'https://storage.crouton.digital/mainnet/akash/snapshots/akash_latest.tar.lz4',
+      type: 'pruned',
+      compression: 'lz4'
     }
   ]
 };

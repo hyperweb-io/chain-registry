@@ -316,6 +316,10 @@ const info: Chain = {
       {
         address: 'https://cosmos-api.polkachu.com',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://cosmoshub-rest.stakerhouse.com',
+        provider: 'StakerHouse'
       }
     ],
     grpc: [
