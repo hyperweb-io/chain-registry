@@ -112,13 +112,20 @@ const info: Chain = {
         provider: 'OneNov'
       }
     ],
-    "evm-http-jsonrpc": [{
+    "evm-http-jsonrpc": [
+      {
         address: 'https://evmrpc.epix.zone/',
         provider: 'Epix'
-      }, {
+      },
+      {
         address: 'https://evm-epix.onenov.xyz',
         provider: 'OneNov'
-      }]
+      },
+      {
+        address: 'https://evm-epix.vinjan-inc.com',
+        provider: 'Vinjan.inc'
+      }
+    ]
   },
   explorers: [
     {

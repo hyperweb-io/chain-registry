@@ -1,0 +1,57 @@
+import { Chain } from '@chain-registry/types';
+const info: Chain = {
+  $schema: '../chain.schema.json',
+  chain_name: 'blg24',
+  status: 'live',
+  website: 'https://gold24coin.com',
+  network_type: 'mainnet',
+  chain_type: 'cosmos',
+  pretty_name: 'BLG24',
+  chain_id: 'BLG24',
+  bech32_prefix: 'blg24',
+  daemon_name: 'blg24',
+  node_home: '$HOME/.blg24',
+  key_algos: ['secp256k1'],
+  slip44: 118,
+  fees: {
+    fee_tokens: [{
+        denom: 'ug24',
+        fixed_min_gas_price: 0.005,
+        low_gas_price: 0.005,
+        average_gas_price: 0.01,
+        high_gas_price: 0.02
+      }]
+  },
+  staking: {
+    staking_tokens: [{
+        denom: 'ug24'
+      }]
+  },
+  codebase: {
+    git_repo: 'https://github.com/VICTOR-1969/blg24',
+    recommended_version: 'v1.0.0',
+    compatible_versions: ['v1.0.0'],
+    genesis: {
+      genesis_url: 'https://node.gold24coin.com/genesis'
+    }
+  },
+  images: [{
+      png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/blg24/images/g24.png'
+    }],
+  apis: {
+    rpc: [{
+        address: 'https://node.gold24coin.com',
+        provider: 'BLG24'
+      }],
+    rest: [{
+        address: 'https://api.gold24coin.com',
+        provider: 'BLG24'
+      }]
+  },
+  explorers: [{
+      kind: 'blg24scan',
+      url: 'https://blg24scan.com',
+      block_page: 'https://blg24scan.com/block.html?h=${blockHeight}'
+    }]
+};
+export default info;
