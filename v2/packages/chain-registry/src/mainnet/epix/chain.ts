@@ -78,6 +78,14 @@ const info: Chain = {
       {
         address: 'https://rpc-epix.dnsarz.net:443',
         provider: 'dnsarz'
+      },
+      {
+        address: 'https://epix-rpc.linknode.org',
+        provider: 'AstroStake'
+      },
+      {
+        address: 'https://mainnet-epix-rpc.konsortech.xyz:443',
+        provider: 'KonsorTech'
       }
     ],
     rest: [
@@ -96,6 +104,14 @@ const info: Chain = {
       {
         address: 'https://api-epix.dnsarz.net',
         provider: 'dnsarz'
+      },
+      {
+        address: 'https://epix-api.linknode.org',
+        provider: 'AstroStake'
+      },
+      {
+        address: 'https://mainnet-epix-api.konsortech.xyz:443',
+        provider: 'KonsorTech'
       }
     ],
     grpc: [
@@ -110,6 +126,14 @@ const info: Chain = {
       {
         address: 'grpc-epix.onenov.xyz:443',
         provider: 'OneNov'
+      },
+      {
+        address: 'epix-grpc.linknode.org:443',
+        provider: 'AstroStake'
+      },
+      {
+        address: 'mainnet-epix.konsortech.xyz:37090',
+        provider: 'KonsorTech'
       }
     ],
     evmHttpJsonrpc: [
@@ -124,6 +148,14 @@ const info: Chain = {
       {
         address: 'https://evm-epix.vinjan-inc.com',
         provider: 'Vinjan.inc'
+      },
+      {
+        address: 'https://epix-evmrpc.linknode.org',
+        provider: 'AstroStake'
+      },
+      {
+        address: 'https://mainnet-epix-evm.konsortech.xyz/',
+        provider: 'KonsorTech'
       }
     ]
   },
@@ -148,6 +180,19 @@ const info: Chain = {
       txPage: 'https://scan.epix.zone/tx/${txHash}',
       accountPage: 'https://scan.epix.zone/address/${accountAddress}',
       blockPage: 'https://scan.epix.zone/block/${blockHeight}'
+    },
+    {
+      kind: 'AstroStake',
+      url: 'https://stake.astrostake.xyz',
+      txPage: 'https://stake.astrostake.xyz/epix/tx/${txHash}',
+      accountPage: 'https://stake.astrostake.xyz/epix/address/${accountAddress}',
+      blockPage: 'https://stake.astrostake.xyz/epix/block/${blockHeight}'
+    },
+    {
+      kind: 'KonsorTech',
+      url: 'https://explorer.konsortech.xyz/epix/',
+      txPage: 'https://explorer.konsortech.xyz/epix/tx/${txHash}',
+      accountPage: 'https://explorer.konsortech.xyz/epix/account/${accountAddress}'
     }
   ],
   images: [{
