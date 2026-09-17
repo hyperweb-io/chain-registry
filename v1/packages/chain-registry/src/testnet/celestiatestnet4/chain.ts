@@ -80,6 +80,10 @@ const info: Chain = {
       {
         address: 'https://mocha5.celestia.rpc.cumulo.me',
         provider: 'Cumulo'
+      },
+      {
+        address: 'https://celestia-testnet-rpc.crouton.digital',
+        provider: 'Crouton Digital'
       }
     ],
     rest: [
@@ -102,6 +106,10 @@ const info: Chain = {
       {
         address: 'https://mocha5.celestia.api.cumulo.me',
         provider: 'Cumulo'
+      },
+      {
+        address: 'https://celestia-testnet-api.crouton.digital',
+        provider: 'Crouton Digital'
       }
     ],
     grpc: [
@@ -124,6 +132,10 @@ const info: Chain = {
       {
         address: 'https://mocha5.celestia.grpc.cumulo.me',
         provider: 'Cumulo'
+      },
+      {
+        address: 'celestia-testnet-grpc.crouton.digital:28690',
+        provider: 'Crouton Digital'
       }
     ],
     wss: [{
@@ -131,15 +143,30 @@ const info: Chain = {
         provider: 'Cumulo'
       }]
   },
-  explorers: [{
+  snapshots: [{
+      provider: 'Crouton Digital',
+      url: 'https://storage.crouton.digital/testnet/celestia/snapshots/celestia_latest.tar.lz4',
+      type: 'pruned',
+      compression: 'lz4'
+    }],
+  explorers: [
+    {
       kind: 'Valopers',
       url: 'https://testnet.celestia.valopers.com/',
       tx_page: 'https://testnet.celestia.valopers.com/transactions/${txHash}',
       account_page: 'https://testnet.celestia.valopers.com/account/${accountAddress}'
-    }, {
+    },
+    {
       kind: 'NodeStake Explorer',
       url: 'https://explorer.nodestake.org/celestia-testnet',
       tx_page: 'https://explorer.nodestake.org/celestia-testnet/tx/${txHash}'
-    }]
+    },
+    {
+      kind: 'Crouton Digital',
+      url: 'https://explorer.crouton.digital/testnets/celestia/overview',
+      tx_page: 'https://explorer.crouton.digital/testnets/celestia/transactions/${txHash}',
+      account_page: 'https://explorer.crouton.digital/testnets/celestia/account/${accountAddress}'
+    }
+  ]
 };
 export default info;
