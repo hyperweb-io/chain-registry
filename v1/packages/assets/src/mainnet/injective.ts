@@ -3,6 +3,44 @@ const assets: AssetList = {
   chain_name: 'injective',
   assets: [
     {
+      description: 'The native token of Penumbra.',
+      denom_units: [{
+          denom: 'ibc/08FACC2692F662DF2A90454B4CE99273A56898359E6AAE4E0D03CA6E50F87115',
+          exponent: 0,
+          aliases: ['upenumbra']
+        }, {
+          denom: 'penumbra',
+          exponent: 6
+        }],
+      type_asset: 'unknown',
+      base: 'ibc/08FACC2692F662DF2A90454B4CE99273A56898359E6AAE4E0D03CA6E50F87115',
+      display: 'penumbra',
+      symbol: 'UM',
+      name: 'Penumbra',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/penumbra/images/um.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/penumbra/images/um.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://penumbra.zone/',
+        x: 'https://x.com/penumbrazone'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-18',
+            base_denom: 'upenumbra',
+            chain_name: 'penumbra'
+          },
+          chain: {
+            channel_id: 'channel-494'
+          }
+        }]
+    },
+    {
       description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
       denom_units: [{
           denom: 'ibc/367BE9C593E869E8C462857902A94BC796D931E9138548DF858D6624F253F9F0',
@@ -2347,6 +2385,44 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of Penumbra.',
+      denom_units: [{
+          denom: 'ibc/08FACC2692F662DF2A90454B4CE99273A56898359E6AAE4E0D03CA6E50F87115',
+          exponent: 0,
+          aliases: ['upenumbra']
+        }, {
+          denom: 'penumbra',
+          exponent: 6
+        }],
+      type_asset: 'unknown',
+      base: 'ibc/08FACC2692F662DF2A90454B4CE99273A56898359E6AAE4E0D03CA6E50F87115',
+      display: 'penumbra',
+      symbol: 'UM',
+      name: 'Penumbra',
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/penumbra/images/um.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/penumbra/images/um.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://penumbra.zone/',
+        x: 'https://x.com/penumbrazone'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-18',
+            base_denom: 'upenumbra',
+            chain_name: 'penumbra'
+          },
+          chain: {
+            channel_id: 'channel-494'
+          }
+        }]
+    },
+    {
       description: 'Persistence One is building a Bitcoin Cross-chain Swaps solution, enabling fast, zero-slippage secure swaps across Bitcoin Layer 2s.',
       denom_units: [{
           denom: 'ibc/B786E7CBBF026F6F15A8DA248E0F18C62A0F7A70CB2DABD9239398C8B5150ABB',
@@ -2424,6 +2500,41 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-394'
+          }
+        }]
+    },
+    {
+      description: 'The native staking, governance, and fee token of Safrochain, a mobile-first mobile-money-powered blockchain connecting mobile wallets to on-chain finance and interoperable digital rails.',
+      denom_units: [{
+          denom: 'ibc/13E53BB4CF6DE586FF4CACFEEA67A05863CA8387996BD2B674DADE8BFDE1D1C9',
+          exponent: 0,
+          aliases: ['usaf']
+        }, {
+          denom: 'saf',
+          exponent: 6
+        }],
+      base: 'ibc/13E53BB4CF6DE586FF4CACFEEA67A05863CA8387996BD2B674DADE8BFDE1D1C9',
+      name: 'Safrochain',
+      display: 'saf',
+      symbol: 'SAF',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'usaf',
+            chain_name: 'safrochain'
+          },
+          chain: {
+            channel_id: 'channel-495'
           }
         }]
     },
@@ -4097,6 +4208,41 @@ const assets: AssetList = {
           },
           chain: {
             channel_id: 'channel-394'
+          }
+        }]
+    },
+    {
+      description: 'The native staking, governance, and fee token of Safrochain, a mobile-first mobile-money-powered blockchain connecting mobile wallets to on-chain finance and interoperable digital rails.',
+      denom_units: [{
+          denom: 'ibc/13E53BB4CF6DE586FF4CACFEEA67A05863CA8387996BD2B674DADE8BFDE1D1C9',
+          exponent: 0,
+          aliases: ['usaf']
+        }, {
+          denom: 'saf',
+          exponent: 6
+        }],
+      base: 'ibc/13E53BB4CF6DE586FF4CACFEEA67A05863CA8387996BD2B674DADE8BFDE1D1C9',
+      name: 'Safrochain',
+      display: 'saf',
+      symbol: 'SAF',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'usaf',
+            chain_name: 'safrochain'
+          },
+          chain: {
+            channel_id: 'channel-495'
           }
         }]
     },

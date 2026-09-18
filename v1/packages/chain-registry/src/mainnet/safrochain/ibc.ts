@@ -1,5 +1,37 @@
 import { IBCInfo } from '@chain-registry/types';
-const info: IBCInfo[] = [{
+const info: IBCInfo[] = [
+  {
+    $schema: '../ibc_data.schema.json',
+    chain_1: {
+      chain_name: 'injective',
+      chain_id: 'injective-1',
+      client_id: '07-tendermint-354',
+      connection_id: 'connection-354'
+    },
+    chain_2: {
+      chain_name: 'safrochain',
+      chain_id: 'safrochain-1',
+      client_id: '07-tendermint-2',
+      connection_id: 'connection-2'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-495',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-2',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'ACTIVE',
+          preferred: true
+        }
+      }]
+  },
+  {
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'noble',
@@ -29,7 +61,8 @@ const info: IBCInfo[] = [{
           preferred: true
         }
       }]
-  }, {
+  },
+  {
     $schema: '../ibc_data.schema.json',
     chain_1: {
       chain_name: 'osmosis',
@@ -59,5 +92,6 @@ const info: IBCInfo[] = [{
           preferred: true
         }
       }]
-  }];
+  }
+];
 export default info;

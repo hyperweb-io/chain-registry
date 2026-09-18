@@ -826,6 +826,37 @@ const info: IBCInfo[] = [
     chain_1: {
       chain_name: 'injective',
       chain_id: 'injective-1',
+      client_id: '07-tendermint-353',
+      connection_id: 'connection-353'
+    },
+    chain_2: {
+      chain_name: 'penumbra',
+      chain_id: 'penumbra-1',
+      client_id: '07-tendermint-26',
+      connection_id: 'connection-19'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-494',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-18',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain_1: {
+      chain_name: 'injective',
+      chain_id: 'injective-1',
       client_id: '07-tendermint-110',
       connection_id: 'connection-91'
     },
@@ -961,6 +992,37 @@ const info: IBCInfo[] = [
         tags: {
           preferred: true,
           status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain_1: {
+      chain_name: 'injective',
+      chain_id: 'injective-1',
+      client_id: '07-tendermint-354',
+      connection_id: 'connection-354'
+    },
+    chain_2: {
+      chain_name: 'safrochain',
+      chain_id: 'safrochain-1',
+      client_id: '07-tendermint-2',
+      connection_id: 'connection-2'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-495',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-2',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'ACTIVE',
+          preferred: true
         }
       }]
   },
