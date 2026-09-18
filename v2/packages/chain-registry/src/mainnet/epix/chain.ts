@@ -86,6 +86,10 @@ const info: Chain = {
       {
         address: 'https://mainnet-epix-rpc.konsortech.xyz:443',
         provider: 'KonsorTech'
+      },
+      {
+        address: 'https://rpc.nodesafe-app.xyz/epix/',
+        provider: 'NodeSafe'
       }
     ],
     rest: [
@@ -112,6 +116,10 @@ const info: Chain = {
       {
         address: 'https://mainnet-epix-api.konsortech.xyz:443',
         provider: 'KonsorTech'
+      },
+      {
+        address: 'https://api.nodesafe-app.xyz/epix/',
+        provider: 'NodeSafe'
       }
     ],
     grpc: [
@@ -134,6 +142,10 @@ const info: Chain = {
       {
         address: 'mainnet-epix.konsortech.xyz:37090',
         provider: 'KonsorTech'
+      },
+      {
+        address: 'grpc-epix.nodesafe-app.xyz:443',
+        provider: 'NodeSafe'
       }
     ],
     evmHttpJsonrpc: [
@@ -156,6 +168,10 @@ const info: Chain = {
       {
         address: 'https://mainnet-epix-evm.konsortech.xyz/',
         provider: 'KonsorTech'
+      },
+      {
+        address: 'https://json-rpc.nodesafe-app.xyz/epix/',
+        provider: 'NodeSafe'
       }
     ]
   },
@@ -193,6 +209,12 @@ const info: Chain = {
       url: 'https://explorer.konsortech.xyz/epix/',
       txPage: 'https://explorer.konsortech.xyz/epix/tx/${txHash}',
       accountPage: 'https://explorer.konsortech.xyz/epix/account/${accountAddress}'
+    },
+    {
+      kind: 'NodeSafe',
+      url: 'https://explorer.nodesafe-app.xyz/epix/',
+      txPage: 'https://explorer.nodesafe-app.xyz/epix/tx/${txHash}',
+      accountPage: 'https://explorer.nodesafe-app.xyz/epix/account/${accountAddress}'
     }
   ],
   images: [{

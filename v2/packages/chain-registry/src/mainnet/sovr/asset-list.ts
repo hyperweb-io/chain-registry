@@ -18,6 +18,7 @@ const info: AssetList = {
       display: 'sovr',
       name: 'Sovren',
       symbol: 'SOVR',
+      coingeckoId: 'sovren',
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.svg'
