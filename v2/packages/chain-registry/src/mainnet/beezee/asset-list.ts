@@ -223,7 +223,7 @@ const info: AssetList = {
         }],
       typeAsset: 'ics20',
       base: 'ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4',
-      name: 'USDC',
+      name: 'Noble USDC',
       display: 'usdc',
       symbol: 'USDC.n',
       traces: [{
@@ -596,6 +596,174 @@ const info: AssetList = {
             path: 'transfer/channel-6/uphoton'
           }
         }]
+    },
+    {
+      description: 'USD Coin issued natively on Injective by Circle',
+      denomUnits: [{
+          denom: 'ibc/81DA528F4C5546208D1D50F84C2D0B388B45D37AA36FCA622A3CB2D8EF014838',
+          exponent: 0,
+          aliases: ['erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a']
+        }, {
+          denom: 'usdc',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/81DA528F4C5546208D1D50F84C2D0B388B45D37AA36FCA622A3CB2D8EF014838',
+      name: 'Injective USDC',
+      display: 'usdc',
+      symbol: 'USDC.inj',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'injective',
+            baseDenom: 'erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a',
+            channelId: 'channel-496'
+          },
+          chain: {
+            channelId: 'channel-13',
+            path: 'transfer/channel-13/erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'injective',
+            baseDenom: 'erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+      },
+      coingeckoId: 'usd-coin'
+    },
+    {
+      description: 'The INJ token is the native governance token for the Injective chain.',
+      denomUnits: [{
+          denom: 'ibc/9D0AC973BAFA293781F9A86B2911069DF9D8ECE86CDD884F0DE4889AF666B28A',
+          exponent: 0,
+          aliases: ['inj']
+        }, {
+          denom: 'INJ',
+          exponent: 18
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/9D0AC973BAFA293781F9A86B2911069DF9D8ECE86CDD884F0DE4889AF666B28A',
+      name: 'Injective',
+      display: 'INJ',
+      symbol: 'INJ',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'injective',
+            baseDenom: 'inj',
+            channelId: 'channel-496'
+          },
+          chain: {
+            channelId: 'channel-13',
+            path: 'transfer/channel-13/inj'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'injective',
+            baseDenom: 'inj'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg'
+      },
+      coingeckoId: 'injective-protocol'
+    },
+    {
+      description: 'The native staking and governance token of the Cosmos Hub.',
+      denomUnits: [{
+          denom: 'ibc/5FEB332D2B121921C792F1A0DBF7C3163FF205337B4AFE6E14F69E8E49545F49',
+          exponent: 0,
+          aliases: ['uatom']
+        }, {
+          denom: 'atom',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/5FEB332D2B121921C792F1A0DBF7C3163FF205337B4AFE6E14F69E8E49545F49',
+      name: 'Cosmos Hub',
+      display: 'atom',
+      symbol: 'ATOM',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'cosmoshub',
+            baseDenom: 'uatom',
+            channelId: 'channel-1898'
+          },
+          chain: {
+            channelId: 'channel-11',
+            path: 'transfer/channel-11/uatom'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'cosmoshub',
+            baseDenom: 'uatom'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg'
+      },
+      coingeckoId: 'cosmos'
+    },
+    {
+      description: 'Dragon Token is the native staking and governance token of Dungeon Chain.',
+      denomUnits: [{
+          denom: 'ibc/062CA1F72787DB36CE8FEA8EC733293215A5554646650A9B92BFA498802A11AA',
+          exponent: 0,
+          aliases: ['udgn']
+        }, {
+          denom: 'DGN',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/062CA1F72787DB36CE8FEA8EC733293215A5554646650A9B92BFA498802A11AA',
+      name: 'Dragon Coin',
+      display: 'DGN',
+      symbol: 'DGN',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'dungeon',
+            baseDenom: 'udgn',
+            channelId: 'channel-5317'
+          },
+          chain: {
+            channelId: 'channel-12',
+            path: 'transfer/channel-12/udgn'
+          }
+        }],
+      images: [{
+          imageSync: {
+            chainName: 'dungeon',
+            baseDenom: 'udgn'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png',
+          theme: {
+            circle: true
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png'
+      },
+      coingeckoId: 'dragon-coin-2'
     }
   ]
 };

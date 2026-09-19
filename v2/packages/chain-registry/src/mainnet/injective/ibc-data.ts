@@ -96,6 +96,37 @@ const info: IBCData[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain1: {
+      chainName: 'beezee',
+      chainId: 'beezee-1',
+      clientId: '07-tendermint-42',
+      connectionId: 'connection-17'
+    },
+    chain2: {
+      chainName: 'injective',
+      chainId: 'injective-1',
+      clientId: '07-tendermint-356',
+      connectionId: 'connection-375'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-13',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-496',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
       chainName: 'bitbadges',
       chainId: 'bitbadges-1',
       clientId: '07-tendermint-39',

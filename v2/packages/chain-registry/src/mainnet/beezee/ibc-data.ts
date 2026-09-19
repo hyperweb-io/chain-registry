@@ -66,6 +66,99 @@ const info: IBCData[] = [
     chain1: {
       chainName: 'beezee',
       chainId: 'beezee-1',
+      clientId: '07-tendermint-39',
+      connectionId: 'connection-11'
+    },
+    chain2: {
+      chainName: 'cosmoshub',
+      chainId: 'cosmoshub-4',
+      clientId: '07-tendermint-1488',
+      connectionId: 'connection-1294'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-11',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-1898',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
+      chainName: 'beezee',
+      chainId: 'beezee-1',
+      clientId: '07-tendermint-40',
+      connectionId: 'connection-12'
+    },
+    chain2: {
+      chainName: 'dungeon',
+      chainId: 'dungeon-1',
+      clientId: '07-tendermint-36',
+      connectionId: 'connection-8638'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-12',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-5317',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
+      chainName: 'beezee',
+      chainId: 'beezee-1',
+      clientId: '07-tendermint-42',
+      connectionId: 'connection-17'
+    },
+    chain2: {
+      chainName: 'injective',
+      chainId: 'injective-1',
+      clientId: '07-tendermint-356',
+      connectionId: 'connection-375'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-13',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-496',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
+      chainName: 'beezee',
+      chainId: 'beezee-1',
       clientId: '07-tendermint-10',
       connectionId: 'connection-4'
     },
