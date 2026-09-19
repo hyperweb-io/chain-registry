@@ -273,6 +273,37 @@ const info: IBCInfo[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain_1: {
+      chain_name: 'beezee',
+      chain_id: 'beezee-1',
+      client_id: '07-tendermint-39',
+      connection_id: 'connection-11'
+    },
+    chain_2: {
+      chain_name: 'cosmoshub',
+      chain_id: 'cosmoshub-4',
+      client_id: '07-tendermint-1488',
+      connection_id: 'connection-1294'
+    },
+    channels: [{
+        chain_1: {
+          channel_id: 'channel-11',
+          port_id: 'transfer'
+        },
+        chain_2: {
+          channel_id: 'channel-1898',
+          port_id: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain_1: {
       chain_name: 'bitbadges',
       chain_id: 'bitbadges-1',
       client_id: '07-tendermint-16',
