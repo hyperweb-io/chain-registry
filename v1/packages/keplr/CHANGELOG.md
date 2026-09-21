@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.74.709](https://github.com/hyperweb-io/chain-registry/compare/%40chain-registry%2Fkeplr%401.74.708...%40chain-registry%2Fkeplr%401.74.709) (2026-09-21)
+
+**Note:** Version bump only for package @chain-registry/keplr
+
+
+
+
+
 ## [1.74.708](https://github.com/hyperweb-io/chain-registry/compare/%40chain-registry%2Fkeplr%402.0.273...%40chain-registry%2Fkeplr%401.74.708) (2026-09-20)
 
 **Note:** Version bump only for package @chain-registry/keplr
