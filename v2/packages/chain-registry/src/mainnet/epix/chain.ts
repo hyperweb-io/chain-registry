@@ -90,6 +90,10 @@ const info: Chain = {
       {
         address: 'https://rpc.nodesafe-app.xyz/epix/',
         provider: 'NodeSafe'
+      },
+      {
+        address: 'https://epix.rpc.m.anode.team',
+        provider: 'AlxVoy ⚡ ANODE.TEAM'
       }
     ],
     rest: [
@@ -120,6 +124,10 @@ const info: Chain = {
       {
         address: 'https://api.nodesafe-app.xyz/epix/',
         provider: 'NodeSafe'
+      },
+      {
+        address: 'https://epix.api.m.anode.team',
+        provider: 'AlxVoy ⚡ ANODE.TEAM'
       }
     ],
     grpc: [
@@ -146,6 +154,10 @@ const info: Chain = {
       {
         address: 'grpc-epix.nodesafe-app.xyz:443',
         provider: 'NodeSafe'
+      },
+      {
+        address: 'epix.grpc.m.anode.team:443',
+        provider: 'AlxVoy ⚡ ANODE.TEAM'
       }
     ],
     evmHttpJsonrpc: [
@@ -160,6 +172,10 @@ const info: Chain = {
       {
         address: 'https://evm-epix.vinjan-inc.com',
         provider: 'Vinjan.inc'
+      },
+      {
+        address: 'https://evmrpc-epix.dnsarz.net',
+        provider: 'dnsarz'
       },
       {
         address: 'https://epix-evmrpc.linknode.org',
@@ -215,6 +231,12 @@ const info: Chain = {
       url: 'https://explorer.nodesafe-app.xyz/epix/',
       txPage: 'https://explorer.nodesafe-app.xyz/epix/tx/${txHash}',
       accountPage: 'https://explorer.nodesafe-app.xyz/epix/account/${accountAddress}'
+    },
+    {
+      kind: 'AlxVoy ⚡ ANODE.TEAM',
+      url: 'https://explorer.anode.team/main/epix/',
+      txPage: 'https://explorer.anode.team/main/epix/tx/${txHash}',
+      accountPage: 'https://explorer.anode.team/main/epix/account/${accountAddress}'
     }
   ],
   images: [{
