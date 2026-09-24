@@ -91,6 +91,7 @@ export * as highbury from './highbury';
 export * as hipercapital from './hipercapital';
 export * as hippoprotocol from './hippoprotocol';
 export * as humans from './humans';
+export * as hyve from './hyve';
 export * as idep from './idep';
 export * as impacthub from './impacthub';
 export * as imversed from './imversed';

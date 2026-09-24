@@ -93,6 +93,7 @@ import * as _highbury from './highbury';
 import * as _hipercapital from './hipercapital';
 import * as _hippoprotocol from './hippoprotocol';
 import * as _humans from './humans';
+import * as _hyve from './hyve';
 import * as _idep from './idep';
 import * as _impacthub from './impacthub';
 import * as _imversed from './imversed';
@@ -328,6 +329,7 @@ const chains: Chain[] = [
   _hipercapital.chain,
   _hippoprotocol.chain,
   _humans.chain,
+  _hyve.chain,
   _idep.chain,
   _impacthub.chain,
   _imversed.chain,
