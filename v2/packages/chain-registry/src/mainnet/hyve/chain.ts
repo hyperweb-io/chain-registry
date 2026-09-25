@@ -69,8 +69,7 @@ const info: Chain = {
   explorers: [{
       kind: 'HyveChain Explorer',
       url: 'https://explorer.hyvechain.com',
-      txPage: 'https://explorer.hyvechain.com/tx/${txHash}',
-      accountPage: 'https://explorer.hyvechain.com/address/${accountAddress}'
+      txPage: 'https://explorer.hyvechain.com/cosmos/tx/${txHash}'
     }],
   keywords: [
     'evm',

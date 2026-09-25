@@ -70,6 +70,7 @@ import * as _haqq from './haqq';
 import * as _hazinachain from './hazinachain';
 import * as _hippoprotocol from './hippoprotocol';
 import * as _humans from './humans';
+import * as _hyve from './hyve';
 import * as _impacthub from './impacthub';
 import * as _imversed from './imversed';
 import * as _initia from './initia';
@@ -247,6 +248,7 @@ const ibcData: IBCData[] = [
   ..._hazinachain.ibcData,
   ..._hippoprotocol.ibcData,
   ..._humans.ibcData,
+  ..._hyve.ibcData,
   ..._impacthub.ibcData,
   ..._imversed.ibcData,
   ..._initia.ibcData,
