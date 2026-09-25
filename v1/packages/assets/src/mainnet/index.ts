@@ -68,6 +68,7 @@ export * as haqq from './haqq';
 export * as hazinachain from './hazinachain';
 export * as hippoprotocol from './hippoprotocol';
 export * as humans from './humans';
+export * as hyve from './hyve';
 export * as impacthub from './impacthub';
 export * as imversed from './imversed';
 export * as initia from './initia';

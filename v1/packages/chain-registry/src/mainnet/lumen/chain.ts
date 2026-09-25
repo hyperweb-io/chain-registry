@@ -62,6 +62,10 @@ const info: Chain = {
       {
         address: 'https://m-lumen.rpc.utsa.tech/',
         provider: 'UTSA'
+      },
+      {
+        address: 'https://rpc.nodesafe-app.xyz/lumen/',
+        provider: 'NodeSafe'
       }
     ],
     rest: [
@@ -84,6 +88,10 @@ const info: Chain = {
       {
         address: 'https://m-lumen.api.utsa.tech/',
         provider: 'UTSA'
+      },
+      {
+        address: 'https://api.nodesafe-app.xyz/lumen',
+        provider: 'NodeSafe'
       }
     ],
     grpc: [
@@ -98,6 +106,10 @@ const info: Chain = {
       {
         address: 'lumen-mainnet-grpc.mekonglabs.tech:35090',
         provider: 'MekongLabs'
+      },
+      {
+        address: 'grpc-lumen.nodesafe-app.xyz:443',
+        provider: 'NodeSafe'
       }
     ]
   },
@@ -157,6 +169,10 @@ const info: Chain = {
     {
       kind: 'NodeGod20',
       url: 'https://explorer.nodegod20.cloud/lumen-mainnet'
+    },
+    {
+      kind: 'NodeSafe',
+      url: 'https://explorer.nodesafe-app.xyz/lumen/staking'
     }
   ],
   images: [{

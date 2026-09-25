@@ -3579,6 +3579,42 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'The native staking, governance and gas token of HyveChain.',
+      denom_units: [{
+          denom: 'ibc/FD06E4149AA81F2CBD5B603DAF1C711C308650BE2C1CB86D8E2ED21B4E9E6A09',
+          exponent: 0,
+          aliases: ['ahyve']
+        }, {
+          denom: 'HYVE',
+          exponent: 18
+        }],
+      base: 'ibc/FD06E4149AA81F2CBD5B603DAF1C711C308650BE2C1CB86D8E2ED21B4E9E6A09',
+      name: 'Hyve',
+      display: 'HYVE',
+      symbol: 'HYVE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hyve/images/hyve.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hyve/images/hyve.png'
+        }],
+      socials: {
+        website: 'https://hyvechain.com'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-10',
+            base_denom: 'ahyve',
+            chain_name: 'hyve'
+          },
+          chain: {
+            channel_id: 'channel-110655'
+          }
+        }]
+    },
+    {
       description: 'The native token of the Internet of Impacts of inter-connected networks, powered by IXO Protocol blockchains.',
       denom_units: [{
           denom: 'ibc/F3FF7A84A73B62921538642F9797C423D2B4C4ACB3C7FCFFCE7F12AA69909C4B',
@@ -9731,6 +9767,42 @@ const asset_list: AssetList = {
           },
           chain: {
             channel_id: 'channel-20082'
+          }
+        }]
+    },
+    {
+      description: 'The native staking, governance and gas token of HyveChain.',
+      denom_units: [{
+          denom: 'ibc/FD06E4149AA81F2CBD5B603DAF1C711C308650BE2C1CB86D8E2ED21B4E9E6A09',
+          exponent: 0,
+          aliases: ['ahyve']
+        }, {
+          denom: 'HYVE',
+          exponent: 18
+        }],
+      base: 'ibc/FD06E4149AA81F2CBD5B603DAF1C711C308650BE2C1CB86D8E2ED21B4E9E6A09',
+      name: 'Hyve',
+      display: 'HYVE',
+      symbol: 'HYVE',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hyve/images/hyve.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/hyve/images/hyve.png'
+        }],
+      socials: {
+        website: 'https://hyvechain.com'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-10',
+            base_denom: 'ahyve',
+            chain_name: 'hyve'
+          },
+          chain: {
+            channel_id: 'channel-110655'
           }
         }]
     },

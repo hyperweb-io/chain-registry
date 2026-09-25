@@ -63,7 +63,7 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://thejaynetwork.com/rpc',
+        address: 'https://thejaynetwork.com/rpc/',
         provider: 'The Jay Network'
       },
       {
@@ -77,6 +77,10 @@ const info: Chain = {
       {
         address: 'https://rpc-jaynetwork.vinjan-inc.com',
         provider: 'Vinjan.Inc'
+      },
+      {
+        address: 'https://rpc.nodesafe-app.xyz/jayn/',
+        provider: 'NodeSafe'
       }
     ],
     rest: [
@@ -95,11 +99,18 @@ const info: Chain = {
       {
         address: 'https://api-jaynetwork.vinjan-inc.com',
         provider: 'Vinjan.Inc'
+      },
+      {
+        address: 'https://api.nodesafe-app.xyz/jayn',
+        provider: 'NodeSafe'
       }
     ],
     grpc: [{
         address: '152.53.195.74:9090',
         provider: 'The Jay Network (Sentry)'
+      }, {
+        address: 'grpc-jayn.nodesafe-app.xyz:443',
+        provider: 'NodeSafe'
       }]
   },
   explorers: [
@@ -120,6 +131,12 @@ const info: Chain = {
       url: 'https://explorer.vinjan-inc.com/jaynetwork',
       tx_page: 'https://explorer.vinjan-inc.com/jaynetwork/tx/${txHash}',
       account_page: 'https://explorer.vinjan-inc.com/jaynetwork/account/${accountAddress}'
+    },
+    {
+      kind: 'NodeSafe',
+      url: 'https://explorer.nodesafe-app.xyz/jaynetwork/staking',
+      tx_page: 'https://explorer.nodesafe-app.xyz/jaynetwork/tx/${txHash}',
+      account_page: 'https://explorer.nodesafe-app.xyz/jaynetwork/account/${accountAddress}'
     }
   ],
   images: [{
