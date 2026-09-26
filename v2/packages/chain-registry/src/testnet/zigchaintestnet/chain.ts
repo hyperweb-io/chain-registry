@@ -89,8 +89,8 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/ZIGChain/zigchain',
-    recommendedVersion: '5.0.0-patch-1',
-    compatibleVersions: ['5.0.0-patch-1'],
+    recommendedVersion: '5.1.0',
+    compatibleVersions: ['5.1.0'],
     consensus: {
       type: 'cometbft',
       version: '0.38.25'
@@ -101,21 +101,19 @@ const info: Chain = {
     },
     ibc: {
       type: 'go',
-      version: '10.1.1'
+      version: '10.5.0'
     },
     cosmwasm: {
-      version: '0.55.1',
+      version: '0.60.9',
       enabled: true
     },
     genesis: {
       genesisUrl: 'https://github.com/ZIGChain/networks/raw/main/zig-test-2/genesis.json'
     },
     binaries: {
-      "linux/amd64": 'https://github.com/ZIGChain/networks/raw/refs/heads/main/binaries/v5.0.0-patch-1/zigchaind-v5.0.0-patch-1-linux-amd64.tar.gz?checksum=sha256:002c1edb1db0f32ac16bc3faaa96438b1720f9330b2fca438108f19cd49586ee',
-      "darwin/amd64": 'https://github.com/ZIGChain/networks/raw/refs/heads/main/binaries/v5.0.0-patch-1/zigchaind-v5.0.0-patch-1-darwin-amd64.tar.gz?checksum=sha256:3b9dfc2cfd290fe2cf8e7a2f6ba6cff5f93f9a2f1fb1c2565ca27b17803e9b28',
-      "darwin/arm64": 'https://github.com/ZIGChain/networks/raw/refs/heads/main/binaries/v5.0.0-patch-1/zigchaind-v5.0.0-patch-1-darwin-arm64.tar.gz?checksum=sha256:408972867f66ae17fcf6730c5e5c96432f2175a96a36d991b6e0f26d7fa567ef'
+      "linux/amd64": 'https://github.com/ZIGChain/networks/raw/refs/heads/main/binaries/v5.1.0/zigchaind-v5.1.0-linux-amd64.tar.gz?checksum=sha256:93f2be769ebafb369ed6fee03a0159ee6699e5aaae27d5ca165bc2b88b42d914'
     },
-    tag: 'v5.0.0-patch-1',
+    tag: 'v5.1.0',
     language: {
       type: 'go',
       version: '1.25.13'
