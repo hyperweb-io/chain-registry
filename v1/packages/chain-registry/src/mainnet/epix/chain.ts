@@ -94,6 +94,10 @@ const info: Chain = {
       {
         address: 'https://epix.rpc.m.anode.team',
         provider: 'AlxVoy ⚡ ANODE.TEAM'
+      },
+      {
+        address: 'https://epix-rpc.tintonode.win',
+        provider: 'TinTo'
       }
     ],
     rest: [
@@ -128,6 +132,10 @@ const info: Chain = {
       {
         address: 'https://epix.api.m.anode.team',
         provider: 'AlxVoy ⚡ ANODE.TEAM'
+      },
+      {
+        address: 'https://epix-api.tintonode.win',
+        provider: 'TinTo'
       }
     ],
     grpc: [
@@ -158,6 +166,10 @@ const info: Chain = {
       {
         address: 'epix.grpc.m.anode.team:443',
         provider: 'AlxVoy ⚡ ANODE.TEAM'
+      },
+      {
+        address: 'epix-grpc.tintonode.win:443',
+        provider: 'TinTo'
       }
     ],
     "evm-http-jsonrpc": [
@@ -188,6 +200,10 @@ const info: Chain = {
       {
         address: 'https://json-rpc.nodesafe-app.xyz/epix/',
         provider: 'NodeSafe'
+      },
+      {
+        address: 'https://epix-evm.tintonode.win',
+        provider: 'TinTo'
       }
     ]
   },
