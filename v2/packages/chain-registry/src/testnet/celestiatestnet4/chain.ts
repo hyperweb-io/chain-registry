@@ -29,19 +29,19 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/celestiaorg/celestia-app',
-    recommendedVersion: 'v9.0.6-mocha',
-    compatibleVersions: ['v9.0.6-mocha'],
+    recommendedVersion: 'v10.2.0-mocha',
+    compatibleVersions: ['v10.2.0-mocha'],
     binaries: {
-      "linux/amd64": 'https://github.com/celestiaorg/celestia-app/releases/download/v9.0.6-mocha/celestia-app_Linux_x86_64.tar.gz',
-      "linux/arm64": 'https://github.com/celestiaorg/celestia-app/releases/download/v9.0.6-mocha/celestia-app_Linux_arm64.tar.gz',
-      "darwin/amd64": 'https://github.com/celestiaorg/celestia-app/releases/download/v9.0.6-mocha/celestia-app_Darwin_x86_64.tar.gz',
-      "darwin/arm64": 'https://github.com/celestiaorg/celestia-app/releases/download/v9.0.6-mocha/celestia-app_Darwin_arm64.tar.gz'
+      "linux/amd64": 'https://github.com/celestiaorg/celestia-app/releases/download/v10.2.0-mocha/celestia-app_Linux_x86_64.tar.gz',
+      "linux/arm64": 'https://github.com/celestiaorg/celestia-app/releases/download/v10.2.0-mocha/celestia-app_Linux_arm64.tar.gz',
+      "darwin/amd64": 'https://github.com/celestiaorg/celestia-app/releases/download/v10.2.0-mocha/celestia-app_Darwin_x86_64.tar.gz',
+      "darwin/arm64": 'https://github.com/celestiaorg/celestia-app/releases/download/v10.2.0-mocha/celestia-app_Darwin_arm64.tar.gz'
     },
     consensus: {
       type: 'cometbft',
-      version: 'v0.40.8',
+      version: 'v0.42.1',
       repo: 'https://github.com/celestiaorg/celestia-core',
-      tag: 'v0.40.8'
+      tag: 'v0.42.1'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/celestiaorg/networks/master/mocha-5/genesis.json'
@@ -49,8 +49,8 @@ const info: Chain = {
     sdk: {
       type: 'cosmos',
       repo: 'https://github.com/celestiaorg/cosmos-sdk',
-      version: 'v0.52.8',
-      tag: 'v0.52.8'
+      version: 'v0.52.11',
+      tag: 'v0.52.11'
     },
     ibc: {
       type: 'go',

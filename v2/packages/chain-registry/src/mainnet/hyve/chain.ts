@@ -70,6 +70,11 @@ const info: Chain = {
       kind: 'HyveChain Explorer',
       url: 'https://explorer.hyvechain.com',
       txPage: 'https://explorer.hyvechain.com/cosmos/tx/${txHash}'
+    }, {
+      kind: 'ping.pub',
+      url: 'https://ping.pub/hyve',
+      txPage: 'https://ping.pub/hyve/tx/${txHash}',
+      accountPage: 'https://ping.pub/hyve/account/${accountAddress}'
     }],
   keywords: [
     'evm',
