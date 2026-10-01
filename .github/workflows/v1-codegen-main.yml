@@ -2,8 +2,8 @@ name: Codegen Main V1
 
 on:
   schedule:
-    # Runs every day at 1:00 AM UTC
-    - cron: "0 1 * * *"
+    # Runs Mondays at 1:00 AM UTC
+    - cron: "0 1 * * 1"
 
   workflow_dispatch:
 
