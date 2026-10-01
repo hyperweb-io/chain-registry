@@ -42,6 +42,7 @@ jobs:
           pushd v2
           yarn
           yarn lerna publish --force-publish=@chain-registry/v2 --no-verify-access --yes
+          yarn lerna publish from-package --no-verify-access --yes
           popd
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_PUBLISH_SECRET}}

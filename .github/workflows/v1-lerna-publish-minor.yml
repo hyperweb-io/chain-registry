@@ -42,5 +42,6 @@ jobs:
           cd v1
           yarn
           yarn lerna publish minor --force-publish=chain-registry --no-verify-access --yes --dist-tag legacy
+          yarn lerna publish from-package --no-verify-access --yes
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_PUBLISH_SECRET}}
