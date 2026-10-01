@@ -38,7 +38,8 @@ const assets: AssetList = {
             chain_name: 'axelar'
           },
           chain: {
-            channel_id: 'channel-3'
+            channel_id: 'channel-3',
+            path: 'transfer/channel-3/uaxl'
           }
         }]
     },
@@ -78,7 +79,8 @@ const assets: AssetList = {
             chain_name: 'kyve'
           },
           chain: {
-            channel_id: 'channel-2'
+            channel_id: 'channel-2',
+            path: 'transfer/channel-2/ukyve'
           }
         }]
     },
@@ -119,7 +121,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/uosmo'
           }
         }]
     },
@@ -160,7 +163,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/uion'
           }
         }]
     },
@@ -200,7 +204,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/aplanq'
           }
         }]
     },
@@ -226,7 +231,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/erc20/0x091F9A57A3F58d758b6572E9d41675918EAC7F09'
           }
         }],
       images: [{
@@ -273,7 +279,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/erc20/0xF630B96760B91f6FCbE8b3C24f2786AcA3D03648'
           }
         }]
     },
@@ -310,7 +317,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/erc20/0x8F4d86ABa1b47832C46f11e0fFD0F7aDa4498345'
           }
         }]
     },
@@ -336,7 +344,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/erc20/0xA2871B267a7d888F830251F6B4D9d3DFf184995a'
           }
         }],
       logo_URIs: {
@@ -373,7 +382,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/erc20/0xd5be2932FEbD73019ba1d5d97DFC35E1Ab09E501'
           }
         }],
       logo_URIs: {
@@ -410,7 +420,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/erc20/0x240642C6f69878A0b199065f25EDf82023BC59ce'
           }
         }],
       logo_URIs: {
@@ -461,7 +472,8 @@ const assets: AssetList = {
             chain_name: 'axelar'
           },
           chain: {
-            channel_id: 'channel-3'
+            channel_id: 'channel-3',
+            path: 'transfer/channel-3/uaxl'
           }
         }]
     },
@@ -501,7 +513,8 @@ const assets: AssetList = {
             chain_name: 'kyve'
           },
           chain: {
-            channel_id: 'channel-2'
+            channel_id: 'channel-2',
+            path: 'transfer/channel-2/ukyve'
           }
         }]
     },
@@ -542,7 +555,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/uosmo'
           }
         }]
     },
@@ -583,7 +597,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/uion'
           }
         }]
     },
@@ -623,7 +638,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/aplanq'
           }
         }]
     },
@@ -649,7 +665,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/erc20/0x091F9A57A3F58d758b6572E9d41675918EAC7F09'
           }
         }],
       images: [{
@@ -696,7 +713,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/erc20/0xF630B96760B91f6FCbE8b3C24f2786AcA3D03648'
           }
         }]
     },
@@ -733,7 +751,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/erc20/0x8F4d86ABa1b47832C46f11e0fFD0F7aDa4498345'
           }
         }]
     },
@@ -759,7 +778,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/erc20/0xA2871B267a7d888F830251F6B4D9d3DFf184995a'
           }
         }],
       logo_URIs: {
@@ -796,7 +816,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/erc20/0xd5be2932FEbD73019ba1d5d97DFC35E1Ab09E501'
           }
         }],
       logo_URIs: {
@@ -833,7 +854,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/erc20/0x240642C6f69878A0b199065f25EDf82023BC59ce'
           }
         }],
       logo_URIs: {

@@ -31,7 +31,8 @@ const assets: AssetList = {
             chain_name: 'empowertestnet'
           },
           chain: {
-            channel_id: 'channel-459'
+            channel_id: 'channel-459',
+            path: 'transfer/channel-459/umpwr'
           }
         }]
     },
@@ -72,7 +73,8 @@ const assets: AssetList = {
             chain_name: 'noistestnet'
           },
           chain: {
-            channel_id: 'channel-485'
+            channel_id: 'channel-485',
+            path: 'transfer/channel-485/unois'
           }
         }]
     },
@@ -105,7 +107,8 @@ const assets: AssetList = {
             chain_name: 'empowertestnet'
           },
           chain: {
-            channel_id: 'channel-459'
+            channel_id: 'channel-459',
+            path: 'transfer/channel-459/umpwr'
           }
         }]
     },
@@ -146,7 +149,8 @@ const assets: AssetList = {
             chain_name: 'noistestnet'
           },
           chain: {
-            channel_id: 'channel-485'
+            channel_id: 'channel-485',
+            path: 'transfer/channel-485/unois'
           }
         }]
     },
@@ -183,7 +187,8 @@ const assets: AssetList = {
             chain_name: 'prysmdevnet'
           },
           chain: {
-            channel_id: 'channel-1005'
+            channel_id: 'channel-1005',
+            path: 'transfer/channel-1005/uprysm'
           }
         }]
     },
@@ -217,7 +222,8 @@ const assets: AssetList = {
             chain_name: 'symphonytestnet'
           },
           chain: {
-            channel_id: 'channel-1006'
+            channel_id: 'channel-1006',
+            path: 'transfer/channel-1006/note'
           }
         }]
     },
@@ -250,7 +256,8 @@ const assets: AssetList = {
             chain_name: 'symphonytestnet'
           },
           chain: {
-            channel_id: 'channel-1006'
+            channel_id: 'channel-1006',
+            path: 'transfer/channel-1006/uusd'
           }
         }]
     },
@@ -283,7 +290,8 @@ const assets: AssetList = {
             chain_name: 'symphonytestnet'
           },
           chain: {
-            channel_id: 'channel-1006'
+            channel_id: 'channel-1006',
+            path: 'transfer/channel-1006/ukhd'
           }
         }]
     },
@@ -316,7 +324,8 @@ const assets: AssetList = {
             chain_name: 'symphonytestnet'
           },
           chain: {
-            channel_id: 'channel-1006'
+            channel_id: 'channel-1006',
+            path: 'transfer/channel-1006/uvnd'
           }
         }]
     },
@@ -364,7 +373,8 @@ const assets: AssetList = {
             chain_name: 'titantestnet'
           },
           chain: {
-            channel_id: 'channel-807'
+            channel_id: 'channel-807',
+            path: 'transfer/channel-807/atkx'
           }
         }]
     },
@@ -398,7 +408,8 @@ const assets: AssetList = {
             chain_name: 'symphonytestnet'
           },
           chain: {
-            channel_id: 'channel-1006'
+            channel_id: 'channel-1006',
+            path: 'transfer/channel-1006/note'
           }
         }]
     },
@@ -431,7 +442,8 @@ const assets: AssetList = {
             chain_name: 'symphonytestnet'
           },
           chain: {
-            channel_id: 'channel-1006'
+            channel_id: 'channel-1006',
+            path: 'transfer/channel-1006/uusd'
           }
         }]
     },
@@ -464,7 +476,8 @@ const assets: AssetList = {
             chain_name: 'symphonytestnet'
           },
           chain: {
-            channel_id: 'channel-1006'
+            channel_id: 'channel-1006',
+            path: 'transfer/channel-1006/ukhd'
           }
         }]
     },
@@ -497,7 +510,8 @@ const assets: AssetList = {
             chain_name: 'symphonytestnet'
           },
           chain: {
-            channel_id: 'channel-1006'
+            channel_id: 'channel-1006',
+            path: 'transfer/channel-1006/uvnd'
           }
         }]
     },
@@ -545,7 +559,8 @@ const assets: AssetList = {
             chain_name: 'titantestnet'
           },
           chain: {
-            channel_id: 'channel-807'
+            channel_id: 'channel-807',
+            path: 'transfer/channel-807/atkx'
           }
         }]
     },
@@ -582,7 +597,8 @@ const assets: AssetList = {
             chain_name: 'prysmdevnet'
           },
           chain: {
-            channel_id: 'channel-1005'
+            channel_id: 'channel-1005',
+            path: 'transfer/channel-1005/uprysm'
           }
         }]
     }

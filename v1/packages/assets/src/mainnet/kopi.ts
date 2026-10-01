@@ -41,7 +41,8 @@ const assets: AssetList = {
             chain_name: 'cosmoshub'
           },
           chain: {
-            channel_id: 'channel-15'
+            channel_id: 'channel-15',
+            path: 'transfer/channel-15/uatom'
           }
         }]
     },
@@ -84,7 +85,8 @@ const assets: AssetList = {
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/inj'
           }
         }]
     },
@@ -117,7 +119,8 @@ const assets: AssetList = {
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/inj1sudjgsyhufqu95yp7rqad3g78ws8g6htf32h88'
           }
         }]
     },
@@ -150,7 +153,8 @@ const assets: AssetList = {
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/inj16ukv8g2jcmml7gykxn5ws8ykhxjkugl4zhft5h'
           }
         }]
     },
@@ -180,7 +184,8 @@ const assets: AssetList = {
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/inj1rmzufd7h09sqfrre5dtvu5d09ta7c0t4jzkr2f'
           }
         }]
     },
@@ -210,7 +215,8 @@ const assets: AssetList = {
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/inj16jf4qkcarp3lan4wl2qkrelf4kduvvujwg0780'
           }
         }]
     },
@@ -240,7 +246,8 @@ const assets: AssetList = {
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/inj1kehk5nvreklhylx22p3x0yjydfsz9fv3fvg5xt'
           }
         }]
     },
@@ -270,7 +277,8 @@ const assets: AssetList = {
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s'
           }
         }]
     },
@@ -300,7 +308,8 @@ const assets: AssetList = {
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/inj1fzquxxxam59z6fzewy2hvvreeh3m04x83zg4vv'
           }
         }]
     },
@@ -343,7 +352,8 @@ const assets: AssetList = {
             chain_name: 'cosmoshub'
           },
           chain: {
-            channel_id: 'channel-15'
+            channel_id: 'channel-15',
+            path: 'transfer/channel-15/uatom'
           }
         }]
     },
@@ -386,7 +396,8 @@ const assets: AssetList = {
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/inj'
           }
         }]
     },
@@ -419,7 +430,8 @@ const assets: AssetList = {
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/inj1sudjgsyhufqu95yp7rqad3g78ws8g6htf32h88'
           }
         }]
     },
@@ -452,7 +464,8 @@ const assets: AssetList = {
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/inj16ukv8g2jcmml7gykxn5ws8ykhxjkugl4zhft5h'
           }
         }]
     },
@@ -482,7 +495,8 @@ const assets: AssetList = {
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/inj1rmzufd7h09sqfrre5dtvu5d09ta7c0t4jzkr2f'
           }
         }]
     },
@@ -512,7 +526,8 @@ const assets: AssetList = {
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/inj16jf4qkcarp3lan4wl2qkrelf4kduvvujwg0780'
           }
         }]
     },
@@ -542,7 +557,8 @@ const assets: AssetList = {
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/inj1kehk5nvreklhylx22p3x0yjydfsz9fv3fvg5xt'
           }
         }]
     },
@@ -572,7 +588,8 @@ const assets: AssetList = {
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/inj1cy9hes20vww2yr6crvs75gxy5hpycya2hmjg9s'
           }
         }]
     },
@@ -602,7 +619,8 @@ const assets: AssetList = {
             chain_name: 'injective'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/inj1fzquxxxam59z6fzewy2hvvreeh3m04x83zg4vv'
           }
         }]
     },
@@ -637,7 +655,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-9'
+            channel_id: 'channel-9',
+            path: 'transfer/channel-9/ustake'
           }
         }]
     },
@@ -670,7 +689,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-9'
+            channel_id: 'channel-9',
+            path: 'transfer/channel-9/ufrienzies'
           }
         }]
     },
@@ -710,7 +730,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-9'
+            channel_id: 'channel-9',
+            path: 'transfer/channel-9/ausdy'
           }
         }]
     },
@@ -745,7 +766,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-9'
+            channel_id: 'channel-9',
+            path: 'transfer/channel-9/uusdn'
           }
         }]
     },
@@ -786,7 +808,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-10'
+            channel_id: 'channel-10',
+            path: 'transfer/channel-10/uosmo'
           }
         }]
     },
@@ -827,7 +850,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-10'
+            channel_id: 'channel-10',
+            path: 'transfer/channel-10/uion'
           }
         }]
     },
@@ -867,7 +891,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-16'
+            channel_id: 'channel-16',
+            path: 'transfer/channel-16/aplanq'
           }
         }]
     },
@@ -893,7 +918,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-16'
+            channel_id: 'channel-16',
+            path: 'transfer/channel-16/erc20/0x091F9A57A3F58d758b6572E9d41675918EAC7F09'
           }
         }],
       images: [{
@@ -940,7 +966,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-16'
+            channel_id: 'channel-16',
+            path: 'transfer/channel-16/erc20/0xF630B96760B91f6FCbE8b3C24f2786AcA3D03648'
           }
         }]
     },
@@ -977,7 +1004,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-16'
+            channel_id: 'channel-16',
+            path: 'transfer/channel-16/erc20/0x8F4d86ABa1b47832C46f11e0fFD0F7aDa4498345'
           }
         }]
     },
@@ -1003,7 +1031,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-16'
+            channel_id: 'channel-16',
+            path: 'transfer/channel-16/erc20/0xA2871B267a7d888F830251F6B4D9d3DFf184995a'
           }
         }],
       logo_URIs: {
@@ -1040,7 +1069,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-16'
+            channel_id: 'channel-16',
+            path: 'transfer/channel-16/erc20/0xd5be2932FEbD73019ba1d5d97DFC35E1Ab09E501'
           }
         }],
       logo_URIs: {
@@ -1077,7 +1107,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-16'
+            channel_id: 'channel-16',
+            path: 'transfer/channel-16/erc20/0x240642C6f69878A0b199065f25EDf82023BC59ce'
           }
         }],
       logo_URIs: {
@@ -1128,7 +1159,8 @@ const assets: AssetList = {
             chain_name: 'stride'
           },
           chain: {
-            channel_id: 'channel-18'
+            channel_id: 'channel-18',
+            path: 'transfer/channel-18/ustrd'
           }
         }]
     },
@@ -1168,7 +1200,8 @@ const assets: AssetList = {
             chain_name: 'terra2'
           },
           chain: {
-            channel_id: 'channel-5'
+            channel_id: 'channel-5',
+            path: 'transfer/channel-5/uluna'
           }
         }]
     },
@@ -1203,7 +1236,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-9'
+            channel_id: 'channel-9',
+            path: 'transfer/channel-9/ustake'
           }
         }]
     },
@@ -1236,7 +1270,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-9'
+            channel_id: 'channel-9',
+            path: 'transfer/channel-9/ufrienzies'
           }
         }]
     },
@@ -1276,7 +1311,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-9'
+            channel_id: 'channel-9',
+            path: 'transfer/channel-9/ausdy'
           }
         }]
     },
@@ -1311,7 +1347,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-9'
+            channel_id: 'channel-9',
+            path: 'transfer/channel-9/uusdn'
           }
         }]
     },
@@ -1352,7 +1389,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-10'
+            channel_id: 'channel-10',
+            path: 'transfer/channel-10/uosmo'
           }
         }]
     },
@@ -1393,7 +1431,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-10'
+            channel_id: 'channel-10',
+            path: 'transfer/channel-10/uion'
           }
         }]
     },
@@ -1433,7 +1472,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-16'
+            channel_id: 'channel-16',
+            path: 'transfer/channel-16/aplanq'
           }
         }]
     },
@@ -1459,7 +1499,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-16'
+            channel_id: 'channel-16',
+            path: 'transfer/channel-16/erc20/0x091F9A57A3F58d758b6572E9d41675918EAC7F09'
           }
         }],
       images: [{
@@ -1506,7 +1547,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-16'
+            channel_id: 'channel-16',
+            path: 'transfer/channel-16/erc20/0xF630B96760B91f6FCbE8b3C24f2786AcA3D03648'
           }
         }]
     },
@@ -1543,7 +1585,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-16'
+            channel_id: 'channel-16',
+            path: 'transfer/channel-16/erc20/0x8F4d86ABa1b47832C46f11e0fFD0F7aDa4498345'
           }
         }]
     },
@@ -1569,7 +1612,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-16'
+            channel_id: 'channel-16',
+            path: 'transfer/channel-16/erc20/0xA2871B267a7d888F830251F6B4D9d3DFf184995a'
           }
         }],
       logo_URIs: {
@@ -1606,7 +1650,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-16'
+            channel_id: 'channel-16',
+            path: 'transfer/channel-16/erc20/0xd5be2932FEbD73019ba1d5d97DFC35E1Ab09E501'
           }
         }],
       logo_URIs: {
@@ -1643,7 +1688,8 @@ const assets: AssetList = {
             chain_name: 'planq'
           },
           chain: {
-            channel_id: 'channel-16'
+            channel_id: 'channel-16',
+            path: 'transfer/channel-16/erc20/0x240642C6f69878A0b199065f25EDf82023BC59ce'
           }
         }],
       logo_URIs: {
@@ -1694,7 +1740,8 @@ const assets: AssetList = {
             chain_name: 'stride'
           },
           chain: {
-            channel_id: 'channel-18'
+            channel_id: 'channel-18',
+            path: 'transfer/channel-18/ustrd'
           }
         }]
     },
@@ -1734,7 +1781,8 @@ const assets: AssetList = {
             chain_name: 'terra2'
           },
           chain: {
-            channel_id: 'channel-5'
+            channel_id: 'channel-5',
+            path: 'transfer/channel-5/uluna'
           }
         }]
     }

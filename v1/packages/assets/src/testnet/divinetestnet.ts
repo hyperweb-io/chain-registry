@@ -32,7 +32,8 @@ const assets: AssetList = {
             chain_name: 'cosmosicsprovidertestnet'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/uatom'
           }
         }]
     }, {
@@ -66,7 +67,8 @@ const assets: AssetList = {
             chain_name: 'cosmosicsprovidertestnet'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/uatom'
           }
         }]
     }]

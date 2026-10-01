@@ -40,14 +40,14 @@ export function displayAsset(asset: Asset): void {
       image.png && console.log(`    PNG: ${image.png}`);
       image.svg && console.log(`    SVG: ${image.svg}`);
       if (image.theme) {
-        console.log(`    Theme: ${image.theme.primary_color_hex} Circle: ${image.theme.circle ? 'Yes' : 'No'} Dark Mode: ${image.theme.dark_mode ? 'Yes' : 'No'}`);
+        console.log(`    Theme: Circle: ${image.theme.circle ? 'Yes' : 'No'} Dark Mode: ${image.theme.dark_mode ? 'Yes' : 'No'}`);
       }
     });
   }
   if (asset.socials) {
     console.log(chalk.bold('Socials:'));
     asset.socials.website && console.log(`  Website: ${asset.socials.website}`);
-    asset.socials.twitter && console.log(`  Twitter: ${asset.socials.twitter}`);
+    asset.socials.x && console.log(`  X: ${asset.socials.x}`);
   }
   console.log('\n');
 }

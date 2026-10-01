@@ -38,7 +38,8 @@ const assets: AssetList = {
             chain_name: 'akash'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-7',
+            path: 'transfer/channel-7/uakt'
           }
         }]
     },
@@ -84,7 +85,8 @@ const assets: AssetList = {
             chain_name: 'akash'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-7',
+            path: 'transfer/channel-7/uact'
           }
         }]
     },
@@ -127,7 +129,8 @@ const assets: AssetList = {
             chain_name: 'cosmoshub'
           },
           chain: {
-            channel_id: 'channel-11'
+            channel_id: 'channel-11',
+            path: 'transfer/channel-11/uatom'
           }
         }]
     },
@@ -177,7 +180,8 @@ const assets: AssetList = {
             chain_name: 'cryptoorgchain'
           },
           chain: {
-            channel_id: 'channel-12'
+            channel_id: 'channel-12',
+            path: 'transfer/channel-12/basecro'
           }
         }]
     },
@@ -213,7 +217,8 @@ const assets: AssetList = {
             chain_name: 'irisnet'
           },
           chain: {
-            channel_id: 'channel-9'
+            channel_id: 'channel-9',
+            path: 'transfer/channel-9/uiris'
           }
         }]
     },
@@ -252,7 +257,8 @@ const assets: AssetList = {
             chain_name: 'kujira'
           },
           chain: {
-            channel_id: 'channel-100'
+            channel_id: 'channel-100',
+            path: 'transfer/channel-100/ukuji'
           }
         }]
     },
@@ -287,7 +293,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-165'
+            channel_id: 'channel-165',
+            path: 'transfer/channel-165/ustake'
           }
         }]
     },
@@ -320,7 +327,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-165'
+            channel_id: 'channel-165',
+            path: 'transfer/channel-165/ufrienzies'
           }
         }]
     },
@@ -360,7 +368,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-165'
+            channel_id: 'channel-165',
+            path: 'transfer/channel-165/ausdy'
           }
         }]
     },
@@ -395,7 +404,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-165'
+            channel_id: 'channel-165',
+            path: 'transfer/channel-165/uusdn'
           }
         }]
     },
@@ -436,7 +446,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/uosmo'
           }
         }]
     },
@@ -477,7 +488,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/uion'
           }
         }]
     },
@@ -520,7 +532,8 @@ const assets: AssetList = {
             chain_name: 'persistence'
           },
           chain: {
-            channel_id: 'channel-14'
+            channel_id: 'channel-14',
+            path: 'transfer/channel-14/uxprt'
           }
         }]
     },
@@ -558,7 +571,8 @@ const assets: AssetList = {
             chain_name: 'quicksilver'
           },
           chain: {
-            channel_id: 'channel-61'
+            channel_id: 'channel-61',
+            path: 'transfer/channel-61/uqck'
           }
         }]
     },
@@ -598,7 +612,8 @@ const assets: AssetList = {
             chain_name: 'akash'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-7',
+            path: 'transfer/channel-7/uakt'
           }
         }]
     },
@@ -644,7 +659,8 @@ const assets: AssetList = {
             chain_name: 'akash'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-7',
+            path: 'transfer/channel-7/uact'
           }
         }]
     },
@@ -687,7 +703,8 @@ const assets: AssetList = {
             chain_name: 'cosmoshub'
           },
           chain: {
-            channel_id: 'channel-11'
+            channel_id: 'channel-11',
+            path: 'transfer/channel-11/uatom'
           }
         }]
     },
@@ -737,7 +754,8 @@ const assets: AssetList = {
             chain_name: 'cryptoorgchain'
           },
           chain: {
-            channel_id: 'channel-12'
+            channel_id: 'channel-12',
+            path: 'transfer/channel-12/basecro'
           }
         }]
     },
@@ -773,7 +791,8 @@ const assets: AssetList = {
             chain_name: 'irisnet'
           },
           chain: {
-            channel_id: 'channel-9'
+            channel_id: 'channel-9',
+            path: 'transfer/channel-9/uiris'
           }
         }]
     },
@@ -812,7 +831,8 @@ const assets: AssetList = {
             chain_name: 'kujira'
           },
           chain: {
-            channel_id: 'channel-100'
+            channel_id: 'channel-100',
+            path: 'transfer/channel-100/ukuji'
           }
         }]
     },
@@ -847,7 +867,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-165'
+            channel_id: 'channel-165',
+            path: 'transfer/channel-165/ustake'
           }
         }]
     },
@@ -880,7 +901,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-165'
+            channel_id: 'channel-165',
+            path: 'transfer/channel-165/ufrienzies'
           }
         }]
     },
@@ -920,7 +942,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-165'
+            channel_id: 'channel-165',
+            path: 'transfer/channel-165/ausdy'
           }
         }]
     },
@@ -955,7 +978,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-165'
+            channel_id: 'channel-165',
+            path: 'transfer/channel-165/uusdn'
           }
         }]
     },
@@ -996,7 +1020,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/uosmo'
           }
         }]
     },
@@ -1037,7 +1062,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/uion'
           }
         }]
     },
@@ -1080,7 +1106,8 @@ const assets: AssetList = {
             chain_name: 'persistence'
           },
           chain: {
-            channel_id: 'channel-14'
+            channel_id: 'channel-14',
+            path: 'transfer/channel-14/uxprt'
           }
         }]
     },
@@ -1118,7 +1145,8 @@ const assets: AssetList = {
             chain_name: 'quicksilver'
           },
           chain: {
-            channel_id: 'channel-61'
+            channel_id: 'channel-61',
+            path: 'transfer/channel-61/uqck'
           }
         }]
     },
@@ -1158,7 +1186,8 @@ const assets: AssetList = {
             chain_name: 'sentinel'
           },
           chain: {
-            channel_id: 'channel-15'
+            channel_id: 'channel-15',
+            path: 'transfer/channel-15/udvpn'
           }
         }]
     },
@@ -1193,7 +1222,8 @@ const assets: AssetList = {
             chain_name: 'sifchain'
           },
           chain: {
-            channel_id: 'channel-28'
+            channel_id: 'channel-28',
+            path: 'transfer/channel-28/rowan'
           }
         }]
     },
@@ -1233,7 +1263,8 @@ const assets: AssetList = {
             chain_name: 'sentinel'
           },
           chain: {
-            channel_id: 'channel-15'
+            channel_id: 'channel-15',
+            path: 'transfer/channel-15/udvpn'
           }
         }]
     },
@@ -1268,7 +1299,8 @@ const assets: AssetList = {
             chain_name: 'sifchain'
           },
           chain: {
-            channel_id: 'channel-28'
+            channel_id: 'channel-28',
+            path: 'transfer/channel-28/rowan'
           }
         }]
     }

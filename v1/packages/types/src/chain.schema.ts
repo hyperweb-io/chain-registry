@@ -8,6 +8,16 @@ export interface Endpoint {
   provider?: string;
   archive?: boolean;
 }
+export interface Snapshot {
+  provider: string;
+  url: string;
+  latest_url?: string;
+  type?: "pruned" | "archive";
+  db_backend?: "goleveldb" | "pebbledb";
+  frequency?: string;
+  compression?: "lz4" | "zstd" | "gzip" | "tar" | "none";
+  checksum_available?: boolean;
+}
 export interface Explorer {
   kind?: string;
   url?: string;
@@ -35,17 +45,17 @@ export type Repo = string;
 export type Version = string;
 export type Tag = string;
 export interface Sdk {
-  type: 'cosmos' | 'penumbra' | 'other';
+  type: "cosmos" | "penumbra" | "other";
   version?: Version;
   repo?: Repo;
   tag?: Tag;
 }
 export interface Ibc {
-  type: 'go' | 'rust' | 'other';
+  type: "go" | "rust" | "other";
   version?: Version;
   repo?: Repo;
   tag?: Tag;
-  ics_enabled?: ('ics20-1' | 'ics27-1' | 'mauth')[];
+  ics_enabled?: ("ics20-1" | "ics27-1" | "mauth")[];
 }
 export interface Cosmwasm {
   version?: Version;
@@ -55,24 +65,24 @@ export interface Cosmwasm {
   path?: string;
 }
 export interface Consensus {
-  type: 'tendermint' | 'cometbft' | 'sei-tendermint';
+  type: "tendermint" | "cometbft" | "sei-tendermint" | "cometbls";
   version?: Version;
   repo?: Repo;
   tag?: Tag;
 }
 export interface Language {
-  type: 'go' | 'rust' | 'solidity' | 'other';
+  type: "go" | "rust" | "solidity" | "other";
   version?: Version;
   repo?: Repo;
   tag?: Tag;
 }
 export interface Binaries {
-  'linux/amd64'?: string;
-  'linux/arm64'?: string;
-  'darwin/amd64'?: string;
-  'darwin/arm64'?: string;
-  'windows/amd64'?: string;
-  'windows/arm64'?: string;
+  "linux/amd64"?: string;
+  "linux/arm64"?: string;
+  "darwin/amd64"?: string;
+  "darwin/arm64"?: string;
+  "windows/amd64"?: string;
+  "windows/arm64"?: string;
 }
 export interface Pointer {
   chain_name: string;
@@ -81,15 +91,13 @@ export interface Pointer {
 export interface Chain {
   $schema?: string;
   chain_name: string;
-  chain_type: 'cosmos' | 'eip155' | 'bip122' | 'polkadot' | 'solana' | 'algorand' | 'arweave' | 'ergo' | 'fil' | 'hedera' | 'monero' | 'reef' | 'stacks' | 'starknet' | 'stellar' | 'tezos' | 'vechain' | 'waves' | 'xrpl' | 'unknown';
-  // TODO update JSON Schema
-  chain_id: string;
+  chain_type: "cosmos" | "eip155" | "bip122" | "polkadot" | "solana" | "algorand" | "arweave" | "ergo" | "fil" | "hedera" | "monero" | "reef" | "stacks" | "starknet" | "stellar" | "tezos" | "vechain" | "waves" | "xrpl" | "unknown";
+  chain_id?: string;
   pre_fork_chain_name?: string;
   pretty_name?: string;
   website?: string;
-  update_link?: string;
-  status?: 'live' | 'upcoming' | 'killed';
-  network_type?: 'mainnet' | 'testnet' | 'devnet';
+  status: "live" | "upcoming" | "killed";
+  network_type?: "mainnet" | "testnet" | "devnet";
   bech32_prefix?: string;
   bech32_config?: {
     bech32PrefixAccAddr?: string;
@@ -101,7 +109,7 @@ export interface Chain {
   };
   daemon_name?: string;
   node_home?: string;
-  key_algos?: ('secp256k1' | 'ethsecp256k1' | 'ed25519' | 'sr25519' | 'bn254')[];
+  key_algos?: ("secp256k1" | "ethsecp256k1" | "ed25519" | "sr25519" | "bn254")[];
   slip44?: number;
   alternative_slip44s?: number[];
   fees?: {
@@ -118,14 +126,11 @@ export interface Chain {
     git_repo?: string;
     recommended_version?: string;
     compatible_versions?: string[];
+    tag?: Tag;
     language?: Language;
     binaries?: Binaries;
-    cosmos_sdk_version?: string;
     sdk?: Sdk;
     consensus?: Consensus;
-    cosmwasm_version?: string;
-    cosmwasm_enabled?: boolean;
-    cosmwasm_path?: string;
     cosmwasm?: Cosmwasm;
     ibc?: Ibc;
     genesis?: {
@@ -133,37 +138,14 @@ export interface Chain {
       genesis_url: string;
       ics_ccv_url?: string;
     };
-    versions?: {
-      name: string;
-      tag?: string;
-      height?: number;
-      proposal?: number;
-      previous_version_name?: string;
-      next_version_name?: string;
-      recommended_version?: string;
-      compatible_versions?: string[];
-      language?: Language;
-      cosmos_sdk_version?: string;
-      sdk?: Sdk;
-      consensus?: Consensus;
-      cosmwasm_version?: string;
-      cosmwasm_enabled?: boolean;
-      cosmwasm_path?: string;
-      cosmwasm?: Cosmwasm;
-      ibc?: Ibc;
-      binaries?: Binaries;
-    }[];
   };
   images?: {
     image_sync?: Pointer;
     png?: string;
     svg?: string;
     theme?: {
-      primary_color_hex?: string;
-      background_color_hex?: string;
       circle?: boolean;
       dark_mode?: boolean;
-      monochrome?: boolean;
     };
   }[];
   logo_URIs?: {
@@ -180,10 +162,11 @@ export interface Chain {
     rest?: Endpoint[];
     grpc?: Endpoint[];
     wss?: Endpoint[];
-    'grpc-web'?: Endpoint[];
-    'evm-http-jsonrpc'?: Endpoint[];
+    "grpc-web"?: Endpoint[];
+    "evm-http-jsonrpc"?: Endpoint[];
   };
+  snapshots?: Snapshot[];
   explorers?: Explorer[];
   keywords?: string[];
-  extra_codecs?: ('ethermint' | 'injective')[];
+  extra_codecs?: ("ethermint" | "injective")[];
 }

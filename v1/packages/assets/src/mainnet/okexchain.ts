@@ -37,7 +37,8 @@ const assets: AssetList = {
             chain_name: 'assetmantle'
           },
           chain: {
-            channel_id: 'channel-30'
+            channel_id: 'channel-30',
+            path: 'transfer/channel-30/umntl'
           }
         }]
     },
@@ -73,7 +74,8 @@ const assets: AssetList = {
             chain_name: 'chihuahua'
           },
           chain: {
-            channel_id: 'channel-5'
+            channel_id: 'channel-5',
+            path: 'transfer/channel-5/uhuahua'
           }
         }]
     },
@@ -108,7 +110,8 @@ const assets: AssetList = {
             chain_name: 'crescent'
           },
           chain: {
-            channel_id: 'channel-46'
+            channel_id: 'channel-46',
+            path: 'transfer/channel-46/ucre'
           }
         }]
     },
@@ -143,7 +146,8 @@ const assets: AssetList = {
             chain_name: 'crescent'
           },
           chain: {
-            channel_id: 'channel-46'
+            channel_id: 'channel-46',
+            path: 'transfer/channel-46/ubcre'
           }
         }]
     },
@@ -183,7 +187,8 @@ const assets: AssetList = {
             chain_name: 'juno'
           },
           chain: {
-            channel_id: 'channel-52'
+            channel_id: 'channel-52',
+            path: 'transfer/channel-52/ujuno'
           }
         }]
     },
@@ -222,7 +227,8 @@ const assets: AssetList = {
             chain_name: 'assetmantle'
           },
           chain: {
-            channel_id: 'channel-30'
+            channel_id: 'channel-30',
+            path: 'transfer/channel-30/umntl'
           }
         }]
     },
@@ -258,7 +264,8 @@ const assets: AssetList = {
             chain_name: 'chihuahua'
           },
           chain: {
-            channel_id: 'channel-5'
+            channel_id: 'channel-5',
+            path: 'transfer/channel-5/uhuahua'
           }
         }]
     },
@@ -293,7 +300,8 @@ const assets: AssetList = {
             chain_name: 'crescent'
           },
           chain: {
-            channel_id: 'channel-46'
+            channel_id: 'channel-46',
+            path: 'transfer/channel-46/ucre'
           }
         }]
     },
@@ -328,7 +336,8 @@ const assets: AssetList = {
             chain_name: 'crescent'
           },
           chain: {
-            channel_id: 'channel-46'
+            channel_id: 'channel-46',
+            path: 'transfer/channel-46/ubcre'
           }
         }]
     },
@@ -368,7 +377,8 @@ const assets: AssetList = {
             chain_name: 'juno'
           },
           chain: {
-            channel_id: 'channel-52'
+            channel_id: 'channel-52',
+            path: 'transfer/channel-52/ujuno'
           }
         }]
     }

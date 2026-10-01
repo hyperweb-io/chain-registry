@@ -24,18 +24,15 @@ export interface Asset {
     png?: string;
     svg?: string;
     theme?: {
-      primary_color_hex?: string;
-      background_color_hex?: string;
       circle?: boolean;
       dark_mode?: boolean;
-      monochrome?: boolean;
     };
   }[];
   coingecko_id?: string;
   keywords?: string[];
   socials?: {
     website?: string;
-    twitter?: string;
+    x?: string;
     telegram?: string;
     discord?: string;
     github?: string;
@@ -61,12 +58,11 @@ export interface IbcTransition {
   };
   chain: {
     channel_id: string;
-    // temporarily set to optional (chat with Jeremy)
-    path?: string;
+    path: string;
   };
 }
 export interface IbcCw20Transition {
-  type: 'ibc-cw20';
+  type: "ibc-cw20";
   counterparty: {
     chain_name: string;
     base_denom: string;
@@ -76,12 +72,11 @@ export interface IbcCw20Transition {
   chain: {
     port: string;
     channel_id: string;
-    // temporarily set to optional (chat with Jeremy)
-    path?: string;
+    path: string;
   };
 }
 export interface IbcBridgeTransition {
-  type: 'ibc-bridge';
+  type: "ibc-bridge";
   counterparty: {
     chain_name: string;
     base_denom: string;
@@ -91,13 +86,12 @@ export interface IbcBridgeTransition {
   chain: {
     port?: string;
     channel_id: string;
-    // temporarily set to optional (chat with Jeremy)
-    path?: string;
+    path: string;
   };
   provider: string;
 }
 export interface NonIbcTransition {
-  type: 'bridge' | 'liquid-stake' | 'synthetic' | 'wrapped' | 'additional-mintage' | 'test-mintage' | 'legacy-mintage';
+  type: "bridge" | "liquid-stake" | "synthetic" | "wrapped" | "additional-mintage" | "test-mintage" | "legacy-mintage";
   counterparty: {
     chain_name: string;
     base_denom: string;

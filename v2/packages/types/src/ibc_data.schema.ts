@@ -3,6 +3,7 @@ export interface ChainOperatorInfo {
 }
 export interface ChainInfo {
   chainName: string;
+  chainId: string;
   clientId: string;
   connectionId: string;
 }
@@ -22,12 +23,9 @@ export interface IBCData {
     ordering: "ordered" | "unordered";
     version: string;
     feeVersion?: string;
-    description?: string;
     tags?: {
-      status?: "live" | "upcoming" | "killed";
       preferred?: boolean;
-      dex?: string;
-      properties?: string;
+      status?: "ACTIVE" | "INACTIVE" | "CLOSED" | "PENDING";
     };
   }[];
   operators?: {

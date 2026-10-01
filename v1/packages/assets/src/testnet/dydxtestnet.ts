@@ -34,7 +34,8 @@ const assets: AssetList = {
             chain_name: 'int3facetestnet'
           },
           chain: {
-            channel_id: 'channel-86'
+            channel_id: 'channel-86',
+            path: 'transfer/channel-86/uint3'
           }
         }]
     }, {
@@ -70,7 +71,8 @@ const assets: AssetList = {
             chain_name: 'int3facetestnet'
           },
           chain: {
-            channel_id: 'channel-86'
+            channel_id: 'channel-86',
+            path: 'transfer/channel-86/uint3'
           }
         }]
     }]

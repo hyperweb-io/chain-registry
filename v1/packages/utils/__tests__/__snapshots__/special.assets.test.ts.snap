@@ -32,6 +32,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-5",
+              "path": "transfer/channel-5/uakt",
             },
             "counterparty": {
               "base_denom": "uakt",
@@ -70,6 +71,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-24",
+              "path": "transfer/channel-24/uatom",
             },
             "counterparty": {
               "base_denom": "uatom",
@@ -107,6 +109,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-11",
+              "path": "transfer/channel-11/basecro",
             },
             "counterparty": {
               "base_denom": "basecro",
@@ -145,6 +148,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-19",
+              "path": "transfer/channel-19/uiris",
             },
             "counterparty": {
               "base_denom": "uiris",
@@ -183,6 +187,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-37",
+              "path": "transfer/channel-37/ujuno",
             },
             "counterparty": {
               "base_denom": "ujuno",
@@ -226,6 +231,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-6",
+              "path": "transfer/channel-6/uosmo",
             },
             "counterparty": {
               "base_denom": "uosmo",
@@ -266,6 +272,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-6",
+              "path": "transfer/channel-6/uion",
             },
             "counterparty": {
               "base_denom": "uion",
@@ -310,6 +317,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-6",
+              "path": "transfer/channel-6/ibc/8E697BDABE97ACE8773C6DF7402B2D1D5104DD1EEABE12608E3469B7F64C15BA",
             },
             "counterparty": {
               "base_denom": "ibc/8E697BDABE97ACE8773C6DF7402B2D1D5104DD1EEABE12608E3469B7F64C15BA",
@@ -347,6 +355,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-21",
+              "path": "transfer/channel-21/uregen",
             },
             "counterparty": {
               "base_denom": "uregen",
@@ -384,6 +393,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-22",
+              "path": "transfer/channel-22/udvpn",
             },
             "counterparty": {
               "base_denom": "udvpn",
@@ -418,6 +428,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-26",
+              "path": "transfer/channel-26/rowan",
             },
             "counterparty": {
               "base_denom": "rowan",
@@ -456,6 +467,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-27",
+              "path": "transfer/channel-27/uiov",
             },
             "counterparty": {
               "base_denom": "uiov",
@@ -500,6 +512,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-38",
+              "path": "transfer/channel-38/ugraviton",
             },
             "counterparty": {
               "base_denom": "ugraviton",
@@ -547,6 +560,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-38",
+              "path": "transfer/channel-38/gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
             },
             "counterparty": {
               "base_denom": "gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
@@ -588,6 +602,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-38",
+              "path": "transfer/channel-38/gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
             },
             "counterparty": {
               "base_denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
@@ -629,6 +644,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-38",
+              "path": "transfer/channel-38/gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
             },
             "counterparty": {
               "base_denom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
@@ -670,6 +686,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-38",
+              "path": "transfer/channel-38/gravity0xdAC17F958D2ee523a2206206994597C13D831ec7",
             },
             "counterparty": {
               "base_denom": "gravity0xdAC17F958D2ee523a2206206994597C13D831ec7",
@@ -713,6 +730,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-38",
+              "path": "transfer/channel-38/gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
             },
             "counterparty": {
               "base_denom": "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
@@ -754,6 +772,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-38",
+              "path": "transfer/channel-38/gravity0x6B175474E89094C44Da98b954EedeAC495271d0F",
             },
             "counterparty": {
               "base_denom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F",
@@ -801,6 +820,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-38",
+              "path": "transfer/channel-38/gravity0x83F20F44975D03b1b09e64809B757c47f942BEeA",
             },
             "counterparty": {
               "base_denom": "gravity0x83F20F44975D03b1b09e64809B757c47f942BEeA",
@@ -846,6 +866,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-38",
+              "path": "transfer/channel-38/gravity0x2F109021aFe75B949429fe30523Ee7C0D5B27207",
             },
             "counterparty": {
               "base_denom": "gravity0x2F109021aFe75B949429fe30523Ee7C0D5B27207",
@@ -893,6 +914,7 @@ exports[`getAssetLists 1`] = `
           {
             "chain": {
               "channel_id": "channel-38",
+              "path": "transfer/channel-38/gravity0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
             },
             "counterparty": {
               "base_denom": "gravity0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",

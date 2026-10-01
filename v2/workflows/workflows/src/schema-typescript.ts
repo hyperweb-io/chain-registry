@@ -43,6 +43,13 @@ export class SchemaTypeGenerator {
     }
   }
 
+  // `$schema` is registry-file metadata; objects assembled in code never carry it
+  private relaxSchemaRef(schema: JSONSchema): void {
+    if (Array.isArray(schema.required)) {
+      schema.required = schema.required.filter((key: string) => key !== '$schema');
+    }
+  }
+
   private isSchemaSupported(filePath: string): boolean {
     if (this.supportedSchemas.size === 0) return true; // If no filter is provided, process all files
     const filename = basename(filePath);
@@ -63,6 +70,7 @@ export class SchemaTypeGenerator {
         try {
           const schema = fileInfo.content;
           this.updateSchemaTitle(schema, schemaFile);
+          this.relaxSchemaRef(schema);
           const result = generateTypeScript(schema, this.schemaTSOptions);
           const filename = this.getOutputFilename(schemaFile);
           this.ensureDirExists(filename);

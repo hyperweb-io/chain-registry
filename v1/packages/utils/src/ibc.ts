@@ -289,6 +289,8 @@ export const getIbcAssets = (
     const assets = v.assets
       .map((asset) => {
         try {
+          const baseDenom =
+            asset.denom_units[0]?.aliases?.[0] ?? asset.denom_units[0].denom;
           return {
             ...asset,
             traces: [
@@ -298,15 +300,14 @@ export const getIbcAssets = (
                   // source_channel
                   channel_id: v.counterparty.channel_id,
                   // source_denom
-                  base_denom:
-                    asset.denom_units[0]?.aliases?.[0] ??
-                    asset.denom_units[0].denom,
+                  base_denom: baseDenom,
                   chain_name: v.counterparty.chain_name
                   // port: v.counterparty.port_id
                 },
                 chain: {
                   // dst_denom
-                  channel_id: v.chain.channel_id
+                  channel_id: v.chain.channel_id,
+                  path: `${v.chain.port_id}/${v.chain.channel_id}/${baseDenom}`
                   // chain_name: v.chain.chain_name,
                   // port: v.chain.port_id
                 }
@@ -431,6 +432,8 @@ export const getCw20Assets = (
     const assets = assetList.assets
       .map((asset: Asset) => {
         try {
+          const baseDenom =
+            asset.denom_units[0]?.aliases?.[0] ?? asset.denom_units[0].denom;
           return {
             ...asset,
             traces: [
@@ -441,15 +444,14 @@ export const getCw20Assets = (
                   // source_channel
                   channel_id: v.counterparty.channel_id,
                   // source_denom
-                  base_denom:
-                    asset.denom_units[0]?.aliases?.[0] ??
-                    asset.denom_units[0].denom,
+                  base_denom: baseDenom,
                   chain_name: v.counterparty.chain_name
                 },
                 chain: {
                   // dst_denom
                   port: v.chain.port_id,
-                  channel_id: v.chain.channel_id
+                  channel_id: v.chain.channel_id,
+                  path: `${v.chain.port_id}/${v.chain.channel_id}/${baseDenom}`
                   // chain_name: v.chain.chain_name,
                 }
               }

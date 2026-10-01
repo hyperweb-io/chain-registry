@@ -8,6 +8,16 @@ export interface Endpoint {
   provider?: string;
   archive?: boolean;
 }
+export interface Snapshot {
+  provider: string;
+  url: string;
+  latestUrl?: string;
+  type?: "pruned" | "archive";
+  dbBackend?: "goleveldb" | "pebbledb";
+  frequency?: string;
+  compression?: "lz4" | "zstd" | "gzip" | "tar" | "none";
+  checksumAvailable?: boolean;
+}
 export interface Explorer {
   kind?: string;
   url?: string;
@@ -55,7 +65,7 @@ export interface Cosmwasm {
   path?: string;
 }
 export interface Consensus {
-  type: "tendermint" | "cometbft" | "sei-tendermint";
+  type: "tendermint" | "cometbft" | "sei-tendermint" | "cometbls";
   version?: Version;
   repo?: Repo;
   tag?: Tag;
@@ -86,7 +96,7 @@ export interface Chain {
   preForkChainName?: string;
   prettyName?: string;
   website?: string;
-  status?: "live" | "upcoming" | "killed";
+  status: "live" | "upcoming" | "killed";
   networkType?: "mainnet" | "testnet" | "devnet";
   bech32Prefix?: string;
   bech32Config?: {
@@ -116,14 +126,11 @@ export interface Chain {
     gitRepo?: string;
     recommendedVersion?: string;
     compatibleVersions?: string[];
+    tag?: Tag;
     language?: Language;
     binaries?: Binaries;
-    cosmosSdkVersion?: string;
     sdk?: Sdk;
     consensus?: Consensus;
-    cosmwasmVersion?: string;
-    cosmwasmEnabled?: boolean;
-    cosmwasmPath?: string;
     cosmwasm?: Cosmwasm;
     ibc?: Ibc;
     genesis?: {
@@ -131,37 +138,14 @@ export interface Chain {
       genesisUrl: string;
       icsCcvUrl?: string;
     };
-    versions?: {
-      name: string;
-      tag?: string;
-      height?: number;
-      proposal?: number;
-      previousVersionName?: string;
-      nextVersionName?: string;
-      recommendedVersion?: string;
-      compatibleVersions?: string[];
-      language?: Language;
-      cosmosSdkVersion?: string;
-      sdk?: Sdk;
-      consensus?: Consensus;
-      cosmwasmVersion?: string;
-      cosmwasmEnabled?: boolean;
-      cosmwasmPath?: string;
-      cosmwasm?: Cosmwasm;
-      ibc?: Ibc;
-      binaries?: Binaries;
-    }[];
   };
   images?: {
     imageSync?: Pointer;
     png?: string;
     svg?: string;
     theme?: {
-      primaryColorHex?: string;
-      backgroundColorHex?: string;
       circle?: boolean;
       darkMode?: boolean;
-      monochrome?: boolean;
     };
   }[];
   logoURIs?: {
@@ -181,6 +165,7 @@ export interface Chain {
     grpcWeb?: Endpoint[];
     evmHttpJsonrpc?: Endpoint[];
   };
+  snapshots?: Snapshot[];
   explorers?: Explorer[];
   keywords?: string[];
   extraCodecs?: ("ethermint" | "injective")[];

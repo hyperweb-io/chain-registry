@@ -33,7 +33,8 @@ const assets: AssetList = {
             chain_name: 'cosmosicsprovidertestnet'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/uatom'
           }
         }]
     },
@@ -75,7 +76,8 @@ const assets: AssetList = {
             chain_name: 'elystestnet'
           },
           chain: {
-            channel_id: 'channel-3'
+            channel_id: 'channel-3',
+            path: 'transfer/channel-3/ueden'
           }
         }]
     },
@@ -110,7 +112,8 @@ const assets: AssetList = {
             chain_name: 'cosmosicsprovidertestnet'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/uatom'
           }
         }]
     },
@@ -152,7 +155,8 @@ const assets: AssetList = {
             chain_name: 'elystestnet'
           },
           chain: {
-            channel_id: 'channel-3'
+            channel_id: 'channel-3',
+            path: 'transfer/channel-3/ueden'
           }
         }]
     }

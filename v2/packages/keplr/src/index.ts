@@ -54,6 +54,13 @@ function normalizeVersion(version: string): string {
 
 
 
+// fields dropped from the upstream schema but still present in older chain objects
+type LegacyCodebase = NonNullable<Chain['codebase']> & {
+  cosmosSdkVersion?: string;
+  cosmwasmEnabled?: boolean;
+  cosmwasmVersion?: string;
+};
+
 export const chainRegistryChainToKeplr = (
   chain: Chain,
   assets: AssetList[],
@@ -73,16 +80,18 @@ export const chainRegistryChainToKeplr = (
 
   const features = [];
 
+  const codebase = chain.codebase as LegacyCodebase | undefined;
+
   // check if it's a Cosmos SDK chain (either new or old format)
-  const isCosmosSDKChain = chain.codebase?.sdk?.type === 'cosmos' || !!chain.codebase?.cosmosSdkVersion;
+  const isCosmosSDKChain = codebase?.sdk?.type === 'cosmos' || !!codebase?.cosmosSdkVersion;
 
   if (isCosmosSDKChain) {
     // determine SDK version
     let sdkVer;
     if (chain.codebase?.sdk?.type === 'cosmos' && chain.codebase.sdk.version) {
       sdkVer = extractVersion(chain.codebase.sdk.version);
-    } else if (chain.codebase?.cosmosSdkVersion) {
-      sdkVer = extractVersion(chain.codebase.cosmosSdkVersion);
+    } else if (codebase?.cosmosSdkVersion) {
+      sdkVer = extractVersion(codebase.cosmosSdkVersion);
     } else {
       // if NOT specified, we assume stargate, sorry not sorry
       sdkVer = '0.40.0'; 
@@ -99,11 +108,11 @@ export const chainRegistryChainToKeplr = (
     if (semver.satisfies(sdkVer, '>=0.45')) features.push('ibc-go');
 
     // CosmWasm feature detection
-    const cosmwasmEnabled = chain.codebase?.cosmwasm?.enabled ?? chain.codebase?.cosmwasmEnabled ?? false;
+    const cosmwasmEnabled = chain.codebase?.cosmwasm?.enabled ?? codebase?.cosmwasmEnabled ?? false;
     if (cosmwasmEnabled) {
       features.push('cosmwasm');
       const wasmVer = extractVersion(
-        chain.codebase?.cosmwasm?.version ?? chain.codebase?.cosmwasmVersion ?? '0.24.0'
+        chain.codebase?.cosmwasm?.version ?? codebase?.cosmwasmVersion ?? '0.24.0'
       );
       if (semver.satisfies(wasmVer, '>=0.24.0')) features.push('wasmd_0.24+');
     }

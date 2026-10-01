@@ -22,7 +22,7 @@ export interface Cosmwasm {
   path?: string;
 }
 export interface Consensus {
-  type: "tendermint" | "cometbft" | "sei-tendermint";
+  type: "tendermint" | "cometbft" | "sei-tendermint" | "cometbls";
   version?: Version;
   repo?: Repo;
   tag?: Tag;
@@ -53,17 +53,11 @@ export interface Versions {
     nextVersionName?: string;
     recommendedVersion?: string;
     compatibleVersions?: string[];
-    cosmosSdkVersion?: string;
     sdk?: Sdk;
     consensus?: Consensus;
-    cosmwasmVersion?: string;
-    cosmwasmEnabled?: boolean;
-    cosmwasmPath?: string;
     cosmwasm?: Cosmwasm;
-    ibcGoVersion?: string;
     ibc?: Ibc;
     language?: Language;
-    icsEnabled?: ("ics20-1" | "ics27-1" | "mauth")[];
     binaries?: Binaries;
   }[];
 }

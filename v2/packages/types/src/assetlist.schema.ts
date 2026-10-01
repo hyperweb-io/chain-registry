@@ -3,7 +3,7 @@ export interface Asset {
   description?: string;
   extendedDescription?: string;
   denomUnits: DenomUnit[];
-  typeAsset: "sdk.coin" | "cw20" | "erc20" | "ics20" | "snip20" | "snip25" | "bitcoin-like" | "evm-base" | "svm-base" | "substrate" | "sdk.factory" | "bitsong" | "unknown";
+  typeAsset: "sdk.coin" | "cw20" | "erc20" | "ics20" | "snip20" | "snip25" | "bitcoin-like" | "evm-base" | "svm-base" | "substrate" | "unknown";
   address?: string;
   base: string;
   name: string;
@@ -24,18 +24,15 @@ export interface Asset {
     png?: string;
     svg?: string;
     theme?: {
-      primaryColorHex?: string;
-      backgroundColorHex?: string;
       circle?: boolean;
       darkMode?: boolean;
-      monochrome?: boolean;
     };
   }[];
   coingeckoId?: string;
   keywords?: string[];
   socials?: {
     website?: string;
-    twitter?: string;
+    x?: string;
     telegram?: string;
     discord?: string;
     github?: string;
@@ -61,8 +58,7 @@ export interface IbcTransition {
   };
   chain: {
     channelId: string;
-    // temporarily optional (talk with Jeremy)
-    path?: string;
+    path: string;
   };
 }
 export interface IbcCw20Transition {
@@ -76,8 +72,7 @@ export interface IbcCw20Transition {
   chain: {
     port: string;
     channelId: string;
-    // temporarily optional (talk with Jeremy)
-    path?: string;
+    path: string;
   };
 }
 export interface IbcBridgeTransition {
@@ -91,8 +86,7 @@ export interface IbcBridgeTransition {
   chain: {
     port?: string;
     channelId: string;
-    // temporarily optional (talk with Jeremy)
-    path?: string;
+    path: string;
   };
   provider: string;
 }
