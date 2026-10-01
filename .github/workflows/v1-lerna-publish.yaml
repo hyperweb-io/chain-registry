@@ -14,12 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           submodules: "true"
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: '22'
           registry-url: https://registry.npmjs.org/
@@ -42,7 +42,7 @@ jobs:
           pushd v1
           yarn
           yarn lerna publish --force-publish=chain-registry --no-verify-access --yes --dist-tag legacy
-          yarn lerna publish from-package --no-verify-access --yes
+          yarn lerna publish from-package --no-verify-access --yes --dist-tag legacy
           popd
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_PUBLISH_SECRET}}
