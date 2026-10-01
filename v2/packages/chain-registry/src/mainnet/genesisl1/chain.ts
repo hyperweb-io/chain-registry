@@ -95,6 +95,20 @@ const info: Chain = {
         address: 'https://evm.vicky.gl1infra.online',
         provider: 'GL1Infra'
       }
+    ],
+    grpc: [
+      {
+        address: 'https://grpc.lcserve.net',
+        provider: 'LCserve'
+      },
+      {
+        address: 'https://grpc.vicky.gl1infra.online',
+        provider: 'GL1Infra'
+      },
+      {
+        address: 'https://grpc.gl1infra.online',
+        provider: 'GL1Infra'
+      }
     ]
   },
   explorers: [
