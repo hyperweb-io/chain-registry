@@ -103,6 +103,10 @@ const info: Chain = {
       {
         address: 'https://cheqd-rpc.polkachu.com:443',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://cheqd-mainnet-rpc.crouton.digital',
+        provider: 'Crouton Digital'
       }
     ],
     rest: [
@@ -153,6 +157,10 @@ const info: Chain = {
       {
         address: 'https://cheqd-api.polkachu.com',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://cheqd-mainnet-api.crouton.digital',
+        provider: 'Crouton Digital'
       }
     ],
     grpc: [
@@ -191,6 +199,10 @@ const info: Chain = {
       {
         address: 'cheqd-grpc.polkachu.com:16190',
         provider: 'Polkachu'
+      },
+      {
+        address: 'cheqd-mainnet-grpc.crouton.digital:16190',
+        provider: 'Crouton Digital'
       }
     ]
   },
@@ -250,6 +262,12 @@ const info: Chain = {
       url: 'https://moon-runners.net/cheqd/mainnet',
       txPage: 'https://moon-runners.net/cheqd/mainnet/finder?search=${txHash}',
       accountPage: 'https://moon-runners.net/cheqd/mainnet/finder?search=${accountAddress}'
+    },
+    {
+      kind: 'Crouton Digital',
+      url: 'https://explorer.crouton.digital/mainnets/cheqd/overview',
+      txPage: 'https://explorer.crouton.digital/mainnets/cheqd/transactions/${txHash}',
+      accountPage: 'https://explorer.crouton.digital/mainnets/cheqd/account/${accountAddress}'
     }
   ],
   logoURIs: {
@@ -266,6 +284,11 @@ const info: Chain = {
       compression: 'lz4',
       checksumAvailable: false,
       provider: 'Polkachu'
+    }, {
+      provider: 'Crouton Digital',
+      url: 'https://storage.crouton.digital/mainnet/cheqd/snapshots/cheqd_latest.tar.lz4',
+      type: 'pruned',
+      compression: 'lz4'
     }]
 };
 export default info;
