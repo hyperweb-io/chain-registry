@@ -20,7 +20,7 @@ const info: AssetList = {
           type: 'test-mintage',
           counterparty: {
             chain_name: 'zigchain',
-            base_denom: 'uzig'
+            base_denom: 'azig'
           },
           provider: 'ZIGChain'
         }],
@@ -40,7 +40,7 @@ const info: AssetList = {
       images: [{
           image_sync: {
             chain_name: 'zigchain',
-            base_denom: 'uzig'
+            base_denom: 'azig'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg'

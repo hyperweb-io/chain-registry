@@ -2,7 +2,8 @@ import { AssetList } from '@chain-registry/types';
 const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chain_name: 'agoric',
-  assets: [{
+  assets: [
+    {
       description: 'Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.',
       extended_description: 'Agoric leverages the popular JavaScript programming language to provide a secure and scalable platform for building decentralized applications (dApps). By using a familiar language, Agoric aims to lower the entry barriers for developers and promote the widespread adoption of blockchain technology. The platform\'s native token, BLD, is used for staking, securing the network, and governance. Agoric\'s innovative approach focuses on enabling rapid development and deployment of dApps, fostering a robust ecosystem of interoperable blockchain applications.',
       denom_units: [{
@@ -30,7 +31,8 @@ const info: AssetList = {
         x: 'https://x.com/agoric'
       },
       type_asset: 'sdk.coin'
-    }, {
+    },
+    {
       description: 'IST is the stable token used by the Agoric chain for execution fees and commerce.',
       denom_units: [{
           denom: 'uist',
@@ -53,6 +55,50 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg'
         }],
       type_asset: 'sdk.coin'
-    }]
+    },
+    {
+      description: 'USD Coin issued natively on Injective by Circle',
+      denom_units: [{
+          denom: 'ibc/A7BE5E1F50DE0393383EC287BDD0FDAA9B546736F7511F8E494ECB05533DAAE8',
+          exponent: 0
+        }, {
+          denom: 'usdc',
+          exponent: 6
+        }],
+      type_asset: 'ics20',
+      base: 'ibc/A7BE5E1F50DE0393383EC287BDD0FDAA9B546736F7511F8E494ECB05533DAAE8',
+      name: 'Injective USDC',
+      display: 'usdc',
+      symbol: 'USDC.inj',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chain_name: 'injective',
+            base_denom: 'erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a',
+            channel_id: 'channel-454'
+          },
+          chain: {
+            channel_id: 'channel-492',
+            path: 'transfer/channel-492/erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a'
+          }
+        }],
+      images: [{
+          image_sync: {
+            chain_name: 'injective',
+            base_denom: 'erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+      },
+      coingecko_id: 'usd-coin'
+    }
+  ]
 };
 export default info;
