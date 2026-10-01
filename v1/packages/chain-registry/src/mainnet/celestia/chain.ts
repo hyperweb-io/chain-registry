@@ -169,6 +169,10 @@ const info: Chain = {
       {
         address: 'https://celestia-rpc.cogwheel.zone',
         provider: 'Cogwheel ⚙️'
+      },
+      {
+        address: 'https://celestia-mainnet-rpc.crouton.digital',
+        provider: 'Crouton Digital'
       }
     ],
     rest: [
@@ -267,6 +271,10 @@ const info: Chain = {
       {
         address: 'https://celestia-api.cogwheel.zone',
         provider: 'Cogwheel ⚙️'
+      },
+      {
+        address: 'https://celestia-mainnet-api.crouton.digital',
+        provider: 'Crouton Digital'
       }
     ],
     grpc: [
@@ -345,6 +353,10 @@ const info: Chain = {
       {
         address: 'celestia-grpc.cogwheel.zone:443',
         provider: 'Cogwheel ⚙️'
+      },
+      {
+        address: 'celestia-mainnet-grpc.crouton.digital:11690',
+        provider: 'Crouton Digital'
       }
     ],
     wss: [{
@@ -444,6 +456,12 @@ const info: Chain = {
       url: 'https://moon-runners.net/celestia/mainnet',
       tx_page: 'https://moon-runners.net/celestia/mainnet/finder?search=${txHash}',
       account_page: 'https://moon-runners.net/celestia/mainnet/finder?search=${accountAddress}'
+    },
+    {
+      kind: 'Crouton Digital',
+      url: 'https://explorer.crouton.digital/mainnets/celestia/overview',
+      tx_page: 'https://explorer.crouton.digital/mainnets/celestia/transactions/${txHash}',
+      account_page: 'https://explorer.crouton.digital/mainnets/celestia/account/${accountAddress}'
     }
   ],
   images: [{
@@ -456,6 +474,11 @@ const info: Chain = {
       compression: 'lz4',
       checksum_available: false,
       provider: 'Polkachu'
+    }, {
+      provider: 'Crouton Digital',
+      url: 'https://storage.crouton.digital/mainnet/celestia/snapshots/celestia_latest.tar.lz4',
+      type: 'pruned',
+      compression: 'lz4'
     }]
 };
 export default info;

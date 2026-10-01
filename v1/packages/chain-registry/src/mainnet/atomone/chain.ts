@@ -192,6 +192,10 @@ const info: Chain = {
       {
         address: 'https://atomone-rpc.kleomedes.network',
         provider: 'Kleomedes'
+      },
+      {
+        address: 'https://atomone-mainnet-rpc.crouton.digital',
+        provider: 'Crouton Digital'
       }
     ],
     rest: [
@@ -322,6 +326,10 @@ const info: Chain = {
       {
         address: 'https://atomone-api.kleomedes.network',
         provider: 'Kleomedes'
+      },
+      {
+        address: 'https://atomone-mainnet-api.crouton.digital',
+        provider: 'Crouton Digital'
       }
     ],
     grpc: [
@@ -408,6 +416,10 @@ const info: Chain = {
       {
         address: 'atomone-mainnet-grpc.oshvank.xyz:443',
         provider: '🏆OshVanK🏆'
+      },
+      {
+        address: 'atomone-mainnet-grpc.crouton.digital:30690',
+        provider: 'Crouton Digital'
       }
     ]
   },
@@ -537,6 +549,12 @@ const info: Chain = {
       url: 'https://moon-runners.net/atomone/mainnet',
       tx_page: 'https://moon-runners.net/atomone/mainnet/finder?search=${txHash}',
       account_page: 'https://moon-runners.net/atomone/mainnet/finder?search=${accountAddress}'
+    },
+    {
+      kind: 'Crouton Digital',
+      url: 'https://explorer.crouton.digital/mainnets/atomone/overview',
+      tx_page: 'https://explorer.crouton.digital/mainnets/atomone/transactions/${txHash}',
+      account_page: 'https://explorer.crouton.digital/mainnets/atomone/account/${accountAddress}'
     }
   ],
   images: [{
@@ -549,6 +567,11 @@ const info: Chain = {
       type: 'pruned',
       compression: 'zstd',
       provider: 'Kleomedes'
+    }, {
+      provider: 'Crouton Digital',
+      url: 'https://storage.crouton.digital/mainnet/atomone/snapshots/atomone_latest.tar.lz4',
+      type: 'pruned',
+      compression: 'lz4'
     }]
 };
 export default info;
