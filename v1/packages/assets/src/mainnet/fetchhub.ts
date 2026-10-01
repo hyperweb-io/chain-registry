@@ -39,7 +39,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-10'
+            channel_id: 'channel-10',
+            path: 'transfer/channel-10/uosmo'
           }
         }]
     },
@@ -80,7 +81,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-10'
+            channel_id: 'channel-10',
+            path: 'transfer/channel-10/uion'
           }
         }]
     },
@@ -121,7 +123,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-10'
+            channel_id: 'channel-10',
+            path: 'transfer/channel-10/uosmo'
           }
         }]
     },
@@ -162,7 +165,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-10'
+            channel_id: 'channel-10',
+            path: 'transfer/channel-10/uion'
           }
         }]
     }

@@ -38,7 +38,8 @@ const assets: AssetList = {
             chain_name: 'axelar'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/uaxl'
           }
         }]
     },
@@ -78,7 +79,8 @@ const assets: AssetList = {
             chain_name: 'axelar'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/uaxl'
           }
         }]
     },
@@ -119,7 +121,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/uosmo'
           }
         }]
     },
@@ -160,7 +163,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/uion'
           }
         }]
     },
@@ -201,7 +205,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/uosmo'
           }
         }]
     },
@@ -242,7 +247,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/uion'
           }
         }]
     }

@@ -33,6 +33,7 @@ exports[`getCw20Assets 1`] = `
           {
             "chain": {
               "channel_id": "channel-169",
+              "path": "transfer/channel-169/cw20:juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr",
               "port": "transfer",
             },
             "counterparty": {
@@ -75,6 +76,7 @@ exports[`getCw20Assets 1`] = `
           {
             "chain": {
               "channel_id": "channel-169",
+              "path": "transfer/channel-169/cw20:juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl",
               "port": "transfer",
             },
             "counterparty": {
@@ -117,6 +119,7 @@ exports[`getCw20Assets 1`] = `
           {
             "chain": {
               "channel_id": "channel-169",
+              "path": "transfer/channel-169/cw20:juno1re3x67ppxap48ygndmrc7har2cnc7tcxtm9nplcas4v0gc3wnmvs3s807z",
               "port": "transfer",
             },
             "counterparty": {
@@ -159,6 +162,7 @@ exports[`getCw20Assets 1`] = `
           {
             "chain": {
               "channel_id": "channel-169",
+              "path": "transfer/channel-169/cw20:juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa",
               "port": "transfer",
             },
             "counterparty": {
@@ -200,6 +204,7 @@ exports[`getCw20Assets 1`] = `
           {
             "chain": {
               "channel_id": "channel-169",
+              "path": "transfer/channel-169/cw20:juno1y9rf7ql6ffwkv02hsgd4yruz23pn4w97p75e2slsnkm0mnamhzysvqnxaq",
               "port": "transfer",
             },
             "counterparty": {
@@ -237,6 +242,7 @@ exports[`getCw20Assets 1`] = `
           {
             "chain": {
               "channel_id": "channel-169",
+              "path": "transfer/channel-169/cw20:juno1tdjwrqmnztn2j3sj2ln9xnyps5hs48q3ddwjrz7jpv6mskappjys5czd49",
               "port": "transfer",
             },
             "counterparty": {
@@ -278,6 +284,7 @@ exports[`getCw20Assets 1`] = `
           {
             "chain": {
               "channel_id": "channel-169",
+              "path": "transfer/channel-169/cw20:juno15u3dt79t6sxxa3x3kpkhzsy56edaa5a66wvt3kxmukqjz2sx0hes5sn38g",
               "port": "transfer",
             },
             "counterparty": {
@@ -318,6 +325,7 @@ exports[`getCw20Assets 1`] = `
           {
             "chain": {
               "channel_id": "channel-169",
+              "path": "transfer/channel-169/cw20:juno17wzaxtfdw5em7lc94yed4ylgjme63eh73lm3lutp2rhcxttyvpwsypjm4w",
               "port": "transfer",
             },
             "counterparty": {
@@ -358,6 +366,7 @@ exports[`getCw20Assets 1`] = `
           {
             "chain": {
               "channel_id": "channel-169",
+              "path": "transfer/channel-169/cw20:juno1ur4jx0sxchdevahep7fwq28yk4tqsrhshdtylz46yka3uf6kky5qllqp4k",
               "port": "transfer",
             },
             "counterparty": {
@@ -398,6 +407,7 @@ exports[`getCw20Assets 1`] = `
           {
             "chain": {
               "channel_id": "channel-169",
+              "path": "transfer/channel-169/cw20:juno1n7n7d5088qlzlj37e9mgmkhx6dfgtvt02hqxq66lcap4dxnzdhwqfmgng3",
               "port": "transfer",
             },
             "counterparty": {
@@ -439,6 +449,7 @@ exports[`getCw20Assets 1`] = `
           {
             "chain": {
               "channel_id": "channel-169",
+              "path": "transfer/channel-169/cw20:juno1sfwye65qxcfsc837gu5qcprcz7w49gkv3wnat04764ld76hy3arqs779tr",
               "port": "transfer",
             },
             "counterparty": {
@@ -480,6 +491,7 @@ exports[`getCw20Assets 1`] = `
           {
             "chain": {
               "channel_id": "channel-169",
+              "path": "transfer/channel-169/cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se",
               "port": "transfer",
             },
             "counterparty": {
@@ -521,6 +533,7 @@ exports[`getCw20Assets 1`] = `
           {
             "chain": {
               "channel_id": "channel-169",
+              "path": "transfer/channel-169/cw20:juno1gz8cf86zr4vw9cjcyyv432vgdaecvr9n254d3uwwkx9rermekddsxzageh",
               "port": "transfer",
             },
             "counterparty": {
@@ -562,6 +575,7 @@ exports[`getCw20Assets 1`] = `
           {
             "chain": {
               "channel_id": "channel-169",
+              "path": "transfer/channel-169/cw20:juno1rdw3gumdz7zyjn2pev9ugxs765xlv6vtv6g3jt2lqw580zrchvjs66daca",
               "port": "transfer",
             },
             "counterparty": {
@@ -603,6 +617,7 @@ exports[`getCw20Assets 1`] = `
           {
             "chain": {
               "channel_id": "channel-261",
+              "path": "transfer/channel-261/cw20:ki1dt3lk455ed360pna38fkhqn0p8y44qndsr77qu73ghyaz2zv4whq83mwdy",
               "port": "transfer",
             },
             "counterparty": {

@@ -33,7 +33,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/ustake'
           }
         }]
     },
@@ -66,7 +67,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/ufrienzies'
           }
         }]
     },
@@ -106,7 +108,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/ausdy'
           }
         }]
     },
@@ -141,7 +144,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/uusdn'
           }
         }]
     },
@@ -176,7 +180,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/ustake'
           }
         }]
     },
@@ -209,7 +214,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/ufrienzies'
           }
         }]
     },
@@ -249,7 +255,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/ausdy'
           }
         }]
     },
@@ -284,7 +291,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/uusdn'
           }
         }]
     }

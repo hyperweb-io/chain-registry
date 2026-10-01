@@ -38,7 +38,8 @@ const assets: AssetList = {
             chain_name: 'dymension'
           },
           chain: {
-            channel_id: 'channel-208'
+            channel_id: 'channel-208',
+            path: 'transfer/channel-208/adym'
           }
         }]
     },
@@ -78,7 +79,8 @@ const assets: AssetList = {
             chain_name: 'juno'
           },
           chain: {
-            channel_id: 'channel-11'
+            channel_id: 'channel-11',
+            path: 'transfer/channel-11/ujuno'
           }
         }]
     },
@@ -113,7 +115,8 @@ const assets: AssetList = {
             chain_name: 'migaloo'
           },
           chain: {
-            channel_id: 'channel-39'
+            channel_id: 'channel-39',
+            path: 'transfer/channel-39/uwhale'
           }
         }]
     },
@@ -156,7 +159,8 @@ const assets: AssetList = {
             chain_name: 'neutron'
           },
           chain: {
-            channel_id: 'channel-76'
+            channel_id: 'channel-76',
+            path: 'transfer/channel-76/untrn'
           }
         }]
     },
@@ -189,7 +193,8 @@ const assets: AssetList = {
             chain_name: 'neutron'
           },
           chain: {
-            channel_id: 'channel-76'
+            channel_id: 'channel-76',
+            path: 'transfer/channel-76/neutron1fjzg7fmv770hsvahqm0nwnu6grs3rjnd2wa6fvm9unv6vedkzekqpw44qj'
           }
         }]
     },
@@ -222,7 +227,8 @@ const assets: AssetList = {
             chain_name: 'neutron'
           },
           chain: {
-            channel_id: 'channel-76'
+            channel_id: 'channel-76',
+            path: 'transfer/channel-76/neutron12h09p8hq5y4xpsmcuxxzsn9juef4f6jvekp8yefc6xnlwm6uumnsdk29wf'
           }
         }]
     },
@@ -255,7 +261,8 @@ const assets: AssetList = {
             chain_name: 'neutron'
           },
           chain: {
-            channel_id: 'channel-76'
+            channel_id: 'channel-76',
+            path: 'transfer/channel-76/neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv'
           }
         }]
     },
@@ -288,7 +295,8 @@ const assets: AssetList = {
             chain_name: 'okexchain'
           },
           chain: {
-            channel_id: 'channel-24'
+            channel_id: 'channel-24',
+            path: 'transfer/channel-24/wei'
           }
         }]
     },
@@ -329,7 +337,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-7',
+            path: 'transfer/channel-7/uosmo'
           }
         }]
     },
@@ -370,7 +379,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-7',
+            path: 'transfer/channel-7/uion'
           }
         }]
     },
@@ -413,7 +423,8 @@ const assets: AssetList = {
             chain_name: 'persistence'
           },
           chain: {
-            channel_id: 'channel-94'
+            channel_id: 'channel-94',
+            path: 'transfer/channel-94/uxprt'
           }
         }]
     },
@@ -451,7 +462,8 @@ const assets: AssetList = {
             chain_name: 'secretnetwork'
           },
           chain: {
-            channel_id: 'channel-16'
+            channel_id: 'channel-16',
+            path: 'transfer/channel-16/uscrt'
           }
         }]
     },
@@ -485,7 +497,8 @@ const assets: AssetList = {
             chain_name: 'stafihub'
           },
           chain: {
-            channel_id: 'channel-25'
+            channel_id: 'channel-25',
+            path: 'transfer/channel-25/ufis'
           }
         }]
     },
@@ -525,7 +538,8 @@ const assets: AssetList = {
             chain_name: 'dymension'
           },
           chain: {
-            channel_id: 'channel-208'
+            channel_id: 'channel-208',
+            path: 'transfer/channel-208/adym'
           }
         }]
     },
@@ -565,7 +579,8 @@ const assets: AssetList = {
             chain_name: 'juno'
           },
           chain: {
-            channel_id: 'channel-11'
+            channel_id: 'channel-11',
+            path: 'transfer/channel-11/ujuno'
           }
         }]
     },
@@ -600,7 +615,8 @@ const assets: AssetList = {
             chain_name: 'migaloo'
           },
           chain: {
-            channel_id: 'channel-39'
+            channel_id: 'channel-39',
+            path: 'transfer/channel-39/uwhale'
           }
         }]
     },
@@ -643,7 +659,8 @@ const assets: AssetList = {
             chain_name: 'neutron'
           },
           chain: {
-            channel_id: 'channel-76'
+            channel_id: 'channel-76',
+            path: 'transfer/channel-76/untrn'
           }
         }]
     },
@@ -676,7 +693,8 @@ const assets: AssetList = {
             chain_name: 'neutron'
           },
           chain: {
-            channel_id: 'channel-76'
+            channel_id: 'channel-76',
+            path: 'transfer/channel-76/neutron1fjzg7fmv770hsvahqm0nwnu6grs3rjnd2wa6fvm9unv6vedkzekqpw44qj'
           }
         }]
     },
@@ -709,7 +727,8 @@ const assets: AssetList = {
             chain_name: 'neutron'
           },
           chain: {
-            channel_id: 'channel-76'
+            channel_id: 'channel-76',
+            path: 'transfer/channel-76/neutron12h09p8hq5y4xpsmcuxxzsn9juef4f6jvekp8yefc6xnlwm6uumnsdk29wf'
           }
         }]
     },
@@ -742,7 +761,8 @@ const assets: AssetList = {
             chain_name: 'neutron'
           },
           chain: {
-            channel_id: 'channel-76'
+            channel_id: 'channel-76',
+            path: 'transfer/channel-76/neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv'
           }
         }]
     },
@@ -775,7 +795,8 @@ const assets: AssetList = {
             chain_name: 'okexchain'
           },
           chain: {
-            channel_id: 'channel-24'
+            channel_id: 'channel-24',
+            path: 'transfer/channel-24/wei'
           }
         }]
     },
@@ -816,7 +837,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-7',
+            path: 'transfer/channel-7/uosmo'
           }
         }]
     },
@@ -857,7 +879,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-7',
+            path: 'transfer/channel-7/uion'
           }
         }]
     },
@@ -900,7 +923,8 @@ const assets: AssetList = {
             chain_name: 'persistence'
           },
           chain: {
-            channel_id: 'channel-94'
+            channel_id: 'channel-94',
+            path: 'transfer/channel-94/uxprt'
           }
         }]
     },
@@ -938,7 +962,8 @@ const assets: AssetList = {
             chain_name: 'secretnetwork'
           },
           chain: {
-            channel_id: 'channel-16'
+            channel_id: 'channel-16',
+            path: 'transfer/channel-16/uscrt'
           }
         }]
     },
@@ -972,7 +997,8 @@ const assets: AssetList = {
             chain_name: 'stafihub'
           },
           chain: {
-            channel_id: 'channel-25'
+            channel_id: 'channel-25',
+            path: 'transfer/channel-25/ufis'
           }
         }]
     },
@@ -1014,7 +1040,8 @@ const assets: AssetList = {
           },
           chain: {
             port: 'wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52',
-            channel_id: 'channel-77'
+            channel_id: 'channel-77',
+            path: 'wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52/channel-77/cw20:neutron10dxyft3nv4vpxh5vrpn0xw8geej8dw3g39g7nqp8mrm307ypssksau29af'
           }
         }]
     },
@@ -1044,7 +1071,8 @@ const assets: AssetList = {
           },
           chain: {
             port: 'wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52',
-            channel_id: 'channel-77'
+            channel_id: 'channel-77',
+            path: 'wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52/channel-77/cw20:neutron1vjl4ze7gr32lar5s4fj776v70j4ml7mlt4aqln2hwgfhqjck8xwqfhx8vj'
           }
         }],
       logo_URIs: {
@@ -1088,7 +1116,8 @@ const assets: AssetList = {
           },
           chain: {
             port: 'wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52',
-            channel_id: 'channel-77'
+            channel_id: 'channel-77',
+            path: 'wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52/channel-77/cw20:neutron15e56mauwr8n2cma56f78cvtnd9c2pr0y7f4mffdwda7z49sksyvqh2hke2'
           }
         }]
     },
@@ -1130,7 +1159,8 @@ const assets: AssetList = {
           },
           chain: {
             port: 'wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52',
-            channel_id: 'channel-77'
+            channel_id: 'channel-77',
+            path: 'wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52/channel-77/cw20:neutron10dxyft3nv4vpxh5vrpn0xw8geej8dw3g39g7nqp8mrm307ypssksau29af'
           }
         }]
     },
@@ -1160,7 +1190,8 @@ const assets: AssetList = {
           },
           chain: {
             port: 'wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52',
-            channel_id: 'channel-77'
+            channel_id: 'channel-77',
+            path: 'wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52/channel-77/cw20:neutron1vjl4ze7gr32lar5s4fj776v70j4ml7mlt4aqln2hwgfhqjck8xwqfhx8vj'
           }
         }],
       logo_URIs: {
@@ -1204,7 +1235,8 @@ const assets: AssetList = {
           },
           chain: {
             port: 'wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52',
-            channel_id: 'channel-77'
+            channel_id: 'channel-77',
+            path: 'wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52/channel-77/cw20:neutron15e56mauwr8n2cma56f78cvtnd9c2pr0y7f4mffdwda7z49sksyvqh2hke2'
           }
         }]
     }

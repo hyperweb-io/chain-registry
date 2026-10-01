@@ -34,7 +34,8 @@ const assets: AssetList = {
             chain_name: 'prysmdevnet'
           },
           chain: {
-            channel_id: 'channel-138'
+            channel_id: 'channel-138',
+            path: 'transfer/channel-138/uprysm'
           }
         }]
     }, {
@@ -70,7 +71,8 @@ const assets: AssetList = {
             chain_name: 'prysmdevnet'
           },
           chain: {
-            channel_id: 'channel-138'
+            channel_id: 'channel-138',
+            path: 'transfer/channel-138/uprysm'
           }
         }]
     }]

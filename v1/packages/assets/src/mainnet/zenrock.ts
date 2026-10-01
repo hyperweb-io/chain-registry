@@ -38,7 +38,8 @@ const assets: AssetList = {
             chain_name: 'sei'
           },
           chain: {
-            channel_id: 'channel-3'
+            channel_id: 'channel-3',
+            path: 'transfer/channel-3/usei'
           }
         }]
     },
@@ -72,7 +73,8 @@ const assets: AssetList = {
             chain_name: 'sei'
           },
           chain: {
-            channel_id: 'channel-3'
+            channel_id: 'channel-3',
+            path: 'transfer/channel-3/sei1wlf9j5uv50rcg0u5j6xk00px5tflptzprj39keck27eg8g7qd7hqq6kvda'
           }
         }]
     },
@@ -112,7 +114,8 @@ const assets: AssetList = {
             chain_name: 'sei'
           },
           chain: {
-            channel_id: 'channel-3'
+            channel_id: 'channel-3',
+            path: 'transfer/channel-3/usei'
           }
         }]
     },
@@ -146,7 +149,8 @@ const assets: AssetList = {
             chain_name: 'sei'
           },
           chain: {
-            channel_id: 'channel-3'
+            channel_id: 'channel-3',
+            path: 'transfer/channel-3/sei1wlf9j5uv50rcg0u5j6xk00px5tflptzprj39keck27eg8g7qd7hqq6kvda'
           }
         }]
     }

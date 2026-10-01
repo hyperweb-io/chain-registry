@@ -33,7 +33,8 @@ const assets: AssetList = {
             chain_name: 'cosmosicsprovidertestnet'
           },
           chain: {
-            channel_id: 'channel-8'
+            channel_id: 'channel-8',
+            path: 'transfer/channel-8/uatom'
           }
         }]
     },
@@ -60,7 +61,8 @@ const assets: AssetList = {
             chain_name: 'nobletestnet'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-7',
+            path: 'transfer/channel-7/ustake'
           }
         }]
     },
@@ -87,7 +89,8 @@ const assets: AssetList = {
             chain_name: 'nobletestnet'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-7',
+            path: 'transfer/channel-7/ulove'
           }
         }]
     },
@@ -122,7 +125,8 @@ const assets: AssetList = {
             chain_name: 'nobletestnet'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-7',
+            path: 'transfer/channel-7/ausdy'
           }
         }]
     },
@@ -157,7 +161,8 @@ const assets: AssetList = {
             chain_name: 'cosmosicsprovidertestnet'
           },
           chain: {
-            channel_id: 'channel-8'
+            channel_id: 'channel-8',
+            path: 'transfer/channel-8/uatom'
           }
         }]
     },
@@ -184,7 +189,8 @@ const assets: AssetList = {
             chain_name: 'nobletestnet'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-7',
+            path: 'transfer/channel-7/ustake'
           }
         }]
     },
@@ -211,7 +217,8 @@ const assets: AssetList = {
             chain_name: 'nobletestnet'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-7',
+            path: 'transfer/channel-7/ulove'
           }
         }]
     },
@@ -246,7 +253,8 @@ const assets: AssetList = {
             chain_name: 'nobletestnet'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-7',
+            path: 'transfer/channel-7/ausdy'
           }
         }]
     }

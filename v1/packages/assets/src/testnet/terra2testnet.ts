@@ -30,7 +30,8 @@ const assets: AssetList = {
             chain_name: 'kujiratestnet'
           },
           chain: {
-            channel_id: 'channel-541'
+            channel_id: 'channel-541',
+            path: 'transfer/channel-541/ukuji'
           }
         }]
     }, {
@@ -62,7 +63,8 @@ const assets: AssetList = {
             chain_name: 'kujiratestnet'
           },
           chain: {
-            channel_id: 'channel-541'
+            channel_id: 'channel-541',
+            path: 'transfer/channel-541/ukuji'
           }
         }]
     }]

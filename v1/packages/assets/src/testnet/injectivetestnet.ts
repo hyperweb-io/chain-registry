@@ -38,7 +38,8 @@ const assets: AssetList = {
             chain_name: 'agoricdevnet'
           },
           chain: {
-            channel_id: 'channel-77148'
+            channel_id: 'channel-77148',
+            path: 'transfer/channel-77148/ubld'
           }
         }]
     },
@@ -74,7 +75,8 @@ const assets: AssetList = {
             chain_name: 'agoricdevnet'
           },
           chain: {
-            channel_id: 'channel-77148'
+            channel_id: 'channel-77148',
+            path: 'transfer/channel-77148/uist'
           }
         }]
     },
@@ -114,7 +116,8 @@ const assets: AssetList = {
             chain_name: 'agoricdevnet'
           },
           chain: {
-            channel_id: 'channel-77148'
+            channel_id: 'channel-77148',
+            path: 'transfer/channel-77148/ubld'
           }
         }]
     },
@@ -150,7 +153,8 @@ const assets: AssetList = {
             chain_name: 'agoricdevnet'
           },
           chain: {
-            channel_id: 'channel-77148'
+            channel_id: 'channel-77148',
+            path: 'transfer/channel-77148/uist'
           }
         }]
     },
@@ -191,7 +195,8 @@ const assets: AssetList = {
             chain_name: 'noistestnet'
           },
           chain: {
-            channel_id: 'channel-74'
+            channel_id: 'channel-74',
+            path: 'transfer/channel-74/unois'
           }
         }]
     },
@@ -239,7 +244,8 @@ const assets: AssetList = {
             chain_name: 'xrplevmtestnet'
           },
           chain: {
-            channel_id: 'channel-77038'
+            channel_id: 'channel-77038',
+            path: 'transfer/channel-77038/axrp'
           }
         }]
     },
@@ -280,7 +286,8 @@ const assets: AssetList = {
             chain_name: 'noistestnet'
           },
           chain: {
-            channel_id: 'channel-74'
+            channel_id: 'channel-74',
+            path: 'transfer/channel-74/unois'
           }
         }]
     },
@@ -328,7 +335,8 @@ const assets: AssetList = {
             chain_name: 'xrplevmtestnet'
           },
           chain: {
-            channel_id: 'channel-77038'
+            channel_id: 'channel-77038',
+            path: 'transfer/channel-77038/axrp'
           }
         }]
     }

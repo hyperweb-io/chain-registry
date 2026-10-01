@@ -24,18 +24,15 @@ export interface Asset {
     png?: string;
     svg?: string;
     theme?: {
-      primary_color_hex?: string;
-      background_color_hex?: string;
       circle?: boolean;
       dark_mode?: boolean;
-      monochrome?: boolean;
     };
   }[];
   coingecko_id?: string;
   keywords?: string[];
   socials?: {
     website?: string;
-    twitter?: string;
+    x?: string;
     telegram?: string;
     discord?: string;
     github?: string;
@@ -61,8 +58,7 @@ export interface IbcTransition {
   };
   chain: {
     channel_id: string;
-    // temp remove require (talk to Jeremy)
-    path?: string;
+    path: string;
   };
 }
 export interface IbcCw20Transition {
@@ -76,8 +72,7 @@ export interface IbcCw20Transition {
   chain: {
     port: string;
     channel_id: string;
-    // temp remove require (talk to Jeremy)
-    path?: string;
+    path: string;
   };
 }
 export interface IbcBridgeTransition {
@@ -91,8 +86,7 @@ export interface IbcBridgeTransition {
   chain: {
     port?: string;
     channel_id: string;
-    // temp remove require (talk to Jeremy)
-    path?: string;
+    path: string;
   };
   provider: string;
 }

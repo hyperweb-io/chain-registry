@@ -60,7 +60,8 @@ const assets: AssetList = {
             chain_name: 'mantrachain'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/amantra'
           }
         }]
     },
@@ -99,7 +100,8 @@ const assets: AssetList = {
             chain_name: 'mantrachain'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/erc20:0x5EB619e3dcA586c321Bb83282D2916577B5c383d'
           }
         }]
     },
@@ -161,7 +163,8 @@ const assets: AssetList = {
             chain_name: 'mantrachain'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/amantra'
           }
         }]
     },
@@ -200,7 +203,8 @@ const assets: AssetList = {
             chain_name: 'mantrachain'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/erc20:0x5EB619e3dcA586c321Bb83282D2916577B5c383d'
           }
         }]
     }

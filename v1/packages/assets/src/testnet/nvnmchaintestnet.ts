@@ -64,7 +64,8 @@ const assets: AssetList = {
             chain_name: 'mantrachaintestnet2'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/amantra'
           }
         }]
     },
@@ -103,7 +104,8 @@ const assets: AssetList = {
             chain_name: 'mantrachaintestnet2'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/erc20:0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767'
           }
         }]
     },
@@ -169,7 +171,8 @@ const assets: AssetList = {
             chain_name: 'mantrachaintestnet2'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/amantra'
           }
         }]
     },
@@ -208,7 +211,8 @@ const assets: AssetList = {
             chain_name: 'mantrachaintestnet2'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/erc20:0x36A28B8C8FFD00bEE440dB8273D57451FBeAf767'
           }
         }]
     }

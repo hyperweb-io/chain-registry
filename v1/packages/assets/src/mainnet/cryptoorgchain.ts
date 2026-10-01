@@ -38,7 +38,8 @@ const assets: AssetList = {
             chain_name: 'akash'
           },
           chain: {
-            channel_id: 'channel-21'
+            channel_id: 'channel-21',
+            path: 'transfer/channel-21/uakt'
           }
         }]
     },
@@ -84,7 +85,8 @@ const assets: AssetList = {
             chain_name: 'akash'
           },
           chain: {
-            channel_id: 'channel-21'
+            channel_id: 'channel-21',
+            path: 'transfer/channel-21/uact'
           }
         }]
     },
@@ -127,7 +129,8 @@ const assets: AssetList = {
             chain_name: 'cosmoshub'
           },
           chain: {
-            channel_id: 'channel-27'
+            channel_id: 'channel-27',
+            path: 'transfer/channel-27/uatom'
           }
         }]
     },
@@ -162,7 +165,8 @@ const assets: AssetList = {
             chain_name: 'crescent'
           },
           chain: {
-            channel_id: 'channel-61'
+            channel_id: 'channel-61',
+            path: 'transfer/channel-61/ucre'
           }
         }]
     },
@@ -197,7 +201,8 @@ const assets: AssetList = {
             chain_name: 'crescent'
           },
           chain: {
-            channel_id: 'channel-61'
+            channel_id: 'channel-61',
+            path: 'transfer/channel-61/ubcre'
           }
         }]
     },
@@ -237,7 +242,8 @@ const assets: AssetList = {
             chain_name: 'akash'
           },
           chain: {
-            channel_id: 'channel-21'
+            channel_id: 'channel-21',
+            path: 'transfer/channel-21/uakt'
           }
         }]
     },
@@ -283,7 +289,8 @@ const assets: AssetList = {
             chain_name: 'akash'
           },
           chain: {
-            channel_id: 'channel-21'
+            channel_id: 'channel-21',
+            path: 'transfer/channel-21/uact'
           }
         }]
     },
@@ -326,7 +333,8 @@ const assets: AssetList = {
             chain_name: 'cosmoshub'
           },
           chain: {
-            channel_id: 'channel-27'
+            channel_id: 'channel-27',
+            path: 'transfer/channel-27/uatom'
           }
         }]
     },
@@ -361,7 +369,8 @@ const assets: AssetList = {
             chain_name: 'crescent'
           },
           chain: {
-            channel_id: 'channel-61'
+            channel_id: 'channel-61',
+            path: 'transfer/channel-61/ucre'
           }
         }]
     },
@@ -396,7 +405,8 @@ const assets: AssetList = {
             chain_name: 'crescent'
           },
           chain: {
-            channel_id: 'channel-61'
+            channel_id: 'channel-61',
+            path: 'transfer/channel-61/ubcre'
           }
         }]
     },
@@ -432,7 +442,8 @@ const assets: AssetList = {
             chain_name: 'irisnet'
           },
           chain: {
-            channel_id: 'channel-23'
+            channel_id: 'channel-23',
+            path: 'transfer/channel-23/uiris'
           }
         }]
     },
@@ -473,7 +484,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-10'
+            channel_id: 'channel-10',
+            path: 'transfer/channel-10/uosmo'
           }
         }]
     },
@@ -514,7 +526,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-10'
+            channel_id: 'channel-10',
+            path: 'transfer/channel-10/uion'
           }
         }]
     },
@@ -557,7 +570,8 @@ const assets: AssetList = {
             chain_name: 'persistence'
           },
           chain: {
-            channel_id: 'channel-17'
+            channel_id: 'channel-17',
+            path: 'transfer/channel-17/uxprt'
           }
         }]
     },
@@ -597,7 +611,8 @@ const assets: AssetList = {
             chain_name: 'regen'
           },
           chain: {
-            channel_id: 'channel-25'
+            channel_id: 'channel-25',
+            path: 'transfer/channel-25/uregen'
           }
         }]
     },
@@ -632,7 +647,8 @@ const assets: AssetList = {
             chain_name: 'regen'
           },
           chain: {
-            channel_id: 'channel-25'
+            channel_id: 'channel-25',
+            path: 'transfer/channel-25/eco.uC.NCT'
           }
         }]
     },
@@ -672,7 +688,8 @@ const assets: AssetList = {
             chain_name: 'sentinel'
           },
           chain: {
-            channel_id: 'channel-19'
+            channel_id: 'channel-19',
+            path: 'transfer/channel-19/udvpn'
           }
         }]
     },
@@ -707,7 +724,8 @@ const assets: AssetList = {
             chain_name: 'sifchain'
           },
           chain: {
-            channel_id: 'channel-33'
+            channel_id: 'channel-33',
+            path: 'transfer/channel-33/rowan'
           }
         }]
     },
@@ -743,7 +761,8 @@ const assets: AssetList = {
             chain_name: 'irisnet'
           },
           chain: {
-            channel_id: 'channel-23'
+            channel_id: 'channel-23',
+            path: 'transfer/channel-23/uiris'
           }
         }]
     },
@@ -784,7 +803,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-10'
+            channel_id: 'channel-10',
+            path: 'transfer/channel-10/uosmo'
           }
         }]
     },
@@ -825,7 +845,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-10'
+            channel_id: 'channel-10',
+            path: 'transfer/channel-10/uion'
           }
         }]
     },
@@ -868,7 +889,8 @@ const assets: AssetList = {
             chain_name: 'persistence'
           },
           chain: {
-            channel_id: 'channel-17'
+            channel_id: 'channel-17',
+            path: 'transfer/channel-17/uxprt'
           }
         }]
     },
@@ -908,7 +930,8 @@ const assets: AssetList = {
             chain_name: 'regen'
           },
           chain: {
-            channel_id: 'channel-25'
+            channel_id: 'channel-25',
+            path: 'transfer/channel-25/uregen'
           }
         }]
     },
@@ -943,7 +966,8 @@ const assets: AssetList = {
             chain_name: 'regen'
           },
           chain: {
-            channel_id: 'channel-25'
+            channel_id: 'channel-25',
+            path: 'transfer/channel-25/eco.uC.NCT'
           }
         }]
     },
@@ -983,7 +1007,8 @@ const assets: AssetList = {
             chain_name: 'sentinel'
           },
           chain: {
-            channel_id: 'channel-19'
+            channel_id: 'channel-19',
+            path: 'transfer/channel-19/udvpn'
           }
         }]
     },
@@ -1018,7 +1043,8 @@ const assets: AssetList = {
             chain_name: 'sifchain'
           },
           chain: {
-            channel_id: 'channel-33'
+            channel_id: 'channel-33',
+            path: 'transfer/channel-33/rowan'
           }
         }]
     }

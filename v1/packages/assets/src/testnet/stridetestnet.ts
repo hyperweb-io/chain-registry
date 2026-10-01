@@ -38,7 +38,8 @@ const assets: AssetList = {
             chain_name: 'agoricdevnet'
           },
           chain: {
-            channel_id: 'channel-60'
+            channel_id: 'channel-60',
+            path: 'transfer/channel-60/ubld'
           }
         }]
     },
@@ -74,7 +75,8 @@ const assets: AssetList = {
             chain_name: 'agoricdevnet'
           },
           chain: {
-            channel_id: 'channel-60'
+            channel_id: 'channel-60',
+            path: 'transfer/channel-60/uist'
           }
         }]
     },
@@ -114,7 +116,8 @@ const assets: AssetList = {
             chain_name: 'agoricdevnet'
           },
           chain: {
-            channel_id: 'channel-60'
+            channel_id: 'channel-60',
+            path: 'transfer/channel-60/ubld'
           }
         }]
     },
@@ -150,7 +153,8 @@ const assets: AssetList = {
             chain_name: 'agoricdevnet'
           },
           chain: {
-            channel_id: 'channel-60'
+            channel_id: 'channel-60',
+            path: 'transfer/channel-60/uist'
           }
         }]
     }

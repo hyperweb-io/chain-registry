@@ -35,7 +35,8 @@ const assets: AssetList = {
             chain_name: 'carbon'
           },
           chain: {
-            channel_id: 'channel-6'
+            channel_id: 'channel-6',
+            path: 'transfer/channel-6/swth'
           }
         }]
     },
@@ -71,7 +72,8 @@ const assets: AssetList = {
             chain_name: 'carbon'
           },
           chain: {
-            channel_id: 'channel-6'
+            channel_id: 'channel-6',
+            path: 'transfer/channel-6/usc'
           }
         }]
     },
@@ -107,7 +109,8 @@ const assets: AssetList = {
             chain_name: 'carbon'
           },
           chain: {
-            channel_id: 'channel-6'
+            channel_id: 'channel-6',
+            path: 'transfer/channel-6/cgt/1'
           }
         }]
     },
@@ -150,7 +153,8 @@ const assets: AssetList = {
             chain_name: 'cosmoshub'
           },
           chain: {
-            channel_id: 'channel-2'
+            channel_id: 'channel-2',
+            path: 'transfer/channel-2/uatom'
           }
         }]
     },
@@ -188,7 +192,8 @@ const assets: AssetList = {
             chain_name: 'gravitybridge'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/ugraviton'
           }
         }]
     },
@@ -229,7 +234,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-5'
+            channel_id: 'channel-5',
+            path: 'transfer/channel-5/uosmo'
           }
         }]
     },
@@ -270,7 +276,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-5'
+            channel_id: 'channel-5',
+            path: 'transfer/channel-5/uion'
           }
         }]
     },
@@ -318,7 +325,8 @@ const assets: AssetList = {
             chain_name: 'sommelier'
           },
           chain: {
-            channel_id: 'channel-10'
+            channel_id: 'channel-10',
+            path: 'transfer/channel-10/usomm'
           }
         }]
     },
@@ -355,7 +363,8 @@ const assets: AssetList = {
             chain_name: 'carbon'
           },
           chain: {
-            channel_id: 'channel-6'
+            channel_id: 'channel-6',
+            path: 'transfer/channel-6/swth'
           }
         }]
     },
@@ -391,7 +400,8 @@ const assets: AssetList = {
             chain_name: 'carbon'
           },
           chain: {
-            channel_id: 'channel-6'
+            channel_id: 'channel-6',
+            path: 'transfer/channel-6/usc'
           }
         }]
     },
@@ -427,7 +437,8 @@ const assets: AssetList = {
             chain_name: 'carbon'
           },
           chain: {
-            channel_id: 'channel-6'
+            channel_id: 'channel-6',
+            path: 'transfer/channel-6/cgt/1'
           }
         }]
     },
@@ -470,7 +481,8 @@ const assets: AssetList = {
             chain_name: 'cosmoshub'
           },
           chain: {
-            channel_id: 'channel-2'
+            channel_id: 'channel-2',
+            path: 'transfer/channel-2/uatom'
           }
         }]
     },
@@ -508,7 +520,8 @@ const assets: AssetList = {
             chain_name: 'gravitybridge'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/ugraviton'
           }
         }]
     },
@@ -549,7 +562,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-5'
+            channel_id: 'channel-5',
+            path: 'transfer/channel-5/uosmo'
           }
         }]
     },
@@ -590,7 +604,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-5'
+            channel_id: 'channel-5',
+            path: 'transfer/channel-5/uion'
           }
         }]
     },
@@ -638,7 +653,8 @@ const assets: AssetList = {
             chain_name: 'sommelier'
           },
           chain: {
-            channel_id: 'channel-10'
+            channel_id: 'channel-10',
+            path: 'transfer/channel-10/usomm'
           }
         }]
     }

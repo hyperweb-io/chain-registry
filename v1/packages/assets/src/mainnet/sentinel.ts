@@ -38,7 +38,8 @@ const assets: AssetList = {
             chain_name: 'akash'
           },
           chain: {
-            channel_id: 'channel-6'
+            channel_id: 'channel-6',
+            path: 'transfer/channel-6/uakt'
           }
         }]
     },
@@ -84,7 +85,8 @@ const assets: AssetList = {
             chain_name: 'akash'
           },
           chain: {
-            channel_id: 'channel-6'
+            channel_id: 'channel-6',
+            path: 'transfer/channel-6/uact'
           }
         }]
     },
@@ -124,7 +126,8 @@ const assets: AssetList = {
             chain_name: 'axelar'
           },
           chain: {
-            channel_id: 'channel-96'
+            channel_id: 'channel-96',
+            path: 'transfer/channel-96/uaxl'
           }
         }]
     },
@@ -167,7 +170,8 @@ const assets: AssetList = {
             chain_name: 'cosmoshub'
           },
           chain: {
-            channel_id: 'channel-12'
+            channel_id: 'channel-12',
+            path: 'transfer/channel-12/uatom'
           }
         }]
     },
@@ -217,7 +221,8 @@ const assets: AssetList = {
             chain_name: 'cryptoorgchain'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-7',
+            path: 'transfer/channel-7/basecro'
           }
         }]
     },
@@ -252,7 +257,8 @@ const assets: AssetList = {
             chain_name: 'decentr'
           },
           chain: {
-            channel_id: 'channel-55'
+            channel_id: 'channel-55',
+            path: 'transfer/channel-55/udec'
           }
         }]
     },
@@ -288,7 +294,8 @@ const assets: AssetList = {
             chain_name: 'irisnet'
           },
           chain: {
-            channel_id: 'channel-9'
+            channel_id: 'channel-9',
+            path: 'transfer/channel-9/uiris'
           }
         }]
     },
@@ -326,7 +333,8 @@ const assets: AssetList = {
             chain_name: 'medasdigital'
           },
           chain: {
-            channel_id: 'channel-60'
+            channel_id: 'channel-60',
+            path: 'transfer/channel-60/umedas'
           }
         }]
     },
@@ -367,7 +375,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/uosmo'
           }
         }]
     },
@@ -408,7 +417,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/uion'
           }
         }]
     },
@@ -451,7 +461,8 @@ const assets: AssetList = {
             chain_name: 'persistence'
           },
           chain: {
-            channel_id: 'channel-15'
+            channel_id: 'channel-15',
+            path: 'transfer/channel-15/uxprt'
           }
         }]
     },
@@ -491,7 +502,8 @@ const assets: AssetList = {
             chain_name: 'regen'
           },
           chain: {
-            channel_id: 'channel-11'
+            channel_id: 'channel-11',
+            path: 'transfer/channel-11/uregen'
           }
         }]
     },
@@ -526,7 +538,8 @@ const assets: AssetList = {
             chain_name: 'regen'
           },
           chain: {
-            channel_id: 'channel-11'
+            channel_id: 'channel-11',
+            path: 'transfer/channel-11/eco.uC.NCT'
           }
         }]
     },
@@ -564,7 +577,8 @@ const assets: AssetList = {
             chain_name: 'secretnetwork'
           },
           chain: {
-            channel_id: 'channel-50'
+            channel_id: 'channel-50',
+            path: 'transfer/channel-50/uscrt'
           }
         }]
     },
@@ -604,7 +618,8 @@ const assets: AssetList = {
             chain_name: 'akash'
           },
           chain: {
-            channel_id: 'channel-6'
+            channel_id: 'channel-6',
+            path: 'transfer/channel-6/uakt'
           }
         }]
     },
@@ -650,7 +665,8 @@ const assets: AssetList = {
             chain_name: 'akash'
           },
           chain: {
-            channel_id: 'channel-6'
+            channel_id: 'channel-6',
+            path: 'transfer/channel-6/uact'
           }
         }]
     },
@@ -690,7 +706,8 @@ const assets: AssetList = {
             chain_name: 'axelar'
           },
           chain: {
-            channel_id: 'channel-96'
+            channel_id: 'channel-96',
+            path: 'transfer/channel-96/uaxl'
           }
         }]
     },
@@ -733,7 +750,8 @@ const assets: AssetList = {
             chain_name: 'cosmoshub'
           },
           chain: {
-            channel_id: 'channel-12'
+            channel_id: 'channel-12',
+            path: 'transfer/channel-12/uatom'
           }
         }]
     },
@@ -783,7 +801,8 @@ const assets: AssetList = {
             chain_name: 'cryptoorgchain'
           },
           chain: {
-            channel_id: 'channel-7'
+            channel_id: 'channel-7',
+            path: 'transfer/channel-7/basecro'
           }
         }]
     },
@@ -818,7 +837,8 @@ const assets: AssetList = {
             chain_name: 'decentr'
           },
           chain: {
-            channel_id: 'channel-55'
+            channel_id: 'channel-55',
+            path: 'transfer/channel-55/udec'
           }
         }]
     },
@@ -854,7 +874,8 @@ const assets: AssetList = {
             chain_name: 'irisnet'
           },
           chain: {
-            channel_id: 'channel-9'
+            channel_id: 'channel-9',
+            path: 'transfer/channel-9/uiris'
           }
         }]
     },
@@ -892,7 +913,8 @@ const assets: AssetList = {
             chain_name: 'medasdigital'
           },
           chain: {
-            channel_id: 'channel-60'
+            channel_id: 'channel-60',
+            path: 'transfer/channel-60/umedas'
           }
         }]
     },
@@ -933,7 +955,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/uosmo'
           }
         }]
     },
@@ -974,7 +997,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-0'
+            channel_id: 'channel-0',
+            path: 'transfer/channel-0/uion'
           }
         }]
     },
@@ -1017,7 +1041,8 @@ const assets: AssetList = {
             chain_name: 'persistence'
           },
           chain: {
-            channel_id: 'channel-15'
+            channel_id: 'channel-15',
+            path: 'transfer/channel-15/uxprt'
           }
         }]
     },
@@ -1057,7 +1082,8 @@ const assets: AssetList = {
             chain_name: 'regen'
           },
           chain: {
-            channel_id: 'channel-11'
+            channel_id: 'channel-11',
+            path: 'transfer/channel-11/uregen'
           }
         }]
     },
@@ -1092,7 +1118,8 @@ const assets: AssetList = {
             chain_name: 'regen'
           },
           chain: {
-            channel_id: 'channel-11'
+            channel_id: 'channel-11',
+            path: 'transfer/channel-11/eco.uC.NCT'
           }
         }]
     },
@@ -1130,7 +1157,8 @@ const assets: AssetList = {
             chain_name: 'secretnetwork'
           },
           chain: {
-            channel_id: 'channel-50'
+            channel_id: 'channel-50',
+            path: 'transfer/channel-50/uscrt'
           }
         }]
     },
@@ -1165,7 +1193,8 @@ const assets: AssetList = {
             chain_name: 'sifchain'
           },
           chain: {
-            channel_id: 'channel-36'
+            channel_id: 'channel-36',
+            path: 'transfer/channel-36/rowan'
           }
         }]
     },
@@ -1200,7 +1229,8 @@ const assets: AssetList = {
             chain_name: 'sifchain'
           },
           chain: {
-            channel_id: 'channel-36'
+            channel_id: 'channel-36',
+            path: 'transfer/channel-36/rowan'
           }
         }]
     }

@@ -33,6 +33,7 @@ jobs:
           pushd workflows/generate-types
           yarn generate:types
           yarn generate:interfaces
+          yarn generate:legacy
           popd
 
           # Build types

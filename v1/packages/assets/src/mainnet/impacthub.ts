@@ -38,7 +38,8 @@ const assets: AssetList = {
             chain_name: 'axelar'
           },
           chain: {
-            channel_id: 'channel-23'
+            channel_id: 'channel-23',
+            path: 'transfer/channel-23/uaxl'
           }
         }]
     },
@@ -81,7 +82,8 @@ const assets: AssetList = {
             chain_name: 'cosmoshub'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/uatom'
           }
         }]
     },
@@ -121,7 +123,8 @@ const assets: AssetList = {
             chain_name: 'axelar'
           },
           chain: {
-            channel_id: 'channel-23'
+            channel_id: 'channel-23',
+            path: 'transfer/channel-23/uaxl'
           }
         }]
     },
@@ -164,7 +167,8 @@ const assets: AssetList = {
             chain_name: 'cosmoshub'
           },
           chain: {
-            channel_id: 'channel-1'
+            channel_id: 'channel-1',
+            path: 'transfer/channel-1/uatom'
           }
         }]
     },
@@ -199,7 +203,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-26'
+            channel_id: 'channel-26',
+            path: 'transfer/channel-26/ustake'
           }
         }]
     },
@@ -232,7 +237,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-26'
+            channel_id: 'channel-26',
+            path: 'transfer/channel-26/ufrienzies'
           }
         }]
     },
@@ -272,7 +278,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-26'
+            channel_id: 'channel-26',
+            path: 'transfer/channel-26/ausdy'
           }
         }]
     },
@@ -307,7 +314,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-26'
+            channel_id: 'channel-26',
+            path: 'transfer/channel-26/uusdn'
           }
         }]
     },
@@ -348,7 +356,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-4',
+            path: 'transfer/channel-4/uosmo'
           }
         }]
     },
@@ -389,7 +398,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-4',
+            path: 'transfer/channel-4/uion'
           }
         }]
     },
@@ -424,7 +434,8 @@ const assets: AssetList = {
             chain_name: 'sifchain'
           },
           chain: {
-            channel_id: 'channel-11'
+            channel_id: 'channel-11',
+            path: 'transfer/channel-11/rowan'
           }
         }]
     },
@@ -459,7 +470,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-26'
+            channel_id: 'channel-26',
+            path: 'transfer/channel-26/ustake'
           }
         }]
     },
@@ -492,7 +504,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-26'
+            channel_id: 'channel-26',
+            path: 'transfer/channel-26/ufrienzies'
           }
         }]
     },
@@ -532,7 +545,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-26'
+            channel_id: 'channel-26',
+            path: 'transfer/channel-26/ausdy'
           }
         }]
     },
@@ -567,7 +581,8 @@ const assets: AssetList = {
             chain_name: 'noble'
           },
           chain: {
-            channel_id: 'channel-26'
+            channel_id: 'channel-26',
+            path: 'transfer/channel-26/uusdn'
           }
         }]
     },
@@ -608,7 +623,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-4',
+            path: 'transfer/channel-4/uosmo'
           }
         }]
     },
@@ -649,7 +665,8 @@ const assets: AssetList = {
             chain_name: 'osmosis'
           },
           chain: {
-            channel_id: 'channel-4'
+            channel_id: 'channel-4',
+            path: 'transfer/channel-4/uion'
           }
         }]
     },
@@ -684,7 +701,8 @@ const assets: AssetList = {
             chain_name: 'sifchain'
           },
           chain: {
-            channel_id: 'channel-11'
+            channel_id: 'channel-11',
+            path: 'transfer/channel-11/rowan'
           }
         }]
     }

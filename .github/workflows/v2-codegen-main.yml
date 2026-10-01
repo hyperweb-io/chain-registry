@@ -34,6 +34,21 @@ jobs:
           yarn build
           yarn symlink
 
+          # Regenerate types from the upstream schemas (v2 types/interfaces + v1 legacy types)
+          pushd workflows/generate-types
+          yarn generate:types
+          yarn generate:interfaces
+          yarn generate:legacy
+          popd
+
+          pushd packages/types
+          yarn build
+          popd
+
+          pushd packages/interfaces
+          yarn build
+          popd
+
           # Code generation and build for various packages
           pushd packages/chain-registry
           yarn codegen
