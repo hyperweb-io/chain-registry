@@ -248,6 +248,37 @@ const info: IBCData[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain1: {
+      chainName: 'blg24',
+      chainId: 'BLG24',
+      clientId: '07-tendermint-14',
+      connectionId: 'connection-7'
+    },
+    chain2: {
+      chainName: 'noble',
+      chainId: 'noble-1',
+      clientId: '07-tendermint-238',
+      connectionId: 'connection-218'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-3',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-637',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          preferred: true,
+          status: 'ACTIVE'
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
       chainName: 'coreum',
       chainId: 'coreum-mainnet-1',
       clientId: '07-tendermint-32',

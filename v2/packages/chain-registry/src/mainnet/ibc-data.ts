@@ -100,6 +100,7 @@ import * as _mtgbp from './mtgbp';
 import * as _mucoin from './mucoin';
 import * as _neutaro from './neutaro';
 import * as _neutron from './neutron';
+import * as _neutronx from './neutronx';
 import * as _nibiru from './nibiru';
 import * as _nim from './nim';
 import * as _noble from './noble';
@@ -268,6 +269,7 @@ const ibcData: IBCData[] = [
   ..._mucoin.ibcData,
   ..._neutaro.ibcData,
   ..._neutron.ibcData,
+  ..._neutronx.ibcData,
   ..._nibiru.ibcData,
   ..._nim.ibcData,
   ..._noble.ibcData,

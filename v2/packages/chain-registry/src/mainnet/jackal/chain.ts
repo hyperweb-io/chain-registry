@@ -119,10 +119,6 @@ const info: Chain = {
         provider: 'MathNodes'
       },
       {
-        address: 'https://jackal-rpc.kleomedes.network',
-        provider: 'Kleomedes'
-      },
-      {
         address: 'https://jackal-rpc.noders.services',
         provider: '[NODERS]TEAM'
       },
@@ -195,10 +191,6 @@ const info: Chain = {
       {
         address: 'https://api.jackal.mathnodes.com',
         provider: 'MathNodes'
-      },
-      {
-        address: 'https://jackal-api.kleomedes.network',
-        provider: 'Kleomedes'
       },
       {
         address: 'https://jackal-api.noders.services',

@@ -5035,6 +5035,31 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/do.png'
         }]
+    },
+    {
+      description: 'BLAME (#blamefrag) is a community memecoin on Terra Classic.',
+      socials: {
+        telegram: 'https://t.me/blamefrag'
+      },
+      typeAsset: 'cw20',
+      address: 'terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq',
+      denomUnits: [{
+          denom: 'cw20:terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq',
+          exponent: 0
+        }, {
+          denom: 'blame',
+          exponent: 6
+        }],
+      base: 'cw20:terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq',
+      name: '#blamefrag',
+      display: 'blame',
+      symbol: 'BLAME',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/blame.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/blame.png'
+        }]
     }
   ]
 };
