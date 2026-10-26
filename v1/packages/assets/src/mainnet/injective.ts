@@ -2120,6 +2120,42 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'NTX staking and governance token',
+      denom_units: [{
+          denom: 'ibc/6960FC876FD7F6A2ECA7D53C5D64C005B05AD89C64588795FA115B9BE1F35F5A',
+          exponent: 0,
+          aliases: ['untx']
+        }, {
+          denom: 'ntx',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/6960FC876FD7F6A2ECA7D53C5D64C005B05AD89C64588795FA115B9BE1F35F5A',
+      name: 'NeutronX',
+      display: 'ntx',
+      symbol: 'NTX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutronx/images/ntx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutronx/images/ntx.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutronx/images/ntx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutronx/images/ntx.svg'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'untx',
+            chain_name: 'neutronx'
+          },
+          chain: {
+            channel_id: 'channel-503',
+            path: 'transfer/channel-503/untx'
+          }
+        }]
+    },
+    {
       description: 'The permissioned staking asset for Noble Chain',
       denom_units: [{
           denom: 'ibc/991421FE564F5E02BC4610D43A061B1CC51935B830D16D53A9CFA21CAD9C399C',
@@ -4755,6 +4791,42 @@ const assets: AssetList = {
           chain: {
             channel_id: 'channel-177',
             path: 'transfer/channel-177/neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv'
+          }
+        }]
+    },
+    {
+      description: 'NTX staking and governance token',
+      denom_units: [{
+          denom: 'ibc/6960FC876FD7F6A2ECA7D53C5D64C005B05AD89C64588795FA115B9BE1F35F5A',
+          exponent: 0,
+          aliases: ['untx']
+        }, {
+          denom: 'ntx',
+          exponent: 6
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/6960FC876FD7F6A2ECA7D53C5D64C005B05AD89C64588795FA115B9BE1F35F5A',
+      name: 'NeutronX',
+      display: 'ntx',
+      symbol: 'NTX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutronx/images/ntx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutronx/images/ntx.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutronx/images/ntx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutronx/images/ntx.svg'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'untx',
+            chain_name: 'neutronx'
+          },
+          chain: {
+            channel_id: 'channel-503',
+            path: 'transfer/channel-503/untx'
           }
         }]
     },

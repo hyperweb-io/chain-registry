@@ -120,6 +120,7 @@ import * as _lumen from './lumen';
 import * as _lumera from './lumera';
 import * as _lumiwaveprotocol from './lumiwaveprotocol';
 import * as _lumnetwork from './lumnetwork';
+import * as _luxa from './luxa';
 import * as _mande from './mande';
 import * as _manifest from './manifest';
 import * as _mantrachain from './mantrachain';
@@ -136,6 +137,7 @@ import * as _mythos from './mythos';
 import * as _neura from './neura';
 import * as _neutaro from './neutaro';
 import * as _neutron from './neutron';
+import * as _neutronx from './neutronx';
 import * as _nibiru from './nibiru';
 import * as _nim from './nim';
 import * as _noble from './noble';
@@ -345,6 +347,7 @@ const chains: Chain[] = [
   _lumera.chain,
   _lumiwaveprotocol.chain,
   _lumnetwork.chain,
+  _luxa.chain,
   _mande.chain,
   _manifest.chain,
   _mantrachain.chain,
@@ -361,6 +364,7 @@ const chains: Chain[] = [
   _neura.chain,
   _neutaro.chain,
   _neutron.chain,
+  _neutronx.chain,
   _nibiru.chain,
   _nim.chain,
   _noble.chain,

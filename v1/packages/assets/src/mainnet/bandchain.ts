@@ -222,6 +222,53 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'USD-backed stablecoin issued by Brale',
+      denom_units: [{
+          denom: 'ibc/796541647A23FABBDE39553B9B277FAADEE878F7879EBEB296B7ACE7FE83D814',
+          exponent: 0,
+          aliases: ['uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x']
+        }, {
+          denom: 'ustx',
+          exponent: 6
+        }],
+      base: 'ibc/796541647A23FABBDE39553B9B277FAADEE878F7879EBEB296B7ACE7FE83D814',
+      name: 'USTX',
+      display: 'ustx',
+      symbol: 'USTX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.svg'
+      },
+      keywords: [
+        'stablecoin',
+        'usd',
+        'rwa'
+      ],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.svg'
+        }],
+      socials: {
+        website: 'https://tx.org/',
+        x: 'https://x.com/txEcosystem',
+        telegram: 'https://t.me/+q0fGCpknxeRjMTVh',
+        medium: 'https://medium.com/@txEcosystem'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-20',
+            base_denom: 'uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x',
+            chain_name: 'coreum'
+          },
+          chain: {
+            channel_id: 'channel-159',
+            path: 'transfer/channel-159/uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x'
+          }
+        }]
+    },
+    {
       description: 'The native token of Osmosis',
       denom_units: [{
           denom: 'ibc/6B8531505147C9FF2AC90BC096AEC5D8E77EE3582874640FA5FE4E4FB382D2AC',
@@ -562,6 +609,53 @@ const assets: AssetList = {
           chain: {
             channel_id: 'channel-159',
             path: 'transfer/channel-159/ucorez-core1astd8pqhs7mslk9rnygy9kzc5s2cqnwftcvmquxr7z9z78szzvzqljlc23'
+          }
+        }]
+    },
+    {
+      description: 'USD-backed stablecoin issued by Brale',
+      denom_units: [{
+          denom: 'ibc/796541647A23FABBDE39553B9B277FAADEE878F7879EBEB296B7ACE7FE83D814',
+          exponent: 0,
+          aliases: ['uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x']
+        }, {
+          denom: 'ustx',
+          exponent: 6
+        }],
+      base: 'ibc/796541647A23FABBDE39553B9B277FAADEE878F7879EBEB296B7ACE7FE83D814',
+      name: 'USTX',
+      display: 'ustx',
+      symbol: 'USTX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.svg'
+      },
+      keywords: [
+        'stablecoin',
+        'usd',
+        'rwa'
+      ],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.svg'
+        }],
+      socials: {
+        website: 'https://tx.org/',
+        x: 'https://x.com/txEcosystem',
+        telegram: 'https://t.me/+q0fGCpknxeRjMTVh',
+        medium: 'https://medium.com/@txEcosystem'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-20',
+            base_denom: 'uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x',
+            chain_name: 'coreum'
+          },
+          chain: {
+            channel_id: 'channel-159',
+            path: 'transfer/channel-159/uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x'
           }
         }]
     },

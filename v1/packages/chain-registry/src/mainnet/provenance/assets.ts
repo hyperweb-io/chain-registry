@@ -2,7 +2,8 @@ import { AssetList } from '@chain-registry/types';
 const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chain_name: 'provenance',
-  assets: [{
+  assets: [
+    {
       description: 'Hash is the staking token of the Provenance Blockchain',
       denom_units: [{
           denom: 'nhash',
@@ -25,7 +26,8 @@ const info: AssetList = {
         }],
       type_asset: 'sdk.coin',
       coingecko_id: 'hash-2'
-    }, {
+    },
+    {
       description: 'USD Coin',
       denom_units: [{
           denom: 'ibc/616E26A85AD20A3DDEAEBDDE7262E3BA9356C557BC15CACEA86768D7D51FA703',
@@ -75,6 +77,58 @@ const info: AssetList = {
             circle: true
           }
         }]
-    }]
+    },
+    {
+      description: 'YLDS is a yield-bearing tokenized deposit share issued by Figure Certificate Company on the Provenance Blockchain',
+      denom_units: [{
+          denom: 'uylds.fcc',
+          exponent: 0,
+          aliases: ['microylds.fcc']
+        }, {
+          denom: 'ylds.fcc',
+          exponent: 6
+        }],
+      base: 'uylds.fcc',
+      name: 'YLDS',
+      display: 'ylds.fcc',
+      symbol: 'YLDS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://www.ylds.com/'
+      }
+    },
+    {
+      description: 'FGRS Blockchain Equity',
+      denom_units: [{
+          denom: 'nfgrd',
+          exponent: 0,
+          aliases: ['nanofgrd']
+        }, {
+          denom: 'fgrd',
+          exponent: 9
+        }],
+      base: 'nfgrd',
+      name: 'Figure Technology Solutions Series A Blockchain Common Stock',
+      display: 'fgrd',
+      symbol: 'FGRS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.svg'
+        }],
+      type_asset: 'sdk.coin'
+    }
+  ]
 };
 export default info;

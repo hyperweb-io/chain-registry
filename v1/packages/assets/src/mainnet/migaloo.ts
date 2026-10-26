@@ -9742,6 +9742,46 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'BLAME (#blamefrag) is a community memecoin on Terra Classic.',
+      socials: {
+        telegram: 'https://t.me/blamefrag'
+      },
+      type_asset: 'cw20',
+      address: 'terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq',
+      denom_units: [{
+          denom: 'ibc/4C4BA58AACAC1DD812C42E4F55BE4DE71E456048FAEF413BF60AACA432691751',
+          exponent: 0,
+          aliases: ['cw20:terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq']
+        }, {
+          denom: 'blame',
+          exponent: 6
+        }],
+      base: 'ibc/4C4BA58AACAC1DD812C42E4F55BE4DE71E456048FAEF413BF60AACA432691751',
+      name: '#blamefrag',
+      display: 'blame',
+      symbol: 'BLAME',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/blame.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/blame.png'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
+            channel_id: 'channel-87',
+            base_denom: 'cw20:terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq',
+            chain_name: 'terra'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-114',
+            path: 'transfer/channel-114/cw20:terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq'
+          }
+        }]
+    },
+    {
       description: 'Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.',
       denom_units: [{
           denom: 'ibc/8935E9B60645CD61DC925E7C71956DC909D4548262103D1AB75E2A5306AC84C1',
@@ -18686,6 +18726,46 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-114',
             path: 'transfer/channel-114/cw20:terra15p8su45k45axng8ue59rl6zph4at27s49u3agr6uqrx3dhcxpg3qt0ekdt'
+          }
+        }]
+    },
+    {
+      description: 'BLAME (#blamefrag) is a community memecoin on Terra Classic.',
+      socials: {
+        telegram: 'https://t.me/blamefrag'
+      },
+      type_asset: 'cw20',
+      address: 'terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq',
+      denom_units: [{
+          denom: 'ibc/4C4BA58AACAC1DD812C42E4F55BE4DE71E456048FAEF413BF60AACA432691751',
+          exponent: 0,
+          aliases: ['cw20:terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq']
+        }, {
+          denom: 'blame',
+          exponent: 6
+        }],
+      base: 'ibc/4C4BA58AACAC1DD812C42E4F55BE4DE71E456048FAEF413BF60AACA432691751',
+      name: '#blamefrag',
+      display: 'blame',
+      symbol: 'BLAME',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/blame.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/blame.png'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
+            channel_id: 'channel-87',
+            base_denom: 'cw20:terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq',
+            chain_name: 'terra'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-114',
+            path: 'transfer/channel-114/cw20:terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq'
           }
         }]
     },

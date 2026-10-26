@@ -34,6 +34,41 @@ const info: AssetList = {
       type_asset: 'sdk.coin'
     },
     {
+      description: 'Bitcoin bridged to Dungeon Chain via the Crypto Dungeon FROST Taproot custody bridge (dnBTC).',
+      denom_units: [{
+          denom: 'factory/dungeon1wtzjvusmm6r370k0nfwtejywl4qklf7rmhf0ng43tdsqh70cljjqc7gh6q/wbtc',
+          exponent: 0,
+          aliases: ['sat']
+        }, {
+          denom: 'dnbtc',
+          exponent: 8
+        }],
+      type_asset: 'sdk.coin',
+      base: 'factory/dungeon1wtzjvusmm6r370k0nfwtejywl4qklf7rmhf0ng43tdsqh70cljjqc7gh6q/wbtc',
+      name: 'Dungeon Bridged Bitcoin',
+      display: 'dnbtc',
+      symbol: 'dnBTC',
+      traces: [{
+          type: 'bridge',
+          counterparty: {
+            chain_name: 'bitcoin',
+            base_denom: 'sat'
+          },
+          provider: 'Crypto Dungeon'
+        }],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/dnbtc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/dnbtc.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/dnbtc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/dnbtc.svg'
+      }
+    },
+    {
       description: 'The native staking and governance token of the Cosmos Hub.',
       denom_units: [{
           denom: 'ibc/C3988DBA4BA195F3514EA2E02497B9F66019CE53EFB96D4982CE95CA6A51BBCE',

@@ -1771,6 +1771,53 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'USD-backed stablecoin issued by Brale',
+      denom_units: [{
+          denom: 'ibc/1AED49E348C429D9AAE900DCAB2C697F731AEE2B1AF6BA6D3664D05D55F81793',
+          exponent: 0,
+          aliases: ['uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x']
+        }, {
+          denom: 'ustx',
+          exponent: 6
+        }],
+      base: 'ibc/1AED49E348C429D9AAE900DCAB2C697F731AEE2B1AF6BA6D3664D05D55F81793',
+      name: 'USTX',
+      display: 'ustx',
+      symbol: 'USTX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.svg'
+      },
+      keywords: [
+        'stablecoin',
+        'usd',
+        'rwa'
+      ],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.svg'
+        }],
+      socials: {
+        website: 'https://tx.org/',
+        x: 'https://x.com/txEcosystem',
+        telegram: 'https://t.me/+q0fGCpknxeRjMTVh',
+        medium: 'https://medium.com/@txEcosystem'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x',
+            chain_name: 'coreum'
+          },
+          chain: {
+            channel_id: 'channel-2188',
+            path: 'transfer/channel-2188/uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x'
+          }
+        }]
+    },
+    {
       description: 'ATOM is the native cryptocurrency of the Cosmos network, designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.',
       denom_units: [{
           denom: 'ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2',
@@ -7265,6 +7312,53 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'USD-backed stablecoin issued by Brale',
+      denom_units: [{
+          denom: 'ibc/1AED49E348C429D9AAE900DCAB2C697F731AEE2B1AF6BA6D3664D05D55F81793',
+          exponent: 0,
+          aliases: ['uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x']
+        }, {
+          denom: 'ustx',
+          exponent: 6
+        }],
+      base: 'ibc/1AED49E348C429D9AAE900DCAB2C697F731AEE2B1AF6BA6D3664D05D55F81793',
+      name: 'USTX',
+      display: 'ustx',
+      symbol: 'USTX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.svg'
+      },
+      keywords: [
+        'stablecoin',
+        'usd',
+        'rwa'
+      ],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.svg'
+        }],
+      socials: {
+        website: 'https://tx.org/',
+        x: 'https://x.com/txEcosystem',
+        telegram: 'https://t.me/+q0fGCpknxeRjMTVh',
+        medium: 'https://medium.com/@txEcosystem'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x',
+            chain_name: 'coreum'
+          },
+          chain: {
+            channel_id: 'channel-2188',
+            path: 'transfer/channel-2188/uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x'
+          }
+        }]
+    },
+    {
       description: 'ATOM is the native cryptocurrency of the Cosmos network, designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.',
       denom_units: [{
           denom: 'ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2',
@@ -11614,6 +11708,81 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'YLDS is a yield-bearing tokenized deposit share issued by Figure Certificate Company on the Provenance Blockchain',
+      denom_units: [{
+          denom: 'ibc/924A62CC6911726FA8FB7C8605BA91C312FF3FEB305AD6B302B5929C7A6FF7D3',
+          exponent: 0,
+          aliases: ['uylds.fcc']
+        }, {
+          denom: 'ylds.fcc',
+          exponent: 6
+        }],
+      base: 'ibc/924A62CC6911726FA8FB7C8605BA91C312FF3FEB305AD6B302B5929C7A6FF7D3',
+      name: 'YLDS',
+      display: 'ylds.fcc',
+      symbol: 'YLDS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://www.ylds.com/'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-7',
+            base_denom: 'uylds.fcc',
+            chain_name: 'provenance'
+          },
+          chain: {
+            channel_id: 'channel-222',
+            path: 'transfer/channel-222/uylds.fcc'
+          }
+        }]
+    },
+    {
+      description: 'FGRS Blockchain Equity',
+      denom_units: [{
+          denom: 'ibc/50963413187B308BB803E08602B6A8ABCB50BA3CF97FD1560F0C34A38C4901C3',
+          exponent: 0,
+          aliases: ['nfgrd']
+        }, {
+          denom: 'fgrd',
+          exponent: 9
+        }],
+      base: 'ibc/50963413187B308BB803E08602B6A8ABCB50BA3CF97FD1560F0C34A38C4901C3',
+      name: 'Figure Technology Solutions Series A Blockchain Common Stock',
+      display: 'fgrd',
+      symbol: 'FGRS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-7',
+            base_denom: 'nfgrd',
+            chain_name: 'provenance'
+          },
+          chain: {
+            channel_id: 'channel-222',
+            path: 'transfer/channel-222/nfgrd'
+          }
+        }]
+    },
+    {
       description: 'The revenue token for Pylons',
       denom_units: [{
           denom: 'ibc/0835781EF3F3ADD053874323AB660C75B50B18B16733CAB783CA6BBD78244EDF',
@@ -14999,6 +15168,81 @@ const assets: AssetList = {
           chain: {
             channel_id: 'channel-222',
             path: 'transfer/channel-222/nhash'
+          }
+        }]
+    },
+    {
+      description: 'YLDS is a yield-bearing tokenized deposit share issued by Figure Certificate Company on the Provenance Blockchain',
+      denom_units: [{
+          denom: 'ibc/924A62CC6911726FA8FB7C8605BA91C312FF3FEB305AD6B302B5929C7A6FF7D3',
+          exponent: 0,
+          aliases: ['uylds.fcc']
+        }, {
+          denom: 'ylds.fcc',
+          exponent: 6
+        }],
+      base: 'ibc/924A62CC6911726FA8FB7C8605BA91C312FF3FEB305AD6B302B5929C7A6FF7D3',
+      name: 'YLDS',
+      display: 'ylds.fcc',
+      symbol: 'YLDS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://www.ylds.com/'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-7',
+            base_denom: 'uylds.fcc',
+            chain_name: 'provenance'
+          },
+          chain: {
+            channel_id: 'channel-222',
+            path: 'transfer/channel-222/uylds.fcc'
+          }
+        }]
+    },
+    {
+      description: 'FGRS Blockchain Equity',
+      denom_units: [{
+          denom: 'ibc/50963413187B308BB803E08602B6A8ABCB50BA3CF97FD1560F0C34A38C4901C3',
+          exponent: 0,
+          aliases: ['nfgrd']
+        }, {
+          denom: 'fgrd',
+          exponent: 9
+        }],
+      base: 'ibc/50963413187B308BB803E08602B6A8ABCB50BA3CF97FD1560F0C34A38C4901C3',
+      name: 'Figure Technology Solutions Series A Blockchain Common Stock',
+      display: 'fgrd',
+      symbol: 'FGRS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-7',
+            base_denom: 'nfgrd',
+            chain_name: 'provenance'
+          },
+          chain: {
+            channel_id: 'channel-222',
+            path: 'transfer/channel-222/nfgrd'
           }
         }]
     },
@@ -32346,6 +32590,46 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-78488',
             path: 'transfer/channel-78488/cw20:terra15p8su45k45axng8ue59rl6zph4at27s49u3agr6uqrx3dhcxpg3qt0ekdt'
+          }
+        }]
+    },
+    {
+      description: 'BLAME (#blamefrag) is a community memecoin on Terra Classic.',
+      socials: {
+        telegram: 'https://t.me/blamefrag'
+      },
+      type_asset: 'cw20',
+      address: 'terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq',
+      denom_units: [{
+          denom: 'ibc/E148CBB509DD277676772C542C1D17FC886719CF74BAD187DE8DCF707D136279',
+          exponent: 0,
+          aliases: ['cw20:terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq']
+        }, {
+          denom: 'blame',
+          exponent: 6
+        }],
+      base: 'ibc/E148CBB509DD277676772C542C1D17FC886719CF74BAD187DE8DCF707D136279',
+      name: '#blamefrag',
+      display: 'blame',
+      symbol: 'BLAME',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/blame.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/blame.png'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
+            channel_id: 'channel-108',
+            base_denom: 'cw20:terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq',
+            chain_name: 'terra'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-78488',
+            path: 'transfer/channel-78488/cw20:terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq'
           }
         }]
     },
@@ -41294,6 +41578,46 @@ const assets: AssetList = {
             port: 'transfer',
             channel_id: 'channel-78488',
             path: 'transfer/channel-78488/cw20:terra15p8su45k45axng8ue59rl6zph4at27s49u3agr6uqrx3dhcxpg3qt0ekdt'
+          }
+        }]
+    },
+    {
+      description: 'BLAME (#blamefrag) is a community memecoin on Terra Classic.',
+      socials: {
+        telegram: 'https://t.me/blamefrag'
+      },
+      type_asset: 'cw20',
+      address: 'terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq',
+      denom_units: [{
+          denom: 'ibc/E148CBB509DD277676772C542C1D17FC886719CF74BAD187DE8DCF707D136279',
+          exponent: 0,
+          aliases: ['cw20:terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq']
+        }, {
+          denom: 'blame',
+          exponent: 6
+        }],
+      base: 'ibc/E148CBB509DD277676772C542C1D17FC886719CF74BAD187DE8DCF707D136279',
+      name: '#blamefrag',
+      display: 'blame',
+      symbol: 'BLAME',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/blame.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/blame.png'
+        }],
+      traces: [{
+          type: 'ibc-cw20',
+          counterparty: {
+            port: 'wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc',
+            channel_id: 'channel-108',
+            base_denom: 'cw20:terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq',
+            chain_name: 'terra'
+          },
+          chain: {
+            port: 'transfer',
+            channel_id: 'channel-78488',
+            path: 'transfer/channel-78488/cw20:terra1j9tjp5terr8n209ng8ys68rfrs8x76lrycet5rsc55yultyh9gfqeaa4wq'
           }
         }]
     },

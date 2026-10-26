@@ -120,6 +120,7 @@ import * as _lumen from './lumen';
 import * as _lumera from './lumera';
 import * as _lumiwaveprotocol from './lumiwaveprotocol';
 import * as _lumnetwork from './lumnetwork';
+import * as _luxa from './luxa';
 import * as _mande from './mande';
 import * as _manifest from './manifest';
 import * as _mantrachain from './mantrachain';
@@ -136,6 +137,7 @@ import * as _mythos from './mythos';
 import * as _neura from './neura';
 import * as _neutaro from './neutaro';
 import * as _neutron from './neutron';
+import * as _neutronx from './neutronx';
 import * as _nibiru from './nibiru';
 import * as _nim from './nim';
 import * as _noble from './noble';
@@ -345,6 +347,7 @@ const assets: AssetList[] = [
   _lumera.assets,
   _lumiwaveprotocol.assets,
   _lumnetwork.assets,
+  _luxa.assets,
   _mande.assets,
   _manifest.assets,
   _mantrachain.assets,
@@ -361,6 +364,7 @@ const assets: AssetList[] = [
   _neura.assets,
   _neutaro.assets,
   _neutron.assets,
+  _neutronx.assets,
   _nibiru.assets,
   _nim.assets,
   _noble.assets,

@@ -694,6 +694,40 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of BLG24, a sovereign Layer 1 blockchain built on Cosmos SDK.',
+      denom_units: [{
+          denom: 'ibc/2EE6CEAAD2A6501FF525F4AC8426D04688364C570D07898B1B612276AF017063',
+          exponent: 0,
+          aliases: ['ug24']
+        }, {
+          denom: 'g24',
+          exponent: 6
+        }],
+      base: 'ibc/2EE6CEAAD2A6501FF525F4AC8426D04688364C570D07898B1B612276AF017063',
+      name: 'Gold24Coin',
+      display: 'g24',
+      symbol: 'G24',
+      type_asset: 'sdk.coin',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/blg24/images/g24.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/blg24/images/g24.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'ug24',
+            chain_name: 'blg24'
+          },
+          chain: {
+            channel_id: 'channel-1939',
+            path: 'transfer/channel-1939/ug24'
+          }
+        }]
+    },
+    {
       description: 'Canto is a Layer-1 blockchain built to deliver on the promise of DeFi',
       denom_units: [{
           denom: 'ibc/5567102708097100D5B3FC160F01F5031CBF82EC362EA46CFEE97A8316B39264',
@@ -1144,6 +1178,53 @@ const assets: AssetList = {
           chain: {
             channel_id: 'channel-660',
             path: 'transfer/channel-660/ucorez-core1astd8pqhs7mslk9rnygy9kzc5s2cqnwftcvmquxr7z9z78szzvzqljlc23'
+          }
+        }]
+    },
+    {
+      description: 'USD-backed stablecoin issued by Brale',
+      denom_units: [{
+          denom: 'ibc/1B4AD7E8016013C13BAC4F70F10CB2FBDED4E1237F32994EAC93D4E6D6197495',
+          exponent: 0,
+          aliases: ['uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x']
+        }, {
+          denom: 'ustx',
+          exponent: 6
+        }],
+      base: 'ibc/1B4AD7E8016013C13BAC4F70F10CB2FBDED4E1237F32994EAC93D4E6D6197495',
+      name: 'USTX',
+      display: 'ustx',
+      symbol: 'USTX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.svg'
+      },
+      keywords: [
+        'stablecoin',
+        'usd',
+        'rwa'
+      ],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.svg'
+        }],
+      socials: {
+        website: 'https://tx.org/',
+        x: 'https://x.com/txEcosystem',
+        telegram: 'https://t.me/+q0fGCpknxeRjMTVh',
+        medium: 'https://medium.com/@txEcosystem'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-9',
+            base_denom: 'uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x',
+            chain_name: 'coreum'
+          },
+          chain: {
+            channel_id: 'channel-660',
+            path: 'transfer/channel-660/uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x'
           }
         }]
     },
@@ -1800,6 +1881,40 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native token of BLG24, a sovereign Layer 1 blockchain built on Cosmos SDK.',
+      denom_units: [{
+          denom: 'ibc/2EE6CEAAD2A6501FF525F4AC8426D04688364C570D07898B1B612276AF017063',
+          exponent: 0,
+          aliases: ['ug24']
+        }, {
+          denom: 'g24',
+          exponent: 6
+        }],
+      base: 'ibc/2EE6CEAAD2A6501FF525F4AC8426D04688364C570D07898B1B612276AF017063',
+      name: 'Gold24Coin',
+      display: 'g24',
+      symbol: 'G24',
+      type_asset: 'sdk.coin',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/blg24/images/g24.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/blg24/images/g24.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-2',
+            base_denom: 'ug24',
+            chain_name: 'blg24'
+          },
+          chain: {
+            channel_id: 'channel-1939',
+            path: 'transfer/channel-1939/ug24'
+          }
+        }]
+    },
+    {
       description: 'Canto is a Layer-1 blockchain built to deliver on the promise of DeFi',
       denom_units: [{
           denom: 'ibc/5567102708097100D5B3FC160F01F5031CBF82EC362EA46CFEE97A8316B39264',
@@ -2250,6 +2365,53 @@ const assets: AssetList = {
           chain: {
             channel_id: 'channel-660',
             path: 'transfer/channel-660/ucorez-core1astd8pqhs7mslk9rnygy9kzc5s2cqnwftcvmquxr7z9z78szzvzqljlc23'
+          }
+        }]
+    },
+    {
+      description: 'USD-backed stablecoin issued by Brale',
+      denom_units: [{
+          denom: 'ibc/1B4AD7E8016013C13BAC4F70F10CB2FBDED4E1237F32994EAC93D4E6D6197495',
+          exponent: 0,
+          aliases: ['uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x']
+        }, {
+          denom: 'ustx',
+          exponent: 6
+        }],
+      base: 'ibc/1B4AD7E8016013C13BAC4F70F10CB2FBDED4E1237F32994EAC93D4E6D6197495',
+      name: 'USTX',
+      display: 'ustx',
+      symbol: 'USTX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.svg'
+      },
+      keywords: [
+        'stablecoin',
+        'usd',
+        'rwa'
+      ],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.svg'
+        }],
+      socials: {
+        website: 'https://tx.org/',
+        x: 'https://x.com/txEcosystem',
+        telegram: 'https://t.me/+q0fGCpknxeRjMTVh',
+        medium: 'https://medium.com/@txEcosystem'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-9',
+            base_denom: 'uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x',
+            chain_name: 'coreum'
+          },
+          chain: {
+            channel_id: 'channel-660',
+            path: 'transfer/channel-660/uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x'
           }
         }]
     },

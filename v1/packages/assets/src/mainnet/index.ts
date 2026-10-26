@@ -98,6 +98,7 @@ export * as mtgbp from './mtgbp';
 export * as mucoin from './mucoin';
 export * as neutaro from './neutaro';
 export * as neutron from './neutron';
+export * as neutronx from './neutronx';
 export * as nibiru from './nibiru';
 export * as nim from './nim';
 export * as noble from './noble';

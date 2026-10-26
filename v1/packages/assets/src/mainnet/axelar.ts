@@ -1014,6 +1014,53 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'USD-backed stablecoin issued by Brale',
+      denom_units: [{
+          denom: 'ibc/B70880C16F464057E89195336F23389DED5BC1A653981E10DE5968AF49D1C047',
+          exponent: 0,
+          aliases: ['uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x']
+        }, {
+          denom: 'ustx',
+          exponent: 6
+        }],
+      base: 'ibc/B70880C16F464057E89195336F23389DED5BC1A653981E10DE5968AF49D1C047',
+      name: 'USTX',
+      display: 'ustx',
+      symbol: 'USTX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.svg'
+      },
+      keywords: [
+        'stablecoin',
+        'usd',
+        'rwa'
+      ],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.svg'
+        }],
+      socials: {
+        website: 'https://tx.org/',
+        x: 'https://x.com/txEcosystem',
+        telegram: 'https://t.me/+q0fGCpknxeRjMTVh',
+        medium: 'https://medium.com/@txEcosystem'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x',
+            chain_name: 'coreum'
+          },
+          chain: {
+            channel_id: 'channel-120',
+            path: 'transfer/channel-120/uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x'
+          }
+        }]
+    },
+    {
       description: 'ATOM is the native cryptocurrency of the Cosmos network, designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.',
       denom_units: [{
           denom: 'ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E',
@@ -2501,6 +2548,81 @@ const assets: AssetList = {
           chain: {
             channel_id: 'channel-116',
             path: 'transfer/channel-116/nhash'
+          }
+        }]
+    },
+    {
+      description: 'YLDS is a yield-bearing tokenized deposit share issued by Figure Certificate Company on the Provenance Blockchain',
+      denom_units: [{
+          denom: 'ibc/D259F0D798A3CC1E2FC7445DF1417905FA6438FD37C2A4EC6D1CDF683C7F5DA2',
+          exponent: 0,
+          aliases: ['uylds.fcc']
+        }, {
+          denom: 'ylds.fcc',
+          exponent: 6
+        }],
+      base: 'ibc/D259F0D798A3CC1E2FC7445DF1417905FA6438FD37C2A4EC6D1CDF683C7F5DA2',
+      name: 'YLDS',
+      display: 'ylds.fcc',
+      symbol: 'YLDS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://www.ylds.com/'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-9',
+            base_denom: 'uylds.fcc',
+            chain_name: 'provenance'
+          },
+          chain: {
+            channel_id: 'channel-116',
+            path: 'transfer/channel-116/uylds.fcc'
+          }
+        }]
+    },
+    {
+      description: 'FGRS Blockchain Equity',
+      denom_units: [{
+          denom: 'ibc/3BBAFF2B15EF6E485FFE2233FD07E9F08A757D5C3F7C710E61E48E369820153A',
+          exponent: 0,
+          aliases: ['nfgrd']
+        }, {
+          denom: 'fgrd',
+          exponent: 9
+        }],
+      base: 'ibc/3BBAFF2B15EF6E485FFE2233FD07E9F08A757D5C3F7C710E61E48E369820153A',
+      name: 'Figure Technology Solutions Series A Blockchain Common Stock',
+      display: 'fgrd',
+      symbol: 'FGRS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-9',
+            base_denom: 'nfgrd',
+            chain_name: 'provenance'
+          },
+          chain: {
+            channel_id: 'channel-116',
+            path: 'transfer/channel-116/nfgrd'
           }
         }]
     },
@@ -3501,6 +3623,53 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'USD-backed stablecoin issued by Brale',
+      denom_units: [{
+          denom: 'ibc/B70880C16F464057E89195336F23389DED5BC1A653981E10DE5968AF49D1C047',
+          exponent: 0,
+          aliases: ['uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x']
+        }, {
+          denom: 'ustx',
+          exponent: 6
+        }],
+      base: 'ibc/B70880C16F464057E89195336F23389DED5BC1A653981E10DE5968AF49D1C047',
+      name: 'USTX',
+      display: 'ustx',
+      symbol: 'USTX',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.svg'
+      },
+      keywords: [
+        'stablecoin',
+        'usd',
+        'rwa'
+      ],
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/ustx.svg'
+        }],
+      socials: {
+        website: 'https://tx.org/',
+        x: 'https://x.com/txEcosystem',
+        telegram: 'https://t.me/+q0fGCpknxeRjMTVh',
+        medium: 'https://medium.com/@txEcosystem'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-6',
+            base_denom: 'uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x',
+            chain_name: 'coreum'
+          },
+          chain: {
+            channel_id: 'channel-120',
+            path: 'transfer/channel-120/uustx-core1rfxrg75fzuq5hgnnymjgsxj70d9w9cs8xuza7x'
+          }
+        }]
+    },
+    {
       description: 'ATOM is the native cryptocurrency of the Cosmos network, designed to facilitate interoperability between multiple blockchains through its innovative hub-and-spoke model.',
       denom_units: [{
           denom: 'ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E',
@@ -4988,6 +5157,81 @@ const assets: AssetList = {
           chain: {
             channel_id: 'channel-116',
             path: 'transfer/channel-116/nhash'
+          }
+        }]
+    },
+    {
+      description: 'YLDS is a yield-bearing tokenized deposit share issued by Figure Certificate Company on the Provenance Blockchain',
+      denom_units: [{
+          denom: 'ibc/D259F0D798A3CC1E2FC7445DF1417905FA6438FD37C2A4EC6D1CDF683C7F5DA2',
+          exponent: 0,
+          aliases: ['uylds.fcc']
+        }, {
+          denom: 'ylds.fcc',
+          exponent: 6
+        }],
+      base: 'ibc/D259F0D798A3CC1E2FC7445DF1417905FA6438FD37C2A4EC6D1CDF683C7F5DA2',
+      name: 'YLDS',
+      display: 'ylds.fcc',
+      symbol: 'YLDS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/ylds.svg'
+        }],
+      type_asset: 'sdk.coin',
+      socials: {
+        website: 'https://www.ylds.com/'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-9',
+            base_denom: 'uylds.fcc',
+            chain_name: 'provenance'
+          },
+          chain: {
+            channel_id: 'channel-116',
+            path: 'transfer/channel-116/uylds.fcc'
+          }
+        }]
+    },
+    {
+      description: 'FGRS Blockchain Equity',
+      denom_units: [{
+          denom: 'ibc/3BBAFF2B15EF6E485FFE2233FD07E9F08A757D5C3F7C710E61E48E369820153A',
+          exponent: 0,
+          aliases: ['nfgrd']
+        }, {
+          denom: 'fgrd',
+          exponent: 9
+        }],
+      base: 'ibc/3BBAFF2B15EF6E485FFE2233FD07E9F08A757D5C3F7C710E61E48E369820153A',
+      name: 'Figure Technology Solutions Series A Blockchain Common Stock',
+      display: 'fgrd',
+      symbol: 'FGRS',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/fgrs.svg'
+        }],
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-9',
+            base_denom: 'nfgrd',
+            chain_name: 'provenance'
+          },
+          chain: {
+            channel_id: 'channel-116',
+            path: 'transfer/channel-116/nfgrd'
           }
         }]
     },
