@@ -2,7 +2,8 @@ import { AssetList } from '@chain-registry/types';
 const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chain_name: 'luxa',
-  assets: [{
+  assets: [
+    {
       description: 'The native sovereign currency and governance token of the LUXA Layer 1 blockchain.',
       denom_units: [{
           denom: 'uluxa',
@@ -29,7 +30,8 @@ const info: AssetList = {
         x: 'https://x.com/luxaecosystem'
       },
       type_asset: 'sdk.coin'
-    }, {
+    },
+    {
       description: 'The utility and energy token of the LUXA Network ecosystem.',
       denom_units: [{
           denom: 'ushard',
@@ -57,6 +59,51 @@ const info: AssetList = {
         x: 'https://x.com/luxaecosystem'
       },
       type_asset: 'sdk.coin'
-    }]
+    },
+    {
+      description: 'Noble USDC transferred via IBC from Noble to LUXA Network.',
+      denom_units: [{
+          denom: 'ibc/BFF0D3805B50D93E2FA5C0B2DDF7E0B30A631076CD80BC12A48C0E95404B4A41',
+          exponent: 0,
+          aliases: ['microusdc', 'uusdc']
+        }, {
+          denom: 'usdc',
+          exponent: 6
+        }],
+      type_asset: 'ics20',
+      base: 'ibc/BFF0D3805B50D93E2FA5C0B2DDF7E0B30A631076CD80BC12A48C0E95404B4A41',
+      name: 'USDC (Noble)',
+      display: 'usdc',
+      symbol: 'USDC.n',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chain_name: 'noble',
+            base_denom: 'uusdc',
+            channel_id: 'channel-640'
+          },
+          chain: {
+            channel_id: 'channel-4',
+            path: 'transfer/channel-4/uusdc'
+          }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
+      },
+      images: [{
+          image_sync: {
+            chain_name: 'noble',
+            base_denom: 'uusdc'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg',
+          theme: {
+            circle: true
+          }
+        }],
+      coingecko_id: 'usd-coin'
+    }
+  ]
 };
 export default info;

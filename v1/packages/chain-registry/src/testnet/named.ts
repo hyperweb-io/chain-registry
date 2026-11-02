@@ -90,6 +90,7 @@ export * as nvnmchaintestnet from './nvnmchaintestnet';
 export * as nyxtestnet from './nyxtestnet';
 export * as okp4testnet from './okp4testnet';
 export * as osmosistestnet from './osmosistestnet';
+export * as ozonetestnet from './ozonetestnet';
 export * as pelltestnet from './pelltestnet';
 export * as permtestnet from './permtestnet';
 export * as persistencetestnet from './persistencetestnet';

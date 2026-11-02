@@ -87,6 +87,7 @@ export * as lorenzo from './lorenzo';
 export * as lumen from './lumen';
 export * as lumera from './lumera';
 export * as lumnetwork from './lumnetwork';
+export * as luxa from './luxa';
 export * as mande from './mande';
 export * as manifest from './manifest';
 export * as mantrachain from './mantrachain';

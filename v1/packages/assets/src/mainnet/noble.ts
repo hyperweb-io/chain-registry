@@ -2113,6 +2113,89 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'The native sovereign currency and governance token of the LUXA Layer 1 blockchain.',
+      denom_units: [{
+          denom: 'ibc/7B1C63A97050D37EFF7B06F2E073D62AF2D8483C7F689A1B495ECE1D7D144EA1',
+          exponent: 0,
+          aliases: ['uluxa']
+        }, {
+          denom: 'LUXA',
+          exponent: 6
+        }],
+      base: 'ibc/7B1C63A97050D37EFF7B06F2E073D62AF2D8483C7F689A1B495ECE1D7D144EA1',
+      name: 'LUXA',
+      display: 'LUXA',
+      symbol: 'LUXA',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/luxa.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/luxa.png',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://luxaecosystem.xyz',
+        x: 'https://x.com/luxaecosystem'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-4',
+            base_denom: 'uluxa',
+            chain_name: 'luxa'
+          },
+          chain: {
+            channel_id: 'channel-640',
+            path: 'transfer/channel-640/uluxa'
+          }
+        }]
+    },
+    {
+      description: 'The utility and energy token of the LUXA Network ecosystem.',
+      denom_units: [{
+          denom: 'ibc/E77EEE473A1DBA8933284AC436833271198E9898FAE9BF9842F48D08FF2F0C05',
+          exponent: 0,
+          aliases: ['ushard']
+        }, {
+          denom: 'SHARD',
+          exponent: 6,
+          aliases: ['shard', 'shards']
+        }],
+      base: 'ibc/E77EEE473A1DBA8933284AC436833271198E9898FAE9BF9842F48D08FF2F0C05',
+      name: 'LUXA Shard',
+      display: 'SHARD',
+      symbol: 'SHARD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/ushard.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/ushard.png',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://luxaecosystem.xyz',
+        x: 'https://x.com/luxaecosystem'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-4',
+            base_denom: 'ushard',
+            chain_name: 'luxa'
+          },
+          chain: {
+            channel_id: 'channel-640',
+            path: 'transfer/channel-640/ushard'
+          }
+        }]
+    },
+    {
       description: 'The native token of MANTRA',
       denom_units: [{
           denom: 'ibc/705FC684E370DE5FC56FD8349FA6D9B73CE4CD3DA8B8C158E37DCA5747583E09',
@@ -4588,6 +4671,89 @@ const assets: AssetList = {
           chain: {
             channel_id: 'channel-105',
             path: 'transfer/channel-105/ulava'
+          }
+        }]
+    },
+    {
+      description: 'The native sovereign currency and governance token of the LUXA Layer 1 blockchain.',
+      denom_units: [{
+          denom: 'ibc/7B1C63A97050D37EFF7B06F2E073D62AF2D8483C7F689A1B495ECE1D7D144EA1',
+          exponent: 0,
+          aliases: ['uluxa']
+        }, {
+          denom: 'LUXA',
+          exponent: 6
+        }],
+      base: 'ibc/7B1C63A97050D37EFF7B06F2E073D62AF2D8483C7F689A1B495ECE1D7D144EA1',
+      name: 'LUXA',
+      display: 'LUXA',
+      symbol: 'LUXA',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/luxa.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/luxa.png',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://luxaecosystem.xyz',
+        x: 'https://x.com/luxaecosystem'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-4',
+            base_denom: 'uluxa',
+            chain_name: 'luxa'
+          },
+          chain: {
+            channel_id: 'channel-640',
+            path: 'transfer/channel-640/uluxa'
+          }
+        }]
+    },
+    {
+      description: 'The utility and energy token of the LUXA Network ecosystem.',
+      denom_units: [{
+          denom: 'ibc/E77EEE473A1DBA8933284AC436833271198E9898FAE9BF9842F48D08FF2F0C05',
+          exponent: 0,
+          aliases: ['ushard']
+        }, {
+          denom: 'SHARD',
+          exponent: 6,
+          aliases: ['shard', 'shards']
+        }],
+      base: 'ibc/E77EEE473A1DBA8933284AC436833271198E9898FAE9BF9842F48D08FF2F0C05',
+      name: 'LUXA Shard',
+      display: 'SHARD',
+      symbol: 'SHARD',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/ushard.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/ushard.png',
+          theme: {
+            circle: true
+          }
+        }],
+      socials: {
+        website: 'https://luxaecosystem.xyz',
+        x: 'https://x.com/luxaecosystem'
+      },
+      type_asset: 'sdk.coin',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-4',
+            base_denom: 'ushard',
+            chain_name: 'luxa'
+          },
+          chain: {
+            channel_id: 'channel-640',
+            path: 'transfer/channel-640/ushard'
           }
         }]
     },

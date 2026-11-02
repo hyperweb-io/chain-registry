@@ -32,6 +32,7 @@ import * as _bitcanna from './bitcanna';
 import * as _bitsong from './bitsong';
 import * as _bitway from './bitway';
 import * as _blg24 from './blg24';
+import * as _blockmaze from './blockmaze';
 import * as _blockx from './blockx';
 import * as _bluechip from './bluechip';
 import * as _bluzelle from './bluzelle';
@@ -151,6 +152,7 @@ import * as _opct from './opct';
 import * as _optio from './optio';
 import * as _oraichain from './oraichain';
 import * as _osmosis from './osmosis';
+import * as _ozone from './ozone';
 import * as _paloma from './paloma';
 import * as _panacea from './panacea';
 import * as _passage from './passage';
@@ -259,6 +261,7 @@ const chains: Chain[] = [
   _bitsong.chain,
   _bitway.chain,
   _blg24.chain,
+  _blockmaze.chain,
   _blockx.chain,
   _bluechip.chain,
   _bluzelle.chain,
@@ -378,6 +381,7 @@ const chains: Chain[] = [
   _optio.chain,
   _oraichain.chain,
   _osmosis.chain,
+  _ozone.chain,
   _paloma.chain,
   _panacea.chain,
   _passage.chain,

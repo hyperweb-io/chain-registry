@@ -109,7 +109,7 @@ const info: IBCInfo[] = [
         version: 'ics20-1',
         tags: {
           preferred: true,
-          status: 'ACTIVE'
+          status: 'INACTIVE'
         }
       }]
   },
