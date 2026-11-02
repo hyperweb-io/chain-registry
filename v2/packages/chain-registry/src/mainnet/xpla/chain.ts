@@ -3,9 +3,9 @@ const info: Chain = {
   $schema: '../chain.schema.json',
   chainName: 'xpla',
   status: 'live',
-  website: 'https://xpla.io',
+  website: 'https://conx.xyz',
   networkType: 'mainnet',
-  prettyName: 'XPLA',
+  prettyName: 'CONX',
   chainType: 'cosmos',
   chainId: 'dimension_37-1',
   bech32Prefix: 'xpla',
@@ -16,10 +16,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'axpla',
-        fixedMinGasPrice: 280000000000,
-        lowGasPrice: 280000000000,
-        averageGasPrice: 280000000000,
-        highGasPrice: 280000000000
+        fixedMinGasPrice: 10000000000000,
+        lowGasPrice: 10000000000000,
+        averageGasPrice: 10000000000000,
+        highGasPrice: 10000000000000
       }]
   },
   staking: {
@@ -29,11 +29,11 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/xpladev/xpla',
-    recommendedVersion: 'v1.8.0',
-    compatibleVersions: ['v1.8.0'],
+    recommendedVersion: 'v1.14.0',
+    compatibleVersions: ['v1.14.0'],
     consensus: {
       type: 'cometbft',
-      version: 'v0.38.17'
+      version: 'v0.38.21'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/xpladev/mainnet/main/dimension_37-1/genesis.json'
@@ -41,15 +41,15 @@ const info: Chain = {
     sdk: {
       type: 'cosmos',
       repo: 'https://github.com/xpladev/cosmos-sdk',
-      version: 'v0.53.4',
-      tag: 'v0.53.4-xpla'
+      version: 'v0.53.6',
+      tag: 'v0.53.6-xpla-2'
     },
     ibc: {
       type: 'go',
-      version: 'v10.3.0'
+      version: 'v10.5.0'
     },
     cosmwasm: {
-      version: 'v0.60.1'
+      version: 'v0.60.9'
     }
   },
   logoURIs: {
@@ -73,10 +73,6 @@ const info: Chain = {
       {
         address: 'https://xpla-rpc.publicnode.com:443',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https://xpla.rpc.m.stavr.tech:443',
-        provider: '🔥STAVR🔥'
       },
       {
         address: 'https://xpla-rpc.polkachu.com:443',
@@ -103,10 +99,6 @@ const info: Chain = {
       {
         address: 'https://xpla-rest.publicnode.com',
         provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
-        address: 'https://xpla.api.m.stavr.tech',
-        provider: '🔥STAVR🔥'
       },
       {
         address: 'https://xpla-api.polkachu.com',
@@ -137,9 +129,9 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'explorer.xpla',
-      url: 'https://explorer.xpla.io/mainnet',
-      txPage: 'https://explorer.xpla.io/mainnet/tx/${txHash}'
+      kind: 'explorer.conx',
+      url: 'https://explorer.conx.xyz/mainnet',
+      txPage: 'https://explorer.conx.xyz/mainnet/tx/${txHash}'
     },
     {
       kind: 'finder',
@@ -149,7 +141,8 @@ const info: Chain = {
     {
       kind: '🔥STAVR🔥',
       url: 'https://explorer.stavr.tech/Xpla-Mainnet',
-      txPage: 'https://explorer.stavr.tech/Xpla-Mainnet/tx/${txHash}'
+      txPage: 'https://explorer.stavr.tech/Xpla-Mainnet/tx/${txHash}',
+      accountPage: 'https://explorer.stavr.tech/Xpla-Mainnet/account/${accountAddress}'
     },
     {
       kind: 'mintscan',
@@ -168,12 +161,6 @@ const info: Chain = {
       url: 'https://ezstaking.app/xpla',
       txPage: 'https://ezstaking.app/xpla/txs/${txHash}',
       accountPage: 'https://ezstaking.app/xpla/account/${accountAddress}'
-    },
-    {
-      kind: '🔥STAVR🔥',
-      url: 'https://explorer.stavr.tech/Xpla-Mainnet',
-      txPage: 'https://explorer.stavr.tech/Xpla-Mainnet/${txHash}',
-      accountPage: 'https://explorer.stavr.tech/Xpla-Mainnet/account/${accountAddress}'
     }
   ],
   images: [{

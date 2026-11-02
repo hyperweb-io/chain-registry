@@ -122,6 +122,45 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.svg'
       }
+    },
+    {
+      description: 'Stride Staked TIA on Dymension Hub',
+      denomUnits: [{
+          denom: 'ibc/F46BA5EDCA6DAA5F7EFD3838430E03647CDC786BB1B89BC9FDD1CBE16B099645',
+          exponent: 0
+        }, {
+          denom: 'stTIA',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/F46BA5EDCA6DAA5F7EFD3838430E03647CDC786BB1B89BC9FDD1CBE16B099645',
+      name: 'Stride Staked TIA',
+      display: 'stTIA',
+      symbol: 'stTIA',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'stride',
+            baseDenom: 'stutia',
+            channelId: 'channel-197'
+          },
+          chain: {
+            channelId: 'channel-0',
+            path: 'transfer/channel-0/stutia'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'stride',
+            baseDenom: 'stutia'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg'
+        }]
     }
   ]
 };

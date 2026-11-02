@@ -92,6 +92,7 @@ import * as _nvnmchaintestnet from './nvnmchaintestnet';
 import * as _nyxtestnet from './nyxtestnet';
 import * as _okp4testnet from './okp4testnet';
 import * as _osmosistestnet from './osmosistestnet';
+import * as _ozonetestnet from './ozonetestnet';
 import * as _pelltestnet from './pelltestnet';
 import * as _permtestnet from './permtestnet';
 import * as _persistencetestnet from './persistencetestnet';
@@ -243,6 +244,7 @@ const chains: Chain[] = [
   _nyxtestnet.chain,
   _okp4testnet.chain,
   _osmosistestnet.chain,
+  _ozonetestnet.chain,
   _pelltestnet.chain,
   _permtestnet.chain,
   _persistencetestnet.chain,

@@ -1792,6 +1792,45 @@ const info: AssetList = {
         x: 'https://x.com/StructuredFi'
       },
       typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Stride Staked TIA on Neutron',
+      denomUnits: [{
+          denom: 'ibc/6569E05DEE32B339D9286A52BE33DFCEFC97267F23EF9CFDE0C055140967A9A5',
+          exponent: 0
+        }, {
+          denom: 'stTIA',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/6569E05DEE32B339D9286A52BE33DFCEFC97267F23EF9CFDE0C055140967A9A5',
+      name: 'Stride Staked TIA',
+      display: 'stTIA',
+      symbol: 'stTIA',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'stride',
+            baseDenom: 'stutia',
+            channelId: 'channel-123'
+          },
+          chain: {
+            channelId: 'channel-8',
+            path: 'transfer/channel-8/stutia'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'stride',
+            baseDenom: 'stutia'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg'
+        }]
     }
   ]
 };

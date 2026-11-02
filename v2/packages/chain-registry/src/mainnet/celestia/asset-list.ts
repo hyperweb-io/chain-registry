@@ -30,6 +30,44 @@ const info: AssetList = {
         x: 'https://x.com/CelestiaOrg'
       },
       typeAsset: 'sdk.coin'
+    }, {
+      description: 'Stride Staked TIA on Celestia',
+      denomUnits: [{
+          denom: 'ibc/EADAE1AEE456C91C72D4FD4F8C3103C287909BF2929B4CE7A1B5123EA9B85AEA',
+          exponent: 0
+        }, {
+          denom: 'stTIA',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/EADAE1AEE456C91C72D4FD4F8C3103C287909BF2929B4CE7A1B5123EA9B85AEA',
+      name: 'Stride Staked TIA',
+      display: 'stTIA',
+      symbol: 'stTIA',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'stride',
+            baseDenom: 'stutia',
+            channelId: 'channel-162'
+          },
+          chain: {
+            channelId: 'channel-4',
+            path: 'transfer/channel-4/stutia'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'stride',
+            baseDenom: 'stutia'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg'
+        }]
     }]
 };
 export default info;

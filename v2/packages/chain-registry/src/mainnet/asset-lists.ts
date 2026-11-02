@@ -32,6 +32,7 @@ import * as _bitcanna from './bitcanna';
 import * as _bitsong from './bitsong';
 import * as _bitway from './bitway';
 import * as _blg24 from './blg24';
+import * as _blockmaze from './blockmaze';
 import * as _blockx from './blockx';
 import * as _bluechip from './bluechip';
 import * as _bluzelle from './bluzelle';
@@ -151,6 +152,7 @@ import * as _opct from './opct';
 import * as _optio from './optio';
 import * as _oraichain from './oraichain';
 import * as _osmosis from './osmosis';
+import * as _ozone from './ozone';
 import * as _paloma from './paloma';
 import * as _panacea from './panacea';
 import * as _passage from './passage';
@@ -259,6 +261,7 @@ const assetList: AssetList[] = [
   _bitsong.assetList,
   _bitway.assetList,
   _blg24.assetList,
+  _blockmaze.assetList,
   _blockx.assetList,
   _bluechip.assetList,
   _bluzelle.assetList,
@@ -378,6 +381,7 @@ const assetList: AssetList[] = [
   _optio.assetList,
   _oraichain.assetList,
   _osmosis.assetList,
+  _ozone.assetList,
   _paloma.assetList,
   _panacea.assetList,
   _passage.assetList,

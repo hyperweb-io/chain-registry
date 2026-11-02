@@ -98,6 +98,45 @@ const info: AssetList = {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg'
       },
       coingeckoId: 'usd-coin'
+    },
+    {
+      description: 'Stride Staked TIA on Agoric',
+      denomUnits: [{
+          denom: 'ibc/4BFBA0996893D2049913D24060BE5936EF8AAF2C89E08B91BCCCA2B8DE3BA241',
+          exponent: 0
+        }, {
+          denom: 'stTIA',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/4BFBA0996893D2049913D24060BE5936EF8AAF2C89E08B91BCCCA2B8DE3BA241',
+      name: 'Stride Staked TIA',
+      display: 'stTIA',
+      symbol: 'stTIA',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'stride',
+            baseDenom: 'stutia',
+            channelId: 'channel-148'
+          },
+          chain: {
+            channelId: 'channel-59',
+            path: 'transfer/channel-59/stutia'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'stride',
+            baseDenom: 'stutia'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg'
+        }]
     }
   ]
 };

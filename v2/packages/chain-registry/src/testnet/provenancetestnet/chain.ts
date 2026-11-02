@@ -73,9 +73,10 @@ const info: Chain = {
     grpc: []
   },
   explorers: [{
-      kind: 'Provenance',
-      url: 'https://explorer.test.provenance.io',
-      txPage: 'https://explorer.test.provenance.io/tx/${txHash}'
+      kind: 'Zonescan',
+      url: 'https://zonescan.io/provenancetestnet',
+      txPage: 'https://zonescan.io/provenancetestnet/transactions/${txHash}',
+      accountPage: 'https://zonescan.io/provenancetestnet/accounts/${accountAddress}'
     }],
   images: [{
       imageSync: {

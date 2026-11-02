@@ -102,6 +102,46 @@ const info: AssetList = {
             circle: true
           }
         }]
+    },
+    {
+      description: 'Stride Staked ISLM on HAQQ',
+      denomUnits: [{
+          denom: 'ibc/B1A035A8CC1CCE2D612CCC2F3CB72B6C9DD951670E81A94AEA0A452995EA9C8C',
+          exponent: 0
+        }, {
+          denom: 'stISLM',
+          exponent: 18
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/B1A035A8CC1CCE2D612CCC2F3CB72B6C9DD951670E81A94AEA0A452995EA9C8C',
+      name: 'Stride Staked ISLM',
+      display: 'stISLM',
+      symbol: 'stISLM',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'stride',
+            baseDenom: 'staISLM',
+            channelId: 'channel-240'
+          },
+          chain: {
+            channelId: 'channel-7',
+            path: 'transfer/channel-7/staISLM'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stislm.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stislm.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'stride',
+            baseDenom: 'staISLM'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stislm.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stislm.svg'
+        }],
+      coingeckoId: 'stride-staked-islm'
     }
   ]
 };

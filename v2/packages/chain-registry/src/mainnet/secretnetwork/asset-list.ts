@@ -323,6 +323,46 @@ const info: AssetList = {
       socials: {
         website: 'https://snvr.org'
       }
+    },
+    {
+      description: 'Stride Staked OSMO on Secret Network',
+      denomUnits: [{
+          denom: 'ibc/B0988C39E7418C644FDFD41682A59D22DCAD1BCC7A6429B2EAAA195FB726A2D7',
+          exponent: 0
+        }, {
+          denom: 'stosmo',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/B0988C39E7418C644FDFD41682A59D22DCAD1BCC7A6429B2EAAA195FB726A2D7',
+      name: 'Stride Staked OSMO',
+      display: 'stosmo',
+      symbol: 'stOSMO',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'stride',
+            baseDenom: 'stuosmo',
+            channelId: 'channel-40'
+          },
+          chain: {
+            channelId: 'channel-37',
+            path: 'transfer/channel-37/stuosmo'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'stride',
+            baseDenom: 'stuosmo'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg'
+        }],
+      coingeckoId: 'stride-staked-osmo'
     }
   ]
 };

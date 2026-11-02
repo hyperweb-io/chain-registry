@@ -3130,6 +3130,37 @@ const info: IBCData[] = [
   {
     $schema: '../ibc_data.schema.json',
     chain1: {
+      chainName: 'luxa',
+      chainId: 'luxa-1',
+      clientId: '07-tendermint-4',
+      connectionId: 'connection-1'
+    },
+    chain2: {
+      chainName: 'osmosis',
+      chainId: 'osmosis-1',
+      clientId: '07-tendermint-3760',
+      connectionId: 'connection-11099'
+    },
+    channels: [{
+        chain1: {
+          channelId: 'channel-1',
+          portId: 'transfer'
+        },
+        chain2: {
+          channelId: 'channel-111100',
+          portId: 'transfer'
+        },
+        ordering: 'unordered',
+        version: 'ics20-1',
+        tags: {
+          status: 'ACTIVE',
+          preferred: true
+        }
+      }]
+  },
+  {
+    $schema: '../ibc_data.schema.json',
+    chain1: {
       chainName: 'manifest',
       chainId: 'manifest-ledger-mainnet',
       clientId: '07-tendermint-0',

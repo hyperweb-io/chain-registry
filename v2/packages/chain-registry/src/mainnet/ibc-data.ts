@@ -89,6 +89,7 @@ import * as _lorenzo from './lorenzo';
 import * as _lumen from './lumen';
 import * as _lumera from './lumera';
 import * as _lumnetwork from './lumnetwork';
+import * as _luxa from './luxa';
 import * as _mande from './mande';
 import * as _manifest from './manifest';
 import * as _mantrachain from './mantrachain';
@@ -258,6 +259,7 @@ const ibcData: IBCData[] = [
   ..._lumen.ibcData,
   ..._lumera.ibcData,
   ..._lumnetwork.ibcData,
+  ..._luxa.ibcData,
   ..._mande.ibcData,
   ..._manifest.ibcData,
   ..._mantrachain.ibcData,

@@ -181,7 +181,7 @@ const info: IBCData[] = [
         version: 'ics20-1',
         tags: {
           preferred: true,
-          status: 'ACTIVE'
+          status: 'INACTIVE'
         }
       }]
   },
@@ -274,7 +274,7 @@ const info: IBCData[] = [
         version: 'ics20-1',
         tags: {
           preferred: true,
-          status: 'ACTIVE'
+          status: 'INACTIVE'
         }
       }]
   },

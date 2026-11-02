@@ -32,35 +32,35 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/unification-com/mainchain',
-    recommendedVersion: 'v1.12.0',
-    compatibleVersions: ['v1.12.0'],
+    recommendedVersion: 'v1.13.4',
+    compatibleVersions: ['v1.13.4'],
     binaries: {
-      "linux/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.12.0/und_v1.12.0_linux_x86_64.tar.gz',
-      "linux/arm64": 'https://github.com/unification-com/mainchain/releases/download/v1.12.0/und_v1.12.0_linux_arm64.tar.gz',
-      "darwin/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.12.0/und_v1.12.0_darwin_x86_64.tar.gz',
-      "darwin/arm64": 'https://github.com/unification-com/mainchain/releases/download/v1.12.0/und_v1.12.0_darwin_arm64.tar.gz',
-      "windows/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.12.0/und_v1.12.0_windows_x86_64.tar.gz',
-      "windows/arm64": 'https://github.com/unification-com/mainchain/releases/download/v1.12.0/und_v1.12.0_windows_arm64.tar.gz'
+      "linux/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.13.4/und_v1.13.4_linux_x86_64.tar.gz',
+      "linux/arm64": 'https://github.com/unification-com/mainchain/releases/download/v1.13.4/und_v1.13.4_linux_arm64.tar.gz',
+      "darwin/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.13.4/und_v1.13.4_darwin_x86_64.tar.gz',
+      "darwin/arm64": 'https://github.com/unification-com/mainchain/releases/download/v1.13.4/und_v1.13.4_darwin_arm64.tar.gz',
+      "windows/amd64": 'https://github.com/unification-com/mainchain/releases/download/v1.13.4/und_v1.13.4_windows_x86_64.tar.gz',
+      "windows/arm64": 'https://github.com/unification-com/mainchain/releases/download/v1.13.4/und_v1.13.4_windows_arm64.tar.gz'
     },
     consensus: {
       type: 'cometbft',
-      version: '0.38.17'
+      version: '0.39.4'
     },
     genesis: {
       genesisUrl: 'https://raw.githubusercontent.com/unification-com/mainnet/master/latest/genesis.json'
     },
     sdk: {
       type: 'cosmos',
-      version: '0.53.4'
+      version: '0.54.4'
     },
     ibc: {
       type: 'go',
-      version: '10.3.0'
+      version: '11.2.0'
     },
     cosmwasm: {
       enabled: false
     },
-    tag: 'v1.12.0'
+    tag: 'v1.13.4'
   },
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png',

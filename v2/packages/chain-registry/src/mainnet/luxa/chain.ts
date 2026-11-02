@@ -51,10 +51,16 @@ const info: Chain = {
     rpc: [{
         address: 'https://rpc.luxaecosystem.xyz',
         provider: 'LUXA Ecosystem'
+      }, {
+        address: 'https://rpc.nodesafe-app.xyz/luxa/',
+        provider: 'NodeSafe'
       }],
     rest: [{
         address: 'https://api.luxaecosystem.xyz',
         provider: 'LUXA Ecosystem'
+      }, {
+        address: 'https://api.nodesafe-app.xyz/luxa',
+        provider: 'NodeSafe'
       }]
   },
   explorers: [{

@@ -92,6 +92,7 @@ import * as _nvnmchaintestnet from './nvnmchaintestnet';
 import * as _nyxtestnet from './nyxtestnet';
 import * as _okp4testnet from './okp4testnet';
 import * as _osmosistestnet from './osmosistestnet';
+import * as _ozonetestnet from './ozonetestnet';
 import * as _pelltestnet from './pelltestnet';
 import * as _permtestnet from './permtestnet';
 import * as _persistencetestnet from './persistencetestnet';
@@ -243,6 +244,7 @@ const assetList: AssetList[] = [
   _nyxtestnet.assetList,
   _okp4testnet.assetList,
   _osmosistestnet.assetList,
+  _ozonetestnet.assetList,
   _pelltestnet.assetList,
   _permtestnet.assetList,
   _persistencetestnet.assetList,

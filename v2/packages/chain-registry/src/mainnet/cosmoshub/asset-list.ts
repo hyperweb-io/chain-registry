@@ -1354,6 +1354,85 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/cinn.png'
       }
+    },
+    {
+      description: 'Stride Staked TIA on Cosmos Hub',
+      denomUnits: [{
+          denom: 'ibc/17DABEBAC71C388DA064A3D54FB7E68BAF0687965EC39DEADA1FB78C0F1447E6',
+          exponent: 0
+        }, {
+          denom: 'stTIA',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/17DABEBAC71C388DA064A3D54FB7E68BAF0687965EC39DEADA1FB78C0F1447E6',
+      name: 'Stride Staked TIA',
+      display: 'stTIA',
+      symbol: 'stTIA',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'stride',
+            baseDenom: 'stutia',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-391',
+            path: 'transfer/channel-391/stutia'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'stride',
+            baseDenom: 'stutia'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg'
+        }]
+    },
+    {
+      description: 'Stride Staked OSMO on Cosmos Hub',
+      denomUnits: [{
+          denom: 'ibc/054892D6BB43AF8B93AAC28AA5FD7019D2C59A15DAFD6F45C1FA2BF9BDA22454',
+          exponent: 0
+        }, {
+          denom: 'stosmo',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/054892D6BB43AF8B93AAC28AA5FD7019D2C59A15DAFD6F45C1FA2BF9BDA22454',
+      name: 'Stride Staked OSMO',
+      display: 'stosmo',
+      symbol: 'stOSMO',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'stride',
+            baseDenom: 'stuosmo',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-391',
+            path: 'transfer/channel-391/stuosmo'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'stride',
+            baseDenom: 'stuosmo'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg'
+        }],
+      coingeckoId: 'stride-staked-osmo'
     }
   ]
 };

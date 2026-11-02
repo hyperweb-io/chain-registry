@@ -3,9 +3,9 @@ const info: Chain = {
   $schema: '../../chain.schema.json',
   chainName: 'xplatestnet',
   status: 'live',
-  website: 'https://xpla.io',
+  website: 'https://conx.xyz',
   networkType: 'testnet',
-  prettyName: 'XPLA Testnet',
+  prettyName: 'CONX Testnet',
   chainType: 'cosmos',
   chainId: 'cube_47-5',
   bech32Prefix: 'xpla',
@@ -16,10 +16,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'axpla',
-        fixedMinGasPrice: 280000000000,
-        lowGasPrice: 280000000000,
-        averageGasPrice: 280000000000,
-        highGasPrice: 280000000000
+        fixedMinGasPrice: 1200000000000,
+        lowGasPrice: 1200000000000,
+        averageGasPrice: 1200000000000,
+        highGasPrice: 1200000000000
       }]
   },
   staking: {
@@ -29,27 +29,27 @@ const info: Chain = {
   },
   codebase: {
     gitRepo: 'https://github.com/xpladev/xpla',
-    recommendedVersion: 'v1.8.0-cube',
-    compatibleVersions: ['v1.8.0-cube'],
+    recommendedVersion: 'v1.14.0',
+    compatibleVersions: ['v1.14.0-rc5', 'v1.14.0'],
     consensus: {
       type: 'cometbft',
-      version: 'v0.38.17'
+      version: 'v0.38.21'
     },
     genesis: {
-      genesisUrl: 'https://github.com/xpladev/testnets/blob/main/cube_47-5/genesis.json'
+      genesisUrl: 'https://raw.githubusercontent.com/xpladev/testnets/main/cube_47-5/genesis.json'
     },
     sdk: {
       type: 'cosmos',
       repo: 'https://github.com/xpladev/cosmos-sdk',
-      version: 'v0.53.4',
-      tag: 'v0.53.4-xpla'
+      version: 'v0.53.6',
+      tag: 'v0.53.6-xpla-2'
     },
     ibc: {
       type: 'go',
-      version: 'v10.3.0'
+      version: 'v10.5.0'
     },
     cosmwasm: {
-      version: 'v0.60.1'
+      version: 'v0.60.9'
     }
   },
   logoURIs: {
@@ -71,9 +71,9 @@ const info: Chain = {
       }]
   },
   explorers: [{
-      kind: 'explorer.xpla',
-      url: 'https://explorer.xpla.io/testnet',
-      txPage: 'https://explorer.xpla.io/testnet/mainnet/tx/${txHash}'
+      kind: 'explorer.conx',
+      url: 'https://explorer.conx.xyz/testnet',
+      txPage: 'https://explorer.conx.xyz/testnet/tx/${txHash}'
     }, {
       kind: 'finder',
       url: 'https://finder.xpla.io/testnet',
