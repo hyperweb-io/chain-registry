@@ -146,19 +146,28 @@ const info: Chain = {
       url: 'https://snapshots.safrochain.network',
       type: 'archive'
     }],
-  explorers: [{
+  explorers: [
+    {
       kind: 'safroexplorer',
       url: 'https://explorer.safrochain.com/',
       tx_page: 'https://explorer.safrochain.com/tx/${txHash}',
       account_page: 'https://explorer.safrochain.com/address/${accountAddress}',
       validator_page: 'https://explorer.safrochain.com/validator/${validatorAddress}'
-    }, {
+    },
+    {
       kind: 'NodeSafe',
       url: 'https://explorer.nodesafe-app.xyz/safrochain/staking',
       tx_page: 'https://explorer.nodesafe-app.xyz/safrochain/tx/${txHash}',
       account_page: 'https://explorer.nodesafe-app.xyz/safrochain/account/${accountAddress}',
       validator_page: 'https://explorer.nodesafe-app.xyz/safrochain/staking/${validatorAddress}'
-    }],
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://safrochain.valopers.com/',
+      tx_page: 'https://safrochain.valopers.com/transactions/${txHash}',
+      account_page: 'https://safrochain.valopers.com/account/${accountAddress}'
+    }
+  ],
   keywords: [
     'safrochain',
     'saf',

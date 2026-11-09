@@ -55,6 +55,7 @@ export * as crescent from './crescent';
 export * as cronos from './cronos';
 export * as cryptoorgchain from './cryptoorgchain';
 export * as cysic from './cysic';
+export * as dchat from './dchat';
 export * as decentr from './decentr';
 export * as desmos from './desmos';
 export * as divine from './divine';
