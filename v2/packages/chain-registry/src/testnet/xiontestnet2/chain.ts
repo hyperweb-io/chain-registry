@@ -143,6 +143,12 @@ const info: Chain = {
       url: 'https://testnet.itrocket.net/burnt',
       txPage: 'https://testnet.itrocket.net/burnt/tx/${txHash}',
       accountPage: 'https://testnet.itrocket.net/burnt/account/${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://testnet.verona.valopers.com/',
+      txPage: 'https://testnet.verona.valopers.com/transactions/${txHash}',
+      accountPage: 'https://testnet.verona.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

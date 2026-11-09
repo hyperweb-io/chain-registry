@@ -57,6 +57,7 @@ import * as _crescent from './crescent';
 import * as _cronos from './cronos';
 import * as _cryptoorgchain from './cryptoorgchain';
 import * as _cysic from './cysic';
+import * as _dchat from './dchat';
 import * as _decentr from './decentr';
 import * as _desmos from './desmos';
 import * as _divine from './divine';
@@ -286,6 +287,7 @@ const assetList: AssetList[] = [
   _cronos.assetList,
   _cryptoorgchain.assetList,
   _cysic.assetList,
+  _dchat.assetList,
   _decentr.assetList,
   _desmos.assetList,
   _divine.assetList,

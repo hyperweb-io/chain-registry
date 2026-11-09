@@ -1381,6 +1381,85 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/t42.png'
         }],
       typeAsset: 'sdk.coin'
+    },
+    {
+      description: 'Stride Staked ATOM on Injective',
+      denomUnits: [{
+          denom: 'ibc/A8F39212ED30B6A8C2AC736665835720D3D7BE4A1D18D68566525EC25ECF1C9B',
+          exponent: 0
+        }, {
+          denom: 'statom',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/A8F39212ED30B6A8C2AC736665835720D3D7BE4A1D18D68566525EC25ECF1C9B',
+      name: 'Stride Staked ATOM',
+      display: 'statom',
+      symbol: 'stATOM',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'stride',
+            baseDenom: 'stuatom',
+            channelId: 'channel-6'
+          },
+          chain: {
+            channelId: 'channel-89',
+            path: 'transfer/channel-89/stuatom'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'stride',
+            baseDenom: 'stuatom'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg'
+        }],
+      coingeckoId: 'stride-staked-atom'
+    },
+    {
+      description: 'Stride Staked INJ on Injective',
+      denomUnits: [{
+          denom: 'ibc/AC87717EA002B0123B10A05063E69BCA274BA2C44D842AEEB41558D2856DCE93',
+          exponent: 0
+        }, {
+          denom: 'stINJ',
+          exponent: 18
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/AC87717EA002B0123B10A05063E69BCA274BA2C44D842AEEB41558D2856DCE93',
+      name: 'Stride Staked INJ',
+      display: 'stINJ',
+      symbol: 'stINJ',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'stride',
+            baseDenom: 'stinj',
+            channelId: 'channel-6'
+          },
+          chain: {
+            channelId: 'channel-89',
+            path: 'transfer/channel-89/stinj'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'stride',
+            baseDenom: 'stinj'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.svg'
+        }]
     }
   ]
 };

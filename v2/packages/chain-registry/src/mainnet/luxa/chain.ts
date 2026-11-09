@@ -48,32 +48,55 @@ const info: Chain = {
     png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/luxa.png'
   },
   apis: {
-    rpc: [{
+    rpc: [
+      {
         address: 'https://rpc.luxaecosystem.xyz',
         provider: 'LUXA Ecosystem'
-      }, {
+      },
+      {
+        address: 'https://luxa-rpc.onenov.xyz',
+        provider: 'OneNov'
+      },
+      {
         address: 'https://rpc.nodesafe-app.xyz/luxa/',
         provider: 'NodeSafe'
-      }],
-    rest: [{
+      }
+    ],
+    rest: [
+      {
         address: 'https://api.luxaecosystem.xyz',
         provider: 'LUXA Ecosystem'
-      }, {
+      },
+      {
+        address: 'https://luxa-api.onenov.xyz',
+        provider: 'OneNov'
+      },
+      {
         address: 'https://api.nodesafe-app.xyz/luxa',
         provider: 'NodeSafe'
-      }]
+      }
+    ]
   },
-  explorers: [{
+  explorers: [
+    {
       kind: 'Ping.pub',
       url: 'https://explorer.luxaecosystem.xyz/luxa',
       txPage: 'https://explorer.luxaecosystem.xyz/luxa/tx/${txHash}',
       accountPage: 'https://explorer.luxaecosystem.xyz/luxa/account/${accountAddress}'
-    }, {
+    },
+    {
       kind: 'LUXA Explorer',
       url: 'https://luxaecosystem.xyz/explorer.html',
       txPage: 'https://luxaecosystem.xyz/explorer.html?tx=${txHash}',
       accountPage: 'https://luxaecosystem.xyz/explorer.html?account=${accountAddress}'
-    }],
+    },
+    {
+      kind: 'OneNov Explorer',
+      url: 'https://explorer.onenov.xyz/luxa',
+      txPage: 'https://explorer.onenov.xyz/luxa/tx/${txHash}',
+      accountPage: 'https://explorer.onenov.xyz/luxa/account/${accountAddress}'
+    }
+  ],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/luxa.png',
       theme: {

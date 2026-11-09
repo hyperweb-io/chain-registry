@@ -194,6 +194,12 @@ const info: Chain = {
       url: 'https://moon-runners.net/xion/mainnet',
       txPage: 'https://moon-runners.net/xion/mainnet/finder?search=${txHash}',
       accountPage: 'https://moon-runners.net/xion/mainnet/finder?search=${accountAddress}'
+    },
+    {
+      kind: 'Valopers',
+      url: 'https://verona.valopers.com/',
+      txPage: 'https://verona.valopers.com/transactions/${txHash}',
+      accountPage: 'https://verona.valopers.com/account/${accountAddress}'
     }
   ],
   images: [{

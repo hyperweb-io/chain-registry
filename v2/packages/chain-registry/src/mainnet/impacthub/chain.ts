@@ -122,10 +122,10 @@ const info: Chain = {
   },
   explorers: [
     {
-      kind: 'staking-explorer.com',
-      url: 'https://staking-explorer.com/explorer/impacthub',
-      txPage: 'https://staking-explorer.com/transaction.php?chain=impacthub&tx=${txHash}',
-      accountPage: 'https://staking-explorer.com/account.php?chain=impacthub&addr=${accountAddress}'
+      kind: 'IXO Ping Pub',
+      url: 'https://explorer.ixo.earth/ixo',
+      txPage: 'https://explorer.ixo.earth/ixo/tx/${txHash}',
+      accountPage: 'https://explorer.ixo.earth/ixo/account/${accountAddress}'
     },
     {
       kind: 'ezstaking',
@@ -135,14 +135,9 @@ const info: Chain = {
     },
     {
       kind: '🔥STAVR🔥',
-      url: 'https://explorer.stavr.tech/IXO-Mainnet',
-      txPage: 'https://explorer.stavr.tech/IXO-Mainnet/txs/${txHash}',
-      accountPage: 'https://explorer.stavr.tech/IXO-Mainnet/account/${accountAddress}'
-    },
-    {
-      kind: 'bigdipper',
-      url: 'https://blockscan.ixo.world',
-      txPage: 'https://blockscan.ixo.world/transactions/${txHash}'
+      url: 'https://explorer.stavr.tech/Impact-Hub',
+      txPage: 'https://explorer.stavr.tech/Impact-Hub/tx/${txHash}',
+      accountPage: 'https://explorer.stavr.tech/Impact-Hub/account/${accountAddress}'
     },
     {
       kind: 'ping.pub',
@@ -154,12 +149,6 @@ const info: Chain = {
       url: 'https://atomscan.com/ixo',
       txPage: 'https://atomscan.com/ixo/transactions/${txHash}',
       accountPage: 'https://atomscan.com/ixo/accounts/${accountAddress}'
-    },
-    {
-      kind: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥',
-      url: 'https://explorer.whenmoonwhenlambo.money/ixo',
-      txPage: 'https://explorer.whenmoonwhenlambo.money/ixo/tx/${txHash}',
-      accountPage: 'https://explorer.whenmoonwhenlambo.money/ixo/account/${accountAddress}'
     }
   ],
   images: [{

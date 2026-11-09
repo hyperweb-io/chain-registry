@@ -1617,6 +1617,85 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/deepstate.png'
         }]
+    },
+    {
+      description: 'Stride Staked ATOM on Terra',
+      denomUnits: [{
+          denom: 'ibc/FD9DBF0DB4D301313195159303811FD2FD72185C4B11A51659EFCD49D7FF1228',
+          exponent: 0
+        }, {
+          denom: 'statom',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/FD9DBF0DB4D301313195159303811FD2FD72185C4B11A51659EFCD49D7FF1228',
+      name: 'Stride Staked ATOM',
+      display: 'statom',
+      symbol: 'stATOM',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'stride',
+            baseDenom: 'stuatom',
+            channelId: 'channel-52'
+          },
+          chain: {
+            channelId: 'channel-46',
+            path: 'transfer/channel-46/stuatom'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'stride',
+            baseDenom: 'stuatom'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg'
+        }],
+      coingeckoId: 'stride-staked-atom'
+    },
+    {
+      description: 'Stride Staked LUNA on Terra',
+      denomUnits: [{
+          denom: 'ibc/08095CEDEA29977C9DD0CE9A48329FDA622C183359D5F90CF04CC4FF80CBE431',
+          exponent: 0
+        }, {
+          denom: 'stluna',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/08095CEDEA29977C9DD0CE9A48329FDA622C183359D5F90CF04CC4FF80CBE431',
+      name: 'Stride Staked LUNA',
+      display: 'stluna',
+      symbol: 'stLUNA',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'stride',
+            baseDenom: 'stuluna',
+            channelId: 'channel-52'
+          },
+          chain: {
+            channelId: 'channel-46',
+            path: 'transfer/channel-46/stuluna'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'stride',
+            baseDenom: 'stuluna'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg'
+        }]
     }
   ]
 };

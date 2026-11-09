@@ -1433,6 +1433,123 @@ const info: AssetList = {
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg'
         }],
       coingeckoId: 'stride-staked-osmo'
+    },
+    {
+      description: 'Stride Staked DYDX on Cosmos Hub',
+      denomUnits: [{
+          denom: 'ibc/EEFD952A6DE346F2649039E99A16430B05FFEDF628A4DE99F34BB4B5F6A9346E',
+          exponent: 0
+        }, {
+          denom: 'stDYDX',
+          exponent: 18
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/EEFD952A6DE346F2649039E99A16430B05FFEDF628A4DE99F34BB4B5F6A9346E',
+      name: 'Stride Staked DYDX',
+      display: 'stDYDX',
+      symbol: 'stDYDX',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'stride',
+            baseDenom: 'stadydx',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-391',
+            path: 'transfer/channel-391/stadydx'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'stride',
+            baseDenom: 'stadydx'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.svg'
+        }]
+    },
+    {
+      description: 'Stride Staked INJ on Cosmos Hub',
+      denomUnits: [{
+          denom: 'ibc/B011C1A0AD5E717F674BA59FD8E05B2F946E4FD41C9CB3311C95F7ED4B815620',
+          exponent: 0
+        }, {
+          denom: 'stINJ',
+          exponent: 18
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/B011C1A0AD5E717F674BA59FD8E05B2F946E4FD41C9CB3311C95F7ED4B815620',
+      name: 'Stride Staked INJ',
+      display: 'stINJ',
+      symbol: 'stINJ',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'stride',
+            baseDenom: 'stinj',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-391',
+            path: 'transfer/channel-391/stinj'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'stride',
+            baseDenom: 'stinj'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.svg'
+        }]
+    },
+    {
+      description: 'Stride Staked BAND on Cosmos Hub',
+      denomUnits: [{
+          denom: 'ibc/E9401AC885592AC2023E0FB9BA7C8BC66D346CEE04CED8E9F545F3C25290708A',
+          exponent: 0
+        }, {
+          denom: 'stBAND',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/E9401AC885592AC2023E0FB9BA7C8BC66D346CEE04CED8E9F545F3C25290708A',
+      name: 'Stride Staked BAND',
+      display: 'stBAND',
+      symbol: 'stBAND',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'stride',
+            baseDenom: 'stuband',
+            channelId: 'channel-0'
+          },
+          chain: {
+            channelId: 'channel-391',
+            path: 'transfer/channel-391/stuband'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stband.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stband.svg'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'stride',
+            baseDenom: 'stuband'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stband.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stband.svg'
+        }]
     }
   ]
 };
