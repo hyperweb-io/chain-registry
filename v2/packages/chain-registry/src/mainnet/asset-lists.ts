@@ -31,6 +31,7 @@ import * as _bitbadges from './bitbadges';
 import * as _bitcanna from './bitcanna';
 import * as _bitsong from './bitsong';
 import * as _bitway from './bitway';
+import * as _blakiston from './blakiston';
 import * as _blg24 from './blg24';
 import * as _blockmaze from './blockmaze';
 import * as _blockx from './blockx';
@@ -261,6 +262,7 @@ const assetList: AssetList[] = [
   _bitcanna.assetList,
   _bitsong.assetList,
   _bitway.assetList,
+  _blakiston.assetList,
   _blg24.assetList,
   _blockmaze.assetList,
   _blockx.assetList,

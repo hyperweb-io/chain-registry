@@ -54,6 +54,10 @@ const info: Chain = {
   apis: {
     rpc: [
       {
+        address: 'https://rpc.passage.io:443',
+        provider: 'Crypto Lab Tech'
+      },
+      {
         address: 'https://rpc.passage.vitwit.com',
         provider: 'vitwit'
       },
@@ -66,32 +70,8 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://rpc-passage.d-stake.xyz',
-        provider: 'D-stake'
-      },
-      {
-        address: 'https://passage-mainnet-rpc.autostake.com:443',
-        provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'https://passage-rpc.stakerhouse.com',
-        provider: 'StakerHouse'
-      },
-      {
-        address: 'https://passage-rpc.publicnode.com:443',
-        provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
         address: 'https://passage-rpc.stakeandrelax.net',
         provider: 'Stake&Relax 🦥'
-      },
-      {
-        address: 'https://rpc-passage.mainnet.validatrium.club',
-        provider: 'Validatrium'
-      },
-      {
-        address: 'https://rpc.passage.silentvalidator.com',
-        provider: 'silent'
       },
       {
         address: 'https://passage-rpc.bluestake.net:443',
@@ -103,6 +83,10 @@ const info: Chain = {
       }
     ],
     rest: [
+      {
+        address: 'https://api.passage.io',
+        provider: 'Crypto Lab Tech'
+      },
       {
         address: 'https://api.passage.vitwit.com',
         provider: 'vitwit'
@@ -120,32 +104,8 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'https://api-passage.d-stake.xyz',
-        provider: 'D-stake'
-      },
-      {
-        address: 'https://passage-mainnet-lcd.autostake.com:443',
-        provider: 'AutoStake 🛡️ Slash Protected'
-      },
-      {
-        address: 'https://passage-rest.stakerhouse.com',
-        provider: 'StakerHouse'
-      },
-      {
-        address: 'https://passage-rest.publicnode.com',
-        provider: 'Allnodes ⚡️ Nodes & Staking'
-      },
-      {
         address: 'https://passage-api.stakeandrelax.net',
         provider: 'Stake&Relax 🦥'
-      },
-      {
-        address: 'https://api-passage.mainnet.validatrium.club',
-        provider: 'Validatrium'
-      },
-      {
-        address: 'https://api.passage.silentvalidator.com',
-        provider: 'silent'
       },
       {
         address: 'https://passage-api.bluestake.net',

@@ -15,16 +15,16 @@ const info: Chain = {
   slip44: 118,
   fees: {
     feeTokens: [{
-        denom: 'utstoc',
-        fixedMinGasPrice: 0.01,
-        lowGasPrice: 0.01,
-        averageGasPrice: 0.015,
-        highGasPrice: 0.02
+        denom: 'atstoc',
+        fixedMinGasPrice: 10000000000,
+        lowGasPrice: 10000000000,
+        averageGasPrice: 15000000000,
+        highGasPrice: 20000000000
       }]
   },
   staking: {
     stakingTokens: [{
-        denom: 'utstoc'
+        denom: 'atstoc'
       }]
   },
   codebase: {

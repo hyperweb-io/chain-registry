@@ -90,7 +90,7 @@ const info: Chain = {
       },
       {
         address: 'https://cheqd-srvs.vnodesv.net/rpc',
-        provider: 'vNodes[V] Ser[V]ices g[E]o st[EE]ring'
+        provider: 'vNodes[V] Ser[V]ices'
       },
       {
         address: 'https://cheqd-rpc.publicnode.com:443',
@@ -144,7 +144,7 @@ const info: Chain = {
       },
       {
         address: 'https://cheqd-srvs.vnodesv.net/api',
-        provider: 'vNodes[V] Ser[V]ices g[E]o st[EE]ring'
+        provider: 'vNodes[V] Ser[V]ices'
       },
       {
         address: 'https://cheqd-rest.publicnode.com',
@@ -189,8 +189,8 @@ const info: Chain = {
         provider: 'Blockval'
       },
       {
-        address: 'https://cheqd-srvs.vnodesv.net/grpc',
-        provider: 'vNodes[V] [WW] Ser[V]ices'
+        address: 'cheqd-grpc.vnodesv.net:443',
+        provider: 'vNodes[V] Ser[V]ices'
       },
       {
         address: 'cheqd-grpc.publicnode.com:443',

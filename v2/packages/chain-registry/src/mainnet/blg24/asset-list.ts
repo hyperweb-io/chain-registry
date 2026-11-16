@@ -53,10 +53,12 @@ const info: AssetList = {
             chainName: 'celestia',
             baseDenom: 'utia'
           },
-          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png'
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg'
         }],
       logoURIs: {
-        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png'
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg'
       },
       coingeckoId: 'celestia'
     }]

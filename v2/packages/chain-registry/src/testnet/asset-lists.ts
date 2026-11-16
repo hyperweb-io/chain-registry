@@ -97,6 +97,7 @@ import * as _pelltestnet from './pelltestnet';
 import * as _permtestnet from './permtestnet';
 import * as _persistencetestnet from './persistencetestnet';
 import * as _persistencetestnet2 from './persistencetestnet2';
+import * as _piotestnet from './piotestnet';
 import * as _planqtestnet from './planqtestnet';
 import * as _pockettestnet from './pockettestnet';
 import * as _provenancetestnet from './provenancetestnet';
@@ -249,6 +250,7 @@ const assetList: AssetList[] = [
   _permtestnet.assetList,
   _persistencetestnet.assetList,
   _persistencetestnet2.assetList,
+  _piotestnet.assetList,
   _planqtestnet.assetList,
   _pockettestnet.assetList,
   _provenancetestnet.assetList,

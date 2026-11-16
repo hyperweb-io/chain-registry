@@ -6,13 +6,13 @@ const info: AssetList = {
       description: 'STO Chain Testnet is an institutional-grade permissioned blockchain built specifically for regulated assets.',
       extendedDescription: 'STO Chain Testnet is a Cosmos-based blockchain network designed to enable the digitization, compliance, and cross-chain circulation of real assets such as real estate, stocks, and commodities through blockchain technology.',
       denomUnits: [{
-          denom: 'utstoc',
+          denom: 'atstoc',
           exponent: 0
         }, {
           denom: 'tstoc',
-          exponent: 6
+          exponent: 18
         }],
-      base: 'utstoc',
+      base: 'atstoc',
       name: 'STO Chain Testnet',
       display: 'tstoc',
       symbol: 'TSTOC',

@@ -83,7 +83,7 @@ const info: AssetList = {
           type: 'synthetic',
           counterparty: {
             chainName: 'ethereum',
-            baseDenom: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
+            baseDenom: '0x4fabb145d64652a948d72533023f6e7a623c7c53'
           },
           provider: 'Binance'
         }],
@@ -113,7 +113,7 @@ const info: AssetList = {
           type: 'synthetic',
           counterparty: {
             chainName: 'ethereum',
-            baseDenom: '0x4fabb145d64652a948d72533023f6e7a623c7c53'
+            baseDenom: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
           },
           provider: 'Binance'
         }],
