@@ -23,6 +23,7 @@ export * as bitbadges from './bitbadges';
 export * as bitcanna from './bitcanna';
 export * as bitsong from './bitsong';
 export * as bitway from './bitway';
+export * as blakiston from './blakiston';
 export * as blg24 from './blg24';
 export * as bluzelle from './bluzelle';
 export * as canto from './canto';

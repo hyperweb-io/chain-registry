@@ -36,18 +36,31 @@ const info: Chain = {
     compatible_versions: ['v1.0.0']
   },
   apis: {
-    rpc: [{
+    rpc: [
+      {
+        address: 'https://rpc.nodesafe-app.xyz/qie/',
+        provider: 'NodeSafe'
+      },
+      {
         address: 'https://rpc.qie.digital',
         provider: 'QIE Foundation'
-      }, {
+      },
+      {
         address: 'https://tendermint.qie.digital',
         provider: 'QIE Foundation'
-      }],
+      }
+    ],
     rest: [{
+        address: 'https://api.nodesafe-app.xyz/qie',
+        provider: 'NodeSafe'
+      }, {
         address: 'https://api.qie.digital',
         provider: 'QIE Foundation'
       }],
     grpc: [{
+        address: 'grpc-qie.nodesafe-app.xyz:443',
+        provider: 'NodeSafe'
+      }, {
         address: 'grpc.qie.digital:443',
         provider: 'QIE Foundation'
       }],
@@ -60,6 +73,11 @@ const info: Chain = {
       }]
   },
   explorers: [{
+      kind: 'NodeSafe',
+      url: 'https://explorer.nodesafe-app.xyz/qie',
+      tx_page: 'https://explorer.nodesafe-app.xyz/qie/tx/${txHash}',
+      account_page: 'https://explorer.nodesafe-app.xyz/qie/account/${accountAddress}'
+    }, {
       kind: 'qie-explorer',
       url: 'https://mainnet.qie.digital',
       tx_page: 'https://mainnet.qie.digital/tx/${txHash}',

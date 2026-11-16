@@ -28,8 +28,12 @@ const info: Chain = {
   },
   codebase: {
     git_repo: 'https://github.com/kava-Labs/kava/',
-    recommended_version: 'v0.26.0',
-    compatible_versions: ['v0.26.0'],
+    recommended_version: 'v0.28.2',
+    compatible_versions: [
+      'v0.28.0',
+      'v0.28.1',
+      'v0.28.2'
+    ],
     genesis: {
       genesis_url: 'https://kava-genesis-files.s3.us-east-1.amazonaws.com/kava_2222-10/genesis.json'
     }
@@ -203,6 +207,15 @@ const info: Chain = {
       compression: 'lz4',
       checksum_available: false,
       provider: 'Polkachu'
+    }, {
+      provider: 'jjozzietech',
+      url: 'https://snapshots.jjozzietech.com.au:9443/kava/',
+      latest_url: 'https://snapshots.jjozzietech.com.au:9443/kava/latest.json',
+      type: 'pruned',
+      db_backend: 'goleveldb',
+      frequency: 'daily',
+      compression: 'zstd',
+      checksum_available: true
     }]
 };
 export default info;

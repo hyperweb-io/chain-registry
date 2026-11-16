@@ -1019,6 +1019,47 @@ const asset_list: AssetList = {
         }]
     },
     {
+      description: 'Talon (TLN) is the native staking and fee token of the Blakiston chain. Fixed supply of 2,100,000,000 TLN with 0% inflation.',
+      denom_units: [{
+          denom: 'ibc/4BE2312A6035CEA0EA6982ECA351E1209214FB46C8B40E392AC8DD5C37A5C8A4',
+          exponent: 0,
+          aliases: ['tln']
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/4BE2312A6035CEA0EA6982ECA351E1209214FB46C8B40E392AC8DD5C37A5C8A4',
+      name: 'Talon',
+      display: 'tln',
+      symbol: 'TLN',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/blakiston/images/blakiston.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/blakiston/images/blakiston.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/blakiston/images/blakiston.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/blakiston/images/blakiston.svg',
+          theme: {
+            circle: true,
+            dark_mode: true
+          }
+        }],
+      socials: {
+        website: 'https://blakiston.org',
+        x: 'https://x.com/BlakistonChain'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'tln',
+            chain_name: 'blakiston'
+          },
+          chain: {
+            channel_id: 'channel-111105',
+            path: 'transfer/channel-111105/tln'
+          }
+        }]
+    },
+    {
       description: 'The native token of BLG24, a sovereign Layer 1 blockchain built on Cosmos SDK.',
       denom_units: [{
           denom: 'ibc/26201350CB5096C2B8C0585A2871C519BFEBC73EEEC287396934B85F60E7AA5E',
@@ -6639,6 +6680,47 @@ const asset_list: AssetList = {
           chain: {
             channel_id: 'channel-73',
             path: 'transfer/channel-73/ubtsg'
+          }
+        }]
+    },
+    {
+      description: 'Talon (TLN) is the native staking and fee token of the Blakiston chain. Fixed supply of 2,100,000,000 TLN with 0% inflation.',
+      denom_units: [{
+          denom: 'ibc/4BE2312A6035CEA0EA6982ECA351E1209214FB46C8B40E392AC8DD5C37A5C8A4',
+          exponent: 0,
+          aliases: ['tln']
+        }],
+      type_asset: 'sdk.coin',
+      base: 'ibc/4BE2312A6035CEA0EA6982ECA351E1209214FB46C8B40E392AC8DD5C37A5C8A4',
+      name: 'Talon',
+      display: 'tln',
+      symbol: 'TLN',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/blakiston/images/blakiston.png',
+        svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/blakiston/images/blakiston.svg'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/blakiston/images/blakiston.png',
+          svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/blakiston/images/blakiston.svg',
+          theme: {
+            circle: true,
+            dark_mode: true
+          }
+        }],
+      socials: {
+        website: 'https://blakiston.org',
+        x: 'https://x.com/BlakistonChain'
+      },
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-0',
+            base_denom: 'tln',
+            chain_name: 'blakiston'
+          },
+          chain: {
+            channel_id: 'channel-111105',
+            path: 'transfer/channel-111105/tln'
           }
         }]
     },

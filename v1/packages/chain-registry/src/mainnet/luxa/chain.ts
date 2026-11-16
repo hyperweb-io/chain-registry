@@ -75,7 +75,11 @@ const info: Chain = {
         address: 'https://api.nodesafe-app.xyz/luxa',
         provider: 'NodeSafe'
       }
-    ]
+    ],
+    grpc: [{
+        address: 'grpc-luxa.nodesafe-app.xyz:443',
+        provider: 'NodeSafe'
+      }]
   },
   explorers: [
     {
@@ -95,6 +99,12 @@ const info: Chain = {
       url: 'https://explorer.onenov.xyz/luxa',
       tx_page: 'https://explorer.onenov.xyz/luxa/tx/${txHash}',
       account_page: 'https://explorer.onenov.xyz/luxa/account/${accountAddress}'
+    },
+    {
+      kind: 'NodeSafe',
+      url: 'https://explorer.nodesafe-app.xyz/luxa',
+      tx_page: 'https://explorer.nodesafe-app.xyz/luxa/tx/${txHash}',
+      account_page: 'https://explorer.nodesafe-app.xyz/luxa/account/${accountAddress}'
     }
   ],
   images: [{

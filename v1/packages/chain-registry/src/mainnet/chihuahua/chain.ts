@@ -85,6 +85,10 @@ const info: Chain = {
       {
         address: 'https://chihuahua-rpc.polkachu.com:443',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://huahua-srvs.vnodesv.net/rpc',
+        provider: 'vNodes[V] Ser[V]ices'
       }
     ],
     rest: [
@@ -115,6 +119,10 @@ const info: Chain = {
       {
         address: 'https://chihuahua.api.pocket.network',
         provider: 'Pocket Network'
+      },
+      {
+        address: 'https://huahua-srvs.vnodesv.net/api',
+        provider: 'vNodes[V] Ser[V]ices'
       }
     ],
     grpc: [
@@ -137,6 +145,10 @@ const info: Chain = {
       {
         address: 'grpc.chihuahua.validatus.com:443',
         provider: 'Validatus'
+      },
+      {
+        address: 'huahua-grpc.vnodesv.net:443',
+        provider: 'vNodes[V] Ser[V]ices'
       }
     ]
   },

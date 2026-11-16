@@ -118,6 +118,10 @@ const info: Chain = {
       {
         address: 'https://xrpl-testnet-rpc.cosmonautstakes.com',
         provider: 'Cosmonaut Stakes'
+      },
+      {
+        address: 'https://rpc-xrplevm-testnet.archive.cumulo.com.es',
+        provider: 'Cumulo'
       }
     ],
     rest: [
@@ -156,6 +160,10 @@ const info: Chain = {
       {
         address: 'https://api-t.xrp.nodestake.org',
         provider: 'NodeStake'
+      },
+      {
+        address: 'https://api-xrplevm-testnet.archive.cumulo.com.es',
+        provider: 'Cumulo'
       }
     ],
     grpc: [
@@ -197,6 +205,10 @@ const info: Chain = {
       },
       {
         address: 'https://grpc.xrpl.cumulo.com.es',
+        provider: 'Cumulo'
+      },
+      {
+        address: 'https://grpc-xrplevm-testnet.archive.cumulo.com.es',
         provider: 'Cumulo'
       }
     ],
@@ -288,6 +300,10 @@ const info: Chain = {
       {
         address: 'https://evmrpc-t.archive.xrp.nodestake.org',
         provider: 'NodeStake'
+      },
+      {
+        address: 'https://jsonrpc-xrplevm-testnet.archive.cumulo.com.es',
+        provider: 'Cumulo'
       }
     ],
     wss: [{

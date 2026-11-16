@@ -78,6 +78,10 @@ const info: Chain = {
       {
         address: 'https://xrp-rpc.polkachu.com:443',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://rpc.xrpl.archive.cumulo.me',
+        provider: 'Cumulo'
       }
     ],
     rest: [
@@ -92,6 +96,10 @@ const info: Chain = {
       {
         address: 'https://xrp-api.polkachu.com',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://api.xrpl.archive.cumulo.me',
+        provider: 'Cumulo'
       }
     ],
     grpc: [
@@ -106,15 +114,26 @@ const info: Chain = {
       {
         address: 'xrp-grpc.polkachu.com:30090',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://grpc.xrpl.archive.cumulo.me',
+        provider: 'Cumulo'
       }
     ],
-    "evm-http-jsonrpc": [{
+    "evm-http-jsonrpc": [
+      {
         address: 'https://rpc.xrplevm.org',
         provider: 'Peersyst'
-      }, {
+      },
+      {
         address: 'https://json-rpc.xrpl.cumulo.org.es',
         provider: 'Cumulo'
-      }],
+      },
+      {
+        address: 'https://json-rpc.xrpl.archive.cumulo.me',
+        provider: 'Cumulo'
+      }
+    ],
     wss: [{
         address: 'wss://rpc.xrpl.cumulo.org.es/websocket',
         provider: 'Cumulo'

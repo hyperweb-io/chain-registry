@@ -95,6 +95,7 @@ export * as pelltestnet from './pelltestnet';
 export * as permtestnet from './permtestnet';
 export * as persistencetestnet from './persistencetestnet';
 export * as persistencetestnet2 from './persistencetestnet2';
+export * as piotestnet from './piotestnet';
 export * as planqtestnet from './planqtestnet';
 export * as pockettestnet from './pockettestnet';
 export * as provenancetestnet from './provenancetestnet';

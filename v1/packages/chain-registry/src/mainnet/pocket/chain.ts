@@ -94,10 +94,6 @@ const info: Chain = {
       {
         address: 'https://rpc.pocket.chaintools.tech:443',
         provider: 'ChainTools'
-      },
-      {
-        address: 'https://pocket-rpc.kleomedes.network',
-        provider: 'Kleomedes'
       }
     ],
     rest: [
@@ -120,10 +116,6 @@ const info: Chain = {
       {
         address: 'https://pocket-api.polkachu.com',
         provider: 'Polkachu'
-      },
-      {
-        address: 'https://pocket-api.kleomedes.network',
-        provider: 'Kleomedes'
       }
     ],
     grpc: [{
