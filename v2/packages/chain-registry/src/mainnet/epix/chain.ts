@@ -20,7 +20,7 @@ const info: Chain = {
         fixedMinGasPrice: 20000000000,
         lowGasPrice: 20000000000,
         averageGasPrice: 25000000000,
-        highGasPrice: 30000000000
+        highGasPrice: 40000000000
       }]
   },
   staking: {
@@ -98,6 +98,10 @@ const info: Chain = {
       {
         address: 'https://epix-rpc.tintonode.win',
         provider: 'TinTo'
+      },
+      {
+        address: 'https://rpc.epix.indonode.net',
+        provider: 'Indonode'
       }
     ],
     rest: [
@@ -136,6 +140,10 @@ const info: Chain = {
       {
         address: 'https://epix-api.tintonode.win',
         provider: 'TinTo'
+      },
+      {
+        address: 'https://api.epix.indonode.net',
+        provider: 'Indonode'
       }
     ],
     grpc: [
@@ -170,6 +178,10 @@ const info: Chain = {
       {
         address: 'epix-grpc.tintonode.win:443',
         provider: 'TinTo'
+      },
+      {
+        address: 'grpc.epix.indonode.net:443',
+        provider: 'Indonode'
       }
     ],
     evmHttpJsonrpc: [
@@ -204,6 +216,10 @@ const info: Chain = {
       {
         address: 'https://epix-evm.tintonode.win',
         provider: 'TinTo'
+      },
+      {
+        address: 'https://evm.epix.indonode.net',
+        provider: 'Indonode'
       }
     ]
   },

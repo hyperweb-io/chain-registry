@@ -68,6 +68,7 @@ import * as _dydx from './dydx';
 import * as _dymension from './dymension';
 import * as _echelon from './echelon';
 import * as _empowerchain from './empowerchain';
+import * as _encryptlock from './encryptlock';
 import * as _epix from './epix';
 import * as _ethos from './ethos';
 import * as _fandomchain from './fandomchain';
@@ -194,6 +195,7 @@ import * as _six from './six';
 import * as _sommelier from './sommelier';
 import * as _source from './source';
 import * as _sovr from './sovr';
+import * as _steemvm from './steemvm';
 import * as _stoc from './stoc';
 import * as _stratos from './stratos';
 import * as _stride from './stride';
@@ -220,14 +222,18 @@ import * as _uptick from './uptick';
 import * as _vector from './vector';
 import * as _wardenprotocol from './wardenprotocol';
 import * as _wolochain from './wolochain';
+import * as _wpd from './wpd';
+import * as _wpdl2a from './wpdl2a';
 import * as _xarchain from './xarchain';
 import * as _xion from './xion';
+import * as _xpex from './xpex';
 import * as _xpla from './xpla';
 import * as _xrplevm from './xrplevm';
 import * as _xyra from './xyra';
 import * as _zenrock from './zenrock';
 import * as _zerone from './zerone';
 import * as _zetachain from './zetachain';
+import * as _zetaphy from './zetaphy';
 import * as _zigchain from './zigchain';
 
 const assetList: AssetList[] = [
@@ -299,6 +305,7 @@ const assetList: AssetList[] = [
   _dymension.assetList,
   _echelon.assetList,
   _empowerchain.assetList,
+  _encryptlock.assetList,
   _epix.assetList,
   _ethos.assetList,
   _fandomchain.assetList,
@@ -425,6 +432,7 @@ const assetList: AssetList[] = [
   _sommelier.assetList,
   _source.assetList,
   _sovr.assetList,
+  _steemvm.assetList,
   _stoc.assetList,
   _stratos.assetList,
   _stride.assetList,
@@ -451,14 +459,18 @@ const assetList: AssetList[] = [
   _vector.assetList,
   _wardenprotocol.assetList,
   _wolochain.assetList,
+  _wpd.assetList,
+  _wpdl2a.assetList,
   _xarchain.assetList,
   _xion.assetList,
+  _xpex.assetList,
   _xpla.assetList,
   _xrplevm.assetList,
   _xyra.assetList,
   _zenrock.assetList,
   _zerone.assetList,
   _zetachain.assetList,
+  _zetaphy.assetList,
   _zigchain.assetList
 ];
 

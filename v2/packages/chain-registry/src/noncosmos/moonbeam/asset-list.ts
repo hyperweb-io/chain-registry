@@ -57,7 +57,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg'
       },
-      coingeckoId: 'wrapped-moonbeam',
       images: [{
           imageSync: {
             chainName: 'moonbeam',

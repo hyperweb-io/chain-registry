@@ -19,7 +19,7 @@ const info: Chain = {
         fixedMinGasPrice: 0.005,
         lowGasPrice: 0.01,
         averageGasPrice: 0.025,
-        highGasPrice: 0.03
+        highGasPrice: 0.04
       }]
   },
   staking: {

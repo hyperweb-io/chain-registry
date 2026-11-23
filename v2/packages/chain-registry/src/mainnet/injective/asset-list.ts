@@ -515,8 +515,7 @@ const info: AssetList = {
         }],
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png'
-      },
-      coingeckoId: 'astroport-fi'
+      }
     },
     {
       description: 'A receipt token for lent INJ issued by the Neptune Protocol.',

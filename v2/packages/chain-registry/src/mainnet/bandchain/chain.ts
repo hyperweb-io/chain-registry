@@ -273,6 +273,15 @@ const info: Chain = {
       url: 'https://moon-runners.net/bandchain/mainnet',
       txPage: 'https://moon-runners.net/bandchain/mainnet/finder?search=${txHash}',
       accountPage: 'https://moon-runners.net/bandchain/mainnet/finder?search=${accountAddress}'
+    },
+    {
+      kind: 'BitBasic',
+      url: 'https://bitbasic.com/band',
+      txPage: 'https://bitbasic.com/band/tx/${txHash}',
+      accountPage: 'https://bitbasic.com/band/accounts/${accountAddress}',
+      validatorPage: 'https://bitbasic.com/band/validators/${validatorAddress}',
+      proposalPage: 'https://bitbasic.com/band/proposals/${proposalId}',
+      blockPage: 'https://bitbasic.com/band/blocks/${blockHeight}'
     }
   ],
   images: [{

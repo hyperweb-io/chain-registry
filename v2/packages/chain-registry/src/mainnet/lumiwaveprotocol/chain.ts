@@ -14,7 +14,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'ulwp',
-        fixedMinGasPrice: 0.005
+        fixedMinGasPrice: 0.005,
+        lowGasPrice: 0.005,
+        averageGasPrice: 0.025,
+        highGasPrice: 0.04
       }]
   },
   staking: {

@@ -31,7 +31,6 @@ const info: AssetList = {
       display: 'tkx',
       name: 'titan tkx',
       symbol: 'TKX',
-      coingeckoId: 'tokenize-xchange',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/tkx.png'
         }],

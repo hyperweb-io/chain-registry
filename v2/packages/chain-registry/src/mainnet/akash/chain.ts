@@ -15,10 +15,10 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'uakt',
-        fixedMinGasPrice: 0.025,
-        lowGasPrice: 0.025,
-        averageGasPrice: 0.025,
-        highGasPrice: 0.025
+        fixedMinGasPrice: 0.05,
+        lowGasPrice: 0.05,
+        averageGasPrice: 0.05,
+        highGasPrice: 0.05
       }]
   },
   staking: {

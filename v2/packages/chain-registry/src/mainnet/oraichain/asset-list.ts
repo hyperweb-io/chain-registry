@@ -266,7 +266,6 @@ const info: AssetList = {
       address: 'orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge',
       base: 'cw20:orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge',
       name: 'Oraix',
-      coingeckoId: 'oraidex',
       display: 'oraix',
       symbol: 'ORAIX',
       images: [{
@@ -521,7 +520,6 @@ const info: AssetList = {
       name: 'Och',
       display: 'och',
       symbol: 'OCH',
-      coingeckoId: 'och',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png'
         }],

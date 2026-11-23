@@ -16,9 +16,9 @@ const info: Chain = {
   fees: {
     feeTokens: [{
         denom: 'azeta',
-        lowGasPrice: 20000000000,
-        averageGasPrice: 25000000000,
-        highGasPrice: 40000000000
+        lowGasPrice: 80000000000,
+        averageGasPrice: 80000000000,
+        highGasPrice: 80000000000
       }]
   },
   staking: {

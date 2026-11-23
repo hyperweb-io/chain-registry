@@ -89,7 +89,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.svg'
       },
-      coingeckoId: 'neta',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.svg'

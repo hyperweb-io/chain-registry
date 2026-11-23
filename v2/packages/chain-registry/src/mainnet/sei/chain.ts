@@ -17,9 +17,9 @@ const info: Chain = {
     feeTokens: [{
         denom: 'usei',
         fixedMinGasPrice: 0.02,
-        lowGasPrice: 0.02,
-        averageGasPrice: 0.02,
-        highGasPrice: 0.04
+        lowGasPrice: 0.1,
+        averageGasPrice: 0.2,
+        highGasPrice: 0.3
       }]
   },
   staking: {

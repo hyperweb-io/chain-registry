@@ -28,15 +28,15 @@ const info: Chain = {
       }]
   },
   codebase: {
-    recommendedVersion: 'v1.1.0',
-    compatibleVersions: ['v1.1.0'],
+    recommendedVersion: 'v1.1.1',
+    compatibleVersions: ['v1.1.1'],
     sdk: {
       type: 'cosmos',
-      version: 'v0.50.10'
+      version: 'v0.50.15'
     },
     consensus: {
       type: 'cometbft',
-      version: 'v0.38.12'
+      version: 'v0.38.26'
     },
     cosmwasm: {
       version: 'v0.51.0',
@@ -44,7 +44,7 @@ const info: Chain = {
     },
     ibc: {
       type: 'go',
-      version: 'v8.5.1',
+      version: 'v8.8.0',
       icsEnabled: ['ics20-1']
     },
     genesis: {

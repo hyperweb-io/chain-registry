@@ -18,8 +18,8 @@ const info: Chain = {
         denom: 'aseda',
         fixedMinGasPrice: 10000000000,
         lowGasPrice: 10000000000,
-        averageGasPrice: 10000000000,
-        highGasPrice: 14000000000
+        averageGasPrice: 15000000000,
+        highGasPrice: 20000000000
       }]
   },
   staking: {

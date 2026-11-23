@@ -17,8 +17,8 @@ const info: Chain = {
     feeTokens: [{
         denom: 'adym',
         fixedMinGasPrice: 5000000000,
-        lowGasPrice: 5000000000,
-        averageGasPrice: 5000000000,
+        lowGasPrice: 20000000000,
+        averageGasPrice: 20000000000,
         highGasPrice: 20000000000
       }]
   },

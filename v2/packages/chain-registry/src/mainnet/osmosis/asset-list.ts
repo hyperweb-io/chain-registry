@@ -2373,8 +2373,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.svg'
-        }],
-      coingeckoId: 'neta'
+        }]
     },
     {
       description: 'The INJ token is the native governance token for the Injective chain.',
@@ -3349,8 +3348,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
-        }],
-      coingeckoId: 'kava-lend'
+        }]
     },
     {
       description: 'Governance token of Kava Swap Protocol',
@@ -5433,8 +5431,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.svg'
-        }],
-      coingeckoId: 'composite'
+        }]
     },
     {
       description: 'The native EVM, governance and staking token of the Imversed',
@@ -7543,8 +7540,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg'
-        }],
-      coingeckoId: 'shade-protocol'
+        }]
     },
     {
       description: 'The native token of Bluzelle',
@@ -11779,8 +11775,7 @@ const info: AssetList = {
             baseDenom: 'factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png'
-        }],
-      coingeckoId: 'astroport-fi'
+        }]
     },
     {
       description: 'A clan of 11y bad kids crafting chaos on the Cosmos eco. One bad memecoin to rule them all  $BADKID. Airdropped to Badkids NFT holders and $STARS stakers. It\'s so bad, your wallet\'s throwing a tantrum for it.',
@@ -13199,8 +13194,7 @@ const info: AssetList = {
             baseDenom: 'factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro'
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png'
-        }],
-      coingeckoId: 'astroport-fi'
+        }]
     },
     {
       description: 'Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.',
@@ -15913,8 +15907,7 @@ const info: AssetList = {
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg',
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png'
-        }],
-      coingeckoId: 'router-protocol-2'
+        }]
     },
     {
       description: 'An alloy of OP asset variants on Osmosis.',
@@ -18367,8 +18360,7 @@ const info: AssetList = {
             baseDenom: 'factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg'
-        }],
-      coingeckoId: 'drop-staked-atom'
+        }]
     },
     {
       description: 'The Sherpa memecoin',
@@ -23300,6 +23292,88 @@ const info: AssetList = {
             baseDenom: 'ibc/1568B2266E9CF742A068567F052D6057366121943C61F62D82518AEEC4C07C7F'
           },
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg'
+        }]
+    },
+    {
+      description: 'The native sovereign currency and governance token of the LUXA Layer 1 blockchain.',
+      denomUnits: [{
+          denom: 'ibc/8965A5F178427372659F3DD28D1F40770A905038A48DFB5D9C3800A5D81BE5DD',
+          exponent: 0,
+          aliases: ['uluxa']
+        }, {
+          denom: 'LUXA',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/8965A5F178427372659F3DD28D1F40770A905038A48DFB5D9C3800A5D81BE5DD',
+      name: 'LUXA',
+      display: 'LUXA',
+      symbol: 'LUXA',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'luxa',
+            baseDenom: 'uluxa',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-111100',
+            path: 'transfer/channel-111100/uluxa'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/luxa.png'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'luxa',
+            baseDenom: 'uluxa'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/luxa.png',
+          theme: {
+            circle: true
+          }
+        }]
+    },
+    {
+      description: 'The utility and energy token of the LUXA Network ecosystem.',
+      denomUnits: [{
+          denom: 'ibc/542571FE2192CC1A704752965330FE63DAE9BA85E1B9E6E9B79912F62E1A2203',
+          exponent: 0,
+          aliases: ['ushard']
+        }, {
+          denom: 'SHARD',
+          exponent: 6
+        }],
+      typeAsset: 'ics20',
+      base: 'ibc/542571FE2192CC1A704752965330FE63DAE9BA85E1B9E6E9B79912F62E1A2203',
+      name: 'LUXA Shard',
+      display: 'SHARD',
+      symbol: 'SHARD',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chainName: 'luxa',
+            baseDenom: 'ushard',
+            channelId: 'channel-1'
+          },
+          chain: {
+            channelId: 'channel-111100',
+            path: 'transfer/channel-111100/ushard'
+          }
+        }],
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/ushard.png'
+      },
+      images: [{
+          imageSync: {
+            chainName: 'luxa',
+            baseDenom: 'ushard'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/ushard.png',
+          theme: {
+            circle: true
+          }
         }]
     }
   ]

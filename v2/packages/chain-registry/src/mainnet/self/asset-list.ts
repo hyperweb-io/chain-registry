@@ -18,7 +18,6 @@ const info: AssetList = {
       logoURIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/self/images/self.png'
       },
-      coingeckoId: 'self-chain',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/self/images/self.png'
         }],

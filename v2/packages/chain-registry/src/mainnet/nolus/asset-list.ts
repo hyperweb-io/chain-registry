@@ -1312,8 +1312,7 @@ const info: AssetList = {
         }],
       logoURIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg'
-      },
-      coingeckoId: 'drop-staked-atom'
+      }
     },
     {
       description: 'Noble USDC transferred from the Neutron mainnet that is supported on the Nolus chain',

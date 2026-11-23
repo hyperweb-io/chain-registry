@@ -26,8 +26,8 @@ const info: Chain = {
         denom: 'usaf',
         fixedMinGasPrice: 0.05,
         lowGasPrice: 0.05,
-        averageGasPrice: 0.0625,
-        highGasPrice: 0.075
+        averageGasPrice: 0.075,
+        highGasPrice: 0.1
       }]
   },
   staking: {

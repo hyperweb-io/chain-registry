@@ -25,7 +25,6 @@ const info: AssetList = {
             circle: true
           }
         }],
-      coingeckoId: 'ozonechain',
       socials: {
         website: 'https://ozonechain.com',
         x: 'https://x.com/ozonechain'

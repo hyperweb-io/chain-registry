@@ -1,0 +1,31 @@
+import { AssetList } from '@chain-registry/types';
+const info: AssetList = {
+  $schema: '../assetlist.schema.json',
+  chainName: 'encryptlock',
+  assets: [{
+      description: 'LOCK is the native coin of the EncryptLock blockchain: network fees, the LockKeeper guarantee and the LockKeepers\' reward. Maximum supply 40,000,000 LOCK.',
+      denomUnits: [{
+          denom: 'lockunit',
+          exponent: 0
+        }, {
+          denom: 'lock',
+          exponent: 8
+        }],
+      base: 'lockunit',
+      name: 'EncryptLock',
+      display: 'lock',
+      symbol: 'LOCK',
+      typeAsset: 'sdk.coin',
+      logoURIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/encryptlock/images/encryptlock.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/encryptlock/images/encryptlock.png'
+        }],
+      socials: {
+        website: 'https://encryptlock.pages.dev',
+        x: 'https://x.com/Encryptlock'
+      }
+    }]
+};
+export default info;

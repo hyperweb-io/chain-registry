@@ -19,7 +19,7 @@ const info: Chain = {
         denom: 'aheart',
         fixedMinGasPrice: 250000000,
         lowGasPrice: 80000000000,
-        averageGasPrice: 100000000000,
+        averageGasPrice: 120000000000,
         highGasPrice: 160000000000
       }]
   },

@@ -16,9 +16,9 @@ const info: Chain = {
     feeTokens: [{
         denom: 'ngonka',
         fixedMinGasPrice: 0,
-        lowGasPrice: 0,
-        averageGasPrice: 0,
-        highGasPrice: 0
+        lowGasPrice: 1,
+        averageGasPrice: 1.5,
+        highGasPrice: 2
       }]
   },
   staking: {

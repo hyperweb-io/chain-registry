@@ -18,8 +18,8 @@ const info: Chain = {
         denom: 'ubze',
         fixedMinGasPrice: 0.01,
         lowGasPrice: 0.01,
-        averageGasPrice: 0.025,
-        highGasPrice: 0.04
+        averageGasPrice: 0.05,
+        highGasPrice: 0.1
       }]
   },
   staking: {

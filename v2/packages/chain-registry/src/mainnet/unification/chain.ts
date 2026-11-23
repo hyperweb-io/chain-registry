@@ -17,9 +17,9 @@ const info: Chain = {
     feeTokens: [{
         denom: 'nund',
         fixedMinGasPrice: 25,
-        lowGasPrice: 100,
-        averageGasPrice: 200,
-        highGasPrice: 300
+        lowGasPrice: 300,
+        averageGasPrice: 400,
+        highGasPrice: 500
       }]
   },
   staking: {

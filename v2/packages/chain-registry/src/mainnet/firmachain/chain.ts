@@ -18,8 +18,8 @@ const info: Chain = {
         denom: 'ufct',
         fixedMinGasPrice: 0.1,
         lowGasPrice: 0.1,
-        averageGasPrice: 0.15,
-        highGasPrice: 0.2
+        averageGasPrice: 0.25,
+        highGasPrice: 0.3
       }]
   },
   staking: {

@@ -70,7 +70,7 @@ const info: Chain = {
         provider: 'Vinjan.Inc'
       },
       {
-        address: 'https://rpc.odiseo-testnet.liora.fun:443',
+        address: 'https://rpc.odiseo-testnet.liorafusion.org:443',
         provider: 'Monika'
       },
       {
@@ -132,7 +132,7 @@ const info: Chain = {
         provider: 'Vinjan.Inc'
       },
       {
-        address: 'https://api.odiseo-testnet.liora.fun',
+        address: 'https://api.odiseo-testnet.liorafusion.org',
         provider: 'Monika'
       },
       {
@@ -174,7 +174,7 @@ const info: Chain = {
         provider: 'SbGid'
       },
       {
-        address: 'https://grpc.odiseo-testnet.liora.fun:443',
+        address: 'grpc.odiseo-testnet.liorafusion.org:443',
         provider: 'Monika'
       },
       {

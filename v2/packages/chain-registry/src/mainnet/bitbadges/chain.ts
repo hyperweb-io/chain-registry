@@ -17,9 +17,9 @@ const info: Chain = {
     feeTokens: [{
         denom: 'ubadge',
         fixedMinGasPrice: 0,
-        lowGasPrice: 0.00025,
-        averageGasPrice: 0.0025,
-        highGasPrice: 0.025
+        lowGasPrice: 0.01,
+        averageGasPrice: 0.025,
+        highGasPrice: 0.03
       }]
   },
   staking: {

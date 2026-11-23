@@ -68,6 +68,7 @@ import * as _dydx from './dydx';
 import * as _dymension from './dymension';
 import * as _echelon from './echelon';
 import * as _empowerchain from './empowerchain';
+import * as _encryptlock from './encryptlock';
 import * as _epix from './epix';
 import * as _ethos from './ethos';
 import * as _fandomchain from './fandomchain';
@@ -194,6 +195,7 @@ import * as _six from './six';
 import * as _sommelier from './sommelier';
 import * as _source from './source';
 import * as _sovr from './sovr';
+import * as _steemvm from './steemvm';
 import * as _stoc from './stoc';
 import * as _stratos from './stratos';
 import * as _stride from './stride';
@@ -220,14 +222,18 @@ import * as _uptick from './uptick';
 import * as _vector from './vector';
 import * as _wardenprotocol from './wardenprotocol';
 import * as _wolochain from './wolochain';
+import * as _wpd from './wpd';
+import * as _wpdl2a from './wpdl2a';
 import * as _xarchain from './xarchain';
 import * as _xion from './xion';
+import * as _xpex from './xpex';
 import * as _xpla from './xpla';
 import * as _xrplevm from './xrplevm';
 import * as _xyra from './xyra';
 import * as _zenrock from './zenrock';
 import * as _zerone from './zerone';
 import * as _zetachain from './zetachain';
+import * as _zetaphy from './zetaphy';
 import * as _zigchain from './zigchain';
 
 const chains: Chain[] = [
@@ -299,6 +305,7 @@ const chains: Chain[] = [
   _dymension.chain,
   _echelon.chain,
   _empowerchain.chain,
+  _encryptlock.chain,
   _epix.chain,
   _ethos.chain,
   _fandomchain.chain,
@@ -425,6 +432,7 @@ const chains: Chain[] = [
   _sommelier.chain,
   _source.chain,
   _sovr.chain,
+  _steemvm.chain,
   _stoc.chain,
   _stratos.chain,
   _stride.chain,
@@ -451,14 +459,18 @@ const chains: Chain[] = [
   _vector.chain,
   _wardenprotocol.chain,
   _wolochain.chain,
+  _wpd.chain,
+  _wpdl2a.chain,
   _xarchain.chain,
   _xion.chain,
+  _xpex.chain,
   _xpla.chain,
   _xrplevm.chain,
   _xyra.chain,
   _zenrock.chain,
   _zerone.chain,
   _zetachain.chain,
+  _zetaphy.chain,
   _zigchain.chain
 ];
 

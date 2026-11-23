@@ -17,9 +17,9 @@ const info: Chain = {
     feeTokens: [{
         denom: 'uneutaro',
         fixedMinGasPrice: 0,
-        lowGasPrice: 0,
-        averageGasPrice: 0,
-        highGasPrice: 0.035
+        lowGasPrice: 0.01,
+        averageGasPrice: 0.025,
+        highGasPrice: 0.03
       }]
   },
   staking: {

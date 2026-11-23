@@ -37,7 +37,6 @@ const info: AssetList = {
           },
           provider: 'Kima Network'
         }],
-      coingeckoId: 'kima',
       keywords: ['interoperability'],
       socials: {
         github: 'https://github.com/kima-finance',
