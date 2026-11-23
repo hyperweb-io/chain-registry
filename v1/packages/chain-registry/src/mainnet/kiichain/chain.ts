@@ -16,8 +16,8 @@ const info: Chain = {
     fee_tokens: [{
         denom: 'akii',
         low_gas_price: 600000000,
-        average_gas_price: 750000000,
-        high_gas_price: 1000000000
+        average_gas_price: 3000000000,
+        high_gas_price: 15000000000
       }]
   },
   staking: {

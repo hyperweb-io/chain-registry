@@ -18,9 +18,9 @@ const info: Chain = {
     fee_tokens: [{
         denom: 'upokt',
         fixed_min_gas_price: 0.001,
-        low_gas_price: 0.001,
-        average_gas_price: 0.002,
-        high_gas_price: 0.0025
+        low_gas_price: 0.01,
+        average_gas_price: 0.01,
+        high_gas_price: 0.01
       }]
   },
   staking: {

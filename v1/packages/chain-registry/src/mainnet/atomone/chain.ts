@@ -18,8 +18,8 @@ const info: Chain = {
         denom: 'uphoton',
         fixed_min_gas_price: 0.225,
         low_gas_price: 0.225,
-        average_gas_price: 0.3,
-        high_gas_price: 0.5
+        average_gas_price: 0.36,
+        high_gas_price: 0.72
       }, {
         denom: 'uatone',
         fixed_min_gas_price: 0.025,
@@ -420,6 +420,10 @@ const info: Chain = {
       {
         address: 'atomone-mainnet-grpc.crouton.digital:30690',
         provider: 'Crouton Digital'
+      },
+      {
+        address: 'grpc.atomone.indonode.net:443',
+        provider: 'Indonode'
       }
     ]
   },

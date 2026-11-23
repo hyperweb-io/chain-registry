@@ -478,8 +478,7 @@ const info: AssetList = {
           },
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg'
-        }],
-      coingecko_id: 'shade-protocol'
+        }]
     },
     {
       description: '(Deprecated) PSTAKE Liquid-Staked HUAHUA',

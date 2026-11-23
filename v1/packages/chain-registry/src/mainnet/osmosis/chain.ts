@@ -406,6 +406,10 @@ const info: Chain = {
       {
         address: 'https://osmosis-rpc.polkachu.com:443',
         provider: 'Polkachu'
+      },
+      {
+        address: 'https://osmosis-mainnet-rpc.crouton.digital',
+        provider: 'Crouton Digital'
       }
     ],
     rest: [
@@ -472,6 +476,10 @@ const info: Chain = {
       {
         address: 'https://osmosis.rpc.uquad.org:443',
         provider: 'QUAD'
+      },
+      {
+        address: 'https://osmosis-mainnet-api.crouton.digital',
+        provider: 'Crouton Digital'
       }
     ],
     grpc: [
@@ -506,10 +514,15 @@ const info: Chain = {
       {
         address: 'osmosis-grpc.polkachu.com:12590',
         provider: 'Polkachu'
+      },
+      {
+        address: 'osmosis-mainnet-grpc.crouton.digital:12590',
+        provider: 'Crouton Digital'
       }
     ]
   },
-  snapshots: [{
+  snapshots: [
+    {
       provider: 'Osmosis',
       url: 'https://snapshots.osmosis.zone',
       latest_url: 'https://snapshots.osmosis.zone/latest',
@@ -518,13 +531,21 @@ const info: Chain = {
       frequency: 'every 2h',
       compression: 'lz4',
       checksum_available: true
-    }, {
+    },
+    {
       url: 'https://polkachu.com/tendermint_snapshots/osmosis',
       type: 'pruned',
       compression: 'lz4',
       checksum_available: false,
       provider: 'Polkachu'
-    }],
+    },
+    {
+      provider: 'Crouton Digital',
+      url: 'https://storage.crouton.digital/mainnet/osmosis/snapshots/osmosis_latest.tar.lz4',
+      type: 'pruned',
+      compression: 'lz4'
+    }
+  ],
   explorers: [
     {
       kind: 'ezstaking',

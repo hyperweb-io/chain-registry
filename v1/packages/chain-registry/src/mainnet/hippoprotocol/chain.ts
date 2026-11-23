@@ -16,8 +16,8 @@ const info: Chain = {
   fees: {
     fee_tokens: [{
         denom: 'ahp',
-        low_gas_price: 4000000000000,
-        average_gas_price: 5000000000000,
+        low_gas_price: 5000000000000,
+        average_gas_price: 6000000000000,
         high_gas_price: 10000000000000
       }]
   },

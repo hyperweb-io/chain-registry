@@ -31,6 +31,9 @@ const info: Chain = {
     git_repo: 'https://github.com/luxaecosystem/luxa-chain',
     recommended_version: 'v1.0.0',
     compatible_versions: ['v1.0.0'],
+    genesis: {
+      genesis_url: 'https://luxaecosystem.xyz/genesis.json'
+    },
     consensus: {
       type: 'cometbft',
       version: '0.38.12'
@@ -50,8 +53,8 @@ const info: Chain = {
   apis: {
     rpc: [
       {
-        address: 'https://rpc.luxaecosystem.xyz',
-        provider: 'LUXA Ecosystem'
+        address: 'https://luxa-rpc.validatorsg.com',
+        provider: 'ValidatorSG'
       },
       {
         address: 'https://luxa-rpc.onenov.xyz',
@@ -60,12 +63,16 @@ const info: Chain = {
       {
         address: 'https://rpc.nodesafe-app.xyz/luxa/',
         provider: 'NodeSafe'
+      },
+      {
+        address: 'https://luxa.rpc.m.anode.team',
+        provider: 'AlxVoy ⚡ ANODE.TEAM'
       }
     ],
     rest: [
       {
-        address: 'https://api.luxaecosystem.xyz',
-        provider: 'LUXA Ecosystem'
+        address: 'https://luxa-api.validatorsg.com',
+        provider: 'ValidatorSG'
       },
       {
         address: 'https://luxa-api.onenov.xyz',
@@ -74,26 +81,21 @@ const info: Chain = {
       {
         address: 'https://api.nodesafe-app.xyz/luxa',
         provider: 'NodeSafe'
+      },
+      {
+        address: 'https://luxa.api.m.anode.team',
+        provider: 'AlxVoy ⚡ ANODE.TEAM'
       }
     ],
     grpc: [{
         address: 'grpc-luxa.nodesafe-app.xyz:443',
         provider: 'NodeSafe'
+      }, {
+        address: 'luxa.grpc.m.anode.team:443',
+        provider: 'AlxVoy ⚡ ANODE.TEAM'
       }]
   },
   explorers: [
-    {
-      kind: 'Ping.pub',
-      url: 'https://explorer.luxaecosystem.xyz/luxa',
-      tx_page: 'https://explorer.luxaecosystem.xyz/luxa/tx/${txHash}',
-      account_page: 'https://explorer.luxaecosystem.xyz/luxa/account/${accountAddress}'
-    },
-    {
-      kind: 'LUXA Explorer',
-      url: 'https://luxaecosystem.xyz/explorer.html',
-      tx_page: 'https://luxaecosystem.xyz/explorer.html?tx=${txHash}',
-      account_page: 'https://luxaecosystem.xyz/explorer.html?account=${accountAddress}'
-    },
     {
       kind: 'OneNov Explorer',
       url: 'https://explorer.onenov.xyz/luxa',
@@ -101,10 +103,15 @@ const info: Chain = {
       account_page: 'https://explorer.onenov.xyz/luxa/account/${accountAddress}'
     },
     {
-      kind: 'NodeSafe',
-      url: 'https://explorer.nodesafe-app.xyz/luxa',
-      tx_page: 'https://explorer.nodesafe-app.xyz/luxa/tx/${txHash}',
-      account_page: 'https://explorer.nodesafe-app.xyz/luxa/account/${accountAddress}'
+      kind: 'utsa',
+      url: 'https://explorer.utsa.tech/networks/luxa-mainnet',
+      account_page: 'https://explorer.utsa.tech/networks/luxa-mainnet/accounts/${accountAddress}'
+    },
+    {
+      kind: 'AlxVoy ⚡ ANODE.TEAM',
+      url: 'https://explorer.anode.team/main/luxa',
+      tx_page: 'https://explorer.anode.team/main/luxa/tx/${txHash}',
+      account_page: 'https://explorer.anode.team/main/luxa/account/${accountAddress}'
     }
   ],
   images: [{

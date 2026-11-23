@@ -25,6 +25,7 @@ import * as _optimism from './optimism';
 import * as _polkadot from './polkadot';
 import * as _polygon from './polygon';
 import * as _statemine from './statemine';
+import * as _steem from './steem';
 import * as _stellar from './stellar';
 import * as _sui from './sui';
 import * as _tinkernet from './tinkernet';
@@ -77,6 +78,7 @@ const assets: AssetList[] = [
   _polkadot.assets,
   _polygon.assets,
   _statemine.assets,
+  _steem.assets,
   _stellar.assets,
   _sui.assets,
   _tinkernet.assets,

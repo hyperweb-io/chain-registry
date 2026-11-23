@@ -23,6 +23,7 @@ export * as optimism from './optimism';
 export * as polkadot from './polkadot';
 export * as polygon from './polygon';
 export * as statemine from './statemine';
+export * as steem from './steem';
 export * as stellar from './stellar';
 export * as sui from './sui';
 export * as tinkernet from './tinkernet';

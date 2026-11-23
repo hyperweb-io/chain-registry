@@ -860,7 +860,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg'
       },
-      coingecko_id: 'pstake-finance',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg'
@@ -1615,7 +1614,6 @@ const info: AssetList = {
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg'
       },
-      coingecko_id: 'kintsugi-btc',
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg'
         }]
@@ -1704,7 +1702,6 @@ const info: AssetList = {
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
       },
-      coingecko_id: 'pumpbtc',
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pumpBTC.svg'
         }]

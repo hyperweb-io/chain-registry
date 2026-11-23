@@ -16,8 +16,8 @@ const info: Chain = {
     fee_tokens: [{
         denom: 'uluna',
         fixed_min_gas_price: 0.015,
-        low_gas_price: 0.015,
-        average_gas_price: 0.015,
+        low_gas_price: 0.02,
+        average_gas_price: 0.02,
         high_gas_price: 0.04
       }]
   },

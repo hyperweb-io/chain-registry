@@ -16,9 +16,9 @@ const info: Chain = {
   fees: {
     fee_tokens: [{
         denom: 'uaxone',
-        low_gas_price: 0.001,
-        average_gas_price: 0.005,
-        high_gas_price: 0.01
+        low_gas_price: 0.01,
+        average_gas_price: 0.025,
+        high_gas_price: 0.03
       }]
   },
   staking: {
@@ -92,6 +92,10 @@ const info: Chain = {
       {
         address: 'https://axone-mainnet-rpc.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://rpc.axone.indonode.net',
+        provider: 'Indonode'
       }
     ],
     rest: [
@@ -126,6 +130,10 @@ const info: Chain = {
       {
         address: 'https://axone-mainnet-api.shazoes.xyz',
         provider: 'Shazoes'
+      },
+      {
+        address: 'https://api.axone.indonode.net',
+        provider: 'Indonode'
       }
     ],
     grpc: [

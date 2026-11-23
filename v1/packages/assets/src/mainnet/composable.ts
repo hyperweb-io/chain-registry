@@ -870,7 +870,6 @@ const assets: AssetList = {
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg'
       },
-      coingecko_id: 'kintsugi-btc',
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg'
         }],
@@ -3222,7 +3221,6 @@ const assets: AssetList = {
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg'
       },
-      coingecko_id: 'kintsugi-btc',
       images: [{
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/kBTC.svg'
         }],
@@ -5628,7 +5626,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg'
       },
-      coingecko_id: 'shade-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg'
@@ -6102,7 +6099,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg'
       },
-      coingecko_id: 'shade-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg'

@@ -2148,8 +2148,7 @@ const info: AssetList = {
         }],
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro-cw20.svg'
-      },
-      coingecko_id: 'astroport-fi'
+      }
     },
     {
       denom_units: [{

@@ -17,7 +17,7 @@ const info: Chain = {
     fee_tokens: [{
         denom: 'nanolike',
         fixed_min_gas_price: 1000,
-        low_gas_price: 1000,
+        low_gas_price: 10000,
         average_gas_price: 10000,
         high_gas_price: 1000000
       }]

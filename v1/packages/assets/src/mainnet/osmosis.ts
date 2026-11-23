@@ -3790,7 +3790,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
       },
-      coingecko_id: 'kava-lend',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
@@ -3947,7 +3946,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg'
       },
-      coingecko_id: 'kima',
       keywords: ['interoperability'],
       socials: {
         github: 'https://github.com/kima-finance',
@@ -9455,7 +9453,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
       },
-      coingecko_id: 'kava-lend',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
@@ -9612,7 +9609,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg'
       },
-      coingecko_id: 'kima',
       keywords: ['interoperability'],
       socials: {
         github: 'https://github.com/kima-finance',
@@ -12748,7 +12744,6 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/self/images/self.png'
       },
-      coingecko_id: 'self-chain',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/self/images/self.png'
         }],
@@ -14912,6 +14907,40 @@ const assets: AssetList = {
           chain: {
             channel_id: 'channel-89321',
             path: 'transfer/channel-89321/uxion'
+          }
+        }]
+    },
+    {
+      description: 'XPX, the native staking and fee token of XPEX Chain.',
+      denom_units: [{
+          denom: 'ibc/977E0C0764110C8B33E659307AFAA335FE1B64119F8DBAB43F9E379D74838C0F',
+          exponent: 0,
+          aliases: ['uxpx']
+        }, {
+          denom: 'xpx',
+          exponent: 6
+        }],
+      base: 'ibc/977E0C0764110C8B33E659307AFAA335FE1B64119F8DBAB43F9E379D74838C0F',
+      name: 'XPEX',
+      display: 'xpx',
+      symbol: 'XPX',
+      type_asset: 'sdk.coin',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpex/images/xpx.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpex/images/xpx.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'uxpx',
+            chain_name: 'xpex'
+          },
+          chain: {
+            channel_id: 'channel-111103',
+            path: 'transfer/channel-111103/uxpx'
           }
         }]
     },
@@ -16212,7 +16241,6 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/self/images/self.png'
       },
-      coingecko_id: 'self-chain',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/self/images/self.png'
         }],
@@ -18380,6 +18408,40 @@ const assets: AssetList = {
         }]
     },
     {
+      description: 'XPX, the native staking and fee token of XPEX Chain.',
+      denom_units: [{
+          denom: 'ibc/977E0C0764110C8B33E659307AFAA335FE1B64119F8DBAB43F9E379D74838C0F',
+          exponent: 0,
+          aliases: ['uxpx']
+        }, {
+          denom: 'xpx',
+          exponent: 6
+        }],
+      base: 'ibc/977E0C0764110C8B33E659307AFAA335FE1B64119F8DBAB43F9E379D74838C0F',
+      name: 'XPEX',
+      display: 'xpx',
+      symbol: 'XPX',
+      type_asset: 'sdk.coin',
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpex/images/xpx.png'
+      },
+      images: [{
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/xpex/images/xpx.png'
+        }],
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            channel_id: 'channel-1',
+            base_denom: 'uxpx',
+            chain_name: 'xpex'
+          },
+          chain: {
+            channel_id: 'channel-111103',
+            path: 'transfer/channel-111103/uxpx'
+          }
+        }]
+    },
+    {
       description: 'The native staking token of XPLA.',
       denom_units: [{
           denom: 'ibc/95C9B5870F95E21A242E6AF9ADCB1F212EE4A8855087226C36FBE43FC41A77B8',
@@ -19237,7 +19299,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.svg'
       },
-      coingecko_id: 'neta',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.svg'
@@ -22669,7 +22730,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.svg'
       },
-      coingecko_id: 'neta',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.svg'
@@ -25376,7 +25436,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg'
       },
-      coingecko_id: 'shade-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg'
@@ -29213,8 +29272,7 @@ const assets: AssetList = {
         }],
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro-cw20.svg'
-      },
-      coingecko_id: 'astroport-fi'
+      }
     },
     {
       denom_units: [{
@@ -32926,8 +32984,7 @@ const assets: AssetList = {
       socials: {
         website: 'https://astroport.fi/',
         x: 'https://x.com/astroport_fi'
-      },
-      coingecko_id: 'astroport-fi'
+      }
     },
     {
       description: 'Dinheiros is the reserve currency of dioalma.protocol, an undivisible and rare token.',
@@ -34364,7 +34421,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg'
       },
-      coingecko_id: 'shade-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg'
@@ -38201,8 +38257,7 @@ const assets: AssetList = {
         }],
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro-cw20.svg'
-      },
-      coingecko_id: 'astroport-fi'
+      }
     },
     {
       denom_units: [{
@@ -41914,8 +41969,7 @@ const assets: AssetList = {
       socials: {
         website: 'https://astroport.fi/',
         x: 'https://x.com/astroport_fi'
-      },
-      coingecko_id: 'astroport-fi'
+      }
     },
     {
       description: 'Dinheiros is the reserve currency of dioalma.protocol, an undivisible and rare token.',

@@ -462,6 +462,15 @@ const info: Chain = {
       url: 'https://explorer.crouton.digital/mainnets/celestia/overview',
       tx_page: 'https://explorer.crouton.digital/mainnets/celestia/transactions/${txHash}',
       account_page: 'https://explorer.crouton.digital/mainnets/celestia/account/${accountAddress}'
+    },
+    {
+      kind: 'BitBasic',
+      url: 'https://bitbasic.com/celestia',
+      tx_page: 'https://bitbasic.com/celestia/tx/${txHash}',
+      account_page: 'https://bitbasic.com/celestia/accounts/${accountAddress}',
+      validator_page: 'https://bitbasic.com/celestia/validators/${validatorAddress}',
+      proposal_page: 'https://bitbasic.com/celestia/proposals/${proposalId}',
+      block_page: 'https://bitbasic.com/celestia/blocks/${blockHeight}'
     }
   ],
   images: [{

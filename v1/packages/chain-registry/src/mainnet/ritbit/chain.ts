@@ -18,7 +18,7 @@ const info: Chain = {
         denom: 'urit',
         fixed_min_gas_price: 25000000000,
         low_gas_price: 25000000000,
-        average_gas_price: 25000000000,
+        average_gas_price: 30000000000,
         high_gas_price: 40000000000
       }, {
         denom: 'uusdc',

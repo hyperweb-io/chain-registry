@@ -197,8 +197,7 @@ const info: AssetList = {
         }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png'
-      },
-      coingecko_id: 'astroport-fi'
+      }
     }
   ]
 };

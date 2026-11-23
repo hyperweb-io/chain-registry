@@ -19,8 +19,9 @@ const info: Chain = {
   },
   daemon_name: 'lumerad',
   node_home: '$HOME/.lumera',
-  key_algos: ['secp256k1'],
-  slip44: 118,
+  key_algos: ['ethsecp256k1'],
+  slip44: 60,
+  extra_codecs: ['ethermint'],
   fees: {
     fee_tokens: [{
         denom: 'ulume',
@@ -37,35 +38,35 @@ const info: Chain = {
   },
   codebase: {
     git_repo: 'https://github.com/LumeraProtocol/lumera',
-    tag: 'v1.7.0',
-    recommended_version: 'v1.7.0',
+    tag: 'v1.23.0',
+    recommended_version: 'v1.23.0',
     language: {
       type: 'go',
-      version: 'v1.24'
+      version: 'v1.27.3'
     },
     binaries: {
-      "linux/amd64": 'https://github.com/LumeraProtocol/lumera/releases/download/v1.7.0/lumera_v1.7.0_linux_amd64.tar.gz?checksum=sha256:1a5a612e5f06a5d4c4a6a2b2b8799336093a9951fcc6e81ef0a56dcc0f913e50'
+      "linux/amd64": 'https://github.com/LumeraProtocol/lumera/releases/download/v1.23.0/lumera_v1.23.0_linux_amd64.tar.gz?checksum=sha256:127951038e0029ffb9dda40087ad43583390083f77c430fb84123485c03044dc'
     },
     sdk: {
       type: 'cosmos',
-      version: 'v0.50.13'
+      version: 'v0.53.8'
     },
     consensus: {
       type: 'cometbft',
-      version: 'v0.38.12'
+      version: 'v0.38.26'
     },
     cosmwasm: {
-      version: 'v0.53.0',
+      version: 'v0.61.15',
       enabled: true
     },
     ibc: {
       type: 'go',
-      version: 'v8.5.1'
+      version: 'v10.7.0'
     },
     genesis: {
       genesis_url: 'https://github.com/LumeraProtocol/lumera-networks/tree/master/testnet'
     },
-    compatible_versions: ['v1.7.0']
+    compatible_versions: ['v1.23.0']
   },
   apis: {
     rpc: [{
@@ -79,13 +80,17 @@ const info: Chain = {
     grpc: [{
         address: 'https://grpc.testnet.lumera.io:443',
         provider: 'LumeraProtocol'
+      }],
+    "evm-http-jsonrpc": [{
+        address: 'https://evm-rpc.testnet.lumera.io:443',
+        provider: 'LumeraProtocol'
       }]
   },
   explorers: [{
       kind: 'ping.pub',
-      url: 'https://portal.testnet.lumera.io/lumera-testnet-1/',
-      tx_page: 'https://portal.testnet.lumera.io/lumera-testnet-1/tx/${txHash}',
-      account_page: 'https://portal.testnet.lumera.io/lumera-testnet-1/account/${accountAddress}'
+      url: 'https://portal.testnet.lumera.io/lumera-testnet-2/',
+      tx_page: 'https://portal.testnet.lumera.io/lumera-testnet-2/tx/${txHash}',
+      account_page: 'https://portal.testnet.lumera.io/lumera-testnet-2/account/${accountAddress}'
     }],
   images: [{
       png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png'
@@ -96,7 +101,7 @@ const info: Chain = {
   keywords: [
     'lumera',
     'lume',
-    'mainnet',
+    'testnet',
     'pastel'
   ]
 };

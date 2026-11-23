@@ -18,9 +18,9 @@ const info: Chain = {
     fee_tokens: [{
         denom: 'aphoton',
         fixed_min_gas_price: 0,
-        low_gas_price: 7,
-        average_gas_price: 7,
-        high_gas_price: 10
+        low_gas_price: 200000000000,
+        average_gas_price: 250000000000,
+        high_gas_price: 400000000000
       }]
   },
   staking: {

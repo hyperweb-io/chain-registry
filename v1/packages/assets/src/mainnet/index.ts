@@ -163,6 +163,7 @@ export * as unification from './unification';
 export * as uptick from './uptick';
 export * as wolochain from './wolochain';
 export * as xion from './xion';
+export * as xpex from './xpex';
 export * as xpla from './xpla';
 export * as xrplevm from './xrplevm';
 export * as zenrock from './zenrock';

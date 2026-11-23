@@ -19,8 +19,8 @@ const info: Chain = {
         denom: 'uaura',
         fixed_min_gas_price: 0.001,
         low_gas_price: 0.001,
-        average_gas_price: 0.002,
-        high_gas_price: 0.0025
+        average_gas_price: 0.0025,
+        high_gas_price: 0.004
       }]
   },
   staking: {

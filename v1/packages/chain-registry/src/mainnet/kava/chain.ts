@@ -195,6 +195,15 @@ const info: Chain = {
       url: 'https://moon-runners.net/kava/mainnet',
       tx_page: 'https://moon-runners.net/kava/mainnet/finder?search=${txHash}',
       account_page: 'https://moon-runners.net/kava/mainnet/finder?search=${accountAddress}'
+    },
+    {
+      kind: 'BitBasic',
+      url: 'https://bitbasic.com/kava',
+      tx_page: 'https://bitbasic.com/kava/tx/${txHash}',
+      account_page: 'https://bitbasic.com/kava/accounts/${accountAddress}',
+      validator_page: 'https://bitbasic.com/kava/validators/${validatorAddress}',
+      proposal_page: 'https://bitbasic.com/kava/proposals/${proposalId}',
+      block_page: 'https://bitbasic.com/kava/blocks/${blockHeight}'
     }
   ],
   images: [{

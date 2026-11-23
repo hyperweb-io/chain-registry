@@ -327,7 +327,6 @@ const info: AssetList = {
       name: 'Astroport token',
       display: 'astro',
       symbol: 'ASTRO',
-      coingecko_id: 'astroport-fi',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png'
         }],
@@ -412,8 +411,7 @@ const info: AssetList = {
         }],
       logo_URIs: {
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro-cw20.svg'
-      },
-      coingecko_id: 'astroport-fi'
+      }
     },
     {
       description: 'Baby Corgi is the real doggo of Neutron!',
@@ -1083,7 +1081,6 @@ const info: AssetList = {
       name: 'dATOM',
       display: 'dATOM',
       symbol: 'dATOM',
-      coingecko_id: 'drop-staked-atom',
       traces: [{
           type: 'liquid-stake',
           counterparty: {

@@ -3383,7 +3383,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
       },
-      coingecko_id: 'kava-lend',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
@@ -5379,7 +5378,6 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/self/images/self.png'
       },
-      coingecko_id: 'self-chain',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/self/images/self.png'
         }],
@@ -6874,7 +6872,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
       },
-      coingecko_id: 'kava-lend',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
@@ -8831,7 +8828,6 @@ const assets: AssetList = {
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/self/images/self.png'
       },
-      coingecko_id: 'self-chain',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/self/images/self.png'
         }],
@@ -9454,7 +9450,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg'
       },
-      coingecko_id: 'shade-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg'
@@ -9928,7 +9923,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg'
       },
-      coingecko_id: 'shade-protocol',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg'

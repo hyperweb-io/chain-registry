@@ -25,7 +25,6 @@ const info: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg'
       },
-      coingecko_id: 'kima',
       keywords: ['interoperability'],
       socials: {
         github: 'https://github.com/kima-finance',

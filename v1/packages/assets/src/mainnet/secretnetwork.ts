@@ -6522,7 +6522,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.svg'
       },
-      coingecko_id: 'neta',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.svg'
@@ -9421,7 +9420,6 @@ const assets: AssetList = {
       address: 'orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge',
       base: 'ibc/7BE0B80F1D97F481912E5DF37BC48FD0070A98EDDA6EDAA32255D7439B498DC4',
       name: 'Oraix',
-      coingecko_id: 'oraidex',
       display: 'oraix',
       symbol: 'ORAIX',
       images: [{
@@ -9787,7 +9785,6 @@ const assets: AssetList = {
       name: 'Och',
       display: 'och',
       symbol: 'OCH',
-      coingecko_id: 'och',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png'
         }],
@@ -9829,7 +9826,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.svg'
       },
-      coingecko_id: 'neta',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.svg'
@@ -12728,7 +12724,6 @@ const assets: AssetList = {
       address: 'orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge',
       base: 'ibc/7BE0B80F1D97F481912E5DF37BC48FD0070A98EDDA6EDAA32255D7439B498DC4',
       name: 'Oraix',
-      coingecko_id: 'oraidex',
       display: 'oraix',
       symbol: 'ORAIX',
       images: [{
@@ -13094,7 +13089,6 @@ const assets: AssetList = {
       name: 'Och',
       display: 'och',
       symbol: 'OCH',
-      coingecko_id: 'och',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png'
         }],
@@ -13161,8 +13155,7 @@ const assets: AssetList = {
       socials: {
         website: 'https://astroport.fi/',
         x: 'https://x.com/astroport_fi'
-      },
-      coingecko_id: 'astroport-fi'
+      }
     },
     {
       description: 'Dinheiros is the reserve currency of dioalma.protocol, an undivisible and rare token.',
@@ -14548,8 +14541,7 @@ const assets: AssetList = {
       socials: {
         website: 'https://astroport.fi/',
         x: 'https://x.com/astroport_fi'
-      },
-      coingecko_id: 'astroport-fi'
+      }
     },
     {
       description: 'Dinheiros is the reserve currency of dioalma.protocol, an undivisible and rare token.',

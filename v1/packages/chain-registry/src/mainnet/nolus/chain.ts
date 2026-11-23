@@ -19,8 +19,8 @@ const info: Chain = {
         denom: 'unls',
         fixed_min_gas_price: 0.025,
         low_gas_price: 0.025,
-        average_gas_price: 0.025,
-        high_gas_price: 0.05
+        average_gas_price: 0.05,
+        high_gas_price: 0.075
       },
       {
         denom: 'ibc/F5FABF52B54E65064B57BF6DBD8E5FAD22CEE9F4B8A57ADBB20CCD0173AA72A4',

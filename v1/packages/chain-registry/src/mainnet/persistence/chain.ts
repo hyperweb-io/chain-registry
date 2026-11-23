@@ -18,7 +18,7 @@ const info: Chain = {
     fee_tokens: [{
         denom: 'uxprt',
         fixed_min_gas_price: 0,
-        low_gas_price: 0,
+        low_gas_price: 0.01,
         average_gas_price: 0.025,
         high_gas_price: 0.04
       }]
@@ -77,10 +77,6 @@ const info: Chain = {
       {
         address: 'https://persistence.rpc.m.stavr.tech',
         provider: '🔥STAVR🔥'
-      },
-      {
-        address: 'https://persistence-rpc.kleomedes.network',
-        provider: 'Kleomedes'
       },
       {
         address: 'https://rpc-persistence.architectnodes.com',
@@ -163,10 +159,6 @@ const info: Chain = {
       {
         address: 'https://persistence-api.polkachu.com',
         provider: 'Polkachu'
-      },
-      {
-        address: 'https://persistence-api.kleomedes.network',
-        provider: 'Kleomedes'
       },
       {
         address: 'https://rest-persistence.architectnodes.com',

@@ -70,6 +70,10 @@ const info: Chain = {
       {
         address: 'https://lumen-rpc.tintonode.win',
         provider: 'TinTo'
+      },
+      {
+        address: 'https://rpc.lumen.indonode.net',
+        provider: 'Indonode'
       }
     ],
     rest: [
@@ -100,6 +104,10 @@ const info: Chain = {
       {
         address: 'https://lumen-api.tintonode.win',
         provider: 'TinTo'
+      },
+      {
+        address: 'https://api.lumen.indonode.net',
+        provider: 'Indonode'
       }
     ],
     grpc: [

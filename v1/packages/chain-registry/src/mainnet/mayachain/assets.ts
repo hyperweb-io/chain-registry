@@ -18,7 +18,6 @@ const info: AssetList = {
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mayachain/images/cacao.png'
         }],
-      coingecko_id: 'cacao',
       keywords: ['dex'],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/mayachain/images/cacao.png'

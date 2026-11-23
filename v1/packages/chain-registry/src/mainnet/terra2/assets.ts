@@ -69,8 +69,7 @@ const info: AssetList = {
       socials: {
         website: 'https://astroport.fi/',
         x: 'https://x.com/astroport_fi'
-      },
-      coingecko_id: 'astroport-fi'
+      }
     },
     {
       description: 'Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.',
@@ -108,8 +107,7 @@ const info: AssetList = {
         }],
       logo_URIs: {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png'
-      },
-      coingecko_id: 'astroport-fi'
+      }
     },
     {
       description: 'Dinheiros is the reserve currency of dioalma.protocol, an undivisible and rare token.',

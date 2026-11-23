@@ -18,7 +18,7 @@ const info: Chain = {
         denom: 'ujkl',
         fixed_min_gas_price: 0,
         low_gas_price: 0.002,
-        average_gas_price: 0.002,
+        average_gas_price: 0.004,
         high_gas_price: 0.02
       }]
   },

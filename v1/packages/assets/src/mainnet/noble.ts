@@ -1665,7 +1665,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
       },
-      coingecko_id: 'kava-lend',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
@@ -4227,7 +4226,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
       },
-      coingecko_id: 'kava-lend',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
@@ -7411,7 +7409,6 @@ const assets: AssetList = {
       display: 'tkx',
       name: 'titan tkx',
       symbol: 'TKX',
-      coingecko_id: 'tokenize-xchange',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/tkx.png'
         }],
@@ -9725,7 +9722,6 @@ const assets: AssetList = {
       display: 'tkx',
       name: 'titan tkx',
       symbol: 'TKX',
-      coingecko_id: 'tokenize-xchange',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/tkx.png'
         }],
@@ -9964,7 +9960,6 @@ const assets: AssetList = {
       address: 'orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge',
       base: 'ibc/A20134CB5B4C1551B8E1319CB602B0F5EE03E9EAA05AC05818F21A1266C12FFE',
       name: 'Oraix',
-      coingecko_id: 'oraidex',
       display: 'oraix',
       symbol: 'ORAIX',
       images: [{
@@ -10330,7 +10325,6 @@ const assets: AssetList = {
       name: 'Och',
       display: 'och',
       symbol: 'OCH',
-      coingecko_id: 'och',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png'
         }],
@@ -10484,7 +10478,6 @@ const assets: AssetList = {
       address: 'orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge',
       base: 'ibc/A20134CB5B4C1551B8E1319CB602B0F5EE03E9EAA05AC05818F21A1266C12FFE',
       name: 'Oraix',
-      coingecko_id: 'oraidex',
       display: 'oraix',
       symbol: 'ORAIX',
       images: [{
@@ -10850,7 +10843,6 @@ const assets: AssetList = {
       name: 'Och',
       display: 'och',
       symbol: 'OCH',
-      coingecko_id: 'och',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/och.png'
         }],

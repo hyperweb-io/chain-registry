@@ -2,7 +2,8 @@ import { AssetList } from '@chain-registry/types';
 const info: AssetList = {
   $schema: '../assetlist.schema.json',
   chain_name: 'celestia',
-  assets: [{
+  assets: [
+    {
       description: 'Celestia is a modular blockchain network focused on data availability, allowing developers to deploy their own customizable blockchains with ease.',
       extended_description: 'Celestia is a pioneering blockchain platform that aims to address the scalability and interoperability challenges faced by current blockchain networks. It introduces a modular architecture that separates consensus and data availability from execution, allowing developers to create highly customizable and scalable blockchains. By decoupling these functions, Celestia enables independent blockchains to interact seamlessly while maintaining high throughput and security.\n\nCelestia\'s unique approach includes a consensus and data availability layer that supports multiple execution environments, facilitating a diverse range of decentralized applications (dApps). This design allows for greater flexibility and efficiency, as developers can choose the best execution environment for their specific use case. Celestia\'s focus on modularity and interoperability has the potential to significantly enhance the blockchain ecosystem by enabling more scalable and adaptable solutions.',
       denom_units: [{
@@ -30,7 +31,8 @@ const info: AssetList = {
         x: 'https://x.com/CelestiaOrg'
       },
       type_asset: 'sdk.coin'
-    }, {
+    },
+    {
       description: 'Stride Staked TIA on Celestia',
       denom_units: [{
           denom: 'ibc/EADAE1AEE456C91C72D4FD4F8C3103C287909BF2929B4CE7A1B5123EA9B85AEA',
@@ -68,6 +70,89 @@ const info: AssetList = {
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg'
         }]
-    }]
+    },
+    {
+      description: 'The native sovereign currency and governance token of the LUXA Layer 1 blockchain.',
+      denom_units: [{
+          denom: 'ibc/1A7C0CB0CE5A46EDFDABB16940EE8F2CA355AF8D48C37ECF52AD2EC669355549',
+          exponent: 0,
+          aliases: ['uluxa']
+        }, {
+          denom: 'LUXA',
+          exponent: 6
+        }],
+      type_asset: 'ics20',
+      base: 'ibc/1A7C0CB0CE5A46EDFDABB16940EE8F2CA355AF8D48C37ECF52AD2EC669355549',
+      name: 'LUXA',
+      display: 'LUXA',
+      symbol: 'LUXA',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chain_name: 'luxa',
+            base_denom: 'uluxa',
+            channel_id: 'channel-3'
+          },
+          chain: {
+            channel_id: 'channel-709',
+            path: 'transfer/channel-709/uluxa'
+          }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/luxa.png'
+      },
+      images: [{
+          image_sync: {
+            chain_name: 'luxa',
+            base_denom: 'uluxa'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/luxa.png',
+          theme: {
+            circle: true
+          }
+        }]
+    },
+    {
+      description: 'The utility and energy token of the LUXA Network ecosystem.',
+      denom_units: [{
+          denom: 'ibc/7E059C08D71CF19E9B545986EE87C2DD4F616467D638B940E7B4861A9EB83A18',
+          exponent: 0,
+          aliases: ['ushard']
+        }, {
+          denom: 'SHARD',
+          exponent: 6
+        }],
+      type_asset: 'ics20',
+      base: 'ibc/7E059C08D71CF19E9B545986EE87C2DD4F616467D638B940E7B4861A9EB83A18',
+      name: 'LUXA Shard',
+      display: 'SHARD',
+      symbol: 'SHARD',
+      traces: [{
+          type: 'ibc',
+          counterparty: {
+            chain_name: 'luxa',
+            base_denom: 'ushard',
+            channel_id: 'channel-3'
+          },
+          chain: {
+            channel_id: 'channel-709',
+            path: 'transfer/channel-709/ushard'
+          }
+        }],
+      logo_URIs: {
+        png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/ushard.png'
+      },
+      images: [{
+          image_sync: {
+            chain_name: 'luxa',
+            base_denom: 'ushard'
+          },
+          png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/luxa/images/ushard.png',
+          theme: {
+            circle: true
+          }
+        }]
+    }
+  ]
 };
 export default info;

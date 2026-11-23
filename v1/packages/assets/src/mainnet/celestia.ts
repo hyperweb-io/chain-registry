@@ -534,7 +534,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
       },
-      coingecko_id: 'kava-lend',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
@@ -1628,7 +1627,6 @@ const assets: AssetList = {
         png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
         svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'
       },
-      coingecko_id: 'kava-lend',
       images: [{
           png: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png',
           svg: 'https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg'

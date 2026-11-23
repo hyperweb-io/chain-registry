@@ -17,9 +17,9 @@ const info: Chain = {
     fee_tokens: [{
         denom: 'nshr',
         fixed_min_gas_price: 0,
-        low_gas_price: 2000,
-        average_gas_price: 3000,
-        high_gas_price: 4000
+        low_gas_price: 30000,
+        average_gas_price: 40000,
+        high_gas_price: 50000
       }]
   },
   staking: {
