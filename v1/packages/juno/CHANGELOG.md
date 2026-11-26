@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.70.729](https://github.com/hyperweb-io/chain-registry/compare/@chain-registry/juno@1.70.728...@chain-registry/juno@1.70.729) (2026-11-26)
+
+**Note:** Version bump only for package @chain-registry/juno
+
 ## 1.70.728 (2026-11-23)
 
 **Note:** Version bump only for package @chain-registry/juno
