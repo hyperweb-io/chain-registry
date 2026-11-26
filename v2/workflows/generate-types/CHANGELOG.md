@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.52.435](https://github.com/hyperweb-io/chain-registry/compare/@chain-registry/generate-types@0.52.434...@chain-registry/generate-types@0.52.435) (2026-11-26)
+
+**Note:** Version bump only for package @chain-registry/generate-types
+
 ## 0.52.434 (2026-11-23)
 
 **Note:** Version bump only for package @chain-registry/generate-types
